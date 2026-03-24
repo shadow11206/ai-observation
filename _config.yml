@@ -1,0 +1,31 @@
+title: AI Observation
+description: 个人 AI 行业洞察系统 — 系统化追踪 AI 行业动态，沉淀观点，输出内容
+author: wb_tujia
+
+# Jekyll 主题（just-the-docs 是目前最好的文档类主题）
+remote_theme: just-the-docs/just-the-docs
+
+# 网站根路径（替换为你的 GitHub 用户名）
+baseurl: "/ai-observation"
+url: "https://wb_tujia.github.io"
+
+# 导航配置
+nav_sort: case_insensitive
+
+# 首页指向 README
+index_md: README.md
+
+# 搜索功能（开启）
+search_enabled: true
+
+# 页脚
+footer_content: "AI Observation by wb_tujia · 持续更新中"
+
+# 排除不需要渲染的目录
+exclude:
+  - scripts/
+  - .github/
+  - "*.py"
+  - "*.yaml"
+  - "*.yml"
+  - requirements.txt
