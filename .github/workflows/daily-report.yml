@@ -13,15 +13,28 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
+
+      - name: Check secrets
+        run: |
+          if [ -z "$AI_API_KEY" ]; then
+            echo "❌ 错误：AI_API_KEY 未配置"
+            echo "请前往：仓库 Settings → Secrets and variables → Actions → New repository secret"
+            echo "添加 AI_API_KEY（你的 DeepSeek/OpenAI API Key）"
+            echo "添加 AI_API_BASE（如 https://api.deepseek.com）"
+            exit 1
+          fi
+          echo "✅ API Key 已配置"
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
 
       - name: Generate daily report
         run: python scripts/generate_daily.py
