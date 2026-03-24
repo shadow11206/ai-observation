@@ -1,0 +1,38 @@
+name: Daily AI Report
+
+on:
+  schedule:
+    - cron: '0 1 * * *'  # 每天 UTC 01:00 = 北京时间 09:00
+  workflow_dispatch:       # 支持手动触发（Actions 页面点 Run workflow）
+
+jobs:
+  generate-report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write      # 需要写入权限以 commit 日报
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Generate daily report
+        run: python scripts/generate_daily.py
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_API_BASE: ${{ secrets.AI_API_BASE }}
+
+      - name: Commit and push report
+        run: |
+          git config user.name "AI Observer Bot"
+          git config user.email "bot@ai-observation.local"
+          git add 01-daily-reports/
+          git diff --staged --quiet || git commit -m "📰 Daily report $(date +%Y-%m-%d)"
+          git push

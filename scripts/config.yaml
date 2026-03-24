@@ -1,0 +1,61 @@
+# 日报生成脚本配置
+# 修改此文件来调整信息源和 AI 配置
+
+# AI 模型配置（API Key 通过环境变量注入，不要写在这里）
+ai:
+  model: "deepseek-chat"          # 支持: deepseek-chat, gpt-4o, claude-3-5-sonnet-20241022
+  max_tokens: 4000
+  temperature: 0.3
+
+# RSS 信息源（Level 1，当前启用）
+# 如需添加/删除信息源，直接修改此列表
+rss_feeds:
+  # 官方博客
+  - name: "OpenAI Blog"
+    url: "https://openai.com/blog/rss.xml"
+    priority: 3
+  - name: "Anthropic Blog"
+    url: "https://www.anthropic.com/rss.xml"
+    priority: 3
+  - name: "Google DeepMind Blog"
+    url: "https://deepmind.google/blog/rss.xml"
+    priority: 3
+  - name: "Meta AI Blog"
+    url: "https://ai.meta.com/blog/rss/"
+    priority: 2
+  - name: "Hugging Face Blog"
+    url: "https://huggingface.co/blog/feed.xml"
+    priority: 2
+
+  # 个人博客 / Newsletter
+  - name: "Simon Willison"
+    url: "https://simonwillison.net/atom/everything/"
+    priority: 3
+  - name: "Latent Space (Swyx)"
+    url: "https://www.latent.space/feed"
+    priority: 3
+  - name: "The Pragmatic Engineer"
+    url: "https://newsletter.pragmaticengineer.com/feed"
+    priority: 2
+  - name: "Chip Huyen"
+    url: "https://huyenchip.com/feed.xml"
+    priority: 2
+
+  # 社区 / 聚合
+  - name: "Hacker News (AI, 100+ points)"
+    url: "https://hnrss.org/newest?q=AI&points=100"
+    priority: 3
+  - name: "ArXiv cs.AI"
+    url: "https://arxiv.org/rss/cs.AI"
+    priority: 2
+
+# 日报输出配置
+report:
+  output_dir: "01-daily-reports"
+  language: "zh"                  # 日报语言：zh（中文）
+  timezone: "Asia/Shanghai"
+
+# 信息过滤配置
+filter:
+  hours_lookback: 24              # 只抓取过去 N 小时内的内容
+  max_items_per_feed: 5           # 每个信息源最多取 N 条
