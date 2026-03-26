@@ -1,0 +1,257 @@
+{
+  "date": "2026-03-26",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Anthropic 发布史上最大规模 Claude 更新",
+      "judgment": "这意味着 Anthropic 可能在企业级市场或核心模型能力上发起了新一轮攻势，将加剧与 OpenAI 的正面竞争，并可能重塑开发者对闭源模型的选择。",
+      "source": "Latent Space (Swyx)",
+      "url": "https://www.latent.space/p/ainews-the-biggest-claude-launch",
+      "tags": [
+        "模型动态",
+        "产品发布"
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Google DeepMind 发布 Gemini 3.1 Flash Live 音频模型",
+      "judgment": "这意味着 Google 正在加速将多模态能力（尤其是实时音频交互）产品化，旨在挑战 OpenAI 的 Voice Mode，并为下一代人机交互（如 AI 助手、客服）设定新的流畅度标准。",
+      "source": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
+      "tags": [
+        "模型动态",
+        "产品发布"
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "LiteLLM 安全事件：4.7万用户凭证可能泄露",
+      "judgment": "这意味着 AI 基础设施层（尤其是统一 API 网关）的安全风险正在集中暴露，可能引发企业对第三方 AI 工具链的信任危机，并加速安全审计和自托管解决方案的需求。",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything",
+      "tags": [
+        "行业趋势"
+      ]
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv",
+      "title": "PLDR-LLMs Reason At Self-Organized Criticality",
+      "summary": "论文提出一种新的预训练方法（PLDR），使大模型在推理时表现出自组织临界性特征，可能为提升模型复杂推理的鲁棒性和涌现能力提供新的理论路径。",
+      "url": "https://arxiv.org/abs/2603.23539",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "Environment Maps: Structured Environmental Representations for Long-Horizon Agents",
+      "summary": "研究提出“环境地图”作为结构化环境表征，旨在解决复杂软件工作流等长周期任务中智能体的状态跟踪和规划难题，是提升 Agent 实际可用性的关键一步。",
+      "url": "https://arxiv.org/abs/2603.23610",
+      "importance": 2
+    },
+    {
+      "source": "Simon Willison",
+      "title": "Quantization from the ground up",
+      "summary": "一篇关于模型量化的深度技术文章，从基础原理讲起，对于希望深入理解并实践模型压缩与部署的工程师具有很高的实用价值。",
+      "url": "https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything",
+      "importance": 1
+    }
+  ],
+  "company_product": [
+    {
+      "source": "Simon Willison",
+      "title": "datasette-llm 0.1a1 发布",
+      "summary": "独立开发者 Simon Willison 发布了 datasette-llm 插件的 alpha 版本，将 LLM 能力集成到其 Datasette 数据探索工具中，展示了 AI 如何赋能轻量级、可组合的数据应用开发。",
+      "url": "https://simonwillison.net/2026/Mar/25/datasette-llm/#atom-everything",
+      "importance": 1
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "转述了 Mario Zechner 关于“放慢脚步”的思考，批评了当前 AI 领域盲目追求快速发布和增长的文化，呼吁更注重深思熟虑的构建、安全性和长期价值。这反映了部分一线构建者对行业浮躁状态的反思。",
+      "source": "https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "Anthropic 的“史上最大发布”具体内容与战略意图",
+      "reason": "该发布被行业观察者称为“史上最大”，但其具体内容（是新模型、企业功能还是定价策略？）尚不明确，深挖可揭示 Anthropic 下一阶段的核心竞争力和对市场格局的潜在冲击。",
+      "priority": "high"
+    },
+    {
+      "topic": "LiteLLM 安全事件对 AI 基础设施生态的影响",
+      "reason": "此次事件暴露了统一 API 层作为单点故障和安全薄弱环节的风险，值得深入分析其对开发者工具链信任度、企业采购策略以及未来基础设施架构演进的连锁影响。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "巨头竞逐多模态与音频交互，基础设施安全警钟敲响。",
+  "snapshot": {
+    "date": "2026-03-26",
+    "hf_trending": [
+      {
+        "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "likes": 1377,
+        "downloads": 184056,
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "tags": [
+          "safetensors",
+          "qwen3_5",
+          "unsloth"
+        ]
+      },
+      {
+        "name": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "likes": 970,
+        "downloads": 425497,
+        "url": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "tags": [
+          "gguf",
+          "uncensored",
+          "qwen3.5"
+        ]
+      },
+      {
+        "name": "nvidia/Nemotron-Cascade-2-30B-A3B",
+        "likes": 314,
+        "downloads": 55529,
+        "url": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "nemotron_h"
+        ]
+      },
+      {
+        "name": "GAIR/daVinci-MagiHuman",
+        "likes": 185,
+        "downloads": 273,
+        "url": "https://huggingface.co/GAIR/daVinci-MagiHuman",
+        "tags": [
+          "safetensors",
+          "text-to-video",
+          "image-text-to-video"
+        ]
+      },
+      {
+        "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "likes": 164,
+        "downloads": 57056,
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "tags": [
+          "gguf",
+          "qwen3_5",
+          "unsloth"
+        ]
+      },
+      {
+        "name": "Tesslate/OmniCoder-9B",
+        "likes": 469,
+        "downloads": 22089,
+        "url": "https://huggingface.co/Tesslate/OmniCoder-9B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ]
+      },
+      {
+        "name": "baidu/Qianfan-OCR",
+        "likes": 377,
+        "downloads": 11868,
+        "url": "https://huggingface.co/baidu/Qianfan-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "internvl_chat"
+        ]
+      },
+      {
+        "name": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "likes": 167,
+        "downloads": 66854,
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "tags": [
+          "gguf",
+          "qwen3_5",
+          "unsloth"
+        ]
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "awesome-ai-tools/curated-mcp-servers",
+        "desc": "A community-curated list of MCP (Model Context Protocol) servers. PRs welcome! Browse AI tools, inte",
+        "stars": 2,
+        "language": "—",
+        "url": "https://github.com/awesome-ai-tools/curated-mcp-servers",
+        "topics": [
+          "ai",
+          "ai-agents",
+          "ai-tools"
+        ]
+      },
+      {
+        "name": "cybertheory/haath",
+        "desc": "Open Agentic framework, shipped with all essential skills, works out of the box. Powered by ASM prot",
+        "stars": 1,
+        "language": "TypeScript",
+        "url": "https://github.com/cybertheory/haath",
+        "topics": [
+          "agent",
+          "agents",
+          "ai"
+        ]
+      },
+      {
+        "name": "awesome-ai-tools/curated-ai-automation",
+        "desc": "A curated list of AI-powered automation tools, no-code platforms, and workflow builders",
+        "stars": 1,
+        "language": "—",
+        "url": "https://github.com/awesome-ai-tools/curated-ai-automation",
+        "topics": [
+          "ai",
+          "ai-automation",
+          "ai-workflow"
+        ]
+      },
+      {
+        "name": "e3ndr/llm-translate",
+        "desc": "A translate interface using LLMs as the engine.",
+        "stars": 1,
+        "language": "TypeScript",
+        "url": "https://github.com/e3ndr/llm-translate",
+        "topics": [
+          "ai",
+          "llm",
+          "ollama"
+        ]
+      },
+      {
+        "name": "Bo1202/Aivy-OS",
+        "desc": "Give everyone their own digital life form — not just another tool. | 让每个人拥有自己的数字生命体，而不只是一个工具。",
+        "stars": 1,
+        "language": "—",
+        "url": "https://github.com/Bo1202/Aivy-OS",
+        "topics": [
+          "ai",
+          "ai-agent",
+          "ai-companion"
+        ]
+      },
+      {
+        "name": "BombproofMan99/forge",
+        "desc": "AI-powered toolkit for open-source maintainers. Automate PR reviews, issue triage, changelogs, secur",
+        "stars": 1,
+        "language": "Python",
+        "url": "https://github.com/BombproofMan99/forge",
+        "topics": [
+          "ai",
+          "claude",
+          "developer-tools"
+        ]
+      }
+    ]
+  }
+}
