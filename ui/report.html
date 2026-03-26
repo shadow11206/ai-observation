@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>日报详情 — AI Observation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <style>
+    /* 详情页专用样式 */
+    .report-layout {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 2rem var(--space-xl);
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+
+    /* 左侧模块导航 */
+    .report-sidebar {
+      position: sticky;
+      top: 72px;
+    }
+
+    .sidebar-nav {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .sidebar-nav li a {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      padding: 0.6rem 0.85rem;
+      border-radius: var(--r-sm);
+      font-size: 13.5px;
+      color: var(--text-secondary);
+      transition: all 0.2s;
+      font-weight: 400;
+    }
+
+    .sidebar-nav li a:hover {
+      background: var(--bg-alt);
+      color: var(--text-primary);
+    }
+
+    .sidebar-nav li a.active {
+      background: var(--bg-alt);
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    .sidebar-meta {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .sidebar-date {
+      font-size: 13px;
+      color: var(--text-tertiary);
+      margin-bottom: 0.4rem;
+    }
+
+    .sidebar-summary {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.55;
+      font-style: italic;
+    }
+
+    /* 右侧内容区 */
+    .report-content section {
+      margin-bottom: 3rem;
+      scroll-margin-top: 80px;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-family: var(--font-serif);
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .section-icon { font-size: 1.1rem; }
+
+    /* TOP ITEMS */
+    .top-item {
+      display: grid;
+      grid-template-columns: 2.5rem 1fr;
+      gap: 0 1rem;
+      padding: 1.25rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .top-item:last-child { border-bottom: none; }
+
+    .top-item-rank {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--accent);
+      line-height: 1;
+      padding-top: 2px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .top-item-title {
+      font-family: var(--font-serif);
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      line-height: 1.45;
+    }
+
+    .top-item-judgment {
+      font-size: 14.5px;
+      color: var(--text-secondary);
+      line-height: 1.65;
+      padding: 0.75rem 1rem;
+      background: rgba(0,113,227,0.04);
+      border-left: 2.5px solid var(--accent);
+      border-radius: 0 var(--r-sm) var(--r-sm) 0;
+      margin-bottom: 0.6rem;
+    }
+
+    .top-item-meta {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    /* NEWS ITEMS */
+    .news-item {
+      padding: 1.1rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .news-item:last-child { border-bottom: none; }
+
+    .news-item-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .news-item-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-primary);
+      line-height: 1.4;
+    }
+
+    .news-item-title a {
+      color: inherit;
+      transition: color 0.2s;
+    }
+    .news-item-title a:hover { color: var(--accent); }
+
+    .news-importance {
+      font-size: 11px;
+      color: var(--text-tertiary);
+      white-space: nowrap;
+      padding-top: 2px;
+    }
+
+    .news-item-source {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      margin-bottom: 0.35rem;
+    }
+
+    .news-item-summary {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.65;
+    }
+
+    /* OPINION ITEMS */
+    .opinion-item {
+      padding: 1.25rem;
+      background: var(--bg);
+      border-radius: var(--r-md);
+      margin-bottom: 0.75rem;
+    }
+
+    .opinion-item-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .opinion-person {
+      font-weight: 600;
+      font-size: 15px;
+    }
+
+    .opinion-quote {
+      font-size: 14.5px;
+      color: var(--text-secondary);
+      line-height: 1.65;
+    }
+
+    /* DEEP DIVE */
+    .deep-dive-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      padding: 1rem 1.25rem;
+      background: var(--bg);
+      border-radius: var(--r-md);
+      margin-bottom: 0.75rem;
+      border: 1px solid var(--border);
+    }
+
+    .deep-dive-priority {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: 100px;
+      white-space: nowrap;
+    }
+    .priority-high { background: rgba(255,59,48,0.1); color: #c0392b; }
+    .priority-medium { background: rgba(255,149,0,0.1); color: #c6690a; }
+
+    .deep-dive-topic {
+      font-weight: 600;
+      font-size: 15px;
+      margin-bottom: 0.3rem;
+    }
+
+    .deep-dive-reason {
+      font-size: 13.5px;
+      color: var(--text-secondary);
+    }
+
+    /* SNAPSHOT */
+    .snapshot-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+
+    .snapshot-panel {
+      background: var(--bg);
+      border-radius: var(--r-md);
+      padding: 1.5rem;
+      border: 1px solid var(--border);
+    }
+
+    .snapshot-panel-title {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      margin-bottom: 1rem;
+    }
+
+    .snapshot-item {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--border);
+      gap: 0.75rem;
+    }
+    .snapshot-item:last-child { border-bottom: none; }
+
+    .snapshot-item-name {
+      font-size: 13.5px;
+      font-weight: 500;
+      color: var(--text-primary);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 160px;
+    }
+
+    .snapshot-item-name a {
+      color: inherit;
+      transition: color 0.2s;
+    }
+    .snapshot-item-name a:hover { color: var(--accent); }
+
+    .snapshot-item-stat {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    /* 空状态 */
+    .section-empty {
+      padding: 1.5rem;
+      text-align: center;
+      color: var(--text-tertiary);
+      font-size: 14px;
+      background: var(--bg);
+      border-radius: var(--r-md);
+    }
+
+    /* 返回按钮 */
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 14px;
+      color: var(--text-secondary);
+      margin-bottom: 1.5rem;
+      transition: color 0.2s;
+    }
+    .back-btn:hover { color: var(--accent); }
+
+    /* 响应式 */
+    @media (max-width: 768px) {
+      .report-layout {
+        grid-template-columns: 1fr;
+      }
+      .report-sidebar { display: none; }
+      .snapshot-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">AI Observation</a>
+      <ul class="nav-links">
+        <li><a href="daily.html" style="color:var(--text-primary)">日报</a></li>
+        <li><a href="research.html">深度调研</a></li>
+        <li><a href="opinions.html">我的判断</a></li>
+        <li><a href="tracking.html">追踪体系</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 页面头部（由 JS 填充日期和摘要） -->
+  <div style="padding: 88px 2rem 0; max-width:1100px; margin:0 auto;">
+    <a href="daily.html" class="back-btn">← 返回日报列表</a>
+    <div id="report-header" style="margin-bottom:2rem;">
+      <div id="header-eyebrow" class="page-hero-eyebrow">日报详情</div>
+      <h1 id="header-title" style="font-family:var(--font-serif);font-size:clamp(1.8rem,4vw,3rem);font-weight:700;letter-spacing:-0.03em;line-height:1.1;margin-bottom:0.75rem;">
+        加载中…
+      </h1>
+      <p id="header-summary" style="font-size:17px;color:var(--text-secondary);font-weight:300;"></p>
+    </div>
+  </div>
+
+  <!-- 主内容区 -->
+  <div class="report-layout">
+    <!-- 左侧导航 -->
+    <aside class="report-sidebar">
+      <div class="sidebar-meta">
+        <div class="sidebar-date" id="sidebar-date"></div>
+        <div class="sidebar-summary" id="sidebar-summary"></div>
+      </div>
+      <ul class="sidebar-nav">
+        <li><a href="#top-items" class="active"><span>📌</span> 今日最重要</a></li>
+        <li><a href="#model-tech"><span>🔬</span> 模型 / 技术</a></li>
+        <li><a href="#company"><span>🏢</span> 公司 / 产品</a></li>
+        <li><a href="#opinions"><span>💡</span> 人物观点</a></li>
+        <li><a href="#deep-dive"><span>🔭</span> 值得深挖</a></li>
+        <li><a href="#snapshot"><span>⚡</span> 数据快照</a></li>
+      </ul>
+    </aside>
+
+    <!-- 右侧内容 -->
+    <main class="report-content" id="report-content">
+      <div id="loading" style="padding:4rem 0; text-align:center; color:var(--text-tertiary);">
+        正在加载日报…
+      </div>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">AI Observation</div>
+        <p>让 AI 行业洞察变得系统化、可持续、有观点</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <div class="footer-col-title">内容</div>
+          <a href="daily.html">每日日报</a>
+          <a href="research.html">深度调研</a>
+          <a href="opinions.html">我的判断</a>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">体系</div>
+          <a href="tracking.html">追踪名单</a>
+          <a href="https://github.com/shadow11206/ai-observation" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 AI Observation</span></div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+  <script src="scripts/report.js"></script>
+</body>
+</html>

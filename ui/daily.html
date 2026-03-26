@@ -24,69 +24,28 @@
 
   <div class="page-hero">
     <div class="page-hero-eyebrow">每日日报</div>
-    <h1>AI 行业动态<br />每日摘要</h1>
-    <p>由 AI 从 10+ 信息源自动筛选，每天 09:00 更新，每条附带判断</p>
+    <h1>AI 行业动态</h1>
+    <p>每天 09:00 自动更新，AI 从 10+ 信息源筛选，每条附带判断</p>
   </div>
 
   <div class="daily-container">
-    <div class="daily-filters">
-      <button class="filter-chip active">全部</button>
-      <button class="filter-chip">模型动态</button>
-      <button class="filter-chip">产品发布</button>
-      <button class="filter-chip">观点解读</button>
-      <button class="filter-chip">研究论文</button>
+    <!-- 筛选器 -->
+    <div class="daily-filters" id="filter-bar">
+      <button class="filter-chip active" data-tag="all">全部</button>
+      <button class="filter-chip" data-tag="模型动态">模型动态</button>
+      <button class="filter-chip" data-tag="产品发布">产品发布</button>
+      <button class="filter-chip" data-tag="技术突破">技术突破</button>
+      <button class="filter-chip" data-tag="观点解读">观点解读</button>
+      <button class="filter-chip" data-tag="行业趋势">行业趋势</button>
     </div>
 
-    <!-- 示例日报卡片 1 -->
-    <div class="daily-report reveal">
-      <div class="daily-report-header">
-        <span class="daily-report-date">2026 年 3 月 25 日 · 星期三</span>
-        <span class="daily-badge">最新</span>
-      </div>
-      <div class="daily-report-body">
-        <div class="daily-highlights">
-          <div class="daily-highlight-title">今日最重要</div>
-          <div class="daily-highlight-item">
-            <span class="highlight-num">01</span>
-            <span class="highlight-text"><strong>Anthropic 发布 Claude 3.7：代码能力大幅提升</strong> — 这是近 6 个月内最重要的模型更新，对 AI Coding 工具的影响值得持续追踪。</span>
-          </div>
-          <div class="daily-highlight-item">
-            <span class="highlight-num">02</span>
-            <span class="highlight-text"><strong>OpenAI o3 推理模型正式开放 API</strong> — 开放速度超预期，说明 OpenAI 在企业落地上的压力比预想的更大。</span>
-          </div>
-        </div>
-        <div style="display:flex; gap:0.75rem; flex-wrap:wrap;">
-          <span class="opinion-tag">模型动态</span>
-          <span class="opinion-tag" style="background:rgba(52,199,89,0.1);color:#1a7f37">产品发布</span>
-        </div>
-      </div>
-    </div>
+    <!-- 日报卡片列表，由 JS 动态渲染 -->
+    <div id="report-list"></div>
 
-    <!-- 示例日报卡片 2 -->
-    <div class="daily-report reveal">
-      <div class="daily-report-header">
-        <span class="daily-report-date">2026 年 3 月 24 日 · 星期二</span>
-      </div>
-      <div class="daily-report-body">
-        <div class="daily-highlights">
-          <div class="daily-highlight-title">今日最重要</div>
-          <div class="daily-highlight-item">
-            <span class="highlight-num">01</span>
-            <span class="highlight-text"><strong>Simon Willison 发文：LLM 的工具调用能力正在快速成熟</strong> — 来自 L1 实践者的一线信号，印证了 Agent 落地比想象中进展更快。</span>
-          </div>
-          <div class="daily-highlight-item">
-            <span class="highlight-num">02</span>
-            <span class="highlight-text"><strong>Hugging Face 发布 SmolLM2 新版本</strong> — 端侧模型能力继续提升，本地部署的门槛再次降低。</span>
-          </div>
-        </div>
-        <div style="display:flex; gap:0.75rem; flex-wrap:wrap;">
-          <span class="opinion-tag">观点解读</span>
-        </div>
-      </div>
-    </div>
-
-    <div style="text-align:center; margin-top:3rem; color:var(--text-tertiary); font-size:14px;">
-      日报由 GitHub Actions 每天 09:00 自动生成 · <a href="https://github.com/shadow11206/ai-observation" target="_blank" style="color:var(--accent)">查看源码</a>
+    <div id="empty-state" style="display:none; text-align:center; padding:4rem 2rem; color:var(--text-tertiary);">
+      <div style="font-size:2rem; margin-bottom:1rem;">📭</div>
+      <div style="font-size:16px;">暂无日报内容</div>
+      <div style="font-size:14px; margin-top:0.5rem;">日报由 GitHub Actions 每天 09:00 自动生成</div>
     </div>
   </div>
 
@@ -110,11 +69,10 @@
         </div>
       </div>
     </div>
-    <div class="footer-bottom">
-      <span>© 2026 AI Observation</span>
-    </div>
+    <div class="footer-bottom"><span>© 2026 AI Observation</span></div>
   </footer>
 
   <script src="scripts/main.js"></script>
+  <script src="scripts/daily.js"></script>
 </body>
 </html>

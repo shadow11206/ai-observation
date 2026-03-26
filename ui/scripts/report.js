@@ -1,0 +1,269 @@
+/**
+ * report.js — 日报详情页
+ * 读取 URL 参数 ?date=YYYY-MM-DD，加载对应的 JSON 日报并渲染 6 个模块
+ */
+
+const REPORTS_BASE = '../01-daily-reports';
+
+// 解析 URL 参数
+function getDateParam() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get('date') || getTodayStr();
+}
+
+function getTodayStr() {
+  const now = new Date();
+  const yyyy = now.getFullYear();
+  const mm = String(now.getMonth() + 1).padStart(2, '0');
+  const dd = String(now.getDate()).padStart(2, '0');
+  return `${yyyy}-${mm}-${dd}`;
+}
+
+function getMonthStr(dateStr) {
+  return dateStr.slice(0, 7);
+}
+
+function formatDateLabel(dateStr) {
+  const d = new Date(dateStr + 'T00:00:00');
+  const weekdays = ['日', '一', '二', '三', '四', '五', '六'];
+  return `${d.getFullYear()} 年 ${d.getMonth() + 1} 月 ${d.getDate()} 日 · 星期${weekdays[d.getDay()]}`;
+}
+
+// 渲染函数 —— 6 个模块
+function renderReport(data) {
+  const content = document.getElementById('report-content');
+  const loading = document.getElementById('loading');
+  if (loading) loading.remove();
+
+  // 更新头部
+  const dateLabel = formatDateLabel(data.date);
+  document.title = `${data.date} 日报 — AI Observation`;
+  document.getElementById('header-eyebrow').textContent = dateLabel;
+  document.getElementById('header-title').textContent = data.summary_one_line || 'AI 日报';
+  document.getElementById('header-summary').textContent = '';
+  document.getElementById('sidebar-date').textContent = dateLabel;
+  document.getElementById('sidebar-summary').textContent = data.summary_one_line || '';
+
+  content.innerHTML = `
+    ${renderTopItems(data.top_items || [])}
+    ${renderModelTech(data.model_tech || [])}
+    ${renderCompany(data.company_product || [])}
+    ${renderOpinions(data.opinions || [])}
+    ${renderDeepDive(data.deep_dive_suggestions || [])}
+    ${renderSnapshot(data.snapshot || {})}
+  `;
+
+  // 初始化侧边栏高亮
+  initSidebarHighlight();
+}
+
+function renderTopItems(items) {
+  return `
+    <section id="top-items">
+      <h2 class="section-title"><span class="section-icon">📌</span> 今日最重要</h2>
+      ${items.length === 0
+        ? '<div class="section-empty">今日暂无重点内容</div>'
+        : items.map(item => `
+          <div class="top-item">
+            <div class="top-item-rank">0${item.rank}</div>
+            <div>
+              <div class="top-item-title">
+                ${item.url
+                  ? `<a href="${item.url}" target="_blank" rel="noopener">${item.title}</a>`
+                  : item.title}
+              </div>
+              <div class="top-item-judgment">${item.judgment}</div>
+              <div class="top-item-meta">
+                ${item.source ? `<span style="font-size:12px;color:var(--text-tertiary)">来源：${item.source}</span>` : ''}
+                ${(item.tags || []).map(tag => `<span class="opinion-tag">${tag}</span>`).join('')}
+              </div>
+            </div>
+          </div>
+        `).join('')}
+    </section>
+  `;
+}
+
+function renderModelTech(items) {
+  return `
+    <section id="model-tech">
+      <h2 class="section-title"><span class="section-icon">🔬</span> 模型 / 技术动态</h2>
+      ${items.length === 0
+        ? '<div class="section-empty">今日无值得关注的模型技术动态</div>'
+        : items.map(item => `
+          <div class="news-item">
+            <div class="news-item-header">
+              <div class="news-item-title">
+                ${item.url
+                  ? `<a href="${item.url}" target="_blank" rel="noopener">${item.title}</a>`
+                  : item.title}
+              </div>
+              <div class="news-importance">${'⭐'.repeat(item.importance || 2)}</div>
+            </div>
+            <div class="news-item-source">${item.source || ''}</div>
+            <div class="news-item-summary">${item.summary || ''}</div>
+          </div>
+        `).join('')}
+    </section>
+  `;
+}
+
+function renderCompany(items) {
+  return `
+    <section id="company">
+      <h2 class="section-title"><span class="section-icon">🏢</span> 公司 / 产品动态</h2>
+      ${items.length === 0
+        ? '<div class="section-empty">今日无值得关注的公司产品动态</div>'
+        : items.map(item => `
+          <div class="news-item">
+            <div class="news-item-header">
+              <div class="news-item-title">
+                ${item.url
+                  ? `<a href="${item.url}" target="_blank" rel="noopener">${item.title}</a>`
+                  : item.title}
+              </div>
+              <div class="news-importance">${'⭐'.repeat(item.importance || 2)}</div>
+            </div>
+            <div class="news-item-source">${item.source || ''}</div>
+            <div class="news-item-summary">${item.summary || ''}</div>
+          </div>
+        `).join('')}
+    </section>
+  `;
+}
+
+function renderOpinions(items) {
+  return `
+    <section id="opinions">
+      <h2 class="section-title"><span class="section-icon">💡</span> 追踪人物观点</h2>
+      ${items.length === 0
+        ? '<div class="section-empty">今日追踪人物无新公开发言（Twitter 等社交媒体将在 Level 2 升级后接入）</div>'
+        : items.map(op => `
+          <div class="opinion-item">
+            <div class="opinion-item-header">
+              <span class="person-level level-${(op.level || 'L2').toLowerCase()}">${op.level || 'L2'}</span>
+              <span class="opinion-person">${op.person || ''}</span>
+              ${op.source ? `<a href="${op.source}" target="_blank" rel="noopener" style="font-size:12px;color:var(--accent);margin-left:auto">来源 →</a>` : ''}
+            </div>
+            <div class="opinion-quote">${op.quote || ''}</div>
+          </div>
+        `).join('')}
+    </section>
+  `;
+}
+
+function renderDeepDive(items) {
+  return `
+    <section id="deep-dive">
+      <h2 class="section-title"><span class="section-icon">🔭</span> 值得深挖？</h2>
+      ${items.length === 0
+        ? '<div class="section-empty">今日无特别建议深挖的话题</div>'
+        : items.map(item => `
+          <div class="deep-dive-item">
+            <div>
+              <span class="deep-dive-priority priority-${item.priority || 'medium'}">${item.priority === 'high' ? '高优先' : '建议'}</span>
+            </div>
+            <div>
+              <div class="deep-dive-topic">${item.topic || ''}</div>
+              <div class="deep-dive-reason">${item.reason || ''}</div>
+            </div>
+          </div>
+        `).join('')}
+    </section>
+  `;
+}
+
+function renderSnapshot(snapshot) {
+  const hf = snapshot.hf_trending || [];
+  const gh = snapshot.github_trending || [];
+
+  return `
+    <section id="snapshot">
+      <h2 class="section-title"><span class="section-icon">⚡</span> 今日数据快照</h2>
+      <div class="snapshot-grid">
+        <div class="snapshot-panel">
+          <div class="snapshot-panel-title">Hugging Face Trending</div>
+          ${hf.length === 0
+            ? '<div style="font-size:13px;color:var(--text-tertiary);padding:0.5rem 0">暂无数据</div>'
+            : hf.slice(0, 6).map(m => `
+              <div class="snapshot-item">
+                <div class="snapshot-item-name">
+                  <a href="${m.url}" target="_blank" rel="noopener">${m.name}</a>
+                </div>
+                <div class="snapshot-item-stat">❤️ ${(m.likes || 0).toLocaleString()}</div>
+              </div>
+            `).join('')}
+        </div>
+        <div class="snapshot-panel">
+          <div class="snapshot-panel-title">GitHub Trending AI</div>
+          ${gh.length === 0
+            ? '<div style="font-size:13px;color:var(--text-tertiary);padding:0.5rem 0">暂无数据</div>'
+            : gh.slice(0, 6).map(r => `
+              <div class="snapshot-item">
+                <div class="snapshot-item-name">
+                  <a href="${r.url}" target="_blank" rel="noopener" title="${r.desc || ''}">${r.name}</a>
+                </div>
+                <div class="snapshot-item-stat">⭐ ${(r.stars || 0).toLocaleString()} · ${r.language || '—'}</div>
+              </div>
+            `).join('')}
+        </div>
+      </div>
+    </section>
+  `;
+}
+
+// 侧边栏滚动高亮
+function initSidebarHighlight() {
+  const sections = document.querySelectorAll('.report-content section[id]');
+  const navLinks = document.querySelectorAll('.sidebar-nav a');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        navLinks.forEach(link => {
+          link.classList.toggle('active', link.getAttribute('href') === `#${entry.target.id}`);
+        });
+      }
+    });
+  }, { rootMargin: '-20% 0px -70% 0px' });
+
+  sections.forEach(s => observer.observe(s));
+}
+
+// 错误状态
+function renderError(dateStr) {
+  const content = document.getElementById('report-content');
+  const loading = document.getElementById('loading');
+  if (loading) loading.remove();
+
+  document.getElementById('header-title').textContent = `${dateStr} 日报`;
+  document.getElementById('header-summary').textContent = '当日日报尚未生成，请明天再来查看';
+
+  content.innerHTML = `
+    <div style="padding:4rem 0; text-align:center; color:var(--text-tertiary);">
+      <div style="font-size:3rem; margin-bottom:1rem;">📭</div>
+      <div style="font-size:16px; margin-bottom:0.5rem;">${dateStr} 的日报暂未生成</div>
+      <div style="font-size:14px; margin-bottom:2rem;">日报由 GitHub Actions 每天 09:00 自动生成</div>
+      <a href="daily.html" class="btn-ghost" style="display:inline-flex;">← 返回日报列表</a>
+    </div>
+  `;
+}
+
+// 主流程
+async function init() {
+  const dateStr = getDateParam();
+  const month = getMonthStr(dateStr);
+  const url = `${REPORTS_BASE}/${month}/${dateStr}.json`;
+
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    renderReport(data);
+  } catch (e) {
+    console.warn('日报加载失败：', e);
+    renderError(dateStr);
+  }
+}
+
+init();
