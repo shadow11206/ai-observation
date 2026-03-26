@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>我的判断 — AI Observation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">AI Observation</a>
+      <ul class="nav-links">
+        <li><a href="daily.html">日报</a></li>
+        <li><a href="research.html">深度调研</a></li>
+        <li><a href="opinions.html" style="color:var(--text-primary)">我的判断</a></li>
+        <li><a href="tracking.html">追踪体系</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="page-hero-eyebrow">观点更新日志</div>
+    <h1>我的核心判断</h1>
+    <p>围绕关键问题维护实时立场，每次有新信息都会更新。不是收藏夹，是活的认知地图。</p>
+  </div>
+
+  <div class="opinions-container">
+
+    <!-- 判断 1：AI Agent -->
+    <div class="opinion-full-card reveal">
+      <div class="opinion-full-header">
+        <div class="opinion-full-meta">
+          <span class="opinion-tag">AI Agent</span>
+          <div style="display:flex;align-items:center;gap:1rem;margin-top:0.5rem">
+            <span style="font-size:12px;color:var(--text-tertiary)">最近更新：2026-03-24</span>
+            <span class="opinion-confidence" style="font-size:14px">★★★☆☆</span>
+          </div>
+        </div>
+      </div>
+      <h2 class="opinion-full-card h2" style="font-family:var(--font-serif);font-size:1.6rem;font-weight:700;letter-spacing:-0.02em;margin-bottom:1.25rem;">
+        AI Agent 真正落地的时间线？
+      </h2>
+      <div class="opinion-verdict">
+        垂直场景（客服/代码/数据分析）的 Agent 已进入早期规模化阶段；通用 Agent 仍然是 2-3 年后的事。整体比大众预期慢，但比悲观者预期快。
+      </div>
+      <div class="opinion-updates">
+        <div class="opinion-updates-title">更新记录</div>
+        <div class="update-item">
+          <span class="update-date">2026-03-24</span>
+          <div class="update-content">
+            <strong>首次建立判断</strong> · 来源：Barry Zhang（Anthropic）Agent 设计原则分享<br />
+            垂直 Agent 有真实使用案例，但定制程度很高；通用 Agent 留存率低，主要用于边缘任务。
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 判断 2：大模型格局 -->
+    <div class="opinion-full-card reveal">
+      <div class="opinion-full-header">
+        <div class="opinion-full-meta">
+          <span class="opinion-tag" style="background:rgba(52,199,89,0.1);color:#1a7f37">大模型格局</span>
+          <div style="display:flex;align-items:center;gap:1rem;margin-top:0.5rem">
+            <span style="font-size:12px;color:var(--text-tertiary)">最近更新：2026-03-24</span>
+            <span class="opinion-confidence" style="font-size:14px">★★★☆☆</span>
+          </div>
+        </div>
+      </div>
+      <h2 style="font-family:var(--font-serif);font-size:1.6rem;font-weight:700;letter-spacing:-0.02em;margin-bottom:1.25rem;">
+        大模型竞争格局如何演变？
+      </h2>
+      <div class="opinion-verdict">
+        头部集中 + 开源分流正在同时发生。OpenAI / Anthropic / Google 形成第一梯队；DeepSeek 让"开源追平闭源"成为现实；中国模型正在垂直行业寻找差异化空间。未来 2 年不太可能"一家通吃"，但能跑通商业化的玩家会快速减少。
+      </div>
+      <div class="opinion-updates">
+        <div class="opinion-updates-title">更新记录</div>
+        <div class="update-item">
+          <span class="update-date">2026-03-24</span>
+          <div class="update-content">
+            <strong>首次建立判断</strong> · 来源：公开市场信息 + ai-insight 追踪体系整理
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 判断 3：AI Coding -->
+    <div class="opinion-full-card reveal">
+      <div class="opinion-full-header">
+        <div class="opinion-full-meta">
+          <span class="opinion-tag" style="background:rgba(255,149,0,0.1);color:#c6690a">AI Coding</span>
+          <div style="display:flex;align-items:center;gap:1rem;margin-top:0.5rem">
+            <span style="font-size:12px;color:var(--text-tertiary)">最近更新：2026-03-24</span>
+            <span class="opinion-confidence" style="font-size:14px">★★★★☆</span>
+          </div>
+        </div>
+      </div>
+      <h2 style="font-family:var(--font-serif);font-size:1.6rem;font-weight:700;letter-spacing:-0.02em;margin-bottom:1.25rem;">
+        AI Coding 工具的趋势走向？
+      </h2>
+      <div class="opinion-verdict">
+        AI Coding 工具正在从"代码补全"向"编程协作者"演进，Cursor 目前是最接近这一目标的产品。下一阶段的竞争点不是补全质量，而是"理解整个代码库的能力"和"Agent 式自主完成任务"。
+      </div>
+      <div class="opinion-updates">
+        <div class="opinion-updates-title">更新记录</div>
+        <div class="update-item">
+          <span class="update-date">2026-03-24</span>
+          <div class="update-content">
+            <strong>首次建立判断</strong> · 来源：个人使用 Cursor / Trae 的经验 + 公开信息<br />
+            亲身体验：有 AI 辅助和没有 AI 辅助的开发者，生产力差距正在快速拉大。信心 ★★★★☆
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 判断 4：AI × PM -->
+    <div class="opinion-full-card reveal">
+      <div class="opinion-full-header">
+        <div class="opinion-full-meta">
+          <span class="opinion-tag" style="background:rgba(175,82,222,0.1);color:#7b3fa0">AI × PM</span>
+          <div style="display:flex;align-items:center;gap:1rem;margin-top:0.5rem">
+            <span style="font-size:12px;color:var(--text-tertiary)">最近更新：2026-03-24</span>
+            <span class="opinion-confidence" style="font-size:14px">★★★★☆</span>
+          </div>
+        </div>
+      </div>
+      <h2 style="font-family:var(--font-serif);font-size:1.6rem;font-weight:700;letter-spacing:-0.02em;margin-bottom:1.25rem;">
+        AI 对产品经理职业有何实质影响？
+      </h2>
+      <div class="opinion-verdict">
+        AI 不会短期内替代产品经理，但会淘汰"不用 AI 的产品经理"。核心影响：文档生产效率大幅提升、竞品分析和用研可以 AI 辅助、vibe coding 让 PM 能自己验证小 idea。真正的威胁在于：如果 AI 可以自动做需求对齐，PM 的核心价值就要重新定义——向"判断力 + 业务 sense"转移。
+      </div>
+      <div class="opinion-updates">
+        <div class="opinion-updates-title">更新记录</div>
+        <div class="update-item">
+          <span class="update-date">2026-03-24</span>
+          <div class="update-content">
+            <strong>首次建立判断</strong> · 来源：个人工作实践 + 行业讨论<br />
+            使用 Cursor/Trae 完成过 vibe coding 项目，有切身体会。
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">AI Observation</div>
+        <p>让 AI 行业洞察变得系统化、可持续、有观点</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <div class="footer-col-title">内容</div>
+          <a href="daily.html">每日日报</a>
+          <a href="research.html">深度调研</a>
+          <a href="opinions.html">我的判断</a>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">体系</div>
+          <a href="tracking.html">追踪名单</a>
+          <a href="https://github.com/shadow11206/ai-observation" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 AI Observation</span>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

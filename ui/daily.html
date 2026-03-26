@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>每日日报 — AI Observation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">AI Observation</a>
+      <ul class="nav-links">
+        <li><a href="daily.html" style="color:var(--text-primary)">日报</a></li>
+        <li><a href="research.html">深度调研</a></li>
+        <li><a href="opinions.html">我的判断</a></li>
+        <li><a href="tracking.html">追踪体系</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="page-hero-eyebrow">每日日报</div>
+    <h1>AI 行业动态<br />每日摘要</h1>
+    <p>由 AI 从 10+ 信息源自动筛选，每天 09:00 更新，每条附带判断</p>
+  </div>
+
+  <div class="daily-container">
+    <div class="daily-filters">
+      <button class="filter-chip active">全部</button>
+      <button class="filter-chip">模型动态</button>
+      <button class="filter-chip">产品发布</button>
+      <button class="filter-chip">观点解读</button>
+      <button class="filter-chip">研究论文</button>
+    </div>
+
+    <!-- 示例日报卡片 1 -->
+    <div class="daily-report reveal">
+      <div class="daily-report-header">
+        <span class="daily-report-date">2026 年 3 月 25 日 · 星期三</span>
+        <span class="daily-badge">最新</span>
+      </div>
+      <div class="daily-report-body">
+        <div class="daily-highlights">
+          <div class="daily-highlight-title">今日最重要</div>
+          <div class="daily-highlight-item">
+            <span class="highlight-num">01</span>
+            <span class="highlight-text"><strong>Anthropic 发布 Claude 3.7：代码能力大幅提升</strong> — 这是近 6 个月内最重要的模型更新，对 AI Coding 工具的影响值得持续追踪。</span>
+          </div>
+          <div class="daily-highlight-item">
+            <span class="highlight-num">02</span>
+            <span class="highlight-text"><strong>OpenAI o3 推理模型正式开放 API</strong> — 开放速度超预期，说明 OpenAI 在企业落地上的压力比预想的更大。</span>
+          </div>
+        </div>
+        <div style="display:flex; gap:0.75rem; flex-wrap:wrap;">
+          <span class="opinion-tag">模型动态</span>
+          <span class="opinion-tag" style="background:rgba(52,199,89,0.1);color:#1a7f37">产品发布</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 示例日报卡片 2 -->
+    <div class="daily-report reveal">
+      <div class="daily-report-header">
+        <span class="daily-report-date">2026 年 3 月 24 日 · 星期二</span>
+      </div>
+      <div class="daily-report-body">
+        <div class="daily-highlights">
+          <div class="daily-highlight-title">今日最重要</div>
+          <div class="daily-highlight-item">
+            <span class="highlight-num">01</span>
+            <span class="highlight-text"><strong>Simon Willison 发文：LLM 的工具调用能力正在快速成熟</strong> — 来自 L1 实践者的一线信号，印证了 Agent 落地比想象中进展更快。</span>
+          </div>
+          <div class="daily-highlight-item">
+            <span class="highlight-num">02</span>
+            <span class="highlight-text"><strong>Hugging Face 发布 SmolLM2 新版本</strong> — 端侧模型能力继续提升，本地部署的门槛再次降低。</span>
+          </div>
+        </div>
+        <div style="display:flex; gap:0.75rem; flex-wrap:wrap;">
+          <span class="opinion-tag">观点解读</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:3rem; color:var(--text-tertiary); font-size:14px;">
+      日报由 GitHub Actions 每天 09:00 自动生成 · <a href="https://github.com/shadow11206/ai-observation" target="_blank" style="color:var(--accent)">查看源码</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">AI Observation</div>
+        <p>让 AI 行业洞察变得系统化、可持续、有观点</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <div class="footer-col-title">内容</div>
+          <a href="daily.html">每日日报</a>
+          <a href="research.html">深度调研</a>
+          <a href="opinions.html">我的判断</a>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">体系</div>
+          <a href="tracking.html">追踪名单</a>
+          <a href="https://github.com/shadow11206/ai-observation" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 AI Observation</span>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
