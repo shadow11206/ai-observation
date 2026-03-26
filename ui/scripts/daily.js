@@ -59,9 +59,10 @@ function renderCard(data) {
         <div class="daily-highlight-title">今日最重要</div>
         ${top_items.slice(0, 2).map(item => `
           <div class="daily-highlight-item">
-            <span class="highlight-num">0${item.rank}</span>
+            <span class="highlight-num">${String(item.rank || 1).padStart(2, '0')}</span>
             <span class="highlight-text">
-              <strong>${item.title}</strong> — ${item.judgment}
+              <strong>${item.url ? `<a href="${item.url}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(0,0,0,0.15);">${item.title}</a>` : item.title}</strong> — ${item.judgment || ''}
+              ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener" style="font-size:11px;color:var(--accent);margin-left:0.5rem;white-space:nowrap;">原文 →</a>` : ''}
             </span>
           </div>
         `).join('') || '<div style="padding:0.75rem 0;color:var(--text-tertiary);font-size:14px;">暂无内容</div>'}

@@ -65,14 +65,14 @@ function renderTopItems(items) {
         ? '<div class="section-empty">今日暂无重点内容</div>'
         : items.map(item => `
           <div class="top-item">
-            <div class="top-item-rank">0${item.rank}</div>
+            <div class="top-item-rank">${String(item.rank ?? 1).padStart(2, '0')}</div>
             <div>
               <div class="top-item-title">
                 ${item.url
                   ? `<a href="${item.url}" target="_blank" rel="noopener">${item.title}</a>`
                   : item.title}
               </div>
-              <div class="top-item-judgment">${item.judgment}</div>
+              <div class="top-item-judgment">${item.judgment || ''}</div>
               <div class="top-item-meta">
                 ${item.source ? `<span style="font-size:12px;color:var(--text-tertiary)">来源：${item.source}</span>` : ''}
                 ${(item.tags || []).map(tag => `<span class="opinion-tag">${tag}</span>`).join('')}
@@ -98,7 +98,7 @@ function renderModelTech(items) {
                   ? `<a href="${item.url}" target="_blank" rel="noopener">${item.title}</a>`
                   : item.title}
               </div>
-              <div class="news-importance">${'⭐'.repeat(item.importance || 2)}</div>
+              <div class="news-importance">${'⭐'.repeat(Math.min(Math.max(item.importance || 2, 1), 5))}</div>
             </div>
             <div class="news-item-source">${item.source || ''}</div>
             <div class="news-item-summary">${item.summary || ''}</div>
@@ -122,7 +122,7 @@ function renderCompany(items) {
                   ? `<a href="${item.url}" target="_blank" rel="noopener">${item.title}</a>`
                   : item.title}
               </div>
-              <div class="news-importance">${'⭐'.repeat(item.importance || 2)}</div>
+              <div class="news-importance">${'⭐'.repeat(Math.min(Math.max(item.importance || 2, 1), 5))}</div>
             </div>
             <div class="news-item-source">${item.source || ''}</div>
             <div class="news-item-summary">${item.summary || ''}</div>
@@ -188,7 +188,7 @@ function renderSnapshot(snapshot) {
             : hf.slice(0, 6).map(m => `
               <div class="snapshot-item">
                 <div class="snapshot-item-name">
-                  <a href="${m.url}" target="_blank" rel="noopener">${m.name}</a>
+                  ${m.url ? `<a href="${m.url}" target="_blank" rel="noopener">${m.name}</a>` : m.name}
                 </div>
                 <div class="snapshot-item-stat">❤️ ${(m.likes || 0).toLocaleString()}</div>
               </div>
@@ -201,7 +201,7 @@ function renderSnapshot(snapshot) {
             : gh.slice(0, 6).map(r => `
               <div class="snapshot-item">
                 <div class="snapshot-item-name">
-                  <a href="${r.url}" target="_blank" rel="noopener" title="${r.desc || ''}">${r.name}</a>
+                  ${r.url ? `<a href="${r.url}" target="_blank" rel="noopener" title="${r.desc || ''}">${r.name}</a>` : r.name}
                 </div>
                 <div class="snapshot-item-stat">⭐ ${(r.stars || 0).toLocaleString()} · ${r.language || '—'}</div>
               </div>

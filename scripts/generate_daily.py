@@ -145,9 +145,10 @@ def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
     raw_output = response.choices[0].message.content.strip()
 
     # 提取 JSON（防止 AI 多输出了 markdown 代码块）
-    json_match = re.search(r'\{[\s\S]*\}', raw_output)
+    # 使用非贪婪 + 末尾锚定，避免截到最后一个 } 之后的多余字符
+    json_match = re.search(r'(\{[\s\S]*\})\s*$', raw_output.strip())
     if json_match:
-        raw_output = json_match.group(0)
+        raw_output = json_match.group(1)
 
     try:
         report_data = json.loads(raw_output)
