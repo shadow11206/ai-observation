@@ -1,9 +1,11 @@
-name: Monthly Tracking Update
+name: Bi-Monthly Tracking Update
 
 on:
   schedule:
-    - cron: '0 3 1 * *'  # 每月1日 UTC 03:00 = 北京时间 11:00
-  workflow_dispatch:       # 支持手动触发（Actions 页面点 Run workflow）
+    # 每月 1 日和 16 日 UTC 03:00（北京时间 11:00）执行，约每 15 天一次
+    - cron: '0 3 1 * *'
+    - cron: '0 3 16 * *'
+  workflow_dispatch:        # 支持手动触发（Actions 页面点 Run workflow）
 
 jobs:
   update-tracking:
@@ -33,7 +35,7 @@ jobs:
         env:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
 
-      - name: Run monthly tracking update
+      - name: Run tracking update
         run: python scripts/update_tracking.py
         env:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
@@ -47,5 +49,5 @@ jobs:
           git config user.name "AI Observer Bot"
           git config user.email "bot@ai-observation.local"
           git add 03-tracking-registry/ ui/data/tracking.json
-          git diff --staged --quiet || git commit -m "🔄 Monthly tracking update $(date +%Y-%m-%d)"
+          git diff --staged --quiet || git commit -m "🔄 Bi-monthly tracking update $(date +%Y-%m-%d)"
           git push

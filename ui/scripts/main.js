@@ -42,20 +42,36 @@ function animateCounter(el, target, duration = 1200) {
   requestAnimationFrame(update);
 }
 
-// 追踪天数动态计算
-const statDays = document.getElementById('stat-days');
-if (statDays) {
+// ── Stats bar：追踪天数 + 从 tracking.json 读取人物/公司真实数量 ──
+const statDays      = document.getElementById('stat-days');
+const statPeople    = document.getElementById('stat-people');
+const statCompanies = document.getElementById('stat-companies');
+
+if (statDays || statPeople || statCompanies) {
   const startDate = new Date('2026-03-24');
   const today = new Date();
   const days = Math.max(1, Math.floor((today - startDate) / (1000 * 60 * 60 * 24)));
 
+  // 当 stats-bar 进入视口时触发动画
   const statsObserver = new IntersectionObserver((entries) => {
     if (entries[0].isIntersecting) {
-      animateCounter(statDays, days);
+      if (statDays) animateCounter(statDays, days);
       statsObserver.disconnect();
     }
   }, { threshold: 0.5 });
 
   const statsBar = document.querySelector('.stats-bar');
   if (statsBar) statsObserver.observe(statsBar);
+
+  // 从 tracking.json 读取追踪人物 / 追踪公司真实数量
+  fetch('data/tracking.json')
+    .then(r => r.json())
+    .then(data => {
+      const m = data.meta || {};
+      if (statPeople)    animateCounter(statPeople,    m.people_total  || 0);
+      if (statCompanies) animateCounter(statCompanies, m.company_count || 0);
+    })
+    .catch(() => {
+      // 静默降级：保留 HTML 中的初始值
+    });
 }

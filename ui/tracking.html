@@ -324,9 +324,18 @@
     document.getElementById('content').style.display = 'block';
 
     const m = data.meta || {};
+    // 缓存全局数据供 renderStats 使用
+    window._trackingData = data;
+    // 计算信息源总数
+    let srcTotal = 0;
+    if (data.sources && data.sources.categories) {
+      data.sources.categories.forEach(cat => {
+        cat.subcategories.forEach(sub => { srcTotal += (sub.items || []).length; });
+      });
+    }
     // Hero desc
     document.getElementById('hero-desc').textContent =
-      `L1 实践者 > L2 观察者 > L3 决策者，覆盖 ${m.people_total || 0} 位人物、${m.company_count || 0} 家公司`;
+      `L1 实践者 > L2 观察者 > L3 决策者，覆盖 ${m.people_total || 0} 位人物、${m.company_count || 0} 家公司、${srcTotal} 个信息源`;
 
     renderStats(m);
     renderPeople(data.people);
@@ -343,11 +352,19 @@
 
   // ---- Stats ----
   function renderStats(m) {
+    // 计算信息源总数（所有类别下 items 的总和）
+    let sourcesTotal = 0;
+    if (window._trackingData && window._trackingData.sources && window._trackingData.sources.categories) {
+      window._trackingData.sources.categories.forEach(cat => {
+        cat.subcategories.forEach(sub => { sourcesTotal += (sub.items || []).length; });
+      });
+    }
     const items = [
       { num: m.l1_count || 0,       label: 'L1 实践者' },
       { num: m.l2_count || 0,       label: 'L2 观察者' },
       { num: m.l3_count || 0,       label: 'L3 决策者' },
       { num: m.company_count || 0,  label: '追踪公司' },
+      { num: sourcesTotal,          label: '信息源' },
     ];
     document.getElementById('stats-row').innerHTML = items.map(i => `
       <div class="tracking-stat-item">
@@ -494,15 +511,7 @@
     }
     let html = '';
 
-    // Risk notice
-    html += `<div class="risk-banner reveal">
-      <strong>⚠️ 信源风险分级</strong>
-      <div class="risk-row">
-        <span class="risk-chip safe">🟢 安全 — 可直接引用</span>
-        <span class="risk-chip warn">🟡 高危 — 必须验证日期</span>
-        <span class="risk-chip banned">🔴 禁用 — CSDN / 知乎回答</span>
-      </div>
-    </div>`;
+    // Risk notice removed per user request
 
     // Overview
     if (sources.overview && sources.overview.length) {
