@@ -1,0 +1,191 @@
+{
+  "date": "2026-03-27",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Anthropic 发布史上最大规模 Claude 更新",
+      "judgment": "这意味着 Anthropic 可能在模型能力或企业级功能上发起关键攻势，旨在从 OpenAI 手中争夺市场份额，标志着模型竞赛进入新阶段。",
+      "source": "Latent Space (Swyx)",
+      "url": "https://www.latent.space/p/ainews-the-biggest-claude-launch",
+      "tags": [
+        "模型动态",
+        "产品发布"
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "LiteLLM 遭遇供应链攻击，开发者详述应对过程",
+      "judgment": "这意味着 AI 基础设施的供应链安全风险已从理论走向现实，对依赖开源库的整个 AI 应用生态敲响了警钟，迫使开发者重新评估依赖管理。",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Mar/26/response-to-the-litellm-malware-attack/#atom-everything",
+      "tags": [
+        "行业趋势",
+        "技术突破"
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "纽约市医院终止与 Palantir 的 AI 合同",
+      "judgment": "这意味着在医疗等敏感领域，AI 应用的伦理争议和公众信任问题已开始直接影响商业合同，为其他 AI 公司的公共部门拓展设立了警示案例。",
+      "source": "Hacker News (The Guardian)",
+      "url": "https://www.theguardian.com/technology/2026/mar/26/new-york-hospitals-palantir-ai",
+      "tags": [
+        "商业化",
+        "行业趋势"
+      ]
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv cs.AI",
+      "title": "PLDR-LLMs Reason At Self-Organized Criticality",
+      "summary": "研究表明，在自组织临界状态下预训练的 PLDR-LLMs 在推理时展现出推理能力。其演绎输出的特征与人类推理的认知特征相匹配，为理解模型推理机制提供了新视角。",
+      "url": "https://arxiv.org/abs/2603.23539",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "Environment Maps: Structured Environmental Representations for Long-Horizon Agents",
+      "summary": "论文提出“环境地图”作为结构化环境表示，旨在解决 LLM 在复杂、长周期软件工作流自动化中的鲁棒性问题，为提升 Agent 在真实场景中的长期规划能力提供了新思路。",
+      "url": "https://arxiv.org/abs/2603.23610",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "Google DeepMind Blog",
+      "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+      "summary": "Google DeepMind 发布了最新的语音模型 Gemini 3.1 Flash Live，声称通过提高精度和降低延迟，使语音交互更加流畅、自然和精确。",
+      "url": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
+      "importance": 2
+    },
+    {
+      "source": "Hacker News",
+      "title": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer",
+      "summary": "一个极简的 AI Agent 部署实践，将 Agent 部署在每月 7 美元的 VPS 上，并使用 IRC 作为传输层，展示了低成本、去中心化 Agent 架构的可能性。",
+      "url": "https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/",
+      "importance": 1
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Swyx",
+      "level": "L1",
+      "quote": "在相对平静的一天，我们反思了 CLI 成为一切（尤其是 Agent）交互界面的增长趋势，这反映了开发者对可编程、可集成工具的持续偏好。",
+      "source": "https://www.latent.space/p/ainews-everything-is-cli"
+    },
+    {
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "一篇关于用 AI 在一天内重写 JSONata 并节省 50 万美元/年的文章，标题有些夸张，但这看起来是另一个关于 AI 辅助大规模代码迁移的有趣案例。",
+      "source": "https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI 开源基础设施的供应链安全",
+      "reason": "LiteLLM 攻击事件暴露了 AI 堆栈关键依赖的脆弱性，需要系统评估风险并制定应对策略。",
+      "priority": "high"
+    },
+    {
+      "topic": "长周期 Agent 的环境表示与规划",
+      "summary": "“环境地图”论文为解决 Agent 在复杂软件工作流中的长期规划问题提供了新思路，值得跟进其工程化潜力。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "Claude 大更新引战，供应链安全亮红灯。",
+  "snapshot": {
+    "date": "2026-03-27",
+    "hf_trending": [
+      {
+        "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "likes": 1395,
+        "downloads": 184056,
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "tags": [
+          "safetensors",
+          "qwen3_5",
+          "unsloth"
+        ]
+      },
+      {
+        "name": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "likes": 975,
+        "downloads": 425497,
+        "url": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "tags": [
+          "gguf",
+          "uncensored",
+          "qwen3.5"
+        ]
+      },
+      {
+        "name": "nvidia/Nemotron-Cascade-2-30B-A3B",
+        "likes": 320,
+        "downloads": 55529,
+        "url": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "nemotron_h"
+        ]
+      },
+      {
+        "name": "mistralai/Voxtral-4B-TTS-2603",
+        "likes": 212,
+        "downloads": 108,
+        "url": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
+        "tags": [
+          "vllm",
+          "mistral-common",
+          "text-to-speech"
+        ]
+      },
+      {
+        "name": "GAIR/daVinci-MagiHuman",
+        "likes": 196,
+        "downloads": 273,
+        "url": "https://huggingface.co/GAIR/daVinci-MagiHuman",
+        "tags": [
+          "safetensors",
+          "text-to-video",
+          "image-text-to-video"
+        ]
+      },
+      {
+        "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "likes": 173,
+        "downloads": 57056,
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "tags": [
+          "gguf",
+          "qwen3_5",
+          "unsloth"
+        ]
+      },
+      {
+        "name": "CohereLabs/cohere-transcribe-03-2026",
+        "likes": 157,
+        "downloads": 13,
+        "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+        "tags": [
+          "safetensors",
+          "cohere_asr",
+          "audio"
+        ]
+      },
+      {
+        "name": "Tesslate/OmniCoder-9B",
+        "likes": 478,
+        "downloads": 22089,
+        "url": "https://huggingface.co/Tesslate/OmniCoder-9B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ]
+      }
+    ],
+    "github_trending": []
+  }
+}
