@@ -1,0 +1,48 @@
+name: Weekly Tracking Update
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'   # 每周一 UTC 03:00 = 北京时间 11:00
+  workflow_dispatch:        # 支持手动触发（Actions 页面点 Run workflow）
+
+jobs:
+  update-tracking:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # 需要写入权限以 commit 更新结果
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Check secrets
+        run: |
+          if [ -z "$AI_API_KEY" ]; then
+            echo "❌ 错误：AI_API_KEY 未配置，请在 Secrets 中添加"
+            exit 1
+          fi
+          echo "✅ API Key 已配置"
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+
+      - name: Run tracking update
+        run: python scripts/update_tracking.py
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_API_BASE: ${{ secrets.AI_API_BASE }}
+
+      - name: Commit and push tracking changes
+        run: |
+          git config user.name "AI Observer Bot"
+          git config user.email "bot@ai-observation.local"
+          git add 03-tracking-registry/
+          git diff --staged --quiet || git commit -m "🔄 Weekly tracking update $(date +%Y-%m-%d)"
+          git push

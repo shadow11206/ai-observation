@@ -7,55 +7,249 @@ ai:
   max_tokens: 4000
   temperature: 0.3
 
-# RSS 信息源（Level 1，当前启用）
-# 如需添加/删除信息源，直接修改此列表
+# ============================================================
+# RSS 信息源 — 按类别组织，priority 1-3（3=最高优先级）
+# 日报生成时：priority=3 的源优先处理，信息不足才往下取
+# 追踪更新脚本：全部源都会扫描，用于发现新人物
+# ============================================================
 rss_feeds:
-  # 官方博客
+
+  # ── 顶级 AI 实验室官方博客 ────────────────────────────────
   - name: "OpenAI Blog"
     url: "https://openai.com/blog/rss.xml"
+    category: "official"
     priority: 3
+
   - name: "Anthropic Blog"
     url: "https://www.anthropic.com/rss.xml"
+    category: "official"
     priority: 3
+
   - name: "Google DeepMind Blog"
     url: "https://deepmind.google/blog/rss.xml"
+    category: "official"
     priority: 3
+
   - name: "Meta AI Blog"
     url: "https://ai.meta.com/blog/rss/"
+    category: "official"
+    priority: 3
+
+  - name: "Mistral AI Blog"
+    url: "https://mistral.ai/news/rss"
+    category: "official"
     priority: 2
+
+  - name: "Cohere Blog"
+    url: "https://cohere.com/blog/rss"
+    category: "official"
+    priority: 2
+
+  - name: "xAI / Grok Blog"
+    url: "https://x.ai/blog/rss.xml"
+    category: "official"
+    priority: 2
+
+  - name: "Microsoft AI Blog"
+    url: "https://blogs.microsoft.com/ai/feed/"
+    category: "official"
+    priority: 2
+
+  # ── AI 工具 / 开发者平台 ──────────────────────────────────
   - name: "Hugging Face Blog"
     url: "https://huggingface.co/blog/feed.xml"
+    category: "platform"
+    priority: 3
+
+  - name: "LangChain Blog"
+    url: "https://blog.langchain.dev/rss/"
+    category: "platform"
     priority: 2
 
-  # 个人博客 / Newsletter
+  - name: "Weights & Biases Blog"
+    url: "https://wandb.ai/fully-connected/feed"
+    category: "platform"
+    priority: 2
+
+  - name: "Replicate Blog"
+    url: "https://replicate.com/blog/rss"
+    category: "platform"
+    priority: 1
+
+  # ── 个人博客 / Newsletter（L1/L2 实践者）────────────────
   - name: "Simon Willison"
     url: "https://simonwillison.net/atom/everything/"
+    category: "practitioner"
     priority: 3
+    person: "Simon Willison"
+
   - name: "Latent Space (Swyx)"
     url: "https://www.latent.space/feed"
+    category: "practitioner"
     priority: 3
-  - name: "The Pragmatic Engineer"
-    url: "https://newsletter.pragmaticengineer.com/feed"
-    priority: 2
+    person: "Swyx"
+
   - name: "Chip Huyen"
     url: "https://huyenchip.com/feed.xml"
+    category: "practitioner"
+    priority: 3
+    person: "Chip Huyen"
+
+  - name: "Lilian Weng (OpenAI)"
+    url: "https://lilianweng.github.io/index.xml"
+    category: "practitioner"
+    priority: 3
+    person: "Lilian Weng"
+
+  - name: "Sebastian Raschka"
+    url: "https://magazine.sebastianraschka.com/feed"
+    category: "practitioner"
+    priority: 3
+    person: "Sebastian Raschka"
+
+  - name: "Andrej Karpathy Blog"
+    url: "https://karpathy.github.io/feed.xml"
+    category: "practitioner"
+    priority: 3
+    person: "Andrej Karpathy"
+
+  - name: "Eugene Yan"
+    url: "https://eugeneyan.com/rss/"
+    category: "practitioner"
+    priority: 2
+    person: "Eugene Yan"
+
+  - name: "Jay Alammar"
+    url: "https://jalammar.github.io/feed.xml"
+    category: "practitioner"
+    priority: 2
+    person: "Jay Alammar"
+
+  - name: "Cameron Wolfe (Deep Learning Focus)"
+    url: "https://cameronrwolfe.substack.com/feed"
+    category: "practitioner"
+    priority: 2
+    person: "Cameron Wolfe"
+
+  # ── 分析 / Newsletter ────────────────────────────────────
+  - name: "The Pragmatic Engineer"
+    url: "https://newsletter.pragmaticengineer.com/feed"
+    category: "newsletter"
+    priority: 3
+    person: "Gergely Orosz"
+
+  - name: "TLDR AI"
+    url: "https://tldr.tech/ai/rss"
+    category: "newsletter"
     priority: 2
 
-  # 社区 / 聚合
-  - name: "Hacker News (AI, 100+ points)"
-    url: "https://hnrss.org/newest?q=AI&points=100"
+  - name: "The Batch (deeplearning.ai)"
+    url: "https://www.deeplearning.ai/the-batch/feed/"
+    category: "newsletter"
     priority: 3
+
+  - name: "Import AI (Jack Clark)"
+    url: "https://importai.substack.com/feed"
+    category: "newsletter"
+    priority: 3
+    person: "Jack Clark"
+
+  - name: "Ben's Bites"
+    url: "https://bensbites.beehiiv.com/feed"
+    category: "newsletter"
+    priority: 2
+
+  - name: "AI Breakfast"
+    url: "https://aibreakfast.beehiiv.com/feed"
+    category: "newsletter"
+    priority: 1
+
+  # ── 研究 / 学术 ──────────────────────────────────────────
   - name: "ArXiv cs.AI"
     url: "https://arxiv.org/rss/cs.AI"
+    category: "research"
     priority: 2
 
+  - name: "ArXiv cs.LG (机器学习)"
+    url: "https://arxiv.org/rss/cs.LG"
+    category: "research"
+    priority: 2
+
+  - name: "ArXiv cs.CL (NLP)"
+    url: "https://arxiv.org/rss/cs.CL"
+    category: "research"
+    priority: 2
+
+  - name: "Papers With Code"
+    url: "https://paperswithcode.com/latest.xml"
+    category: "research"
+    priority: 2
+
+  # ── 社区 / 聚合 ──────────────────────────────────────────
+  - name: "Hacker News (AI, 100+ points)"
+    url: "https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT&points=100"
+    category: "community"
+    priority: 3
+
+  - name: "Hacker News (Machine Learning)"
+    url: "https://hnrss.org/newest?q=machine+learning&points=80"
+    category: "community"
+    priority: 2
+
+  - name: "Reddit r/MachineLearning (热门)"
+    url: "https://www.reddit.com/r/MachineLearning/hot/.rss"
+    category: "community"
+    priority: 2
+
+  - name: "Reddit r/LocalLLaMA (热门)"
+    url: "https://www.reddit.com/r/LocalLLaMA/hot/.rss"
+    category: "community"
+    priority: 2
+
+  # ── 中文信息源 ────────────────────────────────────────────
+  - name: "机器之心"
+    url: "https://www.jiqizhixin.com/rss"
+    category: "chinese"
+    priority: 2
+
+  - name: "量子位"
+    url: "https://www.qbitai.com/feed"
+    category: "chinese"
+    priority: 1
+
+  - name: "InfoQ AI"
+    url: "https://www.infoq.cn/feed?type=article&tag=AI"
+    category: "chinese"
+    priority: 1
+
+# ============================================================
+# 追踪体系更新配置（update_tracking.py 使用）
+# ============================================================
+tracking:
+  # 新人准入门槛（同时满足才自动加入）
+  auto_add_threshold:
+    min_appearances: 3          # 过去 7 天在信息源中出现 ≥ N 次
+    require_original_content: true   # AI 判断：必须有一手洞察，非纯转述
+    require_feed_source: true        # 必须有可订阅的 RSS/博客/GitHub
+
+  # 影响力评分权重（三维加权，总和=1.0）
+  influence_score:
+    content_quality: 0.50      # 内容质量（一手洞察 vs 转述）
+    citation_count: 0.30       # 被其他信息源引用次数
+    activity_rate: 0.20        # 最近 7 天是否有更新（活跃度）
+
+  # 更新报告输出路径
+  report_output_dir: "03-tracking-registry/update-reports"
+
+# ============================================================
 # 日报输出配置
+# ============================================================
 report:
   output_dir: "01-daily-reports"
-  language: "zh"                  # 日报语言：zh（中文）
+  language: "zh"
   timezone: "Asia/Shanghai"
 
 # 信息过滤配置
 filter:
-  hours_lookback: 24              # 只抓取过去 N 小时内的内容
-  max_items_per_feed: 5           # 每个信息源最多取 N 条
+  hours_lookback: 24
+  max_items_per_feed: 5
