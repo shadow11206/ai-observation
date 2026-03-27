@@ -39,10 +39,13 @@ jobs:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_API_BASE: ${{ secrets.AI_API_BASE }}
 
+      - name: Build tracking JSON
+        run: python scripts/build_tracking_json.py
+
       - name: Commit and push tracking changes
         run: |
           git config user.name "AI Observer Bot"
           git config user.email "bot@ai-observation.local"
-          git add 03-tracking-registry/
+          git add 03-tracking-registry/ ui/data/tracking.json
           git diff --staged --quiet || git commit -m "🔄 Weekly tracking update $(date +%Y-%m-%d)"
           git push
