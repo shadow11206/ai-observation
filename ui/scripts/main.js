@@ -63,13 +63,26 @@ if (statDays || statPeople || statCompanies) {
   const statsBar = document.querySelector('.stats-bar');
   if (statsBar) statsObserver.observe(statsBar);
 
-  // 从 tracking.json 读取追踪人物 / 追踪公司真实数量
+  // 从 tracking.json 读取追踪人物 / 追踪公司真实数量，同步更新 feature-card 文案
   fetch('data/tracking.json')
     .then(r => r.json())
     .then(data => {
       const m = data.meta || {};
       if (statPeople)    animateCounter(statPeople,    m.people_total  || 0);
       if (statCompanies) animateCounter(statCompanies, m.company_count || 0);
+
+      // feature-card 追踪体系描述
+      const featureDesc = document.getElementById('feature-tracking-desc');
+      if (featureDesc && (m.people_total || m.company_count)) {
+        featureDesc.textContent =
+          `L1 实践者 / L2 观察者 / L3 决策者，三级优先级，覆盖 ${m.people_total || 0} 位人物和 ${m.company_count || 0} 家公司`;
+      }
+
+      // pipeline 节点追踪体系描述
+      const pipelineDesc = document.getElementById('pipeline-tracking-desc');
+      if (pipelineDesc && m.people_total) {
+        pipelineDesc.textContent = `${m.people_total}+ 信号源`;
+      }
     })
     .catch(() => {
       // 静默降级：保留 HTML 中的初始值
