@@ -134,25 +134,6 @@ function renderCompany(items) {
   `;
 }
 
-// placeholder to maintain structure
-function _removed(item) {
-  return `
-          <div class="news-item">
-            <div class="news-item-header">
-              <div class="news-item-title">
-                ${item.url
-                  ? `<a href="${item.url}" target="_blank" rel="noopener">${item.title}</a>`
-                  : item.title}
-              </div>
-              <div class="news-importance">${'⭐'.repeat(Math.min(Math.max(item.importance || 2, 1), 5))}</div>
-            </div>
-            <div class="news-item-source">${item.source || ''}</div>
-            <div class="news-item-summary">${item.summary || ''}</div>
-          </div>
-        `).join('')}
-    </section>
-  `;
-}
 
 function renderOpinions(items) {
   return `
