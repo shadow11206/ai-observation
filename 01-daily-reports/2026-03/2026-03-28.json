@@ -250,6 +250,118 @@
       }
     ],
     "github_trending": [],
-    "hf_summary": "今日榜单 Qwen 系列持续霸榜，语音合成与开源量化模型活跃；百度、CERN 等传统机构入场值得关注。"
+    "hf_summary": "今日榜单 Qwen 系列持续霸榜，语音合成与开源量化模型活跃；百度、CERN 等传统机构入场值得关注。",
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "xiaomi/mimo-v2-pro-20260318",
+        "name": "mimo-v2-pro",
+        "org": "xiaomi",
+        "total_tokens": 603654385503,
+        "total_tokens_str": "604B",
+        "calls": 8685919,
+        "change": 11.4,
+        "url": "https://openrouter.ai/models/xiaomi/mimo-v2-pro-20260318"
+      },
+      {
+        "rank": 2,
+        "slug": "stepfun/step-3.5-flash",
+        "name": "step-3.5-flash",
+        "org": "stepfun",
+        "total_tokens": 222956538259,
+        "total_tokens_str": "223B",
+        "calls": 5472817,
+        "change": -18.3,
+        "url": "https://openrouter.ai/models/stepfun/step-3.5-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "minimax/minimax-m2.7-20260318",
+        "name": "minimax-m2.7",
+        "org": "minimax",
+        "total_tokens": 195657130703,
+        "total_tokens_str": "196B",
+        "calls": 4642305,
+        "change": -1.5,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
+      },
+      {
+        "rank": 4,
+        "slug": "deepseek/deepseek-v3.2-20251201",
+        "name": "deepseek-v3.2",
+        "org": "deepseek",
+        "total_tokens": 174906497199,
+        "total_tokens_str": "175B",
+        "calls": 16789819,
+        "change": -2.4,
+        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
+      },
+      {
+        "rank": 5,
+        "slug": "anthropic/claude-4.6-sonnet-20260217",
+        "name": "claude-4.6-sonnet",
+        "org": "anthropic",
+        "total_tokens": 144640853454,
+        "total_tokens_str": "145B",
+        "calls": 3567596,
+        "change": -11.4,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-sonnet-20260217"
+      },
+      {
+        "rank": 6,
+        "slug": "anthropic/claude-4.6-opus-20260205",
+        "name": "claude-4.6-opus",
+        "org": "anthropic",
+        "total_tokens": 144002844755,
+        "total_tokens_str": "144B",
+        "calls": 2548175,
+        "change": -10.3,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-opus-20260205"
+      },
+      {
+        "rank": 7,
+        "slug": "google/gemini-3-flash-preview-20251217",
+        "name": "gemini-3-flash-preview",
+        "org": "google",
+        "total_tokens": 137149381600,
+        "total_tokens_str": "137B",
+        "calls": 15247517,
+        "change": -4.3,
+        "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
+      },
+      {
+        "rank": 8,
+        "slug": "z-ai/glm-5-turbo-20260315",
+        "name": "glm-5-turbo",
+        "org": "z-ai",
+        "total_tokens": 132779680952,
+        "total_tokens_str": "133B",
+        "calls": 1460764,
+        "change": -1.8,
+        "url": "https://openrouter.ai/models/z-ai/glm-5-turbo-20260315"
+      },
+      {
+        "rank": 9,
+        "slug": "minimax/minimax-m2.5-20260211",
+        "name": "minimax-m2.5",
+        "org": "minimax",
+        "total_tokens": 104713327693,
+        "total_tokens_str": "105B",
+        "calls": 2828870,
+        "change": -22.7,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.5-20260211"
+      },
+      {
+        "rank": 10,
+        "slug": "xiaomi/mimo-v2-omni-20260318",
+        "name": "mimo-v2-omni",
+        "org": "xiaomi",
+        "total_tokens": 84106711483,
+        "total_tokens_str": "84B",
+        "calls": 1082451,
+        "change": 10.2,
+        "url": "https://openrouter.ai/models/xiaomi/mimo-v2-omni-20260318"
+      }
+    ]
   }
 }

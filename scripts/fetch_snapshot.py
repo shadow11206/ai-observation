@@ -53,24 +53,30 @@ PIPELINE_LABEL = {
 
 
 def fetch_snapshot() -> dict:
-    """主入口：获取今日数据快照，两个源各自独立，互不影响"""
+    """主入口：获取今日数据快照，三个源各自独立，互不影响"""
     snapshot = {
         "date": datetime.now().strftime("%Y-%m-%d"),
         "hf_trending": [],
         "github_trending": [],
+        "openrouter_ranking": [],
     }
 
     print("  📊 抓取 Hugging Face Trending 模型...")
     raw_hf = _fetch_hf_trending()
-
-    # 加载昨日快照做趋势对比
     yesterday_map = _load_yesterday_hf_names()
     snapshot["hf_trending"] = _enrich_with_trend(raw_hf, yesterday_map)
 
     print("  📊 抓取 GitHub Trending AI 项目...")
     snapshot["github_trending"] = _fetch_github_trending()
 
-    print(f"  ✓ 快照完成：HF {len(snapshot['hf_trending'])} 个模型，GitHub {len(snapshot['github_trending'])} 个项目")
+    print("  📊 抓取 OpenRouter 模型调用排行榜...")
+    snapshot["openrouter_ranking"] = _fetch_openrouter_ranking()
+
+    print(
+        f"  ✓ 快照完成：HF {len(snapshot['hf_trending'])} 个模型，"
+        f"GitHub {len(snapshot['github_trending'])} 个项目，"
+        f"OpenRouter Top {len(snapshot['openrouter_ranking'])} 模型"
+    )
     return snapshot
 
 
@@ -150,6 +156,122 @@ def _fetch_hf_trending() -> list[dict]:
         return result
     except Exception as e:
         print(f"  ⚠️ HF Trending 抓取失败：{e}")
+        return []
+
+
+def _fetch_openrouter_ranking() -> list[dict]:
+    """
+    抓取 OpenRouter 当日模型调用排行榜 Top 10。
+    数据来源：https://openrouter.ai/rankings?view=day
+    通过 Next.js RSC 流接口获取，无需 API Key，每天抓一次。
+    """
+    import random
+    import string
+    from collections import defaultdict
+
+    try:
+        rsc_token = "".join(random.choices(string.ascii_lowercase + string.digits, k=6))
+        url = f"https://openrouter.ai/rankings?view=day&_rsc={rsc_token}"
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+            "Accept": "text/x-component",
+            "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+            "RSC": "1",
+            "Next-Router-State-Tree": "%5B%22%22%2C%7B%22children%22%3A%5B%22rankings%22%2C%7B%22children%22%3A%5B%22__PAGE__%22%2C%7B%7D%5D%7D%5D%7D%2Cnull%2Cnull%2Ctrue%5D",
+            "Referer": "https://openrouter.ai/",
+        }
+        resp = requests.get(url, headers=headers, timeout=30)
+        resp.raise_for_status()
+        raw = resp.text
+
+        # 找到含 rankingData 的 RSC 行
+        ranking_line = None
+        for line in raw.split("\n"):
+            if '"rankingData"' in line and "model_permaslug" in line:
+                ranking_line = line
+                break
+
+        if not ranking_line:
+            print("  ⚠️ OpenRouter：未找到 rankingData 行")
+            return []
+
+        # 去掉 RSC 行前缀（如 '25:' 或 '2a:'）
+        import re
+        m = re.match(r"^[0-9a-f]+:(.*)", ranking_line, re.DOTALL)
+        json_str = m.group(1) if m else ranking_line
+
+        # 逐字符提取 rankingData 数组（防止正则贪婪失效）
+        arr_start = json_str.find('"rankingData":')
+        if arr_start == -1:
+            return []
+        bracket_start = json_str.find("[", arr_start)
+        if bracket_start == -1:
+            return []
+
+        depth = 0
+        end = bracket_start
+        for i, c in enumerate(json_str[bracket_start:]):
+            if c == "[":
+                depth += 1
+            elif c == "]":
+                depth -= 1
+                if depth == 0:
+                    end = bracket_start + i + 1
+                    break
+
+        ranking_data = json.loads(json_str[bracket_start:end])
+
+        # 按模型聚合（同模型可能有多个 variant 行）
+        model_agg = defaultdict(lambda: {"total_tokens": 0, "count": 0, "change": 0.0})
+        for row in ranking_data:
+            slug = row.get("model_permaslug") or ""
+            if not slug:
+                continue
+            prompt = row.get("total_prompt_tokens") or 0
+            completion = row.get("total_completion_tokens") or 0
+            model_agg[slug]["total_tokens"] += prompt + completion
+            model_agg[slug]["count"] += row.get("count") or 0
+            model_agg[slug]["change"] = row.get("change") or 0.0  # 取最后一行
+
+        # 排序取 Top 10
+        top10 = sorted(model_agg.items(), key=lambda x: x[1]["total_tokens"], reverse=True)[:10]
+
+        result = []
+        for rank, (slug, stats) in enumerate(top10, 1):
+            t = stats["total_tokens"]
+            # 格式化 token 量
+            if t >= 1e12:
+                t_str = f"{t / 1e12:.1f}T"
+            elif t >= 1e9:
+                t_str = f"{t / 1e9:.0f}B"
+            elif t >= 1e6:
+                t_str = f"{t / 1e6:.0f}M"
+            else:
+                t_str = str(t)
+
+            org = slug.split("/")[0] if "/" in slug else ""
+            model_name = slug.split("/")[-1] if "/" in slug else slug
+            # 去掉末尾的日期后缀，提升可读性
+            display_name = re.sub(r"-\d{8}$", "", model_name)
+            # 处理 :free 等 variant 后缀
+            display_name = display_name.replace(":free", " (free)").replace(":", " ")
+
+            result.append({
+                "rank": rank,
+                "slug": slug,
+                "name": display_name,
+                "org": org,
+                "total_tokens": t,
+                "total_tokens_str": t_str,
+                "calls": stats["count"],
+                "change": round(stats["change"] * 100, 1),  # 转为百分比，如 +11.4
+                "url": f"https://openrouter.ai/models/{slug}",
+            })
+
+        return result
+
+    except Exception as e:
+        print(f"  ⚠️ OpenRouter 排行榜抓取失败：{e}")
         return []
 
 
