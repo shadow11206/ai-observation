@@ -1108,27 +1108,29 @@ img { max-width: 100%; }
   white-space: nowrap;
 }
 
-/* 信心星级 */
-.confidence-stars {
-  font-size: 12px;
-  color: #f59e0b;
-  letter-spacing: 0.05em;
-}
+/* 信心星级（保留类名避免旧 JSON 报错，但不展示） */
+.confidence-stars { display: none; }
 
-/* 原文按钮 */
+/* 原文 / 来源 按钮（苹果圆角胶囊风格） */
 .source-btn {
-  font-size: 12px;
-  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  font-weight: 500;
   color: var(--accent);
   text-decoration: none;
-  padding: 4px 12px;
-  border: 1.5px solid var(--accent);
+  padding: 5px 14px;
+  background: rgba(0,113,227,0.07);
+  border: 1px solid rgba(0,113,227,0.2);
   border-radius: 100px;
-  transition: all 0.2s;
+  transition: background 0.18s, border-color 0.18s, color 0.18s;
   white-space: nowrap;
+  letter-spacing: -0.01em;
 }
 .source-btn:hover {
   background: var(--accent);
+  border-color: var(--accent);
   color: #fff;
 }
 
@@ -1185,6 +1187,65 @@ img { max-width: 100%; }
   color: var(--text-secondary);
   line-height: 1.7;
   margin-bottom: 0.5rem;
+}
+
+/* ---------- PEOPLE NEWS（重要人物动态）---------- */
+.people-news-item {
+  padding: 1.4rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.people-news-item:last-child { border-bottom: none; }
+
+.people-news-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.65rem;
+  flex-wrap: wrap;
+}
+.people-news-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.people-news-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+.people-news-role {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  font-weight: 400;
+}
+/* 动态标签（发文/融资/离职等） */
+.people-action-tag {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 3px 10px;
+  border-radius: 100px;
+  background: rgba(99,102,241,0.09);
+  color: #6366f1;
+  white-space: nowrap;
+}
+.people-news-summary {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 0.55rem;
+}
+.people-news-impact {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 0.4rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
 }
 
 /* ---------- RESPONSIVE ---------- */

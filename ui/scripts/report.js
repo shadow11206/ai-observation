@@ -48,7 +48,7 @@ function renderReport(data) {
     ${renderTopItems(data.top_items || [])}
     ${renderModelTech(data.model_tech || [])}
     ${renderCompany(data.company_product || [])}
-    ${renderOpinions(data.opinions || [])}
+    ${renderPeopleNews(data.people_news || data.opinions || [])}
     ${renderDeepDive(data.deep_dive_suggestions || [])}
     ${renderSnapshot(data.snapshot || {})}
   `;
@@ -77,8 +77,7 @@ function renderTopItems(items) {
               ${item.judgment ? `<div class="top-item-judgment"><span class="finding-label judgment-label">影响判断</span>${item.judgment}</div>` : ''}
               <div class="top-item-footer">
                 <div class="top-item-meta">
-                  ${item.source ? `<span style="font-size:12px;color:var(--text-tertiary)">来源：${item.source}</span>` : ''}
-                  ${item.confidence ? `<span class="confidence-stars">${'★'.repeat(item.confidence)}${'☆'.repeat(5 - item.confidence)}</span>` : ''}
+                  ${item.source ? `<span class="news-item-source">来源：${item.source}</span>` : ''}
                 </div>
                 ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener" class="source-btn">原文 →</a>` : ''}
               </div>
@@ -105,7 +104,7 @@ function renderNewsCard(item) {
         </div>` : ''}
       ${item.judgment ? `<div class="news-judgment"><span class="finding-label judgment-label">影响判断</span>${item.judgment}</div>` : ''}
       <div class="news-item-footer">
-        ${item.confidence ? `<span class="confidence-stars">${'★'.repeat(item.confidence)}${'☆'.repeat(5 - item.confidence)}</span>` : '<span></span>'}
+        <span></span>
         ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener" class="source-btn">原文 →</a>` : ''}
       </div>
     </div>
@@ -135,20 +134,28 @@ function renderCompany(items) {
 }
 
 
-function renderOpinions(items) {
+function renderPeopleNews(items) {
   return `
     <section id="opinions">
-      <h2 class="section-title"><span class="section-icon">💡</span> 追踪人物观点</h2>
+      <h2 class="section-title"><span class="section-icon">💡</span> 重要人物动态</h2>
       ${items.length === 0
-        ? '<div class="section-empty">今日追踪人物无新公开发言（Twitter 等社交媒体将在 Level 2 升级后接入）</div>'
-        : items.map(op => `
-          <div class="opinion-item">
-            <div class="opinion-item-header">
-              <span class="person-level level-${(op.level || 'L2').toLowerCase()}">${op.level || 'L2'}</span>
-              <span class="opinion-person">${op.person || ''}</span>
-              ${op.source ? `<a href="${op.source}" target="_blank" rel="noopener" style="font-size:12px;color:var(--accent);margin-left:auto">来源 →</a>` : ''}
+        ? '<div class="section-empty">今日暂无追踪人物重要动态</div>'
+        : items.map(p => `
+          <div class="people-news-item">
+            <div class="people-news-header">
+              <div class="people-news-left">
+                <span class="person-level level-${(p.level || 'L2').toLowerCase()}">${p.level || 'L2'}</span>
+                <span class="people-news-name">${p.person || ''}</span>
+                ${p.role ? `<span class="people-news-role">${p.role}</span>` : ''}
+              </div>
+              ${p.action ? `<span class="people-action-tag">${p.action}</span>` : ''}
             </div>
-            <div class="opinion-quote">${op.quote || ''}</div>
+            ${p.summary ? `<div class="people-news-summary">${p.summary}</div>` : (p.quote ? `<div class="people-news-summary">${p.quote}</div>` : '')}
+            ${p.impact ? `<div class="people-news-impact"><span class="finding-label judgment-label">影响</span>${p.impact}</div>` : ''}
+            <div class="news-item-footer">
+              <span></span>
+              ${p.source ? `<a href="${p.source}" target="_blank" rel="noopener" class="source-btn">来源 →</a>` : ''}
+            </div>
           </div>
         `).join('')}
     </section>

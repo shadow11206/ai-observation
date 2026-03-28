@@ -85,7 +85,6 @@ def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
       "finding": "核心发现：用2-3句话说清楚发生了什么，面向普通读者，通俗易懂，避免专业术语堆砌",
       "key_data": ["关键数据或关键词1", "关键数据或关键词2", "关键数据或关键词3"],
       "judgment": "影响判断：这对 AI 行业/产品经理/开发者意味着什么，要有明确立场",
-      "confidence": 4,
       "source": "来源名称",
       "url": "原文链接"
     }}
@@ -97,7 +96,6 @@ def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
       "finding": "核心发现：2句话说清楚，通俗易懂",
       "key_data": ["关键数据1", "关键数据2"],
       "judgment": "影响判断（50字以内）",
-      "confidence": 3,
       "url": "链接",
       "importance": 3
     }}
@@ -109,16 +107,18 @@ def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
       "finding": "核心发现：2句话说清楚，通俗易懂",
       "key_data": ["关键数据1", "关键数据2"],
       "judgment": "影响判断（50字以内）",
-      "confidence": 3,
       "url": "链接",
       "importance": 2
     }}
   ],
-  "opinions": [
+  "people_news": [
     {{
-      "person": "人物名",
+      "person": "人物名（如 Sam Altman、李飞飞）",
+      "role": "职位/身份（如 OpenAI CEO）",
       "level": "L1",
-      "quote": "核心观点（100字以内）",
+      "action": "动态标签（发文、演讲、产品发布、融资、离职等）",
+      "summary": "这个人近期做了什么，1-2句话说清楚，有实质内容",
+      "impact": "这件事对行业意味着什么（30字以内）",
       "source": "来源链接"
     }}
   ],
@@ -133,14 +133,15 @@ def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
 }}
 
 要求：
-1. top_items 选 1-3 条，只选真正重要的，不凑数
-2. 所有 title 字段必须是中文，英文标题需翻译
-3. finding 要通俗易懂，像给聪明的非专业人士解释，不堆砌术语
-4. key_data 提炼 2-4 个最关键的数字/词组，每个不超过 10 字，方便快速扫读
-5. judgment 必须有明确立场，说明"这对谁意味着什么、会带来什么变化"
-6. confidence 为 1-5 的整数，代表信息可靠度：5=官方一手信息，4=权威媒体，3=可信来源，2=待验证，1=存疑
-7. deep_dive_suggestions 只推荐真正值得花半天以上研究的话题
-8. 如果某个分类今天没有值得关注的内容，返回空数组 []
+1. top_items 选 1-5 条，重要的都选，不凑数也不遗漏
+2. model_tech / company_product 条数不限，今天有多少值得关注的就写多少
+3. 所有 title 字段必须是中文，英文标题需翻译
+4. finding 要通俗易懂，像给聪明的非专业人士解释，不堆砌术语
+5. key_data 提炼 2-4 个最关键的数字/词组，每个不超过 10 字，方便快速扫读
+6. judgment 必须有明确立场，说明"这对谁意味着什么、会带来什么变化"
+7. people_news 聚焦今日/近期影响力最高的人物动态：优先追踪清单中的 L1/L2/L3 人物，有实质行动才写，没有就返回空数组 []
+8. deep_dive_suggestions 只推荐真正值得花半天以上研究的话题
+9. 如果某个分类今天没有值得关注的内容，返回空数组 []
 """
 
     response = client.chat.completions.create(
