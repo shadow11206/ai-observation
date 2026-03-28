@@ -155,8 +155,11 @@ def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
 
     raw_output = response.choices[0].message.content.strip()
 
-    # 提取 JSON（防止 AI 多输出了 markdown 代码块）
-    # 使用非贪婪 + 末尾锚定，避免截到最后一个 } 之后的多余字符
+    # 第一步：剥掉 AI 可能包裹的 markdown 代码块（```json ... ``` 或 ``` ... ```）
+    raw_output = re.sub(r'^```(?:json)?\s*', '', raw_output.strip())
+    raw_output = re.sub(r'\s*```\s*$', '', raw_output.strip())
+
+    # 第二步：提取最外层 {...}（防止 AI 在 JSON 前后多输出说明文字）
     json_match = re.search(r'(\{[\s\S]*\})\s*$', raw_output.strip())
     if json_match:
         raw_output = json_match.group(1)
