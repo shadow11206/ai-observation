@@ -176,41 +176,127 @@ function renderDeepDive(items) {
   `;
 }
 
+// ── 数据快照辅助 ──────────────────────────────────────
+// pipeline_tag → 中文说明（前端 fallback，覆盖旧数据没有 label 字段的情况）
+const PIPELINE_LABEL = {
+  'text-generation': '文本生成',
+  'text2text-generation': '文本生成',
+  'image-text-to-text': '多模态理解',
+  'image-to-text': '图片描述',
+  'text-to-image': '文生图',
+  'text-to-video': '文生视频',
+  'image-to-video': '图生视频',
+  'text-to-speech': '文字转语音',
+  'automatic-speech-recognition': '语音识别',
+  'feature-extraction': '向量嵌入',
+  'sentence-similarity': '语义相似度',
+  'token-classification': '命名实体识别',
+  'translation': '翻译',
+  'summarization': '摘要生成',
+  'question-answering': '问答',
+  'image-classification': '图像分类',
+  'object-detection': '目标检测',
+  'depth-estimation': '深度估计',
+};
+
+function getModelLabel(m) {
+  if (m.label) return m.label;
+  if (m.pipeline_tag) return PIPELINE_LABEL[m.pipeline_tag] || m.pipeline_tag;
+  // fallback：从 tags 里猜
+  const tags = m.tags || [];
+  if (tags.includes('text-to-speech') || tags.includes('tts')) return '文字转语音';
+  if (tags.includes('text-to-video')) return '文生视频';
+  if (tags.includes('image-text-to-video')) return '图生视频';
+  if (tags.includes('gguf') || tags.includes('safetensors')) return '开源模型';
+  if (tags.includes('asr') || tags.includes('cohere_asr')) return '语音识别';
+  return '';
+}
+
+function getModelShortName(m) {
+  if (m.short_name) return m.short_name;
+  const name = m.name || '';
+  return name.includes('/') ? name.split('/')[1] : name;
+}
+
+function getTrendBadge(m) {
+  if (m.trend === 'new') return '<span style="font-size:10px;font-weight:600;color:#fff;background:#34C759;border-radius:4px;padding:1px 5px;letter-spacing:0.03em;">NEW</span>';
+  if (m.trend === 'same') return '<span style="font-size:11px;color:var(--text-tertiary)">连续上榜</span>';
+  return '';
+}
+
 function renderSnapshot(snapshot) {
   const hf = snapshot.hf_trending || [];
   const gh = snapshot.github_trending || [];
+  const hfSummary = snapshot.hf_summary || '';
+
+  // 连续上榜模型（trend === 'same'）
+  const continuousModels = hf.filter(m => m.trend === 'same');
 
   return `
     <section id="snapshot">
       <h2 class="section-title"><span class="section-icon">⚡</span> 今日数据快照</h2>
-      <div class="snapshot-grid">
-        <div class="snapshot-panel">
-          <div class="snapshot-panel-title">Hugging Face Trending</div>
-          ${hf.length === 0
-            ? '<div style="font-size:13px;color:var(--text-tertiary);padding:0.5rem 0">暂无数据</div>'
-            : hf.slice(0, 6).map(m => `
-              <div class="snapshot-item">
-                <div class="snapshot-item-name">
-                  ${m.url ? `<a href="${m.url}" target="_blank" rel="noopener">${m.name}</a>` : m.name}
+
+      ${hf.length === 0 ? '<div style="font-size:13px;color:var(--text-tertiary);padding:1rem 0">暂无数据</div>' : `
+
+        ${hfSummary ? `
+          <div style="font-size:14px;color:var(--text-secondary);background:var(--bg-card);border-radius:10px;padding:0.75rem 1rem;margin-bottom:1.25rem;line-height:1.6;">
+            💬 ${hfSummary}
+          </div>` : ''}
+
+        ${continuousModels.length > 0 ? `
+          <div style="font-size:12px;font-weight:600;color:var(--text-tertiary);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:0.6rem;">连续上榜</div>
+          <div style="display:flex;flex-wrap:wrap;gap:0.4rem;margin-bottom:1.25rem;">
+            ${continuousModels.map(m => `
+              <a href="${m.url || '#'}" target="_blank" rel="noopener"
+                style="font-size:12px;color:var(--accent);background:rgba(0,122,255,0.06);border:1px solid rgba(0,122,255,0.15);border-radius:6px;padding:2px 8px;text-decoration:none;white-space:nowrap;">
+                ${getModelShortName(m)}
+              </a>`).join('')}
+          </div>` : ''}
+
+        <div style="font-size:12px;font-weight:600;color:var(--text-tertiary);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:0.6rem;">Hugging Face Trending</div>
+        <div style="background:var(--bg-card);border-radius:12px;overflow:hidden;">
+          ${hf.slice(0, 8).map((m, i) => {
+            const label = getModelLabel(m);
+            const shortName = getModelShortName(m);
+            const org = m.name && m.name.includes('/') ? m.name.split('/')[0] : '';
+            const trendBadge = getTrendBadge(m);
+            return `
+              <div style="display:flex;align-items:center;gap:0.75rem;padding:0.7rem 1rem;${i > 0 ? 'border-top:1px solid var(--border-light)' : ''}">
+                <div style="font-size:13px;font-weight:500;color:var(--text-tertiary);min-width:1.25rem;text-align:right;">${i + 1}</div>
+                <div style="flex:1;min-width:0;">
+                  <div style="display:flex;align-items:center;gap:0.4rem;flex-wrap:wrap;">
+                    <a href="${m.url || '#'}" target="_blank" rel="noopener"
+                      style="font-size:14px;font-weight:600;color:var(--text-primary);text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:280px;"
+                      title="${m.name || ''}">${shortName}</a>
+                    ${trendBadge}
+                  </div>
+                  <div style="display:flex;align-items:center;gap:0.5rem;margin-top:2px;flex-wrap:wrap;">
+                    ${org ? `<span style="font-size:11px;color:var(--text-tertiary);">${org}</span>` : ''}
+                    ${label ? `<span style="font-size:11px;color:#fff;background:var(--accent);border-radius:4px;padding:0px 5px;">${label}</span>` : ''}
+                    ${m.card_desc ? `<span style="font-size:11px;color:var(--text-secondary);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:200px;">${m.card_desc}</span>` : ''}
+                  </div>
                 </div>
-                <div class="snapshot-item-stat">❤️ ${(m.likes || 0).toLocaleString()}</div>
-              </div>
-            `).join('')}
-        </div>
-        <div class="snapshot-panel">
-          <div class="snapshot-panel-title">GitHub Trending AI</div>
-          ${gh.length === 0
-            ? '<div style="font-size:13px;color:var(--text-tertiary);padding:0.5rem 0">暂无数据</div>'
-            : gh.slice(0, 6).map(r => `
-              <div class="snapshot-item">
-                <div class="snapshot-item-name">
-                  ${r.url ? `<a href="${r.url}" target="_blank" rel="noopener" title="${r.desc || ''}">${r.name}</a>` : r.name}
+                <div style="font-size:13px;color:var(--text-tertiary);white-space:nowrap;">
+                  ❤️ ${(m.likes || 0).toLocaleString()}
                 </div>
-                <div class="snapshot-item-stat">⭐ ${(r.stars || 0).toLocaleString()} · ${r.language || '—'}</div>
-              </div>
-            `).join('')}
+              </div>`;
+          }).join('')}
         </div>
-      </div>
+
+        ${gh.length > 0 ? `
+          <div style="font-size:12px;font-weight:600;color:var(--text-tertiary);letter-spacing:0.08em;text-transform:uppercase;margin:1.25rem 0 0.6rem;">GitHub Trending AI</div>
+          <div style="background:var(--bg-card);border-radius:12px;overflow:hidden;">
+            ${gh.slice(0, 5).map((r, i) => `
+              <div style="display:flex;align-items:flex-start;gap:0.75rem;padding:0.7rem 1rem;${i > 0 ? 'border-top:1px solid var(--border-light)' : ''}">
+                <div style="flex:1;min-width:0;">
+                  <a href="${r.url || '#'}" target="_blank" rel="noopener"
+                    style="font-size:14px;font-weight:600;color:var(--text-primary);text-decoration:none;">${r.name || ''}</a>
+                  ${r.desc ? `<div style="font-size:12px;color:var(--text-secondary);margin-top:2px;">${r.desc}</div>` : ''}
+                </div>
+                <div style="font-size:12px;color:var(--text-tertiary);white-space:nowrap;">⭐ ${(r.stars || 0).toLocaleString()} · ${r.language || '—'}</div>
+              </div>`).join('')}
+          </div>` : ''}
+      `}
     </section>
   `;
 }

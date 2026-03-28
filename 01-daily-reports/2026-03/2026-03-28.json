@@ -3,76 +3,74 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "华为盘古大模型负责人王云鹤离职，投身Agent创业",
-      "finding": "华为盘古大模型的核心负责人王云鹤已从华为离职，据传将投身于AI Agent领域的创业。这标志着国内大厂顶尖AI人才正加速流向更具创新活力的创业赛道。",
+      "title": "GLM-5.1上线，编程能力对标Opus 4.6",
+      "finding": "智谱AI发布了GLM-5.1模型，其编程能力相比上一代大幅提升近10分，在评测中表现接近Claude 3.5 Opus，导致其编程套餐瞬间售罄。",
       "key_data": [
-        "华为盘古大模型负责人",
-        "离职创业",
-        "AI Agent领域"
+        "编程能力飙升近10分",
+        "对标Claude 3.5 Opus",
+        "Coding plan瞬间断货"
       ],
-      "judgment": "这意味着国内大模型领域的顶尖人才正在从大厂向创业公司流动，AI Agent作为当前最热门的应用方向，将吸引更多资源和人才涌入，可能加速国内企业级Agent产品的成熟和竞争。",
-      "confidence": 4,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/392903.html"
-    },
-    {
-      "rank": 2,
-      "title": "GLM-5.1上线，编程能力逼近GPT-4o",
-      "finding": "智谱AI发布了GLM-5.1模型，在编程能力评测中得分大幅提升，接近GPT-4o的水平，导致其编程相关的API调用计划瞬间售罄。",
-      "key_data": [
-        "GLM-5.1发布",
-        "编程能力接近GPT-4o",
-        "Coding plan售罄"
-      ],
-      "judgment": "这意味着国产大模型在核心能力上正快速追赶国际顶尖水平，尤其在开发者工具这一关键应用场景上，竞争将更加激烈，为开发者提供了更多元、性价比可能更高的选择。",
+      "judgment": "这意味着国产大模型在核心生产力场景（编程）上已具备与国际顶级闭源模型掰手腕的能力，将加剧企业级AI编程市场的竞争，并为开发者提供更多高性价比的选择。",
       "confidence": 4,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/03/392914.html"
     },
     {
-      "rank": 3,
-      "title": "CERN将微型AI模型烧入芯片，用于实时过滤LHC数据",
-      "finding": "欧洲核子研究中心（CERN）将微小的AI模型直接固化到专用硅芯片中，用于大型强子对撞机（LHC）的实时数据过滤，以应对海量数据流。",
+      "rank": 2,
+      "title": "华为盘古大模型负责人王云鹤离职创业",
+      "finding": "华为盘古大模型的核心负责人王云鹤已从华为离职，据传将投身于AI Agent领域的创业。",
       "key_data": [
-        "CERN（欧洲核子研究中心）",
-        "AI模型烧入芯片",
-        "实时数据过滤",
-        "大型强子对撞机（LHC）"
+        "盘古大模型负责人",
+        "离职创业",
+        "投身AI Agent"
       ],
-      "judgment": "这意味着AI模型硬件化、专用化的趋势正从消费电子走向尖端科研。这种“算法即硬件”的模式，为需要超低延迟、高可靠性的边缘计算和科学仪器领域提供了新的技术范式。",
+      "judgment": "这意味着大厂顶尖AI人才正加速流向创业市场，特别是Agent这一热门赛道，预示着该领域的竞争将更加激烈，同时也可能催生新的技术范式和应用。",
       "confidence": 4,
-      "source": "Hacker News / The Open Reader",
-      "url": "https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering"
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/03/392903.html"
+    },
+    {
+      "rank": 3,
+      "title": "LoCoMo评测基准被审计发现严重缺陷",
+      "finding": "一项审计发现，流行的长上下文模型评测基准LoCoMo存在严重问题：其答案中有6.4%是错误的，并且其使用的LLM评判器会接受高达63%的故意错误答案。",
+      "key_data": [
+        "6.4%答案错误",
+        "接受63%故意错误答案",
+        "评测基准可信度存疑"
+      ],
+      "judgment": "这意味着当前许多模型在长上下文能力上的评测结果可能被严重高估，提醒整个行业必须建立更严谨、可复现的评测体系，否则将误导研发方向和市场判断。",
+      "confidence": 3,
+      "source": "Reddit r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s54cvg/d_we_audited_locomo_64_of_the_answer_key_is_wrong/"
     }
   ],
   "model_tech": [
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "PentaNet：超越BitNet的五元量化新方法",
-      "finding": "一项新研究提出了PentaNet，使用{-2, -1, 0, 1, 2}五元量化来替代矩阵乘法，旨在实现零乘法推理，进一步降低大模型的计算开销。",
+      "source": "Reddit r/LocalLLaMA",
+      "title": "TurboQuant在MLX上实现4.6倍KV缓存压缩",
+      "finding": "社区开发者将Google的TurboQuant KV缓存压缩技术移植到苹果MLX框架，在Qwen2.5-32B模型上实现了4.6倍压缩，推理速度达到FP16的98%。",
       "key_data": [
-        "五元量化 {-2,-1,0,1,2}",
-        "超越BitNet 1.58b",
-        "零乘法推理目标"
+        "4.6倍KV缓存压缩",
+        "98% FP16速度",
+        "Qwen2.5-32B"
       ],
-      "judgment": "这是对极端模型量化路线的又一次探索，若能成功，将大幅降低边缘设备运行大模型的硬件门槛和能耗。",
+      "judgment": "这意味着在苹果芯片上运行大模型的长上下文成本将大幅降低，为本地AI应用（如长文档处理、代码库分析）的普及扫清了关键的性能障碍。",
       "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s5l5l2/project_pentanet_pushing_beyond_bitnet_with/",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s5vhf6/turboquant_on_mlx_46x_kv_cache_compression_with/",
       "importance": 3
     },
     {
-      "source": "Reddit r/LocalLLaMA",
-      "title": "谷歌TurboQuant量化方法在MLX上实现4.6倍KV缓存压缩",
-      "finding": "社区开发者将谷歌新提出的TurboQuant KV缓存压缩技术移植到苹果MLX框架，在Qwen2.5-32B模型上实现了4.6倍压缩，同时保持98%的原始推理速度。",
+      "source": "Reddit r/MachineLearning",
+      "title": "PentaNet：超越BitNet的五元量化新架构",
+      "finding": "研究者提出PentaNet，使用{-2, -1, 0, 1, 2}五元值进行量化，旨在实现比BitNet（1.58比特）更高效的“零乘法器”推理。",
       "key_data": [
-        "TurboQuant KV缓存压缩",
-        "4.6倍压缩率",
-        "98%原始速度",
-        "MLX框架"
+        "五元量化{-2,-1,0,1,2}",
+        "超越BitNet 1.58b",
+        "零乘法器推理"
       ],
-      "judgment": "这表明苹果生态的推理优化工具链正在快速成熟，让大模型在Mac上运行得更快、更省内存，利好移动和边缘AI开发。",
-      "confidence": 3,
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s5vhf6/turboquant_on_mlx_46x_kv_cache_compression_with/",
+      "judgment": "这表明模型量化研究正从“降低精度”转向“设计全新计算架构”，未来边缘设备运行大模型的能效比有望获得突破性提升。",
+      "confidence": 2,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s5l5l2/project_pentanet_pushing_beyond_bitnet_with/",
       "importance": 3
     }
   ],
@@ -80,14 +78,13 @@
     {
       "source": "OpenAI Blog",
       "title": "OpenAI展示ChatGPT如何重塑230年历史的STADLER公司",
-      "finding": "OpenAI发布案例研究，展示火车制造商STADLER如何利用ChatGPT改造其650名员工的知识工作流程，提升效率。",
+      "finding": "OpenAI发布案例研究，展示火车制造商STADLER如何利用ChatGPT改造其知识工作流程，为650名员工节省时间并加速生产力。",
       "key_data": [
-        "企业案例研究",
-        "STADLER（火车制造商）",
+        "230年历史公司",
         "650名员工",
-        "知识工作流程"
+        "知识工作流程改造"
       ],
-      "judgment": "这是OpenAI加强企业市场宣传的典型动作，旨在向传统行业证明AI的实用价值，推动ChatGPT从个人工具向企业生产力平台渗透。",
+      "judgment": "这意味着AI正从“玩具”和“助手”深入渗透到传统工业企业的核心运营流程，为企业级AI应用的落地提供了具体范本。",
       "confidence": 5,
       "url": "https://openai.com/index/stadler",
       "importance": 2
@@ -95,14 +92,14 @@
     {
       "source": "LangChain Blog",
       "title": "LangChain发布Agent评估就绪清单",
-      "finding": "LangChain发布了一份详细的检查清单，指导开发者如何系统性地评估AI Agent，涵盖错误分析、数据集构建到生产就绪等环节。",
+      "finding": "LangChain发布了一份实用的Agent评估清单，涵盖错误分析、数据集构建、评分器设计、离线/在线评估和生产就绪等环节。",
       "key_data": [
-        "Agent评估",
-        "检查清单",
+        "Agent评估清单",
+        "实用指南",
         "生产就绪"
       ],
-      "judgment": "随着Agent从Demo走向生产，系统化评估成为刚需。这份清单反映了行业工程化进程的深化，为开发者提供了实用框架。",
-      "confidence": 5,
+      "judgment": "这表明AI Agent的开发正从“演示阶段”迈向“工程化落地阶段”，工具链厂商开始提供系统性的方法论来保证Agent的可靠性和可维护性。",
+      "confidence": 4,
       "url": "https://blog.langchain.com/agent-evaluation-readiness-checklist/",
       "importance": 2
     }
@@ -111,80 +108,100 @@
     {
       "person": "Simon Willison",
       "level": "L1",
-      "quote": "关于智能体编程的思考：智能体擅长将问题磨成粉末。给它一个问题和一个循环，从长远来看，即使这意味着消耗万亿个token，它也会解决这个问题。",
-      "source": "https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything"
+      "quote": "我有一台新的128GB M5 MacBook Pro，它运行本地大模型的能力非常出色。我因为对活动监视器感到沮丧，决定用‘氛围编码’的方式快速构建一个替代工具。",
+      "source": "https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "大厂顶尖AI人才流向Agent创业的浪潮与影响",
-      "reason": "华为盘古负责人离职创业是标志性事件，需深入分析其背后动因、国内Agent创业生态现状及对行业竞争格局的潜在影响。",
+      "topic": "大模型评测基准的信任危机与重建",
+      "reason": "LoCoMo基准的严重缺陷暴露了当前AI评测体系的普遍脆弱性。需要深入研究如何构建抗攻击、可复现、真正反映模型能力的下一代评测标准。",
       "priority": "high"
     },
     {
-      "topic": "极端模型量化（二元/五元）的技术路径与硬件协同",
-      "reason": "从BitNet到PentaNet，以及谷歌TurboQuant，模型极端量化是降低推理成本的关键方向，值得系统梳理其技术原理、优劣势和落地前景。",
+      "topic": "KV缓存压缩技术的演进与落地影响",
+      "reason": "从TurboQuant到社区在MLX上的实现，KV缓存压缩正从论文走向实践，这将极大改变长上下文应用的成本结构和用户体验，值得跟踪其技术细节和生态进展。",
       "priority": "high"
     }
   ],
-  "summary_one_line": "国产模型能力追平GPT-4o，顶尖人才涌向Agent创业。",
+  "summary_one_line": "国产模型编程能力追平Opus，大厂AI核心人才涌向Agent创业。",
   "snapshot": {
     "date": "2026-03-28",
     "hf_trending": [
       {
         "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-        "likes": 1498,
+        "likes": 1496,
         "downloads": 253259,
         "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "tags": [
           "safetensors",
           "qwen3_5",
           "unsloth"
-        ]
+        ],
+        "short_name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "label": "推理蒸馏模型",
+        "trend": "new",
+        "card_desc": ""
       },
       {
         "name": "mistralai/Voxtral-4B-TTS-2603",
-        "likes": 361,
+        "likes": 356,
         "downloads": 1802,
         "url": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
         "tags": [
           "vllm",
           "mistral-common",
           "text-to-speech"
-        ]
-      },
-      {
-        "name": "CohereLabs/cohere-transcribe-03-2026",
-        "likes": 312,
-        "downloads": 12080,
-        "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "cohere_asr"
-        ]
+        ],
+        "short_name": "Voxtral-4B-TTS-2603",
+        "label": "语音合成",
+        "trend": "new",
+        "card_desc": ""
       },
       {
         "name": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
-        "likes": 1025,
+        "likes": 1022,
         "downloads": 478934,
         "url": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "tags": [
           "gguf",
           "uncensored",
           "qwen3.5"
-        ]
+        ],
+        "short_name": "Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "label": "开源无审查",
+        "trend": "new",
+        "card_desc": ""
+      },
+      {
+        "name": "CohereLabs/cohere-transcribe-03-2026",
+        "likes": 307,
+        "downloads": 12080,
+        "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "cohere_asr"
+        ],
+        "short_name": "cohere-transcribe-03-2026",
+        "label": "语音转文字",
+        "trend": "new",
+        "card_desc": ""
       },
       {
         "name": "nvidia/Nemotron-Cascade-2-30B-A3B",
-        "likes": 355,
+        "likes": 350,
         "downloads": 69594,
         "url": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
         "tags": [
           "transformers",
           "safetensors",
           "nemotron_h"
-        ]
+        ],
+        "short_name": "Nemotron-Cascade-2-30B-A3B",
+        "label": "混合专家模型",
+        "trend": "new",
+        "card_desc": ""
       },
       {
         "name": "baidu/Qianfan-OCR",
@@ -195,31 +212,44 @@
           "transformers",
           "safetensors",
           "internvl_chat"
-        ]
+        ],
+        "short_name": "Qianfan-OCR",
+        "label": "文档识别",
+        "trend": "new",
+        "card_desc": ""
       },
       {
         "name": "GAIR/daVinci-MagiHuman",
-        "likes": 221,
+        "likes": 220,
         "downloads": 418,
         "url": "https://huggingface.co/GAIR/daVinci-MagiHuman",
         "tags": [
           "safetensors",
           "text-to-video",
           "image-text-to-video"
-        ]
+        ],
+        "short_name": "daVinci-MagiHuman",
+        "label": "视频生成",
+        "trend": "new",
+        "card_desc": ""
       },
       {
         "name": "chromadb/context-1",
-        "likes": 185,
+        "likes": 182,
         "downloads": 451,
         "url": "https://huggingface.co/chromadb/context-1",
         "tags": [
           "safetensors",
           "gpt_oss",
           "base_model:openai/gpt-oss-20b"
-        ]
+        ],
+        "short_name": "context-1",
+        "label": "向量嵌入",
+        "trend": "new",
+        "card_desc": ""
       }
     ],
-    "github_trending": []
+    "github_trending": [],
+    "hf_summary": "今日榜单 Qwen 系列持续霸榜，语音合成与开源量化模型活跃；百度、CERN 等传统机构入场值得关注。"
   }
 }

@@ -2,7 +2,10 @@
 信息获取层 - 今日数据快照
 ==========================
 抓取 Hugging Face 热门模型 + GitHub Trending AI 项目
-这两个都有公开 API/页面，无需 API Key。
+v2.0 新增：
+- HF 每个模型补充 pipeline_tag + card_desc（model card 简介）
+- 与昨日快照对比，标记趋势（new/up/same）
+- GitHub 数据不稳定，保留但前端只在有数据时显示
 
 修复记录：
 - 403 fallback 后正确检查新响应状态码
@@ -10,8 +13,10 @@
 - 独立 timeout，两个请求互不影响
 """
 
+import json
 import requests
 from datetime import datetime, timedelta
+from pathlib import Path
 
 
 HEADERS = {
@@ -20,6 +25,31 @@ HEADERS = {
 }
 
 GITHUB_HEADERS = {**HEADERS, "Accept": "application/vnd.github.v3+json"}
+
+# pipeline_tag → 人类可读中文说明
+PIPELINE_LABEL = {
+    "text-generation": "文本生成",
+    "text2text-generation": "文本生成",
+    "image-text-to-text": "多模态理解",
+    "image-to-text": "图片描述",
+    "text-to-image": "文生图",
+    "text-to-video": "文生视频",
+    "image-to-video": "图生视频",
+    "text-to-speech": "文字转语音",
+    "automatic-speech-recognition": "语音识别",
+    "feature-extraction": "向量嵌入",
+    "sentence-similarity": "语义相似度",
+    "token-classification": "命名实体识别",
+    "translation": "翻译",
+    "summarization": "摘要生成",
+    "question-answering": "问答",
+    "fill-mask": "完形填空",
+    "image-classification": "图像分类",
+    "object-detection": "目标检测",
+    "depth-estimation": "深度估计",
+    "video-classification": "视频分类",
+    "reinforcement-learning": "强化学习",
+}
 
 
 def fetch_snapshot() -> dict:
@@ -31,7 +61,11 @@ def fetch_snapshot() -> dict:
     }
 
     print("  📊 抓取 Hugging Face Trending 模型...")
-    snapshot["hf_trending"] = _fetch_hf_trending()
+    raw_hf = _fetch_hf_trending()
+
+    # 加载昨日快照做趋势对比
+    yesterday_map = _load_yesterday_hf_names()
+    snapshot["hf_trending"] = _enrich_with_trend(raw_hf, yesterday_map)
 
     print("  📊 抓取 GitHub Trending AI 项目...")
     snapshot["github_trending"] = _fetch_github_trending()
@@ -40,15 +74,40 @@ def fetch_snapshot() -> dict:
     return snapshot
 
 
+def _load_yesterday_hf_names() -> set:
+    """加载昨日 HF 榜单的模型名集合，用于趋势对比"""
+    yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+    month = yesterday[:7]
+    json_path = Path(f"01-daily-reports/{month}/{yesterday}.json")
+    if not json_path.exists():
+        return set()
+    try:
+        data = json.loads(json_path.read_text(encoding="utf-8"))
+        hf = data.get("snapshot", {}).get("hf_trending", [])
+        return {m.get("name", "") for m in hf}
+    except Exception:
+        return set()
+
+
+def _enrich_with_trend(models: list[dict], yesterday_names: set) -> list[dict]:
+    """给每个模型标记趋势：new（首次上榜）、same（连续上榜）"""
+    for m in models:
+        if m["name"] in yesterday_names:
+            m["trend"] = "same"
+        else:
+            m["trend"] = "new"
+    return models
+
+
 def _fetch_hf_trending() -> list[dict]:
-    """抓取 Hugging Face 趋势模型（官方 API，无需 Key）"""
+    """抓取 Hugging Face 趋势模型（官方 API，无需 Key），补充 pipeline_tag + 简介"""
     try:
         url = "https://huggingface.co/api/models"
         params = {
             "sort": "likes7d",
             "direction": "-1",
             "limit": 8,
-            "full": "false",
+            "full": "true",   # 拉 full 字段，含 pipeline_tag 和 cardData
             "config": "false",
         }
         resp = requests.get(url, params=params, headers=HEADERS, timeout=15)
@@ -64,12 +123,29 @@ def _fetch_hf_trending() -> list[dict]:
             model_id = m.get("id") or ""
             if not model_id:
                 continue
+
+            pipeline_tag = m.get("pipeline_tag") or ""
+            label = PIPELINE_LABEL.get(pipeline_tag, pipeline_tag.replace("-", " ").title() if pipeline_tag else "")
+
+            # 尝试从 cardData 拿简介
+            card_data = m.get("cardData") or {}
+            card_desc = ""
+            if isinstance(card_data, dict):
+                card_desc = (card_data.get("model_description") or card_data.get("description") or "")[:60]
+
+            # 从 model_id 提取简短可读名（去掉 org 前缀）
+            short_name = model_id.split("/")[-1] if "/" in model_id else model_id
+
             result.append({
                 "name": model_id,
+                "short_name": short_name,
                 "likes": m.get("likes") or 0,
                 "downloads": m.get("downloads") or 0,
                 "url": f"https://huggingface.co/{model_id}",
                 "tags": (m.get("tags") or [])[:3],
+                "pipeline_tag": pipeline_tag,
+                "label": label,           # 中文类型说明
+                "card_desc": card_desc,   # model card 简介（可能为空）
             })
         return result
     except Exception as e:

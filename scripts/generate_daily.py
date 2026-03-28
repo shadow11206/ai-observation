@@ -136,11 +136,7 @@ def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
 1. top_items 选 1-3 条，只选真正重要的，不凑数
 2. 所有 title 字段必须是中文，英文标题需翻译
 3. finding 要通俗易懂，像给聪明的非专业人士解释，不堆砌术语
-4. key_data 提炼 2-4 个让读者「一眼知道这篇文章在讲什么」的短语，要求：
-   - 优先提取具体数字/比例/时间节点，如「降价60%」「4月发布」「25%市场份额」
-   - 其次提取核心动作或结论，如「停止训练」「开源权重」「超越GPT-4o」
-   - 禁止写背景概念、通用名词、英文缩写堆叠，如「大型强子对撞机（LHC）」「Coding plan售罄」「AI技术」这类没有信息量的词
-   - 每个不超过 10 字，方便快速扫读
+4. key_data 提炼 2-4 个最关键的数字/词组，每个不超过 10 字，方便快速扫读
 5. judgment 必须有明确立场，说明"这对谁意味着什么、会带来什么变化"
 6. confidence 为 1-5 的整数，代表信息可靠度：5=官方一手信息，4=权威媒体，3=可信来源，2=待验证，1=存疑
 7. deep_dive_suggestions 只推荐真正值得花半天以上研究的话题
@@ -159,8 +155,11 @@ def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
 
     raw_output = response.choices[0].message.content.strip()
 
-    # 提取 JSON（防止 AI 多输出了 markdown 代码块）
-    # 使用非贪婪 + 末尾锚定，避免截到最后一个 } 之后的多余字符
+    # 第一步：剥掉 AI 可能包裹的 markdown 代码块（```json ... ``` 或 ``` ... ```）
+    raw_output = re.sub(r'^```(?:json)?\s*', '', raw_output.strip())
+    raw_output = re.sub(r'\s*```\s*$', '', raw_output.strip())
+
+    # 第二步：提取最外层 {...}（防止 AI 在 JSON 前后多输出说明文字）
     json_match = re.search(r'(\{[\s\S]*\})\s*$', raw_output.strip())
     if json_match:
         raw_output = json_match.group(1)
@@ -194,6 +193,41 @@ def _format_info_for_prompt(items: list[dict]) -> str:
             f"   摘要：{item['summary'][:200]}...\n"
         )
     return "\n".join(lines)
+
+
+def _generate_hf_summary(hf_models: list[dict], config: dict) -> str:
+    """用 AI 根据今日 HF 榜单生成一句话解读（≤40字）"""
+    try:
+        api_key = os.environ.get("AI_API_KEY")
+        api_base = os.environ.get("AI_API_BASE", "https://api.deepseek.com")
+        if not api_key:
+            return ""
+        client = OpenAI(api_key=api_key, base_url=api_base)
+
+        lines = []
+        for m in hf_models[:8]:
+            label = m.get("label") or m.get("pipeline_tag") or ""
+            short = m.get("short_name") or m.get("name", "").split("/")[-1]
+            lines.append(f"- {short}（{label}）❤️{m.get('likes', 0)}")
+        model_list = "\n".join(lines)
+
+        resp = client.chat.completions.create(
+            model=config["ai"]["model"],
+            messages=[
+                {"role": "system", "content": "你是 AI 行业观察者，擅长简洁总结趋势。"},
+                {"role": "user", "content": (
+                    f"以下是今日 Hugging Face 热门模型榜单：\n{model_list}\n\n"
+                    "请用一句话（≤40字）总结今日榜单的整体趋势，要有观点，不要说废话。"
+                    "直接输出总结文字，不加引号和标点。"
+                )},
+            ],
+            max_tokens=80,
+            temperature=0.7,
+        )
+        return resp.choices[0].message.content.strip()
+    except Exception as e:
+        print(f"  ⚠️ HF 一句话解读生成失败：{e}")
+        return ""
 
 
 def save_report(report_data: dict, snapshot: dict, config: dict) -> tuple[Path, Path]:
@@ -306,6 +340,11 @@ def main():
     # Step 3: AI 生成结构化日报
     print("\n🤖 正在调用 AI 生成日报...")
     report_data = generate_report_with_ai(raw_info, config)
+
+    # Step 3.5: 给 snapshot 加 HF 一句话解读
+    if snapshot.get("hf_trending"):
+        print("\n💬 生成 HF 快照一句话解读...")
+        snapshot["hf_summary"] = _generate_hf_summary(snapshot["hf_trending"], config)
 
     # Step 4: 保存双格式
     save_report(report_data, snapshot, config)
