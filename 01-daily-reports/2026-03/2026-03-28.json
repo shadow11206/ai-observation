@@ -1,0 +1,199 @@
+{
+  "date": "2026-03-28",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "GLM-5.1模型权重将于4月6-7日发布",
+      "judgment": "这意味着智谱AI即将发布其下一代开源模型，是继DeepSeek V3之后中国开源模型力量的又一次重要展示，将直接影响全球开源模型格局和开发者选择。",
+      "source": "Reddit r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s5l23i/glm51_model_weight_will_be_released_on_april_6_or/",
+      "tags": [
+        "模型动态",
+        "开源"
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "钉钉CLI开源，首批开放10项核心产品能力",
+      "judgment": "这意味着钉钉正从封闭的办公应用向开放的开发者平台转型，通过开源CLI和原生支持ClaudeCode等AI工具，试图构建自己的AI原生开发生态，是企业级AI应用平台化的重要信号。",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/03/392828.html",
+      "tags": [
+        "产品发布",
+        "开源",
+        "行业趋势"
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "月之暗面（Moonshot AI）考虑赴香港IPO",
+      "judgment": "这意味着以Kimi为代表的中国消费级AI应用公司已进入商业化成熟阶段，寻求二级市场融资，其估值和上市进程将成为衡量中国AI初创公司价值的重要风向标。",
+      "source": "InfoQ AI",
+      "url": "https://www.infoq.cn/article/HUWHl1y4s0K0fNxm7iv0?utm_source=rss&utm_medium=article",
+      "tags": [
+        "商业化"
+      ]
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv cs.AI",
+      "title": "PLDR-LLMs Reason At Self-Organized Criticality",
+      "summary": "研究发现，在自组织临界点预训练的PLDR-LLMs在推理时展现出推理能力。其演绎输出的特征与人类推理过程相似，为理解LLM的推理机制提供了新视角。",
+      "url": "https://arxiv.org/abs/2603.23539",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "Skipping 90% of KV dequant work → +22.8% decode at 32K (llama.cpp, TurboQuant)",
+      "summary": "开发者在llama.cpp中实现Google的TurboQuant KV缓存压缩方法时，发现反量化是瓶颈。通过跳过90%的反量化工作，在32K长上下文下解码速度提升22.8%，展示了推理端优化的巨大潜力。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s56g07/skipping_90_of_kv_dequant_work_228_decode_at_32k/",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "Synthetic Mixed Training: Scaling Parametric Knowledge Acquisition Beyond RAG",
+      "summary": "论文提出“合成混合训练”方法，通过混合真实数据和合成数据来扩展语言模型获取参数化知识的能力，旨在超越RAG的局限，在数据受限的领域更有效地学习新知识。",
+      "url": "https://arxiv.org/abs/2603.23562",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "量子位",
+      "title": "国产玩家亮剑世界模型！天工AI发布全模态能力",
+      "summary": "昆仑万维天工AI宣布其大模型已具备全模态能力，并宣称已迈入“AI原生的平台经济时代”，展示了国内厂商在多模态和世界模型赛道上的竞争态势。",
+      "url": "https://www.qbitai.com/2026/03/392835.html",
+      "importance": 2
+    },
+    {
+      "source": "量子位",
+      "title": "趋境科技发布ATaaS：高效能AI Token生产服务平台",
+      "summary": "趋境科技发布“ATaaS”服务平台，旨在通过优化硬件和软件协同，提供全球领先的高效能AI Token生产能力，挑战“硬件高投入等于高效产出”的传统观念。",
+      "url": "https://www.qbitai.com/2026/03/392896.html",
+      "importance": 2
+    },
+    {
+      "source": "LangChain Blog",
+      "title": "Agent Evaluation Readiness Checklist",
+      "summary": "LangChain发布了一份实用的Agent评估准备清单，涵盖错误分析、数据集构建、评分器设计、离线和在线评估以及生产就绪性，为Agent的工程化落地提供了系统化指南。",
+      "url": "https://blog.langchain.com/agent-evaluation-readiness-checklist/",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "使用新M5 MacBook Pro进行SwiftUI的Vibe Coding非常有趣。这表明本地运行强大LLM的能力正在改变个人开发者的工作流，使得快速原型设计和交互式开发变得更加容易和高效。",
+      "source": "https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "GLM-5.1的技术架构与性能预期",
+      "reason": "作为中国开源模型的下一个重磅发布，其架构创新（如MoE扩展）、性能表现及与DeepSeek V3的对比，将决定未来半年中文开源生态的走向。",
+      "priority": "high"
+    },
+    {
+      "topic": "TurboQuant等推理端优化技术的工程实现与影响",
+      "reason": "KV缓存压缩和反量化优化带来超过20%的解码速度提升，这类推理端“挤牙膏”式优化对降低AI应用成本、推动边缘部署有重大实际意义。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "GLM-5.1发布在即，开源与推理优化成焦点。",
+  "snapshot": {
+    "date": "2026-03-28",
+    "hf_trending": [
+      {
+        "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "likes": 1475,
+        "downloads": 218652,
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "tags": [
+          "safetensors",
+          "qwen3_5",
+          "unsloth"
+        ]
+      },
+      {
+        "name": "mistralai/Voxtral-4B-TTS-2603",
+        "likes": 341,
+        "downloads": 556,
+        "url": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
+        "tags": [
+          "vllm",
+          "mistral-common",
+          "text-to-speech"
+        ]
+      },
+      {
+        "name": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "likes": 1013,
+        "downloads": 455871,
+        "url": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "tags": [
+          "gguf",
+          "uncensored",
+          "qwen3.5"
+        ]
+      },
+      {
+        "name": "CohereLabs/cohere-transcribe-03-2026",
+        "likes": 291,
+        "downloads": 3964,
+        "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "cohere_asr"
+        ]
+      },
+      {
+        "name": "nvidia/Nemotron-Cascade-2-30B-A3B",
+        "likes": 345,
+        "downloads": 63402,
+        "url": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "nemotron_h"
+        ]
+      },
+      {
+        "name": "GAIR/daVinci-MagiHuman",
+        "likes": 212,
+        "downloads": 350,
+        "url": "https://huggingface.co/GAIR/daVinci-MagiHuman",
+        "tags": [
+          "safetensors",
+          "text-to-video",
+          "image-text-to-video"
+        ]
+      },
+      {
+        "name": "baidu/Qianfan-OCR",
+        "likes": 441,
+        "downloads": 13151,
+        "url": "https://huggingface.co/baidu/Qianfan-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "internvl_chat"
+        ]
+      },
+      {
+        "name": "chromadb/context-1",
+        "likes": 164,
+        "downloads": 130,
+        "url": "https://huggingface.co/chromadb/context-1",
+        "tags": [
+          "safetensors",
+          "gpt_oss",
+          "base_model:openai/gpt-oss-20b"
+        ]
+      }
+    ],
+    "github_trending": []
+  }
+}
