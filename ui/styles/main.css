@@ -1021,224 +1021,170 @@ img { max-width: 100%; }
   transform: translateY(0);
 }
 
-/* ---------- REPORT DETAIL: 苹果风格卡片系统 ---------- */
+/* ---------- REPORT DETAIL: top-item / news-item 新结构 ---------- */
 
-/* ── section wrapper ── */
-.report-content section {
-  margin-bottom: 3rem;
-}
-
-/* ── section 标题 ── */
-.section-title {
-  font-family: var(--font-serif);
-  font-size: 1.4rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  color: var(--text-primary);
-  margin-bottom: 1.25rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-.section-icon { font-size: 1.2rem; }
-.section-empty {
-  font-size: 14px;
-  color: var(--text-tertiary);
-  padding: 1.5rem 0;
-}
-
-/* ── TOP ITEM 卡片（今日最重要） ── */
+/* top-item 容器 */
 .top-item {
   display: flex;
-  gap: 1.5rem;
-  padding: 1.75rem;
-  background: var(--bg-alt);
-  border: 1px solid var(--border);
-  border-radius: var(--r-md);
-  margin-bottom: 1rem;
-  transition: box-shadow 0.25s var(--ease), transform 0.25s var(--ease);
+  gap: 1.25rem;
+  padding: 1.75rem 0;
+  border-bottom: 1px solid var(--border);
 }
-.top-item:hover {
-  box-shadow: var(--shadow-md);
-  transform: translateY(-2px);
-}
+.top-item:last-child { border-bottom: none; }
 
 .top-item-rank {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 800;
   color: var(--accent);
-  opacity: 0.18;
-  min-width: 2.8rem;
+  opacity: 0.25;
+  min-width: 2.5rem;
   line-height: 1;
-  padding-top: 0.15rem;
+  padding-top: 0.2rem;
   font-variant-numeric: tabular-nums;
-  flex-shrink: 0;
 }
-
-.top-item-body { flex: 1; min-width: 0; }
 
 .top-item-title {
   font-size: 1.05rem;
   font-weight: 700;
   color: var(--text-primary);
-  line-height: 1.5;
-  margin-bottom: 1rem;
-  letter-spacing: -0.015em;
+  line-height: 1.45;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.01em;
 }
 
-/* ── NEWS CARD 卡片（模型技术 / 公司产品） ── */
-.news-card {
-  background: var(--bg-alt);
-  border: 1px solid var(--border);
-  border-radius: var(--r-md);
-  padding: 1.5rem;
-  margin-bottom: 1rem;
-  transition: box-shadow 0.25s var(--ease), transform 0.25s var(--ease);
-}
-.news-card:hover {
-  box-shadow: var(--shadow-sm);
-  transform: translateY(-1px);
+/* 核心发现 / 影响判断行 */
+.top-item-finding,
+.top-item-judgment,
+.news-finding,
+.news-judgment {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 0.6rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
 }
 
-.news-card-header {
+/* 标签式前缀 */
+.finding-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #16a34a;
+  background: rgba(22,163,74,0.08);
+  padding: 2px 8px;
+  border-radius: 100px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+.judgment-label {
+  color: #d97706;
+  background: rgba(217,119,6,0.1);
+}
+
+/* 关键数据 chip 行 */
+.key-data-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+  flex-wrap: wrap;
+}
+.key-data-chips {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+.key-chip {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  background: rgba(0,113,227,0.08);
+  border: 1px solid rgba(0,113,227,0.18);
+  padding: 3px 10px;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+/* 信心星级 */
+.confidence-stars {
+  font-size: 12px;
+  color: #f59e0b;
+  letter-spacing: 0.05em;
+}
+
+/* 原文按钮 */
+.source-btn {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 4px 12px;
+  border: 1.5px solid var(--accent);
+  border-radius: 100px;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.source-btn:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* footer 行：来源+星级 左，原文按钮 右 */
+.top-item-footer,
+.news-item-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.top-item-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* news-item 容器（模型技术 / 公司产品） */
+.news-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.news-item:last-child { border-bottom: none; }
+
+.news-item-header {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 1rem;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
 }
-.news-card-title {
-  font-size: 0.95rem;
+.news-item-title {
+  font-size: 15px;
   font-weight: 700;
   color: var(--text-primary);
   line-height: 1.5;
   letter-spacing: -0.01em;
 }
-.news-stars {
-  font-size: 11px;
+.news-importance {
+  font-size: 12px;
   white-space: nowrap;
   flex-shrink: 0;
-  letter-spacing: 0.05em;
-  color: #f59e0b;
-  margin-top: 2px;
 }
-.news-card-source {
+.news-item-source {
   font-size: 12px;
   color: var(--text-tertiary);
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.6rem;
 }
-.news-card-summary {
+.news-item-summary {
   font-size: 14px;
   color: var(--text-secondary);
   line-height: 1.7;
   margin-bottom: 0.5rem;
-}
-
-/* ── 行式标签 + 正文（finding / key_data / judgment 共用） ── */
-.item-row {
-  display: flex;
-  gap: 0.6rem;
-  align-items: flex-start;
-  margin-bottom: 0.65rem;
-}
-.item-row .chips {
-  display: flex;
-  gap: 0.4rem;
-  flex-wrap: wrap;
-  margin-top: 1px;
-}
-
-.judgment-block {
-  display: flex;
-  gap: 0.6rem;
-  align-items: flex-start;
-  margin-bottom: 0.65rem;
-  padding: 0.75rem 1rem;
-  background: rgba(245,158,11,0.05);
-  border-left: 2px solid rgba(217,119,6,0.35);
-  border-radius: 0 var(--r-sm) var(--r-sm) 0;
-}
-
-/* 标签胶囊 */
-.row-label {
-  display: inline-block;
-  font-size: 10.5px;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  padding: 2px 8px;
-  border-radius: 100px;
-  white-space: nowrap;
-  flex-shrink: 0;
-  margin-top: 2px;
-}
-.row-label.finding {
-  color: #16a34a;
-  background: rgba(22,163,74,0.08);
-}
-.row-label.key {
-  color: var(--accent);
-  background: rgba(0,113,227,0.08);
-}
-.row-label.judgment {
-  color: #d97706;
-  background: rgba(217,119,6,0.1);
-}
-
-.row-text {
-  font-size: 14px;
-  color: var(--text-secondary);
-  line-height: 1.7;
-}
-
-/* 关键数据 chip */
-.chip {
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--accent);
-  background: rgba(0,113,227,0.07);
-  border: 1px solid rgba(0,113,227,0.15);
-  padding: 3px 10px;
-  border-radius: 100px;
-  white-space: nowrap;
-  line-height: 1.4;
-}
-
-/* ── 卡片底栏（来源 + 原文按钮） ── */
-.item-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 1rem;
-  padding-top: 0.75rem;
-  border-top: 1px solid var(--border);
-  gap: 0.5rem;
-  flex-wrap: wrap;
-}
-.item-source {
-  font-size: 12px;
-  color: var(--text-tertiary);
-}
-
-/* 原文 → 链接按钮（苹果极简风格） */
-.source-link {
-  display: inline-flex;
-  align-items: center;
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--accent);
-  text-decoration: none;
-  padding: 5px 14px;
-  border-radius: 980px;
-  border: 1px solid rgba(0,113,227,0.3);
-  background: transparent;
-  transition: background 0.2s var(--ease), color 0.2s var(--ease), border-color 0.2s var(--ease);
-  white-space: nowrap;
-  line-height: 1;
-}
-.source-link:hover {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: #fff;
 }
 
 /* ---------- RESPONSIVE ---------- */

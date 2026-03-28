@@ -83,8 +83,9 @@ def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
       "rank": 1,
       "title": "事件标题（必须是中文，如原标题是英文请翻译成中文）",
       "finding": "核心发现：用2-3句话说清楚发生了什么，面向普通读者，通俗易懂，避免专业术语堆砌",
-      "key_data": ["只填有实质意义的关键信息，如具体数字/里程碑/反常识结论，没有则返回空数组[]"],
+      "key_data": ["关键数据或关键词1", "关键数据或关键词2", "关键数据或关键词3"],
       "judgment": "影响判断：这对 AI 行业/产品经理/开发者意味着什么，要有明确立场",
+      "confidence": 4,
       "source": "来源名称",
       "url": "原文链接"
     }}
@@ -94,8 +95,9 @@ def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
       "source": "来源",
       "title": "标题（必须是中文）",
       "finding": "核心发现：2句话说清楚，通俗易懂",
-      "key_data": ["只填有实质意义的关键信息，没有则返回空数组[]"],
+      "key_data": ["关键数据1", "关键数据2"],
       "judgment": "影响判断（50字以内）",
+      "confidence": 3,
       "url": "链接",
       "importance": 3
     }}
@@ -105,10 +107,19 @@ def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
       "source": "来源",
       "title": "标题（必须是中文）",
       "finding": "核心发现：2句话说清楚，通俗易懂",
-      "key_data": ["只填有实质意义的关键信息，没有则返回空数组[]"],
+      "key_data": ["关键数据1", "关键数据2"],
       "judgment": "影响判断（50字以内）",
+      "confidence": 3,
       "url": "链接",
       "importance": 2
+    }}
+  ],
+  "opinions": [
+    {{
+      "person": "人物名",
+      "level": "L1",
+      "quote": "核心观点（100字以内）",
+      "source": "来源链接"
     }}
   ],
   "deep_dive_suggestions": [
@@ -122,13 +133,12 @@ def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
 }}
 
 要求：
-1. top_items 选 1-5 条，按重要性排序，真正重要的全部选出来，不要限制在3条内
-2. model_tech / company_product 同样不限条数，有几条值得关注的就写几条，宁可多不要少
-3. 所有 title 字段必须是中文，英文标题需翻译
-4. finding 要通俗易懂，像给聪明的非专业人士解释，不堆砌术语
-5. key_data 只填有实质意义的信息：具体数字（如"提升22.8%"）、关键里程碑（如"首次实现X"）、反常识结论（如"比GPT-4快10倍"）；
-   纯描述性词组（如"知识工作流程改造"、"生产就绪"）一律不填，没有有价值的关键信息就返回空数组 []
-6. judgment 必须有明确立场，说明"这对谁意味着什么、会带来什么变化"
+1. top_items 选 1-3 条，只选真正重要的，不凑数
+2. 所有 title 字段必须是中文，英文标题需翻译
+3. finding 要通俗易懂，像给聪明的非专业人士解释，不堆砌术语
+4. key_data 提炼 2-4 个最关键的数字/词组，每个不超过 10 字，方便快速扫读
+5. judgment 必须有明确立场，说明"这对谁意味着什么、会带来什么变化"
+6. confidence 为 1-5 的整数，代表信息可靠度：5=官方一手信息，4=权威媒体，3=可信来源，2=待验证，1=存疑
 7. deep_dive_suggestions 只推荐真正值得花半天以上研究的话题
 8. 如果某个分类今天没有值得关注的内容，返回空数组 []
 """
@@ -145,11 +155,8 @@ def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
 
     raw_output = response.choices[0].message.content.strip()
 
-    # 第一步：剥掉 AI 可能包裹的 markdown 代码块（```json ... ``` 或 ``` ... ```）
-    raw_output = re.sub(r'^```(?:json)?\s*', '', raw_output.strip())
-    raw_output = re.sub(r'\s*```\s*$', '', raw_output.strip())
-
-    # 第二步：提取最外层 {...}（防止 AI 在 JSON 前后多输出说明文字）
+    # 提取 JSON（防止 AI 多输出了 markdown 代码块）
+    # 使用非贪婪 + 末尾锚定，避免截到最后一个 } 之后的多余字符
     json_match = re.search(r'(\{[\s\S]*\})\s*$', raw_output.strip())
     if json_match:
         raw_output = json_match.group(1)

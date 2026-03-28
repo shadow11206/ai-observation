@@ -48,10 +48,10 @@ function renderReport(data) {
     ${renderTopItems(data.top_items || [])}
     ${renderModelTech(data.model_tech || [])}
     ${renderCompany(data.company_product || [])}
+    ${renderOpinions(data.opinions || [])}
     ${renderDeepDive(data.deep_dive_suggestions || [])}
     ${renderSnapshot(data.snapshot || {})}
   `;
-  // opinions 模块暂时隐藏，待 Level 2 信源（Twitter/博客 RSS）接入后开放
 
   // 初始化侧边栏高亮
   initSidebarHighlight();
@@ -71,13 +71,14 @@ function renderTopItems(items) {
               ${item.finding ? `<div class="top-item-finding"><span class="finding-label">核心发现</span>${item.finding}</div>` : ''}
               ${(item.key_data || []).length ? `
                 <div class="key-data-row">
-                  <span class="finding-label">关键信息</span>
+                  <span class="finding-label">关键数据</span>
                   <div class="key-data-chips">${(item.key_data || []).map(d => `<span class="key-chip">${d}</span>`).join('')}</div>
                 </div>` : ''}
               ${item.judgment ? `<div class="top-item-judgment"><span class="finding-label judgment-label">影响判断</span>${item.judgment}</div>` : ''}
               <div class="top-item-footer">
                 <div class="top-item-meta">
                   ${item.source ? `<span style="font-size:12px;color:var(--text-tertiary)">来源：${item.source}</span>` : ''}
+                  ${item.confidence ? `<span class="confidence-stars">${'★'.repeat(item.confidence)}${'☆'.repeat(5 - item.confidence)}</span>` : ''}
                 </div>
                 ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener" class="source-btn">原文 →</a>` : ''}
               </div>
@@ -99,12 +100,12 @@ function renderNewsCard(item) {
       ${item.finding ? `<div class="news-finding"><span class="finding-label">核心发现</span>${item.finding}</div>` : (item.summary ? `<div class="news-item-summary">${item.summary}</div>` : '')}
       ${(item.key_data || []).length ? `
         <div class="key-data-row">
-          <span class="finding-label">关键信息</span>
+          <span class="finding-label">关键数据</span>
           <div class="key-data-chips">${(item.key_data || []).map(d => `<span class="key-chip">${d}</span>`).join('')}</div>
         </div>` : ''}
       ${item.judgment ? `<div class="news-judgment"><span class="finding-label judgment-label">影响判断</span>${item.judgment}</div>` : ''}
       <div class="news-item-footer">
-        <span></span>
+        ${item.confidence ? `<span class="confidence-stars">${'★'.repeat(item.confidence)}${'☆'.repeat(5 - item.confidence)}</span>` : '<span></span>'}
         ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener" class="source-btn">原文 →</a>` : ''}
       </div>
     </div>
