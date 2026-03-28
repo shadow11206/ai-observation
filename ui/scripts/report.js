@@ -66,21 +66,49 @@ function renderTopItems(items) {
         : items.map(item => `
           <div class="top-item">
             <div class="top-item-rank">${String(item.rank ?? 1).padStart(2, '0')}</div>
-            <div>
-              <div class="top-item-title">
-                ${item.url
-                  ? `<a href="${item.url}" target="_blank" rel="noopener">${item.title}</a>`
-                  : item.title}
-              </div>
-              <div class="top-item-judgment">${item.judgment || ''}</div>
-              <div class="top-item-meta">
-                ${item.source ? `<span style="font-size:12px;color:var(--text-tertiary)">来源：${item.source}</span>` : ''}
-                ${(item.tags || []).map(tag => `<span class="opinion-tag">${tag}</span>`).join('')}
+            <div style="flex:1;min-width:0">
+              <div class="top-item-title">${item.title || ''}</div>
+              ${item.finding ? `<div class="top-item-finding"><span class="finding-label">核心发现</span>${item.finding}</div>` : ''}
+              ${(item.key_data || []).length ? `
+                <div class="key-data-row">
+                  <span class="finding-label">关键数据</span>
+                  <div class="key-data-chips">${(item.key_data || []).map(d => `<span class="key-chip">${d}</span>`).join('')}</div>
+                </div>` : ''}
+              ${item.judgment ? `<div class="top-item-judgment"><span class="finding-label judgment-label">影响判断</span>${item.judgment}</div>` : ''}
+              <div class="top-item-footer">
+                <div class="top-item-meta">
+                  ${item.source ? `<span style="font-size:12px;color:var(--text-tertiary)">来源：${item.source}</span>` : ''}
+                  ${item.confidence ? `<span class="confidence-stars">${'★'.repeat(item.confidence)}${'☆'.repeat(5 - item.confidence)}</span>` : ''}
+                </div>
+                ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener" class="source-btn">原文 →</a>` : ''}
               </div>
             </div>
           </div>
         `).join('')}
     </section>
+  `;
+}
+
+function renderNewsCard(item) {
+  return `
+    <div class="news-item">
+      <div class="news-item-header">
+        <div class="news-item-title">${item.title || ''}</div>
+        <div class="news-importance">${'⭐'.repeat(Math.min(Math.max(item.importance || 2, 1), 5))}</div>
+      </div>
+      <div class="news-item-source">${item.source || ''}</div>
+      ${item.finding ? `<div class="news-finding"><span class="finding-label">核心发现</span>${item.finding}</div>` : (item.summary ? `<div class="news-item-summary">${item.summary}</div>` : '')}
+      ${(item.key_data || []).length ? `
+        <div class="key-data-row">
+          <span class="finding-label">关键数据</span>
+          <div class="key-data-chips">${(item.key_data || []).map(d => `<span class="key-chip">${d}</span>`).join('')}</div>
+        </div>` : ''}
+      ${item.judgment ? `<div class="news-judgment"><span class="finding-label judgment-label">影响判断</span>${item.judgment}</div>` : ''}
+      <div class="news-item-footer">
+        ${item.confidence ? `<span class="confidence-stars">${'★'.repeat(item.confidence)}${'☆'.repeat(5 - item.confidence)}</span>` : '<span></span>'}
+        ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener" class="source-btn">原文 →</a>` : ''}
+      </div>
+    </div>
   `;
 }
 
@@ -90,20 +118,7 @@ function renderModelTech(items) {
       <h2 class="section-title"><span class="section-icon">🔬</span> 模型 / 技术动态</h2>
       ${items.length === 0
         ? '<div class="section-empty">今日无值得关注的模型技术动态</div>'
-        : items.map(item => `
-          <div class="news-item">
-            <div class="news-item-header">
-              <div class="news-item-title">
-                ${item.url
-                  ? `<a href="${item.url}" target="_blank" rel="noopener">${item.title}</a>`
-                  : item.title}
-              </div>
-              <div class="news-importance">${'⭐'.repeat(Math.min(Math.max(item.importance || 2, 1), 5))}</div>
-            </div>
-            <div class="news-item-source">${item.source || ''}</div>
-            <div class="news-item-summary">${item.summary || ''}</div>
-          </div>
-        `).join('')}
+        : items.map(item => renderNewsCard(item)).join('')}
     </section>
   `;
 }
@@ -114,7 +129,14 @@ function renderCompany(items) {
       <h2 class="section-title"><span class="section-icon">🏢</span> 公司 / 产品动态</h2>
       ${items.length === 0
         ? '<div class="section-empty">今日无值得关注的公司产品动态</div>'
-        : items.map(item => `
+        : items.map(item => renderNewsCard(item)).join('')}
+    </section>
+  `;
+}
+
+// placeholder to maintain structure
+function _removed(item) {
+  return `
           <div class="news-item">
             <div class="news-item-header">
               <div class="news-item-title">

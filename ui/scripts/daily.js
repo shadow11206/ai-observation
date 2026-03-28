@@ -41,12 +41,11 @@ function renderCard(data) {
   const weekdays = ['日', '一', '二', '三', '四', '五', '六'];
   const dateLabel = `${d.getFullYear()} 年 ${d.getMonth() + 1} 月 ${d.getDate()} 日 · 星期${weekdays[d.getDay()]}`;
 
-  // 收集所有 tags
-  const allTags = [...new Set(top_items.flatMap(i => i.tags || []))];
+  // 收集 key_data（优先）或 tags（fallback）
+  const allKeyData = [...new Set(top_items.flatMap(i => i.key_data || i.tags || []))];
 
   const card = document.createElement('div');
   card.className = 'daily-report reveal';
-  card.dataset.tags = allTags.join(',');
 
   card.innerHTML = `
     <div class="daily-report-header">
@@ -61,15 +60,15 @@ function renderCard(data) {
           <div class="daily-highlight-item">
             <span class="highlight-num">${String(item.rank || 1).padStart(2, '0')}</span>
             <span class="highlight-text">
-              <strong>${item.url ? `<a href="${item.url}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(0,0,0,0.15);">${item.title}</a>` : item.title}</strong> — ${item.judgment || ''}
-              ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener" style="font-size:11px;color:var(--accent);margin-left:0.5rem;white-space:nowrap;">原文 →</a>` : ''}
+              <strong>${item.title || ''}</strong>
+              ${item.judgment ? ` — ${item.judgment}` : ''}
             </span>
           </div>
         `).join('') || '<div style="padding:0.75rem 0;color:var(--text-tertiary);font-size:14px;">暂无内容</div>'}
       </div>
       <div style="display:flex;align-items:center;justify-content:space-between;margin-top:1.25rem;flex-wrap:wrap;gap:0.75rem;">
         <div style="display:flex;gap:0.5rem;flex-wrap:wrap;">
-          ${allTags.slice(0, 3).map(tag => `<span class="opinion-tag">${tag}</span>`).join('')}
+          ${allKeyData.slice(0, 4).map(chip => `<span class="key-chip">${chip}</span>`).join('')}
         </div>
         <a href="report.html?date=${date}" class="report-link" style="font-size:14px;white-space:nowrap;">阅读全文 →</a>
       </div>

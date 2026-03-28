@@ -81,18 +81,23 @@ def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
   "top_items": [
     {{
       "rank": 1,
-      "title": "事件标题",
-      "judgment": "一句话判断：这意味着什么",
+      "title": "事件标题（必须是中文，如原标题是英文请翻译成中文）",
+      "finding": "核心发现：用2-3句话说清楚发生了什么，面向普通读者，通俗易懂，避免专业术语堆砌",
+      "key_data": ["关键数据或关键词1", "关键数据或关键词2", "关键数据或关键词3"],
+      "judgment": "影响判断：这对 AI 行业/产品经理/开发者意味着什么，要有明确立场",
+      "confidence": 4,
       "source": "来源名称",
-      "url": "原文链接",
-      "tags": ["模型动态"]
+      "url": "原文链接"
     }}
   ],
   "model_tech": [
     {{
       "source": "来源",
-      "title": "标题",
-      "summary": "100字以内摘要",
+      "title": "标题（必须是中文）",
+      "finding": "核心发现：2句话说清楚，通俗易懂",
+      "key_data": ["关键数据1", "关键数据2"],
+      "judgment": "影响判断（50字以内）",
+      "confidence": 3,
       "url": "链接",
       "importance": 3
     }}
@@ -100,8 +105,11 @@ def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
   "company_product": [
     {{
       "source": "来源",
-      "title": "标题",
-      "summary": "100字以内摘要",
+      "title": "标题（必须是中文）",
+      "finding": "核心发现：2句话说清楚，通俗易懂",
+      "key_data": ["关键数据1", "关键数据2"],
+      "judgment": "影响判断（50字以内）",
+      "confidence": 3,
       "url": "链接",
       "importance": 2
     }}
@@ -116,20 +124,23 @@ def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
   ],
   "deep_dive_suggestions": [
     {{
-      "topic": "话题名称",
+      "topic": "话题名称（中文）",
       "reason": "为什么值得深挖（50字以内）",
       "priority": "high"
     }}
   ],
-  "summary_one_line": "今日一句话总结（20字以内）"
+  "summary_one_line": "今日一句话总结（20字以内，中文）"
 }}
 
 要求：
 1. top_items 选 1-3 条，只选真正重要的，不凑数
-2. 每条 judgment 必须有观点，说明"这意味着什么"
-3. deep_dive_suggestions 只推荐真正值得花半天以上研究的话题
-4. 如果某个分类今天没有值得关注的内容，返回空数组 []
-5. tags 从以下选择：模型动态、产品发布、技术突破、商业化、开源、观点解读、行业趋势
+2. 所有 title 字段必须是中文，英文标题需翻译
+3. finding 要通俗易懂，像给聪明的非专业人士解释，不堆砌术语
+4. key_data 提炼 2-4 个最关键的数字/词组，每个不超过 10 字，方便快速扫读
+5. judgment 必须有明确立场，说明"这对谁意味着什么、会带来什么变化"
+6. confidence 为 1-5 的整数，代表信息可靠度：5=官方一手信息，4=权威媒体，3=可信来源，2=待验证，1=存疑
+7. deep_dive_suggestions 只推荐真正值得花半天以上研究的话题
+8. 如果某个分类今天没有值得关注的内容，返回空数组 []
 """
 
     response = client.chat.completions.create(
