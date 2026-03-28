@@ -4,13 +4,13 @@
     {
       "rank": 1,
       "title": "华为盘古大模型负责人王云鹤离职，被曝Agent创业",
-      "finding": "华为盘古大模型的核心负责人王云鹤已从华为离职，据传将投身于AI Agent领域的创业。",
+      "finding": "华为盘古大模型的核心负责人王云鹤已从华为离职，据传将投身于AI Agent领域的创业。这标志着国内大厂顶尖AI人才正加速流向更具创新活力的创业赛道。",
       "key_data": [
         "华为盘古大模型负责人",
         "离职创业",
         "AI Agent领域"
       ],
-      "judgment": "这意味着国内大厂顶级AI人才正加速流向创业市场，特别是Agent这一热门赛道，可能催生新的竞争格局，并反映出大厂内部创新与创业公司吸引力之间的张力。",
+      "judgment": "这意味着国内大模型领域的顶尖人才正在从大厂向创业公司流动，AI Agent作为当前最热门的应用方向，将吸引更多资源和人才涌入，可能加速国内Agent产品的落地和竞争。",
       "confidence": 4,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/03/392903.html"
@@ -18,28 +18,27 @@
     {
       "rank": 2,
       "title": "GLM-5.1上线，编程表现贴Opus 4.6开大，Coding plan瞬间断货",
-      "finding": "智谱AI发布了GLM-5.1模型，其编程能力相比上一代大幅提升近10分，据称接近Claude 3.5 Opus的水平，其编程相关的付费计划（Coding plan）上线后迅速售罄。",
+      "finding": "智谱AI发布了GLM-5.1模型，其编程能力相比上一代大幅提升近10分，据称已接近Claude 3.5 Opus的水平。其配套的Coding Plan服务因需求火爆而迅速售罄。",
       "key_data": [
         "GLM-5.1发布",
         "编程能力飙升近10分",
-        "Coding plan售罄"
+        "Coding Plan售罄"
       ],
-      "judgment": "这意味着国产大模型在核心生产力场景（编程）上正快速逼近国际顶级水平，并已形成有效的付费用户群体，模型能力与商业化验证开始形成正循环。",
+      "judgment": "这意味着国产大模型在核心的编程能力上正快速追赶国际顶尖水平，开发者有了更强大的本土工具选择。Coding Plan的抢手也反映出市场对高质量、高性价比AI编程服务的强烈需求。",
       "confidence": 4,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/03/392914.html"
     },
     {
       "rank": 3,
-      "title": "CERN使用烧录在硅片上的微型AI模型进行LHC实时数据过滤",
-      "finding": "欧洲核子研究中心（CERN）将微小的AI模型直接烧录到专用硅芯片中，用于大型强子对撞机（LHC）的实时数据过滤，以应对极端的数据处理需求。",
+      "title": "CERN将微型AI模型烧入硅芯片，用于实时过滤LHC数据",
+      "finding": "欧洲核子研究中心（CERN）将微小的AI模型直接固化到专用硅芯片中，用于实时过滤大型强子对撞机（LHC）产生的海量数据，以极低的延迟和功耗完成关键任务。",
       "key_data": [
-        "CERN",
-        "AI模型烧录进硅片",
-        "实时数据过滤",
-        "LHC"
+        "CERN（欧洲核子研究中心）",
+        "AI模型固化到芯片",
+        "实时过滤LHC数据"
       ],
-      "judgment": "这意味着AI模型硬件化、专用化正从边缘设备走向最前沿的科学计算领域，为超低延迟、高可靠性的关键任务提供了新范式，可能推动AI芯片设计的新方向。",
+      "judgment": "这意味着AI模型硬件化、专用化的趋势正从消费电子走向最前沿的科学计算领域。这种“算法即硬件”的模式为解决特定高吞吐量、低延迟问题提供了新范式，可能影响边缘计算和科学仪器的设计思路。",
       "confidence": 4,
       "source": "Hacker News",
       "url": "https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering"
@@ -48,61 +47,60 @@
   "model_tech": [
     {
       "source": "Reddit r/MachineLearning",
-      "title": "PentaNet：超越BitNet，原生五元{-2, -1, 0, 1, 2}量化",
-      "finding": "有研究者提出了PentaNet，一种比BitNet（1.58比特）更极端的量化方法，使用五元值{-2,-1,0,1,2}表示权重，旨在实现零乘法推理。",
+      "title": "PentaNet：超越BitNet，原生五值量化模型",
+      "finding": "有研究者提出了PentaNet，将模型权重量化为{-2, -1, 0, 1, 2}五个值，比BitNet的三值量化更进一步，旨在实现推理时零乘法运算，追求极致的推理效率。",
       "key_data": [
-        "五元量化",
-        "超越BitNet",
+        "五值量化 {-2,-1,0,1,2}",
+        "超越BitNet 1.58b",
         "零乘法推理"
       ],
-      "judgment": "这是模型压缩前沿的激进探索，若能成功，将极大降低边缘设备部署大模型的算力和能耗门槛。",
-      "confidence": 2,
+      "judgment": "模型量化竞赛进入白热化，从低比特走向极简数值表示，目标是彻底改变推理硬件需求，为端侧和低成本部署铺路。",
+      "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1s5l5l2/project_pentanet_pushing_beyond_bitnet_with/",
       "importance": 3
     },
     {
       "source": "Reddit r/LocalLLaMA",
-      "title": "TurboQuant在MLX上实现4.6倍KV缓存压缩",
-      "finding": "社区开发者将谷歌的TurboQuant KV缓存压缩技术移植到苹果MLX框架，在Qwen2.5-32B模型上实现了4.6倍压缩，同时保持98%的FP16推理速度。",
+      "title": "社区热议Google TurboQuant压缩技术",
+      "finding": "Google新提出的TurboQuant模型压缩方法引发开源社区高度关注。有开发者已尝试将其集成到llama.cpp，并在MacBook Air上成功运行Qwen 3.5-9B模型。",
       "key_data": [
-        "TurboQuant",
-        "4.6倍KV缓存压缩",
-        "98% FP16速度",
-        "MLX框架"
+        "Google TurboQuant",
+        "集成到llama.cpp",
+        "MacBook Air运行9B模型"
       ],
-      "judgment": "这表明前沿的推理优化技术正被快速工程化，显著提升了苹果芯片上运行大模型的效率和可用上下文长度。",
+      "judgment": "新的高效压缩技术能显著降低大模型本地运行门槛，推动消费级硬件上的AI应用普及，是开源社区创新的核心驱动力。",
       "confidence": 3,
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s5vhf6/turboquant_on_mlx_46x_kv_cache_compression_with/",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s5kdu0/google_turboquant_running_qwen_locally_on_macair/",
       "importance": 3
     }
   ],
   "company_product": [
     {
-      "source": "OpenAI Blog",
-      "title": "STADLER利用ChatGPT重塑拥有230年历史公司的知识工作",
-      "finding": "一家有230年历史的公司（STADLER）使用ChatGPT改造其知识工作流程，在650名员工中节省时间并加速了生产力。",
+      "source": "量子位",
+      "title": "趋境发布ATaaS平台，打造“Token工厂”",
+      "finding": "趋境科技发布ATaaS（Agent Training as a Service）平台，号称能打造日均产能达万亿Token的“Token工厂”，旨在为AI智能体提供大规模、高质量的训练数据服务。",
       "key_data": [
-        "230年历史公司",
-        "650名员工",
-        "ChatGPT改造知识工作"
+        "ATaaS平台",
+        "日均万亿Token产能",
+        "Agent训练数据服务"
       ],
-      "judgment": "这是AI赋能传统企业、提升内部效率的典型案例，展示了ChatGPT在企业级应用中的渗透深度和实用价值。",
-      "confidence": 5,
-      "url": "https://openai.com/index/stadler",
+      "judgment": "这表明AI产业链分工进一步细化，专门服务于Agent训练的数据基础设施开始出现，可能降低Agent开发门槛并提升其能力上限。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/03/392988.html",
       "importance": 2
     },
     {
-      "source": "量子位",
-      "title": "趋境ATaaS平台发布，打造日均万亿产能的“Token工厂”",
-      "finding": "趋境科技发布了ATaaS（AI Token as a Service）平台，旨在打造一个能日均生产万亿Token的“Token工厂”。",
+      "source": "OpenAI Blog",
+      "title": "OpenAI展示ChatGPT如何重塑230年历史企业的知识工作",
+      "finding": "OpenAI发布案例研究，展示瑞士工程公司STADLER如何利用ChatGPT改造其650名员工的知识工作流程，显著节省时间并提升生产力。",
       "key_data": [
-        "ATaaS平台",
-        "Token工厂",
-        "日均万亿产能"
+        "STADLER（230年历史）",
+        "650名员工",
+        "ChatGPT改造知识工作"
       ],
-      "judgment": "这反映了行业对高质量训练数据（Token）规模化生产的迫切需求，可能成为大模型训练基础设施的新环节。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/03/392988.html",
+      "judgment": "OpenAI持续通过标杆案例教育市场，证明ChatGPT在企业级知识工作场景中的实用价值，旨在推动其从工具向生产力平台演进。",
+      "confidence": 5,
+      "url": "https://openai.com/index/stadler",
       "importance": 2
     }
   ],
@@ -110,30 +108,30 @@
     {
       "person": "Simon Willison",
       "level": "L1",
-      "quote": "关于智能体编程：智能体会把问题磨成粉末。给它一个问题和一个while循环，从长期看，即使消耗一万亿个token，它也会解决这个问题。",
+      "quote": "关于智能体编程：智能体会把问题磨成粉末。给它一个问题和一个while循环，从长远来看，即使这意味着消耗一万亿个token，它也会解决这个问题。",
       "source": "https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "谷歌TurboQuant技术的工程化进展与影响",
-      "reason": "今日多条信息显示，社区正快速将谷歌的TurboQuant论文转化为实际工具（如llama.cpp补丁、MLX实现），并取得显著效果。这代表了从论文到实践的最短路径，值得深入跟踪其生态影响。",
+      "topic": "大厂顶尖AI人才流向Agent创业的动因与影响",
+      "reason": "华为盘古负责人离职创业是标志性事件，需深入分析其背后的大厂创新瓶颈、创业机会窗口及对国内Agent生态格局的潜在重塑。",
       "priority": "high"
     },
     {
-      "topic": "中国大模型核心人才流向Agent创业的浪潮",
-      "reason": "继此前多位大厂AI负责人离职创业后，今日华为盘古负责人王云鹤被曝投身Agent创业。这已形成趋势，需深入研究其背后的驱动因素、创业方向以及对国内AI竞争格局的潜在重塑。",
+      "topic": "从BitNet到PentaNet：极简化模型量化的技术路径与硬件影响",
+      "reason": "模型量化正从低比特走向极简数值表示（五值/三值），这不仅是算法创新，更可能彻底改变AI芯片设计逻辑，值得从技术原理到产业影响进行系统梳理。",
       "priority": "high"
     }
   ],
-  "summary_one_line": "国产模型能力逼近顶尖，核心人才涌向Agent创业。",
+  "summary_one_line": "人才涌向Agent创业，模型量化追求极致效率。",
   "snapshot": {
     "date": "2026-03-28",
     "hf_trending": [
       {
         "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "short_name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-        "likes": 1502,
+        "likes": 1503,
         "downloads": 253259,
         "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "tags": [
@@ -165,7 +163,7 @@
       {
         "name": "CohereLabs/cohere-transcribe-03-2026",
         "short_name": "cohere-transcribe-03-2026",
-        "likes": 314,
+        "likes": 315,
         "downloads": 12080,
         "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
         "tags": [
@@ -195,6 +193,22 @@
         "trend": "same"
       },
       {
+        "name": "baidu/Qianfan-OCR",
+        "short_name": "Qianfan-OCR",
+        "likes": 510,
+        "downloads": 14786,
+        "url": "https://huggingface.co/baidu/Qianfan-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "internvl_chat"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
         "name": "nvidia/Nemotron-Cascade-2-30B-A3B",
         "short_name": "Nemotron-Cascade-2-30B-A3B",
         "likes": 356,
@@ -209,22 +223,6 @@
         "label": "文本生成",
         "card_desc": "",
         "trend": "same"
-      },
-      {
-        "name": "baidu/Qianfan-OCR",
-        "short_name": "Qianfan-OCR",
-        "likes": 509,
-        "downloads": 14786,
-        "url": "https://huggingface.co/baidu/Qianfan-OCR",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "internvl_chat"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "new"
       },
       {
         "name": "GAIR/daVinci-MagiHuman",
@@ -245,7 +243,7 @@
       {
         "name": "chromadb/context-1",
         "short_name": "context-1",
-        "likes": 188,
+        "likes": 191,
         "downloads": 451,
         "url": "https://huggingface.co/chromadb/context-1",
         "tags": [
@@ -260,118 +258,6 @@
       }
     ],
     "github_trending": [],
-    "openrouter_ranking": [
-      {
-        "rank": 1,
-        "slug": "xiaomi/mimo-v2-pro-20260318",
-        "name": "mimo-v2-pro",
-        "org": "xiaomi",
-        "total_tokens": 603654385503,
-        "total_tokens_str": "604B",
-        "calls": 8685919,
-        "change": 11.4,
-        "url": "https://openrouter.ai/models/xiaomi/mimo-v2-pro-20260318"
-      },
-      {
-        "rank": 2,
-        "slug": "stepfun/step-3.5-flash",
-        "name": "step-3.5-flash",
-        "org": "stepfun",
-        "total_tokens": 222956538259,
-        "total_tokens_str": "223B",
-        "calls": 5472817,
-        "change": -18.3,
-        "url": "https://openrouter.ai/models/stepfun/step-3.5-flash"
-      },
-      {
-        "rank": 3,
-        "slug": "minimax/minimax-m2.7-20260318",
-        "name": "minimax-m2.7",
-        "org": "minimax",
-        "total_tokens": 195657130703,
-        "total_tokens_str": "196B",
-        "calls": 4642305,
-        "change": -1.5,
-        "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
-      },
-      {
-        "rank": 4,
-        "slug": "deepseek/deepseek-v3.2-20251201",
-        "name": "deepseek-v3.2",
-        "org": "deepseek",
-        "total_tokens": 174906497199,
-        "total_tokens_str": "175B",
-        "calls": 16789819,
-        "change": -2.4,
-        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
-      },
-      {
-        "rank": 5,
-        "slug": "anthropic/claude-4.6-sonnet-20260217",
-        "name": "claude-4.6-sonnet",
-        "org": "anthropic",
-        "total_tokens": 144640853454,
-        "total_tokens_str": "145B",
-        "calls": 3567596,
-        "change": -11.4,
-        "url": "https://openrouter.ai/models/anthropic/claude-4.6-sonnet-20260217"
-      },
-      {
-        "rank": 6,
-        "slug": "anthropic/claude-4.6-opus-20260205",
-        "name": "claude-4.6-opus",
-        "org": "anthropic",
-        "total_tokens": 144002844755,
-        "total_tokens_str": "144B",
-        "calls": 2548175,
-        "change": -10.3,
-        "url": "https://openrouter.ai/models/anthropic/claude-4.6-opus-20260205"
-      },
-      {
-        "rank": 7,
-        "slug": "google/gemini-3-flash-preview-20251217",
-        "name": "gemini-3-flash-preview",
-        "org": "google",
-        "total_tokens": 137149381600,
-        "total_tokens_str": "137B",
-        "calls": 15247517,
-        "change": -4.3,
-        "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
-      },
-      {
-        "rank": 8,
-        "slug": "z-ai/glm-5-turbo-20260315",
-        "name": "glm-5-turbo",
-        "org": "z-ai",
-        "total_tokens": 132779680952,
-        "total_tokens_str": "133B",
-        "calls": 1460764,
-        "change": -1.8,
-        "url": "https://openrouter.ai/models/z-ai/glm-5-turbo-20260315"
-      },
-      {
-        "rank": 9,
-        "slug": "minimax/minimax-m2.5-20260211",
-        "name": "minimax-m2.5",
-        "org": "minimax",
-        "total_tokens": 104713327693,
-        "total_tokens_str": "105B",
-        "calls": 2828870,
-        "change": -22.7,
-        "url": "https://openrouter.ai/models/minimax/minimax-m2.5-20260211"
-      },
-      {
-        "rank": 10,
-        "slug": "xiaomi/mimo-v2-omni-20260318",
-        "name": "mimo-v2-omni",
-        "org": "xiaomi",
-        "total_tokens": 84106711483,
-        "total_tokens_str": "84B",
-        "calls": 1082451,
-        "change": 10.2,
-        "url": "https://openrouter.ai/models/xiaomi/mimo-v2-omni-20260318"
-      }
-    ],
-    "hf_summary": "多模态与语音模型主导榜单推理与生成类热度持续"
+    "hf_summary": "多模态与语音模型主导榜单推理与生成能力受追捧"
   }
 }
