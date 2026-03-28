@@ -1115,18 +1115,21 @@ img { max-width: 100%; }
   letter-spacing: 0.05em;
 }
 
-/* 原文按钮 — 与「来源 →」同款纯文字样式 */
+/* 原文按钮 */
 .source-btn {
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 600;
   color: var(--accent);
   text-decoration: none;
+  padding: 4px 12px;
+  border: 1.5px solid var(--accent);
+  border-radius: 100px;
+  transition: all 0.2s;
   white-space: nowrap;
-  transition: color 0.2s;
 }
 .source-btn:hover {
-  color: var(--accent-hover);
-  text-decoration: underline;
+  background: var(--accent);
+  color: #fff;
 }
 
 /* footer 行：来源+星级 左，原文按钮 右 */
