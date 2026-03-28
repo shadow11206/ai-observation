@@ -1,6 +1,13 @@
 {
-  "total": 2,
+  "total": 3,
   "reports": [
+    {
+      "date": "2026-03-28",
+      "title": "AI 日报 2026-03-28",
+      "excerpt": "",
+      "top_count": 0,
+      "file": "2026-03-28.json"
+    },
     {
       "date": "2026-03-27",
       "title": "今日 AI 日报：Anthropic 发布史上最大规模 Claude 更新 + 2 条重要动态",

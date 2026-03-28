@@ -1,114 +1,19 @@
 {
   "date": "2026-03-28",
-  "top_items": [
-    {
-      "rank": 1,
-      "title": "GLM-5.1模型权重将于4月6-7日发布",
-      "judgment": "这意味着智谱AI即将发布其下一代开源模型，是继DeepSeek V3之后中国开源模型力量的又一次重要展示，将直接影响全球开源模型格局和开发者选择。",
-      "source": "Reddit r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s5l23i/glm51_model_weight_will_be_released_on_april_6_or/",
-      "tags": [
-        "模型动态",
-        "开源"
-      ]
-    },
-    {
-      "rank": 2,
-      "title": "钉钉CLI开源，首批开放10项核心产品能力",
-      "judgment": "这意味着钉钉正从封闭的办公应用向开放的开发者平台转型，通过开源CLI和原生支持ClaudeCode等AI工具，试图构建自己的AI原生开发生态，是企业级AI应用平台化的重要信号。",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/392828.html",
-      "tags": [
-        "产品发布",
-        "开源",
-        "行业趋势"
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "月之暗面（Moonshot AI）考虑赴香港IPO",
-      "judgment": "这意味着以Kimi为代表的中国消费级AI应用公司已进入商业化成熟阶段，寻求二级市场融资，其估值和上市进程将成为衡量中国AI初创公司价值的重要风向标。",
-      "source": "InfoQ AI",
-      "url": "https://www.infoq.cn/article/HUWHl1y4s0K0fNxm7iv0?utm_source=rss&utm_medium=article",
-      "tags": [
-        "商业化"
-      ]
-    }
-  ],
-  "model_tech": [
-    {
-      "source": "ArXiv cs.AI",
-      "title": "PLDR-LLMs Reason At Self-Organized Criticality",
-      "summary": "研究发现，在自组织临界点预训练的PLDR-LLMs在推理时展现出推理能力。其演绎输出的特征与人类推理过程相似，为理解LLM的推理机制提供了新视角。",
-      "url": "https://arxiv.org/abs/2603.23539",
-      "importance": 3
-    },
-    {
-      "source": "Reddit r/LocalLLaMA",
-      "title": "Skipping 90% of KV dequant work → +22.8% decode at 32K (llama.cpp, TurboQuant)",
-      "summary": "开发者在llama.cpp中实现Google的TurboQuant KV缓存压缩方法时，发现反量化是瓶颈。通过跳过90%的反量化工作，在32K长上下文下解码速度提升22.8%，展示了推理端优化的巨大潜力。",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s56g07/skipping_90_of_kv_dequant_work_228_decode_at_32k/",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv cs.LG",
-      "title": "Synthetic Mixed Training: Scaling Parametric Knowledge Acquisition Beyond RAG",
-      "summary": "论文提出“合成混合训练”方法，通过混合真实数据和合成数据来扩展语言模型获取参数化知识的能力，旨在超越RAG的局限，在数据受限的领域更有效地学习新知识。",
-      "url": "https://arxiv.org/abs/2603.23562",
-      "importance": 2
-    }
-  ],
-  "company_product": [
-    {
-      "source": "量子位",
-      "title": "国产玩家亮剑世界模型！天工AI发布全模态能力",
-      "summary": "昆仑万维天工AI宣布其大模型已具备全模态能力，并宣称已迈入“AI原生的平台经济时代”，展示了国内厂商在多模态和世界模型赛道上的竞争态势。",
-      "url": "https://www.qbitai.com/2026/03/392835.html",
-      "importance": 2
-    },
-    {
-      "source": "量子位",
-      "title": "趋境科技发布ATaaS：高效能AI Token生产服务平台",
-      "summary": "趋境科技发布“ATaaS”服务平台，旨在通过优化硬件和软件协同，提供全球领先的高效能AI Token生产能力，挑战“硬件高投入等于高效产出”的传统观念。",
-      "url": "https://www.qbitai.com/2026/03/392896.html",
-      "importance": 2
-    },
-    {
-      "source": "LangChain Blog",
-      "title": "Agent Evaluation Readiness Checklist",
-      "summary": "LangChain发布了一份实用的Agent评估准备清单，涵盖错误分析、数据集构建、评分器设计、离线和在线评估以及生产就绪性，为Agent的工程化落地提供了系统化指南。",
-      "url": "https://blog.langchain.com/agent-evaluation-readiness-checklist/",
-      "importance": 2
-    }
-  ],
-  "opinions": [
-    {
-      "person": "Simon Willison",
-      "level": "L2",
-      "quote": "使用新M5 MacBook Pro进行SwiftUI的Vibe Coding非常有趣。这表明本地运行强大LLM的能力正在改变个人开发者的工作流，使得快速原型设计和交互式开发变得更加容易和高效。",
-      "source": "https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything"
-    }
-  ],
-  "deep_dive_suggestions": [
-    {
-      "topic": "GLM-5.1的技术架构与性能预期",
-      "reason": "作为中国开源模型的下一个重磅发布，其架构创新（如MoE扩展）、性能表现及与DeepSeek V3的对比，将决定未来半年中文开源生态的走向。",
-      "priority": "high"
-    },
-    {
-      "topic": "TurboQuant等推理端优化技术的工程实现与影响",
-      "reason": "KV缓存压缩和反量化优化带来超过20%的解码速度提升，这类推理端“挤牙膏”式优化对降低AI应用成本、推动边缘部署有重大实际意义。",
-      "priority": "high"
-    }
-  ],
-  "summary_one_line": "GLM-5.1发布在即，开源与推理优化成焦点。",
+  "top_items": [],
+  "model_tech": [],
+  "company_product": [],
+  "opinions": [],
+  "deep_dive_suggestions": [],
+  "summary_one_line": "今日日报生成完成",
+  "raw_content": "```json\n{\n    \"date\": \"2026-03-28\",\n    \"top_items\": [\n        {\n            \"rank\": 1,\n            \"title\": \"GLM-5.1上线，编程能力对标Opus 4.6\",\n            \"finding\": \"智谱AI发布了GLM-5.1模型，其编程能力相比上一代大幅提升近10分，在评测中表现接近Claude 3.5 Opus，导致其编程套餐瞬间售罄。\",\n            \"key_data\": [\"编程能力飙升近10分\", \"对标Claude 3.5 Opus\", \"Coding plan瞬间断货\"],\n            \"judgment\": \"这意味着国产大模型在核心生产力场景（编程）上已具备与国际顶级闭源模型掰手腕的能力，将加剧企业级AI编程市场的竞争，并为开发者提供更多高性价比的选择。\",\n            \"confidence\": 4,\n            \"source\": \"量子位\",\n            \"url\": \"https://www.qbitai.com/2026/03/392914.html\"\n        },\n        {\n            \"rank\": 2,\n            \"title\": \"华为盘古大模型负责人王云鹤离职创业\",\n            \"finding\": \"华为盘古大模型的核心负责人王云鹤已从华为离职，据传将投身于AI Agent领域的创业。\",\n            \"key_data\": [\"盘古大模型负责人\", \"离职创业\", \"投身AI Agent\"],\n            \"judgment\": \"这意味着大厂顶尖AI人才正加速流向创业市场，特别是Agent这一热门赛道，预示着该领域的竞争将更加激烈，同时也可能催生新的技术范式和应用。\",\n            \"confidence\": 4,\n            \"source\": \"量子位\",\n            \"url\": \"https://www.qbitai.com/2026/03/392903.html\"\n        },\n        {\n            \"rank\": 3,\n            \"title\": \"LoCoMo评测基准被审计发现严重缺陷\",\n            \"finding\": \"一项审计发现，流行的长上下文模型评测基准LoCoMo存在严重问题：其答案中有6.4%是错误的，并且其使用的LLM评判器会接受高达63%的故意错误答案。\",\n            \"key_data\": [\"6.4%答案错误\", \"接受63%故意错误答案\", \"评测基准可信度存疑\"],\n            \"judgment\": \"这意味着当前许多模型在长上下文能力上的评测结果可能被严重高估，提醒整个行业必须建立更严谨、可复现的评测体系，否则将误导研发方向和市场判断。\",\n            \"confidence\": 3,\n            \"source\": \"Reddit r/MachineLearning\",\n            \"url\": \"https://www.reddit.com/r/MachineLearning/comments/1s54cvg/d_we_audited_locomo_64_of_the_answer_key_is_wrong/\"\n        }\n    ],\n    \"model_tech\": [\n        {\n            \"source\": \"Reddit r/LocalLLaMA\",\n            \"title\": \"TurboQuant在MLX上实现4.6倍KV缓存压缩\",\n            \"finding\": \"社区开发者将Google的TurboQuant KV缓存压缩技术移植到苹果MLX框架，在Qwen2.5-32B模型上实现了4.6倍压缩，推理速度达到FP16的98%。\",\n            \"key_data\": [\"4.6倍KV缓存压缩\", \"98% FP16速度\", \"Qwen2.5-32B\"],\n            \"judgment\": \"这意味着在苹果芯片上运行大模型的长上下文成本将大幅降低，为本地AI应用（如长文档处理、代码库分析）的普及扫清了关键的性能障碍。\",\n            \"confidence\": 3,\n            \"url\": \"https://www.reddit.com/r/LocalLLaMA/comments/1s5vhf6/turboquant_on_mlx_46x_kv_cache_compression_with/\",\n            \"importance\": 3\n        },\n        {\n            \"source\": \"Reddit r/MachineLearning\",\n            \"title\": \"PentaNet：超越BitNet的五元量化新架构\",\n            \"title\": \"PentaNet：超越BitNet的五元量化新架构\",\n            \"finding\": \"研究者提出PentaNet，使用{-2, -1, 0, 1, 2}五元值进行量化，旨在实现比BitNet（1.58比特）更高效的“零乘法器”推理。\",\n            \"key_data\": [\"五元量化{-2,-1,0,1,2}\", \"超越BitNet 1.58b\", \"零乘法器推理\"],\n            \"judgment\": \"这表明模型量化研究正从“降低精度”转向“设计全新计算架构”，未来边缘设备运行大模型的能效比有望获得突破性提升。\",\n            \"confidence\": 2,\n            \"url\": \"https://www.reddit.com/r/MachineLearning/comments/1s5l5l2/project_pentanet_pushing_beyond_bitnet_with/\",\n            \"importance\": 3\n        }\n    ],\n    \"company_product\": [\n        {\n            \"source\": \"OpenAI Blog\",\n            \"title\": \"OpenAI展示ChatGPT如何重塑230年历史的STADLER公司\",\n            \"finding\": \"OpenAI发布案例研究，展示火车制造商STADLER如何利用ChatGPT改造其知识工作流程，为650名员工节省时间并加速生产力。\",\n            \"key_data\": [\"230年历史公司\", \"650名员工\", \"知识工作流程改造\"],\n            \"judgment\": \"这意味着AI正从“玩具”和“助手”深入渗透到传统工业企业的核心运营流程，为企业级AI应用的落地提供了具体范本。\",\n            \"confidence\": 5,\n            \"url\": \"https://openai.com/index/stadler\",\n            \"importance\": 2\n        },\n        {\n            \"source\": \"LangChain Blog\",\n            \"title\": \"LangChain发布Agent评估就绪清单\",\n            \"finding\": \"LangChain发布了一份实用的Agent评估清单，涵盖错误分析、数据集构建、评分器设计、离线/在线评估和生产就绪等环节。\",\n            \"key_data\": [\"Agent评估清单\", \"实用指南\", \"生产就绪\"],\n            \"judgment\": \"这表明AI Agent的开发正从“演示阶段”迈向“工程化落地阶段”，工具链厂商开始提供系统性的方法论来保证Agent的可靠性和可维护性。\",\n            \"confidence\": 4,\n            \"url\": \"https://blog.langchain.com/agent-evaluation-readiness-checklist/\",\n            \"importance\": 2\n        }\n    ],\n    \"opinions\": [\n        {\n            \"person\": \"Simon Willison\",\n            \"level\": \"L1\",\n            \"quote\": \"我有一台新的128GB M5 MacBook Pro，它运行本地大模型的能力非常出色。我因为对活动监视器感到沮丧，决定用‘氛围编码’的方式快速构建一个替代工具。\",\n            \"source\": \"https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything\"\n        }\n    ],\n    \"deep_dive_suggestions\": [\n        {\n            \"topic\": \"大模型评测基准的信任危机与重建\",\n            \"reason\": \"LoCoMo基准的严重缺陷暴露了当前AI评测体系的普遍脆弱性。需要深入研究如何构建抗攻击、可复现、真正反映模型能力的下一代评测标准。\",\n            \"priority\": \"high\"\n        },\n        {\n            \"topic\": \"KV缓存压缩技术的演进与落地影响\",\n            \"reason\": \"从TurboQuant到社区在MLX上的实现，KV缓存压缩正从论文走向实践，这将极大改变长上下文应用的成本结构和用户体验，值得跟踪其技术细节和生态进展。\",\n            \"priority\": \"high\"\n        }\n    ],\n    \"summary_one_line\": \"国产模型编程能力追平Opus，大厂AI核心人才涌向Agent创业。\"\n}\n```",
   "snapshot": {
     "date": "2026-03-28",
     "hf_trending": [
       {
         "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-        "likes": 1475,
-        "downloads": 218652,
+        "likes": 1496,
+        "downloads": 253259,
         "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "tags": [
           "safetensors",
@@ -118,8 +23,8 @@
       },
       {
         "name": "mistralai/Voxtral-4B-TTS-2603",
-        "likes": 341,
-        "downloads": 556,
+        "likes": 356,
+        "downloads": 1802,
         "url": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
         "tags": [
           "vllm",
@@ -129,8 +34,8 @@
       },
       {
         "name": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
-        "likes": 1013,
-        "downloads": 455871,
+        "likes": 1022,
+        "downloads": 478934,
         "url": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "tags": [
           "gguf",
@@ -140,8 +45,8 @@
       },
       {
         "name": "CohereLabs/cohere-transcribe-03-2026",
-        "likes": 291,
-        "downloads": 3964,
+        "likes": 307,
+        "downloads": 12080,
         "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
         "tags": [
           "transformers",
@@ -151,8 +56,8 @@
       },
       {
         "name": "nvidia/Nemotron-Cascade-2-30B-A3B",
-        "likes": 345,
-        "downloads": 63402,
+        "likes": 350,
+        "downloads": 69594,
         "url": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
         "tags": [
           "transformers",
@@ -161,20 +66,9 @@
         ]
       },
       {
-        "name": "GAIR/daVinci-MagiHuman",
-        "likes": 212,
-        "downloads": 350,
-        "url": "https://huggingface.co/GAIR/daVinci-MagiHuman",
-        "tags": [
-          "safetensors",
-          "text-to-video",
-          "image-text-to-video"
-        ]
-      },
-      {
         "name": "baidu/Qianfan-OCR",
-        "likes": 441,
-        "downloads": 13151,
+        "likes": 509,
+        "downloads": 14786,
         "url": "https://huggingface.co/baidu/Qianfan-OCR",
         "tags": [
           "transformers",
@@ -183,9 +77,20 @@
         ]
       },
       {
+        "name": "GAIR/daVinci-MagiHuman",
+        "likes": 220,
+        "downloads": 418,
+        "url": "https://huggingface.co/GAIR/daVinci-MagiHuman",
+        "tags": [
+          "safetensors",
+          "text-to-video",
+          "image-text-to-video"
+        ]
+      },
+      {
         "name": "chromadb/context-1",
-        "likes": 164,
-        "downloads": 130,
+        "likes": 182,
+        "downloads": 451,
         "url": "https://huggingface.co/chromadb/context-1",
         "tags": [
           "safetensors",
