@@ -1,11 +1,10 @@
 /**
  * report.js — 日报详情页
- * 读取 URL 参数 ?date=YYYY-MM-DD，加载对应的 JSON 日报并渲染 6 个模块
+ * 读取 URL 参数 ?date=YYYY-MM-DD，加载对应的 JSON 日报并渲染各模块
  */
 
 const REPORTS_BASE = '../01-daily-reports';
 
-// 解析 URL 参数
 function getDateParam() {
   const params = new URLSearchParams(window.location.search);
   return params.get('date') || getTodayStr();
@@ -29,13 +28,20 @@ function formatDateLabel(dateStr) {
   return `${d.getFullYear()} 年 ${d.getMonth() + 1} 月 ${d.getDate()} 日 · 星期${weekdays[d.getDay()]}`;
 }
 
-// 渲染函数 —— 6 个模块
+function esc(str) {
+  return String(str || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+// ── 渲染主函数 ──────────────────────────────────────────────────
 function renderReport(data) {
   const content = document.getElementById('report-content');
   const loading = document.getElementById('loading');
   if (loading) loading.remove();
 
-  // 更新头部
   const dateLabel = formatDateLabel(data.date);
   document.title = `${data.date} 日报 — AI Observation`;
   document.getElementById('header-eyebrow').textContent = dateLabel;
@@ -44,71 +50,84 @@ function renderReport(data) {
   document.getElementById('sidebar-date').textContent = dateLabel;
   document.getElementById('sidebar-summary').textContent = data.summary_one_line || '';
 
-  content.innerHTML = `
-    ${renderTopItems(data.top_items || [])}
-    ${renderModelTech(data.model_tech || [])}
-    ${renderCompany(data.company_product || [])}
-    ${renderPeopleNews(data.people_news || data.opinions || [])}
-    ${renderDeepDive(data.deep_dive_suggestions || [])}
-    ${renderSnapshot(data.snapshot || {})}
-  `;
+  content.innerHTML = [
+    renderTopItems(data.top_items || []),
+    renderModelTech(data.model_tech || []),
+    renderCompany(data.company_product || []),
+    // opinions 模块：现阶段数据质量不足，暂时隐藏
+    renderDeepDive(data.deep_dive_suggestions || []),
+    renderSnapshot(data.snapshot || {}),
+  ].join('');
 
-  // 初始化侧边栏高亮
   initSidebarHighlight();
 }
 
+// ── 今日最重要 ──────────────────────────────────────────────────
 function renderTopItems(items) {
   return `
     <section id="top-items">
       <h2 class="section-title"><span class="section-icon">📌</span> 今日最重要</h2>
       ${items.length === 0
         ? '<div class="section-empty">今日暂无重点内容</div>'
-        : items.map(item => `
+        : items.map((item, idx) => `
           <div class="top-item">
-            <div class="top-item-rank">${String(item.rank ?? 1).padStart(2, '0')}</div>
-            <div style="flex:1;min-width:0">
-              <div class="top-item-title">${item.title || ''}</div>
-              ${item.finding ? `<div class="top-item-finding"><span class="finding-label">核心发现</span>${item.finding}</div>` : ''}
-              ${(item.key_data || []).length ? `
-                <div class="key-data-row">
-                  <span class="finding-label">关键数据</span>
-                  <div class="key-data-chips">${(item.key_data || []).map(d => `<span class="key-chip">${d}</span>`).join('')}</div>
+            <div class="top-item-rank">${String((item.rank ?? idx + 1)).padStart(2, '0')}</div>
+            <div class="top-item-body">
+              <div class="top-item-title">${esc(item.title)}</div>
+              ${item.finding ? `
+                <div class="item-row">
+                  <span class="row-label finding">核心发现</span>
+                  <span class="row-text">${esc(item.finding)}</span>
                 </div>` : ''}
-              ${item.judgment ? `<div class="top-item-judgment"><span class="finding-label judgment-label">影响判断</span>${item.judgment}</div>` : ''}
-              <div class="top-item-footer">
-                <div class="top-item-meta">
-                  ${item.source ? `<span class="news-item-source">来源：${item.source}</span>` : ''}
-                </div>
-                ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener" class="source-btn">原文 →</a>` : ''}
+              ${(item.key_data || []).length ? `
+                <div class="item-row">
+                  <span class="row-label key">关键数据</span>
+                  <div class="chips">${(item.key_data || []).map(d => `<span class="chip">${esc(d)}</span>`).join('')}</div>
+                </div>` : ''}
+              ${item.judgment ? `
+                <div class="judgment-block">
+                  <span class="row-label judgment">影响判断</span>
+                  <span class="row-text">${esc(item.judgment)}</span>
+                </div>` : ''}
+              <div class="item-footer">
+                ${item.source ? `<span class="item-source">来源：${esc(item.source)}</span>` : '<span></span>'}
+                ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener" class="source-link">原文 →</a>` : ''}
               </div>
             </div>
           </div>
         `).join('')}
-    </section>
-  `;
+    </section>`;
 }
 
+// ── 通用新闻卡片（模型技术 / 公司产品共用）──────────────────────
 function renderNewsCard(item) {
   return `
-    <div class="news-item">
-      <div class="news-item-header">
-        <div class="news-item-title">${item.title || ''}</div>
-        <div class="news-importance">${'⭐'.repeat(Math.min(Math.max(item.importance || 2, 1), 5))}</div>
+    <div class="news-card">
+      <div class="news-card-header">
+        <div class="news-card-title">${esc(item.title)}</div>
+        ${item.importance ? `<div class="news-stars">${'★'.repeat(Math.min(Math.max(item.importance, 1), 5))}</div>` : ''}
       </div>
-      <div class="news-item-source">${item.source || ''}</div>
-      ${item.finding ? `<div class="news-finding"><span class="finding-label">核心发现</span>${item.finding}</div>` : (item.summary ? `<div class="news-item-summary">${item.summary}</div>` : '')}
+      <div class="news-card-source">${esc(item.source || '')}</div>
+      ${item.finding ? `
+        <div class="item-row">
+          <span class="row-label finding">核心发现</span>
+          <span class="row-text">${esc(item.finding)}</span>
+        </div>` : (item.summary ? `<div class="news-card-summary">${esc(item.summary)}</div>` : '')}
       ${(item.key_data || []).length ? `
-        <div class="key-data-row">
-          <span class="finding-label">关键数据</span>
-          <div class="key-data-chips">${(item.key_data || []).map(d => `<span class="key-chip">${d}</span>`).join('')}</div>
+        <div class="item-row">
+          <span class="row-label key">关键数据</span>
+          <div class="chips">${(item.key_data || []).map(d => `<span class="chip">${esc(d)}</span>`).join('')}</div>
         </div>` : ''}
-      ${item.judgment ? `<div class="news-judgment"><span class="finding-label judgment-label">影响判断</span>${item.judgment}</div>` : ''}
-      <div class="news-item-footer">
+      ${item.judgment ? `
+        <div class="judgment-block">
+          <span class="row-label judgment">影响判断</span>
+          <span class="row-text">${esc(item.judgment)}</span>
+        </div>` : ''}
+      <div class="item-footer">
         <span></span>
-        ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener" class="source-btn">原文 →</a>` : ''}
+        ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener" class="source-link">原文 →</a>` : ''}
       </div>
-    </div>
-  `;
+    </div>`;
 }
 
 function renderModelTech(items) {
@@ -118,8 +137,7 @@ function renderModelTech(items) {
       ${items.length === 0
         ? '<div class="section-empty">今日无值得关注的模型技术动态</div>'
         : items.map(item => renderNewsCard(item)).join('')}
-    </section>
-  `;
+    </section>`;
 }
 
 function renderCompany(items) {
@@ -129,39 +147,10 @@ function renderCompany(items) {
       ${items.length === 0
         ? '<div class="section-empty">今日无值得关注的公司产品动态</div>'
         : items.map(item => renderNewsCard(item)).join('')}
-    </section>
-  `;
+    </section>`;
 }
 
-
-function renderPeopleNews(items) {
-  return `
-    <section id="opinions">
-      <h2 class="section-title"><span class="section-icon">💡</span> 重要人物动态</h2>
-      ${items.length === 0
-        ? '<div class="section-empty">今日暂无追踪人物重要动态</div>'
-        : items.map(p => `
-          <div class="people-news-item">
-            <div class="people-news-header">
-              <div class="people-news-left">
-                <span class="person-level level-${(p.level || 'L2').toLowerCase()}">${p.level || 'L2'}</span>
-                <span class="people-news-name">${p.person || ''}</span>
-                ${p.role ? `<span class="people-news-role">${p.role}</span>` : ''}
-              </div>
-              ${p.action ? `<span class="people-action-tag">${p.action}</span>` : ''}
-            </div>
-            ${p.summary ? `<div class="people-news-summary">${p.summary}</div>` : (p.quote ? `<div class="people-news-summary">${p.quote}</div>` : '')}
-            ${p.impact ? `<div class="people-news-impact"><span class="finding-label judgment-label">影响</span>${p.impact}</div>` : ''}
-            <div class="news-item-footer">
-              <span></span>
-              ${p.source ? `<a href="${p.source}" target="_blank" rel="noopener" class="source-btn">来源 →</a>` : ''}
-            </div>
-          </div>
-        `).join('')}
-    </section>
-  `;
-}
-
+// ── 值得深挖 ──────────────────────────────────────────────────
 function renderDeepDive(items) {
   return `
     <section id="deep-dive">
@@ -170,23 +159,20 @@ function renderDeepDive(items) {
         ? '<div class="section-empty">今日无特别建议深挖的话题</div>'
         : items.map(item => `
           <div class="deep-dive-item">
+            <span class="deep-dive-priority priority-${item.priority || 'medium'}">${item.priority === 'high' ? '高优先' : '建议'}</span>
             <div>
-              <span class="deep-dive-priority priority-${item.priority || 'medium'}">${item.priority === 'high' ? '高优先' : '建议'}</span>
-            </div>
-            <div>
-              <div class="deep-dive-topic">${item.topic || ''}</div>
-              <div class="deep-dive-reason">${item.reason || ''}</div>
+              <div class="deep-dive-topic">${esc(item.topic)}</div>
+              <div class="deep-dive-reason">${esc(item.reason)}</div>
             </div>
           </div>
         `).join('')}
-    </section>
-  `;
+    </section>`;
 }
 
+// ── 数据快照 ──────────────────────────────────────────────────
 function renderSnapshot(snapshot) {
   const hf = snapshot.hf_trending || [];
   const gh = snapshot.github_trending || [];
-
   return `
     <section id="snapshot">
       <h2 class="section-title"><span class="section-icon">⚡</span> 今日数据快照</h2>
@@ -198,11 +184,10 @@ function renderSnapshot(snapshot) {
             : hf.slice(0, 6).map(m => `
               <div class="snapshot-item">
                 <div class="snapshot-item-name">
-                  ${m.url ? `<a href="${m.url}" target="_blank" rel="noopener">${m.name}</a>` : m.name}
+                  ${m.url ? `<a href="${m.url}" target="_blank" rel="noopener">${esc(m.name)}</a>` : esc(m.name)}
                 </div>
                 <div class="snapshot-item-stat">❤️ ${(m.likes || 0).toLocaleString()}</div>
-              </div>
-            `).join('')}
+              </div>`).join('')}
         </div>
         <div class="snapshot-panel">
           <div class="snapshot-panel-title">GitHub Trending AI</div>
@@ -211,22 +196,19 @@ function renderSnapshot(snapshot) {
             : gh.slice(0, 6).map(r => `
               <div class="snapshot-item">
                 <div class="snapshot-item-name">
-                  ${r.url ? `<a href="${r.url}" target="_blank" rel="noopener" title="${r.desc || ''}">${r.name}</a>` : r.name}
+                  ${r.url ? `<a href="${r.url}" target="_blank" rel="noopener" title="${esc(r.desc || '')}">${esc(r.name)}</a>` : esc(r.name)}
                 </div>
                 <div class="snapshot-item-stat">⭐ ${(r.stars || 0).toLocaleString()} · ${r.language || '—'}</div>
-              </div>
-            `).join('')}
+              </div>`).join('')}
         </div>
       </div>
-    </section>
-  `;
+    </section>`;
 }
 
-// 侧边栏滚动高亮
+// ── 侧边栏滚动高亮 ────────────────────────────────────────────
 function initSidebarHighlight() {
   const sections = document.querySelectorAll('.report-content section[id]');
   const navLinks = document.querySelectorAll('.sidebar-nav a');
-
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -236,35 +218,30 @@ function initSidebarHighlight() {
       }
     });
   }, { rootMargin: '-20% 0px -70% 0px' });
-
   sections.forEach(s => observer.observe(s));
 }
 
-// 错误状态
+// ── 错误状态 ──────────────────────────────────────────────────
 function renderError(dateStr) {
   const content = document.getElementById('report-content');
   const loading = document.getElementById('loading');
   if (loading) loading.remove();
-
   document.getElementById('header-title').textContent = `${dateStr} 日报`;
-  document.getElementById('header-summary').textContent = '当日日报尚未生成，请明天再来查看';
-
+  document.getElementById('header-summary').textContent = '当日日报尚未生成';
   content.innerHTML = `
-    <div style="padding:4rem 0; text-align:center; color:var(--text-tertiary);">
-      <div style="font-size:3rem; margin-bottom:1rem;">📭</div>
-      <div style="font-size:16px; margin-bottom:0.5rem;">${dateStr} 的日报暂未生成</div>
-      <div style="font-size:14px; margin-bottom:2rem;">日报由 GitHub Actions 每天 09:00 自动生成</div>
+    <div style="padding:4rem 0;text-align:center;color:var(--text-tertiary);">
+      <div style="font-size:3rem;margin-bottom:1rem;">📭</div>
+      <div style="font-size:16px;margin-bottom:0.5rem;">${dateStr} 的日报暂未生成</div>
+      <div style="font-size:14px;margin-bottom:2rem;">日报由 GitHub Actions 每天 09:00 自动生成</div>
       <a href="daily.html" class="btn-ghost" style="display:inline-flex;">← 返回日报列表</a>
-    </div>
-  `;
+    </div>`;
 }
 
-// 主流程
+// ── 主流程 ────────────────────────────────────────────────────
 async function init() {
   const dateStr = getDateParam();
   const month = getMonthStr(dateStr);
   const url = `${REPORTS_BASE}/${month}/${dateStr}.json`;
-
   try {
     const res = await fetch(url);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
