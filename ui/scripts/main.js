@@ -1,5 +1,38 @@
 /* AI Observation — main.js */
 
+// ── 近期日报动态渲染 ───────────────────────────────────────────
+(function loadLatestReports() {
+  const container = document.getElementById('latest-reports');
+  if (!container) return;
+
+  fetch('data/daily-index.json')
+    .then(r => r.json())
+    .then(data => {
+      const reports = (data.reports || []).slice(0, 3);
+      if (!reports.length) return;
+
+      container.innerHTML = reports.map(r => `
+        <div class="report-card">
+          <div class="report-date">${r.date}</div>
+          <h3 class="report-title">${escHtml(r.title)}</h3>
+          <p class="report-excerpt">${escHtml(r.excerpt)}</p>
+          <a href="report.html?date=${r.date}" class="report-link">阅读全文 →</a>
+        </div>
+      `).join('');
+    })
+    .catch(() => {
+      // 静默降级：保留 HTML 中的静态内容
+    });
+
+  function escHtml(str) {
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+}());
+
 // ── Nav scroll effect ──────────────────────────────────────────
 const nav = document.getElementById('nav');
 if (nav) {

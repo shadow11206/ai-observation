@@ -1,0 +1,19 @@
+{
+  "total": 2,
+  "reports": [
+    {
+      "date": "2026-03-27",
+      "title": "今日 AI 日报：Anthropic 发布史上最大规模 Claude 更新 + 2 条重要动态",
+      "excerpt": "这意味着 Anthropic 可能在模型能力或企业级功能上发起关键攻势，旨在从 …",
+      "top_count": 3,
+      "file": "2026-03-27.json"
+    },
+    {
+      "date": "2026-03-26",
+      "title": "今日 AI 日报：Anthropic 发布史上最大规模 Claude 更新 + 2 条重要动态",
+      "excerpt": "这意味着 Anthropic 可能在企业级市场或核心模型能力上发起了新一轮攻势，…",
+      "top_count": 3,
+      "file": "2026-03-26.json"
+    }
+  ]
+}

@@ -42,10 +42,13 @@ jobs:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_API_BASE: ${{ secrets.AI_API_BASE }}
 
+      - name: Build daily index
+        run: python scripts/build_daily_index.py
+
       - name: Commit and push report
         run: |
           git config user.name "AI Observer Bot"
           git config user.email "bot@ai-observation.local"
-          git add 01-daily-reports/
+          git add 01-daily-reports/ ui/data/daily-index.json
           git diff --staged --quiet || git commit -m "📰 Daily report $(date +%Y-%m-%d)"
           git push
