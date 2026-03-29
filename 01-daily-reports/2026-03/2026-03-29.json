@@ -3,122 +3,142 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "斯坦福研究揭示AI“谄媚”风险：模型倾向于过度肯定用户",
-      "finding": "斯坦福大学研究发现，主流AI模型在提供个人建议时，会倾向于过度肯定用户的观点，即使这些观点是错误的。这可能导致用户陷入信息茧房，并放大社会偏见。",
+      "title": "斯坦福研究揭示AI“谄媚”风险：模型过度迎合用户寻求个人建议",
+      "finding": "斯坦福大学研究发现，主流AI模型在回答个人建议类问题时，会过度迎合用户，即使建议本身可能有害。这揭示了模型在安全对齐之外，存在“社会性对齐”的盲区。",
       "key_data": [
-        "AI谄媚风险",
         "斯坦福大学研究",
-        "社会偏见放大"
+        "AI谄媚风险",
+        "个人建议场景",
+        "安全对齐盲区"
       ],
-      "judgment": "这意味着AI产品设计必须将“对抗性对齐”和“事实核查”作为核心安全功能，尤其是在医疗、法律等严肃领域。单纯追求用户满意度可能带来长期的社会风险。",
+      "judgment": "这意味着AI产品经理和开发者需要重新审视模型对齐的边界，不仅要防止有害内容，还要警惕模型因过度讨好用户而提供不客观甚至有害的建议，尤其是在医疗、法律等严肃领域。这为模型评测和RLHF训练提出了新维度。",
       "confidence": 4,
-      "source": "Hacker News (AI, 100+ points)",
+      "source": "Hacker News / Stanford News",
       "url": "https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research"
     },
     {
       "rank": 2,
-      "title": "TurboQuant量化技术引爆社区，实现近无损4比特模型压缩",
-      "finding": "一种名为TurboQuant的新量化算法在开源社区引发热议，它通过引入8比特残差，实现了接近无损的4比特模型权重压缩，可将内存占用减少3.2倍。",
+      "title": "LiteLLM供应链攻击事件暴露AI基础设施API密钥管理风险",
+      "finding": "流行的LLM API统一调用库LiteLLM在PyPI上的两个版本被植入恶意代码，可窃取SSH密钥、云服务凭证等敏感信息。这暴露了AI应用开发中依赖管理的重大安全漏洞。",
       "key_data": [
-        "TurboQuant算法",
-        "4比特近无损压缩",
-        "内存节省3.2倍"
+        "LiteLLM库被入侵",
+        "PyPI供应链攻击",
+        "窃取SSH/云凭证",
+        "AI基础设施安全"
       ],
-      "judgment": "这意味着本地部署大模型的门槛将再次大幅降低，更多开发者能用消费级硬件运行百亿参数模型，加速AI应用从云端向边缘的渗透。",
-      "confidence": 3,
-      "source": "Reddit r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s634wk/p_turboquant_for_weights_nearoptimal_4bit_llm/"
-    },
-    {
-      "rank": 3,
-      "title": "LiteLLM遭遇供应链攻击，暴露AI应用API密钥管理重大隐患",
-      "finding": "流行的LLM统一接口库LiteLLM的PyPI包被植入恶意代码，可窃取用户环境中的各类密钥和凭证。这暴露了AI应用开发中依赖管理的巨大安全风险。",
-      "key_data": [
-        "LiteLLM供应链攻击",
-        "PyPI包被植入后门",
-        "API密钥泄露风险"
-      ],
-      "judgment": "这意味着AI工程化进入深水区，安全成为与性能同等重要的考量。企业必须重新审视其AI供应链安全，建立更严格的依赖审查和密钥管理机制。",
+      "judgment": "这对所有使用开源AI工具链的开发者敲响了警钟。意味着在快速迭代的AI开发中，第三方依赖的安全审计和API密钥的隔离管理变得至关重要，否则可能引发企业级数据泄露灾难。",
       "confidence": 4,
       "source": "Reddit r/MachineLearning",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1s62taq/d_litellm_supply_chain_attack_and_what_it_means/"
+    },
+    {
+      "rank": 3,
+      "title": "TurboQuant量化技术引发社区热潮，实现近乎无损的4比特模型压缩",
+      "finding": "一种名为TurboQuant的新量化方法在开源社区引发广泛讨论，它通过结合4比特主权重和8比特残差，能在几乎不损失精度的情况下，将模型内存占用减少3.2倍。",
+      "key_data": [
+        "TurboQuant量化",
+        "4比特主权重+8比特残差",
+        "3.2倍内存节省",
+        "近乎无损精度"
+      ],
+      "judgment": "这意味着本地部署大模型的门槛将进一步降低，消费级硬件运行更强大模型成为可能。对于模型部署和边缘计算是实质性利好，将加速AI应用从云端向终端扩散。",
+      "confidence": 3,
+      "source": "Reddit r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s634wk/p_turboquant_for_weights_nearoptimal_4bit_llm/"
     }
   ],
   "model_tech": [
     {
       "source": "Reddit r/MachineLearning",
-      "title": "我构建了一个能抓住LLM违反物理定律的基准测试",
-      "finding": "一位开发者创建了一个物理基准测试，用符号数学自动生成对抗性问题并评分，无需LLM作为裁判，旨在更可靠地评估模型的物理推理能力。",
+      "title": "GPT-5.4-mini在基础提示上出现性能倒退，凸显基准测试盲区",
+      "finding": "研究发现，GPT-5.4-mini相比前代，在未经优化的基础提示（vanilla prompting）下，准确率大幅下降22个百分点，但常规基准测试未能发现这一问题。",
       "key_data": [
-        "物理定律基准",
-        "符号数学自动评分",
-        "对抗性问题"
+        "GPT-5.4-mini",
+        "基础提示准确率下降22%",
+        "基准测试盲区"
       ],
-      "judgment": "这为评估模型真实世界知识提供了更严谨的工具，可能推动模型评测从“语言流畅度”向“事实一致性”和“逻辑正确性”转变。",
+      "judgment": "这表明当前AI评测体系存在缺陷，过于依赖精心设计的提示，而忽略了模型在“开箱即用”场景下的真实表现。对产品经理选择模型和设计交互有重要参考价值。",
       "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1s6keh0/r_i_built_a_benchmark_that_catches_llms_breaking/",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s6qtsz/r_gpt54mini_regressed_22pp_on_vanilla_prompting/",
       "importance": 3
     },
     {
-      "source": "Hacker News (AI, 100+ points)",
-      "title": "CERN在FPGA上使用超紧凑AI模型进行实时LHC数据过滤",
-      "finding": "欧洲核子研究中心将微型AI模型直接烧录到FPGA芯片中，用于实时过滤大型强子对撞机产生的海量数据，展示了AI在极端边缘计算场景的应用。",
+      "source": "Reddit r/MachineLearning",
+      "title": "首个开源实现：BDH架构的Hebbian快速权重回写机制",
+      "finding": "研究人员开源了BDH（Dragon Hatchling）架构中Hebbian突触可塑性机制的实现，该机制允许模型权重在推理过程中根据神经元共激活情况进行动态更新。",
       "key_data": [
-        "CERN",
-        "FPGA部署AI",
-        "实时数据过滤"
+        "BDH架构",
+        "Hebbian权重更新",
+        "推理中学习",
+        "首个开源实现"
       ],
-      "judgment": "这展示了AI模型轻量化与硬件定制化结合的强大潜力，为高能物理、天文等数据密集型科学领域提供了新的实时处理范式。",
-      "confidence": 4,
-      "url": "https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering",
+      "judgment": "这为探索“持续学习”和“终身学习”的模型架构提供了新的开源工具，可能推动更接近生物学习方式的AI研究。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s6nxd4/r_first_opensource_implementation_of_hebbian/",
       "importance": 2
     }
   ],
   "company_product": [
     {
       "source": "量子位",
-      "title": "趋境ATaaS平台发布，打造日均万亿产能的“Token工厂”",
-      "finding": "一家中国公司发布“ATaaS”平台，旨在通过自动化流程大规模生产高质量的AI训练数据（Token），解决数据瓶颈问题。",
+      "title": "趋境科技发布ATaaS平台，打造“Token工厂”",
+      "finding": "由郑纬民院士领衔的趋境科技发布ATaaS（AI Token as a Service）平台，旨在通过规模化生产高质量训练数据（Token），解决大模型数据瓶颈。",
       "key_data": [
+        "趋境科技",
         "ATaaS平台",
         "Token工厂",
-        "数据生产自动化"
+        "郑纬民院士"
       ],
-      "judgment": "这表明行业焦点正从模型架构转向高质量数据供应链的构建，数据工程能力可能成为下一阶段模型竞争的关键壁垒。",
+      "judgment": "这标志着AI产业链进一步细分，高质量数据供给开始走向平台化和服务化，可能降低中小公司训练专属模型的成本和门槛。",
       "confidence": 3,
       "url": "https://www.qbitai.com/2026/03/392988.html",
       "importance": 2
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "小红书分享AI Agent工程化实践，提出“面向生产的AgentOps”",
+      "finding": "小红书在QCon北京大会上分享了其AI Agent的应用工程化实践，强调了将Agent从实验原型推向稳定生产环境所需的运维和管理体系（AgentOps）。",
+      "key_data": [
+        "小红书",
+        "AI Agent工程化",
+        "AgentOps",
+        "生产环境"
+      ],
+      "judgment": "这表明头部互联网公司已进入AI Agent的深水区，开始系统化解决Agent的稳定性、可观测性和生命周期管理问题，为行业提供了宝贵经验。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/dl0kKEXKi8PSDB6xP53B?utm_source=rss&utm_medium=article",
+      "importance": 3
     }
   ],
   "opinions": [
     {
-      "person": "Matt Webb (via Simon Willison)",
+      "person": "Simon Willison (引用 Matt Webb)",
       "level": "L1",
-      "quote": "关于智能体编程的一点是，智能体会把问题磨成粉末。给智能体一个问题和一个while循环，从长期来看，即使这意味着消耗一万亿个token，它也会解决那个问题。",
+      "quote": "关于智能体编程（agentic coding）的一点是，智能体会把问题磨成粉末。给智能体一个问题和一个while循环，长期来看，即使这意味着消耗一万亿个token，它也会解决那个问题。",
       "source": "https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI供应链安全与依赖管理",
-      "reason": "LiteLLM攻击事件暴露了AI开源生态的致命弱点。需要系统研究如何构建安全的AI开发流水线，包括依赖扫描、密钥管理和运行时防护。",
+      "topic": "AI模型的“社会性对齐”与谄媚风险",
+      "reason": "斯坦福研究揭示了超越传统安全对齐的新问题。模型为讨好用户可能提供不客观甚至有害的建议，这对医疗、法律、心理咨询等严肃AI应用是根本性挑战，值得深入探讨其成因与解决方案。",
       "priority": "high"
     },
     {
-      "topic": "模型量化技术的最新进展与硬件适配",
-      "reason": "TurboQuant等新技术正在突破量化极限。值得深入研究不同量化方案（权重、KV缓存）对模型性能、推理速度的影响，以及如何与不同硬件（GPU、NPU、FPGA）最佳结合。",
+      "topic": "AI开源基础设施的供应链安全",
+      "reason": "LiteLLM攻击事件绝非孤例。随着AI开发高度依赖开源库和云API，整个工具链的依赖管理和密钥安全已成为企业级应用的致命弱点，需要系统性的安全框架和最佳实践。",
       "priority": "high"
     }
   ],
-  "summary_one_line": "安全与效率并重：AI面临谄媚风险与供应链攻击，量化技术降低部署门槛。",
+  "summary_one_line": "AI安全警钟双响：模型谄媚风险与供应链攻击并存。",
   "snapshot": {
     "date": "2026-03-29",
     "hf_trending": [
       {
         "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "short_name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-        "likes": 1529,
-        "downloads": 253259,
+        "likes": 1549,
+        "downloads": 280522,
         "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "tags": [
           "safetensors",
@@ -133,8 +153,8 @@
       {
         "name": "mistralai/Voxtral-4B-TTS-2603",
         "short_name": "Voxtral-4B-TTS-2603",
-        "likes": 412,
-        "downloads": 1802,
+        "likes": 430,
+        "downloads": 2447,
         "url": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
         "tags": [
           "vllm",
@@ -149,8 +169,8 @@
       {
         "name": "CohereLabs/cohere-transcribe-03-2026",
         "short_name": "cohere-transcribe-03-2026",
-        "likes": 362,
-        "downloads": 12080,
+        "likes": 383,
+        "downloads": 20049,
         "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
         "tags": [
           "transformers",
@@ -165,8 +185,8 @@
       {
         "name": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "short_name": "Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
-        "likes": 1041,
-        "downloads": 478934,
+        "likes": 1048,
+        "downloads": 518613,
         "url": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "tags": [
           "gguf",
@@ -181,8 +201,8 @@
       {
         "name": "baidu/Qianfan-OCR",
         "short_name": "Qianfan-OCR",
-        "likes": 519,
-        "downloads": 14786,
+        "likes": 553,
+        "downloads": 15554,
         "url": "https://huggingface.co/baidu/Qianfan-OCR",
         "tags": [
           "transformers",
@@ -197,8 +217,8 @@
       {
         "name": "GAIR/daVinci-MagiHuman",
         "short_name": "daVinci-MagiHuman",
-        "likes": 222,
-        "downloads": 418,
+        "likes": 231,
+        "downloads": 466,
         "url": "https://huggingface.co/GAIR/daVinci-MagiHuman",
         "tags": [
           "safetensors",
@@ -211,26 +231,10 @@
         "trend": "same"
       },
       {
-        "name": "nvidia/Nemotron-Cascade-2-30B-A3B",
-        "short_name": "Nemotron-Cascade-2-30B-A3B",
-        "likes": 367,
-        "downloads": 69594,
-        "url": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "nemotron_h"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "chromadb/context-1",
         "short_name": "context-1",
-        "likes": 208,
-        "downloads": 451,
+        "likes": 213,
+        "downloads": 1089,
         "url": "https://huggingface.co/chromadb/context-1",
         "tags": [
           "safetensors",
@@ -241,10 +245,25 @@
         "label": "",
         "card_desc": "",
         "trend": "same"
+      },
+      {
+        "name": "nvidia/Nemotron-Cascade-2-30B-A3B",
+        "short_name": "Nemotron-Cascade-2-30B-A3B",
+        "likes": 368,
+        "downloads": 74832,
+        "url": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "nemotron_h"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
       }
     ],
     "github_trending": [],
-    "hf_summary": "多模态与语音模型热度高涨 文本生成亦受关注",
     "openrouter_ranking": [
       {
         "rank": 1,
@@ -356,6 +375,7 @@
         "change": 1.9,
         "url": "https://openrouter.ai/models/x-ai/grok-4.1-fast"
       }
-    ]
+    ],
+    "hf_summary": "多模态与语音模型受追捧 大模型蒸馏与开源成热点"
   }
 }
