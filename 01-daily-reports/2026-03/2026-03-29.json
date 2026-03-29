@@ -244,6 +244,118 @@
       }
     ],
     "github_trending": [],
-    "hf_summary": "多模态与语音模型热度高涨 文本生成亦受关注"
+    "hf_summary": "多模态与语音模型热度高涨 文本生成亦受关注",
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "xiaomi/mimo-v2-pro-20260318",
+        "name": "mimo-v2-pro",
+        "org": "xiaomi",
+        "total_tokens": 646873548842,
+        "total_tokens_str": "647B",
+        "calls": 9337287,
+        "change": 7.2,
+        "url": "https://openrouter.ai/models/xiaomi/mimo-v2-pro-20260318"
+      },
+      {
+        "rank": 2,
+        "slug": "stepfun/step-3.5-flash",
+        "name": "step-3.5-flash",
+        "org": "stepfun",
+        "total_tokens": 215962800296,
+        "total_tokens_str": "216B",
+        "calls": 5319083,
+        "change": -17.3,
+        "url": "https://openrouter.ai/models/stepfun/step-3.5-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "deepseek/deepseek-v3.2-20251201",
+        "name": "deepseek-v3.2",
+        "org": "deepseek",
+        "total_tokens": 173339112243,
+        "total_tokens_str": "173B",
+        "calls": 16430763,
+        "change": -0.9,
+        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
+      },
+      {
+        "rank": 4,
+        "slug": "minimax/minimax-m2.7-20260318",
+        "name": "minimax-m2.7",
+        "org": "minimax",
+        "total_tokens": 162168466244,
+        "total_tokens_str": "162B",
+        "calls": 3867378,
+        "change": -17.1,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
+      },
+      {
+        "rank": 5,
+        "slug": "z-ai/glm-5-turbo-20260315",
+        "name": "glm-5-turbo",
+        "org": "z-ai",
+        "total_tokens": 139328777685,
+        "total_tokens_str": "139B",
+        "calls": 1502008,
+        "change": 4.9,
+        "url": "https://openrouter.ai/models/z-ai/glm-5-turbo-20260315"
+      },
+      {
+        "rank": 6,
+        "slug": "google/gemini-3-flash-preview-20251217",
+        "name": "gemini-3-flash-preview",
+        "org": "google",
+        "total_tokens": 125077939318,
+        "total_tokens_str": "125B",
+        "calls": 12953712,
+        "change": -8.8,
+        "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
+      },
+      {
+        "rank": 7,
+        "slug": "anthropic/claude-4.6-sonnet-20260217",
+        "name": "claude-4.6-sonnet",
+        "org": "anthropic",
+        "total_tokens": 106939359482,
+        "total_tokens_str": "107B",
+        "calls": 2703478,
+        "change": -26.1,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-sonnet-20260217"
+      },
+      {
+        "rank": 8,
+        "slug": "anthropic/claude-4.6-opus-20260205",
+        "name": "claude-4.6-opus",
+        "org": "anthropic",
+        "total_tokens": 97527821269,
+        "total_tokens_str": "98B",
+        "calls": 1833847,
+        "change": -32.3,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-opus-20260205"
+      },
+      {
+        "rank": 9,
+        "slug": "minimax/minimax-m2.5-20260211",
+        "name": "minimax-m2.5",
+        "org": "minimax",
+        "total_tokens": 88681671101,
+        "total_tokens_str": "89B",
+        "calls": 2291211,
+        "change": -26.1,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.5-20260211"
+      },
+      {
+        "rank": 10,
+        "slug": "x-ai/grok-4.1-fast",
+        "name": "grok-4.1-fast",
+        "org": "x-ai",
+        "total_tokens": 80264637811,
+        "total_tokens_str": "80B",
+        "calls": 14141304,
+        "change": 1.9,
+        "url": "https://openrouter.ai/models/x-ai/grok-4.1-fast"
+      }
+    ]
   }
 }
