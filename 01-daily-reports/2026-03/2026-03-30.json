@@ -1,0 +1,341 @@
+{
+  "date": "2026-03-30",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "DeepSeek 服务崩溃超12小时，现已恢复",
+      "finding": "国内头部开源模型服务商DeepSeek发生长时间服务中断，工程师连夜抢修后恢复。这表明即使是领先的AI公司，其基础设施的稳定性和可扩展性仍面临巨大挑战。",
+      "key_data": [
+        "DeepSeek",
+        "服务中断超12小时",
+        "工程师连夜抢修"
+      ],
+      "judgment": "这意味着AI服务的可靠性已成为核心竞争壁垒。对于依赖API的企业和开发者而言，单一供应商风险凸显，多云部署和备份方案的重要性急剧上升。",
+      "confidence": 4,
+      "source": "InfoQ AI",
+      "url": "https://www.infoq.cn/article/EoGsQ765xrY9bJDDTzhP?utm_source=rss&utm_medium=article"
+    },
+    {
+      "rank": 2,
+      "title": "Claude 90分钟挖穿20年漏洞，5万星“安全”系统被攻破",
+      "finding": "Anthropic的Claude模型在90分钟内成功发现并利用了一个存在20年的软件漏洞，攻破了拥有5万GitHub星标、以安全著称的系统。这展示了AI在安全审计和漏洞挖掘方面的惊人潜力。",
+      "key_data": [
+        "Claude",
+        "90分钟",
+        "20年漏洞",
+        "5万星安全系统"
+      ],
+      "judgment": "这意味着AI驱动的自动化安全测试和红队演练将进入新阶段。安全工程师的工作重心将从手动挖掘转向设计更健壮的防御体系，以应对AI的“降维打击”。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/03/393186.html"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "ZINC：用Zig语言编写的LLM推理引擎，可在550美元AMD GPU上运行350亿参数模型",
+      "finding": "一个名为ZINC的新开源推理引擎，专为AMD消费级显卡设计，解决了ROCm生态对消费卡支持不佳的问题，让普通开发者也能低成本运行大模型。",
+      "key_data": [
+        "Zig语言",
+        "AMD消费级GPU",
+        "350亿参数模型"
+      ],
+      "judgment": "这降低了本地运行大模型的硬件门槛，可能推动更多基于AMD GPU的AI应用和开源项目，挑战NVIDIA的生态垄断。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s79w6u/zinc_llm_inference_engine_written_in_zig_running/",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "单张显卡跑出15倍推理速度，aiX-apply-4B小模型加速企业AI落地",
+      "finding": "一个名为aiX-apply-4B的小型模型在特定任务上实现了15倍的推理速度提升，并在准确率上宣称超越了DeepSeek-V3.2。",
+      "key_data": [
+        "15倍推理速度",
+        "aiX-apply-4B",
+        "准确率93.8%"
+      ],
+      "judgment": "这表明针对特定场景优化的“小模型”在性价比和部署便利性上优势明显，是企业AI落地更务实的选择。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/03/392787.html",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "量子位",
+      "title": "Claude手搓3D建筑编辑器火爆GitHub，挑战专业软件",
+      "finding": "有人利用Claude模型快速构建了一个功能完整的3D建筑编辑器，并开源在GitHub上，其能力让年费数万的专业软件感到压力。",
+      "key_data": [
+        "Claude构建",
+        "3D建筑编辑器",
+        "挑战专业软件"
+      ],
+      "judgment": "这展示了AI作为“超级副驾”如何赋能个体开发者快速构建复杂应用，可能重塑传统软件市场的竞争格局。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/03/393125.html",
+      "importance": 2
+    }
+  ],
+  "opinions": [],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI服务高可用性与多云架构",
+      "reason": "DeepSeek长时间宕机事件暴露了AI服务基础设施的脆弱性。随着企业生产环境对AI API依赖加深，如何设计高可用、可容灾的AI服务架构成为关键。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI驱动的自动化安全攻防",
+      "reason": "Claude快速攻破“安全”系统的事件，标志着AI在网络安全领域的应用从辅助走向主导。这需要深入研究AI攻防的新范式、伦理边界及防御策略。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "AI服务稳定性受考，安全攻防能力惊人。",
+  "snapshot": {
+    "date": "2026-03-30",
+    "hf_trending": [
+      {
+        "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "short_name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "likes": 1585,
+        "downloads": 280522,
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "tags": [
+          "safetensors",
+          "qwen3_5",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "mistralai/Voxtral-4B-TTS-2603",
+        "short_name": "Voxtral-4B-TTS-2603",
+        "likes": 466,
+        "downloads": 2447,
+        "url": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
+        "tags": [
+          "vllm",
+          "mistral-common",
+          "text-to-speech"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "CohereLabs/cohere-transcribe-03-2026",
+        "short_name": "cohere-transcribe-03-2026",
+        "likes": 465,
+        "downloads": 20049,
+        "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "cohere_asr"
+        ],
+        "pipeline_tag": "automatic-speech-recognition",
+        "label": "语音识别",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "baidu/Qianfan-OCR",
+        "short_name": "Qianfan-OCR",
+        "likes": 592,
+        "downloads": 15554,
+        "url": "https://huggingface.co/baidu/Qianfan-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "internvl_chat"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "short_name": "Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "likes": 1061,
+        "downloads": 518613,
+        "url": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "tags": [
+          "gguf",
+          "uncensored",
+          "qwen3.5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "GAIR/daVinci-MagiHuman",
+        "short_name": "daVinci-MagiHuman",
+        "likes": 248,
+        "downloads": 466,
+        "url": "https://huggingface.co/GAIR/daVinci-MagiHuman",
+        "tags": [
+          "safetensors",
+          "text-to-video",
+          "image-text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "chromadb/context-1",
+        "short_name": "context-1",
+        "likes": 238,
+        "downloads": 1089,
+        "url": "https://huggingface.co/chromadb/context-1",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gpt_oss"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "nvidia/Nemotron-Cascade-2-30B-A3B",
+        "short_name": "Nemotron-Cascade-2-30B-A3B",
+        "likes": 402,
+        "downloads": 74832,
+        "url": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "nemotron_h"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "xiaomi/mimo-v2-pro-20260318",
+        "name": "mimo-v2-pro",
+        "org": "xiaomi",
+        "total_tokens": 693434244480,
+        "total_tokens_str": "693B",
+        "calls": 10509330,
+        "change": 7.2,
+        "url": "https://openrouter.ai/models/xiaomi/mimo-v2-pro-20260318"
+      },
+      {
+        "rank": 2,
+        "slug": "stepfun/step-3.5-flash",
+        "name": "step-3.5-flash",
+        "org": "stepfun",
+        "total_tokens": 209184932444,
+        "total_tokens_str": "209B",
+        "calls": 5303263,
+        "change": -3.8,
+        "url": "https://openrouter.ai/models/stepfun/step-3.5-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "deepseek/deepseek-v3.2-20251201",
+        "name": "deepseek-v3.2",
+        "org": "deepseek",
+        "total_tokens": 179005352487,
+        "total_tokens_str": "179B",
+        "calls": 16200744,
+        "change": 3.3,
+        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
+      },
+      {
+        "rank": 4,
+        "slug": "minimax/minimax-m2.7-20260318",
+        "name": "minimax-m2.7",
+        "org": "minimax",
+        "total_tokens": 161422057634,
+        "total_tokens_str": "161B",
+        "calls": 3711641,
+        "change": -0.5,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
+      },
+      {
+        "rank": 5,
+        "slug": "z-ai/glm-5-turbo-20260315",
+        "name": "glm-5-turbo",
+        "org": "z-ai",
+        "total_tokens": 134810389073,
+        "total_tokens_str": "135B",
+        "calls": 1388496,
+        "change": -3.2,
+        "url": "https://openrouter.ai/models/z-ai/glm-5-turbo-20260315"
+      },
+      {
+        "rank": 6,
+        "slug": "anthropic/claude-4.6-sonnet-20260217",
+        "name": "claude-4.6-sonnet",
+        "org": "anthropic",
+        "total_tokens": 125527764743,
+        "total_tokens_str": "126B",
+        "calls": 2974262,
+        "change": 17.4,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-sonnet-20260217"
+      },
+      {
+        "rank": 7,
+        "slug": "google/gemini-3-flash-preview-20251217",
+        "name": "gemini-3-flash-preview",
+        "org": "google",
+        "total_tokens": 111880051608,
+        "total_tokens_str": "112B",
+        "calls": 12120089,
+        "change": -10.6,
+        "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
+      },
+      {
+        "rank": 8,
+        "slug": "anthropic/claude-4.6-opus-20260205",
+        "name": "claude-4.6-opus",
+        "org": "anthropic",
+        "total_tokens": 103178497293,
+        "total_tokens_str": "103B",
+        "calls": 2096327,
+        "change": 5.8,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-opus-20260205"
+      },
+      {
+        "rank": 9,
+        "slug": "x-ai/grok-4.1-fast",
+        "name": "grok-4.1-fast",
+        "org": "x-ai",
+        "total_tokens": 97999147452,
+        "total_tokens_str": "98B",
+        "calls": 17070210,
+        "change": 22.1,
+        "url": "https://openrouter.ai/models/x-ai/grok-4.1-fast"
+      },
+      {
+        "rank": 10,
+        "slug": "minimax/minimax-m2.5-20260211",
+        "name": "minimax-m2.5",
+        "org": "minimax",
+        "total_tokens": 85254781489,
+        "total_tokens_str": "85B",
+        "calls": 2161322,
+        "change": -3.9,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.5-20260211"
+      }
+    ],
+    "hf_summary": "多模态与语音模型热度高涨 文本生成相对平稳"
+  }
+}
