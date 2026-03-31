@@ -1,0 +1,125 @@
+{
+  "total": 4,
+  "updated_at": "2026-03-31",
+  "items": [
+    {
+      "id": "model-landscape",
+      "file": "model-landscape.md",
+      "tag": {
+        "label": "大模型格局",
+        "bg": "rgba(52,199,89,0.1)",
+        "color": "#1a7f37"
+      },
+      "question": "大模型竞争格局如何演变？",
+      "created_at": "2026-03-24",
+      "updated_at": "2026-03-31",
+      "confidence_raw": "★★★★",
+      "confidence": 4,
+      "verdict": "竞争格局需要分轨道看，不能一刀切。中国多模态模型在内容处理轨道已完成压制，但在Agent 能力轨道仍有实质差距。\n\n内容处理轨道（中国领先）：\n- Qwen3.5-Omni 在 ASR/S2TT/通用音频理解上全面超越 Gemini-3.1 Pro（官方 benchmark 一手确认）\n- 定价 0.8元 vs $2.00（≈14.6元）——约1/18，不对称到 Google 无法降价反制\n- 适用场景：内容审核、字幕生成、多语言转写、批量音频处理\n\nAgent 能力轨道（Google 领先）：\n- OmniGAIA（工具调用/自主完成任务）：Gemini-3.1 Pro 68.9 vs Qwen3.5-Omni-Plus 57.2（-11.7分）\n- 这是高价值企业 Agent 采购场景的直接映射\n- 权重闭源导致工程师社区几乎零参与（HN 零评论，Reddit 最高赞批评集中在闭源）\n\n隐藏风险：benchmark 表格中途换掉对比对象（Reddit 74票质疑），「215项SOTA」是在精心选择的评测集上打出来的；稀有语言 TTS 实测极差。",
+      "status_color": "green",
+      "status_emoji": "🟢",
+      "updates": [
+        {
+          "date": "2026-03-31",
+          "title": "2026-03-31 重大升级：中国多模态已进入\"价格+性能\"双轮驱动阶段",
+          "body": "重大升级：中国多模态已进入\"价格+性能\"双轮驱动阶段\n\n- 来源：深度调研 中国多模态大模型：价格战终结「性能追赶」叙事\n- 触发事件：Qwen3.5-Omni 发布 + OpenRouter 调用量数据\n- 判断变化：从\"中国模型主要靠价格差异化\"→\"性能已对齐旗舰，价格成为系统性压制工具\"\n- 信心变化：★★★☆☆ → ★★★★☆（+1.5）",
+          "confidence_change": ""
+        },
+        {
+          "date": "2026-03-24",
+          "title": "2026-03-24 首次建立判断",
+          "body": "首次建立判断\n\n- 来源：公开市场信息 + ai-insight 追踪体系整理\n- 判断：头部集中 + 开源分流正在同时发生；中国模型正在垂直行业寻找差异化空间\n- 信心：★★★☆☆\n\n---",
+          "confidence_change": ""
+        }
+      ],
+      "updates_count": 2,
+      "related_research": [
+        {
+          "title": "2026-03-31 | 中国多模态大模型：价格战终结「性能追赶」叙事",
+          "href": "../02-deep-research/trends/2026-03-31-china-multimodal-llm.md"
+        }
+      ]
+    },
+    {
+      "id": "ai-agent-landing",
+      "file": "ai-agent-landing.md",
+      "tag": {
+        "label": "AI Agent",
+        "bg": "rgba(0,113,227,0.08)",
+        "color": "#0071e3"
+      },
+      "question": "AI Agent 真正落地的时间线？",
+      "created_at": "2026-03-24",
+      "updated_at": "2026-03-24",
+      "confidence_raw": "★★★☆☆",
+      "confidence": 3,
+      "verdict": "垂直场景（客服/代码/数据分析）的 Agent 已进入早期规模化阶段；\n通用 Agent 仍然是 2-3 年后的事。\n整体比大众预期慢，但比悲观者预期快。",
+      "status_color": "yellow",
+      "status_emoji": "🟡",
+      "updates": [
+        {
+          "date": "2026-03-24",
+          "title": "2026-03-24 首次建立判断",
+          "body": "首次建立判断\n\n- 来源：Barry Zhang（Anthropic）的 Agent 设计原则分享 + ai-insight 项目中的 Agent 调研\n- 触发信息：Agent 在生产环境仍然是少数，大多数场景还处于 demo/内测阶段\n- 判断：\n  - L1 实践者普遍反馈：垂直 Agent 有真实使用案例，但定制程度很高\n  - 通用 Agent（如 Devin）的实际留存率低，用户主要用于边缘任务\n  - 时间线估计：垂直场景 2025-2026 年部分规模化，通用 2028+ 年\n- 信心：★★★☆☆\n\n---",
+          "confidence_change": ""
+        }
+      ],
+      "updates_count": 1,
+      "related_research": []
+    },
+    {
+      "id": "ai-coding-trend",
+      "file": "ai-coding-trend.md",
+      "tag": {
+        "label": "AI Coding",
+        "bg": "rgba(255,149,0,0.1)",
+        "color": "#c6690a"
+      },
+      "question": "AI Coding 工具的趋势走向？",
+      "created_at": "2026-03-24",
+      "updated_at": "2026-03-24",
+      "confidence_raw": "★★★★☆",
+      "confidence": 4,
+      "verdict": "AI Coding 工具正在从\"代码补全\"向\"编程协作者\"演进，Cursor 目前是最接近这一目标的产品。\n下一阶段的竞争点不是补全质量，而是\"理解整个代码库的能力\"和\"Agent 式自主完成任务\"。\n短期内不会替代开发者，但会拉大有 AI 辅助和没有 AI 辅助的开发者之间的生产力差距。",
+      "status_color": "green",
+      "status_emoji": "🟢",
+      "updates": [
+        {
+          "date": "2026-03-24",
+          "title": "2026-03-24 首次建立判断",
+          "body": "首次建立判断\n\n- 来源：个人使用 Cursor / Trae 的经验 + 公开信息\n- 判断：见上方\n- 信心：★★★★☆（亲身使用，感受明显）\n\n---",
+          "confidence_change": ""
+        }
+      ],
+      "updates_count": 1,
+      "related_research": []
+    },
+    {
+      "id": "ai-pm-impact",
+      "file": "ai-pm-impact.md",
+      "tag": {
+        "label": "AI × PM",
+        "bg": "rgba(175,82,222,0.1)",
+        "color": "#7b3fa0"
+      },
+      "question": "AI 对产品经理职业有何实质影响？",
+      "created_at": "2026-03-24",
+      "updated_at": "2026-03-24",
+      "confidence_raw": "★★★★☆",
+      "confidence": 4,
+      "verdict": "AI 不会短期内替代产品经理，但会淘汰\"不用 AI 的产品经理\"。\n核心影响在于：文档生产效率提升（PRD/用户故事），竞品分析和用研可以 AI 辅助，vibe coding 让 PM 能自己验证小 idea。\n真正的威胁在于：如果 AI 可以自动做需求对齐，PM 的核心价值就要重新定义——向\"判断力 + 业务 sense\"转移。",
+      "status_color": "green",
+      "status_emoji": "🟢",
+      "updates": [
+        {
+          "date": "2026-03-24",
+          "title": "2026-03-24 首次建立判断",
+          "body": "首次建立判断\n\n- 来源：个人工作实践 + 行业讨论\n- 触发信息：使用 Cursor/Trae 完成过 vibe coding 项目，有切身体会\n- 判断：见上方\n- 信心：★★★★☆\n\n---",
+          "confidence_change": ""
+        }
+      ],
+      "updates_count": 1,
+      "related_research": []
+    }
+  ]
+}

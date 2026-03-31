@@ -8,6 +8,197 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles/main.css" />
+  <style>
+    /* ── 判断页专用样式 ── */
+    .opinions-container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem var(--space-xl);
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    /* 统计栏 */
+    .opinions-stats {
+      max-width: 860px;
+      margin: 0 auto 2rem;
+      padding: 0 2rem;
+      font-size: 13.5px;
+      color: var(--text-tertiary);
+    }
+
+    /* 完整判断卡片 */
+    .opinion-full-card {
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: var(--r-lg);
+      overflow: hidden;
+    }
+
+    .opinion-full-header {
+      padding: 1.75rem 2.25rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .opinion-full-meta {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .opinion-meta-row {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-top: 0.5rem;
+    }
+
+    .opinion-tag {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 3px 11px;
+      border-radius: 100px;
+      background: rgba(0,113,227,0.08);
+      color: var(--accent);
+    }
+
+    .opinion-date {
+      font-size: 12px;
+      color: var(--text-tertiary);
+    }
+
+    .opinion-confidence {
+      font-size: 14px;
+      color: var(--text-secondary);
+      letter-spacing: 0.05em;
+    }
+
+    .opinion-status-dot {
+      display: inline-block;
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .opinion-status-dot.green  { background: #34c759; }
+    .opinion-status-dot.yellow { background: #ff9500; }
+    .opinion-status-dot.red    { background: #ff3b30; }
+
+    /* 判断问题标题 */
+    .opinion-question {
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.35;
+      color: var(--text-primary);
+      padding: 1.5rem 2.25rem 0;
+    }
+
+    /* 当前判断正文 */
+    .opinion-verdict {
+      padding: 1rem 2.25rem 1.75rem;
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--text-secondary);
+      white-space: pre-wrap;
+    }
+
+    /* 更新记录区 */
+    .opinion-updates {
+      border-top: 1px solid var(--border);
+      padding: 1.5rem 2.25rem;
+    }
+
+    .opinion-updates-title {
+      font-size: 11.5px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      margin-bottom: 1rem;
+    }
+
+    .update-item {
+      display: flex;
+      gap: 1.25rem;
+      padding: 1rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .update-item:last-child { border-bottom: none; }
+
+    .update-date {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      white-space: nowrap;
+      padding-top: 2px;
+      min-width: 80px;
+    }
+
+    .update-content {
+      font-size: 13.5px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      flex: 1;
+    }
+
+    .update-conf-change {
+      display: inline-block;
+      margin-top: 0.3rem;
+      font-size: 11.5px;
+      color: #1a7f37;
+      background: rgba(52,199,89,0.1);
+      padding: 2px 8px;
+      border-radius: 100px;
+    }
+
+    /* 关联调研区 */
+    .opinion-related {
+      border-top: 1px solid var(--border);
+      padding: 1.25rem 2.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .opinion-related-label {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      white-space: nowrap;
+    }
+
+    .opinion-related-link {
+      font-size: 13px;
+      color: var(--accent);
+      text-decoration: none;
+      background: rgba(0,113,227,0.06);
+      padding: 3px 11px;
+      border-radius: 100px;
+      transition: background 0.2s;
+    }
+    .opinion-related-link:hover {
+      background: rgba(0,113,227,0.14);
+    }
+
+    /* 加载/空状态 */
+    #opinions-loading {
+      text-align: center;
+      padding: 5rem 2rem;
+      color: var(--text-tertiary);
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .opinion-question  { font-size: 1.25rem; padding: 1.25rem 1.5rem 0; }
+      .opinion-verdict   { padding: 0.75rem 1.5rem 1.5rem; font-size: 14px; }
+      .opinion-updates   { padding: 1.25rem 1.5rem; }
+      .opinion-full-header { padding: 1.25rem 1.5rem 1rem; }
+      .update-item       { gap: 0.75rem; }
+    }
+  </style>
 </head>
 <body>
   <nav class="nav" id="nav">
@@ -28,123 +219,12 @@
     <p>围绕关键问题维护实时立场，每次有新信息都会更新。不是收藏夹，是活的认知地图。</p>
   </div>
 
-  <div class="opinions-container">
+  <!-- 统计 -->
+  <div class="opinions-stats" id="opinions-stats"></div>
 
-    <!-- 判断 1：AI Agent -->
-    <div class="opinion-full-card reveal">
-      <div class="opinion-full-header">
-        <div class="opinion-full-meta">
-          <span class="opinion-tag">AI Agent</span>
-          <div style="display:flex;align-items:center;gap:1rem;margin-top:0.5rem">
-            <span style="font-size:12px;color:var(--text-tertiary)">最近更新：2026-03-24</span>
-            <span class="opinion-confidence" style="font-size:14px">★★★☆☆</span>
-          </div>
-        </div>
-      </div>
-      <h2 class="opinion-full-card h2" style="font-family:var(--font-serif);font-size:1.6rem;font-weight:700;letter-spacing:-0.02em;margin-bottom:1.25rem;">
-        AI Agent 真正落地的时间线？
-      </h2>
-      <div class="opinion-verdict">
-        垂直场景（客服/代码/数据分析）的 Agent 已进入早期规模化阶段；通用 Agent 仍然是 2-3 年后的事。整体比大众预期慢，但比悲观者预期快。
-      </div>
-      <div class="opinion-updates">
-        <div class="opinion-updates-title">更新记录</div>
-        <div class="update-item">
-          <span class="update-date">2026-03-24</span>
-          <div class="update-content">
-            <strong>首次建立判断</strong> · 来源：Barry Zhang（Anthropic）Agent 设计原则分享<br />
-            垂直 Agent 有真实使用案例，但定制程度很高；通用 Agent 留存率低，主要用于边缘任务。
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 判断 2：大模型格局 -->
-    <div class="opinion-full-card reveal">
-      <div class="opinion-full-header">
-        <div class="opinion-full-meta">
-          <span class="opinion-tag" style="background:rgba(52,199,89,0.1);color:#1a7f37">大模型格局</span>
-          <div style="display:flex;align-items:center;gap:1rem;margin-top:0.5rem">
-            <span style="font-size:12px;color:var(--text-tertiary)">最近更新：2026-03-24</span>
-            <span class="opinion-confidence" style="font-size:14px">★★★☆☆</span>
-          </div>
-        </div>
-      </div>
-      <h2 style="font-family:var(--font-serif);font-size:1.6rem;font-weight:700;letter-spacing:-0.02em;margin-bottom:1.25rem;">
-        大模型竞争格局如何演变？
-      </h2>
-      <div class="opinion-verdict">
-        头部集中 + 开源分流正在同时发生。OpenAI / Anthropic / Google 形成第一梯队；DeepSeek 让"开源追平闭源"成为现实；中国模型正在垂直行业寻找差异化空间。未来 2 年不太可能"一家通吃"，但能跑通商业化的玩家会快速减少。
-      </div>
-      <div class="opinion-updates">
-        <div class="opinion-updates-title">更新记录</div>
-        <div class="update-item">
-          <span class="update-date">2026-03-24</span>
-          <div class="update-content">
-            <strong>首次建立判断</strong> · 来源：公开市场信息 + ai-insight 追踪体系整理
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 判断 3：AI Coding -->
-    <div class="opinion-full-card reveal">
-      <div class="opinion-full-header">
-        <div class="opinion-full-meta">
-          <span class="opinion-tag" style="background:rgba(255,149,0,0.1);color:#c6690a">AI Coding</span>
-          <div style="display:flex;align-items:center;gap:1rem;margin-top:0.5rem">
-            <span style="font-size:12px;color:var(--text-tertiary)">最近更新：2026-03-24</span>
-            <span class="opinion-confidence" style="font-size:14px">★★★★☆</span>
-          </div>
-        </div>
-      </div>
-      <h2 style="font-family:var(--font-serif);font-size:1.6rem;font-weight:700;letter-spacing:-0.02em;margin-bottom:1.25rem;">
-        AI Coding 工具的趋势走向？
-      </h2>
-      <div class="opinion-verdict">
-        AI Coding 工具正在从"代码补全"向"编程协作者"演进，Cursor 目前是最接近这一目标的产品。下一阶段的竞争点不是补全质量，而是"理解整个代码库的能力"和"Agent 式自主完成任务"。
-      </div>
-      <div class="opinion-updates">
-        <div class="opinion-updates-title">更新记录</div>
-        <div class="update-item">
-          <span class="update-date">2026-03-24</span>
-          <div class="update-content">
-            <strong>首次建立判断</strong> · 来源：个人使用 Cursor / Trae 的经验 + 公开信息<br />
-            亲身体验：有 AI 辅助和没有 AI 辅助的开发者，生产力差距正在快速拉大。信心 ★★★★☆
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 判断 4：AI × PM -->
-    <div class="opinion-full-card reveal">
-      <div class="opinion-full-header">
-        <div class="opinion-full-meta">
-          <span class="opinion-tag" style="background:rgba(175,82,222,0.1);color:#7b3fa0">AI × PM</span>
-          <div style="display:flex;align-items:center;gap:1rem;margin-top:0.5rem">
-            <span style="font-size:12px;color:var(--text-tertiary)">最近更新：2026-03-24</span>
-            <span class="opinion-confidence" style="font-size:14px">★★★★☆</span>
-          </div>
-        </div>
-      </div>
-      <h2 style="font-family:var(--font-serif);font-size:1.6rem;font-weight:700;letter-spacing:-0.02em;margin-bottom:1.25rem;">
-        AI 对产品经理职业有何实质影响？
-      </h2>
-      <div class="opinion-verdict">
-        AI 不会短期内替代产品经理，但会淘汰"不用 AI 的产品经理"。核心影响：文档生产效率大幅提升、竞品分析和用研可以 AI 辅助、vibe coding 让 PM 能自己验证小 idea。真正的威胁在于：如果 AI 可以自动做需求对齐，PM 的核心价值就要重新定义——向"判断力 + 业务 sense"转移。
-      </div>
-      <div class="opinion-updates">
-        <div class="opinion-updates-title">更新记录</div>
-        <div class="update-item">
-          <span class="update-date">2026-03-24</span>
-          <div class="update-content">
-            <strong>首次建立判断</strong> · 来源：个人工作实践 + 行业讨论<br />
-            使用 Cursor/Trae 完成过 vibe coding 项目，有切身体会。
-          </div>
-        </div>
-      </div>
-    </div>
-
+  <!-- 内容区，动态渲染 -->
+  <div class="opinions-container" id="opinions-container">
+    <div id="opinions-loading">正在加载判断数据…</div>
   </div>
 
   <footer class="footer">
@@ -173,5 +253,137 @@
   </footer>
 
   <script src="scripts/main.js"></script>
+  <script>
+  // ── opinions.js（内联）──
+  const OPINIONS_INDEX = 'data/opinions-index.json';
+
+  async function initOpinions() {
+    const container = document.getElementById('opinions-container');
+    const statsEl   = document.getElementById('opinions-stats');
+    if (!container) return;
+
+    try {
+      const res  = await fetch(OPINIONS_INDEX);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      const items = data.items || [];
+
+      // 统计栏
+      if (statsEl) {
+        statsEl.innerHTML = `
+          <span>${items.length} 个核心判断</span>
+          <span style="margin:0 0.4rem;color:var(--border)">·</span>
+          <span>最近更新：${data.updated_at || ''}</span>
+        `;
+      }
+
+      // 渲染卡片
+      container.innerHTML = '';
+      items.forEach((item, i) => {
+        const card = buildCard(item);
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(14px)';
+        card.style.transition = `opacity 0.4s ease ${i * 0.08}s, transform 0.4s ease ${i * 0.08}s`;
+        container.appendChild(card);
+      });
+
+      // 进入动画
+      requestAnimationFrame(() => {
+        container.querySelectorAll('.opinion-full-card').forEach(el => {
+          el.style.opacity = '1';
+          el.style.transform = 'translateY(0)';
+        });
+      });
+
+    } catch (e) {
+      container.innerHTML = `
+        <div style="text-align:center;padding:5rem 2rem;color:var(--text-tertiary)">
+          <div style="font-size:2.5rem;margin-bottom:1rem">📋</div>
+          <div>暂无判断数据</div>
+        </div>`;
+    }
+  }
+
+  function buildCard(item) {
+    const div = document.createElement('div');
+    div.className = 'opinion-full-card reveal';
+
+    const tag = item.tag || {};
+    const tagStyle = `background:${tag.bg || 'rgba(0,113,227,0.08)'};color:${tag.color || 'var(--accent)'}`;
+    const dotClass = item.status_color || 'yellow';
+    const conf = item.confidence_raw || '';
+
+    // 更新记录 HTML
+    const updatesHTML = (item.updates || []).map(u => {
+      const confChange = u.confidence_change
+        ? `<span class="update-conf-change">${u.confidence_change}</span>`
+        : '';
+      // 取正文第一行作标题，其余作正文
+      const lines = (u.body || '').split('\n').filter(l => l.trim());
+      const titleLine = lines[0] || '';
+      const rest = lines.slice(1).join('\n').trim();
+      return `
+        <div class="update-item">
+          <span class="update-date">${u.date}</span>
+          <div class="update-content">
+            <strong>${escapeHtml(titleLine)}</strong>
+            ${rest ? `<br><span style="color:var(--text-tertiary);font-size:13px">${escapeHtml(rest)}</span>` : ''}
+            ${confChange}
+          </div>
+        </div>`;
+    }).join('');
+
+    // 关联调研 HTML
+    let relatedHTML = '';
+    if (item.related_research && item.related_research.length > 0) {
+      const links = item.related_research.map(r => {
+        // 把相对路径转成调研详情页
+        const mdName = (r.href || '').split('/').pop().replace('.md', '');
+        const parts  = (r.href || '').split('/');
+        const category = parts.length >= 2 ? parts[parts.length - 2] : 'trends';
+        const detailUrl = `research-detail.html?id=${encodeURIComponent(mdName)}&category=${category}`;
+        return `<a class="opinion-related-link" href="${detailUrl}">${escapeHtml(r.title)}</a>`;
+      }).join('');
+      relatedHTML = `
+        <div class="opinion-related">
+          <span class="opinion-related-label">关联调研</span>
+          ${links}
+        </div>`;
+    }
+
+    div.innerHTML = `
+      <div class="opinion-full-header">
+        <div class="opinion-full-meta">
+          <span class="opinion-tag" style="${tagStyle}">${escapeHtml(tag.label || item.id)}</span>
+          <div class="opinion-meta-row">
+            <span class="opinion-status-dot ${dotClass}"></span>
+            <span class="opinion-confidence">${conf}</span>
+            <span class="opinion-date">最近更新：${item.updated_at || ''}</span>
+          </div>
+        </div>
+      </div>
+      <div class="opinion-question">${escapeHtml(item.question || '')}</div>
+      <div class="opinion-verdict">${escapeHtml(item.verdict || '')}</div>
+      ${updatesHTML ? `
+      <div class="opinion-updates">
+        <div class="opinion-updates-title">更新记录</div>
+        ${updatesHTML}
+      </div>` : ''}
+      ${relatedHTML}
+    `;
+
+    return div;
+  }
+
+  function escapeHtml(str) {
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  document.addEventListener('DOMContentLoaded', initOpinions);
+  </script>
 </body>
 </html>
