@@ -1,0 +1,374 @@
+{
+  "date": "2026-03-31",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "阿里发布Qwen3.5-Omni，多模态能力超越Gemini-3.1 Pro",
+      "finding": "阿里云发布了新一代多模态大模型Qwen3.5-Omni，在多项评测中超越了谷歌的Gemini-3.1 Pro。其API定价极具竞争力，输入成本不到Gemini-3.1 Pro的十分之一。",
+      "key_data": [
+        "超越Gemini-3.1 Pro",
+        "输入成本<0.8元/百万Tokens",
+        "定价低于Gemini的1/10"
+      ],
+      "judgment": "这意味着中国大模型在多模态领域的追赶速度极快，已开始对标并超越国际顶级闭源模型。极低的定价策略将加剧API市场的价格战，迫使所有厂商重新评估成本结构，对开发者是利好，但对模型厂商的盈利模式构成挑战。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/03/393460.html"
+    },
+    {
+      "rank": 2,
+      "title": "Mistral发布Voxtral TTS，推进多模态开源战略",
+      "finding": "欧洲领先的AI实验室Mistral发布了其文本转语音模型Voxtral TTS，这是其“为所有模态提供开源前沿智能”战略的最新一步。",
+      "key_data": [
+        "Voxtral TTS",
+        "开源多模态战略",
+        "Mistral前沿模型实验室"
+      ],
+      "judgment": "这意味着开源模型阵营正在从纯文本向多模态（语音、视觉）全面扩展。Mistral此举将降低高质量语音合成的门槛，可能冲击ElevenLabs等专精公司的市场，并推动更多应用集成原生语音能力。",
+      "confidence": 4,
+      "source": "Latent Space (Swyx)",
+      "url": "https://www.latent.space/p/voxtral"
+    },
+    {
+      "rank": 3,
+      "title": "AI2削减开源模型资金，核心研发人员集体出走",
+      "finding": "被誉为“美国开源AI最后旗帜”的非营利研究机构AI2（艾伦人工智能研究所）大幅削减了对开源模型的资金投入，导致相关研发团队集体离职。",
+      "key_data": [
+        "AI2削减开源资金",
+        "研发团队集体出走",
+        "美国开源旗帜动摇"
+      ],
+      "judgment": "这标志着非营利机构在持续烧钱的模型研发竞赛中难以为继，开源模型的研发重心将进一步向有商业化能力的公司（如Meta、Mistral、DeepSeek）转移。开源生态的可持续性再次成为焦点问题。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/03/393395.html"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv cs.AI",
+      "title": "BeSafe-Bench：评估具身智能体在功能环境中的行为安全风险",
+      "finding": "研究者提出了一个新的评测基准，用于评估能够在数字和物理环境中执行复杂任务的智能体（如机器人）的行为安全性。",
+      "key_data": [
+        "具身智能体安全评测",
+        "BeSafe-Bench基准"
+      ],
+      "judgment": "随着AI智能体开始执行真实世界任务，其行为安全性成为部署前必须解决的核心问题，该基准是向标准化安全评估迈出的重要一步。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2603.25747",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "MAGNET：通过去中心化自研和BitNet训练实现专家模型自主生成",
+      "finding": "研究者提出一个名为MAGNET的去中心化系统，可以自主生成、训练和部署特定领域的专家语言模型。",
+      "key_data": [
+        "去中心化模型生成",
+        "自主专家模型",
+        "MAGNET系统"
+      ],
+      "judgment": "这指向了AI研发自动化的未来，可能降低创建垂直领域模型的门槛，但去中心化训练的质量控制和协调是巨大挑战。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2603.25813",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "量子位",
+      "title": "全球OCR新王来自中国开源项目，GitHub星标超7.3万",
+      "finding": "一个来自中国的开源OCR项目在GitHub上获得了超过73,300个星标，其性能被认为超越了谷歌长期领先的PaddleOCR。",
+      "key_data": [
+        "中国开源OCR",
+        "GitHub 73.3k+星",
+        "超越谷歌PaddleOCR"
+      ],
+      "judgment": "表明中国在AI基础工具（如OCR）的开源贡献和社区影响力正在快速提升，可能改变相关技术领域的全球格局。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/03/393433.html",
+      "importance": 2
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "llama.cpp项目GitHub星标数突破10万",
+      "finding": "广受欢迎的大模型本地推理框架llama.cpp在GitHub上获得了10万个星标，成为一个重要的里程碑。",
+      "key_data": [
+        "llama.cpp",
+        "10万GitHub星标",
+        "本地推理框架"
+      ],
+      "judgment": "反映了本地运行大模型的需求和社区活跃度持续高涨，llama.cpp已成为该领域事实上的基础设施标准。",
+      "confidence": 5,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s7z7hj/llamacpp_at_100k_stars/",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "引用Georgi Gerganov（llama.cpp作者）的观点：人们目前在使用本地模型时遇到的主要问题，大多围绕运行框架（harness）以及模型聊天模板和提示构建的一些复杂细节。有时，一个模型在某个UI中表现不佳，但在另一个UI中却工作得很好。",
+      "source": "https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "开源大模型的可持续性危机",
+      "reason": "AI2开源团队解散事件，结合此前Meta等公司的策略讨论，暴露出非商业机构维持前沿模型开源研发的巨大财务压力。值得深入研究开源AI未来的资金模型和生态健康度。",
+      "priority": "high"
+    },
+    {
+      "topic": "中国多模态大模型的竞争格局",
+      "reason": "阿里Qwen3.5-Omni以极低成本对标Gemini，显示中国厂商在多模态赛道已进入“性能+价格”双维度贴身肉搏阶段。需分析其技术路径、成本控制及对全球API市场的影响。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "中国多模态模型低价出击，开源AI遭遇可持续性挑战。",
+  "snapshot": {
+    "date": "2026-03-31",
+    "hf_trending": [
+      {
+        "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "short_name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "likes": 1746,
+        "downloads": 309355,
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "tags": [
+          "safetensors",
+          "qwen3_5",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "CohereLabs/cohere-transcribe-03-2026",
+        "short_name": "cohere-transcribe-03-2026",
+        "likes": 570,
+        "downloads": 28233,
+        "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "cohere_asr"
+        ],
+        "pipeline_tag": "automatic-speech-recognition",
+        "label": "语音识别",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "mistralai/Voxtral-4B-TTS-2603",
+        "short_name": "Voxtral-4B-TTS-2603",
+        "likes": 528,
+        "downloads": 2939,
+        "url": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
+        "tags": [
+          "vllm",
+          "mistral-common",
+          "text-to-speech"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "baidu/Qianfan-OCR",
+        "short_name": "Qianfan-OCR",
+        "likes": 652,
+        "downloads": 16297,
+        "url": "https://huggingface.co/baidu/Qianfan-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "internvl_chat"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "chromadb/context-1",
+        "short_name": "context-1",
+        "likes": 295,
+        "downloads": 1450,
+        "url": "https://huggingface.co/chromadb/context-1",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gpt_oss"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "GAIR/daVinci-MagiHuman",
+        "short_name": "daVinci-MagiHuman",
+        "likes": 266,
+        "downloads": 540,
+        "url": "https://huggingface.co/GAIR/daVinci-MagiHuman",
+        "tags": [
+          "safetensors",
+          "text-to-video",
+          "image-text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "short_name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "likes": 310,
+        "downloads": 140733,
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "tags": [
+          "gguf",
+          "qwen3_5",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "short_name": "Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "likes": 1087,
+        "downloads": 569033,
+        "url": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "tags": [
+          "gguf",
+          "uncensored",
+          "qwen3.5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "xiaomi/mimo-v2-pro-20260318",
+        "name": "mimo-v2-pro",
+        "org": "xiaomi",
+        "total_tokens": 713180287948,
+        "total_tokens_str": "713B",
+        "calls": 9250015,
+        "change": 2.8,
+        "url": "https://openrouter.ai/models/xiaomi/mimo-v2-pro-20260318"
+      },
+      {
+        "rank": 2,
+        "slug": "stepfun/step-3.5-flash",
+        "name": "step-3.5-flash",
+        "org": "stepfun",
+        "total_tokens": 208399463533,
+        "total_tokens_str": "208B",
+        "calls": 4973978,
+        "change": -0.5,
+        "url": "https://openrouter.ai/models/stepfun/step-3.5-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "deepseek/deepseek-v3.2-20251201",
+        "name": "deepseek-v3.2",
+        "org": "deepseek",
+        "total_tokens": 181694710463,
+        "total_tokens_str": "182B",
+        "calls": 17181463,
+        "change": 1.5,
+        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
+      },
+      {
+        "rank": 4,
+        "slug": "minimax/minimax-m2.7-20260318",
+        "name": "minimax-m2.7",
+        "org": "minimax",
+        "total_tokens": 179878522059,
+        "total_tokens_str": "180B",
+        "calls": 4054994,
+        "change": 11.4,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
+      },
+      {
+        "rank": 5,
+        "slug": "anthropic/claude-4.6-sonnet-20260217",
+        "name": "claude-4.6-sonnet",
+        "org": "anthropic",
+        "total_tokens": 158009527364,
+        "total_tokens_str": "158B",
+        "calls": 4532038,
+        "change": 25.9,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-sonnet-20260217"
+      },
+      {
+        "rank": 6,
+        "slug": "anthropic/claude-4.6-opus-20260205",
+        "name": "claude-4.6-opus",
+        "org": "anthropic",
+        "total_tokens": 149305466938,
+        "total_tokens_str": "149B",
+        "calls": 2630547,
+        "change": 44.7,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-opus-20260205"
+      },
+      {
+        "rank": 7,
+        "slug": "google/gemini-3-flash-preview-20251217",
+        "name": "gemini-3-flash-preview",
+        "org": "google",
+        "total_tokens": 146339817925,
+        "total_tokens_str": "146B",
+        "calls": 16448724,
+        "change": 30.8,
+        "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
+      },
+      {
+        "rank": 8,
+        "slug": "z-ai/glm-5-turbo-20260315",
+        "name": "glm-5-turbo",
+        "org": "z-ai",
+        "total_tokens": 138644747691,
+        "total_tokens_str": "139B",
+        "calls": 1555118,
+        "change": 2.8,
+        "url": "https://openrouter.ai/models/z-ai/glm-5-turbo-20260315"
+      },
+      {
+        "rank": 9,
+        "slug": "x-ai/grok-4.1-fast",
+        "name": "grok-4.1-fast",
+        "org": "x-ai",
+        "total_tokens": 106988264189,
+        "total_tokens_str": "107B",
+        "calls": 18734364,
+        "change": 9.2,
+        "url": "https://openrouter.ai/models/x-ai/grok-4.1-fast"
+      },
+      {
+        "rank": 10,
+        "slug": "minimax/minimax-m2.5-20260211",
+        "name": "minimax-m2.5",
+        "org": "minimax",
+        "total_tokens": 98078590646,
+        "total_tokens_str": "98B",
+        "calls": 2486404,
+        "change": -10.1,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.5-20260211"
+      }
+    ],
+    "hf_summary": "多模态与语音模型热度高涨蒸馏与推理优化成焦点"
+  }
+}
