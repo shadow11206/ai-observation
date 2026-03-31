@@ -1,14 +1,16 @@
 /**
  * daily.js — 日报列表页
  * 从 01-daily-reports/ 目录加载最近 30 天的 .json 日报，渲染为卡片列表
+ * 并在顶部渲染日期导航器（按月分组，有日报的日期高亮可点击）
  */
 
 const REPORTS_BASE = '../01-daily-reports';
 const LIST_CONTAINER = document.getElementById('report-list');
 const EMPTY_STATE = document.getElementById('empty-state');
+const DATE_NAV = document.getElementById('date-nav');
 
 // 生成最近 N 天的日期列表
-function getRecentDates(n = 30) {
+function getRecentDates(n = 60) {
   const dates = [];
   const now = new Date();
   for (let i = 0; i < n; i++) {
@@ -32,6 +34,55 @@ async function fetchReport(dateInfo) {
   } catch {
     return null;
   }
+}
+
+function isToday(dateStr) {
+  const now = new Date();
+  const d = new Date(dateStr + 'T00:00:00');
+  return now.toDateString() === d.toDateString();
+}
+
+// 渲染日期导航器
+function renderDateNav(dates, availableDates) {
+  if (!DATE_NAV) return;
+
+  const availableSet = new Set(availableDates);
+
+  // 按月分组
+  const monthMap = new Map();
+  dates.forEach(({ date, month }) => {
+    if (!monthMap.has(month)) monthMap.set(month, []);
+    monthMap.get(month).push(date);
+  });
+
+  const MONTH_CN = ['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'];
+
+  let html = '<div class="date-nav">';
+
+  monthMap.forEach((days, month) => {
+    const [yyyy, mm] = month.split('-');
+    const monthLabel = `${yyyy} 年 ${MONTH_CN[parseInt(mm, 10) - 1]}`;
+
+    html += `<div class="date-nav-month">${monthLabel}</div><div class="date-nav-grid">`;
+
+    days.forEach(date => {
+      const dd = date.split('-')[2];
+      const hasReport = availableSet.has(date);
+      const today = isToday(date);
+
+      if (hasReport) {
+        const cls = today ? 'date-nav-item has-report is-today' : 'date-nav-item has-report';
+        html += `<a href="report.html?date=${date}" class="${cls}" title="查看 ${date} 日报">${parseInt(dd, 10)}</a>`;
+      } else {
+        html += `<span class="date-nav-item">${parseInt(dd, 10)}</span>`;
+      }
+    });
+
+    html += '</div>';
+  });
+
+  html += '</div>';
+  DATE_NAV.innerHTML = html;
 }
 
 // 渲染单张日报卡片（摘要模式）
@@ -78,20 +129,17 @@ function renderCard(data) {
   return card;
 }
 
-function isToday(dateStr) {
-  const now = new Date();
-  const d = new Date(dateStr + 'T00:00:00');
-  return now.toDateString() === d.toDateString();
-}
-
 // 主流程
 async function init() {
-  const dates = getRecentDates(30);
-  const reports = [];
+  const dates = getRecentDates(60);
 
   // 并发加载
   const results = await Promise.all(dates.map(fetchReport));
-  results.forEach(r => { if (r) reports.push(r); });
+  const reports = results.filter(Boolean);
+  const availableDates = reports.map(r => r.date);
+
+  // 渲染日期导航器
+  renderDateNav(dates, availableDates);
 
   if (reports.length === 0) {
     EMPTY_STATE.style.display = 'block';
@@ -107,23 +155,6 @@ async function init() {
   requestAnimationFrame(() => {
     document.querySelectorAll('.reveal').forEach(el => {
       if (typeof revealObserver !== 'undefined') revealObserver.observe(el);
-    });
-  });
-
-  // 筛选器
-  document.getElementById('filter-bar')?.addEventListener('click', e => {
-    const chip = e.target.closest('.filter-chip');
-    if (!chip) return;
-    document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
-    chip.classList.add('active');
-    const tag = chip.dataset.tag;
-    document.querySelectorAll('.daily-report').forEach(card => {
-      if (tag === 'all') {
-        card.style.display = '';
-      } else {
-        const tags = card.dataset.tags || '';
-        card.style.display = tags.includes(tag) ? '' : 'none';
-      }
     });
   });
 }

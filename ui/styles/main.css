@@ -730,30 +730,67 @@ img { max-width: 100%; }
   padding: 0 2rem var(--space-xl);
 }
 
-.daily-filters {
-  display: flex;
-  gap: 0.5rem;
-  margin-bottom: var(--space-md);
-  flex-wrap: wrap;
+/* 日期导航器 */
+.date-nav {
+  margin-bottom: 2rem;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: 1.25rem 1.5rem;
 }
 
-.filter-chip {
-  padding: 6px 16px;
-  border-radius: 100px;
-  border: 1.5px solid var(--border);
+.date-nav-month {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.date-nav-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.date-nav-item {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 13px;
   font-weight: 500;
-  color: var(--text-secondary);
-  cursor: pointer;
-  transition: all 0.2s;
+  cursor: default;
+  color: var(--text-tertiary);
   background: transparent;
+  border: none;
+  transition: all 0.15s;
 }
 
-.filter-chip:hover,
-.filter-chip.active {
-  border-color: var(--accent);
+.date-nav-item.has-report {
   color: var(--accent);
-  background: rgba(0,113,227,0.06);
+  background: rgba(0,122,255,0.08);
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.date-nav-item.has-report:hover {
+  background: rgba(0,122,255,0.18);
+  transform: scale(1.08);
+}
+
+.date-nav-item.is-today {
+  background: var(--accent);
+  color: #fff;
+}
+
+.date-nav-item.is-today.has-report:hover {
+  background: var(--accent-hover, #0062cc);
+  transform: scale(1.08);
 }
 
 .daily-report {
