@@ -8,6 +8,175 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles/main.css" />
+  <style>
+    /* 调研列表专用样式 */
+    .research-grid {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 2rem var(--space-xl);
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .research-card {
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: var(--r-lg);
+      padding: 2rem 2.25rem;
+      cursor: pointer;
+      transition: box-shadow 0.25s var(--ease), transform 0.2s var(--ease);
+      text-decoration: none;
+      display: block;
+    }
+    .research-card:hover {
+      box-shadow: var(--shadow-md);
+      transform: translateY(-1px);
+    }
+
+    .research-card-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 0.9rem;
+      flex-wrap: wrap;
+    }
+
+    .research-type-badge {
+      font-size: 10.5px;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 100px;
+      background: rgba(0,113,227,0.08);
+      color: var(--accent);
+    }
+
+    .research-date {
+      font-size: 12.5px;
+      color: var(--text-tertiary);
+    }
+
+    .research-confidence {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      margin-left: auto;
+    }
+
+    .research-card-title {
+      font-family: var(--font-serif);
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.4;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.75rem;
+    }
+
+    .research-card-tldr {
+      font-size: 14.5px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .research-card-footer {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 1.25rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+
+    .research-tags {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+      flex: 1;
+    }
+
+    .research-tag {
+      font-size: 11.5px;
+      color: var(--text-tertiary);
+      background: var(--bg);
+      padding: 2px 9px;
+      border-radius: 100px;
+      border: 1px solid var(--border);
+    }
+
+    .research-sources {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      white-space: nowrap;
+    }
+
+    /* 筛选器 */
+    .research-filters {
+      max-width: 900px;
+      margin: 0 auto 2rem;
+      padding: 0 2rem;
+    }
+
+    /* 空状态 */
+    .research-empty {
+      text-align: center;
+      padding: 5rem 2rem;
+      color: var(--text-tertiary);
+    }
+    .research-empty-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .research-empty-text {
+      font-size: 15px;
+      color: var(--text-secondary);
+    }
+
+    /* 加载状态 */
+    #research-loading {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: var(--text-tertiary);
+      font-size: 14px;
+    }
+
+    /* 统计栏 */
+    .research-stats {
+      max-width: 900px;
+      margin: 0 auto 2.5rem;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 13.5px;
+      color: var(--text-tertiary);
+    }
+
+    /* 判断更新徽章 */
+    .judgment-badge {
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 100px;
+      background: rgba(52,199,89,0.1);
+      color: #1a7f37;
+      white-space: nowrap;
+    }
+    .judgment-badge.negative {
+      background: rgba(255,59,48,0.1);
+      color: #c0392b;
+    }
+
+    @media (max-width: 768px) {
+      .research-card { padding: 1.5rem; }
+      .research-confidence { display: none; }
+    }
+  </style>
 </head>
 <body>
   <nav class="nav" id="nav">
@@ -24,49 +193,26 @@
 
   <div class="page-hero">
     <div class="page-hero-eyebrow">深度调研</div>
-    <h1>话题深挖<br />有结论的分析</h1>
-    <p>对值得深入研究的话题产出结构化报告，先写结论，数据支撑，直接影响核心判断</p>
+    <h1>不止于资讯<br />每篇都有判断</h1>
+    <p>从日报线索出发，多源信息交叉验证，四层穿透分析，每篇调研都明确更新一个核心判断</p>
   </div>
 
-  <div class="daily-container">
-    <div class="daily-filters" style="margin-bottom:2rem">
-      <button class="filter-chip active">全部</button>
-      <button class="filter-chip">趋势洞察</button>
-      <button class="filter-chip">公司调研</button>
-      <button class="filter-chip">专题研究</button>
+  <!-- 筛选器 -->
+  <div class="research-filters">
+    <div class="daily-filters">
+      <button class="filter-chip active" data-filter="all">全部</button>
+      <button class="filter-chip" data-filter="trends">趋势洞察</button>
+      <button class="filter-chip" data-filter="companies">公司调研</button>
+      <button class="filter-chip" data-filter="topics">专题研究</button>
     </div>
+  </div>
 
-    <!-- 占位卡片 -->
-    <div style="background:var(--bg-alt);border:1px solid var(--border);border-radius:var(--r-lg);padding:4rem 2.5rem;text-align:center;" class="reveal">
-      <div style="width:60px;height:60px;border-radius:50%;background:var(--bg);display:flex;align-items:center;justify-content:center;margin:0 auto 1.5rem;">
-        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" style="color:var(--text-tertiary)">
-          <circle cx="14" cy="14" r="12" stroke="currentColor" stroke-width="1.5"/>
-          <path d="M14 8v6l4 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-        </svg>
-      </div>
-      <div style="font-size:1.1rem;font-weight:600;color:var(--text-primary);margin-bottom:0.5rem;">第一篇深度调研即将发布</div>
-      <div style="font-size:15px;color:var(--text-secondary);max-width:400px;margin:0 auto;">
-        日报运行一段时间后，AI 会自动推荐值得深挖的话题。第一篇调研将聚焦 AI Agent 落地现状。
-      </div>
-    </div>
+  <!-- 统计 -->
+  <div class="research-stats" id="research-stats"></div>
 
-    <div style="margin-top:3rem; padding:2rem; background:var(--bg-alt); border:1px solid var(--border); border-radius:var(--r-md);" class="reveal">
-      <div style="font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-tertiary);margin-bottom:1rem;">调研模板预览</div>
-      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;">
-        <div style="padding:1.25rem;background:var(--bg);border-radius:var(--r-sm);">
-          <div style="font-size:11px;color:var(--accent);font-weight:600;margin-bottom:0.5rem;">01 结论摘要</div>
-          <div style="font-size:13px;color:var(--text-secondary);">先写结论，3-5 句话说清核心发现</div>
-        </div>
-        <div style="padding:1.25rem;background:var(--bg);border-radius:var(--r-sm);">
-          <div style="font-size:11px;color:var(--accent);font-weight:600;margin-bottom:0.5rem;">02 核心发现</div>
-          <div style="font-size:13px;color:var(--text-secondary);">数据支撑 + 案例佐证，结构化呈现</div>
-        </div>
-        <div style="padding:1.25rem;background:var(--bg);border-radius:var(--r-sm);">
-          <div style="font-size:11px;color:var(--accent);font-weight:600;margin-bottom:0.5rem;">03 判断更新</div>
-          <div style="font-size:13px;color:var(--text-secondary);">明确指向「我的判断」的哪个问题发生了改变</div>
-        </div>
-      </div>
-    </div>
+  <!-- 内容区 -->
+  <div class="research-grid" id="research-grid">
+    <div id="research-loading">正在加载调研报告…</div>
   </div>
 
   <footer class="footer">
@@ -91,6 +237,8 @@
     </div>
     <div class="footer-bottom"><span>© 2026 AI Observation</span></div>
   </footer>
+
   <script src="scripts/main.js"></script>
+  <script src="scripts/research.js"></script>
 </body>
 </html>

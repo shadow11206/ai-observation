@@ -1,0 +1,26 @@
+{
+  "total": 1,
+  "updated_at": "2026-03-31",
+  "items": [
+    {
+      "id": "2026-03-31-china-multimodal-llm",
+      "date": "2026-03-31",
+      "title": "中国多模态大模型：价格战终结「性能追赶」叙事",
+      "category": "trends",
+      "category_label": "趋势洞察",
+      "type": "competition",
+      "tags": [
+        "多模态",
+        "Qwen",
+        "定价策略",
+        "OpenRouter",
+        "竞争格局"
+      ],
+      "tldr": "中国多模态赛道已从「能不能做到」进入「以多低价格做到」阶段。Qwen3.5-Omni 文本输入定价 0.8元/百万 token，约为 Gemini 的 1/10，性能已达同一水平线。OpenRouter 前4名中3个来自中国，这是真实的全球市场渗透，不是 benchmark 游戏。",
+      "confidence_rating": "★★★★",
+      "sources_count": 8,
+      "from_report": "2026-03-31",
+      "confidence_delta": 1
+    }
+  ]
+}

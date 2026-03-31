@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>调研详情 — AI Observation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <!-- marked.js for Markdown rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    /* ── Layout ── */
+    .research-layout {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 2rem var(--space-xl);
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      gap: 3.5rem;
+      align-items: start;
+    }
+
+    /* ── Sidebar ── */
+    .research-sidebar {
+      position: sticky;
+      top: 72px;
+    }
+
+    .sidebar-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 13.5px;
+      color: var(--text-tertiary);
+      margin-bottom: 2rem;
+      transition: color 0.2s;
+    }
+    .sidebar-back:hover { color: var(--accent); }
+
+    .sidebar-card {
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: var(--r-md);
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .sidebar-label {
+      font-size: 10.5px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      margin-bottom: 0.75rem;
+    }
+
+    .sidebar-confidence {
+      font-size: 1.5rem;
+      letter-spacing: 0.05em;
+      color: var(--text-primary);
+      margin-bottom: 0.25rem;
+    }
+
+    .sidebar-confidence-label {
+      font-size: 12px;
+      color: var(--text-tertiary);
+    }
+
+    .sidebar-judgment-block {
+      margin-top: 0.25rem;
+    }
+
+    .sidebar-judgment-row {
+      display: flex;
+      gap: 0.5rem;
+      align-items: flex-start;
+      font-size: 12.5px;
+      color: var(--text-secondary);
+      line-height: 1.55;
+      margin-bottom: 0.5rem;
+    }
+    .sidebar-judgment-arrow {
+      font-size: 11px;
+      color: var(--text-tertiary);
+      padding-top: 1px;
+      flex-shrink: 0;
+    }
+
+    .sidebar-delta-badge {
+      display: inline-block;
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 100px;
+      background: rgba(52,199,89,0.1);
+      color: #1a7f37;
+      margin-top: 0.5rem;
+      font-weight: 600;
+    }
+    .sidebar-delta-badge.negative {
+      background: rgba(255,59,48,0.1);
+      color: #c0392b;
+    }
+
+    .sidebar-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+    }
+    .sidebar-tag {
+      font-size: 11.5px;
+      color: var(--text-tertiary);
+      background: var(--bg);
+      padding: 2px 9px;
+      border-radius: 100px;
+      border: 1px solid var(--border);
+    }
+
+    .sidebar-meta-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12.5px;
+      color: var(--text-secondary);
+      padding: 0.4rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar-meta-row:last-child { border-bottom: none; }
+    .sidebar-meta-label { color: var(--text-tertiary); }
+
+    .sidebar-report-link {
+      display: block;
+      font-size: 13px;
+      color: var(--accent);
+      transition: opacity 0.2s;
+      text-align: center;
+      padding: 0.6rem;
+      background: rgba(0,113,227,0.06);
+      border-radius: var(--r-sm);
+      font-weight: 500;
+    }
+    .sidebar-report-link:hover { opacity: 0.75; }
+
+    /* ── 内容区 ── */
+    .research-body {
+      min-width: 0;
+    }
+
+    .research-header {
+      margin-bottom: 2.5rem;
+      padding-bottom: 2.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .research-eyebrow {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .research-title {
+      font-family: var(--font-serif);
+      font-size: clamp(1.9rem, 3.5vw, 2.8rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.18;
+      color: var(--text-primary);
+      margin-bottom: 1.5rem;
+    }
+
+    /* tldr 区块 */
+    .research-tldr {
+      background: linear-gradient(135deg, rgba(0,113,227,0.05) 0%, rgba(0,113,227,0.02) 100%);
+      border-left: 3px solid var(--accent);
+      border-radius: 0 var(--r-sm) var(--r-sm) 0;
+      padding: 1.25rem 1.5rem;
+      font-size: 16px;
+      color: var(--text-secondary);
+      line-height: 1.75;
+    }
+
+    /* Markdown 正文渲染 */
+    .research-md {
+      color: var(--text-primary);
+      line-height: 1.8;
+    }
+
+    .research-md h2 {
+      font-family: var(--font-serif);
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+      margin: 2.5rem 0 1rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .research-md h3 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin: 1.75rem 0 0.6rem;
+    }
+
+    .research-md p {
+      font-size: 15.5px;
+      color: var(--text-secondary);
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+
+    .research-md strong {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    .research-md em {
+      font-style: italic;
+      color: var(--text-tertiary);
+      font-size: 13.5px;
+    }
+
+    .research-md ul, .research-md ol {
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .research-md li {
+      font-size: 15.5px;
+      color: var(--text-secondary);
+      line-height: 1.75;
+      margin-bottom: 0.35rem;
+    }
+
+    .research-md li strong { color: var(--text-primary); }
+
+    .research-md blockquote {
+      border-left: 3px solid var(--accent);
+      margin: 1.5rem 0;
+      padding: 0.75rem 1.25rem;
+      background: rgba(0,113,227,0.04);
+      border-radius: 0 var(--r-sm) var(--r-sm) 0;
+    }
+
+    .research-md blockquote p {
+      margin: 0;
+      font-size: 15px;
+      color: var(--text-secondary);
+    }
+
+    .research-md table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.25rem 0;
+      font-size: 14px;
+    }
+
+    .research-md th {
+      background: var(--bg);
+      font-weight: 600;
+      font-size: 12.5px;
+      color: var(--text-secondary);
+      text-align: left;
+      padding: 0.6rem 0.9rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .research-md td {
+      padding: 0.65rem 0.9rem;
+      border-bottom: 1px solid var(--border);
+      color: var(--text-secondary);
+      font-size: 14px;
+      vertical-align: top;
+    }
+
+    .research-md tr:last-child td { border-bottom: none; }
+    .research-md tr:hover td { background: var(--bg); }
+
+    .research-md code {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 1px 5px;
+      font-size: 13px;
+      font-family: 'SF Mono', 'Menlo', monospace;
+      color: var(--text-primary);
+    }
+
+    .research-md pre {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: var(--r-sm);
+      padding: 1.25rem;
+      overflow-x: auto;
+      margin: 1rem 0;
+    }
+
+    .research-md pre code {
+      background: none;
+      border: none;
+      padding: 0;
+      font-size: 13.5px;
+    }
+
+    .research-md a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-decoration-color: rgba(0,113,227,0.3);
+      transition: text-decoration-color 0.2s;
+    }
+    .research-md a:hover {
+      text-decoration-color: var(--accent);
+    }
+
+    /* hr 分隔线 */
+    .research-md hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 2rem 0;
+    }
+
+    /* 盲区卡片（blind spots） */
+    .blind-spots-card {
+      background: rgba(255,149,0,0.06);
+      border: 1px solid rgba(255,149,0,0.18);
+      border-radius: var(--r-md);
+      padding: 1.25rem 1.5rem;
+      margin-top: 2rem;
+    }
+    .blind-spots-title {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: #c6690a;
+      margin-bottom: 0.75rem;
+    }
+    .blind-spots-item {
+      font-size: 14px;
+      color: var(--text-secondary);
+      padding: 0.25rem 0;
+      display: flex;
+      gap: 0.5rem;
+      align-items: baseline;
+    }
+    .blind-spots-item::before {
+      content: '·';
+      color: #c6690a;
+      flex-shrink: 0;
+    }
+
+    /* 加载 / 错误 */
+    #research-detail-loading {
+      text-align: center;
+      padding: 6rem 2rem;
+      color: var(--text-tertiary);
+      font-size: 15px;
+    }
+
+    /* 响应式 */
+    @media (max-width: 900px) {
+      .research-layout {
+        grid-template-columns: 1fr;
+      }
+      .research-sidebar {
+        position: static;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+      .sidebar-back { grid-column: 1 / -1; }
+    }
+    @media (max-width: 600px) {
+      .research-sidebar { grid-template-columns: 1fr; }
+      .research-title { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">AI Observation</a>
+      <ul class="nav-links">
+        <li><a href="daily.html">日报</a></li>
+        <li><a href="research.html" style="color:var(--text-primary)">深度调研</a></li>
+        <li><a href="opinions.html">我的判断</a></li>
+        <li><a href="tracking.html">追踪体系</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 加载占位 -->
+  <div id="research-detail-loading" style="padding-top:100px;">正在加载调研报告…</div>
+
+  <!-- 主体（JS 填充后替换 loading） -->
+  <div id="research-detail-root" style="display:none">
+    <div style="padding: 88px 2rem 0; max-width:1100px; margin:0 auto;">
+      <a href="research.html" class="sidebar-back" style="margin-bottom:1.5rem;display:inline-flex">← 返回调研列表</a>
+    </div>
+
+    <div class="research-layout">
+      <!-- 左侧信息面板 -->
+      <aside class="research-sidebar" id="research-sidebar"></aside>
+
+      <!-- 右侧正文 -->
+      <main class="research-body">
+        <div class="research-header">
+          <div class="research-eyebrow" id="detail-eyebrow"></div>
+          <h1 class="research-title" id="detail-title"></h1>
+          <div class="research-tldr" id="detail-tldr"></div>
+        </div>
+
+        <!-- Markdown 正文 -->
+        <div class="research-md" id="detail-md"></div>
+
+        <!-- 盲区卡片 -->
+        <div id="detail-blindspots"></div>
+      </main>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">AI Observation</div>
+        <p>让 AI 行业洞察变得系统化、可持续、有观点</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <div class="footer-col-title">内容</div>
+          <a href="daily.html">每日日报</a>
+          <a href="research.html">深度调研</a>
+          <a href="opinions.html">我的判断</a>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">体系</div>
+          <a href="tracking.html">追踪名单</a>
+          <a href="https://github.com/shadow11206/ai-observation" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 AI Observation</span></div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+  <script>
+  (function() {
+    const RESEARCH_BASE = '../02-deep-research';
+    const CATEGORY_LABELS = {
+      trends: '趋势洞察',
+      companies: '公司调研',
+      topics: '专题研究',
+    };
+
+    function getParams() {
+      const p = new URLSearchParams(window.location.search);
+      return { id: p.get('id'), category: p.get('category') };
+    }
+
+    function formatDate(s) {
+      if (!s) return '';
+      const d = new Date(s + 'T00:00:00');
+      return `${d.getFullYear()} 年 ${d.getMonth()+1} 月 ${d.getDate()} 日`;
+    }
+
+    async function init() {
+      const { id, category } = getParams();
+      if (!id || !category) {
+        showError('参数缺失，无法加载报告');
+        return;
+      }
+
+      const basePath = `${RESEARCH_BASE}/${category}/${id}`;
+
+      try {
+        // 并行加载 JSON + Markdown
+        const [metaRes, mdRes] = await Promise.all([
+          fetch(`${basePath}.json`),
+          fetch(`${basePath}.md`),
+        ]);
+
+        if (!metaRes.ok) throw new Error('元数据加载失败');
+        const meta = await metaRes.json();
+
+        let mdText = '';
+        if (mdRes.ok) {
+          mdText = await mdRes.text();
+        }
+
+        render(meta, mdText);
+      } catch (e) {
+        showError(`加载失败：${e.message}`);
+      }
+    }
+
+    function render(meta, mdText) {
+      document.title = `${meta.title} — AI Observation`;
+
+      // 隐藏 loading，显示内容
+      document.getElementById('research-detail-loading').style.display = 'none';
+      document.getElementById('research-detail-root').style.display = '';
+
+      // eyebrow
+      const catLabel = CATEGORY_LABELS[meta.category] || meta.category;
+      document.getElementById('detail-eyebrow').innerHTML =
+        `<span>${catLabel}</span>
+         <span style="color:var(--text-tertiary);font-weight:400;letter-spacing:0;text-transform:none">·</span>
+         <span style="color:var(--text-tertiary);font-weight:400;letter-spacing:0;text-transform:none">${formatDate(meta.date)}</span>`;
+
+      // title
+      document.getElementById('detail-title').textContent = meta.title;
+
+      // tldr
+      document.getElementById('detail-tldr').textContent = meta.tldr || '';
+
+      // sidebar
+      renderSidebar(meta);
+
+      // markdown 正文（去掉 yaml-like frontmatter 和 tldr 开头部分）
+      const cleanMd = stripFrontmatter(mdText);
+      if (cleanMd && window.marked) {
+        document.getElementById('detail-md').innerHTML = marked.parse(cleanMd);
+      }
+
+      // 盲区卡片
+      renderBlindSpots(meta.blind_spots || []);
+    }
+
+    function renderSidebar(meta) {
+      const sidebar = document.getElementById('research-sidebar');
+      const delta = meta.confidence_delta || 0;
+      const deltaHtml = delta !== 0
+        ? `<span class="sidebar-delta-badge${delta < 0 ? ' negative' : ''}">
+             ${delta > 0 ? '信心升级' : '判断修正'} ${delta > 0 ? '+' : ''}${delta}★
+           </span>`
+        : '';
+
+      const reportLink = meta.from_report
+        ? `<a href="report.html?date=${meta.from_report}" class="sidebar-report-link">
+             📰 查看来源日报 ${meta.from_report}
+           </a>`
+        : '';
+
+      const opinionLink = meta.opinion_log_file
+        ? `<div class="sidebar-meta-row">
+             <span class="sidebar-meta-label">关联判断</span>
+             <span style="font-size:12px;color:var(--text-primary)">${meta.opinion_log_file.replace('.md','')}</span>
+           </div>`
+        : '';
+
+      sidebar.innerHTML = `
+        <!-- 信心等级 -->
+        <div class="sidebar-card">
+          <div class="sidebar-label">信心等级</div>
+          <div class="sidebar-confidence">${meta.confidence_rating || '—'}</div>
+          <div class="sidebar-confidence-label">${meta.sources_count || 0} 个信息来源</div>
+        </div>
+
+        <!-- 判断变化 -->
+        ${(meta.judgment_before || meta.judgment_after) ? `
+        <div class="sidebar-card">
+          <div class="sidebar-label">判断更新</div>
+          ${meta.judgment_before ? `
+          <div class="sidebar-judgment-row">
+            <span class="sidebar-judgment-arrow">调研前</span>
+            <span>${meta.judgment_before}</span>
+          </div>` : ''}
+          ${meta.judgment_after ? `
+          <div class="sidebar-judgment-row" style="color:var(--text-primary)">
+            <span class="sidebar-judgment-arrow">调研后</span>
+            <span><strong>${meta.judgment_after}</strong></span>
+          </div>` : ''}
+          ${deltaHtml}
+        </div>` : ''}
+
+        <!-- 标签 -->
+        ${(meta.tags || []).length ? `
+        <div class="sidebar-card">
+          <div class="sidebar-label">关键词</div>
+          <div class="sidebar-tags">
+            ${(meta.tags || []).map(t => `<span class="sidebar-tag">${t}</span>`).join('')}
+          </div>
+        </div>` : ''}
+
+        <!-- 元信息 -->
+        <div class="sidebar-card">
+          <div class="sidebar-label">报告信息</div>
+          <div class="sidebar-meta-row">
+            <span class="sidebar-meta-label">日期</span>
+            <span>${meta.date}</span>
+          </div>
+          <div class="sidebar-meta-row">
+            <span class="sidebar-meta-label">分类</span>
+            <span>${CATEGORY_LABELS[meta.category] || meta.category}</span>
+          </div>
+          ${opinionLink}
+        </div>
+
+        <!-- 来源日报 -->
+        ${reportLink}
+      `;
+    }
+
+    function renderBlindSpots(items) {
+      const el = document.getElementById('detail-blindspots');
+      if (!items.length) return;
+      el.innerHTML = `
+        <div class="blind-spots-card">
+          <div class="blind-spots-title">⚠ 本次调研盲区</div>
+          ${items.map(i => `<div class="blind-spots-item">${i}</div>`).join('')}
+        </div>
+      `;
+    }
+
+    function stripFrontmatter(md) {
+      if (!md) return '';
+      // 去掉开头的 frontmatter（---...---）如果有
+      let text = md.replace(/^---[\s\S]*?---\n/, '');
+      // 去掉开头的标题（# 标题）
+      text = text.replace(/^#\s+.+\n/, '');
+      // 去掉开头的 **日期**/**分类** 等元信息行
+      text = text.replace(/^\*\*(日期|分类|来源日报|信心等级)\*\*[^\n]*\n/gm, '');
+      // 去掉结论摘要中与 tldr 重复的开头段落（可选：保留，或注释掉以避免重复）
+      return text.trim();
+    }
+
+    function showError(msg) {
+      document.getElementById('research-detail-loading').innerHTML =
+        `<div style="padding-top:100px;text-align:center;color:var(--text-tertiary)">
+           <div style="font-size:2rem;margin-bottom:1rem">🔬</div>
+           <div>${msg}</div>
+           <a href="research.html" style="color:var(--accent);margin-top:1rem;display:inline-block">← 返回调研列表</a>
+         </div>`;
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+  })();
+  </script>
+</body>
+</html>
