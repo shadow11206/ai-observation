@@ -29,6 +29,53 @@ function formatDateLabel(dateStr) {
   return `${d.getFullYear()} 年 ${d.getMonth() + 1} 月 ${d.getDate()} 日 · 星期${weekdays[d.getDay()]}`;
 }
 
+// 渲染「今日速览」摘要卡
+function renderOverview(data) {
+  const topCount = (data.top_items || []).length;
+  const modelCount = (data.model_tech || []).length;
+  const companyCount = (data.company_product || []).length;
+  const opinionCount = (data.opinions || []).length;
+  const deepDiveCount = (data.deep_dive_suggestions || []).length;
+  const highPriority = (data.deep_dive_suggestions || []).filter(d => d.priority === 'high');
+
+  const stats = [
+    { label: '重点动态', value: topCount },
+    { label: '模型/技术', value: modelCount },
+    { label: '公司/产品', value: companyCount },
+    { label: '人物观点', value: opinionCount },
+    { label: '深挖建议', value: deepDiveCount },
+  ].filter(s => s.value > 0);
+
+  return `
+    <section id="overview" style="margin-bottom:1.5rem;">
+      <div style="background:linear-gradient(135deg,rgba(0,122,255,0.06) 0%,rgba(0,122,255,0.02) 100%);border:1px solid rgba(0,122,255,0.15);border-radius:16px;padding:1.25rem 1.5rem;">
+        <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.9rem;">
+          <span style="font-size:13px;font-weight:600;color:var(--accent);letter-spacing:0.04em;">今日速览</span>
+        </div>
+        ${data.summary_one_line ? `
+          <div style="font-size:16px;font-weight:500;color:var(--text-primary);line-height:1.5;margin-bottom:1rem;">${data.summary_one_line}</div>
+        ` : ''}
+        <div style="display:flex;flex-wrap:wrap;gap:0.6rem 1.5rem;margin-bottom:${highPriority.length > 0 ? '0.9rem' : '0'};">
+          ${stats.map(s => `
+            <div style="display:flex;align-items:baseline;gap:0.3rem;">
+              <span style="font-size:22px;font-weight:700;color:var(--text-primary);font-variant-numeric:tabular-nums;">${s.value}</span>
+              <span style="font-size:12px;color:var(--text-tertiary);">${s.label}</span>
+            </div>
+          `).join('')}
+        </div>
+        ${highPriority.length > 0 ? `
+          <div style="display:flex;align-items:center;gap:0.4rem;flex-wrap:wrap;padding-top:0.75rem;border-top:1px solid rgba(0,122,255,0.1);">
+            <span style="font-size:11px;color:var(--text-tertiary);white-space:nowrap;">高优深挖</span>
+            ${highPriority.map(d => `
+              <a href="#deep-dive" style="font-size:12px;color:var(--accent);background:rgba(0,122,255,0.08);border:1px solid rgba(0,122,255,0.15);border-radius:6px;padding:2px 8px;text-decoration:none;white-space:nowrap;">${d.topic}</a>
+            `).join('')}
+          </div>
+        ` : ''}
+      </div>
+    </section>
+  `;
+}
+
 // 渲染函数 —— 6 个模块
 function renderReport(data) {
   const content = document.getElementById('report-content');
@@ -45,6 +92,7 @@ function renderReport(data) {
   document.getElementById('sidebar-summary').textContent = data.summary_one_line || '';
 
   content.innerHTML = `
+    ${renderOverview(data)}
     ${renderTopItems(data.top_items || [])}
     ${renderModelTech(data.model_tech || [])}
     ${renderCompany(data.company_product || [])}
@@ -253,7 +301,10 @@ function renderSnapshot(snapshot) {
               </a>`).join('')}
           </div>` : ''}
 
-        <div style="font-size:12px;font-weight:600;color:var(--text-tertiary);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:0.6rem;">Hugging Face Trending</div>
+        <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.6rem;">
+          <span style="font-size:12px;font-weight:600;color:var(--text-tertiary);letter-spacing:0.08em;text-transform:uppercase;">Hugging Face Trending</span>
+          <span style="font-size:10px;font-weight:600;color:#FF9500;background:rgba(255,149,0,0.1);border:1px solid rgba(255,149,0,0.25);border-radius:4px;padding:1px 6px;white-space:nowrap;">今日数据</span>
+        </div>
         <div style="background:var(--bg-card);border-radius:12px;overflow:hidden;">
           ${hf.slice(0, 8).map((m, i) => {
             const label = getModelLabel(m);
@@ -300,10 +351,11 @@ function renderSnapshot(snapshot) {
         ${(snapshot.openrouter_ranking || []).length > 0 ? (() => {
           const or = snapshot.openrouter_ranking;
           return `
-            <div style="font-size:12px;font-weight:600;color:var(--text-tertiary);letter-spacing:0.08em;text-transform:uppercase;margin:1.25rem 0 0.6rem;">
-              OpenRouter · 模型调用排行
+            <div style="display:flex;align-items:center;gap:0.5rem;margin:1.25rem 0 0.6rem;">
+              <span style="font-size:12px;font-weight:600;color:var(--text-tertiary);letter-spacing:0.08em;text-transform:uppercase;">OpenRouter · 模型调用排行</span>
+              <span style="font-size:10px;font-weight:600;color:#FF9500;background:rgba(255,149,0,0.1);border:1px solid rgba(255,149,0,0.25);border-radius:4px;padding:1px 6px;white-space:nowrap;">今日数据</span>
               <a href="https://openrouter.ai/rankings?view=day" target="_blank" rel="noopener"
-                style="font-size:11px;font-weight:400;color:var(--accent);text-transform:none;margin-left:0.5rem;text-decoration:none;">查看完整榜单 →</a>
+                style="font-size:11px;font-weight:400;color:var(--accent);text-transform:none;margin-left:auto;text-decoration:none;">查看完整榜单 →</a>
             </div>
             <div style="background:var(--bg-card);border-radius:12px;overflow:hidden;">
               ${or.slice(0, 10).map((m, i) => {
