@@ -1,6 +1,13 @@
 {
-  "total": 6,
+  "total": 7,
   "reports": [
+    {
+      "date": "2026-04-01",
+      "title": "今日 AI 日报：OpenAI 完成 1220 亿美元巨额融资，创下历史纪录 + 2 条重要动态",
+      "excerpt": "这意味着 AI 军备竞赛进入新阶段，资金壁垒被无限拉高。OpenAI 将拥有远超…",
+      "top_count": 3,
+      "file": "2026-04-01.json"
+    },
     {
       "date": "2026-03-31",
       "title": "今日 AI 日报：阿里发布Qwen3.5-Omni，多模态能力超越Gemini-3.1 Pro + 2 条重要动态",

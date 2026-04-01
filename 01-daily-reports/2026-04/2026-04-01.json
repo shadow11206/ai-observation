@@ -1,0 +1,388 @@
+{
+  "date": "2026-04-01",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "OpenAI 完成 1220 亿美元巨额融资，创下历史纪录",
+      "finding": "OpenAI 宣布完成 1220 亿美元的新一轮融资，这是科技史上最大单笔融资。资金将用于扩展前沿 AI 研究、投资下一代计算基础设施，并满足 ChatGPT、Codex 和企业 AI 日益增长的需求。",
+      "key_data": [
+        "1220亿美元融资",
+        "史上最大单笔融资",
+        "扩展前沿AI与计算"
+      ],
+      "judgment": "这意味着 AI 军备竞赛进入新阶段，资金壁垒被无限拉高。OpenAI 将拥有远超对手的资源来推进 AGI 研究、锁定顶级人才和算力，进一步巩固其领先地位，同时给其他独立 AI 实验室带来巨大的生存压力。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai"
+    },
+    {
+      "rank": 2,
+      "title": "Claude Code 源代码意外泄露，揭示其多智能体编排系统",
+      "finding": "Anthropic 的 Claude Code 产品源代码通过 npm 包中的 source map 文件意外泄露。社区迅速分析并提取其多智能体协作框架，发现其设计远超简单的终端助手，包含复杂的用户行为观测和团队管理机制。",
+      "key_data": [
+        "Claude Code 源代码泄露",
+        "多智能体编排系统",
+        "用户行为观测"
+      ],
+      "judgment": "这对 AI 工程社区是意外之喜，揭示了顶级闭源 AI 编码工具的内部架构。开发者可以借鉴其设计模式，加速开源 AI 编程工具的发展，但也暴露了闭源产品在安全发布流程上的风险。",
+      "confidence": 4,
+      "source": "Reddit r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s8ijfb/claude_code_source_code_has_been_leaked_via_a_map/"
+    },
+    {
+      "rank": 3,
+      "title": "字节跳动 Trae 发布独立桌面端，从代码编写迈向通用任务",
+      "finding": "字节跳动的 AI 原生 IDE Trae 发布了名为 TRAE SOLO 的独立桌面端应用，支持 PC 和 Web。其定位已不局限于代码编写，开始向处理更广泛的通用任务跨界。",
+      "key_data": [
+        "字节 Trae 发布独立端",
+        "TRAE SOLO",
+        "从编码跨界通用任务"
+      ],
+      "judgment": "这意味着 AI 原生 IDE 的竞争焦点正从“更好的编码助手”转向“个人通用计算环境”。Trae 试图抢占下一代操作系统的入口，将开发者工具扩展为全能 AI 工作台，是产品形态演进的重要信号。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/03/394014.html"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Hugging Face Blog",
+      "title": "IBM Granite 4.0 3B Vision：面向企业文档的紧凑型多模态模型",
+      "finding": "IBM 与 Hugging Face 合作发布了 Granite 4.0 3B Vision，这是一个专为理解企业文档（如 PDF、表格）设计的小型多模态模型。",
+      "key_data": [
+        "3B 参数",
+        "企业文档理解",
+        "紧凑多模态"
+      ],
+      "judgment": "表明企业 AI 应用正追求在有限算力下实现精准的垂直场景能力，而非一味追求大参数，为边缘部署和成本敏感场景提供了新选项。",
+      "confidence": 5,
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "AlpsBench：面向真实对话记忆与偏好对齐的 LLM 个性化评测基准",
+      "finding": "研究者提出了 AlpsBench，一个新的基准测试，用于评估大语言模型在记住长期对话历史和对齐用户个性化偏好方面的能力。",
+      "key_data": [
+        "LLM 个性化评测",
+        "对话记忆",
+        "偏好对齐"
+      ],
+      "judgment": "随着 AI 助手走向长期陪伴，如何量化其“记忆力”和“个性化”成为关键。该基准将推动模型向更实用、更贴身的个人助理方向发展。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2603.26680",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "量子位",
+      "title": "智谱 AI 发布上市后首份财报，国内 MaaS 收入领先",
+      "finding": "智谱 AI 上市后发布的首份财报显示，其营收超过 7.24 亿元，成为国内大模型公司中收入最高的企业，并提出了“Token 架构力”的新概念。",
+      "key_data": [
+        "营收超7.24亿元",
+        "国内大模型收入第一",
+        "Token架构力"
+      ],
+      "judgment": "证明在中国市场，通过 MaaS（模型即服务）为企业提供 API 和解决方案已成为可行的商业化路径，为其他模型厂商提供了信心和参照。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/03/394135.html",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "京东科技推出 AI 智能体专属自主支付钱包 ClawTip",
+      "finding": "京东科技发布了名为 ClawTip 的产品，这是一个专为 AI 智能体设计的、能够实现智能体之间自主支付的钱包系统。",
+      "key_data": [
+        "AI 智能体支付钱包",
+        "ClawTip",
+        "自主支付"
+      ],
+      "judgment": "这是为未来多智能体协作经济搭建基础设施的关键一步，解决了智能体间价值交换的信任和自动化问题，推动 AI 从工具向自主经济参与者演进。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/03/394011.html",
+      "importance": 3
+    },
+    {
+      "source": "LangChain Blog",
+      "title": "LangChain 宣布与 MongoDB 建立合作伙伴关系",
+      "finding": "LangChain 宣布与 MongoDB 达成合作，旨在提供一套在 MongoDB Atlas 数据库上直接构建生产级 AI 智能体的技术栈。",
+      "key_data": [
+        "LangChain 与 MongoDB 合作",
+        "AI Agent 技术栈",
+        "数据库原生 Agent"
+      ],
+      "judgment": "表明 AI 应用开发正深度集成到现有数据基础设施中，降低开发门槛。企业可以利用熟悉的数据库直接构建智能体，加速 AI 落地。",
+      "confidence": 5,
+      "url": "https://blog.langchain.com/announcing-the-langchain-mongodb-partnership-the-ai-agent-stack-that-runs-on-the-database-you-already-trust/",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison (引用 Soohoon Choi)",
+      "level": "L2",
+      "quote": "AI 模型会写出好代码，因为经济激励使然。好代码生成和维护成本更低。当前 AI 模型之间竞争激烈，那些能持续生成高质量、低成本代码的模型将胜出。",
+      "source": "https://simonwillison.net/2026/Apr/1/soohoon-choi/#atom-everything"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "Claude Code 泄露架构对开源 AI 编程工具生态的影响",
+      "reason": "此次泄露无异于对闭源顶级产品的“技术拆解”，开源社区可借此快速迭代，可能催生新一代媲美商业产品的开源 AI 编程框架，改变竞争格局。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI 智能体经济基础设施的早期构建",
+      "reason": "从京东的 ClawTip 支付钱包到多智能体协作框架的泄露，表明行业正在为智能体自主交互与经济活动打基础，这是迈向真正自主 Agent 的关键一步。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "OpenAI 天量融资巩固霸权，Claude Code 泄露激发开源生态。",
+  "snapshot": {
+    "date": "2026-04-01",
+    "hf_trending": [
+      {
+        "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "short_name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "likes": 1909,
+        "downloads": 337432,
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "tags": [
+          "safetensors",
+          "qwen3_5",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "CohereLabs/cohere-transcribe-03-2026",
+        "short_name": "cohere-transcribe-03-2026",
+        "likes": 648,
+        "downloads": 50497,
+        "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "cohere_asr"
+        ],
+        "pipeline_tag": "automatic-speech-recognition",
+        "label": "语音识别",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "mistralai/Voxtral-4B-TTS-2603",
+        "short_name": "Voxtral-4B-TTS-2603",
+        "likes": 571,
+        "downloads": 3721,
+        "url": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
+        "tags": [
+          "vllm",
+          "mistral-common",
+          "text-to-speech"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "baidu/Qianfan-OCR",
+        "short_name": "Qianfan-OCR",
+        "likes": 724,
+        "downloads": 17643,
+        "url": "https://huggingface.co/baidu/Qianfan-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "internvl_chat"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "chromadb/context-1",
+        "short_name": "context-1",
+        "likes": 322,
+        "downloads": 2387,
+        "url": "https://huggingface.co/chromadb/context-1",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gpt_oss"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "short_name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "likes": 394,
+        "downloads": 155487,
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "tags": [
+          "gguf",
+          "qwen3_5",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+        "short_name": "Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+        "likes": 870,
+        "downloads": 623469,
+        "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+        "tags": [
+          "gguf",
+          "uncensored",
+          "qwen3.5"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "facebook/tribev2",
+        "short_name": "tribev2",
+        "likes": 229,
+        "downloads": 14264,
+        "url": "https://huggingface.co/facebook/tribev2",
+        "tags": [
+          "license:cc-by-nc-4.0",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "xiaomi/mimo-v2-pro-20260318",
+        "name": "mimo-v2-pro",
+        "org": "xiaomi",
+        "total_tokens": 705467418387,
+        "total_tokens_str": "705B",
+        "calls": 8488213,
+        "change": -1.1,
+        "url": "https://openrouter.ai/models/xiaomi/mimo-v2-pro-20260318"
+      },
+      {
+        "rank": 2,
+        "slug": "qwen/qwen3.6-plus-preview",
+        "name": "qwen3.6-plus-preview",
+        "org": "qwen",
+        "total_tokens": 446139179301,
+        "total_tokens_str": "446B",
+        "calls": 4961600,
+        "change": 2425.1,
+        "url": "https://openrouter.ai/models/qwen/qwen3.6-plus-preview"
+      },
+      {
+        "rank": 3,
+        "slug": "minimax/minimax-m2.7-20260318",
+        "name": "minimax-m2.7",
+        "org": "minimax",
+        "total_tokens": 210356411547,
+        "total_tokens_str": "210B",
+        "calls": 4635354,
+        "change": 16.9,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
+      },
+      {
+        "rank": 4,
+        "slug": "stepfun/step-3.5-flash",
+        "name": "step-3.5-flash",
+        "org": "stepfun",
+        "total_tokens": 199485642511,
+        "total_tokens_str": "199B",
+        "calls": 4821125,
+        "change": -4.5,
+        "url": "https://openrouter.ai/models/stepfun/step-3.5-flash"
+      },
+      {
+        "rank": 5,
+        "slug": "x-ai/grok-4.1-fast",
+        "name": "grok-4.1-fast",
+        "org": "x-ai",
+        "total_tokens": 173709421551,
+        "total_tokens_str": "174B",
+        "calls": 33009119,
+        "change": 62.4,
+        "url": "https://openrouter.ai/models/x-ai/grok-4.1-fast"
+      },
+      {
+        "rank": 6,
+        "slug": "google/gemini-3-flash-preview-20251217",
+        "name": "gemini-3-flash-preview",
+        "org": "google",
+        "total_tokens": 173672922665,
+        "total_tokens_str": "174B",
+        "calls": 18600398,
+        "change": 18.7,
+        "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
+      },
+      {
+        "rank": 7,
+        "slug": "anthropic/claude-4.6-opus-20260205",
+        "name": "claude-4.6-opus",
+        "org": "anthropic",
+        "total_tokens": 170748029354,
+        "total_tokens_str": "171B",
+        "calls": 3284030,
+        "change": 14.4,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-opus-20260205"
+      },
+      {
+        "rank": 8,
+        "slug": "deepseek/deepseek-v3.2-20251201",
+        "name": "deepseek-v3.2",
+        "org": "deepseek",
+        "total_tokens": 165838600098,
+        "total_tokens_str": "166B",
+        "calls": 16889956,
+        "change": -8.7,
+        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
+      },
+      {
+        "rank": 9,
+        "slug": "anthropic/claude-4.6-sonnet-20260217",
+        "name": "claude-4.6-sonnet",
+        "org": "anthropic",
+        "total_tokens": 163155974191,
+        "total_tokens_str": "163B",
+        "calls": 3871194,
+        "change": 3.3,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-sonnet-20260217"
+      },
+      {
+        "rank": 10,
+        "slug": "z-ai/glm-5-turbo-20260315",
+        "name": "glm-5-turbo",
+        "org": "z-ai",
+        "total_tokens": 143243434050,
+        "total_tokens_str": "143B",
+        "calls": 1652640,
+        "change": 3.3,
+        "url": "https://openrouter.ai/models/z-ai/glm-5-turbo-20260315"
+      }
+    ],
+    "hf_summary": "多模态与语音模型热度高涨 蒸馏与轻量化版本受追捧"
+  }
+}
