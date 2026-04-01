@@ -1,7 +1,28 @@
 {
-  "total": 2,
-  "updated_at": "2026-03-31",
+  "total": 3,
+  "updated_at": "2026-04-01",
   "items": [
+    {
+      "id": "2026-04-01-claude-code-leak-vibe-coding",
+      "date": "2026-04-01",
+      "title": "Claude Code 源码泄露：这不只是事故，是 Vibe Coding 战争的转折点",
+      "category": "topics",
+      "category_label": "专题研究",
+      "type": "event",
+      "tags": [
+        "Claude Code",
+        "Anthropic",
+        "Vibe Coding",
+        "KAIROS",
+        "源码泄露",
+        "AI Coding格局"
+      ],
+      "tldr": "Anthropic 一周两次信息泄露，源码中的 KAIROS、反蒸馏机制、原生客户端认证彻底曝光。最大的影响不是代码被看见，而是 Anthropic 的整个产品战略路线图（从工具到开发者基础设施）被竞品提前知道。Claude Code 的护城河比外界认为的脆弱——完全依赖模型优势，没有工程壁垒。",
+      "confidence_rating": "★★★★",
+      "sources_count": 8,
+      "from_report": "2026-03-31",
+      "confidence_delta": 1
+    },
     {
       "id": "2026-03-31-qwen35-omni-vs-gemini",
       "date": "2026-03-31",
