@@ -141,7 +141,7 @@ rss_feeds:
   - name: "TLDR AI"
     url: "https://tldr.tech/ai/rss"
     category: "newsletter"
-    priority: 2
+    priority: 3
 
   - name: "The Batch (deeplearning.ai)"
     url: "https://www.deeplearning.ai/the-batch/feed/"
@@ -157,18 +157,28 @@ rss_feeds:
   - name: "Ben's Bites"
     url: "https://bensbites.beehiiv.com/feed"
     category: "newsletter"
-    priority: 2
+    priority: 3
 
   - name: "AI Breakfast"
     url: "https://aibreakfast.beehiiv.com/feed"
     category: "newsletter"
-    priority: 1
+    priority: 2
+
+  - name: "The Rundown AI"
+    url: "https://www.therundown.ai/rss"
+    category: "newsletter"
+    priority: 3
+
+  - name: "Every (AI)"
+    url: "https://every.to/feed"
+    category: "newsletter"
+    priority: 2
 
   # ── 研究 / 学术 ──────────────────────────────────────────
   - name: "ArXiv cs.AI"
     url: "https://arxiv.org/rss/cs.AI"
     category: "research"
-    priority: 2
+    priority: 3
 
   - name: "ArXiv cs.LG (机器学习)"
     url: "https://arxiv.org/rss/cs.LG"
@@ -183,6 +193,31 @@ rss_feeds:
   - name: "Papers With Code"
     url: "https://paperswithcode.com/latest.xml"
     category: "research"
+    priority: 3
+
+  - name: "Ars Technica AI"
+    url: "https://feeds.arstechnica.com/arstechnica/technology-lab"
+    category: "media"
+    priority: 3
+
+  - name: "MIT Technology Review AI"
+    url: "https://www.technologyreview.com/feed/"
+    category: "media"
+    priority: 3
+
+  - name: "VentureBeat AI"
+    url: "https://venturebeat.com/category/ai/feed/"
+    category: "media"
+    priority: 3
+
+  - name: "TechCrunch AI"
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+    category: "media"
+    priority: 2
+
+  - name: "Wired AI"
+    url: "https://www.wired.com/feed/tag/ai/latest/rss"
+    category: "media"
     priority: 2
 
   # ── 社区 / 聚合 ──────────────────────────────────────────
@@ -194,15 +229,20 @@ rss_feeds:
   - name: "Hacker News (Machine Learning)"
     url: "https://hnrss.org/newest?q=machine+learning&points=80"
     category: "community"
-    priority: 2
+    priority: 3
 
   - name: "Reddit r/MachineLearning (热门)"
     url: "https://www.reddit.com/r/MachineLearning/hot/.rss"
     category: "community"
-    priority: 2
+    priority: 3
 
   - name: "Reddit r/LocalLLaMA (热门)"
     url: "https://www.reddit.com/r/LocalLLaMA/hot/.rss"
+    category: "community"
+    priority: 3
+
+  - name: "Reddit r/artificial (热门)"
+    url: "https://www.reddit.com/r/artificial/hot/.rss"
     category: "community"
     priority: 2
 
