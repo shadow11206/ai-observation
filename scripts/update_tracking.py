@@ -464,17 +464,24 @@ def main():
     new_people = eval_result.get("new_people", [])
     print(f"  ✓ 新增 {len(new_people)} 人：{[p['name'] for p in new_people]}")
 
-    # Step 5: 更新 people/index.md
-    print("\n📝 更新人物清单...")
-    new_content = update_people_index(eval_result, existing_data)
-    PEOPLE_INDEX.write_text(new_content, encoding="utf-8")
-    print(f"  ✓ 已更新：{PEOPLE_INDEX}")
+    # Step 5: ⚠️ 不自动覆盖 people/index.md
+    # 原因：parse_existing_people 只能解析标准排名表格格式，
+    # 而当前 index.md 是按公司分组的自定义格式，解析结果为空，
+    # 写回后会清空所有人物记录。改为只输出新人建议到更新报告。
+    new_people = eval_result.get("new_people", [])
+    if new_people:
+        print(f"\n💡 本次发现 {len(new_people)} 个新候选人，请手动评估是否加入追踪清单：")
+        for p in new_people:
+            print(f"  - {p['name']} ({p.get('level','?')}) @ {p.get('org','—')} — {p.get('focus','—')}")
+        print(f"  ↳ 详见更新报告，请人工审核后手动添加到 people/index.md")
+    else:
+        print("\n  本次无新候选人")
 
     # Step 6: 保存更新报告
     print("\n📊 生成更新报告...")
     save_update_report(eval_result, len(new_people), today)
 
-    print(f"\n🎉 追踪体系更新完成！新增 {len(new_people)} 人")
+    print(f"\n🎉 追踪体系扫描完成！发现 {len(new_people)} 个新候选人（需人工审核）")
 
     # 打印简报
     print("\n" + "─" * 40)

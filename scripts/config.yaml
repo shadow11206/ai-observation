@@ -4,7 +4,7 @@
 # AI 模型配置（API Key 通过环境变量注入，不要写在这里）
 ai:
   model: "deepseek-chat"          # 支持: deepseek-chat, gpt-4o, claude-3-5-sonnet-20241022
-  max_tokens: 4000
+  max_tokens: 6000
   temperature: 0.3
 
 # ============================================================
@@ -210,17 +210,32 @@ rss_feeds:
   - name: "机器之心"
     url: "https://www.jiqizhixin.com/rss"
     category: "chinese"
-    priority: 2
+    priority: 3
 
   - name: "量子位"
     url: "https://www.qbitai.com/feed"
     category: "chinese"
-    priority: 1
+    priority: 3
 
   - name: "InfoQ AI"
     url: "https://www.infoq.cn/feed?type=article&tag=AI"
     category: "chinese"
-    priority: 1
+    priority: 2
+
+  - name: "36氪 AI"
+    url: "https://36kr.com/feed"
+    category: "chinese"
+    priority: 2
+
+  - name: "虎嗅"
+    url: "https://www.huxiu.com/rss/0.xml"
+    category: "chinese"
+    priority: 2
+
+  - name: "极客公园"
+    url: "https://www.geekpark.net/rss"
+    category: "chinese"
+    priority: 2
 
 # ============================================================
 # 追踪体系更新配置（update_tracking.py 使用）
