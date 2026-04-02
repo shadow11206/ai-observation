@@ -1,0 +1,458 @@
+{
+  "date": "2026-04-02",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "OpenAI完成史上最大规模融资，首次提及“超级应用”",
+      "finding": "OpenAI宣布完成1220亿美元融资，创下AI行业历史记录。微软在此轮融资中角色减弱，公司首次公开提及构建“超级应用”的战略方向。",
+      "key_data": [
+        "1220亿美元融资",
+        "微软角色减弱",
+        "首次提及“超级应用”"
+      ],
+      "judgment": "这意味着AI行业的资本竞赛进入新阶段，OpenAI正从纯模型提供商向平台和超级应用转型，试图建立更广泛的用户生态和商业模式。",
+      "confidence": 4,
+      "source": "InfoQ AI",
+      "url": "https://www.infoq.cn/article/0gETwo2o5fFsUQxotf1J?utm_source=rss&utm_medium=article"
+    },
+    {
+      "rank": 2,
+      "title": "字节跳动豆包大模型日均Token使用量超120万亿",
+      "finding": "字节跳动宣布其豆包大模型日均Token处理量已超过120万亿，并面向企业用户开放Seedance 2.0 API的公测。",
+      "key_data": [
+        "日均Token超120万亿",
+        "Seedance 2.0 API公测",
+        "面向企业用户"
+      ],
+      "judgment": "这表明字节跳动的大模型已具备巨大的实际使用规模，正加速从消费级应用向企业级市场渗透，国内大模型商业化竞争进入白热化。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/394616.html"
+    },
+    {
+      "rank": 3,
+      "title": "Claude Code架构泄露，社区推出开源复现版",
+      "finding": "Anthropic的Claude Code源代码意外泄露，揭示了其生产级AI Agent的完整架构。社区迅速基于此推出了名为“Claw Code Agent”的开源复现版本。",
+      "key_data": [
+        "Claude Code源代码泄露",
+        "生产级Agent架构曝光",
+        "开源复现版“Claw Code Agent”"
+      ],
+      "judgment": "这意味着顶尖AI公司的Agent工程实践首次被大规模公开，将极大加速整个开源社区和创业公司在AI Agent领域的研发进程，降低技术门槛。",
+      "confidence": 3,
+      "source": "Reddit r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sa09ta/d_we_reimplemented_claude_code_entirely_in_python/"
+    },
+    {
+      "rank": 4,
+      "title": "智谱AI财报亮眼，CEO称人人将是“Token架构师”",
+      "finding": "智谱AI发布财报，显示其核心业务指标快速增长，接近Anthropic水平。CEO张鹏提出“人人都将是Token架构师”的观点，强调Token经济的重要性。",
+      "key_data": [
+        "核心指标接近Anthropic",
+        "CEO提出“Token架构师”",
+        "Token价值暴涨"
+      ],
+      "judgment": "这表明国内头部模型厂商的商业化路径逐渐清晰，Token消耗量成为衡量模型成功的关键指标，AI行业正从技术竞赛转向商业和生态构建的竞争。",
+      "confidence": 4,
+      "source": "InfoQ AI",
+      "url": "https://www.infoq.cn/article/0Bu3qODSVfDfWgxFsNVQ?utm_source=rss&utm_medium=article"
+    },
+    {
+      "rank": 5,
+      "title": "具身智能公司“星海图”再获20亿融资，估值达200亿",
+      "finding": "具身智能公司星海图宣布完成新一轮20亿元融资，估值达到200亿元人民币，成为该领域估值最高的公司之一。",
+      "key_data": [
+        "20亿元融资",
+        "估值200亿元",
+        "具身智能头部门槛"
+      ],
+      "judgment": "这意味着具身智能赛道已进入“季后赛”阶段，资本正快速向头部公司集中，200亿估值成为新的入场券，行业洗牌和整合即将开始。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/394626.html"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "量子位",
+      "title": "智谱发布GLM-5V-Turbo，支持视觉编程",
+      "finding": "智谱AI上线了多模态大模型GLM-5V-Turbo，主打视觉编程能力，用户可以通过草图生成前端代码。",
+      "key_data": [
+        "GLM-5V-Turbo",
+        "草图生成前端代码",
+        "视觉编程"
+      ],
+      "judgment": "这意味着多模态模型正从“看图说话”向“看图做事”演进，有望降低前端开发门槛，是AI应用落地的重要方向。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/04/394641.html",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "Bonsai 1-bit量化模型表现获好评",
+      "finding": "社区评测显示，PrismML发布的Bonsai 1-bit量化模型在保持不错性能的同时，模型大小和内存占用大幅降低。",
+      "key_data": [
+        "1-bit量化",
+        "模型大小减少14倍",
+        "内存占用大幅降低"
+      ],
+      "judgment": "这表明极低比特量化技术正走向实用，将极大推动大模型在端侧和资源受限环境下的部署，是边缘AI的关键进展。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s9zumi/the_bonsai_1bit_models_are_very_good/",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "Clip to Grok权重裁剪技术取得新突破",
+      "finding": "独立研究者发布的“Clip to Grok”技术更新显示，通过权重范数裁剪，在多个任务上的性能提升达到39-249倍。",
+      "key_data": [
+        "权重范数裁剪",
+        "性能提升39-249倍",
+        "6个任务验证"
+      ],
+      "judgment": "这表明简单的模型压缩技术仍有巨大潜力可挖，能显著提升小模型在特定任务上的性能，对优化推理成本有实际价值。",
+      "confidence": 2,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s9y5vi/p_clip_to_grok_update_weight_norm_clipping_now/",
+      "importance": 2
+    },
+    {
+      "source": "量子位",
+      "title": "清华等开源“智能调度员”，降低龙虾养殖成本58%",
+      "finding": "清华大学、人民大学和面壁智能等机构联合开源了一个用于水产养殖的智能调度模型，在试点中将龙虾养殖成本降低了58%。",
+      "key_data": [
+        "开源智能调度模型",
+        "龙虾养殖成本降58%",
+        "清华、人大、面壁联合"
+      ],
+      "judgment": "这意味着AI正深入传统行业解决具体问题，开源模型+垂直场景的结合模式，是AI价值落地和商业化的有效路径。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/04/394606.html",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "量子位",
+      "title": "阿里通义千问AI眼镜首次OTA升级",
+      "finding": "阿里云的通义千问AI眼镜完成了首次OTA升级，增强了其作为“大模型物理接口”的能力，可以更可靠地完成任务。",
+      "key_data": [
+        "通义千问AI眼镜",
+        "首次OTA升级",
+        "“把事办成”能力增强"
+      ],
+      "judgment": "这表明AI硬件不再只是演示工具，开始通过持续迭代提升实用性和可靠性，AI与物理世界的交互进入新阶段。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/04/394620.html",
+      "importance": 2
+    },
+    {
+      "source": "36氪 AI",
+      "title": "无界方舟获韶音投资，打造硬件端侧AIOS",
+      "finding": "AI公司无界方舟获得韶音科技投资，其产品是一个可运行在机器人、耳机等硬件上的端侧AI操作系统，自称“硬件版OpenClaw”。",
+      "key_data": [
+        "无界方舟AIOS",
+        "获韶音投资",
+        "硬件端侧Agent框架"
+      ],
+      "judgment": "这意味着在云端Agent框架火热的同时，端侧AI操作系统正成为新的竞争焦点，旨在为各类智能硬件提供统一的AI能力底座。",
+      "confidence": 3,
+      "url": "https://36kr.com/p/3749149674439169?f=rss",
+      "importance": 2
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Cognichip获6000万美元融资，用AI设计AI芯片",
+      "finding": "初创公司Cognichip获得6000万美元融资，其目标是利用AI技术来设计和优化AI芯片，号称能将芯片开发成本降低75%以上。",
+      "key_data": [
+        "Cognichip获6000万美元",
+        "AI设计AI芯片",
+        "开发成本降75%"
+      ],
+      "judgment": "这反映了“AI for AI”的趋势，即用AI工具来优化AI基础设施本身，有望解决芯片设计周期长、成本高的行业痛点。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/",
+      "importance": 3
+    },
+    {
+      "source": "36氪 AI",
+      "title": "小牛电动宣布全面转型AI，发布自研AIOS和骑行智能体",
+      "finding": "两轮电动车厂商小牛电动宣布全面转型AI，在新车型上搭载了自研的“小牛灵犀AIOS”和面向骑行的AI智能体。",
+      "key_data": [
+        "小牛电动转型AI",
+        "自研“小牛灵犀AIOS”",
+        "发布骑行AI智能体"
+      ],
+      "judgment": "这表明传统制造业正积极拥抱AI，试图通过软硬结合打造下一代智能产品，AI已成为消费电子和出行领域竞争的核心要素。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3748233045541637?f=rss",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "张鹏",
+      "level": "L3",
+      "quote": "人人都将是‘Token架构师’。Token消耗量是衡量模型价值的关键，未来设计高效、有价值的Token使用流程将成为核心技能。",
+      "source": "https://www.infoq.cn/article/0Bu3qODSVfDfWgxFsNVQ?utm_source=rss&utm_medium=article"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "Claude Code泄露事件与开源Agent架构的冲击",
+      "reason": "顶尖闭源Agent的完整工程实践首次曝光，可能引发开源社区Agent研发的范式转移，值得深入分析其架构设计和对行业的影响。",
+      "priority": "high"
+    },
+    {
+      "topic": "大模型Token经济与商业化路径",
+      "reason": "智谱AI财报和字节跳动豆包的Token数据表明，Token消耗已成为核心商业指标，需要深入研究不同公司的Token定价、消耗场景和盈利模式。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "资本狂飙与架构泄露，AI行业进入规模与开源竞速新阶段。",
+  "snapshot": {
+    "date": "2026-04-02",
+    "hf_trending": [
+      {
+        "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "short_name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "likes": 2046,
+        "downloads": 353205,
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "tags": [
+          "safetensors",
+          "qwen3_5",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "CohereLabs/cohere-transcribe-03-2026",
+        "short_name": "cohere-transcribe-03-2026",
+        "likes": 702,
+        "downloads": 58683,
+        "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "cohere_asr"
+        ],
+        "pipeline_tag": "automatic-speech-recognition",
+        "label": "语音识别",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "mistralai/Voxtral-4B-TTS-2603",
+        "short_name": "Voxtral-4B-TTS-2603",
+        "likes": 608,
+        "downloads": 3851,
+        "url": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
+        "tags": [
+          "vllm",
+          "mistral-common",
+          "text-to-speech"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "baidu/Qianfan-OCR",
+        "short_name": "Qianfan-OCR",
+        "likes": 790,
+        "downloads": 17837,
+        "url": "https://huggingface.co/baidu/Qianfan-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "internvl_chat"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "chromadb/context-1",
+        "short_name": "context-1",
+        "likes": 344,
+        "downloads": 2476,
+        "url": "https://huggingface.co/chromadb/context-1",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gpt_oss"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "short_name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "likes": 449,
+        "downloads": 163835,
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "tags": [
+          "gguf",
+          "qwen3_5",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "facebook/tribev2",
+        "short_name": "tribev2",
+        "likes": 253,
+        "downloads": 17058,
+        "url": "https://huggingface.co/facebook/tribev2",
+        "tags": [
+          "license:cc-by-nc-4.0",
+          "region:us"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+        "short_name": "Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+        "likes": 900,
+        "downloads": 636153,
+        "url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+        "tags": [
+          "gguf",
+          "uncensored",
+          "qwen3.5"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "xiaomi/mimo-v2-pro-20260318",
+        "name": "mimo-v2-pro",
+        "org": "xiaomi",
+        "total_tokens": 749649983904,
+        "total_tokens_str": "750B",
+        "calls": 11722574,
+        "change": 6.3,
+        "url": "https://openrouter.ai/models/xiaomi/mimo-v2-pro-20260318"
+      },
+      {
+        "rank": 2,
+        "slug": "qwen/qwen3.6-plus-preview",
+        "name": "qwen3.6-plus-preview",
+        "org": "qwen",
+        "total_tokens": 635952327575,
+        "total_tokens_str": "636B",
+        "calls": 7391947,
+        "change": 42.5,
+        "url": "https://openrouter.ai/models/qwen/qwen3.6-plus-preview"
+      },
+      {
+        "rank": 3,
+        "slug": "minimax/minimax-m2.7-20260318",
+        "name": "minimax-m2.7",
+        "org": "minimax",
+        "total_tokens": 216751453290,
+        "total_tokens_str": "217B",
+        "calls": 4780337,
+        "change": 3.0,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
+      },
+      {
+        "rank": 4,
+        "slug": "stepfun/step-3.5-flash",
+        "name": "step-3.5-flash",
+        "org": "stepfun",
+        "total_tokens": 192027270357,
+        "total_tokens_str": "192B",
+        "calls": 4755379,
+        "change": -4.0,
+        "url": "https://openrouter.ai/models/stepfun/step-3.5-flash"
+      },
+      {
+        "rank": 5,
+        "slug": "anthropic/claude-4.6-opus-20260205",
+        "name": "claude-4.6-opus",
+        "org": "anthropic",
+        "total_tokens": 182757248002,
+        "total_tokens_str": "183B",
+        "calls": 3335226,
+        "change": 7.0,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-opus-20260205"
+      },
+      {
+        "rank": 6,
+        "slug": "x-ai/grok-4.1-fast",
+        "name": "grok-4.1-fast",
+        "org": "x-ai",
+        "total_tokens": 169028244572,
+        "total_tokens_str": "169B",
+        "calls": 32282318,
+        "change": -2.7,
+        "url": "https://openrouter.ai/models/x-ai/grok-4.1-fast"
+      },
+      {
+        "rank": 7,
+        "slug": "deepseek/deepseek-v3.2-20251201",
+        "name": "deepseek-v3.2",
+        "org": "deepseek",
+        "total_tokens": 167150558675,
+        "total_tokens_str": "167B",
+        "calls": 15988963,
+        "change": 0.8,
+        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
+      },
+      {
+        "rank": 8,
+        "slug": "anthropic/claude-4.6-sonnet-20260217",
+        "name": "claude-4.6-sonnet",
+        "org": "anthropic",
+        "total_tokens": 151134491671,
+        "total_tokens_str": "151B",
+        "calls": 3699940,
+        "change": -7.4,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-sonnet-20260217"
+      },
+      {
+        "rank": 9,
+        "slug": "google/gemini-3-flash-preview-20251217",
+        "name": "gemini-3-flash-preview",
+        "org": "google",
+        "total_tokens": 140691898909,
+        "total_tokens_str": "141B",
+        "calls": 16947245,
+        "change": -19.0,
+        "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
+      },
+      {
+        "rank": 10,
+        "slug": "z-ai/glm-5-turbo-20260315",
+        "name": "glm-5-turbo",
+        "org": "z-ai",
+        "total_tokens": 114823135171,
+        "total_tokens_str": "115B",
+        "calls": 1612751,
+        "change": -19.8,
+        "url": "https://openrouter.ai/models/z-ai/glm-5-turbo-20260315"
+      }
+    ],
+    "hf_summary": "多模态与语音模型热度高涨推理与生成模型持续受关注"
+  }
+}
