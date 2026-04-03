@@ -3,195 +3,226 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "谷歌发布Gemma 4开源模型系列",
-      "finding": "谷歌DeepMind发布了Gemma 4系列开源模型，包含2B、4B、31B和26B-A4B MoE等多个尺寸，主打高级推理和智能体工作流，并采用Apache 2.0许可。",
+      "title": "Anthropic 以4亿美元收购生物科技初创公司 Coefficient Bio",
+      "finding": "AI模型巨头Anthropic以4亿美元股票交易收购了处于隐秘状态的生物科技AI初创公司Coefficient Bio。这表明AI公司正积极向生命科学等垂直领域扩张，寻求新的增长点和应用场景。",
       "key_data": [
-        "Apache 2.0许可",
-        "支持视觉、视频、音频",
-        "26B-A4B MoE架构",
-        "专为智能体工作流设计"
+        "4亿美元股票交易",
+        "生物科技AI初创公司",
+        "垂直领域扩张"
       ],
-      "judgment": "这意味着开源模型在推理和智能体能力上正快速追赶闭源模型，为开发者提供了更强大、更灵活且成本可控的构建基础，可能加速企业级AI应用的落地。",
-      "confidence": 5,
-      "source": "Google DeepMind Blog",
-      "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/"
+      "judgment": "这意味着AI模型公司的竞争正从通用能力转向垂直行业深度整合。Anthropic此举旨在将Claude的推理能力与生物科技结合，开辟新的商业化路径，也预示着未来AI巨头将通过收购快速进入高价值专业领域。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/"
     },
     {
       "rank": 2,
-      "title": "Cursor发布新一代AI编程智能体体验",
-      "finding": "AI编程IDE Cursor推出了新一代的AI智能体体验，旨在更直接地与OpenAI的Codex和Anthropic的Claude Code展开竞争。",
+      "title": "Google发布Gemma 4：最佳小型多模态开源模型",
+      "finding": "Google发布了Gemma 4系列开源模型，官方和社区评测均显示其在各方面（尤其是多模态能力）相比Gemma 3有显著提升，被认为是当前最佳的小型多模态开源模型。",
       "key_data": [
-        "AI编程智能体",
-        "对标Codex和Claude Code",
-        "Cursor IDE"
+        "小型多模态开源模型",
+        "全面超越Gemma 3",
+        "社区评测积极"
       ],
-      "judgment": "这意味着AI编程工具的竞争焦点正从代码补全转向更自主、更复杂的智能体协作，开发者将获得更强大的编程伙伴，但工具间的功能趋同和生态锁定问题也会加剧。",
-      "confidence": 4,
-      "source": "Wired AI",
-      "url": "https://www.wired.com/story/cusor-launches-coding-agent-openai-anthropic/"
+      "judgment": "这意味着开源模型在小型化、多模态和实用性上又迈进一步。对于开发者和初创公司，Gemma 4提供了一个更强大、更易部署的免费选择，可能加速边缘AI和多模态应用（如手机、IoT设备）的普及，对闭源模型构成压力。",
+      "confidence": 5,
+      "source": "Latent Space (Swyx)",
+      "url": "https://www.latent.space/p/ainews-gemma-4-the-best-small-multimodal"
     },
     {
       "rank": 3,
-      "title": "字节跳动豆包日消耗120万亿Tokens",
-      "finding": "量子位报道称，字节跳动的AI产品“豆包”每日消耗的Token数量高达120万亿，显示出其巨大的用户规模和模型调用量。",
+      "title": "OpenAI 高层人事变动：COO转任特殊项目，CMO因健康原因暂离",
+      "finding": "OpenAI进行高层人事调整：首席运营官Brad Lightcap将转去领导“特殊项目”；首席营销官Kate Rouch因癌症康复将暂时离开公司。同时，AGI部署负责人Fidji Simo也开始休病假。",
       "key_data": [
-        "日消耗120万亿Tokens",
-        "字节跳动豆包",
-        "巨大用户规模"
+        "COO转任特殊项目",
+        "CMO因健康暂离",
+        "高层人事连续变动"
       ],
-      "judgment": "这意味着中国消费级AI应用已进入大规模、高成本的运营阶段，模型推理成本成为核心竞争壁垒，也验证了AI产品在C端市场的真实需求和商业化潜力。",
-      "confidence": 3,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/395202.html"
+      "judgment": "这意味着OpenAI内部可能正在进行重大的战略或组织重组。将COO调去“特殊项目”暗示公司可能在孵化新的、优先级极高的业务线（可能是硬件、机器人或新的产品形态）。连续的人事变动也反映了AI行业高速发展下的管理挑战。",
+      "confidence": 4,
+      "source": "TechCrunch / Wired",
+      "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/"
     },
     {
       "rank": 4,
-      "title": "Anthropic研究称Claude模型存在“功能性情绪”表征",
-      "finding": "Anthropic的研究人员发现，其Claude模型内部存在一些表征，其功能类似于人类的情绪，这可能影响模型的决策和行为。",
+      "title": "LangChain CEO分享生产环境Agent自愈系统",
+      "finding": "LangChain的CEO Harrison Chase在博客中详细介绍了他们为GTM（市场推广）Agent构建的自愈部署管道。该系统能自动检测回归问题、判断原因，并启动一个Agent来创建修复代码的PR。",
       "key_data": [
-        "Claude模型",
-        "功能性情绪表征",
-        "影响决策行为"
+        "Agent自愈部署管道",
+        "自动检测与修复",
+        "生产环境实践"
       ],
-      "judgment": "这意味着大模型内部机制的研究正从功能表现深入到“心智”层面，对模型对齐、安全性和可解释性提出了新挑战，也为设计更拟人、更可靠的AI系统提供了新思路。",
-      "confidence": 4,
-      "source": "Wired AI",
-      "url": "https://www.wired.com/story/anthropic-claude-research-functional-emotions/"
+      "judgment": "这意味着AI Agent的工程化正从“玩具演示”走向严肃的“生产系统”。自愈能力是Agent可靠性的关键，LangChain作为框架提供商的实践，为整个行业设定了Agent运维的新标准，推动Agent从辅助工具向可信任的自动化系统演进。",
+      "confidence": 5,
+      "source": "LangChain Blog",
+      "url": "https://blog.langchain.com/production-agents-self-heal/"
+    },
+    {
+      "rank": 5,
+      "title": "研究：LLM能够去匿名化Reddit、Hacker News等“匿名”平台用户",
+      "finding": "一项新研究表明，大型语言模型能够通过分析用户在多个帖子中留下的微小细节组合，成功去匿名化Reddit、Hacker News等平台上所谓的“匿名”账户。研究合著者建议用户永远不要发布任何不想公开的信息。",
+      "key_data": [
+        "LLM去匿名化用户",
+        "跨帖子细节组合分析",
+        "隐私威胁新维度"
+      ],
+      "judgment": "这意味着基于文本的匿名性在网络时代已变得极其脆弱。对于依赖匿名社区的开发者、研究者和普通用户来说，这是一个严重的隐私警告。这也将迫使平台重新思考数据保护策略，并可能催生新的反AI追踪的隐私保护技术。",
+      "confidence": 3,
+      "source": "Reddit r/artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1sbndrb/study_llms_able_to_deanonymize_user_accounts_on/"
     }
   ],
   "model_tech": [
     {
-      "source": "LangChain Blog",
-      "title": "开源模型在核心智能体任务上已跨越门槛",
-      "finding": "LangChain博客指出，GLM-5和MiniMax M2.7等开源模型在文件操作、工具使用和指令遵循等核心智能体任务上，已能以极低成本达到与前沿闭源模型相当的水平。",
+      "source": "Latent Space (Swyx)",
+      "title": "Gemma 4发布：小型多模态开源模型新标杆",
+      "finding": "Google发布Gemma 4系列，在多项评测中全面超越前代，被社区誉为当前最佳的小型多模态开源模型。",
       "key_data": [
-        "GLM-5",
-        "MiniMax M2.7",
-        "核心智能体任务",
-        "低成本"
+        "全面超越Gemma 3",
+        "小型多模态",
+        "开源"
       ],
-      "judgment": "开源模型在实用智能体能力上已具备商业可行性，将推动企业AI应用成本大幅下降，加速智能体技术的普及。",
-      "confidence": 3,
-      "url": "https://blog.langchain.com/open-models-have-crossed-a-threshold/",
+      "judgment": "为边缘设备和轻量级应用提供了强大的免费模型选择，挤压闭源小模型市场。",
+      "confidence": 5,
+      "url": "https://www.latent.space/p/ainews-gemma-4-the-best-small-multimodal",
       "importance": 4
     },
     {
-      "source": "arXiv",
-      "title": "研究：情绪信号如何塑造LLM与智能体的行为",
-      "finding": "一项新研究探讨了类似人类的情绪信号是否以及如何影响大型语言模型和智能体的认知与行为表现。",
+      "source": "Reddit r/LocalLLaMA",
+      "title": "社区反馈：Gemma 4模型KV缓存占用巨大",
+      "finding": "用户实测发现，Gemma 4-31B模型的KV缓存占用异常高，导致在40GB显存的显卡上仅能支持2K上下文，引发部署效率担忧。",
       "key_data": [
-        "情绪信号",
-        "LLM行为塑造",
-        "机制研究"
+        "31B模型",
+        "KV缓存巨大",
+        "40GB显存仅2K上下文"
       ],
-      "judgment": "为通过Prompt工程或模型微调来引导AI行为提供了新的理论视角，可能提升AI在复杂交互任务中的表现和拟人性。",
-      "confidence": 2,
-      "url": "https://arxiv.org/abs/2604.00005",
+      "judgment": "模型性能提升可能以牺牲推理效率为代价，提醒开发者在选型时需权衡能力与部署成本。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sbe40t/my_biggest_issue_with_the_gemma4_models_is_the/",
       "importance": 3
     },
     {
-      "source": "Hacker News",
-      "title": "AMD推出开源本地LLM服务器Lemonade",
-      "finding": "AMD发布了一个名为Lemonade的开源本地LLM服务器，旨在利用GPU和NPU实现快速推理。",
+      "source": "ArXiv",
+      "title": "线性内存注意力蒸馏用于RoPE恢复",
+      "finding": "提出LinearARD方法，旨在以线性内存成本通过注意力蒸馏来恢复或扩展模型的位置编码（RoPE）能力，从而支持更长的上下文。",
       "key_data": [
-        "AMD Lemonade",
-        "开源LLM服务器",
-        "GPU和NPU加速"
+        "线性内存成本",
+        "注意力蒸馏",
+        "扩展上下文窗口"
       ],
-      "judgment": "这为开发者提供了除NVIDIA CUDA生态外的另一个高性能本地部署选项，可能促进推理硬件和软件栈的多元化竞争。",
+      "judgment": "为低成本扩展现有模型上下文长度提供了新思路，有助于老旧模型焕发新生。",
       "confidence": 3,
-      "url": "https://lemonade-server.ai",
+      "url": "https://arxiv.org/abs/2604.00004",
+      "importance": 2
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "研究者利用Mamba-3实现日志异常检测F1分数0.9975",
+      "finding": "一位研究者在约两天时间内，利用Mamba-3架构训练了一个日志异常检测模型，在HDFS数据集上取得了0.9975的F1分数，展示了Mamba架构在序列任务上的潜力。",
+      "key_data": [
+        "Mamba-3架构",
+        "日志异常检测",
+        "F1分数0.9975"
+      ],
+      "judgment": "表明Mamba等高效架构在特定专业任务上可能超越Transformer，为垂直领域AI应用提供新选项。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sbe0dk/p_i_trained_a_mamba3_log_anomaly_detector_that/",
       "importance": 3
     }
   ],
   "company_product": [
     {
+      "source": "TechCrunch",
+      "title": "Anthropic收购生物科技AI初创公司Coefficient Bio",
+      "finding": "Anthropic以价值4亿美元的股票交易，收购了处于隐秘状态的生物科技AI初创公司Coefficient Bio。",
+      "key_data": [
+        "4亿美元股票交易",
+        "生物科技AI",
+        "垂直领域收购"
+      ],
+      "judgment": "AI巨头开始通过收购深入高价值垂直行业，生命科学成为下一个战略高地。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
+      "importance": 4
+    },
+    {
       "source": "量子位",
-      "title": "阿里通义千问3.6登顶中国最强编程模型",
-      "finding": "根据全球权威大模型盲测榜单，阿里巴巴的通义千问3.6模型在中国编程模型评测中排名第一。",
+      "title": "浪潮信息发布企业级OpenClaw方案“企千虾”",
+      "finding": "浪潮信息通过直播发布了业界企业级OpenClaw方案“企千虾”，旨在实现企业级Agent的规模化管控。",
       "key_data": [
-        "通义千问3.6",
-        "编程模型榜首",
-        "盲测榜单"
+        "企业级OpenClaw方案",
+        "“企千虾”",
+        "Agent规模化管控"
       ],
-      "judgment": "表明国内大模型在代码生成这一关键垂直领域已达到国际领先水平，将增强阿里在开发者工具和企业服务市场的竞争力。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/04/395206.html",
-      "importance": 3
-    },
-    {
-      "source": "InfoQ",
-      "title": "微软推出Azure Copilot迁移智能体",
-      "finding": "微软发布了Azure Copilot Migration Agent，旨在利用AI智能体技术加速企业向云端迁移的规划过程。",
-      "key_data": [
-        "Azure Copilot",
-        "迁移智能体",
-        "云迁移规划"
-      ],
-      "judgment": "将AI深度集成到企业IT基础设施的核心流程（如迁移），标志着企业AI正从辅助工具向核心业务流程自动化引擎演进。",
+      "judgment": "国内厂商正将流行的开源Agent框架（OpenClaw）进行企业化封装和推广，加速Agent在企业端的落地。",
       "confidence": 4,
-      "url": "https://www.infoq.cn/article/ZQsEz5TXqUWGcbk2FWDL?utm_source=rss&utm_medium=article",
+      "url": "https://www.qbitai.com/2026/04/395916.html",
       "importance": 3
     },
     {
-      "source": "OpenAI Blog",
-      "title": "OpenAI收购科技播客TBPN",
-      "finding": "OpenAI宣布收购硅谷流行的科技商业播客TBPN，以加速全球关于AI的对话并支持独立媒体。",
+      "source": "量子位",
+      "title": "阿里通义千问APP迎来“全能演技派”模型更新",
+      "finding": "阿里通义千问APP迎来重大更新，号称“全能演技派”模型登场，专注于AI内容创作能力的史诗级增强。",
       "key_data": [
-        "收购TBPN播客",
-        "加速AI对话",
-        "支持独立媒体"
+        "通义千问APP更新",
+        "“全能演技派”模型",
+        "AI内容创作增强"
       ],
-      "judgment": "这是OpenAI加强舆论影响力和塑造行业叙事的一次战略举措，旨在改善其公众形象并更直接地影响科技圈思想领袖。",
+      "judgment": "国内大模型应用竞争焦点转向内容创作等实用场景，试图通过差异化功能吸引用户。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/04/395477.html",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "Netflix在Hugging Face发布首个公开模型VOID",
+      "finding": "Netflix在Hugging Face上发布了其首个公开模型VOID，用于视频中的物体和交互删除。",
+      "key_data": [
+        "Netflix首个公开模型",
+        "VOID",
+        "视频物体与交互删除"
+      ],
+      "judgment": "流媒体巨头开始开源AI工具，可能旨在培育生态或展示技术实力，为行业提供新的视频编辑工具。",
       "confidence": 5,
-      "url": "https://openai.com/index/openai-acquires-tbpn",
-      "importance": 2
-    },
-    {
-      "source": "The Pragmatic Engineer",
-      "title": "行业领袖借助AI回归编程一线",
-      "finding": "《务实工程师》通讯指出，包括马克·扎克伯格和Garry Tan在内的多位科技公司高管，正利用AI工具重新亲自参与编码工作。",
-      "key_data": [
-        "扎克伯格",
-        "Garry Tan",
-        "AI辅助编程",
-        "高管回归一线"
-      ],
-      "judgment": "AI编程工具正在改变技术领导者的工作方式，使其能更直接地参与产品构建，这可能缩短决策链并提升产品与技术的契合度。",
-      "confidence": 4,
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-industry-leaders-return",
-      "importance": 2
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sbc5ij/netflix_just_dropped_their_first_public_model_on/",
+      "importance": 3
     }
   ],
   "opinions": [
     {
-      "person": "Simon Willison",
+      "person": "Harrison Chase",
       "level": "L1",
-      "quote": "在Lenny的播客中讨论了智能体工程，认为我们已经过了拐点，‘黑暗工厂’（高度自动化的无人工厂）即将到来，自动化时间线正在加速。",
-      "source": "https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything"
+      "quote": "我们为GTM Agent构建了一个自愈部署管道。每次部署后，它能检测回归问题，判断是否是本次变更导致的，然后启动一个Agent来创建包含修复方案的PR。",
+      "source": "https://blog.langchain.com/production-agents-self-heal/"
+    },
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "（引用安全专家观点）开源安全领域面临的挑战已从‘AI垃圾报告海啸’转变为更普通的‘安全报告海啸’。垃圾少了，但报告很多，其中很多确实很好。我每周花在审核上的时间翻了一番。",
+      "source": "https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "Gemma 4开源模型系列的实战能力与生态影响",
-      "reason": "作为谷歌最新一代开源旗舰，其Apache 2.0许可、多模态支持和智能体工作流优化，可能重塑开源模型格局并影响企业选型。",
+      "topic": "AI模型公司的垂直行业收购战略",
+      "reason": "Anthropic收购生物科技AI公司，标志着模型巨头战略转向。值得深挖其动机、标的筛选逻辑及对行业竞争格局的长期影响。",
       "priority": "high"
     },
     {
-      "topic": "AI编程智能体（Cursor vs. Claude Code vs. Codex）的竞争格局",
-      "reason": "Cursor推出新一代智能体体验，标志着AI编程工具竞争进入新阶段，需深入比较各方案的能力边界、工作流和商业模式差异。",
+      "topic": "生产环境AI Agent的自愈与运维体系",
+      "reason": "LangChain分享的实践是Agent工程化的关键一步。需要深入研究其技术架构、适用范围，以及如何复制到其他复杂Agent场景。",
       "priority": "high"
     }
   ],
-  "summary_one_line": "谷歌开源Gemma 4挑战闭源模型，AI编程与消费应用进入高成本运营深水区。",
+  "summary_one_line": "巨头垂直收购，开源模型竞逐，Agent走向生产运维。",
   "snapshot": {
     "date": "2026-04-03",
     "hf_trending": [
       {
         "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "short_name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-        "likes": 2151,
-        "downloads": 428791,
+        "likes": 2221,
+        "downloads": 487446,
         "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "tags": [
           "safetensors",
@@ -204,26 +235,10 @@
         "trend": "same"
       },
       {
-        "name": "CohereLabs/cohere-transcribe-03-2026",
-        "short_name": "cohere-transcribe-03-2026",
-        "likes": 738,
-        "downloads": 71028,
-        "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "cohere_asr"
-        ],
-        "pipeline_tag": "automatic-speech-recognition",
-        "label": "语音识别",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "google/gemma-4-31B-it",
         "short_name": "gemma-4-31B-it",
-        "likes": 458,
-        "downloads": 29015,
+        "likes": 670,
+        "downloads": 76200,
         "url": "https://huggingface.co/google/gemma-4-31B-it",
         "tags": [
           "transformers",
@@ -236,10 +251,26 @@
         "trend": "same"
       },
       {
+        "name": "CohereLabs/cohere-transcribe-03-2026",
+        "short_name": "cohere-transcribe-03-2026",
+        "likes": 762,
+        "downloads": 84600,
+        "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "cohere_asr"
+        ],
+        "pipeline_tag": "automatic-speech-recognition",
+        "label": "语音识别",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "baidu/Qianfan-OCR",
         "short_name": "Qianfan-OCR",
-        "likes": 833,
-        "downloads": 19085,
+        "likes": 859,
+        "downloads": 26980,
         "url": "https://huggingface.co/baidu/Qianfan-OCR",
         "tags": [
           "transformers",
@@ -252,26 +283,10 @@
         "trend": "same"
       },
       {
-        "name": "mistralai/Voxtral-4B-TTS-2603",
-        "short_name": "Voxtral-4B-TTS-2603",
-        "likes": 638,
-        "downloads": 4316,
-        "url": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
-        "tags": [
-          "vllm",
-          "mistral-common",
-          "text-to-speech"
-        ],
-        "pipeline_tag": "text-to-speech",
-        "label": "文字转语音",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "prism-ml/Bonsai-8B-gguf",
         "short_name": "Bonsai-8B-gguf",
-        "likes": 329,
-        "downloads": 13844,
+        "likes": 357,
+        "downloads": 26164,
         "url": "https://huggingface.co/prism-ml/Bonsai-8B-gguf",
         "tags": [
           "llama.cpp",
@@ -284,10 +299,26 @@
         "trend": "same"
       },
       {
+        "name": "mistralai/Voxtral-4B-TTS-2603",
+        "short_name": "Voxtral-4B-TTS-2603",
+        "likes": 648,
+        "downloads": 4760,
+        "url": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
+        "tags": [
+          "vllm",
+          "mistral-common",
+          "text-to-speech"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
         "short_name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
-        "likes": 476,
-        "downloads": 202605,
+        "likes": 491,
+        "downloads": 227053,
         "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
         "tags": [
           "gguf",
@@ -300,20 +331,20 @@
         "trend": "same"
       },
       {
-        "name": "chromadb/context-1",
-        "short_name": "context-1",
-        "likes": 359,
-        "downloads": 2820,
-        "url": "https://huggingface.co/chromadb/context-1",
+        "name": "google/gemma-4-26B-A4B-it",
+        "short_name": "gemma-4-26B-A4B-it",
+        "likes": 292,
+        "downloads": 24366,
+        "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
         "tags": [
           "transformers",
           "safetensors",
-          "gpt_oss"
+          "gemma4"
         ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
         "card_desc": "",
-        "trend": "same"
+        "trend": "new"
       }
     ],
     "github_trending": [],
@@ -429,6 +460,6 @@
         "url": "https://openrouter.ai/models/minimax/minimax-m2.5-20260211"
       }
     ],
-    "hf_summary": "多模态与语音模型热度飙升 文本生成相对平稳"
+    "hf_summary": "多模态理解模型主导榜单且热度显著领先"
   }
 }
