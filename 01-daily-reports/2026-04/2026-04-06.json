@@ -1,0 +1,465 @@
+{
+  "date": "2026-04-06",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "具身智能独角兽新品：1小时学会新任务，成功率99%",
+      "finding": "一家具身智能领域的独角兽公司发布新品，其机器人模型仅需1小时就能学会新任务，重复执行1800次后成功率高达99%。这验证了机器人领域也存在类似大模型的Scaling Law规律。",
+      "key_data": [
+        "1小时学会新任务",
+        "重复1800次成功率99%",
+        "具身智能Scaling Law"
+      ],
+      "judgment": "这意味着机器人训练正从依赖大量人工示教转向数据驱动的规模化学习，将极大加速机器人进入通用场景的进程，是具身智能领域的关键拐点信号。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/396694.html"
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI发布AI时代工业政策愿景：公共财富基金、机器人税与四天工作制",
+      "finding": "OpenAI发布了一份关于AI时代工业政策的文章，提出了一系列激进的社会经济构想，包括对AI利润征税、建立公共财富基金、实施机器人税以及推广四天工作周，以应对AI可能带来的失业和不平等问题。",
+      "key_data": [
+        "AI利润税",
+        "公共财富基金",
+        "机器人税",
+        "四天工作周"
+      ],
+      "judgment": "这意味着AI头部公司开始主动介入宏观政策讨论，试图为即将到来的社会变革设定框架。这既是前瞻性布局，也可能引发关于科技公司权力边界的激烈辩论。",
+      "confidence": 5,
+      "source": "OpenAI Blog / TechCrunch",
+      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age"
+    },
+    {
+      "rank": 3,
+      "title": "首个完全在设备端运行的Gemma 4手机控制应用诞生",
+      "finding": "开发者仅用几天时间，就构建出首个利用Gemma 4模型在Android手机上完全本地运行、并能自主控制手机（如点击、截图）的应用。这展示了小型模型在端侧实现复杂Agent能力的潜力。",
+      "key_data": [
+        "Gemma 4本地运行",
+        "自主控制Android手机",
+        "完全在设备端",
+        "无云端依赖"
+      ],
+      "judgment": "这意味着端侧AI Agent的实用化进程远超预期。开发者可以快速基于开源小模型构建功能强大的本地应用，绕过API成本和延迟，将催生一批新的“离线智能”产品形态。",
+      "confidence": 3,
+      "source": "Reddit r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sdv3lo/pokeclaw_first_working_app_that_uses_gemma_4_to/"
+    },
+    {
+      "rank": 4,
+      "title": "北大团队改造DeepSeek注意力机制，速度提升四倍且不损失精度",
+      "finding": "北京大学的研究团队提出了一种针对DeepSeek模型注意力机制的改进方法，实现了推理速度最高提升四倍的效果，并且无需重新训练模型，做到了即插即用。",
+      "key_data": [
+        "DeepSeek注意力改造",
+        "推理速度提升4倍",
+        "无需重新训练",
+        "即插即用"
+      ],
+      "judgment": "这意味着大模型推理效率的优化仍有巨大空间，通过算法层面的改进就能获得堪比硬件升级的收益。这对于降低AI应用成本、提升响应速度具有直接的工程价值。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/396841.html"
+    },
+    {
+      "rank": 5,
+      "title": "研究揭示：单智能体LLM在同等计算预算下优于多智能体系统",
+      "finding": "一篇新论文指出，在严格控制“思考令牌”预算（即总计算量）相同的情况下，单个强大的LLM在复杂推理任务上的表现，优于由多个较小模型组成的多智能体系统。",
+      "key_data": [
+        "单智能体 vs 多智能体",
+        "同等思考令牌预算",
+        "复杂推理任务",
+        "单智能体胜出"
+      ],
+      "judgment": "这对当前火热的Multi-Agent设计热潮是一个重要的冷静剂。它提醒开发者，盲目增加Agent数量可能不如优化单个模型的推理能力有效，成本效益是工程化落地时必须权衡的核心。",
+      "confidence": 3,
+      "source": "ArXiv",
+      "url": "https://arxiv.org/abs/2604.02460"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv",
+      "title": "Holos：面向智能体网络的大规模多智能体系统",
+      "finding": "研究者提出一个名为Holos的基于LLM的多智能体系统框架，旨在支持智能体从孤立任务执行者转变为持久性数字实体，从而形成“智能体网络”。",
+      "key_data": [
+        "多智能体系统",
+        "智能体网络",
+        "持久性数字实体"
+      ],
+      "judgment": "这标志着智能体研究从单任务场景向社会化、网络化生态演进，是构建未来数字社会基础设施的早期探索。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2604.02334",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "XpertBench：基于量规的专家级任务评估基准",
+      "finding": "针对传统基准性能饱和的问题，研究者推出了一个专注于评估LLM在专家级任务上表现的新基准，采用基于量规的评估方法。",
+      "key_data": [
+        "专家级任务评估",
+        "基于量规的评测",
+        "超越传统基准"
+      ],
+      "judgment": "模型能力评估需要更精细的尺子，这有助于推动模型向更深度的专业化和推理能力发展。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2604.02368",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "ReCALL框架化解多模态检索的生成与判别范式冲突",
+      "finding": "研究者提出ReCALL框架，通过“诊断-生成-校准”的闭环体系，让大模型在多模态检索任务上全面超越现有最佳方法。",
+      "key_data": [
+        "多模态检索",
+        "生成与判别范式融合",
+        "诊断-生成-校准闭环"
+      ],
+      "judgment": "为多模态理解与检索提供了新的方法论，可能提升AI在复杂跨模态任务（如图文搜索、视频理解）上的实用性能。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/04/396863.html",
+      "importance": 3
+    },
+    {
+      "source": "Hacker News",
+      "title": "开发者构建微型LLM以揭秘语言模型工作原理",
+      "finding": "一位开发者为理解LLM工作原理，从零开始构建了一个仅900万参数的微型语言模型，使用合成数据训练，可在免费Colab上5分钟完成训练。",
+      "key_data": [
+        "900万参数",
+        "从零构建",
+        "5分钟训练",
+        "教育目的"
+      ],
+      "judgment": "极简的实现降低了理解Transformer架构的门槛，是优秀的教育工具，有助于培养更多AI基础人才。",
+      "confidence": 4,
+      "url": "https://github.com/arman-bd/guppylm",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "Simon Willison",
+      "title": "Google发布AI Edge Gallery应用，本地运行Gemma模型",
+      "finding": "Google发布官方应用“AI Edge Gallery”，允许用户在手机等边缘设备上直接本地运行Gemma 4等小型模型，无需联网。",
+      "key_data": [
+        "Google官方应用",
+        "Gemma本地运行",
+        "边缘设备AI"
+      ],
+      "judgment": "大厂正积极推动模型端侧部署，降低使用门槛并保护隐私，边缘计算生态将加速成熟。",
+      "confidence": 5,
+      "url": "https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Google悄然发布支持离线的AI听写应用",
+      "finding": "Google低调发布了一款优先离线运行的AI听写应用，使用Gemma模型，旨在与Wispr Flow等竞品竞争。",
+      "key_data": [
+        "离线优先",
+        "AI听写",
+        "Gemma模型驱动"
+      ],
+      "judgment": "将核心AI功能（如语音转文字）彻底本地化，是提升产品可靠性和隐私性的关键一步，可能成为消费级AI应用的标配。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+      "importance": 3
+    },
+    {
+      "source": "36氪",
+      "title": "众筹300万美元的Agent硬件盒子，瞄准算力焦虑",
+      "finding": "一款名为“Agent盒子”的硬件产品通过众筹获得300万美元，旨在为用户提供本地化、一体化的AI智能体运行算力解决方案。",
+      "key_data": [
+        "Agent硬件盒子",
+        "众筹300万美元",
+        "本地算力解决方案"
+      ],
+      "judgment": "AI硬件创新正从云端芯片向个人/边缘侧专用设备延伸，满足对隐私、成本和延迟有要求的用户需求，可能开辟新市场。",
+      "confidence": 3,
+      "url": "https://36kr.com/p/3754812277998083?f=rss",
+      "importance": 2
+    },
+    {
+      "source": "Hacker News",
+      "title": "Gemma Gem：无需API密钥、基于WebGPU的浏览器端AI模型扩展",
+      "finding": "开发者发布一款Chrome扩展，通过WebGPU在浏览器后台运行Google的Gemma 4（2B）模型，并赋予其与网页交互（读取、截图、点击）的能力。",
+      "key_data": [
+        "Chrome扩展",
+        "WebGPU运行",
+        "Gemma 4 2B",
+        "网页交互工具"
+      ],
+      "judgment": "将小型模型与浏览器深度结合，创造了全新的AI交互范式，让每个网页都可能拥有一个本地智能助手，潜力巨大。",
+      "confidence": 4,
+      "url": "https://github.com/kessler/gemma-gem",
+      "importance": 3
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "（在介绍Google AI Edge Gallery时评价）名字起得很糟糕，但应用真的很棒。这是Google官方的应用，让你能在自己的设备上直接运行他们的Gemma 4模型。",
+      "source": "https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "端侧AI Agent的爆发与生态形成",
+      "reason": "今日多条信息（Gemma手机控制应用、浏览器扩展、离线听写应用、Agent硬件）均指向端侧AI Agent的快速实用化，这可能导致应用开发范式和算力分配的根本性变化。",
+      "priority": "high"
+    },
+    {
+      "topic": "OpenAI的社会经济政策主张及其影响",
+      "reason": "OpenAI首次系统提出包含机器人税、公共基金等激进政策的工业愿景，这远超技术范畴，可能引发科技公司角色、AI治理与财富分配的全球性大讨论。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "端侧智能体爆发与OpenAI激进政策愿景，勾勒AI未来两极图景。",
+  "snapshot": {
+    "date": "2026-04-06",
+    "hf_trending": [
+      {
+        "name": "google/gemma-4-31B-it",
+        "short_name": "gemma-4-31B-it",
+        "likes": 1147,
+        "downloads": 678740,
+        "url": "https://huggingface.co/google/gemma-4-31B-it",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "short_name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "likes": 2398,
+        "downloads": 548344,
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "tags": [
+          "safetensors",
+          "qwen3_5",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
+        "short_name": "Gemma-4-31B-JANG_4M-CRACK",
+        "likes": 486,
+        "downloads": 13727,
+        "url": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
+        "tags": [
+          "mlx",
+          "safetensors",
+          "gemma4"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "prism-ml/Bonsai-8B-gguf",
+        "short_name": "Bonsai-8B-gguf",
+        "likes": 468,
+        "downloads": 45185,
+        "url": "https://huggingface.co/prism-ml/Bonsai-8B-gguf",
+        "tags": [
+          "llama.cpp",
+          "gguf",
+          "1-bit"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "google/gemma-4-26B-A4B-it",
+        "short_name": "gemma-4-26B-A4B-it",
+        "likes": 452,
+        "downloads": 476612,
+        "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "netflix/void-model",
+        "short_name": "void-model",
+        "likes": 449,
+        "downloads": 0,
+        "url": "https://huggingface.co/netflix/void-model",
+        "tags": [
+          "video-inpainting",
+          "video-editing",
+          "object-removal"
+        ],
+        "pipeline_tag": "video-to-video",
+        "label": "Video To Video",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "google/gemma-4-E4B-it",
+        "short_name": "gemma-4-E4B-it",
+        "likes": 408,
+        "downloads": 321152,
+        "url": "https://huggingface.co/google/gemma-4-E4B-it",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4"
+        ],
+        "pipeline_tag": "any-to-any",
+        "label": "Any To Any",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "baidu/Qianfan-OCR",
+        "short_name": "Qianfan-OCR",
+        "likes": 1017,
+        "downloads": 38388,
+        "url": "https://huggingface.co/baidu/Qianfan-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "internvl_chat"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "qwen/qwen3.6-plus-04-02",
+        "name": "qwen3.6-plus-04-02",
+        "org": "qwen",
+        "total_tokens": 1442212089173,
+        "total_tokens_str": "1.4T",
+        "calls": 18757304,
+        "change": -8.3,
+        "url": "https://openrouter.ai/models/qwen/qwen3.6-plus-04-02"
+      },
+      {
+        "rank": 2,
+        "slug": "deepseek/deepseek-v3.2-20251201",
+        "name": "deepseek-v3.2",
+        "org": "deepseek",
+        "total_tokens": 167316232189,
+        "total_tokens_str": "167B",
+        "calls": 15770538,
+        "change": 2.8,
+        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
+      },
+      {
+        "rank": 3,
+        "slug": "stepfun/step-3.5-flash",
+        "name": "step-3.5-flash",
+        "org": "stepfun",
+        "total_tokens": 166515639961,
+        "total_tokens_str": "167B",
+        "calls": 4435466,
+        "change": -4.9,
+        "url": "https://openrouter.ai/models/stepfun/step-3.5-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "minimax/minimax-m2.5-20260211",
+        "name": "minimax-m2.5",
+        "org": "minimax",
+        "total_tokens": 140705602149,
+        "total_tokens_str": "141B",
+        "calls": 3489777,
+        "change": 4.2,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.5-20260211"
+      },
+      {
+        "rank": 5,
+        "slug": "anthropic/claude-4.6-sonnet-20260217",
+        "name": "claude-4.6-sonnet",
+        "org": "anthropic",
+        "total_tokens": 118077235063,
+        "total_tokens_str": "118B",
+        "calls": 2491331,
+        "change": 0.9,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-sonnet-20260217"
+      },
+      {
+        "rank": 6,
+        "slug": "moonshotai/kimi-k2.5-0127",
+        "name": "kimi-k2.5-0127",
+        "org": "moonshotai",
+        "total_tokens": 114684300505,
+        "total_tokens_str": "115B",
+        "calls": 2899082,
+        "change": 68.1,
+        "url": "https://openrouter.ai/models/moonshotai/kimi-k2.5-0127"
+      },
+      {
+        "rank": 7,
+        "slug": "google/gemini-3-flash-preview-20251217",
+        "name": "gemini-3-flash-preview",
+        "org": "google",
+        "total_tokens": 113691125344,
+        "total_tokens_str": "114B",
+        "calls": 12320249,
+        "change": -5.0,
+        "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
+      },
+      {
+        "rank": 8,
+        "slug": "minimax/minimax-m2.7-20260318",
+        "name": "minimax-m2.7",
+        "org": "minimax",
+        "total_tokens": 112548145953,
+        "total_tokens_str": "113B",
+        "calls": 2950321,
+        "change": 60.4,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
+      },
+      {
+        "rank": 9,
+        "slug": "anthropic/claude-4.6-opus-20260205",
+        "name": "claude-4.6-opus",
+        "org": "anthropic",
+        "total_tokens": 105897784032,
+        "total_tokens_str": "106B",
+        "calls": 1683810,
+        "change": 6.7,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-opus-20260205"
+      },
+      {
+        "rank": 10,
+        "slug": "openai/gpt-4o-mini",
+        "name": "gpt-4o-mini",
+        "org": "openai",
+        "total_tokens": 100535982648,
+        "total_tokens_str": "101B",
+        "calls": 15566997,
+        "change": 34.3,
+        "url": "https://openrouter.ai/models/openai/gpt-4o-mini"
+      }
+    ],
+    "hf_summary": "多模态模型热度飙升 Gemma系列与Qwen领跑榜单"
+  }
+}
