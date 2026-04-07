@@ -1,6 +1,13 @@
 {
-  "total": 13,
+  "total": 14,
   "reports": [
+    {
+      "date": "2026-04-08",
+      "title": "今日 AI 日报：Anthropic发布Claude Mythos预览版，启动网络安全项目Glasswing + 3 条重要动态",
+      "excerpt": "这意味着顶级AI模型的能力已开始对现实世界的基础设施安全构成实质性威胁，迫使头部…",
+      "top_count": 4,
+      "file": "2026-04-08.json"
+    },
     {
       "date": "2026-04-07",
       "title": "今日 AI 日报：Cursor 3 发布：IDE 不重要了，智能体控制台上位 + 3 条重要动态",
