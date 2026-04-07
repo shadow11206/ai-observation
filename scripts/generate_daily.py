@@ -20,7 +20,13 @@ import os
 import re
 import sys
 import yaml
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
+
+# 北京时区（UTC+8），避免 GitHub Actions 用 UTC 导致日期错误
+_BJT = timezone(timedelta(hours=8))
+
+def _now_bjt() -> datetime:
+    return datetime.now(_BJT)
 from pathlib import Path
 
 from openai import OpenAI
@@ -61,7 +67,7 @@ def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
 
     client = OpenAI(api_key=api_key, base_url=api_base)
 
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = _now_bjt().strftime("%Y-%m-%d")
     system_prompt = load_prompt()
     tracking_registry = load_tracking_registry()
     info_text = _format_info_for_prompt(raw_info)
@@ -236,8 +242,8 @@ def _generate_hf_summary(hf_models: list[dict], config: dict) -> str:
 
 def save_report(report_data: dict, snapshot: dict, config: dict) -> tuple[Path, Path]:
     """保存 .md 和 .json 两份文件"""
-    today = datetime.now().strftime("%Y-%m-%d")
-    month = datetime.now().strftime("%Y-%m")
+    today = _now_bjt().strftime("%Y-%m-%d")
+    month = _now_bjt().strftime("%Y-%m")
     output_dir = Path(config["report"]["output_dir"]) / month
     output_dir.mkdir(parents=True, exist_ok=True)
 
