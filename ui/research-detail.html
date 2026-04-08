@@ -327,36 +327,6 @@
       margin: 2rem 0;
     }
 
-    /* 盲区卡片（blind spots） */
-    .blind-spots-card {
-      background: rgba(255,149,0,0.06);
-      border: 1px solid rgba(255,149,0,0.18);
-      border-radius: var(--r-md);
-      padding: 1.25rem 1.5rem;
-      margin-top: 2rem;
-    }
-    .blind-spots-title {
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0.09em;
-      text-transform: uppercase;
-      color: #c6690a;
-      margin-bottom: 0.75rem;
-    }
-    .blind-spots-item {
-      font-size: 14px;
-      color: var(--text-secondary);
-      padding: 0.25rem 0;
-      display: flex;
-      gap: 0.5rem;
-      align-items: baseline;
-    }
-    .blind-spots-item::before {
-      content: '·';
-      color: #c6690a;
-      flex-shrink: 0;
-    }
-
     /* 加载 / 错误 */
     #research-detail-loading {
       text-align: center;
@@ -421,9 +391,6 @@
 
         <!-- Markdown 正文 -->
         <div class="research-md" id="detail-md"></div>
-
-        <!-- 盲区卡片 -->
-        <div id="detail-blindspots"></div>
       </main>
     </div>
   </div>
@@ -531,8 +498,6 @@
         document.getElementById('detail-md').innerHTML = marked.parse(cleanMd);
       }
 
-      // 盲区卡片
-      renderBlindSpots(meta.blind_spots || []);
     }
 
     function renderSidebar(meta) {
@@ -607,17 +572,6 @@
 
         <!-- 来源日报 -->
         ${reportLink}
-      `;
-    }
-
-    function renderBlindSpots(items) {
-      const el = document.getElementById('detail-blindspots');
-      if (!items.length) return;
-      el.innerHTML = `
-        <div class="blind-spots-card">
-          <div class="blind-spots-title">⚠ 本次调研盲区</div>
-          ${items.map(i => `<div class="blind-spots-item">${i}</div>`).join('')}
-        </div>
       `;
     }
 

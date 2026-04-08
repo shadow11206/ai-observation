@@ -123,9 +123,9 @@ function createCard(item) {
 }
 
 function initFilters() {
-  document.querySelectorAll('.filter-chip').forEach(btn => {
+  document.querySelectorAll('.segment-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      document.querySelectorAll('.filter-chip').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.segment-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       currentFilter = btn.dataset.filter || 'all';
       const filtered = currentFilter === 'all'
