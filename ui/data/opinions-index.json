@@ -3,6 +3,44 @@
   "updated_at": "2026-04-08",
   "items": [
     {
+      "id": "ai-coding-trend",
+      "file": "ai-coding-trend.md",
+      "tag": {
+        "label": "AI Coding",
+        "bg": "rgba(255,149,0,0.1)",
+        "color": "#c6690a"
+      },
+      "question": "AI Coding 工具的趋势走向？",
+      "created_at": "2026-03-24",
+      "updated_at": "2026-04-08",
+      "confidence_raw": "★★★★",
+      "confidence": 4,
+      "verdict": "Cursor 的真正护城河在于它率先定义了「Agent 调度层」这个新品类，并通过数据飞轮（每天 10 亿行代码训练 Composer）和云基础设施（Automations、云端 Agent 运行时）建立了切换成本。\n\n竞争已分三条轨道进行，没有任何一家完全打通：\n- 编码质量层（Claude Code 领先）：代码生成质量 + 终端原生体验\n- Agent 调度层（Cursor 明显领先）：多 Agent 并行、Automations、自托管云 Agent\n- 生态集成层（GitHub Copilot 领先）：与现有工具链的原生集成深度\n\nCursor 3.0 已不是 IDE，是多 Agent 协作调度平台；但企业场景实际落地强度要到 2026 年底才能从采购数据中看清楚。",
+      "status_color": "green",
+      "status_emoji": "🟢",
+      "updates": [
+        {
+          "date": "2026-04-08",
+          "title": "2026-04-08 Cursor 3.0 深度调研：护城河从「体验」迁移至「Agent 调度层」",
+          "body": "Cursor 3.0 深度调研：护城河从「体验」迁移至「Agent 调度层」\n\n- 来源：深度调研 Cursor 3.0：开发工具的范式赌注，而非功能升级\n- 触发事件：Cursor 3.0 发布，从 IDE 界面完全重建为以 Agent 为中心的 Agents Window\n- 判断变化：从「Cursor 领先但护城河尚不清晰」→「护城河在 Agent 调度层已成形，但企业落地强度待验证」\n- 信心变化：★★★ → ★★★★（+1）",
+          "confidence_change": ""
+        },
+        {
+          "date": "2026-03-24",
+          "title": "2026-03-24 首次建立判断",
+          "body": "首次建立判断\n\n- 来源：个人使用 Cursor / Trae 的经验 + 公开信息\n- 判断：AI Coding 工具正在从「代码补全」向「编程协作者」演进，Cursor 目前是最接近这一目标的产品\n- 信心：★★★★☆（亲身使用，感受明显）\n\n---",
+          "confidence_change": ""
+        }
+      ],
+      "updates_count": 2,
+      "related_research": [
+        {
+          "title": "2026-04-08 | Cursor 3.0：开发工具的范式赌注，而非功能升级",
+          "href": "../02-deep-research/topics/2026-04-08-cursor-3-workflow-shift.md"
+        }
+      ]
+    },
+    {
       "id": "model-landscape",
       "file": "model-landscape.md",
       "tag": {
@@ -61,33 +99,6 @@
           "date": "2026-03-24",
           "title": "2026-03-24 首次建立判断",
           "body": "首次建立判断\n\n- 来源：Barry Zhang（Anthropic）的 Agent 设计原则分享 + ai-insight 项目中的 Agent 调研\n- 触发信息：Agent 在生产环境仍然是少数，大多数场景还处于 demo/内测阶段\n- 判断：\n  - L1 实践者普遍反馈：垂直 Agent 有真实使用案例，但定制程度很高\n  - 通用 Agent（如 Devin）的实际留存率低，用户主要用于边缘任务\n  - 时间线估计：垂直场景 2025-2026 年部分规模化，通用 2028+ 年\n- 信心：★★★☆☆\n\n---",
-          "confidence_change": ""
-        }
-      ],
-      "updates_count": 1,
-      "related_research": []
-    },
-    {
-      "id": "ai-coding-trend",
-      "file": "ai-coding-trend.md",
-      "tag": {
-        "label": "AI Coding",
-        "bg": "rgba(255,149,0,0.1)",
-        "color": "#c6690a"
-      },
-      "question": "AI Coding 工具的趋势走向？",
-      "created_at": "2026-03-24",
-      "updated_at": "2026-03-24",
-      "confidence_raw": "★★★★☆",
-      "confidence": 4,
-      "verdict": "AI Coding 工具正在从\"代码补全\"向\"编程协作者\"演进，Cursor 目前是最接近这一目标的产品。\n下一阶段的竞争点不是补全质量，而是\"理解整个代码库的能力\"和\"Agent 式自主完成任务\"。\n短期内不会替代开发者，但会拉大有 AI 辅助和没有 AI 辅助的开发者之间的生产力差距。",
-      "status_color": "green",
-      "status_emoji": "🟢",
-      "updates": [
-        {
-          "date": "2026-03-24",
-          "title": "2026-03-24 首次建立判断",
-          "body": "首次建立判断\n\n- 来源：个人使用 Cursor / Trae 的经验 + 公开信息\n- 判断：见上方\n- 信心：★★★★☆（亲身使用，感受明显）\n\n---",
           "confidence_change": ""
         }
       ],

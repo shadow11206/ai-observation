@@ -1,0 +1,19 @@
+{
+  "id": "2026-04-08-cursor-3-workflow-shift",
+  "date": "2026-04-08",
+  "title": "Cursor 3.0：开发工具的范式赌注，而非功能升级",
+  "category": "topics",
+  "type": "competition",
+  "tags": ["Cursor", "AI Coding", "Agent 调度", "产品范式", "竞争格局"],
+  "tldr": "Cursor 3.0 把软件开发的基本交互单位从「文件」换成了「Agent」，这是一次主动的范式声明，而非被动的功能迭代。Agent 用户数已是 Tab 用户数 2 倍、年度经常性收入（ARR）达 10 亿美元，数据飞轮正在加速；但社区第一反应清楚说明主流开发者与 Agent 范式之间仍有认知鸿沟，企业落地强度要到 2026 年底才能从采购数据中看清楚。",
+  "confidence_rating": "★★★★",
+  "sources_count": 9,
+  "primary_sources": 3,
+  "validation_evidence": 2,
+  "from_report": "",
+  "opinion_log_file": "ai-coding-trend.md",
+  "judgment_before": "Cursor 的领先是模型能力 + 产品体验的综合领先，护城河尚不清晰。",
+  "judgment_after": "Cursor 的真正护城河在于它率先定义了「Agent 调度层」这个新品类，并通过数据飞轮（每天 10 亿行代码训练 Composer）和云基础设施（Automations、云端 Agent 运行时）建立了切换成本；但这个护城河在企业场景的实际落地强度，要到 2026 年底才能从企业采购数据中看清楚。",
+  "confidence_delta": 1,
+  "related_report_dates": []
+}

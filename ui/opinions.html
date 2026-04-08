@@ -293,6 +293,23 @@
           el.style.opacity = '1';
           el.style.transform = 'translateY(0)';
         });
+
+        // hash 锚点跳转（从调研详情页跳入时自动定位 + 高亮）
+        const hash = window.location.hash; // e.g. #opinion-ai-coding-trend
+        if (hash) {
+          const target = document.querySelector(hash);
+          if (target) {
+            setTimeout(() => {
+              target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              // 短暂高亮边框
+              target.style.transition = 'box-shadow 0.3s ease';
+              target.style.boxShadow = '0 0 0 2.5px var(--accent), var(--shadow-md)';
+              setTimeout(() => {
+                target.style.boxShadow = '';
+              }, 1800);
+            }, 350); // 等动画完成后再滚动
+          }
+        }
       });
 
     } catch (e) {
@@ -307,6 +324,7 @@
   function buildCard(item) {
     const div = document.createElement('div');
     div.className = 'opinion-full-card reveal';
+    div.id = 'opinion-' + item.id;  // 支持锚点跳转
 
     const tag = item.tag || {};
     const tagStyle = `background:${tag.bg || 'rgba(0,113,227,0.08)'};color:${tag.color || 'var(--accent)'}`;
