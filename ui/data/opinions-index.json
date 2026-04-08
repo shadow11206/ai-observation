@@ -3,6 +3,44 @@
   "updated_at": "2026-04-08",
   "items": [
     {
+      "id": "ai-agent-landing",
+      "file": "ai-agent-landing.md",
+      "tag": {
+        "label": "AI Agent",
+        "bg": "rgba(0,113,227,0.08)",
+        "color": "#0071e3"
+      },
+      "question": "AI Agent 真正落地的时间线？",
+      "created_at": "2026-03-24",
+      "updated_at": "2026-04-08",
+      "confidence_raw": "★★★★",
+      "confidence": 4,
+      "verdict": "分水岭不是「重复性 vs 复杂性」，而是「工作成果能否被最终买家直接验收，不需要专业人士背书」。\n\n- 能被直接验收的成果型工作（如 NDA 起草、保险询价、合同套语）→ Autopilot 可以今天起步\n- 需要专业人士背书的判断型工作（如战略决策、复杂谈判、危机公关）→ AI 目前做不到，监管也不允许\n\n这比「高判断力 vs 低判断力」更精确，也解释了为什么 Harvey 能到 $110 亿估值：它卖的是最终客户可以直接验收的法律工作成果，而不是卖工具给律师。",
+      "status_color": "green",
+      "status_emoji": "🟢",
+      "updates": [
+        {
+          "date": "2026-04-08",
+          "title": "2026-04-08 升级：引入「验收阈值」比「判断力」更精确的分析框架",
+          "body": "升级：引入「验收阈值」比「判断力」更精确的分析框架\n\n- 来源：深度调研 红杉资本《Services: The New Software》：不是投资报告，是重新定义谁是 AI 时代的赢家\n- 触发事件：红杉 Julien Bek 发表《Services: The New Software》+ Harvey AI $110 亿美元融资\n- 判断变化：从「AI Agent 主要替代重复性工作」→「核心分水岭是工作成果能否被最终买家直接验收」\n- 信心变化：★★★☆☆ → ★★★★（+1）\n- 核心驱动：Harvey 估值一手数据 + Gartner「2030 年 40% SaaS 支出向结果型定价转移」的第三方预测",
+          "confidence_change": ""
+        },
+        {
+          "date": "2026-03-24",
+          "title": "2026-03-24 首次建立判断",
+          "body": "首次建立判断\n\n- 来源：Barry Zhang（Anthropic）的 Agent 设计原则分享 + ai-insight 项目中的 Agent 调研\n- 触发信息：Agent 在生产环境仍然是少数，大多数场景还处于 demo/内测阶段\n- 判断：\n  - L1 实践者普遍反馈：垂直 Agent 有真实使用案例，但定制程度很高\n  - 通用 Agent（如 Devin）的实际留存率低，用户主要用于边缘任务\n  - 时间线估计：垂直场景 2025-2026 年部分规模化，通用 2028+ 年\n- 信心：★★★☆☆\n\n---",
+          "confidence_change": ""
+        }
+      ],
+      "updates_count": 2,
+      "related_research": [
+        {
+          "title": "2026-04-08 | 红杉资本《Services: The New Software》：不是投资报告，是重新定义谁是 AI 时代的赢家",
+          "href": "../02-deep-research/topics/2026-04-08-sequoia-services-new-software.md"
+        }
+      ]
+    },
+    {
       "id": "ai-coding-trend",
       "file": "ai-coding-trend.md",
       "tag": {
@@ -61,33 +99,6 @@
           "date": "2026-03-24",
           "title": "2026-03-24 首次建立判断",
           "body": "首次建立判断\n\n- 来源：公开市场信息 + ai-insight 追踪体系整理\n- 判断：头部集中 + 开源分流正在同时发生；中国模型正在垂直行业寻找差异化空间\n- 信心：★★★☆☆\n\n---",
-          "confidence_change": ""
-        }
-      ],
-      "updates_count": 1,
-      "related_research": []
-    },
-    {
-      "id": "ai-agent-landing",
-      "file": "ai-agent-landing.md",
-      "tag": {
-        "label": "AI Agent",
-        "bg": "rgba(0,113,227,0.08)",
-        "color": "#0071e3"
-      },
-      "question": "AI Agent 真正落地的时间线？",
-      "created_at": "2026-03-24",
-      "updated_at": "2026-03-24",
-      "confidence_raw": "★★★☆☆",
-      "confidence": 3,
-      "verdict": "垂直场景（客服/代码/数据分析）的 Agent 已进入早期规模化阶段；\n通用 Agent 仍然是 2-3 年后的事。\n整体比大众预期慢，但比悲观者预期快。",
-      "status_color": "yellow",
-      "status_emoji": "🟡",
-      "updates": [
-        {
-          "date": "2026-03-24",
-          "title": "2026-03-24 首次建立判断",
-          "body": "首次建立判断\n\n- 来源：Barry Zhang（Anthropic）的 Agent 设计原则分享 + ai-insight 项目中的 Agent 调研\n- 触发信息：Agent 在生产环境仍然是少数，大多数场景还处于 demo/内测阶段\n- 判断：\n  - L1 实践者普遍反馈：垂直 Agent 有真实使用案例，但定制程度很高\n  - 通用 Agent（如 Devin）的实际留存率低，用户主要用于边缘任务\n  - 时间线估计：垂直场景 2025-2026 年部分规模化，通用 2028+ 年\n- 信心：★★★☆☆\n\n---",
           "confidence_change": ""
         }
       ],

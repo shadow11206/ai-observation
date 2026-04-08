@@ -1,7 +1,28 @@
 {
-  "total": 2,
+  "total": 3,
   "updated_at": "2026-04-08",
   "items": [
+    {
+      "id": "2026-04-08-sequoia-services-new-software",
+      "date": "2026-04-08",
+      "title": "红杉资本《Services: The New Software》：不是投资报告，是重新定义谁是 AI 时代的赢家",
+      "category": "topics",
+      "category_label": "专题研究",
+      "type": "event",
+      "tags": [
+        "红杉资本",
+        "AI Agent",
+        "SaaS",
+        "商业模式",
+        "Autopilot",
+        "Harvey AI"
+      ],
+      "tldr": "红杉宣布 SaaS 黄金时代结束，下一个万亿美元公司不会卖软件而是直接卖工作成果；Harvey $110 亿估值是框架的现实注脚；但渠道冲突和高判断力工作的监管壁垒是文章回避的两个最关键问题。",
+      "confidence_rating": "★★★★",
+      "sources_count": 9,
+      "from_report": null,
+      "confidence_delta": 1
+    },
     {
       "id": "2026-04-08-cursor-3-workflow-shift",
       "date": "2026-04-08",
