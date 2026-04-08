@@ -50,19 +50,13 @@
       },
       "question": "大模型竞争格局如何演变？",
       "created_at": "2026-03-24",
-      "updated_at": "2026-03-31",
-      "confidence_raw": "★★★★",
-      "confidence": 4,
-      "verdict": "竞争格局需要分轨道看，不能一刀切。中国多模态模型在内容处理轨道已完成压制，但在Agent 能力轨道仍有实质差距。\n\n内容处理轨道（中国领先）：\n- Qwen3.5-Omni 在 ASR/S2TT/通用音频理解上全面超越 Gemini-3.1 Pro（官方 benchmark 一手确认）\n- 定价 0.8元 vs $2.00（≈14.6元）——约1/18，不对称到 Google 无法降价反制\n- 适用场景：内容审核、字幕生成、多语言转写、批量音频处理\n\nAgent 能力轨道（Google 领先）：\n- OmniGAIA（工具调用/自主完成任务）：Gemini-3.1 Pro 68.9 vs Qwen3.5-Omni-Plus 57.2（-11.7分）\n- 这是高价值企业 Agent 采购场景的直接映射\n- 权重闭源导致工程师社区几乎零参与（HN 零评论，Reddit 最高赞批评集中在闭源）\n\n隐藏风险：benchmark 表格中途换掉对比对象（Reddit 74票质疑），「215项SOTA」是在精心选择的评测集上打出来的；稀有语言 TTS 实测极差。",
-      "status_color": "green",
-      "status_emoji": "🟢",
+      "updated_at": "2026-03-24",
+      "confidence_raw": "★★★☆☆",
+      "confidence": 3,
+      "verdict": "头部集中 + 开源分流正在同时发生；中国模型正在垂直行业寻找差异化空间。\n整体格局仍由 OpenAI / Anthropic / Google 主导，但开源生态已对中小场景形成有效替代。",
+      "status_color": "yellow",
+      "status_emoji": "🟡",
       "updates": [
-        {
-          "date": "2026-03-31",
-          "title": "2026-03-31 重大升级：中国多模态已进入\"价格+性能\"双轮驱动阶段",
-          "body": "重大升级：中国多模态已进入\"价格+性能\"双轮驱动阶段\n\n- 来源：深度调研 中国多模态大模型：价格战终结「性能追赶」叙事\n- 触发事件：Qwen3.5-Omni 发布 + OpenRouter 调用量数据\n- 判断变化：从\"中国模型主要靠价格差异化\"→\"性能已对齐旗舰，价格成为系统性压制工具\"\n- 信心变化：★★★☆☆ → ★★★★☆（+1.5）",
-          "confidence_change": ""
-        },
         {
           "date": "2026-03-24",
           "title": "2026-03-24 首次建立判断",
@@ -70,13 +64,8 @@
           "confidence_change": ""
         }
       ],
-      "updates_count": 2,
-      "related_research": [
-        {
-          "title": "2026-03-31 | 中国多模态大模型：价格战终结「性能追赶」叙事",
-          "href": "../02-deep-research/trends/2026-03-31-china-multimodal-llm.md"
-        }
-      ]
+      "updates_count": 1,
+      "related_research": []
     },
     {
       "id": "ai-agent-landing",

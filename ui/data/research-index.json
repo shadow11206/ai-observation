@@ -1,5 +1,5 @@
 {
-  "total": 3,
+  "total": 2,
   "updated_at": "2026-04-08",
   "items": [
     {
@@ -21,27 +21,6 @@
       "sources_count": 9,
       "from_report": "",
       "confidence_delta": 1
-    },
-    {
-      "id": "2026-03-31-qwen35-omni-vs-gemini",
-      "date": "2026-03-31",
-      "title": "Qwen3.5-Omni 的性能已到位，但「215项SOTA」是在精心选择的擂台上打的",
-      "category": "trends",
-      "category_label": "趋势洞察",
-      "type": "competition",
-      "tags": [
-        "多模态",
-        "Qwen3.5-Omni",
-        "Gemini",
-        "定价策略",
-        "benchmark",
-        "竞争格局"
-      ],
-      "tldr": "定价不是中国模型的护身符，而是战略武器。Qwen3.5-Omni 文本输入约为 Gemini 3.1 Pro 的1/36（按美元），在音频理解上真实超越Gemini，但benchmark表格中途换掉了对比对象，权重闭源让工程师社区冷漠（HN零评论），在Agent能力上仍落后11.7分。价格战的真实目的是让Google无法降价反制。",
-      "confidence_rating": "★★★★",
-      "sources_count": 7,
-      "from_report": "2026-03-31",
-      "confidence_delta": 0
     },
     {
       "id": "2026-03-31-china-multimodal-llm",
