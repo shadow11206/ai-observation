@@ -1,0 +1,445 @@
+{
+  "date": "2026-04-09",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Meta发布全新推理模型Muse Spark，首次采用全新技术栈",
+      "finding": "Meta在沉寂近一年后，发布了其首个前沿模型Muse Spark。该模型并非开源权重，而是通过API向部分用户提供预览，标志着Meta在闭源高性能模型领域迈出重要一步。",
+      "key_data": [
+        "Meta首个前沿模型",
+        "非开源权重",
+        "全新技术栈",
+        "API预览"
+      ],
+      "judgment": "这意味着Meta正式加入与OpenAI、Anthropic的闭源模型竞赛，打破了其长期以来的开源形象。行业竞争格局从‘开源vs闭源’转向‘多巨头闭源混战’，开发者未来可能面临更复杂的模型选择生态。",
+      "confidence": 5,
+      "source": "Latent Space (Swyx)",
+      "url": "https://www.latent.space/p/ainews-meta-superintelligence-labs"
+    },
+    {
+      "rank": 2,
+      "title": "Anthropic推出Claude托管代理服务，降低企业构建AI代理门槛",
+      "finding": "Anthropic发布了一项名为Claude托管代理的新产品，旨在帮助企业更轻松地构建和部署AI代理，处理构建过程中的复杂部分。",
+      "key_data": [
+        "Claude托管代理",
+        "降低企业AI代理门槛",
+        "处理构建复杂性"
+      ],
+      "judgment": "这意味着AI代理的构建正从‘开发者技能’转向‘平台服务’。Anthropic此举旨在抢占企业AI代理市场，与OpenAI的企业AI战略直接竞争，将加速AI代理在企业中的规模化应用。",
+      "confidence": 5,
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/anthropic-launches-claude-managed-agents/"
+    },
+    {
+      "rank": 3,
+      "title": "DHH分享AI优先的编码新方式，预示软件开发流程变革",
+      "finding": "Ruby on Rails创始人David Heinemeier Hansson公开分享了他转向‘AI优先’工作流的原因，并探讨了这对软件构建方式和构建者身份的影响。",
+      "key_data": [
+        "DHH AI优先工作流",
+        "软件构建方式变革",
+        "构建者身份变化"
+      ],
+      "judgment": "这意味着顶级技术领袖正在用行动重新定义‘编程’。当构建者从‘写代码’转向‘指导AI写代码’，软件开发的效率、门槛和团队结构都将发生根本性变化，对现有开发工具和流程构成挑战。",
+      "confidence": 4,
+      "source": "The Pragmatic Engineer",
+      "url": "https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code"
+    },
+    {
+      "rank": 4,
+      "title": "阿里电商围绕Token重构，组织调整聚焦AI to B",
+      "finding": "阿里淘天集团新财年将AI探索聚焦于AI to B方向，核心目标是提升商家侧AI工具留存率和AI带来的GMV增长，并围绕Token概念重构电商业务。",
+      "key_data": [
+        "阿里电商AI to B",
+        "围绕Token重构",
+        "商家工具留存率",
+        "GMV增长"
+      ],
+      "judgment": "这意味着中国头部互联网公司的AI战略正从‘技术展示’转向‘业务驱动’。阿里将AI与核心电商GMV直接挂钩，标志着AI应用进入深水区，成败将直接影响业务基本盘，压力与机遇并存。",
+      "confidence": 4,
+      "source": "36氪 AI",
+      "url": "https://36kr.com/p/3748018292802309?f=rss"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Latent Space (Swyx)",
+      "title": "Meta发布Muse Spark推理模型",
+      "finding": "Meta发布其首个前沿模型Muse Spark，采用全新技术栈，目前仅通过API向部分用户提供预览，而非开源权重。",
+      "key_data": [
+        "Meta前沿模型",
+        "非开源",
+        "API预览"
+      ],
+      "judgment": "Meta战略转向，加入闭源高性能模型竞争，行业格局生变。",
+      "confidence": 5,
+      "url": "https://www.latent.space/p/ainews-meta-superintelligence-labs",
+      "importance": 5
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "Claude Code被批史诗级负优化，思考深度暴跌",
+      "finding": "Anthropic的Claude Code近期更新被开发者和大厂AI主管批评为‘史诗级负优化’，认为其思考深度暴跌，官方回应引发争议。",
+      "key_data": [
+        "Claude Code负优化",
+        "思考深度暴跌",
+        "开发者争议"
+      ],
+      "judgment": "模型迭代并非总是正向，关键产品功能倒退会严重损害开发者信任和生态。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/mqW0bszWH0fC8oBDcsax?utm_source=rss&utm_medium=article",
+      "importance": 4
+    },
+    {
+      "source": "量子位",
+      "title": "智谱GLM-5.1“Day0”上线华为云",
+      "finding": "智谱AI的最新大模型GLM-5.1在发布当天（Day0）即上线华为云，用户可通过华为云的多款产品进行体验。",
+      "key_data": [
+        "GLM-5.1",
+        "Day0上线华为云",
+        "多产品体验"
+      ],
+      "judgment": "国内模型厂商与云厂商的绑定日益紧密，‘模型即服务’的交付速度和渠道成为竞争关键。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/04/397942.html",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "Wired AI",
+      "title": "Anthropic推出Claude托管代理服务",
+      "finding": "Anthropic发布Claude托管代理，旨在帮助企业处理构建AI代理的复杂部分，降低使用门槛。",
+      "key_data": [
+        "Claude托管代理",
+        "降低企业门槛",
+        "处理构建复杂性"
+      ],
+      "judgment": "AI代理服务化趋势明显，平台竞争从模型能力延伸到工程化与易用性。",
+      "confidence": 5,
+      "url": "https://www.wired.com/story/anthropic-launches-claude-managed-agents/",
+      "importance": 5
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Tubi成为首个在ChatGPT内推出原生应用的流媒体",
+      "finding": "流媒体服务Tubi在ChatGPT内推出了原生应用集成，用户可以直接在ChatGPT中访问其内容。",
+      "key_data": [
+        "Tubi ChatGPT应用",
+        "首个流媒体集成",
+        "ChatGPT内访问"
+      ],
+      "judgment": "ChatGPT等超级应用正成为新的流量和分发入口，应用生态开始向其内部迁移。",
+      "confidence": 5,
+      "url": "https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AI代理Poke让设置自动化像发短信一样简单",
+      "finding": "AI代理产品Poke通过短信交互，让普通用户无需复杂设置或技术知识就能创建和使用自动化任务。",
+      "key_data": [
+        "Poke AI代理",
+        "短信交互",
+        "无需技术知识"
+      ],
+      "judgment": "AI代理的交互方式在向更自然、更低门槛的方向演进，瞄准大众市场。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "理想汽车破例投资具身智能创业公司",
+      "finding": "理想汽车首次投资了一家具身智能领域的创业公司，该公司由理想L9车型的功臣创办，阿里CEO也参与了跟投。",
+      "key_data": [
+        "理想投资具身智能",
+        "L9功臣创办",
+        "阿里CEO跟投"
+      ],
+      "judgment": "头部车企加速布局具身智能和机器人，将其视为下一代智能空间的核心组成部分。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/04/397930.html",
+      "importance": 3
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Swyx (Shawn Wang)",
+      "level": "L2",
+      "quote": "Meta Superintelligence Labs终于交付了！Muse Spark的发布是一个安静日子里的大新闻，让我们反思Meta在全新技术栈上的首次亮相。",
+      "source": "https://www.latent.space/p/ainews-meta-superintelligence-labs"
+    },
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "Meta的新模型是Muse Spark，meta.ai聊天机器人还附带了一些有趣的新工具。这是自近一年前Llama 4发布以来的首个模型。",
+      "source": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything"
+    },
+    {
+      "person": "Giles Turnbull (via Simon Willison)",
+      "level": "L2",
+      "quote": "我感觉每个人都喜欢用AI工具去尝试做别人的工作。但当别人用AI来做他们的工作时，他们就没那么热衷了。",
+      "source": "https://simonwillison.net/2026/Apr/8/giles-turnbull/#atom-everything"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "Meta的Muse Spark技术栈与战略转向",
+      "reason": "Meta首次推出闭源前沿模型，并采用全新技术栈，这标志着其AI战略的重大转变，对行业竞争格局影响深远。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI代理的“托管服务”化趋势",
+      "reason": "Anthropic推出托管代理服务，旨在降低企业使用门槛。这代表了AI代理从工具/框架向平台化服务演进的关键节点。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "Meta入局闭源模型战，Anthropic推代理托管服务降门槛。",
+  "snapshot": {
+    "date": "2026-04-08",
+    "hf_trending": [
+      {
+        "name": "google/gemma-4-31B-it",
+        "short_name": "gemma-4-31B-it",
+        "likes": 1456,
+        "downloads": 1106883,
+        "url": "https://huggingface.co/google/gemma-4-31B-it",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
+        "short_name": "Gemma-4-31B-JANG_4M-CRACK",
+        "likes": 782,
+        "downloads": 44246,
+        "url": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
+        "tags": [
+          "mlx",
+          "safetensors",
+          "gemma4"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "zai-org/GLM-5.1",
+        "short_name": "GLM-5.1",
+        "likes": 729,
+        "downloads": 1300,
+        "url": "https://huggingface.co/zai-org/GLM-5.1",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "netflix/void-model",
+        "short_name": "void-model",
+        "likes": 643,
+        "downloads": 0,
+        "url": "https://huggingface.co/netflix/void-model",
+        "tags": [
+          "video-inpainting",
+          "video-editing",
+          "object-removal"
+        ],
+        "pipeline_tag": "video-to-video",
+        "label": "Video To Video",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "google/gemma-4-26B-A4B-it",
+        "short_name": "gemma-4-26B-A4B-it",
+        "likes": 536,
+        "downloads": 835825,
+        "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "google/gemma-4-E4B-it",
+        "short_name": "gemma-4-E4B-it",
+        "likes": 506,
+        "downloads": 622963,
+        "url": "https://huggingface.co/google/gemma-4-E4B-it",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4"
+        ],
+        "pipeline_tag": "any-to-any",
+        "label": "Any To Any",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "short_name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "likes": 2505,
+        "downloads": 560798,
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "tags": [
+          "safetensors",
+          "qwen3_5",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "openbmb/VoxCPM2",
+        "short_name": "VoxCPM2",
+        "likes": 431,
+        "downloads": 605,
+        "url": "https://huggingface.co/openbmb/VoxCPM2",
+        "tags": [
+          "voxcpm",
+          "safetensors",
+          "text-to-speech"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "qwen/qwen3.6-plus-04-02",
+        "name": "qwen3.6-plus-04-02",
+        "org": "qwen",
+        "total_tokens": 732021103927,
+        "total_tokens_str": "732B",
+        "calls": 11328105,
+        "change": -21.4,
+        "url": "https://openrouter.ai/models/qwen/qwen3.6-plus-04-02"
+      },
+      {
+        "rank": 2,
+        "slug": "minimax/minimax-m2.7-20260318",
+        "name": "minimax-m2.7",
+        "org": "minimax",
+        "total_tokens": 210354857518,
+        "total_tokens_str": "210B",
+        "calls": 5446722,
+        "change": 29.0,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
+      },
+      {
+        "rank": 3,
+        "slug": "stepfun/step-3.5-flash",
+        "name": "step-3.5-flash",
+        "org": "stepfun",
+        "total_tokens": 209049682897,
+        "total_tokens_str": "209B",
+        "calls": 5177532,
+        "change": 5.8,
+        "url": "https://openrouter.ai/models/stepfun/step-3.5-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "anthropic/claude-4.6-sonnet-20260217",
+        "name": "claude-4.6-sonnet",
+        "org": "anthropic",
+        "total_tokens": 178652796441,
+        "total_tokens_str": "179B",
+        "calls": 4532385,
+        "change": 17.6,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-sonnet-20260217"
+      },
+      {
+        "rank": 5,
+        "slug": "deepseek/deepseek-v3.2-20251201",
+        "name": "deepseek-v3.2",
+        "org": "deepseek",
+        "total_tokens": 177750291153,
+        "total_tokens_str": "178B",
+        "calls": 17843651,
+        "change": -2.7,
+        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
+      },
+      {
+        "rank": 6,
+        "slug": "anthropic/claude-4.6-opus-20260205",
+        "name": "claude-4.6-opus",
+        "org": "anthropic",
+        "total_tokens": 176970810166,
+        "total_tokens_str": "177B",
+        "calls": 3330643,
+        "change": 30.0,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-opus-20260205"
+      },
+      {
+        "rank": 7,
+        "slug": "minimax/minimax-m2.5-20260211",
+        "name": "minimax-m2.5",
+        "org": "minimax",
+        "total_tokens": 173402278265,
+        "total_tokens_str": "173B",
+        "calls": 4814780,
+        "change": -1.6,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.5-20260211"
+      },
+      {
+        "rank": 8,
+        "slug": "google/gemini-3-flash-preview-20251217",
+        "name": "gemini-3-flash-preview",
+        "org": "google",
+        "total_tokens": 154971306866,
+        "total_tokens_str": "155B",
+        "calls": 18351984,
+        "change": -4.4,
+        "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
+      },
+      {
+        "rank": 9,
+        "slug": "openai/gpt-4o-mini",
+        "name": "gpt-4o-mini",
+        "org": "openai",
+        "total_tokens": 114214192926,
+        "total_tokens_str": "114B",
+        "calls": 16003857,
+        "change": -2.3,
+        "url": "https://openrouter.ai/models/openai/gpt-4o-mini"
+      },
+      {
+        "rank": 10,
+        "slug": "moonshotai/kimi-k2.5-0127",
+        "name": "kimi-k2.5-0127",
+        "org": "moonshotai",
+        "total_tokens": 94387334117,
+        "total_tokens_str": "94B",
+        "calls": 2366391,
+        "change": 4.9,
+        "url": "https://openrouter.ai/models/moonshotai/kimi-k2.5-0127"
+      }
+    ],
+    "hf_summary": "多模态与文本生成模型主导榜单，Gemma系列表现尤为突出"
+  }
+}

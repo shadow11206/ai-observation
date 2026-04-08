@@ -1,6 +1,13 @@
 {
-  "total": 14,
+  "total": 15,
   "reports": [
+    {
+      "date": "2026-04-09",
+      "title": "今日 AI 日报：Meta发布全新推理模型Muse Spark，首次采用全新技术栈 + 3 条重要动态",
+      "excerpt": "这意味着Meta正式加入与OpenAI、Anthropic的闭源模型竞赛，打破了…",
+      "top_count": 4,
+      "file": "2026-04-09.json"
+    },
     {
       "date": "2026-04-08",
       "title": "今日 AI 日报：Anthropic发布Claude Mythos预览版，启动网络安全项目Glasswing + 3 条重要动态",
