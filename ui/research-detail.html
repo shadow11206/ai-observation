@@ -10,6 +10,18 @@
   <link rel="stylesheet" href="styles/main.css" />
   <!-- marked.js for Markdown rendering -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <!-- mermaid.js for diagram rendering -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    window.__mermaid = mermaid;
+    mermaid.initialize({
+      startOnLoad: false,
+      theme: 'neutral',
+      fontFamily: "Inter, -apple-system, 'PingFang SC', sans-serif",
+      fontSize: 13,
+      flowchart: { curve: 'basis', useMaxWidth: true },
+    });
+  </script>
   <style>
     /* ── Layout ── */
     .research-layout {
@@ -327,6 +339,21 @@
       margin: 2rem 0;
     }
 
+    /* Mermaid 图表容器 */
+    .mermaid-wrap {
+      margin: 1.75rem 0;
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: var(--r-md);
+      padding: 1.75rem 2rem;
+      overflow-x: auto;
+      text-align: center;
+    }
+    .mermaid-wrap svg {
+      max-width: 100%;
+      height: auto;
+    }
+
     /* 加载 / 错误 */
     #research-detail-loading {
       text-align: center;
@@ -503,7 +530,26 @@
       // markdown 正文（去掉 yaml-like frontmatter 和 tldr 开头部分）
       const cleanMd = stripFrontmatter(mdText);
       if (cleanMd && window.marked) {
+        // 自定义 renderer：mermaid 代码块 → 可渲染容器
+        const renderer = new marked.Renderer();
+        const origCode = renderer.code.bind(renderer);
+        renderer.code = function(token) {
+          const lang = (token.lang || token.language || '').trim();
+          const code = token.text || token;
+          if (lang === 'mermaid') {
+            return `<div class="mermaid-wrap"><div class="mermaid">${code}</div></div>`;
+          }
+          return origCode(token);
+        };
+        marked.use({ renderer });
         document.getElementById('detail-md').innerHTML = marked.parse(cleanMd);
+
+        // 触发 mermaid 渲染
+        if (window.__mermaid) {
+          requestAnimationFrame(() => {
+            window.__mermaid.run({ querySelector: '.mermaid' });
+          });
+        }
       }
 
     }

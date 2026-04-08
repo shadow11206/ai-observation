@@ -95,6 +95,26 @@ AI 编程工具的竞争已经不在同一层面进行，可以拆分为三条�
 
 这三条轨道目前没有任何一家完全打通。Cursor 3.0 是第一次有玩家在「Agent 调度层」建立了明确的产品形态，但编码质量层和生态集成层它尚未形成防御优势。
 
+```mermaid
+graph TD
+    ROOT["AI 编程工具竞争格局 2026"]
+
+    ROOT --> T1["轨道一：编码质量层"]
+    ROOT --> T2["轨道二：Agent 调度层"]
+    ROOT --> T3["轨道三：生态集成层"]
+
+    T1 --> T1A["Claude Code<br/>终端 CLI，Anthropic 模型驱动<br/>内部 90% 代码已自编"]
+    T1 --> T1B["GitHub Copilot<br/>300 万+ 付费用户"]
+
+    T2 --> T2A["Cursor 明显领先<br/>唯一建立完整产品形态<br/>Agents Window + Automations + 云运行时"]
+
+    T3 --> T3A["GitHub Copilot<br/>微软/GitHub 生态原生绑定"]
+    T3 --> T3B["Cursor Marketplace<br/>30+ 合作插件，尚在建设中"]
+
+    style T2A fill:#1b2a4a,color:#fff,stroke:#1b2a4a
+    style T1A fill:#1b3a2a,color:#fff,stroke:#1b3a2a
+```
+
 ---
 
 ## 05. 判断更新
