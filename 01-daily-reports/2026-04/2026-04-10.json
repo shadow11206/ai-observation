@@ -1,0 +1,423 @@
+{
+  "date": "2026-04-10",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Anthropic 限制 Mythos 模型发布，引发安全与成本双重争议",
+      "finding": "Anthropic 以安全为由，限制其最新模型 Mythos 的发布，称其能轻易发现软件安全漏洞。但社区和媒体质疑，这背后可能更多是出于控制天价推理成本的考虑。",
+      "key_data": [
+        "Mythos 模型",
+        "安全漏洞发现能力",
+        "244页系统卡",
+        "社区质疑成本动机"
+      ],
+      "judgment": "这意味着顶级AI实验室在模型能力与商业化、安全责任与成本控制之间面临艰难平衡。对开发者而言，开源模型和社区分析将变得更加重要，以对冲闭源巨头的策略性限制。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic/"
+    },
+    {
+      "rank": 2,
+      "title": "LangChain 推出 Deep Agents Deploy，剑指 Claude Managed Agents",
+      "finding": "在 Anthropic 封杀第三方 Agent 框架“龙虾”并推出自家托管服务后，LangChain 迅速推出开源替代方案 Deep Agents Deploy，旨在提供一个模型无关、生产就绪的 Agent 部署平台。",
+      "key_data": [
+        "Deep Agents Deploy",
+        "开源替代方案",
+        "模型无关",
+        "生产就绪"
+      ],
+      "judgment": "这意味着 Agent 部署的标准化和平台化竞争加剧。LangChain 此举旨在巩固其作为开源 Agent 基础设施的地位，防止被闭源模型厂商的托管服务“锁死”，为开发者提供了更多选择权。",
+      "confidence": 5,
+      "source": "LangChain Blog",
+      "url": "https://blog.langchain.com/deep-agents-deploy-an-open-alternative-to-claude-managed-agents/"
+    },
+    {
+      "rank": 3,
+      "title": "Meta AI 应用排名飙升，Muse Spark 模型发布效应显著",
+      "finding": "在发布新的 Muse Spark 模型后，Meta AI 独立应用在苹果 App Store 的排名从第57位迅速攀升至第5位，显示出消费级 AI 应用竞争的激烈和模型更新带来的巨大市场拉动效应。",
+      "key_data": [
+        "Meta AI App",
+        "App Store 排名第5",
+        "Muse Spark 模型发布",
+        "排名飙升"
+      ],
+      "judgment": "这意味着模型能力的直接比拼正在快速转化为终端用户市场的争夺。对于所有AI公司而言，将前沿研究迅速转化为可感知的消费级产品体验，已成为获取用户和市场份额的关键。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/"
+    },
+    {
+      "rank": 4,
+      "title": "ChatGPT 推出 100 美元/月 Pro 计划，填补价格空白",
+      "finding": "OpenAI 推出了每月100美元的 ChatGPT Pro 计划，填补了此前20美元个人版和200美元企业版之间的价格空白，旨在满足重度个人用户和小团队的需求。",
+      "key_data": [
+        "ChatGPT Pro 计划",
+        "100美元/月",
+        "填补价格空白",
+        "Codex 访问"
+      ],
+      "judgment": "这意味着 OpenAI 正在精细化其商业化策略，针对不同层级的用户需求提供阶梯式服务。对于开发者和中小团队来说，这是一个更具性价比的选择，可能加速 AI 工具在专业工作流中的渗透。",
+      "confidence": 5,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Hugging Face Blog",
+      "title": "Waypoint-1.5：为日常 GPU 打造更高保真度的交互世界",
+      "finding": "Hugging Face 介绍了 Waypoint-1.5，这是一个旨在用消费级 GPU 创建高保真度、可交互虚拟世界的模型或框架。",
+      "key_data": [
+        "Waypoint-1.5",
+        "交互式世界生成",
+        "消费级 GPU 可用"
+      ],
+      "judgment": "这降低了创建沉浸式虚拟环境的门槛，可能推动游戏、模拟训练和数字孪生等领域的创新。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/waypoint-1-5",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "盲区拒绝：语言模型拒绝帮助用户规避不公正、荒谬和非法的规则",
+      "finding": "研究发现，经过安全训练的 LLM 会机械地拒绝所有帮助用户规避规则的请求，即使这些规则本身可能是不公正或荒谬的。",
+      "key_data": [
+        "安全对齐",
+        "规则规避",
+        "机械性拒绝"
+      ],
+      "judgment": "这暴露了当前 AI 安全对齐方法的僵化，未来需要更精细、可解释的价值观判断机制。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2604.06233",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "S^3：扩散语言模型的测试时分层缩放搜索",
+      "finding": "提出了一种无需额外训练，仅通过在推理时动态调整计算资源（缩放）来提升扩散语言模型输出质量的方法。",
+      "key_data": [
+        "测试时缩放",
+        "扩散语言模型",
+        "无需额外训练"
+      ],
+      "judgment": "为提升现有模型性能提供了一种低成本路径，可能影响模型服务商的计费和服务策略。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2604.06260",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "量子位",
+      "title": "阿里云百炼上线 Agent 记忆库，让「龙虾」应用更懂用户",
+      "finding": "阿里云在其 AI 平台“百炼”上线了 Agent 记忆库功能，可通过 OpenClaw 等 Agent 产品一键安装，旨在让 AI 应用能记住用户的历史交互。",
+      "key_data": [
+        "阿里云百炼",
+        "Agent 记忆库",
+        "一键安装",
+        "OpenClaw"
+      ],
+      "judgment": "国内云厂商正快速跟进 Agent 记忆这一关键能力，试图通过平台化服务降低构建个性化 AI 应用的门槛。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/04/398117.html",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "爆火 GitHub！《生化危机》女主打造免费“AI 记忆系统”",
+      "finding": "一个受《生化危机》角色启发的“AI 记忆宫殿”系统在 GitHub 上爆火，据称能提升检索效果 34%。",
+      "key_data": [
+        "AI 记忆宫殿",
+        "GitHub 爆火",
+        "检索提升 34%"
+      ],
+      "judgment": "社区正在用创意解决 AI 的“记忆”难题，开源、轻量化的方案可能比大公司的平台服务更受开发者欢迎。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/04/398090.html",
+      "importance": 2
+    },
+    {
+      "source": "36氪 AI",
+      "title": "美团发布 AI 浏览器「Tabbit」，探索 AI Native 增长点",
+      "finding": "美团旗下光年之外团队发布 AI 浏览器「Tabbit」，并已进入公测，这是美团在主营业务外寻找 AI 原生增长点的一次尝试。",
+      "key_data": [
+        "美团 Tabbit",
+        "AI 浏览器",
+        "公测阶段",
+        "AI Native"
+      ],
+      "judgment": "大厂正将 AI 能力注入传统工具形态（如浏览器），探索新的用户入口和交互范式，竞争将不限于聊天机器人。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3759372854706953?f=rss",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "发布了一个小工具，用于查询 GitHub 仓库的大小，因为 GitHub 网页界面不显示这个信息。这反映了他一贯的风格：快速构建实用工具来解决开发者遇到的具体小问题。",
+      "source": "https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "Anthropic Mythos 模型的“安全限制”与真实动机",
+      "reason": "此事涉及顶级 AI 实验室的发布策略、安全伦理与商业成本的复杂博弈，是观察行业未来走向的关键案例。",
+      "priority": "high"
+    },
+    {
+      "topic": "开源 vs 闭源 Agent 部署框架之战",
+      "reason": "LangChain 与 Anthropic 的对抗，标志着 Agent 基础设施标准化争夺战的白热化，将决定未来 AI 应用开发的生态格局。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "Agent 平台战升级，模型发布陷安全与成本罗生门。",
+  "snapshot": {
+    "date": "2026-04-09",
+    "hf_trending": [
+      {
+        "name": "google/gemma-4-31B-it",
+        "short_name": "gemma-4-31B-it",
+        "likes": 1559,
+        "downloads": 1333678,
+        "url": "https://huggingface.co/google/gemma-4-31B-it",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
+        "short_name": "Gemma-4-31B-JANG_4M-CRACK",
+        "likes": 849,
+        "downloads": 59852,
+        "url": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
+        "tags": [
+          "mlx",
+          "safetensors",
+          "gemma4"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "zai-org/GLM-5.1",
+        "short_name": "GLM-5.1",
+        "likes": 846,
+        "downloads": 8465,
+        "url": "https://huggingface.co/zai-org/GLM-5.1",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "netflix/void-model",
+        "short_name": "void-model",
+        "likes": 697,
+        "downloads": 0,
+        "url": "https://huggingface.co/netflix/void-model",
+        "tags": [
+          "video-inpainting",
+          "video-editing",
+          "object-removal"
+        ],
+        "pipeline_tag": "video-to-video",
+        "label": "Video To Video",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "openbmb/VoxCPM2",
+        "short_name": "VoxCPM2",
+        "likes": 590,
+        "downloads": 1815,
+        "url": "https://huggingface.co/openbmb/VoxCPM2",
+        "tags": [
+          "voxcpm",
+          "safetensors",
+          "text-to-speech"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "short_name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "likes": 2542,
+        "downloads": 564664,
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "tags": [
+          "safetensors",
+          "qwen3_5",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "google/gemma-4-26B-A4B-it",
+        "short_name": "gemma-4-26B-A4B-it",
+        "likes": 566,
+        "downloads": 1046548,
+        "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "google/gemma-4-E4B-it",
+        "short_name": "gemma-4-E4B-it",
+        "likes": 537,
+        "downloads": 784026,
+        "url": "https://huggingface.co/google/gemma-4-E4B-it",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4"
+        ],
+        "pipeline_tag": "any-to-any",
+        "label": "Any To Any",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "anthropic/claude-4.6-opus-20260205",
+        "name": "claude-4.6-opus",
+        "org": "anthropic",
+        "total_tokens": 193025136420,
+        "total_tokens_str": "193B",
+        "calls": 3189075,
+        "change": 9.1,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-opus-20260205"
+      },
+      {
+        "rank": 2,
+        "slug": "minimax/minimax-m2.7-20260318",
+        "name": "minimax-m2.7",
+        "org": "minimax",
+        "total_tokens": 190854661162,
+        "total_tokens_str": "191B",
+        "calls": 5504027,
+        "change": -9.3,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
+      },
+      {
+        "rank": 3,
+        "slug": "anthropic/claude-4.6-sonnet-20260217",
+        "name": "claude-4.6-sonnet",
+        "org": "anthropic",
+        "total_tokens": 183883488467,
+        "total_tokens_str": "184B",
+        "calls": 7246687,
+        "change": 2.9,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-sonnet-20260217"
+      },
+      {
+        "rank": 4,
+        "slug": "deepseek/deepseek-v3.2-20251201",
+        "name": "deepseek-v3.2",
+        "org": "deepseek",
+        "total_tokens": 182477080386,
+        "total_tokens_str": "182B",
+        "calls": 20587546,
+        "change": 2.7,
+        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
+      },
+      {
+        "rank": 5,
+        "slug": "minimax/minimax-m2.5-20260211",
+        "name": "minimax-m2.5",
+        "org": "minimax",
+        "total_tokens": 172747322906,
+        "total_tokens_str": "173B",
+        "calls": 5040375,
+        "change": -9.4,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.5-20260211"
+      },
+      {
+        "rank": 6,
+        "slug": "google/gemini-3-flash-preview-20251217",
+        "name": "gemini-3-flash-preview",
+        "org": "google",
+        "total_tokens": 155179653292,
+        "total_tokens_str": "155B",
+        "calls": 17662047,
+        "change": 0.1,
+        "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
+      },
+      {
+        "rank": 7,
+        "slug": "stepfun/step-3.5-flash",
+        "name": "step-3.5-flash",
+        "org": "stepfun",
+        "total_tokens": 133639121707,
+        "total_tokens_str": "134B",
+        "calls": 3474925,
+        "change": -39.8,
+        "url": "https://openrouter.ai/models/stepfun/step-3.5-flash"
+      },
+      {
+        "rank": 8,
+        "slug": "openai/gpt-4o-mini",
+        "name": "gpt-4o-mini",
+        "org": "openai",
+        "total_tokens": 117854641236,
+        "total_tokens_str": "118B",
+        "calls": 16695806,
+        "change": 3.2,
+        "url": "https://openrouter.ai/models/openai/gpt-4o-mini"
+      },
+      {
+        "rank": 9,
+        "slug": "nvidia/nemotron-3-super-120b-a12b-20230311",
+        "name": "nemotron-3-super-120b-a12b",
+        "org": "nvidia",
+        "total_tokens": 104763828275,
+        "total_tokens_str": "105B",
+        "calls": 2408398,
+        "change": 1.9,
+        "url": "https://openrouter.ai/models/nvidia/nemotron-3-super-120b-a12b-20230311"
+      },
+      {
+        "rank": 10,
+        "slug": "xiaomi/mimo-v2-pro-20260318",
+        "name": "mimo-v2-pro",
+        "org": "xiaomi",
+        "total_tokens": 87933637901,
+        "total_tokens_str": "88B",
+        "calls": 1209757,
+        "change": 73.7,
+        "url": "https://openrouter.ai/models/xiaomi/mimo-v2-pro-20260318"
+      }
+    ],
+    "hf_summary": "多模态与文本生成模型主导榜单大模型竞争激烈"
+  }
+}
