@@ -1,0 +1,457 @@
+{
+  "date": "2026-04-12",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "奥特曼旧金山豪宅遭燃烧弹袭击",
+      "finding": "OpenAI CEO Sam Altman位于旧金山的豪宅遭人投掷燃烧弹，引发火灾，所幸无人受伤。嫌疑人已逃跑。Altman随后发文，将此事与AGI引发的社会争议和极端情绪联系起来。",
+      "key_data": [
+        "燃烧弹袭击",
+        "无人受伤",
+        "嫌疑人20岁男性",
+        "豪宅价值2700万美元"
+      ],
+      "judgment": "这意味着AI行业领袖面临的安全风险已从线上延伸到线下，AGI的伦理争议和社会撕裂正在激化。这可能会迫使AI公司加强高管安保，并更谨慎地处理公众沟通。",
+      "confidence": 4,
+      "source": "量子位 / TechCrunch",
+      "url": "https://www.qbitai.com/2026/04/399473.html"
+    },
+    {
+      "rank": 2,
+      "title": "阿里战略转向：从开源优先转向营收优先",
+      "finding": "据《金融时报》报道，阿里巴巴正在调整其AI战略，将重心从大力投入开源模型转向更注重商业化变现和盈利能力。",
+      "key_data": [
+        "战略转向",
+        "营收优先",
+        "开源投入缩减",
+        "商业化变现"
+      ],
+      "judgment": "这意味着中国大模型市场的“烧钱换生态”阶段可能接近尾声，头部玩家开始追求可持续商业模式。开源社区的免费午餐可能减少，企业级付费服务将成竞争焦点。",
+      "confidence": 4,
+      "source": "Financial Times / Reddit",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sip3hd/ft_chinas_alibaba_shifts_towards_revenue_over/"
+    },
+    {
+      "rank": 3,
+      "title": "伯克利研究揭示AI Agent基准测试被“刷榜”",
+      "finding": "伯克利RDI实验室发表文章，详细说明了他们如何通过“过度拟合”基准测试的方法，在多个主流AI Agent评测中刷出高分，并指出当前评测体系的脆弱性。",
+      "key_data": [
+        "基准测试被刷榜",
+        "过度拟合",
+        "评测体系脆弱",
+        "伯克利RDI"
+      ],
+      "judgment": "这意味着当前AI Agent的能力评估存在严重泡沫，许多宣称的“SOTA”可能只是针对评测的优化。行业急需更鲁棒、更贴近真实场景的评测标准，否则会误导研发和投资方向。",
+      "confidence": 4,
+      "source": "Hacker News",
+      "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/"
+    },
+    {
+      "rank": 4,
+      "title": "明星AI评测公司Yupp宣布倒闭",
+      "finding": "曾获3300万美元豪华种子轮融资的AI模型评测创业公司Yupp宣布停止服务，将于4月15日正式关闭。其商业模式是通过免费服务吸引用户评测，再将数据卖给模型厂商。",
+      "key_data": [
+        "Yupp倒闭",
+        "3300万美元种子轮",
+        "上线不到一年",
+        "AI评测赛道"
+      ],
+      "judgment": "这意味着纯靠“数据飞轮”和“评测即服务”的商业模式在AI领域可能难以跑通，尤其是在模型厂商自身也在完善评测体系的情况下。AI基础设施创业的死亡谷依然很深。",
+      "confidence": 4,
+      "source": "36氪",
+      "url": "https://36kr.com/p/3762088319484419?f=rss"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "量子位",
+      "title": "刘壮陈丹琦开源通用视觉推理RL框架，零思考数据刷新SOTA",
+      "finding": "研究者开源了一个用于视觉推理的强化学习框架，无需依赖昂贵的“思考过程”标注数据，就能在多个视觉推理基准上取得领先成绩。",
+      "key_data": [
+        "零思考数据",
+        "视觉推理RL框架",
+        "刷新SOTA",
+        "开源"
+      ],
+      "judgment": "这意味着降低了对高质量标注数据的依赖，为更高效地训练视觉推理模型提供了新路径，可能加速具身智能等领域的发展。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/04/399393.html",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "中国具身模型凭借10万小时人类数据集登顶全球榜单",
+      "finding": "一家名为“灵初智能”的中国创业公司，通过构建一个10万小时规模的人类演示数据集，训练出的具身智能模型在权威评测中取得了全球第一的成绩。",
+      "key_data": [
+        "10万小时人类数据",
+        "具身智能模型",
+        "全球第一",
+        "00后创业"
+      ],
+      "judgment": "这表明高质量、大规模的人类演示数据是提升机器人模型性能的关键，数据驱动的Scaling Law在具身智能领域同样有效。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/04/399417.html",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "DFlash推测解码在苹果芯片上实现3.3倍加速",
+      "finding": "开发者为苹果芯片（M5 Max）实现了DFlash推测解码算法，在运行Qwen3.5-9B模型时，达到了85 token/s的速度，相比基线提升了3.3倍。",
+      "key_data": [
+        "DFlash推测解码",
+        "苹果M5 Max",
+        "85 token/s",
+        "3.3倍加速"
+      ],
+      "judgment": "这意味着边缘设备上的大模型推理速度有望大幅提升，使更复杂的本地AI应用成为可能，加强了苹果生态在本地AI竞争中的优势。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1simszl/dflash_speculative_decoding_on_apple_silicon_85/",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "跨分词器大模型蒸馏新方法：通过字节级接口",
+      "finding": "研究提出了一种新方法，解决教师模型和学生模型使用不同分词器时知识蒸馏效果不佳的问题，核心是引入一个中间的字节级表示层。",
+      "key_data": [
+        "跨分词器蒸馏",
+        "字节级接口",
+        "知识迁移",
+        "模型压缩"
+      ],
+      "judgment": "这为将大模型能力高效迁移到定制化的小模型上扫清了一个技术障碍，有利于企业根据自身需求定制私有化模型。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2604.07466",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "36氪",
+      "title": "“爱马仕”Agent（Hermes Agent）因闭环学习能力受关注",
+      "finding": "Nous Research发布的Hermes Agent因其“闭环学习系统”受到关注，该Agent能将完成任务的经验固化成可复用的Skill，并在使用中持续改进。",
+      "key_data": [
+        "Hermes Agent",
+        "闭环学习系统",
+        "经验固化Skill",
+        "Nous Research"
+      ],
+      "judgment": "这表明AI Agent正从单次任务执行向持续学习和能力进化方向发展，这是实现真正“智能”助手的关键一步。",
+      "confidence": 3,
+      "url": "https://36kr.com/p/3761883183530502?f=rss",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/artificial",
+      "title": "AMD GAIA更新：可通过聊天构建自定义AI智能体",
+      "finding": "AMD的AI助手平台GAIA发布更新，用户现在可以通过自然语言对话的方式，引导平台构建自定义的AI智能体工作流，并成为“真正的桌面应用”。",
+      "key_data": [
+        "AMD GAIA",
+        "聊天构建Agent",
+        "自定义工作流",
+        "桌面应用"
+      ],
+      "judgment": "这意味着创建AI Agent的门槛被进一步降低，非技术用户也能定制自动化工具，是AI平民化的重要进展，也显示了AMD在软件生态上的追赶。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/artificial/comments/1sitbvu/amds_gaia_now_allows_building_custom_ai_agents/",
+      "importance": 2
+    },
+    {
+      "source": "LangChain Blog",
+      "title": "LangChain探讨智能体“驾驭器”与记忆系统的紧密关联",
+      "finding": "LangChain官方博客发文，深入讨论了当前主流的Agent“驾驭器”（harness）架构，并指出其设计与Agent的记忆系统密不可分，尤其是使用闭源驾驭器可能导致记忆被锁定。",
+      "key_data": [
+        "Agent驾驭器",
+        "记忆系统",
+        "架构锁定风险",
+        "LangChain"
+      ],
+      "judgment": "这提醒开发者，在选择Agent开发框架时需谨慎评估其记忆组件的可移植性，避免未来被单一厂商锁定，强调了开源和标准化的重要性。",
+      "confidence": 5,
+      "url": "https://blog.langchain.com/your-harness-your-memory/",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "MCP开发者峰会观察：聚焦网关、无状态请求与企业落地",
+      "finding": "对近期Model Context Protocol（MCP）开发者峰会的观察显示，行业讨论焦点正转向如何通过网关、无状态请求等设计，让MCP更好地满足企业级部署的安全和扩展性需求。",
+      "key_data": [
+        "MCP协议",
+        "企业级落地",
+        "网关设计",
+        "无状态请求"
+      ],
+      "judgment": "这表明连接大模型与外部工具的MCP协议正在从技术概念走向工程化成熟，其企业级解决方案的完善将加速AI Agent在业务场景中的规模化应用。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/f4df9bE6zm1wy9pI1xKA?utm_source=rss&utm_medium=article",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Sam Altman",
+      "level": "L3",
+      "quote": "在遭遇袭击后，Altman发文暗示，AGI如同《魔戒》中的至尊魔戒，其巨大的力量正在引发一些人“做出疯狂的举动”。他将技术争议与社会极端行为联系起来，表达了对AI发展引发社会撕裂的担忧。",
+      "source": "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI Agent基准测试的信任危机与重建路径",
+      "reason": "伯克利研究实锤刷榜行为，暴露了当前Agent评测体系的根本缺陷。急需深挖如何构建抗过拟合、贴近真实复杂任务的新一代评测标准，这关系到整个Agent研发方向的健康度。",
+      "priority": "high"
+    },
+    {
+      "topic": "中国大模型厂商的战略转向：从开源生态到商业变现",
+      "reason": "阿里被曝战略调整，DeepSeek等也在探索商业化。这可能是中国AI产业从资本驱动的“军备竞赛”进入盈利导向“持久战”的转折点，需深入分析各家的新商业模式和盈利前景。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "Altman遇袭显行业激荡，Agent评测陷信任危机，大厂战略转向求生。",
+  "snapshot": {
+    "date": "2026-04-11",
+    "hf_trending": [
+      {
+        "name": "zai-org/GLM-5.1",
+        "short_name": "GLM-5.1",
+        "likes": 982,
+        "downloads": 23998,
+        "url": "https://huggingface.co/zai-org/GLM-5.1",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
+        "short_name": "Gemma-4-31B-JANG_4M-CRACK",
+        "likes": 930,
+        "downloads": 89753,
+        "url": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
+        "tags": [
+          "mlx",
+          "safetensors",
+          "gemma4"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "google/gemma-4-31B-it",
+        "short_name": "gemma-4-31B-it",
+        "likes": 1729,
+        "downloads": 2026015,
+        "url": "https://huggingface.co/google/gemma-4-31B-it",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "openbmb/VoxCPM2",
+        "short_name": "VoxCPM2",
+        "likes": 695,
+        "downloads": 5722,
+        "url": "https://huggingface.co/openbmb/VoxCPM2",
+        "tags": [
+          "voxcpm",
+          "safetensors",
+          "text-to-speech"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "netflix/void-model",
+        "short_name": "void-model",
+        "likes": 758,
+        "downloads": 0,
+        "url": "https://huggingface.co/netflix/void-model",
+        "tags": [
+          "video-inpainting",
+          "video-editing",
+          "object-removal"
+        ],
+        "pipeline_tag": "video-to-video",
+        "label": "Video To Video",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "k2-fsa/OmniVoice",
+        "short_name": "OmniVoice",
+        "likes": 499,
+        "downloads": 340361,
+        "url": "https://huggingface.co/k2-fsa/OmniVoice",
+        "tags": [
+          "safetensors",
+          "omnivoice",
+          "zero-shot"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "short_name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "likes": 2582,
+        "downloads": 566643,
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "tags": [
+          "safetensors",
+          "qwen3_5",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "google/gemma-4-E4B-it",
+        "short_name": "gemma-4-E4B-it",
+        "likes": 584,
+        "downloads": 1136791,
+        "url": "https://huggingface.co/google/gemma-4-E4B-it",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4"
+        ],
+        "pipeline_tag": "any-to-any",
+        "label": "Any To Any",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "anthropic/claude-4.6-opus-20260205",
+        "name": "claude-4.6-opus",
+        "org": "anthropic",
+        "total_tokens": 202430806174,
+        "total_tokens_str": "202B",
+        "calls": 3366386,
+        "change": -4.4,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-opus-20260205"
+      },
+      {
+        "rank": 2,
+        "slug": "anthropic/claude-4.6-sonnet-20260217",
+        "name": "claude-4.6-sonnet",
+        "org": "anthropic",
+        "total_tokens": 197113046512,
+        "total_tokens_str": "197B",
+        "calls": 5069074,
+        "change": 8.1,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-sonnet-20260217"
+      },
+      {
+        "rank": 3,
+        "slug": "google/gemini-3-flash-preview-20251217",
+        "name": "gemini-3-flash-preview",
+        "org": "google",
+        "total_tokens": 182192768000,
+        "total_tokens_str": "182B",
+        "calls": 18372926,
+        "change": 12.6,
+        "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
+      },
+      {
+        "rank": 4,
+        "slug": "deepseek/deepseek-v3.2-20251201",
+        "name": "deepseek-v3.2",
+        "org": "deepseek",
+        "total_tokens": 177865608326,
+        "total_tokens_str": "178B",
+        "calls": 18779004,
+        "change": -4.7,
+        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
+      },
+      {
+        "rank": 5,
+        "slug": "minimax/minimax-m2.5-20260211",
+        "name": "minimax-m2.5",
+        "org": "minimax",
+        "total_tokens": 165606314601,
+        "total_tokens_str": "166B",
+        "calls": 3939661,
+        "change": -1.9,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.5-20260211"
+      },
+      {
+        "rank": 6,
+        "slug": "minimax/minimax-m2.7-20260318",
+        "name": "minimax-m2.7",
+        "org": "minimax",
+        "total_tokens": 163134547499,
+        "total_tokens_str": "163B",
+        "calls": 4496820,
+        "change": -10.7,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
+      },
+      {
+        "rank": 7,
+        "slug": "z-ai/glm-5-20260211",
+        "name": "glm-5",
+        "org": "z-ai",
+        "total_tokens": 104252877861,
+        "total_tokens_str": "104B",
+        "calls": 4318488,
+        "change": 12.7,
+        "url": "https://openrouter.ai/models/z-ai/glm-5-20260211"
+      },
+      {
+        "rank": 8,
+        "slug": "nvidia/nemotron-3-super-120b-a12b-20230311",
+        "name": "nemotron-3-super-120b-a12b",
+        "org": "nvidia",
+        "total_tokens": 103147504616,
+        "total_tokens_str": "103B",
+        "calls": 2593134,
+        "change": -2.5,
+        "url": "https://openrouter.ai/models/nvidia/nemotron-3-super-120b-a12b-20230311"
+      },
+      {
+        "rank": 9,
+        "slug": "xiaomi/mimo-v2-pro-20260318",
+        "name": "mimo-v2-pro",
+        "org": "xiaomi",
+        "total_tokens": 93306836151,
+        "total_tokens_str": "93B",
+        "calls": 1494781,
+        "change": 7.2,
+        "url": "https://openrouter.ai/models/xiaomi/mimo-v2-pro-20260318"
+      },
+      {
+        "rank": 10,
+        "slug": "google/gemini-2.5-flash",
+        "name": "gemini-2.5-flash",
+        "org": "google",
+        "total_tokens": 84309575823,
+        "total_tokens_str": "84B",
+        "calls": 18074502,
+        "change": -5.1,
+        "url": "https://openrouter.ai/models/google/gemini-2.5-flash"
+      }
+    ],
+    "hf_summary": "多模态与文本生成模型热度持续领先语音视频类紧随其后"
+  }
+}
