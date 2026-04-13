@@ -1,6 +1,13 @@
 {
-  "total": 19,
+  "total": 20,
   "reports": [
+    {
+      "date": "2026-04-14",
+      "title": "AI 日报 2026-04-14",
+      "excerpt": "",
+      "top_count": 0,
+      "file": "2026-04-14.json"
+    },
     {
       "date": "2026-04-13",
       "title": "今日 AI 日报：AMD AI总监发布Claude Code深度分析报告 + 3 条重要动态",
