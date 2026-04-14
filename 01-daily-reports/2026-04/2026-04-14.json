@@ -1,19 +1,207 @@
 {
   "date": "2026-04-14",
-  "top_items": [],
-  "model_tech": [],
-  "company_product": [],
-  "opinions": [],
-  "deep_dive_suggestions": [],
-  "summary_one_line": "今日日报生成完成",
-  "raw_content": "{\n    \"date\": \"2026-04-14\",\n    \"top_items\": [\n        {\n            \"rank\": 1,\n            \"title\": \"OpenAI与Cloudflare合作，将GPT-5.4和Codex引入Agent Cloud\",\n            \"finding\": \"OpenAI宣布与Cloudflare达成合作，将其最新的GPT-5.4和Codex模型集成到Cloudflare的Agent Cloud平台中。这意味着企业可以在Cloudflare的平台上，利用OpenAI最先进的模型来构建、部署和规模化AI智能体。\",\n            \"key_data\": [\"GPT-5.4\", \"Codex\", \"Cloudflare Agent Cloud\", \"企业级AI智能体\"],\n            \"judgment\": \"这意味着企业AI智能体的部署门槛和成本将进一步降低。OpenAI通过与基础设施巨头Cloudflare合作，正在将其模型能力从API调用层，下沉到更靠近应用和用户的网络边缘，这可能会加速企业级AI智能体应用的落地，并改变AI模型的分发和部署格局。\",\n            \"confidence\": 5,\n            \"source\": \"OpenAI Blog\",\n            \"url\": \"https://openai.com/index/cloudflare-openai-agent-cloud\"\n        },\n        {\n            \"rank\": 2,\n            \"title\": \"Vercel CEO暗示IPO准备就绪，AI智能体推动收入激增\",\n            \"finding\": \"Vercel的CEO Guillermo Rauch表示，公司已为IPO做好准备。其核心驱动力是AI智能体浪潮带来的收入大幅增长，特别是其AI前端生成工具v0.dev。\",\n            \"key_data\": [\"Vercel\", \"IPO准备就绪\", \"AI智能体驱动增长\", \"v0.dev\"],\n            \"judgment\": \"这意味着AI原生开发工具正在成为新的高增长赛道，并具备了冲击公开市场的实力。Vercel作为一家成立10年的老牌开发工具公司，成功借AI智能体浪潮实现“第二春”，为其他传统SaaS公司转型提供了范本，也预示着AI应用层创业公司的价值正在被资本市场重新评估。\",\n            \"confidence\": 4,\n            \"source\": \"TechCrunch AI\",\n            \"url\": \"https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/\"\n        },\n        {\n            \"rank\": 3,\n            \"title\": \"荣耀发布自研终端侧AI智能体“YOYO Claw”，首发于“养虾本”\",\n            \"finding\": \"荣耀正式发布了自研的终端侧AI智能体“YOYO Claw”，并宣布将首发搭载于其新款MagicBook系列轻薄本中。该产品被戏称为“养虾本”，旨在将AI智能体能力深度集成到个人电脑中。\",\n            \"key_data\": [\"荣耀YOYO Claw\", \"终端侧AI智能体\", \"MagicBook养虾本\", \"龙虾宇宙\"],\n            \"judgment\": \"这意味着AI PC的竞争从简单的“预装Copilot”进入了“预装专属智能体”的新阶段。荣耀试图通过自研的、深度集成的终端侧智能体来构建差异化壁垒，这可能会迫使其他PC厂商跟进，加速AI智能体在消费硬件端的普及和竞争。\",\n            \"confidence\": 4,\n            \"source\": \"36氪 AI\",\n            \"url\": \"https://36kr.com/p/3765331768967686?f=rss\"\n        },\n        {\n            \"rank\": 4,\n            \"title\": \"Claude的Mythos技术被质疑使用了字节Seed团队的研究\",\n            \"finding\": \"有报道指出，Anthropic近期展示但未发布的强大模型“Mythos”，其核心技术概念可能源于字节跳动Seed团队与多所高校合作的一篇论文，该论文甚至有Yoshua Bengio的参与。\",\n            \"key_data\": [\"Claude Mythos\", \"字节Seed团队\", \"技术来源质疑\", \"Yoshua Bengio\"],\n            \"judgment\": \"这意味着顶级AI实验室之间的技术竞争和借鉴已进入白热化阶段，也侧面反映了中国AI研究在某些前沿领域的影响力。如果属实，这不仅关乎商业伦理，也表明在追求AGI的道路上，全球顶尖团队的技术路线可能正在快速收敛。\",\n            \"confidence\": 3,\n            \"source\": \"量子位\",\n            \"url\": \"https://www.qbitai.com/2026/04/400500.html\"\n        }\n    ],\n    \"model_tech\": [\n        {\n            \"source\": \"ArXiv cs.AI\",\n            \"title\": \"OpenKedge：用执行边界安全和证据链治理智能体突变\",\n            \"finding\": \"研究者提出OpenKedge框架，旨在解决自主AI智能体的一个根本缺陷：概率系统直接执行状态突变，缺乏安全保障。该框架通过“执行边界安全”和“证据链”来约束和审计智能体的行为。\",\n            \"key_data\": [\"智能体安全治理\", \"执行边界安全\", \"证据链审计\"],\n            \"judgment\": \"这标志着AI智能体研究从追求能力转向重视可控性和安全性，是智能体走向企业级应用必须跨越的门槛。\",\n            \"confidence\": 3,\n            \"url\": \"https://arxiv.org/abs/2604.08601\",\n            \"importance\": 3\n        },\n        {\n            \"source\": \"ArXiv cs.CL\",\n            \"title\": \"漂移与选择：LLM文本生态系统中的演化\",\n            \"summary\": \"论文探讨了公共文本记录（人和AI系统的学习材料）正日益被其自身输出所塑造的现象。生成的文本进入训练数据，可能导致模型性能的“漂移”和“选择”效应。\",\n            \"key_data\": [\"数据污染\", \"模型漂移\", \"文本生态系统演化\"],\n            \"judgment\": \"这揭示了当前大模型发展模式的一个潜在系统性风险，即模型可能陷入“自我指涉”的循环，影响长期性能和多样性。\",\n            \"confidence\": 3,\n            \"url\": \"https://arxiv.org/abs/2604.08554\",\n            \"importance\": 3\n        }\n    ],\n    \"company_product\": [\n        {\n            \"source\": \"InfoQ AI\",\n            \"title\": \"OpenAI正在开发“替你用电脑”的Super App，新模型Spud几周内登场\",\n            \"finding\": \"据报道，OpenAI正在开发一款“超级应用”，旨在让不会写代码的用户也能通过AI完成电脑上的各种任务。同时，其新模型“Spud”可能在几周内发布。\",\n            \"key_data\": [\"OpenAI Super App\", “Spud”模型\", “替你用电脑”\"],\n            \"judgment\": \"这意味着OpenAI的产品野心正从对话和API，扩展到接管用户整个数字工作流，试图成为下一代个人计算入口。\",\n            \"confidence\": 3,\n            \"url\": \"https://www.infoq.cn/article/lAmhJxwuoPLvsKAF8WCV?utm_source=rss&utm_medium=article\",\n            \"importance\": 4\n        },\n        {\n            \"source\": \"TechCrunch AI\",\n            \"title\": \"微软正在开发另一款类似OpenClaw的智能体\",\n            \"finding\": \"微软正在开发一款新的AI智能体，其功能类似于此前引起安全担忧的开源项目OpenClaw，但新功能将面向企业客户，并具备更好的安全控制。\",\n            \"key_data\": [\"微软新智能体\", \"企业级安全控制\", \"类似OpenClaw\"],\n            \"judgment\": \"表明微软并未放弃高风险高能力的自主智能体路线，而是试图在企业级市场找到安全与能力之间的平衡点。\",\n            \"confidence\": 3,\n            \"url\": \"https://techcrunch.com/2026/04/13/microsoft-is-working-on-yet-another-openclaw-like-agent/\",\n            \"importance\": 3\n        },\n        {\n            \"source\": \"36氪 AI\",\n            \"title\": \"图速科技发布具身智能打磨机器人，效率为人工3-4倍\",\n            \"finding\": \"图速科技发布了全栈自研的“图匠”具身打磨机器人及配套智能平台。该机器人专攻工业打磨场景，宣称打磨效率可达人工的3到4倍。\",\n            \"key_data\": [\"具身智能打磨机器人\", \"效率为人工3-4倍\", \"全栈自研\"],\n            \"judgment\": \"这表明具身智能正从实验室演示走向具体的工业细分场景，解决“脏累差”的实际痛点，商业化路径逐渐清晰。\",\n            \"confidence\": 3,\n            \"url\": \"https://36kr.com/p/3765207394009602?f=rss\",\n            \"importance\": 2\n        }\n    ],\n    \"opinions\": [\n        {\n            \"person\": \"Simon Willison (引用 Bryan Cantrill)\",\n            \"level\": \"L1\",\n            \"quote\": \"LLM天生缺乏‘懒惰’的美德。对LLM来说，工作没有成本。它们不会感到需要为自己（或任何人）的未来时间进行优化，并且会乐于倾倒更多的工作给你，而不是更少。\",\n            \"source\": \"https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything\"\n        },\n        {\n            \"person\": \"Simon Willison (引用 Steve Yegge)\",\n            \"level\": \"L1\",\n            \"quote\": \"简而言之，谷歌工程部门的AI采用率似乎与拖拉机公司John Deere相同。大多数行业都有相同的内部采用曲线：20%的智能体重度用户，80%的人几乎不用。\",\n            \"source\": \"https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything\"\n        }\n    ],\n    \"deep_dive_suggestions\": [\n        {\n            \"topic\": \"OpenAI的“边缘智能体”战略\",\n            \"reason\": \"OpenAI与Cloudflare的合作，标志着其模型部署策略的重大转变：从中心化API走向边缘网络。这如何影响模型性能、成本、安全及整个AI智能体的生态格局？值得深入分析。\",\n            \"priority\": \"high\"\n        },\n        {\n            \"topic\": \"终端侧AI智能体的硬件竞赛\",\n            \"reason\": \"从荣耀的“养虾本”到苹果的Apple Intelligence，各大硬件厂商都在将AI智能体深度集成到设备中。这场竞赛的技术路径、用户体验差异和生态壁垒是什么？\",\n            \"priority\": \"high\"\n        }\n    ],\n    \"summary_one_line\": \"OpenAI联手Cloudflare下沉边缘，Vercel借AI智能体冲刺IPO。\"\n}",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "OpenAI 收购个人理财AI初创公司Hiro",
+      "finding": "OpenAI收购了一家专注于个人财务规划的AI初创公司Hiro。这表明OpenAI正在将AI能力扩展到个人理财领域，可能为ChatGPT集成财务规划功能铺路。",
+      "key_data": [
+        "OpenAI收购",
+        "个人理财AI",
+        "Hiro"
+      ],
+      "judgment": "这意味着OpenAI正加速向垂直应用领域渗透，特别是高价值、高信任度的个人金融场景。这不仅是功能扩展，更是对用户数据深度和信任度的争夺，可能重塑AI助手的边界。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/"
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI与Cloudflare合作，将GPT-5.4和Codex引入Agent Cloud",
+      "finding": "OpenAI宣布与Cloudflare合作，将其最新的GPT-5.4和Codex模型集成到Cloudflare的Agent Cloud平台中。这将允许企业利用OpenAI的模型，在Cloudflare的边缘网络上快速、安全地构建和部署AI智能体。",
+      "key_data": [
+        "GPT-5.4",
+        "Cloudflare Agent Cloud",
+        "企业AI智能体"
+      ],
+      "judgment": "这意味着企业级AI智能体的部署门槛正在急剧降低。OpenAI通过与基础设施巨头合作，正在构建一个从模型到部署的完整企业解决方案生态，加速AI智能体从概念验证走向规模化生产。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/cloudflare-openai-agent-cloud"
+    },
+    {
+      "rank": 3,
+      "title": "斯坦福AI指数报告揭示AI专家与公众认知鸿沟扩大",
+      "finding": "斯坦福大学最新发布的2026年AI指数报告显示，AI领域的专家与普通公众对AI影响的看法存在巨大且日益扩大的分歧。公众对AI在就业、医疗和经济方面的焦虑情绪显著上升。",
+      "key_data": [
+        "斯坦福AI指数2026",
+        "专家与公众分歧",
+        "AI焦虑上升"
+      ],
+      "judgment": "这意味着AI技术的快速发展与社会接受度之间的脱节正在加剧。行业在追求技术突破的同时，必须投入更多资源进行公众沟通和教育，否则可能面临监管反弹和信任危机。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/"
+    },
+    {
+      "rank": 4,
+      "title": "宇树科技R1人形机器人将在AliExpress上以4370美元开售",
+      "finding": "中国机器人公司宇树科技宣布，其R1人形机器人将在国际电商平台AliExpress上以4370美元的起售价面向全球消费者销售。这标志着高性能人形机器人开始进入消费级市场。",
+      "key_data": [
+        "宇树科技R1",
+        "4370美元",
+        "AliExpress全球销售"
+      ],
+      "judgment": "这意味着人形机器人的价格门槛正在被迅速拉低，从实验室和工业场景走向更广阔的消费市场。虽然“买来做什么”的问题依然存在，但价格的平民化是引爆市场的关键第一步。",
+      "confidence": 4,
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/unitree-r1-humanoid-robot-for-sale-on-aliexpress/"
+    },
+    {
+      "rank": 5,
+      "title": "Vercel CEO暗示公司已做好IPO准备，AI智能体推动收入激增",
+      "finding": "前端开发平台Vercel的CEO表示，公司已为IPO做好准备。其增长主要得益于AI智能体浪潮，因为开发者利用Vercel的平台来构建和部署AI驱动的应用。",
+      "key_data": [
+        "Vercel IPO准备",
+        "AI智能体驱动增长",
+        "10年老牌公司受益"
+      ],
+      "judgment": "这意味着AI浪潮正在重塑整个开发者工具生态，而不仅仅是模型层。像Vercel这样拥有成熟基础设施和开发者社区的平台，正通过拥抱AI获得第二增长曲线，证明了AI应用层的基础设施价值。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv cs.AI",
+      "title": "OpenKedge：用执行边界安全和证据链治理智能体突变",
+      "finding": "研究指出当前基于API的自主AI智能体架构存在根本缺陷，并提出OpenKedge框架，旨在通过“执行边界安全”和“证据链”来治理智能体的不可预测行为。",
+      "key_data": [
+        "智能体安全治理",
+        "执行边界安全",
+        "证据链"
+      ],
+      "judgment": "这意味着随着智能体自主性增强，其安全性和可控性成为核心挑战，该研究为构建可信、可审计的智能体系统提供了新思路。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2604.08601",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "GNN-as-Judge：利用LLM反馈释放图学习潜力",
+      "finding": "该研究提出一种新方法，利用大语言模型（LLM）的语义理解能力为图神经网络（GNN）提供反馈，从而提升GNN在文本属性图上的学习性能。",
+      "key_data": [
+        "LLM作为GNN的评判者",
+        "文本属性图",
+        "结合语义与结构"
+      ],
+      "judgment": "这意味着LLM正被用作增强其他AI模型（如GNN）性能的“外部大脑”，开启了模型协同的新范式。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2604.08553",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "扩散语言模型的安全对齐存在可逆性漏洞",
+      "finding": "研究发现，基于扩散过程的语言模型的安全对齐机制存在一个根本性漏洞：其去噪过程在某些条件下是可逆的，可能被绕过以生成不安全内容。",
+      "key_data": [
+        "扩散语言模型",
+        "安全对齐漏洞",
+        "去噪可逆性"
+      ],
+      "judgment": "这意味着当前扩散模型的安全机制可能比想象中更脆弱，为模型安全研究敲响了警钟，需要更鲁棒的对齐方法。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2604.08557",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "36氪 AI",
+      "title": "荣耀发布自研终端侧“龙虾”AI智能体YOYO Claw",
+      "finding": "荣耀正式发布自研的终端侧AI智能体“YOYO Claw”，并宣布将首发搭载于其新款MagicBook笔记本，主打设备端AI能力。",
+      "key_data": [
+        "荣耀YOYO Claw",
+        "终端侧AI智能体",
+        "首发MagicBook"
+      ],
+      "judgment": "这意味着消费电子巨头正将“设备端AI智能体”作为核心卖点，AI竞争从云端模型延伸到终端体验和生态整合。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3765331768967686?f=rss",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "OpenAI被曝正在开发“替你用电脑”的Super App和新模型Spud",
+      "finding": "据报道，OpenAI正在开发一个名为“Spud”的新模型和一个“Super App”，旨在让用户通过自然语言指令直接操作电脑完成任务，无需编写代码。",
+      "key_data": [
+        "OpenAI Super App",
+        "Spud模型",
+        "自然语言操作电脑"
+      ],
+      "judgment": "这意味着OpenAI的野心远不止聊天机器人，而是打造一个接管用户数字工作流的操作系统级智能体，可能彻底改变人机交互方式。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/lAmhJxwuoPLvsKAF8WCV?utm_source=rss&utm_medium=article",
+      "importance": 3
+    },
+    {
+      "source": "36氪 AI",
+      "title": "图速科技发布全栈自研具身打磨机器人",
+      "finding": "图速科技发布其具身智能打磨机器人及配套平台，声称其打磨效率可达人工的3-4倍，瞄准工业制造中的表面处理环节。",
+      "key_data": [
+        "具身智能打磨机器人",
+        "效率为人工3-4倍",
+        "全栈自研"
+      ],
+      "judgment": "这意味着具身智能正从演示走向具体的工业场景落地，解决“脏累差”的实际生产问题，商业化路径逐渐清晰。",
+      "confidence": 3,
+      "url": "https://36kr.com/p/3765207394009602?f=rss",
+      "importance": 2
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "微软正在开发另一个类似OpenClaw的企业级智能体",
+      "finding": "微软正在开发一个新的AI智能体项目，功能上类似开源的OpenClaw，但将专注于企业客户，并提供更好的安全控制。",
+      "key_data": [
+        "微软企业智能体",
+        "类似OpenClaw",
+        "增强安全控制"
+      ],
+      "judgment": "这意味着微软在押注Copilot的同时，也在探索更自主的智能体形态，并试图在企业市场用安全性和可控性建立优势。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/04/13/microsoft-is-working-on-yet-another-openclaw-like-agent/",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "引用Steve Yegge的观点指出，谷歌工程部门的AI应用程度看起来和拖拉机公司John Deere差不多。整个行业内部的应用曲线相似：20%的人高度使用智能体，80%的人几乎不用。这揭示了AI在大型组织内部落地的不均衡性。",
+      "source": "https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "企业级AI智能体部署平台竞争格局",
+      "reason": "OpenAI+Cloudflare、微软自有方案、Vercel等平台纷纷入局，企业AI智能体从开发到部署的完整链条正在形成，值得分析各玩家的策略和优劣势。",
+      "priority": "high"
+    },
+    {
+      "topic": "消费级人形机器人的市场前景与挑战",
+      "reason": "宇树科技将R1机器人价格降至4370美元并全球销售，这是一个重要的市场信号。需要深入研究价格突破后的潜在应用场景、供应链和生态挑战。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "OpenAI双向出击：收购金融AI，联手Cloudflare推企业智能体；人形机器人开启消费时代。",
   "snapshot": {
-    "date": "2026-04-13",
+    "date": "2026-04-14",
     "hf_trending": [
       {
         "name": "zai-org/GLM-5.1",
         "short_name": "GLM-5.1",
-        "likes": 1142,
+        "likes": 1148,
         "downloads": 35906,
         "url": "https://huggingface.co/zai-org/GLM-5.1",
         "tags": [
@@ -29,7 +217,7 @@
       {
         "name": "openbmb/VoxCPM2",
         "short_name": "VoxCPM2",
-        "likes": 814,
+        "likes": 825,
         "downloads": 9301,
         "url": "https://huggingface.co/openbmb/VoxCPM2",
         "tags": [
@@ -45,7 +233,7 @@
       {
         "name": "google/gemma-4-31B-it",
         "short_name": "gemma-4-31B-it",
-        "likes": 1836,
+        "likes": 1841,
         "downloads": 2439350,
         "url": "https://huggingface.co/google/gemma-4-31B-it",
         "tags": [
@@ -61,7 +249,7 @@
       {
         "name": "MiniMaxAI/MiniMax-M2.7",
         "short_name": "MiniMax-M2.7",
-        "likes": 632,
+        "likes": 644,
         "downloads": 18279,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
         "tags": [
@@ -72,12 +260,12 @@
         "pipeline_tag": "text-generation",
         "label": "文本生成",
         "card_desc": "",
-        "trend": "new"
+        "trend": "same"
       },
       {
         "name": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
         "short_name": "Gemma-4-31B-JANG_4M-CRACK",
-        "likes": 1012,
+        "likes": 1028,
         "downloads": 107378,
         "url": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
         "tags": [
@@ -93,7 +281,7 @@
       {
         "name": "netflix/void-model",
         "short_name": "void-model",
-        "likes": 793,
+        "likes": 795,
         "downloads": 0,
         "url": "https://huggingface.co/netflix/void-model",
         "tags": [
@@ -109,7 +297,7 @@
       {
         "name": "k2-fsa/OmniVoice",
         "short_name": "OmniVoice",
-        "likes": 541,
+        "likes": 545,
         "downloads": 460224,
         "url": "https://huggingface.co/k2-fsa/OmniVoice",
         "tags": [
@@ -125,7 +313,7 @@
       {
         "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "short_name": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-        "likes": 2619,
+        "likes": 2621,
         "downloads": 585351,
         "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
         "tags": [
@@ -143,115 +331,115 @@
     "openrouter_ranking": [
       {
         "rank": 1,
-        "slug": "deepseek/deepseek-v3.2-20251201",
-        "name": "deepseek-v3.2",
-        "org": "deepseek",
-        "total_tokens": 183223920181,
-        "total_tokens_str": "183B",
-        "calls": 17523626,
-        "change": 3.6,
-        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
-      },
-      {
-        "rank": 2,
-        "slug": "minimax/minimax-m2.5-20260211",
-        "name": "minimax-m2.5",
-        "org": "minimax",
-        "total_tokens": 148949639683,
-        "total_tokens_str": "149B",
-        "calls": 3689425,
-        "change": 0.6,
-        "url": "https://openrouter.ai/models/minimax/minimax-m2.5-20260211"
-      },
-      {
-        "rank": 3,
-        "slug": "google/gemini-3.1-pro-preview-20260219",
-        "name": "gemini-3.1-pro-preview",
-        "org": "google",
-        "total_tokens": 143513732298,
-        "total_tokens_str": "144B",
-        "calls": 2695066,
-        "change": 11.4,
-        "url": "https://openrouter.ai/models/google/gemini-3.1-pro-preview-20260219"
-      },
-      {
-        "rank": 4,
-        "slug": "minimax/minimax-m2.7-20260318",
-        "name": "minimax-m2.7",
-        "org": "minimax",
-        "total_tokens": 138210954052,
-        "total_tokens_str": "138B",
-        "calls": 3810080,
-        "change": -1.4,
-        "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
-      },
-      {
-        "rank": 5,
         "slug": "anthropic/claude-4.6-opus-20260205",
         "name": "claude-4.6-opus",
         "org": "anthropic",
-        "total_tokens": 133269977131,
-        "total_tokens_str": "133B",
-        "calls": 2159683,
-        "change": -5.0,
+        "total_tokens": 221267573287,
+        "total_tokens_str": "221B",
+        "calls": 3684991,
+        "change": 66.0,
         "url": "https://openrouter.ai/models/anthropic/claude-4.6-opus-20260205"
       },
       {
-        "rank": 6,
+        "rank": 2,
+        "slug": "deepseek/deepseek-v3.2-20251201",
+        "name": "deepseek-v3.2",
+        "org": "deepseek",
+        "total_tokens": 201348394668,
+        "total_tokens_str": "201B",
+        "calls": 19527019,
+        "change": 9.9,
+        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
+      },
+      {
+        "rank": 3,
         "slug": "anthropic/claude-4.6-sonnet-20260217",
         "name": "claude-4.6-sonnet",
         "org": "anthropic",
-        "total_tokens": 132724201450,
-        "total_tokens_str": "133B",
-        "calls": 3999011,
-        "change": -2.0,
+        "total_tokens": 200233329826,
+        "total_tokens_str": "200B",
+        "calls": 5518400,
+        "change": 50.9,
         "url": "https://openrouter.ai/models/anthropic/claude-4.6-sonnet-20260217"
+      },
+      {
+        "rank": 4,
+        "slug": "minimax/minimax-m2.5-20260211",
+        "name": "minimax-m2.5",
+        "org": "minimax",
+        "total_tokens": 164971717344,
+        "total_tokens_str": "165B",
+        "calls": 3794816,
+        "change": -46.1,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.5-20260211"
+      },
+      {
+        "rank": 5,
+        "slug": "google/gemini-3-flash-preview-20251217",
+        "name": "gemini-3-flash-preview",
+        "org": "google",
+        "total_tokens": 161259845416,
+        "total_tokens_str": "161B",
+        "calls": 19559204,
+        "change": 32.6,
+        "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
+      },
+      {
+        "rank": 6,
+        "slug": "minimax/minimax-m2.7-20260318",
+        "name": "minimax-m2.7",
+        "org": "minimax",
+        "total_tokens": 155520934056,
+        "total_tokens_str": "156B",
+        "calls": 4296147,
+        "change": 12.5,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
       },
       {
         "rank": 7,
         "slug": "xiaomi/mimo-v2-pro-20260318",
         "name": "mimo-v2-pro",
         "org": "xiaomi",
-        "total_tokens": 128973310895,
-        "total_tokens_str": "129B",
-        "calls": 1753230,
-        "change": 17.3,
+        "total_tokens": 154161750132,
+        "total_tokens_str": "154B",
+        "calls": 2237976,
+        "change": 19.5,
         "url": "https://openrouter.ai/models/xiaomi/mimo-v2-pro-20260318"
       },
       {
         "rank": 8,
-        "slug": "google/gemini-3-flash-preview-20251217",
-        "name": "gemini-3-flash-preview",
-        "org": "google",
-        "total_tokens": 121642199148,
-        "total_tokens_str": "122B",
-        "calls": 13910653,
-        "change": -3.0,
-        "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
-      },
-      {
-        "rank": 9,
         "slug": "nvidia/nemotron-3-super-120b-a12b-20230311",
         "name": "nemotron-3-super-120b-a12b",
         "org": "nvidia",
-        "total_tokens": 97717236367,
-        "total_tokens_str": "98B",
-        "calls": 2253538,
-        "change": -74.5,
+        "total_tokens": 102998720839,
+        "total_tokens_str": "103B",
+        "calls": 2467132,
+        "change": 4.1,
         "url": "https://openrouter.ai/models/nvidia/nemotron-3-super-120b-a12b-20230311"
+      },
+      {
+        "rank": 9,
+        "slug": "x-ai/grok-4.1-fast",
+        "name": "grok-4.1-fast",
+        "org": "x-ai",
+        "total_tokens": 89478121291,
+        "total_tokens_str": "89B",
+        "calls": 14728304,
+        "change": 75.8,
+        "url": "https://openrouter.ai/models/x-ai/grok-4.1-fast"
       },
       {
         "rank": 10,
         "slug": "google/gemini-2.5-flash-lite",
         "name": "gemini-2.5-flash-lite",
         "org": "google",
-        "total_tokens": 69169868298,
-        "total_tokens_str": "69B",
-        "calls": 21942642,
-        "change": 6.2,
+        "total_tokens": 88783071793,
+        "total_tokens_str": "89B",
+        "calls": 26779093,
+        "change": 28.4,
         "url": "https://openrouter.ai/models/google/gemini-2.5-flash-lite"
       }
     ],
-    "hf_summary": "多模态与文本生成模型热度持续领先语音视频类关注度相对较低"
+    "hf_summary": "多模态与文本生成模型热度领先语音视频类关注度相对较低"
   }
 }
