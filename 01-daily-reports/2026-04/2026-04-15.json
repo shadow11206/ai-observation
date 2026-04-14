@@ -1,0 +1,451 @@
+{
+  "date": "2026-04-15",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "OpenAI 推出 GPT-5.4-Cyber 模型，扩大网络安全可信访问计划",
+      "finding": "OpenAI 正式推出专为网络安全设计的 GPT-5.4-Cyber 模型，并扩大其“网络安全可信访问”计划。此举旨在为经过审查的防御者提供更强大的 AI 工具，同时加强安全护栏，以应对日益增长的 AI 网络攻击能力。",
+      "key_data": [
+        "GPT-5.4-Cyber",
+        "网络安全可信访问计划",
+        "防御者专用"
+      ],
+      "judgment": "这意味着 AI 在网络安全领域的应用正从通用走向垂直专用，OpenAI 试图通过“白帽优先”的准入机制来平衡能力释放与安全风险。对于安全厂商和防御团队，这是获取顶级 AI 能力的官方渠道，但也预示着网络攻防将全面进入 AI 军备竞赛时代。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense"
+    },
+    {
+      "rank": 2,
+      "title": "宇树科技 R1 人形机器人上架 AliExpress，售价 4370 美元",
+      "finding": "中国机器人公司宇树科技将其 R1 人形机器人上架国际电商平台 AliExpress，面向全球消费者销售，起售价为 4370 美元。该机器人具备一定的杂技能力，但实际应用场景尚不明确。",
+      "key_data": [
+        "宇树科技 R1",
+        "4370美元",
+        "AliExpress全球销售"
+      ],
+      "judgment": "这意味着消费级人形机器人正从实验室和 B 端市场走向 C 端消费者，价格门槛大幅降低。虽然目前仍是极客玩具，但这是硬件成本下降和供应链成熟的重要信号，可能加速机器人应用生态的探索和开发者社区的兴起。",
+      "confidence": 4,
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/unitree-r1-humanoid-robot-for-sale-on-aliexpress/"
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic 与 OpenAI 就 AI 责任法案产生分歧",
+      "finding": "Anthropic 公开反对一项由 OpenAI 支持的伊利诺伊州 AI 责任法案。该法案若通过，将大幅减轻 AI 实验室在造成大规模伤亡或金融灾难时的法律责任。",
+      "key_data": [
+        "Anthropic 反对",
+        "OpenAI 支持",
+        "AI 责任法案分歧"
+      ],
+      "judgment": "这意味着头部 AI 公司在监管策略上出现明显裂痕。OpenAI 倾向于更宽松的责任框架以促进创新，而 Anthropic 则坚持更严格的安全与责任标准。这种分歧将影响未来 AI 立法进程，并迫使其他公司和投资者在“创新速度”与“安全底线”之间选边站队。",
+      "confidence": 4,
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/anthropic-opposes-the-extreme-ai-liability-bill-that-openai-backed/"
+    },
+    {
+      "rank": 4,
+      "title": "实用工程师报告：2026年 AI 对软件工程师的影响与关键趋势",
+      "finding": "根据《实用工程师》的 AI 工具调查，2026年软件工程师面临的主要趋势包括：对不断攀升的 AI 使用成本的担忧，更多工程师触及使用上限，以及 AI 工具对不同类型工程师的影响不均。",
+      "key_data": [
+        "AI 成本担忧",
+        "使用上限触及",
+        "影响不均"
+      ],
+      "judgment": "这意味着 AI 编程工具的“蜜月期”可能正在结束，成本效益问题开始凸显。企业需要重新评估 AI 辅助开发的 ROI，而工具提供商必须思考如何优化定价模型或提供更高效的本地替代方案。初级工程师与高级工程师从 AI 中获益的差异，也可能重塑团队结构和技能要求。",
+      "confidence": 4,
+      "source": "The Pragmatic Engineer",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026"
+    },
+    {
+      "rank": 5,
+      "title": "李开复、陆奇重仓 Harness 智能体公司，4个月融资两轮",
+      "finding": "由前微软小冰负责人李笛带队的 Harness 智能体公司，在四个月内完成两轮融资，获得李开复的创新工场和陆奇旗下基金的重仓投资。公司已备足3-5年发展资金，即将发布新成果。",
+      "key_data": [
+        "李笛带队",
+        "李开复陆奇重仓",
+        "4个月两轮融资"
+      ],
+      "judgment": "这意味着顶尖投资人和行业领袖正在押注下一代 AI Agent 创业公司，且投资节奏极快。Harness 团队背景和融资规模表明，AI Agent 赛道正从工具层面向平台和系统性解决方案演进，竞争将迅速升温。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401065.html"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv cs.AI",
+      "title": "LABBench2：用于生物学研究的 AI 系统改进基准",
+      "finding": "研究人员发布了 LABBench2，一个用于评估 AI 系统在生物学研究中表现能力的改进版基准，旨在推动 AI 加速科学发现。",
+      "key_data": [
+        "LABBench2 基准",
+        "AI 科学发现",
+        "生物学研究"
+      ],
+      "judgment": "这意味着 AI for Science 领域正从散点应用走向系统化评估，有助于更客观地衡量和比较不同 AI 模型在复杂科学任务上的真实能力。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2604.09554",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "审议对齐是深刻的，但不确定性依然存在：通过将不安全行为归因于基础模型来改进推理时安全性",
+      "finding": "论文探讨了在推理时通过将模型的不安全行为归因于其基础模型，来提升经过拒绝训练的大语言模型的安全性。",
+      "key_data": [
+        "推理时安全",
+        "拒绝训练",
+        "行为归因"
+      ],
+      "judgment": "这表明仅靠训练阶段的“对齐”可能不够，动态的、推理阶段的安全干预是重要的补充方向，对构建更可靠的 AI 系统有技术参考价值。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2604.09665",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "大语言模型中类似人类的工作记忆干扰",
+      "finding": "研究发现，大语言模型在处理信息时，会表现出与人类相似的“工作记忆干扰”现象，即同时处理多项任务会影响其表现。",
+      "key_data": [
+        "工作记忆干扰",
+        "人类相似性",
+        "多任务处理"
+      ],
+      "judgment": "这为理解 LLM 的认知局限性提供了新视角，提示我们在设计 AI 工作流时，可能需要考虑其“认知负荷”，避免让其同时处理过多复杂任务。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2604.09670",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "Google / TechCrunch",
+      "title": "谷歌为 Chrome 浏览器添加 AI “技能”功能",
+      "finding": "谷歌在 Chrome 浏览器中推出了名为“技能”的新 AI 功能，允许用户保存和跨网站重复使用 AI 提示，构建个性化工作流。",
+      "key_data": [
+        "Chrome 技能",
+        "保存 AI 提示",
+        "跨网站工作流"
+      ],
+      "judgment": "这意味着浏览器正从被动的内容消费工具，演变为主动的 AI 工作流协调中心。这可能会催生一批基于浏览器“技能”的轻量级自动化应用，挑战传统桌面软件。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/04/14/google-adds-ai-skills-to-chrome-to-help-you-save-favorite-workflows/",
+      "importance": 3
+    },
+    {
+      "source": "36氪",
+      "title": "远见智存发布 HBM3/3e 高带宽存储芯片，带宽达 819GB/s",
+      "finding": "中国公司远见智存发布了其 HBM3/3e 高带宽存储芯片，提供 12GB 与 24GB 容量，带宽达到 819GB/s，对标国际标准。",
+      "key_data": [
+        "HBM3/3e",
+        "819GB/s 带宽",
+        "国产存储芯片"
+      ],
+      "judgment": "这表明在 AI 算力关键组件领域，中国供应链正在取得实质性突破，有助于降低对海外 HBM 供应的依赖，但性能和生态成熟度仍需市场检验。",
+      "confidence": 3,
+      "url": "https://36kr.com/p/3765986197684736?f=rss",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "MiniMax 修改开源授权引发争议",
+      "finding": "AI 公司 MiniMax 对其开源模型 M2.7 的授权协议进行了修改，增加了商业使用限制和强制标注来源的要求，但未完全移除 MIT 标识，引发社区批评。",
+      "key_data": [
+        "MiniMax M2.7",
+        "开源协议变更",
+        "限制商用"
+      ],
+      "judgment": "这反映了部分中国 AI 公司在开源策略上的摇摆，既想获得社区影响力，又担心商业利益受损。这种“半开源”策略可能损害开发者信任，不利于长期生态建设。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/UGpjbIzIbbxbZ3XyWeRL?utm_source=rss&utm_medium=article",
+      "importance": 2
+    },
+    {
+      "source": "量子位",
+      "title": "通义千问推出“一步搞定”Excel 函数功能",
+      "finding": "阿里通义千问推出新功能，允许用户用自然语言直接操作和修改 Excel 表格，号称“一步搞定”各种函数和公式，支持手机和电脑端。",
+      "key_data": [
+        "通义千问",
+        "自然语言操作 Excel",
+        "跨端支持"
+      ],
+      "judgment": "这意味着 AI 正在深入渗透到像 Excel 这样的国民级生产力工具中，试图将复杂的操作平民化。这可能会改变数亿用户的数据处理习惯，并对传统办公软件培训市场构成冲击。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/04/401127.html",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "OpenAI 针对 Claude Mythos 的回应似乎是推出名为 GPT-5.4-Cyber 的新模型。随着 OpenAI 未来推出能力更强的模型，他们正在为网络防御者建立一个‘可信访问’计划，这看起来像是网络安全领域的一种‘工作量证明’机制。",
+      "source": "https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything"
+    },
+    {
+      "person": "Gergely Orosz (The Pragmatic Engineer)",
+      "level": "L2",
+      "quote": "我们的 AI 工具调查发现，工程师们对不断上涨的 AI 成本感到担忧，越来越多的人触碰到使用上限，并且 AI 工具对不同类型工程师的影响并不均衡。",
+      "source": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI 网络安全攻防的“白帽优先”模式",
+      "reason": "OpenAI 推出 GPT-5.4-Cyber 和可信访问计划，与 UK AISI 评估 Claude Mythos 形成呼应。这标志 AI 网络能力监管从理论走向实践，其准入机制、效果评估和潜在漏洞都值得深入研究。",
+      "priority": "high"
+    },
+    {
+      "topic": "消费级人形机器人的市场破局点",
+      "reason": "宇树 R1 以 4370 美元上架 AliExpress，是价格和渠道的双重突破。需深入分析其硬件成本结构、目标用户画像、潜在杀手级应用，以及这是否能真正开启 C 端机器人市场。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "AI 网安军备竞赛开启，人形机器人走向消费端。",
+  "snapshot": {
+    "date": "2026-04-14",
+    "hf_trending": [
+      {
+        "name": "zai-org/GLM-5.1",
+        "short_name": "GLM-5.1",
+        "likes": 1195,
+        "downloads": 84784,
+        "url": "https://huggingface.co/zai-org/GLM-5.1",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "MiniMaxAI/MiniMax-M2.7",
+        "short_name": "MiniMax-M2.7",
+        "likes": 708,
+        "downloads": 43645,
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "minimax_m2"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "openbmb/VoxCPM2",
+        "short_name": "VoxCPM2",
+        "likes": 870,
+        "downloads": 10899,
+        "url": "https://huggingface.co/openbmb/VoxCPM2",
+        "tags": [
+          "voxcpm",
+          "safetensors",
+          "text-to-speech"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "google/gemma-4-31B-it",
+        "short_name": "gemma-4-31B-it",
+        "likes": 1893,
+        "downloads": 2640636,
+        "url": "https://huggingface.co/google/gemma-4-31B-it",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "tencent/HY-Embodied-0.5",
+        "short_name": "HY-Embodied-0.5",
+        "likes": 467,
+        "downloads": 723,
+        "url": "https://huggingface.co/tencent/HY-Embodied-0.5",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "hunyuan_vl_mot"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
+        "short_name": "Gemma-4-31B-JANG_4M-CRACK",
+        "likes": 1090,
+        "downloads": 117491,
+        "url": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK",
+        "tags": [
+          "mlx",
+          "safetensors",
+          "gemma4"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "netflix/void-model",
+        "short_name": "void-model",
+        "likes": 811,
+        "downloads": 0,
+        "url": "https://huggingface.co/netflix/void-model",
+        "tags": [
+          "video-inpainting",
+          "video-editing",
+          "object-removal"
+        ],
+        "pipeline_tag": "video-to-video",
+        "label": "Video To Video",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
+        "short_name": "supergemma4-26b-uncensored-gguf-v2",
+        "likes": 222,
+        "downloads": 12687,
+        "url": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2",
+        "tags": [
+          "gguf",
+          "gemma4",
+          "uncensored"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "anthropic/claude-4.6-opus-20260205",
+        "name": "claude-4.6-opus",
+        "org": "anthropic",
+        "total_tokens": 221267573287,
+        "total_tokens_str": "221B",
+        "calls": 3684991,
+        "change": 66.0,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-opus-20260205"
+      },
+      {
+        "rank": 2,
+        "slug": "deepseek/deepseek-v3.2-20251201",
+        "name": "deepseek-v3.2",
+        "org": "deepseek",
+        "total_tokens": 201348394668,
+        "total_tokens_str": "201B",
+        "calls": 19527019,
+        "change": 9.9,
+        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
+      },
+      {
+        "rank": 3,
+        "slug": "anthropic/claude-4.6-sonnet-20260217",
+        "name": "claude-4.6-sonnet",
+        "org": "anthropic",
+        "total_tokens": 200233329826,
+        "total_tokens_str": "200B",
+        "calls": 5518400,
+        "change": 50.9,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-sonnet-20260217"
+      },
+      {
+        "rank": 4,
+        "slug": "minimax/minimax-m2.5-20260211",
+        "name": "minimax-m2.5",
+        "org": "minimax",
+        "total_tokens": 164971717344,
+        "total_tokens_str": "165B",
+        "calls": 3794816,
+        "change": -46.1,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.5-20260211"
+      },
+      {
+        "rank": 5,
+        "slug": "google/gemini-3-flash-preview-20251217",
+        "name": "gemini-3-flash-preview",
+        "org": "google",
+        "total_tokens": 161259845416,
+        "total_tokens_str": "161B",
+        "calls": 19559204,
+        "change": 32.6,
+        "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
+      },
+      {
+        "rank": 6,
+        "slug": "minimax/minimax-m2.7-20260318",
+        "name": "minimax-m2.7",
+        "org": "minimax",
+        "total_tokens": 155520934056,
+        "total_tokens_str": "156B",
+        "calls": 4296147,
+        "change": 12.5,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
+      },
+      {
+        "rank": 7,
+        "slug": "xiaomi/mimo-v2-pro-20260318",
+        "name": "mimo-v2-pro",
+        "org": "xiaomi",
+        "total_tokens": 154161750132,
+        "total_tokens_str": "154B",
+        "calls": 2237976,
+        "change": 19.5,
+        "url": "https://openrouter.ai/models/xiaomi/mimo-v2-pro-20260318"
+      },
+      {
+        "rank": 8,
+        "slug": "nvidia/nemotron-3-super-120b-a12b-20230311",
+        "name": "nemotron-3-super-120b-a12b",
+        "org": "nvidia",
+        "total_tokens": 102998720839,
+        "total_tokens_str": "103B",
+        "calls": 2467132,
+        "change": 4.1,
+        "url": "https://openrouter.ai/models/nvidia/nemotron-3-super-120b-a12b-20230311"
+      },
+      {
+        "rank": 9,
+        "slug": "x-ai/grok-4.1-fast",
+        "name": "grok-4.1-fast",
+        "org": "x-ai",
+        "total_tokens": 89478121291,
+        "total_tokens_str": "89B",
+        "calls": 14728304,
+        "change": 75.8,
+        "url": "https://openrouter.ai/models/x-ai/grok-4.1-fast"
+      },
+      {
+        "rank": 10,
+        "slug": "google/gemini-2.5-flash-lite",
+        "name": "gemini-2.5-flash-lite",
+        "org": "google",
+        "total_tokens": 88783071793,
+        "total_tokens_str": "89B",
+        "calls": 26779093,
+        "change": 28.4,
+        "url": "https://openrouter.ai/models/google/gemini-2.5-flash-lite"
+      }
+    ],
+    "hf_summary": "多模态与文本生成模型主导榜单 大模型竞争激烈"
+  }
+}

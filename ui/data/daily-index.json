@@ -1,6 +1,13 @@
 {
-  "total": 20,
+  "total": 21,
   "reports": [
+    {
+      "date": "2026-04-15",
+      "title": "今日 AI 日报：OpenAI 推出 GPT-5.4-Cyber 模型，扩大网络安全可信访问计划 + 4 条重要动态",
+      "excerpt": "这意味着 AI 在网络安全领域的应用正从通用走向垂直专用，OpenAI 试图通过…",
+      "top_count": 5,
+      "file": "2026-04-15.json"
+    },
     {
       "date": "2026-04-14",
       "title": "今日 AI 日报：OpenAI 收购个人理财AI初创公司Hiro + 4 条重要动态",
