@@ -1,6 +1,13 @@
 {
-  "total": 21,
+  "total": 22,
   "reports": [
+    {
+      "date": "2026-04-16",
+      "title": "今日 AI 日报：OpenAI发布Agents SDK重大更新，原生支持沙盒执行 + 4 条重要动态",
+      "excerpt": "这意味着企业级Agent开发的门槛和风险将显著降低。OpenAI正在将Agent…",
+      "top_count": 5,
+      "file": "2026-04-16.json"
+    },
     {
       "date": "2026-04-15",
       "title": "今日 AI 日报：OpenAI 推出 GPT-5.4-Cyber 模型，扩大网络安全可信访问计划 + 4 条重要动态",
