@@ -1,6 +1,13 @@
 {
-  "total": 22,
+  "total": 23,
   "reports": [
+    {
+      "date": "2026-04-17",
+      "title": "今日 AI 日报：OpenAI 发布新版 Codex，赋予其桌面控制能力 + 4 条重要动态",
+      "excerpt": "这意味着 AI 编程助手正在从“副驾驶”升级为“主驾驶”，开发者与机器的交互范式…",
+      "top_count": 5,
+      "file": "2026-04-17.json"
+    },
     {
       "date": "2026-04-16",
       "title": "今日 AI 日报：OpenAI发布Agents SDK重大更新，原生支持沙盒执行 + 4 条重要动态",
