@@ -1,0 +1,431 @@
+{
+  "date": "2026-04-18",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Cursor 洽谈以500亿美元估值融资超20亿美元",
+      "finding": "AI IDE 标杆公司 Cursor 正在洽谈新一轮巨额融资，估值高达500亿美元，显示出企业级AI编程市场的巨大潜力和资本狂热。",
+      "key_data": [
+        "500亿美元估值",
+        "超20亿美元融资",
+        "企业需求激增"
+      ],
+      "judgment": "这意味着AI编程工具正从开发者玩具演变为企业核心生产力平台，估值泡沫与真实需求并存，行业整合或将加速。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/17/sources-cursor-in-talks-to-raise-2b-at-50b-valuation-as-enterprise-growth-surges/"
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI 高管离职，公司收缩“副业”聚焦企业AI",
+      "finding": "OpenAI 负责科学应用的高管 Kevin Weil 和 Bill Peebles 离职，公司关闭 Sora 团队，将科学团队并入 Codex，战略重心明显转向企业AI。",
+      "key_data": [
+        "Kevin Weil 离职",
+        "关闭 Sora 团队",
+        "聚焦企业AI"
+      ],
+      "judgment": "这意味着 OpenAI 正在放弃一些消费级“登月项目”，回归商业化核心，标志着生成式AI的探索期结束，规模化盈利期开始。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/"
+    },
+    {
+      "rank": 3,
+      "title": "中国具身智能公司获4.55亿美元融资，创行业纪录",
+      "finding": "一家中国具身智能公司获得4.55亿美元巨额融资，由高瓴和红杉领投，这是该领域迄今为止最大单笔融资。",
+      "key_data": [
+        "4.55亿美元融资",
+        "高瓴红杉领投",
+        "中国具身智能最大融资"
+      ],
+      "judgment": "这意味着资本正以前所未有的力度押注“具身大脑”这一技术路线，机器人领域的竞争将从硬件转向软件和AI模型能力。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/402388.html"
+    },
+    {
+      "rank": 4,
+      "title": "Anthropic 发布 Claude Opus 4.7 模型",
+      "finding": "Anthropic 发布了新的旗舰模型 Claude Opus 4.7，据深度观察者称，该模型在各项指标上均比前代 4.6 有所提升。",
+      "key_data": [
+        "Claude Opus 4.7",
+        "全面超越 4.6",
+        "新 SOTA 模型"
+      ],
+      "judgment": "这意味着顶级闭源模型间的“军备竞赛”仍在持续，小幅但稳定的迭代是当前主流，对追求极致性能的企业用户是利好。",
+      "confidence": 4,
+      "source": "Latent Space (Swyx)",
+      "url": "https://www.latent.space/p/ainews-anthropic-claude-opus-47-literally"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "量子位",
+      "title": "谷歌发布第三代机器人模型 Gemini Robotics",
+      "finding": "谷歌推出主打空间推理的第三代机器人模型 Gemini Robotics，能让波士顿动力机器狗完成更拟人化的复杂任务。",
+      "key_data": [
+        "第三代模型",
+        "空间推理",
+        "波士顿动力合作"
+      ],
+      "judgment": "大模型与机器人结合进入深水区，空间理解和任务规划能力成为竞争焦点。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/04/402329.html",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "具身模型 π0.7 发布，号称机器人的“GPT-3时刻”",
+      "finding": "具身智能模型 π0.7 发布，声称具有涌现能力，是可控的视觉-语言-动作（VLA）模型。",
+      "key_data": [
+        "π0.7 模型",
+        "涌现能力",
+        "VLA 模型"
+      ],
+      "judgment": "具身智能领域开始出现通用性模型的苗头，但距离真正的“GPT-3时刻”仍有差距，需观察实际泛化能力。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/04/402189.html",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "量化语言模型代理的探索与利用错误",
+      "finding": "一篇新论文提出可以测量语言模型代理在复杂决策任务中的“探索”与“利用”错误，为评估Agent可靠性提供了新框架。",
+      "key_data": [
+        "探索与利用错误",
+        "可测量框架",
+        "Agent 评估"
+      ],
+      "judgment": "为AI代理的可靠性评估提供了更科学的工具，有助于推动Agent从演示走向实际部署。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2604.13151",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "WebXSkill：让自主网页代理学会技能",
+      "finding": "研究提出 WebXSkill 方法，旨在让基于大模型的自主网页代理能够学习并复用技能，以应对更长的任务序列。",
+      "key_data": [
+        "技能学习",
+        "网页代理",
+        "长任务序列"
+      ],
+      "judgment": "解决Agent执行复杂、多步骤任务的关键一步，使Agent更接近“熟练工”。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2604.13318",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "36氪",
+      "title": "荣耀发布内置“龙虾”的AI PC",
+      "finding": "荣耀发布新款MagicBook，内置名为“龙虾”的端侧AI模型，成为首家将AI模型直接集成到PC终端的厂商。",
+      "key_data": [
+        "荣耀 MagicBook",
+        "端侧AI模型“龙虾”",
+        "终端厂商首例"
+      ],
+      "judgment": "端侧AI竞争进入新阶段，从手机扩展到PC，硬件厂商开始深度绑定自有AI能力以构建生态壁垒。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3770787623404293?f=rss",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "RoboChallenge 具身模型竞技场再扩容",
+      "finding": "全球最大具身模型竞技场 RoboChallenge 完成第二批生态扩容，新增8家顶尖企业，包括星动纪元、地平线等。",
+      "key_data": [
+        "18家参赛势力",
+        "第二批8家入驻",
+        "全球最大竞技场"
+      ],
+      "judgment": "具身智能的产学研竞赛平台正在形成，有助于加速技术迭代和标准统一。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/04/402186.html",
+      "importance": 2
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Sam Altman 的 World 项目与 Tinder 合作验证人类",
+      "finding": "Sam Altman 的匿名人类验证项目 World 与 Tinder 达成合作，用户可以通过凝视其“Orb”设备来证明自己是真人。",
+      "key_data": [
+        "World 项目",
+        "Tinder 合作",
+        "Orb 设备验证"
+      ],
+      "judgment": "AI生成内容泛滥背景下，“证明人类”正在成为一门生意，但该模式的隐私和可扩展性存疑。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/04/17/sam-altmans-project-world-looks-to-scale-its-human-verification-empire-first-stop-tinder/",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Swyx (Shawn Wang)",
+      "level": "L2",
+      "quote": "Anthropic 的新 SOTA 模型 Claude Opus 4.7 在每一个维度上都比 4.6 好那么一点，这巩固了其领先地位。",
+      "source": "https://www.latent.space/p/ainews-anthropic-claude-opus-47-literally"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "Cursor 的 500 亿美元估值逻辑与企业市场策略",
+      "reason": "Cursor 的天价估值是 AI 工具泡沫的顶峰还是真实价值的体现？其如何撬动并服务快速增长的企业市场，将定义 AI 编程工具的未来形态。",
+      "priority": "high"
+    },
+    {
+      "topic": "OpenAI 战略收缩：从“副业”回归企业核心的挑战",
+      "reason": "OpenAI 关闭 Sora、高管离职，标志着战略重大转向。分析其放弃消费级探索、全力押注企业 AI 的深层原因及面临的竞争格局。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "资本狂热押注AI编程与机器人，巨头战略收缩聚焦商业化。",
+  "snapshot": {
+    "date": "2026-04-17",
+    "hf_trending": [
+      {
+        "name": "MiniMaxAI/MiniMax-M2.7",
+        "short_name": "MiniMax-M2.7",
+        "likes": 922,
+        "downloads": 188737,
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "minimax_m2"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen3.6-35B-A3B",
+        "short_name": "Qwen3.6-35B-A3B",
+        "likes": 723,
+        "downloads": 21180,
+        "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "tencent/HY-Embodied-0.5",
+        "short_name": "HY-Embodied-0.5",
+        "likes": 852,
+        "downloads": 1287,
+        "url": "https://huggingface.co/tencent/HY-Embodied-0.5",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "hunyuan_vl_mot"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "baidu/ERNIE-Image",
+        "short_name": "ERNIE-Image",
+        "likes": 421,
+        "downloads": 2254,
+        "url": "https://huggingface.co/baidu/ERNIE-Image",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "text-to-image"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "zai-org/GLM-5.1",
+        "short_name": "GLM-5.1",
+        "likes": 1379,
+        "downloads": 100019,
+        "url": "https://huggingface.co/zai-org/GLM-5.1",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
+        "short_name": "supergemma4-26b-uncensored-gguf-v2",
+        "likes": 381,
+        "downloads": 53781,
+        "url": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2",
+        "tags": [
+          "gguf",
+          "gemma4",
+          "uncensored"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "unsloth/Qwen3.6-35B-A3B-GGUF",
+        "short_name": "Qwen3.6-35B-A3B-GGUF",
+        "likes": 360,
+        "downloads": 153019,
+        "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "google/gemma-4-31B-it",
+        "short_name": "gemma-4-31B-it",
+        "likes": 2122,
+        "downloads": 3513465,
+        "url": "https://huggingface.co/google/gemma-4-31B-it",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "anthropic/claude-4.6-sonnet-20260217",
+        "name": "claude-4.6-sonnet",
+        "org": "anthropic",
+        "total_tokens": 222024085230,
+        "total_tokens_str": "222B",
+        "calls": 5391754,
+        "change": -4.2,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-sonnet-20260217"
+      },
+      {
+        "rank": 2,
+        "slug": "anthropic/claude-4.6-opus-20260205",
+        "name": "claude-4.6-opus",
+        "org": "anthropic",
+        "total_tokens": 209929043843,
+        "total_tokens_str": "210B",
+        "calls": 3640848,
+        "change": -12.8,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-opus-20260205"
+      },
+      {
+        "rank": 3,
+        "slug": "google/gemini-3-flash-preview-20251217",
+        "name": "gemini-3-flash-preview",
+        "org": "google",
+        "total_tokens": 183858158490,
+        "total_tokens_str": "184B",
+        "calls": 20390884,
+        "change": 8.0,
+        "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
+      },
+      {
+        "rank": 4,
+        "slug": "deepseek/deepseek-v3.2-20251201",
+        "name": "deepseek-v3.2",
+        "org": "deepseek",
+        "total_tokens": 175659924763,
+        "total_tokens_str": "176B",
+        "calls": 17602542,
+        "change": -2.8,
+        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
+      },
+      {
+        "rank": 5,
+        "slug": "xiaomi/mimo-v2-pro-20260318",
+        "name": "mimo-v2-pro",
+        "org": "xiaomi",
+        "total_tokens": 171244815547,
+        "total_tokens_str": "171B",
+        "calls": 2440927,
+        "change": -1.5,
+        "url": "https://openrouter.ai/models/xiaomi/mimo-v2-pro-20260318"
+      },
+      {
+        "rank": 6,
+        "slug": "minimax/minimax-m2.5-20260211",
+        "name": "minimax-m2.5",
+        "org": "minimax",
+        "total_tokens": 171069277701,
+        "total_tokens_str": "171B",
+        "calls": 3857458,
+        "change": -1.2,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.5-20260211"
+      },
+      {
+        "rank": 7,
+        "slug": "minimax/minimax-m2.7-20260318",
+        "name": "minimax-m2.7",
+        "org": "minimax",
+        "total_tokens": 151039161078,
+        "total_tokens_str": "151B",
+        "calls": 4259592,
+        "change": -7.4,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
+      },
+      {
+        "rank": 8,
+        "slug": "openrouter/elephant-alpha",
+        "name": "elephant-alpha",
+        "org": "openrouter",
+        "total_tokens": 103250333335,
+        "total_tokens_str": "103B",
+        "calls": 3508605,
+        "change": 2.9,
+        "url": "https://openrouter.ai/models/openrouter/elephant-alpha"
+      },
+      {
+        "rank": 9,
+        "slug": "openai/gpt-5.4-20260305",
+        "name": "gpt-5.4",
+        "org": "openai",
+        "total_tokens": 92844446645,
+        "total_tokens_str": "93B",
+        "calls": 3377890,
+        "change": 33.5,
+        "url": "https://openrouter.ai/models/openai/gpt-5.4-20260305"
+      },
+      {
+        "rank": 10,
+        "slug": "google/gemini-2.5-flash",
+        "name": "gemini-2.5-flash",
+        "org": "google",
+        "total_tokens": 88387671935,
+        "total_tokens_str": "88B",
+        "calls": 21080765,
+        "change": 6.4,
+        "url": "https://openrouter.ai/models/google/gemini-2.5-flash"
+      }
+    ],
+    "hf_summary": "多模态与文本生成模型并驾齐驱Gemma系列表现突出"
+  }
+}
