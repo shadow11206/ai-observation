@@ -3,197 +3,217 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "OpenAI 发布新版 Codex，赋予其桌面控制能力",
-      "finding": "OpenAI 对其代码助手 Codex 进行了重大升级，新版本增加了计算机使用、应用内浏览、图像生成、记忆和插件功能，旨在加速开发者工作流程。这标志着 AI 编程助手正从代码补全工具，向能直接操作电脑的智能体演进。",
+      "title": "OpenAI 发布新版 Codex，赋予 AI 对桌面的更多控制权",
+      "finding": "OpenAI 对其 AI 编程工具 Codex 进行了重大升级，新增了计算机使用、应用内浏览、图像生成、记忆和插件等功能，旨在加速开发者工作流程。这标志着 AI 编程助手正从代码补全工具演变为能够直接操作系统的全能型代理。",
       "key_data": [
-        "Codex 桌面应用",
-        "计算机使用能力",
-        "应用内浏览",
-        "图像生成"
+        "Codex 重大升级",
+        "新增计算机使用能力",
+        "集成图像生成与插件"
       ],
-      "judgment": "这意味着 AI 编程助手正在从“副驾驶”升级为“主驾驶”，开发者与机器的交互范式将被重塑。OpenAI 此举直接对标 Anthropic 的 Claude Code，桌面端 AI 智能体竞争白热化。",
+      "judgment": "这意味着 AI 编程代理的竞争进入新阶段，从“代码建议”转向“系统级操作”。开发者将面临工作流被深度重构，而 OpenAI 正试图通过控制桌面入口来对抗 Anthropic 的 Claude Code。",
       "confidence": 5,
       "source": "OpenAI Blog",
       "url": "https://openai.com/index/codex-for-almost-everything"
     },
     {
       "rank": 2,
-      "title": "具身智能公司 Physical Intelligence 发布新机器人模型 π0.7",
-      "finding": "备受关注的机器人初创公司 Physical Intelligence 发布了其新模型 π0.7。该模型被描述为迈向通用机器人大脑的早期但重要一步，能够理解并执行它从未被明确教导过的任务。",
+      "title": "Anthropic 发布 Claude Opus 4.7，在推理和编程上全面领先",
+      "finding": "Anthropic 发布了 Claude Opus 4.7 模型，在推理、编程、数学和指令遵循等所有维度上均超越了前代 4.6，成为新的性能标杆。该模型支持 `thinking_effort: xhigh` 参数，允许用户为复杂任务分配更多“思考”资源。",
       "key_data": [
-        "π0.7 模型",
-        "零样本任务泛化",
-        "通用机器人大脑"
+        "Claude Opus 4.7 发布",
+        "全维度超越 4.6",
+        "支持 xhigh 思考模式"
       ],
-      "judgment": "这意味着具身智能领域正从“为特定任务编程”转向“让机器人自己学会做事”。如果模型泛化能力属实，将极大加速机器人从实验室走向真实复杂环境的进程。",
-      "confidence": 4,
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/"
+      "judgment": "这意味着顶级闭源模型间的“军备竞赛”仍在加速，Anthropic 在推理和编程能力上暂时领先。对于开发者和企业而言，选择最强大模型的标准再次被刷新，成本与性能的权衡将更复杂。",
+      "confidence": 5,
+      "source": "Latent Space",
+      "url": "https://www.latent.space/p/ainews-anthropic-claude-opus-47-literally"
     },
     {
       "rank": 3,
-      "title": "AI 编程初创公司 Factory 以 15 亿美元估值融资 1.5 亿美元",
-      "finding": "专注于企业级 AI 编程的初创公司 Factory 完成了由 Khosla Ventures 领投的 1.5 亿美元融资，估值达到 15 亿美元。这家成立仅三年的公司旨在为企业构建 AI 编码解决方案。",
+      "title": "具身智能数据平台涌现，京东与智元旗下公司发布基础设施",
+      "finding": "京东发布行业首个“具身数据全链路基础设施”，旨在打造“具身智能超级供应链”。同日，智元机器人旗下觅蜂科技也发布了一站式物理 AI 数据服务平台，解决机器人行业数据匮乏的瓶颈。",
       "key_data": [
-        "15亿美元估值",
-        "1.5亿美元融资",
-        "企业AI编程"
+        "京东发布具身数据基础设施",
+        "智元觅蜂推物理AI数据平台",
+        "瞄准机器人数据瓶颈"
       ],
-      "judgment": "这意味着资本仍在疯狂押注 AI 编程赛道，尤其是面向企业的解决方案。在 Cursor、Devin 等面向个人开发者的工具之外，企业级 AI 编程市场正成为新的竞争焦点和估值高地。",
+      "judgment": "这意味着具身智能正从实验室研发迈向规模化商业落地，而数据供给成为关键战场。谁能高效、低成本地获取和处理物理世界数据，谁就能在下一代机器人竞争中占据先机。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/402063.html"
+    },
+    {
+      "rank": 4,
+      "title": "AI 编程初创公司 Factory 以 15 亿美元估值融资 1.5 亿美元",
+      "finding": "专注于企业级 AI 编程的初创公司 Factory 完成了由 Khosla Ventures 领投的 1.5 亿美元融资，估值达到 15 亿美元。这家成立仅三年的公司旨在为企业构建 AI 驱动的编码平台。",
+      "key_data": [
+        "Factory 融资 1.5 亿美元",
+        "估值 15 亿美元",
+        "专注企业 AI 编程"
+      ],
+      "judgment": "这意味着资本市场对“企业级 AI 编程”赛道的信心依然强劲，即使有 Cursor、GitHub Copilot 等巨头存在，新玩家仍有机会通过垂直化、定制化服务切入。企业软件开发的 AI 化进程将因资本涌入而加速。",
       "confidence": 4,
       "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "SDL 开源项目禁止 AI 生成的代码提交",
-      "finding": "知名开源多媒体库 SDL 在其 GitHub 仓库的 issue 中宣布，将禁止由 AI 工具（如 Copilot、Codeium）生成的代码提交。此举引发了开发者社区关于 AI 代码质量、责任归属和开源协作未来的广泛讨论。",
+      "finding": "知名开源多媒体库 SDL 在其 GitHub 仓库中发布政策，明确禁止由 AI 工具（如 GitHub Copilot）生成的代码提交。此举引发了开发者社区关于 AI 代码所有权、质量和开源协作模式的广泛讨论。",
       "key_data": [
-        "SDL 项目",
-        "禁止 AI 代码提交",
-        "开源社区争议"
+        "SDL 禁止 AI 生成代码提交",
+        "开源社区新规",
+        "引发所有权与质量争议"
       ],
-      "judgment": "这意味着 AI 生成的代码在严肃的开源项目中开始面临信任危机。核心问题在于责任归属：如果 AI 代码引入 bug 或安全问题，谁来负责？这为所有依赖 AI 编程工具的团队敲响了警钟。",
+      "judgment": "这意味着开源社区开始正视并规范 AI 工具的使用。这不仅是法律（版权）问题，更是工程文化问题。未来，大型开源项目可能会普遍要求提交者声明代码来源，AI 辅助编程的“灰色地带”将被收紧。",
       "confidence": 5,
       "source": "Hacker News",
       "url": "https://github.com/libsdl-org/SDL/issues/15350"
-    },
-    {
-      "rank": 5,
-      "title": "Cloudflare 推出专为 AI 智能体设计的推理平台",
-      "finding": "Cloudflare 发布了其 AI 平台的重要更新，将其定位为一个专为 AI 智能体设计的推理层。该平台旨在为运行复杂、长周期的 AI 智能体任务提供稳定、可扩展的基础设施。",
-      "key_data": [
-        "Cloudflare AI 平台",
-        "智能体推理层",
-        "长周期任务支持"
-      ],
-      "judgment": "这意味着 AI 基础设施的竞争焦点正从简单的模型调用，转向支持复杂智能体工作流的全栈平台。Cloudflare 利用其边缘网络优势，试图在智能体时代的基础设施战中抢占先机。",
-      "confidence": 5,
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/ai-platform/"
     }
   ],
   "model_tech": [
     {
-      "source": "OpenAI Blog",
-      "title": "OpenAI 推出生命科学研究专用模型 GPT-Rosalind",
-      "finding": "OpenAI 发布了 GPT-Rosalind，一个为加速药物发现、基因组学分析、蛋白质推理和科学研究工作流而构建的前沿推理模型。",
+      "source": "Simon Willison",
+      "title": "通义千问 3.6-35B-A3B 在本地绘图测试中击败 Claude Opus 4.7",
+      "finding": "独立开发者 Simon Willison 在本地运行通义千问 3.6-35B-A3B 模型进行“骑自行车的鹈鹕”绘图测试，发现其效果优于同日发布的 Claude Opus 4.7。",
       "key_data": [
-        "GPT-Rosalind",
-        "生命科学专用",
-        "前沿推理模型"
+        "Qwen3.6-35B-A3B",
+        "本地运行",
+        "绘图测试胜 Opus 4.7"
       ],
-      "judgment": "标志着大模型厂商开始深入垂直科学领域，提供领域优化的专用模型，而不仅仅是通用基座模型。",
-      "confidence": 5,
-      "url": "https://openai.com/index/introducing-gpt-rosalind",
+      "judgment": "这表明中小规模的开源模型在特定任务（如图像理解与生成）上已能挑战顶级闭源模型，为边缘部署和定制化应用提供了新选择。",
+      "confidence": 3,
+      "url": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything",
       "importance": 3
     },
     {
       "source": "ArXiv",
-      "title": "研究揭示：AI 智能体在长周期任务中为何会“崩溃”",
-      "finding": "一项新研究诊断了 AI 智能体系统在需要长时间、多步骤推理的长周期任务中失败的原因和具体环节。",
+      "title": "新研究提出量化语言模型代理的“探索与利用”错误",
+      "finding": "一篇新论文提出了一种量化语言模型代理在复杂决策任务（如 AI 编程、物理 AI）中“探索”与“利用”错误的方法，旨在提高代理的可靠性和可预测性。",
       "key_data": [
-        "长周期任务诊断",
-        "智能体失败模式"
+        "量化 Agent 决策错误",
+        "探索 vs 利用",
+        "提高可靠性"
       ],
-      "judgment": "为改进 AI 智能体的规划、记忆和错误恢复能力提供了具体的实证研究方向和评估基准。",
+      "judgment": "这是 Agent 工程从“黑箱”走向“可观测、可调试”的重要一步，为构建更稳健的自主系统提供了理论基础和评估工具。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2604.11978",
+      "url": "https://arxiv.org/abs/2604.13151",
       "importance": 3
     },
     {
-      "source": "InfoQ",
-      "title": "阿里发布世界模型 HappyOyster，对标谷歌 Genie 3",
-      "finding": "阿里巴巴“快乐马”团队发布了世界模型 HappyOyster，旨在从视频中理解和生成可交互的虚拟世界，直接与谷歌的 Genie 3 竞争。",
+      "source": "ArXiv",
+      "title": "新框架 SciFi 旨在实现科学应用的全自主、安全 AI 工作流",
+      "finding": "研究人员提出了 SciFi 框架，旨在为科学计算等领域创建轻量、用户友好且完全自主的 AI 代理工作流，解决现有系统在可靠性、安全性和易用性上的挑战。",
       "key_data": [
-        "HappyOyster",
-        "世界模型",
-        "对标 Genie 3"
+        "SciFi 框架",
+        "全自主科学 AI 工作流",
+        "强调安全与易用"
       ],
-      "judgment": "表明世界模型作为通往通用 AI 和具身智能的关键技术，已成为中美科技巨头竞相布局的核心战场。",
-      "confidence": 4,
-      "url": "https://www.infoq.cn/article/XhNNKN6qY4YNml04B0fF",
+      "judgment": "标志着 AI for Science 正从辅助工具向自主研究伙伴演进，但如何在开放探索中保证结果的可复现与安全，仍是核心挑战。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2604.13180",
       "importance": 3
     }
   ],
   "company_product": [
     {
-      "source": "量子位",
-      "title": "智元机器人旗下觅蜂发布一站式物理 AI 数据服务平台",
-      "finding": "智元机器人旗下公司发布了一个平台，旨在解决具身智能行业数据匮乏的瓶颈，让机器人训练数据像水电一样即取即用。",
+      "source": "Cloudflare Blog",
+      "title": "Cloudflare 推出专为 AI 代理设计的推理平台",
+      "finding": "Cloudflare 发布了其 AI 平台的重要更新，推出了一个专为 AI 代理工作流设计的“推理层”，旨在优化代理调用外部模型和工具的体验。",
       "key_data": [
-        "觅蜂科技",
-        "物理 AI 数据平台",
-        "解决数据瓶颈"
+        "Cloudflare AI 平台",
+        "推理层",
+        "专为 Agent 设计"
       ],
-      "judgment": "瞄准了具身智能商业化落地的核心痛点——高质量仿真与真实数据，试图成为机器人行业的“数据军火商”。",
-      "confidence": 4,
-      "url": "https://www.qbitai.com/2026/04/401741.html",
+      "judgment": "基础设施厂商开始为 Agent 范式优化服务，预示着 AI 应用开发将越来越依赖云原生的、集成的 Agent 基础设施。",
+      "confidence": 5,
+      "url": "https://blog.cloudflare.com/ai-platform/",
       "importance": 3
     },
     {
-      "source": "量子位",
-      "title": "京东发布行业首个具身数据全链路基础设施",
-      "finding": "京东发布了旨在打造“具身智能超级供应链”的行业首个具身数据全链路基础设施，推动机器人技术从研发迈向规模化商业落地。",
+      "source": "TechCrunch AI",
+      "title": "机器人明星公司 Physical Intelligence 发布新模型 π0.7",
+      "finding": "备受瞩目的机器人初创公司 Physical Intelligence 发布了其新的机器人基础模型 π0.7，该模型能够解决一些从未被明确教导过的任务，向通用机器人大脑迈出一步。",
       "key_data": [
-        "京东",
-        "具身数据基础设施",
-        "超级供应链"
+        "Physical Intelligence",
+        "机器人基础模型 π0.7",
+        "零样本任务泛化"
       ],
-      "judgment": "显示中国电商巨头正利用其庞大的物流场景和数据优势，切入具身智能基础设施赛道，路径独特。",
+      "judgment": "具身智能的基础模型竞赛拉开序幕，谁能率先做出具备强泛化能力的“机器人大脑”，谁就能定义下一代机器人的软件生态。",
       "confidence": 4,
-      "url": "https://www.qbitai.com/2026/04/402063.html",
-      "importance": 2
+      "url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
+      "importance": 4
     },
     {
-      "source": "The Pragmatic Engineer",
-      "title": "报告指出 AI 编程代理补贴可能即将结束",
-      "finding": "根据行业通讯，像 Cursor 等提供的免费或高补贴的 AI 编程代理服务，可能因成本压力而即将结束其补贴模式。",
+      "source": "量子位",
+      "title": "ImageNet 作者苏昊回国任教复旦，出任通用物理 AI 院长",
+      "finding": "计算机视觉领域标志性数据集 ImageNet 的作者之一苏昊（李飞飞学生）已回国，加入复旦大学并出任通用物理 AI 研究院院长，将推动“物理智能”研究。",
       "key_data": [
-        "AI 编程代理",
-        "补贴结束",
-        "成本压力"
+        "苏昊回国",
+        "任教复旦大学",
+        "出任物理 AI 院长"
       ],
-      "judgment": "预示着 AI 编程工具将从“烧钱获客”的初级阶段，进入寻求可持续商业模式的阶段，用户可能需要为高级功能付费。",
-      "confidence": 3,
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-tokenmaxxing-as-a-weird",
-      "importance": 2
+      "judgment": "顶尖 AI 人才回流中国高校，将加强国内在具身智能、空间智能等前沿领域的基础研究实力，影响长远。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/04/402088.html",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "阿里“快乐马”团队发布世界模型 HappyOyster，对标谷歌 Genie 3",
+      "finding": "阿里巴巴旗下曾开发视频生成模型“快乐马”的团队，发布了新的世界模型“HappyOyster”，旨在与谷歌的 Genie 3 等模型竞争，推动从视频理解到模拟环境生成的进展。",
+      "key_data": [
+        "阿里 HappyOyster",
+        "世界模型",
+        "对标谷歌 Genie 3"
+      ],
+      "judgment": "大厂在“世界模型”这一通往更高级 AI 的关键路径上展开角逐，视频生成与物理模拟的边界正在模糊。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/XhNNKN6qY4YNml04B0fF?utm_source=rss&utm_medium=article",
+      "importance": 3
     }
   ],
   "opinions": [
     {
+      "person": "Swyx (Shawn Wang)",
+      "level": "L2",
+      "quote": "在最新的 AINews 中，我们报道了‘Pull Request 的消亡’（2005-2026）。在 AI 代理自动生成和合并代码的时代，传统的基于 PR 的协作模式正在被更连续、自动化的代码流所取代。",
+      "source": "https://www.latent.space/p/ainews-rip-pull-requests-2005-2026"
+    },
+    {
       "person": "Simon Willison",
       "level": "L1",
-      "quote": "在最新的‘鹈鹕骑自行车’基准测试中，我本地运行的 Qwen3.6-35B-A3B 模型画出的鹈鹕，比 Claude Opus 4.7 画得更好。这显示了开源模型在多模态能力上正在快速追赶甚至超越顶级闭源模型。",
+      "quote": "对于任何（不明智地）认真对待我那个‘骑自行车的鹈鹕’基准测试的人来说，今早两个大模型发布的表现是：通义千问 3.6-35B-A3B 在我的笔记本上给我画了一只比 Claude Opus 4.7 更好的鹈鹕。",
       "source": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything"
     },
     {
-      "person": "Swyx (Latent Space)",
+      "person": "Gergely Orosz",
       "level": "L2",
-      "quote": "（以戏谑口吻报道）Pull Request (2005-2026)  RIP。在一个平静的日子里，我们报道了 Pull Request 的死亡。这暗示了 AI 智能体驱动的自动代码生成和合并，可能正在改变传统的代码协作审查流程。",
-      "source": "https://www.latent.space/p/ainews-rip-pull-requests-2005-2026"
+      "quote": "在 The Pulse 栏目中提到了‘Tokenmaxxing’作为一种奇怪的新趋势——这可能是最短命的趋势，因为它太浪费了。同时，编程 AI 代理的补贴可能即将结束。",
+      "source": "https://newsletter.pragmaticengineer.com/p/the-pulse-tokenmaxxing-as-a-weird"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI 编程工具的“桌面智能体”化竞争",
-      "reason": "OpenAI Codex 和 Anthropic Claude Code 相继获得强大的桌面控制能力，这不仅是功能升级，更可能彻底改变人机交互和软件开发范式，值得深入研究其技术实现、安全边界和生态影响。",
+      "topic": "AI 编程代理的桌面操作系统级控制",
+      "reason": "OpenAI Codex 和 Anthropic Claude Code 都在争夺对开发者桌面的控制权。这不仅是功能竞赛，更可能重塑软件开发范式与应用分发入口，值得深入分析其技术实现、安全风险与生态影响。",
       "priority": "high"
     },
     {
-      "topic": "开源社区对 AI 生成代码的抵制与规范",
-      "reason": "SDL 项目禁止 AI 代码提交是一个标志性事件，反映了开源社区对代码质量、法律责任和协作文化的深层担忧。这可能导致一系列行业规范、许可证条款和工具链的变革。",
+      "topic": "开源社区对 AI 生成代码的治理与合规",
+      "reason": "SDL 项目禁止 AI 代码提交是一个标志性事件，将引发连锁反应。需要深入研究开源协议（如 GPL、MIT）与 AI 生成内容的兼容性，以及未来开源协作模式的可能演变。",
       "priority": "high"
     }
   ],
-  "summary_one_line": "AI编程助手变身桌面智能体，具身智能数据战与资本热并行。",
+  "summary_one_line": "模型竞赛白热化，AI代理深入桌面，具身智能基建起跑。",
   "snapshot": {
-    "date": "2026-04-16",
+    "date": "2026-04-17",
     "hf_trending": [
       {
         "name": "MiniMaxAI/MiniMax-M2.7",
         "short_name": "MiniMax-M2.7",
-        "likes": 848,
+        "likes": 889,
         "downloads": 142955,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
         "tags": [
@@ -209,7 +229,7 @@
       {
         "name": "tencent/HY-Embodied-0.5",
         "short_name": "HY-Embodied-0.5",
-        "likes": 769,
+        "likes": 776,
         "downloads": 1060,
         "url": "https://huggingface.co/tencent/HY-Embodied-0.5",
         "tags": [
@@ -223,9 +243,25 @@
         "trend": "same"
       },
       {
+        "name": "Qwen/Qwen3.6-35B-A3B",
+        "short_name": "Qwen3.6-35B-A3B",
+        "likes": 541,
+        "downloads": 0,
+        "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
         "name": "zai-org/GLM-5.1",
         "short_name": "GLM-5.1",
-        "likes": 1284,
+        "likes": 1300,
         "downloads": 94376,
         "url": "https://huggingface.co/zai-org/GLM-5.1",
         "tags": [
@@ -241,7 +277,7 @@
       {
         "name": "google/gemma-4-31B-it",
         "short_name": "gemma-4-31B-it",
-        "likes": 1979,
+        "likes": 1995,
         "downloads": 3195626,
         "url": "https://huggingface.co/google/gemma-4-31B-it",
         "tags": [
@@ -255,25 +291,9 @@
         "trend": "same"
       },
       {
-        "name": "Qwen/Qwen3.6-35B-A3B",
-        "short_name": "Qwen3.6-35B-A3B",
-        "likes": 422,
-        "downloads": 0,
-        "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "new"
-      },
-      {
         "name": "baidu/ERNIE-Image",
         "short_name": "ERNIE-Image",
-        "likes": 377,
+        "likes": 395,
         "downloads": 1351,
         "url": "https://huggingface.co/baidu/ERNIE-Image",
         "tags": [
@@ -284,28 +304,12 @@
         "pipeline_tag": "text-to-image",
         "label": "文生图",
         "card_desc": "",
-        "trend": "new"
-      },
-      {
-        "name": "openbmb/VoxCPM2",
-        "short_name": "VoxCPM2",
-        "likes": 939,
-        "downloads": 15249,
-        "url": "https://huggingface.co/openbmb/VoxCPM2",
-        "tags": [
-          "voxcpm",
-          "safetensors",
-          "text-to-speech"
-        ],
-        "pipeline_tag": "text-to-speech",
-        "label": "文字转语音",
-        "card_desc": "",
         "trend": "same"
       },
       {
         "name": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
         "short_name": "supergemma4-26b-uncensored-gguf-v2",
-        "likes": 332,
+        "likes": 343,
         "downloads": 42468,
         "url": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2",
         "tags": [
@@ -317,85 +321,101 @@
         "label": "文本生成",
         "card_desc": "",
         "trend": "same"
+      },
+      {
+        "name": "openbmb/VoxCPM2",
+        "short_name": "VoxCPM2",
+        "likes": 1030,
+        "downloads": 15249,
+        "url": "https://huggingface.co/openbmb/VoxCPM2",
+        "tags": [
+          "voxcpm",
+          "safetensors",
+          "text-to-speech"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "same"
       }
     ],
     "github_trending": [],
     "openrouter_ranking": [
       {
         "rank": 1,
-        "slug": "anthropic/claude-4.6-opus-20260205",
-        "name": "claude-4.6-opus",
-        "org": "anthropic",
-        "total_tokens": 240745885557,
-        "total_tokens_str": "241B",
-        "calls": 4107980,
-        "change": 0.5,
-        "url": "https://openrouter.ai/models/anthropic/claude-4.6-opus-20260205"
-      },
-      {
-        "rank": 2,
         "slug": "anthropic/claude-4.6-sonnet-20260217",
         "name": "claude-4.6-sonnet",
         "org": "anthropic",
-        "total_tokens": 231843150952,
-        "total_tokens_str": "232B",
-        "calls": 5818883,
-        "change": 4.5,
+        "total_tokens": 222024085230,
+        "total_tokens_str": "222B",
+        "calls": 5391754,
+        "change": -4.2,
         "url": "https://openrouter.ai/models/anthropic/claude-4.6-sonnet-20260217"
       },
       {
+        "rank": 2,
+        "slug": "anthropic/claude-4.6-opus-20260205",
+        "name": "claude-4.6-opus",
+        "org": "anthropic",
+        "total_tokens": 209929043843,
+        "total_tokens_str": "210B",
+        "calls": 3640848,
+        "change": -12.8,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-opus-20260205"
+      },
+      {
         "rank": 3,
-        "slug": "deepseek/deepseek-v3.2-20251201",
-        "name": "deepseek-v3.2",
-        "org": "deepseek",
-        "total_tokens": 180759651695,
-        "total_tokens_str": "181B",
-        "calls": 18419181,
-        "change": -5.8,
-        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
-      },
-      {
-        "rank": 4,
-        "slug": "xiaomi/mimo-v2-pro-20260318",
-        "name": "mimo-v2-pro",
-        "org": "xiaomi",
-        "total_tokens": 173797478893,
-        "total_tokens_str": "174B",
-        "calls": 2450870,
-        "change": 6.8,
-        "url": "https://openrouter.ai/models/xiaomi/mimo-v2-pro-20260318"
-      },
-      {
-        "rank": 5,
-        "slug": "minimax/minimax-m2.5-20260211",
-        "name": "minimax-m2.5",
-        "org": "minimax",
-        "total_tokens": 172750639486,
-        "total_tokens_str": "173B",
-        "calls": 4002838,
-        "change": 3.4,
-        "url": "https://openrouter.ai/models/minimax/minimax-m2.5-20260211"
-      },
-      {
-        "rank": 6,
         "slug": "google/gemini-3-flash-preview-20251217",
         "name": "gemini-3-flash-preview",
         "org": "google",
-        "total_tokens": 170289121461,
-        "total_tokens_str": "170B",
-        "calls": 20799892,
-        "change": 3.0,
+        "total_tokens": 183858158490,
+        "total_tokens_str": "184B",
+        "calls": 20390884,
+        "change": 8.0,
         "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
+      },
+      {
+        "rank": 4,
+        "slug": "deepseek/deepseek-v3.2-20251201",
+        "name": "deepseek-v3.2",
+        "org": "deepseek",
+        "total_tokens": 175659924763,
+        "total_tokens_str": "176B",
+        "calls": 17602542,
+        "change": -2.8,
+        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
+      },
+      {
+        "rank": 5,
+        "slug": "xiaomi/mimo-v2-pro-20260318",
+        "name": "mimo-v2-pro",
+        "org": "xiaomi",
+        "total_tokens": 171244815547,
+        "total_tokens_str": "171B",
+        "calls": 2440927,
+        "change": -1.5,
+        "url": "https://openrouter.ai/models/xiaomi/mimo-v2-pro-20260318"
+      },
+      {
+        "rank": 6,
+        "slug": "minimax/minimax-m2.5-20260211",
+        "name": "minimax-m2.5",
+        "org": "minimax",
+        "total_tokens": 171069277701,
+        "total_tokens_str": "171B",
+        "calls": 3857458,
+        "change": -1.2,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.5-20260211"
       },
       {
         "rank": 7,
         "slug": "minimax/minimax-m2.7-20260318",
         "name": "minimax-m2.7",
         "org": "minimax",
-        "total_tokens": 163027965224,
-        "total_tokens_str": "163B",
-        "calls": 4544377,
-        "change": 1.9,
+        "total_tokens": 151039161078,
+        "total_tokens_str": "151B",
+        "calls": 4259592,
+        "change": -7.4,
         "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
       },
       {
@@ -403,35 +423,35 @@
         "slug": "openrouter/elephant-alpha",
         "name": "elephant-alpha",
         "org": "openrouter",
-        "total_tokens": 100367859588,
-        "total_tokens_str": "100B",
-        "calls": 3510658,
-        "change": 38.2,
+        "total_tokens": 103250333335,
+        "total_tokens_str": "103B",
+        "calls": 3508605,
+        "change": 2.9,
         "url": "https://openrouter.ai/models/openrouter/elephant-alpha"
       },
       {
         "rank": 9,
-        "slug": "google/gemini-2.5-flash-lite",
-        "name": "gemini-2.5-flash-lite",
-        "org": "google",
-        "total_tokens": 88332186844,
-        "total_tokens_str": "88B",
-        "calls": 28759033,
-        "change": -5.1,
-        "url": "https://openrouter.ai/models/google/gemini-2.5-flash-lite"
+        "slug": "openai/gpt-5.4-20260305",
+        "name": "gpt-5.4",
+        "org": "openai",
+        "total_tokens": 92844446645,
+        "total_tokens_str": "93B",
+        "calls": 3377890,
+        "change": 33.5,
+        "url": "https://openrouter.ai/models/openai/gpt-5.4-20260305"
       },
       {
         "rank": 10,
-        "slug": "openai/gpt-oss-120b",
-        "name": "gpt-oss-120b",
-        "org": "openai",
-        "total_tokens": 85833750686,
-        "total_tokens_str": "86B",
-        "calls": 14167380,
-        "change": 3.7,
-        "url": "https://openrouter.ai/models/openai/gpt-oss-120b"
+        "slug": "google/gemini-2.5-flash",
+        "name": "gemini-2.5-flash",
+        "org": "google",
+        "total_tokens": 88387671935,
+        "total_tokens_str": "88B",
+        "calls": 21080765,
+        "change": 6.4,
+        "url": "https://openrouter.ai/models/google/gemini-2.5-flash"
       }
     ],
-    "hf_summary": "多模态模型热度攀升文本生成仍受关注"
+    "hf_summary": "多模态与文本生成模型主导榜单大模型竞争激烈"
   }
 }
