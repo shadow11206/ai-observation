@@ -1,0 +1,431 @@
+{
+  "date": "2026-04-21",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Anthropic 获亚马逊 50 亿美元投资，承诺 1000 亿美元 AWS 支出",
+      "finding": "亚马逊向 Anthropic 追加投资 50 亿美元，作为交换，Anthropic 承诺未来将在 AWS 上投入 1000 亿美元。这是继之前投资后，双方资本与技术基础设施绑定的又一次加深。",
+      "key_data": [
+        "亚马逊投资 50 亿美元",
+        "Anthropic 承诺 AWS 支出 1000 亿美元",
+        "资本与云服务深度绑定"
+      ],
+      "judgment": "这意味着 AI 模型公司与云巨头的联盟进入新阶段，从简单的股权投资转向长期的、排他性的基础设施承诺。Anthropic 的独立性进一步削弱，而 AWS 则锁定了未来十年最重要的 AI 客户之一，巩固了其在 AI 基础设施战中的优势。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/"
+    },
+    {
+      "rank": 2,
+      "title": "中国科技工作者开始训练自己的 AI 替身，并引发反思",
+      "finding": "MIT 科技评论报道，中国科技公司的员工被要求训练 AI 代理来替代自己的工作，这引发了早期 AI 采纳者的深度反思和抵触情绪。",
+      "key_data": [
+        "员工被要求训练 AI 替身",
+        "引发反思与抵触",
+        "早期采纳者的矛盾心态"
+      ],
+      "judgment": "这意味着 AI 对工作的替代效应已从理论讨论进入现实执行阶段，尤其是在中国这样竞争激烈的市场。企业主希望通过 AI 降低成本，而员工则面临“教会徒弟，饿死师傅”的困境，这可能会加速 AI 伦理和劳动保障相关政策的讨论。",
+      "confidence": 4,
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/"
+    },
+    {
+      "rank": 3,
+      "title": "NSA 间谍据称在使用 Anthropic 的受限模型 Mythos",
+      "finding": "尽管美国国防部与 Anthropic 存在分歧，但国家安全局（NSA）的情报人员据称仍在秘密使用 Anthropic 的受限 AI 模型 Mythos。",
+      "key_data": [
+        "NSA 使用受限模型 Mythos",
+        "与国防部立场相悖",
+        "AI 模型进入情报领域"
+      ],
+      "judgment": "这意味着顶级 AI 模型已成为国家级情报工具，其战略价值超越了商业和学术范畴。即使存在政策分歧，实际需求（情报能力）仍会驱动秘密采用。这加剧了关于 AI 模型出口管制和“军民两用”技术的复杂性。",
+      "confidence": 3,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud/"
+    },
+    {
+      "rank": 4,
+      "title": "人形机器人创下半程马拉松世界纪录",
+      "finding": "荣耀公司的一台自主人形机器人以 50 分 26 秒的成绩完成了半程马拉松，比人类世界纪录快了 7 分钟。",
+      "key_data": [
+        "人形机器人半马 50:26",
+        "比人类纪录快 7 分钟",
+        "荣耀公司出品"
+      ],
+      "judgment": "这意味着具身智能在持续运动能力上取得了实质性突破，不再仅仅是实验室演示。机器人开始在实际物理任务（如长距离移动）上超越人类极限，为物流、巡检、甚至未来救援等场景的商业化铺平了道路。",
+      "confidence": 4,
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/a-humanoid-robot-set-a-half-marathon-record-in-china/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv cs.AI",
+      "title": "LACE：用于跨线程探索的格点注意力机制",
+      "finding": "研究提出 LACE 方法，让大语言模型在并行推理时，不同推理路径之间可以相互通信和借鉴，从而提升整体推理效率和准确性。",
+      "key_data": [
+        "跨推理线程通信",
+        "提升并行推理效率",
+        "格点注意力机制"
+      ],
+      "judgment": "这是对当前主流“孤立推理”范式的重要改进，意味着未来的推理模型可以更智能地分配计算资源，通过协作而非简单的采样来寻找最优解。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2604.15529",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "Aletheia：跨架构的高效 LoRA 微调梯度引导层选择方法",
+      "finding": "提出一种名为 Aletheia 的新方法，通过分析梯度信息，智能选择对特定任务最关键的神经网络层进行 LoRA 微调，而不是对所有层进行统一处理。",
+      "key_data": [
+        "梯度引导层选择",
+        "提升 LoRA 微调效率",
+        "适用于不同模型架构"
+      ],
+      "judgment": "这能显著降低微调的计算和存储成本，让资源有限的团队也能更高效地定制大模型，推动模型个性化应用的普及。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2604.15351",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "PolicyBank：为 LLM 智能体演进策略理解能力",
+      "finding": "研究提出 PolicyBank 框架，让 AI 智能体能够持续学习和更新对自然语言描述的组织策略（如授权规则）的理解，以适应动态变化的环境。",
+      "key_data": [
+        "动态策略理解",
+        "适应组织规则变化",
+        "提升智能体合规性"
+      ],
+      "judgment": "这是企业级 AI 智能体落地的关键一步，解决了策略频繁更新导致智能体失效的痛点，使智能体能在真实、复杂的商业规则下长期可靠运行。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2604.15505",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "量子位",
+      "title": "国内三大 AI 工具平台集成支付宝支付技能",
+      "finding": "国内三家头部 AI 工具平台（未点名）集成了支付宝的支付功能，让开发者能快速为自己的 AI 应用添加收费能力。",
+      "key_data": [
+        "三大平台集成支付",
+        "支付宝支付技能",
+        "降低 AI 应用商业化门槛"
+      ],
+      "judgment": "这意味着国内 AI 应用生态的基础设施（尤其是商业化闭环）正在快速完善，将刺激更多小而美的 AI 应用出现，并加速整个生态的货币化进程。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/04/403729.html",
+      "importance": 2
+    },
+    {
+      "source": "量子位",
+      "title": "阿里发布 Wan2.7-Image 模型，人类偏好盲测国内第一",
+      "finding": "阿里巴巴发布了新的图像生成模型 Wan2.7-Image，在人类偏好盲测中获得了国内第一的评分，号称能实现“千人千面”的个性化生成。",
+      "key_data": [
+        "Wan2.7-Image",
+        "人类偏好盲测国内第一",
+        "强调个性化生成"
+      ],
+      "judgment": "这表明国内图像生成模型的竞争焦点已从“跑分”转向更贴近用户真实感受的“主观质量”和“个性化”，是产品化思维在模型研发中的体现。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/04/403733.html",
+      "importance": 2
+    },
+    {
+      "source": "36氪 AI",
+      "title": "“灵光”平台将手搓应用做成“朋友圈”，开启一人应用时代",
+      "finding": "一个名为“灵光”的平台，通过低代码或 AI 生成方式，让个人能快速创建并分享小应用（如近期爆火的 SBTI 人格测试），应用传播模式类似朋友圈。",
+      "key_data": [
+        "“灵光”平台",
+        "手搓应用分享",
+        "一人应用时代"
+      ],
+      "judgment": "这代表了 AI 赋能下应用开发与分发的范式转变：从中心化应用商店转向社交化、病毒式传播。个人创造者影响力被放大，可能催生新的应用生态和流量模式。",
+      "confidence": 3,
+      "url": "https://36kr.com/p/3774865386144519?f=rss",
+      "importance": 2
+    },
+    {
+      "source": "OpenAI Blog",
+      "title": "凯悦酒店集团在全球部署 ChatGPT Enterprise",
+      "finding": "全球酒店集团凯悦（Hyatt）为其全球员工部署了 ChatGPT Enterprise，使用 GPT-5.4 和 Codex 来提升员工生产力、优化运营和改善客户体验。",
+      "key_data": [
+        "凯悦全球部署",
+        "ChatGPT Enterprise",
+        "GPT-5.4 和 Codex"
+      ],
+      "judgment": "这是 OpenAI 企业级产品在传统服务业大规模落地的典型案例，表明 AI 已从科技公司渗透至运营复杂的传统跨国企业，成为其数字化转型的核心工具。",
+      "confidence": 5,
+      "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "我升级了我的 Claude Token Counter 工具，增加了对比不同模型（在相同文本上）token 消耗量的功能。据我所知，这是第一个能让你轻松比较不同模型（如 Claude 3.5 Sonnet 与 Haiku）在相同输入上 token 数的工具。这对于成本优化和模型选择非常实用。",
+      "source": "https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI 模型公司与云基础设施巨头的“共生契约”",
+      "reason": "Anthropic 与亚马逊千亿美元级的绑定交易，标志着 AI 竞赛进入“资本+算力”深度捆绑的新阶段。值得深入研究此类合作对行业格局、模型公司独立性、以及中小玩家生存空间的长远影响。",
+      "priority": "high"
+    },
+    {
+      "topic": "中国“AI 替身”训练潮背后的劳资关系与伦理挑战",
+      "reason": "MIT 报道揭示了中国科技公司强制员工训练 AI 替代自己的现象。这不仅是技术问题，更是深刻的社会与伦理转折点，值得深入调研其规模、员工反应、企业动机及可能引发的政策应对。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "资本深度绑定算力，AI 替代进入执行期，机器人突破物理极限。",
+  "snapshot": {
+    "date": "2026-04-20",
+    "hf_trending": [
+      {
+        "name": "Qwen/Qwen3.6-35B-A3B",
+        "short_name": "Qwen3.6-35B-A3B",
+        "likes": 1041,
+        "downloads": 334628,
+        "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "tencent/HY-Embodied-0.5",
+        "short_name": "HY-Embodied-0.5",
+        "likes": 886,
+        "downloads": 1662,
+        "url": "https://huggingface.co/tencent/HY-Embodied-0.5",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "hunyuan_vl_mot"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "unsloth/Qwen3.6-35B-A3B-GGUF",
+        "short_name": "Qwen3.6-35B-A3B-GGUF",
+        "likes": 560,
+        "downloads": 816485,
+        "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "baidu/ERNIE-Image",
+        "short_name": "ERNIE-Image",
+        "likes": 496,
+        "downloads": 4144,
+        "url": "https://huggingface.co/baidu/ERNIE-Image",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "text-to-image"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "tencent/HY-World-2.0",
+        "short_name": "HY-World-2.0",
+        "likes": 494,
+        "downloads": 0,
+        "url": "https://huggingface.co/tencent/HY-World-2.0",
+        "tags": [
+          "hy-world-2.0",
+          "safetensors",
+          "worldmodel"
+        ],
+        "pipeline_tag": "image-to-3d",
+        "label": "Image To 3D",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "moonshotai/Kimi-K2.6",
+        "short_name": "Kimi-K2.6",
+        "likes": 364,
+        "downloads": 423,
+        "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "kimi_k25"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
+        "short_name": "gemma-4-E4B-it-OBLITERATED",
+        "likes": 379,
+        "downloads": 50701,
+        "url": "https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
+        "tags": [
+          "safetensors",
+          "gguf",
+          "gemma4"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "baidu/ERNIE-Image-Turbo",
+        "short_name": "ERNIE-Image-Turbo",
+        "likes": 334,
+        "downloads": 5297,
+        "url": "https://huggingface.co/baidu/ERNIE-Image-Turbo",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "text-to-image"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v3.2-20251201",
+        "name": "deepseek-v3.2",
+        "org": "deepseek",
+        "total_tokens": 187328134853,
+        "total_tokens_str": "187B",
+        "calls": 17472547,
+        "change": 9.2,
+        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
+      },
+      {
+        "rank": 2,
+        "slug": "xiaomi/mimo-v2-pro-20260318",
+        "name": "mimo-v2-pro",
+        "org": "xiaomi",
+        "total_tokens": 157966464271,
+        "total_tokens_str": "158B",
+        "calls": 2296779,
+        "change": -2.0,
+        "url": "https://openrouter.ai/models/xiaomi/mimo-v2-pro-20260318"
+      },
+      {
+        "rank": 3,
+        "slug": "anthropic/claude-4.6-sonnet-20260217",
+        "name": "claude-4.6-sonnet",
+        "org": "anthropic",
+        "total_tokens": 142919196672,
+        "total_tokens_str": "143B",
+        "calls": 4943996,
+        "change": 1.4,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-sonnet-20260217"
+      },
+      {
+        "rank": 4,
+        "slug": "google/gemini-3-flash-preview-20251217",
+        "name": "gemini-3-flash-preview",
+        "org": "google",
+        "total_tokens": 137962461524,
+        "total_tokens_str": "138B",
+        "calls": 14274539,
+        "change": -2.9,
+        "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
+      },
+      {
+        "rank": 5,
+        "slug": "minimax/minimax-m2.5-20260211",
+        "name": "minimax-m2.5",
+        "org": "minimax",
+        "total_tokens": 115524959400,
+        "total_tokens_str": "116B",
+        "calls": 2871939,
+        "change": -7.8,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.5-20260211"
+      },
+      {
+        "rank": 6,
+        "slug": "minimax/minimax-m2.7-20260318",
+        "name": "minimax-m2.7",
+        "org": "minimax",
+        "total_tokens": 111390933296,
+        "total_tokens_str": "111B",
+        "calls": 3139606,
+        "change": 9.3,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
+      },
+      {
+        "rank": 7,
+        "slug": "nvidia/nemotron-3-super-120b-a12b-20230311",
+        "name": "nemotron-3-super-120b-a12b",
+        "org": "nvidia",
+        "total_tokens": 90002979930,
+        "total_tokens_str": "90B",
+        "calls": 2132280,
+        "change": 5.4,
+        "url": "https://openrouter.ai/models/nvidia/nemotron-3-super-120b-a12b-20230311"
+      },
+      {
+        "rank": 8,
+        "slug": "anthropic/claude-4.6-opus-20260205",
+        "name": "claude-4.6-opus",
+        "org": "anthropic",
+        "total_tokens": 87588128123,
+        "total_tokens_str": "88B",
+        "calls": 1771884,
+        "change": 2.8,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-opus-20260205"
+      },
+      {
+        "rank": 9,
+        "slug": "openrouter/elephant-alpha",
+        "name": "elephant-alpha",
+        "org": "openrouter",
+        "total_tokens": 84500527097,
+        "total_tokens_str": "85B",
+        "calls": 2851382,
+        "change": -8.7,
+        "url": "https://openrouter.ai/models/openrouter/elephant-alpha"
+      },
+      {
+        "rank": 10,
+        "slug": "anthropic/claude-4.7-opus-20260416",
+        "name": "claude-4.7-opus",
+        "org": "anthropic",
+        "total_tokens": 84489776341,
+        "total_tokens_str": "84B",
+        "calls": 1129163,
+        "change": 6.8,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.7-opus-20260416"
+      }
+    ],
+    "hf_summary": "多模态与文生图模型主导榜单竞争激烈"
+  }
+}
