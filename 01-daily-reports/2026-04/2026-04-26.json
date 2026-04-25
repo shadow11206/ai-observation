@@ -1,0 +1,492 @@
+{
+  "date": "2026-04-26",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "DeepSeek 发布 V4 Pro 和 Flash 模型，可在华为昇腾芯片上运行",
+      "finding": "DeepSeek 发布了 V4 Pro（1.6万亿参数，激活490亿）和 Flash（2840亿参数，激活130亿）两个新模型，包括基座和指令版本。关键亮点是这些模型可以在华为昇腾芯片上运行，这意味着它们绕开了对英伟达高端GPU的依赖。不过，Latent Space 指出，DeepSeek 已不再是基准测试的领先者。",
+      "key_data": [
+        "1.6万亿参数",
+        "激活490亿参数",
+        "华为昇腾芯片支持",
+        "不再领先基准测试"
+      ],
+      "judgment": "DeepSeek 在开源和国产芯片适配上的进展值得关注，但性能优势正在被追赶。对开发者而言，这意味着有了更多可选的、不受出口管制影响的模型，但需要评估实际效果是否满足需求。",
+      "confidence": 4,
+      "source": "Latent Space",
+      "url": "https://www.latent.space/p/ainews-deepseek-v4-pro-16t-a49b-and"
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI 发布 GPT-5.5，统一代码与通用模型，并推出生物安全漏洞悬赏",
+      "finding": "OpenAI 发布了 GPT-5.5，核心变化是统一了 Codex 和主模型，不再有单独的代码模型。新模型在 Agent 编程、计算机使用和生物能力方面有显著提升。同时，OpenAI 推出了 GPT-5.5 生物安全漏洞悬赏计划，邀请研究人员测试模型在生物风险方面的安全性。",
+      "key_data": [
+        "统一 Codex 与主模型",
+        "Agent 编程能力提升",
+        "生物安全漏洞悬赏"
+      ],
+      "judgment": "GPT-5.5 统一代码模型意味着 OpenAI 认为通用模型已足够胜任编程任务，这对 AI 编程工具格局有重大影响。生物安全悬赏则显示前沿模型的安全评估正从内部走向社区协作。",
+      "confidence": 5,
+      "source": "Simon Willison / OpenAI",
+      "url": "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything"
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic 创建 Agent 间商业交易测试市场",
+      "finding": "Anthropic 进行了一项实验，创建了一个分类广告市场，其中 AI Agent 同时代表买家和卖家，进行真实的商品交易和资金往来。这标志着 Agent 从信息处理向自主商业行为的重大跨越。",
+      "key_data": [
+        "Agent 间真实交易",
+        "买家和卖家均为 Agent",
+        "真实资金往来"
+      ],
+      "judgment": "这是 Agent 商业化的重要里程碑。如果 Agent 能自主完成交易闭环，将催生全新的商业模式，对电商、供应链、金融等领域产生深远影响。开发者需要关注 Agent 的信任、安全和法律合规问题。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/"
+    },
+    {
+      "rank": 4,
+      "title": "Cohere 与 Aleph Alpha 合并，打造欧洲主权 AI 替代方案",
+      "finding": "加拿大 AI 公司 Cohere 收购了德国公司 Aleph Alpha，并得到 Lidl 母公司 Schwarz Group 的支持。双方计划在政府支持下，提供不受美国科技巨头控制的主权 AI 替代方案。",
+      "key_data": [
+        "Cohere 收购 Aleph Alpha",
+        "Schwarz Group 支持",
+        "主权 AI 替代方案"
+      ],
+      "judgment": "这标志着 AI 地缘政治格局的进一步分化。欧洲正在积极构建自己的 AI 能力，对依赖美国 API 的企业来说，未来可能会有更多本地化、合规的选择。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/"
+    },
+    {
+      "rank": 5,
+      "title": "AI 行业发现公众普遍反感 AI",
+      "finding": "《新共和》杂志发表文章指出，AI 行业正面临日益增长的公众反感情绪。文章引用多项调查和事件，显示人们对 AI 的隐私、就业影响和伦理问题感到担忧。",
+      "key_data": [
+        "公众反感情绪上升",
+        "隐私与就业担忧",
+        "伦理问题"
+      ],
+      "judgment": "这是一个重要的行业警示。技术发展不能脱离社会接受度。AI 公司和产品经理需要更加重视用户信任、透明度和负责任的 AI 实践，否则可能面临更严格的监管和用户流失。",
+      "confidence": 3,
+      "source": "Hacker News",
+      "url": "https://newrepublic.com/article/209163/ai-industry-discovering-public-backlash"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Simon Willison",
+      "title": "llm 0.31 发布，支持 GPT-5.5 和新的详细度控制",
+      "finding": "Simon Willison 的 LLM 命令行工具更新到 0.31 版本，新增对 GPT-5.5 模型的支持，并允许用户通过 `-o verbosity` 参数控制 GPT-5+ 模型的输出详细程度。",
+      "key_data": [
+        "支持 GPT-5.5",
+        "verbosity 参数",
+        "低/中/高三档"
+      ],
+      "judgment": "对开发者来说，这是一个实用的工具更新，简化了与最新模型的交互。",
+      "confidence": 5,
+      "url": "https://simonwillison.net/2026/Apr/24/llm/#atom-everything",
+      "importance": 2
+    },
+    {
+      "source": "Simon Willison",
+      "title": "GPT-5.5 提示词指南发布",
+      "finding": "OpenAI 发布了 GPT-5.5 的提示词指南，推荐了针对新模型的最佳实践，包括一个用于应用开发的巧妙技巧。",
+      "key_data": [
+        "提示词最佳实践",
+        "应用开发技巧"
+      ],
+      "judgment": "对于正在使用或计划使用 GPT-5.5 的开发者，这份指南是必读材料，能帮助更好地发挥模型能力。",
+      "confidence": 5,
+      "url": "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything",
+      "importance": 3
+    },
+    {
+      "source": "Hacker News",
+      "title": "开源内存层：让任何 AI Agent 拥有类似 Claude 和 ChatGPT 的记忆能力",
+      "finding": "一个名为 Stash 的开源项目，为 AI Agent 提供内存层，使其能够像 Claude 和 ChatGPT 一样记住对话历史。该项目在 Hacker News 上获得 158 分。",
+      "key_data": [
+        "开源内存层",
+        "Agent 记忆能力",
+        "Hacker News 158 分"
+      ],
+      "judgment": "记忆是 Agent 长期运行的关键能力。这个开源项目降低了实现 Agent 记忆的门槛，对开发者社区有积极意义。",
+      "confidence": 3,
+      "url": "https://alash3al.github.io/stash?_v01",
+      "importance": 3
+    },
+    {
+      "source": "Hacker News",
+      "title": "Lambda 演算 AI 基准测试发布",
+      "finding": "一个名为 Lambench 的基准测试发布，专门用于评估 AI 在 Lambda 演算方面的能力。该项目在 Hacker News 上获得 128 分。",
+      "key_data": [
+        "Lambda 演算基准",
+        "AI 推理能力评估",
+        "Hacker News 128 分"
+      ],
+      "judgment": "这是一个有趣的、针对特定推理能力的基准测试，可能对评估模型的逻辑和数学能力有参考价值。",
+      "confidence": 3,
+      "url": "https://victortaelin.github.io/lambench/",
+      "importance": 2
+    },
+    {
+      "source": "Hacker News",
+      "title": "展示 HN：一个由 Agent 维护的 Karpathy 风格 LLM Wiki",
+      "finding": "一个名为 Wuphf 的开源项目，创建了一个由 AI Agent 维护的 LLM Wiki，使用 Markdown 和 Git 作为数据源，并基于 BM25 和 SQLite 构建索引。",
+      "key_data": [
+        "Agent 维护 Wiki",
+        "Markdown + Git",
+        "BM25 + SQLite 索引"
+      ],
+      "judgment": "这展示了 Agent 在知识管理领域的应用潜力，但技术栈相对传统，可能不是长期最优解。",
+      "confidence": 3,
+      "url": "https://github.com/nex-crm/wuphf",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "TechCrunch",
+      "title": "Anthropic 创建 Agent 间商业交易测试市场",
+      "finding": "Anthropic 进行了一项实验，创建了一个分类广告市场，其中 AI Agent 同时代表买家和卖家，进行真实的商品交易和资金往来。",
+      "key_data": [
+        "Agent 间真实交易",
+        "买家和卖家均为 Agent",
+        "真实资金往来"
+      ],
+      "judgment": "这是 Agent 商业化的重要里程碑，可能催生全新的商业模式。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+      "importance": 4
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Cohere 与 Aleph Alpha 合并，打造欧洲主权 AI 替代方案",
+      "finding": "加拿大 AI 公司 Cohere 收购了德国公司 Aleph Alpha，并得到 Schwarz Group 支持，旨在提供不受美国科技巨头控制的主权 AI 替代方案。",
+      "key_data": [
+        "Cohere 收购 Aleph Alpha",
+        "Schwarz Group 支持",
+        "主权 AI 替代方案"
+      ],
+      "judgment": "这标志着 AI 地缘政治格局的进一步分化，欧洲正在构建自己的 AI 能力。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
+      "importance": 4
+    },
+    {
+      "source": "36氪",
+      "title": "马斯克花4000多亿买下00后公司，SpaceX锁定Cursor补齐AI编程短板",
+      "finding": "据报道，马斯克以超过4000亿的价格收购了一家由00后创立的公司，同时 SpaceX 与 Cursor 达成合作，以增强其在 AI 编程方面的能力。",
+      "key_data": [
+        "4000亿收购",
+        "00后公司",
+        "SpaceX 与 Cursor 合作"
+      ],
+      "judgment": "马斯克在 AI 领域的布局持续加码，收购和合作表明其对 AI 编程和人才的高度重视。",
+      "confidence": 2,
+      "url": "https://36kr.com/p/3781532841581576?f=rss",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "华为发布 ADS 5 自动驾驶系统，强化世界模型路线",
+      "finding": "华为发布了 ADS 5 自动驾驶系统，进一步强化了世界模型的技术路线，并宣布今年将投入 180 亿元用于相关研发。",
+      "key_data": [
+        "ADS 5 发布",
+        "世界模型路线",
+        "180 亿元投入"
+      ],
+      "judgment": "华为在自动驾驶领域的投入和技术路线选择，显示了其对物理 AI 的长期承诺，可能加速 L4 级自动驾驶的落地。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/04/407363.html",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "Cloudflare 公布 MCP 架构方案，应对企业面临的安全与治理风险",
+      "finding": "Cloudflare 公布了其 MCP（Model Context Protocol）架构方案，旨在帮助企业应对 AI 应用带来的安全与治理风险。",
+      "key_data": [
+        "MCP 架构方案",
+        "安全与治理",
+        "企业 AI 应用"
+      ],
+      "judgment": "随着 AI 在企业中的广泛应用，安全和治理成为关键挑战。Cloudflare 的方案为行业提供了参考。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/eWRlmwIT5ApA2OKL9RYh?utm_source=rss&utm_medium=article",
+      "importance": 3
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Romain Huet (OpenAI)",
+      "level": "L1",
+      "quote": "自 GPT-5.4 以来，我们已经将 Codex 和主模型统一为一个系统，不再有单独的代码模型。GPT-5.5 进一步提升了在 Agent 编程、计算机使用和生物能力方面的表现。",
+      "source": "Simon Willison 引用"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "Agent 间自主商业交易的可行性与风险",
+      "reason": "Anthropic 的实验可能开启 Agent 商业化的新范式，值得深入研究其技术实现、安全挑战和法律影响。",
+      "priority": "high"
+    },
+    {
+      "topic": "GPT-5.5 统一代码模型对 AI 编程工具格局的影响",
+      "reason": "OpenAI 取消独立代码模型，可能改变 Cursor、GitHub Copilot 等工具的竞争态势。",
+      "priority": "high"
+    },
+    {
+      "topic": "欧洲主权 AI 战略与 Cohere-Aleph Alpha 合并",
+      "reason": "这代表了 AI 地缘政治的新动向，对全球 AI 市场格局和合规要求有深远影响。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "GPT-5.5 发布，Agent 开始自主交易，欧洲主权 AI 加速",
+  "snapshot": {
+    "date": "2026-04-25",
+    "hf_trending": [
+      {
+        "name": "deepseek-ai/DeepSeek-V4-Pro",
+        "short_name": "DeepSeek-V4-Pro",
+        "likes": 2681,
+        "downloads": 78864,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v4"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "moonshotai/Kimi-K2.6",
+        "short_name": "Kimi-K2.6",
+        "likes": 1025,
+        "downloads": 291840,
+        "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "kimi_k25"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen3.6-27B",
+        "short_name": "Qwen3.6-27B",
+        "likes": 811,
+        "downloads": 257685,
+        "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "openai/privacy-filter",
+        "short_name": "privacy-filter",
+        "likes": 749,
+        "downloads": 21097,
+        "url": "https://huggingface.co/openai/privacy-filter",
+        "tags": [
+          "transformers",
+          "onnx",
+          "safetensors"
+        ],
+        "pipeline_tag": "token-classification",
+        "label": "命名实体识别",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "deepseek-ai/DeepSeek-V4-Flash",
+        "short_name": "DeepSeek-V4-Flash",
+        "likes": 684,
+        "downloads": 25391,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v4"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "Qwen/Qwen3.6-35B-A3B",
+        "short_name": "Qwen3.6-35B-A3B",
+        "likes": 1402,
+        "downloads": 1027741,
+        "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "unsloth/Qwen3.6-27B-GGUF",
+        "short_name": "Qwen3.6-27B-GGUF",
+        "likes": 402,
+        "downloads": 458273,
+        "url": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "unsloth/Qwen3.6-35B-A3B-GGUF",
+        "short_name": "Qwen3.6-35B-A3B-GGUF",
+        "likes": 763,
+        "downloads": 1488984,
+        "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "moonshotai/kimi-k2.6-20260420",
+        "name": "kimi-k2.6",
+        "org": "moonshotai",
+        "total_tokens": 289288688508,
+        "total_tokens_str": "289B",
+        "calls": 4480860,
+        "change": -2.5,
+        "url": "https://openrouter.ai/models/moonshotai/kimi-k2.6-20260420"
+      },
+      {
+        "rank": 2,
+        "slug": "anthropic/claude-4.7-opus-20260416",
+        "name": "claude-4.7-opus",
+        "org": "anthropic",
+        "total_tokens": 234134793942,
+        "total_tokens_str": "234B",
+        "calls": 2054944,
+        "change": 7.2,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.7-opus-20260416"
+      },
+      {
+        "rank": 3,
+        "slug": "anthropic/claude-4.6-sonnet-20260217",
+        "name": "claude-4.6-sonnet",
+        "org": "anthropic",
+        "total_tokens": 197831796320,
+        "total_tokens_str": "198B",
+        "calls": 4697832,
+        "change": -4.7,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-sonnet-20260217"
+      },
+      {
+        "rank": 4,
+        "slug": "deepseek/deepseek-v3.2-20251201",
+        "name": "deepseek-v3.2",
+        "org": "deepseek",
+        "total_tokens": 174404875460,
+        "total_tokens_str": "174B",
+        "calls": 18879477,
+        "change": -14.3,
+        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
+      },
+      {
+        "rank": 5,
+        "slug": "google/gemini-3-flash-preview-20251217",
+        "name": "gemini-3-flash-preview",
+        "org": "google",
+        "total_tokens": 139183964779,
+        "total_tokens_str": "139B",
+        "calls": 17994596,
+        "change": -9.5,
+        "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
+      },
+      {
+        "rank": 6,
+        "slug": "x-ai/grok-4.1-fast",
+        "name": "grok-4.1-fast",
+        "org": "x-ai",
+        "total_tokens": 123212983059,
+        "total_tokens_str": "123B",
+        "calls": 18861905,
+        "change": -11.4,
+        "url": "https://openrouter.ai/models/x-ai/grok-4.1-fast"
+      },
+      {
+        "rank": 7,
+        "slug": "minimax/minimax-m2.7-20260318",
+        "name": "minimax-m2.7",
+        "org": "minimax",
+        "total_tokens": 114177986060,
+        "total_tokens_str": "114B",
+        "calls": 3598911,
+        "change": -7.9,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
+      },
+      {
+        "rank": 8,
+        "slug": "stepfun/step-3.5-flash",
+        "name": "step-3.5-flash",
+        "org": "stepfun",
+        "total_tokens": 108318757207,
+        "total_tokens_str": "108B",
+        "calls": 1900048,
+        "change": -17.2,
+        "url": "https://openrouter.ai/models/stepfun/step-3.5-flash"
+      },
+      {
+        "rank": 9,
+        "slug": "nvidia/nemotron-3-super-120b-a12b-20230311",
+        "name": "nemotron-3-super-120b-a12b",
+        "org": "nvidia",
+        "total_tokens": 96768944763,
+        "total_tokens_str": "97B",
+        "calls": 2413594,
+        "change": -45.1,
+        "url": "https://openrouter.ai/models/nvidia/nemotron-3-super-120b-a12b-20230311"
+      },
+      {
+        "rank": 10,
+        "slug": "anthropic/claude-4.6-opus-20260205",
+        "name": "claude-4.6-opus",
+        "org": "anthropic",
+        "total_tokens": 93183542636,
+        "total_tokens_str": "93B",
+        "calls": 1889401,
+        "change": -10.0,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-opus-20260205"
+      }
+    ],
+    "hf_summary": "开源模型主导，多模态理解成主流"
+  }
+}

@@ -1,6 +1,13 @@
 {
-  "total": 30,
+  "total": 31,
   "reports": [
+    {
+      "date": "2026-04-26",
+      "title": "今日 AI 日报：DeepSeek 发布 V4 Pro 和 Flash 模型，可在华为昇腾芯片上运行 + 4 条重要动态",
+      "excerpt": "DeepSeek 在开源和国产芯片适配上的进展值得关注，但性能优势正在被追赶。对…",
+      "top_count": 5,
+      "file": "2026-04-26.json"
+    },
     {
       "date": "2026-04-24",
       "title": "今日 AI 日报：OpenAI发布GPT-5.5：最强模型，内测者称“失去它像被截肢” + 4 条重要动态",
