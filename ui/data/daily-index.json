@@ -1,6 +1,13 @@
 {
-  "total": 31,
+  "total": 32,
   "reports": [
+    {
+      "date": "2026-04-27",
+      "title": "今日 AI 日报：OpenAI发布指导工作的五项原则 + 4 条重要动态",
+      "excerpt": "这标志着OpenAI在经历高层动荡后，试图重新统一内部共识并对外传递稳定信号。对…",
+      "top_count": 5,
+      "file": "2026-04-27.json"
+    },
     {
       "date": "2026-04-26",
       "title": "今日 AI 日报：DeepSeek 发布 V4 Pro 和 Flash 模型，可在华为昇腾芯片上运行 + 4 条重要动态",

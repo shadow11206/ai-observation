@@ -1,0 +1,441 @@
+{
+  "date": "2026-04-27",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "OpenAI发布指导工作的五项原则",
+      "finding": "Sam Altman在博客中分享了OpenAI的五大原则：AGI造福全人类、安全第一、技术卓越、开放合作、长期主义。这并非具体产品更新，而是公司价值观和战略方向的公开声明。",
+      "key_data": [
+        "AGI造福全人类",
+        "安全第一",
+        "技术卓越",
+        "开放合作",
+        "长期主义"
+      ],
+      "judgment": "这标志着OpenAI在经历高层动荡后，试图重新统一内部共识并对外传递稳定信号。对行业而言，意味着OpenAI将更强调安全与长期主义，可能影响其产品发布节奏和开源策略。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/our-principles"
+    },
+    {
+      "rank": 2,
+      "title": "AI Agent误删生产数据库，引发安全讨论",
+      "finding": "一个AI Agent在执行任务时意外删除了生产数据库，事后Agent自己“承认”了错误。该事件在Hacker News上引发516条评论，讨论AI Agent的安全边界和权限控制问题。",
+      "key_data": [
+        "371 points",
+        "516条评论",
+        "生产数据库被删",
+        "Agent自主承认"
+      ],
+      "judgment": "这是AI Agent落地中的典型安全事件，给所有开发Agent产品的团队敲响警钟：权限最小化、人工审批环节、操作回滚机制必须成为Agent产品的标配，否则企业级采用将受阻。",
+      "confidence": 4,
+      "source": "Hacker News",
+      "url": "https://twitter.com/lifeof_jer/status/2048103471019434248"
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic为Claude Code推出基于Agent的代码审查功能",
+      "finding": "Anthropic在Claude Code中新增了AI驱动的代码审查能力，Agent可以自动审查代码变更、发现潜在问题并提供修复建议。这是AI编程工具从“写代码”向“审代码”的重要延伸。",
+      "key_data": [
+        "Claude Code新功能",
+        "Agent代码审查",
+        "自动发现潜在问题"
+      ],
+      "judgment": "代码审查是软件开发中耗时且关键的环节，AI Agent介入将显著提升开发效率。对Cursor、GitHub Copilot等竞品形成压力，AI编程工具正在从辅助编码向全流程开发助手演进。",
+      "confidence": 4,
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/QyeZg05iakideMTGCQKi"
+    },
+    {
+      "rank": 4,
+      "title": "Claude降智问题被官方承认，用户额度重置",
+      "finding": "Claude被用户发现存在“越聊越傻”的降智问题，Anthropic官方承认了三个相关bug，并重置了所有用户的使用额度。这证实了此前用户对模型性能下降的抱怨。",
+      "key_data": [
+        "降智问题被官方承认",
+        "3个bug曝光",
+        "所有用户额度重置"
+      ],
+      "judgment": "模型降智是用户最敏感的体验问题之一，Anthropic的快速承认和补偿措施值得肯定，但也暴露了其模型在生产环境中的稳定性挑战。对竞品而言，这是争夺用户信任的机会。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/407502.html"
+    },
+    {
+      "rank": 5,
+      "title": "DeepSeek核心作者阮翀加盟元戎启行，详解VLA模型研发提效10倍",
+      "finding": "DeepSeek V4作者之一阮翀加盟自动驾驶公司元戎启行，首次公开讲解其基座VLA（视觉-语言-行动）模型，称研发效率提升10倍。这是AI人才从大模型向垂直行业流动的典型案例。",
+      "key_data": [
+        "DeepSeek V4作者",
+        "元戎启行",
+        "VLA模型",
+        "研发提效10倍"
+      ],
+      "judgment": "顶级AI人才从通用大模型公司流向自动驾驶等垂直领域，说明行业正在从“造模型”转向“用模型”。VLA模型将加速自动驾驶的端到端方案落地，对行业格局有实质性影响。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/407465.html"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "量子位",
+      "title": "全球首个医疗视频理解大模型开源",
+      "finding": "首个专门针对医疗视频理解的开源大模型发布，同时提供了6000+组精标测试集和英雄榜，开发者可免费使用。",
+      "key_data": [
+        "全球首个医疗视频理解模型",
+        "开源",
+        "6000+组精标测试集"
+      ],
+      "judgment": "医疗AI从文本、图像进入视频理解阶段，开源将加速临床诊断、手术辅助等应用落地。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/04/407486.html",
+      "importance": 3
+    },
+    {
+      "source": "Hacker News",
+      "title": "Eden AI：欧洲版OpenRouter上线",
+      "finding": "Eden AI作为欧洲的AI模型聚合平台上线，提供类似OpenRouter的多模型API接入服务，在Hacker News上获得124 points和66条评论。",
+      "key_data": [
+        "欧洲版OpenRouter",
+        "多模型API聚合",
+        "124 points"
+      ],
+      "judgment": "欧洲AI基础设施正在追赶，但短期内难以撼动OpenRouter地位，更多是满足欧洲本地化合规需求。",
+      "confidence": 3,
+      "url": "https://www.edenai.co",
+      "importance": 2
+    },
+    {
+      "source": "Hacker News",
+      "title": "AI应提升你的思考，而非取代它",
+      "finding": "一篇获得210 points的文章指出，当前AI工具的设计方向偏向于替代人类思考，而非辅助思考，呼吁开发者设计更注重认知增强的AI产品。",
+      "key_data": [
+        "210 points",
+        "AI应辅助思考",
+        "反对替代式设计"
+      ],
+      "judgment": "这是对当前AI产品设计理念的重要反思，提醒产品经理不要一味追求自动化，而忽略了用户认知能力的保持。",
+      "confidence": 3,
+      "url": "https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "36氪",
+      "title": "润芯微发布国产软硬一体AI智能基座",
+      "finding": "润芯微在车展期间发布了“芯片+操作系统+AI”全栈解决方案，可应用于车载座舱、两轮车、机器人等多端场景，已实现百万级量产上车。",
+      "key_data": [
+        "国产软硬一体AI基座",
+        "百万级量产上车",
+        "多端场景"
+      ],
+      "judgment": "国产AI基础设施在汽车和IoT领域加速落地，但需关注其与高通、英伟达等国际方案的竞争力。",
+      "confidence": 3,
+      "url": "https://36kr.com/p/3782901034785801",
+      "importance": 2
+    },
+    {
+      "source": "36氪",
+      "title": "中国公司实现微米级磁悬浮输送系统量产",
+      "finding": "佛山增广智能成为全球唯二、中国唯一掌握六自由度平面磁悬浮输送系统核心技术的企业，已实现大规模量产，用于柔性制造产线。",
+      "key_data": [
+        "全球唯二",
+        "六自由度磁悬浮",
+        "大规模量产"
+      ],
+      "judgment": "这是智能制造领域的硬核突破，但属于工业自动化范畴，与AI行业直接关联有限。",
+      "confidence": 3,
+      "url": "https://36kr.com/p/3782960065108996",
+      "importance": 1
+    },
+    {
+      "source": "TechCrunch",
+      "title": "旧金山湾区房产挂牌：需用Anthropic股权购买",
+      "finding": "一处位于Mill Valley的13英亩房产挂牌，卖家要求买家以Anthropic公司股权作为支付方式，反映出AI公司股权在硅谷的硬通货属性。",
+      "key_data": [
+        "Anthropic股权支付",
+        "13英亩房产",
+        "硅谷新现象"
+      ],
+      "judgment": "这是AI行业财富效应的有趣注脚，说明Anthropic等AI公司的股权已被视为与现金等价的高价值资产。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/",
+      "importance": 1
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Sam Altman",
+      "level": "L3",
+      "quote": "OpenAI的使命是确保AGI造福全人类，我们遵循五项原则：AGI造福全人类、安全第一、技术卓越、开放合作、长期主义。",
+      "source": "https://openai.com/index/our-principles"
+    },
+    {
+      "person": "曹旭东",
+      "level": "L1",
+      "quote": "规模L4自动驾驶需要百亿美元投入，现金流业务是物理AI的门票。做好自动驾驶，海量数据的作用只占10%。",
+      "source": "https://www.qbitai.com/2026/04/407485.html"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI Agent的安全边界与权限控制最佳实践",
+      "reason": "Agent误删数据库事件暴露了行业普遍的安全盲区，值得深入调研权限最小化、人工审批、操作回滚等机制。",
+      "priority": "high"
+    },
+    {
+      "topic": "VLA模型在自动驾驶中的应用现状与前景",
+      "reason": "DeepSeek核心作者加盟元戎启行，VLA模型研发提效10倍，标志着自动驾驶技术路线的重要转变。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "OpenAI发布原则，Agent安全事件敲警钟",
+  "snapshot": {
+    "date": "2026-04-26",
+    "hf_trending": [
+      {
+        "name": "deepseek-ai/DeepSeek-V4-Pro",
+        "short_name": "DeepSeek-V4-Pro",
+        "likes": 2839,
+        "downloads": 123431,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v4"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "moonshotai/Kimi-K2.6",
+        "short_name": "Kimi-K2.6",
+        "likes": 1056,
+        "downloads": 376485,
+        "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "kimi_k25"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "Qwen/Qwen3.6-27B",
+        "short_name": "Qwen3.6-27B",
+        "likes": 855,
+        "downloads": 329571,
+        "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "openai/privacy-filter",
+        "short_name": "privacy-filter",
+        "likes": 844,
+        "downloads": 35807,
+        "url": "https://huggingface.co/openai/privacy-filter",
+        "tags": [
+          "transformers",
+          "onnx",
+          "safetensors"
+        ],
+        "pipeline_tag": "token-classification",
+        "label": "命名实体识别",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "deepseek-ai/DeepSeek-V4-Flash",
+        "short_name": "DeepSeek-V4-Flash",
+        "likes": 733,
+        "downloads": 45986,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v4"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "Qwen/Qwen3.6-35B-A3B",
+        "short_name": "Qwen3.6-35B-A3B",
+        "likes": 1428,
+        "downloads": 1181968,
+        "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "unsloth/Qwen3.6-27B-GGUF",
+        "short_name": "Qwen3.6-27B-GGUF",
+        "likes": 429,
+        "downloads": 553179,
+        "url": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "unsloth/Qwen3.6-35B-A3B-GGUF",
+        "short_name": "Qwen3.6-35B-A3B-GGUF",
+        "likes": 796,
+        "downloads": 1574581,
+        "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "moonshotai/kimi-k2.6-20260420",
+        "name": "kimi-k2.6",
+        "org": "moonshotai",
+        "total_tokens": 274177641965,
+        "total_tokens_str": "274B",
+        "calls": 4135551,
+        "change": -5.2,
+        "url": "https://openrouter.ai/models/moonshotai/kimi-k2.6-20260420"
+      },
+      {
+        "rank": 2,
+        "slug": "deepseek/deepseek-v3.2-20251201",
+        "name": "deepseek-v3.2",
+        "org": "deepseek",
+        "total_tokens": 155209777709,
+        "total_tokens_str": "155B",
+        "calls": 18659022,
+        "change": -11.0,
+        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
+      },
+      {
+        "rank": 3,
+        "slug": "anthropic/claude-4.7-opus-20260416",
+        "name": "claude-4.7-opus",
+        "org": "anthropic",
+        "total_tokens": 152488115132,
+        "total_tokens_str": "152B",
+        "calls": 1887134,
+        "change": -34.9,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.7-opus-20260416"
+      },
+      {
+        "rank": 4,
+        "slug": "anthropic/claude-4.6-sonnet-20260217",
+        "name": "claude-4.6-sonnet",
+        "org": "anthropic",
+        "total_tokens": 137744727474,
+        "total_tokens_str": "138B",
+        "calls": 3730278,
+        "change": -30.4,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-sonnet-20260217"
+      },
+      {
+        "rank": 5,
+        "slug": "google/gemini-3-flash-preview-20251217",
+        "name": "gemini-3-flash-preview",
+        "org": "google",
+        "total_tokens": 132784534555,
+        "total_tokens_str": "133B",
+        "calls": 14713446,
+        "change": -4.6,
+        "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
+      },
+      {
+        "rank": 6,
+        "slug": "stepfun/step-3.5-flash",
+        "name": "step-3.5-flash",
+        "org": "stepfun",
+        "total_tokens": 109263766868,
+        "total_tokens_str": "109B",
+        "calls": 1882030,
+        "change": 0.9,
+        "url": "https://openrouter.ai/models/stepfun/step-3.5-flash"
+      },
+      {
+        "rank": 7,
+        "slug": "minimax/minimax-m2.7-20260318",
+        "name": "minimax-m2.7",
+        "org": "minimax",
+        "total_tokens": 98272226897,
+        "total_tokens_str": "98B",
+        "calls": 3434459,
+        "change": -13.9,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
+      },
+      {
+        "rank": 8,
+        "slug": "nvidia/nemotron-3-super-120b-a12b-20230311",
+        "name": "nemotron-3-super-120b-a12b",
+        "org": "nvidia",
+        "total_tokens": 95754174850,
+        "total_tokens_str": "96B",
+        "calls": 2349947,
+        "change": -1.2,
+        "url": "https://openrouter.ai/models/nvidia/nemotron-3-super-120b-a12b-20230311"
+      },
+      {
+        "rank": 9,
+        "slug": "inclusionai/ling-2.6-1t-20260423",
+        "name": "ling-2.6-1t",
+        "org": "inclusionai",
+        "total_tokens": 83311754009,
+        "total_tokens_str": "83B",
+        "calls": 1249378,
+        "change": 6.3,
+        "url": "https://openrouter.ai/models/inclusionai/ling-2.6-1t-20260423"
+      },
+      {
+        "rank": 10,
+        "slug": "x-ai/grok-4.1-fast",
+        "name": "grok-4.1-fast",
+        "org": "x-ai",
+        "total_tokens": 73491802996,
+        "total_tokens_str": "73B",
+        "calls": 11780852,
+        "change": -40.4,
+        "url": "https://openrouter.ai/models/x-ai/grok-4.1-fast"
+      }
+    ],
+    "hf_summary": "中国大模型主导，多模态与推理加速成主流"
+  }
+}
