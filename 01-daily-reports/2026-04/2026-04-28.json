@@ -1,0 +1,489 @@
+{
+  "date": "2026-04-28",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "OpenAI 发布 Symphony：开源编排规范，让 Issue 追踪器变成永不停机的 Agent 系统",
+      "finding": "OpenAI 开源了 Symphony，一个用于 Codex 编排的规范。它能把 Jira、GitHub Issues 等任务追踪系统，变成一个 7x24 小时自动运行的 Agent 系统，自动处理任务、减少上下文切换。这标志着 AI 编程从“辅助写代码”进入“自动执行工程任务”的新阶段。",
+      "key_data": [
+        "开源编排规范",
+        "Codex 集成",
+        "7x24 自动运行",
+        "减少上下文切换"
+      ],
+      "judgment": "对开发者来说，这意味着 AI 编程的范式从'你写代码，AI 补全'转向'你提需求，AI 自动拆解执行'。Symphony 是 OpenAI 在 Agent 工程化上的关键一步，直接对标 Cursor Agent 和 Devin，但更强调与现有开发流程的集成。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/open-source-codex-orchestration-symphony"
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI 与微软修订合作协议：扫清法律障碍，获准在 AWS 上销售产品",
+      "finding": "OpenAI 和微软宣布修订合作协议，简化了复杂的排他性条款。OpenAI 获得了在 AWS 上销售产品的权利，微软则获得更多现金分成。同时，双方取消了那个著名的“AGI 条款”——即 AGI 出现后微软将失去 OpenAI 技术商业使用权。",
+      "key_data": [
+        "获准在 AWS 销售",
+        "取消 AGI 条款",
+        "微软获更多现金分成",
+        "OpenAI 50亿美元亚马逊交易"
+      ],
+      "judgment": "这是 OpenAI 商业化战略的重大转折。取消 AGI 条款意味着微软不再对 OpenAI 的 AGI 定义有否决权，OpenAI 可以更自由地定义自己的 AGI 路线。同时，能在 AWS 上卖产品，直接挑战微软 Azure 的独家地位，也解释了 OpenAI 为何能签下 500 亿美元的亚马逊大单。",
+      "confidence": 5,
+      "source": "OpenAI Blog / TechCrunch",
+      "url": "https://openai.com/index/next-phase-of-microsoft-partnership"
+    },
+    {
+      "rank": 3,
+      "title": "中国否决 Meta 以 20 亿美元收购 AI Agent 初创公司 Manus",
+      "finding": "经过数月审查，中国监管机构正式否决了 Meta 对 AI Agent 初创公司 Manus 的 20 亿美元收购案，要求 Meta 撤销交易。Manus 是中国 AI Agent 领域的明星公司，其产品能自主完成复杂任务。",
+      "key_data": [
+        "20亿美元收购被否",
+        "Meta 受挫",
+        "AI Agent 明星公司",
+        "中国监管干预"
+      ],
+      "judgment": "这对 Meta 的 AI Agent 战略是重大打击。Manus 的技术和团队是 Meta 补齐 Agent 能力的关键拼图。中国监管的强硬态度表明，AI Agent 被视为战略性技术资产，外资收购将面临严格审查。这也意味着中国 AI Agent 创业公司短期内会更倾向于独立发展或与国内巨头合作。",
+      "confidence": 5,
+      "source": "TechCrunch / CNBC",
+      "url": "https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/"
+    },
+    {
+      "rank": 4,
+      "title": "DeepMind 的 David Silver 筹集 11 亿美元，打造不依赖人类数据的 AI 超级学习器",
+      "finding": "AlphaGo 之父 David Silver 创立的新公司 Ineffable Intelligence 以 51 亿美元估值融资 11 亿美元。其目标是构建“超级学习器”——一种不依赖人类标注数据、通过强化学习自主探索世界来学习的 AI 系统。",
+      "key_data": [
+        "11亿美元融资",
+        "51亿美元估值",
+        "David Silver 创立",
+        "不依赖人类数据"
+      ],
+      "judgment": "这是对当前 Scaling Law 路线的一次重大挑战。David Silver 认为当前 AI 过度依赖人类数据是错误方向，他的“超级学习器”路线如果成功，可能开辟一条全新的 AGI 路径。对投资者和创业者来说，这意味着除了“堆算力、堆数据”之外，AI 领域还有另一种高天花板的技术路线值得关注。",
+      "confidence": 5,
+      "source": "TechCrunch / Wired",
+      "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/"
+    },
+    {
+      "rank": 5,
+      "title": "Mercor 发生数据泄露：4TB 语音样本被盗，涉及 4 万名 AI 承包商",
+      "finding": "AI 数据标注公司 Mercor 遭遇严重数据泄露，黑客窃取了 4TB 的语音样本，涉及 4 万名 AI 承包商。这些数据可能被用于训练语音 AI 模型或进行身份欺诈。",
+      "key_data": [
+        "4TB 语音数据泄露",
+        "4万名承包商受影响",
+        "AI 数据标注公司",
+        "身份欺诈风险"
+      ],
+      "judgment": "这是 AI 数据供应链安全的一次重大警示。随着 AI 训练数据需求激增，数据标注和采集环节的安全风险被严重低估。对 AI 公司和开发者来说，这意味着在选择数据供应商时必须将安全合规作为核心评估标准，否则可能面临数据泄露和合规风险。",
+      "confidence": 4,
+      "source": "Hacker News",
+      "url": "https://app.oravys.com/blog/mercor-breach-2026"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "MIT Technology Review",
+      "title": "DeepSeek 最新模型突破的三个原因",
+      "finding": "MIT Tech Review 分析了 DeepSeek 新模型为何重要，指出其在推理效率、成本控制和开源策略上取得了实质性突破，可能改变当前大模型竞争格局。",
+      "key_data": [
+        "推理效率突破",
+        "成本控制",
+        "开源策略"
+      ],
+      "judgment": "DeepSeek 正在成为开源模型领域不可忽视的力量，其技术路线对闭源模型厂商构成直接威胁。",
+      "confidence": 4,
+      "url": "https://www.technologyreview.com/2026/04/27/1136438/the-download-deepseek-v4-ai-world-models/",
+      "importance": 4
+    },
+    {
+      "source": "Wired",
+      "title": "AlphaGo 之父 David Silver 认为 AI 走错了路",
+      "finding": "David Silver 在采访中批评当前 AI 过度依赖人类数据，认为真正的智能应该通过强化学习自主探索世界。他新成立的公司 Ineffable Intelligence 正在实践这一理念。",
+      "key_data": [
+        "批评当前 AI 路线",
+        "强化学习自主探索",
+        "新公司 Ineffable Intelligence"
+      ],
+      "judgment": "来自 L1 实践者的根本性批判，对 Scaling Law 信仰者是一记警钟。",
+      "confidence": 5,
+      "url": "https://www.wired.com/story/david-silver-ai-ineffable-intelligence-reinforcement-learning/",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv",
+      "title": "数学需要两人：测试语言模型在对话中的涌现数学推理能力",
+      "finding": "新论文提出一种测试方法，评估 LLM 在对话中展现的数学推理能力，发现模型在交互式推理场景下表现与静态测试有显著差异。",
+      "key_data": [
+        "对话式数学推理",
+        "涌现能力测试",
+        "与静态测试差异显著"
+      ],
+      "judgment": "对评估 AI 推理能力的方法论有启发，但短期内对产品影响有限。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2604.21935",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "蚂蚁灵波开源世界模型 LingBot-World-Fast，可实时交互",
+      "finding": "蚂蚁集团旗下灵波团队开源了世界模型 LingBot-World-Fast，支持实时交互，可用于机器人训练和游戏场景。",
+      "key_data": [
+        "开源世界模型",
+        "实时交互",
+        "机器人训练"
+      ],
+      "judgment": "世界模型开源化趋势加速，降低了具身智能研究的门槛。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/rkoWDHOOb2VFyIGKwuym",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "OpenAI Blog",
+      "title": "OpenAI 获得 FedRAMP Moderate 认证，可服务美国联邦政府",
+      "finding": "OpenAI 的 ChatGPT Enterprise 和 API 通过了 FedRAMP Moderate 认证，这意味着美国联邦政府机构可以合规地使用 OpenAI 产品。",
+      "key_data": [
+        "FedRAMP Moderate 认证",
+        "美国联邦政府可用",
+        "ChatGPT Enterprise"
+      ],
+      "judgment": "这是 OpenAI 进军政府市场的关键里程碑，直接挑战微软和 Google 在政府云 AI 领域的地位。",
+      "confidence": 5,
+      "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
+      "importance": 4
+    },
+    {
+      "source": "TechCrunch",
+      "title": "OpenAI 可能正在研发 AI Agent 取代 App 的手机",
+      "finding": "分析师郭明錤爆料 OpenAI 可能正在研发一款硬件设备，其核心交互方式是用 AI Agent 取代传统 App。此前已有 OpenAI 将推出耳机的传闻。",
+      "key_data": [
+        "AI Agent 取代 App",
+        "硬件设备",
+        "郭明錤爆料"
+      ],
+      "judgment": "如果属实，这将是 AI 原生硬件的最激进尝试。对产品经理来说，这意味着'无 App 交互'可能成为下一代人机交互范式。",
+      "confidence": 2,
+      "url": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "Claude 第一款 AI 桌宠硬件，深圳制造",
+      "finding": "基于 Claude 模型的 AI 桌宠硬件产品发布，由深圳供应链制造。该产品将 AI 对话能力融入实体桌面宠物形态。",
+      "key_data": [
+        "Claude 驱动",
+        "AI 桌宠硬件",
+        "深圳制造"
+      ],
+      "judgment": "AI 硬件消费化趋势的又一例证，但产品形态是否可持续有待观察。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/04/408409.html",
+      "importance": 2
+    },
+    {
+      "source": "TechCrunch",
+      "title": "AI 主屏幕应用 Skye 在发布前获得投资者支持",
+      "finding": "一款名为 Skye 的 AI 主屏幕应用在正式发布前就获得了投资者支持，该应用旨在用 AI 重新定义 iPhone 主屏幕体验。",
+      "key_data": [
+        "AI 主屏幕应用",
+        "发布前获投资",
+        "重新定义 iPhone 体验"
+      ],
+      "judgment": "AI 正在从'工具'变成'操作系统层'的交互入口，这是产品经理需要关注的新战场。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/",
+      "importance": 2
+    },
+    {
+      "source": "量子位",
+      "title": "京东 JoyInside 打造 AI 硬件时代超级基础设施",
+      "finding": "京东推出 JoyInside 平台，旨在为 AI 硬件开发者提供从芯片到云端的全栈基础设施，降低 AI 硬件开发门槛。",
+      "key_data": [
+        "AI 硬件基础设施",
+        "全栈支持",
+        "降低开发门槛"
+      ],
+      "judgment": "京东在 AI 硬件生态上的布局值得关注，但能否吸引开发者生态是关键。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/04/408394.html",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "David Silver",
+      "level": "L1",
+      "quote": "当前 AI 过度依赖人类数据是错误方向，真正的智能应该通过强化学习自主探索世界来学习。我们正在构建'超级学习器'，它不需要人类教它做什么。",
+      "source": "https://www.wired.com/story/david-silver-ai-ineffable-intelligence-reinforcement-learning/"
+    },
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "微软和 OpenAI 之间的 AGI 条款已经死亡。这意味着微软不再拥有对 OpenAI 何时实现 AGI 的否决权，OpenAI 可以更自由地定义自己的 AGI 路线。",
+      "source": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "OpenAI Symphony 编排规范对 AI 编程工作流的影响",
+      "reason": "这是 OpenAI 在 Agent 工程化上的关键一步，可能改变开发者与 AI 的协作模式。",
+      "priority": "high"
+    },
+    {
+      "topic": "David Silver 的超级学习器路线 vs 当前 Scaling Law 路线",
+      "reason": "来自 L1 实践者的根本性技术路线批判，可能影响未来 AI 投资和研究方向。",
+      "priority": "high"
+    },
+    {
+      "topic": "OpenAI 与微软新协议对云 AI 市场格局的影响",
+      "reason": "OpenAI 获准在 AWS 销售，可能打破微软 Azure 在 AI 云服务上的垄断地位。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "OpenAI 开源编排规范、修订微软协议，DeepSeek 再突破，David Silver 融资 11 亿美元挑战 Scaling Law",
+  "snapshot": {
+    "date": "2026-04-27",
+    "hf_trending": [
+      {
+        "name": "deepseek-ai/DeepSeek-V4-Pro",
+        "short_name": "DeepSeek-V4-Pro",
+        "likes": 3016,
+        "downloads": 137784,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v4"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "openai/privacy-filter",
+        "short_name": "privacy-filter",
+        "likes": 923,
+        "downloads": 47488,
+        "url": "https://huggingface.co/openai/privacy-filter",
+        "tags": [
+          "transformers",
+          "onnx",
+          "safetensors"
+        ],
+        "pipeline_tag": "token-classification",
+        "label": "命名实体识别",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen3.6-27B",
+        "short_name": "Qwen3.6-27B",
+        "likes": 909,
+        "downloads": 399489,
+        "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "deepseek-ai/DeepSeek-V4-Flash",
+        "short_name": "DeepSeek-V4-Flash",
+        "likes": 777,
+        "downloads": 65743,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v4"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "moonshotai/Kimi-K2.6",
+        "short_name": "Kimi-K2.6",
+        "likes": 1099,
+        "downloads": 443440,
+        "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "kimi_k25"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "unsloth/Qwen3.6-27B-GGUF",
+        "short_name": "Qwen3.6-27B-GGUF",
+        "likes": 452,
+        "downloads": 636345,
+        "url": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen3.6-35B-A3B",
+        "short_name": "Qwen3.6-35B-A3B",
+        "likes": 1458,
+        "downloads": 1354032,
+        "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "unsloth/Qwen3.6-35B-A3B-GGUF",
+        "short_name": "Qwen3.6-35B-A3B-GGUF",
+        "likes": 822,
+        "downloads": 1646295,
+        "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "moonshotai/kimi-k2.6-20260420",
+        "name": "kimi-k2.6",
+        "org": "moonshotai",
+        "total_tokens": 227238768855,
+        "total_tokens_str": "227B",
+        "calls": 4137613,
+        "change": -17.1,
+        "url": "https://openrouter.ai/models/moonshotai/kimi-k2.6-20260420"
+      },
+      {
+        "rank": 2,
+        "slug": "deepseek/deepseek-v3.2-20251201",
+        "name": "deepseek-v3.2",
+        "org": "deepseek",
+        "total_tokens": 157902875888,
+        "total_tokens_str": "158B",
+        "calls": 18288811,
+        "change": 1.7,
+        "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-20251201"
+      },
+      {
+        "rank": 3,
+        "slug": "anthropic/claude-4.6-sonnet-20260217",
+        "name": "claude-4.6-sonnet",
+        "org": "anthropic",
+        "total_tokens": 150875858951,
+        "total_tokens_str": "151B",
+        "calls": 3951045,
+        "change": 9.5,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.6-sonnet-20260217"
+      },
+      {
+        "rank": 4,
+        "slug": "stepfun/step-3.5-flash",
+        "name": "step-3.5-flash",
+        "org": "stepfun",
+        "total_tokens": 123627785967,
+        "total_tokens_str": "124B",
+        "calls": 2102602,
+        "change": 13.1,
+        "url": "https://openrouter.ai/models/stepfun/step-3.5-flash"
+      },
+      {
+        "rank": 5,
+        "slug": "tencent/hy3-preview-20260421",
+        "name": "hy3-preview",
+        "org": "tencent",
+        "total_tokens": 118087932471,
+        "total_tokens_str": "118B",
+        "calls": 3521854,
+        "change": 64.4,
+        "url": "https://openrouter.ai/models/tencent/hy3-preview-20260421"
+      },
+      {
+        "rank": 6,
+        "slug": "google/gemini-3-flash-preview-20251217",
+        "name": "gemini-3-flash-preview",
+        "org": "google",
+        "total_tokens": 117406799689,
+        "total_tokens_str": "117B",
+        "calls": 14077310,
+        "change": -11.6,
+        "url": "https://openrouter.ai/models/google/gemini-3-flash-preview-20251217"
+      },
+      {
+        "rank": 7,
+        "slug": "nvidia/nemotron-3-super-120b-a12b-20230311",
+        "name": "nemotron-3-super-120b-a12b",
+        "org": "nvidia",
+        "total_tokens": 95870067989,
+        "total_tokens_str": "96B",
+        "calls": 2668615,
+        "change": -16.5,
+        "url": "https://openrouter.ai/models/nvidia/nemotron-3-super-120b-a12b-20230311"
+      },
+      {
+        "rank": 8,
+        "slug": "minimax/minimax-m2.7-20260318",
+        "name": "minimax-m2.7",
+        "org": "minimax",
+        "total_tokens": 95366035792,
+        "total_tokens_str": "95B",
+        "calls": 3628462,
+        "change": -3.0,
+        "url": "https://openrouter.ai/models/minimax/minimax-m2.7-20260318"
+      },
+      {
+        "rank": 9,
+        "slug": "anthropic/claude-4.7-opus-20260416",
+        "name": "claude-4.7-opus",
+        "org": "anthropic",
+        "total_tokens": 94880982480,
+        "total_tokens_str": "95B",
+        "calls": 1143430,
+        "change": -37.8,
+        "url": "https://openrouter.ai/models/anthropic/claude-4.7-opus-20260416"
+      },
+      {
+        "rank": 10,
+        "slug": "x-ai/grok-4.1-fast",
+        "name": "grok-4.1-fast",
+        "org": "x-ai",
+        "total_tokens": 86889700687,
+        "total_tokens_str": "87B",
+        "calls": 14284607,
+        "change": 18.2,
+        "url": "https://openrouter.ai/models/x-ai/grok-4.1-fast"
+      }
+    ],
+    "hf_summary": "中国模型霸榜，多模态与文本生成并进"
+  }
+}

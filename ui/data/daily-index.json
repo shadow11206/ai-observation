@@ -1,6 +1,13 @@
 {
-  "total": 33,
+  "total": 34,
   "reports": [
+    {
+      "date": "2026-04-28",
+      "title": "今日 AI 日报：OpenAI 发布 Symphony：开源编排规范，让 Issue 追踪器变成永不停机的 Agent 系统 + 4 条重要动态",
+      "excerpt": "对开发者来说，这意味着 AI 编程的范式从'你写代码，AI 补全'转向'你提需求…",
+      "top_count": 5,
+      "file": "2026-04-28.json"
+    },
     {
       "date": "2026-04-27",
       "title": "今日 AI 日报：OpenAI发布指导工作的五项原则 + 4 条重要动态",
