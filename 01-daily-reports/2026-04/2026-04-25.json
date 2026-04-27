@@ -81,7 +81,7 @@
     {
       "source": "谷歌DeepMind",
       "title": "DiLoCo分布式训练架构：解耦异步设计提升鲁棒性与效率",
-      "finding": "DeepMind推出DiLoCo架构，通过"计算孤岛"设计实现故障隔离与异步通信，1024 GPU集群面对5%节点故障时效率仅下降4%（传统架构下降25%+），整体训练速度提升18%。",
+      "finding": "DeepMind推出DiLoCo架构，通过「计算孤岛」设计实现故障隔离与异步通信，1024 GPU集群面对5%节点故障时效率仅下降4%（传统架构下降25%+），整体训练速度提升18%。",
       "key_data": [
         "计算孤岛设计",
         "故障效率下降仅4%",
@@ -118,7 +118,7 @@
         "Foundry企业级API",
         "365生态集成"
       ],
-      "judgment": "前沿模型正从"实验室能力"转向"企业级交付"，推理速度和生态集成成为商业竞争新维度。",
+      "judgment": "前沿模型正从「实验室能力」转向「企业级交付」，推理速度和生态集成成为商业竞争新维度。",
       "confidence": 5,
       "url": "https://openai.com/index/introducing-gpt-5-5/",
       "importance": 3
@@ -190,7 +190,7 @@
     {
       "person": "Sam Altman",
       "level": "L1",
-      "quote": "Anthropic的Mythos网络安全模型采用"恐惧营销"手段，以"模型过于强大不宜公开"为借口限制访问，本质上是想把AI控制权集中在少数企业手中。",
+      "quote": "Anthropic的Mythos网络安全模型采用「恐惧营销」手段，以「模型过于强大不宜公开」为借口限制访问，本质上是想把AI控制权集中在少数企业手中。",
       "source": "https://www.tmtpost.com/agent/ai-article?id=15378"
     },
     {
@@ -219,7 +219,7 @@
     },
     {
       "topic": "SpaceX 600亿收购Cursor：AI编程赛道的终局之战",
-      "reason": "SpaceX以天价收购Cursor、OpenAI收购Windsurf、Google整合Gemini到编程工具——三大巨头在同一周集体收割AI编程赛道，这不仅是商业并购，更是对"AI如何重构软件开发"这一命题的终极押注。",
+      "reason": "SpaceX以天价收购Cursor、OpenAI收购Windsurf、Google整合Gemini到编程工具——三大巨头在同一周集体收割AI编程赛道，这不仅是商业并购，更是对「AI如何重构软件开发」这一命题的终极押注。",
       "priority": "high"
     }
   ],
