@@ -1,6 +1,13 @@
 {
-  "total": 34,
+  "total": 35,
   "reports": [
+    {
+      "date": "2026-04-29",
+      "title": "今日 AI 日报：OpenAI 模型、Codex 和托管 Agent 正式登陆 AWS + 4 条重要动态",
+      "excerpt": "这是 OpenAI 商业化的重大转折点：从依赖微软的单一云渠道转向多云战略，直接…",
+      "top_count": 5,
+      "file": "2026-04-29.json"
+    },
     {
       "date": "2026-04-28",
       "title": "今日 AI 日报：OpenAI 发布 Symphony：开源编排规范，让 Issue 追踪器变成永不停机的 Agent 系统 + 4 条重要动态",
