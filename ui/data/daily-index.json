@@ -1,6 +1,13 @@
 {
-  "total": 35,
+  "total": 36,
   "reports": [
+    {
+      "date": "2026-04-30",
+      "title": "AI 日报 2026-04-30",
+      "excerpt": "",
+      "top_count": 0,
+      "file": "2026-04-30.json"
+    },
     {
       "date": "2026-04-29",
       "title": "今日 AI 日报：OpenAI 模型、Codex 和托管 Agent 正式登陆 AWS + 4 条重要动态",
