@@ -1,6 +1,13 @@
 {
-  "total": 37,
+  "total": 38,
   "reports": [
+    {
+      "date": "2026-05-02",
+      "title": "今日 AI 日报：Uber 四个月烧光全年 AI 预算，全砸在 Claude Code 上 + 4 条重要动态",
+      "excerpt": "这是 AI 编程从‘尝鲜’走向‘基础设施’的关键信号。Uber 的案例说明，当 …",
+      "top_count": 5,
+      "file": "2026-05-02.json"
+    },
     {
       "date": "2026-05-01",
       "title": "今日 AI 日报：Anthropic 估值或达 9000 亿美元，新一轮融资两周内完成 + 4 条重要动态",
