@@ -1,6 +1,13 @@
 {
-  "total": 38,
+  "total": 39,
   "reports": [
+    {
+      "date": "2026-05-03",
+      "title": "今日 AI 日报：Uber 4个月烧光全年AI编程预算：Claude Code采用率远超预期 + 4 条重要动态",
+      "excerpt": "这是AI编程工具进入主流工程团队的关键信号。Uber作为大型科技公司，其预算超支…",
+      "top_count": 5,
+      "file": "2026-05-03.json"
+    },
     {
       "date": "2026-05-02",
       "title": "今日 AI 日报：Uber 四个月烧光全年 AI 预算，全砸在 Claude Code 上 + 4 条重要动态",

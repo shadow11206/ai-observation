@@ -1,0 +1,334 @@
+{
+  "date": "2026-05-03",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Uber 4个月烧光全年AI编程预算：Claude Code采用率远超预期",
+      "finding": "Uber在2025年12月向工程师部署Claude Code，到2026年4月已耗尽全年AI编程预算。原因是工程师采用速度远超预期，人均月成本达500-2000美元。这不是工具失败，而是需求爆炸。",
+      "key_data": [
+        "4个月烧光全年预算",
+        "人均月成本500-2000美元",
+        "2025年12月部署",
+        "采用率远超预期"
+      ],
+      "judgment": "这是AI编程工具进入主流工程团队的关键信号。Uber作为大型科技公司，其预算超支说明Claude Code等工具已从'尝鲜'变为'刚需'，企业需要重新规划AI工具预算模型。",
+      "confidence": 4,
+      "source": "Reddit r/artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1t1mhx6/uber_burned_its_entire_2026_ai_coding_budget_in_4/"
+    },
+    {
+      "rank": 2,
+      "title": "Qwen3.6-27B + Agentic Search在单张3090上实现95.7% SimpleQA准确率",
+      "finding": "LDR项目维护者宣布，通过Qwen3.6-27B模型配合agentic search，在单张RTX 3090上实现了95.7%的SimpleQA准确率，完全本地运行。这是本地模型首次在事实性问答上接近云端水平。",
+      "key_data": [
+        "95.7% SimpleQA准确率",
+        "单张RTX 3090",
+        "完全本地运行",
+        "Qwen3.6-27B模型"
+      ],
+      "judgment": "对开发者社区意义重大：本地模型+搜索增强的组合正在缩小与云端模型的差距，意味着更多隐私敏感或离线场景可以落地。这是开源社区的一次重要里程碑。",
+      "confidence": 4,
+      "source": "Reddit r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t1n6o8/we_are_finally_there_qwen3627b_agentic_search_957/"
+    },
+    {
+      "rank": 3,
+      "title": "苹果官方App误打包Claude.md文件，引发Vibe Coding安全讨论",
+      "finding": "苹果官方应用被发现打包了Claude的markdown配置文件，疑似工程师使用Claude Code生成代码后未清理痕迹。这一事件被解读为'Vibe Coding'（用AI写代码但不审查）的典型安全风险案例。",
+      "key_data": [
+        "苹果官方App",
+        "误打包Claude.md",
+        "Vibe Coding风险",
+        "代码审查缺失"
+      ],
+      "judgment": "这是一个警示：AI生成代码的'信任但验证'原则正在被忽视。大公司尚且如此，中小团队风险更大。开发者需要建立AI代码的强制审查流程，否则类似事故会越来越多。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/05/412713.html"
+    },
+    {
+      "rank": 4,
+      "title": "奥斯卡新规：AI生成的演员和剧本将失去评奖资格",
+      "finding": "美国电影艺术与科学学院宣布，完全由AI生成的演员表演和剧本将不再有资格参与奥斯卡奖评选。这是主流影视奖项首次对AI内容做出明确限制。",
+      "key_data": [
+        "AI生成演员不合格",
+        "AI生成剧本不合格",
+        "奥斯卡新规",
+        "主流奖项首次限制"
+      ],
+      "judgment": "这是内容行业对AI的'防御性'反应，但可能加速'AI辅助vs AI生成'的界定标准形成。对AI影视创业公司是利空信号，但长期看会推动更透明的AI使用标注。",
+      "confidence": 5,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/"
+    },
+    {
+      "rank": 5,
+      "title": "暗钱运动：OpenAI关联组织资助抹黑中国AI的舆论战",
+      "finding": "非营利组织'Build American AI'被曝资助网红散布'中国AI威胁论'，该组织与OpenAI及Andreessen Horowitz高管支持的超级PAC有关联。这是AI领域地缘政治博弈的公开化。",
+      "key_data": [
+        "Build American AI",
+        "OpenAI关联",
+        "抹黑中国AI",
+        "舆论战"
+      ],
+      "judgment": "AI竞争已从技术层面延伸到舆论战场。开发者需要警惕信息污染，同时这也说明中国AI（如DeepSeek）的崛起确实让美国感到压力。",
+      "confidence": 3,
+      "source": "Reddit r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t1i4yg/a_darkmoney_campaign_is_paying_influencers_to/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "Qwen3.6-27B + Agentic Search在单张3090上实现95.7% SimpleQA准确率",
+      "finding": "本地模型+搜索增强的组合在事实性问答上接近云端水平，单卡即可运行。",
+      "key_data": [
+        "95.7%准确率",
+        "单张3090",
+        "完全本地",
+        "Qwen3.6-27B"
+      ],
+      "judgment": "开源社区正在缩小与闭源模型的差距，本地AI应用门槛进一步降低。",
+      "confidence": 4,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t1n6o8/we_are_finally_there_qwen3627b_agentic_search_957/",
+      "importance": 4
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "Meta论文开源实现：Scaling Test-Time Compute for Agentic Coding",
+      "finding": "开发者实现了Meta关于'在Agentic Coding中扩展测试时计算'的论文，这是首个公开实现。",
+      "key_data": [
+        "Meta论文实现",
+        "Agentic Coding",
+        "测试时计算扩展"
+      ],
+      "judgment": "测试时计算扩展是推理模型的关键技术，开源实现将加速社区理解和应用。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t1rni9/i_implemented_meta_paper_p/",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "物理信息AI的真实世界应用讨论",
+      "finding": "社区讨论物理信息AI（PINN）的实际应用案例，发现其落地进展缓慢，远不如传统神经网络普及。",
+      "key_data": [
+        "物理信息AI",
+        "落地缓慢",
+        "传统NN已普及"
+      ],
+      "judgment": "物理AI的理论优势尚未转化为工程实践，距离规模化应用还有距离。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t1lmq0/real_world_physicsinformed_ai_applications_d/",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "Reddit r/artificial",
+      "title": "Uber 4个月烧光全年AI编程预算",
+      "finding": "Uber部署Claude Code后，工程师采用率爆炸式增长，4个月耗尽全年预算。",
+      "key_data": [
+        "4个月超支",
+        "人均500-2000美元/月",
+        "Claude Code"
+      ],
+      "judgment": "AI编程工具正在从'辅助'变为'核心生产力'，企业预算模型需要重构。",
+      "confidence": 4,
+      "url": "https://www.reddit.com/r/artificial/comments/1t1mhx6/uber_burned_its_entire_2026_ai_coding_budget_in_4/",
+      "importance": 4
+    },
+    {
+      "source": "量子位",
+      "title": "苹果官方App误打包Claude.md文件",
+      "finding": "苹果应用打包了Claude的配置文件，暴露了使用AI编码但未清理痕迹的问题。",
+      "key_data": [
+        "苹果App",
+        "误打包Claude.md",
+        "Vibe Coding风险"
+      ],
+      "judgment": "大公司也犯低级错误，AI代码审查流程必须成为标准实践。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/05/412713.html",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "奥斯卡新规：AI生成内容失去评奖资格",
+      "finding": "奥斯卡宣布AI生成的演员和剧本不能参评，这是主流奖项首次明确限制AI。",
+      "key_data": [
+        "AI演员不合格",
+        "AI剧本不合格",
+        "奥斯卡新规"
+      ],
+      "judgment": "内容行业开始划定AI边界，将推动'AI辅助vs生成'的行业标准形成。",
+      "confidence": 5,
+      "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
+      "importance": 3
+    },
+    {
+      "source": "36氪",
+      "title": "中国具身机器人公司加速规模化：智元万台下线，宇树营收17亿",
+      "finding": "智元机器人第1万台下线，宇树科技2025年营收17.07亿元、出货超5500台。中国具身公司正以低价高性能策略全球扩张。",
+      "key_data": [
+        "智元1万台下线",
+        "宇树营收17亿",
+        "出货5500台",
+        "低价高性能"
+      ],
+      "judgment": "中国具身智能已从实验室进入规模化量产阶段，成本优势正在改变全球竞争格局。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3792155815304450?f=rss",
+      "importance": 4
+    }
+  ],
+  "opinions": [],
+  "deep_dive_suggestions": [
+    {
+      "topic": "企业AI编程工具的预算模型重构",
+      "reason": "Uber案例表明传统预算模型已失效，需要研究新的成本管控和ROI评估方法。",
+      "priority": "high"
+    },
+    {
+      "topic": "本地模型+搜索增强的技术路线可行性",
+      "reason": "Qwen3.6-27B+Agentic Search接近云端水平，值得评估其在隐私敏感场景的落地潜力。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "AI编程需求爆炸式增长，本地模型逼近云端水平。",
+  "snapshot": {
+    "date": "2026-05-02",
+    "hf_trending": [
+      {
+        "name": "deepseek-ai/DeepSeek-V4-Pro",
+        "short_name": "DeepSeek-V4-Pro",
+        "likes": 3414,
+        "downloads": 381587,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v4"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "openai/privacy-filter",
+        "short_name": "privacy-filter",
+        "likes": 1209,
+        "downloads": 99399,
+        "url": "https://huggingface.co/openai/privacy-filter",
+        "tags": [
+          "transformers",
+          "onnx",
+          "safetensors"
+        ],
+        "pipeline_tag": "token-classification",
+        "label": "命名实体识别",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "XiaomiMiMo/MiMo-V2.5-Pro",
+        "short_name": "MiMo-V2.5-Pro",
+        "likes": 380,
+        "downloads": 9914,
+        "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+        "tags": [
+          "safetensors",
+          "mimo_v2",
+          "text-generation"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen3.6-27B",
+        "short_name": "Qwen3.6-27B",
+        "likes": 1077,
+        "downloads": 1070778,
+        "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "deepseek-ai/DeepSeek-V4-Flash",
+        "short_name": "DeepSeek-V4-Flash",
+        "likes": 921,
+        "downloads": 345885,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v4"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "mistralai/Mistral-Medium-3.5-128B",
+        "short_name": "Mistral-Medium-3.5-128B",
+        "likes": 221,
+        "downloads": 8492,
+        "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+        "tags": [
+          "safetensors",
+          "mistral3",
+          "vLLM"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "talkie-lm/talkie-1930-13b-it",
+        "short_name": "talkie-1930-13b-it",
+        "likes": 203,
+        "downloads": 0,
+        "url": "https://huggingface.co/talkie-lm/talkie-1930-13b-it",
+        "tags": [
+          "en",
+          "base_model:talkie-lm/talkie-1930-13b-base",
+          "base_model:finetune:talkie-lm/talkie-1930-13b-base"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+        "short_name": "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+        "likes": 198,
+        "downloads": 37418,
+        "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "NemotronH_Nano_Omni_Reasoning_V3"
+        ],
+        "pipeline_tag": "any-to-any",
+        "label": "Any To Any",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [],
+    "hf_summary": "开源大模型持续领跑，多模态热度上升"
+  }
+}
