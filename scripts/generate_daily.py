@@ -315,12 +315,22 @@ def _render_md(data: dict) -> str:
 
     # 数据快照
     snapshot = data.get("snapshot", {})
-    if snapshot.get("hf_trending") or snapshot.get("github_trending"):
+    if snapshot.get("hf_trending") or snapshot.get("github_trending") or snapshot.get("openrouter_ranking"):
         lines.append("## ⚡ 今日数据快照\n")
         if snapshot.get("hf_trending"):
             lines.append("### Hugging Face Trending\n")
             for m in snapshot["hf_trending"][:5]:
                 lines.append(f"- [{m.get('name', '')}]({m.get('url', '')}) — ❤️ {m.get('likes', 0)}")
+        if snapshot.get("openrouter_ranking"):
+            lines.append("\n### OpenRouter 模型调用排行 Top 10\n")
+            for r in snapshot["openrouter_ranking"]:
+                change = r.get("change", 0)
+                arrow = "↑" if change > 0 else "↓" if change < 0 else "→"
+                calls_str = f"{r.get('calls', 0) / 10000:.0f}万" if r.get("calls", 0) >= 10000 else f"{r.get('calls', 0)}"
+                lines.append(
+                    f"- {r.get('rank', '')}. [{r.get('org', '')}/{r.get('name', '')}]"
+                    f"({r.get('url', '')}) — **{r.get('total_tokens_str', '')}** tokens · {calls_str}次 · {arrow}{abs(change)}%"
+                )
         if snapshot.get("github_trending"):
             lines.append("\n### GitHub Trending AI\n")
             for r in snapshot["github_trending"][:5]:
