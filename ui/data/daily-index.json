@@ -1,6 +1,13 @@
 {
-  "total": 39,
+  "total": 40,
   "reports": [
+    {
+      "date": "2026-05-04",
+      "title": "今日 AI 日报：Kimi K2.6 在编程挑战中击败 Claude、GPT-5.5 和 Gemini + 3 条重要动态",
+      "excerpt": "这对开发者社区是重大利好：开源模型首次在编程领域超越闭源巨头，意味着开发者有了更…",
+      "top_count": 4,
+      "file": "2026-05-04.json"
+    },
     {
       "date": "2026-05-03",
       "title": "今日 AI 日报：Uber 4个月烧光全年AI编程预算：Claude Code采用率远超预期 + 4 条重要动态",
