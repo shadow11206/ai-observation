@@ -1,6 +1,13 @@
 {
-  "total": 40,
+  "total": 41,
   "reports": [
+    {
+      "date": "2026-05-05",
+      "title": "AI 日报 2026-05-05",
+      "excerpt": "",
+      "top_count": 0,
+      "file": "2026-05-05.json"
+    },
     {
       "date": "2026-05-04",
       "title": "今日 AI 日报：Kimi K2.6 在编程挑战中击败 Claude、GPT-5.5 和 Gemini + 3 条重要动态",
