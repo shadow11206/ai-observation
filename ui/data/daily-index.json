@@ -1,6 +1,13 @@
 {
-  "total": 41,
+  "total": 42,
   "reports": [
+    {
+      "date": "2026-05-06",
+      "title": "今日 AI 日报：OpenAI 发布 GPT-5.5 Instant，成为 ChatGPT 默认模型 + 4 条重要动态",
+      "excerpt": "GPT-5.5 Instant 成为默认模型，意味着 OpenAI 在追求更可靠…",
+      "top_count": 5,
+      "file": "2026-05-06.json"
+    },
     {
       "date": "2026-05-05",
       "title": "今日 AI 日报：Anthropic 联手高盛推出企业AI公司 + 4 条重要动态",
