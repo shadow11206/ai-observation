@@ -1,6 +1,13 @@
 {
-  "total": 42,
+  "total": 43,
   "reports": [
+    {
+      "date": "2026-05-07",
+      "title": "今日 AI 日报：Anthropic 与 SpaceX 达成算力合作，Claude Code 速率翻倍 + 4 条重要动态",
+      "excerpt": "算力成为 AI 竞赛的核心瓶颈，Anthropic 与 SpaceX 的合作表明…",
+      "top_count": 5,
+      "file": "2026-05-07.json"
+    },
     {
       "date": "2026-05-06",
       "title": "今日 AI 日报：OpenAI 发布 GPT-5.5 Instant，成为 ChatGPT 默认模型 + 4 条重要动态",
