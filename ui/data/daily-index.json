@@ -1,6 +1,13 @@
 {
-  "total": 43,
+  "total": 44,
   "reports": [
+    {
+      "date": "2026-05-08",
+      "title": "今日 AI 日报：Anthropic与SpaceX/xAI达成300MW/50亿美元数据中心协议 + 4 条重要动态",
+      "excerpt": "这是AI行业罕见的'对手合作'案例。Anthropic因GPU短缺被迫向xAI购…",
+      "top_count": 5,
+      "file": "2026-05-08.json"
+    },
     {
       "date": "2026-05-07",
       "title": "今日 AI 日报：Anthropic 与 SpaceX 达成算力合作，Claude Code 速率翻倍 + 4 条重要动态",
