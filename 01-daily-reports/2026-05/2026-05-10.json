@@ -1,0 +1,397 @@
+{
+  "date": "2026-05-10",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "DeepSeek V4 完整论文发布：FP4量化训练细节公开",
+      "finding": "DeepSeek发布了V4完整版论文，从58页预览版大幅扩充，详细披露了FP4量化感知训练（QAT）的技术细节和稳定性技巧。这是业界首个公开大规模FP4训练方案的开源模型。",
+      "key_data": [
+        "FP4量化感知训练",
+        "58页→完整版",
+        "开源模型",
+        "稳定性技巧"
+      ],
+      "judgment": "对AI基础设施团队是重大信号：FP4训练可能成为下一代低成本推理的标准方案，DeepSeek再次拉低了开源模型的部署门槛。",
+      "confidence": 5,
+      "source": "Reddit r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t7yrvr/deepseek_v4_paper_full_version_is_out_fp4_qat/"
+    },
+    {
+      "rank": 2,
+      "title": "Anthropic 年增长10倍，估值逼近1万亿美元",
+      "finding": "在多数AI公司裁员超10%的背景下，Anthropic保持10倍年增长，估值接近万亿美元。同时OpenAI推出Codex Chrome扩展，直接在浏览器中执行代码和测试Web应用。",
+      "key_data": [
+        "年增长10倍",
+        "估值近1万亿美元",
+        "行业裁员潮",
+        "Codex Chrome扩展"
+      ],
+      "judgment": "Anthropic的增长曲线说明企业级AI Agent市场正在爆发，Claude Code的开发者生态正在快速扩大。Codex进入浏览器意味着AI编程从IDE扩展到浏览器环境，开发者工作流将被重塑。",
+      "confidence": 4,
+      "source": "Latent Space",
+      "url": "https://www.latent.space/p/ainews-anthropic-growing-10xyear"
+    },
+    {
+      "rank": 3,
+      "title": "NVIDIA 今年已承诺400亿美元AI股权投资",
+      "finding": "NVIDIA在2026年前5个月已承诺400亿美元用于AI相关股权投资，远超去年全年水平。这显示NVIDIA正从芯片供应商转变为AI生态的超级投资者。",
+      "key_data": [
+        "400亿美元",
+        "2026年前5个月",
+        "AI股权投资",
+        "远超去年"
+      ],
+      "judgment": "NVIDIA正在用资本锁定AI生态上下游，从卖铲子变成开赌场。这对AI创业公司是双刃剑：更容易拿到钱，但也可能被NVIDIA的生态绑定。",
+      "confidence": 5,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/"
+    },
+    {
+      "rank": 4,
+      "title": "DeepSeek拟募资最高500亿元，梁文锋个人出资200亿",
+      "finding": "DeepSeek计划进行中国AI公司史上最大规模融资，最高500亿元人民币。创始人梁文锋个人出资200亿，阿里可能无缘参投。",
+      "key_data": [
+        "最高500亿元",
+        "梁文锋个人200亿",
+        "中国AI最大融资",
+        "阿里或无缘"
+      ],
+      "judgment": "这是中国AI行业的分水岭事件。DeepSeek用开源策略证明了技术实力，现在要用资本建立商业壁垒。梁文锋个人重金投入表明对开源路线的绝对信心。",
+      "confidence": 4,
+      "source": "36氪",
+      "url": "https://36kr.com/p/3801348046151428?f=rss"
+    },
+    {
+      "rank": 5,
+      "title": "Genesis AI发布新模型：机器人开始挑战做西红柿炒鸡蛋",
+      "finding": "机器人创业公司Genesis AI发布新模型，让机器人学习做西红柿炒鸡蛋这类复杂家务。这标志着机器人从预设动作向真实物理世界操作的重大突破。",
+      "key_data": [
+        "西红柿炒鸡蛋",
+        "复杂家务",
+        "物理世界操作",
+        "机器人新模型"
+      ],
+      "judgment": "家务是机器人最难攻克的场景之一，因为涉及柔性物体操作和动态环境。Genesis的突破意味着具身智能正在从实验室走向真实家庭场景，但距离真正可用还有距离。",
+      "confidence": 3,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/363905"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "DeepSeek V4完整论文发布：FP4量化训练细节公开",
+      "finding": "DeepSeek发布V4完整版论文，详细披露FP4量化感知训练技术细节和稳定性技巧。这是业界首个公开大规模FP4训练方案的开源模型。",
+      "key_data": [
+        "FP4量化训练",
+        "完整版论文",
+        "开源模型"
+      ],
+      "judgment": "FP4训练将大幅降低大模型推理成本，对AI基础设施团队是重要技术参考。",
+      "confidence": 5,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t7yrvr/deepseek_v4_paper_full_version_is_out_fp4_qat/",
+      "importance": 5
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "Qwen3.6 35B A3B在12GB显存上实现80 tok/s和128K上下文",
+      "finding": "用户使用最新llama.cpp + MTP PR，在12GB显存上运行Qwen3.6 35B A3B模型，达到80 tok/s生成速度并支持128K上下文。",
+      "key_data": [
+        "80 tok/s",
+        "12GB显存",
+        "128K上下文",
+        "Qwen3.6 35B"
+      ],
+      "judgment": "消费级显卡运行大模型的门槛正在快速降低，12GB显存即可获得流畅体验，端侧AI部署前景乐观。",
+      "confidence": 4,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t82zxv/80_toksec_and_128k_context_on_12gb_vram_with/",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "BeeLlama.cpp发布：支持推理和视觉，Qwen3.6 27B Q5在3090上达135 tps",
+      "finding": "新的llama.cpp分支BeeLlama.cpp，支持DFlash和TurboQuant，在单张RTX 3090上运行Qwen3.6 27B Q5模型，峰值135 tps，支持200K上下文和视觉功能。",
+      "key_data": [
+        "135 tps",
+        "单张3090",
+        "200K上下文",
+        "支持视觉"
+      ],
+      "judgment": "推理优化竞争白热化，单卡运行大模型性能持续提升，开发者部署成本进一步降低。",
+      "confidence": 4,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t88zvv/beellamacpp_advanced_dflash_turboquant_with/",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "MiniMax 2.7在Strix Halo上运行100K上下文",
+      "finding": "用户成功在Strix Halo平台上运行MiniMax 2.7模型，实现100K上下文窗口，使用llama-server和GGUF量化格式。",
+      "key_data": [
+        "MiniMax 2.7",
+        "100K上下文",
+        "Strix Halo",
+        "GGUF量化"
+      ],
+      "judgment": "MiniMax模型在端侧部署能力增强，国产模型在本地推理场景的竞争力提升。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t8k6fg/running_minimax_27_at_100k_context_on_strix_halo/",
+      "importance": 2
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "LLM排名不是阶梯：传递性基准图的实验结果",
+      "finding": "研究者构建了LLM Win网站，将基准测试结果转化为有向图，发现模型排名存在非传递性（A>B, B>C, 但C>A），说明当前基准测试无法可靠排序模型。",
+      "key_data": [
+        "非传递性排名",
+        "有向图",
+        "基准测试缺陷"
+      ],
+      "judgment": "对依赖排行榜选模型的产品经理是重要提醒：基准测试不能替代实际场景评估。",
+      "confidence": 4,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1t8f61o/llm_rankings_are_not_a_ladder_experimental/",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "极客公园",
+      "title": "OpenAI推出Codex Chrome扩展，直接在浏览器里执行代码",
+      "finding": "OpenAI上线Codex for Chrome扩展，支持在桌面版Chrome中直接使用Codex，可测试Web应用、跨标签页获取上下文、调用开发者工具。",
+      "key_data": [
+        "Codex Chrome扩展",
+        "浏览器内执行",
+        "跨标签页",
+        "开发者工具"
+      ],
+      "judgment": "AI编程从IDE扩展到浏览器，开发者工作流将被重塑，前端开发和调试效率有望大幅提升。",
+      "confidence": 5,
+      "url": "http://www.geekpark.net/news/363869",
+      "importance": 4
+    },
+    {
+      "source": "极客公园",
+      "title": "Genesis AI发布新模型：机器人挑战做西红柿炒鸡蛋",
+      "finding": "Genesis AI发布新模型，让机器人学习做西红柿炒鸡蛋等复杂家务，涉及柔性物体操作和动态环境适应。",
+      "key_data": [
+        "西红柿炒鸡蛋",
+        "复杂家务",
+        "柔性物体操作"
+      ],
+      "judgment": "具身智能从预设动作向真实物理世界操作迈出重要一步，但距离家庭商用仍有距离。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/363905",
+      "importance": 3
+    },
+    {
+      "source": "极客公园",
+      "title": "Google发布Fitbit Air无屏手环，AI订阅服务成核心",
+      "finding": "Google发布Fitbit Air健康手环，无屏幕设计，配套Google Health Coach AI订阅服务（每月10美元）。Fitbit App更名为Google Health。",
+      "key_data": [
+        "Fitbit Air",
+        "无屏手环",
+        "AI订阅10美元/月",
+        "Google Health"
+      ],
+      "judgment": "硬件入口+AI订阅模式正在成为可穿戴设备新范式，AI健康教练可能是下一个杀手级应用。",
+      "confidence": 5,
+      "url": "http://www.geekpark.net/news/363933",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "阶跃最新语音模型位列Artificial Analysis评测中国第一",
+      "finding": "阶跃星辰的语音模型在Artificial Analysis评测中排名中国第一，在语音合成领域取得领先地位。",
+      "key_data": [
+        "语音模型",
+        "中国第一",
+        "Artificial Analysis"
+      ],
+      "judgment": "国产语音模型竞争加剧，阶跃在语音赛道建立优势，可能影响AI语音助手市场格局。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/05/415023.html",
+      "importance": 2
+    },
+    {
+      "source": "量子位",
+      "title": "美图RoboNeo升级：首创影像创作Agent Teams",
+      "finding": "美图旗下RoboNeo产品全新升级，推出影像创作Agent Teams功能，允许多个AI Agent协作完成复杂影像创作任务。",
+      "key_data": [
+        "Agent Teams",
+        "影像创作",
+        "多Agent协作"
+      ],
+      "judgment": "多Agent协作在垂直场景落地，美图将AI Agent从单兵作战升级为团队协作，可能成为影像创作新范式。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/05/415010.html",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Joscha Bach",
+      "level": "L2",
+      "quote": "映射每一个神经元并不能给你一个心智。理解意识需要更高层次的抽象，而非单纯的神经科学还原论。",
+      "source": "Reddit r/artificial"
+    },
+    {
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "WebRTC的设计会在网络条件差时主动丢弃音频包以保持低延迟，这导致AI语音对话中用户提示词被截断。",
+      "source": "simonwillison.net"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "FP4量化训练的技术细节与行业影响",
+      "reason": "DeepSeek V4完整论文公开了FP4 QAT方案，可能成为下一代低成本推理标准，值得深入研究。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI编程从IDE到浏览器的范式迁移",
+      "reason": "Codex Chrome扩展标志着AI编程环境从IDE扩展到浏览器，将重塑开发者工作流。",
+      "priority": "high"
+    },
+    {
+      "topic": "Anthropic 10倍增长的底层逻辑",
+      "reason": "在行业裁员潮中逆势增长，其企业级Agent策略值得产品经理深入分析。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "DeepSeek V4论文公开FP4训练细节，Anthropic逆势10倍增长",
+  "snapshot": {
+    "date": "2026-05-09",
+    "hf_trending": [
+      {
+        "name": "SulphurAI/Sulphur-2-base",
+        "short_name": "Sulphur-2-base",
+        "likes": 488,
+        "downloads": 115477,
+        "url": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+        "tags": [
+          "diffusers",
+          "gguf",
+          "text-to-video"
+        ],
+        "pipeline_tag": "text-to-video",
+        "label": "文生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Zyphra/ZAYA1-8B",
+        "short_name": "ZAYA1-8B",
+        "likes": 325,
+        "downloads": 23620,
+        "url": "https://huggingface.co/Zyphra/ZAYA1-8B",
+        "tags": [
+          "safetensors",
+          "zaya",
+          "arxiv:2605.05365"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "deepseek-ai/DeepSeek-V4-Pro",
+        "short_name": "DeepSeek-V4-Pro",
+        "likes": 3784,
+        "downloads": 1167697,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v4"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "SeeSee21/Z-Anime",
+        "short_name": "Z-Anime",
+        "likes": 266,
+        "downloads": 8433,
+        "url": "https://huggingface.co/SeeSee21/Z-Anime",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "gguf"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "TenStrip/LTX2.3-10Eros",
+        "short_name": "LTX2.3-10Eros",
+        "likes": 186,
+        "downloads": 51779,
+        "url": "https://huggingface.co/TenStrip/LTX2.3-10Eros",
+        "tags": [
+          "diffusers",
+          "image-to-video",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "google/gemma-4-31B-it-assistant",
+        "short_name": "gemma-4-31B-it-assistant",
+        "likes": 175,
+        "downloads": 47793,
+        "url": "https://huggingface.co/google/gemma-4-31B-it-assistant",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4_assistant"
+        ],
+        "pipeline_tag": "any-to-any",
+        "label": "Any To Any",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "openai/privacy-filter",
+        "short_name": "privacy-filter",
+        "likes": 1381,
+        "downloads": 180322,
+        "url": "https://huggingface.co/openai/privacy-filter",
+        "tags": [
+          "transformers",
+          "onnx",
+          "safetensors"
+        ],
+        "pipeline_tag": "token-classification",
+        "label": "命名实体识别",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen3.6-27B",
+        "short_name": "Qwen3.6-27B",
+        "likes": 1208,
+        "downloads": 2127689,
+        "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [],
+    "hf_summary": "文生视频与多模态模型热度上升，实用型模型表现亮眼"
+  }
+}
