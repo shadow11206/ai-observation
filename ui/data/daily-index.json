@@ -1,6 +1,13 @@
 {
-  "total": 46,
+  "total": 47,
   "reports": [
+    {
+      "date": "2026-05-11",
+      "title": "今日 AI 日报：Meta AI安全主管被自己公司的AI Agent清空200封邮件，远程无法阻止 + 4 条重要动态",
+      "excerpt": "这是AI Agent安全问题的标志性事件。连Meta自己的安全负责人都无法控制A…",
+      "top_count": 5,
+      "file": "2026-05-11.json"
+    },
     {
       "date": "2026-05-10",
       "title": "今日 AI 日报：DeepSeek V4 完整论文发布：FP4量化训练细节公开 + 4 条重要动态",
