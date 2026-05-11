@@ -1,0 +1,381 @@
+{
+  "date": "2026-05-12",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "OpenAI 成立 DeployCo 企业部署公司，推动 AI 落地",
+      "finding": "OpenAI 宣布成立一家名为 DeployCo 的新公司，专门帮助大型企业将前沿 AI 投入生产并转化为可衡量的商业价值。这表明 OpenAI 不再满足于提供 API，而是亲自下场做企业级部署服务。",
+      "key_data": [
+        "新公司 DeployCo",
+        "企业部署服务",
+        "AI 落地转化"
+      ],
+      "judgment": "这是 OpenAI 从模型提供商向企业解决方案提供商转型的关键一步。对开发者来说，意味着未来企业级 AI 应用的门槛可能降低，但 OpenAI 的锁定效应会更强。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/openai-launches-the-deployment-company"
+    },
+    {
+      "rank": 2,
+      "title": "Shopify 内部 AI 编码代理 River 公开运作细节",
+      "finding": "Shopify CEO Tobias Lütke 详细介绍了其内部 AI 编码工具 River：它完全在 Slack 上公开运作，不响应私信，只处理公开频道中的请求，且会礼貌地拒绝不合理任务。这展示了企业级 AI 编码代理的一种务实设计。",
+      "key_data": [
+        "Slack 公开运作",
+        "不响应私信",
+        "企业级 AI 编码"
+      ],
+      "judgment": "River 的设计哲学值得所有做 AI 编码工具的人学习：透明、有边界、尊重团队协作。这比追求“全自动”的 Agent 更符合真实工程团队的需求。",
+      "confidence": 4,
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything"
+    },
+    {
+      "rank": 3,
+      "title": "ChatGPT 2026 年 Q1 用户增长报告：35 岁以上用户增长最快",
+      "finding": "OpenAI 发布报告称 ChatGPT 在 2026 年第一季度用户采用率激增，其中 35 岁以上用户增长最快，性别分布也更均衡，标志着 AI 正在向更广泛的主流人群渗透。",
+      "key_data": [
+        "35 岁以上用户增长最快",
+        "性别分布更均衡",
+        "主流 AI 采用"
+      ],
+      "judgment": "这是 AI 从“极客工具”走向“全民工具”的关键信号。产品经理应该关注：面向非技术用户的 AI 产品设计将变得比模型能力更重要。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/signals/research/2026q1-update"
+    },
+    {
+      "rank": 4,
+      "title": "Figure AI 展示双机器人协作整理房间：单一神经网络控制",
+      "finding": "Figure AI 发布新演示：两台 Helix-02 机器人在单一神经网络控制下协作完成整理房间任务，包括开关门、挂衣服、拉被子等。这是全球首次用单一神经网络实现多机器人协作的 locomanipulation。",
+      "key_data": [
+        "双机器人协作",
+        "单一神经网络",
+        "整理房间"
+      ],
+      "judgment": "具身智能从“单机智能”走向“群体智能”迈出实质性一步。这对仓储、家庭服务等场景意义重大，但距离真正商用还有距离。",
+      "confidence": 4,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/363963"
+    },
+    {
+      "rank": 5,
+      "title": "AWS 为 AI Agent 推出独立钱包：Agent 可自主支付",
+      "finding": "AWS 联合 Coinbase 和 Stripe 推出 Amazon Bedrock AgentCore Payments，允许 AI Agent 拥有自己的钱包并自主进行支付。这意味着 Agent 可以自己“赚钱”和“花钱”。",
+      "key_data": [
+        "Agent 自主支付",
+        "AWS Bedrock",
+        "Coinbase + Stripe"
+      ],
+      "judgment": "这是 AI Agent 走向“经济独立”的关键基础设施。未来 Agent 可以自主采购云服务、支付 API 费用，甚至参与商业交易。这对 Agent 生态的商业模式将产生深远影响。",
+      "confidence": 4,
+      "source": "Reddit r/artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1t9ybtb/aws_just_gave_ai_agents_their_own_wallets_your/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "面壁智能发布 MiniCPM 4.6",
+      "finding": "面壁智能发布了 MiniCPM 4.6，这是其端侧高效模型系列的最新版本，延续了小参数、高性能的路线。",
+      "key_data": [
+        "端侧模型",
+        "MiniCPM 4.6"
+      ],
+      "judgment": "端侧模型持续迭代，但具体提升幅度待评测。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ta9k8o/minicpm_46/",
+      "importance": 2
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "Unsloth 发布带 MTP 层的 Qwen3.6 量化模型",
+      "finding": "Unsloth 发布了 Qwen3.6-27B 和 Qwen3.6-35B-A3B 的 GGUF 量化版本，保留了 MTP（Multi-Token Prediction）层，但需要用户自行编译。",
+      "key_data": [
+        "Qwen3.6 量化",
+        "保留 MTP 层",
+        "GGUF 格式"
+      ],
+      "judgment": "MTP 层保留对推理效率有潜在提升，但编译门槛限制了普通用户使用。",
+      "confidence": 4,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ta4rvs/mtp_on_unsloth/",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "RateQuant：基于率失真理论的最优混合精度 KV 缓存量化",
+      "finding": "新论文提出 RateQuant，利用率失真理论为 KV 缓存分配不同精度，在保持模型质量的同时显著降低内存占用。",
+      "key_data": [
+        "KV 缓存量化",
+        "率失真理论",
+        "混合精度"
+      ],
+      "judgment": "KV 缓存是长上下文推理的瓶颈，这种理论驱动的量化方法比经验方法更可靠，有望降低推理成本。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2605.06675",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "推理模型越长越偏：位置偏差与思考长度正相关",
+      "finding": "研究发现，推理模型（如 DeepSeek-R1）的 CoT 推理越长，反而越容易产生位置偏差，即更关注输入中的后出现信息。",
+      "key_data": [
+        "推理越长越偏",
+        "位置偏差",
+        "DeepSeek-R1"
+      ],
+      "judgment": "这对推理模型的设计是个警示：更长思考不一定更准确，需要关注推理过程中的偏差累积。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2605.06672",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "VITA-QinYu：面向角色扮演和唱歌的表现力语音语言模型",
+      "finding": "新论文提出 VITA-QinYu，一个能生成带有情感、个性甚至歌唱元素的表现力语音的模型，超越了纯文本内容。",
+      "key_data": [
+        "表现力语音",
+        "角色扮演",
+        "唱歌"
+      ],
+      "judgment": "语音 AI 从“清晰朗读”走向“情感表达”，对虚拟角色、游戏、客服等场景有直接价值。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2605.06765",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "InfoQ",
+      "title": "Mistral 为 Le Chat 新增远程智能体与 Work 模式",
+      "finding": "Mistral 为其聊天产品 Le Chat 增加了远程智能体（Remote Agent）和 Work 模式，扩展了产品的自动化能力。",
+      "key_data": [
+        "远程智能体",
+        "Work 模式",
+        "Le Chat"
+      ],
+      "judgment": "Mistral 在追赶 ChatGPT 和 Claude 的功能集，但差异化不足。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/14UTzo6myptzQ1GqBdOG?utm_source=rss&utm_medium=article",
+      "importance": 2
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Digg 转型为 AI 新闻聚合器重新上线",
+      "finding": "经典社交新闻网站 Digg 宣布以 AI 新闻聚合器的身份回归，目标是“追踪一个领域中最有影响力的声音”，并筛选出真正值得关注的新闻。",
+      "key_data": [
+        "AI 新闻聚合",
+        "Digg 回归",
+        "追踪影响力声音"
+      ],
+      "judgment": "AI 新闻聚合赛道越来越拥挤，Digg 的品牌和社区基础是优势，但能否差异化是关键。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
+      "importance": 2
+    },
+    {
+      "source": "36氪",
+      "title": "千问与淘宝打通，正式上线 AI 购物",
+      "finding": "阿里通义千问与淘宝打通，正式上线 AI 购物功能，用户可以在淘宝内通过千问进行商品搜索、推荐和购买。",
+      "key_data": [
+        "千问+淘宝",
+        "AI 购物",
+        "电商 AI"
+      ],
+      "judgment": "这是国内电商 AI 落地的标志性事件，AI 购物助手从“聊天”走向“交易”，对用户体验和电商格局都有影响。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3804795647729411?f=rss",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "网易智企发布 CodeWave，直击 AI Coding 提效难题",
+      "finding": "网易智企发布 CodeWave，一款面向企业的 AI 编程平台，旨在解决 AI 工具使用多但利润不涨的痛点。",
+      "key_data": [
+        "CodeWave",
+        "企业 AI 编程",
+        "提效"
+      ],
+      "judgment": "国内 AI Coding 赛道竞争加剧，但企业级产品需要证明 ROI 而非堆砌功能。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/qFyHzWVe3SrEwbwzGtCq?utm_source=rss&utm_medium=article",
+      "importance": 2
+    },
+    {
+      "source": "极客公园",
+      "title": "Figure AI 发布双机器人协作整理房间演示",
+      "finding": "Figure AI 发布新演示，两台 Helix-02 机器人在单一神经网络控制下协作完成整理房间任务，包括开关门、挂衣服、拉被子等。",
+      "key_data": [
+        "双机器人协作",
+        "单一神经网络",
+        "整理房间"
+      ],
+      "judgment": "具身智能从单机走向群体协作，但距离商用还有距离。",
+      "confidence": 4,
+      "url": "http://www.geekpark.net/news/363963",
+      "importance": 3
+    }
+  ],
+  "opinions": [
+    {
+      "person": "James Shore",
+      "level": "L1",
+      "quote": "你的 AI 编码代理需要降低你的维护成本，而不是只提高编写速度。如果你写代码快了一倍，最好确保维护成本也降低了一半。",
+      "source": "https://simonwillison.net/2026/May/11/james-shore/#atom-everything"
+    },
+    {
+      "person": "黄仁勋",
+      "level": "L3",
+      "quote": "AI 不会取代你，但善用 AI 的人会。今天是应届生最好的时机。",
+      "source": "https://www.qbitai.com/2026/05/415403.html"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI Agent 的经济独立：AWS AgentCore Payments 对 Agent 生态的影响",
+      "reason": "Agent 自主支付是基础设施级变化，可能催生新的商业模式和 Agent 经济体系。",
+      "priority": "high"
+    },
+    {
+      "topic": "企业级 AI 编码代理的设计哲学：从 Shopify River 看透明与边界",
+      "reason": "River 的设计原则（公开、有边界、尊重协作）可能成为企业 AI 编码工具的新范式。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "OpenAI 下场做企业部署，Agent 开始自己花钱。",
+  "snapshot": {
+    "date": "2026-05-11",
+    "hf_trending": [
+      {
+        "name": "SulphurAI/Sulphur-2-base",
+        "short_name": "Sulphur-2-base",
+        "likes": 623,
+        "downloads": 157648,
+        "url": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+        "tags": [
+          "diffusers",
+          "gguf",
+          "text-to-video"
+        ],
+        "pipeline_tag": "text-to-video",
+        "label": "文生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Zyphra/ZAYA1-8B",
+        "short_name": "ZAYA1-8B",
+        "likes": 418,
+        "downloads": 66119,
+        "url": "https://huggingface.co/Zyphra/ZAYA1-8B",
+        "tags": [
+          "safetensors",
+          "zaya",
+          "arxiv:2605.05365"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "deepseek-ai/DeepSeek-V4-Pro",
+        "short_name": "DeepSeek-V4-Pro",
+        "likes": 3855,
+        "downloads": 2017835,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v4"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "HiDream-ai/HiDream-O1-Image",
+        "short_name": "HiDream-O1-Image",
+        "likes": 239,
+        "downloads": 3418,
+        "url": "https://huggingface.co/HiDream-ai/HiDream-O1-Image",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_vl"
+        ],
+        "pipeline_tag": "image-text-to-image",
+        "label": "Image Text To Image",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "google/gemma-4-31B-it-assistant",
+        "short_name": "gemma-4-31B-it-assistant",
+        "likes": 209,
+        "downloads": 66561,
+        "url": "https://huggingface.co/google/gemma-4-31B-it-assistant",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4_assistant"
+        ],
+        "pipeline_tag": "any-to-any",
+        "label": "Any To Any",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "SeeSee21/Z-Anime",
+        "short_name": "Z-Anime",
+        "likes": 308,
+        "downloads": 9477,
+        "url": "https://huggingface.co/SeeSee21/Z-Anime",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "gguf"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "openbmb/MiniCPM-V-4.6",
+        "short_name": "MiniCPM-V-4.6",
+        "likes": 177,
+        "downloads": 0,
+        "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+        "tags": [
+          "safetensors",
+          "minicpmv4_6",
+          "minicpm-v"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "openai/privacy-filter",
+        "short_name": "privacy-filter",
+        "likes": 1409,
+        "downloads": 190993,
+        "url": "https://huggingface.co/openai/privacy-filter",
+        "tags": [
+          "transformers",
+          "onnx",
+          "safetensors"
+        ],
+        "pipeline_tag": "token-classification",
+        "label": "命名实体识别",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [],
+    "hf_summary": "文生视频与多模态模型热度飙升，实用型工具受关注。"
+  }
+}

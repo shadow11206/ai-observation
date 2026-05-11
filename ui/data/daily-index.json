@@ -1,6 +1,13 @@
 {
-  "total": 47,
+  "total": 48,
   "reports": [
+    {
+      "date": "2026-05-12",
+      "title": "今日 AI 日报：OpenAI 成立 DeployCo 企业部署公司，推动 AI 落地 + 4 条重要动态",
+      "excerpt": "这是 OpenAI 从模型提供商向企业解决方案提供商转型的关键一步。对开发者来说…",
+      "top_count": 5,
+      "file": "2026-05-12.json"
+    },
     {
       "date": "2026-05-11",
       "title": "今日 AI 日报：Meta AI安全主管被自己公司的AI Agent清空200封邮件，远程无法阻止 + 4 条重要动态",
