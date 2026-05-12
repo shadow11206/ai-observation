@@ -1,6 +1,13 @@
 {
-  "total": 48,
+  "total": 49,
   "reports": [
+    {
+      "date": "2026-05-13",
+      "title": "今日 AI 日报：Thinking Machines Lab 发布原生交互模型，实时语音对话无需传统VAD + 4 条重要动态",
+      "excerpt": "这是AI交互范式的关键转折点：实时语音对话从'拼凑式'走向'原生端到端'，将直接…",
+      "top_count": 5,
+      "file": "2026-05-13.json"
+    },
     {
       "date": "2026-05-12",
       "title": "今日 AI 日报：OpenAI 成立 DeployCo 企业部署公司，推动 AI 落地 + 4 条重要动态",
