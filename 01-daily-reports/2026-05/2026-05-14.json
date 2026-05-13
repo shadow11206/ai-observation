@@ -1,0 +1,394 @@
+{
+  "date": "2026-05-14",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "前阿里千问负责人林俊旸创业，新公司估值约20亿美元",
+      "finding": "前阿里通义千问技术负责人林俊旸（Junjie Lin）已开启创业，方向为世界模型和具身大脑，估值约20亿美元。已招募字节、腾讯和海外背景成员，正接触红杉中国、高榕创投等基金。",
+      "key_data": [
+        "估值约20亿美元",
+        "方向：世界模型+具身大脑",
+        "前阿里千问负责人"
+      ],
+      "judgment": "林俊旸是Qwen系列的核心构建者，他的创业方向选择世界模型而非纯语言模型，说明中国顶级AI人才正在从语言模型转向空间智能和具身智能，这是行业趋势的重要信号。",
+      "confidence": 4,
+      "source": "36氪",
+      "url": "https://36kr.com/p/3807382930251523?f=rss"
+    },
+    {
+      "rank": 2,
+      "title": "Notion将工作空间变成AI Agent中心",
+      "finding": "Notion发布新的开发者平台，允许团队将AI Agent、外部数据源和自定义代码直接连接到工作空间中，标志着Notion从知识管理工具向Agentic生产力软件平台转型。",
+      "key_data": [
+        "AI Agent中心",
+        "开发者平台上线",
+        "外部数据源接入"
+      ],
+      "judgment": "Notion是知识管理领域的标杆产品，此举意味着AI Agent正在从独立工具变成嵌入现有工作流的平台能力，未来每个SaaS产品都可能成为Agent的宿主环境。",
+      "confidence": 5,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/"
+    },
+    {
+      "rank": 3,
+      "title": "谷歌在Android上全面强化Gemini AI",
+      "finding": "谷歌在I/O大会前夕的Android专场宣布一系列Gemini新功能，包括自动操作手机、生成式桌面组件、Chrome浏览器集成等，将AI深度嵌入系统级体验。",
+      "key_data": [
+        "Android系统级集成",
+        "自动操作手机",
+        "生成式桌面组件"
+      ],
+      "judgment": "谷歌正在复现苹果的AI策略，但更激进——将AI直接嵌入操作系统底层。这对开发者意味着Android将成为一个AI原生平台，应用开发方式可能被重塑。",
+      "confidence": 5,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/364062"
+    },
+    {
+      "rank": 4,
+      "title": "Anthropic产品负责人：AI将能预测你的需求",
+      "finding": "Anthropic的Claude Code和Cowork产品负责人Cat Wu表示，AI的下一个重大突破是主动性——AI将在你意识到需求之前就预测并满足你的需求。",
+      "key_data": [
+        "AI主动性",
+        "Claude Code负责人",
+        "预测用户需求"
+      ],
+      "judgment": "从被动响应到主动预测是AI产品范式的根本转变。如果Anthropic能实现这一点，将重新定义人机交互方式，对现有AI产品（包括ChatGPT）形成降维打击。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/"
+    },
+    {
+      "rank": 5,
+      "title": "OpenAI为Codex构建Windows安全沙箱",
+      "heading": "OpenAI详细介绍了为Codex on Windows构建的安全沙箱，实现受控文件访问和网络限制，确保编码Agent在Windows环境中的安全运行。",
+      "finding": "OpenAI发布了Codex在Windows上的安全沙箱技术细节，通过受控文件访问和网络限制，让AI编码Agent能在Windows环境中安全运行。",
+      "key_data": [
+        "Windows沙箱",
+        "受控文件访问",
+        "网络限制"
+      ],
+      "judgment": "Codex是OpenAI的编码Agent产品，Windows沙箱的完善意味着OpenAI正在认真解决AI Agent落地的安全难题，这是Agent从Demo走向生产环境的关键一步。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/building-codex-windows-sandbox"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "量子位",
+      "title": "字节提出视觉生成第三种路线：边画边改",
+      "finding": "字节跳动提出一种新的视觉生成方法，让模型像人类一样边画边改，在相同参数量下超越了扩散和自回归方法。",
+      "key_data": [
+        "超越扩散自回归",
+        "边画边改范式",
+        "字节跳动"
+      ],
+      "judgment": "视觉生成领域长期被扩散模型和自回归模型统治，字节的第三种路线如果被验证有效，可能改变图像/视频生成的技术格局。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/05/416978.html",
+      "importance": 3
+    },
+    {
+      "source": "Latent Space",
+      "title": "AINews：微调时代的终结",
+      "finding": "Latent Space的AINews栏目讨论了微调（Fine-tuning）正在被更高效的方法取代的趋势，认为行业正在从微调转向更好的提示工程和检索增强。",
+      "key_data": [
+        "微调时代终结",
+        "提示工程崛起",
+        "RAG替代方案"
+      ],
+      "judgment": "如果微调真的被边缘化，将影响整个AI工具链——从训练平台到推理服务，创业公司需要重新定位。",
+      "confidence": 3,
+      "url": "https://www.latent.space/p/ainews-the-end-of-finetuning",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "采样越多，多样性越差：校准是LLM多样性的瓶颈",
+      "finding": "研究发现LLM在采样时存在校准问题，导致多样性瓶颈——采样越多反而多样性下降，揭示了当前LLM生成多样性的根本限制。",
+      "key_data": [
+        "多样性瓶颈",
+        "校准问题",
+        "采样越多越差"
+      ],
+      "judgment": "这对依赖LLM进行创意生成的应用（如写作、设计）是重要警示，说明当前模型在多样性方面有根本性缺陷，不是简单增加采样能解决的。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2605.11128",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "旋转保持的监督微调（Rotation-Preserving SFT）",
+      "finding": "新方法提出旋转保持的SFT，在提升领域内性能的同时不损害领域外泛化能力，解决了SFT的灾难性遗忘问题。",
+      "key_data": [
+        "旋转保持SFT",
+        "解决灾难性遗忘",
+        "保持泛化能力"
+      ],
+      "judgment": "如果该方法被验证有效，将大幅降低微调的成本和风险，让开发者更放心地对模型进行领域适配。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2605.10973",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "两院制模型：并行语言模型之间的双向隐藏状态耦合",
+      "finding": "提出一种新架构，让两个预训练语言模型通过隐藏状态直接通信，而不是通过文本序列，实现更高效的协作。",
+      "key_data": [
+        "双向隐藏状态耦合",
+        "并行语言模型",
+        "新架构"
+      ],
+      "judgment": "这是多模型协作的新思路，如果可行，可能催生更高效的模型集成和Agent协作方式。",
+      "confidence": 2,
+      "url": "https://arxiv.org/abs/2605.11167",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "极客公园",
+      "title": "商汤免费1500次调用背后：模型开源+生态锁定的战略",
+      "finding": "商汤推出每5小时1500次免费调用，Token消耗比同行低60%，并将核心模型U1以Apache 2.0协议开源，意图通过免费和开源构建开发者生态。",
+      "key_data": [
+        "每5小时1500次免费",
+        "Token消耗低60%",
+        "Apache 2.0开源"
+      ],
+      "judgment": "商汤的免费策略不是慈善，而是典型的平台打法——用免费吸引开发者，用开源建立生态，最终通过工具链和云服务变现。这对中小模型厂商是巨大压力。",
+      "confidence": 4,
+      "url": "http://www.geekpark.net/news/364099",
+      "importance": 4
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Origin Lab融资800万美元，帮游戏公司向世界模型构建者卖数据",
+      "finding": "Origin Lab获得800万美元融资，搭建一个市场平台，让AI实验室可以购买高质量的游戏数据用于训练世界模型，游戏公司则可以将数据变现。",
+      "key_data": [
+        "融资800万美元",
+        "游戏数据交易市场",
+        "世界模型训练"
+      ],
+      "judgment": "世界模型需要海量高质量3D/交互数据，游戏数据是最佳来源之一。这个市场如果做起来，可能催生新的数据经济模式，游戏公司将成为AI时代的数据矿主。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/",
+      "importance": 3
+    },
+    {
+      "source": "极客公园",
+      "title": "宇树发布全球首款载人机甲，售价390万元",
+      "finding": "宇树科技发布了全球首款载人机甲产品，售价390万元人民币，标志着机器人公司从工业/消费级向载人级产品迈进。",
+      "key_data": [
+        "全球首款载人机甲",
+        "售价390万元",
+        "宇树科技"
+      ],
+      "judgment": "载人机甲是具身智能的终极形态之一，但390万的售价意味着短期内只是极客和富豪的玩具。更重要的是信号：机器人公司开始认真思考人机融合的产品形态。",
+      "confidence": 4,
+      "url": "http://www.geekpark.net/news/364062",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "xAI在密西西比数据中心运行近50台燃气轮机，未受监管",
+      "finding": "xAI的Colossus 2数据中心运行近50台燃气轮机作为电源，但未受到适当的监管审查，已引发诉讼。",
+      "key_data": [
+        "近50台燃气轮机",
+        "未受监管",
+        "Colossus 2数据中心"
+      ],
+      "judgment": "AI数据中心的能源消耗和环境影响正在成为重大社会问题。xAI的激进做法可能引发更严格的监管，影响整个行业的数据中心建设策略。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "百度秒哒3.0：8岁小学生也能用AI做应用",
+      "finding": "百度发布秒哒3.0，大幅降低AI应用开发门槛，甚至支持在手机上直接制作APP，8岁小学生也能将自己的想法变成应用。",
+      "key_data": [
+        "秒哒3.0",
+        "手机端开发APP",
+        "零门槛AI应用"
+      ],
+      "judgment": "这是AI应用开发平民化的典型案例。如果秒哒3.0真的能做到零门槛，将颠覆传统应用开发模式，但也面临质量和安全控制的挑战。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/05/417366.html",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Cat Wu (Anthropic)",
+      "level": "L1",
+      "quote": "AI的下一个重大突破是主动性——AI将在你意识到需求之前就预测并满足你的需求。",
+      "source": "https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/"
+    },
+    {
+      "person": "Boris Mann",
+      "level": "L2",
+      "quote": "“11个AI Agent”这个说法毫无意义。就像说“我有11个电子表格”或“我有11个浏览器标签页”来完成工作一样。",
+      "source": "https://simonwillison.net/2026/May/13/boris-mann/#atom-everything"
+    },
+    {
+      "person": "Anders Hejlsberg (TypeScript/C# 之父)",
+      "level": "L1",
+      "quote": "在Pragmatic Engineer的采访中，Hejlsberg反思了构建Turbo Pascal、C#和TypeScript的经验，并分享了AI可能如何改变软件工程的未来。",
+      "source": "https://newsletter.pragmaticengineer.com/p/typescript-c-and-turbo-pascal-with"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI Agent的主动性：从被动响应到主动预测的产品范式转变",
+      "reason": "Anthropic产品负责人明确提出AI将预测用户需求，这是产品设计的根本性变化，值得深入研究其技术可行性和产品形态。",
+      "priority": "high"
+    },
+    {
+      "topic": "世界模型与具身智能：林俊旸创业方向的技术路线分析",
+      "reason": "前Qwen负责人选择世界模型而非语言模型创业，代表中国顶级AI人才的技术判断，值得深入分析世界模型的技术现状和商业前景。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI Agent安全沙箱：从OpenAI Codex看Agent落地的安全挑战",
+      "reason": "OpenAI为Codex构建Windows沙箱是Agent从Demo走向生产的关键技术，值得研究其安全架构和对Agent产品设计的启示。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "林俊旸创业估值20亿美元，Notion变身Agent中心",
+  "snapshot": {
+    "date": "2026-05-13",
+    "hf_trending": [
+      {
+        "name": "SulphurAI/Sulphur-2-base",
+        "short_name": "Sulphur-2-base",
+        "likes": 826,
+        "downloads": 535069,
+        "url": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+        "tags": [
+          "diffusers",
+          "gguf",
+          "text-to-video"
+        ],
+        "pipeline_tag": "text-to-video",
+        "label": "文生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Zyphra/ZAYA1-8B",
+        "short_name": "ZAYA1-8B",
+        "likes": 474,
+        "downloads": 110182,
+        "url": "https://huggingface.co/Zyphra/ZAYA1-8B",
+        "tags": [
+          "safetensors",
+          "zaya",
+          "arxiv:2605.05365"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "openbmb/MiniCPM-V-4.6",
+        "short_name": "MiniCPM-V-4.6",
+        "likes": 480,
+        "downloads": 3494,
+        "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+        "tags": [
+          "safetensors",
+          "minicpmv4_6",
+          "minicpm-v"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "HiDream-ai/HiDream-O1-Image",
+        "short_name": "HiDream-O1-Image",
+        "likes": 296,
+        "downloads": 7747,
+        "url": "https://huggingface.co/HiDream-ai/HiDream-O1-Image",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_vl"
+        ],
+        "pipeline_tag": "image-text-to-image",
+        "label": "Image Text To Image",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "deepseek-ai/DeepSeek-V4-Pro",
+        "short_name": "DeepSeek-V4-Pro",
+        "likes": 3925,
+        "downloads": 2420384,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v4"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Supertone/supertonic-3",
+        "short_name": "supertonic-3",
+        "likes": 162,
+        "downloads": 4954,
+        "url": "https://huggingface.co/Supertone/supertonic-3",
+        "tags": [
+          "supertonic",
+          "onnx",
+          "text-to-speech"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "SeeSee21/Z-Anime",
+        "short_name": "Z-Anime",
+        "likes": 348,
+        "downloads": 11486,
+        "url": "https://huggingface.co/SeeSee21/Z-Anime",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "gguf"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "TenStrip/LTX2.3-10Eros",
+        "short_name": "LTX2.3-10Eros",
+        "likes": 243,
+        "downloads": 84903,
+        "url": "https://huggingface.co/TenStrip/LTX2.3-10Eros",
+        "tags": [
+          "diffusers",
+          "image-to-video",
+          "region:us"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [],
+    "hf_summary": "视频与多模态模型热度上升"
+  }
+}
