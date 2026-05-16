@@ -1,6 +1,13 @@
 {
-  "total": 52,
+  "total": 53,
   "reports": [
+    {
+      "date": "2026-05-17",
+      "title": "今日 AI 日报：Cerebras 600亿美元IPO：AI芯片新巨头诞生 + 4 条重要动态",
+      "excerpt": "这对AI基础设施格局影响重大。Cerebras 证明了非NVIDIA路线的商业可…",
+      "top_count": 5,
+      "file": "2026-05-17.json"
+    },
     {
       "date": "2026-05-16",
       "title": "今日 AI 日报：OpenAI重组：Greg Brockman正式接管产品线，ChatGPT与Codex统一 + 4 条重要动态",
