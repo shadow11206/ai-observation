@@ -1,6 +1,13 @@
 {
-  "total": 53,
+  "total": 54,
   "reports": [
+    {
+      "date": "2026-05-18",
+      "title": "今日 AI 日报：ChatGPT首次在多项关键指标上落后于Claude，Anthropic商业收入反超OpenAI + 4 条重要动态",
+      "excerpt": "这对OpenAI是重大警讯，说明Claude在企业级市场的产品力和信任度已超越C…",
+      "top_count": 5,
+      "file": "2026-05-18.json"
+    },
     {
       "date": "2026-05-17",
       "title": "今日 AI 日报：Cerebras 600亿美元IPO：AI芯片新巨头诞生 + 4 条重要动态",
