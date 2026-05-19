@@ -1,6 +1,13 @@
 {
-  "total": 55,
+  "total": 56,
   "reports": [
+    {
+      "date": "2026-05-20",
+      "title": "今日 AI 日报：Google I/O 2026：发布 Gemini 3.5 Flash，搜索框25年来首次改版，全面转向AI Agent + 4 条重要动态",
+      "excerpt": "Google正在从'搜索工具'彻底转型为'AI Agent平台'，这对所有依赖搜…",
+      "top_count": 5,
+      "file": "2026-05-20.json"
+    },
     {
       "date": "2026-05-19",
       "title": "AI 日报 2026-05-19",
