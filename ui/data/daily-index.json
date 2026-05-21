@@ -1,6 +1,13 @@
 {
-  "total": 56,
+  "total": 57,
   "reports": [
+    {
+      "date": "2026-05-21",
+      "title": "今日 AI 日报：OpenAI模型破解80年未解数学难题，AI数学推理能力里程碑 + 4 条重要动态",
+      "excerpt": "这是AI能力从‘工具’到‘研究者’质变的信号。对开发者而言，这意味着未来AI不仅…",
+      "top_count": 5,
+      "file": "2026-05-21.json"
+    },
     {
       "date": "2026-05-20",
       "title": "今日 AI 日报：Google I/O 2026：发布 Gemini 3.5 Flash，搜索框25年来首次改版，全面转向AI Agent + 4 条重要动态",
