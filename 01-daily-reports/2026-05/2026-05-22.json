@@ -1,0 +1,382 @@
+{
+  "date": "2026-05-22",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "OpenAI非数学模型自主突破80年未解数学难题",
+      "finding": "OpenAI的GPT-next（非专用数学模型）自主解决了Erdős平面单位距离问题，这是一个80年未解的数学难题。该模型生成了125页的推理过程，让菲尔兹奖得主都感到震惊。",
+      "key_data": [
+        "80年未解难题",
+        "125页推理",
+        "成本<1000美元",
+        "非数学专用模型"
+      ],
+      "judgment": "这是推理能力从'解题'到'发现'的质变信号。当通用模型能自主攻克开放研究问题，AI的应用边界将从'工具'扩展到'科研合作者'，对科研、药物发现等领域影响深远。",
+      "confidence": 4,
+      "source": "量子位 / Latent Space",
+      "url": "https://www.qbitai.com/2026/05/422032.html"
+    },
+    {
+      "rank": 2,
+      "title": "Intuit裁员3000人，全面转向AI优先战略",
+      "finding": "TurboTax和QuickBooks的母公司Intuit宣布裁员超过3000人（约占员工10%），将资源重新聚焦于AI驱动的产品和服务。这是继Meta、Google之后又一家大规模'AI换人'的科技公司。",
+      "key_data": [
+        "裁员3000+人",
+        "约占10%员工",
+        "AI优先战略",
+        "财务软件巨头"
+      ],
+      "judgment": "这标志着AI对白领工作的替代从'可能性'变成'现实决策'。财务、税务等知识密集型岗位将首当其冲，企业级SaaS产品正在经历从'工具'到'自动化代理'的范式转移。",
+      "confidence": 5,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/"
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic举办'Code with Claude'活动，展示AI编程的未来",
+      "finding": "Anthropic在伦敦举办了两天的开发者活动，展示了Claude在编程领域的强大能力。MIT Tech Review报道称，无论你喜欢与否，这都展示了编程的未来。活动与Google I/O同日举行，但并非有意安排。",
+      "key_data": [
+        "两天开发者活动",
+        "伦敦举办",
+        "与Google I/O同日",
+        "编程未来"
+      ],
+      "judgment": "Anthropic正在从'模型公司'向'开发者平台'转型。Code with Claude不仅是技术展示，更是对开发者生态的争夺——谁赢得开发者，谁就赢得AI时代的入口。",
+      "confidence": 4,
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/"
+    },
+    {
+      "rank": 4,
+      "title": "Cloudflare与Stripe推出新协议，让AI智能体自主创建账号和购买域名",
+      "finding": "Cloudflare和Stripe联合推出新协议，允许AI智能体自主完成创建账号、购买域名、进行生产部署等操作。这标志着AI智能体从'对话'向'行动'的关键一步。",
+      "key_data": [
+        "AI智能体自主操作",
+        "创建账号/购买域名",
+        "生产部署",
+        "MCP协议扩展"
+      ],
+      "judgment": "这是AI智能体从'建议者'到'执行者'的关键基础设施。当AI能自主完成从注册到部署的全流程，企业级自动化将进入新阶段，但也带来了安全和信任的新挑战。",
+      "confidence": 4,
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/TbgvhdcciqULlEEmFBbU"
+    },
+    {
+      "rank": 5,
+      "title": "Qwen3.7问鼎国产模型冠军，全球前五",
+      "finding": "Artificial Analysis评测榜单显示，阿里通义千问Qwen3.7-Max登顶国产模型冠军，进入全球前五。该模型即将在阿里云百炼上线API服务。",
+      "key_data": [
+        "国产模型冠军",
+        "全球前五",
+        "即将上线API",
+        "阿里云百炼"
+      ],
+      "judgment": "国产大模型在基准测试上已具备全球竞争力，但真正的考验是实际应用中的性价比和稳定性。Qwen3.7的API定价和实际表现将决定它能否真正挑战GPT-4o的市场地位。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/05/422009.html"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "量子位",
+      "title": "腾讯混元开源全新翻译模型Hy-MT2",
+      "finding": "腾讯混元开源了新一代翻译模型Hy-MT2，最大提升体现在指令遵循能力上，并同步上线了小程序'腾讯Hy翻译'。",
+      "key_data": [
+        "开源翻译模型",
+        "指令遵循提升",
+        "Hy翻译小程序"
+      ],
+      "judgment": "翻译是AI最成熟的应用场景之一，开源模型进一步降低了企业本地化部署的门槛。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/05/422068.html",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "LatitudeGames发布Equinox-31B模型",
+      "finding": "LatitudeGames发布了基于Gemma 31B的微调模型Equinox-31B，训练数据融合了Wayfare等数据集，旨在平衡极端表现。",
+      "key_data": [
+        "31B参数",
+        "Gemma基座",
+        "平衡训练"
+      ],
+      "judgment": "31B规模的开源模型正在成为社区微调的热点，但实际效果需要社区验证。",
+      "confidence": 3,
+      "url": "https://huggingface.co/LatitudeGames/Equinox-31B-GGUF",
+      "importance": 2
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "Qwen3.6 35B改变用户工作流",
+      "finding": "用户反馈Qwen3.6 35B模型改变了他们的工作方式，包括使用Codex执行任务并记录为技能，再喂给pi模型使用。",
+      "key_data": [
+        "35B参数",
+        "工作流改变",
+        "技能记录"
+      ],
+      "judgment": "开源模型正在从'玩具'变成'生产力工具'，用户开始围绕模型构建个人工作流。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjwrp7/qwen36_35ba3_has_changed_my_workflows_and_even/",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "论文：开发数据探针以理解数据如何影响LLM性能",
+      "finding": "一篇立场论文提出开发'数据探针'来从根本上理解不同数据对LLM各训练阶段的影响，旨在解决数据选择中的黑箱问题。",
+      "key_data": [
+        "数据探针",
+        "数据影响分析",
+        "训练阶段"
+      ],
+      "judgment": "数据质量是模型性能的关键瓶颈，这个方向如果成功将改变数据工程实践。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2605.18801",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "论文：AgentNLQ——通用自然语言转SQL智能体",
+      "finding": "提出一个通用智能体AgentNLQ，用于将自然语言转换为SQL查询，解决企业和研究中的NL2SQL问题。",
+      "key_data": [
+        "NL2SQL",
+        "通用智能体",
+        "企业应用"
+      ],
+      "judgment": "NL2SQL是企业AI落地的关键场景，通用智能体方案有望降低数据查询门槛。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2605.19010",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "TechCrunch",
+      "title": "Spotify推出AI驱动的播客问答和简报生成功能",
+      "finding": "Spotify新增AI功能，允许用户根据提示生成每日或每周的播客简报，同时推出类似NotebookLM的桌面应用，用于创建个性化播客。",
+      "key_data": [
+        "AI播客简报",
+        "个性化播客",
+        "桌面应用"
+      ],
+      "judgment": "Spotify正在将AI嵌入内容消费全链路，从推荐到生成，意图打造'AI原生音频平台'。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Spotify与环球音乐达成协议，允许AI生成翻唱和混音",
+      "finding": "Spotify与环球音乐集团达成合作，允许Premium订阅用户使用AI生成歌曲翻唱和混音，参与的艺术家将获得收入分成。",
+      "key_data": [
+        "AI翻唱/混音",
+        "收入分成",
+        "环球音乐合作"
+      ],
+      "judgment": "这是音乐行业对AI生成内容从'抵制'到'合作'的标志性转折，为AI音乐商业化开辟了新路径。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
+      "importance": 3
+    },
+    {
+      "source": "Wired",
+      "title": "SpaceX在IPO文件中将Grok的'Spicy'模式列为风险因素",
+      "finding": "SpaceX在IPO文件中将xAI的Grok模型的'Spicy'模式列为潜在诉讼风险，并为此预留了超过5亿美元的诉讼准备金。",
+      "key_data": [
+        "IPO风险披露",
+        "5亿美元准备金",
+        "Grok Spicy模式"
+      ],
+      "judgment": "AI模型的内容风险正在成为企业上市和运营的真实财务成本，合规将成为AI产品的核心竞争要素。",
+      "confidence": 4,
+      "url": "https://www.wired.com/story/spacex-ipo-grok-spicy-mode-risks/",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "特朗普推迟AI安全行政令，称语言'可能成为障碍'",
+      "finding": "美国总统特朗普推迟签署一项要求AI模型在发布前进行政府安全审查的行政令，表示对措辞不满意，不想'阻碍领先地位'。",
+      "key_data": [
+        "推迟AI安全令",
+        "政府审查",
+        "不想阻碍领先"
+      ],
+      "judgment": "AI监管的摇摆不定增加了行业不确定性，短期内利好模型快速迭代，但长期可能积累安全风险。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/",
+      "importance": 3
+    },
+    {
+      "source": "Simon Willison",
+      "title": "Datasette Agent发布：可扩展的AI助手",
+      "finding": "Simon Willison发布了Datasette Agent的第一个版本，这是一个可扩展的AI助手，集成了SQL查询、图表生成和沙箱执行等功能。",
+      "key_data": [
+        "开源AI助手",
+        "SQL查询",
+        "图表生成",
+        "沙箱执行"
+      ],
+      "judgment": "Simon Willison正在将AI Agent能力注入数据探索工具，代表了'AI+数据分析'的实用主义方向。",
+      "confidence": 4,
+      "url": "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "发布Datasette Agent，一个可扩展的AI助手，集成了SQL查询、图表生成和沙箱执行。这是将AI Agent能力注入数据探索工具的实用主义尝试。",
+      "source": "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI自主科研突破：从解题到发现",
+      "reason": "OpenAI模型自主解决80年数学难题，标志着AI从'工具'到'科研合作者'的质变，值得深入分析其方法论和影响。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI智能体自主操作基础设施：Cloudflare+Stripe协议",
+      "reason": "AI智能体从'对话'到'行动'的关键基础设施正在形成，将深刻改变企业自动化和SaaS生态。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "AI自主攻克数学难题，Intuit裁员转向AI优先",
+  "snapshot": {
+    "date": "2026-05-21",
+    "hf_trending": [
+      {
+        "name": "bytedance-research/Lance",
+        "short_name": "Lance",
+        "likes": 565,
+        "downloads": 739,
+        "url": "https://huggingface.co/bytedance-research/Lance",
+        "tags": [
+          "Lance",
+          "safetensors",
+          "multimodal"
+        ],
+        "pipeline_tag": "any-to-any",
+        "label": "Any To Any",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Supertone/supertonic-3",
+        "short_name": "supertonic-3",
+        "likes": 534,
+        "downloads": 34965,
+        "url": "https://huggingface.co/Supertone/supertonic-3",
+        "tags": [
+          "supertonic",
+          "onnx",
+          "text-to-speech"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "openbmb/MiniCPM-V-4.6",
+        "short_name": "MiniCPM-V-4.6",
+        "likes": 867,
+        "downloads": 196105,
+        "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "minicpmv4_6"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "SulphurAI/Sulphur-2-base",
+        "short_name": "Sulphur-2-base",
+        "likes": 1231,
+        "downloads": 1198471,
+        "url": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+        "tags": [
+          "diffusers",
+          "gguf",
+          "text-to-video"
+        ],
+        "pipeline_tag": "text-to-video",
+        "label": "文生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "unsloth/Qwen3.6-27B-MTP-GGUF",
+        "short_name": "Qwen3.6-27B-MTP-GGUF",
+        "likes": 373,
+        "downloads": 478488,
+        "url": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF",
+        "tags": [
+          "transformers",
+          "gguf",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "sapientinc/HRM-Text-1B",
+        "short_name": "HRM-Text-1B",
+        "likes": 213,
+        "downloads": 58922,
+        "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "hrm_text"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "NemoStation/Marlin-2B",
+        "short_name": "Marlin-2B",
+        "likes": 214,
+        "downloads": 2353,
+        "url": "https://huggingface.co/NemoStation/Marlin-2B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "video-text-to-text",
+        "label": "Video Text To Text",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "circlestone-labs/Anima",
+        "short_name": "Anima",
+        "likes": 1463,
+        "downloads": 591834,
+        "url": "https://huggingface.co/circlestone-labs/Anima",
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "license:other"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [],
+    "hf_summary": "多模态与视频生成模型霸榜，热度集中"
+  }
+}
