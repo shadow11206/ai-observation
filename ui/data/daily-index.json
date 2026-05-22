@@ -1,6 +1,13 @@
 {
-  "total": 58,
+  "total": 59,
   "reports": [
+    {
+      "date": "2026-05-23",
+      "title": "AI 日报 2026-05-23",
+      "excerpt": "",
+      "top_count": 0,
+      "file": "2026-05-23.json"
+    },
     {
       "date": "2026-05-22",
       "title": "今日 AI 日报：OpenAI非数学模型自主突破80年未解数学难题 + 4 条重要动态",
