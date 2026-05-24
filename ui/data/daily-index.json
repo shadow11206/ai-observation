@@ -1,6 +1,13 @@
 {
-  "total": 59,
+  "total": 60,
   "reports": [
+    {
+      "date": "2026-05-25",
+      "title": "今日 AI 日报：DeepSeek 宣布旗舰模型永久降价75% + 4 条重要动态",
+      "excerpt": "这对所有依赖第三方模型 API 的开发者是重大利好，但对 OpenAI、Anth…",
+      "top_count": 5,
+      "file": "2026-05-25.json"
+    },
     {
       "date": "2026-05-23",
       "title": "AI 日报 2026-05-23",
