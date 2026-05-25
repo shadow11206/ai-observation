@@ -1,6 +1,13 @@
 {
-  "total": 60,
+  "total": 61,
   "reports": [
+    {
+      "date": "2026-05-26",
+      "title": "今日 AI 日报：ClickUp 用数千 AI Agent 替代数百员工，引发企业 AI 转型争议 + 4 条重要动态",
+      "excerpt": "这是企业级 AI 落地的分水岭事件。之前大家讨论的是 AI 辅助提效，现在直接变…",
+      "top_count": 5,
+      "file": "2026-05-26.json"
+    },
     {
       "date": "2026-05-25",
       "title": "今日 AI 日报：DeepSeek 宣布旗舰模型永久降价75% + 4 条重要动态",

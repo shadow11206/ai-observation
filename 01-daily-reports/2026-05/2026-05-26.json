@@ -1,0 +1,390 @@
+{
+  "date": "2026-05-26",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "ClickUp 用数千 AI Agent 替代数百员工，引发企业 AI 转型争议",
+      "finding": "项目管理 SaaS 公司 ClickUp 宣布大规模裁员，同时引入数千个 AI Agent 替代被裁员工的工作。这标志着企业 AI 应用从“辅助工具”正式进入“替代劳动力”阶段，引发关于未来工作模式的激烈讨论。",
+      "key_data": [
+        "裁员数百人",
+        "引入数千AI Agent",
+        "SaaS公司转型案例"
+      ],
+      "judgment": "这是企业级 AI 落地的分水岭事件。之前大家讨论的是 AI 辅助提效，现在直接变成了 AI 替代岗位。对 SaaS 行业来说，产品形态和商业模式都将被迫重构——如果 AI 能直接完成工作，谁还需要 SaaS 订阅？",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/"
+    },
+    {
+      "rank": 2,
+      "title": "教皇发布首份 AI 通谕：AI 必须服务于人类，而非少数权力者",
+      "finding": "教皇 Leo XIV 发布首份通谕，核心观点是 AI 不应由少数公司控制，否则将导致“新形式的非人化”。这是全球最高宗教领袖首次系统性地对 AI 治理发声，影响深远。",
+      "key_data": [
+        "首份AI通谕",
+        "反对权力集中",
+        "呼吁全球治理"
+      ],
+      "judgment": "教皇的立场与当前 AI 行业“赢者通吃”的现实形成强烈对比。虽然宗教领袖不直接制定政策，但这份通谕会加速全球 AI 监管讨论，尤其在欧洲，可能推动更严格的 AI 反垄断和数据主权法规。",
+      "confidence": 5,
+      "source": "Hacker News / Variety",
+      "url": "https://variety.com/2026/biz/global/pope-leo-ai-encyclical-algorithms-threaten-dehumanisation-1236758186/"
+    },
+    {
+      "rank": 3,
+      "title": "面壁智能发布 MiniCPM5-1B：端侧小模型再破纪录",
+      "finding": "面壁智能发布 MiniCPM5-1B，一个仅 1B 参数的端侧模型。在保持极小体积的同时，性能接近更大规模模型，进一步验证了“小模型+高质量数据”路线的可行性。",
+      "key_data": [
+        "1B参数",
+        "端侧部署",
+        "性能接近大模型"
+      ],
+      "judgment": "MiniCPM 系列持续证明小模型路线的价值。对开发者来说，这意味着未来很多场景不需要调用云端 API，直接在手机或 IoT 设备上就能跑出不错的效果。这会加速 AI 在离线场景和隐私敏感场景的落地。",
+      "confidence": 3,
+      "source": "Reddit r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tnafre/minicpm51b/"
+    },
+    {
+      "rank": 4,
+      "title": "NuExtract3 发布：4B 开源视觉语言模型，专攻结构化提取",
+      "finding": "Numind 发布 NuExtract3，一个 4B 参数的开源 VLM，可将图像/文本转换为 Markdown 格式，支持 OCR 和结构化数据提取。基于 Qwen3.5-4B，Apache-2.0 协议。",
+      "key_data": [
+        "4B参数",
+        "Apache-2.0开源",
+        "图像转Markdown",
+        "OCR提取"
+      ],
+      "judgment": "这是一个非常实用的工具型模型。对开发者来说，文档处理、发票识别、表格提取等场景可以直接用这个模型自托管，无需依赖云端 API。4B 参数意味着可以在消费级 GPU 上运行，降低了企业文档自动化的门槛。",
+      "confidence": 4,
+      "source": "Reddit r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tn8utn/nuextract3_released_openweight_4b_vlm_for/"
+    },
+    {
+      "rank": 5,
+      "title": "Qwen3.6 35B 被社区评为本地 Agent 最佳模型",
+      "finding": "Reddit 社区讨论显示，Qwen3.6 35B A3B 在本地 Agent 任务中表现最佳，工具调用稳定性远超 Gemma4 等竞品。社区反馈其几乎不会出现工具调用格式错误或循环问题。",
+      "key_data": [
+        "Qwen3.6 35B",
+        "本地Agent最佳",
+        "工具调用稳定"
+      ],
+      "judgment": "这反映了开源模型在 Agent 能力上的快速追赶。Qwen 系列在工具调用和指令遵循上的稳定性，使其成为本地部署 Agent 的首选。对开发者来说，这意味着可以更可靠地构建本地 AI Agent，而不必依赖闭源 API。",
+      "confidence": 3,
+      "source": "Reddit r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tnbz23/is_qwen36_current_king_for_local_agentic_use/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "面壁智能发布 MiniCPM5-1B 端侧模型",
+      "finding": "MiniCPM5-1B 仅 1B 参数，性能接近大模型，可在端侧设备运行。进一步验证了小模型+高质量数据路线的可行性。",
+      "key_data": [
+        "1B参数",
+        "端侧部署",
+        "性能接近大模型"
+      ],
+      "judgment": "端侧 AI 门槛进一步降低，离线场景和隐私敏感场景的 AI 应用将加速落地。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tnafre/minicpm51b/",
+      "importance": 4
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "NuExtract3 发布：4B 开源 VLM 专攻结构化提取",
+      "finding": "基于 Qwen3.5-4B 的 4B 开源模型，可将图像/文本转换为 Markdown，支持 OCR 和结构化提取，Apache-2.0 协议。",
+      "key_data": [
+        "4B参数",
+        "Apache-2.0开源",
+        "图像转Markdown",
+        "OCR提取"
+      ],
+      "judgment": "文档自动化场景的实用工具，消费级 GPU 可运行，降低企业文档处理门槛。",
+      "confidence": 4,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tn8utn/nuextract3_released_openweight_4b_vlm_for/",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "BOHM：零成本层次化归因方法用于复合 AI 系统",
+      "finding": "提出一种零成本归因方法，用于分析复合 AI 系统中各组件对最终输出的贡献，无需额外计算开销。",
+      "key_data": [
+        "零成本归因",
+        "复合AI系统",
+        "层次化分析"
+      ],
+      "judgment": "对构建复杂 Agent 系统的团队有参考价值，可帮助理解多组件协作中的瓶颈。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2605.22866",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "RMA：面向研究级数学问题的 Agent 系统",
+      "finding": "提出 Research Math Agents (RMA) 框架，用于自动化解决研究级数学问题，超越了传统数学推理的范畴。",
+      "key_data": [
+        "研究级数学",
+        "Agent框架",
+        "自动化推理"
+      ],
+      "judgment": "AI 在科学推理能力上的又一突破，但距离实际应用还有距离。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2605.22875",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "Latent Cache Flow：模型间无需文本的通信方式",
+      "finding": "提出一种新的模型间通信范式，通过共享潜在缓存而非文本，减少延迟和信息损失。",
+      "key_data": [
+        "模型间通信",
+        "潜在缓存",
+        "减少延迟"
+      ],
+      "judgment": "如果可行，将改变多 Agent 系统的通信架构，大幅提升协作效率。",
+      "confidence": 2,
+      "url": "https://arxiv.org/abs/2605.22863",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "TechCrunch",
+      "title": "ClickUp 用数千 AI Agent 替代数百员工",
+      "finding": "项目管理 SaaS 公司 ClickUp 大规模裁员，同时引入数千 AI Agent 替代被裁员工的工作，引发企业 AI 转型争议。",
+      "key_data": [
+        "裁员数百人",
+        "引入数千AI Agent",
+        "SaaS公司转型案例"
+      ],
+      "judgment": "企业 AI 应用从辅助工具正式进入替代劳动力阶段，SaaS 产品形态和商业模式将被迫重构。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/",
+      "importance": 5
+    },
+    {
+      "source": "量子位",
+      "title": "蚂蚁灵波 LingBot-VA 论文被机器人顶会 RSS 2026 接收",
+      "finding": "蚂蚁集团机器人团队提出 LingBot-VA，一种让机器人边推演边行动的方法，获得国际机器人研究共同体认可。",
+      "key_data": [
+        "RSS 2026接收",
+        "边推演边行动",
+        "蚂蚁机器人"
+      ],
+      "judgment": "蚂蚁在具身智能领域的技术积累开始获得学术界认可，但距离产品化还有距离。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/05/424581.html",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "Waymo 因无人车遇水故障大规模召回，叫停多城 Robotaxi 服务",
+      "finding": "Waymo 无人驾驶出租车在雨天出现严重故障，被迫大规模召回并暂停多城市服务。特斯拉则展示了“躲交警”能力。",
+      "key_data": [
+        "大规模召回",
+        "雨天故障",
+        "叫停多城服务"
+      ],
+      "judgment": "自动驾驶在极端天气下的可靠性仍是致命短板。Waymo 的召回说明 L4 级自动驾驶的商业化比预期更艰难。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/05/424610.html",
+      "importance": 4
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "Harness、Scaffold 等 AI Agent 术语正名文章",
+      "finding": "Hugging Face 发布文章，系统梳理 AI Agent 领域的关键术语（Harness、Scaffold 等），推动行业术语标准化。",
+      "key_data": [
+        "Agent术语标准化",
+        "Harness",
+        "Scaffold"
+      ],
+      "judgment": "术语标准化是行业成熟的重要标志，对开发者沟通和框架设计有实际帮助。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/agent-glossary",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "谷歌让 Android 工具链更便于 AI Agent 使用",
+      "finding": "谷歌发布 Android CLI 更新，使 Android 开发工具链更易于被 AI Agent 调用和操作。",
+      "key_data": [
+        "Android CLI",
+        "AI Agent友好",
+        "工具链优化"
+      ],
+      "judgment": "谷歌在主动为 AI Agent 优化基础设施，未来移动端开发可能大量由 Agent 完成。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/UAYjt4mXTI5oSGg46LLL",
+      "importance": 3
+    }
+  ],
+  "opinions": [
+    {
+      "person": "教皇 Leo XIV",
+      "level": "L3",
+      "quote": "AI 必须服务于全人类，而非少数权力者。少数公司控制 AI 将导致'新形式的非人化'。",
+      "source": "https://variety.com/2026/biz/global/pope-leo-ai-encyclical-algorithms-threaten-dehumanisation-1236758186/"
+    },
+    {
+      "person": "Uber COO",
+      "level": "L3",
+      "quote": "越来越难证明在 AI token 上的巨额投入是合理的。",
+      "source": "https://www.reddit.com/r/artificial/comments/1tndgv8/ubers_coo_says_its_getting_harder_to_justify_the/"
+    },
+    {
+      "person": "沈宇军（蚂蚁灵波）",
+      "level": "L1",
+      "quote": "VLA 和世界模型都不是终局，会有物理世界独有的模型。要做机器人时代的安卓系统。",
+      "source": "https://www.qbitai.com/2026/05/424584.html"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "ClickUp 裁员事件：企业 AI 替代劳动力的真实影响",
+      "reason": "这是企业级 AI 落地的标志性事件，值得深入分析其产品、商业模式和组织变革。",
+      "priority": "high"
+    },
+    {
+      "topic": "端侧小模型（MiniCPM5-1B）的实用性和部署方案",
+      "reason": "1B 模型性能接近大模型，可能改变很多场景的 AI 部署方式。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "AI 替代劳动力案例出现，端侧小模型再突破",
+  "snapshot": {
+    "date": "2026-05-25",
+    "hf_trending": [
+      {
+        "name": "tencent/Hy-MT2-1.8B",
+        "short_name": "Hy-MT2-1.8B",
+        "likes": 801,
+        "downloads": 5552,
+        "url": "https://huggingface.co/tencent/Hy-MT2-1.8B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "hunyuan_v1_dense"
+        ],
+        "pipeline_tag": "translation",
+        "label": "翻译",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "bytedance-research/Lance",
+        "short_name": "Lance",
+        "likes": 817,
+        "downloads": 1679,
+        "url": "https://huggingface.co/bytedance-research/Lance",
+        "tags": [
+          "Lance",
+          "safetensors",
+          "multimodal"
+        ],
+        "pipeline_tag": "any-to-any",
+        "label": "Any To Any",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "NemoStation/Marlin-2B",
+        "short_name": "Marlin-2B",
+        "likes": 343,
+        "downloads": 7291,
+        "url": "https://huggingface.co/NemoStation/Marlin-2B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "video-text-to-text",
+        "label": "Video Text To Text",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "tencent/Hy-MT2-30B-A3B",
+        "short_name": "Hy-MT2-30B-A3B",
+        "likes": 325,
+        "downloads": 1494,
+        "url": "https://huggingface.co/tencent/Hy-MT2-30B-A3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "hy_v3"
+        ],
+        "pipeline_tag": "translation",
+        "label": "翻译",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "sapientinc/HRM-Text-1B",
+        "short_name": "HRM-Text-1B",
+        "likes": 309,
+        "downloads": 90026,
+        "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "hrm_text"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "Supertone/supertonic-3",
+        "short_name": "supertonic-3",
+        "likes": 672,
+        "downloads": 45800,
+        "url": "https://huggingface.co/Supertone/supertonic-3",
+        "tags": [
+          "supertonic",
+          "onnx",
+          "text-to-speech"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "meituan-longcat/LongCat-Video-Avatar-1.5",
+        "short_name": "LongCat-Video-Avatar-1.5",
+        "likes": 222,
+        "downloads": 0,
+        "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5",
+        "tags": [
+          "diffusers",
+          "onnx",
+          "safetensors"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "SulphurAI/Sulphur-2-base",
+        "short_name": "Sulphur-2-base",
+        "likes": 1349,
+        "downloads": 1354786,
+        "url": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+        "tags": [
+          "diffusers",
+          "gguf",
+          "text-to-video"
+        ],
+        "pipeline_tag": "text-to-video",
+        "label": "文生视频",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [],
+    "hf_summary": "多模态生成方向热度攀升翻译与视频模型领跑"
+  }
+}
