@@ -1,0 +1,391 @@
+{
+  "date": "2026-05-27",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Anthropic 公开 Claude Agent 安全事件及防护机制",
+      "finding": "Anthropic 发布了一篇非常透明的工程博客，详细介绍了他们如何对 Claude 的 Agent 能力（包括 claude.ai、Claude Code 和 Cowork）进行安全隔离，并披露了两起实际发生的安全事件。这暴露了当前 Agent 系统面临的核心挑战：数据泄露和权限滥用。",
+      "key_data": [
+        "安全隔离机制",
+        "两起安全事件",
+        "Agent 数据泄露"
+      ],
+      "judgment": "这是目前最坦诚的 Agent 安全实践分享。对于所有正在构建 Agent 产品的团队来说，这是一份必须学习的参考文档，它揭示了 Agent 安全不是理论问题，而是每天都在发生的工程挑战。",
+      "confidence": 5,
+      "source": "Reddit r/artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1tomozc/anthropic_just_published_how_they_contain_claude/"
+    },
+    {
+      "rank": 2,
+      "title": "微软 Copilot Cowork 被发现存在文件泄露漏洞",
+      "finding": "Simon Willison 报道称，微软 Copilot Cowork 存在严重安全漏洞，攻击者可以利用该 Agent 系统从用户环境中窃取文件。这再次印证了 Agent 安全是当前最棘手的问题之一。",
+      "key_data": [
+        "Copilot Cowork 漏洞",
+        "文件泄露",
+        "Agent 安全"
+      ],
+      "judgment": "连微软这样的巨头都在 Agent 安全上翻车，说明这不是某个公司的问题，而是整个行业的基础设施级挑战。所有 Agent 产品在发布前都必须把安全作为第一优先级，否则信任危机将扼杀整个赛道。",
+      "confidence": 5,
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything"
+    },
+    {
+      "rank": 3,
+      "title": "Google AI 搜索引发用户逃离，DuckDuckGo 安装量暴涨 30%",
+      "finding": "Google 在 I/O 2026 上彻底改造了搜索，用 AI Agent 取代了蓝色链接，但用户反应强烈。DuckDuckGo 的 App 安装量因此飙升 30%，用户表示不想被“强塞”AI 搜索。",
+      "key_data": [
+        "DuckDuckGo 安装量 +30%",
+        "Google AI 搜索",
+        "用户反弹"
+      ],
+      "judgment": "这是一个重要的信号：用户对 AI 的接受度并非无限。强行将 AI Agent 塞入成熟产品可能引发反噬。产品经理需要思考的是如何让 AI 成为“助手”而非“替代者”，否则用户会用脚投票。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/"
+    },
+    {
+      "rank": 4,
+      "title": "OpenRouter 估值一年翻倍至 13 亿美元，多模型 API 时代到来",
+      "finding": "OpenRouter 完成 1.13 亿美元 B 轮融资，由 CapitalG 领投，估值达到 13 亿美元。其 API 使用量在 6 个月内增长了 5 倍，表明开发者正在从单一模型转向多模型策略。",
+      "key_data": [
+        "估值 13 亿美元",
+        "B 轮 1.13 亿美元",
+        "使用量 6 个月增长 5 倍"
+      ],
+      "judgment": "OpenRouter 的爆发式增长验证了一个趋势：未来不会有单一模型统治一切，开发者需要灵活调用不同模型。这对所有 AI 应用开发者意味着，你的产品架构必须支持多模型切换，否则会被淘汰。",
+      "confidence": 5,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/"
+    },
+    {
+      "rank": 5,
+      "title": "DeepMind 用 AI 解决 9 道埃尔德什数学难题，包括卡了 56 年的问题",
+      "finding": "Google DeepMind 宣布其 AI 系统成功解决了 9 道埃尔德什数学难题，其中一道已经困扰人类数学家 56 年。这标志着 AI 在数学推理领域取得了实质性突破。",
+      "key_data": [
+        "解决 9 道数学难题",
+        "卡了 56 年的问题",
+        "DeepMind"
+      ],
+      "judgment": "这是继 AlphaFold 之后，AI 在科学发现领域的又一里程碑。虽然目前还局限于数学领域，但它证明了 AI 可以做出人类难以独立完成的推理。对于开发者来说，这意味着未来的 AI 工具将具备更强的逻辑推理能力。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/05/425455.html"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "量子位",
+      "title": "国产 AI 自己造了 AI，训练速度比英伟达 Megatron 快 10%",
+      "finding": "国内团队宣布实现了全球首例 AI 自主设计并训练 AI 模型，训练速度比英伟达的 Megatron 框架快 10%。这标志着 AI 在自动化机器学习领域迈出了重要一步。",
+      "key_data": [
+        "训练速度快 10%",
+        "全球首例",
+        "AI 自主设计"
+      ],
+      "judgment": "虽然具体技术细节待验证，但方向正确。如果属实，将大幅降低大模型训练的门槛和成本。",
+      "confidence": 2,
+      "url": "https://www.qbitai.com/2026/05/425511.html",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "Gemma 4 多词元预测：生成速度最高提升约 3 倍",
+      "finding": "Google 的 Gemma 4 模型通过多词元预测技术，将生成速度提升了最高 3 倍。这是一种在不牺牲质量的前提下显著提升推理效率的方法。",
+      "key_data": [
+        "生成速度提升 3 倍",
+        "多词元预测",
+        "Gemma 4"
+      ],
+      "judgment": "推理效率是当前大模型落地的最大瓶颈之一。多词元预测如果能在更大模型上复现，将改变整个推理部署的经济账。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/vduuUvpVw0FiIcplFtGd",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "PrismML 发布二值/三值 Bonsai 图像模型，可在浏览器本地运行",
+      "finding": "PrismML 发布了仅 3GB 大小的二值/三值文本到图像扩散模型，可以在浏览器中通过 WebGPU 完全本地运行，而同类模型 FLUX.2 需要 16GB。采用 Apache-2.0 协议。",
+      "key_data": [
+        "模型仅 3GB",
+        "浏览器本地运行",
+        "Apache-2.0 开源"
+      ],
+      "judgment": "这是端侧 AI 生成的重要突破。3GB 的模型大小意味着普通消费级设备也能运行高质量图像生成，将催生大量本地 AI 创意工具。",
+      "confidence": 4,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1togflk/prismml_just_released_binary_and_ternary_bonsai/",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "LLM 推理中的冗余思考：多少才算够？",
+      "finding": "一篇新论文量化了 LLM 在推理过程中的冗余思考问题，发现模型在解决复杂问题时会产生大量不必要的推理步骤，导致延迟和成本浪费。",
+      "key_data": [
+        "推理冗余量化",
+        "延迟和成本浪费"
+      ],
+      "judgment": "这为优化推理模型提供了新方向。如果能够减少冗余思考，推理模型的成本和速度将大幅改善，对实际部署意义重大。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2605.23926",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "LLM 置信度校准研究：模型并不清楚自己知道什么",
+      "finding": "一项预注册研究系统评估了 LLM 的置信度校准情况，发现模型在多种任务上的置信度与真实准确性之间存在显著偏差。",
+      "key_data": [
+        "置信度校准",
+        "预注册研究",
+        "准确性偏差"
+      ],
+      "judgment": "这对构建可靠的 AI 应用至关重要。如果模型无法准确评估自己的不确定性，那么依赖其输出的决策系统将面临风险。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2605.23909",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "TechCrunch",
+      "title": "Human Archive 利用印度零工经济训练机器人",
+      "finding": "由 UC Berkeley 和 Stanford 研究者创立的 Human Archive 公司，雇佣印度零工工人佩戴摄像头和传感器收集真实世界数据，用于训练物理 AI 和机器人。",
+      "key_data": [
+        "印度零工经济",
+        "物理 AI 数据",
+        "摄像头+传感器"
+      ],
+      "judgment": "数据获取是具身智能的最大瓶颈。这种“众包+低成本”的数据采集模式如果跑通，将加速机器人从实验室走向真实世界。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/",
+      "importance": 3
+    },
+    {
+      "source": "36氪",
+      "title": "昆仑万维发布 SkyClaw Agent 模型，主打高性能和性价比",
+      "finding": "昆仑万维旗下天工 AI 推出 SkyClaw-v1.0 及轻量版 Agent 模型，支持百万 token 上下文，针对复杂工具调用、多轮任务等场景优化，并限时免费试用。",
+      "key_data": [
+        "百万 token 上下文",
+        "Agent 模型",
+        "限时免费"
+      ],
+      "judgment": "国内 Agent 模型竞争加剧。SkyClaw 的定位是“半价顶级性能”，如果实际效果达标，将对国内 Agent 开发成本产生冲击。",
+      "confidence": 3,
+      "url": "https://36kr.com/p/3825882266407815",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "蚂蚁领投光轮智能，物理 AI 价值中心转移",
+      "finding": "蚂蚁集团领投了光轮智能的新一轮融资。报道指出，物理 AI 的价值中心正在从硬件转向数据和算法。",
+      "key_data": [
+        "蚂蚁领投",
+        "物理 AI",
+        "价值中心转移"
+      ],
+      "judgment": "蚂蚁在 AI 领域的布局越来越深。物理 AI 的价值从硬件转向数据，意味着数据采集和处理能力将成为新的竞争壁垒。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/bdsq4OUrTNJdvCLaxo0u",
+      "importance": 2
+    },
+    {
+      "source": "Wired",
+      "title": "AI 正在接管最令人讨厌的工作：债务催收",
+      "finding": "Wired 报道称，AI 债务催收机器人正在迅速普及，取代人类催收员进行电话催收。这被认为是 AI 在“最令人讨厌的工作”中的一次成功渗透。",
+      "key_data": [
+        "AI 债务催收",
+        "取代人类催收员"
+      ],
+      "judgment": "AI 正在渗透到社会最不讨喜但利润丰厚的领域。这既是商业机会，也带来了伦理挑战——AI 催收是否会更加冷酷无情？",
+      "confidence": 4,
+      "url": "https://www.wired.com/story/ai-takes-over-debt-collection/",
+      "importance": 2
+    },
+    {
+      "source": "36氪",
+      "title": "字节跳动向 Seed 员工开放“豆包股”认购权",
+      "finding": "字节跳动首次针对特定业务单元发行股权，向 Seed 人工智能部门员工提供与该部门挂钩的低价股票期权，让员工能直接分享 Seed 部门的成长收益。",
+      "key_data": [
+        "豆包股认购权",
+        "首次业务单元股权",
+        "Seed 部门"
+      ],
+      "judgment": "字节跳动通过股权激励绑定核心 AI 人才，说明其对 AI 业务的重视程度。这种“内部创业”模式可能成为大厂留住 AI 人才的新趋势。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3825928694846085",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "关于教皇 AI 通谕：Corey Quinn 说‘让教皇将你产品的技术限制奉为精神论著，这是史上最伟大的供应商游说行为’。",
+      "source": "https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything"
+    },
+    {
+      "person": "Paul Graham",
+      "level": "L2",
+      "quote": "我收到的很多创始人邮件现在都是用‘硬核新闻风格’写的。我知道是 AI 写的，因为以前没有创始人会这样写。一旦你意识到这一点，就再也回不去了。",
+      "source": "https://simonwillison.net/2026/May/26/paul-graham/#atom-everything"
+    },
+    {
+      "person": "Gergely Orosz",
+      "level": "L2",
+      "quote": "2026 年软件工程就业市场深度分析：AI 工程岗位正在爆发，但并没有‘取代’传统软件工程岗位，而是创造了新的需求。",
+      "source": "https://newsletter.pragmaticengineer.com/p/state-of-the-job-market-2026"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI Agent 安全：从 Anthropic 和微软的漏洞看行业最佳实践",
+      "reason": "Agent 安全是当前最紧迫的工程挑战，两起事件提供了宝贵的实战案例。",
+      "priority": "high"
+    },
+    {
+      "topic": "用户对 AI 搜索的反弹：Google 的教训与 DuckDuckGo 的机遇",
+      "reason": "用户行为变化可能预示 AI 产品设计的分水岭，值得深入研究。",
+      "priority": "medium"
+    },
+    {
+      "topic": "多模型 API 时代：OpenRouter 的爆发对 AI 应用架构的影响",
+      "reason": "OpenRouter 的快速增长验证了多模型策略，可能改变整个 AI 应用开发范式。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "Agent 安全危机爆发，用户逃离 AI 搜索",
+  "snapshot": {
+    "date": "2026-05-26",
+    "hf_trending": [
+      {
+        "name": "bytedance-research/Lance",
+        "short_name": "Lance",
+        "likes": 861,
+        "downloads": 1908,
+        "url": "https://huggingface.co/bytedance-research/Lance",
+        "tags": [
+          "Lance",
+          "safetensors",
+          "multimodal"
+        ],
+        "pipeline_tag": "any-to-any",
+        "label": "Any To Any",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "NemoStation/Marlin-2B",
+        "short_name": "Marlin-2B",
+        "likes": 375,
+        "downloads": 9144,
+        "url": "https://huggingface.co/NemoStation/Marlin-2B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "video"
+        ],
+        "pipeline_tag": "video-text-to-text",
+        "label": "Video Text To Text",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "meituan-longcat/LongCat-Video-Avatar-1.5",
+        "short_name": "LongCat-Video-Avatar-1.5",
+        "likes": 298,
+        "downloads": 0,
+        "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5",
+        "tags": [
+          "diffusers",
+          "onnx",
+          "safetensors"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "openbmb/MiniCPM5-1B",
+        "short_name": "MiniCPM5-1B",
+        "likes": 304,
+        "downloads": 2409,
+        "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "sapientinc/HRM-Text-1B",
+        "short_name": "HRM-Text-1B",
+        "likes": 377,
+        "downloads": 103033,
+        "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "hrm_text"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Supertone/supertonic-3",
+        "short_name": "supertonic-3",
+        "likes": 695,
+        "downloads": 48112,
+        "url": "https://huggingface.co/Supertone/supertonic-3",
+        "tags": [
+          "supertonic",
+          "onnx",
+          "text-to-speech"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "short_name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "likes": 908,
+        "downloads": 1598473,
+        "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "tags": [
+          "gguf",
+          "uncensored",
+          "qwen3.6"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "CohereLabs/command-a-plus-05-2026-w4a4",
+        "short_name": "command-a-plus-05-2026-w4a4",
+        "likes": 206,
+        "downloads": 7769,
+        "url": "https://huggingface.co/CohereLabs/command-a-plus-05-2026-w4a4",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "cohere2_vision"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [],
+    "hf_summary": "多模态与视频生成模型强势领跑"
+  }
+}

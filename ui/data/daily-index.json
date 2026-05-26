@@ -1,6 +1,13 @@
 {
-  "total": 61,
+  "total": 62,
   "reports": [
+    {
+      "date": "2026-05-27",
+      "title": "今日 AI 日报：Anthropic 公开 Claude Agent 安全事件及防护机制 + 4 条重要动态",
+      "excerpt": "这是目前最坦诚的 Agent 安全实践分享。对于所有正在构建 Agent 产品的…",
+      "top_count": 5,
+      "file": "2026-05-27.json"
+    },
     {
       "date": "2026-05-26",
       "title": "今日 AI 日报：ClickUp 用数千 AI Agent 替代数百员工，引发企业 AI 转型争议 + 4 条重要动态",
