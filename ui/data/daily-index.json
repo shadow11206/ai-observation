@@ -1,6 +1,13 @@
 {
-  "total": 62,
+  "total": 63,
   "reports": [
+    {
+      "date": "2026-05-28",
+      "title": "今日 AI 日报：AI编程公司Cognition以250亿美元估值融资10亿美元 + 4 条重要动态",
+      "excerpt": "AI编程赛道已从工具竞争进入平台化阶段。Cognition的爆发式增长证明企业愿…",
+      "top_count": 5,
+      "file": "2026-05-28.json"
+    },
     {
       "date": "2026-05-27",
       "title": "今日 AI 日报：Anthropic 公开 Claude Agent 安全事件及防护机制 + 4 条重要动态",
