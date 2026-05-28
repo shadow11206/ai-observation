@@ -163,106 +163,75 @@ def _fetch_openrouter_ranking() -> list[dict]:
     """
     抓取 OpenRouter 当日模型调用排行榜 Top 10。
     数据来源：https://openrouter.ai/rankings?view=day
-    通过 Next.js RSC 流接口获取，无需 API Key，每天抓一次。
+    页面已改为客户端渲染（2026年4月底起），需使用 Playwright 浏览器抓取。
     """
     import re as _re
-    import random
-    import string
-    from collections import defaultdict
 
     try:
-        rsc_token = "".join(random.choices(string.ascii_lowercase + string.digits, k=6))
-        url = f"https://openrouter.ai/rankings?view=day&_rsc={rsc_token}"
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-            "Accept": "text/x-component",
-            "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-            "RSC": "1",
-            "Next-Router-State-Tree": "%5B%22%22%2C%7B%22children%22%3A%5B%22rankings%22%2C%7B%22children%22%3A%5B%22__PAGE__%22%2C%7B%7D%5D%7D%5D%7D%2Cnull%2Cnull%2Ctrue%5D",
-            "Referer": "https://openrouter.ai/",
-        }
-        resp = requests.get(url, headers=headers, timeout=30)
-        resp.raise_for_status()
-        raw = resp.text
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        print("  ⚠️ Playwright 未安装，跳过 OpenRouter 排行榜")
+        print("     安装：pip install playwright && playwright install chromium")
+        return []
 
-        # 找到含 rankingData 的 RSC 行
-        ranking_line = None
-        for line in raw.split("\n"):
-            if '"rankingData"' in line and "model_permaslug" in line:
-                ranking_line = line
-                break
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page()
+            page.goto(
+                "https://openrouter.ai/rankings?view=day",
+                wait_until="networkidle",
+                timeout=30000,
+            )
+            page.wait_for_selector(
+                '[data-testid="model-rankings-leaderboard-row"]', timeout=15000
+            )
 
-        if not ranking_line:
-            print("  ⚠️ OpenRouter：未找到 rankingData 行")
-            return []
+            rows_raw = page.evaluate("""() => {
+                const rows = document.querySelectorAll(
+                    '[data-testid="model-rankings-leaderboard-row"]'
+                );
+                return Array.from(rows).map(row => {
+                    const link = row.querySelector('a');
+                    return {
+                        href: link ? link.getAttribute('href') : '',
+                        text: row.textContent || '',
+                    };
+                });
+            }""")
 
-        # 去掉 RSC 行前缀（如 '25:' 或 '2a:'）
-        m = _re.match(r"^[0-9a-f]+:(.*)", ranking_line, _re.DOTALL)
-        json_str = m.group(1) if m else ranking_line
-
-        # 逐字符提取 rankingData 数组
-        arr_start = json_str.find('"rankingData":')
-        if arr_start == -1:
-            return []
-        bracket_start = json_str.find("[", arr_start)
-        if bracket_start == -1:
-            return []
-
-        depth = 0
-        end = bracket_start
-        for i, c in enumerate(json_str[bracket_start:]):
-            if c == "[":
-                depth += 1
-            elif c == "]":
-                depth -= 1
-                if depth == 0:
-                    end = bracket_start + i + 1
-                    break
-
-        ranking_data = json.loads(json_str[bracket_start:end])
-
-        # 按模型聚合
-        model_agg = defaultdict(lambda: {"total_tokens": 0, "count": 0, "change": 0.0})
-        for row in ranking_data:
-            slug = row.get("model_permaslug") or ""
-            if not slug:
-                continue
-            prompt = row.get("total_prompt_tokens") or 0
-            completion = row.get("total_completion_tokens") or 0
-            model_agg[slug]["total_tokens"] += prompt + completion
-            model_agg[slug]["count"] += row.get("count") or 0
-            model_agg[slug]["change"] = row.get("change") or 0.0
-
-        top10 = sorted(model_agg.items(), key=lambda x: x[1]["total_tokens"], reverse=True)[:10]
+            browser.close()
 
         result = []
-        for rank, (slug, stats) in enumerate(top10, 1):
-            t = stats["total_tokens"]
-            if t >= 1e12:
-                t_str = f"{t / 1e12:.1f}T"
-            elif t >= 1e9:
-                t_str = f"{t / 1e9:.0f}B"
-            elif t >= 1e6:
-                t_str = f"{t / 1e6:.0f}M"
-            else:
-                t_str = str(t)
+        for row_data in rows_raw:
+            text = row_data.get("text", "")
+            href = row_data.get("href", "")
+            # 解析格式："1. Model Nameby orgname483B tokens11%"
+            m = _re.match(
+                r"^(\d+)\.\s*(.+?)by\s+([a-zA-Z0-9-]+)\s*"
+                r"([\d.]+)\s*(B|M|T|K)?\s*tokens?\s*(\d+)%",
+                text,
+            )
+            if not m:
+                continue
+            rank, name, org, amount, unit, change = m.groups()
+            multiplier = {"T": 1e12, "B": 1e9, "M": 1e6, "K": 1e3}
+            total_tokens = int(float(amount) * multiplier.get(unit, 1e9))
 
-            org = slug.split("/")[0] if "/" in slug else ""
-            model_name = slug.split("/")[-1] if "/" in slug else slug
-            import re as _re2
-            display_name = _re2.sub(r"-\d{8}$", "", model_name)
+            slug = href.lstrip("/")
+            display_name = _re.sub(r"-\d{8}$", "", name.strip())
             display_name = display_name.replace(":free", " (free)").replace(":", " ")
 
             result.append({
-                "rank": rank,
+                "rank": int(rank),
                 "slug": slug,
                 "name": display_name,
-                "org": org,
-                "total_tokens": t,
-                "total_tokens_str": t_str,
-                "calls": stats["count"],
-                "change": round(stats["change"] * 100, 1),
-                "url": f"https://openrouter.ai/models/{slug}",
+                "org": org.strip(),
+                "total_tokens": total_tokens,
+                "total_tokens_str": amount + (unit or "B"),
+                "calls": 0,
+                "change": float(change),
+                "url": f"https://openrouter.ai/{slug}",
             })
 
         return result

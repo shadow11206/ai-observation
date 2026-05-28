@@ -55,9 +55,21 @@ def load_tracking_registry() -> str:
     return "\n\n".join(parts)
 
 
-def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
+def _repair_json_quotes(text: str) -> str:
+    """修复 AI 输出 JSON 中字符串值内部的未转义 ASCII 双引号"""
+    # 将中文字符间的裸引号替换为中文弯引号
+    fixed = re.sub(
+        r'([一-鿿　-〿＀-￯])"([^"\n]{1,30})"([一-鿿　-〿＀-￯])',
+        r'\1“\2”\3',
+        text,
+    )
+    return fixed
+
+
+def generate_report_with_ai(raw_info: list[dict], config: dict, date_override: str = None) -> dict:
     """
     调用 AI 生成日报，返回结构化 dict（同时用于 .json 和 .md 渲染）
+    date_override: 可选，指定日报日期（用于补报），不传则使用当天
     """
     api_key = os.environ.get("AI_API_KEY")
     api_base = os.environ.get("AI_API_BASE", "https://api.deepseek.com")
@@ -67,7 +79,7 @@ def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
 
     client = OpenAI(api_key=api_key, base_url=api_base)
 
-    today = _now_bjt().strftime("%Y-%m-%d")
+    today = date_override or _now_bjt().strftime("%Y-%m-%d")
     system_prompt = load_prompt()
     tracking_registry = load_tracking_registry()
     info_text = _format_info_for_prompt(raw_info)
@@ -177,8 +189,16 @@ def generate_report_with_ai(raw_info: list[dict], config: dict) -> dict:
     try:
         report_data = json.loads(raw_output)
     except json.JSONDecodeError as e:
-        print(f"⚠️ JSON 解析失败，尝试宽松解析：{e}")
-        # 降级：返回包含原始内容的基础结构
+        print(f"⚠️ JSON 解析失败，尝试修复未转义引号：{e}")
+        repaired = _repair_json_quotes(raw_output)
+        if repaired != raw_output:
+            try:
+                report_data = json.loads(repaired)
+                print("✅ JSON 引号修复后解析成功")
+                return report_data
+            except json.JSONDecodeError:
+                pass
+        # 修复无效，降级返回
         report_data = {
             "date": today,
             "top_items": [],

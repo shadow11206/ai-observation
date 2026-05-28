@@ -1,12 +1,226 @@
 {
   "date": "2026-05-19",
-  "top_items": [],
-  "model_tech": [],
-  "company_product": [],
-  "opinions": [],
-  "deep_dive_suggestions": [],
-  "summary_one_line": "今日日报生成完成",
-  "raw_content": "{\n  \"date\": \"2026-05-19\",\n  \"top_items\": [\n    {\n      \"rank\": 1,\n      \"title\": \"通义千问 Qwen 3.7 悄然上线，阿里开源模型再升级\",\n      \"finding\": \"Qwen 3.7 已在 Qwen Chat 中可用，但阿里尚未正式发布公告。社区猜测这是 Qwen 3 系列的增强版本，可能带来更强的推理和代码能力。\",\n      \"key_data\": [\"Qwen 3.7\", \"Qwen Chat 上线\", \"未正式公告\"],\n      \"judgment\": \"阿里在开源模型上持续迭代，Qwen 3.7 的悄然上线暗示其可能在准备一次重大发布。对于开发者来说，这可能是又一款值得本地部署的高性能开源模型。\",\n      \"confidence\": 3,\n      \"source\": \"Reddit r/LocalLLaMA\",\n      \"url\": \"https://www.reddit.com/r/LocalLLaMA/comments/1tgpabe/qwen_37_droped_on_qwen_chat/\"\n    },\n    {\n      \"rank\": 2,\n      \"title\": \"Anthropic 收购开发者工具初创公司 Stainless\",\n      \"finding\": \"Anthropic 收购了 Stainless，这家公司为 OpenAI、Google 和 Cloudflare 等客户自动生成和维护 SDK。这是 Anthropic 加强开发者生态和工具链的重要举措。\",\n      \"key_data\": [\"Stainless 收购\", \"SDK 自动化\", \"开发者生态\"],\n      \"judgment\": \"Anthropic 正在从模型公司向平台公司转型，通过收购工具链来降低开发者接入门槛，直接与 OpenAI 争夺开发者心智。\",\n      \"confidence\": 5,\n      \"source\": \"TechCrunch\",\n      \"url\": \"https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/\"\n    },\n    {\n      \"rank\": 3,\n      \"title\": \"OpenAI 与戴尔合作，将 Codex 引入混合云和企业本地环境\",\n      \"finding\": \"OpenAI 与戴尔达成合作，将 AI 编程助手 Codex 部署到企业的混合云和本地环境中，帮助企业安全地使用 AI 编码代理处理数据和流程。\",\n      \"key_data\": [\"Codex 企业本地部署\", \"戴尔合作\", \"混合云\"],\n      \"judgment\": \"这是 OpenAI 向企业市场渗透的关键一步。对于金融、医疗等数据敏感行业，本地部署的 AI 编码工具将大幅降低采用门槛，可能改变企业级 AI 编程的竞争格局。\",\n      \"confidence\": 5,\n      \"source\": \"OpenAI Blog\",\n      \"url\": \"https://openai.com/index/dell-codex-enterprise-partnership\"\n    },\n    {\n      \"rank\": 4,\n      \"title\": \"陪审团裁定马斯克在与 OpenAI 的诉讼中败诉\",\n      \"finding\": \"经过三周庭审，九人陪审团一致裁定埃隆·马斯克对 OpenAI 及其联合创始人的诉讼因超过诉讼时效而败诉。马斯克表示将上诉。\",\n      \"key_data\": [\"马斯克败诉\", \"诉讼时效\", \"陪审团一致裁定\"],\n      \"judgment\": \"这一判决暂时平息了 OpenAI 治理结构上的法律不确定性，但马斯克的上诉意味着这场关于 AI 开源与闭源路线的争论远未结束。\",\n      \"confidence\": 5,\n      \"source\": \"TechCrunch\",\n      \"url\": \"https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/\"\n    },\n    {\n      \"rank\": 5,\n      \"title\": \"Hugging Face 发布开放 Agent 排行榜\",\n      \"finding\": \"Hugging Face 联合 IBM 发布了开放 Agent 排行榜，用于评估不同模型在自主代理任务中的表现，涵盖工具使用、多步推理等能力。\",\n      \"key_data\": [\"开放 Agent 排行榜\", \"Hugging Face\", \"IBM 合作\"],\n      \"judgment\": \"Agent 能力正在成为模型竞争的新维度。这个排行榜将帮助开发者和企业更客观地选择适合 Agent 场景的模型，推动 Agent 生态的标准化。\",\n      \"confidence\": 5,\n      \"source\": \"Hugging Face Blog\",\n      \"url\": \"https://huggingface.co/blog/ibm-research/open-agent-leaderboard\"\n    }\n  ],\n  \"model_tech\": [\n    {\n      \"source\": \"Reddit r/LocalLLaMA\",\n      \"title\": \"通义千问 Qwen 3.7 悄然上线\",\n      \"finding\": \"Qwen 3.7 已在 Qwen Chat 中可用，社区猜测是 Qwen 3 系列的增强版本，可能带来更强的推理和代码能力。\",\n      \"key_data\": [\"Qwen 3.7\", \"Qwen Chat 上线\"],\n      \"judgment\": \"阿里在开源模型上持续迭代，Qwen 3.7 的悄然上线暗示其可能在准备一次重大发布。\",\n      \"confidence\": 3,\n      \"url\": \"https://www.reddit.com/r/LocalLLaMA/comments/1tgpabe/qwen_37_droped_on_qwen_chat/\",\n      \"importance\": 3\n    },\n    {\n      \"source\": \"Hugging Face Blog\",\n      \"title\": \"Hugging Face 发布开放 Agent 排行榜\",\n      \"finding\": \"Hugging Face 联合 IBM 发布开放 Agent 排行榜，评估模型在自主代理任务中的表现，涵盖工具使用、多步推理等能力。\",\n      \"key_data\": [\"开放 Agent 排行榜\", \"Hugging Face\", \"IBM 合作\"],\n      \"judgment\": \"Agent 能力正在成为模型竞争的新维度，该排行榜将推动 Agent 生态的标准化。\",\n      \"confidence\": 5,\n      \"url\": \"https://huggingface.co/blog/ibm-research/open-agent-leaderboard\",\n      \"importance\": 3\n    },\n    {\n      \"source\": \"Reddit r/MachineLearning\",\n      \"title\": \"Sub-JEPA：对 LeCun 团队 LeWorldModel 的简单改进，持续提升性能\",\n      \"finding\": \"研究者提出 Sub-JEPA，对 LeCun 团队的 LeWorldModel 进行简单修复，通过改进 JEPA 训练的一致性约束，持续提升世界模型的性能。\",\n      \"key_data\": [\"Sub-JEPA\", \"LeWorldModel 改进\", \"世界模型\"],\n      \"judgment\": \"世界模型是具身智能的关键方向，这种简单有效的改进可能加速 JEPA 架构在机器人领域的应用。\",\n      \"confidence\": 4,\n      \"url\": \"https://www.reddit.com/r/MachineLearning/comments/1tgn3bz/subjepa_a_simple_fix_to_lecun_groups_leworldmodel/\",\n      \"importance\": 2\n    },\n    {\n      \"source\": \"arXiv\",\n      \"title\": \"SDOF：多智能体编排中的状态约束调度，缓解对齐税\",\n      \"finding\": \"新论文提出 SDOF 方法，通过状态约束调度来解决多智能体系统中的对齐税问题，即多个 LLM 协作时性能下降的现象。\",\n      \"key_data\": [\"SDOF\", \"多智能体对齐税\", \"状态约束调度\"],\n      \"judgment\": \"多智能体系统是当前 Agent 工程的热点，这篇论文直接回应了\"多个模型不如一个模型\"的痛点，有实用价值。\",\n      \"confidence\": 4,\n      \"url\": \"https://arxiv.org/abs/2605.15204\",\n      \"importance\": 2\n    },\n    {\n      \"source\": \"arXiv\",\n      \"title\": \"AgentStop：在消费设备上提前终止本地 AI Agent 以节省能源\",\n      \"finding\": \"新论文提出 AgentStop 方法，在消费设备上运行本地 AI Agent 时，通过提前终止不必要的推理步骤来节省能源，同时保持任务完成质量。\",\n      \"key_data\": [\"AgentStop\", \"本地 Agent 节能\", \"消费设备\"],\n      \"judgment\": \"端侧 AI Agent 是趋势，但能耗是瓶颈。这项研究为在手机、PC 上运行 Agent 提供了实用优化思路。\",\n      \"confidence\": 4,\n      \"url\": \"https://arxiv.org/abs/2605.15206\",\n      \"importance\": 2\n    }\n  ],\n  \"company_product\": [\n    {\n      \"source\": \"OpenAI Blog\",\n      \"title\": \"OpenAI 与戴尔合作，将 Codex 引入混合云和企业本地环境\",\n      \"finding\": \"OpenAI 与戴尔合作，将 AI 编程助手 Codex 部署到企业的混合云和本地环境中，帮助企业安全地使用 AI 编码代理。\",\n      \"key_data\": [\"Codex 企业本地部署\", \"戴尔合作\", \"混合云\"],\n      \"judgment\": \"这是 OpenAI 向企业市场渗透的关键一步，将大幅降低数据敏感行业的 AI 编程采用门槛。\",\n      \"confidence\": 5,\n      \"url\": \"https://openai.com/index/dell-codex-enterprise-partnership\",\n      \"importance\": 4\n    },\n    {\n      \"source\": \"TechCrunch\",\n      \"title\": \"Anthropic 收购开发者工具初创公司 Stainless\",\n      \"finding\": \"Anthropic 收购了 Stainless，这家公司为 OpenAI、Google 和 Cloudflare 等客户自动生成和维护 SDK。\",\n      \"key_data\": [\"Stainless 收购\", \"SDK 自动化\", \"开发者生态\"],\n      \"judgment\": \"Anthropic 正在从模型公司向平台公司转型，通过收购工具链来降低开发者接入门槛。\",\n      \"confidence\": 5,\n      \"url\": \"https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/\",\n      \"importance\": 4\n    },\n    {\n      \"source\": \"TechCrunch\",\n      \"title\": \"SandboxAQ 将其药物发现模型引入 Claude，无需计算博士学位\",\n      \"finding\": \"SandboxAQ 将其药物发现 AI 模型与 Claude 集成，使生物学家和化学家可以通过自然语言与模型交互，无需深厚的计算背景。\",\n      \"key_data\": [\"SandboxAQ\", \"Claude 集成\", \"药物发现\", \"降低使用门槛\"],\n      \"judgment\": \"这是 AI 在垂直行业落地的典型案例：将专业模型封装到对话界面中，让领域专家直接使用，而非依赖 AI 专家。\",\n      \"confidence\": 5,\n      \"url\": \"https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/\",\n      \"importance\": 3\n    },\n    {\n      \"source\": \"TechCrunch\",\n      \"title\": \"亚马逊 Alexa+ 新功能可生成定制播客节目\",\n      \"finding\": \"亚马逊 Alexa+ 现在可以根据用户需求生成定制 AI 播客，将语音助手扩展为个性化 AI 内容平台。\",\n      \"key_data\": [\"Alexa+\", \"AI 播客生成\", \"个性化内容\"],\n      \"judgment\": \"语音助手正在从工具型向内容型转变，AI 播客生成可能成为新的内容消费形态，但质量是关键。\",\n      \"confidence\": 5,\n      \"url\": \"https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/\",\n      \"importance\": 2\n    },\n    {\n      \"source\": \"MIT Technology Review\",\n      \"title\": \"Anduril 与 Meta 合作开发军用智能眼镜，可通过眼球追踪下达无人机打击指令\",\n      \"finding\": \"Anduril 与 Meta 合作开发军用 AR 头显，新细节显示该设备可通过眼球追踪下达无人机打击指令，将 AI 与军事应用深度结合。\",\n      \"key_data\": [\"Anduril + Meta\", \"军用 AR 头显\", \"眼球追踪\", \"无人机打击\"],\n      \"judgment\": \"AI 在军事领域的应用正在加速，这引发了严重的伦理和安全担忧，值得行业和政策制定者高度关注。\",\n      \"confidence\": 5,\n      \"url\": \"https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/\",\n      \"importance\": 3\n    }\n  ],\n  \"opinions\": [\n    {\n      \"person\": \"Yann LeCun\",\n      \"level\": \"L1\",\n      \"quote\": \"LeCun 团队的 LeWorldModel 通过 Sub-JEPA 改进持续提升性能，表明 JEPA 架构在世界模型领域仍有潜力。\",\n      \"source\": \"https://www.reddit.com/r/MachineLearning/comments/1tgn3bz/subjepa_a_simple_fix_to_lecun_groups_leworldmodel/\"\n    }\n  ],\n  \"deep_dive_suggestions\": [\n    {\n      \"topic\": \"多智能体系统的对齐税问题与解决方案\",\n      \"reason\": \"SDOF 论文直接回应了多 Agent 协作性能下降的痛点，是当前 Agent 工程的热点方向。\",\n      \"priority\": \"high\"\n    },\n    {\n      \"topic\": \"AI 编程工具的企业本地部署趋势\",\n      \"reason\": \"OpenAI Codex 与戴尔合作、Anthropic 收购 Stainless，都指向企业级 AI 编程市场的争夺。\",\n      \"priority\": \"high\"\n    }\n  ],\n  \"summary_one_line\": \"Qwen 3.7 上线，Anthropic 收购 Stainless，OpenAI 进军企业本地部署\"\n}",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "通义千问 Qwen 3.7 悄然上线，阿里开源模型再升级",
+      "finding": "Qwen 3.7 已在 Qwen Chat 中可用，但阿里尚未正式发布公告。社区猜测这是 Qwen 3 系列的增强版本，可能带来更强的推理和代码能力。",
+      "key_data": [
+        "Qwen 3.7",
+        "Qwen Chat 上线“, ”未正式公告"
+      ],
+      "judgment": "阿里在开源模型上持续迭代，Qwen 3.7 的悄然上线暗示其可能在准备一次重大发布。对于开发者来说，这可能是又一款值得本地部署的高性能开源模型。",
+      "confidence": 3,
+      "source": "Reddit r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tgpabe/qwen_37_droped_on_qwen_chat/"
+    },
+    {
+      "rank": 2,
+      "title": "Anthropic 收购开发者工具初创公司 Stainless",
+      "finding": "Anthropic 收购了 Stainless，这家公司为 OpenAI、Google 和 Cloudflare 等客户自动生成和维护 SDK。这是 Anthropic 加强开发者生态和工具链的重要举措。",
+      "key_data": [
+        "Stainless 收购",
+        "SDK 自动化“, ”开发者生态"
+      ],
+      "judgment": "Anthropic 正在从模型公司向平台公司转型，通过收购工具链来降低开发者接入门槛，直接与 OpenAI 争夺开发者心智。",
+      "confidence": 5,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/"
+    },
+    {
+      "rank": 3,
+      "title": "OpenAI 与戴尔合作，将 Codex 引入混合云和企业本地环境",
+      "finding": "OpenAI 与戴尔达成合作，将 AI 编程助手 Codex 部署到企业的混合云和本地环境中，帮助企业安全地使用 AI 编码代理处理数据和流程。",
+      "key_data": [
+        "Codex 企业本地部署“, ”戴尔合作“, ”混合云"
+      ],
+      "judgment": "这是 OpenAI 向企业市场渗透的关键一步。对于金融、医疗等数据敏感行业，本地部署的 AI 编码工具将大幅降低采用门槛，可能改变企业级 AI 编程的竞争格局。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/dell-codex-enterprise-partnership"
+    },
+    {
+      "rank": 4,
+      "title": "陪审团裁定马斯克在与 OpenAI 的诉讼中败诉",
+      "finding": "经过三周庭审，九人陪审团一致裁定埃隆·马斯克对 OpenAI 及其联合创始人的诉讼因超过诉讼时效而败诉。马斯克表示将上诉。",
+      "key_data": [
+        "马斯克败诉“, ”诉讼时效“, ”陪审团一致裁定"
+      ],
+      "judgment": "这一判决暂时平息了 OpenAI 治理结构上的法律不确定性，但马斯克的上诉意味着这场关于 AI 开源与闭源路线的争论远未结束。",
+      "confidence": 5,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/"
+    },
+    {
+      "rank": 5,
+      "title": "Hugging Face 发布开放 Agent 排行榜",
+      "finding": "Hugging Face 联合 IBM 发布了开放 Agent 排行榜，用于评估不同模型在自主代理任务中的表现，涵盖工具使用、多步推理等能力。",
+      "key_data": [
+        "开放 Agent 排行榜",
+        "Hugging Face",
+        "IBM 合作"
+      ],
+      "judgment": "Agent 能力正在成为模型竞争的新维度。这个排行榜将帮助开发者和企业更客观地选择适合 Agent 场景的模型，推动 Agent 生态的标准化。",
+      "confidence": 5,
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "通义千问 Qwen 3.7 悄然上线",
+      "finding": "Qwen 3.7 已在 Qwen Chat 中可用，社区猜测是 Qwen 3 系列的增强版本，可能带来更强的推理和代码能力。",
+      "key_data": [
+        "Qwen 3.7",
+        "Qwen Chat 上线"
+      ],
+      "judgment": "阿里在开源模型上持续迭代，Qwen 3.7 的悄然上线暗示其可能在准备一次重大发布。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tgpabe/qwen_37_droped_on_qwen_chat/",
+      "importance": 3
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "Hugging Face 发布开放 Agent 排行榜",
+      "finding": "Hugging Face 联合 IBM 发布开放 Agent 排行榜，评估模型在自主代理任务中的表现，涵盖工具使用、多步推理等能力。",
+      "key_data": [
+        "开放 Agent 排行榜",
+        "Hugging Face",
+        "IBM 合作"
+      ],
+      "judgment": "Agent 能力正在成为模型竞争的新维度，该排行榜将推动 Agent 生态的标准化。",
+      "confidence": 5,
+      "url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "Sub-JEPA：对 LeCun 团队 LeWorldModel 的简单改进，持续提升性能",
+      "finding": "研究者提出 Sub-JEPA，对 LeCun 团队的 LeWorldModel 进行简单修复，通过改进 JEPA 训练的一致性约束，持续提升世界模型的性能。",
+      "key_data": [
+        "Sub-JEPA",
+        "LeWorldModel 改进“, ”世界模型"
+      ],
+      "judgment": "世界模型是具身智能的关键方向，这种简单有效的改进可能加速 JEPA 架构在机器人领域的应用。",
+      "confidence": 4,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tgn3bz/subjepa_a_simple_fix_to_lecun_groups_leworldmodel/",
+      "importance": 2
+    },
+    {
+      "source": "arXiv",
+      "title": "SDOF：多智能体编排中的状态约束调度，缓解对齐税",
+      "finding": "新论文提出 SDOF 方法，通过状态约束调度来解决多智能体系统中的对齐税问题，即多个 LLM 协作时性能下降的现象。",
+      "key_data": [
+        "SDOF",
+        "多智能体对齐税“, ”状态约束调度"
+      ],
+      "judgment": "多智能体系统是当前 Agent 工程的热点，这篇论文直接回应了“多个模型不如一个模型”的痛点，有实用价值。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2605.15204",
+      "importance": 2
+    },
+    {
+      "source": "arXiv",
+      "title": "AgentStop：在消费设备上提前终止本地 AI Agent 以节省能源",
+      "finding": "新论文提出 AgentStop 方法，在消费设备上运行本地 AI Agent 时，通过提前终止不必要的推理步骤来节省能源，同时保持任务完成质量。",
+      "key_data": [
+        "AgentStop",
+        "本地 Agent 节能“, ”消费设备"
+      ],
+      "judgment": "端侧 AI Agent 是趋势，但能耗是瓶颈。这项研究为在手机、PC 上运行 Agent 提供了实用优化思路。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2605.15206",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "OpenAI Blog",
+      "title": "OpenAI 与戴尔合作，将 Codex 引入混合云和企业本地环境",
+      "finding": "OpenAI 与戴尔合作，将 AI 编程助手 Codex 部署到企业的混合云和本地环境中，帮助企业安全地使用 AI 编码代理。",
+      "key_data": [
+        "Codex 企业本地部署“, ”戴尔合作“, ”混合云"
+      ],
+      "judgment": "这是 OpenAI 向企业市场渗透的关键一步，将大幅降低数据敏感行业的 AI 编程采用门槛。",
+      "confidence": 5,
+      "url": "https://openai.com/index/dell-codex-enterprise-partnership",
+      "importance": 4
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Anthropic 收购开发者工具初创公司 Stainless",
+      "finding": "Anthropic 收购了 Stainless，这家公司为 OpenAI、Google 和 Cloudflare 等客户自动生成和维护 SDK。",
+      "key_data": [
+        "Stainless 收购",
+        "SDK 自动化“, ”开发者生态"
+      ],
+      "judgment": "Anthropic 正在从模型公司向平台公司转型，通过收购工具链来降低开发者接入门槛。",
+      "confidence": 5,
+      "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
+      "importance": 4
+    },
+    {
+      "source": "TechCrunch",
+      "title": "SandboxAQ 将其药物发现模型引入 Claude，无需计算博士学位",
+      "finding": "SandboxAQ 将其药物发现 AI 模型与 Claude 集成，使生物学家和化学家可以通过自然语言与模型交互，无需深厚的计算背景。",
+      "key_data": [
+        "SandboxAQ",
+        "Claude 集成“, ”药物发现“, ”降低使用门槛"
+      ],
+      "judgment": "这是 AI 在垂直行业落地的典型案例：将专业模型封装到对话界面中，让领域专家直接使用，而非依赖 AI 专家。",
+      "confidence": 5,
+      "url": "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "亚马逊 Alexa+ 新功能可生成定制播客节目",
+      "finding": "亚马逊 Alexa+ 现在可以根据用户需求生成定制 AI 播客，将语音助手扩展为个性化 AI 内容平台。",
+      "key_data": [
+        "Alexa+",
+        "AI 播客生成“, ”个性化内容"
+      ],
+      "judgment": "语音助手正在从工具型向内容型转变，AI 播客生成可能成为新的内容消费形态，但质量是关键。",
+      "confidence": 5,
+      "url": "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/",
+      "importance": 2
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Anduril 与 Meta 合作开发军用智能眼镜，可通过眼球追踪下达无人机打击指令",
+      "finding": "Anduril 与 Meta 合作开发军用 AR 头显，新细节显示该设备可通过眼球追踪下达无人机打击指令，将 AI 与军事应用深度结合。",
+      "key_data": [
+        "Anduril + Meta",
+        "军用 AR 头显“, ”眼球追踪“, ”无人机打击"
+      ],
+      "judgment": "AI 在军事领域的应用正在加速，这引发了严重的伦理和安全担忧，值得行业和政策制定者高度关注。",
+      "confidence": 5,
+      "url": "https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/",
+      "importance": 3
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Yann LeCun",
+      "level": "L1",
+      "quote": "LeCun 团队的 LeWorldModel 通过 Sub-JEPA 改进持续提升性能，表明 JEPA 架构在世界模型领域仍有潜力。",
+      "source": "https://www.reddit.com/r/MachineLearning/comments/1tgn3bz/subjepa_a_simple_fix_to_lecun_groups_leworldmodel/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "多智能体系统的对齐税问题与解决方案",
+      "reason": "SDOF 论文直接回应了多 Agent 协作性能下降的痛点，是当前 Agent 工程的热点方向。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI 编程工具的企业本地部署趋势",
+      "reason": "OpenAI Codex 与戴尔合作、Anthropic 收购 Stainless，都指向企业级 AI 编程市场的争夺。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "Qwen 3.7 上线，Anthropic 收购 Stainless，OpenAI 进军企业本地部署",
   "snapshot": {
     "date": "2026-05-18",
     "hf_trending": [

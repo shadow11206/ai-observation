@@ -1,5 +1,5 @@
 {
-  "total": 63,
+  "total": 64,
   "reports": [
     {
       "date": "2026-05-28",
@@ -30,10 +30,17 @@
       "file": "2026-05-25.json"
     },
     {
+      "date": "2026-05-24",
+      "title": "今日 AI 日报：Cognition 以 260 亿美元估值完成 10 亿美元 D 轮融资 + 4 条重要动态",
+      "excerpt": "AI 编程是当前最热且最被资本认可的 AI 应用方向。Cognition 的高估…",
+      "top_count": 5,
+      "file": "2026-05-24.json"
+    },
+    {
       "date": "2026-05-23",
-      "title": "AI 日报 2026-05-23",
-      "excerpt": "",
-      "top_count": 0,
+      "title": "今日 AI 日报：DeepSeek 获 103 亿美元融资，梁文锋承诺继续开源 + 4 条重要动态",
+      "excerpt": "这是中国 AI 领域迄今最大单笔融资，DeepSeek 用巨额资金和顶级人才宣告…",
+      "top_count": 5,
       "file": "2026-05-23.json"
     },
     {
@@ -59,9 +66,9 @@
     },
     {
       "date": "2026-05-19",
-      "title": "AI 日报 2026-05-19",
-      "excerpt": "",
-      "top_count": 0,
+      "title": "今日 AI 日报：通义千问 Qwen 3.7 悄然上线，阿里开源模型再升级 + 4 条重要动态",
+      "excerpt": "阿里在开源模型上持续迭代，Qwen 3.7 的悄然上线暗示其可能在准备一次重大发…",
+      "top_count": 5,
       "file": "2026-05-19.json"
     },
     {
@@ -87,9 +94,9 @@
     },
     {
       "date": "2026-05-15",
-      "title": "AI 日报 2026-05-15",
-      "excerpt": "",
-      "top_count": 0,
+      "title": "今日 AI 日报：OpenAI 将 Codex 带到手机端，随时随地远程操控编程任务 + 4 条重要动态",
+      "excerpt": "这是 AI 编程从 IDE 插件走向全场景助手的关键一步。Codex 不再只是开…",
+      "top_count": 5,
       "file": "2026-05-15.json"
     },
     {
