@@ -209,9 +209,10 @@ def _fetch_openrouter_ranking() -> list[dict]:
         for row_data in rows_raw:
             text = row_data.get("text", "")
             href = row_data.get("href", "")
-            # 解析格式："1. Model Nameby orgname483B tokens11%"
+            # 示例文本： "1. Hy3 previewby tencent483B tokens11%"
+            # org 名只包含字母和连字符，不含数字
             m = _re.match(
-                r"^(\d+)\.\s*(.+?)by\s+([a-zA-Z0-9-]+)\s*"
+                r"^(\d+)\.\s*(.+?)by\s+([a-zA-Z][a-zA-Z-]*)\s*"
                 r"([\d.]+)\s*(B|M|T|K)?\s*tokens?\s*(\d+)%",
                 text,
             )
@@ -232,7 +233,6 @@ def _fetch_openrouter_ranking() -> list[dict]:
                 "org": org.strip(),
                 "total_tokens": total_tokens,
                 "total_tokens_str": amount + (unit or "B"),
-                "calls": 0,
                 "change": float(change),
                 "url": f"https://openrouter.ai/{slug}",
             })
