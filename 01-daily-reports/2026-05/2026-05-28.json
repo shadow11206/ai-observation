@@ -3,254 +3,281 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "AI编程公司Cognition以250亿美元估值融资10亿美元",
-      "finding": "Cognition（Devin/Windsurf开发商）宣布以250亿美元估值完成10亿美元融资，年化收入已达4.92亿美元。这距离其上一轮融资仅8个月，估值翻倍。",
+      "title": "Cognition 以 260 亿美元估值完成 10 亿美元 D 轮融资",
+      "finding": "AI 编程公司 Cognition（Devin 的开发商）完成 10 亿美元 D 轮融资，估值达 260 亿美元。这轮融资由 Founders Fund 领投，标志着 AI 编程赛道进入资本密集期。",
       "key_data": [
-        "估值250亿美元",
-        "年化收入4.92亿美元",
-        "8个月估值翻倍"
+        "估值 260 亿美元",
+        "融资 10 亿美元",
+        "AI 编程赛道最大单笔融资"
       ],
-      "judgment": "AI编程赛道已从工具竞争进入平台化阶段。Cognition的爆发式增长证明企业愿意为自主编程Agent支付高额费用，这将对Cursor、GitHub Copilot形成巨大压力，加速行业整合。",
+      "judgment": "AI 编程不再只是工具，而是被资本视为下一个平台级机会。Cognition 的估值已超过多数传统 SaaS 巨头，说明市场相信 AI 将彻底改变软件开发方式。对开发者而言，这意味着 AI 编程工具将加速从辅助编码向自主开发的演进。",
       "confidence": 5,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/"
+      "source": "Latent Space",
+      "url": "https://www.latent.space/p/ainews-cognition-raises-1b-in-26b"
     },
     {
       "rank": 2,
-      "title": "OpenAI联手Warp推出基于GPT-5.5的开源编程Agent",
-      "finding": "OpenAI与终端Warp合作，利用GPT-5.5构建跨本地、云端和开源工作流的编程Agent协调系统。这是OpenAI首次深度参与开源开发工具生态。",
+      "title": "Simon Willison：我认为 Anthropic 和 OpenAI 已经找到了产品市场契合点",
+      "finding": "知名 AI 观察者 Simon Willison 指出，Anthropic 即将迎来首个盈利季度，同时许多公司惊讶于员工使用 LLM 产生的巨额账单。这表明企业级 AI 需求真实且强劲。",
       "key_data": [
-        "GPT-5.5驱动",
-        "跨环境Agent协调",
-        "开源工作流"
+        "Anthropic 即将首次盈利",
+        "企业 LLM 账单超预期",
+        "产品市场契合点已到"
       ],
-      "judgment": "OpenAI正在从模型提供商向开发工具平台延伸。与Warp的合作意味着他们不再满足于卖API，而是直接切入开发者工作流，这会与Cursor、GitHub形成直接竞争。",
-      "confidence": 5,
-      "source": "OpenAI Blog",
-      "url": "https://openai.com/index/warp"
+      "judgment": "这是一个重要信号：AI 公司终于从烧钱阶段进入商业验证期。Anthropic 和 OpenAI 的盈利拐点意味着企业愿意为 AI 能力付费，而非仅仅试用。对产品经理来说，这提示应该加速将 AI 能力嵌入核心业务流程，而非停留在实验阶段。",
+      "confidence": 4,
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything"
     },
     {
       "rank": 3,
-      "title": "SWE-rebench最新排行榜：GPT-5.5、Opus 4.7、Cursor Composer 2.5等模型表现揭晓",
-      "finding": "SWE-rebench发布了2026年3-5月的最新排行榜，涵盖了GPT-5.5、Claude Opus 4.7、Cursor Composer 2.5、Kimi K2.6等主流模型和工具的编程能力评测。",
+      "title": "伊利诺伊州通过美国最强 AI 安全法案",
+      "finding": "伊利诺伊州议会通过全美最严格的 AI 安全法案，要求 OpenAI、Anthropic、Google 等公司由第三方验证其模型是否遵循安全标准。州长已表示将签署。",
       "key_data": [
-        "GPT-5.5排名",
-        "Opus 4.7表现",
-        "Composer 2.5成绩"
+        "美国最强 AI 安全法案",
+        "要求第三方安全验证",
+        "覆盖所有头部模型公司"
       ],
-      "judgment": "这是目前最权威的AI编程能力基准测试之一，结果将直接影响开发者的工具选型。如果GPT-5.5在复杂任务上领先，会进一步巩固OpenAI在编程场景的地位；反之则给Claude和Cursor带来机会。",
-      "confidence": 4,
-      "source": "Reddit r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tpawlm/swerebench_leaderboard_march_april_and_may_2026/"
+      "judgment": "AI 监管从讨论进入立法阶段。伊利诺伊州的法案可能成为其他州的模板，甚至影响联邦立法。对 AI 公司而言，合规成本将显著上升，安全能力不再是可选项而是准入门槛。开发者需要关注模型部署的合规要求。",
+      "confidence": 5,
+      "source": "Wired",
+      "url": "https://www.wired.com/story/illinois-pass-major-ai-safety-law-pritzker/"
     },
     {
       "rank": 4,
-      "title": "Simon Willison：Anthropic和OpenAI已找到产品市场契合点",
-      "finding": "知名AI开发者Simon Willison指出，Anthropic即将迎来首个盈利季度，同时多家公司惊讶于员工使用LLM带来的高额账单。这表明AI产品已从尝鲜进入大规模付费使用阶段。",
+      "title": "前 Google 和 Apple 研究员创立 Trajectory，打造 AI 持续学习反馈循环",
+      "finding": "前 Google 和 Apple 的 AI 研究员成立新公司 Trajectory，目标是构建能让 AI 在使用过程中持续学习的反馈循环系统，类似 vibe-coding 的快速迭代模式。",
       "key_data": [
-        "Anthropic即将盈利",
-        "企业LLM账单飙升",
-        "产品市场契合"
+        "前 Google/Apple 研究员创立",
+        "AI 持续学习反馈循环",
+        "类比 vibe-coding 迭代模式"
       ],
-      "judgment": "这是行业从'技术演示'到'商业变现'的关键转折信号。当企业开始抱怨AI账单太贵时，说明AI已经深度嵌入工作流，不再是可有可无的玩具。接下来会出现'AI成本管控'的新需求。",
+      "judgment": "当前 AI 模型训练后即冻结，无法从用户交互中学习。Trajectory 的尝试如果成功，将改变 AI 产品的迭代逻辑——从版本发布模式转向持续进化模式。这对产品经理意味着需要重新设计用户交互和数据收集策略。",
       "confidence": 4,
-      "source": "Simon Willison",
-      "url": "https://simonwillison.net/2026/May/27/product-market-fit/"
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ex-google-apple-ai-researchers-want-to-make-ai-that-gets-smarter-as-you-use-it/"
     },
     {
       "rank": 5,
-      "title": "AI生成CUDA内核存在静默错误，可能破坏训练和推理",
-      "finding": "NVIDIA发布的SOL-ExecBench基准测试显示，多个AI生成的CUDA内核在真实生产中会静默产生错误结果，影响DeepSeek、Qwen等模型的训练和推理。",
+      "title": "面壁智能发布全球首个完全 AI 编写的训练框架，速度反超英伟达",
+      "finding": "面壁智能推出全球首个完全由 AI 生成的训练框架，在国产算力上运行速度超过英伟达官方方案。这标志着 AI 开始自我优化底层基础设施。",
       "key_data": [
-        "235个生产级内核测试",
-        "AI生成内核静默错误",
-        "影响DeepSeek/Qwen"
+        "完全 AI 编写的训练框架",
+        "速度反超英伟达",
+        "国产算力软件重写"
       ],
-      "judgment": "这是AI编程安全性的重要警示。当AI生成的底层代码（如CUDA内核）出现静默错误时，上层模型训练和推理结果可能不可靠，且难以排查。开发者不能盲目信任AI生成的系统级代码。",
+      "judgment": "这是 AI 自我进化的里程碑：AI 不仅能写应用代码，还能优化底层训练框架。对国内开发者而言，这意味着国产算力的软件生态可能通过 AI 快速追赶。对英伟达来说，软件护城河正在被 AI 侵蚀。",
       "confidence": 4,
-      "source": "Reddit r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tpaw6x/aigenerated_cuda_kernels_silently_break_training/"
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/hXDXRKIGlowu0y6fWA96"
     }
   ],
   "model_tech": [
     {
+      "source": "Hugging Face",
+      "title": "ITBench-AA：前沿模型在企业 IT 任务基准测试中得分低于 50%",
+      "finding": "IBM 和 Artificial Analysis 联合发布 ITBench-AA 基准，测试 AI Agent 在企业 IT 场景中的表现。结果显示，即使是 GPT-4o、Claude 3.5 等前沿模型，得分也低于 50%，说明企业级 Agent 仍有巨大提升空间。",
+      "key_data": [
+        "得分低于 50%",
+        "企业 IT 任务基准",
+        "GPT-4o/Claude 3.5 均未及格"
+      ],
+      "judgment": "企业 Agent 的落地难度被量化证实。当前模型在复杂 IT 任务上远未达到可用水平，这解释了为什么很多企业 Agent 项目停留在演示阶段。对开发者而言，这意味着需要更精细的 Agent 架构设计，而非依赖模型本身的能力。",
+      "confidence": 5,
+      "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "importance": 4
+    },
+    {
       "source": "Reddit r/MachineLearning",
-      "title": "TritonMoE：跨平台融合MoE调度内核，无需CUDA即可在NVIDIA和AMD上运行",
-      "finding": "研究人员用OpenAI Triton编写了纯Triton的MoE推理内核，实现了在NVIDIA和AMD GPU上的跨平台运行，无需任何厂商特定代码。",
+      "title": "AI 生成的 CUDA 内核会静默破坏训练和推理",
+      "finding": "研究发现，AI 生成的 CUDA 内核存在静默错误，会导致训练和推理结果不正确但无明显报错。NVIDIA 的 SOL-ExecBench 基准测试中，多个高分提交存在此类问题。",
       "key_data": [
-        "纯Triton实现",
-        "跨NVIDIA/AMD",
-        "融合门控+路由+专家计算"
+        "AI 生成 CUDA 内核有静默错误",
+        "训练/推理结果不正确",
+        "SOL-ExecBench 基准测试"
       ],
-      "judgment": "这降低了MoE模型的部署门槛，尤其对AMD GPU生态是利好。如果TritonMoE性能接近CUDA版本，将加速开源模型在非NVIDIA硬件上的落地。",
-      "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tpj6e5/crossplatform_fused_moe_dispatch_in_triton/",
+      "judgment": "这是一个重要的安全警示：AI 生成的底层代码可能看起来正确但实际有 bug。对于依赖 AI 生成生产代码的团队，必须建立更严格的验证流程，不能盲目信任 AI 输出。",
+      "confidence": 4,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tpaw6x/aigenerated_cuda_kernels_silently_break_training/",
+      "importance": 4
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "Qwen 发布 Qwen-Image-Bench：用于评估文生图质量的视觉语言模型",
+      "finding": "阿里 Qwen 团队发布 Qwen-Image-Bench，这是一个专门用于自动评估文生图质量的视觉语言模型，可作为人工评估的替代方案。",
+      "key_data": [
+        "文生图自动评估模型",
+        "替代人工评估",
+        "Qwen 系列"
+      ],
+      "judgment": "自动评估工具是 AI 产品迭代的关键基础设施。Qwen-Image-Bench 的出现降低了文生图产品的评估成本，可能加速图像生成模型的迭代速度。",
+      "confidence": 4,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tpww8m/qwenqwenimagebench_hugging_face/",
       "importance": 3
     },
     {
-      "source": "ArXiv cs.CL",
-      "title": "SPEAR：代码增强的智能体提示优化",
-      "finding": "新方法SPEAR让LLM通过编写和执行代码来自动优化提示词，比传统自动提示工程（APE）效果更好，能处理更复杂的任务。",
+      "source": "Reddit r/LocalLLaMA",
+      "title": "在 VLLM 和多个 MCP 服务器使用的框架中发现安全漏洞",
+      "finding": "一个被 VLLM、多个 MCP 服务器和其他 LLM 工具广泛使用的框架被发现存在安全漏洞，可能影响大量 AI 基础设施。",
       "key_data": [
-        "代码增强优化",
-        "超越传统APE",
-        "自动提示工程"
+        "VLLM 受影响",
+        "MCP 服务器受影响",
+        "广泛使用的框架漏洞"
       ],
-      "judgment": "提示工程正在从'手工调参'走向'自动化编程'。SPEAR的思路——让AI自己写代码来优化提示——可能成为下一代提示工程的标准范式。",
+      "judgment": "AI 基础设施的安全问题正在浮出水面。随着 AI 工具链的快速扩张，安全审查往往滞后。开发者需要立即检查自己的依赖是否受影响，并建立安全审计流程。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2605.26275",
-      "importance": 2
-    },
-    {
-      "source": "ArXiv cs.AI",
-      "title": "LLM能否内省？一项现实检验",
-      "finding": "新论文对LLM内省能力进行了严格检验，发现此前声称模型能检测和报告自身内部状态的研究存在方法论问题，LLM的内省能力被高估。",
-      "key_data": [
-        "内省能力被高估",
-        "方法论问题",
-        "现实检验"
-      ],
-      "judgment": "这对AI安全领域很重要。如果LLM无法可靠地报告自己的不确定性或错误，依赖模型自我评估的安全机制（如拒绝回答、置信度校准）可能不可靠。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2605.26242",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tpp2th/vulnerability_found_in_framework_used_by_vllm/",
       "importance": 3
     },
     {
-      "source": "ArXiv cs.AI",
-      "title": "智能体记忆是数据库吗？重新思考长期AI智能体记忆的数据基础",
-      "finding": "论文指出长期运行的AI智能体需要持久记忆，但现有实现将记忆简单当作数据库来用，忽略了记忆的上下文依赖性和演化特性。",
+      "source": "ArXiv",
+      "title": "为什么 LLM 在因果发现上失败，以及干预 Agent 如何突破",
+      "finding": "新论文指出 LLM 在因果发现任务上表现不佳，但通过引入干预 Agent（能主动进行实验的 AI 系统）可以显著提升因果推理能力。",
       "key_data": [
-        "长期智能体记忆",
-        "数据库类比不准确",
-        "上下文依赖性"
+        "LLM 因果发现失败",
+        "干预 Agent 可突破",
+        "主动实验优于被动推理"
       ],
-      "judgment": "这是Agent工程领域的重要反思。如果记忆只是数据库，那Agent就是无状态的。真正有用的Agent记忆需要支持学习、遗忘和上下文融合，这需要新的架构设计。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2605.26252",
+      "judgment": "这揭示了当前 LLM 的核心局限：被动推理无法替代主动实验。对 Agent 设计者而言，这意味着需要赋予 Agent 执行实验和观察结果的能力，而非仅靠模型内部知识。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2605.27567",
       "importance": 3
-    },
-    {
-      "source": "ArXiv cs.LG",
-      "title": "GEM：几何熵混合实现最优LLM数据配比",
-      "finding": "新方法GEM通过几何熵度量来优化预训练数据的混合比例，比人工设计的配比方案更有效，有望解决数据配比这一LLM训练的关键难题。",
-      "key_data": [
-        "几何熵混合",
-        "自动数据配比",
-        "超越人工设计"
-      ],
-      "judgment": "数据配比是LLM训练中'玄学'程度最高的环节之一。GEM提供了一种理论驱动的自动化方案，如果被验证有效，将显著降低训练成本并提升模型质量。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2605.26121",
-      "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "TechCrunch",
-      "title": "Meta正式推出Instagram、Facebook和WhatsApp订阅服务，包含AI计划",
-      "finding": "Meta在全球范围内推出社交平台付费订阅服务，并正在测试包含AI功能的更高层级订阅计划。这是Meta从广告模式向混合变现模式转型的重要一步。",
+      "source": "OpenAI",
+      "title": "思科与 OpenAI 合作，用 Codex 重新定义企业工程",
+      "finding": "思科与 OpenAI 宣布合作，将 Codex 引入企业工程流程，用于加速 AI 原生开发、自动化缺陷修复等工作。这是 Codex 在企业级场景的重要落地。",
       "key_data": [
-        "全球订阅上线",
-        "包含AI功能",
-        "Meta One品牌"
+        "思科 × OpenAI 合作",
+        "Codex 企业级应用",
+        "自动化缺陷修复"
       ],
-      "judgment": "Meta终于开始认真做订阅变现。AI功能作为付费卖点，说明Meta认为AI助手有足够价值让用户掏钱。这对其他社交平台的AI订阅策略有示范效应。",
+      "judgment": "Codex 从开发者工具升级为企业工程平台。思科这样的传统企业巨头采用 AI 编程，标志着 AI 编程从初创公司向大型企业渗透。对 AI 编程公司而言，企业市场的大门正在打开。",
       "confidence": 5,
-      "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+      "url": "https://openai.com/index/cisco",
       "importance": 4
     },
     {
       "source": "TechCrunch",
-      "title": "Snowflake与AWS签署60亿美元AI芯片大单",
-      "finding": "Snowflake与亚马逊AWS签署了为期5年、价值60亿美元的AI芯片协议，用于支持其AI工作负载。这进一步巩固了AWS在AI基础设施领域的地位。",
+      "title": "Snowflake 与 AWS 签署 60 亿美元 AI 芯片协议",
+      "finding": "Snowflake 与 AWS 签署为期五年、价值 60 亿美元的协议，采购 AWS 的 AI CPU 芯片。这笔交易被视为对 NVIDIA 的挑战。",
       "key_data": [
-        "60亿美元5年协议",
-        "AI CPU芯片",
-        "AWS受益"
+        "60 亿美元五年协议",
+        "AWS AI CPU 芯片",
+        "对 NVIDIA 构成挑战"
       ],
-      "judgment": "这是AI基础设施军备竞赛的又一信号。Snowflake选择AWS而非NVIDIA，说明云厂商自研AI芯片正在获得大客户认可，NVIDIA的垄断地位面临挑战。",
+      "judgment": "云厂商正在加速摆脱对 NVIDIA 的依赖。60 亿美元的规模表明，AWS 的 AI 芯片已获得主流数据平台认可。对 AI 基础设施市场而言，这意味着 NVIDIA 的垄断地位正在被侵蚀，多元化芯片生态正在形成。",
       "confidence": 5,
       "url": "https://techcrunch.com/2026/05/27/in-more-good-news-for-amazon-snowflake-signs-6b-deal-with-aws-for-ai-cpu-chips/",
       "importance": 4
     },
     {
-      "source": "36氪",
-      "title": "快手可灵AI年化收入近5亿美元，同比增长4倍",
-      "finding": "快手CEO程一笑在业绩会上透露，可灵AI在2026年3月的年化收入运行率（ARR）接近5亿美元，较去年同期的1亿美元增长4倍，B端API和C端订阅双轮驱动。",
+      "source": "量子位",
+      "title": "7B 模型打败 o3、GPT-5：医学 AI 智能体让模型学会“看哪里、怎么看”",
+      "finding": "一个 7B 参数的医学 AI Agent 在多项医学影像任务上超越了 OpenAI o3 和 GPT-5，其核心创新是让模型学会关注关键区域和正确的观察方法。",
       "key_data": [
-        "ARR近5亿美元",
-        "同比增长4倍",
-        "B端+C端双驱动"
+        "7B 模型超越 o3/GPT-5",
+        "医学影像任务",
+        "学会关注关键区域"
       ],
-      "judgment": "可灵AI的增速证明AI视频生成已经找到商业闭环。5亿美元ARR在AI应用公司中属于顶级水平，说明视频生成赛道正在快速兑现商业价值。",
-      "confidence": 5,
-      "url": "https://36kr.com/p/3827497128465287",
+      "judgment": "模型大小不是唯一决定因素，任务特定的 Agent 设计可以大幅提升小模型性能。这对产品经理意味着：在垂直场景中，精心设计的 Agent 架构可能比追求大模型更有效，且成本更低。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/05/426150.html",
       "importance": 4
     },
     {
-      "source": "TechCrunch",
-      "title": "AI基础设施公司Fireworks和Baseten成为新晋独角兽",
-      "finding": "Latent Space报道，AI推理基础设施公司Fireworks和Baseten正在成为新的十亿美元级公司，OpenRouter也紧随其后。AI推理层正在诞生新的巨头。",
+      "source": "量子位",
+      "title": "5 篇 AI 生成的数学论文被接收：00 后创始人洪乐潼融资 14 亿",
+      "finding": "一个 AI 系统生成的 8 篇数学论文中有 5 篇被学术会议接收，其 00 后创始人洪乐潼因此获得 14 亿元融资。这表明 AI 在数学研究领域已具备实用价值。",
       "key_data": [
-        "Fireworks独角兽",
-        "Baseten独角兽",
-        "推理基础设施"
+        "5/8 论文被接收",
+        "00 后创始人",
+        "融资 14 亿元"
       ],
-      "judgment": "AI推理基础设施正在复制云基础设施的造富故事。随着模型推理需求爆发，提供低成本、低延迟推理服务的公司将成为下一个AWS级别的机会。",
+      "judgment": "AI 从辅助工具进化为研究主体。数学论文被接收意味着 AI 可以产生被人类专家认可的新知识。这对科研领域的影响深远：AI 可能成为独立的研究者，而不仅仅是工具。",
       "confidence": 4,
-      "url": "https://www.latent.space/p/ainews-new-ai-infra-decacorns-fireworks",
+      "url": "https://www.qbitai.com/2026/05/426198.html",
       "importance": 3
     },
     {
-      "source": "Wired",
-      "title": "前谷歌和苹果研究员创立Trajectory，打造AI持续学习反馈循环",
-      "finding": "前谷歌和苹果AI研究员创立新公司Trajectory，目标是构建能在使用过程中持续学习的AI系统，将Vibe Coding的快速迭代理念推广到所有AI产品。",
+      "source": "36氪",
+      "title": "腾讯游戏发布会：AI 成为核心主题",
+      "finding": "在 2026 年腾讯游戏发布会上，AI 成为贯穿全场的关键词。腾讯展示了《和平精英》AI 队友、《王者荣耀》AI 教练等多个 AI 游戏应用。",
       "key_data": [
-        "前谷歌/苹果团队",
-        "持续学习AI",
-        "Vibe Coding理念"
+        "42 款游戏新动态",
+        "AI 队友/教练",
+        "AI 成为游戏核心"
       ],
-      "judgment": "当前AI产品的一大痛点是部署后无法持续改进。Trajectory如果成功，将改变'训练-部署-冻结'的范式，让AI产品像互联网产品一样持续进化。",
-      "confidence": 4,
-      "url": "https://www.wired.com/story/ex-google-apple-ai-researchers-want-to-make-ai-that-gets-smarter-as-you-use-it/",
+      "judgment": "游戏行业正在经历 AI 化转型。腾讯将 AI 从辅助工具升级为游戏核心体验的一部分，这预示着未来游戏中的 NPC、队友、对手都将由 AI 驱动。对游戏开发者而言，AI 能力将成为核心竞争力。",
+      "confidence": 5,
+      "url": "https://36kr.com/p/3827658881323649?f=rss",
       "importance": 3
     }
   ],
   "opinions": [
     {
       "person": "Simon Willison",
-      "level": "L2",
-      "quote": "Anthropic和OpenAI已经找到了产品市场契合点。Anthropic即将迎来首个盈利季度，同时多家公司惊讶于员工使用LLM带来的高额账单。这意味着AI产品已经从尝鲜进入大规模付费使用阶段。",
-      "source": "https://simonwillison.net/2026/May/27/product-market-fit/"
+      "level": "L1",
+      "quote": "我认为 Anthropic 和 OpenAI 已经找到了产品市场契合点。Anthropic 即将迎来首个盈利季度，许多公司惊讶于员工使用 LLM 产生的巨额账单。",
+      "source": "https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything"
     },
     {
-      "person": "Dax Raad (OpenCode联合创始人)",
+      "person": "Dax Raad",
       "level": "L1",
-      "quote": "AI编程工具正在经历爆炸式增长，但工程判断力仍然至关重要。AI可以加速编码，但不能替代对系统架构和业务需求的理解。",
+      "quote": "AI 编程工具有其局限性，工程判断仍然重要。OpenCode 的爆炸式增长证明了市场对 AI 编程的需求，但工程判断力仍然是不可替代的。",
       "source": "https://newsletter.pragmaticengineer.com/p/opencode"
+    },
+    {
+      "person": "梅涛",
+      "level": "L1",
+      "quote": "多模态模型 Token 的毛利率远高于语言模型。原生多模态是实现 AGI 的必经之路。",
+      "source": "https://36kr.com/p/3820602297208966?f=rss"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI编程Agent的商业化路径：从工具到平台",
-      "reason": "Cognition估值250亿美元、OpenAI与Warp合作、SWE-rebench评测，多个信号表明AI编程正在进入平台化竞争阶段，值得深入研究各家的差异化策略。",
+      "topic": "AI 编程公司的估值逻辑：Cognition 260 亿美元估值合理吗？",
+      "reason": "理解 AI 编程赛道的天花板和商业模式",
       "priority": "high"
     },
     {
-      "topic": "AI基础设施层的投资机会：推理独角兽崛起",
-      "reason": "Fireworks、Baseten成为新独角兽，Snowflake与AWS签60亿美元AI芯片大单，推理基础设施正在成为新的增长极。",
+      "topic": "AI 安全法案对模型部署的实际影响",
+      "reason": "伊利诺伊州法案可能成为行业标准，影响所有 AI 产品合规",
+      "priority": "high"
+    },
+    {
+      "topic": "AI 生成 CUDA 内核的安全风险与应对",
+      "reason": "底层代码安全漏洞可能影响整个 AI 基础设施",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "AI编程赛道爆发，推理基础设施崛起，商业化加速",
+  "summary_one_line": "AI 编程融资破纪录，安全监管加速落地",
   "snapshot": {
-    "date": "2026-05-27",
+    "date": "2026-05-28",
     "hf_trending": [
+      {
+        "name": "openbmb/MiniCPM5-1B",
+        "short_name": "MiniCPM5-1B",
+        "likes": 455,
+        "downloads": 15629,
+        "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
       {
         "name": "bytedance-research/Lance",
         "short_name": "Lance",
-        "likes": 919,
-        "downloads": 1908,
+        "likes": 943,
+        "downloads": 2506,
         "url": "https://huggingface.co/bytedance-research/Lance",
         "tags": [
           "Lance",
@@ -263,25 +290,9 @@
         "trend": "same"
       },
       {
-        "name": "openbmb/MiniCPM5-1B",
-        "short_name": "MiniCPM5-1B",
-        "likes": 405,
-        "downloads": 2409,
-        "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "llama"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "new"
-      },
-      {
         "name": "meituan-longcat/LongCat-Video-Avatar-1.5",
         "short_name": "LongCat-Video-Avatar-1.5",
-        "likes": 342,
+        "likes": 352,
         "downloads": 0,
         "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5",
         "tags": [
@@ -295,10 +306,26 @@
         "trend": "same"
       },
       {
+        "name": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "short_name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "likes": 970,
+        "downloads": 1956558,
+        "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "tags": [
+          "gguf",
+          "uncensored",
+          "qwen3.6"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "NemoStation/Marlin-2B",
         "short_name": "Marlin-2B",
-        "likes": 414,
-        "downloads": 9144,
+        "likes": 421,
+        "downloads": 13855,
         "url": "https://huggingface.co/NemoStation/Marlin-2B",
         "tags": [
           "transformers",
@@ -311,26 +338,10 @@
         "trend": "same"
       },
       {
-        "name": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-        "short_name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-        "likes": 945,
-        "downloads": 1598473,
-        "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-        "tags": [
-          "gguf",
-          "uncensored",
-          "qwen3.6"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "new"
-      },
-      {
         "name": "sapientinc/HRM-Text-1B",
         "short_name": "HRM-Text-1B",
-        "likes": 393,
-        "downloads": 103033,
+        "likes": 398,
+        "downloads": 121862,
         "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
         "tags": [
           "transformers",
@@ -345,8 +356,8 @@
       {
         "name": "Supertone/supertonic-3",
         "short_name": "supertonic-3",
-        "likes": 711,
-        "downloads": 48112,
+        "likes": 719,
+        "downloads": 52022,
         "url": "https://huggingface.co/Supertone/supertonic-3",
         "tags": [
           "supertonic",
@@ -361,8 +372,8 @@
       {
         "name": "deepseek-ai/DeepSeek-V4-Pro",
         "short_name": "DeepSeek-V4-Pro",
-        "likes": 4358,
-        "downloads": 5019884,
+        "likes": 4383,
+        "downloads": 5281601,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
         "tags": [
           "transformers",
@@ -376,7 +387,118 @@
       }
     ],
     "github_trending": [],
-    "openrouter_ranking": [],
-    "hf_summary": "多模态与音频模型热度飙升，AI交互加速融合。"
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "tencent/hy3-preview",
+        "name": "Hy3 preview",
+        "org": "tencent48",
+        "total_tokens": 3000000000,
+        "total_tokens_str": "3B",
+        "calls": 0,
+        "change": 11.0,
+        "url": "https://openrouter.ai/tencent/hy3-preview"
+      },
+      {
+        "rank": 2,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "org": "deepseek41",
+        "total_tokens": 5000000000,
+        "total_tokens_str": "5B",
+        "calls": 0,
+        "change": 27.0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "anthropic/claude-opus-4.7",
+        "name": "Claude Opus 4.7",
+        "org": "anthropic37",
+        "total_tokens": 2000000000,
+        "total_tokens_str": "2B",
+        "calls": 0,
+        "change": 45.0,
+        "url": "https://openrouter.ai/anthropic/claude-opus-4.7"
+      },
+      {
+        "rank": 4,
+        "slug": "anthropic/claude-sonnet-4.6",
+        "name": "Claude Sonnet 4.6",
+        "org": "anthropic34",
+        "total_tokens": 8000000000,
+        "total_tokens_str": "8B",
+        "calls": 0,
+        "change": 1.0,
+        "url": "https://openrouter.ai/anthropic/claude-sonnet-4.6"
+      },
+      {
+        "rank": 5,
+        "slug": "openrouter/owl-alpha",
+        "name": "Owl Alpha",
+        "org": "openrouter23",
+        "total_tokens": 9000000000,
+        "total_tokens_str": "9B",
+        "calls": 0,
+        "change": 5.0,
+        "url": "https://openrouter.ai/openrouter/owl-alpha"
+      },
+      {
+        "rank": 6,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
+        "org": "deepseek18",
+        "total_tokens": 4000000000,
+        "total_tokens_str": "4B",
+        "calls": 0,
+        "change": 0.0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 7,
+        "slug": "xiaomi/mimo-v2.5-pro",
+        "name": "MiMo-V2.5-Pro",
+        "org": "xiaomi17",
+        "total_tokens": 7000000000,
+        "total_tokens_str": "7B",
+        "calls": 0,
+        "change": 9.0,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5-pro"
+      },
+      {
+        "rank": 8,
+        "slug": "deepseek/deepseek-v3.2",
+        "name": "DeepSeek V3.2",
+        "org": "deepseek16",
+        "total_tokens": 6000000000,
+        "total_tokens_str": "6B",
+        "calls": 0,
+        "change": 2.0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v3.2"
+      },
+      {
+        "rank": 9,
+        "slug": "google/gemini-3-flash-preview",
+        "name": "Gemini 3 Flash Preview",
+        "org": "google15",
+        "total_tokens": 2000000000,
+        "total_tokens_str": "2B",
+        "calls": 0,
+        "change": 6.0,
+        "url": "https://openrouter.ai/google/gemini-3-flash-preview"
+      },
+      {
+        "rank": 10,
+        "slug": "moonshotai/kimi-k2.6",
+        "name": "Kimi K2.6",
+        "org": "moonshotai13",
+        "total_tokens": 8000000000,
+        "total_tokens_str": "8B",
+        "calls": 0,
+        "change": 90.0,
+        "url": "https://openrouter.ai/moonshotai/kimi-k2.6"
+      }
+    ],
+    "hf_summary": "多模态与视频模型崛起，小参数模型受追捧"
   }
 }
