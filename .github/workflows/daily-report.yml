@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r scripts/requirements.txt
-          playwright install chromium
+          playwright install --with-deps chromium
 
       - name: Check secrets
         run: |
