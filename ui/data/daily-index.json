@@ -1,6 +1,13 @@
 {
-  "total": 64,
+  "total": 65,
   "reports": [
+    {
+      "date": "2026-05-29",
+      "title": "今日 AI 日报：Anthropic 以 9650 亿美元估值完成 650 亿美元 H 轮融资，接近万亿美元估值 + 4 条重要动态",
+      "excerpt": "Anthropic 的估值已逼近万亿美元，说明资本市场对 AI 基础模型公司的信…",
+      "top_count": 5,
+      "file": "2026-05-29.json"
+    },
     {
       "date": "2026-05-28",
       "title": "今日 AI 日报：Cognition 以 260 亿美元估值完成 10 亿美元 D 轮融资 + 4 条重要动态",
