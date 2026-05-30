@@ -1,6 +1,13 @@
 {
-  "total": 65,
+  "total": 66,
   "reports": [
+    {
+      "date": "2026-05-30",
+      "title": "今日 AI 日报：Anthropic 完成 965 亿美元 H 轮融资，估值超越 OpenAI 成为最贵 AI 公司 + 4 条重要动态",
+      "excerpt": "Anthropic 在商业化和融资能力上已全面超越 OpenAI，Claude …",
+      "top_count": 5,
+      "file": "2026-05-30.json"
+    },
     {
       "date": "2026-05-29",
       "title": "今日 AI 日报：Anthropic 以 9650 亿美元估值完成 650 亿美元 H 轮融资，接近万亿美元估值 + 4 条重要动态",
