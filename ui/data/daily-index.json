@@ -1,6 +1,13 @@
 {
-  "total": 66,
+  "total": 67,
   "reports": [
+    {
+      "date": "2026-05-31",
+      "title": "今日 AI 日报：Anthropic超越OpenAI成为全球最有价值AI初创公司 + 4 条重要动态",
+      "excerpt": "这对AI行业格局影响深远：Anthropic的崛起证明'安全优先'策略可以赢得资…",
+      "top_count": 5,
+      "file": "2026-05-31.json"
+    },
     {
       "date": "2026-05-30",
       "title": "今日 AI 日报：Anthropic 完成 965 亿美元 H 轮融资，估值超越 OpenAI 成为最贵 AI 公司 + 4 条重要动态",
