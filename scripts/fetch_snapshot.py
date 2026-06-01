@@ -15,8 +15,11 @@ v2.0 新增：
 
 import json
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+# 北京时区（UTC+8），确保 snapshot.date 与日报日期一致
+_BJT = timezone(timedelta(hours=8))
 
 
 HEADERS = {
@@ -55,7 +58,7 @@ PIPELINE_LABEL = {
 def fetch_snapshot() -> dict:
     """主入口：获取今日数据快照，三个源各自独立，互不影响"""
     snapshot = {
-        "date": datetime.now().strftime("%Y-%m-%d"),
+        "date": datetime.now(_BJT).strftime("%Y-%m-%d"),
         "hf_trending": [],
         "github_trending": [],
         "openrouter_ranking": [],
@@ -82,7 +85,7 @@ def fetch_snapshot() -> dict:
 
 def _load_yesterday_hf_names() -> set:
     """加载昨日 HF 榜单的模型名集合，用于趋势对比"""
-    yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+    yesterday = (datetime.now(_BJT) - timedelta(days=1)).strftime("%Y-%m-%d")
     month = yesterday[:7]
     json_path = Path(f"01-daily-reports/{month}/{yesterday}.json")
     if not json_path.exists():
@@ -249,7 +252,7 @@ def _fetch_github_trending() -> list[dict]:
     抓取 GitHub AI 相关热门项目。
     策略：优先查今日新建的 AI 项目；若 403 Rate Limit，降级查近期高星项目。
     """
-    yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+    yesterday = (datetime.now(_BJT) - timedelta(days=1)).strftime("%Y-%m-%d")
     url = "https://api.github.com/search/repositories"
 
     # 主查询：今日新建的 AI/LLM 相关项目（OR 逻辑，命中率更高）

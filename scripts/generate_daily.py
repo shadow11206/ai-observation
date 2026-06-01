@@ -346,15 +346,9 @@ def _render_md(data: dict) -> str:
             for r in snapshot["openrouter_ranking"]:
                 change = r.get("change", 0)
                 arrow = "↑" if change > 0 else "↓" if change < 0 else "→"
-                calls = r.get("calls")
-                if calls and calls > 0:
-                    calls_str = f"{calls / 10000:.0f}万" if calls >= 10000 else str(calls)
-                    calls_part = f" · {calls_str}次"
-                else:
-                    calls_part = ""
                 lines.append(
                     f"- {r.get('rank', '')}. [{r.get('org', '')}/{r.get('name', '')}]"
-                    f"({r.get('url', '')}) — **{r.get('total_tokens_str', '')}** tokens{calls_part} · {arrow}{abs(change)}%"
+                    f"({r.get('url', '')}) — **{r.get('total_tokens_str', '')}** tokens · {arrow}{abs(change)}%"
                 )
         if snapshot.get("github_trending"):
             lines.append("\n### GitHub Trending AI\n")
