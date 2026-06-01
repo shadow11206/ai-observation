@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-06-01",
-      "title": "今日 AI 日报：阶跃星辰Stepfun 3.7 Flash模型获社区好评：小参数、高质量，逼近GLM 5.1 + 4 条重要动态",
-      "excerpt": "这是小模型能力追赶大模型的重要信号。对开发者而言，意味着未来很多场景不再需要跑大…",
+      "title": "今日 AI 日报：英伟达发布Nemotron 3 Ultra模型与Cosmos 3开源物理AI模型 + 4 条重要动态",
+      "excerpt": "英伟达正在构建从芯片到模型的全栈AI能力，Cosmos 3作为开源物理AI模型，…",
       "top_count": 5,
       "file": "2026-06-01.json"
     },

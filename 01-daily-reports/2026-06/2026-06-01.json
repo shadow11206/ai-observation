@@ -3,71 +3,75 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "阶跃星辰Stepfun 3.7 Flash模型获社区好评：小参数、高质量，逼近GLM 5.1",
-      "finding": "Reddit社区用户实测发现，阶跃星辰的Stepfun 3.7 Flash模型在美学质量和3D世界理解上接近智谱GLM 5.1水平，但参数量仅为后者的25%。这意味着小模型在特定能力上已能挑战大模型，对端侧部署和低成本推理是重大利好。",
+      "title": "英伟达发布Nemotron 3 Ultra模型与Cosmos 3开源物理AI模型",
+      "finding": "英伟达连续发布两款重磅模型：Nemotron 3 Ultra是面向企业的高性能语言模型，Cosmos 3则是首个开源物理AI全模态模型，能同时处理视觉、语言和动作，用于机器人等物理世界推理。这标志着英伟达从芯片公司向AI模型平台公司转型迈出关键一步。",
       "key_data": [
-        "参数量仅为GLM 5.1的25%",
-        "美学质量接近GLM 5.1",
-        "3D世界理解达80%",
-        "社区实测好评"
+        "Nemotron 3 Ultra发布",
+        "Cosmos 3开源",
+        "首个物理AI全模态模型",
+        "Hugging Face发布"
       ],
-      "judgment": "这是小模型能力追赶大模型的重要信号。对开发者而言，意味着未来很多场景不再需要跑大模型，小模型就能满足需求，推理成本和延迟将大幅下降。对阶跃星辰而言，这是其技术实力的有力证明。",
-      "confidence": 3,
-      "source": "Reddit r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tss9nq/stepfun_37_flash_is_very_good/"
+      "judgment": "英伟达正在构建从芯片到模型的全栈AI能力，Cosmos 3作为开源物理AI模型，可能成为机器人领域的'Llama时刻'，大幅降低具身智能的研发门槛。",
+      "confidence": 5,
+      "source": "Reddit r/LocalLLaMA / Hugging Face Blog",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai"
     },
     {
       "rank": 2,
-      "title": "DDIM之父宋佳铭宣布离职，生成式AI领域再失一位核心研究者",
-      "finding": "DDIM（去噪扩散隐式模型）的发明者宋佳铭宣布离职。DDIM是扩散模型加速推理的关键技术，被Stable Diffusion等主流模型广泛采用。他的离职可能意味着其研究方向或创业计划有变。",
+      "title": "MiniMax发布M3模型：编程与Agent能力达前沿水平，支持100万上下文",
+      "finding": "中国AI公司MiniMax发布新一代M3模型，在编程和Agent任务上达到前沿水平，支持100万token超长上下文，并具备多模态能力。这是中国AI公司在基础模型能力上追赶海外的重要信号。",
       "key_data": [
-        "DDIM发明者",
-        "离职",
-        "扩散模型加速推理"
+        "编程与Agent前沿水平",
+        "100万上下文",
+        "多模态",
+        "中国AI公司"
       ],
-      "judgment": "宋佳铭是扩散模型领域的标志性人物，他的离职可能预示着生成式AI研究进入新阶段：从算法创新转向工程化和产品化。对行业而言，核心研究人才的流动会加速技术扩散，但也可能削弱原机构的创新能力。",
+      "judgment": "MiniMax M3证明中国AI公司在基础模型上仍有竞争力，尤其在长上下文和Agent能力上不输海外。这对国内AI应用开发者是利好，多了一个可选的强大基座。",
+      "confidence": 4,
+      "source": "Reddit r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ttdiq0/minimax_m3_coding_agentic_frontier_1m_context/"
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic在Code With Claude上发布托管式智能体与主动式工作流",
+      "finding": "Anthropic在Code With Claude平台上推出托管式智能体（Managed Agents）和主动式工作流（Proactive Workflows），让开发者可以部署长期运行、自主决策的AI Agent。这是Anthropic从对话模型向Agent平台转型的重要一步。",
+      "key_data": [
+        "托管式智能体",
+        "主动式工作流",
+        "Code With Claude平台",
+        "Agent部署"
+      ],
+      "judgment": "Anthropic正在构建Agent平台生态，托管式智能体降低了Agent部署门槛，可能吸引大量企业开发者。这对Claude生态的长期价值是重大利好，但也意味着与OpenAI、Google的Agent平台竞争加剧。",
+      "confidence": 4,
+      "source": "InfoQ AI",
+      "url": "https://www.infoq.cn/article/4lvrePvgNC6vuCKkvZKe"
+    },
+    {
+      "rank": 4,
+      "title": "DDIM之父宋佳铭宣布离职，AI扩散模型领域再失核心人物",
+      "finding": "DDIM（去噪扩散隐式模型）的发明者宋佳铭宣布离职，这是继Ilya Sutskever之后又一位AI领域核心研究者离开原机构。DDIM是扩散模型领域的基础性工作，对图像生成（如Stable Diffusion）至关重要。",
+      "key_data": [
+        "DDIM之父",
+        "宋佳铭离职",
+        "扩散模型核心人物",
+        "AI人才流动"
+      ],
+      "judgment": "核心研究者持续离职，反映出AI领域人才流动加速，顶级研究者更倾向于创业或加入新实验室。这对原机构是损失，但可能催生新的创新力量。",
       "confidence": 4,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/05/427104.html"
     },
     {
-      "rank": 3,
-      "title": "Anthropic年化收入曝光：消费API+订阅双轮驱动，商业模式趋于成熟",
-      "finding": "据路透社报道，Anthropic将年化收入定义为两部分：基于消费的API收入（最近28天销售额×13）加上月度订阅收入×12。这种计算方式反映了其商业模式从纯API向API+订阅双轮驱动的转变，也表明其收入正在快速增长。",
-      "key_data": [
-        "API收入：28天销售额×13",
-        "订阅收入：月度×12",
-        "双轮驱动模式"
-      ],
-      "judgment": "Anthropic的收入结构越来越像SaaS公司，这对AI行业是个重要信号：大模型公司的商业模式正在从纯API调用转向更稳定的订阅制。对开发者而言，这意味着未来模型厂商会更注重用户留存和产品体验，而非单纯追求API调用量。",
-      "confidence": 4,
-      "source": "Simon Willison / Reuters",
-      "url": "https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything"
-    },
-    {
-      "rank": 4,
-      "title": "英伟达自研CPU曝光：打造AI时代的「MacBook Pro」",
-      "finding": "英伟达被曝正在自研CPU，目标是为AI工作负载打造一体化计算平台，类似苹果M系列芯片。这意味着英伟达不再满足于GPU霸主地位，而是试图掌控从CPU到GPU的完整计算栈。",
-      "key_data": [
-        "英伟达自研CPU",
-        "AI一体化平台",
-        "对标苹果M系列"
-      ],
-      "judgment": "这是英伟达从GPU供应商向全栈计算平台转型的关键一步。如果成功，将彻底改变AI硬件格局：开发者可能不再需要x86 CPU+英伟达GPU的组合，而是直接用英伟达的一体化芯片。这对AMD、Intel是巨大威胁，对AI开发者则意味着更低的硬件复杂度和更好的性能优化。",
-      "confidence": 3,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/05/426991.html"
-    },
-    {
       "rank": 5,
-      "title": "复旦×通义提出全新CUA训练范式：别光给Agent加Tool，它根本选不明白",
-      "finding": "复旦大学与阿里通义团队联合提出了一种新的CUA（计算机使用Agent）训练范式，核心观点是：当前Agent的问题不在于工具不够多，而在于模型无法正确选择和使用工具。新范式通过改进训练方法，让Agent学会更智能地调用工具。",
+      "title": "复旦×通义提出CUA训练范式：解决Agent工具选择困难症",
+      "finding": "复旦大学与阿里通义千问团队联合提出CUA（Comprehensive Understanding and Action）训练范式，解决当前AI Agent在调用工具时'选不对、选不准'的核心痛点。传统方法给Agent堆砌大量工具，但Agent根本选不明白该用哪个。",
       "key_data": [
-        "CUA训练新范式",
+        "CUA训练范式",
+        "Agent工具选择",
         "复旦×通义",
-        "工具选择能力提升"
+        "下一代Agent训练"
       ],
-      "judgment": "这是Agent领域一个非常务实的方向。当前行业过度关注给Agent加更多工具，却忽略了模型本身的选择能力。这个研究直击痛点：Agent的瓶颈在决策而非工具数量。对产品经理而言，这意味着未来Agent产品的核心竞争将从工具生态转向模型决策能力。",
+      "judgment": "这是Agent工程领域一个非常务实且重要的突破。当前Agent最大的瓶颈不是模型能力，而是工具选择和任务规划。CUA范式如果落地，将显著提升Agent在复杂任务中的可靠性。",
       "confidence": 4,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/05/427005.html"
@@ -75,117 +79,153 @@
   ],
   "model_tech": [
     {
-      "source": "Reddit r/LocalLLaMA",
-      "title": "Stepfun 3.7 Flash模型获社区好评：小参数高质量",
-      "finding": "Reddit用户实测发现，Stepfun 3.7 Flash在美学和3D理解上接近GLM 5.1，但参数量仅为其25%。",
+      "source": "Hugging Face Blog",
+      "title": "英伟达发布Cosmos 3：首个开源物理AI全模态模型",
+      "finding": "英伟达发布Cosmos 3，这是首个开源的物理AI全模态模型，能同时理解视觉、语言和动作，用于机器人、自动驾驶等物理世界推理和行动。",
       "key_data": [
-        "参数量25%",
-        "美学质量接近",
-        "3D理解80%"
+        "开源",
+        "物理AI全模态",
+        "机器人推理",
+        "Hugging Face"
       ],
-      "judgment": "小模型能力追赶大模型，端侧部署和低成本推理前景更明朗。",
-      "confidence": 3,
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tss9nq/stepfun_37_flash_is_very_good/",
+      "judgment": "物理AI的开源基座模型来了，具身智能研发门槛大幅降低，可能加速机器人领域的应用落地。",
+      "confidence": 5,
+      "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
       "importance": 4
     },
     {
       "source": "Reddit r/LocalLLaMA",
-      "title": "13个Gemma 4 E2B去审查变体对比：44 GPU小时实测",
-      "finding": "社区用户对Gemma 4 E2B进行了13种去审查变体的对比测试，耗时44 GPU小时，涵盖权重分析、KL散度、安全性和8个基准任务。",
+      "title": "MiniMax发布M3模型：编程与Agent能力达前沿水平",
+      "finding": "MiniMax M3在编程和Agent任务上达到前沿水平，支持100万token上下文，具备多模态能力。这是中国AI公司基础模型能力的重要进展。",
       "key_data": [
-        "13个变体",
-        "44 GPU小时",
-        "8个基准任务"
+        "编程Agent前沿",
+        "100万上下文",
+        "多模态",
+        "中国AI"
       ],
-      "judgment": "开源社区对模型安全性和可控性的探索越来越深入，这对企业级部署有参考价值。",
-      "confidence": 3,
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tsvs3j/13_abliterated_gemma_4_e2b_variants_44_gpu_hours/",
-      "importance": 2
+      "judgment": "中国AI公司在基础模型上仍有竞争力，长上下文和Agent能力是差异化优势。",
+      "confidence": 4,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ttdiq0/minimax_m3_coding_agentic_frontier_1m_context/",
+      "importance": 4
     },
     {
       "source": "Reddit r/LocalLLaMA",
-      "title": "NVIDIA Parakeet语音转文本模型被移植到ggml：无需Python",
-      "finding": "开发者将NVIDIA的Parakeet语音转文本模型移植到纯C++/ggml，支持FastConformer TDT/CTC/RNNT等架构，无需Python和PyTorch，且支持GGUF量化。",
+      "title": "英伟达宣布Nemotron 3 Ultra模型",
+      "finding": "英伟达发布Nemotron 3 Ultra，面向企业的高性能语言模型，进一步扩展其AI模型产品线。",
       "key_data": [
-        "ggml移植",
-        "无需Python",
-        "支持量化"
+        "Nemotron 3 Ultra",
+        "企业级模型",
+        "英伟达"
       ],
-      "judgment": "语音模型在边缘设备上的部署门槛进一步降低，对IoT和嵌入式AI是利好。",
+      "judgment": "英伟达从芯片向模型平台转型加速，Nemotron系列可能成为企业AI市场的重要竞争者。",
       "confidence": 4,
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tt6oja/i_ported_nvidia_parakeet_speechtotext_to_ggml/",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tthkh5/nvidia_announces_nemotron_3_ultra/",
       "importance": 3
     },
     {
       "source": "量子位",
-      "title": "复旦×通义提出全新CUA训练范式：解决Agent工具选择难题",
-      "finding": "复旦与阿里通义联合提出CUA训练新范式，核心是提升Agent正确选择和使用工具的能力，而非盲目增加工具数量。",
+      "title": "材料版AlphaFold来了！40个工业任务全方位SOTA",
+      "finding": "AI4S领域迎来重大突破，新模型在40个工业材料任务上达到SOTA，结合LLM训练buff，让材料AI学会了'物理直觉'。",
       "key_data": [
-        "CUA训练新范式",
-        "复旦×通义",
-        "工具选择能力"
+        "40个工业任务SOTA",
+        "AI4S",
+        "材料AI",
+        "物理直觉"
       ],
-      "judgment": "Agent产品的核心竞争力将从工具生态转向模型决策能力，产品经理应关注模型训练而非工具堆砌。",
+      "judgment": "AI for Science从论文走向工业应用，材料领域可能成为AI落地的下一个爆发点。",
       "confidence": 4,
-      "url": "https://www.qbitai.com/2026/05/427005.html",
-      "importance": 4
+      "url": "https://www.qbitai.com/2026/06/427142.html",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "LLMs Without Deep Neural Networks: 新架构探索",
+      "finding": "一篇论文提出无需深度神经网络的LLM新架构，试图突破Transformer的算力瓶颈，但尚处于早期验证阶段。",
+      "key_data": [
+        "新架构",
+        "无需深度神经网络",
+        "LLM",
+        "算力瓶颈"
+      ],
+      "judgment": "虽然论文很早期，但探索非Transformer架构的方向值得关注，可能影响未来模型设计。",
+      "confidence": 2,
+      "url": "https://arxiv.org/abs/2605.30385",
+      "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "Simon Willison / Reuters",
-      "title": "Anthropic年化收入计算方式曝光：API+订阅双轮驱动",
-      "finding": "Anthropic将年化收入分为消费API收入（28天销售额×13）和月度订阅收入×12，显示其商业模式趋于成熟。",
+      "source": "InfoQ AI",
+      "title": "Anthropic在Code With Claude上发布托管式智能体与主动式工作流",
+      "finding": "Anthropic推出托管式智能体和主动式工作流，让开发者可以部署长期运行、自主决策的AI Agent，这是Anthropic从对话模型向Agent平台转型的关键一步。",
       "key_data": [
-        "API收入×13",
-        "订阅收入×12",
-        "双轮驱动"
+        "托管式智能体",
+        "主动式工作流",
+        "Code With Claude",
+        "Agent平台"
       ],
-      "judgment": "大模型公司商业模式从纯API转向订阅制，更注重用户留存和产品体验。",
+      "judgment": "Anthropic正在构建Agent平台生态，托管式智能体降低了部署门槛，可能吸引大量企业开发者。",
       "confidence": 4,
-      "url": "https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything",
+      "url": "https://www.infoq.cn/article/4lvrePvgNC6vuCKkvZKe",
       "importance": 4
     },
     {
       "source": "量子位",
-      "title": "英伟达自研CPU曝光：打造AI时代一体化计算平台",
-      "finding": "英伟达被曝自研CPU，目标是为AI工作负载打造类似苹果M系列的一体化计算平台。",
+      "title": "英伟达版'MacBook Pro'曝光：老黄自研了CPU",
+      "finding": "英伟达正在研发自研CPU，打造类似MacBook Pro的AI PC产品，将CPU、GPU、NPU集成于一体。",
       "key_data": [
-        "自研CPU",
-        "AI一体化平台",
-        "对标M系列"
+        "英伟达自研CPU",
+        "AI PC",
+        "集成芯片",
+        "MacBook Pro对标"
       ],
-      "judgment": "英伟达从GPU供应商向全栈计算平台转型，将改变AI硬件格局，对AMD/Intel构成威胁。",
+      "judgment": "英伟达从GPU向CPU+GPU一体化芯片扩展，可能重塑PC和AI终端市场格局。",
       "confidence": 3,
       "url": "https://www.qbitai.com/2026/05/426991.html",
-      "importance": 4
-    },
-    {
-      "source": "量子位",
-      "title": "机器人原生世界动作模型问世：首创时空一体架构",
-      "finding": "复旦系团队推出机器人原生世界动作模型，采用时空一体架构，半年内获5轮融资。",
-      "key_data": [
-        "时空一体架构",
-        "半年5轮融资",
-        "复旦系"
-      ],
-      "judgment": "具身智能领域资本热度不减，时空一体架构是技术亮点，但商业化落地仍需观察。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/05/426984.html",
       "importance": 3
     },
     {
-      "source": "Hacker News",
-      "title": "Odysseus：自托管AI工作空间开源项目发布",
-      "finding": "知名YouTuber PewDiePie发布了一个自托管AI工作空间Odysseus，允许用户在本地运行AI模型，无需依赖云服务。",
+      "source": "36氪 AI",
+      "title": "MiniMax拟科创板上市",
+      "finding": "MiniMax计划在科创板上市，这是中国AI公司资本化的重要信号。MiniMax旗下有海螺AI等产品，M3模型刚发布。",
       "key_data": [
-        "自托管",
-        "开源",
-        "PewDiePie"
+        "科创板上市",
+        "MiniMax",
+        "中国AI公司",
+        "资本化"
       ],
-      "judgment": "自托管AI工具开始吸引非技术用户，表明AI民主化趋势正在加速。",
+      "judgment": "中国AI公司加速上市进程，MiniMax上市将为其模型研发和产品推广提供资金支持。",
+      "confidence": 3,
+      "url": "https://36kr.com/p/3833859545343618",
+      "importance": 3
+    },
+    {
+      "source": "36氪 AI",
+      "title": "苹果代工厂开造人形机器人：一场产能大迁移",
+      "finding": "苹果代工厂龙旗在南昌工厂引入智元人形机器人，用于平板产线的上下料作业，工作节拍已接近熟练员工。",
+      "key_data": [
+        "苹果代工厂",
+        "人形机器人",
+        "产线应用",
+        "智元机器人"
+      ],
+      "judgment": "人形机器人从实验室走向工厂产线，代工厂的规模化应用将加速人形机器人的商业化进程。",
       "confidence": 4,
-      "url": "https://github.com/pewdiepie-archdaemon/odysseus",
+      "url": "https://36kr.com/p/3833985105782402",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "Snowflake换了战场：守住数据之后，要管住AI",
+      "finding": "Snowflake战略转型，从数据平台扩展到AI治理和管理，推出新功能帮助企业管控AI模型和数据使用。",
+      "key_data": [
+        "Snowflake AI治理",
+        "数据平台转型",
+        "AI管控"
+      ],
+      "judgment": "数据平台公司纷纷切入AI治理赛道，企业AI管理将成为新的增长点。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/JCXUmEkVTBw3mjjtgwgY",
       "importance": 2
     }
   ],
@@ -193,46 +233,41 @@
     {
       "person": "Simon Willison",
       "level": "L2",
-      "quote": "David Wilson列出了用AI工具搭建的16+个项目，并得出结论：他本没打算建这么多东西，但AI让原型制作变得太容易了。这反映了AI时代原型速度的惊人提升。",
-      "source": "https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything"
+      "quote": "David Wilson列出了16+个他用AI工具构建的项目，结论是：我本来没打算做这么多东西，但AI让原型构建变得太容易了。这反映了AI时代原型速度的惊人提升。",
+      "source": "https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/"
+    },
+    {
+      "person": "David Wilson (Hacker News作者)",
+      "level": "L1",
+      "quote": "我列出了16+个用AI工具构建的项目，结论是：解决方案可能是取消我的AI订阅。因为AI让构建变得太容易，导致项目堆积如山，反而增加了认知负担。",
+      "source": "https://thoughts.hmmz.org/2026-05-31.html"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "小模型能力追赶大模型的趋势与影响",
-      "reason": "Stepfun 3.7 Flash以25%参数量达到GLM 5.1的80%能力，预示端侧AI和低成本推理将迎来爆发。",
+      "topic": "英伟达Cosmos 3：物理AI开源模型对具身智能的影响",
+      "reason": "首个开源物理AI全模态模型，可能成为机器人领域的'Llama时刻'，值得深入分析其技术架构和行业影响。",
       "priority": "high"
     },
     {
-      "topic": "Agent工具选择能力 vs 工具生态：CUA训练新范式",
-      "reason": "复旦×通义的研究直击Agent核心瓶颈，可能改变Agent产品的设计方向。",
+      "topic": "CUA训练范式：Agent工具选择问题的解决方案",
+      "finding": "复旦×通义提出的CUA范式直击Agent当前最大瓶颈，值得深入研究其方法论和实际效果。",
       "priority": "high"
+    },
+    {
+      "topic": "Anthropic托管式智能体：Agent平台化趋势",
+      "reason": "Anthropic从模型到平台的转型，托管式智能体可能改变企业AI应用部署方式。",
+      "priority": "medium"
     }
   ],
-  "summary_one_line": "小模型崛起，Agent瓶颈在决策而非工具",
+  "summary_one_line": "英伟达发布物理AI开源模型，MiniMax M3亮相，Agent平台化加速",
   "snapshot": {
-    "date": "2026-05-31",
+    "date": "2026-06-01",
     "hf_trending": [
-      {
-        "name": "openbmb/MiniCPM5-1B",
-        "short_name": "MiniCPM5-1B",
-        "likes": 658,
-        "downloads": 36730,
-        "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "llama"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "same"
-      },
       {
         "name": "nvidia/LocateAnything-3B",
         "short_name": "LocateAnything-3B",
-        "likes": 592,
+        "likes": 641,
         "downloads": 24586,
         "url": "https://huggingface.co/nvidia/LocateAnything-3B",
         "tags": [
@@ -246,9 +281,25 @@
         "trend": "same"
       },
       {
+        "name": "openbmb/MiniCPM5-1B",
+        "short_name": "MiniCPM5-1B",
+        "likes": 664,
+        "downloads": 36730,
+        "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "short_name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-        "likes": 1155,
+        "likes": 1174,
         "downloads": 2439402,
         "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "tags": [
@@ -264,7 +315,7 @@
       {
         "name": "LiquidAI/LFM2.5-8B-A1B",
         "short_name": "LFM2.5-8B-A1B",
-        "likes": 319,
+        "likes": 327,
         "downloads": 27677,
         "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
         "tags": [
@@ -280,7 +331,7 @@
       {
         "name": "meituan-longcat/LongCat-Video-Avatar-1.5",
         "short_name": "LongCat-Video-Avatar-1.5",
-        "likes": 439,
+        "likes": 444,
         "downloads": 0,
         "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5",
         "tags": [
@@ -296,7 +347,7 @@
       {
         "name": "nvidia/PiD",
         "short_name": "PiD",
-        "likes": 217,
+        "likes": 221,
         "downloads": 498,
         "url": "https://huggingface.co/nvidia/PiD",
         "tags": [
@@ -307,12 +358,12 @@
         "pipeline_tag": "image-to-image",
         "label": "Image To Image",
         "card_desc": "",
-        "trend": "new"
+        "trend": "same"
       },
       {
         "name": "bytedance-research/Lance",
         "short_name": "Lance",
-        "likes": 992,
+        "likes": 996,
         "downloads": 2948,
         "url": "https://huggingface.co/bytedance-research/Lance",
         "tags": [
@@ -328,7 +379,7 @@
       {
         "name": "deepseek-ai/DeepSeek-V4-Pro",
         "short_name": "DeepSeek-V4-Pro",
-        "likes": 4496,
+        "likes": 4507,
         "downloads": 5886599,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
         "tags": [
@@ -346,42 +397,42 @@
     "openrouter_ranking": [
       {
         "rank": 1,
-        "slug": "tencent/hy3-preview",
-        "name": "Hy3 preview",
-        "org": "tencent",
-        "total_tokens": 380000000000,
-        "total_tokens_str": "380B",
-        "change": 9.0,
-        "url": "https://openrouter.ai/tencent/hy3-preview"
-      },
-      {
-        "rank": 2,
-        "slug": "xiaomi/mimo-v2.5",
-        "name": "MiMo-V2.5",
-        "org": "xiaomi",
-        "total_tokens": 372000000000,
-        "total_tokens_str": "372B",
-        "change": 5.0,
-        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
-      },
-      {
-        "rank": 3,
         "slug": "deepseek/deepseek-v4-flash",
         "name": "DeepSeek V4 Flash",
         "org": "deepseek",
-        "total_tokens": 336000000000,
-        "total_tokens_str": "336B",
+        "total_tokens": 389000000000,
+        "total_tokens_str": "389B",
         "change": 16.0,
         "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "tencent/hy3-preview",
+        "name": "Hy3 preview",
+        "org": "tencent",
+        "total_tokens": 363000000000,
+        "total_tokens_str": "363B",
+        "change": 5.0,
+        "url": "https://openrouter.ai/tencent/hy3-preview"
+      },
+      {
+        "rank": 3,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 358000000000,
+        "total_tokens_str": "358B",
+        "change": 4.0,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
       },
       {
         "rank": 4,
         "slug": "openrouter/owl-alpha",
         "name": "Owl Alpha",
         "org": "openrouter",
-        "total_tokens": 252000000000,
-        "total_tokens_str": "252B",
-        "change": 10.0,
+        "total_tokens": 270000000000,
+        "total_tokens_str": "270B",
+        "change": 7.0,
         "url": "https://openrouter.ai/openrouter/owl-alpha"
       },
       {
@@ -389,39 +440,39 @@
         "slug": "xiaomi/mimo-v2.5-pro",
         "name": "MiMo-V2.5-Pro",
         "org": "xiaomi",
-        "total_tokens": 219000000000,
-        "total_tokens_str": "219B",
-        "change": 11.0,
+        "total_tokens": 222000000000,
+        "total_tokens_str": "222B",
+        "change": 1.0,
         "url": "https://openrouter.ai/xiaomi/mimo-v2.5-pro"
       },
       {
         "rank": 6,
-        "slug": "anthropic/claude-sonnet-4.6",
-        "name": "Claude Sonnet 4.6",
-        "org": "anthropic",
-        "total_tokens": 181000000000,
-        "total_tokens_str": "181B",
-        "change": 31.0,
-        "url": "https://openrouter.ai/anthropic/claude-sonnet-4.6"
-      },
-      {
-        "rank": 7,
         "slug": "anthropic/claude-opus-4.7",
         "name": "Claude Opus 4.7",
         "org": "anthropic",
-        "total_tokens": 164000000000,
-        "total_tokens_str": "164B",
-        "change": 30.0,
+        "total_tokens": 218000000000,
+        "total_tokens_str": "218B",
+        "change": 33.0,
         "url": "https://openrouter.ai/anthropic/claude-opus-4.7"
+      },
+      {
+        "rank": 7,
+        "slug": "anthropic/claude-sonnet-4.6",
+        "name": "Claude Sonnet 4.6",
+        "org": "anthropic",
+        "total_tokens": 202000000000,
+        "total_tokens_str": "202B",
+        "change": 11.0,
+        "url": "https://openrouter.ai/anthropic/claude-sonnet-4.6"
       },
       {
         "rank": 8,
         "slug": "deepseek/deepseek-v4-pro",
         "name": "DeepSeek V4 Pro",
         "org": "deepseek",
-        "total_tokens": 160000000000,
-        "total_tokens_str": "160B",
-        "change": 15.0,
+        "total_tokens": 162000000000,
+        "total_tokens_str": "162B",
+        "change": 1.0,
         "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
       },
       {
@@ -429,9 +480,9 @@
         "slug": "deepseek/deepseek-v3.2",
         "name": "DeepSeek V3.2",
         "org": "deepseek",
-        "total_tokens": 114000000000,
-        "total_tokens_str": "114B",
-        "change": 27.0,
+        "total_tokens": 162000000000,
+        "total_tokens_str": "162B",
+        "change": 42.0,
         "url": "https://openrouter.ai/deepseek/deepseek-v3.2"
       },
       {
@@ -439,12 +490,12 @@
         "slug": "google/gemini-3-flash-preview",
         "name": "Gemini 3 Flash Preview",
         "org": "google",
-        "total_tokens": 112000000000,
-        "total_tokens_str": "112B",
-        "change": 18.0,
+        "total_tokens": 110000000000,
+        "total_tokens_str": "110B",
+        "change": 2.0,
         "url": "https://openrouter.ai/google/gemini-3-flash-preview"
       }
     ],
-    "hf_summary": "小模型与多模态模型热度飙升"
+    "hf_summary": "小模型与多模态应用成主流，DeepSeek热度断层领先"
   }
 }
