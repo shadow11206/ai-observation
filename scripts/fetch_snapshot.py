@@ -199,9 +199,20 @@ def _fetch_openrouter_ranking() -> list[dict]:
                 );
                 return Array.from(rows).map(row => {
                     const link = row.querySelector('a');
+                    // 查找包含 % 的叶子元素，提取变化百分比文本
+                    // 用于区分 ↑11%（上涨）和 ↓5%（下跌）
+                    const allEls = row.querySelectorAll('*');
+                    let changeText = '';
+                    for (const el of allEls) {
+                        if (el.children.length === 0 && el.textContent && el.textContent.includes('%')) {
+                            changeText = el.textContent.trim();
+                            break;
+                        }
+                    }
                     return {
                         href: link ? link.getAttribute('href') : '',
                         text: row.textContent || '',
+                        changeText: changeText,
                     };
                 });
             }""")
@@ -212,16 +223,36 @@ def _fetch_openrouter_ranking() -> list[dict]:
         for row_data in rows_raw:
             text = row_data.get("text", "")
             href = row_data.get("href", "")
+            change_text = row_data.get("changeText", "")
             # 示例文本： "1. Hy3 previewby tencent483B tokens11%"
             # org 名只包含字母和连字符，不含数字
             m = _re.match(
                 r"^(\d+)\.\s*(.+?)by\s+([a-zA-Z][a-zA-Z-]*)\s*"
-                r"([\d.]+)\s*(B|M|T|K)?\s*tokens?\s*(\d+)%",
+                r"([\d.]+)\s*(B|M|T|K)?\s*tokens",
                 text,
             )
             if not m:
                 continue
-            rank, name, org, amount, unit, change = m.groups()
+            rank, name, org, amount, unit = m.groups()
+
+            # 从 changeText 解析变化百分比（含方向）
+            # 格式可能是 "11%", "↑11%", "↓5%", "-5%", "→0%", "5%↓"
+            change = 0
+            if change_text:
+                raw = change_text.strip()
+                # 提取数字部分和符号
+                digits = _re.search(r"[\d.]+", raw)
+                if digits:
+                    val = float(digits.group())
+                    if "↓" in raw or raw.startswith("-"):
+                        change = -val
+                    elif "↑" in raw or raw.startswith("+"):
+                        change = val
+                    elif "→" in raw:
+                        change = 0
+                    else:
+                        change = val
+
             multiplier = {"T": 1e12, "B": 1e9, "M": 1e6, "K": 1e3}
             total_tokens = int(float(amount) * multiplier.get(unit, 1e9))
 
@@ -236,7 +267,7 @@ def _fetch_openrouter_ranking() -> list[dict]:
                 "org": org.strip(),
                 "total_tokens": total_tokens,
                 "total_tokens_str": amount + (unit or "B"),
-                "change": float(change),
+                "change": change,
                 "url": f"https://openrouter.ai/{slug}",
             })
 
