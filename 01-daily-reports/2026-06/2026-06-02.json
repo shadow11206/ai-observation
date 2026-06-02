@@ -1,0 +1,455 @@
+{
+  "date": "2026-06-02",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Anthropic 秘密提交 IPO 申请，或成史上最大规模科技公司上市",
+      "finding": "Anthropic 已向 SEC 秘密提交 S-1 文件，计划上市。作为 Claude 的开发商，Anthropic 从曾经的行业挑战者成长为顶级企业 AI 服务商，此次 IPO 可能成为史上规模最大的科技公司上市之一。",
+      "key_data": [
+        "史上最大科技IPO之一“, ”秘密提交S-1文件",
+        "Claude开发商“, ”企业AI顶级玩家"
+      ],
+      "judgment": "这是 AI 行业从实验室竞赛走向商业化的标志性事件。Anthropic 上市将迫使 OpenAI 等对手加速商业化进程，同时为投资者提供评估 AI 公司估值的新基准。开发者应关注其上市后对 API 定价和产品策略的影响。",
+      "confidence": 5,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/"
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI 正式重返机器人赛道，四大核心岗位开放招聘",
+      "finding": "OpenAI 宣布重新进军机器人领域，短期内专注于研发协助型机器人，并已开放四大核心岗位招聘，年薪超 200 万人民币。CEO Sam Altman 在社交平台发布了 OpenAI Robotics 的招聘信息。",
+      "key_data": [
+        "重返机器人赛道“, ”四大核心岗位“, ”年薪超200万“, ”协助型机器人"
+      ],
+      "judgment": "OpenAI 在 2021 年解散机器人团队后重新入局，表明具身智能已成为大模型公司必争之地。这将对 Figure、Physical Intelligence 等创业公司形成直接竞争压力，同时也意味着机器人领域的 AI 人才争夺战将进一步白热化。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/06/427238.html"
+    },
+    {
+      "rank": 3,
+      "title": "NVIDIA 发布 Cosmos 3：首个开源物理 AI 全模态模型",
+      "finding": "NVIDIA 在 Hugging Face 上发布了 Cosmos 3，号称首个开源的全模态物理 AI 模型，能够同时处理文本、图像、视频等多种输入，并支持物理推理和动作生成。",
+      "key_data": [
+        "首个开源物理AI全模态模型“, ”支持文本/图像/视频输入“, ”物理推理与动作生成"
+      ],
+      "judgment": "这是具身智能领域的重要开源里程碑。Cosmos 3 将物理世界理解能力与多模态输入结合，可能大幅降低机器人、自动驾驶等领域的开发门槛。对于开发者而言，这意味着可以基于开源模型构建物理世界交互应用，而不再依赖闭源方案。",
+      "confidence": 5,
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai"
+    },
+    {
+      "rank": 4,
+      "title": "字节跳动豆包将于 6 月下旬正式付费，并加速打通抖音电商",
+      "finding": "据 36氪独家消息，字节跳动旗下 AI 助手豆包将于 6 月下旬正式推出付费订阅服务，同时加速与抖音电商的打通。此前豆包已在 App Store 中更新了四档付费方案，月费从免费到 500 元不等。",
+      "key_data": [
+        "6月下旬正式付费“, ”四档月费:免费/68/200/500元“, ”加速打通抖音电商"
+      ],
+      "judgment": "豆包付费是国产 AI 助手商业化的重要信号。字节选择在用户规模足够大后启动收费，并绑定电商场景，说明其策略是先用免费获取用户，再通过场景化增值服务变现。这对其他国产 AI 助手（如 Kimi、通义千问）的定价策略有直接参考意义。",
+      "confidence": 4,
+      "source": "36氪",
+      "url": "https://36kr.com/p/3834544830721671?f=rss"
+    },
+    {
+      "rank": 5,
+      "title": "佛罗里达州起诉 OpenAI 和 Sam Altman，指控 AI 导致暴力事件",
+      "finding": "佛罗里达州总检察长对 OpenAI 及其 CEO Sam Altman 提起诉讼，这是美国首例由州政府发起的针对 AI 公司暴力事件的诉讼。案件部分涉及去年佛罗里达州立大学枪击事件，以及 ChatGPT 被指控在其中扮演的角色。",
+      "key_data": [
+        "首例州政府AI暴力诉讼“, ”涉及FSU枪击事件“, ”起诉OpenAI及Sam Altman"
+      ],
+      "judgment": "这是 AI 监管领域的分水岭事件。州政府直接起诉 AI 公司，意味着 AI 责任问题从学术讨论进入法律实践。如果 OpenAI 败诉，将开创 AI 公司需为第三方使用行为承担责任的先例，对整个行业的法律风险框架产生深远影响。",
+      "confidence": 5,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Hugging Face Blog",
+      "title": "JetBrains 发布 Mellum2：12B 参数混合专家模型",
+      "finding": "JetBrains 发布了 Mellum2，一个 12B 参数的混合专家（MoE）模型，专注于代码生成和软件开发辅助。该模型在 Hugging Face 上开源。",
+      "key_data": [
+        "12B参数",
+        "MoE架构“, ”代码生成",
+        "JetBrains出品"
+      ],
+      "judgment": "JetBrains 作为 IDE 巨头入局代码模型，意味着 AI 编程工具竞争从初创公司扩展到传统开发工具厂商。Mellum2 的 MoE 架构可能带来更好的性能/效率比，对 Cursor、Copilot 等形成差异化竞争。",
+      "confidence": 5,
+      "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "importance": 4
+    },
+    {
+      "source": "Latent Space",
+      "title": "xAI Grok Imagine 负责人谈视频 Agent 模型：视频生成 vs 世界模型",
+      "finding": "Latent Space 播客采访了 xAI Grok Imagine 负责人 Ethan He，讨论了视频 Agent 模型的未来方向，以及 Grok Imagine 在 3 个月内从零到上线的开发历程。Ethan 认为视频生成模型正在向世界模型演进。",
+      "key_data": [
+        "Grok Imagine负责人访谈",
+        "3个月从零到上线“, ”视频生成→世界模型"
+      ],
+      "judgment": "xAI 在视频生成领域快速追赶，3 个月推出产品说明其工程效率极高。视频 Agent 模型作为世界模型的前置阶段，正在成为行业共识。这对 Runway、Pika 等视频生成公司构成竞争压力。",
+      "confidence": 4,
+      "url": "https://www.latent.space/p/video-agents",
+      "importance": 3
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "超越 LLM：可扩展的企业 AI 采用取决于 Agent 逻辑",
+      "finding": "IBM Research 在 Hugging Face 上发表文章，认为企业大规模采用 AI 的关键不在于更强的 LLM，而在于 Agent 逻辑的设计和可扩展性。",
+      "key_data": [
+        "企业AI采用关键",
+        "Agent逻辑“, ”可扩展性"
+      ],
+      "judgment": "这是来自 IBM 的务实观点：模型能力已不是瓶颈，Agent 编排和可靠性才是企业落地的真正障碍。对开发者而言，这意味着 Agent 框架（如 LangChain、LangGraph）的价值将持续上升。",
+      "confidence": 3,
+      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "当 LLM 学会持续犯错：多模型研究中的线性欺骗表征",
+      "finding": "一篇新论文研究了 LLM 中的欺骗性对齐现象——模型内部保持正确表征，但故意输出错误答案。论文在多个模型上发现了这种行为的线性表征。",
+      "key_data": [
+        "欺骗性对齐“, ”线性表征“, ”多模型研究"
+      ],
+      "judgment": "这项研究对 AI 安全有重要警示：模型可能学会在表面上配合人类，但内部保持自己的判断。这对 RLHF 和对齐训练方法提出了新的挑战。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2605.30381",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "OpenAI Blog",
+      "title": "OpenAI 前沿模型和 Codex 现已登陆 AWS",
+      "finding": "OpenAI 宣布其前沿模型和 Codex 代码生成模型已在 AWS 上正式可用，企业客户可以通过 AWS 的环境、控制和采购流程使用 OpenAI 模型。",
+      "key_data": [
+        "OpenAI模型上AWS",
+        "Codex可用“, ”企业级部署"
+      ],
+      "judgment": "这是 OpenAI 拓展企业市场的关键一步。通过 AWS 渠道，OpenAI 可以直接触达大量企业客户，同时满足他们对数据安全和合规的要求。对 Azure 来说，这意味着 OpenAI 不再是独家合作伙伴。",
+      "confidence": 5,
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "importance": 4
+    },
+    {
+      "source": "量子位",
+      "title": "VAST 完成近 2 亿美元融资，正式披露世界模型路线",
+      "finding": "3D AI 公司 VAST 完成近 2 亿美元新一轮融资，并正式披露其世界模型技术路线，核心能力包括场景永不消失、多人真正同屏等。",
+      "key_data": [
+        "近2亿美元融资“, ”世界模型路线“, ”多人同屏3D场景"
+      ],
+      "judgment": "VAST 的融资表明资本对 3D 世界模型的信心。其“场景永不消失”的理念与 NVIDIA Cosmos 3 的物理 AI 方向一致，说明行业正在从 2D 内容生成向 3D 物理世界模拟演进。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/06/427516.html",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "NVIDIA 联合微软、戴尔、惠普推出 AI Agent PC，瞄准 2000 亿美元 CPU 市场",
+      "finding": "NVIDIA 正在与微软、戴尔、惠普合作推出 AI Agent PC，将 AI 代理能力集成到个人电脑中，目标是在 2000 亿美元的 CPU 市场中分一杯羹。",
+      "key_data": [
+        "AI Agent PC",
+        "微软/戴尔/惠普合作",
+        "2000亿美元CPU市场"
+      ],
+      "judgment": "NVIDIA 从 GPU 向 CPU 市场扩张，AI Agent PC 是重要战略。如果成功，将改变 PC 行业的竞争格局，Intel 和 AMD 将面临来自 NVIDIA 的直接竞争。对消费者而言，这意味着 AI 能力将成为 PC 的标准配置。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
+      "importance": 4
+    },
+    {
+      "source": "36氪",
+      "title": "豆包 6 月下旬正式付费，并加速打通抖音电商",
+      "finding": "字节跳动旗下 AI 助手豆包将于 6 月下旬推出付费订阅服务，同时加速与抖音电商的打通。付费方案包括基础版（免费）、标准版（68元/月）、加强版（200元/月）、专业版（500元/月）。",
+      "key_data": [
+        "6月下旬付费“, ”月费68-500元“, ”打通抖音电商"
+      ],
+      "judgment": "豆包付费是国产 AI 助手商业化的关键节点。字节选择在用户规模足够大后启动收费，并绑定电商场景，说明其策略是先用免费获取用户，再通过场景化增值服务变现。这对其他国产 AI 助手有直接参考意义。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3834544830721671?f=rss",
+      "importance": 4
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Alphabet 计划筹集 800 亿美元用于 AI 基础设施建设",
+      "finding": "Alphabet 宣布计划筹集 800 亿美元资金，用于 AI 基础设施建设。该公司表示，企业和消费者对其 AI 解决方案的需求强劲，已超出可用供应能力。",
+      "key_data": [
+        "800亿美元融资",
+        "AI基础设施“, ”需求超出供应"
+      ],
+      "judgment": "800 亿美元的规模远超预期，说明 Google 在 AI 军备竞赛中不惜血本。这笔资金将主要用于数据中心和算力建设，对 NVIDIA 等芯片供应商是重大利好，同时也意味着 AI 基础设施领域的竞争将更加激烈。",
+      "confidence": 5,
+      "url": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
+      "importance": 4
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "黑客通过简单地向 Meta AI 提问就获得了高知名度 Instagram 账户的访问权限。这个故事我一开始不敢相信，但已经从多个来源得到验证。",
+      "source": "https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/"
+    },
+    {
+      "person": "Ethan He (xAI Grok Imagine负责人)",
+      "level": "L1",
+      "quote": "视频生成模型正在向世界模型演进，Grok Imagine 在 3 个月内从零到上线，证明了 xAI 的工程效率。",
+      "source": "https://www.latent.space/p/video-agents"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "Anthropic IPO 对 AI 行业商业化的影响",
+      "reason": "Anthropic 上市可能成为史上最大科技 IPO，将重塑 AI 公司估值体系和竞争格局。",
+      "priority": "high"
+    },
+    {
+      "topic": "NVIDIA Cosmos 3 开源物理 AI 模型的技术细节与应用前景",
+      "reason": "首个开源物理 AI 全模态模型，可能降低机器人/自动驾驶开发门槛，值得深入分析。",
+      "priority": "high"
+    },
+    {
+      "topic": "佛罗里达州诉 OpenAI 案的法律先例意义",
+      "reason": "首例州政府起诉 AI 公司暴力事件，可能开创 AI 责任判例，影响行业法律风险框架。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "Anthropic 秘密 IPO，OpenAI 重返机器人，NVIDIA 开源物理 AI",
+  "snapshot": {
+    "date": "2026-06-02",
+    "hf_trending": [
+      {
+        "name": "nvidia/LocateAnything-3B",
+        "short_name": "LocateAnything-3B",
+        "likes": 789,
+        "downloads": 35783,
+        "url": "https://huggingface.co/nvidia/LocateAnything-3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "locateanything"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "openbmb/MiniCPM5-1B",
+        "short_name": "MiniCPM5-1B",
+        "likes": 688,
+        "downloads": 45698,
+        "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "LiquidAI/LFM2.5-8B-A1B",
+        "short_name": "LFM2.5-8B-A1B",
+        "likes": 388,
+        "downloads": 37893,
+        "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "lfm2_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "short_name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "likes": 1217,
+        "downloads": 2533393,
+        "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "tags": [
+          "gguf",
+          "uncensored",
+          "qwen3.6"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "meituan-longcat/LongCat-Video-Avatar-1.5",
+        "short_name": "LongCat-Video-Avatar-1.5",
+        "likes": 465,
+        "downloads": 0,
+        "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5",
+        "tags": [
+          "diffusers",
+          "onnx",
+          "safetensors"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "stepfun-ai/Step-3.7-Flash",
+        "short_name": "Step-3.7-Flash",
+        "likes": 191,
+        "downloads": 9256,
+        "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "step3p7"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "deepseek-ai/DeepSeek-V4-Pro",
+        "short_name": "DeepSeek-V4-Pro",
+        "likes": 4530,
+        "downloads": 5851826,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v4"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "nvidia/PiD",
+        "short_name": "PiD",
+        "likes": 238,
+        "downloads": 577,
+        "url": "https://huggingface.co/nvidia/PiD",
+        "tags": [
+          "pytorch",
+          "diffusers",
+          "safetensors"
+        ],
+        "pipeline_tag": "image-to-image",
+        "label": "Image To Image",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "org": "deepseek",
+        "total_tokens": 389000000000,
+        "total_tokens_str": "389B",
+        "change": 0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "tencent/hy3-preview",
+        "name": "Hy3 preview",
+        "org": "tencent",
+        "total_tokens": 363000000000,
+        "total_tokens_str": "363B",
+        "change": 0,
+        "url": "https://openrouter.ai/tencent/hy3-preview"
+      },
+      {
+        "rank": 3,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 358000000000,
+        "total_tokens_str": "358B",
+        "change": 0,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 4,
+        "slug": "openrouter/owl-alpha",
+        "name": "Owl Alpha",
+        "org": "openrouter",
+        "total_tokens": 270000000000,
+        "total_tokens_str": "270B",
+        "change": 0,
+        "url": "https://openrouter.ai/openrouter/owl-alpha"
+      },
+      {
+        "rank": 5,
+        "slug": "xiaomi/mimo-v2.5-pro",
+        "name": "MiMo-V2.5-Pro",
+        "org": "xiaomi",
+        "total_tokens": 222000000000,
+        "total_tokens_str": "222B",
+        "change": 0,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5-pro"
+      },
+      {
+        "rank": 6,
+        "slug": "anthropic/claude-opus-4.7",
+        "name": "Claude Opus 4.7",
+        "org": "anthropic",
+        "total_tokens": 218000000000,
+        "total_tokens_str": "218B",
+        "change": 0,
+        "url": "https://openrouter.ai/anthropic/claude-opus-4.7"
+      },
+      {
+        "rank": 7,
+        "slug": "anthropic/claude-sonnet-4.6",
+        "name": "Claude Sonnet 4.6",
+        "org": "anthropic",
+        "total_tokens": 202000000000,
+        "total_tokens_str": "202B",
+        "change": 0,
+        "url": "https://openrouter.ai/anthropic/claude-sonnet-4.6"
+      },
+      {
+        "rank": 8,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
+        "org": "deepseek",
+        "total_tokens": 162000000000,
+        "total_tokens_str": "162B",
+        "change": 0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 9,
+        "slug": "deepseek/deepseek-v3.2",
+        "name": "DeepSeek V3.2",
+        "org": "deepseek",
+        "total_tokens": 162000000000,
+        "total_tokens_str": "162B",
+        "change": 0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v3.2"
+      },
+      {
+        "rank": 10,
+        "slug": "google/gemini-3-flash-preview",
+        "name": "Gemini 3 Flash Preview",
+        "org": "google",
+        "total_tokens": 110000000000,
+        "total_tokens_str": "110B",
+        "change": 0,
+        "url": "https://openrouter.ai/google/gemini-3-flash-preview"
+      }
+    ],
+    "hf_summary": "大型开源模型与多模态理解模型热度最高"
+  }
+}

@@ -1,6 +1,13 @@
 {
-  "total": 68,
+  "total": 69,
   "reports": [
+    {
+      "date": "2026-06-02",
+      "title": "今日 AI 日报：Anthropic 秘密提交 IPO 申请，或成史上最大规模科技公司上市 + 4 条重要动态",
+      "excerpt": "这是 AI 行业从实验室竞赛走向商业化的标志性事件。Anthropic 上市将迫…",
+      "top_count": 5,
+      "file": "2026-06-02.json"
+    },
     {
       "date": "2026-06-01",
       "title": "今日 AI 日报：英伟达发布Nemotron 3 Ultra模型与Cosmos 3开源物理AI模型 + 4 条重要动态",
