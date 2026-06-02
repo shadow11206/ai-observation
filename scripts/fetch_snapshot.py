@@ -199,13 +199,19 @@ def _fetch_openrouter_ranking() -> list[dict]:
                 );
                 return Array.from(rows).map(row => {
                     const link = row.querySelector('a');
-                    // 查找包含 % 的叶子元素，提取变化百分比文本
-                    // 用于区分 ↑11%（上涨）和 ↓5%（下跌）
-                    const allEls = row.querySelectorAll('*');
+                    // 查找包含 % 的 span 元素及内部 SVG 的 class
+                    // SVG class text-red-* = 下跌，text-green-* = 上涨
+                    const spans = row.querySelectorAll('span');
                     let changeText = '';
-                    for (const el of allEls) {
-                        if (el.children.length === 0 && el.textContent && el.textContent.includes('%')) {
-                            changeText = el.textContent.trim();
+                    let isDecline = false;
+                    for (const s of spans) {
+                        if (s.textContent && s.textContent.includes('%')) {
+                            changeText = s.textContent.trim();
+                            const svg = s.querySelector('svg');
+                            if (svg) {
+                                const cls = svg.getAttribute('class') || '';
+                                isDecline = cls.includes('text-red');
+                            }
                             break;
                         }
                     }
@@ -213,6 +219,7 @@ def _fetch_openrouter_ranking() -> list[dict]:
                         href: link ? link.getAttribute('href') : '',
                         text: row.textContent || '',
                         changeText: changeText,
+                        isDecline: isDecline,
                     };
                 });
             }""")
@@ -224,8 +231,8 @@ def _fetch_openrouter_ranking() -> list[dict]:
             text = row_data.get("text", "")
             href = row_data.get("href", "")
             change_text = row_data.get("changeText", "")
-            # 示例文本： "1. Hy3 previewby tencent483B tokens11%"
-            # org 名只包含字母和连字符，不含数字
+            is_decline = row_data.get("isDecline", False)
+            # 示例文本： "1. Hy3 previewby tencent483B tokens3%"
             m = _re.match(
                 r"^(\d+)\.\s*(.+?)by\s+([a-zA-Z][a-zA-Z-]*)\s*"
                 r"([\d.]+)\s*(B|M|T|K)?\s*tokens",
@@ -235,23 +242,13 @@ def _fetch_openrouter_ranking() -> list[dict]:
                 continue
             rank, name, org, amount, unit = m.groups()
 
-            # 从 changeText 解析变化百分比（含方向）
-            # 格式可能是 "11%", "↑11%", "↓5%", "-5%", "→0%", "5%↓"
+            # 从 changeText 提取变化百分比，用 SVG class 判断涨跌
             change = 0
             if change_text:
-                raw = change_text.strip()
-                # 提取数字部分和符号
-                digits = _re.search(r"[\d.]+", raw)
+                digits = _re.search(r"[\d.]+", change_text)
                 if digits:
                     val = float(digits.group())
-                    if "↓" in raw or raw.startswith("-"):
-                        change = -val
-                    elif "↑" in raw or raw.startswith("+"):
-                        change = val
-                    elif "→" in raw:
-                        change = 0
-                    else:
-                        change = val
+                    change = -val if is_decline else val
 
             multiplier = {"T": 1e12, "B": 1e9, "M": 1e6, "K": 1e3}
             total_tokens = int(float(amount) * multiplier.get(unit, 1e9))
