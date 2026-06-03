@@ -1,6 +1,13 @@
 {
-  "total": 69,
+  "total": 70,
   "reports": [
+    {
+      "date": "2026-06-03",
+      "title": "今日 AI 日报：微软发布Scout：一个永不掉线的AI同事 + 4 条重要动态",
+      "excerpt": "Scout是微软将AI Agent从工具升级为'数字同事'的关键一步，对办公协作…",
+      "top_count": 5,
+      "file": "2026-06-03.json"
+    },
     {
       "date": "2026-06-02",
       "title": "今日 AI 日报：Anthropic 秘密提交 IPO 申请，或成史上最大规模科技公司上市 + 4 条重要动态",
