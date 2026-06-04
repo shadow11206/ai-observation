@@ -1,6 +1,13 @@
 {
-  "total": 70,
+  "total": 71,
   "reports": [
+    {
+      "date": "2026-06-04",
+      "title": "今日 AI 日报：Anthropic提交IPO招股书，最快Q4上市 + 4 条重要动态",
+      "excerpt": "Anthropic上市是AI行业商业化成熟的关键标志。对开发者而言，这意味着Cl…",
+      "top_count": 5,
+      "file": "2026-06-04.json"
+    },
     {
       "date": "2026-06-03",
       "title": "今日 AI 日报：微软发布Scout：一个永不掉线的AI同事 + 4 条重要动态",
