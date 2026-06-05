@@ -1,6 +1,13 @@
 {
-  "total": 71,
+  "total": 72,
   "reports": [
+    {
+      "date": "2026-06-05",
+      "title": "今日 AI 日报：Anthropic年化收入突破470亿美元，即将IPO + 4 条重要动态",
+      "excerpt": "Anthropic的收入增速证明企业AI Agent不是泡沫，而是真实需求。这对…",
+      "top_count": 5,
+      "file": "2026-06-05.json"
+    },
     {
       "date": "2026-06-04",
       "title": "今日 AI 日报：Anthropic提交IPO招股书，最快Q4上市 + 4 条重要动态",
