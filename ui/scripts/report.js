@@ -275,17 +275,26 @@ function getTrendBadge(m) {
 function renderSnapshot(snapshot) {
   const hf = snapshot.hf_trending || [];
   const gh = snapshot.github_trending || [];
+  const or = snapshot.openrouter_ranking || [];
   const hfSummary = snapshot.hf_summary || '';
 
   // 连续上榜模型（trend === 'same'）
   const continuousModels = hf.filter(m => m.trend === 'same');
 
+  // 三个数据源都为空时才显示"暂无数据"
+  if (hf.length === 0 && gh.length === 0 && or.length === 0) {
+    return `
+      <section id="snapshot">
+        <h2 class="section-title"><span class="section-icon">⚡</span> 今日数据快照</h2>
+        <div style="font-size:13px;color:var(--text-tertiary);padding:1rem 0">暂无数据</div>
+      </section>`;
+  }
+
   return `
     <section id="snapshot">
       <h2 class="section-title"><span class="section-icon">⚡</span> 今日数据快照</h2>
 
-      ${hf.length === 0 ? '<div style="font-size:13px;color:var(--text-tertiary);padding:1rem 0">暂无数据</div>' : `
-
+      ${hf.length > 0 ? `
         ${hfSummary ? `
           <div style="font-size:14px;color:var(--text-secondary);background:var(--bg-card);border-radius:10px;padding:0.75rem 1rem;margin-bottom:1.25rem;line-height:1.6;">
             💬 ${hfSummary}
@@ -333,54 +342,51 @@ function renderSnapshot(snapshot) {
               </div>`;
           }).join('')}
         </div>
+      ` : ''}
 
-        ${gh.length > 0 ? `
-          <div style="font-size:12px;font-weight:600;color:var(--text-tertiary);letter-spacing:0.08em;text-transform:uppercase;margin:1.25rem 0 0.6rem;">GitHub Trending AI</div>
-          <div style="background:var(--bg-card);border-radius:12px;overflow:hidden;">
-            ${gh.slice(0, 5).map((r, i) => `
-              <div style="display:flex;align-items:flex-start;gap:0.75rem;padding:0.7rem 1rem;${i > 0 ? 'border-top:1px solid var(--border-light)' : ''}">
+      ${gh.length > 0 ? `
+        <div style="font-size:12px;font-weight:600;color:var(--text-tertiary);letter-spacing:0.08em;text-transform:uppercase;margin:1.25rem 0 0.6rem;">GitHub Trending AI</div>
+        <div style="background:var(--bg-card);border-radius:12px;overflow:hidden;">
+          ${gh.slice(0, 5).map((r, i) => `
+            <div style="display:flex;align-items:flex-start;gap:0.75rem;padding:0.7rem 1rem;${i > 0 ? 'border-top:1px solid var(--border-light)' : ''}">
+              <div style="flex:1;min-width:0;">
+                <a href="${r.url || '#'}" target="_blank" rel="noopener"
+                  style="font-size:14px;font-weight:600;color:var(--text-primary);text-decoration:none;">${r.name || ''}</a>
+                ${r.desc ? `<div style="font-size:12px;color:var(--text-secondary);margin-top:2px;">${r.desc}</div>` : ''}
+              </div>
+              <div style="font-size:12px;color:var(--text-tertiary);white-space:nowrap;">⭐ ${(r.stars || 0).toLocaleString()} · ${r.language || '—'}</div>
+            </div>`).join('')}
+        </div>` : ''}
+
+      ${or.length > 0 ? `
+        <div style="display:flex;align-items:center;gap:0.5rem;margin:1.25rem 0 0.6rem;">
+          <span style="font-size:12px;font-weight:600;color:var(--text-tertiary);letter-spacing:0.08em;text-transform:uppercase;">OpenRouter · 模型调用排行</span>
+          <span style="font-size:10px;font-weight:600;color:#FF9500;background:rgba(255,149,0,0.1);border:1px solid rgba(255,149,0,0.25);border-radius:4px;padding:1px 6px;white-space:nowrap;">今日数据</span>
+          <a href="https://openrouter.ai/rankings?view=day" target="_blank" rel="noopener"
+            style="font-size:11px;font-weight:400;color:var(--accent);text-transform:none;margin-left:auto;text-decoration:none;">查看完整榜单 →</a>
+        </div>
+        <div style="background:var(--bg-card);border-radius:12px;overflow:hidden;">
+          ${or.slice(0, 10).map((m, i) => {
+            const changeColor = m.change > 0 ? '#34C759' : m.change < 0 ? '#FF3B30' : 'var(--text-tertiary)';
+            const changeStr = m.change > 0 ? '+' + m.change + '%' : m.change + '%';
+            return `
+              <div style="display:flex;align-items:center;gap:0.75rem;padding:0.65rem 1rem;${i > 0 ? 'border-top:1px solid var(--border-light)' : ''}">
+                <div style="font-size:12px;font-weight:500;color:var(--text-tertiary);min-width:1.25rem;text-align:right;">${m.rank}</div>
                 <div style="flex:1;min-width:0;">
-                  <a href="${r.url || '#'}" target="_blank" rel="noopener"
-                    style="font-size:14px;font-weight:600;color:var(--text-primary);text-decoration:none;">${r.name || ''}</a>
-                  ${r.desc ? `<div style="font-size:12px;color:var(--text-secondary);margin-top:2px;">${r.desc}</div>` : ''}
+                  <div style="display:flex;align-items:baseline;gap:0.35rem;">
+                    <a href="${m.url || '#'}" target="_blank" rel="noopener"
+                      style="font-size:14px;font-weight:600;color:var(--text-primary);text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:260px;"
+                      title="${m.slug || ''}">${m.name || ''}</a>
+                    <span style="font-size:11px;color:var(--text-tertiary);">${m.org || ''}</span>
+                  </div>
                 </div>
-                <div style="font-size:12px;color:var(--text-tertiary);white-space:nowrap;">⭐ ${(r.stars || 0).toLocaleString()} · ${r.language || '—'}</div>
-              </div>`).join('')}
-          </div>` : ''}
-
-        ${(snapshot.openrouter_ranking || []).length > 0 ? (() => {
-          const or = snapshot.openrouter_ranking;
-          return `
-            <div style="display:flex;align-items:center;gap:0.5rem;margin:1.25rem 0 0.6rem;">
-              <span style="font-size:12px;font-weight:600;color:var(--text-tertiary);letter-spacing:0.08em;text-transform:uppercase;">OpenRouter · 模型调用排行</span>
-              <span style="font-size:10px;font-weight:600;color:#FF9500;background:rgba(255,149,0,0.1);border:1px solid rgba(255,149,0,0.25);border-radius:4px;padding:1px 6px;white-space:nowrap;">今日数据</span>
-              <a href="https://openrouter.ai/rankings?view=day" target="_blank" rel="noopener"
-                style="font-size:11px;font-weight:400;color:var(--accent);text-transform:none;margin-left:auto;text-decoration:none;">查看完整榜单 →</a>
-            </div>
-            <div style="background:var(--bg-card);border-radius:12px;overflow:hidden;">
-              ${or.slice(0, 10).map((m, i) => {
-                const changeColor = m.change > 0 ? '#34C759' : m.change < 0 ? '#FF3B30' : 'var(--text-tertiary)';
-                const changeStr = m.change > 0 ? '+' + m.change + '%' : m.change + '%';
-                return `
-                  <div style="display:flex;align-items:center;gap:0.75rem;padding:0.65rem 1rem;${i > 0 ? 'border-top:1px solid var(--border-light)' : ''}">
-                    <div style="font-size:12px;font-weight:500;color:var(--text-tertiary);min-width:1.25rem;text-align:right;">${m.rank}</div>
-                    <div style="flex:1;min-width:0;">
-                      <div style="display:flex;align-items:baseline;gap:0.35rem;">
-                        <a href="${m.url || '#'}" target="_blank" rel="noopener"
-                          style="font-size:14px;font-weight:600;color:var(--text-primary);text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:260px;"
-                          title="${m.slug || ''}">${m.name || ''}</a>
-                        <span style="font-size:11px;color:var(--text-tertiary);">${m.org || ''}</span>
-                      </div>
-                    </div>
-                    <div style="display:flex;align-items:center;gap:0.6rem;white-space:nowrap;">
-                      <span style="font-size:12px;color:var(--text-secondary);">${m.total_tokens_str || ''}</span>
-                      <span style="font-size:11px;font-weight:600;color:${changeColor};">${changeStr}</span>
-                    </div>
-                  </div>`;
-              }).join('')}
-            </div>`;
-        })() : ''}
-      `}
+                <div style="display:flex;align-items:center;gap:0.6rem;white-space:nowrap;">
+                  <span style="font-size:12px;color:var(--text-secondary);">${m.total_tokens_str || ''}</span>
+                  <span style="font-size:11px;font-weight:600;color:${changeColor};">${changeStr}</span>
+                </div>
+              </div>`;
+          }).join('')}
+        </div>` : ''}
     </section>
   `;
 }
