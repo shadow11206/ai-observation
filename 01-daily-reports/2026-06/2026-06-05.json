@@ -3,286 +3,338 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Anthropic年化收入突破470亿美元，即将IPO",
-      "finding": "Anthropic联合创始人Daniela Amodei在IPO前夕透露，公司年化收入已从2025年底的约90亿美元飙升至470亿美元。这一增速远超市场预期，表明企业级AI Agent需求正在爆发式增长。",
+      "title": "Anthropic 发布开源框架，用于 AI 驱动的漏洞发现",
+      "finding": "Anthropic 开源了一个代码安全参考框架，旨在利用 AI 自动化发现代码中的安全漏洞。该项目在 Hacker News 上获得 400+ 点赞，表明开发者社区对 AI 安全工具的高度关注。",
       "key_data": [
-        "年化收入470亿美元",
-        "较2025年底增长5倍",
-        "即将IPO"
+        "开源安全框架",
+        "400+ HN 点赞",
+        "AI 漏洞发现"
       ],
-      "judgment": "Anthropic的收入增速证明企业AI Agent不是泡沫，而是真实需求。这对所有AI应用层公司是强心针，也意味着Claude的定价权在增强，开发者应加速围绕Claude生态构建应用。",
+      "judgment": "Anthropic 正在将安全能力产品化，这不仅是技术输出，更是为 Claude 在开发者生态中建立信任。对安全从业者来说，AI 辅助漏洞挖掘将成为标配。",
       "confidence": 5,
+      "source": "Hacker News",
+      "url": "https://github.com/anthropics/defending-code-reference-harness"
+    },
+    {
+      "rank": 2,
+      "title": "Anthropic 发布递归自我改进研究进展",
+      "finding": "Anthropic 研究院发布文章《When AI Builds Itself: Our progress toward recursive self-improvement》，探讨 AI 系统实现递归自我改进的进展。该文在 HN 上获得 444 分和 588 条评论，引发激烈讨论。",
+      "key_data": [
+        "递归自我改进",
+        "444 HN 点赞",
+        "AI 自主进化"
+      ],
+      "judgment": "这是 AI 安全领域的关键里程碑。递归自我改进是通向超级智能的潜在路径，Anthropic 选择公开研究进展，既展示技术实力，也引导安全讨论。对行业而言，这意味着自我改进能力正在从理论走向实践。",
+      "confidence": 5,
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement"
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic IPO 前年化收入突破 470 亿美元",
+      "finding": "Anthropic 总裁 Daniela Amodei 在 IPO 前接受采访，透露公司年化收入已从 2025 年底的约 90 亿美元飙升至 2026 年 5 月的 470 亿美元，增长超过 5 倍。",
+      "key_data": [
+        "年化收入 470 亿美元",
+        "5 倍增长",
+        "IPO 在即"
+      ],
+      "judgment": "Anthropic 的收入增速远超预期，证明企业级 AI 需求真实且强劲。这对整个 AI 行业是强心针，但也意味着 IPO 后市场将用更严苛的财务指标审视 AI 公司。",
+      "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/"
     },
     {
-      "rank": 2,
-      "title": "OpenAI推出ChatGPT新记忆系统“Dreaming”",
-      "finding": "OpenAI发布名为“Dreaming”的新记忆系统，让ChatGPT能更好地记住用户偏好，并在对话间保持上下文连贯。这是对长期记忆能力的一次重要升级。",
-      "key_data": [
-        "新记忆系统Dreaming",
-        "跨对话保持上下文",
-        "提升个性化体验"
-      ],
-      "judgment": "记忆是AI从工具走向助手的关键能力。OpenAI此举将加速ChatGPT从问答工具向个人AI助手的进化，对消费级AI产品形态有示范效应，但隐私问题值得关注。",
-      "confidence": 5,
-      "source": "OpenAI Blog",
-      "url": "https://openai.com/index/chatgpt-memory-dreaming"
-    },
-    {
-      "rank": 3,
-      "title": "Cloudflare警告：机器人和AI代理流量已超过人类流量",
-      "finding": "Cloudflare数据显示，互联网上机器人和AI代理产生的流量已超过人类真实访问流量。这意味着AI正在从根本上改变互联网的流量结构。",
-      "key_data": [
-        "机器人流量超过人类",
-        "AI代理成主要流量来源",
-        "互联网结构正在改变"
-      ],
-      "judgment": "这是一个里程碑式的信号：互联网正在从“为人设计”转向“为机器设计”。对产品经理而言，这意味着网站和应用需要同时优化人类和AI代理的体验，SEO策略也将彻底改变。",
-      "confidence": 4,
-      "source": "Reddit r/artificial",
-      "url": "https://www.reddit.com/r/artificial/comments/1tx2nlt/cloudflare_warns_bot_and_agentic_traffic_has/"
-    },
-    {
       "rank": 4,
-      "title": "字节AI 2026年四大战略命题曝光",
-      "finding": "36氪独家报道字节AI 2026年四大核心方向：世界模型追赶Google Genie 3、视频模型保持领先并探索动态生成、夯实Coding基础并做好Dogfooding、以及豆包等消费级产品的持续迭代。",
+      "title": "阶跃 Step 3.7 Flash 登顶 AA 榜：速度、性价比、端到端三项第一",
+      "finding": "阶跃星辰的 Step 3.7 Flash 模型在 AA 基准测试中同时获得速度、性价比和端到端三项第一，成为国内小模型赛道的新标杆。",
       "key_data": [
-        "世界模型追赶Genie 3",
-        "视频模型探索动态生成",
-        "夯实Coding基础"
+        "AA 榜三项第一",
+        "速度快",
+        "性价比高"
       ],
-      "judgment": "字节AI的战略清晰度很高：世界模型和视频生成是前沿布局，Coding是基础设施。这表明字节正在从应用层向上游模型层进攻，对国内AI格局有重大影响。",
+      "judgment": "阶跃星辰在端侧小模型上找到了差异化优势，这对国内 AI 应用开发者是利好。小模型的高性价比意味着更多场景可以低成本落地 AI，尤其是移动端和 IoT 设备。",
       "confidence": 4,
-      "source": "36氪",
-      "url": "https://36kr.com/p/3838454229027072?f=rss"
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/06/429294.html"
     },
     {
       "rank": 5,
-      "title": "华为开源KVarN：KV缓存量化新方法，推理速度提升3-5倍",
-      "finding": "华为开源KVarN，一种KV缓存量化方法，可在不降低推理质量的前提下将KV缓存压缩3-5倍，并带来实际的速度提升。该方法已集成到vLLM中，只需一个参数即可启用。",
+      "title": "微信 AI 向手机厂商开放 A2A 协作能力",
+      "finding": "微信正在与华为、小米、荣耀、OPPO、vivo 等手机厂商合作推出 A2A（Agent-to-Agent）助手能力，用户可通过手机系统 AI 助手直接发起微信音视频通话或发送消息。",
       "key_data": [
-        "KV缓存压缩3-5倍",
-        "实际推理速度提升",
-        "Apache 2.0开源",
-        "已集成vLLM"
+        "A2A 协作机制",
+        "五大手机厂商接入",
+        "微信生态开放"
       ],
-      "judgment": "KV缓存是长上下文推理的瓶颈，KVarN直接解决了这个痛点。对开发者来说，这意味着在消费级显卡上运行更长上下文的模型成为可能，将加速本地AI应用的普及。",
+      "judgment": "这是微信 AI 生态开放的关键一步。A2A 机制让手机厂商的 AI 助手能直接调用微信核心功能，意味着微信正在从超级 App 转型为 AI 时代的超级平台。对开发者而言，微信生态的 AI 入口价值巨大。",
       "confidence": 4,
-      "source": "Reddit r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1twptw2/kvarn_new_kvcache_quant_from_huawei_35_kv_cache/"
+      "source": "36氪",
+      "url": "https://36kr.com/p/3839575253993985?f=rss"
     }
   ],
   "model_tech": [
     {
-      "source": "Reddit r/LocalLLaMA",
-      "title": "华为开源KVarN：KV缓存量化新方法，推理速度提升3-5倍",
-      "finding": "华为开源KVarN，一种KV缓存量化方法，可在不降低推理质量的前提下将KV缓存压缩3-5倍，并带来实际的速度提升。已集成到vLLM中。",
+      "source": "Reddit",
+      "title": "Qwen 3.6 35B 获社区好评，KV 缓存优化是关键",
+      "finding": "Reddit 用户实测 Qwen 3.6 35B 模型后给出好评，特别指出 KV 缓存优化对本地部署体验影响巨大。",
       "key_data": [
-        "KV缓存压缩3-5倍",
-        "实际推理速度提升",
-        "Apache 2.0开源",
-        "已集成vLLM"
+        "Qwen 3.6 35B",
+        "KV 缓存优化",
+        "本地部署体验好"
       ],
-      "judgment": "KV缓存是长上下文推理的瓶颈，KVarN直接解决了这个痛点。对开发者来说，这意味着在消费级显卡上运行更长上下文的模型成为可能，将加速本地AI应用的普及。",
-      "confidence": 4,
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1twptw2/kvarn_new_kvcache_quant_from_huawei_35_kv_cache/",
-      "importance": 4
-    },
-    {
-      "source": "Reddit r/MachineLearning",
-      "title": "On-policy蒸馏成为PapersWithCode最热门术语",
-      "finding": "Hugging Face团队指出，on-policy蒸馏（On-policy distillation）已成为PapersWithCode上最热门的技术术语之一。该方法通过让教师模型和学生模型在相同数据分布上训练，提升蒸馏效果。",
-      "key_data": [
-        "On-policy蒸馏",
-        "PapersWithCode热门术语",
-        "提升蒸馏效果"
-      ],
-      "judgment": "On-policy蒸馏的流行意味着模型压缩和知识迁移正在成为研究热点，这对降低推理成本、推动小模型普及有重要意义。",
-      "confidence": 4,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1twmhud/onpolicy_distillation_one_of_the_hottest_terms_on/",
+      "judgment": "Qwen 系列在开源社区口碑持续上升，KV 缓存优化成为本地部署的关键竞争力。对开发者来说，这意味着更低的推理成本和更好的用户体验。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1twyoqe/you_guys_were_right_qwen_36_35b_is_goodand_kv/",
       "importance": 3
     },
     {
-      "source": "ArXiv cs.LG",
-      "title": "Transformer是否需要三个投影矩阵？QKV变体的系统研究",
-      "finding": "一篇新论文系统研究了Transformer中QKV投影矩阵的变体，质疑了标准三投影设计的必要性，探索了更高效的替代方案。",
+      "source": "Reddit",
+      "title": "Gemma 4 12B 成为本地编码新宠",
+      "finding": "Reddit 用户分享使用 Unsloth 量化版 Gemma 4 12B 进行本地编码的体验，认为 Q5_K_XL 版本在语法正确性和推理质量上达到最佳平衡。",
       "key_data": [
-        "QKV变体研究",
-        "质疑三投影必要性",
-        "探索高效替代方案"
+        "Gemma 4 12B",
+        "本地编码",
+        "Q5_K_XL 量化"
       ],
-      "judgment": "如果QKV可以简化，将直接影响Transformer架构的效率和参数量，对模型部署和推理优化有潜在价值。",
+      "judgment": "Google 的 Gemma 系列在本地部署场景中找到了定位，12B 参数规模成为编码任务的黄金尺寸。这意味着开源小模型正在快速追赶闭源模型在特定任务上的表现。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.04032",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1txdcj9/gemma_4_12b_is_my_new_main_squeeze/",
       "importance": 2
     },
     {
-      "source": "ArXiv cs.CL",
-      "title": "POLARIS：引导小模型写出长故事",
-      "finding": "研究人员提出POLARIS方法，让小型开源模型也能生成高质量的长篇故事，解决了小模型在长文本生成中质量下降的问题。",
+      "source": "Reddit",
+      "title": "KVarN：方差归一化的 KV 缓存量化方法",
+      "finding": "研究者提出 KVarN 方法，结合 Hadamard 旋转和方差归一化对 KV 缓存进行量化，在保持精度的同时显著降低内存占用。",
       "key_data": [
-        "小模型长故事生成",
-        "POLARIS方法",
-        "解决质量下降问题"
+        "KV 缓存量化",
+        "Hadamard 旋转",
+        "方差归一化"
       ],
-      "judgment": "小模型在创意写作上的突破意味着AI内容生成的门槛进一步降低，对内容创作工具和平台是利好。",
+      "judgment": "KV 缓存优化是当前推理效率提升的关键方向。KVarN 的方法如果落地，将直接降低长上下文推理的硬件门槛，对部署大模型的团队是重大利好。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.04095",
-      "importance": 2
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1twnj5r/kvarn_variancenormalized_kvcache_quantization_r/",
+      "importance": 3
     },
     {
-      "source": "ArXiv cs.CL",
-      "title": "当检索无用时：生物医学RAG的大规模研究",
-      "finding": "一项大规模研究发现，在生物医学问答中，RAG（检索增强生成）并非总是有效，有时甚至不如不检索。这表明RAG在特定领域存在局限性。",
+      "source": "Reddit",
+      "title": "开源 LLM 可靠性库可降低一半推理成本",
+      "finding": "一个开源 LLM 可靠性库发布，通过重试、集成、验证等技术提升模型输出质量，声称在保持同等质量下可将推理成本降低一半。",
       "key_data": [
-        "RAG并非总是有效",
-        "生物医学领域",
-        "有时不如不检索"
+        "推理成本减半",
+        "开源可靠性库",
+        "重试+集成+验证"
       ],
-      "judgment": "RAG不是万能的，尤其是在高专业领域。开发者需要根据场景评估RAG的实际效果，而不是盲目使用。",
+      "judgment": "可靠性技术正在从学术研究走向工程实践。这个库的价值在于让开发者用更少的钱获得更稳定的输出，对预算有限的中小团队尤其重要。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.04127",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1twtdob/we_built_a_sourceavailable_llm_reliability/",
       "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "TechCrunch",
-      "title": "Anthropic年化收入突破470亿美元，即将IPO",
-      "finding": "Anthropic联合创始人Daniela Amodei在IPO前夕透露，公司年化收入已从2025年底的约90亿美元飙升至470亿美元。这一增速远超市场预期。",
+      "source": "OpenAI",
+      "title": "ChatGPT 推出新记忆系统“Dreaming”",
+      "finding": "ChatGPT 引入名为“Dreaming”的新记忆系统，旨在更好地记住用户偏好，保持跨对话的上下文连贯性。",
       "key_data": [
-        "年化收入470亿美元",
-        "较2025年底增长5倍",
-        "即将IPO"
+        "Dreaming 记忆系统",
+        "跨对话上下文",
+        "用户偏好记忆"
       ],
-      "judgment": "Anthropic的收入增速证明企业级AI Agent需求正在爆发，对AI应用层公司是强心针。",
-      "confidence": 5,
-      "url": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
-      "importance": 5
-    },
-    {
-      "source": "OpenAI Blog",
-      "title": "OpenAI推出ChatGPT新记忆系统“Dreaming”",
-      "finding": "OpenAI发布名为“Dreaming”的新记忆系统，让ChatGPT能更好地记住用户偏好，并在对话间保持上下文连贯。",
-      "key_data": [
-        "新记忆系统Dreaming",
-        "跨对话保持上下文",
-        "提升个性化体验"
-      ],
-      "judgment": "记忆是AI从工具走向助手的关键能力，将加速ChatGPT向个人AI助手的进化。",
+      "judgment": "记忆是 AI 助手从工具走向伙伴的关键能力。OpenAI 在记忆功能上的持续投入，意味着他们正在押注长期用户粘性，而非单次对话质量。",
       "confidence": 5,
       "url": "https://openai.com/index/chatgpt-memory-dreaming",
       "importance": 4
     },
     {
-      "source": "36氪",
-      "title": "字节AI 2026年四大战略命题曝光",
-      "finding": "36氪独家报道字节AI 2026年四大核心方向：世界模型追赶Google Genie 3、视频模型保持领先、夯实Coding基础、消费级产品迭代。",
-      "key_data": [
-        "世界模型追赶Genie 3",
-        "视频模型探索动态生成",
-        "夯实Coding基础"
-      ],
-      "judgment": "字节AI战略清晰，从应用层向上游模型层进攻，对国内AI格局有重大影响。",
-      "confidence": 4,
-      "url": "https://36kr.com/p/3838454229027072?f=rss",
-      "importance": 4
-    },
-    {
       "source": "TechCrunch",
-      "title": "Apple批准Poke成为Messages for Business平台首个AI代理",
-      "finding": "Apple批准了Poke，一个通过短信使用AI代理的创业公司，成为其Messages for Business平台上的首个AI代理。这标志着Apple在企业消息AI领域的正式入场。",
+      "title": "Airbnb CEO 计划成立新 AI 实验室",
+      "finding": "Airbnb CEO Brian Chesky 计划成立一个新的 AI 实验室，此前他曾表示现有 LLM 产品尚未准备好满足 Airbnb 的需求。",
       "key_data": [
-        "Poke成为首个AI代理",
-        "Apple Messages for Business",
-        "企业消息AI"
-      ],
-      "judgment": "Apple开放企业消息AI代理，意味着AI客服和商业交互将进入iMessage生态，对电商和客服行业有直接影响。",
-      "confidence": 4,
-      "url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
-      "importance": 3
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Airbnb CEO Brian Chesky计划成立新AI实验室",
-      "finding": "Airbnb CEO Brian Chesky透露计划成立一个新的AI实验室，此前他曾表示尚未与任何LLM公司达成合作，因为现有产品还不够成熟。",
-      "key_data": [
-        "Airbnb成立AI实验室",
+        "Airbnb AI 实验室",
         "Brian Chesky",
-        "自研AI"
+        "自研 AI"
       ],
-      "judgment": "Airbnb自研AI实验室意味着大型平台公司对第三方AI模型的不满足，可能推动更多垂直领域AI模型的诞生。",
+      "judgment": "Airbnb 选择自研而非合作，说明现有通用模型在垂直场景（如旅行推荐、房东工具）上仍有明显短板。这对 AI 创业公司是信号：垂直场景的定制化需求远未被满足。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
       "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Meta 效仿特斯拉，在帐篷中建设数据中心",
+      "finding": "Meta 采用类似特斯拉的“帐篷工厂”策略，使用预制帐篷结构快速建设数据中心，以降低巨额基础设施成本。",
+      "key_data": [
+        "帐篷数据中心",
+        "降低成本",
+        "快速部署"
+      ],
+      "judgment": "Meta 的帐篷数据中心策略反映了 AI 基础设施军备竞赛中的务实转向。当算力需求爆炸式增长时，建设速度比建筑美学更重要。这对数据中心产业链意味着新的机会。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/06/04/meta-steals-a-tactic-from-tesla-and-builds-data-centers-in-tents/",
+      "importance": 3
+    },
+    {
+      "source": "36氪",
+      "title": "原力灵机获智谱、商汤、阶跃星辰等投资，并并购物流机器人公司",
+      "finding": "唐文斌创立的具身智能公司原力灵机完成新一轮融资，投资方包括智谱、阶跃星辰、商汤科技等大模型公司，同时并购了一家物流机器人公司。",
+      "key_data": [
+        "原力灵机融资",
+        "智谱/商汤/阶跃投资",
+        "并购物流机器人"
+      ],
+      "judgment": "大模型公司集体投资具身智能，说明“大脑+身体”的融合正在加速。原力灵机通过并购快速获得硬件能力，这种模式可能成为 AI 公司进入实体世界的标准路径。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3838835333253385?f=rss",
+      "importance": 3
+    },
+    {
+      "source": "阿里云",
+      "title": "阿里开源 AI 代码审查 CLI 工具",
+      "finding": "阿里巴巴开源了一款名为 Open Code Review 的 AI 代码审查 CLI 工具，在 Hacker News 上获得 166 点赞。",
+      "key_data": [
+        "开源代码审查",
+        "CLI 工具",
+        "166 HN 点赞"
+      ],
+      "judgment": "阿里在 AI 编程工具链上持续投入，开源策略有助于建立开发者生态。对开发者来说，AI 代码审查正在从 IDE 插件扩展到命令行，覆盖更多工作流。",
+      "confidence": 4,
+      "url": "https://github.com/alibaba/open-code-review",
+      "importance": 2
     }
   ],
   "opinions": [
     {
-      "person": "Daniela Amodei",
-      "level": "L3",
-      "quote": "Anthropic年化收入已突破470亿美元，我们正在以惊人的速度增长。AI的回报是真实的，不是泡沫。",
-      "source": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/"
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "AI 爱好者在与时间赛跑，AI 怀疑论者在与熵增赛跑。",
+      "source": "https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything"
     },
     {
-      "person": "Brian Chesky",
+      "person": "Daniela Amodei",
       "level": "L3",
-      "quote": "我们还没有与任何LLM公司达成合作，因为现有产品还不够成熟。我们计划成立自己的AI实验室。",
-      "source": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/"
+      "quote": "Anthropic 年化收入已达 470 亿美元，对 AI 投资回报的质疑不攻自破。",
+      "source": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI代理流量超过人类流量：互联网基础设施的范式转变",
-      "reason": "Cloudflare数据揭示AI代理已成为互联网主要流量来源，这对网站架构、SEO、安全策略有深远影响。",
+      "topic": "AI 递归自我改进的现状与风险",
+      "reason": "Anthropic 发布重要研究进展，这是通向超级智能的关键路径，值得深入理解其技术原理和安全影响。",
       "priority": "high"
     },
     {
-      "topic": "Anthropic收入暴增5倍：企业AI Agent的真实ROI分析",
-      "reason": "Anthropic的470亿美元年化收入是AI行业最重要的商业化信号，值得深入分析其客户构成和产品策略。",
+      "topic": "微信 A2A 机制对 AI 生态的影响",
+      "reason": "微信开放 AI 接口给手机厂商，可能重塑移动端 AI 入口格局，对开发者和创业者有深远影响。",
       "priority": "high"
-    },
-    {
-      "topic": "KV缓存量化技术对比：KVarN vs TurboQuant vs 其他方法",
-      "reason": "KV缓存是长上下文推理的瓶颈，KVarN的开源可能改变本地AI部署格局，值得技术对比。",
-      "priority": "medium"
     }
   ],
-  "summary_one_line": "Anthropic收入暴增，AI代理流量超人类",
+  "summary_one_line": "Anthropic 收入暴增，微信开放 AI 入口",
   "snapshot": {
     "date": "2026-06-05",
     "hf_trending": [],
-    "github_trending": [],
+    "github_trending": [
+      {
+        "name": "openclaw/openclaw",
+        "desc": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+        "stars": 376958,
+        "language": "TypeScript",
+        "url": "https://github.com/openclaw/openclaw",
+        "topics": [
+          "ai",
+          "assistant",
+          "crustacean"
+        ]
+      },
+      {
+        "name": "affaan-m/ECC",
+        "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research",
+        "stars": 207682,
+        "language": "JavaScript",
+        "url": "https://github.com/affaan-m/ECC",
+        "topics": [
+          "ai-agents",
+          "anthropic",
+          "claude"
+        ]
+      },
+      {
+        "name": "tensorflow/tensorflow",
+        "desc": "An Open Source Machine Learning Framework for Everyone",
+        "stars": 195549,
+        "language": "C++",
+        "url": "https://github.com/tensorflow/tensorflow",
+        "topics": [
+          "deep-learning",
+          "deep-neural-networks",
+          "distributed"
+        ]
+      },
+      {
+        "name": "n8n-io/n8n",
+        "desc": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with cus",
+        "stars": 191173,
+        "language": "TypeScript",
+        "url": "https://github.com/n8n-io/n8n",
+        "topics": [
+          "ai",
+          "apis",
+          "automation"
+        ]
+      },
+      {
+        "name": "Significant-Gravitas/AutoGPT",
+        "desc": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provi",
+        "stars": 184771,
+        "language": "Python",
+        "url": "https://github.com/Significant-Gravitas/AutoGPT",
+        "topics": [
+          "agentic-ai",
+          "agents",
+          "ai"
+        ]
+      },
+      {
+        "name": "NousResearch/hermes-agent",
+        "desc": "The agent that grows with you",
+        "stars": 181603,
+        "language": "Python",
+        "url": "https://github.com/NousResearch/hermes-agent",
+        "topics": [
+          "ai",
+          "ai-agent",
+          "ai-agents"
+        ]
+      }
+    ],
     "openrouter_ranking": [
       {
         "rank": 1,
-        "slug": "minimax/minimax-m3",
-        "name": "MiniMax M3",
-        "org": "minimax",
-        "total_tokens": 523000000000,
-        "total_tokens_str": "523B",
-        "change": 179.0,
-        "url": "https://openrouter.ai/minimax/minimax-m3"
-      },
-      {
-        "rank": 2,
         "slug": "deepseek/deepseek-v4-flash",
         "name": "DeepSeek V4 Flash",
         "org": "deepseek",
-        "total_tokens": 481000000000,
-        "total_tokens_str": "481B",
-        "change": 13.0,
+        "total_tokens": 486000000000,
+        "total_tokens_str": "486B",
+        "change": 1.0,
         "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "minimax/minimax-m3",
+        "name": "MiniMax M3",
+        "org": "minimax",
+        "total_tokens": 453000000000,
+        "total_tokens_str": "453B",
+        "change": -13.0,
+        "url": "https://openrouter.ai/minimax/minimax-m3"
       },
       {
         "rank": 3,
         "slug": "tencent/hy3-preview",
         "name": "Hy3 preview",
         "org": "tencent",
-        "total_tokens": 447000000000,
-        "total_tokens_str": "447B",
-        "change": 39.0,
+        "total_tokens": 440000000000,
+        "total_tokens_str": "440B",
+        "change": -1.0,
         "url": "https://openrouter.ai/tencent/hy3-preview"
       },
       {
@@ -290,9 +342,9 @@
         "slug": "xiaomi/mimo-v2.5",
         "name": "MiMo-V2.5",
         "org": "xiaomi",
-        "total_tokens": 367000000000,
-        "total_tokens_str": "367B",
-        "change": 38.0,
+        "total_tokens": 344000000000,
+        "total_tokens_str": "344B",
+        "change": -6.0,
         "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
       },
       {
@@ -300,9 +352,9 @@
         "slug": "openrouter/owl-alpha",
         "name": "Owl Alpha",
         "org": "openrouter",
-        "total_tokens": 322000000000,
-        "total_tokens_str": "322B",
-        "change": 5.0,
+        "total_tokens": 292000000000,
+        "total_tokens_str": "292B",
+        "change": -10.0,
         "url": "https://openrouter.ai/openrouter/owl-alpha"
       },
       {
@@ -310,9 +362,9 @@
         "slug": "anthropic/claude-sonnet-4.6",
         "name": "Claude Sonnet 4.6",
         "org": "anthropic",
-        "total_tokens": 291000000000,
-        "total_tokens_str": "291B",
-        "change": 3.0,
+        "total_tokens": 280000000000,
+        "total_tokens_str": "280B",
+        "change": -4.0,
         "url": "https://openrouter.ai/anthropic/claude-sonnet-4.6"
       },
       {
@@ -320,9 +372,9 @@
         "slug": "deepseek/deepseek-v4-pro",
         "name": "DeepSeek V4 Pro",
         "org": "deepseek",
-        "total_tokens": 206000000000,
-        "total_tokens_str": "206B",
-        "change": -0.0,
+        "total_tokens": 226000000000,
+        "total_tokens_str": "226B",
+        "change": 10.0,
         "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
       },
       {
@@ -330,9 +382,9 @@
         "slug": "anthropic/claude-opus-4.7",
         "name": "Claude Opus 4.7",
         "org": "anthropic",
-        "total_tokens": 201000000000,
-        "total_tokens_str": "201B",
-        "change": 26.0,
+        "total_tokens": 223000000000,
+        "total_tokens_str": "223B",
+        "change": 11.0,
         "url": "https://openrouter.ai/anthropic/claude-opus-4.7"
       },
       {
@@ -340,9 +392,9 @@
         "slug": "anthropic/claude-opus-4.8",
         "name": "Claude Opus 4.8",
         "org": "anthropic",
-        "total_tokens": 192000000000,
-        "total_tokens_str": "192B",
-        "change": 42.0,
+        "total_tokens": 200000000000,
+        "total_tokens_str": "200B",
+        "change": 4.0,
         "url": "https://openrouter.ai/anthropic/claude-opus-4.8"
       },
       {
@@ -350,9 +402,9 @@
         "slug": "deepseek/deepseek-v3.2",
         "name": "DeepSeek V3.2",
         "org": "deepseek",
-        "total_tokens": 168000000000,
-        "total_tokens_str": "168B",
-        "change": -1.0,
+        "total_tokens": 172000000000,
+        "total_tokens_str": "172B",
+        "change": 2.0,
         "url": "https://openrouter.ai/deepseek/deepseek-v3.2"
       }
     ]
