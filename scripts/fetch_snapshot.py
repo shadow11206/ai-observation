@@ -14,6 +14,7 @@ v2.0 新增：
 """
 
 import json
+import os
 import requests
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -27,7 +28,12 @@ HEADERS = {
     "Accept": "application/json",
 }
 
-GITHUB_HEADERS = {**HEADERS, "Accept": "application/vnd.github.v3+json"}
+_github_headers = {**HEADERS, "Accept": "application/vnd.github.v3+json"}
+_github_token = os.environ.get("GITHUB_TOKEN")
+if _github_token:
+    _github_headers["Authorization"] = f"Bearer {_github_token}"
+
+GITHUB_HEADERS = _github_headers
 
 # pipeline_tag → 人类可读中文说明
 PIPELINE_LABEL = {
@@ -278,32 +284,40 @@ def _fetch_openrouter_ranking() -> list[dict]:
 def _fetch_github_trending() -> list[dict]:
     """
     抓取 GitHub AI 相关热门项目。
-    策略：优先查今日新建的 AI 项目；若 403 Rate Limit，降级查近期高星项目。
+    策略：主查询按 topic + 近期推送筛选活跃 AI 项目；
+          结果为空或遭限流时降级为关键词搜索（更高星数门槛降噪）。
     """
-    yesterday = (datetime.now(_BJT) - timedelta(days=1)).strftime("%Y-%m-%d")
+    three_days_ago = (datetime.now(_BJT) - timedelta(days=3)).strftime("%Y-%m-%d")
     url = "https://api.github.com/search/repositories"
 
-    # 主查询：今日新建的 AI/LLM 相关项目（OR 逻辑，命中率更高）
+    # 主查询：有 AI topic 标签、近3天有推送、星数 > 50
+    # GitHub topic qualifier 用逗号分隔表示 OR，不支持 OR 关键字
     primary_params = {
-        "q": f"(topic:llm OR topic:ai OR topic:llm-agent) created:>{yesterday}",
+        "q": (
+            "topic:ai,llm,machine-learning,deep-learning,llm-agent"
+            f" pushed:>={three_days_ago} stars:>50"
+        ),
         "sort": "stars",
         "order": "desc",
         "per_page": 8,
     }
 
-    # 降级查询：近期高星 AI 项目（不依赖 topic 标签）
+    # 降级查询：关键词搜索（搜名称/描述），提高星数门槛到 200 以减少噪音
     fallback_params = {
-        "q": f"artificial-intelligence OR large-language-model pushed:>{yesterday} stars:>50",
+        "q": (
+            f'(ai OR llm OR "machine learning" OR "deep learning")'
+            f" pushed:>={three_days_ago} stars:>200"
+        ),
         "sort": "stars",
         "order": "desc",
         "per_page": 8,
     }
 
-    def _do_request(params: dict) -> list:
+    def _do_request(params: dict) -> list | None:
         try:
             resp = requests.get(url, params=params, headers=GITHUB_HEADERS, timeout=15)
             if resp.status_code == 403:
-                return None  # 明确标记 rate limit
+                return None
             resp.raise_for_status()
             return resp.json().get("items", [])
         except Exception as e:
@@ -312,16 +326,20 @@ def _fetch_github_trending() -> list[dict]:
 
     items = _do_request(primary_params)
 
-    # 403 时用降级查询，并打印提示
+    # 403 或主查询无结果时，尝试降级查询
     if items is None:
         print("  ⚠️ GitHub API Rate Limit，切换降级查询...")
+    elif not items:
+        print("  ⚠️ 主查询无结果，尝试降级查询...")
+
+    if items is None or (isinstance(items, list) and not items):
         items = _do_request(fallback_params)
         if items is None:
             print("  ⚠️ 降级查询也遭遇 Rate Limit，跳过 GitHub 快照")
             return []
-
-    if not items:
-        return []
+        if isinstance(items, list) and not items:
+            print("  ⚠️ GitHub 查询无结果（已尝试主查询和降级查询）")
+            return []
 
     result = []
     for repo in items[:6]:
