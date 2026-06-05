@@ -153,16 +153,17 @@ def generate_report_with_ai(raw_info: list[dict], config: dict, date_override: s
 要求：
 1. top_items 选 3-5 条，覆盖今日最重要的 AI 动态，不同类别都要有（模型/产品/研究/观点），不要只选同一类
 2. model_tech 选 3-5 条；company_product 选 3-5 条；两者加起来至少 6 条
-3. opinions 尽可能覆盖，有追踪人物发表观点必须收录，最多 3 条
-4. 所有 title 字段必须是中文，英文标题需翻译
-5. finding 要通俗易懂，像给聪明的非专业人士解释，不堆砌术语
-6. key_data 提炼 2-4 个最关键的数字/词组，每个不超过 10 字，方便快速扫读
+3. **重要：top_items 与 model_tech/company_product 不能有重复。已放入 top_items 的内容不要再出现在分类板块中，分类板块是次重要的补充条目**
+4. opinions 尽可能覆盖，有追踪人物发表观点必须收录，最多 3 条
+5. 所有 title 字段必须是中文，英文标题需翻译
+6. finding 要通俗易懂，像给聪明的非专业人士解释，不堆砌术语
+7. key_data 提炼 2-4 个最关键的数字/词组，每个不超过 10 字，方便快速扫读
    ✅ 好的 key_data：「输入成本<0.8元/百万Token」「比 GPT-4o 快 3 倍」「开源 MIT 协议」
    ❌ 坏的 key_data：「大型强子对撞机（LHC）」「Coding plan」「多模态」「AI Agent」（太宽泛，无信息量）
-7. judgment 必须有明确立场，说明"这对谁意味着什么、会带来什么变化"
-8. confidence 为 1-5 的整数，代表信息可靠度：5=官方一手信息，4=权威媒体，3=可信来源，2=待验证，1=存疑
-9. deep_dive_suggestions 只推荐真正值得花半天以上研究的话题
-10. 如果某个分类今天没有值得关注的内容，返回空数组 []
+8. judgment 必须有明确立场，说明"这对谁意味着什么、会带来什么变化"
+9. confidence 为 1-5 的整数，代表信息可靠度：5=官方一手信息，4=权威媒体，3=可信来源，2=待验证，1=存疑
+10. deep_dive_suggestions 只推荐真正值得花半天以上研究的话题
+11. 如果某个分类今天没有值得关注的内容，返回空数组 []
 """
 
     response = client.chat.completions.create(
@@ -308,14 +309,14 @@ def _render_md(data: dict) -> str:
         lines.append("## 🔬 模型 / 技术动态\n")
         for item in data["model_tech"]:
             lines.append(f"- **[{item.get('source', '')}]** [{item.get('title', '')}]({item.get('url', '')})")
-            lines.append(f"  {item.get('summary', '')}\n")
+            lines.append(f"  {item.get('finding', '')}\n")
 
     # 公司/产品动态
     if data.get("company_product"):
         lines.append("## 🏢 公司 / 产品动态\n")
         for item in data["company_product"]:
             lines.append(f"- **[{item.get('source', '')}]** [{item.get('title', '')}]({item.get('url', '')})")
-            lines.append(f"  {item.get('summary', '')}\n")
+            lines.append(f"  {item.get('finding', '')}\n")
 
     # 观点
     if data.get("opinions"):
