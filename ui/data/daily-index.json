@@ -1,6 +1,13 @@
 {
-  "total": 73,
+  "total": 74,
   "reports": [
+    {
+      "date": "2026-06-07",
+      "title": "今日 AI 日报：OpenAI 推出 Lockdown Mode 防御提示注入攻击 + 4 条重要动态",
+      "excerpt": "这是 AI 应用安全的重要里程碑。提示注入一直是企业采用 AI 的核心障碍，Lo…",
+      "top_count": 5,
+      "file": "2026-06-07.json"
+    },
     {
       "date": "2026-06-06",
       "title": "今日 AI 日报：谷歌每月向SpaceX支付9.2亿美元用于AI算力 + 4 条重要动态",
