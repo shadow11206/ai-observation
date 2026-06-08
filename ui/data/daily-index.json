@@ -1,6 +1,13 @@
 {
-  "total": 75,
+  "total": 76,
   "reports": [
+    {
+      "date": "2026-06-09",
+      "title": "今日 AI 日报：苹果WWDC 2026：Siri全面AI化，核心架构基于Google Gemini模型 + 3 条重要动态",
+      "excerpt": "苹果放弃纯自研路线，选择与Google合作，说明其AI能力差距短期内无法靠自研弥…",
+      "top_count": 4,
+      "file": "2026-06-09.json"
+    },
     {
       "date": "2026-06-08",
       "title": "今日 AI 日报：OpenAI芯片核心人物在量产前夜叛逃至Anthropic + 4 条重要动态",
