@@ -1,6 +1,13 @@
 {
-  "total": 74,
+  "total": 75,
   "reports": [
+    {
+      "date": "2026-06-08",
+      "title": "今日 AI 日报：OpenAI芯片核心人物在量产前夜叛逃至Anthropic + 4 条重要动态",
+      "excerpt": "对OpenAI是重大打击——芯片是降低推理成本、摆脱NVIDIA依赖的战略命脉，…",
+      "top_count": 5,
+      "file": "2026-06-08.json"
+    },
     {
       "date": "2026-06-07",
       "title": "今日 AI 日报：OpenAI 推出 Lockdown Mode 防御提示注入攻击 + 4 条重要动态",
