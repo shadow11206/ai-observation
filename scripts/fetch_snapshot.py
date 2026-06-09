@@ -172,7 +172,10 @@ def _fetch_openrouter_ranking() -> list[dict]:
     """
     抓取 OpenRouter 当日模型调用排行榜 Top 10。
     数据来源：https://openrouter.ai/rankings?view=day
-    页面已改为客户端渲染（2026年4月底起），需使用 Playwright 浏览器抓取。
+    页面为 React CSR 渲染，使用 Playwright 浏览器抓取。
+
+    解析策略（v3）：直接从 DOM 子元素提取结构化数据，不再依赖 textContent + 正则。
+    每个 row 是 3 列 grid：rank | model info (含 2 个 <a>) | token 数 + 涨跌
     """
     import re as _re
 
@@ -199,21 +202,37 @@ def _fetch_openrouter_ranking() -> list[dict]:
                 '[data-testid="model-rankings-leaderboard-row"]', timeout=15000
             )
 
+            # 结构化 DOM 提取：每个 field 从独立的 DOM 元素获取，不依赖 textContent 拼接
             rows_raw = page.evaluate("""() => {
                 const rows = document.querySelectorAll(
                     '[data-testid="model-rankings-leaderboard-row"]'
                 );
                 return Array.from(rows).map(row => {
-                    const link = row.querySelector('a');
-                    // 查找包含 % 的 span 元素及内部 SVG 的 class
-                    // SVG class text-red-* = 下跌，text-green-* = 上涨
-                    const spans = row.querySelectorAll('span');
+                    const children = row.children;
+
+                    // 第 1 列：排名
+                    const rank = parseInt(children[0]?.textContent || '0');
+
+                    // 第 2 列：模型信息（含 2 个 <a>：模型名 + org）
+                    const links = children[1]?.querySelectorAll('a') || [];
+                    const modelLink = links[0];
+                    const orgLink = links[1];
+                    const href = modelLink ? modelLink.getAttribute('href') : '';
+                    const modelName = modelLink ? modelLink.textContent.trim() : '';
+                    const org = orgLink ? orgLink.textContent.trim() : '';
+
+                    // 第 3 列：token 数 + 涨跌百分比
+                    const tokenDiv = children[2]?.querySelector('div');
+                    const tokenText = tokenDiv ? tokenDiv.textContent.trim() : '';
+
+                    // 涨跌：从含 % 的 span + SVG class 判断方向
+                    const spans = children[2]?.querySelectorAll('span') || [];
                     let changeText = '';
                     let isDecline = false;
                     for (const s of spans) {
                         if (s.textContent && s.textContent.includes('%')) {
                             changeText = s.textContent.trim();
-                            const svg = s.querySelector('svg');
+                            const svg = children[2]?.querySelector('svg');
                             if (svg) {
                                 const cls = svg.getAttribute('class') || '';
                                 isDecline = cls.includes('text-red');
@@ -221,9 +240,13 @@ def _fetch_openrouter_ranking() -> list[dict]:
                             break;
                         }
                     }
+
                     return {
-                        href: link ? link.getAttribute('href') : '',
-                        text: row.textContent || '',
+                        rank: rank,
+                        href: href,
+                        modelName: modelName,
+                        org: org,
+                        tokenText: tokenText,
                         changeText: changeText,
                         isDecline: isDecline,
                     };
@@ -232,23 +255,35 @@ def _fetch_openrouter_ranking() -> list[dict]:
 
             browser.close()
 
+        total_rows = len(rows_raw)
         result = []
+        skipped = 0
+
         for row_data in rows_raw:
-            text = row_data.get("text", "")
+            rank = row_data.get("rank", 0)
             href = row_data.get("href", "")
+            model_name = row_data.get("modelName", "")
+            org = row_data.get("org", "")
+            token_text = row_data.get("tokenText", "")
             change_text = row_data.get("changeText", "")
             is_decline = row_data.get("isDecline", False)
-            # 示例文本： "1. Hy3 previewby tencent483B tokens3%"
-            m = _re.match(
-                r"^(\d+)\.\s*(.+?)by\s+([a-zA-Z][a-zA-Z-]*)\s*"
-                r"([\d.]+)\s*(B|M|T|K)?\s*tokens",
-                text,
-            )
-            if not m:
-                continue
-            rank, name, org, amount, unit = m.groups()
 
-            # 从 changeText 提取变化百分比，用 SVG class 判断涨跌
+            if not model_name or not href or not token_text:
+                skipped += 1
+                continue
+
+            # 解析 token 文本："760B tokens" / "1.2T tokens" / "500M tokens"
+            token_match = _re.match(
+                r"([\d.]+)\s*(B|M|T|K)?\s*tokens", token_text
+            )
+            if not token_match:
+                skipped += 1
+                continue
+
+            amount, unit = token_match.groups()
+            unit = unit or "B"
+
+            # 解析变化百分比
             change = 0
             if change_text:
                 digits = _re.search(r"[\d.]+", change_text)
@@ -257,10 +292,11 @@ def _fetch_openrouter_ranking() -> list[dict]:
                     change = -val if is_decline else val
 
             multiplier = {"T": 1e12, "B": 1e9, "M": 1e6, "K": 1e3}
-            total_tokens = int(float(amount) * multiplier.get(unit, 1e9))
+            total_tokens = int(float(amount) * multiplier[unit])
 
             slug = href.lstrip("/")
-            display_name = _re.sub(r"-\d{8}$", "", name.strip())
+            display_name = model_name.strip()
+            display_name = _re.sub(r"-\d{8}$", "", display_name)
             display_name = display_name.replace(":free", " (free)").replace(":", " ")
 
             result.append({
@@ -269,16 +305,57 @@ def _fetch_openrouter_ranking() -> list[dict]:
                 "name": display_name,
                 "org": org.strip(),
                 "total_tokens": total_tokens,
-                "total_tokens_str": amount + (unit or "B"),
+                "total_tokens_str": amount + unit,
                 "change": change,
                 "url": f"https://openrouter.ai/{slug}",
             })
+
+        if skipped > 0:
+            print(
+                f"  ⚠ OpenRouter 排行榜：{total_rows} 行中找到 {len(result)} 个模型，"
+                f"{skipped} 行解析失败被跳过"
+            )
+        else:
+            print(f"  ✓ OpenRouter 排行榜：成功解析 {len(result)} 个模型")
 
         return result
 
     except Exception as e:
         print(f"  ⚠️ OpenRouter 排行榜抓取失败：{e}")
         return []
+
+
+def _check_or_freshness(today_data: list[dict]) -> None:
+    """检查今日 OpenRouter 数据是否与昨天完全一致（可能表示抓取失败）"""
+    yesterday = (datetime.now(_BJT) - timedelta(days=1)).strftime("%Y-%m-%d")
+    month = yesterday[:7]
+    json_path = Path(f"01-daily-reports/{month}/{yesterday}.json")
+    if not json_path.exists():
+        return
+
+    try:
+        data = json.loads(json_path.read_text(encoding="utf-8"))
+        yesterday_or = data.get("snapshot", {}).get("openrouter_ranking", [])
+    except Exception:
+        return
+
+    if not yesterday_or or len(yesterday_or) != len(today_data):
+        return
+
+    same_count = 0
+    for t, y in zip(today_data, yesterday_or):
+        if (
+            t["rank"] == y.get("rank")
+            and t["total_tokens"] == y.get("total_tokens")
+            and t["change"] == y.get("change")
+        ):
+            same_count += 1
+
+    if same_count == len(today_data):
+        print(
+            "  ⚠️ 警告：今日 OpenRouter 数据与昨天完全相同，"
+            "可能是抓取失败或页面未更新"
+        )
 
 
 def _fetch_github_trending() -> list[dict]:
