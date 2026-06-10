@@ -171,114 +171,135 @@ def _fetch_hf_trending() -> list[dict]:
 def _fetch_openrouter_ranking() -> list[dict]:
     """
     抓取 OpenRouter 当日模型调用排行榜 Top 10。
-    数据来源：https://openrouter.ai/rankings?view=day
-    页面已改为客户端渲染（2026年4月底起），需使用 Playwright 浏览器抓取。
+    直接调用 OpenRouter 内部 API，无需浏览器，数据准确且稳定。
+
+    API: https://openrouter.ai/api/frontend/rankings/models?view=day
+    返回所有模型（含 variant）的每日 token 量 + 调用次数 + 涨跌百分比。
+    按 model_permaslug 聚合（合并 standard/free 等 variant），取总 token 量 Top 10。
     """
-    import re as _re
+    from collections import defaultdict
+
+    _OR_API = "https://openrouter.ai/api/frontend/rankings/models?view=day"
 
     try:
-        from playwright.sync_api import sync_playwright
-    except ImportError:
-        print("  ⚠️ Playwright 未安装，跳过 OpenRouter 排行榜")
-        print("     安装：pip install playwright && playwright install chromium")
-        return []
-
-    try:
-        with sync_playwright() as p:
-            browser = p.chromium.launch(
-                headless=True,
-                args=["--no-sandbox", "--disable-setuid-sandbox"],
-            )
-            page = browser.new_page()
-            page.goto(
-                "https://openrouter.ai/rankings?view=day",
-                wait_until="networkidle",
-                timeout=30000,
-            )
-            page.wait_for_selector(
-                '[data-testid="model-rankings-leaderboard-row"]', timeout=15000
-            )
-
-            rows_raw = page.evaluate("""() => {
-                const rows = document.querySelectorAll(
-                    '[data-testid="model-rankings-leaderboard-row"]'
-                );
-                return Array.from(rows).map(row => {
-                    const link = row.querySelector('a');
-                    // 查找包含 % 的 span 元素及内部 SVG 的 class
-                    // SVG class text-red-* = 下跌，text-green-* = 上涨
-                    const spans = row.querySelectorAll('span');
-                    let changeText = '';
-                    let isDecline = false;
-                    for (const s of spans) {
-                        if (s.textContent && s.textContent.includes('%')) {
-                            changeText = s.textContent.trim();
-                            const svg = s.querySelector('svg');
-                            if (svg) {
-                                const cls = svg.getAttribute('class') || '';
-                                isDecline = cls.includes('text-red');
-                            }
-                            break;
-                        }
-                    }
-                    return {
-                        href: link ? link.getAttribute('href') : '',
-                        text: row.textContent || '',
-                        changeText: changeText,
-                        isDecline: isDecline,
-                    };
-                });
-            }""")
-
-            browser.close()
-
-        result = []
-        for row_data in rows_raw:
-            text = row_data.get("text", "")
-            href = row_data.get("href", "")
-            change_text = row_data.get("changeText", "")
-            is_decline = row_data.get("isDecline", False)
-            # 示例文本： "1. Hy3 previewby tencent483B tokens3%"
-            m = _re.match(
-                r"^(\d+)\.\s*(.+?)by\s+([a-zA-Z][a-zA-Z-]*)\s*"
-                r"([\d.]+)\s*(B|M|T|K)?\s*tokens",
-                text,
-            )
-            if not m:
-                continue
-            rank, name, org, amount, unit = m.groups()
-
-            # 从 changeText 提取变化百分比，用 SVG class 判断涨跌
-            change = 0
-            if change_text:
-                digits = _re.search(r"[\d.]+", change_text)
-                if digits:
-                    val = float(digits.group())
-                    change = -val if is_decline else val
-
-            multiplier = {"T": 1e12, "B": 1e9, "M": 1e6, "K": 1e3}
-            total_tokens = int(float(amount) * multiplier.get(unit, 1e9))
-
-            slug = href.lstrip("/")
-            display_name = _re.sub(r"-\d{8}$", "", name.strip())
-            display_name = display_name.replace(":free", " (free)").replace(":", " ")
-
-            result.append({
-                "rank": int(rank),
-                "slug": slug,
-                "name": display_name,
-                "org": org.strip(),
-                "total_tokens": total_tokens,
-                "total_tokens_str": amount + (unit or "B"),
-                "change": change,
-                "url": f"https://openrouter.ai/{slug}",
-            })
-
-        return result
-
+        resp = requests.get(_OR_API, headers=HEADERS, timeout=15)
+        resp.raise_for_status()
+        payload = resp.json()
     except Exception as e:
-        print(f"  ⚠️ OpenRouter 排行榜抓取失败：{e}")
+        print(f"  ⚠️ OpenRouter 排行榜 API 请求失败：{e}")
         return []
+
+    models = payload.get("data", [])
+    if not models:
+        print("  ⚠️ OpenRouter API 返回空数据")
+        return []
+
+    # 按 model_permaslug 聚合（同一模型可能有 standard / free 等多个 variant）
+    agg = defaultdict(lambda: {"total_tokens": 0, "count": 0, "slug": "", "change": None})
+
+    for m in models:
+        slug = m.get("model_permaslug", "")
+        if not slug:
+            continue
+        agg[slug]["total_tokens"] += m.get("total_completion_tokens", 0) + m.get("total_prompt_tokens", 0)
+        agg[slug]["count"] += m.get("count", 0)
+        agg[slug]["slug"] = slug
+        if agg[slug]["change"] is None and m.get("change") is not None:
+            agg[slug]["change"] = m["change"]
+
+    # 按总 token 量降序，取 Top 10
+    sorted_models = sorted(agg.items(), key=lambda x: x[1]["total_tokens"], reverse=True)[:10]
+
+    _MODEL_NAMES = _load_model_name_map()
+
+    result = []
+    for i, (permaslug, info) in enumerate(sorted_models, 1):
+        total_tokens = info["total_tokens"]
+
+        if total_tokens >= 1e12:
+            token_str = f"{total_tokens / 1e12:.1f}T"
+        elif total_tokens >= 1e9:
+            token_str = f"{total_tokens / 1e9:.0f}B"
+        elif total_tokens >= 1e6:
+            token_str = f"{total_tokens / 1e6:.0f}M"
+        else:
+            token_str = str(total_tokens)
+
+        org = permaslug.split("/")[0] if "/" in permaslug else ""
+        # 去掉日期后缀以便匹配模型名称映射
+        clean_slug = _strip_date_suffix(permaslug)
+        display_name = _MODEL_NAMES.get(clean_slug, _MODEL_NAMES.get(permaslug, _slug_to_display(permaslug)))
+        change = round(info["change"], 1) if info["change"] is not None else 0
+
+        result.append({
+            "rank": i,
+            "slug": clean_slug,
+            "name": display_name,
+            "org": org,
+            "total_tokens": total_tokens,
+            "total_tokens_str": token_str,
+            "api_calls": info["count"],
+            "change": change,
+            "url": f"https://openrouter.ai/{clean_slug}",
+        })
+
+    print(f"  ✓ OpenRouter 排行榜：成功解析 {len(result)} 个模型")
+    return result
+
+
+# 已知模型 slug → 显示名称映射（从 /api/v1/models 提取，首次运行时自动填充）
+_MODEL_NAME_CACHE = None
+
+
+def _load_model_name_map() -> dict[str, str]:
+    """加载所有模型的 slug → 可读名称映射（惰性加载，只请求一次）"""
+    global _MODEL_NAME_CACHE
+    if _MODEL_NAME_CACHE is not None:
+        return _MODEL_NAME_CACHE
+
+    _MODEL_NAME_CACHE = {}
+    try:
+        resp = requests.get(
+            "https://openrouter.ai/api/v1/models",
+            headers=HEADERS,
+            timeout=15,
+        )
+        resp.raise_for_status()
+        payload = resp.json()
+        for m in payload.get("data", []):
+            model_id = m.get("id", "")
+            raw_name = m.get("name", "")
+            if not model_id or not raw_name:
+                continue
+            # "Anthropic: Claude Opus 4.7" → "Claude Opus 4.7"
+            clean = raw_name.split(":", 1)[-1].strip()
+            _MODEL_NAME_CACHE[model_id] = clean
+            # 也注册去掉 :free/:extended 等 variant 后缀的版本
+            base_id = model_id.split(":")[0]
+            if base_id != model_id and base_id not in _MODEL_NAME_CACHE:
+                _MODEL_NAME_CACHE[base_id] = clean
+        print(f"  ✓ 已加载 {len(_MODEL_NAME_CACHE)} 个模型名称映射")
+    except Exception as e:
+        print(f"  ⚠️ 模型名称映射加载失败（将使用 slug 作为名称）：{e}")
+
+    return _MODEL_NAME_CACHE
+
+
+def _strip_date_suffix(slug: str) -> str:
+    """去掉 permaslug 末尾的日期后缀：deepseek-v4-flash-20260423 → deepseek-v4-flash"""
+    import re as _re
+    return _re.sub(r"-\d{8}$", "", slug)
+
+
+def _slug_to_display(permaslug: str) -> str:
+    """fallback：从 permaslug 生成可读名称"""
+    import re as _re
+    # "deepseek/deepseek-v4-flash-20260423" → "deepseek-v4-flash"
+    last = permaslug.split("/")[-1] if "/" in permaslug else permaslug
+    last = _re.sub(r"-\d{8}$", "", last)  # 去掉日期后缀
+    last = last.replace("-", " ").replace("_", " ")
+    # 简单 title case
+    return " ".join(w[0].upper() + w[1:] if w else w for w in last.split())
 
 
 def _fetch_github_trending() -> list[dict]:
