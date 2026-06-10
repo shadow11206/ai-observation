@@ -1,6 +1,41 @@
 {
-  "total": 72,
+  "total": 77,
   "reports": [
+    {
+      "date": "2026-06-10",
+      "title": "今日 AI 日报：Anthropic 发布 Claude Fable 5 和 Mythos 5：一个面向大众，一个面向安全合作伙伴 + 4 条重要动态",
+      "excerpt": "Anthropic 在安全与能力之间做了明确分层：Fable 5 让大众享受最强…",
+      "top_count": 5,
+      "file": "2026-06-10.json"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "今日 AI 日报：苹果WWDC 2026：Siri全面AI化，核心架构基于Google Gemini模型 + 3 条重要动态",
+      "excerpt": "苹果放弃纯自研路线，选择与Google合作，说明其AI能力差距短期内无法靠自研弥…",
+      "top_count": 4,
+      "file": "2026-06-09.json"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "今日 AI 日报：OpenAI芯片核心人物在量产前夜叛逃至Anthropic + 4 条重要动态",
+      "excerpt": "对OpenAI是重大打击——芯片是降低推理成本、摆脱NVIDIA依赖的战略命脉，…",
+      "top_count": 5,
+      "file": "2026-06-08.json"
+    },
+    {
+      "date": "2026-06-07",
+      "title": "今日 AI 日报：OpenAI 推出 Lockdown Mode 防御提示注入攻击 + 4 条重要动态",
+      "excerpt": "这是 AI 应用安全的重要里程碑。提示注入一直是企业采用 AI 的核心障碍，Lo…",
+      "top_count": 5,
+      "file": "2026-06-07.json"
+    },
+    {
+      "date": "2026-06-06",
+      "title": "今日 AI 日报：谷歌每月向SpaceX支付9.2亿美元用于AI算力 + 4 条重要动态",
+      "excerpt": "这是AI基础设施军备竞赛的标志性事件。谷歌宁愿花天价租SpaceX的算力也不愿等…",
+      "top_count": 5,
+      "file": "2026-06-06.json"
+    },
     {
       "date": "2026-06-05",
       "title": "今日 AI 日报：Anthropic 发布开源框架，用于 AI 驱动的漏洞发现 + 4 条重要动态",
