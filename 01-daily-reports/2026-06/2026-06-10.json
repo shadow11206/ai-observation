@@ -1,0 +1,538 @@
+{
+  "date": "2026-06-10",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Anthropic 发布 Claude Fable 5 和 Mythos 5：一个面向大众，一个面向安全合作伙伴",
+      "finding": "Anthropic 今天发布了两个新模型：Claude Fable 5 面向所有用户，能力超过以往任何公开发布的模型，能一键生成有趣的视频游戏；Claude Mythos 5 则只提供给受信任的安全合作伙伴，用于网络安全等高风险场景。Fable 5 在代码生成、创意写作和长上下文理解上都有显著提升，但推理速度较慢。",
+      "key_data": [
+        "Fable 5 能力超过所有之前模型",
+        "Mythos 5 仅限安全合作伙伴",
+        "5000万行代码1天搞定",
+        "推理速度慢但能力极强"
+      ],
+      "judgment": "Anthropic 在安全与能力之间做了明确分层：Fable 5 让大众享受最强模型，Mythos 5 则保留给专业安全场景。这种策略既回应了安全担忧，又不牺牲产品竞争力。对开发者来说，Fable 5 的代码生成能力可能直接改变编程工作流，值得立即上手测试。",
+      "confidence": 5,
+      "source": "Wired / TechCrunch / 量子位",
+      "url": "https://www.wired.com/story/anthropic-releases-claude-fable-5-mythos-5/"
+    },
+    {
+      "rank": 2,
+      "title": "Google DeepMind 发布 Gemma 4 12B：无编码器的统一多模态模型",
+      "finding": "Google DeepMind 发布了 Gemma 4 12B，这是一个不需要独立视觉编码器的多模态模型，直接将图像 token 化后输入语言模型。这种设计简化了架构，降低了部署复杂度，同时保持了强大的视觉理解能力。模型已在 Hugging Face 上开源。",
+      "key_data": [
+        "12B 参数",
+        "无独立视觉编码器",
+        "统一多模态架构",
+        "开源发布"
+      ],
+      "judgment": "去掉视觉编码器是多模态模型的一个重要简化方向，降低了部署门槛。对开发者来说，这意味着更简单的集成和更低的推理成本。Gemma 4 12B 有望成为端侧多模态应用的首选模型。",
+      "confidence": 5,
+      "source": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/"
+    },
+    {
+      "rank": 3,
+      "title": "Google DeepMind 推出 Gemini 3.5 Live Translate：实时语音翻译",
+      "finding": "Google DeepMind 发布了 Gemini 3.5 Live Translate，这是一个基于 Gemini 3.5 的实时语音翻译功能，已集成到 Google AI Studio、Google Translate 和 Google Meet 中。它支持接近实时的自然语音翻译，延迟极低，语音自然度大幅提升。",
+      "key_data": [
+        "实时语音翻译",
+        "集成到 Google Translate 和 Meet",
+        "低延迟、自然语音"
+      ],
+      "judgment": "实时语音翻译是 AI 最有价值的杀手级应用之一。Gemini 3.5 Live Translate 将这一能力直接嵌入到 Google 的核心产品中，对跨国沟通、会议、旅游等场景是革命性的。这是 Google 在多模态实时交互上的重要一步。",
+      "confidence": 5,
+      "source": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/"
+    },
+    {
+      "rank": 4,
+      "title": "OpenAI 发布 Codex 客户案例：Notion 和 Nextdoor 如何用 Codex 提升工程效率",
+      "finding": "OpenAI 发布了两个 Codex 客户案例：Notion 用 Codex 实现一键生成产品规格和 AI 语音输入；Nextdoor 用 Codex 结合 GPT-5.5 调查难以复现的问题、跨平台构建。两个案例都强调 Codex 让小型团队也能完成大型工程任务。",
+      "key_data": [
+        "Notion 一键生成规格",
+        "Nextdoor 用 GPT-5.5 调查问题",
+        "小型团队倍增工程能力"
+      ],
+      "judgment": "Codex 正在从代码补全工具进化为完整的工程能力倍增器。Notion 和 Nextdoor 的案例展示了 AI 编程如何从辅助写代码扩展到需求分析、问题排查等全流程。这对所有软件团队都是信号：AI 编程工具的使用方式正在被重新定义。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/notion"
+    },
+    {
+      "rank": 5,
+      "title": "Pragmatic Engineer 发布 2026 软件工程就业市场报告：AI 实验室吸引力超过 Big Tech",
+      "finding": "Gergely Orosz 的深度报告揭示了 2026 年软件工程就业市场的几个关键趋势：AI 实验室（如 OpenAI、Anthropic）的吸引力已超过传统 Big Tech；原生移动开发和前端岗位正在减少；管理层级正在扁平化（'Great Flattening'）。",
+      "key_data": [
+        "AI 实验室吸引力 > Big Tech",
+        "原生移动/前端岗位减少",
+        "管理层级扁平化"
+      ],
+      "judgment": "这是对开发者职业规划有直接影响的报告。AI 实验室成为人才首选目的地，意味着传统科技公司需要重新思考人才策略。前端和移动开发岗位的减少是 AI 编程工具替代效应的早期信号，开发者需要主动向 AI 工程方向转型。",
+      "confidence": 4,
+      "source": "The Pragmatic Engineer",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-job-market-in-2026-part-2"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Hugging Face Blog",
+      "title": "Cohere 发布 North Mini Code：面向开发者的代码模型",
+      "finding": "Cohere 发布了 North Mini Code，这是其首个面向开发者的代码模型，专注于代码生成和理解。模型已在 Hugging Face 上开源，支持多种编程语言。",
+      "key_data": [
+        "首个开发者代码模型",
+        "开源发布",
+        "多语言支持"
+      ],
+      "judgment": "Cohere 进入代码模型领域，意味着代码生成赛道竞争加剧。对开发者来说，多一个选择总是好事，但 North Mini Code 能否在 Cursor、Copilot 等成熟产品中突围，还需看实际效果。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/LocalLLaMA",
+      "title": "Unsloth 发布 Gemma 4 QAT MTP 辅助模型",
+      "finding": "Unsloth 发布了基于 Gemma 4 的量化感知训练（QAT）和多 token 预测（MTP）辅助模型，支持 GGUF 格式，可在本地运行。",
+      "key_data": [
+        "QAT 量化感知训练",
+        "MTP 多 token 预测",
+        "GGUF 格式"
+      ],
+      "judgment": "Unsloth 持续降低大模型本地部署门槛，QAT 和 MTP 技术有助于在消费级硬件上获得更好的推理性能。对本地 AI 爱好者是好消息。",
+      "confidence": 4,
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u19k2h/unsloth_gemma_4_qat_mtp_assistant_models_now/",
+      "importance": 2
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "Phinite：多智能体操作系统，提供身份、可组合技能和行为评估",
+      "finding": "一个名为 Phinite 的开源项目发布，定位为多智能体系统的基础设施层。它为每个 agent 提供独立身份、可组合的技能系统以及行为评估框架，解决当前多 agent 系统中缺乏身份和可观测性的问题。",
+      "key_data": [
+        "多智能体操作系统",
+        "Agent 身份系统",
+        "可组合技能",
+        "行为评估"
+      ],
+      "judgment": "多 agent 系统缺乏基础设施是当前行业痛点。Phinite 尝试解决身份、可组合性和评估问题，如果成熟，可能成为多 agent 开发的标配工具。值得关注。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u1jqmf/phinite_multiagent_os_with_firstclass_agent/",
+      "importance": 3
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "语音 Agent 能否处理双语客户？对前沿 ASR 的代码切换语音基准测试",
+      "finding": "ServiceNow AI 发布了一个针对代码切换（中英混合）语音的 ASR 基准测试，评估当前主流语音识别模型在双语场景下的表现。结果显示，现有模型在代码切换场景下准确率显著下降。",
+      "key_data": [
+        "代码切换语音基准",
+        "双语场景准确率下降",
+        "ASR 模型评估"
+      ],
+      "judgment": "语音 Agent 要真正全球化，必须解决代码切换问题。这个基准测试暴露了当前 ASR 模型的短板，对语音交互产品开发者有直接参考价值。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "36氪",
+      "title": "context-mode 开源项目让 AI 编程成本降低 98%",
+      "finding": "一个名为 context-mode 的开源 MCP 插件登顶 GitHub Hacker News。它专为 AI 编程优化上下文，解决长周期开发中的'模型失忆'和 Token 消耗问题。据团队称，可将 AI 编程成本降低 98%，模型记忆力从 30 分钟提升至 3 小时。",
+      "key_data": [
+        "成本降低 98%",
+        "记忆力从 30 分钟提升至 3 小时",
+        "MCP 插件",
+        "登顶 GitHub Hacker News"
+      ],
+      "judgment": "Token 成本是 AI 编程大规模落地的核心障碍。context-mode 如果效果属实，将大幅降低 AI 编程的边际成本，加速 AI 编程的普及。值得所有 AI 编程用户关注。",
+      "confidence": 3,
+      "url": "https://36kr.com/p/3845645258541319?f=rss",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "谷歌为 Gemini 租用 SpaceX 11 万块 GPU，马斯克每月躺赚 9.2 亿美元",
+      "finding": "据报道，谷歌与 SpaceX 达成协议，租用 11 万块 GPU 用于 Gemini 模型的训练和推理。这笔交易每月为马斯克带来约 9.2 亿美元的收入。",
+      "key_data": [
+        "11 万块 GPU",
+        "每月 9.2 亿美元",
+        "谷歌 Gemini 训练"
+      ],
+      "judgment": "这反映了 AI 军备竞赛中算力资源的极度紧张和成本之高。谷歌宁愿租用 SpaceX 的 GPU 也不自己建，说明 GPU 供应链瓶颈依然严重。对 AI 创业公司来说，算力成本短期内不会下降。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/rUdJM6SDR5t6BFhA4xi7?utm_source=rss&utm_medium=article",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "WWDC 2026：苹果发布 iOS 27，Siri 使用 WaveRNN 和 FastSpeech2",
+      "finding": "苹果在 WWDC 2026 上发布了 iOS 27，Siri 的语音合成引擎升级为 WaveRNN 和 FastSpeech2。同时，苹果展示了与 Gemini 合作构建的新 AI 模型，强调隐私保护。",
+      "key_data": [
+        "iOS 27",
+        "Siri 使用 WaveRNN + FastSpeech2",
+        "与 Gemini 合作",
+        "隐私优先"
+      ],
+      "judgment": "苹果在 AI 上依然走'隐私优先'路线，与 Gemini 合作但不依赖单一模型。Siri 的语音升级是体验上的小步改进，但整体来看苹果在 AI 领域仍落后于 Google 和 OpenAI。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "importance": 2
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "Agent 如何通过链接两个 Hugging Face Spaces 构建 3D 巴黎画廊",
+      "finding": "Hugging Face 展示了一个 AI Agent 如何通过链式调用两个 Hugging Face Spaces（一个用于 3D 生成，一个用于场景构建）自动创建了一个 3D 巴黎画廊。",
+      "key_data": [
+        "链式调用 Spaces",
+        "自动构建 3D 场景",
+        "Agent 工作流"
+      ],
+      "judgment": "这个 demo 展示了 AI Agent 组合不同工具完成复杂任务的能力。对开发者来说，Hugging Face Spaces 正在成为 Agent 的'乐高积木'，降低了构建复杂 AI 应用的难度。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Andrej Karpathy",
+      "level": "L1",
+      "quote": "我感觉到很多事情正在改变，因为可工作的软件正像自来水一样源源不断地流出。杰文斯悖论正在发挥作用，我对软件的需求正在大幅增长。你可以要求任何东西，软件正在变成一种商品。",
+      "source": "https://simonwillison.net/2026/Jun/9/andrej-karpathy/#atom-everything"
+    },
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "Claude Fable 5 是一个'野兽'。它很慢，但能力极强。我花了 5.5 小时测试，初步印象是它在代码生成和创意任务上表现惊人，但推理速度是明显的瓶颈。",
+      "source": "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "Anthropic Fable 5 vs Mythos 5 安全分层策略深度分析",
+      "reason": "Anthropic 首次明确将最强模型分层发布，这种安全策略可能成为行业标准，值得深入分析其设计思路和影响。",
+      "priority": "high"
+    },
+    {
+      "topic": "无编码器多模态模型的技术路线与 Gemma 4 12B 架构解析",
+      "reason": "去掉视觉编码器是多模态模型的重要简化方向，Gemma 4 12B 是首个开源实现，对端侧部署有重大意义。",
+      "priority": "medium"
+    },
+    {
+      "topic": "2026 年软件工程就业市场变化：AI 实验室 vs Big Tech 的人才争夺",
+      "reason": "Pragmatic Engineer 报告揭示了 AI 行业人才流向的结构性变化，对开发者职业规划和公司招聘策略有直接指导意义。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "Anthropic 发布最强模型，Google 多模态和语音齐发，AI 编程成本骤降",
+  "snapshot": {
+    "date": "2026-06-10",
+    "hf_trending": [
+      {
+        "name": "google/gemma-4-12B-it",
+        "short_name": "gemma-4-12B-it",
+        "likes": 810,
+        "downloads": 581354,
+        "url": "https://huggingface.co/google/gemma-4-12B-it",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4_unified"
+        ],
+        "pipeline_tag": "any-to-any",
+        "label": "Any To Any",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "nvidia/LocateAnything-3B",
+        "short_name": "LocateAnything-3B",
+        "likes": 1727,
+        "downloads": 123922,
+        "url": "https://huggingface.co/nvidia/LocateAnything-3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "locateanything"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "unsloth/gemma-4-12b-it-GGUF",
+        "short_name": "gemma-4-12b-it-GGUF",
+        "likes": 531,
+        "downloads": 660140,
+        "url": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
+        "tags": [
+          "gguf",
+          "gemma4",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "google/gemma-4-12B",
+        "short_name": "gemma-4-12B",
+        "likes": 479,
+        "downloads": 122464,
+        "url": "https://huggingface.co/google/gemma-4-12B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gemma4_unified"
+        ],
+        "pipeline_tag": "any-to-any",
+        "label": "Any To Any",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "ideogram-ai/ideogram-4-fp8",
+        "short_name": "ideogram-4-fp8",
+        "likes": 438,
+        "downloads": 5915,
+        "url": "https://huggingface.co/ideogram-ai/ideogram-4-fp8",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "text-to-image"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "bosonai/higgs-audio-v3-tts-4b",
+        "short_name": "higgs-audio-v3-tts-4b",
+        "likes": 283,
+        "downloads": 16207,
+        "url": "https://huggingface.co/bosonai/higgs-audio-v3-tts-4b",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "higgs_multimodal_qwen3"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "ideogram-ai/ideogram-4-nf4",
+        "short_name": "ideogram-4-nf4",
+        "likes": 287,
+        "downloads": 5250,
+        "url": "https://huggingface.co/ideogram-ai/ideogram-4-nf4",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "text-to-image"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+        "short_name": "nemotron-3.5-asr-streaming-0.6b",
+        "likes": 317,
+        "downloads": 4181,
+        "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+        "tags": [
+          "nemo",
+          "speech-recognition",
+          "cache-aware ASR"
+        ],
+        "pipeline_tag": "automatic-speech-recognition",
+        "label": "语音识别",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "openclaw/openclaw",
+        "desc": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+        "stars": 377826,
+        "language": "TypeScript",
+        "url": "https://github.com/openclaw/openclaw",
+        "topics": [
+          "ai",
+          "assistant",
+          "crustacean"
+        ]
+      },
+      {
+        "name": "affaan-m/ECC",
+        "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research",
+        "stars": 211874,
+        "language": "JavaScript",
+        "url": "https://github.com/affaan-m/ECC",
+        "topics": [
+          "ai-agents",
+          "anthropic",
+          "claude"
+        ]
+      },
+      {
+        "name": "tensorflow/tensorflow",
+        "desc": "An Open Source Machine Learning Framework for Everyone",
+        "stars": 195621,
+        "language": "C++",
+        "url": "https://github.com/tensorflow/tensorflow",
+        "topics": [
+          "deep-learning",
+          "deep-neural-networks",
+          "distributed"
+        ]
+      },
+      {
+        "name": "n8n-io/n8n",
+        "desc": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with cus",
+        "stars": 191800,
+        "language": "TypeScript",
+        "url": "https://github.com/n8n-io/n8n",
+        "topics": [
+          "ai",
+          "apis",
+          "automation"
+        ]
+      },
+      {
+        "name": "NousResearch/hermes-agent",
+        "desc": "The agent that grows with you",
+        "stars": 188793,
+        "language": "Python",
+        "url": "https://github.com/NousResearch/hermes-agent",
+        "topics": [
+          "ai",
+          "ai-agent",
+          "ai-agents"
+        ]
+      },
+      {
+        "name": "Significant-Gravitas/AutoGPT",
+        "desc": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provi",
+        "stars": 184860,
+        "language": "Python",
+        "url": "https://github.com/Significant-Gravitas/AutoGPT",
+        "topics": [
+          "agentic-ai",
+          "agents",
+          "ai"
+        ]
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "org": "deepseek",
+        "total_tokens": 760000000000,
+        "total_tokens_str": "760B",
+        "change": 4.0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "tencent/hy3-preview",
+        "name": "Hy3 preview",
+        "org": "tencent",
+        "total_tokens": 689000000000,
+        "total_tokens_str": "689B",
+        "change": 41.0,
+        "url": "https://openrouter.ai/tencent/hy3-preview"
+      },
+      {
+        "rank": 3,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 507000000000,
+        "total_tokens_str": "507B",
+        "change": 53.0,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 4,
+        "slug": "minimax/minimax-m3",
+        "name": "MiniMax M3",
+        "org": "minimax",
+        "total_tokens": 439000000000,
+        "total_tokens_str": "439B",
+        "change": -4.0,
+        "url": "https://openrouter.ai/minimax/minimax-m3"
+      },
+      {
+        "rank": 5,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
+        "org": "deepseek",
+        "total_tokens": 360000000000,
+        "total_tokens_str": "360B",
+        "change": 18.0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 6,
+        "slug": "anthropic/claude-sonnet-4.6",
+        "name": "Claude Sonnet 4.6",
+        "org": "anthropic",
+        "total_tokens": 359000000000,
+        "total_tokens_str": "359B",
+        "change": 63.0,
+        "url": "https://openrouter.ai/anthropic/claude-sonnet-4.6"
+      },
+      {
+        "rank": 7,
+        "slug": "openrouter/owl-alpha",
+        "name": "Owl Alpha",
+        "org": "openrouter",
+        "total_tokens": 352000000000,
+        "total_tokens_str": "352B",
+        "change": 15.0,
+        "url": "https://openrouter.ai/openrouter/owl-alpha"
+      },
+      {
+        "rank": 8,
+        "slug": "anthropic/claude-opus-4.7",
+        "name": "Claude Opus 4.7",
+        "org": "anthropic",
+        "total_tokens": 276000000000,
+        "total_tokens_str": "276B",
+        "change": 10.0,
+        "url": "https://openrouter.ai/anthropic/claude-opus-4.7"
+      },
+      {
+        "rank": 9,
+        "slug": "anthropic/claude-opus-4.8",
+        "name": "Claude Opus 4.8",
+        "org": "anthropic",
+        "total_tokens": 229000000000,
+        "total_tokens_str": "229B",
+        "change": 14.0,
+        "url": "https://openrouter.ai/anthropic/claude-opus-4.8"
+      },
+      {
+        "rank": 10,
+        "slug": "deepseek/deepseek-v3.2",
+        "name": "DeepSeek V3.2",
+        "org": "deepseek",
+        "total_tokens": 180000000000,
+        "total_tokens_str": "180B",
+        "change": 6.0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v3.2"
+      }
+    ],
+    "hf_summary": "多模态模型霸榜，Gemma系列热度领先"
+  }
+}

@@ -1,6 +1,13 @@
 {
-  "total": 76,
+  "total": 77,
   "reports": [
+    {
+      "date": "2026-06-10",
+      "title": "今日 AI 日报：Anthropic 发布 Claude Fable 5 和 Mythos 5：一个面向大众，一个面向安全合作伙伴 + 4 条重要动态",
+      "excerpt": "Anthropic 在安全与能力之间做了明确分层：Fable 5 让大众享受最强…",
+      "top_count": 5,
+      "file": "2026-06-10.json"
+    },
     {
       "date": "2026-06-09",
       "title": "今日 AI 日报：苹果WWDC 2026：Siri全面AI化，核心架构基于Google Gemini模型 + 3 条重要动态",
