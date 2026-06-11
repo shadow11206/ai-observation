@@ -1,6 +1,13 @@
 {
-  "total": 77,
+  "total": 78,
   "reports": [
+    {
+      "date": "2026-06-11",
+      "title": "今日 AI 日报：Anthropic 发布 Fable 5 和 Mythos 5，但安全护栏引发巨大争议 + 4 条重要动态",
+      "excerpt": "Anthropic 在安全与实用性之间选择了极端的安全立场，这对开发者是重大打击…",
+      "top_count": 5,
+      "file": "2026-06-11.json"
+    },
     {
       "date": "2026-06-10",
       "title": "今日 AI 日报：Anthropic 发布 Claude Fable 5 和 Mythos 5：一个面向大众，一个面向安全合作伙伴 + 4 条重要动态",
