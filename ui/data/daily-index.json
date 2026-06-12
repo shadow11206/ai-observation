@@ -1,6 +1,13 @@
 {
-  "total": 78,
+  "total": 79,
   "reports": [
+    {
+      "date": "2026-06-12",
+      "title": "今日 AI 日报：Anthropic 撤回 Fable 5 反蒸馏策略，向用户道歉 + 4 条重要动态",
+      "excerpt": "这是 AI 行业信任危机的一个标志性事件。Anthropic 试图用技术手段保护…",
+      "top_count": 5,
+      "file": "2026-06-12.json"
+    },
     {
       "date": "2026-06-11",
       "title": "今日 AI 日报：Anthropic 发布 Fable 5 和 Mythos 5，但安全护栏引发巨大争议 + 4 条重要动态",
