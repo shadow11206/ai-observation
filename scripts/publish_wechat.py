@@ -200,7 +200,7 @@ def build_wechat_html(report):
         for entry in or_ranking[:10]:
             slug = entry.get("slug", entry.get("name", ""))
             tokens = entry.get("total_tokens_str", "")
-            parts.append(_or_item(slug, f"日 {tokens}"))
+            parts.append(_or_item(slug, tokens))
         parts.append('</p>')
 
     parts.append('</section>')
@@ -274,7 +274,7 @@ def main():
     thumb_id = get_or_upload_thumb(token)
 
     print("📤 创建草稿 ...")
-    daily_url = f"{site_base_url}/ui/daily.html?date={date_str}"
+    daily_url = f"{site_base_url}/ui/report.html?date={date_str}"
     media_id = create_draft(token, title, html, thumb_id, daily_url)
     print(f"✅ 草稿已创建，media_id: {media_id}")
     print(f"🔗 原文链接: {daily_url}")
