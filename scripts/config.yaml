@@ -308,3 +308,11 @@ report:
 filter:
   hours_lookback: 24
   max_items_per_feed: 5
+
+# ============================================================
+# 微信公众号发布配置（publish_wechat.py 使用）
+# appid 和 appsecret 通过环境变量 WECHAT_APPID / WECHAT_APPSECRET 注入
+# ============================================================
+wechat:
+  enabled: true
+  site_base_url: "https://shadow11206.github.io/ai-observation"

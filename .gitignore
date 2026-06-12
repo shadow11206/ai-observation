@@ -25,3 +25,6 @@ secrets.yaml
 # 日志
 *.log
 logs/
+
+# 微信 token 缓存
+.wechat_token_cache.json

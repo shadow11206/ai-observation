@@ -53,3 +53,10 @@ jobs:
           git add 01-daily-reports/ ui/data/daily-index.json
           git diff --staged --quiet || git commit -m "📰 Daily report $(date +%Y-%m-%d)"
           git push
+
+      - name: Publish to WeChat
+        if: success()
+        env:
+          WECHAT_APPID: ${{ secrets.WECHAT_APPID }}
+          WECHAT_APPSECRET: ${{ secrets.WECHAT_APPSECRET }}
+        run: python scripts/publish_wechat.py
