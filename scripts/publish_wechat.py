@@ -112,7 +112,7 @@ def get_or_upload_thumb(access_token):
 
 def _item_card(rank, item, show_source=True):
     title = escape_html(item.get("title", ""))
-    judgment = escape_html(item.get("judgment", ""))
+    finding = escape_html(item.get("finding", ""))
     source = escape_html(item.get("source", ""))
 
     parts = [
@@ -127,7 +127,7 @@ def _item_card(rank, item, show_source=True):
     )
     parts.append(
         f'<p style="font-size: 14px; color: #555; margin: 0 0 6px 0; line-height: 1.7;">'
-        f'{judgment}'
+        f'{finding}'
         f'</p>'
     )
     if show_source and source:
