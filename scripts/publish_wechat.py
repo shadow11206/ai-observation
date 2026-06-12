@@ -140,8 +140,9 @@ def _item_card(rank, item, show_source=True):
 
 def _section_header(text):
     return (
-        f'<p style="font-weight: bold; font-size: 16px; margin-top: 20px; '
-        f'color: #1a1a1a;">{text}</p>'
+        f'<p style="font-weight: bold; font-size: 18px; margin-top: 24px; '
+        f'padding-bottom: 6px; border-bottom: 2px solid #1890ff; '
+        f'color: #0d3b66;">{text}</p>'
     )
 
 
@@ -165,13 +166,6 @@ def build_wechat_html(report):
     parts = [
         '<section style="padding: 10px 0; line-height: 1.8; color: #333; font-size: 15px;">',
     ]
-
-    # 标题
-    parts.append(
-        f'<h2 style="text-align: center; font-size: 20px; color: #1a1a1a; margin-bottom: 8px;">'
-        f'AI 日报 · {date_str}'
-        f'</h2>'
-    )
 
     # 一句话总结
     if summary:
