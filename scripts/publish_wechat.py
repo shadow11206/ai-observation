@@ -187,16 +187,16 @@ def build_wechat_html(report):
     for item in top_items:
         parts.append(_item_card(item.get("rank", ""), item))
 
-    # 模型/技术动态（取前 2 条）
+    # 模型/技术动态（取前 3 条）
     if model_tech:
         parts.append(_section_header("🧠 模型/技术动态"))
-        for i, item in enumerate(model_tech[:2], 1):
+        for i, item in enumerate(model_tech[:3], 1):
             parts.append(_item_card(i, item))
 
-    # 公司/产品动态（取前 2 条）
+    # 公司/产品动态（取前 3 条）
     if company_product:
         parts.append(_section_header("🏢 公司/产品动态"))
-        for i, item in enumerate(company_product[:2], 1):
+        for i, item in enumerate(company_product[:3], 1):
             parts.append(_item_card(i, item))
 
     # OpenRouter 日调用排行
