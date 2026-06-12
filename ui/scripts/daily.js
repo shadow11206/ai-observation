@@ -1,10 +1,11 @@
 /**
  * daily.js — 日报列表页
  * 从 daily-index.json 获取全量日期范围，渲染日期导航器（按月分组）
- * 并尝试加载每个有日报的日期的完整 JSON，渲染为卡片列表
+ * 近 30 天加载完整 JSON 渲染富卡片，更早的从索引数据渲染简卡片
  */
 
 const REPORTS_BASE = '../01-daily-reports';
+const RECENT_DAYS = 30;
 const LIST_CONTAINER = document.getElementById('report-list');
 const EMPTY_STATE = document.getElementById('empty-state');
 const DATE_NAV = document.getElementById('date-nav');
@@ -33,7 +34,6 @@ function getTodayStr() {
   return `${yyyy}-${mm}-${dd}`;
 }
 
-// 尝试加载某一天的日报 JSON
 async function fetchReport(dateInfo) {
   const url = `${REPORTS_BASE}/${dateInfo.month}/${dateInfo.date}.json`;
   try {
@@ -51,11 +51,10 @@ function isToday(dateStr) {
   return now.toDateString() === d.toDateString();
 }
 
-// 渲染日期导航器（展示全量月份，根据 availableSet 判断是否有日报）
+// 渲染日期导航器（展示全量月份）
 function renderDateNav(dates, availableSet) {
   if (!DATE_NAV) return;
 
-  // 按月分组
   const monthMap = new Map();
   dates.forEach(({ date, month }) => {
     if (!monthMap.has(month)) monthMap.set(month, []);
@@ -92,14 +91,13 @@ function renderDateNav(dates, availableSet) {
   DATE_NAV.innerHTML = html;
 }
 
-// 渲染单张日报卡片（摘要模式）
-function renderCard(data) {
+// 渲染富卡片（来自完整 JSON，近 30 天）
+function renderRichCard(data) {
   const { date, top_items = [], summary_one_line = '' } = data;
   const d = new Date(date + 'T00:00:00');
   const weekdays = ['日', '一', '二', '三', '四', '五', '六'];
   const dateLabel = `${d.getFullYear()} 年 ${d.getMonth() + 1} 月 ${d.getDate()} 日 · 星期${weekdays[d.getDay()]}`;
 
-  // 收集 key_data（优先）或 tags（fallback）
   const allKeyData = [...new Set(top_items.flatMap(i => i.key_data || i.tags || []))];
 
   const card = document.createElement('div');
@@ -136,66 +134,87 @@ function renderCard(data) {
   return card;
 }
 
+// 渲染简卡片（来自索引数据，用于 30 天前的日报）
+function renderSimpleCard(entry) {
+  const { date, title, excerpt } = entry;
+  const d = new Date(date + 'T00:00:00');
+  const weekdays = ['日', '一', '二', '三', '四', '五', '六'];
+  const dateLabel = `${d.getFullYear()} 年 ${d.getMonth() + 1} 月 ${d.getDate()} 日 · 星期${weekdays[d.getDay()]}`;
+
+  const card = document.createElement('div');
+  card.className = 'daily-report reveal';
+
+  card.innerHTML = `
+    <div class="daily-report-header">
+      <span class="daily-report-date">${dateLabel}</span>
+    </div>
+    <div class="daily-report-body">
+      <h3 style="font-family:var(--font-serif);font-size:1.05rem;font-weight:700;margin-bottom:0.5rem;line-height:1.45;">${title || ''}</h3>
+      ${excerpt ? `<p style="font-size:14px;color:var(--text-secondary);line-height:1.6;margin-bottom:1rem;">${excerpt}</p>` : ''}
+      <a href="report.html?date=${date}" class="report-link" style="font-size:14px;">阅读全文 →</a>
+    </div>
+  `;
+
+  return card;
+}
+
 // 主流程
 async function init() {
-  // 1. 加载全量索引，获取所有有日报的日期
+  // 1. 加载全量索引
   let indexData = null;
   try {
     const res = await fetch('data/daily-index.json');
     if (res.ok) indexData = await res.json();
-  } catch (e) {
-    // fallback: 无索引时回退到最近 60 天
-  }
+  } catch (e) { /* fallback */ }
 
-  // 确定全量日期范围
-  let firstDate, lastDate;
-  if (indexData && indexData.reports && indexData.reports.length > 0) {
-    // 索引按日期降序排列，最后一条是最早的
-    const reports = indexData.reports;
-    firstDate = reports[reports.length - 1].date;
-    lastDate = getTodayStr();
-  } else {
-    // fallback：最近 60 天
-    const now = new Date();
-    const past = new Date(now);
-    past.setDate(past.getDate() - 59);
-    firstDate = past.toISOString().slice(0, 10);
-    lastDate = now.toISOString().slice(0, 10);
-  }
-
-  const dates = getDateRange(firstDate, lastDate);
-  const availableSet = indexData
-    ? new Set(indexData.reports.map(r => r.date))
-    : new Set();
-
-  // 2. 渲染全量日期导航器
-  renderDateNav(dates, availableSet);
-
-  // 3. 并发加载每个有日报的日期的完整 JSON（使用 indexData 预筛，避免 404 请求）
-  let sourceDates;
-  if (indexData && indexData.reports.length > 0) {
-    // 只对有日报的日期发起请求（按降序）
-    sourceDates = indexData.reports.map(r => ({
-      date: r.date,
-      month: r.date.slice(0, 7)
-    }));
-  } else {
-    // fallback：尝试最近 60 天
-    sourceDates = dates.slice(0, 60);
-  }
-
-  const results = await Promise.all(sourceDates.map(fetchReport));
-  const reports = results.filter(Boolean);
-
-  // 4. 渲染卡片列表
-  if (reports.length === 0) {
+  if (!indexData || !indexData.reports || indexData.reports.length === 0) {
     EMPTY_STATE.style.display = 'block';
     return;
   }
 
-  reports.forEach(r => {
-    const card = renderCard(r);
-    LIST_CONTAINER.appendChild(card);
+  const allReports = indexData.reports; // 按日期降序
+  const firstDate = allReports[allReports.length - 1].date;
+  const lastDate = getTodayStr();
+  const dates = getDateRange(firstDate, lastDate);
+  const availableSet = new Set(allReports.map(r => r.date));
+
+  // 2. 渲染全量日期导航器
+  renderDateNav(dates, availableSet);
+
+  // 3. 近 N 天加载完整 JSON（富卡片），其余用索引数据（简卡片）
+  const recentCutoff = new Date();
+  recentCutoff.setDate(recentCutoff.getDate() - RECENT_DAYS);
+  const cutoffStr = recentCutoff.toISOString().slice(0, 10);
+
+  const recentEntries = allReports.filter(r => r.date >= cutoffStr);
+  const olderEntries = allReports.filter(r => r.date < cutoffStr);
+
+  // 并发加载近 N 天的完整 JSON
+  const sourceDates = recentEntries.map(r => ({
+    date: r.date,
+    month: r.date.slice(0, 7)
+  }));
+  const results = await Promise.all(sourceDates.map(fetchReport));
+  const recentReports = results.filter(Boolean);
+  const recentMap = new Map(recentReports.map(r => [r.date, r]));
+
+  // 4. 渲染卡片
+  if (recentReports.length === 0 && olderEntries.length === 0) {
+    EMPTY_STATE.style.display = 'block';
+    return;
+  }
+
+  // 近 N 天富卡片（按索引顺序渲染）
+  recentEntries.forEach(entry => {
+    const full = recentMap.get(entry.date);
+    if (full) {
+      LIST_CONTAINER.appendChild(renderRichCard(full));
+    }
+  });
+
+  // 更早的简卡片
+  olderEntries.forEach(entry => {
+    LIST_CONTAINER.appendChild(renderSimpleCard(entry));
   });
 
   // 5. 初始化 reveal 动画

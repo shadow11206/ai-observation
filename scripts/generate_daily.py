@@ -147,7 +147,8 @@ def generate_report_with_ai(raw_info: list[dict], config: dict, date_override: s
       "priority": "high"
     }}
   ],
-  "summary_one_line": "今日一句话总结（20字以内，中文）"
+  "summary_one_line": "今日一句话总结（20字以内，中文）",
+  "summary_paragraph": "今日内容综述，用100-150字把今日最重要的动向串成一段连贯的话，让读者不看全文就能了解今天发生了什么、意味着什么。避免罗列条目，要有叙事感。"
 }}
 
 要求：
@@ -208,6 +209,7 @@ def generate_report_with_ai(raw_info: list[dict], config: dict, date_override: s
             "opinions": [],
             "deep_dive_suggestions": [],
             "summary_one_line": "今日日报生成完成",
+            "summary_paragraph": "",
             "raw_content": raw_output,
         }
 
@@ -294,6 +296,8 @@ def _render_md(data: dict) -> str:
 
     if data.get("summary_one_line"):
         lines.append(f"> {data['summary_one_line']}\n")
+    if data.get("summary_paragraph"):
+        lines.append(f"{data['summary_paragraph']}\n")
 
     # 今日最重要
     lines.append("## 📌 今日最重要\n")
