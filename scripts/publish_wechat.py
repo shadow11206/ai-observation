@@ -20,14 +20,11 @@ from pathlib import Path
 
 import requests
 import yaml
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image
 
 BJT = timezone(timedelta(hours=8))
 REPO_ROOT = Path(__file__).resolve().parent.parent
 TOKEN_CACHE = REPO_ROOT / ".wechat_token_cache.json"
-
-FONT_PATH = "/System/Library/Fonts/PingFang.ttc"  # macOS
-FONT_FALLBACK = "/usr/share/fonts/truetype/noto/NotoSansCJK-Regular.ttc"  # Linux CI
 
 
 def load_config():
@@ -87,63 +84,18 @@ def get_access_token(appid, secret):
     return data["access_token"]
 
 
-def _find_font():
-    for path in (FONT_PATH, FONT_FALLBACK):
-        if os.path.exists(path):
-            return path
-    # Pillow 默认字体
-    return None
+def get_or_upload_thumb(access_token):
+    """上传一次占位封面并永久缓存，封面在后台手动替换。"""
+    cache = load_cache()
+    thumb_id = cache.get("thumb_media_id", "")
+    if thumb_id:
+        return thumb_id
 
-
-def create_cover_png(date_str):
-    """生成封面图：深蓝渐变背景 + 日期文字。"""
+    print("🖼️  上传占位封面（仅首次）...")
     img = Image.new("RGB", (900, 383), (15, 30, 80))
-    draw = ImageDraw.Draw(img)
-
-    # 渐变背景
-    for y in range(img.height):
-        t = y / img.height
-        r = int(15 + t * 25)
-        g = int(30 + t * 50)
-        b = int(80 + t * 70)
-        draw.line([(0, y), (img.width, y)], fill=(r, g, b))
-
-    # 文字
-    font_path = _find_font()
-    text = f"{date_str}  AI日报"
-
-    if font_path:
-        # 尝试不同字号找到合适的
-        font_size = 72
-        font = ImageFont.truetype(font_path, font_size)
-        bbox = draw.textbbox((0, 0), text, font=font)
-        while bbox[2] - bbox[0] > img.width - 80 and font_size > 30:
-            font_size -= 4
-            font = ImageFont.truetype(font_path, font_size)
-            bbox = draw.textbbox((0, 0), text, font=font)
-
-        tw, th = bbox[2] - bbox[0], bbox[3] - bbox[1]
-        x = (img.width - tw) / 2
-        y = (img.height - th) / 2
-        # 阴影
-        draw.text((x + 3, y + 3), text, font=font, fill=(0, 0, 0, 120))
-        # 白色文字
-        draw.text((x, y), text, font=font, fill=(255, 255, 255, 230))
-    else:
-        # 无中文字体时用默认字体（英文 fallback）
-        text = f"AI Daily\n{date_str}"
-        font = ImageFont.load_default()
-        draw.text((60, 140), text, font=font, fill=(255, 255, 255))
-
     buf = BytesIO()
     img.save(buf, format="PNG")
-    return buf.getvalue()
-
-
-def get_or_upload_thumb(access_token, date_str):
-    """获取或上传封面图，每次都重新生成（带日期）。"""
-    print("🖼️  生成封面图 ...")
-    png_bytes = create_cover_png(date_str)
+    png_bytes = buf.getvalue()
 
     url = (f"https://api.weixin.qq.com/cgi-bin/material/add_material"
            f"?access_token={access_token}&type=thumb")
@@ -152,6 +104,9 @@ def get_or_upload_thumb(access_token, date_str):
     if "media_id" not in data:
         print(f"❌ 上传封面失败: {data}")
         sys.exit(1)
+
+    cache["thumb_media_id"] = data["media_id"]
+    save_cache(cache)
     return data["media_id"]
 
 
@@ -322,7 +277,7 @@ def main():
     print("🔑 获取 access_token ...")
     token = get_access_token(appid, secret)
 
-    thumb_id = get_or_upload_thumb(token, date_str)
+    thumb_id = get_or_upload_thumb(token)
 
     print("📤 创建草稿 ...")
     daily_url = f"{site_base_url}/ui/daily.html?date={date_str}"
