@@ -31,7 +31,8 @@ function formatDateLabel(dateStr) {
 
 // 渲染「今日速览」摘要卡
 function renderOverview(data) {
-  const topCount = (data.top_items || []).length;
+  const topItems = data.top_items || [];
+  const topCount = topItems.length;
   const modelCount = (data.model_tech || []).length;
   const companyCount = (data.company_product || []).length;
   const opinionCount = (data.opinions || []).length;
@@ -53,9 +54,15 @@ function renderOverview(data) {
           <span style="font-size:13px;font-weight:600;color:var(--accent);letter-spacing:0.04em;">今日速览</span>
         </div>
         ${data.summary_one_line ? `
-          <div style="font-size:16px;font-weight:500;color:var(--text-primary);line-height:1.5;margin-bottom:1rem;">${data.summary_one_line}</div>
+          <div style="font-size:16px;font-weight:500;color:var(--text-primary);line-height:1.5;margin-bottom:0.9rem;">${data.summary_one_line}</div>
         ` : ''}
-        <div style="display:flex;flex-wrap:wrap;gap:0.6rem 1.5rem;margin-bottom:${highPriority.length > 0 ? '0.9rem' : '0'};">
+        ${topItems.slice(0, 3).map((item, i) => `
+          <div style="display:flex;align-items:flex-start;gap:0.5rem;padding:0.4rem 0;font-size:14px;color:var(--text-secondary);line-height:1.55;">
+            <span style="flex-shrink:0;font-size:12px;font-weight:700;color:var(--accent);min-width:1.2rem;">${String(i + 1).padStart(2, '0')}</span>
+            <span style="flex:1;min-width:0;"><strong style="color:var(--text-primary);">${item.title || ''}</strong>${item.finding ? ` — ${item.finding.slice(0, 80)}${item.finding.length > 80 ? '…' : ''}` : ''}</span>
+          </div>
+        `).join('')}
+        <div style="display:flex;flex-wrap:wrap;gap:0.6rem 1.5rem;margin-top:0.75rem;margin-bottom:${highPriority.length > 0 ? '0.9rem' : '0'};padding-top:0.75rem;border-top:1px solid rgba(0,122,255,0.1);">
           ${stats.map(s => `
             <div style="display:flex;align-items:baseline;gap:0.3rem;">
               <span style="font-size:22px;font-weight:700;color:var(--text-primary);font-variant-numeric:tabular-nums;">${s.value}</span>

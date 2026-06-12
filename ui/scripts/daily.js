@@ -1,7 +1,7 @@
 /**
  * daily.js — 日报列表页
- * 从 01-daily-reports/ 目录加载最近 30 天的 .json 日报，渲染为卡片列表
- * 并在顶部渲染日期导航器（按月分组，有日报的日期高亮可点击）
+ * 从 daily-index.json 获取全量日期范围，渲染日期导航器（按月分组）
+ * 并尝试加载每个有日报的日期的完整 JSON，渲染为卡片列表
  */
 
 const REPORTS_BASE = '../01-daily-reports';
@@ -9,19 +9,28 @@ const LIST_CONTAINER = document.getElementById('report-list');
 const EMPTY_STATE = document.getElementById('empty-state');
 const DATE_NAV = document.getElementById('date-nav');
 
-// 生成最近 N 天的日期列表
-function getRecentDates(n = 60) {
+// 生成从 startDate 到 endDate 的日期列表（倒序：最新在前）
+function getDateRange(startDateStr, endDateStr) {
   const dates = [];
-  const now = new Date();
-  for (let i = 0; i < n; i++) {
-    const d = new Date(now);
-    d.setDate(now.getDate() - i);
-    const yyyy = d.getFullYear();
-    const mm = String(d.getMonth() + 1).padStart(2, '0');
-    const dd = String(d.getDate()).padStart(2, '0');
+  const start = new Date(startDateStr + 'T00:00:00');
+  const end = new Date(endDateStr + 'T00:00:00');
+  const cursor = new Date(end);
+  while (cursor >= start) {
+    const yyyy = cursor.getFullYear();
+    const mm = String(cursor.getMonth() + 1).padStart(2, '0');
+    const dd = String(cursor.getDate()).padStart(2, '0');
     dates.push({ date: `${yyyy}-${mm}-${dd}`, month: `${yyyy}-${mm}` });
+    cursor.setDate(cursor.getDate() - 1);
   }
   return dates;
+}
+
+function getTodayStr() {
+  const now = new Date();
+  const yyyy = now.getFullYear();
+  const mm = String(now.getMonth() + 1).padStart(2, '0');
+  const dd = String(now.getDate()).padStart(2, '0');
+  return `${yyyy}-${mm}-${dd}`;
 }
 
 // 尝试加载某一天的日报 JSON
@@ -42,11 +51,9 @@ function isToday(dateStr) {
   return now.toDateString() === d.toDateString();
 }
 
-// 渲染日期导航器
-function renderDateNav(dates, availableDates) {
+// 渲染日期导航器（展示全量月份，根据 availableSet 判断是否有日报）
+function renderDateNav(dates, availableSet) {
   if (!DATE_NAV) return;
-
-  const availableSet = new Set(availableDates);
 
   // 按月分组
   const monthMap = new Map();
@@ -131,16 +138,56 @@ function renderCard(data) {
 
 // 主流程
 async function init() {
-  const dates = getRecentDates(60);
+  // 1. 加载全量索引，获取所有有日报的日期
+  let indexData = null;
+  try {
+    const res = await fetch('data/daily-index.json');
+    if (res.ok) indexData = await res.json();
+  } catch (e) {
+    // fallback: 无索引时回退到最近 60 天
+  }
 
-  // 并发加载
-  const results = await Promise.all(dates.map(fetchReport));
+  // 确定全量日期范围
+  let firstDate, lastDate;
+  if (indexData && indexData.reports && indexData.reports.length > 0) {
+    // 索引按日期降序排列，最后一条是最早的
+    const reports = indexData.reports;
+    firstDate = reports[reports.length - 1].date;
+    lastDate = getTodayStr();
+  } else {
+    // fallback：最近 60 天
+    const now = new Date();
+    const past = new Date(now);
+    past.setDate(past.getDate() - 59);
+    firstDate = past.toISOString().slice(0, 10);
+    lastDate = now.toISOString().slice(0, 10);
+  }
+
+  const dates = getDateRange(firstDate, lastDate);
+  const availableSet = indexData
+    ? new Set(indexData.reports.map(r => r.date))
+    : new Set();
+
+  // 2. 渲染全量日期导航器
+  renderDateNav(dates, availableSet);
+
+  // 3. 并发加载每个有日报的日期的完整 JSON（使用 indexData 预筛，避免 404 请求）
+  let sourceDates;
+  if (indexData && indexData.reports.length > 0) {
+    // 只对有日报的日期发起请求（按降序）
+    sourceDates = indexData.reports.map(r => ({
+      date: r.date,
+      month: r.date.slice(0, 7)
+    }));
+  } else {
+    // fallback：尝试最近 60 天
+    sourceDates = dates.slice(0, 60);
+  }
+
+  const results = await Promise.all(sourceDates.map(fetchReport));
   const reports = results.filter(Boolean);
-  const availableDates = reports.map(r => r.date);
 
-  // 渲染日期导航器
-  renderDateNav(dates, availableDates);
-
+  // 4. 渲染卡片列表
   if (reports.length === 0) {
     EMPTY_STATE.style.display = 'block';
     return;
@@ -151,7 +198,7 @@ async function init() {
     LIST_CONTAINER.appendChild(card);
   });
 
-  // 初始化 reveal 动画
+  // 5. 初始化 reveal 动画
   requestAnimationFrame(() => {
     document.querySelectorAll('.reveal').forEach(el => {
       if (typeof revealObserver !== 'undefined') revealObserver.observe(el);
