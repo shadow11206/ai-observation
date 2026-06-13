@@ -1,6 +1,13 @@
 {
-  "total": 79,
+  "total": 80,
   "reports": [
+    {
+      "date": "2026-06-13",
+      "title": "今日 AI 日报：AI Agent 扫描 DN42 网络导致运营商破产 + 4 条重要动态",
+      "excerpt": "这是 AI Agent 安全领域的一个标志性事件。它暴露了当前 Agent 在缺…",
+      "top_count": 5,
+      "file": "2026-06-13.json"
+    },
     {
       "date": "2026-06-12",
       "title": "今日 AI 日报：Anthropic 撤回 Fable 5 反蒸馏策略，向用户道歉 + 4 条重要动态",
