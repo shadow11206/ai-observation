@@ -56,6 +56,7 @@ jobs:
 
       - name: Publish to WeChat
         if: success()
+        continue-on-error: true  # IP 白名单等非代码问题不应阻断日报流程
         env:
           WECHAT_APPID: ${{ secrets.WECHAT_APPID }}
           WECHAT_APPSECRET: ${{ secrets.WECHAT_APPSECRET }}

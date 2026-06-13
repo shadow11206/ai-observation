@@ -75,7 +75,14 @@ def get_access_token(appid, secret):
     }, timeout=15)
     data = resp.json()
     if "access_token" not in data:
-        print(f"❌ 获取 access_token 失败: {data}")
+        errcode = data.get("errcode", 0)
+        errmsg = data.get("errmsg", "")
+        if errcode == 40164:
+            print(f"❌ 微信 IP 白名单拦截：GitHub Actions 托管 runner 的出口 IP 未添加到公众号后台白名单")
+            print(f"   解决：公众号后台 → 设置与开发 → 安全中心 → IP 白名单 → 添加当前 runner IP")
+            print(f"   详情: {data}")
+        else:
+            print(f"❌ 获取 access_token 失败: {data}")
         sys.exit(1)
 
     cache["access_token"] = data["access_token"]

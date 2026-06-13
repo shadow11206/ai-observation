@@ -195,12 +195,14 @@ def _fetch_openrouter_ranking() -> list[dict]:
         return []
 
     # 按 model_permaslug 聚合（同一模型可能有 standard / free 等多个 variant）
+    # 先去掉日期后缀再聚合，确保不同日期版本的同一模型族合并统计
     agg = defaultdict(lambda: {"total_tokens": 0, "count": 0, "slug": "", "change": None})
 
     for m in models:
-        slug = m.get("model_permaslug", "")
-        if not slug:
+        raw_slug = m.get("model_permaslug", "")
+        if not raw_slug:
             continue
+        slug = _strip_date_suffix(raw_slug)
         agg[slug]["total_tokens"] += m.get("total_completion_tokens", 0) + m.get("total_prompt_tokens", 0)
         agg[slug]["count"] += m.get("count", 0)
         agg[slug]["slug"] = slug
@@ -213,7 +215,7 @@ def _fetch_openrouter_ranking() -> list[dict]:
     _MODEL_NAMES = _load_model_name_map()
 
     result = []
-    for i, (permaslug, info) in enumerate(sorted_models, 1):
+    for i, (clean_slug, info) in enumerate(sorted_models, 1):
         total_tokens = info["total_tokens"]
 
         if total_tokens >= 1e12:
@@ -225,10 +227,8 @@ def _fetch_openrouter_ranking() -> list[dict]:
         else:
             token_str = str(total_tokens)
 
-        org = permaslug.split("/")[0] if "/" in permaslug else ""
-        # 去掉日期后缀以便匹配模型名称映射
-        clean_slug = _strip_date_suffix(permaslug)
-        display_name = _MODEL_NAMES.get(clean_slug, _MODEL_NAMES.get(permaslug, _slug_to_display(permaslug)))
+        org = clean_slug.split("/")[0] if "/" in clean_slug else ""
+        display_name = _MODEL_NAMES.get(clean_slug, _slug_to_display(clean_slug))
         change = round(info["change"], 1) if info["change"] is not None else 0
 
         result.append({
