@@ -1,6 +1,13 @@
 {
-  "total": 80,
+  "total": 81,
   "reports": [
+    {
+      "date": "2026-06-14",
+      "title": "今日 AI 日报：美国政府下令全球停用Anthropic最强模型Claude Fable 5和Mythos 5 + 4 条重要动态",
+      "excerpt": "这是AI治理的里程碑事件：政府首次对商业AI模型行使强制召回权，意味着模型安全不…",
+      "top_count": 5,
+      "file": "2026-06-14.json"
+    },
     {
       "date": "2026-06-13",
       "title": "今日 AI 日报：AI Agent 扫描 DN42 网络导致运营商破产 + 4 条重要动态",
