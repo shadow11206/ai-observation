@@ -1,6 +1,13 @@
 {
-  "total": 81,
+  "total": 82,
   "reports": [
+    {
+      "date": "2026-06-15",
+      "title": "今日 AI 日报：Meta 因北京要求，撤销 20 亿美元收购 Manus 交易 + 3 条重要动态",
+      "excerpt": "对行业意味着：中美 AI 领域的资本流动和并购将面临更严格的地缘政治壁垒，未来跨…",
+      "top_count": 4,
+      "file": "2026-06-15.json"
+    },
     {
       "date": "2026-06-14",
       "title": "今日 AI 日报：美国政府下令全球停用Anthropic最强模型Claude Fable 5和Mythos 5 + 4 条重要动态",
