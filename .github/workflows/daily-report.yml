@@ -2,7 +2,7 @@ name: Daily AI Report
 
 on:
   schedule:
-    - cron: '0 23 * * *'  # 每天 UTC 23:00 = 北京时间 07:00（次日）
+    - cron: '0 2 * * *'   # 每天 UTC 02:00 = 北京时间 10:00（OpenRouter 日数据已稳定）
   workflow_dispatch:       # 支持手动触发（Actions 页面点 Run workflow）
 
 jobs:
