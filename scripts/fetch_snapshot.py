@@ -229,7 +229,7 @@ def _fetch_openrouter_ranking() -> list[dict]:
 
         org = clean_slug.split("/")[0] if "/" in clean_slug else ""
         display_name = _MODEL_NAMES.get(clean_slug, _slug_to_display(clean_slug))
-        change = round(info["change"], 1) if info["change"] is not None else 0
+        change = round(info["change"] * 100, 1) if info["change"] is not None else 0
 
         result.append({
             "rank": i,
