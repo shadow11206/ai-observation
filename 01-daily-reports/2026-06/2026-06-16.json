@@ -3,371 +3,235 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "美国政府封禁Anthropic最强模型，网络安全专家集体抗议",
-      "finding": "美国政府以国家安全为由，要求Anthropic下架其最新的网络安全模型Fable和Mythos。数十名网络安全专家联名抗议，认为此举反而会削弱美国网络防御能力。Anthropic高层飞往华盛顿谈判，但双方仍存在分歧。",
+      "title": "美国白宫与Anthropic因Claude Fable 5模型安全评估陷入僵局",
+      "finding": "Anthropic最新发布的网络安全模型Claude Fable 5被白宫视为潜在威胁，要求其下线。Anthropic高层飞往华盛顿谈判后，双方仍未达成一致。该事件被指与AI出口管制和国家安全有关，而非单纯的模型越狱问题。",
       "key_data": [
-        "Fable和Mythos模型被禁",
-        "数十名安全专家抗议",
-        "Anthropic高层赴华盛顿谈判",
-        "白宫报告称存在越狱风险"
+        "Claude Fable 5",
+        "白宫禁令",
+        "Anthropic高层赴美谈判",
+        "出口管制争议"
       ],
-      "judgment": "这是AI行业首次因政治原因被强制下架产品，信号极其危险。对开发者而言，这意味着AI模型可能随时因政策原因被禁用，依赖单一模型的风险剧增。对行业而言，这标志着AI治理从技术讨论进入地缘政治博弈阶段。",
-      "confidence": 5,
-      "source": "TechCrunch / Wired / Simon Willison",
-      "url": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/"
+      "judgment": "这标志着AI安全评估已从技术问题升级为地缘政治博弈。对开发者而言，未来模型发布可能面临更多政府审查，尤其是涉及网络安全、国防等敏感领域的产品。",
+      "confidence": 4,
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-is-still-at-odds-with-the-white-house-over-claude-fable-5/"
     },
     {
       "rank": 2,
-      "title": "微软因AI算力短缺，将GitHub部分工作负载迁移至AWS",
-      "finding": "微软因自身AI算力不足，被迫将GitHub的部分AI工作负载迁移至竞争对手AWS。这暴露了当前AI算力供应的极度紧张，即使是微软这样的巨头也无法满足内部需求。",
+      "title": "微软因AI算力短缺转向AWS，GitHub面临容量危机",
+      "finding": "微软因自身AI基础设施无法满足GitHub Copilot等产品的算力需求，被迫向竞争对手亚马逊AWS租用算力。这暴露了AI需求爆发下，即使是云巨头也面临GPU供应瓶颈。",
       "key_data": [
-        "微软将GitHub负载迁移至AWS",
-        "AI算力短缺成行业瓶颈",
-        "GitHub面临AI容量危机"
+        "微软租用AWS算力",
+        "GitHub AI容量危机",
+        "GPU供应瓶颈"
       ],
-      "judgment": "算力短缺已从创业公司蔓延到巨头。对产品经理和开发者来说，这意味着AI服务的可用性和成本将更加不可预测，需要提前规划多供应商策略。对行业而言，这是AI基础设施投资不足的明确信号。",
+      "judgment": "连微软都要向AWS求助，说明全球AI算力短缺比公开报道的更严重。对AI创业公司来说，获取稳定、低成本的算力将成为核心竞争力之一。",
       "confidence": 4,
-      "source": "RuntimeWire / Hacker News",
+      "source": "RuntimeWire",
       "url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch"
     },
     {
       "rank": 3,
       "title": "阿里发布首个具身大模型Qwen-Robot系列",
-      "finding": "阿里巴巴发布了Qwen-Robot系列具身大模型，这是其首个面向机器人的多模态大模型，具备边走、边看、边思考的能力。该系列包含多个模型，旨在让机器人能够理解物理世界并自主行动。",
+      "finding": "阿里发布Qwen-Robot系列模型，将视觉、语言和动作控制整合，实现机器人“边走、边看、边思考”。这是国内大厂首次将大模型能力完整迁移到具身智能领域。",
       "key_data": [
-        "首个具身大模型",
-        "多模态感知+自主决策",
-        "边走边看边思考"
+        "Qwen-Robot系列",
+        "具身大模型",
+        "视觉-语言-动作一体化"
       ],
-      "judgment": "阿里入局具身智能赛道，意味着中国大厂正式将AI竞争从语言模型扩展到物理世界。对开发者而言，这意味着未来机器人开发的门槛将大幅降低，从写控制代码变成调模型API。对行业而言，具身智能的军备竞赛正式打响。",
+      "judgment": "阿里入局具身智能，意味着国内大模型竞争从纯语言模型扩展到物理世界。对机器人创业公司来说，大厂提供基础模型可能降低开发门槛，但也面临被平台化的风险。",
       "confidence": 4,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/06/435873.html"
     },
     {
       "rank": 4,
-      "title": "智谱发布最新一代旗舰模型GLM-5.2",
-      "finding": "智谱AI在今日的新闻中确认已推出最新一代旗舰模型GLM-5.2。同时智谱股价暴涨，创上市以来单日成交新高，显示市场对国产大模型前景的强烈看好。",
+      "title": "智谱推出最新旗舰模型GLM-5.2，股价创上市以来新高",
+      "finding": "智谱AI发布新一代旗舰模型GLM-5.2，同时公司股价暴涨，创上市以来单日成交新高。这表明资本市场对国产大模型商业化前景的认可。",
       "key_data": [
-        "GLM-5.2旗舰模型发布",
-        "股价暴涨创单日新高",
-        "国产大模型市场信心增强"
+        "GLM-5.2",
+        "智谱股价创新高",
+        "国产大模型商业化"
       ],
-      "judgment": "智谱股价暴涨说明资本市场对国产大模型的商业化前景开始买单。对开发者而言，GLM-5.2的发布意味着又多了一个可选的国产闭源模型，但具体能力提升还需实测。对行业而言，这是国产大模型从技术追赶转向商业变现的重要信号。",
+      "judgment": "智谱的股价表现说明，国产大模型正在从技术竞赛转向商业变现阶段。对开发者而言，GLM-5.2的发布意味着又多了一个可选的国产基座模型。",
       "confidence": 4,
       "source": "36氪",
-      "url": "https://36kr.com/p/3854486447510535?f=rss"
+      "url": "https://36kr.com/p/3855082873476102?f=rss"
     },
     {
       "rank": 5,
-      "title": "Meta推出Facebook AI模式，整合全平台公开信息",
-      "finding": "Meta宣布在Facebook上推出新的AI模式，该模式可以拉取Meta旗下所有平台的公开信息来回答问题。这是Meta在AI领域追赶竞争对手的最新举措，旨在提升用户参与度。",
+      "title": "Meta被曝与五角大楼供应商合作，为智能眼镜开发人脸识别功能",
+      "finding": "Meta与曾为CIA、FBI提供服务的面部识别公司Rank One Computing合作，为其智能眼镜开发人脸识别应用。这引发了隐私和伦理争议。",
       "key_data": [
-        "Facebook AI模式上线",
-        "整合全平台公开信息",
-        "Meta加速AI追赶"
+        "Meta智能眼镜",
+        "人脸识别",
+        "五角大楼供应商",
+        "隐私争议"
       ],
-      "judgment": "Meta终于开始认真做AI产品了，但Facebook的AI模式本质上还是搜索+生成，没有看到真正的创新。对产品经理而言，这验证了社交+AI的融合方向，但Meta的执行力仍需观察。对行业而言，社交巨头的入局会进一步加剧AI应用层的竞争。",
+      "judgment": "Meta在AR眼镜上押注人脸识别，说明消费级AI硬件正在走向更激进的功能集成。但这也意味着隐私监管压力将进一步加大，可能影响产品上市节奏。",
       "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/"
+      "source": "Wired",
+      "url": "https://www.wired.com/story/meta-rank-one-computing-face-recognition-smart-glasses/"
     }
   ],
   "model_tech": [
     {
       "source": "InfoQ",
       "title": "Gemma 4 12B通过无编码器架构实现设备端多模态主动工作流",
-      "finding": "Google的Gemma 4 12B模型采用无编码器架构，可以在设备端运行多模态主动工作流，无需依赖云端。这为端侧AI应用提供了新的可能性。",
+      "finding": "Google发布Gemma 4 12B模型，采用无编码器架构，能在手机等设备上直接运行多模态任务，无需依赖云端。",
       "key_data": [
+        "Gemma 4 12B",
         "无编码器架构",
-        "设备端多模态",
-        "12B参数"
+        "设备端多模态"
       ],
-      "judgment": "端侧AI能力持续提升，未来更多AI功能将脱离云端运行，对隐私和延迟敏感的应用是重大利好。",
+      "judgment": "端侧多模态模型正在成熟，未来AI应用将更多在本地运行，降低延迟和隐私风险。",
       "confidence": 4,
-      "url": "https://www.infoq.cn/article/7djN3gq1MaqGitDAPkhe",
+      "url": "https://www.infoq.cn/article/7djN3gq1MaqGitDAPkhe?utm_source=rss&utm_medium=article",
       "importance": 3
     },
     {
-      "source": "ArXiv",
-      "title": "CoRA：置信度-推理对齐实现可靠思维链推理",
-      "finding": "新论文提出CoRA方法，通过对齐模型置信度和推理链来提高LLM推理的可靠性，解决高置信度但推理错误的问题。",
+      "source": "Reddit",
+      "title": "Cleo：用2B参数模型模拟完整分析师行为",
+      "finding": "研究者尝试将分析师行为（包括Text-to-SQL、RAG等）压缩到20亿参数的小模型中，探索小模型在垂直场景的极限。",
       "key_data": [
-        "置信度-推理对齐",
-        "提高推理可靠性",
-        "解决高置信度错误"
+        "2B参数",
+        "分析师行为模拟",
+        "Text-to-SQL"
       ],
-      "judgment": "这是解决LLM'自信地胡说'问题的重要方向，对需要高可靠性的应用场景（如医疗、金融）有实际价值。",
+      "judgment": "小模型在特定任务上可能接近大模型效果，这对成本敏感的企业应用很有价值。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.14961",
-      "importance": 2
-    },
-    {
-      "source": "ArXiv",
-      "title": "PhoneHarness：通过混合GUI、CLI和工具操作实现手机使用Agent",
-      "finding": "新论文提出PhoneHarness框架，让AI Agent能够通过混合GUI点击、命令行和工具调用来完成真实的手机操作任务，而非仅预测下一步动作。",
-      "key_data": [
-        "混合GUI/CLI/工具操作",
-        "真实手机工作流",
-        "Agent自主操作"
-      ],
-      "judgment": "手机Agent从'预测'走向'执行'，这是AI从聊天助手向数字员工演进的关键一步。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.14832",
-      "importance": 2
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u6udpb/cleo_trying_to_fit_full_analyst_behavior_in_a_2b/",
+      "importance": 3
     },
     {
       "source": "Reddit",
-      "title": "quicktok：比tiktoken更快的分词器",
-      "finding": "开发者发布了quicktok，一个用C++编写的BPE分词器，与OpenAI的tiktoken字节级兼容但速度更快，可用于加速分词流程。",
+      "title": "quicktok：比tiktoken更快的BPE分词器",
+      "finding": "开发者发布了一个C++编写的快速分词器quicktok，与OpenAI的tiktoken字节级兼容，但速度更快。",
       "key_data": [
-        "C++实现",
-        "比tiktoken更快",
-        "字节级兼容"
+        "quicktok",
+        "BPE分词器",
+        "比tiktoken更快"
       ],
-      "judgment": "对需要大量处理文本的开发者来说，这是一个实用的性能优化工具，但属于渐进式改进而非突破。",
-      "confidence": 4,
+      "judgment": "分词速度优化对大规模推理和训练有实际意义，这类基础设施改进值得关注。",
+      "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1u73c5r/quicktok_a_faster_tokenizer_exact_and/",
       "importance": 2
     },
     {
       "source": "ArXiv",
-      "title": "PrologMCP：LLM Agent的标准化Prolog工具接口",
-      "finding": "新论文提出PrologMCP，为LLM Agent提供标准化的Prolog推理工具接口，解决前沿推理模型在深度演绎任务上的失败问题。",
+      "title": "CoRA：置信度-推理链对齐实现可靠思维链推理",
+      "finding": "新方法CoRA通过对齐模型置信度与推理链质量，减少LLM在推理时给出高置信度但错误答案的情况。",
       "key_data": [
-        "Prolog推理接口",
-        "解决深度演绎失败",
-        "标准化工具接口"
+        "CoRA",
+        "置信度对齐",
+        "可靠推理"
       ],
-      "judgment": "用传统符号推理补充LLM的短板是正确方向，但Prolog的实用性取决于Agent框架的集成度。",
+      "judgment": "解决LLM“自信地犯错”问题，对金融、医疗等高风险场景的AI应用至关重要。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.14935",
-      "importance": 2
+      "url": "https://arxiv.org/abs/2606.14961",
+      "importance": 3
     }
   ],
   "company_product": [
     {
       "source": "量子位",
-      "title": "AnySearch上线首月吸引10万开发者，为Agent解锁网页之外的世界",
-      "finding": "专为Agent设计的AI搜索层服务AnySearch上线首月即吸引10万开发者，它能让Agent搜索网页之外的数据库、API和私有数据源。",
+      "title": "AnySearch上线首月吸引10万开发者，专为Agent设计的AI搜索层",
+      "finding": "AnySearch是一个专为AI Agent设计的搜索层服务，上线一个月即获得10万开发者使用，帮助Agent获取网页之外的实时信息。",
       "key_data": [
-        "首月10万开发者",
-        "Agent专用搜索层",
-        "解锁网页外数据"
+        "10万开发者",
+        "Agent搜索层",
+        "实时信息获取"
       ],
-      "judgment": "Agent搜索基础设施正在快速成熟，AnySearch的增速说明开发者对Agent数据获取能力的需求极其旺盛。",
+      "judgment": "Agent生态正在催生新的基础设施需求，搜索层是其中关键一环。",
       "confidence": 3,
       "url": "https://www.qbitai.com/2026/06/435861.html",
       "importance": 3
     },
     {
-      "source": "36氪",
-      "title": "支付宝政务AI助手'晓政'服务突破1亿次",
-      "finding": "支付宝宣布其政务AI助手'晓政'累计服务次数突破1亿次，已覆盖16000项服务事项，落地70余家政务机构。",
+      "source": "TechCrunch",
+      "title": "Meta在Facebook推出新AI模式，整合跨平台公开信息",
+      "finding": "Meta在Facebook上线AI模式，能够调用Instagram、WhatsApp等跨平台公开信息，提供更个性化的AI助手体验。",
       "key_data": [
-        "服务突破1亿次",
-        "覆盖16000项服务",
-        "落地70余家机构"
+        "Facebook AI模式",
+        "跨平台信息整合",
+        "个性化助手"
       ],
-      "judgment": "AI在政务场景的规模化落地验证了'AI+垂直场景'的商业可行性，对B端AI创业者是积极信号。",
+      "judgment": "Meta正在加速AI社交化，跨平台数据整合是差异化优势，但也面临隐私合规挑战。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "马来西亚AI客服Agent公司Respond.io获6250万美元融资",
+      "finding": "Respond.io获得6250万美元融资，其AI Agent按对话次数收费而非按座位，已服务大量企业客户。",
+      "key_data": [
+        "6250万美元融资",
+        "AI客服Agent",
+        "按对话收费"
+      ],
+      "judgment": "AI客服Agent的商业模式正在成熟，按量计费模式可能颠覆传统SaaS定价。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/",
+      "importance": 2
+    },
+    {
+      "source": "36氪",
+      "title": "支付宝政务AI助手“晓政”服务突破1亿次",
+      "finding": "支付宝旗下政务AI助手“晓政”累计服务突破1亿次，覆盖16000项服务事项，落地70余家政务机构。",
+      "key_data": [
+        "1亿次服务",
+        "16000项服务",
+        "70余家政务机构"
+      ],
+      "judgment": "AI在政务场景的规模化落地证明，垂直领域AI助手可以快速积累用户和场景。",
       "confidence": 4,
       "url": "https://36kr.com/p/3854486447510535?f=rss",
       "importance": 2
-    },
-    {
-      "source": "InfoQ",
-      "title": "蚂蚁全链路AI研发：SDD规范驱动与Harness工程实践",
-      "finding": "蚂蚁集团分享了其全链路AI研发实践，包括SDD（规范驱动开发）规范和Harness工程框架，展示了如何系统化地将AI融入软件研发流程。",
-      "key_data": [
-        "全链路AI研发",
-        "SDD规范驱动",
-        "Harness工程框架"
-      ],
-      "judgment": "大厂AI研发方法论开始体系化输出，对想系统引入AI的工程团队有参考价值，但落地门槛较高。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/5Ke1HD7F6R7aYr4jERyk",
-      "importance": 2
-    },
-    {
-      "source": "InfoQ",
-      "title": "亚马逊云科技发布新一代Amazon OpenSearch Serverless",
-      "finding": "亚马逊云科技发布了新一代OpenSearch Serverless服务，提升了搜索和分析性能，进一步降低了运维复杂度。",
-      "key_data": [
-        "新一代Serverless",
-        "搜索性能提升",
-        "降低运维复杂度"
-      ],
-      "judgment": "云厂商持续降低AI基础设施的使用门槛，对中小团队是利好，但属于常规产品迭代。",
-      "confidence": 4,
-      "url": "https://www.infoq.cn/article/1JmJurL7fQtvpujOTIMg",
-      "importance": 1
     }
   ],
   "opinions": [
     {
       "person": "Simon Willison",
       "level": "L2",
-      "quote": "Anthropic的Fable 5模型被禁事件中，白宫报告声称的'越狱'实际上只是模型在回答关于网络攻击的假设性问题，并非真正的安全漏洞。出口管制正在损害美国自身的网络防御能力。",
+      "quote": "关于Anthropic Fable 5事件：白宫报告中的所谓'越狱'其实是出口管制问题，而非真正的安全漏洞。这暴露了AI安全评估与政治干预之间的模糊地带。",
       "source": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/"
     },
     {
-      "person": "Katie Moussouris",
-      "level": "L2",
-      "quote": "Anthropic分享了白宫关于Fable越狱的报告副本给我评估，我认为这根本不是真正的越狱。政府的行为是反应过度，且可能带有政治动机。",
-      "source": "https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/"
+      "person": "Satya Nadella",
+      "level": "L3",
+      "quote": "在最新文章中提出'Loopcraft'概念，强调构建前沿AI生态系统需要循环反馈机制，而非线性发展。",
+      "source": "https://www.latent.space/p/ainews-satya-on-loopcraft-building"
+    },
+    {
+      "person": "Andrew Bosworth",
+      "level": "L3",
+      "quote": "Meta CTO承认公司AI重组过程'糟糕透顶'，承诺将改善员工稳定性、沟通和工作福利。",
+      "source": "https://www.wired.com/story/andrew-bosworth-meta-employees-unrest/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "美国政府封禁Anthropic模型的深层原因与行业影响",
-      "reason": "这是AI行业首次因政治原因被强制下架产品，可能改变全球AI治理格局，值得深入研究。",
+      "topic": "AI算力短缺对行业格局的影响",
+      "reason": "微软向AWS租用算力表明GPU瓶颈远超预期，值得分析算力分配如何重塑AI竞争格局。",
       "priority": "high"
     },
     {
-      "topic": "AI算力短缺对行业格局的影响",
-      "reason": "微软都缺算力，说明算力已成为AI发展的核心瓶颈，理解其影响对战略决策至关重要。",
+      "topic": "AI出口管制与模型安全评估的灰色地带",
+      "reason": "Anthropic Fable 5事件揭示AI安全评估正被政治化，对全球AI公司合规策略有深远影响。",
       "priority": "high"
     }
   ],
-  "summary_one_line": "Anthropic模型被禁，微软缺算力转投AWS",
-  "summary_paragraph": "今日AI行业动荡不安。美国政府以国家安全为由封禁Anthropic最强模型，引发网络安全专家集体抗议，这标志着AI治理正式进入地缘政治博弈阶段。与此同时，微软因自身AI算力不足被迫将GitHub负载迁移至AWS，暴露了算力短缺已蔓延至巨头。中国方面，阿里发布首个具身大模型Qwen-Robot系列，智谱GLM-5.2发布后股价暴涨，国产AI商业化信心增强。Meta推出Facebook AI模式追赶竞争对手。整体来看，AI行业正从技术竞赛转向政治、算力和商业化的多重博弈。",
+  "summary_one_line": "算力短缺、政治博弈、具身智能三线并发",
+  "summary_paragraph": "今日AI行业呈现多线交织的复杂局面。算力层面，微软因GPU短缺被迫向AWS求助，暴露了全球AI基础设施的脆弱性。政治层面，Anthropic的Claude Fable 5模型被白宫叫停，安全评估与出口管制的边界愈发模糊。产品层面，阿里发布Qwen-Robot系列具身大模型，智谱推出GLM-5.2股价创新高，国内AI商业化加速。Meta则在智能眼镜人脸识别和Facebook AI模式上双线推进，但内部重组引发员工不满。整体来看，AI行业正从技术竞赛转向基础设施、政策合规和商业落地的多维博弈。",
   "snapshot": {
     "date": "2026-06-16",
-    "hf_trending": [
-      {
-        "name": "google/diffusiongemma-26B-A4B-it",
-        "short_name": "diffusiongemma-26B-A4B-it",
-        "likes": 895,
-        "downloads": 311788,
-        "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "diffusion_gemma"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
-        "name": "MiniMaxAI/MiniMax-M3",
-        "short_name": "MiniMax-M3",
-        "likes": 857,
-        "downloads": 14312,
-        "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "minimax_m3_vl"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
-        "name": "moonshotai/Kimi-K2.7-Code",
-        "short_name": "Kimi-K2.7-Code",
-        "likes": 756,
-        "downloads": 56750,
-        "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "kimi_k25"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
-        "name": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-        "short_name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-        "likes": 747,
-        "downloads": 20207,
-        "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-        "tags": [
-          "gguf",
-          "gemma4",
-          "coding"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "new"
-      },
-      {
-        "name": "nvidia/LocateAnything-3B",
-        "short_name": "LocateAnything-3B",
-        "likes": 2063,
-        "downloads": 86968,
-        "url": "https://huggingface.co/nvidia/LocateAnything-3B",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "locateanything"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
-        "name": "CohereLabs/North-Mini-Code-1.0",
-        "short_name": "North-Mini-Code-1.0",
-        "likes": 395,
-        "downloads": 11145,
-        "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "cohere2_moe"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
-        "name": "prefeitura-rio/Rio-3.5-Open-397B",
-        "short_name": "Rio-3.5-Open-397B",
-        "likes": 305,
-        "downloads": 188723,
-        "url": "https://huggingface.co/prefeitura-rio/Rio-3.5-Open-397B",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
-        "name": "unsloth/diffusiongemma-26B-A4B-it-GGUF",
-        "short_name": "diffusiongemma-26B-A4B-it-GGUF",
-        "likes": 277,
-        "downloads": 107243,
-        "url": "https://huggingface.co/unsloth/diffusiongemma-26B-A4B-it-GGUF",
-        "tags": [
-          "gguf",
-          "gemma4",
-          "unsloth"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "same"
-      }
-    ],
+    "hf_trending": [],
     "github_trending": [
       {
         "name": "openclaw/openclaw",
         "desc": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-        "stars": 378923,
+        "stars": 378939,
         "language": "TypeScript",
         "url": "https://github.com/openclaw/openclaw",
         "topics": [
@@ -379,7 +243,7 @@
       {
         "name": "affaan-m/ECC",
         "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research",
-        "stars": 216308,
+        "stars": 216345,
         "language": "JavaScript",
         "url": "https://github.com/affaan-m/ECC",
         "topics": [
@@ -403,7 +267,7 @@
       {
         "name": "NousResearch/hermes-agent",
         "desc": "The agent that grows with you",
-        "stars": 194675,
+        "stars": 194743,
         "language": "Python",
         "url": "https://github.com/NousResearch/hermes-agent",
         "topics": [
@@ -415,7 +279,7 @@
       {
         "name": "n8n-io/n8n",
         "desc": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with cus",
-        "stars": 192709,
+        "stars": 192721,
         "language": "TypeScript",
         "url": "https://github.com/n8n-io/n8n",
         "topics": [
@@ -548,7 +412,6 @@
         "change": 3.7,
         "url": "https://openrouter.ai/deepseek/deepseek-v3.2"
       }
-    ],
-    "hf_summary": "多模态模型霸榜，代码与轻量化模型受关注"
+    ]
   }
 }
