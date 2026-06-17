@@ -3,73 +3,70 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Anthropic Fable 5被禁后急赴华盛顿谈判，GPT-5.5被曝存在同款漏洞",
-      "finding": "美国政府对Anthropic的Claude Fable 5和Mythos 5模型下达禁令，理由是模型具备高级黑客能力。Anthropic紧急派员赴华盛顿谈判，同时有消息称GPT-5.5也存在类似安全漏洞。Wired评论指出，具备高级黑客能力的AI模型将很快成为常态，监管难以阻挡。",
+      "title": "Anthropic与特朗普政府冲突升级，但销售数据反显示其企业业务增长",
+      "finding": "Anthropic因发布Claude Fable 5和Mythos 5模型被美国政府封禁，但Ramp的销售数据显示，这场冲突反而可能提升其企业客户吸引力。Anthropic已派员工赴华盛顿谈判。",
       "key_data": [
-        "Fable 5被禁",
-        "GPT-5.5同款漏洞",
-        "Anthropic赴华盛顿谈判",
-        "高级黑客能力将成常态"
+        "Claude Fable 5被禁",
+        "企业销售数据增长",
+        "派员赴华盛顿谈判"
       ],
-      "judgment": "这是AI安全监管的关键转折点。政府开始对前沿模型动真格，但Wired的评论点出了核心矛盾：监管只能延缓，无法阻止能力外溢。对开发者而言，安全对齐不再是可选项，而是产品上线的硬门槛。",
+      "judgment": "安全争议正在成为Anthropic的双刃剑：短期是监管风险，但长期可能强化其'最安全模型'的品牌定位，反而吸引合规敏感的企业客户。这对OpenAI和Google是重要警示——安全不是负担，而是差异化武器。",
       "confidence": 4,
-      "source": "InfoQ / Wired",
-      "url": "https://www.infoq.cn/article/mBHRVxO514Uki3Eyikxl"
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/"
     },
     {
       "rank": 2,
-      "title": "智谱GLM-5.2登顶全球前端编程模型，开源社区再迎重磅玩家",
-      "finding": "Latent Space报道，智谱AI的GLM-5.2成为全球最强的开源前端编程模型。同时，该模型还引入了IndexShare投机解码技术，显著提升推理效率。这是中国开源模型在垂直能力上首次达到世界第一。",
+      "title": "GLM-5.2成为全球最强前端编程开源模型",
+      "finding": "智谱AI发布GLM-5.2，在Frontend Coding基准测试中登顶，成为全球最强的前端编程开源模型。Latent Space报道称这是目前最好的开源模型。",
       "key_data": [
-        "全球最强开源前端编程模型",
-        "IndexShare投机解码",
-        "中国开源模型首次登顶"
+        "前端编程基准第一",
+        "开源模型",
+        "智谱AI发布"
       ],
-      "judgment": "前端编程是AI Coding竞争最激烈的赛道之一，GLM-5.2的登顶意味着中国开源模型在特定能力上已不输海外头部闭源模型。对开发者而言，又多了一个高质量、可本地部署的编程模型选择。",
+      "judgment": "中国开源模型在垂直领域（前端代码）实现全球领先，说明开源生态的竞争已从通用能力转向细分场景。对开发者而言，这意味着前端开发工具链将迎来更强大的免费替代方案。",
       "confidence": 4,
       "source": "Latent Space",
       "url": "https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding"
     },
     {
       "rank": 3,
-      "title": "Qwen3.6-27B被证实为本地编程利器，ggml作者亲测推荐",
-      "finding": "llama.cpp作者Georgi Gerganov在Simon Willison的引用中表示，Qwen3.6-27B是他近一个半月来几乎每天使用的本地编程模型，在M2 Ultra和RTX 5090上表现优异。这是来自一线构建者的高度认可。",
+      "title": "Meta正在'摧毁'其工程组织：AI驱动的激进重组",
+      "finding": "The Pragmatic Engineer深度报道Meta在AI驱动下对工程组织进行激进重组，大量中层管理者被裁，工程文化遭受冲击。文章认为这是Meta'AI优先'战略下的组织代价。",
       "key_data": [
-        "Qwen3.6-27B",
-        "本地编程模型",
-        "M2 Ultra / RTX 5090",
-        "ggml作者每日使用"
+        "工程组织激进重组",
+        "中层管理者被裁",
+        "AI优先战略"
       ],
-      "judgment": "来自底层基础设施构建者的背书极具分量。Qwen3.6-27B正在成为本地AI编程的默认选择之一，这对推动开发者从云端转向本地推理有重要意义。",
-      "confidence": 5,
-      "source": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Jun/16/georgi-gerganov/"
+      "judgment": "Meta的案例是AI时代组织变革的极端样本：当AI能替代中层管理者的协调工作，公司会毫不犹豫地'去管理层'。这对所有科技公司都是一个信号——AI不只是提升效率，更在重塑组织架构。",
+      "confidence": 4,
+      "source": "The Pragmatic Engineer",
+      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering"
     },
     {
       "rank": 4,
-      "title": "Copilot被曝严重安全漏洞，可窃取用户2FA验证码",
-      "finding": "Ars Technica报道，GitHub Copilot存在一个名为SearchLeak的严重安全漏洞，攻击者可利用该漏洞窃取用户的2FA验证码。报道指出，这暴露了行业在LLM安全防护上的系统性失败。",
+      "title": "Copilot严重漏洞：黑客可窃取用户2FA验证码",
+      "finding": "Ars Technica披露GitHub Copilot存在'SearchLeak'漏洞，攻击者可通过LLM的搜索功能窃取用户的二因素认证（2FA）代码。文章指出这暴露了LLM安全方法的根本缺陷。",
       "key_data": [
         "SearchLeak漏洞",
-        "窃取2FA验证码",
-        "LLM安全系统性失败"
+        "可窃取2FA代码",
+        "LLM安全缺陷"
       ],
-      "judgment": "这是AI编程工具安全性的一个重大警示。Copilot作为最广泛使用的AI编程助手，其安全漏洞直接影响数百万开发者的账户安全。行业需要重新审视LLM应用的安全架构设计。",
-      "confidence": 4,
+      "judgment": "这是AI安全领域的一个标志性事件：LLM的搜索能力成为攻击面。对产品经理而言，这意味着在集成AI搜索功能时必须重新评估安全架构，传统安全方案在LLM面前可能完全失效。",
+      "confidence": 5,
       "source": "Ars Technica",
       "url": "https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/"
     },
     {
       "rank": 5,
-      "title": "林俊旸新公司卜拉格亮相，首轮估值135亿，腾讯高榕红杉联合投资",
-      "finding": "前阿里AI科学家林俊旸（Junjie Lin）创立的新公司卜拉格（Bulage）正式亮相，首轮估值达135亿元人民币。高榕创投与红杉中国各投1亿美元联合领投，腾讯跟投2000万美元。公司方向聚焦AI基础模型与平台。",
+      "title": "林俊旸新公司卜拉格亮相：首轮估值135亿，腾讯高榕红杉全投",
+      "finding": "前阿里AI科学家林俊旸（贾扬清）创立新公司'卜拉格'，首轮融资估值达135亿元人民币，高榕创投与红杉中国联合领投各1亿美元，腾讯跟投2000万美元。",
       "key_data": [
-        "首轮估值135亿",
-        "高榕/红杉各投1亿美元",
-        "腾讯跟投2000万美元",
-        "林俊旸创业"
+        "估值135亿元",
+        "高榕红杉各投1亿美元",
+        "腾讯跟投2000万美元"
       ],
-      "judgment": "顶级AI科学家创业+顶级VC重注，这是中国AI创业市场的一个强烈信号。135亿的首轮估值说明资本对基础模型赛道依然极度看好，但也意味着竞争门槛和烧钱速度将远超上一波AI创业。",
+      "judgment": "顶级AI科学家创业+顶级VC重注，说明中国AI创业市场仍在高位运行。但135亿估值意味着极高的市场预期，产品落地压力巨大。对行业而言，这是中国AI人才创业热潮持续的信号。",
       "confidence": 4,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/06/436138.html"
@@ -77,171 +74,299 @@
   ],
   "model_tech": [
     {
-      "source": "ArXiv",
-      "title": "超越并行采样：面向智能体搜索的多样化查询初始化",
-      "finding": "一篇新论文提出，在智能体搜索中增加搜索深度（更多轮次和Token）或广度（更多并行轨迹）之外，还可以通过多样化查询初始化来提升测试时计算效率。",
+      "source": "Simon Willison",
+      "title": "Qwen3.6-27B是本地编码任务的强大模型",
+      "finding": "Georgi Gerganov证实Qwen3.6-27B在本地编码任务上表现出色，他已在M2 Ultra和RTX 5090上日常使用该模型一个多月。",
       "key_data": [
-        "测试时计算扩展",
-        "多样化查询初始化",
-        "智能体搜索"
+        "Qwen3.6-27B",
+        "本地编码",
+        "M2 Ultra/RTX 5090"
       ],
-      "judgment": "为Agent的推理效率优化提供了新思路，可能影响下一代Agent框架的设计。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.17209",
+      "judgment": "本地模型在编码任务上已达到实用水平，开发者可减少对云端API的依赖。",
+      "confidence": 5,
+      "url": "https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything",
       "importance": 3
     },
     {
       "source": "ArXiv",
-      "title": "KV缓存可编辑与可组合：模型在预填充阶段记笔记",
-      "finding": "新研究提出KV缓存可编辑和可组合的方法，允许在预填充阶段修改缓存内容，解决前缀缓存中一个字段变化导致整个下游缓存失效的问题。",
-      "key_data": [
-        "KV缓存可编辑",
-        "前缀缓存失效",
-        "推理效率优化"
-      ],
-      "judgment": "对长上下文推理场景的部署成本有直接影响，可能成为推理优化的重要方向。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.17107",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv",
-      "title": "语言模型能否发现0？从无到有的数学发现能力研究",
-      "finding": "一项研究探讨了基于神经网络的AI系统能否自主发现数学中的“0”概念，挑战当前模型在数学推理中的根本性局限。",
+      "title": "语言模型能否发现'0'的概念？",
+      "finding": "一篇新论文探讨语言模型是否能自主发现数学中的'0'概念，挑战AI数学推理能力的边界。",
       "key_data": [
         "数学发现能力",
         "0的概念",
-        "神经网络局限"
+        "AI推理边界"
       ],
-      "judgment": "揭示了当前LLM在抽象数学概念理解上的根本性短板，对评估模型推理能力有参考价值。",
+      "judgment": "这是AI基础认知能力的重要探索，结果可能影响我们对LLM数学推理本质的理解。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2606.17289",
       "importance": 2
     },
     {
       "source": "ArXiv",
-      "title": "RepSelect：通过表示选择性实现鲁棒的LLM遗忘",
-      "finding": "提出一种新的LLM遗忘方法，通过选择性调整模型内部表示来实现知识遗忘，同时保持通用能力不受影响。",
+      "title": "KV缓存可编辑与可组合：模型在预填充阶段'记笔记'",
+      "finding": "新研究提出KV缓存可编辑和可组合的方法，允许在预填充阶段修改缓存内容，提升推理效率。",
       "key_data": [
-        "LLM遗忘",
-        "表示选择性",
-        "保持通用能力"
+        "KV缓存编辑",
+        "预填充阶段",
+        "推理效率提升"
       ],
-      "judgment": "对模型合规和安全领域有实际价值，但距离产品化还有距离。",
+      "judgment": "对推理优化有实际价值，可能降低长上下文场景的部署成本。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.17168",
+      "url": "https://arxiv.org/abs/2606.17107",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "超越并行采样：用于Agent搜索的多样化查询初始化",
+      "finding": "论文提出在Agent搜索中通过多样化查询初始化来提升测试时扩展效果，超越简单的并行采样方法。",
+      "key_data": [
+        "Agent搜索",
+        "多样化查询",
+        "测试时扩展"
+      ],
+      "judgment": "对Agent系统的搜索策略有启发意义，可能提升复杂任务的成功率。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2606.17209",
       "importance": 2
     }
   ],
   "company_product": [
     {
       "source": "量子位",
-      "title": "天工3.1发布：上线Skywork Design与Dynamic Workflows",
-      "finding": "昆仑万维发布天工3.1，推出Skywork Design（AI设计画布）和Dynamic Workflows（动态工作流）两大新功能。官方称天工超级智能体的收入实现了三倍增长。",
+      "title": "天工3.1发布：Skywork Design与Dynamic Workflows上线",
+      "finding": "天工超级智能体发布3.1版本，推出Skywork Design和Dynamic Workflows功能，收入实现三倍增长。",
       "key_data": [
+        "收入三倍增长",
         "Skywork Design",
-        "Dynamic Workflows",
-        "收入三倍增长"
+        "Dynamic Workflows"
       ],
-      "judgment": "天工在Agent产品化上迈出了重要一步，动态工作流是Agent从单任务向多步骤协作演进的关键能力。",
+      "judgment": "AI Agent产品开始兑现商业价值，收入增长证明企业愿意为自动化工作流付费。",
       "confidence": 4,
       "url": "https://www.qbitai.com/2026/06/436110.html",
       "importance": 3
     },
     {
       "source": "量子位",
-      "title": "Grok 4.3正式在Amazon Bedrock上可用",
-      "finding": "xAI的Grok 4.3模型正式成为Amazon Bedrock的模型供应商之一，企业用户可通过AWS平台调用Grok模型。",
+      "title": "Grok 4.3在Amazon Bedrock上正式可用",
+      "finding": "xAI的Grok 4.3模型正式成为Amazon Bedrock的模型供应商之一，企业用户可通过AWS使用。",
       "key_data": [
         "Grok 4.3",
         "Amazon Bedrock",
         "企业可用"
       ],
-      "judgment": "xAI正在加速企业市场布局，Bedrock的渠道优势将帮助Grok触达更多企业客户，对OpenAI和Anthropic形成竞争压力。",
+      "judgment": "xAI通过AWS渠道进入企业市场，是追赶OpenAI和Anthropic的关键一步。",
       "confidence": 4,
       "url": "https://www.qbitai.com/2026/06/436134.html",
       "importance": 3
     },
     {
-      "source": "36氪",
-      "title": "逆矩阵科技完成超亿美元融资，创始人称通用世界基座模型窗口期已压至18个月",
-      "finding": "世界模型公司逆矩阵科技（Physis）完成超亿美元种子++轮融资，由经纬创投、五源资本、光合创投等参与，蚂蚁集团战略投资。创始人认为通用世界基座模型的窗口期已缩短至18个月。",
-      "key_data": [
-        "超亿美元融资",
-        "蚂蚁集团战略投资",
-        "窗口期18个月"
-      ],
-      "judgment": "世界模型赛道竞争进入白热化，资金向头部集中。18个月的窗口期判断意味着行业即将迎来洗牌。",
-      "confidence": 4,
-      "url": "https://36kr.com/p/3826129009234824",
-      "importance": 3
-    },
-    {
-      "source": "36氪",
-      "title": "头部具身大脑公司再获数亿美元融资，世界模型路线受追捧",
-      "finding": "一家头部具身智能“大脑”公司再次获得数亿美元融资，采用世界模型技术路线，半年内完成从开源到端侧再到训练场的三连发。15家VC争抢投资份额。",
+      "source": "量子位",
+      "title": "头部具身大脑公司再获数亿美元融资：世界模型路线",
+      "finding": "一家采用世界模型路线的具身智能'大脑'公司获得数亿美元融资，15家VC参与竞投。半年内完成从开源到端侧再到训练场的三连发。",
       "key_data": [
         "数亿美元融资",
         "世界模型路线",
-        "15家VC争抢",
-        "半年三连发"
+        "15家VC竞投"
       ],
-      "judgment": "具身智能的融资重心从硬件本体转向“大脑”软件，世界模型成为最受追捧的技术路线。",
+      "judgment": "具身智能赛道资本热度不减，世界模型路线成为新共识，但商业化落地仍是挑战。",
       "confidence": 4,
       "url": "https://www.qbitai.com/2026/06/436148.html",
       "importance": 3
     },
     {
       "source": "TechCrunch",
-      "title": "调查：60%的美国消费者反感品牌信息中出现“AI”字样",
-      "finding": "WordPress VIP的一项调查显示，60%的美国消费者表示品牌信息中出现“AI”字样会让他们反感。即使企业越来越多地将AI搜索视为重要流量渠道，消费者对AI生成内容的信任度依然很低。",
+      "title": "Android 17发布：新多任务工具与Gemini功能扩展",
+      "finding": "Google发布Android 17和Wear OS 7，引入新多任务功能、家长控制和安全工具，同时扩展Gemini AI功能。",
       "key_data": [
-        "60%消费者反感",
-        "AI品牌信任危机",
-        "WordPress VIP调查"
+        "Android 17",
+        "多任务工具",
+        "Gemini扩展"
       ],
-      "judgment": "这是一个重要的市场信号：AI作为营销噱头的时代正在结束。产品价值本身比“AI”标签更重要。",
+      "judgment": "Android系统级AI集成进一步加深，Gemini成为核心交互入口。",
+      "confidence": 5,
+      "url": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "Redis之父为DeepSeek抱不平：美国AI圈又为'蒸馏'吵起来了",
+      "finding": "Redis创始人Antirez发文为DeepSeek辩护，批评美国AI圈对'蒸馏'技术的过度反应，认为这是正常的技术进步。",
+      "key_data": [
+        "Redis之父",
+        "DeepSeek辩护",
+        "蒸馏争议"
+      ],
+      "judgment": "技术中立性讨论再次升温，开源社区与商业保护之间的张力加剧。",
       "confidence": 4,
-      "url": "https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/",
-      "importance": 3
+      "url": "https://www.infoq.cn/article/5OpP7JGal7gPR2wwWauA",
+      "importance": 2
     }
   ],
   "opinions": [
     {
       "person": "Georgi Gerganov",
       "level": "L1",
-      "quote": "我可以100%证实，Qwen3.6-27B是一个非常强大的本地编程模型。过去一个半月我几乎每天都在使用它，无论是在M2 Ultra还是RTX 5090上。",
-      "source": "https://simonwillison.net/2026/Jun/16/georgi-gerganov/"
+      "quote": "我100%确认Qwen3.6-27B是一个非常强大的本地编码模型。过去一个半月我几乎每天都在使用它，无论是在M2 Ultra还是RTX 5090上。",
+      "source": "https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything"
     },
     {
-      "person": "罗剑岚",
-      "level": "L1",
-      "quote": "机器人真正的Scaling Law，发生在真实部署闭环里。具身智能不能简单照搬大语言模型的发展路径。",
-      "source": "https://36kr.com/p/3856871787189252"
+      "person": "Gergely Orosz",
+      "level": "L2",
+      "quote": "Meta领导层正在进行一场AI驱动的工程组织大清洗。中层管理者被大量裁撤，工程文化遭受严重冲击。这是'AI优先'战略下的组织代价。",
+      "source": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI模型安全监管的全球博弈：从Fable 5禁令看未来趋势",
-      "reason": "Fable 5被禁和GPT-5.5同款漏洞暴露了监管与能力发展的根本矛盾，值得深入研究政策走向。",
+      "topic": "LLM安全漏洞（SearchLeak）对产品架构的影响",
+      "reason": "Copilot漏洞暴露了LLM搜索功能的根本安全缺陷，所有集成AI搜索的产品都需要重新评估安全设计。",
       "priority": "high"
     },
     {
-      "topic": "本地编程模型的崛起：Qwen3.6-27B为何成为开发者新宠",
-      "reason": "来自ggml作者的背书表明本地模型正在改变开发者工作流，值得深入评测其能力边界。",
+      "topic": "AI驱动的组织变革：Meta案例研究",
+      "reason": "Meta的激进重组是AI时代组织变革的极端样本，对其他科技公司有重要参考价值。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "模型安全监管升级，开源编程模型登顶",
-  "summary_paragraph": "今天的AI行业呈现出冰火两重天的态势。一边是监管重拳：Anthropic的Fable 5因高级黑客能力被美国政府禁止，GPT-5.5也被曝存在同款漏洞，安全对齐成为悬在每家公司头上的达摩克利斯之剑。另一边是技术突破：智谱GLM-5.2登顶全球前端编程模型，Qwen3.6-27B被ggml作者认证为本地编程利器，中国开源模型正在关键赛道上证明自己。商业层面，林俊旸新公司卜拉格以135亿估值亮相，逆矩阵科技再获超亿美元融资，资本对AI基础层的热情丝毫未减。而60%消费者反感品牌中的“AI”标签，则提醒行业：真正的产品价值远比技术标签重要。",
+  "summary_one_line": "安全争议、开源突破与组织变革并行",
+  "summary_paragraph": "今天的AI行业呈现多线并进的态势：Anthropic与政府的冲突反而可能助推其企业业务，安全争议成为双刃剑；智谱GLM-5.2登顶前端编程开源模型，中国AI在垂直领域实现全球领先；Meta的AI驱动组织重组引发工程文化震荡，预示AI对组织架构的深层影响。同时，Copilot的SearchLeak漏洞敲响LLM安全警钟，而林俊旸新公司卜拉格以135亿估值亮相，显示中国AI创业热度不减。行业正从模型竞赛转向安全、组织与商业化的全面博弈。",
   "snapshot": {
     "date": "2026-06-17",
-    "hf_trending": [],
+    "hf_trending": [
+      {
+        "name": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+        "short_name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+        "likes": 1257,
+        "downloads": 60921,
+        "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+        "tags": [
+          "gguf",
+          "gemma4",
+          "coding"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "google/diffusiongemma-26B-A4B-it",
+        "short_name": "diffusiongemma-26B-A4B-it",
+        "likes": 957,
+        "downloads": 375974,
+        "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "diffusion_gemma"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "MiniMaxAI/MiniMax-M3",
+        "short_name": "MiniMax-M3",
+        "likes": 1035,
+        "downloads": 25064,
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "minimax_m3_vl"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "moonshotai/Kimi-K2.7-Code",
+        "short_name": "Kimi-K2.7-Code",
+        "likes": 815,
+        "downloads": 102206,
+        "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "kimi_k25"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "zai-org/GLM-5.2",
+        "short_name": "GLM-5.2",
+        "likes": 687,
+        "downloads": 0,
+        "url": "https://huggingface.co/zai-org/GLM-5.2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "nvidia/LocateAnything-3B",
+        "short_name": "LocateAnything-3B",
+        "likes": 2111,
+        "downloads": 98698,
+        "url": "https://huggingface.co/nvidia/LocateAnything-3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "locateanything"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "prefeitura-rio/Rio-3.5-Open-397B",
+        "short_name": "Rio-3.5-Open-397B",
+        "likes": 318,
+        "downloads": 189744,
+        "url": "https://huggingface.co/prefeitura-rio/Rio-3.5-Open-397B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "unsloth/diffusiongemma-26B-A4B-it-GGUF",
+        "short_name": "diffusiongemma-26B-A4B-it-GGUF",
+        "likes": 291,
+        "downloads": 120435,
+        "url": "https://huggingface.co/unsloth/diffusiongemma-26B-A4B-it-GGUF",
+        "tags": [
+          "gguf",
+          "gemma4",
+          "unsloth"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
     "github_trending": [
       {
         "name": "openclaw/openclaw",
         "desc": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-        "stars": 379093,
+        "stars": 379105,
         "language": "TypeScript",
         "url": "https://github.com/openclaw/openclaw",
         "topics": [
@@ -253,7 +378,7 @@
       {
         "name": "affaan-m/ECC",
         "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research",
-        "stars": 216891,
+        "stars": 216906,
         "language": "JavaScript",
         "url": "https://github.com/affaan-m/ECC",
         "topics": [
@@ -265,7 +390,7 @@
       {
         "name": "tensorflow/tensorflow",
         "desc": "An Open Source Machine Learning Framework for Everyone",
-        "stars": 195732,
+        "stars": 195731,
         "language": "C++",
         "url": "https://github.com/tensorflow/tensorflow",
         "topics": [
@@ -277,7 +402,7 @@
       {
         "name": "NousResearch/hermes-agent",
         "desc": "The agent that grows with you",
-        "stars": 195627,
+        "stars": 195645,
         "language": "Python",
         "url": "https://github.com/NousResearch/hermes-agent",
         "topics": [
@@ -289,7 +414,7 @@
       {
         "name": "n8n-io/n8n",
         "desc": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with cus",
-        "stars": 192879,
+        "stars": 192881,
         "language": "TypeScript",
         "url": "https://github.com/n8n-io/n8n",
         "topics": [
@@ -301,7 +426,7 @@
       {
         "name": "Significant-Gravitas/AutoGPT",
         "desc": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provi",
-        "stars": 184985,
+        "stars": 184987,
         "language": "Python",
         "url": "https://github.com/Significant-Gravitas/AutoGPT",
         "topics": [
@@ -422,6 +547,7 @@
         "change": 354.8,
         "url": "https://openrouter.ai/z-ai/glm-5.1"
       }
-    ]
+    ],
+    "hf_summary": "多模态模型主导，开源权重与量化版并行"
   }
 }
