@@ -3,255 +3,232 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "SpaceX 600亿美元收购Cursor，马斯克直接买下AI编程赛道",
-      "finding": "SpaceX以约600亿美元收购AI编程IDE公司Cursor（Anysphere），这是马斯克在AI编程领域最大的一笔收购。Cursor是目前最受欢迎的AI原生IDE，拥有数百万开发者用户。马斯克此前曾表示要补课AI，这次直接买下了课代表。",
+      "title": "GLM-5.2 开源：可能是最强的纯文本开源大模型",
+      "finding": "中国AI实验室智谱（Z.ai）发布了GLM-5.2，采用MIT开源协议，性能在多项基准上超越Llama 3.1 405B和DeepSeek-V3，成为目前最强的纯文本开源模型。该模型专注于长周期任务，对开发者社区意义重大。",
       "key_data": [
-        "收购金额约600亿美元",
-        "Cursor是AI IDE标杆",
-        "马斯克直接买下赛道"
+        "MIT开源协议",
+        "超越Llama 3.1 405B",
+        "专注长周期任务"
       ],
-      "judgment": "这对AI编程行业是核弹级事件。马斯克通过收购直接获得了Cursor的开发者生态和技术积累，xAI的Grok模型将获得最直接的落地场景。Cursor团队面临的最大挑战是如何在马斯克的管理风格下保持产品独立性。",
-      "confidence": 4,
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/D9oPd77E8bEpRvpE7oM4"
+      "judgment": "这意味着开源模型的天花板再次被中国团队刷新，开发者有了一个免费且强大的替代方案，可能加速全球AI应用的去中心化。",
+      "confidence": 5,
+      "source": "Simon Willison / Hugging Face",
+      "url": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything"
     },
     {
       "rank": 2,
-      "title": "GLM-5.2开源：可能是目前最强的纯文本开源模型",
-      "finding": "智谱AI（Z.ai）发布GLM-5.2，采用MIT开源协议，在多个基准测试中超越Llama 4和DeepSeek V3，特别是在前端编码任务上达到世界第一。模型大小与前代类似，但推理能力显著提升，支持长上下文任务。",
+      "title": "OpenAI Q1烧掉250亿美元，财报泄露引发行业震动",
+      "finding": "据泄露的财务数据，OpenAI在2026年第一季度支出高达250亿美元，远超收入，引发市场对其可持续性的担忧。这一数字让同行和投资者感到震惊，可能影响AI行业的投资信心。",
       "key_data": [
-        "MIT开源协议",
-        "前端编码世界第一",
-        "超越Llama 4和DeepSeek V3"
+        "Q1支出250亿美元",
+        "远超收入",
+        "可持续性存疑"
       ],
-      "judgment": "这意味着开源模型的能力天花板再次被打破。GLM-5.2在编码任务上的表现说明，中国AI实验室在开源模型领域已经具备全球竞争力。对于开发者来说，又多了一个可本地部署的高质量编码助手选择。",
-      "confidence": 5,
-      "source": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Jun/17/glm-52/"
+      "judgment": "OpenAI的烧钱速度表明，前沿AI模型的训练和运营成本远超预期，这可能加速行业整合，并促使更多公司转向开源或更高效的模型。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/06/436477.html"
     },
     {
       "rank": 3,
-      "title": "OpenAI展示AI化学家：GPT-5.4自主改进药物合成反应",
-      "finding": "OpenAI与Molecule.one合作，展示了一个近乎自主的AI化学家系统，使用GPT-5.4成功改进了一项关键的药物合成反应。系统能够自主设计实验、分析结果并迭代优化，无需人类化学家持续干预。",
+      "title": "Midjourney 进军医疗：推出器官扫描产品",
+      "leading": "Midjourney 宣布推出第二款产品——Midjourney Medical，能够像站上体重秤一样扫描人体器官。这家唯一自筹资金的前沿实验室正从图像生成扩展到医疗健康领域，引发行业关注。",
+      "finding": "Midjourney 从AI图像生成跨界到医疗影像，推出器官扫描产品，标志着其从创意工具向严肃医疗应用的战略转型。",
       "key_data": [
-        "GPT-5.4驱动",
-        "自主改进药物合成反应",
-        "接近自主运行"
+        "第二款产品",
+        "器官扫描",
+        "自筹资金实验室"
       ],
-      "judgment": "这是AI从'聊天工具'走向'科学发现工具'的重要里程碑。如果AI化学家能规模化，将大幅缩短药物研发周期，改变制药行业的研发范式。对AI从业者来说，'AI+科学'可能是比'AI+编程'更大的市场。",
-      "confidence": 5,
-      "source": "OpenAI Blog",
-      "url": "https://openai.com/index/ai-chemist-improves-reaction"
+      "judgment": "Midjourney 的跨界能力表明，AI视觉模型在医疗领域的应用潜力巨大，但监管和准确性挑战不容忽视。",
+      "confidence": 4,
+      "source": "Latent Space",
+      "url": "https://www.latent.space/p/ainews-midjourney-medical-scan-your"
     },
     {
       "rank": 4,
-      "title": "白宫要求Anthropic封堵所有越狱漏洞，否则不让发布Fable 5",
-      "finding": "特朗普政府官员向WIRED透露，如果Anthropic想重新发布Fable 5模型，必须确保其防护措施无法被绕过。安全专家认为这几乎不可能做到。此前Anthropic因安全争议下架了Mythos模型，并切断了SK Telecom的访问权限。",
+      "title": "白宫要求Anthropic封堵所有越狱漏洞，专家称不可能",
+      "finding": "特朗普政府要求Anthropic在重新发布Fable 5模型前，确保其防护措施无法被绕过。安全专家指出，完全封堵越狱在技术上不可行，这可能导致模型发布延迟或功能受限。",
       "key_data": [
-        "白宫要求零越狱",
-        "Fable 5发布受阻",
-        "安全专家认为不可能"
+        "白宫要求",
+        "封堵所有越狱",
+        "专家称不可能"
       ],
-      "judgment": "这暴露了AI安全监管的核心矛盾：绝对安全与可用性不可兼得。如果政府坚持零越狱标准，Anthropic可能面临要么放弃发布、要么承担巨大法律风险的两难。这对整个行业的模型发布策略都有深远影响。",
+      "judgment": "政府干预AI安全标准的趋势加强，但技术现实与政策期望之间的鸿沟可能阻碍创新，并引发关于AI监管边界的激烈讨论。",
       "confidence": 4,
       "source": "Wired",
       "url": "https://www.wired.com/story/the-white-house-wants-anthropic-to-block-all-jailbreaks-that-may-not-be-possible/"
     },
     {
       "rank": 5,
-      "title": "G7峰会：多国领导人担忧美国AI可被'一键关闭'",
-      "finding": "法国总统马克龙和印度总理莫迪在G7峰会上警告，美国可能随时切断对盟友的AI服务访问。这一担忧在Anthropic因出口管制切断SK Telecom访问后变得真实。各国正在寻求AI主权，减少对美国技术的依赖。",
+      "title": "Chrome 推出 WebMCP 标准提案，为AI智能体提供原生Web操作能力",
+      "finding": "Google Chrome 团队提出 WebMCP 标准提案，旨在为AI智能体提供原生的Web操作接口，使其能够像人类一样浏览和操作网页。这标志着浏览器从内容展示平台向AI智能体操作系统的转变。",
       "key_data": [
-        "G7峰会讨论AI主权",
-        "Anthropic切断SKT访问",
-        "多国寻求技术独立"
+        "WebMCP标准提案",
+        "原生Web操作",
+        "AI智能体操作系统"
       ],
-      "judgment": "AI地缘政治进入新阶段：'AI主权'将成为各国核心战略。这对美国AI公司是双刃剑——短期受益于出口管制，长期可能失去海外市场。对于开发者来说，未来可能需要同时支持多个国家的AI基础设施。",
+      "judgment": "WebMCP 可能成为AI智能体与Web交互的通用协议，对开发者而言，这意味着未来构建AI应用将更关注浏览器原生能力，而非依赖外部工具。",
       "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/"
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/wCUdx4sZt94siodQI7u0?utm_source=rss&utm_medium=article"
     }
   ],
   "model_tech": [
     {
-      "source": "Hugging Face Blog",
-      "title": "MolmoMotion：语言引导的3D运动预测模型",
-      "finding": "Allen AI发布MolmoMotion，一个通过自然语言指令预测3D人体运动的模型。用户可以用文字描述动作（如'一个人挥手'），模型生成对应的3D运动序列。",
-      "key_data": [
-        "语言引导3D运动",
-        "Allen AI出品"
-      ],
-      "judgment": "这是多模态AI在具身智能领域的重要进展，让机器人理解自然语言指令并执行物理动作成为可能。",
-      "confidence": 4,
-      "url": "https://huggingface.co/blog/allenai/molmomotion",
-      "importance": 3
-    },
-    {
-      "source": "Reddit r/MachineLearning",
+      "source": "Reddit",
       "title": "Next-Latent Prediction Transformers：微软提出下一代预测范式",
-      "finding": "微软研究院提出Next-Latent Prediction（NextLat），让Transformer学习预测自己的下一个潜在状态，而非直接预测下一个token。这种方法可能解决传统自回归模型的短视问题。",
+      "finding": "微软研究院提出Next-Latent Prediction（NextLat），让Transformer学习预测自身的下一个潜在状态，而非直接预测下一个token，可能突破自回归模型的局限性。",
       "key_data": [
-        "微软研究院",
+        "NextLat",
         "预测潜在状态",
-        "替代next-token prediction"
+        "突破自回归局限"
       ],
-      "judgment": "如果NextLat被验证有效，可能改变整个LLM的训练范式，让模型具备更长程的推理能力。值得持续关注。",
+      "judgment": "如果验证有效，可能改变LLM的训练范式，提升长文本理解和推理效率。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1u84mio/nextlatent_prediction_transformers_r/",
       "importance": 3
     },
     {
-      "source": "Hugging Face Blog",
-      "title": "从Hugging Face Hub到机器人硬件：Strands Agents与LeRobot",
-      "finding": "亚马逊与Hugging Face合作，展示了如何将Hub上的模型直接部署到真实机器人硬件上。Strands Agents框架让开发者可以用自然语言控制机器人，LeRobot提供底层控制。",
+      "source": "ArXiv",
+      "title": "CEO-Bench：AI智能体能否玩好长期游戏？",
+      "finding": "新基准CEO-Bench评估AI智能体在长期、多步骤任务中的表现，结果显示当前模型在短期任务上表现良好，但在需要战略规划和持久执行的任务中大幅落后。",
       "key_data": [
-        "Hub到硬件",
-        "自然语言控制机器人"
+        "CEO-Bench",
+        "长期任务评估",
+        "战略规划短板"
       ],
-      "judgment": "这降低了机器人开发的门槛，让更多AI开发者可以进入具身智能领域，而不需要深厚的机器人背景。",
+      "judgment": "这揭示了当前AI智能体的核心瓶颈：缺乏长期规划和持久执行能力，是Agent产品化的关键障碍。",
       "confidence": 4,
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+      "url": "https://arxiv.org/abs/2606.18543",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "JetFlow：突破推测解码的缩放天花板",
+      "finding": "JetFlow提出并行树草稿机制，显著提升推测解码的效率，使LLM推理速度大幅提升，同时保持生成质量。",
+      "key_data": [
+        "并行树草稿",
+        "推测解码",
+        "推理加速"
+      ],
+      "judgment": "推理效率的提升直接降低部署成本，对AI应用落地是重大利好。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2606.18394",
       "importance": 2
     },
     {
-      "source": "ArXiv cs.AI",
-      "title": "超越并行采样：Agent搜索的多样化查询初始化",
-      "finding": "一篇新论文研究如何通过多样化查询初始化来提升Agent搜索的测试时扩展能力，而不是简单地增加搜索深度或宽度。",
+      "source": "ArXiv",
+      "title": "Gaussian Mixture Attention：线性时间序列混合新方法",
+      "finding": "提出高斯混合注意力机制，通过概率潜在路由实现线性时间复杂度的序列混合，有望替代标准点积注意力，解决长序列计算瓶颈。",
       "key_data": [
-        "测试时扩展新方法",
-        "多样化查询初始化"
+        "线性时间复杂度",
+        "高斯混合",
+        "替代点积注意力"
       ],
-      "judgment": "这是AI Agent推理效率的重要研究方向，可能让Agent在更少的计算资源下获得更好的搜索结果。",
+      "judgment": "如果被主流框架采纳，将大幅降低长文本处理的算力需求，推动更大上下文窗口的应用。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.17209",
-      "importance": 2
-    },
-    {
-      "source": "ArXiv cs.CL",
-      "title": "RepSelect：通过表示选择性实现鲁棒的LLM遗忘",
-      "finding": "提出一种新的LLM遗忘方法，通过选择性修改模型内部表示来删除特定知识，同时保持通用能力不受影响。",
-      "key_data": [
-        "LLM遗忘新方法",
-        "保持通用能力"
-      ],
-      "judgment": "在AI安全监管趋严的背景下，可控遗忘技术变得至关重要。这篇工作提供了比现有方法更精细的控制手段。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.17168",
+      "url": "https://arxiv.org/abs/2606.18283",
       "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "Wired",
-      "title": "搭载Gemini的Google Home音箱终于发布",
-      "finding": "谷歌发布新一代Google Home智能音箱，这是六年来首次更新。新音箱内置Gemini AI助手，支持更自然的对话和复杂任务处理，外观类似HomePod。",
+      "source": "InfoQ",
+      "title": "Cursor 1.5T新模型放弃Kimi基座，马斯克第一刀砍向微软GitHub",
+      "finding": "Cursor 发布1.5T参数新模型，但不再使用Kimi作为基座。同时，马斯克收购Cursor后，首先对微软GitHub Copilot发起竞争，AI编程工具市场格局生变。",
       "key_data": [
-        "六年来首次更新",
-        "内置Gemini",
-        "HomePod风格"
+        "1.5T参数",
+        "放弃Kimi基座",
+        "马斯克收购"
       ],
-      "judgment": "这是谷歌将Gemini落地到消费硬件的重要一步，但智能音箱市场已被Alexa和Siri占据，Gemini能否带来差异化体验是关键。",
-      "confidence": 5,
-      "url": "https://www.wired.com/story/the-gemini-powered-google-home-speaker-is-finally-here/",
+      "judgment": "AI编程工具进入巨头博弈阶段，Cursor的独立模型策略可能打破GitHub Copilot的垄断地位。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/pl4x24FzEJDfhBRgiWAc?utm_source=rss&utm_medium=article",
       "importance": 3
+    },
+    {
+      "source": "Wired",
+      "title": "谷歌推出Gemini驱动的智能音箱",
+      "finding": "谷歌时隔六年推出新款智能音箱，内置Gemini聊天机器人，支持更自然的对话和智能家居控制，标志着AI语音助手进入新阶段。",
+      "key_data": [
+        "Gemini驱动",
+        "六年首款新品",
+        "智能家居控制"
+      ],
+      "judgment": "Gemini进入硬件终端，意味着AI语音助手从问答工具向家庭智能中枢升级，可能重塑智能家居市场。",
+      "confidence": 4,
+      "url": "https://www.wired.com/story/the-gemini-powered-google-home-speaker-is-finally-here/",
+      "importance": 2
     },
     {
       "source": "量子位",
       "title": "北京建设AI工厂：目标10万P算力，日产10万亿Token",
-      "finding": "北京宣布建设一座大规模AI工厂，目标提供10万P算力，每天生产10万亿Token。计划通过1000倍综合降本，大幅降低AI训练和推理成本。",
+      "finding": "北京宣布建设大型AI工厂，目标提供10万P算力，每日生产10万亿Token，计划实现1000倍综合降本，推动国产算力标准化。",
       "key_data": [
         "10万P算力",
         "日产10万亿Token",
         "1000倍降本"
       ],
-      "judgment": "这是中国AI基础设施建设的标志性事件。如果1000倍降本目标实现，将彻底改变AI应用的商业模式，让更多中小企业用得起大模型。",
+      "judgment": "大规模AI基础设施投入表明中国在算力自主上的决心，但能否实现千倍降本仍需验证。",
       "confidence": 4,
       "url": "https://www.qbitai.com/2026/06/436456.html",
       "importance": 3
     },
     {
       "source": "36氪",
-      "title": "穹彻智能完成数亿元融资，红杉、阿里押注的具身大脑公司",
-      "finding": "具身智能企业穹彻智能完成新一轮数亿元融资，投资方包括无锡数据集团、上海交通大学AI未来基金等。公司此前已获红杉中国、阿里等投资，专注于具身智能'大脑'研发。",
+      "title": "穹彻智能完成数亿元融资，红杉、阿里等持续押注具身智能",
+      "finding": "具身智能企业穹彻智能完成新一轮数亿元融资，由无锡数据集团领投，上海交大AI基金等跟投。公司专注于具身大脑研发，此前已获红杉、阿里等投资。",
       "key_data": [
         "数亿元融资",
-        "红杉、阿里参投",
-        "具身智能大脑"
+        "具身大脑",
+        "红杉阿里押注"
       ],
-      "judgment": "具身智能赛道持续火热，但'大脑'（决策系统）比'身体'（硬件）更难做。穹彻智能能否在算法上取得突破，决定了它能否从众多机器人公司中脱颖而出。",
+      "judgment": "具身智能赛道持续火热，资本向头部企业集中，但商业化落地仍是最大挑战。",
       "confidence": 4,
-      "url": "https://36kr.com/p/3856708724315400",
-      "importance": 2
-    },
-    {
-      "source": "量子位",
-      "title": "算苗3D TokenPU正式流片，国产AI云端大算力芯片再升级",
-      "finding": "算苗科技宣布其3D TokenPU芯片正式流片，这是一款面向AI云端训练和推理的大算力芯片，旨在提供国产替代方案。",
-      "key_data": [
-        "3D TokenPU流片",
-        "国产AI芯片",
-        "云端大算力"
-      ],
-      "judgment": "在美国芯片出口管制背景下，国产AI芯片的每一次流片都意义重大。但流片到量产还有很长的路，性能能否对标NVIDIA是真正的考验。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/06/436213.html",
-      "importance": 2
-    },
-    {
-      "source": "36氪",
-      "title": "中科闻歌启动招股，'通用决策大模型第一股'即将上市",
-      "finding": "中科闻歌在港交所启动招股，发行价60.70港元，市值约105亿港元。公司定位为'通用决策大模型'，在中国企业级大模型市场份额排名第八（2.2%）。",
-      "key_data": [
-        "市值105亿港元",
-        "通用决策大模型第一股",
-        "市场份额2.2%"
-      ],
-      "judgment": "这是中国AI大模型公司上市的重要风向标。2.2%的份额就能撑起百亿市值，说明资本市场对AI赛道仍有很高期待，但盈利能力是后续关注重点。",
-      "confidence": 4,
-      "url": "https://36kr.com/p/3857959588418823",
+      "url": "https://36kr.com/p/3856708724315400?f=rss",
       "importance": 2
     }
   ],
   "opinions": [
     {
-      "person": "Charity Majors",
-      "level": "L2",
-      "quote": "2025年发生的变化是：代码生产的经济学被彻底颠覆。生成代码从非常困难、耗时、昂贵，变成了几乎免费且无限供应。",
-      "source": "Simon Willison引用"
-    },
-    {
       "person": "Simon Willison",
       "level": "L2",
-      "quote": "GLM-5.2可能是目前最强大的纯文本开源模型。它在前端编码任务上达到世界第一，这对开发者来说是一个重要的新选择。",
-      "source": "https://simonwillison.net/2026/Jun/17/glm-52/"
+      "quote": "GLM-5.2 可能是目前最强大的纯文本开源模型，其MIT许可证意味着开发者可以自由使用和修改。",
+      "source": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything"
+    },
+    {
+      "person": "Charity Majors",
+      "level": "L2",
+      "quote": "2025年发生的变化是：代码生产的经济学被彻底颠覆。生成代码从困难、耗时、昂贵变得几乎免费且即时。",
+      "source": "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "SpaceX收购Cursor：AI编程行业的格局重塑",
-      "reason": "600亿美元收购是AI编程领域最大交易，将深刻影响IDE市场、开源生态和xAI战略",
+      "topic": "GLM-5.2 技术架构与性能实测",
+      "reason": "作为最强开源纯文本模型，其MoE架构和长周期任务能力值得深入分析。",
       "priority": "high"
     },
     {
-      "topic": "AI主权运动：美国AI公司面临全球监管挑战",
-      "reason": "G7峰会讨论和Anthropic事件表明，AI地缘政治正在重塑行业格局",
+      "topic": "OpenAI 财务可持续性危机",
+      "reason": "250亿美元季度支出揭示AI行业泡沫风险，需评估对投资和创业的影响。",
       "priority": "high"
     },
     {
-      "topic": "GLM-5.2开源：中国开源模型的全球竞争力分析",
-      "reason": "MIT协议+世界第一的编码能力，可能改变开源模型格局",
+      "topic": "WebMCP 标准对AI智能体生态的影响",
+      "reason": "可能成为AI与Web交互的通用协议，改变开发者构建智能体的方式。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "SpaceX收购Cursor，GLM-5.2开源，AI主权博弈升级",
-  "summary_paragraph": "今天AI行业发生了三件大事：SpaceX以600亿美元收购Cursor，马斯克直接买下AI编程赛道，这对开发者工具市场是核弹级冲击；智谱AI开源GLM-5.2，在前端编码任务上达到世界第一，证明中国开源模型已具备全球竞争力；OpenAI展示AI化学家，用GPT-5.4自主改进药物合成反应，AI从聊天工具走向科学发现工具。与此同时，AI地缘政治升温：白宫要求Anthropic封堵所有越狱漏洞，G7峰会多国领导人担忧美国AI可被'一键关闭'。北京宣布建设10万P算力的AI工厂，中国在AI基础设施上持续加码。",
+  "summary_one_line": "开源模型再突破，OpenAI烧钱引担忧",
+  "summary_paragraph": "今日AI行业迎来多个重磅消息：智谱开源GLM-5.2，成为最强纯文本开源模型，开发者社区欢呼；但OpenAI Q1烧掉250亿美元的财报泄露，给行业泼了一盆冷水。Midjourney跨界医疗推出器官扫描产品，Chrome提出WebMCP标准为AI智能体铺路，而白宫要求Anthropic封堵所有越狱漏洞的争议，凸显了监管与技术的矛盾。整体来看，开源力量崛起与商业可持续性挑战成为今日两大主线。",
   "snapshot": {
     "date": "2026-06-18",
     "hf_trending": [
       {
         "name": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "short_name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-        "likes": 1484,
+        "likes": 1533,
         "downloads": 146784,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "tags": [
@@ -267,7 +244,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 1038,
+        "likes": 1099,
         "downloads": 666,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -283,7 +260,7 @@
       {
         "name": "MiniMaxAI/MiniMax-M3",
         "short_name": "MiniMax-M3",
-        "likes": 1065,
+        "likes": 1070,
         "downloads": 42198,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
         "tags": [
@@ -299,7 +276,7 @@
       {
         "name": "moonshotai/Kimi-K2.7-Code",
         "short_name": "Kimi-K2.7-Code",
-        "likes": 847,
+        "likes": 851,
         "downloads": 172727,
         "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
         "tags": [
@@ -315,7 +292,7 @@
       {
         "name": "google/diffusiongemma-26B-A4B-it",
         "short_name": "diffusiongemma-26B-A4B-it",
-        "likes": 979,
+        "likes": 983,
         "downloads": 460173,
         "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
         "tags": [
@@ -331,7 +308,7 @@
       {
         "name": "WeiboAI/VibeThinker-3B",
         "short_name": "VibeThinker-3B",
-        "likes": 313,
+        "likes": 332,
         "downloads": 1950,
         "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
         "tags": [
@@ -347,7 +324,7 @@
       {
         "name": "prefeitura-rio/Rio-3.5-Open-397B",
         "short_name": "Rio-3.5-Open-397B",
-        "likes": 318,
+        "likes": 320,
         "downloads": 189986,
         "url": "https://huggingface.co/prefeitura-rio/Rio-3.5-Open-397B",
         "tags": [
@@ -363,7 +340,7 @@
       {
         "name": "nvidia/LocateAnything-3B",
         "short_name": "LocateAnything-3B",
-        "likes": 2138,
+        "likes": 2141,
         "downloads": 130389,
         "url": "https://huggingface.co/nvidia/LocateAnything-3B",
         "tags": [
@@ -381,7 +358,7 @@
       {
         "name": "openclaw/openclaw",
         "desc": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-        "stars": 379234,
+        "stars": 379289,
         "language": "TypeScript",
         "url": "https://github.com/openclaw/openclaw",
         "topics": [
@@ -393,7 +370,7 @@
       {
         "name": "affaan-m/ECC",
         "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research",
-        "stars": 217330,
+        "stars": 217442,
         "language": "JavaScript",
         "url": "https://github.com/affaan-m/ECC",
         "topics": [
@@ -405,7 +382,7 @@
       {
         "name": "NousResearch/hermes-agent",
         "desc": "The agent that grows with you",
-        "stars": 196247,
+        "stars": 196424,
         "language": "Python",
         "url": "https://github.com/NousResearch/hermes-agent",
         "topics": [
@@ -417,7 +394,7 @@
       {
         "name": "tensorflow/tensorflow",
         "desc": "An Open Source Machine Learning Framework for Everyone",
-        "stars": 195719,
+        "stars": 195728,
         "language": "C++",
         "url": "https://github.com/tensorflow/tensorflow",
         "topics": [
@@ -429,7 +406,7 @@
       {
         "name": "n8n-io/n8n",
         "desc": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with cus",
-        "stars": 192968,
+        "stars": 192988,
         "language": "TypeScript",
         "url": "https://github.com/n8n-io/n8n",
         "topics": [
@@ -441,7 +418,7 @@
       {
         "name": "Significant-Gravitas/AutoGPT",
         "desc": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provi",
-        "stars": 185004,
+        "stars": 185010,
         "language": "Python",
         "url": "https://github.com/Significant-Gravitas/AutoGPT",
         "topics": [
@@ -563,6 +540,6 @@
         "url": "https://openrouter.ai/anthropic/claude-4.8-opus"
       }
     ],
-    "hf_summary": "多模态理解模型主导榜单，开源小模型热度飙升"
+    "hf_summary": "多模态模型主导，开源小模型受追捧。"
   }
 }
