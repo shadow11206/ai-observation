@@ -7,7 +7,7 @@
 
 | 脚本 | 作用 | 触发方式 |
 |------|------|---------|
-| `scripts/generate_daily.py` | 主日报生成：RSS 抓取 → AI 摘要 → JSON+MD 双输出 | Actions cron 每天 UTC 02:00（北京 10:00） |
+| `scripts/generate_daily.py` | 主日报生成：RSS 抓取 → AI 摘要 → JSON+MD 双输出 | cron-job.org 每天 UTC 02:00（北京 10:00）触发 workflow_dispatch |
 | `scripts/fetch_rss.py` | RSS 抓取 + 去重 + 时间过滤 | generate_daily 内部调用 |
 | `scripts/fetch_snapshot.py` | HF Trending + OpenRouter 排行快照 | generate_daily 内部调用 |
 | `scripts/build_daily_index.py` | 日报索引 JSON（供前端列表页） | Actions generate 之后 |
@@ -45,9 +45,11 @@
 - **IP 白名单**：GitHub Actions 托管 runner 的出口 IP 会变，`errcode: 40164` 表示 IP 不在白名单
 - **推送失败不阻断日报流程**：workflow 已设 `continue-on-error: true`
 
-## GitHub Actions
+## crontab / 定时触发
 
-- **Cron 修改后有延迟**：新 cron 可能过 1-2 个调度周期才生效，改完可手动 workflow_dispatch 验证
+- **主触发器**：[cron-job.org](https://console.cron-job.org) Job ID `7843092`，每天 UTC 02:00 POST 到 GitHub API 触发 `workflow_dispatch`
+- GitHub Actions 自带的 `schedule`（`0 2 * * *`）保留作为备用，但可靠性差（多次延迟/未触发）
+- **Cron 修改后有延迟**：GitHub schedule 改 cron 后可能过 1-2 个周期才生效
 - **runner IP 动态变化**：公众号 IP 白名单问题无法靠单次添加 IP 永久解决
 
 ## 硬规则 / 红线
