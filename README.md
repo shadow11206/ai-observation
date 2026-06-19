@@ -96,14 +96,15 @@ RSS 信源 → 日报生成 → AI 摘要提炼 → 观点更新 → 公众号�
 
 ## 快速开始
 
-**Fork 本仓库后，添加两个 GitHub Secrets：**
+**Fork 本仓库后，添加三个 GitHub Secrets：**
 
 | Secret 名称 | 说明 |
 |-------------|------|
 | `AI_API_KEY` | AI API Key（DeepSeek / OpenAI / Anthropic 均支持） |
 | `AI_API_BASE` | API Base URL，如 `https://api.deepseek.com` |
+| `OPENROUTER_API_KEY` | OpenRouter API Key（在 [openrouter.ai/keys](https://openrouter.ai/keys) 创建） |
 
-配置完成后，GitHub Actions 每天 09:00（北京时间）自动生成日报并 commit 到仓库。  
+配置完成后，每天 10:00（北京时间）cron-job.org 自动触发日报生成并 commit 到仓库。  
 也可在 Actions 页面手动触发。
 
 ---
