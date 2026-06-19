@@ -3,254 +3,220 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "美国禁止Anthropic新模型Fable，AI出口管制进入新阶段",
-      "finding": "美国政府对Anthropic的Claude Mythos和Fable 5模型实施出口管制，但未明确说明违规细节。这标志着AI监管从“技术限制”转向“模型级禁令”，且规则不透明，引发行业对合规不确定性的担忧。",
+      "title": "美国禁止Anthropic发布新模型Fable，AI出口管制进入新阶段",
+      "finding": "美国政府对Anthropic的新模型Fable实施出口管制，禁止其发布。这是首次对本土顶级AI实验室的模型发布进行直接干预，标志着AI监管从“事后审查”转向“事前禁止”。目前Anthropic无法分发Claude Mythos或Fable 5，但官方未明确说明违规的具体原因。",
       "key_data": [
-        "模型级禁令",
-        "规则不透明",
-        "Anthropic受限",
-        "出口管制新阶段"
+        "Anthropic Fable被禁",
+        "出口管制事前干预",
+        "监管规则不透明"
       ],
-      "judgment": "这对所有AI公司是重大警示：模型能力越强，越可能成为地缘政治靶子。开发者需要重新评估模型部署的合规风险，尤其是跨国企业。",
-      "confidence": 5,
-      "source": "Wired",
-      "url": "https://www.wired.com/story/anthropic-mythos-export-controls-ai-regulations/"
+      "judgment": "这对整个AI行业是重大信号：美国政府正在建立对前沿模型的实时控制能力，未来任何可能触及国家安全红线的模型发布都可能被叫停。开发者需要为模型发布增加合规审查环节，不确定性大幅上升。",
+      "confidence": 4,
+      "source": "The Pragmatic Engineer",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us"
     },
     {
       "rank": 2,
-      "title": "DeepSeek-V4预览版发布：1.6万亿参数MoE，百万Token上下文",
-      "finding": "DeepSeek发布V4系列预览，包含1.6万亿参数的DeepSeek-V4-Pro和更高效的DeepSeek-V4-Lite，支持百万Token上下文。这是开源模型首次在参数规模和上下文长度上同时达到闭源旗舰水平。",
+      "title": "DeepSeek-V4预览版发布：1.6万亿参数MoE模型，百万Token上下文",
+      "finding": "DeepSeek发布V4系列预览版，包含DeepSeek-V4-Pro（1.6T参数MoE）和DeepSeek-V4-Lite（200B参数）。新模型在百万Token上下文窗口上实现高效推理，性能对标甚至超越GPT-4o。这是开源模型首次在参数规模和上下文长度上同时达到闭源旗舰水平。",
       "key_data": [
-        "1.6万亿参数",
+        "1.6T参数MoE",
         "百万Token上下文",
-        "MoE架构",
-        "开源模型新标杆"
+        "开源旗舰模型"
       ],
-      "judgment": "DeepSeek再次拉高开源模型天花板。百万Token上下文意味着开发者可以处理整本代码库或长文档，这对RAG和Agent应用是质变。闭源厂商的压力会进一步加大。",
+      "judgment": "DeepSeek-V4证明开源模型在Scaling Law上并未落后，百万Token上下文将成为下一代模型的标配。对开发者而言，这意味着可以基于开源模型构建超长文档处理应用，不再依赖闭源API。",
       "confidence": 5,
       "source": "ArXiv",
       "url": "https://arxiv.org/abs/2606.19348"
     },
     {
       "rank": 3,
-      "title": "OpenAI为IPO做准备：挖来Transformer发明者Noam Shazeer和前AI政策官员",
-      "finding": "OpenAI在IPO前密集引入关键人才：Transformer论文共同作者Noam Shazeer从Google DeepMind加盟，同时聘请前特朗普政府AI政策官员Dean Ball。这表明OpenAI正在同时强化技术领导力和政府关系。",
+      "title": "OpenAI为IPO做准备：Transformer发明者Noam Shazeer加入，前AI政策官员加盟",
+      "finding": "OpenAI在IPO前夕密集引入关键人才：Transformer论文共同作者Noam Shazeer从Google DeepMind加入，同时聘请前特朗普政府AI政策官员Dean Ball。这表明OpenAI正在同时强化技术领导力和政府关系，为上市后的合规与竞争做准备。",
       "key_data": [
-        "Noam Shazeer加盟",
-        "前AI政策官员",
-        "IPO前人才布局",
-        "技术+政策双线"
+        "Noam Shazeer加入",
+        "前AI政策官员加盟",
+        "IPO前人才储备"
       ],
-      "judgment": "OpenAI的IPO不仅是融资事件，更是行业信号。引入Shazeer意味着下一代模型架构可能有重大变化；引入政策官员则说明AI监管博弈将更加激烈。",
-      "confidence": 5,
+      "judgment": "OpenAI的IPO已进入倒计时。Shazeer的加入可能加速下一代Transformer架构的研发，而政策官员的引入则表明OpenAI预见到上市后将面临更严格的监管审查。这对竞品公司是压力信号。",
+      "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/"
     },
     {
       "rank": 4,
-      "title": "GLM-5.2通过社区“氛围测试”，开源模型首次与GPT正面竞争",
-      "finding": "智谱AI的GLM-5.2模型在开发者社区中获得广泛好评，被认为在综合能力上首次与GPT系列“同台竞技”。Latent Space评论称“开源模型终于成为真正的前沿故事”。",
+      "title": "Snap分拆AI视频团队成立新公司Dotmo，因成本过高",
+      "finding": "Snapchat母公司Snap将内部AI视频团队分拆为独立公司Dotmo，原因是AI视频研发成本过高，无法在母公司内部持续投入。Dotmo将继续专注于AI视频生成，但将独立融资和运营。",
       "key_data": [
-        "GLM-5.2",
-        "社区好评",
-        "开源模型新高度",
-        "与GPT正面竞争"
+        "AI视频团队分拆",
+        "成本过高",
+        "独立融资运营"
       ],
-      "judgment": "这是中国开源模型的重要里程碑。GLM-5.2证明开源模型不再只是“够用”，而是可以成为一线选择。对开发者来说，又多了一个可靠的闭源替代方案。",
+      "judgment": "这是一个重要信号：即使是Snap这样的上市公司也难以承受前沿AI视频研发的烧钱速度。AI视频赛道正在加速向“赢家通吃”格局演进，中小玩家要么被收购，要么被迫独立求生。",
       "confidence": 4,
-      "source": "Latent Space",
-      "url": "https://www.latent.space/p/ainews-glm-gpt-glm-52-passes-vibe"
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/"
     },
     {
       "rank": 5,
       "title": "AI推理初创公司Baseten据报以130亿美元估值融资15亿美元",
-      "finding": "AI推理基础设施公司Baseten在上一轮融资仅数月后，再次以130亿美元估值融资15亿美元。这反映了市场对AI推理服务的狂热需求，以及“推理即服务”成为新金矿。",
+      "finding": "AI推理基础设施公司Baseten据报正在完成15亿美元融资，估值达130亿美元。这距离其上一轮大额融资仅过去几个月，反映出AI推理市场的爆发式增长和资本狂热。",
       "key_data": [
-        "130亿美元估值",
         "15亿美元融资",
-        "推理基础设施",
-        "AI推理金矿"
+        "130亿美元估值",
+        "推理基础设施"
       ],
-      "judgment": "推理基础设施正在成为AI领域最热门的赛道。Baseten的快速融资说明，随着模型能力提升，推理成本和服务质量成为竞争关键。这对云厂商和开发者都是重要信号。",
-      "confidence": 4,
+      "judgment": "推理层正在成为AI基础设施中最热门的赛道。Baseten的估值飙升说明市场认为推理成本下降将带来需求爆发，谁掌握推理基础设施谁就掌握未来AI应用的命脉。对开发者而言，这意味着推理API价格战可能进一步加剧。",
+      "confidence": 3,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/"
     }
   ],
   "model_tech": [
     {
-      "source": "OpenAI Blog",
-      "title": "OpenAI用推理模型辅助诊断罕见儿童遗传病",
-      "finding": "OpenAI使用推理模型分析未确诊的罕见病例，成功发现18个新诊断。这是AI在医疗诊断领域的实质性突破，展示了推理模型在复杂医学推理中的价值。",
+      "source": "Hugging Face",
+      "title": "MosaicLeaks：你的研究Agent能保守秘密吗？",
+      "finding": "Hugging Face发布研究，揭示当前AI研究Agent在保密性上的严重缺陷——它们可能无意中泄露敏感信息。这引发了关于Agent安全性的新讨论。",
       "key_data": [
-        "18个新诊断",
-        "罕见病",
-        "推理模型应用",
-        "医疗AI突破"
+        "Agent保密缺陷",
+        "信息泄露风险"
       ],
-      "judgment": "推理模型在医疗场景的价值被验证。对AI产品经理来说，这意味着可以探索更多需要多步推理的专业领域应用。",
-      "confidence": 5,
-      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "importance": 4
-    },
-    {
-      "source": "OpenAI Blog",
-      "title": "ChatGPT健康智能升级：GPT-5.5 Instant增强医疗问答",
-      "finding": "OpenAI升级ChatGPT的健康问答能力，基于GPT-5.5 Instant模型，在推理、上下文理解、沟通清晰度方面有显著提升，并经过医生评估。",
-      "key_data": [
-        "GPT-5.5 Instant",
-        "健康问答升级",
-        "医生评估",
-        "推理能力增强"
-      ],
-      "judgment": "医疗是AI应用的高价值场景，但风险也高。OpenAI的谨慎升级（医生评估）值得借鉴。",
-      "confidence": 5,
-      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "judgment": "Agent安全不再只是理论问题，而是实际部署中的硬伤。开发者需要将保密性作为Agent设计的核心约束。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
       "importance": 3
     },
     {
       "source": "ArXiv",
-      "title": "多智能体LLM讨论中的隐藏锚定效应",
-      "finding": "研究发现，多智能体LLM在讨论过程中存在“隐藏锚定”现象：早期回答会过度影响最终结果，即使后续有更好的推理。这揭示了当前多Agent协作的局限性。",
+      "title": "多Agent LLM讨论中的隐藏锚定效应",
+      "finding": "新研究发现，多Agent LLM讨论中，早期发言的Agent会对后续讨论产生“隐藏锚定”效应，导致群体思维和错误共识。这挑战了“多Agent讨论必然提升推理质量”的假设。",
       "key_data": [
-        "隐藏锚定",
-        "多智能体讨论",
-        "早期回答偏差",
-        "协作局限性"
+        "隐藏锚定效应",
+        "多Agent讨论偏差"
       ],
-      "judgment": "多Agent系统是当前热门方向，但这项研究提醒我们：简单让多个模型讨论并不一定能提升质量，需要更好的机制设计。",
+      "judgment": "多Agent协作并非万能药，设计不当反而会放大偏见。这对构建Agent协作系统的团队是重要警示。",
       "confidence": 4,
       "url": "https://arxiv.org/abs/2606.19494",
       "importance": 3
     },
     {
       "source": "ArXiv",
-      "title": "扩散语言模型实验分析：非自回归生成的新可能",
-      "finding": "论文系统分析了扩散语言模型（非自回归生成）的能力和局限，探索了不同于GPT类自回归模型的新范式。",
+      "title": "扩散语言模型的实验分析",
+      "finding": "一篇新论文系统比较了扩散语言模型与自回归语言模型的性能差异，发现扩散模型在生成质量和效率上仍有明显差距，但在可控生成方面有独特优势。",
       "key_data": [
-        "扩散语言模型",
-        "非自回归生成",
-        "新范式探索",
-        "能力分析"
+        "扩散vs自回归",
+        "可控生成优势"
       ],
-      "judgment": "扩散模型在图像领域已证明价值，但在语言领域仍处早期。这项研究为探索非自回归生成提供了基础，但离实用还有距离。",
-      "confidence": 3,
+      "judgment": "扩散语言模型短期内难以替代自回归模型，但在需要精细控制生成内容的场景（如编辑、插值）中有潜力。",
+      "confidence": 4,
       "url": "https://arxiv.org/abs/2606.19475",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "用于Agentic AI系统运行时治理的道义策略",
+      "finding": "新论文提出了一套基于道义逻辑的运行时治理框架，用于在Agent执行过程中实时监控和约束其行为，防止越权操作。",
+      "key_data": [
+        "Agent运行时治理",
+        "道义逻辑约束"
+      ],
+      "judgment": "Agent治理正在从“事后审计”走向“运行时干预”，这是Agent大规模部署的关键基础设施。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2606.19464",
       "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "The Pragmatic Engineer",
-      "title": "SpaceX收购Cursor：AI编程工具格局生变",
-      "finding": "据The Pragmatic Engineer报道，SpaceX收购了AI编程工具Cursor。这可能是SpaceX在AI领域的重大布局，也意味着Cursor从独立创业公司进入巨头体系。",
+      "source": "OpenAI",
+      "title": "OpenAI推出ChatGPT企业版新支出控制和用量分析功能",
+      "finding": "OpenAI为ChatGPT Enterprise新增了支出控制和用量分析功能，帮助企业更好地管理AI使用成本和规模扩展。这是OpenAI加速企业市场渗透的重要举措。",
       "key_data": [
-        "SpaceX收购",
-        "Cursor",
-        "AI编程工具",
-        "巨头布局"
+        "企业支出控制",
+        "用量分析"
       ],
-      "judgment": "如果属实，这是AI编程工具赛道的重要转折点。Cursor被收购后可能加速企业级应用，但也可能失去独立性。",
-      "confidence": 3,
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us",
-      "importance": 4
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Snap分拆AI视频团队成立新公司Dotmo",
-      "finding": "Snap将内部AI视频团队分拆为独立公司Dotmo，原因是成本压力。Dotmo将专注于AI视频开发，由原Snap员工组成。",
-      "key_data": [
-        "Snap分拆",
-        "Dotmo",
-        "AI视频",
-        "成本压力"
-      ],
-      "judgment": "AI视频研发成本高昂，连Snap这样的上市公司都难以内部消化。分拆独立运营是务实选择，也说明AI视频赛道仍在烧钱阶段。",
+      "judgment": "企业级功能是OpenAI从消费者市场转向企业市场的关键一步，但相比微软Copilot的深度集成仍有差距。",
       "confidence": 5,
-      "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
+      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
       "importance": 3
     },
     {
+      "source": "OpenAI",
+      "title": "GPT-5.5 Instant提升ChatGPT健康咨询能力",
+      "finding": "OpenAI宣布GPT-5.5 Instant在健康与 wellness 响应方面进行了改进，包括更强的推理能力、更好的上下文理解和更清晰的沟通，并经过医生评估。",
+      "key_data": [
+        "GPT-5.5 Instant",
+        "健康咨询优化",
+        "医生评估"
+      ],
+      "judgment": "AI医疗咨询正在从“信息提供”向“临床辅助”演进，但距离真正的诊断替代还有很长的路。",
+      "confidence": 5,
+      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "importance": 2
+    },
+    {
       "source": "TechCrunch",
-      "title": "Elastic以最高8500万美元收购AI代码调试初创公司DeductiveAI",
-      "finding": "Elastic同意收购AI代码调试公司DeductiveAI，交易金额最高8500万美元。DeductiveAI成立于三年前，专注于用AI自动发现和修复软件bug。",
+      "title": "Elastic同意以最高8500万美元收购DeductiveAI",
+      "finding": "搜索和数据公司Elastic同意收购AI代码调试初创公司DeductiveAI，交易金额最高8500万美元。DeductiveAI使用AI自动发现和修复软件中的bug。",
       "key_data": [
         "8500万美元收购",
-        "AI代码调试",
-        "Elastic",
-        "自动修复bug"
+        "AI代码调试"
       ],
-      "judgment": "AI代码调试是AI Coding的重要分支。Elastic的收购说明企业级AI代码工具市场正在整合，大公司通过收购快速补齐能力。",
+      "judgment": "AI代码调试工具正在成为大公司收购的热门标的，这验证了AI在软件工程全生命周期中的价值。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
-      "importance": 3
+      "importance": 2
     },
     {
       "source": "量子位",
       "title": "全球首个人形机器人通用小脑发布：2万小时人类动作数据实现零样本泛化",
-      "finding": "研究团队发布全球首个“人形机器人通用小脑”，基于2万小时人类动作数据训练，实现了零样本泛化能力，即机器人无需额外训练即可执行新动作。",
+      "finding": "研究团队发布了全球首个人形机器人通用小脑，基于2万小时人类动作数据训练，实现了零样本泛化——机器人无需针对新动作重新训练即可执行。",
       "key_data": [
         "2万小时数据",
         "零样本泛化",
-        "人形机器人",
-        "通用小脑"
+        "人形机器人"
       ],
-      "judgment": "这是具身智能领域的重要突破。零样本泛化意味着机器人从“专用”走向“通用”迈出关键一步，但距离真正商用还有距离。",
+      "judgment": "这是具身智能领域的GPT时刻：通用运动控制能力正在从专用走向通用，人形机器人商业化进程加速。",
       "confidence": 3,
       "url": "https://www.qbitai.com/2026/06/436813.html",
-      "importance": 3
-    },
-    {
-      "source": "InfoQ",
-      "title": "Gemini联合负责人出走OpenAI：Google为何留不住AI天才",
-      "finding": "Google DeepMind的Gemini联合负责人跳槽OpenAI，引发对Google AI人才流失的讨论。文章分析认为Google的组织架构和决策流程让顶尖AI研究者感到挫败。",
-      "key_data": [
-        "Gemini负责人离职",
-        "人才流失",
-        "Google组织问题",
-        "OpenAI吸引力"
-      ],
-      "judgment": "Google的AI人才流失问题持续恶化。如果无法解决组织文化问题，即使技术储备再强，也可能在AI竞赛中落后。",
-      "confidence": 4,
-      "url": "https://www.infoq.cn/article/3hkmF10X9ec1ujwwIjFW",
       "importance": 3
     }
   ],
   "opinions": [
     {
-      "person": "Swyx (Shawn Wang)",
-      "level": "L2",
-      "quote": "GLM-5.2通过了所有人的'氛围测试'，开源模型的故事终于成为了真正的'前沿故事'。这意味着开源模型不再只是追赶者，而是可以与GPT正面竞争。",
-      "source": "https://www.latent.space/p/ainews-glm-gpt-glm-52-passes-vibe"
-    },
-    {
       "person": "Gergely Orosz",
       "level": "L2",
-      "quote": "美国禁止Anthropic的Fable模型有重大影响：这是首次对已发布的AI模型实施出口管制，且规则不透明。这对所有AI公司都是警示——模型能力越强，合规风险越大。",
+      "quote": "美国禁止Anthropic发布Fable模型，这是AI监管的重大转折点。政府现在可以实时阻止模型发布，而不仅仅是事后审查。这对所有AI公司都是警钟。",
       "source": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us"
+    },
+    {
+      "person": "Swyx",
+      "level": "L2",
+      "quote": "GLM-5.2通过了所有人的'vibe check'，开源模型终于真正站到了前沿。Z.ai预测Open Fable将在12月发布，开源与闭源的差距正在缩小。",
+      "source": "https://www.latent.space/p/ainews-glm-gpt-glm-52-passes-vibe"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI出口管制对模型部署的影响",
-      "reason": "美国首次对已发布模型实施禁令，规则不透明，影响所有跨国AI公司。值得深入研究合规策略和替代方案。",
+      "topic": "AI模型出口管制对行业格局的影响",
+      "reason": "美国首次禁止本土顶级模型发布，可能重塑全球AI竞争格局，值得深入研究政策走向和应对策略。",
       "priority": "high"
     },
     {
-      "topic": "百万Token上下文对RAG和Agent应用的变革",
-      "reason": "DeepSeek-V4支持百万Token上下文，可能彻底改变RAG和Agent的设计范式。值得深入分析技术实现和应用场景。",
+      "topic": "DeepSeek-V4的百万Token上下文技术实现",
+      "reason": "这是开源模型首次在上下文长度上达到闭源旗舰水平，其技术路线对开发者有重要参考价值。",
       "priority": "high"
     }
   ],
-  "summary_one_line": "模型禁令、开源突破、IPO前人才争夺",
-  "summary_paragraph": "今天的AI行业呈现出多线并进的态势。最重磅的消息是美国政府对Anthropic的Fable模型实施出口管制，这是首次对已发布模型直接下禁令，且规则不透明，给所有AI公司敲响合规警钟。与此同时，DeepSeek发布V4预览版，以1.6万亿参数和百万Token上下文再次拉高开源模型天花板，证明开源阵营已具备与闭源旗舰正面竞争的实力。OpenAI则在IPO前密集引入Transformer发明者Noam Shazeer和前AI政策官员，技术和政策双线布局。此外，AI推理基础设施公司Baseten以130亿美元估值快速融资15亿美元，推理服务成为新金矿。GLM-5.2获得社区广泛好评，中国开源模型首次被认为可与GPT同台竞技。整体来看，行业正从模型能力竞赛转向更复杂的监管、商业化和生态竞争阶段。",
+  "summary_one_line": "模型禁令、开源突破、IPO前奏",
+  "summary_paragraph": "今天AI行业迎来多重震荡：美国政府首次直接禁止Anthropic发布新模型Fable，标志着AI监管进入事前干预的新阶段，行业不确定性陡增。与此同时，DeepSeek-V4预览版以1.6万亿参数和百万Token上下文震撼开源社区，证明开源模型在Scaling Law上并未掉队。OpenAI则在IPO前夕密集引入Transformer发明者Noam Shazeer和前AI政策官员，为上市做最后准备。资本层面，推理基础设施公司Baseten以130亿美元估值融资15亿美元，推理赛道持续火热。Snap因成本过高分拆AI视频团队，折射出AI视频赛道的残酷竞争。整体来看，今天的关键词是：监管收紧、开源崛起、资本狂热。",
   "snapshot": {
     "date": "2026-06-19",
     "hf_trending": [
       {
         "name": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "short_name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-        "likes": 1737,
+        "likes": 1738,
         "downloads": 211424,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "tags": [
@@ -266,7 +232,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 1389,
+        "likes": 1396,
         "downloads": 4307,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -314,7 +280,7 @@
       {
         "name": "google/diffusiongemma-26B-A4B-it",
         "short_name": "diffusiongemma-26B-A4B-it",
-        "likes": 1005,
+        "likes": 1006,
         "downloads": 527080,
         "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
         "tags": [
@@ -330,7 +296,7 @@
       {
         "name": "WeiboAI/VibeThinker-3B",
         "short_name": "VibeThinker-3B",
-        "likes": 415,
+        "likes": 417,
         "downloads": 6589,
         "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
         "tags": [
@@ -362,7 +328,7 @@
       {
         "name": "nvidia/LocateAnything-3B",
         "short_name": "LocateAnything-3B",
-        "likes": 2171,
+        "likes": 2173,
         "downloads": 183093,
         "url": "https://huggingface.co/nvidia/LocateAnything-3B",
         "tags": [
@@ -380,7 +346,7 @@
       {
         "name": "openclaw/openclaw",
         "desc": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-        "stars": 379429,
+        "stars": 379432,
         "language": "TypeScript",
         "url": "https://github.com/openclaw/openclaw",
         "topics": [
@@ -392,7 +358,7 @@
       {
         "name": "affaan-m/ECC",
         "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research",
-        "stars": 217891,
+        "stars": 217897,
         "language": "JavaScript",
         "url": "https://github.com/affaan-m/ECC",
         "topics": [
@@ -404,7 +370,7 @@
       {
         "name": "NousResearch/hermes-agent",
         "desc": "The agent that grows with you",
-        "stars": 197175,
+        "stars": 197189,
         "language": "Python",
         "url": "https://github.com/NousResearch/hermes-agent",
         "topics": [
@@ -416,7 +382,7 @@
       {
         "name": "tensorflow/tensorflow",
         "desc": "An Open Source Machine Learning Framework for Everyone",
-        "stars": 195766,
+        "stars": 195767,
         "language": "C++",
         "url": "https://github.com/tensorflow/tensorflow",
         "topics": [
@@ -428,7 +394,7 @@
       {
         "name": "n8n-io/n8n",
         "desc": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with cus",
-        "stars": 193107,
+        "stars": 193110,
         "language": "TypeScript",
         "url": "https://github.com/n8n-io/n8n",
         "topics": [
@@ -440,7 +406,7 @@
       {
         "name": "Significant-Gravitas/AutoGPT",
         "desc": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provi",
-        "stars": 185024,
+        "stars": 185023,
         "language": "Python",
         "url": "https://github.com/Significant-Gravitas/AutoGPT",
         "topics": [
@@ -450,7 +416,118 @@
         ]
       }
     ],
-    "openrouter_ranking": [],
-    "hf_summary": "开源多模态模型热度持续攀升，领先榜单"
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "org": "deepseek",
+        "total_tokens": 700043518192,
+        "total_tokens_str": "700B",
+        "api_calls": 0,
+        "change": -1.4,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "tencent/hy3-preview",
+        "name": "Hy3 preview",
+        "org": "tencent",
+        "total_tokens": 659320489755,
+        "total_tokens_str": "659B",
+        "api_calls": 0,
+        "change": 14.0,
+        "url": "https://openrouter.ai/tencent/hy3-preview"
+      },
+      {
+        "rank": 3,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 577035066478,
+        "total_tokens_str": "577B",
+        "api_calls": 0,
+        "change": 1.4,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 4,
+        "slug": "minimax/minimax-m3",
+        "name": "MiniMax M3",
+        "org": "minimax",
+        "total_tokens": 484301043945,
+        "total_tokens_str": "484B",
+        "api_calls": 0,
+        "change": -28.4,
+        "url": "https://openrouter.ai/minimax/minimax-m3"
+      },
+      {
+        "rank": 5,
+        "slug": "anthropic/claude-4.7-opus",
+        "name": "Claude 4.7 Opus",
+        "org": "anthropic",
+        "total_tokens": 475243182051,
+        "total_tokens_str": "475B",
+        "api_calls": 0,
+        "change": 2.5,
+        "url": "https://openrouter.ai/anthropic/claude-4.7-opus"
+      },
+      {
+        "rank": 6,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
+        "org": "deepseek",
+        "total_tokens": 406842236776,
+        "total_tokens_str": "407B",
+        "api_calls": 0,
+        "change": -9.5,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 7,
+        "slug": "openrouter/owl-alpha",
+        "name": "Owl Alpha",
+        "org": "openrouter",
+        "total_tokens": 335050797852,
+        "total_tokens_str": "335B",
+        "api_calls": 0,
+        "change": 4.3,
+        "url": "https://openrouter.ai/openrouter/owl-alpha"
+      },
+      {
+        "rank": 8,
+        "slug": "z-ai/glm-5.2",
+        "name": "GLM 5.2",
+        "org": "z-ai",
+        "total_tokens": 301433999061,
+        "total_tokens_str": "301B",
+        "api_calls": 0,
+        "change": 16.5,
+        "url": "https://openrouter.ai/z-ai/glm-5.2"
+      },
+      {
+        "rank": 9,
+        "slug": "anthropic/claude-4.6-sonnet",
+        "name": "Claude 4.6 Sonnet",
+        "org": "anthropic",
+        "total_tokens": 257623318692,
+        "total_tokens_str": "258B",
+        "api_calls": 0,
+        "change": -8.8,
+        "url": "https://openrouter.ai/anthropic/claude-4.6-sonnet"
+      },
+      {
+        "rank": 10,
+        "slug": "z-ai/glm-5.1",
+        "name": "GLM 5.1",
+        "org": "z-ai",
+        "total_tokens": 226546103270,
+        "total_tokens_str": "227B",
+        "api_calls": 0,
+        "change": -35.0,
+        "url": "https://openrouter.ai/z-ai/glm-5.1"
+      }
+    ],
+    "hf_summary": "多模态模型热度飙升，文本生成模型仍占主流"
   }
 }
