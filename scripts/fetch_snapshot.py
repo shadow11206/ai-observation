@@ -171,53 +171,63 @@ def _fetch_hf_trending() -> list[dict]:
 def _fetch_openrouter_ranking() -> list[dict]:
     """
     抓取 OpenRouter 当日模型调用排行榜 Top 10。
-    直接调用 OpenRouter 内部 API，无需浏览器，数据准确且稳定。
+    使用 OpenRouter 官方数据集 API（需 API Key）。
 
-    API: https://openrouter.ai/api/frontend/rankings/models?view=day
-    返回所有模型（含 variant）的每日 token 量 + 调用次数 + 涨跌百分比。
-    按 model_permaslug 聚合（合并 standard/free 等 variant），取总 token 量 Top 10。
+    API: https://openrouter.ai/api/v1/datasets/rankings-daily
+    返回最近 ~30 天的每日模型 token 量（不含调用次数）。
+    按清理后的 slug 聚合，取最新一天的总 token 量 Top 10，自行计算日环比变化。
     """
     from collections import defaultdict
 
-    _OR_API = "https://openrouter.ai/api/frontend/rankings/models?view=day"
+    api_key = os.environ.get("OPENROUTER_API_KEY", "")
+    if not api_key:
+        print("  ⚠️ OPENROUTER_API_KEY 未设置，跳过 OpenRouter 快照")
+        return []
+
+    _OR_API = "https://openrouter.ai/api/v1/datasets/rankings-daily"
+    _OR_HEADERS = {**HEADERS, "Authorization": f"Bearer {api_key}"}
 
     try:
-        resp = requests.get(_OR_API, headers=HEADERS, timeout=15)
+        resp = requests.get(_OR_API, headers=_OR_HEADERS, timeout=15)
         resp.raise_for_status()
         payload = resp.json()
     except Exception as e:
         print(f"  ⚠️ OpenRouter 排行榜 API 请求失败：{e}")
         return []
 
-    models = payload.get("data", [])
-    if not models:
+    rows = payload.get("data", [])
+    if not rows:
         print("  ⚠️ OpenRouter API 返回空数据")
         return []
 
-    # 按 model_permaslug 聚合（同一模型可能有 standard / free 等多个 variant）
-    # 先去掉日期后缀再聚合，确保不同日期版本的同一模型族合并统计
-    agg = defaultdict(lambda: {"total_tokens": 0, "count": 0, "slug": "", "change": None})
-
-    for m in models:
-        raw_slug = m.get("model_permaslug", "")
-        if not raw_slug:
+    # 按 (date, clean_slug) 聚合 token 量，排除 "other" 汇总行
+    day_data = defaultdict(lambda: defaultdict(int))
+    for row in rows:
+        raw_slug = row.get("model_permaslug", "")
+        if not raw_slug or raw_slug == "other":
             continue
+        date = row.get("date", "")
+        tokens = int(row.get("total_tokens", "0"))
         slug = _strip_date_suffix(raw_slug)
-        agg[slug]["total_tokens"] += m.get("total_completion_tokens", 0) + m.get("total_prompt_tokens", 0)
-        agg[slug]["count"] += m.get("count", 0)
-        agg[slug]["slug"] = slug
-        if agg[slug]["change"] is None and m.get("change") is not None:
-            agg[slug]["change"] = m["change"]
+        day_data[date][slug] += tokens
 
-    # 按总 token 量降序，取 Top 10
-    sorted_models = sorted(agg.items(), key=lambda x: x[1]["total_tokens"], reverse=True)[:10]
+    available_dates = sorted(day_data.keys(), reverse=True)
+    if not available_dates:
+        print("  ⚠️ OpenRouter API 返回数据无有效日期")
+        return []
+
+    target_date = available_dates[0]
+    prev_date = available_dates[1] if len(available_dates) > 1 else None
+
+    target_data = day_data[target_date]
+    prev_data = day_data[prev_date] if prev_date else {}
+
+    sorted_models = sorted(target_data.items(), key=lambda x: x[1], reverse=True)[:10]
 
     _MODEL_NAMES = _load_model_name_map()
 
     result = []
-    for i, (clean_slug, info) in enumerate(sorted_models, 1):
-        total_tokens = info["total_tokens"]
-
+    for i, (clean_slug, total_tokens) in enumerate(sorted_models, 1):
         if total_tokens >= 1e12:
             token_str = f"{total_tokens / 1e12:.1f}T"
         elif total_tokens >= 1e9:
@@ -229,7 +239,9 @@ def _fetch_openrouter_ranking() -> list[dict]:
 
         org = clean_slug.split("/")[0] if "/" in clean_slug else ""
         display_name = _MODEL_NAMES.get(clean_slug, _slug_to_display(clean_slug))
-        change = round(info["change"] * 100, 1) if info["change"] is not None else 0
+
+        prev_tokens = prev_data.get(clean_slug, 0)
+        change = round((total_tokens - prev_tokens) / prev_tokens * 100, 1) if prev_tokens > 0 else 0
 
         result.append({
             "rank": i,
@@ -238,12 +250,12 @@ def _fetch_openrouter_ranking() -> list[dict]:
             "org": org,
             "total_tokens": total_tokens,
             "total_tokens_str": token_str,
-            "api_calls": info["count"],
+            "api_calls": 0,   # 官方数据集 API 不提供调用次数
             "change": change,
             "url": f"https://openrouter.ai/{clean_slug}",
         })
 
-    print(f"  ✓ OpenRouter 排行榜：成功解析 {len(result)} 个模型")
+    print(f"  ✓ OpenRouter 排行榜：{target_date} Top {len(result)} 个模型")
     return result
 
 

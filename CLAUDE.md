@@ -23,6 +23,7 @@
 | `AI_API_KEY` | DeepSeek/OpenAI/Anthropic API Key | ✅ |
 | `AI_API_BASE` | API Base URL（如 `https://api.deepseek.com`） | ✅ |
 | `GITHUB_TOKEN` | 用于 fetch_snapshot GitHub API 请求 | ✅（Actions 自动注入） |
+| `OPENROUTER_API_KEY` | OpenRouter API Key（数据集 API 认证） | ✅ |
 | `WECHAT_APPID` | 微信公众号 AppID | 仅微信推送 |
 | `WECHAT_APPSECRET` | 微信公众号 AppSecret | 仅微信推送 |
 
@@ -30,12 +31,18 @@
 
 ## OpenRouter 数据
 
-- **API**：`https://openrouter.ai/api/frontend/rankings/models?view=day`（无认证），返回 JSON
-- **数据规则**：UTC 日历天（00:00-23:59 UTC），日数据在 UTC 02:00（北京 10:00）完成最终处理
-- **`change` 字段是原始小数**（0.154 = 15.4%），**必须 `×100`** 才是百分比。曾经缺 ×100，把 15.4% 显示成 0.2%
-- **`model_permaslug` 含日期后缀**（如 `tencent/hy3-preview-20260421`），聚合前需 `_strip_date_suffix()` 去掉，避免同模型族的不同日期版本被拆分
-- **cron 必须 ≥ UTC 02:00（北京 10:00）**。更早运行数据未稳定，与官网偏差可达 18%
+- **API**：`https://openrouter.ai/api/v1/datasets/rankings-daily`（需 `OPENROUTER_API_KEY` Bearer Token），返回 JSON
+- **认证**：在 https://openrouter.ai/keys 创建 API Key，设为 GitHub Secret `OPENROUTER_API_KEY`
+- **数据规则**：UTC 日历天（00:00-23:59 UTC），API 返回最近 ~30 天的每日 Top 50 模型 token 量
+- **不含调用次数**：官方数据集 API 只有 `total_tokens` 字段（字符串，需 `int()` 转换），无 API 调用次数
+- **日环比自己算**：用当日和前一日的 `total_tokens` 差值算百分比变化
+- **`model_permaslug` 含日期后缀**（如 `tencent/hy3-preview-20260421`），聚合前需 `_strip_date_suffix()` 去掉
+- **排除 `other` 行**：API 返回中有一条 `model_permaslug: "other"` 的汇总行，需过滤掉
 - 排行榜页面确认：`https://openrouter.ai/rankings?view=day`
+
+### 历史：API 迁移（2026-06-19）
+
+旧的无认证前端 API (`/api/frontend/rankings/models?view=day`) 被 OpenRouter 下线（返回 404），迁移到官方数据集 API。旧 API 提供 `count`（调用次数）和 `change`（涨跌百分比），新 API 只有 `total_tokens`。
 
 ## 微信公众号
 
