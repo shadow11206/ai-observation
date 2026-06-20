@@ -1,6 +1,13 @@
 {
-  "total": 86,
+  "total": 87,
   "reports": [
+    {
+      "date": "2026-06-20",
+      "title": "今日 AI 日报：美国以国家安全为由强制Anthropic下架Fable 5和Mythos 5模型 + 4 条重要动态",
+      "excerpt": "这是AI监管的里程碑事件：美国政府首次直接干预前沿模型发布，标志着AI安全从行业…",
+      "top_count": 5,
+      "file": "2026-06-20.json"
+    },
     {
       "date": "2026-06-19",
       "title": "今日 AI 日报：美国禁止Anthropic发布新模型Fable，AI出口管制进入新阶段 + 4 条重要动态",
