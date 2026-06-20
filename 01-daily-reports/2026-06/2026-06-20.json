@@ -3,75 +3,71 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "美国以国家安全为由强制Anthropic下架Fable 5和Mythos 5模型",
-      "finding": "美国政府上周强制Anthropic撤回其最新模型Fable 5和Mythos 5，原因是亚马逊研究人员称这些模型可能被用于网络攻击，构成国家安全威胁。但这一禁令反而引发关注，可能意外提升了Anthropic的品牌知名度。",
+      "title": "美国以国家安全为由强制下架Anthropic最新模型Fable 5和Mythos 5",
+      "finding": "美国政府上周强制Anthropic撤回其两个最新模型Fable 5和Mythos 5，原因是亚马逊研究人员称其网络安全能力可能被对手利用。这是美国政府首次直接干预AI模型发布，引发关于出口管制和开源安全的激烈讨论。",
       "key_data": [
-        "Fable 5",
-        "Mythos 5",
-        "国家安全",
-        "亚马逊指控"
+        "美国政府首次强制下架AI模型",
+        "涉及Anthropic Fable 5和Mythos 5",
+        "亚马逊研究人员指控",
+        "引发出口管制有效性争议"
       ],
-      "judgment": "这是AI监管的里程碑事件：美国政府首次直接干预前沿模型发布，标志着AI安全从行业自律转向国家强制管控。对开发者而言，未来模型能力越强，发布风险越大，闭源模型可能面临更严格的出口管制。",
-      "confidence": 4,
+      "judgment": "这是AI监管的分水岭事件。美国政府首次动用出口管制手段直接干预模型发布，意味着AI安全从行业自律进入政府强监管时代。对开发者而言，未来模型发布的不确定性显著增加；对Anthropic而言，品牌反而可能因'被禁'获得意外关注。",
+      "confidence": 5,
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/19/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/"
+      "url": "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/"
     },
     {
       "rank": 2,
-      "title": "DeepSeek-V4预览版发布：1.6万亿参数MoE模型，百万Token上下文",
-      "finding": "DeepSeek发布V4系列预览版，包含1.6万亿参数的DeepSeek-V4-Pro和更大规模的DeepSeek-V4-Ultra，支持百万Token上下文窗口，采用MoE架构。这是目前已知参数规模最大的开源模型之一。",
+      "title": "挪威几乎全面禁止在小学使用AI",
+      "finding": "挪威政府宣布在小学阶段几乎全面禁止使用AI工具，成为全球最严格的AI教育禁令之一。该政策引发广泛讨论，支持者认为保护儿童认知发展，反对者认为会削弱数字素养培养。",
       "key_data": [
-        "1.6T参数",
-        "MoE架构",
-        "百万Token上下文",
-        "预览版"
+        "挪威小学AI近全面禁令",
+        "全球最严格AI教育政策之一",
+        "Hacker News 587分讨论"
       ],
-      "judgment": "DeepSeek再次刷新开源模型天花板。百万Token上下文意味着开发者可以处理整本书、完整代码库级别的输入，这对RAG、长文档分析等应用场景是质变。国内开源模型已从追赶者变成引领者。",
+      "judgment": "这是AI教育领域的重要信号。挪威作为高福利发达国家率先'踩刹车'，可能引发其他国家效仿。对AI教育产品公司而言，北欧市场将面临准入壁垒；对开发者而言，需要重新思考AI产品面向低龄用户的设计伦理。",
       "confidence": 5,
-      "source": "ArXiv",
-      "url": "https://arxiv.org/abs/2606.19348"
-    },
-    {
-      "rank": 3,
-      "title": "GLM-5.2通过社区测试，开源模型首次被认为接近GPT水平",
-      "finding": "智谱AI的GLM-5.2模型在社区中通过了广泛的'vibe check'（主观体验测试），被评价为首次让开源模型真正接近GPT系列的水平。Latent Space评论称'开源模型终于成为前沿故事'。",
-      "key_data": [
-        "GLM-5.2",
-        "vibe check通过",
-        "开源接近GPT",
-        "智谱AI"
-      ],
-      "judgment": "如果GLM-5.2确实达到接近GPT的水平，这意味着开源生态将迎来拐点：开发者不再需要依赖闭源API就能获得顶级模型能力。这对整个AI应用层的商业模式和竞争格局会产生深远影响。",
-      "confidence": 3,
-      "source": "Latent Space",
-      "url": "https://www.latent.space/p/ainews-glm-gpt-glm-52-passes-vibe"
-    },
-    {
-      "rank": 4,
-      "title": "挪威近乎全面禁止在小学使用AI",
-      "finding": "挪威政府出台新规，几乎完全禁止在小学教育中使用AI工具，成为全球最严格的AI教育禁令之一。该政策引发广泛讨论，在Hacker News上获得447个点赞和298条评论。",
-      "key_data": [
-        "挪威",
-        "小学AI禁令",
-        "447点赞",
-        "教育政策"
-      ],
-      "judgment": "这是AI在教育领域遭遇的第一次大规模政策反弹。挪威的禁令可能成为其他国家效仿的模板，AI教育产品的市场拓展将面临更复杂的合规挑战。开发者需要关注'AI对认知技能的影响'这一核心争议。",
-      "confidence": 5,
-      "source": "Reuters",
+      "source": "Reuters / Hacker News",
       "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/"
     },
     {
-      "rank": 5,
-      "title": "AI工程师声称用AI破解了线形文字A（Linear A）",
-      "finding": "一名AI工程师声称使用AI技术成功破解了至今未被破译的古文字'线形文字A'（Linear A），该文字是米诺斯文明使用的书写系统。这一成果在Hacker News上获得411个点赞和158条评论，但学术界普遍持怀疑态度。",
+      "rank": 3,
+      "title": "Nature研究：AI正在削弱人类的核心技能",
+      "finding": "Nature发表研究论文，早期证据表明过度依赖AI工具正在导致人类某些核心技能（如批判性思维、问题解决能力）下降。研究引发关于AI与人类能力关系的严肃讨论，在Hacker News上获得216分和283条评论。",
       "key_data": [
-        "Linear A破译",
-        "AI考古",
-        "411点赞",
-        "争议"
+        "AI导致核心技能下降",
+        "Nature期刊发表",
+        "Hacker News 216分讨论"
       ],
-      "judgment": "无论结果是否被学术界认可，这都展示了AI在跨学科研究中的潜力。但需要警惕过度宣传：AI在考古、历史等领域的应用需要严格的验证流程，'声称破解'和'被学术界接受'之间还有巨大鸿沟。",
+      "judgment": "这是对'AI增强人类'叙事的直接挑战。如果研究结论被进一步证实，将深刻影响AI产品的设计哲学——从'替代人类思考'转向'辅助人类保持能力'。对产品经理而言，需要思考如何在AI工具中嵌入'技能保持'机制。",
+      "confidence": 4,
+      "source": "Nature / Hacker News",
+      "url": "https://www.nature.com/articles/d41586-026-01947-1"
+    },
+    {
+      "rank": 4,
+      "title": "FT报道：企业因成本压力开始收紧AI使用",
+      "finding": "金融时报报道，多家企业因AI部署成本超出预算，开始重新评估和收紧AI使用范围。此前大量企业盲目上马AI项目，现在进入'成本清算'阶段。",
+      "key_data": [
+        "企业因成本收紧AI使用",
+        "FT报道",
+        "AI项目进入成本清算期"
+      ],
+      "judgment": "这是AI行业从'狂热期'进入'理性期'的重要信号。过去两年企业盲目拥抱AI，现在开始算ROI了。对AI创业公司意味着：纯'讲故事'拿不到预算了，必须证明可量化的成本节约或收入增长。对开发者而言，模型推理成本优化将成为核心竞争力。",
+      "confidence": 4,
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/1d37cc08-e0aa-45a4-a45d-4ad282529314"
+    },
+    {
+      "rank": 5,
+      "title": "AI工程师声称破解了线形文字A（Linear A）",
+      "finding": "一位AI工程师声称利用AI模型成功破解了线形文字A——一种至今未被破译的古代米诺斯文明文字。如果属实，这将是AI在考古学领域的重大突破。但学术界对此持谨慎态度，需要进一步验证。",
+      "key_data": [
+        "AI声称破解线形文字A",
+        "420分Hacker News讨论",
+        "学术界持谨慎态度"
+      ],
+      "judgment": "即使最终被证伪，这个事件也展示了AI在跨学科研究中的潜力。对AI行业而言，这提醒我们：AI的真正价值可能不在替代现有工作，而在解决人类知识边界上的难题。但需要警惕过度炒作。",
       "confidence": 2,
       "source": "Hacker News",
       "url": "https://aiclambake.com/clamtakes/linear-a/"
@@ -80,153 +76,148 @@
   "model_tech": [
     {
       "source": "MIT Technology Review",
-      "title": "初创公司Subquadratic声称突破LLM数学瓶颈",
-      "finding": "总部位于迈阿密的AI初创公司Subquadratic上个月走出隐身模式，声称解决了长期阻碍大语言模型发展的数学瓶颈问题。但具体技术细节尚未公开，学术界持观望态度。",
+      "title": "初创公司Subquadratic声称解决了LLM的数学瓶颈",
+      "finding": "迈阿密AI初创公司Subquadratic走出隐身模式，声称解决了限制大语言模型发展的数学瓶颈。如果属实，可能大幅降低模型训练和推理的计算复杂度。",
       "key_data": [
-        "Subquadratic",
-        "数学瓶颈",
-        "隐身模式",
-        "待验证"
+        "Subquadratic走出隐身模式",
+        "声称解决LLM数学瓶颈",
+        "可能降低计算复杂度"
       ],
-      "judgment": "这类'突破性'声明需要谨慎对待。如果属实，将改变LLM的训练和推理效率；但更多时候是营销话术。建议等待论文或开源代码后再评估。",
+      "judgment": "值得关注但需谨慎。'解决注意力机制瓶颈'的声称每隔几个月就会出现一次，真正落地的极少。如果Subquadratic有真东西，将改变LLM效率格局。",
       "confidence": 2,
       "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
       "importance": 3
     },
     {
       "source": "ArXiv",
-      "title": "扩散语言模型的实验分析",
-      "finding": "一篇新论文对扩散语言模型（非自回归生成）进行了系统实验分析，探索了这种替代自回归生成范式的可行性和性能表现。",
+      "title": "多智能体LLM讨论中的隐藏锚定效应",
+      "finding": "新论文发现，多智能体LLM讨论中，早期发言者的答案会对后续智能体产生'隐藏锚定'效应，导致讨论结果偏向初始答案，而非真正提升推理质量。",
       "key_data": [
-        "扩散语言模型",
-        "非自回归",
-        "替代范式"
+        "多智能体讨论存在锚定效应",
+        "早期答案影响后续推理",
+        "可能降低讨论质量"
       ],
-      "judgment": "扩散模型在图像领域已证明其价值，但在语言生成上能否替代自回归仍是开放问题。这篇系统分析有助于理解两种范式的优劣边界。",
+      "judgment": "对构建多Agent系统的开发者是重要警示。当前流行的'多Agent讨论提升推理'做法可能效果有限，需要设计去偏机制。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2606.19494",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "扩散语言模型的实验分析",
+      "finding": "论文系统分析了扩散语言模型（非自回归生成）的性能和特点，与主流自回归LLM进行对比，探讨了扩散模型在语言生成中的适用场景。",
+      "key_data": [
+        "扩散语言模型系统分析",
+        "非自回归生成路径",
+        "与自回归LLM对比"
+      ],
+      "judgment": "扩散模型在图像领域已证明价值，但在语言领域仍处于早期。这篇论文为研究者提供了重要参考，但短期内不会改变LLM格局。",
       "confidence": 4,
       "url": "https://arxiv.org/abs/2606.19475",
       "importance": 2
     },
     {
       "source": "ArXiv",
-      "title": "多智能体LLM讨论中的隐藏锚定效应",
-      "finding": "研究发现，在多智能体LLM讨论中，初始回答会形成'隐藏锚点'，影响后续多轮讨论的结果。即使模型能力很强，锚定效应仍会导致讨论偏向初始观点。",
+      "title": "用于Agentic AI系统运行时治理的道义策略",
+      "finding": "新论文提出了一套基于道义逻辑的运行时治理框架，用于约束LLM驱动的自主Agent系统的行为，确保安全、隐私和合规。",
       "key_data": [
-        "隐藏锚点",
-        "多智能体讨论",
-        "初始偏见"
+        "Agent运行时治理框架",
+        "道义逻辑约束",
+        "安全合规"
       ],
-      "judgment": "这对构建多Agent协作系统有直接指导意义：简单的多轮讨论并不能保证更好的结果，需要设计去锚定机制。",
+      "judgment": "Agent安全治理是当前最紧迫的问题之一。这篇论文提供了理论框架，但距离工程落地还有距离。",
       "confidence": 4,
-      "url": "https://arxiv.org/abs/2606.19494",
-      "importance": 3
-    },
-    {
-      "source": "Nature",
-      "title": "AI正在损害我们的技能？早期结果令人担忧",
-      "finding": "Nature发表文章指出，早期研究结果显示过度依赖AI可能导致人类某些认知技能退化。该文章在Hacker News上获得203个点赞和270条评论，引发广泛讨论。",
-      "key_data": [
-        "技能退化",
-        "认知依赖",
-        "203点赞",
-        "Nature"
-      ],
-      "judgment": "这是AI行业必须正视的副作用。产品经理在设计AI工具时，需要考虑如何保持用户的主动思考能力，而不是完全替代。",
-      "confidence": 4,
-      "url": "https://www.nature.com/articles/d41586-026-01947-1",
-      "importance": 3
+      "url": "https://arxiv.org/abs/2606.19464",
+      "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "量子位",
-      "title": "全球首个人形机器人通用小脑发布：2万小时人类动作数据实现零样本泛化",
-      "finding": "某团队发布了全球首个人形机器人'通用小脑'，基于全球最大规模的2万小时人类动作数据训练，实现了零样本泛化能力。这意味着机器人不需要针对每个新动作重新训练。",
-      "key_data": [
-        "2万小时数据",
-        "零样本泛化",
-        "通用小脑",
-        "人形机器人"
-      ],
-      "judgment": "这是具身智能领域的GPT时刻。如果零样本泛化真的成立，人形机器人将从'实验室演示'走向'真实场景部署'。但需要关注泛化能力的实际边界。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/06/436813.html",
-      "importance": 4
-    },
-    {
-      "source": "量子位",
-      "title": "GPT实现AI原创新成果：药物全自动研发迈出关键一步",
-      "finding": "AI在药物研发领域取得新突破，实现了从靶点发现到候选分子设计的全自动化流程。这意味着AI不再只是辅助工具，而是可以独立完成药物研发的完整闭环。",
-      "key_data": [
-        "AI药物研发",
-        "全自动化",
-        "原创新成果"
-      ],
-      "judgment": "药物研发是AI最具商业价值的垂直领域之一。全自动化意味着研发周期和成本可能大幅降低，但临床验证仍是绕不开的环节。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/06/436842.html",
-      "importance": 3
-    },
-    {
       "source": "TechCrunch",
-      "title": "Allbirds新任AI业务CEO有宏伟计划，但团队为零",
-      "finding": "鞋类品牌Allbirds新成立的AI业务部门任命了一位CEO，但该CEO目前没有任何团队成员。这被描述为'一个创始人和一笔巨额种子轮'。",
+      "title": "Allbirds CEO的新AI业务：有宏大计划但没有团队",
+      "finding": "Allbirds CEO宣布启动新的AI业务，但公司目前只有他一个人。他有一个宏大的AI计划，但还没有组建团队，引发市场对其可行性的质疑。",
       "key_data": [
-        "Allbirds",
-        "AI业务",
-        "零团队",
-        "种子轮"
+        "Allbirds CEO启动AI业务",
+        "只有创始人一人",
+        "宏大计划但无团队"
       ],
-      "judgment": "传统品牌跨界做AI的典型信号：有资金、有想法，但缺乏AI人才和执行能力。这反映了当前AI人才市场的极度稀缺。",
+      "judgment": "典型的'AI泡沫'信号。一个没有AI背景的鞋业公司CEO突然要做AI，且没有团队，更像是蹭热点而非真正有产品规划。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
       "importance": 2
     },
     {
-      "source": "36氪",
-      "title": "陪伴机器人初创公司ZuzuZoos获数千万Pre-A轮融资",
-      "finding": "AI-Native科技潮玩品牌ZuzuZoos（查无此园）完成数千万元Pre-A轮融资，由锦秋领投。公司由前moody高管和大疆骨干联合创立，聚焦AI陪伴机器人和AI潮玩。",
+      "source": "TechCrunch",
+      "title": "印度首富安巴尼：让AI进入每一个电话、应用和家庭",
+      "finding": "Reliance集团董事长穆克什·安巴尼宣布将AI深度整合到其电信服务中，覆盖超过5亿用户。目标是让AI成为每个电话、应用和家庭的一部分。",
       "key_data": [
-        "ZuzuZoos",
-        "数千万Pre-A",
-        "锦秋领投",
-        "AI陪伴机器人"
+        "Reliance整合AI到电信服务",
+        "覆盖5亿+用户",
+        "AI进入每个电话和应用"
       ],
-      "judgment": "AI陪伴机器人赛道持续升温。前消费品牌高管+硬件技术骨干的组合，说明这个赛道需要同时具备消费洞察和硬件能力。",
+      "judgment": "这是AI在发展中国家大规模落地的标志性事件。5亿用户的体量意味着AI将从'精英工具'变为'大众基础设施'，对模型推理成本和本地化能力提出极高要求。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
+      "importance": 3
+    },
+    {
+      "source": "36氪",
+      "title": "moody前高管搭档大疆骨干入局陪伴机器人，获数千万融资",
+      "finding": "AI陪伴机器人品牌ZuzuZoos完成数千万元Pre-A轮融资，由锦秋领投。创始团队来自moody和大疆，计划将AI大模型与硬件结合，打造AI-Native潮玩品牌。",
+      "key_data": [
+        "ZuzuZoos获数千万Pre-A轮融资",
+        "锦秋领投",
+        "moody前高管+大疆骨干团队"
+      ],
+      "judgment": "AI陪伴机器人赛道持续升温。这个团队组合（消费品牌+硬件工程）比纯AI团队更有可能做出好产品，但陪伴机器人市场仍处于早期，商业模式尚未验证。",
       "confidence": 4,
       "url": "https://36kr.com/p/3859926114161665?f=rss",
       "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "平安人寿AI神盾平台：金融生态中的智能风控实践",
+      "finding": "平安人寿分享了其AI风控平台'神盾'在金融生态中的应用实践，展示了AI在保险风控、反欺诈等场景的具体落地案例。",
+      "key_data": [
+        "平安人寿AI风控平台",
+        "保险风控应用",
+        "金融AI落地案例"
+      ],
+      "judgment": "金融行业AI落地正在从'概念验证'进入'规模化部署'阶段。平安的案例对传统金融机构有参考价值，但技术细节披露有限。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/AERuuccQmeDjcPldZqfG",
+      "importance": 1
     }
   ],
   "opinions": [
     {
-      "person": "Sean Lynch",
+      "person": "Simon Willison",
       "level": "L1",
-      "quote": "MCP的真正价值在于将认证流程隔离在Agent的上下文窗口之外，甚至完全脱离Agent框架。这比skills/CLI方式更安全。",
+      "quote": "MCP（模型上下文协议）相比Skills/CLI的真正价值在于：将认证流程隔离在Agent的上下文窗口之外，甚至完全脱离Agent框架。这可能是解决Agent安全问题的关键架构设计。",
       "source": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI监管的'禁令模式'：从Anthropic下架看全球AI治理走向",
-      "reason": "美国政府首次强制下架AI模型，这是AI监管的分水岭事件，值得深入分析其影响和后续趋势。",
+      "topic": "美国政府强制下架AI模型：出口管制的新范式",
+      "reason": "这是AI监管的分水岭事件，将深刻影响未来模型发布策略、开源政策和全球AI竞争格局。",
       "priority": "high"
     },
     {
-      "topic": "开源模型逼近GPT水平：GLM-5.2和DeepSeek-V4的技术路线对比",
-      "reason": "开源模型正在从追赶者变成引领者，理解其技术路线对判断行业格局至关重要。",
-      "priority": "high"
+      "topic": "AI成本压力下的企业ROI计算",
+      "reason": "FT报道显示企业开始收紧AI预算，理解AI项目的真实成本和回报对产品决策至关重要。",
+      "priority": "medium"
     }
   ],
-  "summary_one_line": "监管风暴与开源突破并行，AI行业进入新阶段",
-  "summary_paragraph": "今天的AI行业呈现出鲜明的两极：一方面，美国政府首次强制下架Anthropic的Fable 5和Mythos 5模型，标志着AI监管从行业自律转向国家强制管控，挪威更是在小学全面禁止AI使用；另一方面，开源模型迎来里程碑式突破——DeepSeek-V4以1.6万亿参数和百万Token上下文刷新开源天花板，GLM-5.2被社区评价为首次接近GPT水平。与此同时，人形机器人'通用小脑'实现零样本泛化，AI药物研发实现全自动化，但Nature的研究也发出警告：过度依赖AI可能导致人类技能退化。监管收紧与技术突破的碰撞，正在重塑AI行业的未来格局。",
+  "summary_one_line": "美国首次强制下架AI模型，挪威全面禁止小学AI",
+  "summary_paragraph": "今日AI行业迎来监管风暴：美国政府首次以国家安全为由强制Anthropic下架最新模型，标志着AI监管从行业自律进入政府强权时代；挪威几乎全面禁止小学使用AI，成为全球最严教育禁令。与此同时，Nature研究证实AI正在削弱人类核心技能，FT报道企业因成本压力开始收紧AI使用——行业正从狂热期进入理性清算期。在技术层面，Subquadratic声称解决了LLM数学瓶颈，多Agent系统锚定效应论文揭示了当前热门架构的潜在缺陷。印度Reliance计划将AI覆盖5亿用户，展示了AI在发展中国家的大规模落地前景。",
   "snapshot": {
     "date": "2026-06-20",
     "hf_trending": [
       {
         "name": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "short_name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-        "likes": 1852,
+        "likes": 1867,
         "downloads": 268102,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "tags": [
@@ -242,7 +233,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 1539,
+        "likes": 1558,
         "downloads": 11871,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -258,7 +249,7 @@
       {
         "name": "MiniMaxAI/MiniMax-M3",
         "short_name": "MiniMax-M3",
-        "likes": 1133,
+        "likes": 1138,
         "downloads": 67836,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
         "tags": [
@@ -274,7 +265,7 @@
       {
         "name": "moonshotai/Kimi-K2.7-Code",
         "short_name": "Kimi-K2.7-Code",
-        "likes": 909,
+        "likes": 911,
         "downloads": 274865,
         "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
         "tags": [
@@ -290,7 +281,7 @@
       {
         "name": "WeiboAI/VibeThinker-3B",
         "short_name": "VibeThinker-3B",
-        "likes": 459,
+        "likes": 470,
         "downloads": 12148,
         "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
         "tags": [
@@ -338,7 +329,7 @@
       {
         "name": "nvidia/LocateAnything-3B",
         "short_name": "LocateAnything-3B",
-        "likes": 2195,
+        "likes": 2200,
         "downloads": 228669,
         "url": "https://huggingface.co/nvidia/LocateAnything-3B",
         "tags": [
@@ -356,7 +347,7 @@
       {
         "name": "openclaw/openclaw",
         "desc": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-        "stars": 379534,
+        "stars": 379556,
         "language": "TypeScript",
         "url": "https://github.com/openclaw/openclaw",
         "topics": [
@@ -368,7 +359,7 @@
       {
         "name": "obra/superpowers",
         "desc": "An agentic skills framework & software development methodology that works.",
-        "stars": 233396,
+        "stars": 233583,
         "language": "Shell",
         "url": "https://github.com/obra/superpowers",
         "topics": [
@@ -380,7 +371,7 @@
       {
         "name": "affaan-m/ECC",
         "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research",
-        "stars": 218303,
+        "stars": 218376,
         "language": "JavaScript",
         "url": "https://github.com/affaan-m/ECC",
         "topics": [
@@ -392,7 +383,7 @@
       {
         "name": "NousResearch/hermes-agent",
         "desc": "The agent that grows with you",
-        "stars": 197674,
+        "stars": 197788,
         "language": "Python",
         "url": "https://github.com/NousResearch/hermes-agent",
         "topics": [
@@ -404,7 +395,7 @@
       {
         "name": "tensorflow/tensorflow",
         "desc": "An Open Source Machine Learning Framework for Everyone",
-        "stars": 195774,
+        "stars": 195776,
         "language": "C++",
         "url": "https://github.com/tensorflow/tensorflow",
         "topics": [
@@ -416,7 +407,7 @@
       {
         "name": "n8n-io/n8n",
         "desc": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with cus",
-        "stars": 193217,
+        "stars": 193255,
         "language": "TypeScript",
         "url": "https://github.com/n8n-io/n8n",
         "topics": [
@@ -538,6 +529,6 @@
         "url": "https://openrouter.ai/anthropic/claude-4.6-sonnet"
       }
     ],
-    "hf_summary": "代码与多模态模型占据主流，小模型热度攀升"
+    "hf_summary": "多模态模型霸榜，文本生成模型热度分化"
   }
 }
