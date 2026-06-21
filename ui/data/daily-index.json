@@ -1,6 +1,13 @@
 {
-  "total": 87,
+  "total": 88,
   "reports": [
+    {
+      "date": "2026-06-21",
+      "title": "今日 AI 日报：诺奖得主、AlphaFold之父John Jumper离开DeepMind加入Anthropic + 4 条重要动态",
+      "excerpt": "这是Anthropic在人才争夺战中的重大胜利，标志着其从纯语言模型向科学AI领…",
+      "top_count": 5,
+      "file": "2026-06-21.json"
+    },
     {
       "date": "2026-06-20",
       "title": "今日 AI 日报：美国以国家安全为由强制下架Anthropic最新模型Fable 5和Mythos 5 + 4 条重要动态",
