@@ -357,9 +357,13 @@ def _render_md(data: dict) -> str:
                     f"({r.get('url', '')}) — **{r.get('total_tokens_str', '')}** tokens{calls_str} · {arrow}{abs(change)}%"
                 )
         if snapshot.get("github_trending"):
-            lines.append("\n### GitHub Trending AI\n")
+            lines.append(f"\n### GitHub Trending 今日数据 · [查看完整榜单](https://github.com/trending)\n")
             for r in snapshot["github_trending"][:5]:
-                lines.append(f"- [{r.get('name', '')}]({r.get('url', '')}) — ⭐ {r.get('stars', 0)} · {r.get('language', '')}")
+                today_str = f"（今日 +{r.get('stars_today', 0):,}）" if r.get("stars_today") else ""
+                lines.append(
+                    f"- [{r.get('name', '')}]({r.get('url', '')})"
+                    f" — ⭐ {r.get('stars', 0):,} {today_str} · 🍴 {r.get('forks', 0):,} · {r.get('language', '')}"
+                )
                 if r.get("desc"):
                     lines.append(f"  {r.get('desc', '')}")
 

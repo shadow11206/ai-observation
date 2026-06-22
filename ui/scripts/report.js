@@ -347,16 +347,25 @@ function renderSnapshot(snapshot) {
       ` : ''}
 
       ${gh.length > 0 ? `
-        <div style="font-size:12px;font-weight:600;color:var(--text-tertiary);letter-spacing:0.08em;text-transform:uppercase;margin:1.25rem 0 0.6rem;">GitHub Trending AI</div>
+        <div style="display:flex;align-items:center;gap:0.5rem;margin:1.25rem 0 0.6rem;">
+          <span style="font-size:12px;font-weight:600;color:var(--text-tertiary);letter-spacing:0.08em;text-transform:uppercase;">GitHub Trending</span>
+          <span style="font-size:10px;font-weight:600;color:#FF9500;background:rgba(255,149,0,0.1);border:1px solid rgba(255,149,0,0.25);border-radius:4px;padding:1px 6px;white-space:nowrap;">今日数据</span>
+          <a href="https://github.com/trending" target="_blank" rel="noopener"
+            style="font-size:11px;font-weight:400;color:var(--accent);text-transform:none;margin-left:auto;text-decoration:none;">查看完整榜单 →</a>
+        </div>
         <div style="background:var(--bg-card);border-radius:12px;overflow:hidden;">
           ${gh.slice(0, 5).map((r, i) => `
             <div style="display:flex;align-items:flex-start;gap:0.75rem;padding:0.7rem 1rem;${i > 0 ? 'border-top:1px solid var(--border-light)' : ''}">
               <div style="flex:1;min-width:0;">
                 <a href="${r.url || '#'}" target="_blank" rel="noopener"
                   style="font-size:14px;font-weight:600;color:var(--text-primary);text-decoration:none;">${r.name || ''}</a>
-                ${r.desc ? `<div style="font-size:12px;color:var(--text-secondary);margin-top:2px;">${r.desc}</div>` : ''}
+                ${r.desc ? `<div style="font-size:12px;color:var(--text-secondary);margin-top:2px;line-height:1.5;">${r.desc}</div>` : ''}
+                <div style="display:flex;gap:1rem;margin-top:4px;font-size:11px;color:var(--text-tertiary);">
+                  <span>⭐ ${(r.stars || 0).toLocaleString()}（今日 +${(r.stars_today || 0).toLocaleString()}）</span>
+                  <span>🍴 ${(r.forks || 0).toLocaleString()}</span>
+                  <span>${r.language || '—'}</span>
+                </div>
               </div>
-              <div style="font-size:12px;color:var(--text-tertiary);white-space:nowrap;">⭐ ${(r.stars || 0).toLocaleString()} · ${r.language || '—'}</div>
             </div>`).join('')}
         </div>` : ''}
 

@@ -15,6 +15,7 @@ v2.0 新增：
 
 import json
 import os
+import re as _re
 import requests
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -27,13 +28,6 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; AI-Observation-Bot/1.0)",
     "Accept": "application/json",
 }
-
-_github_headers = {**HEADERS, "Accept": "application/vnd.github.v3+json"}
-_github_token = os.environ.get("GITHUB_TOKEN")
-if _github_token:
-    _github_headers["Authorization"] = f"Bearer {_github_token}"
-
-GITHUB_HEADERS = _github_headers
 
 # pipeline_tag → 人类可读中文说明
 PIPELINE_LABEL = {
@@ -316,76 +310,68 @@ def _slug_to_display(permaslug: str) -> str:
 
 def _fetch_github_trending() -> list[dict]:
     """
-    抓取 GitHub AI 相关热门项目。
-    策略：主查询按 topic + 近期推送筛选活跃 AI 项目；
-          结果为空或遭限流时降级为关键词搜索（更高星数门槛降噪）。
+    抓取 GitHub Trending 页面 (https://github.com/trending) 前 5 个项目。
+    直接解析 HTML，不依赖 GitHub API，避免 Rate Limit。
     """
-    three_days_ago = (datetime.now(_BJT) - timedelta(days=3)).strftime("%Y-%m-%d")
-    url = "https://api.github.com/search/repositories"
+    try:
+        resp = requests.get("https://github.com/trending", headers={
+            "User-Agent": "Mozilla/5.0 (compatible; AI-Observation-Bot/1.0)",
+            "Accept": "text/html,application/xhtml+xml",
+        }, timeout=15)
+        resp.raise_for_status()
+    except Exception as e:
+        print(f"  ⚠️ GitHub Trending 抓取失败：{e}")
+        return []
 
-    # 主查询：有 AI topic 标签、近3天有推送、星数 > 50
-    # GitHub topic qualifier 用逗号分隔表示 OR，不支持 OR 关键字
-    primary_params = {
-        "q": (
-            "topic:ai,llm,machine-learning,deep-learning,llm-agent"
-            f" pushed:>={three_days_ago} stars:>50"
-        ),
-        "sort": "stars",
-        "order": "desc",
-        "per_page": 8,
-    }
-
-    # 降级查询：关键词搜索（搜名称/描述），提高星数门槛到 200 以减少噪音
-    fallback_params = {
-        "q": (
-            f'(ai OR llm OR "machine learning" OR "deep learning")'
-            f" pushed:>={three_days_ago} stars:>200"
-        ),
-        "sort": "stars",
-        "order": "desc",
-        "per_page": 8,
-    }
-
-    def _do_request(params: dict) -> list | None:
-        try:
-            resp = requests.get(url, params=params, headers=GITHUB_HEADERS, timeout=15)
-            if resp.status_code == 403:
-                return None
-            resp.raise_for_status()
-            return resp.json().get("items", [])
-        except Exception as e:
-            print(f"  ⚠️ GitHub 请求异常：{e}")
-            return []
-
-    items = _do_request(primary_params)
-
-    # 403 或主查询无结果时，尝试降级查询
-    if items is None:
-        print("  ⚠️ GitHub API Rate Limit，切换降级查询...")
-    elif not items:
-        print("  ⚠️ 主查询无结果，尝试降级查询...")
-
-    if items is None or (isinstance(items, list) and not items):
-        items = _do_request(fallback_params)
-        if items is None:
-            print("  ⚠️ 降级查询也遭遇 Rate Limit，跳过 GitHub 快照")
-            return []
-        if isinstance(items, list) and not items:
-            print("  ⚠️ GitHub 查询无结果（已尝试主查询和降级查询）")
-            return []
+    text = resp.text
+    articles = _re.findall(r'<article\s+class="Box-row"[^>]*>(.*?)</article>', text, _re.DOTALL)
+    if not articles:
+        print("  ⚠️ GitHub Trending 页面解析失败：未找到项目")
+        return []
 
     result = []
-    for repo in items[:6]:
-        html_url = repo.get("html_url") or ""
-        full_name = repo.get("full_name") or ""
-        if not full_name:
+    for art in articles[:5]:
+        # Repo 名称：跳过 login/sponsors 等路径，取第一个 /org/repo
+        hrefs = _re.findall(r'href="(/[^"]+)"', art)
+        repo_href = ""
+        for hf in hrefs:
+            first = hf.lstrip("/")
+            if first.split("/")[0] in ("login", "sponsors", "settings", "features", "trending"):
+                continue
+            if "/" in first and len(first.split("/")) == 2:
+                repo_href = hf
+                break
+        if not repo_href:
             continue
+        name = repo_href.strip("/")
+
+        # 描述
+        desc_match = _re.search(r'<p\s+class="[^"]*col-9[^"]*"[^>]*>(.*?)</p>', art, _re.DOTALL)
+        desc = _re.sub(r"<[^>]+>", "", desc_match.group(1)).strip() if desc_match else ""
+
+        # 语言
+        lang_match = _re.search(r'itemprop="programmingLanguage"[^>]*>([^<]+)', art)
+        language = lang_match.group(1).strip() if lang_match else ""
+
+        # 今日新增星标
+        today_match = _re.search(r"(\d[\d,]*)\s+stars?\s+today", art)
+        stars_today = int(today_match.group(1).replace(",", "")) if today_match else 0
+
+        # 总星标 + forks（去掉 SVG 后取数字）
+        clean = _re.sub(r"<svg[^>]*>.*?</svg>", "", art, flags=_re.DOTALL)
+        nums = [int(n.replace(",", "")) for n in _re.findall(r"<a[^>]*>\s*([\d,]+)\s*</a>", clean)]
+        stars_total = nums[-2] if len(nums) >= 2 else 0
+        forks = nums[-1] if len(nums) >= 1 else 0
+
         result.append({
-            "name": full_name,
-            "desc": (repo.get("description") or "")[:100],
-            "stars": repo.get("stargazers_count") or 0,
-            "language": repo.get("language") or "—",
-            "url": html_url,
-            "topics": (repo.get("topics") or [])[:3],
+            "name": name,
+            "desc": desc[:100],
+            "stars": stars_total,
+            "stars_today": stars_today,
+            "forks": forks,
+            "language": language or "—",
+            "url": f"https://github.com/{name}",
         })
+
+    print(f"  ✓ GitHub Trending：成功解析 {len(result)} 个项目")
     return result
