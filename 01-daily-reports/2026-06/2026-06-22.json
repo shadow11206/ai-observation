@@ -3,171 +3,164 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "三星电子全球部署ChatGPT Enterprise和Codex，OpenAI最大企业客户落地",
-      "finding": "三星电子宣布为全球员工部署ChatGPT Enterprise和Codex，这是OpenAI迄今为止规模最大的企业级AI部署。三星将使用ChatGPT进行日常办公和协作，Codex则用于辅助软件开发。此举标志着大型跨国企业开始全面拥抱AI工具，从个人试用转向组织级规模化应用。",
+      "title": "三星电子全球部署ChatGPT Enterprise和Codex，OpenAI最大企业级AI落地",
+      "finding": "三星电子宣布在全球范围内向员工部署ChatGPT Enterprise和Codex，这是OpenAI迄今为止规模最大的企业AI部署。此举标志着大型制造企业全面拥抱AI编程和办公助手，可能成为其他跨国公司的标杆案例。",
       "key_data": [
-        "全球员工部署",
+        "全球部署",
         "ChatGPT Enterprise",
-        "Codex辅助编程",
-        "OpenAI最大企业客户"
+        "Codex",
+        "最大企业AI落地"
       ],
-      "judgment": "这是企业AI落地的里程碑事件。三星作为全球科技制造巨头，其全面部署意味着AI工具已通过安全合规审查，进入核心业务流程。对开发者而言，Codex的规模化使用将进一步验证AI编程在大型软件工程中的实际价值，可能加速其他企业跟进。",
+      "judgment": "这是企业AI从实验走向规模化的关键信号。三星作为制造业巨头，其全面采用将推动更多传统企业加速AI部署，对OpenAI的企业营收和Codex的开发者生态是重大利好。",
       "confidence": 5,
-      "source": "OpenAI官方博客",
+      "source": "OpenAI Blog",
       "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment"
     },
     {
       "rank": 2,
-      "title": "Martin Fowler发布构建可靠Agentic AI系统指南",
-      "finding": "软件工程权威Martin Fowler在其网站上发布了一篇关于构建可靠LLM Agent系统的深度文章。文章系统性地讨论了如何通过架构设计、测试策略和监控手段来提升AI Agent的可靠性，包括使用结构化输出、验证链、回退机制等工程实践。",
+      "title": "Apertus发布开放基础模型，瞄准主权AI",
+      "finding": "Apertus宣布推出开放基础模型，旨在为各国提供自主可控的AI能力，减少对少数科技巨头的依赖。该项目在Hacker News上获得346个点赞和113条评论，引发广泛讨论。",
       "key_data": [
-        "Martin Fowler出品",
-        "Agent可靠性工程",
-        "结构化输出+验证链",
-        "生产级最佳实践"
+        "开放基础模型",
+        "主权AI",
+        "346 points",
+        "113 comments"
       ],
-      "judgment": "Martin Fowler的背书意味着Agent工程正在从实验走向成熟。这篇文章为开发者提供了构建生产级Agent系统的权威参考，将加速企业从'玩一玩'到'真正上线'的转变。对AI产品经理来说，这是理解Agent工程边界和最佳实践的必读材料。",
-      "confidence": 5,
-      "source": "Martin Fowler网站",
-      "url": "https://martinfowler.com/articles/reliable-llm-bayer.html"
-    },
-    {
-      "rank": 3,
-      "title": "Apertus发布开源主权AI基础模型",
-      "finding": "一个名为Apertus的项目发布了开源基础模型，旨在支持'主权AI'——即国家或组织能够自主控制AI基础设施，不依赖美国科技巨头。该项目在Hacker News上获得230+点赞，引发关于AI地缘政治和开源生态的热议。",
-      "key_data": [
-        "开源基础模型",
-        "主权AI概念",
-        "Hacker News 230+ points",
-        "去美国依赖"
-      ],
-      "judgment": "主权AI正在从口号变成实际项目。Apertus的出现反映了全球对AI基础设施集中化的担忧，尤其在欧洲和新兴市场。虽然目前影响力有限，但这类项目可能推动更多国家投资自主AI能力，长期看会改变开源模型生态的格局。",
-      "confidence": 3,
+      "judgment": "主权AI正在从概念走向产品。Apertus的出现反映了全球对AI基础设施自主可控的迫切需求，可能成为各国政府、国企的首选方案，对现有开源模型格局形成补充。",
+      "confidence": 4,
       "source": "Hacker News",
       "url": "https://apertvs.ai/"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Cloudflare推出AI Agent临时账户功能",
-      "finding": "Cloudflare宣布推出临时账户功能，允许AI Agent在有限时间内访问特定资源。Simon Willison评论称，虽然官方宣传是'为AI Agent设计'，但这项功能本质上是一个通用的临时访问机制，对任何需要短期授权的场景都有价值。",
+      "finding": "Cloudflare发布了专为AI Agent设计的临时账户功能，允许AI自动创建和管理临时账户以执行任务。Simon Willison指出，虽然宣传为AI功能，但本质上对所有自动化场景都有用。",
       "key_data": [
         "临时账户",
-        "AI Agent授权",
-        "Cloudflare新功能",
-        "通用安全机制"
+        "AI Agent",
+        "自动化"
       ],
-      "judgment": "这是基础设施层对AI Agent生态的适配。随着Agent自主执行任务的需求增长，安全授权成为关键瓶颈。Cloudflare的临时账户方案解决了'Agent如何安全地代表用户操作'这一核心问题，可能成为Agent安全基础设施的标准组件。",
-      "confidence": 4,
+      "judgment": "这是基础设施层为AI Agent铺路的重要一步。临时账户解决了Agent自主操作的安全和权限问题，将加速Agent在Web自动化、测试等场景的落地。",
+      "confidence": 5,
       "source": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/"
+      "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything"
+    },
+    {
+      "rank": 4,
+      "title": "特朗普政府对Anthropic采取行动，引发AI生态连锁反应讨论",
+      "finding": "TechCrunch报道了特朗普政府针对Anthropic的最新举措，并探讨了此举对AI生态系统的影响。谁将从对Anthropic的打压中受益成为焦点。",
+      "key_data": [
+        "特朗普政府",
+        "Anthropic",
+        "AI生态影响"
+      ],
+      "judgment": "地缘政治风险正在直接冲击AI头部公司。Anthropic作为安全导向的AI实验室，其遭遇可能影响整个行业的监管走向和投资信心，值得持续关注。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/"
     },
     {
       "rank": 5,
-      "title": "特朗普政府对Anthropic施压，引发AI生态担忧",
-      "finding": "TechCrunch报道称，特朗普政府正在对Anthropic采取限制措施，具体原因尚未完全公开，但分析认为与Anthropic的安全研究和政策立场有关。此举引发了对美国AI产业政策干预加剧的担忧，以及谁将从Anthropic受限中受益的讨论。",
+      "title": "iOS 27将带来实用AI功能，超越Siri升级",
+      "finding": "TechCrunch报道了iOS 27中即将到来的实用AI功能，这些功能分散在系统各处，而非仅限于Siri的AI改造。WWDC上Siri的AI升级虽抢眼，但更多实用功能正在到来。",
       "key_data": [
-        "特朗普政府",
-        "Anthropic受限",
-        "AI政策干预",
-        "产业格局影响"
+        "iOS 27",
+        "实用AI功能",
+        "Siri升级"
       ],
-      "judgment": "政治因素正在成为AI行业不可忽视的变量。如果Anthropic因政策原因受限，可能改变Claude系列模型的竞争格局，OpenAI和Google将直接受益。对开发者而言，这意味着在选择模型供应商时需要考虑地缘政治风险，多模型策略将更加重要。",
-      "confidence": 3,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/"
+      "judgment": "苹果正在将AI能力渗透到系统各个角落，而非依赖单一入口。这种'AI无处不在'的策略更务实，可能比单纯的Siri升级更能提升用户体验，对开发者意味着新的API和集成机会。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/"
     }
   ],
   "model_tech": [
     {
       "source": "Reddit r/MachineLearning",
       "title": "矩阵循环单元（MRU）作为注意力机制替代方案的最新进展",
-      "finding": "一位研究者更新了其矩阵循环单元（MRU）算法，这是一种线性时间复杂度的序列架构，旨在替代传统的注意力机制。MRU在保持与Transformer相当性能的同时，将计算复杂度从O(n²)降低到O(n)，对长序列处理有显著优势。",
+      "finding": "作者更新了其矩阵循环单元算法（MRU），一种线性时间序列架构，作为注意力机制的替代方案。该算法在保持线性复杂度的同时，试图在长序列任务上接近Transformer的性能。",
       "key_data": [
-        "线性时间复杂度",
-        "注意力替代方案",
-        "长序列优势",
-        "开源实现"
+        "线性时间",
+        "注意力替代",
+        "MRU"
       ],
-      "judgment": "如果MRU被验证有效，可能改变大模型的架构方向，尤其对长上下文场景（如代码库分析、长文档处理）有重大意义。但需要更多独立验证。",
-      "confidence": 2,
+      "judgment": "注意力机制替代方案持续涌现，但距离实际应用仍有距离。MRU若能在长序列上验证有效性，将对推理效率和硬件部署产生积极影响。",
+      "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1ubz5o8/an_update_on_matrix_recurrent_units_an_attention/",
       "importance": 3
     },
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "面向训练神经网络团队的数据中心调试工具WeightsLab重大更新",
-      "finding": "WeightsLab发布了重大更新，专注于帮助训练神经网络的团队进行数据中心调试。该工具能自动检测数据问题（如标签错误、分布偏移），避免团队花费数小时调试训练过程却发现是数据问题。",
+      "source": "Hacker News",
+      "title": "微调本地小模型（Qwen 3:0.6B）进行问题分类取得良好效果",
+      "finding": "开发者分享了使用Qwen 3:0.6B模型进行微调，成功实现问题分类任务的实践。结果表明，即使是0.6B参数的小模型，通过微调也能在特定任务上达到不错效果。",
       "key_data": [
-        "数据中心调试",
-        "自动检测数据问题",
-        "训练效率提升",
-        "WeightsLab更新"
+        "Qwen 3:0.6B",
+        "微调",
+        "问题分类",
+        "107 points"
       ],
-      "judgment": "数据质量是模型训练中最容易被忽视的瓶颈。这类工具的出现说明行业正在从'模型中心'转向'数据中心'，对MLOps实践有实际价值。",
-      "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ubwcat/datacentric_debugging_for_teams_training_neural/",
-      "importance": 2
+      "judgment": "小模型微调的价值被再次验证。对于预算有限的团队和特定场景，微调小模型是比调用大模型API更经济、可控的方案。",
+      "confidence": 4,
+      "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
+      "importance": 3
     },
     {
       "source": "Reddit r/MachineLearning",
-      "title": "改进版DVD-JEPA演示：更简洁的JEPA实现",
-      "finding": "开发者对之前的DVD-JEPA演示进行了改进，JEPA（联合嵌入预测架构）是一种自监督学习方法，通过预测表示空间中的变换来学习视觉特征。改进版本修复了原演示中的问题，提供了更清晰的实现。",
+      "title": "面向训练神经网络的团队的数据中心调试工具WeightsLab重大更新",
+      "finding": "WeightsLab发布了重大更新，专注于帮助团队调试训练过程中的数据问题。该工具旨在减少因数据错误导致的训练失败，提升团队效率。",
       "key_data": [
-        "JEPA改进",
-        "自监督学习",
-        "视觉特征学习",
-        "开源演示"
+        "数据调试",
+        "训练效率",
+        "WeightsLab"
       ],
-      "judgment": "JEPA是Yann LeCun倡导的视觉自监督学习框架，改进版演示降低了入门门槛，对研究者和学生有价值，但短期内对产品影响有限。",
+      "judgment": "数据质量是模型训练的核心瓶颈之一。这类工具的出现有助于降低AI工程的门槛，让团队更快定位问题，对MLOps生态是积极补充。",
       "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ubtf09/a_slightly_improved_dvdjepa_demo_p/",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ubwcat/datacentric_debugging_for_teams_training_neural/",
       "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "TechCrunch",
-      "title": "iOS 27实用AI功能详解：不止Siri升级",
-      "finding": "TechCrunch详细介绍了iOS 27中除Siri之外的实用AI功能，包括照片智能编辑、邮件智能摘要、日历自动排程等。这些功能分散在系统各处，而非集中在Siri一个入口，体现了Apple'AI无处不在'的产品哲学。",
+      "source": "Simon Willison",
+      "title": "sqlite-utils 4.0rc1发布，新增迁移和嵌套事务支持",
+      "finding": "Simon Willison发布了sqlite-utils 4.0rc1版本，新增了数据库迁移和嵌套事务功能。这是该Python库的重大更新，提升了SQLite数据库操作的灵活性和可靠性。",
       "key_data": [
-        "iOS 27",
-        "系统级AI功能",
-        "照片智能编辑",
-        "邮件智能摘要"
+        "sqlite-utils 4.0",
+        "迁移",
+        "嵌套事务"
       ],
-      "judgment": "Apple的AI策略是'润物细无声'，将AI能力嵌入每个系统功能而非打造一个超级助手。这种策略更务实，但对用户感知度较低，可能影响Apple在AI消费者心智中的份额。",
-      "confidence": 4,
-      "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
-      "importance": 3
+      "judgment": "对使用SQLite的AI项目开发者是好消息。迁移和事务支持让sqlite-utils更适合生产环境，尤其适合数据量不大但需要可靠性的AI应用。",
+      "confidence": 5,
+      "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/",
+      "importance": 2
     },
     {
-      "source": "量子位",
-      "title": "2026年具身智能融资已超去年全年，超半数资金流向机器人'大脑'",
-      "finding": "量子位报道称，2026年尚未过半，具身智能领域的融资总额已超过去年全年。值得注意的是，超过一半的资金流向了机器人的'大脑'（即AI模型和软件层），而非硬件本体。这表明资本正在从'造机器人'转向'造机器人的智能'。",
+      "source": "InfoQ AI",
+      "title": "优步通过实时信号与Listwise排序改进餐厅推荐",
+      "finding": "优步改进了餐厅推荐系统，引入实时信号和Listwise排序方法，以提升推荐的相关性和用户体验。",
       "key_data": [
-        "融资超去年全年",
-        "超半数流向AI软件",
-        "具身智能热",
-        "大脑>本体"
+        "实时信号",
+        "Listwise排序",
+        "餐厅推荐"
       ],
-      "judgment": "具身智能的投资逻辑正在从硬件驱动转向软件驱动。'大脑'公司（如Physical Intelligence、Covariant）获得更多资金，意味着行业共识是'智能是瓶颈，硬件相对成熟'。这对AI开发者是利好——软件能力在机器人领域的价值正在被重估。",
+      "judgment": "推荐系统在AI时代仍有优化空间。优步的做法展示了如何将传统推荐技术与AI结合，对电商、内容平台有参考价值。",
       "confidence": 4,
-      "url": "https://www.qbitai.com/2026/06/437198.html",
-      "importance": 3
+      "url": "https://www.infoq.cn/article/yz1xWttyNqlIdBbF7GOR?utm_source=rss&utm_medium=article",
+      "importance": 2
     },
     {
-      "source": "InfoQ",
-      "title": "大模型与Agent驱动内容风控智能化升级",
-      "finding": "InfoQ报道了AICon上海站关于AI-Native内容风控的分享，介绍了如何利用大模型和Agent替代传统的'机审+人审'模式，实现更智能、更高效的内容审核系统。",
+      "source": "36氪 AI",
+      "title": "AI算力中心感知与效能管理方案商芯感通完成数千万元天使轮融资",
+      "finding": "芯感通科技完成数千万元天使轮融资，由联想之星和险峰联合领投。公司专注于AI算力中心的感知与效能管理，解决高功耗GPU带来的运营挑战。",
       "key_data": [
-        "AI-Native风控",
-        "Agent替代人审",
-        "内容审核智能化",
-        "AICon上海"
+        "芯感通",
+        "数千万元",
+        "天使轮",
+        "算力中心效能管理"
       ],
-      "judgment": "内容风控是AI Agent落地的典型高价值场景。用Agent替代人工审核能大幅降低成本并提升效率，但需要解决误判和合规风险。这对所有内容平台都有参考价值。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/qTF6xLMZmM5vJe0L9twb",
+      "judgment": "AI基础设施的配套服务正在成为投资热点。随着算力中心规模扩大，能效管理和运维优化将成为刚需，相关创业公司值得关注。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3863885024973832?f=rss",
       "importance": 2
     }
   ],
@@ -175,31 +168,31 @@
     {
       "person": "Simon Willison",
       "level": "L2",
-      "quote": "Cloudflare的临时账户功能虽然宣传为'为AI Agent设计'，但本质上是一个通用的临时访问机制，对任何需要短期授权的场景都有价值。AI Agent的安全授权问题正在被基础设施厂商认真对待。",
-      "source": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/"
+      "quote": "Cloudflare的临时账户功能虽然宣传为AI Agent设计，但本质上对所有自动化场景都有用。这个功能本身很有趣，AI的标签只是锦上添花。",
+      "source": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "构建可靠AI Agent的工程实践",
-      "reason": "Martin Fowler的权威指南标志着Agent工程从实验走向成熟，值得深入理解其架构设计、测试策略和监控方案。",
+      "topic": "主权AI运动：开放基础模型能否打破巨头垄断？",
+      "reason": "Apertus的发布和Hacker News上的热议表明主权AI需求真实存在，值得深入分析其技术路线、商业模式和潜在影响。",
       "priority": "high"
     },
     {
-      "topic": "具身智能'大脑'公司的投资逻辑与商业模式",
-      "reason": "2026年超半数融资流向机器人AI软件层，这一趋势可能重塑具身智能产业格局，值得分析其商业模式和竞争壁垒。",
-      "priority": "medium"
+      "topic": "企业级AI部署的规模化挑战：以三星为例",
+      "reason": "三星全球部署ChatGPT Enterprise和Codex是标志性事件，研究其部署策略、安全考量和对企业生产力的实际影响，对其他企业有重要参考价值。",
+      "priority": "high"
     }
   ],
-  "summary_one_line": "三星全面部署AI，Agent工程走向成熟",
-  "summary_paragraph": "今日AI行业迎来多个里程碑事件。三星电子全球部署ChatGPT Enterprise和Codex，成为OpenAI最大企业客户，标志着AI工具从个人试用进入组织级规模化阶段。Martin Fowler发布构建可靠Agent系统指南，为开发者提供了生产级Agent工程的权威参考。Cloudflare推出AI Agent临时账户功能，基础设施层开始适配Agent安全需求。具身智能领域融资已超去年全年，且超半数资金流向机器人'大脑'软件层，投资逻辑从硬件转向软件。与此同时，特朗普政府对Anthropic的施压引发对AI产业政策干预的担忧，地缘政治风险成为行业新变量。",
+  "summary_one_line": "三星全面部署AI，主权AI新星涌现",
+  "summary_paragraph": "今日AI行业迎来两个标志性事件：三星电子全球部署ChatGPT Enterprise和Codex，成为OpenAI最大企业客户，标志着AI在制造业的规模化落地；同时，Apertus发布开放基础模型，瞄准主权AI需求，反映了全球对AI自主可控的迫切期待。Cloudflare推出AI Agent临时账户功能，为Agent自主操作铺平基础设施道路。地缘政治风险持续影响行业，特朗普政府对Anthropic的行动引发广泛讨论。整体来看，AI正从技术探索加速走向企业级部署和基础设施完善，主权AI成为新趋势。",
   "snapshot": {
     "date": "2026-06-22",
     "hf_trending": [
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 1836,
+        "likes": 1887,
         "downloads": 27413,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -215,7 +208,7 @@
       {
         "name": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "short_name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-        "likes": 2093,
+        "likes": 2110,
         "downloads": 358677,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "tags": [
@@ -231,7 +224,7 @@
       {
         "name": "WeiboAI/VibeThinker-3B",
         "short_name": "VibeThinker-3B",
-        "likes": 563,
+        "likes": 578,
         "downloads": 20277,
         "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
         "tags": [
@@ -247,7 +240,7 @@
       {
         "name": "MiniMaxAI/MiniMax-M3",
         "short_name": "MiniMax-M3",
-        "likes": 1177,
+        "likes": 1185,
         "downloads": 104076,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
         "tags": [
@@ -261,25 +254,9 @@
         "trend": "same"
       },
       {
-        "name": "moonshotai/Kimi-K2.7-Code",
-        "short_name": "Kimi-K2.7-Code",
-        "likes": 945,
-        "downloads": 363308,
-        "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "kimi_k25"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "short_name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-        "likes": 288,
+        "likes": 307,
         "downloads": 21730,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "tags": [
@@ -295,7 +272,7 @@
       {
         "name": "microsoft/FastContext-1.0-4B-SFT",
         "short_name": "FastContext-1.0-4B-SFT",
-        "likes": 265,
+        "likes": 274,
         "downloads": 2593,
         "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-SFT",
         "tags": [
@@ -309,9 +286,25 @@
         "trend": "same"
       },
       {
+        "name": "moonshotai/Kimi-K2.7-Code",
+        "short_name": "Kimi-K2.7-Code",
+        "likes": 948,
+        "downloads": 363308,
+        "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "kimi_k25"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "unsloth/GLM-5.2-GGUF",
         "short_name": "GLM-5.2-GGUF",
-        "likes": 227,
+        "likes": 233,
         "downloads": 32260,
         "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF",
         "tags": [
@@ -329,47 +322,47 @@
       {
         "name": "palmier-io/palmier-pro",
         "desc": "macOS video editor built for AI",
-        "stars": 5422,
+        "stars": 5987,
         "stars_today": 1834,
-        "forks": 408,
+        "forks": 439,
         "language": "Swift",
         "url": "https://github.com/palmier-io/palmier-pro"
       },
       {
         "name": "calesthio/OpenMontage",
         "desc": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skill",
-        "stars": 9078,
+        "stars": 9750,
         "stars_today": 987,
-        "forks": 1328,
+        "forks": 1372,
         "language": "Python",
         "url": "https://github.com/calesthio/OpenMontage"
       },
       {
-        "name": "chopratejas/headroom",
-        "desc": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, s",
-        "stars": 44746,
-        "stars_today": 2624,
-        "forks": 3126,
-        "language": "Python",
-        "url": "https://github.com/chopratejas/headroom"
-      },
-      {
         "name": "tursodatabase/turso",
         "desc": "Turso is an in-process SQL database, compatible with SQLite.",
-        "stars": 20867,
+        "stars": 20984,
         "stars_today": 548,
-        "forks": 1068,
+        "forks": 1072,
         "language": "Rust",
         "url": "https://github.com/tursodatabase/turso"
       },
       {
         "name": "penpot/penpot",
         "desc": "Penpot: The open-source design tool for design and code collaboration",
-        "stars": 52331,
+        "stars": 52477,
         "stars_today": 1135,
-        "forks": 3350,
+        "forks": 3359,
         "language": "Clojure",
         "url": "https://github.com/penpot/penpot"
+      },
+      {
+        "name": "ZhuLinsen/daily_stock_analysis",
+        "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit",
+        "stars": 45086,
+        "stars_today": 568,
+        "forks": 41647,
+        "language": "Python",
+        "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
       }
     ],
     "openrouter_ranking": [
@@ -484,6 +477,6 @@
         "url": "https://openrouter.ai/stepfun/step-3.7-flash"
       }
     ],
-    "hf_summary": "开源模型激增，文本生成主导，多模态升温。"
+    "hf_summary": "文本生成霸榜，多模态理解模型崭露头角"
   }
 }
