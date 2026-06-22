@@ -1,6 +1,13 @@
 {
-  "total": 88,
+  "total": 89,
   "reports": [
+    {
+      "date": "2026-06-22",
+      "title": "今日 AI 日报：三星电子全球部署ChatGPT Enterprise和Codex，OpenAI最大企业落地案例 + 4 条重要动态",
+      "excerpt": "这对企业AI市场是里程碑事件。三星作为全球制造业和科技巨头，其全面采用意味着AI…",
+      "top_count": 5,
+      "file": "2026-06-22.json"
+    },
     {
       "date": "2026-06-21",
       "title": "今日 AI 日报：诺奖得主、AlphaFold之父John Jumper离开DeepMind加入Anthropic + 4 条重要动态",
