@@ -3,227 +3,198 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "OpenAI 推出 Daybreak 安全计划：发布 GPT-5.5-Cyber 和开源漏洞修复行动",
-      "finding": "OpenAI 发布 Daybreak 安全工具，包括专用于网络安全的 GPT-5.5-Cyber 模型和 Codex Security，并启动“Patch the Planet”计划，帮助开源维护者用 AI 发现和修复漏洞。这直接对标 Anthropic 此前推出的 Mythos 安全方案，两大巨头在 AI 安全领域正面交锋。",
+      "title": "OpenAI 发布 Daybreak 安全工具，包括 Codex Security 和 GPT-5.5-Cyber，并启动开源漏洞修复计划",
+      "finding": "OpenAI 推出 Daybreak 系列工具，包含 Codex Security（代码安全扫描）和 GPT-5.5-Cyber（网络安全模型），同时启动“Patch the Planet”计划，用 AI 帮助开源社区发现和修复漏洞。这是 OpenAI 在 AI 安全领域的一次重大产品化落地，直接对标 Anthropic 的 Mythos 安全框架。",
       "key_data": [
-        "GPT-5.5-Cyber 发布",
-        "Codex Security 工具",
-        "Patch the Planet 开源计划",
-        "对标 Anthropic Mythos"
+        "Daybreak 安全工具集",
+        "GPT-5.5-Cyber 网络安全模型",
+        "Patch the Planet 开源修复计划"
       ],
-      "judgment": "AI 安全从防御走向主动进攻。OpenAI 和 Anthropic 的竞争已从模型能力延伸到安全生态，未来开发者选择 AI 平台时，安全能力将成为关键决策因素。",
+      "judgment": "这意味着 AI 安全从研究概念进入产品化阶段。OpenAI 选择从开源漏洞修复切入，既是对 Anthropic Mythos 的回应，也试图建立 AI 安全领域的标准。对开发者来说，Codex Security 可能成为 CI/CD 流程中的标配工具。",
       "confidence": 5,
-      "source": "OpenAI Blog / Wired / TechCrunch",
+      "source": "OpenAI Blog",
       "url": "https://openai.com/index/daybreak-securing-the-world"
     },
     {
       "rank": 2,
-      "title": "DeepSeek 疯狂招聘 Agent 人才，负责人公开贴广告",
-      "finding": "DeepSeek 正在全力押注 Agent 方向，但面临严重的人才短缺，负责人不得不在公开渠道贴广告招聘。这表明 DeepSeek 在开源模型取得领先地位后，正加速向 Agent 应用层转型。",
+      "title": "AI 芯片公司 Groq 确认 6.5 亿美元融资，NVIDIA 20 亿美元收购未果后重组团队",
+      "finding": "Groq 在 NVIDIA 20 亿美元“非收购式挖角”交易后，确认完成 6.5 亿美元融资，并重新组建高管团队，重点转向其 neocloud 云推理业务。这表明 Groq 的 LPU 推理芯片路线在 NVIDIA 的阴影下仍获资本认可。",
       "key_data": [
-        "Agent 人才极度短缺",
-        "公开渠道招聘",
-        "全力押注 Agent 方向"
+        "6.5 亿美元融资",
+        "NVIDIA 20 亿美元挖角",
+        "转向 neocloud 推理云"
       ],
-      "judgment": "DeepSeek 从模型层向应用层延伸的信号。Agent 是当前 AI 行业最热的赛道，但人才供给严重不足，这波人才争夺战将加剧行业薪资通胀。",
+      "judgment": "Groq 的独立生存证明了 AI 推理芯片市场仍有差异化空间。LPU 在低延迟推理场景的独特价值（如实时语音、Agent 应用）使其成为 NVIDIA 之外的重要选择。对开发者意味着更多推理芯片选项，可能带来成本下降。",
       "confidence": 4,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/06/437249.html"
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/"
     },
     {
       "rank": 3,
-      "title": "吴恩达：AI 炒作过头，未来公司是 10 人小队 + Agent 重做数据架构",
-      "finding": "吴恩达在最新分享中直言 AI 行业炒作过度，认为真正的变革不是大模型本身，而是 Agent 架构和数据处理方式的根本改变。他预测未来高效公司只需 10 人团队，配合 Agent 重新设计数据架构。",
-      "key_data": [
-        "10 人小队模式",
-        "Agent 重做数据架构",
-        "炒作过头"
-      ],
-      "judgment": "吴恩达作为 L2 顶级观察者，其观点代表行业理性声音。对产品经理和创业者来说，与其追逐大模型参数竞赛，不如思考如何用 Agent 重构业务流程和数据架构。",
-      "confidence": 4,
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/9ubrcrTRdxROBUo5igpy"
-    },
-    {
-      "rank": 4,
-      "title": "Meta 员工追踪计划因数据泄露紧急叫停",
-      "finding": "Meta 内部用于训练 AI 的员工键盘记录追踪计划因数据泄露被紧急暂停。该计划收集员工击键数据来训练 AI 模型，但内部数据被意外暴露，引发严重隐私争议。",
+      "title": "Meta 员工追踪计划因内部数据泄露紧急暂停",
+      "finding": "Meta 的“蒸馏员工”计划——通过收集员工键盘敲击数据训练 AI 模型——因内部数据泄露被紧急叫停。员工私聊数据意外暴露，引发严重隐私争议。这标志着科技巨头在内部 AI 数据收集上的激进做法遭遇重大挫折。",
       "key_data": [
         "员工键盘数据泄露",
-        "追踪计划紧急暂停",
-        "隐私争议"
+        "计划紧急暂停",
+        "内部隐私争议"
       ],
-      "judgment": "AI 训练数据来源的伦理边界再次被挑战。Meta 的激进做法给所有 AI 公司敲响警钟：用员工数据训练模型需要更透明的机制，否则将面临信任危机和法律风险。",
-      "confidence": 5,
-      "source": "Wired / 量子位",
+      "judgment": "Meta 这次翻车给所有计划用员工数据训练 AI 的公司敲了警钟。在 AI 训练数据饥渴的背景下，企业内部数据收集的合规边界和员工信任问题将成为新的监管焦点。对产品经理来说，数据采集方案必须从一开始就设计好隐私保护机制。",
+      "confidence": 4,
+      "source": "Wired",
       "url": "https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/"
     },
     {
-      "rank": 5,
-      "title": "AI 芯片公司 Groq 确认 6.5 亿美元融资，NVIDIA 20 亿美元收购未果后重组团队",
-      "finding": "Groq 在经历 NVIDIA 20 亿美元非收购性人才交易后，确认完成 6.5 亿美元新一轮融资，并重新组建高管团队。公司正转向云业务（neocloud），从芯片公司转型为 AI 云服务商。",
+      "rank": 4,
+      "title": "具身智能创企昆仑行 90 天融资数十亿元，估值超十亿美元成独角兽",
+      "finding": "前阿里云高管任庚创立的昆仑行机器人，注册不到 90 天完成 3 轮融资，累计数十亿元，估值超十亿美元，刷新具身智能行业独角兽速度。公司对标特斯拉人形机器人，瞄准工业和服务场景。",
       "key_data": [
-        "6.5 亿美元融资",
-        "NVIDIA 20 亿美元交易",
-        "转型 neocloud"
+        "90 天融资数十亿元",
+        "估值超十亿美元",
+        "前阿里云高管创立"
       ],
-      "judgment": "Groq 的转型说明 AI 芯片创业公司仅靠硬件难以生存，必须向上层云服务延伸。这对其他 AI 芯片初创公司是一个重要信号：硬件差异化不够，生态和服务才是护城河。",
+      "judgment": "这轮融资速度说明资本对具身智能赛道的狂热程度，但也让人担忧泡沫风险。昆仑行的快速崛起更多依赖创始团队背景和资本运作，技术验证尚未完成。对行业来说，这既是信号（具身智能进入加速期），也是警示（估值虚高可能带来后续调整）。",
+      "confidence": 3,
+      "source": "36氪",
+      "url": "https://36kr.com/p/3865188719121668"
+    },
+    {
+      "rank": 5,
+      "title": "Simon Willison 用 Claude Code 将 Moebius 图像修复模型移植到浏览器运行",
+      "finding": "Simon Willison 使用 Claude Code 成功将 Moebius 0.2B 参数图像修复模型移植到浏览器端运行。这个模型虽然只有 2 亿参数，但性能达到 100 亿参数级别。整个过程展示了 AI 辅助编程在模型部署中的实际应用。",
+      "key_data": [
+        "0.2B 参数模型",
+        "浏览器端运行",
+        "Claude Code 辅助移植"
+      ],
+      "judgment": "这是一个典型的 L1 实践者示范：用 AI 工具加速模型落地。小模型在浏览器端运行意味着更低的部署成本和更好的隐私保护，这对 AI 应用的产品形态有深远影响——更多 AI 功能可以直接在客户端完成，无需云端调用。",
       "confidence": 5,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/"
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything"
     }
   ],
   "model_tech": [
     {
-      "source": "量子位",
-      "title": "清华开源空间模型打败 Gemini：真正的空间智能是在世界变化中持续学习",
-      "finding": "清华大学团队开源空间智能模型，在 ECCV 2026 上击败 Gemini。该模型能处理 120 分钟长视频，并在世界变化中持续学习，代表了空间智能的新方向。",
+      "source": "InfoQ",
+      "title": "谷歌 LiteRT-LM 通过 Gemma 4 多 Token 预测将本地推理速度提升最高 2.2 倍",
+      "finding": "谷歌发布 LiteRT-LM，利用 Gemma 4 的多 Token 预测技术，将本地设备上的推理速度提升最高 2.2 倍。这意味着端侧 AI 推理效率大幅提升。",
       "key_data": [
-        "ECCV 2026 入选",
-        "120 分钟长视频处理",
-        "超越 Gemini"
+        "推理速度提升 2.2 倍",
+        "Gemma 4 多 Token 预测",
+        "端侧推理优化"
       ],
-      "judgment": "空间智能赛道中国团队开始领跑，开源策略将加速具身智能和机器人领域的发展。",
+      "judgment": "多 Token 预测从研究走向产品化，端侧 AI 体验将显著改善。对开发者来说，这意味着可以在手机上运行更大更强的模型。",
       "confidence": 4,
-      "url": "https://www.qbitai.com/2026/06/437235.html",
+      "url": "https://www.infoq.cn/article/lv6xh4HeBfWaYubLv54y",
       "importance": 3
     },
     {
       "source": "Hugging Face Blog",
-      "title": "PP-OCRv6 登陆 Hugging Face：支持 50 种语言，参数从 1.5M 到 34.5M",
-      "finding": "百度 PaddlePaddle 团队发布 PP-OCRv6 模型，支持 50 种语言 OCR，模型规模从 150 万到 3450 万参数可选，已上线 Hugging Face。",
+      "title": "PP-OCRv6 登陆 Hugging Face：支持 50 种语言，参数规模 1.5M 到 34.5M",
+      "finding": "百度 PaddlePaddle 的 PP-OCRv6 模型在 Hugging Face 上发布，支持 50 种语言 OCR，参数从 150 万到 3450 万可选。这是一个轻量级多语言 OCR 解决方案。",
       "key_data": [
-        "50 种语言",
+        "支持 50 种语言",
         "1.5M-34.5M 参数",
-        "Hugging Face 上线"
+        "Hugging Face 集成"
       ],
-      "judgment": "OCR 模型的小型化和多语言化趋势明显，对文档数字化、票据识别等场景有直接价值。",
-      "confidence": 5,
+      "judgment": "多语言 OCR 的轻量化开源方案降低了文档数字化门槛，对出海产品和多语言应用开发者是实用工具。",
+      "confidence": 4,
       "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
       "importance": 2
     },
     {
-      "source": "InfoQ",
-      "title": "xAI 发布 Grok Skills 并更新用于工具调用的 Responses API",
-      "finding": "xAI 推出 Grok Skills 功能，并更新了 Responses API 以支持更灵活的工具调用，增强 Grok 的 Agent 能力。",
+      "source": "量子位",
+      "title": "阿里发布视频生成模型 HappyHorse 1.1：五大维度全面升级",
+      "finding": "阿里发布 HappyHorse 1.1 视频生成模型，在画质、一致性、运动流畅度等五大维度升级。这是国内视频生成赛道的最新进展。",
       "key_data": [
-        "Grok Skills 发布",
-        "Responses API 更新",
-        "工具调用增强"
+        "五大维度升级",
+        "视频生成模型",
+        "阿里通义系列"
       ],
-      "judgment": "xAI 在 Agent 能力上追赶，但相比 OpenAI 和 Anthropic 仍有差距，生态建设是关键。",
-      "confidence": 4,
-      "url": "https://www.infoq.cn/article/hmME4JhKTJUYJy9DNEJ2",
+      "judgment": "视频生成赛道竞争白热化，阿里持续迭代说明国内厂商在追赶 Sora 级别能力。但具体效果还需实测对比。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/06/437317.html",
       "importance": 2
-    },
-    {
-      "source": "Simon Willison",
-      "title": "用 Claude Code 将 Moebius 0.2B 图像修复模型移植到浏览器运行",
-      "finding": "Simon Willison 用 Claude Code 成功将 Moebius 0.2B 轻量图像修复模型移植到浏览器中运行，展示了 AI 编程工具在模型移植和 Web 部署中的实际能力。",
-      "key_data": [
-        "Moebius 0.2B 模型",
-        "浏览器端运行",
-        "Claude Code 辅助"
-      ],
-      "judgment": "AI 编程工具正在改变开发者工作流，模型移植和 Web 部署的门槛大幅降低。",
-      "confidence": 5,
-      "url": "https://simonwillison.net/2026/Jun/22/porting-moebius/",
-      "importance": 3
     }
   ],
   "company_product": [
     {
-      "source": "量子位",
-      "title": "阿里发布视频生成模型 HappyHorse 1.1：五大维度全面升级",
-      "finding": "阿里发布 HappyHorse 1.1 视频生成模型，在画质、一致性、运动流畅度等五大维度全面升级，继续加码 AI 视频生成赛道。",
+      "source": "InfoQ",
+      "title": "Dropbox 发布 Nova：用于大规模运行 AI 编程智能体的内部平台",
+      "finding": "Dropbox 内部开发了 Nova 平台，用于大规模运行 AI 编程 Agent。该平台帮助 Dropbox 工程师在代码审查、重构等场景中高效使用 AI Agent。",
       "key_data": [
-        "五大维度升级",
-        "视频生成模型",
-        "阿里"
+        "AI 编程 Agent 平台",
+        "Dropbox 内部实践",
+        "代码审查与重构"
       ],
-      "judgment": "国内视频生成赛道竞争白热化，阿里、字节、快手等巨头纷纷迭代，但差异化不明显。",
+      "judgment": "大公司开始自建 AI 编程 Agent 平台，说明通用工具难以满足企业级需求。这对 Cursor、Copilot 等产品意味着需要提供更灵活的企业定制能力。",
       "confidence": 4,
-      "url": "https://www.qbitai.com/2026/06/437317.html",
-      "importance": 2
+      "url": "https://www.infoq.cn/article/5UOHryk6Ck66376bCULb",
+      "importance": 3
     },
     {
       "source": "InfoQ",
-      "title": "Dropbox 发布 Nova：用于大规模运行 AI 编程智能体的内部平台",
-      "finding": "Dropbox 开源内部 AI 编程 Agent 平台 Nova，用于大规模运行和管理 AI 编程智能体，展示了企业级 AI 编程基础设施的实践。",
+      "title": "谷歌推出 Colab CLI：面向开发者、自动化与 AI 智能体的命令行工具",
+      "finding": "谷歌发布 Colab CLI 命令行工具，让开发者和 AI Agent 可以直接通过命令行操作 Colab 笔记本，实现自动化工作流。",
       "key_data": [
-        "Nova 平台",
-        "AI 编程智能体",
-        "Dropbox 内部实践"
+        "Colab CLI 命令行工具",
+        "AI Agent 集成",
+        "自动化工作流"
       ],
-      "judgment": "企业自建 AI 编程平台成为趋势，Dropbox 的实践对其他公司有参考价值。",
+      "judgment": "Colab CLI 让 AI Agent 能直接操作计算环境，这是 Agent 工具链的重要补充。对数据科学家和 MLOps 工程师来说，自动化程度将大幅提升。",
       "confidence": 4,
-      "url": "https://www.infoq.cn/article/5UOHryk6Ck66376bCULb",
+      "url": "https://www.infoq.cn/article/UWmllxei7QLmEqZY5SrY",
       "importance": 2
     },
     {
-      "source": "量子位",
-      "title": "AI 硬件席卷 618，钉钉 A1 包揽天猫、抖音、京东销量冠军",
-      "finding": "钉钉 A1 AI 录音设备在 618 期间拿下天猫、抖音、京东三大平台 AI 录音设备销量第一，AI 硬件在消费市场开始放量。",
+      "source": "36氪",
+      "title": "快手系 AI 芯片公司凌川科技再融资数亿，视频压缩性能超英伟达",
+      "finding": "快手投资的 AI 芯片公司凌川科技完成数亿元 A+ 轮融资，其视频压缩芯片性能超过英伟达同类产品，已销售近十万颗。",
       "key_data": [
-        "三大平台销量冠军",
-        "618 大促",
-        "AI 录音设备"
+        "数亿元 A+ 轮融资",
+        "视频压缩性能超英伟达",
+        "销量近十万颗"
       ],
-      "judgment": "AI 硬件在消费级市场开始起量，但钉钉 A1 的成功更多是办公场景刚需驱动，而非 AI 功能本身。",
-      "confidence": 4,
-      "url": "https://www.qbitai.com/2026/06/437308.html",
-      "importance": 2
-    },
-    {
-      "source": "TechCrunch",
-      "title": "NVIDIA 推出数据中心新冷却系统，旨在减少用水量",
-      "finding": "NVIDIA 发布新的数据中心冷却系统，可减少数据中心内部用水量，但未能解决 AI 最大的用水问题——化石燃料发电厂的冷却用水。",
-      "key_data": [
-        "新冷却系统",
-        "减少用水量",
-        "未解决发电厂用水"
-      ],
-      "judgment": "AI 的环境成本问题日益突出，NVIDIA 的改进是积极信号，但根本问题在于能源结构而非冷却技术。",
-      "confidence": 4,
-      "url": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
+      "judgment": "视频压缩是 AI 芯片的差异化赛道，凌川科技证明了国产 AI 芯片在垂直领域可以超越英伟达。对视频平台和云服务商来说，这是降低带宽成本的新选择。",
+      "confidence": 3,
+      "url": "https://36kr.com/p/3865136165344516",
       "importance": 2
     }
   ],
   "opinions": [
     {
-      "person": "吴恩达",
-      "level": "L2",
-      "quote": "AI 行业炒作过度，真正的变革不是大模型本身，而是 Agent 架构和数据处理方式的根本改变。未来高效公司只需 10 人团队，配合 Agent 重新设计数据架构。",
-      "source": "https://www.infoq.cn/article/9ubrcrTRdxROBUo5igpy"
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "用 Claude Code 将小模型移植到浏览器运行的过程展示了 AI 辅助编程的实际价值：AI 不仅帮你写代码，还能帮你理解、调试和部署模型。小模型在浏览器端运行意味着更低的成本和更好的隐私保护。",
+      "source": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything"
     },
     {
-      "person": "Simon Willison",
+      "person": "Swyx (Shawn Wang)",
       "level": "L2",
-      "quote": "用 Claude Code 成功将 Moebius 0.2B 图像修复模型移植到浏览器运行，展示了 AI 编程工具在模型移植和 Web 部署中的实际能力，开发者工作流正在被重塑。",
-      "source": "https://simonwillison.net/2026/Jun/22/porting-moebius/"
+      "quote": "AI 安全不仅仅是‘用 AI 做网络安全’，而是全新的安全范式。Zico Kolter 和 Matt Fredrikson 在 Latent Space 播客中讨论了 Mythos 之后红队测试的新方向。",
+      "source": "https://www.latent.space/p/gray-swan"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI 安全竞赛：OpenAI Daybreak vs Anthropic Mythos 的技术路线对比",
-      "reason": "两大巨头在 AI 安全领域正面交锋，理解其技术路线差异对选择 AI 平台至关重要。",
+      "topic": "AI 安全产品化：OpenAI Daybreak vs Anthropic Mythos 对比分析",
+      "reason": "两大头部 AI 公司同时押注安全工具，这是 AI 安全从研究走向产品的关键转折点，值得深入对比技术路线和商业策略。",
       "priority": "high"
     },
     {
-      "topic": "Agent 人才荒：DeepSeek 招聘困境背后的行业供需分析",
-      "reason": "Agent 是当前最热赛道，但人才极度短缺，值得深入分析供需缺口和培养路径。",
+      "topic": "具身智能独角兽速成路径：昆仑行 90 天融资数十亿的启示与风险",
+      "reason": "刷新行业纪录的融资速度背后是泡沫还是趋势？需要分析其技术、团队和商业模式是否支撑估值。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "AI 安全大战打响，Agent 人才荒加剧",
-  "summary_paragraph": "今日 AI 行业两大主线清晰：一是 OpenAI 与 Anthropic 在 AI 安全领域正面交锋，OpenAI 发布 Daybreak 计划和 GPT-5.5-Cyber，直接对标 Anthropic 的 Mythos，安全能力成为模型选型新维度；二是 Agent 赛道持续升温，DeepSeek 因人才短缺公开贴广告招聘，吴恩达则指出未来公司将是 10 人小队加 Agent 重构数据架构。此外，Meta 员工追踪计划因数据泄露紧急叫停，Groq 在 NVIDIA 交易后完成 6.5 亿美元融资转型云服务，AI 行业在激烈竞争中也面临伦理和商业模式的深层挑战。",
+  "summary_one_line": "OpenAI 推安全工具，Meta 员工数据泄露，具身智能融资狂潮",
+  "summary_paragraph": "今日 AI 行业最重磅的是 OpenAI 正式推出 Daybreak 安全工具集，包括 Codex Security 和 GPT-5.5-Cyber，并启动开源漏洞修复计划，标志着 AI 安全从研究走向产品化。与此同时，Meta 的“蒸馏员工”计划因内部数据泄露紧急暂停，给企业 AI 数据采集敲响警钟。芯片侧，Groq 在 NVIDIA 挖角后确认 6.5 亿美元融资，证明推理芯片市场仍有差异化空间。国内方面，具身智能创企昆仑行 90 天融资数十亿成为独角兽，刷新行业速度。此外，Simon Willison 用 Claude Code 将小模型移植到浏览器，展示了 AI 辅助编程在模型部署中的实际价值。",
   "snapshot": {
     "date": "2026-06-23",
     "hf_trending": [
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 2038,
+        "likes": 2066,
         "downloads": 33589,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -239,7 +210,7 @@
       {
         "name": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "short_name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-        "likes": 2171,
+        "likes": 2185,
         "downloads": 414734,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "tags": [
@@ -255,7 +226,7 @@
       {
         "name": "WeiboAI/VibeThinker-3B",
         "short_name": "VibeThinker-3B",
-        "likes": 614,
+        "likes": 619,
         "downloads": 32385,
         "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
         "tags": [
@@ -271,7 +242,7 @@
       {
         "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "short_name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-        "likes": 387,
+        "likes": 394,
         "downloads": 50314,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "tags": [
@@ -287,7 +258,7 @@
       {
         "name": "MiniMaxAI/MiniMax-M3",
         "short_name": "MiniMax-M3",
-        "likes": 1209,
+        "likes": 1210,
         "downloads": 119967,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
         "tags": [
@@ -303,7 +274,7 @@
       {
         "name": "unsloth/GLM-5.2-GGUF",
         "short_name": "GLM-5.2-GGUF",
-        "likes": 255,
+        "likes": 261,
         "downloads": 41846,
         "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF",
         "tags": [
@@ -317,9 +288,25 @@
         "trend": "same"
       },
       {
+        "name": "baidu/Unlimited-OCR",
+        "short_name": "Unlimited-OCR",
+        "likes": 236,
+        "downloads": 47,
+        "url": "https://huggingface.co/baidu/Unlimited-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "unlimited-ocr"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
         "name": "nvidia/LocateAnything-3B",
         "short_name": "LocateAnything-3B",
-        "likes": 2291,
+        "likes": 2295,
         "downloads": 247517,
         "url": "https://huggingface.co/nvidia/LocateAnything-3B",
         "tags": [
@@ -331,67 +318,51 @@
         "label": "多模态理解",
         "card_desc": "",
         "trend": "new"
-      },
-      {
-        "name": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-        "short_name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-        "likes": 2116,
-        "downloads": 4078305,
-        "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-        "tags": [
-          "gguf",
-          "uncensored",
-          "qwen3.6"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "new"
       }
     ],
     "github_trending": [
       {
         "name": "calesthio/OpenMontage",
         "desc": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skill",
-        "stars": 12280,
+        "stars": 12965,
         "stars_today": 2938,
-        "forks": 1562,
+        "forks": 1612,
         "language": "Python",
         "url": "https://github.com/calesthio/OpenMontage"
       },
       {
         "name": "palmier-io/palmier-pro",
         "desc": "macOS video editor built for AI",
-        "stars": 7464,
+        "stars": 7762,
         "stars_today": 2463,
-        "forks": 507,
+        "forks": 522,
         "language": "Swift",
         "url": "https://github.com/palmier-io/palmier-pro"
       },
       {
         "name": "jamiepine/voicebox",
         "desc": "The open-source AI voice studio. Clone, dictate, create.",
-        "stars": 32319,
+        "stars": 32536,
         "stars_today": 529,
-        "forks": 3939,
+        "forks": 3949,
         "language": "TypeScript",
         "url": "https://github.com/jamiepine/voicebox"
       },
       {
         "name": "mukul975/Anthropic-Cybersecurity-Skills",
         "desc": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST C",
-        "stars": 18759,
+        "stars": 18949,
         "stars_today": 956,
-        "forks": 2215,
+        "forks": 2233,
         "language": "Python",
         "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
       },
       {
         "name": "penpot/penpot",
         "desc": "Penpot: The open-source design tool for design and code collaboration",
-        "stars": 52900,
+        "stars": 53013,
         "stars_today": 728,
-        "forks": 3387,
+        "forks": 3392,
         "language": "Clojure",
         "url": "https://github.com/penpot/penpot"
       }
@@ -508,6 +479,6 @@
         "url": "https://openrouter.ai/anthropic/claude-4.6-sonnet"
       }
     ],
-    "hf_summary": "多模态模型爆发，文本生成模型仍占主流"
+    "hf_summary": "开源小模型主导，多模态与OCR成新热点"
   }
 }

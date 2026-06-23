@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-06-23",
-      "title": "今日 AI 日报：OpenAI 推出 Daybreak 安全计划：发布 GPT-5.5-Cyber 和开源漏洞修复行动 + 4 条重要动态",
-      "excerpt": "AI 安全从防御走向主动进攻。OpenAI 和 Anthropic 的竞争已从模…",
+      "title": "今日 AI 日报：OpenAI 发布 Daybreak 安全工具，包括 Codex Security 和 GPT-5.5-Cyber，并启动开源漏洞修复计划 + 4 条重要动态",
+      "excerpt": "这意味着 AI 安全从研究概念进入产品化阶段。OpenAI 选择从开源漏洞修复切…",
       "top_count": 5,
       "file": "2026-06-23.json"
     },
