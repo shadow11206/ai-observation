@@ -1,6 +1,13 @@
 {
-  "total": 89,
+  "total": 90,
   "reports": [
+    {
+      "date": "2026-06-23",
+      "title": "今日 AI 日报：OpenAI 推出 Daybreak 安全计划：发布 GPT-5.5-Cyber 和开源漏洞修复行动 + 4 条重要动态",
+      "excerpt": "AI 安全从防御走向主动进攻。OpenAI 和 Anthropic 的竞争已从模…",
+      "top_count": 5,
+      "file": "2026-06-23.json"
+    },
     {
       "date": "2026-06-22",
       "title": "今日 AI 日报：三星电子全球部署ChatGPT Enterprise和Codex，OpenAI最大企业级AI落地 + 4 条重要动态",
