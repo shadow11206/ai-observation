@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-06-24",
-      "title": "今日 AI 日报：字节跳动发布豆包2.1，Agent自主运行18小时完成芯片设计代码 + 4 条重要动态",
-      "excerpt": "豆包2.1的Agent自主运行18小时完成芯片设计代码，是AI从辅助工具到自主工…",
+      "title": "今日 AI 日报：Claude Tag 大升级，Anthropic 约65%产品代码已由AI参与完成 + 4 条重要动态",
+      "excerpt": "Claude Tag 从代码助手升级为企业知识中枢，标志着 AI 从'写代码的工…",
       "top_count": 5,
       "file": "2026-06-24.json"
     },

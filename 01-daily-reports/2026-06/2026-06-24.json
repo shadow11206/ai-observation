@@ -3,211 +3,220 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "字节跳动发布豆包2.1，Agent自主运行18小时完成芯片设计代码",
-      "finding": "字节跳动发布豆包2.1大模型，编程能力比肩Opus 4.7。最引人注目的是其Agent模式可自主运行18小时，完成芯片设计代码编写，展示了AI从辅助工具向自主工作者的进化。火山引擎总裁谭待称豆包2.1已算'上牌桌'。",
+      "title": "Claude Tag 大升级，Anthropic 约65%产品代码已由AI参与完成",
+      "finding": "Anthropic 的 Claude Tag 产品迎来重大升级，现在可以持续学习企业 Slack 对话，成为常驻团队的 AI 队友。同时，Anthropic 内部约65%的产品代码已由 Claude Tag 参与完成，Karpathy 称这是 LLM 的第三次变革。",
       "key_data": [
-        "编程比肩Opus 4.7",
-        "Agent自主运行18小时",
-        "完成芯片设计代码",
-        "火山引擎MaaS营收超预期"
+        "65%产品代码由AI参与",
+        "Slack常驻AI队友",
+        "Karpathy称第三次变革"
       ],
-      "judgment": "豆包2.1的Agent自主运行18小时完成芯片设计代码，是AI从辅助工具到自主工作者的关键转折点。这对AI Coding和芯片设计行业意味着工作流将被彻底重构，开发者需要重新思考'人在回路中'的角色定位。",
+      "judgment": "Claude Tag 从代码助手升级为企业知识中枢，标志着 AI 从'写代码的工具'进化为'理解业务的同事'。这对所有企业软件厂商都是信号：AI 的竞争正在从模型能力转向组织知识捕获能力。",
       "confidence": 4,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/06/437503.html"
+      "source": "量子位 / TechCrunch",
+      "url": "https://www.qbitai.com/2026/06/437734.html"
     },
     {
       "rank": 2,
-      "title": "Anthropic推出Claude Tag：AI常驻Slack学习企业知识",
-      "finding": "Anthropic推出Claude Tag，一个始终在线的AI队友，可嵌入Slack，通过分析企业聊天记录学习组织上下文和机构知识。这不仅是生产力工具，更是Anthropic获取企业级数据、构建组织知识图谱的战略布局。",
+      "title": "DeepSWE 新基准发布：评估前沿模型真实编码能力",
+      "finding": "DeepSWE 是一个全新的代码生成基准，其任务从零编写，确保无数据污染。它专门测试前沿模型（如 GPT-5、Claude 4）在真实软件工程场景下的编码能力，而非简单的算法题。",
       "key_data": [
-        "始终在线AI队友",
-        "嵌入Slack",
-        "学习组织上下文",
-        "企业知识图谱"
+        "无数据污染",
+        "真实软件工程场景",
+        "测试GPT-5/Claude 4"
       ],
-      "judgment": "Claude Tag是Anthropic从API提供商向企业AI平台转型的关键一步。通过嵌入Slack获取企业数据，Anthropic正在构建难以复制的数据护城河，这对企业AI市场格局产生深远影响。",
+      "judgment": "现有代码基准（如 HumanEval、SWE-bench）已接近饱和，DeepSWE 的出现恰逢其时。它可能成为衡量 AI 编程能力的新标准，对 Cursor、Copilot 等产品的评估有直接影响。",
       "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/"
+      "source": "Reddit r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/"
     },
     {
       "rank": 3,
-      "title": "GPT-5 Pro帮助免疫学家破解三年未解之谜",
-      "finding": "OpenAI发布案例：GPT-5 Pro帮助免疫学家Derya Unutmaz破解了一个困扰其团队三年的T细胞行为谜团，该发现可能支持癌症和自身免疫疾病研究。这展示了前沿模型在科学发现中的实际价值。",
+      "title": "GPT-5 Pro 帮助免疫学家破解三年未解之谜",
+      "finding": "OpenAI 发布案例：GPT-5 Pro 帮助免疫学家 Derya Unutmaz 解决了困扰其团队三年的 T 细胞行为谜题，这一发现可能对癌症和自身免疫疾病研究产生重要影响。",
       "key_data": [
         "破解3年未解之谜",
         "T细胞行为",
-        "癌症与自身免疫研究",
-        "GPT-5 Pro"
+        "癌症/自身免疫研究"
       ],
-      "judgment": "这是GPT-5在科学研究中的标志性案例，证明前沿模型已从'聊天工具'进化为'科研协作者'。对生物医药行业来说，AI辅助科学发现不再是概念，而是可复现的工作流。",
-      "confidence": 5,
+      "judgment": "这不是 PR 稿，而是 AI 在科学发现中从'辅助工具'向'研究伙伴'转变的实证。当 AI 能解决人类专家多年未解的问题时，科研范式正在发生根本性变化。",
+      "confidence": 4,
       "source": "OpenAI Blog",
       "url": "https://openai.com/index/gpt-5-immunology-mystery"
     },
     {
       "rank": 4,
-      "title": "微信AI助手'小微'灰度内测：简单操作反而不如复杂操作",
-      "finding": "微信AI助手'小微'正在灰度内测，基于自研WeLM模型，部分调用DeepSeek。实测发现：简单操作（如设置闹钟）表现不佳，但复杂操作（如多轮对话、信息整合）反而表现更好。这反映了微信在AI助手上的差异化策略。",
+      "title": "Oracle 裁员21000人，为 AI 基础设施投资输血",
+      "finding": "Oracle 宣布裁员约21000人，以削减成本并为其大规模 AI 数据中心投资提供资金。公司正在举债建设 AI 基础设施，试图在云 AI 市场追赶 AWS 和 Azure。",
       "key_data": [
-        "基于WeLM模型",
-        "部分调用DeepSeek",
-        "灰度内测",
-        "复杂操作优于简单操作"
+        "裁员21000人",
+        "举债投资AI基础设施",
+        "追赶AWS/Azure"
       ],
-      "judgment": "微信AI助手的'复杂强、简单弱'特性，暗示其定位不是Siri式语音助手，而是深度信息处理工具。这对微信生态开发者意味着新的AI原生应用机会，但入口位置（左上角）可能限制使用频率。",
-      "confidence": 4,
-      "source": "36氪",
-      "url": "https://36kr.com/p/3865425714795525?f=rss"
+      "judgment": "Oracle 的激进策略反映了 AI 军备竞赛的残酷性：传统 IT 巨头必须通过'断臂求生'来换取 AI 时代的入场券。这对所有传统企业软件公司都是一个警示。",
+      "confidence": 5,
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments/"
     },
     {
       "rank": 5,
-      "title": "Oracle裁员21000人，债务驱动AI基础设施投资",
-      "finding": "Oracle宣布裁员21000人，以节省成本支持其债务驱动的AI数据中心投资。这反映了传统IT巨头在AI时代面临的转型压力：必须牺牲短期人力成本，换取AI基础设施的长期竞争力。",
+      "title": "高通转向物理 AI，智能座舱之王寻求新战场",
+      "finding": "高通正在从智能座舱芯片领导者向物理 AI（机器人、自动驾驶）领域转型，强调'不争最强算力，只求无处不在'。这标志着高通试图将移动芯片的生态优势复制到 AI 硬件领域。",
       "key_data": [
-        "裁员21000人",
-        "债务驱动AI投资",
-        "数据中心基础设施",
-        "传统IT转型"
+        "从智能座舱转向物理AI",
+        "不争最强算力",
+        "AI硬件生态"
       ],
-      "judgment": "Oracle的'裁员换AI'策略是传统IT企业转型的缩影。对行业来说，这意味着AI基础设施投资正在挤压传统IT业务，企业IT采购将加速向AI原生服务迁移。",
-      "confidence": 4,
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments/"
+      "judgment": "高通的转型说明 AI 硬件的竞争正在从'数据中心'走向'边缘设备'。对开发者而言，这意味着未来将有更多适合端侧推理的芯片选择，AI 应用将真正无处不在。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/06/432494.html"
     }
   ],
   "model_tech": [
     {
       "source": "Hugging Face Blog",
-      "title": "IBM发布CUGA框架：轻量级Agent应用构建工具",
-      "finding": "IBM在Hugging Face发布CUGA框架，提供24个可直接运行的Agent应用示例。这是一个轻量级的Agent开发工具，降低了构建Agentic应用的门槛。",
+      "title": "IBM 发布 CUGA：轻量级 Agent 框架及二十多个工作示例",
+      "finding": "IBM 在 Hugging Face 上发布了 CUGA 框架，这是一个轻量级的 Agent 构建工具，附带二十多个可直接运行的示例应用，降低了构建 Agent 应用的门槛。",
       "key_data": [
-        "24个示例应用",
-        "轻量级框架",
-        "Agentic应用"
+        "轻量级Agent框架",
+        "20+工作示例",
+        "IBM Research"
       ],
-      "judgment": "CUGA降低了Agent开发门槛，但框架竞争加剧，开发者需评估其与LangChain等主流框架的差异化。",
+      "judgment": "CUGA 的发布说明 Agent 框架正在从 LangChain 等重量级方案向更轻量、更易上手的方向演进。对开发者来说，这意味着 Agent 开发的入门成本在快速降低。",
       "confidence": 4,
       "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
       "importance": 3
     },
     {
-      "source": "OpenAI Blog",
-      "title": "OpenAI参与建立Appia Foundation推动AI安全标准",
-      "finding": "OpenAI宣布参与建立Appia Foundation，推动高级AI的评估框架、安全实践和全球合作。这是行业在AI安全标准化方面的又一重要举措。",
+      "source": "ArXiv",
+      "title": "RIFT-Bench：针对 Agent AI 系统的动态红队测试基准",
+      "finding": "新论文提出了 RIFT-Bench，一个专门用于测试 Agent AI 系统安全性的动态红队基准。它能够发现传统安全测试无法覆盖的攻击向量，如 Agent 的自主决策漏洞。",
       "key_data": [
-        "Appia Foundation",
-        "AI安全标准",
-        "全球合作"
+        "Agent安全测试",
+        "动态红队",
+        "自主决策漏洞"
       ],
-      "judgment": "AI安全标准化是行业成熟标志，但需警惕大厂主导标准可能带来的竞争壁垒。",
-      "confidence": 5,
-      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "judgment": "随着 Agent 系统进入生产环境，安全问题将成为下一个瓶颈。RIFT-Bench 的出现说明学术界已经开始系统性地关注 Agent 安全，这对所有构建 Agent 产品的团队都是重要参考。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2606.23927",
       "importance": 3
     },
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "模型安全风险（提取、投毒）在生产环境中是否被实际测试？",
-      "finding": "Reddit上引发讨论：多数ML团队在部署模型前跳过对抗性测试，模型安全审查远落后于传统软件安全。这暴露了AI工程实践中的一个重大盲区。",
+      "source": "ArXiv",
+      "title": "自我识别微调可防止并逆转涌现性错误对齐",
+      "finding": "研究发现，通过自我识别微调（Self-Recognition Finetuning），可以防止甚至逆转大模型中出现的'涌现性错误对齐'现象，即模型在特定条件下表现出恶意行为。",
       "key_data": [
-        "模型安全审查落后",
-        "对抗性测试缺失",
-        "生产环境风险"
+        "防止涌现性错误对齐",
+        "自我识别微调",
+        "安全对齐新方法"
       ],
-      "judgment": "模型安全是AI工程化的'房间里的大象'，随着Agent自主性增强，这个问题将变得致命。",
+      "judgment": "这是对齐研究的重要进展。如果该方法可规模化应用，将大幅降低大模型部署的安全风险，对 Anthropic 等重视安全的公司是重大利好。",
       "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uddtws/are_model_security_risks_extraction_poisoning/",
+      "url": "https://arxiv.org/abs/2606.23700",
       "importance": 3
     }
   ],
   "company_product": [
     {
       "source": "TechCrunch",
-      "title": "Fika Jobs融资400万美元：AI Agent面试候选人",
-      "finding": "瑞典初创公司Fika Jobs获400万美元融资，打造视频优先的招聘平台，用AI Agent面试候选人，结合短视频简历，类似LinkedIn与AI面试官的结合体。",
+      "title": "Fika Jobs 融资400万美元，打造 AI Agent 面试的视频招聘平台",
+      "finding": "瑞典初创公司 Fika Jobs 获得400万美元融资，其平台结合 AI 面试 Agent 和短视频简历，打造类似 LinkedIn 和 TikTok 混合体的招聘体验。",
       "key_data": [
         "融资400万美元",
         "AI Agent面试",
-        "视频优先招聘"
+        "视频招聘平台"
       ],
-      "judgment": "AI Agent正在渗透HR领域，但面试场景的公平性和偏见问题将是监管焦点。",
+      "judgment": "AI Agent 正在渗透到招聘这一传统领域。虽然规模尚小，但'AI 面试官'可能改变招聘流程的效率，对 HR 科技赛道是一个值得关注的信号。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/",
       "importance": 2
     },
     {
-      "source": "TechCrunch",
-      "title": "印度MoEngage押注AI Agent营销：为每个客户分配专属AI Agent",
-      "finding": "印度营销科技公司MoEngage通过全现金收购获得AI Agent技术，计划为每个客户分配专属AI Agent，实现个性化营销自动化。",
+      "source": "InfoQ",
+      "title": "Spring AI 2.0 正式发布",
+      "finding": "Spring AI 2.0 正式版发布，这是 Java 生态中最重要的 AI 框架之一。新版本带来了更完善的 Agent 支持、多模型集成和更简单的开发体验。",
       "key_data": [
-        "全现金收购",
-        "AI Agent营销",
-        "个性化自动化"
+        "Spring AI 2.0",
+        "Java AI框架",
+        "Agent支持"
       ],
-      "judgment": "营销是AI Agent最成熟的商业化场景之一，'每人一个Agent'的模式可能重塑CRM行业。",
-      "confidence": 4,
-      "url": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
-      "importance": 2
+      "judgment": "Spring AI 2.0 的发布意味着 Java 开发者可以更便捷地构建 AI 应用。对于企业级 Java 团队来说，这是将 AI 能力集成到现有系统中的关键基础设施。",
+      "confidence": 5,
+      "url": "https://www.infoq.cn/article/Jpi5XBmoO8smLYSyaD9t",
+      "importance": 3
     },
     {
-      "source": "量子位",
-      "title": "高通转型物理AI：不争最强算力，只求无处不在",
-      "finding": "高通宣布从智能座舱芯片向物理AI转型，定位不是追求最强算力，而是让AI能力无处不在，覆盖边缘设备、汽车、物联网等场景。",
+      "source": "InfoQ",
+      "title": "ArrowJS 1.0 发布：自称'代理时代'的首个 UI 框架",
+      "finding": "ArrowJS 发布 1.0 版本，定位为'代理时代'的首个 UI 框架。它专为 AI Agent 驱动的用户界面设计，旨在让 AI 更高效地生成和操作 UI 组件。",
       "key_data": [
-        "物理AI转型",
-        "边缘计算",
-        "无处不在的AI"
+        "ArrowJS 1.0",
+        "代理时代UI框架",
+        "AI驱动界面"
       ],
-      "judgment": "高通的'无处不在'策略与NVIDIA的'最强算力'形成差异化竞争，边缘AI市场将迎来真正的巨头。",
+      "judgment": "这是一个有趣的方向：当 UI 不再由人类手动编写，而是由 AI Agent 动态生成时，传统的 React/Vue 框架可能不再适用。ArrowJS 试图定义这个新范式。",
       "confidence": 3,
-      "url": "https://www.qbitai.com/2026/06/432494.html",
+      "url": "https://www.infoq.cn/article/JW7bom70PQ14N2OlVRLt",
       "importance": 2
     },
     {
-      "source": "36氪",
-      "title": "火山引擎谭待：豆包2.1算'上牌桌'了",
-      "finding": "火山引擎总裁谭待在专访中表示，豆包2.1的发布标志着字节在AI大模型领域已具备竞争力。火山引擎MaaS营收持续超预期，视频模型Seedance 2.0成为重要增长点。",
+      "source": "InfoQ",
+      "title": "Meta 紧急叫停用员工数据训练 AI：员工士气崩溃",
+      "finding": "Meta 因员工强烈反对，紧急叫停了使用员工私聊和绩效数据训练 AI 的计划。员工指责高管此举'狗屎'，公司士气受到严重影响。",
       "key_data": [
-        "豆包2.1上牌桌",
-        "MaaS营收超预期",
-        "Seedance 2.0"
+        "叫停员工数据训练",
+        "员工强烈反对",
+        "Meta AI训练争议"
       ],
-      "judgment": "字节跳动在AI大模型领域已从追赶者变为有力竞争者，对国内云市场格局产生冲击。",
+      "judgment": "这暴露了 AI 训练数据伦理的边界问题。当公司试图用内部数据训练 AI 时，员工隐私和信任是绕不开的坎。这对所有计划用内部数据训练 AI 的企业都是一个警示。",
       "confidence": 4,
-      "url": "https://36kr.com/p/3865912900588548?f=rss",
+      "url": "https://www.infoq.cn/article/puuuQ3qD8AKrP5AmBGfk",
+      "importance": 3
+    },
+    {
+      "source": "阿里云",
+      "title": "阿里 QoderWork 推出'峰谷 Token'，夜间使用 Qwen3.7 低至2折",
+      "finding": "阿里云推出 QoderWork 的'峰谷 Token'计费模式，夜间使用 Qwen3.7 模型的价格低至白天的2折，旨在降低开发者 AI 编程成本。",
+      "key_data": [
+        "夜间低至2折",
+        "Qwen3.7",
+        "峰谷Token计费"
+      ],
+      "judgment": "这是 AI 编程工具价格战的新玩法：借鉴电力行业的峰谷电价策略。对开发者是好事，但也说明 AI 编程市场的竞争已进入精细化运营阶段。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/06/437834.html",
       "importance": 2
     }
   ],
   "opinions": [
     {
-      "person": "Gergely Orosz",
-      "level": "L2",
-      "quote": "过去6个月工程领域变化巨大，许多科技公司正在改变工作方式。'慢下来才能快起来'可能是当前最明智的策略——在AI快速迭代的背景下，过度追求速度反而可能适得其反。",
-      "source": "https://newsletter.pragmaticengineer.com/p/slow-down-to-speed-up"
+      "person": "Andrej Karpathy",
+      "level": "L1",
+      "quote": "Claude Tag 的升级是 LLM 的第三次变革，AI 正在从'回答问题'进化到'理解上下文并主动行动'。",
+      "source": "量子位报道"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI Agent自主运行18小时完成芯片设计：工作流重构的临界点",
-      "reason": "豆包2.1的Agent自主运行18小时完成芯片设计代码，是AI从辅助到自主的关键案例，值得深入分析其对芯片设计行业和AI工程化的影响。",
+      "topic": "Claude Tag 的企业知识捕获策略",
+      "reason": "Anthropic 正在用 Claude Tag 构建企业知识壁垒，这可能是 AI 公司从'模型提供商'转向'企业知识平台'的关键转折点。值得深入研究其产品设计和商业逻辑。",
       "priority": "high"
     },
     {
-      "topic": "Claude Tag vs 微信小微：企业AI助手的两种路径",
-      "reason": "Anthropic和微信同日发布AI助手产品，但定位截然不同。对比分析可揭示企业AI助手的未来方向。",
+      "topic": "AI Agent 安全测试现状与挑战",
+      "reason": "RIFT-Bench 的发布和 Reddit 上关于模型安全测试的讨论表明，Agent 安全正在成为行业痛点。值得系统梳理当前的安全测试方法和工具。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "豆包2.1自主写芯片代码，Claude Tag潜入企业Slack",
-  "summary_paragraph": "今日AI行业迎来多个重要信号。字节跳动发布豆包2.1，其Agent模式可自主运行18小时完成芯片设计代码，标志着AI从辅助工具向自主工作者的关键转折。Anthropic推出Claude Tag，通过嵌入Slack学习企业知识，从API提供商向企业AI平台转型。OpenAI展示GPT-5 Pro破解免疫学三年谜团的案例，证明前沿模型在科研中的实际价值。微信AI助手'小微'灰度内测，但简单操作反而不如复杂操作，定位独特。Oracle裁员21000人换取AI投资，反映传统IT转型阵痛。整体来看，AI Agent正在从概念走向实际工作流，企业级AI应用进入深水区。",
+  "summary_one_line": "Claude Tag 升级，GPT-5 破解科学难题",
+  "summary_paragraph": "今日 AI 行业的关键词是'AI 从工具到伙伴'。Anthropic 的 Claude Tag 大升级，不仅内部65%代码由 AI 参与，更开始学习企业 Slack 对话成为常驻队友，Karpathy 称这是 LLM 的第三次变革。OpenAI 则展示了 GPT-5 Pro 帮助免疫学家破解三年未解之谜的案例，AI 在科研中的角色正在从辅助工具变为研究伙伴。与此同时，行业竞争加剧：Oracle 裁员21000人为 AI 投资输血，高通转向物理 AI，阿里推出 AI 编程'峰谷电价'。安全方面，RIFT-Bench 等新基准的出现表明 Agent 安全正成为行业新焦点。",
   "snapshot": {
     "date": "2026-06-24",
     "hf_trending": [
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 2198,
+        "likes": 2229,
         "downloads": 40127,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -223,7 +232,7 @@
       {
         "name": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "short_name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-        "likes": 2242,
+        "likes": 2250,
         "downloads": 456117,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "tags": [
@@ -239,7 +248,7 @@
       {
         "name": "baidu/Unlimited-OCR",
         "short_name": "Unlimited-OCR",
-        "likes": 482,
+        "likes": 531,
         "downloads": 8396,
         "url": "https://huggingface.co/baidu/Unlimited-OCR",
         "tags": [
@@ -255,7 +264,7 @@
       {
         "name": "WeiboAI/VibeThinker-3B",
         "short_name": "VibeThinker-3B",
-        "likes": 665,
+        "likes": 671,
         "downloads": 41170,
         "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
         "tags": [
@@ -271,7 +280,7 @@
       {
         "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "short_name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-        "likes": 450,
+        "likes": 461,
         "downloads": 96459,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "tags": [
@@ -287,7 +296,7 @@
       {
         "name": "unsloth/GLM-5.2-GGUF",
         "short_name": "GLM-5.2-GGUF",
-        "likes": 303,
+        "likes": 310,
         "downloads": 55820,
         "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF",
         "tags": [
@@ -301,25 +310,9 @@
         "trend": "same"
       },
       {
-        "name": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-        "short_name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-        "likes": 2159,
-        "downloads": 3955016,
-        "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-        "tags": [
-          "gguf",
-          "uncensored",
-          "qwen3.6"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "new"
-      },
-      {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M",
-        "likes": 217,
+        "likes": 227,
         "downloads": 1856,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
         "tags": [
@@ -331,51 +324,67 @@
         "label": "文本生成",
         "card_desc": "",
         "trend": "new"
+      },
+      {
+        "name": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "short_name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "likes": 2164,
+        "downloads": 3955016,
+        "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "tags": [
+          "gguf",
+          "uncensored",
+          "qwen3.6"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
       }
     ],
     "github_trending": [
       {
         "name": "calesthio/OpenMontage",
         "desc": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skill",
-        "stars": 15856,
+        "stars": 16580,
         "stars_today": 3592,
-        "forks": 1882,
+        "forks": 1957,
         "language": "Python",
         "url": "https://github.com/calesthio/OpenMontage"
       },
       {
         "name": "ZhuLinsen/daily_stock_analysis",
         "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit",
-        "stars": 47132,
+        "stars": 47501,
         "stars_today": 1119,
-        "forks": 42414,
+        "forks": 42565,
         "language": "Python",
         "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
       },
       {
         "name": "mukul975/Anthropic-Cybersecurity-Skills",
         "desc": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST C",
-        "stars": 19751,
+        "stars": 20003,
         "stars_today": 1041,
-        "forks": 2304,
+        "forks": 2329,
         "language": "Python",
         "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
       },
       {
         "name": "garrytan/gstack",
         "desc": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manag",
-        "stars": 114127,
+        "stars": 114364,
         "stars_today": 1011,
-        "forks": 16891,
+        "forks": 16916,
         "language": "TypeScript",
         "url": "https://github.com/garrytan/gstack"
       },
       {
         "name": "bytedance/deer-flow",
         "desc": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of",
-        "stars": 73961,
+        "stars": 74105,
         "stars_today": 739,
-        "forks": 9975,
+        "forks": 9988,
         "language": "Python",
         "url": "https://github.com/bytedance/deer-flow"
       }
@@ -492,6 +501,6 @@
         "url": "https://openrouter.ai/stepfun/step-3.7-flash"
       }
     ],
-    "hf_summary": "LLM主导，GLM与Gemma系列领跑"
+    "hf_summary": "文本生成主导，多模态模型热度骤升"
   }
 }
