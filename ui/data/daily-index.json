@@ -1,6 +1,13 @@
 {
-  "total": 90,
+  "total": 91,
   "reports": [
+    {
+      "date": "2026-06-24",
+      "title": "今日 AI 日报：字节跳动发布豆包2.1，Agent自主运行18小时完成芯片设计代码 + 4 条重要动态",
+      "excerpt": "豆包2.1的Agent自主运行18小时完成芯片设计代码，是AI从辅助工具到自主工…",
+      "top_count": 5,
+      "file": "2026-06-24.json"
+    },
     {
       "date": "2026-06-23",
       "title": "今日 AI 日报：OpenAI 发布 Daybreak 安全工具，包括 Codex Security 和 GPT-5.5-Cyber，并启动开源漏洞修复计划 + 4 条重要动态",
