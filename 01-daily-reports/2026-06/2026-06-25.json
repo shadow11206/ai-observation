@@ -1,0 +1,526 @@
+{
+  "date": "2026-06-25",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "OpenAI与博通联合发布LLM推理专用芯片Jalapeño",
+      "finding": "OpenAI与博通合作推出定制AI推理芯片Jalapeño，专为大模型推理场景优化性能和能效。这是OpenAI从依赖英伟达GPU走向自研芯片的关键一步，也标志着AI基础设施竞争进入芯片定制化时代。",
+      "key_data": [
+        "LLM推理专用芯片",
+        "OpenAI+博通联合",
+        "性能与能效优化"
+      ],
+      "judgment": "对AI行业意味着：推理成本将大幅下降，模型部署门槛降低。对开发者意味着：未来API定价可能更便宜，但自研芯片的生态兼容性需要关注。对英伟达意味着：GPU霸主地位首次受到来自客户的直接挑战。",
+      "confidence": 5,
+      "source": "OpenAI官方博客",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip"
+    },
+    {
+      "rank": 2,
+      "title": "Google DeepMind为Gemini 3.5 Flash引入计算机使用能力",
+      "finding": "Google DeepMind宣布Gemini 3.5 Flash新增计算机使用（computer use）功能，模型能直接操控屏幕、点击按钮、填写表单，类似于Anthropic的Computer Use功能。这意味着多模态Agent能力正在成为前沿模型的标配。",
+      "key_data": [
+        "Gemini 3.5 Flash",
+        "计算机使用",
+        "多模态Agent"
+      ],
+      "judgment": "对产品经理意味着：GUI自动化Agent的竞争从Anthropic一家独大变成双雄对决，应用场景从简单的网页操作扩展到更复杂的桌面软件操控。开发者需要思考如何利用这一能力构建下一代自动化工具。",
+      "confidence": 5,
+      "source": "Google DeepMind官方博客",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/"
+    },
+    {
+      "rank": 3,
+      "title": "高通以近40亿美元收购芯片初创公司Modular",
+      "finding": "高通宣布以近40亿美元收购AI芯片软件初创公司Modular（由Chris Lattner创立），这是AI芯片领域的重要并购。Modular的Mojo语言和基础设施有望帮助高通在AI推理芯片市场建立软件生态优势。",
+      "key_data": [
+        "收购价近40亿美元",
+        "Modular被高通收购",
+        "Mojo语言生态"
+      ],
+      "judgment": "对AI基础设施意味着：芯片竞争从硬件转向'硬件+软件生态'，Mojo作为AI编程语言可能获得高通的大规模推广。对开发者意味着：未来可能有更多针对高通芯片优化的AI开发工具，但Mojo的普及仍需时间。",
+      "confidence": 5,
+      "source": "Wired",
+      "url": "https://www.wired.com/story/qualcomm-buys-buzzy-chip-startup-modular-for-nearly-dollar4-billion/"
+    },
+    {
+      "rank": 4,
+      "title": "DeepSWE基准测试发布：评估前沿模型真实编码能力",
+      "finding": "新基准测试DeepSWE发布，专门评估前沿模型从头编写代码的能力。与现有基准不同，DeepSWE的任务是从零开始编写，而非从现有代码库改编，避免了数据污染问题。这为评估模型真实编程能力提供了更干净的测试环境。",
+      "key_data": [
+        "无数据污染",
+        "从头编写代码",
+        "评估真实编程能力"
+      ],
+      "judgment": "对AI Coding领域意味着：现有基准测试可能高估了模型的编码能力，DeepSWE将推动更诚实的评估。对开发者意味着：在选择AI编程工具时，需要关注模型在无污染基准上的表现，而非营销数据。",
+      "confidence": 4,
+      "source": "Reddit r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/"
+    },
+    {
+      "rank": 5,
+      "title": "AI研究人员持续从谷歌流向Anthropic",
+      "finding": "顶级AI研究员Jonas Adler和Alexander Pritzel离开谷歌加入Anthropic，此前已有Noam Shazeer和John Jumper等顶尖科学家离职。谷歌AI人才流失趋势加剧，而Anthropic正在成为人才磁石。",
+      "key_data": [
+        "Jonas Adler离职",
+        "Alexander Pritzel离职",
+        "人才持续流向Anthropic"
+      ],
+      "judgment": "对行业格局意味着：Anthropic正在通过人才聚集构建技术护城河，而谷歌需要反思其研究文化和激励机制。对开发者意味着：Anthropic的模型能力有望持续领先，Claude系列值得长期押注。",
+      "confidence": 5,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv",
+      "title": "RIFT-Bench：面向Agent AI系统的动态红队基准",
+      "finding": "新基准RIFT-Bench专门用于测试Agent AI系统的安全漏洞，通过动态红队攻击评估LLM驱动的自主决策系统的鲁棒性。",
+      "key_data": [
+        "Agent安全测试",
+        "动态红队攻击",
+        "自主决策系统"
+      ],
+      "judgment": "Agent安全评测从静态转向动态，开发者部署Agent前应参考此类基准。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2606.23927",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "离线推理训练的权重空间几何研究",
+      "finding": "论文系统分析了RFT、RIFT、DFT、Offline GRPO、DPO等离线强化学习损失函数在推理蒸馏中的表现，揭示了不同训练方法的几何特性。",
+      "key_data": [
+        "离线RL损失函数",
+        "推理蒸馏",
+        "权重空间几何"
+      ],
+      "judgment": "对模型训练者意味着：选择离线RL损失函数时需要更精细地考虑几何特性，而非简单套用。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2606.23740",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "自我识别微调可预防并逆转突现失调",
+      "finding": "研究发现通过自我识别微调（Self-Recognition Finetuning）可以有效预防甚至逆转大模型中的突现失调（Emergent Misalignment）现象。",
+      "key_data": [
+        "自我识别微调",
+        "预防突现失调",
+        "逆转失调"
+      ],
+      "judgment": "对AI安全领域意味着：提供了一种新的对齐方法，可能比现有RLHF更高效。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2606.23700",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "量化RAG系统中的先验主导问题",
+      "finding": "论文提出量化方法评估RAG系统中模型先验知识对检索结果的主导程度，发现当前RAG系统存在严重的先验偏差问题。",
+      "key_data": [
+        "先验主导量化",
+        "RAG系统偏差",
+        "评估方法"
+      ],
+      "judgment": "对RAG开发者意味着：需要关注模型先验对检索结果的扭曲，否则RAG可能变成'伪RAG'。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2606.23695",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "量子位",
+      "title": "豆包专业版正式上线，开启付费模式",
+      "finding": "字节跳动旗下豆包推出专业版，首次开启付费模式，采用三级阶梯定价。这是国内头部AI消费产品从免费转向商业化的标志性事件。",
+      "key_data": [
+        "豆包专业版",
+        "三级阶梯定价",
+        "首次付费"
+      ],
+      "judgment": "国内AI消费级产品商业化加速，用户需为高质量AI服务付费将成为常态。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/06/438204.html",
+      "importance": 4
+    },
+    {
+      "source": "InfoQ",
+      "title": "Anthropic解释Claude如何构建自己的执行框架",
+      "finding": "Anthropic详细解释了Claude如何自主构建执行框架来完成任务，展示了Agent自我编排能力的最新进展。",
+      "key_data": [
+        "Claude自主构建框架",
+        "Agent自我编排",
+        "执行框架"
+      ],
+      "judgment": "对Agent开发者意味着：模型自主构建执行框架的能力正在成熟，未来Agent开发可能从'手写框架'转向'模型自生成'。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/DYIUw7abCW7ZYI1OER9i?utm_source=rss&utm_medium=article",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "Xcode 27扩展代理集成并全面改版用户界面",
+      "finding": "苹果Xcode 27发布，大幅扩展了AI代理集成能力，并引入DeviceHub功能，用户界面全面改版。这是苹果在AI开发工具领域的重要升级。",
+      "key_data": [
+        "Xcode 27",
+        "代理集成扩展",
+        "DeviceHub"
+      ],
+      "judgment": "对苹果开发者意味着：Xcode的AI能力大幅提升，iOS/macOS开发效率有望显著提高。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/VGQNO8bH0sq4kFDb6B7H?utm_source=rss&utm_medium=article",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "百度智能云发布千帆Token Plan企业版，适配GLM-5.2",
+      "finding": "百度智能云推出千帆Token Plan企业版，已率先完成智谱GLM-5.2模型的适配，为企业提供更灵活的模型调用方案。",
+      "key_data": [
+        "千帆Token Plan企业版",
+        "适配GLM-5.2",
+        "企业模型调用"
+      ],
+      "judgment": "国内云厂商模型生态竞争加剧，多模型适配成为企业云服务标配。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/06/438174.html",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "ArrowJS发布1.0版，定位为'代理时代'首个UI框架",
+      "finding": "ArrowJS发布1.0正式版，宣称是首个为AI代理时代设计的UI框架，专注于让AI代理更高效地生成和操作UI。",
+      "key_data": [
+        "ArrowJS 1.0",
+        "代理时代UI框架",
+        "AI代理UI生成"
+      ],
+      "judgment": "对前端开发者意味着：UI框架开始为AI代理优化，未来前端开发范式可能从'人写UI'转向'代理生成UI'。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/JW7bom70PQ14N2OlVRLt?utm_source=rss&utm_medium=article",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Reid Hoffman",
+      "level": "L3",
+      "quote": "Reid Hoffman称SpaceX'不是AI公司'，xAI是'彻底的灾难'。作为OpenAI早期投资人，他对马斯克的AI策略提出尖锐批评。",
+      "source": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake/"
+    },
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "Simon Willison观察到，最近开始出现明显由LLM辅助编写的求职申请：简历、作品集、GitHub项目都像是AI生成的，这正在改变招聘市场的信号机制。",
+      "source": "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI推理芯片定制化趋势：从Jalapeño看OpenAI的芯片战略",
+      "reason": "OpenAI自研芯片是AI基础设施的关键转折点，值得深入分析其对行业格局的影响。",
+      "priority": "high"
+    },
+    {
+      "topic": "Agent自我编排能力：Claude自主构建执行框架的技术原理",
+      "reason": "Anthropic的Agent框架能力正在引领行业，理解其原理对Agent产品设计至关重要。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "芯片定制化、Agent能力升级、人才流动加速",
+  "summary_paragraph": "今日AI行业迎来多个重磅消息。OpenAI与博通联合发布推理专用芯片Jalapeño，标志着AI基础设施进入芯片定制化时代，推理成本有望大幅下降。Google DeepMind紧随Anthropic步伐，为Gemini 3.5 Flash引入计算机使用能力，多模态Agent成为标配。高通以近40亿美元收购Modular，芯片竞争从硬件转向生态。人才市场同样动荡，顶级AI研究员持续从谷歌流向Anthropic，后者正在构建技术护城河。国内方面，豆包专业版上线开启付费模式，国内AI消费产品商业化加速。整体来看，行业正从'模型能力竞赛'转向'基础设施+Agent应用'的双轮驱动阶段。",
+  "snapshot": {
+    "date": "2026-06-25",
+    "hf_trending": [
+      {
+        "name": "zai-org/GLM-5.2",
+        "short_name": "GLM-5.2",
+        "likes": 2358,
+        "downloads": 57186,
+        "url": "https://huggingface.co/zai-org/GLM-5.2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "baidu/Unlimited-OCR",
+        "short_name": "Unlimited-OCR",
+        "likes": 738,
+        "downloads": 45687,
+        "url": "https://huggingface.co/baidu/Unlimited-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "unlimited-ocr"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+        "short_name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+        "likes": 2301,
+        "downloads": 483139,
+        "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+        "tags": [
+          "gguf",
+          "gemma4",
+          "coding"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "short_name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "likes": 534,
+        "downloads": 138704,
+        "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "tags": [
+          "gguf",
+          "gemma4",
+          "coding"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "WeiboAI/VibeThinker-3B",
+        "short_name": "VibeThinker-3B",
+        "likes": 692,
+        "downloads": 49569,
+        "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "likes": 354,
+        "downloads": 63637,
+        "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "tags": [
+          "gguf",
+          "llama.cpp",
+          "quantized"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+        "short_name": "Qwythos-9B-Claude-Mythos-5-1M",
+        "likes": 314,
+        "downloads": 5123,
+        "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "unsloth/GLM-5.2-GGUF",
+        "short_name": "GLM-5.2-GGUF",
+        "likes": 348,
+        "downloads": 76971,
+        "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF",
+        "tags": [
+          "gguf",
+          "glm_moe_dsa",
+          "unsloth"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "calesthio/OpenMontage",
+        "desc": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skill",
+        "stars": 19585,
+        "stars_today": 3719,
+        "forks": 2221,
+        "language": "Python",
+        "url": "https://github.com/calesthio/OpenMontage"
+      },
+      {
+        "name": "ZhuLinsen/daily_stock_analysis",
+        "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit",
+        "stars": 48594,
+        "stars_today": 1468,
+        "forks": 42997,
+        "language": "Python",
+        "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+      },
+      {
+        "name": "apple/container",
+        "desc": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is ",
+        "stars": 42288,
+        "stars_today": 1838,
+        "forks": 1244,
+        "language": "Swift",
+        "url": "https://github.com/apple/container"
+      },
+      {
+        "name": "interviewstreet/hiring-agent",
+        "desc": "AI agent to evaluate and score resumes.",
+        "stars": 2233,
+        "stars_today": 203,
+        "forks": 601,
+        "language": "Python",
+        "url": "https://github.com/interviewstreet/hiring-agent"
+      },
+      {
+        "name": "JCodesMore/ai-website-cloner-template",
+        "desc": "Clone any website with one command using AI coding agents",
+        "stars": 19370,
+        "stars_today": 692,
+        "forks": 2891,
+        "language": "TypeScript",
+        "url": "https://github.com/JCodesMore/ai-website-cloner-template"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "org": "deepseek",
+        "total_tokens": 733760872409,
+        "total_tokens_str": "734B",
+        "api_calls": 0,
+        "change": 6.4,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "minimax/minimax-m3",
+        "name": "MiniMax M3",
+        "org": "minimax",
+        "total_tokens": 660689956826,
+        "total_tokens_str": "661B",
+        "api_calls": 0,
+        "change": 9.8,
+        "url": "https://openrouter.ai/minimax/minimax-m3"
+      },
+      {
+        "rank": 3,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 648066042017,
+        "total_tokens_str": "648B",
+        "api_calls": 0,
+        "change": -14.1,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 4,
+        "slug": "anthropic/claude-4.7-opus",
+        "name": "Claude 4.7 Opus",
+        "org": "anthropic",
+        "total_tokens": 521468862762,
+        "total_tokens_str": "521B",
+        "api_calls": 0,
+        "change": 8.7,
+        "url": "https://openrouter.ai/anthropic/claude-4.7-opus"
+      },
+      {
+        "rank": 5,
+        "slug": "openrouter/owl-alpha",
+        "name": "Owl Alpha",
+        "org": "openrouter",
+        "total_tokens": 460742539531,
+        "total_tokens_str": "461B",
+        "api_calls": 0,
+        "change": 13.0,
+        "url": "https://openrouter.ai/openrouter/owl-alpha"
+      },
+      {
+        "rank": 6,
+        "slug": "tencent/hy3-preview",
+        "name": "Hy3 preview",
+        "org": "tencent",
+        "total_tokens": 417733321670,
+        "total_tokens_str": "418B",
+        "api_calls": 0,
+        "change": -4.3,
+        "url": "https://openrouter.ai/tencent/hy3-preview"
+      },
+      {
+        "rank": 7,
+        "slug": "anthropic/claude-4.8-opus",
+        "name": "Claude 4.8 Opus",
+        "org": "anthropic",
+        "total_tokens": 309048983664,
+        "total_tokens_str": "309B",
+        "api_calls": 0,
+        "change": -7.2,
+        "url": "https://openrouter.ai/anthropic/claude-4.8-opus"
+      },
+      {
+        "rank": 8,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
+        "org": "deepseek",
+        "total_tokens": 302329096367,
+        "total_tokens_str": "302B",
+        "api_calls": 0,
+        "change": 7.6,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 9,
+        "slug": "z-ai/glm-5.2",
+        "name": "GLM 5.2",
+        "org": "z-ai",
+        "total_tokens": 294442802070,
+        "total_tokens_str": "294B",
+        "api_calls": 0,
+        "change": 3.0,
+        "url": "https://openrouter.ai/z-ai/glm-5.2"
+      },
+      {
+        "rank": 10,
+        "slug": "anthropic/claude-4.6-sonnet",
+        "name": "Claude 4.6 Sonnet",
+        "org": "anthropic",
+        "total_tokens": 243737648967,
+        "total_tokens_str": "244B",
+        "api_calls": 0,
+        "change": -1.7,
+        "url": "https://openrouter.ai/anthropic/claude-4.6-sonnet"
+      }
+    ],
+    "hf_summary": "开源文本生成模型主导，GLM与Gemma系列表现突出"
+  }
+}

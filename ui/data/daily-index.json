@@ -1,6 +1,13 @@
 {
-  "total": 91,
+  "total": 92,
   "reports": [
+    {
+      "date": "2026-06-25",
+      "title": "今日 AI 日报：OpenAI与博通联合发布LLM推理专用芯片Jalapeño + 4 条重要动态",
+      "excerpt": "对AI行业意味着：推理成本将大幅下降，模型部署门槛降低。对开发者意味着：未来AP…",
+      "top_count": 5,
+      "file": "2026-06-25.json"
+    },
     {
       "date": "2026-06-24",
       "title": "今日 AI 日报：Claude Tag 大升级，Anthropic 约65%产品代码已由AI参与完成 + 4 条重要动态",
