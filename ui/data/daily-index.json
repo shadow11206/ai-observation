@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-06-25",
-      "title": "今日 AI 日报：OpenAI与博通联合发布LLM推理专用芯片Jalapeño + 4 条重要动态",
-      "excerpt": "对AI行业意味着：推理成本将大幅下降，模型部署门槛降低。对开发者意味着：未来AP…",
+      "title": "今日 AI 日报：OpenAI与博通联合发布推理专用芯片Jalapeño + 4 条重要动态",
+      "excerpt": "这是AI基础设施领域的重要转折点。OpenAI自研芯片将改变AI芯片市场格局，英…",
       "top_count": 5,
       "file": "2026-06-25.json"
     },

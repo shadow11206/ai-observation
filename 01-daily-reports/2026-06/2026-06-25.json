@@ -3,240 +3,212 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "OpenAI与博通联合发布LLM推理专用芯片Jalapeño",
-      "finding": "OpenAI与博通合作推出定制AI推理芯片Jalapeño，专为大模型推理场景优化性能和能效。这是OpenAI从依赖英伟达GPU走向自研芯片的关键一步，也标志着AI基础设施竞争进入芯片定制化时代。",
+      "title": "OpenAI与博通联合发布推理专用芯片Jalapeño",
+      "finding": "OpenAI与博通合作推出首款自研推理芯片Jalapeño，专为大模型推理优化。这意味着OpenAI开始从依赖英伟达GPU转向自研芯片，降低对单一供应商的依赖，同时提升推理效率。",
       "key_data": [
-        "LLM推理专用芯片",
+        "推理专用芯片",
         "OpenAI+博通联合",
-        "性能与能效优化"
+        "降低GPU依赖"
       ],
-      "judgment": "对AI行业意味着：推理成本将大幅下降，模型部署门槛降低。对开发者意味着：未来API定价可能更便宜，但自研芯片的生态兼容性需要关注。对英伟达意味着：GPU霸主地位首次受到来自客户的直接挑战。",
+      "judgment": "这是AI基础设施领域的重要转折点。OpenAI自研芯片将改变AI芯片市场格局，英伟达的垄断地位受到挑战。对开发者而言，未来推理成本可能大幅下降，模型部署更灵活。",
       "confidence": 5,
       "source": "OpenAI官方博客",
-      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip"
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/"
     },
     {
       "rank": 2,
-      "title": "Google DeepMind为Gemini 3.5 Flash引入计算机使用能力",
-      "finding": "Google DeepMind宣布Gemini 3.5 Flash新增计算机使用（computer use）功能，模型能直接操控屏幕、点击按钮、填写表单，类似于Anthropic的Computer Use功能。这意味着多模态Agent能力正在成为前沿模型的标配。",
+      "title": "Google DeepMind推出Gemini 3.5 Flash的计算机使用能力",
+      "finding": "Google DeepMind宣布Gemini 3.5 Flash模型新增计算机使用能力，能像人类一样操作屏幕、点击按钮、填写表单。这是继Anthropic的Computer Use之后，第二个主流模型具备该能力。",
       "key_data": [
+        "计算机使用能力",
         "Gemini 3.5 Flash",
-        "计算机使用",
-        "多模态Agent"
+        "操作屏幕/点击按钮"
       ],
-      "judgment": "对产品经理意味着：GUI自动化Agent的竞争从Anthropic一家独大变成双雄对决，应用场景从简单的网页操作扩展到更复杂的桌面软件操控。开发者需要思考如何利用这一能力构建下一代自动化工具。",
+      "judgment": "计算机使用能力正在成为模型标配。这意味着AI Agent的交互方式从纯文本扩展到图形界面操作，自动化场景大幅拓宽。对产品经理来说，这是设计下一代AI交互产品的关键能力。",
       "confidence": 5,
-      "source": "Google DeepMind官方博客",
+      "source": "Google DeepMind博客",
       "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/"
     },
     {
       "rank": 3,
+      "title": "Anthropic指控阿里巴巴非法提取Claude模型能力",
+      "finding": "Anthropic公开指控阿里巴巴通过API非法提取Claude模型的核心能力，用于训练其自有模型。这是AI行业首次有头部公司公开指责另一家巨头进行模型蒸馏。",
+      "key_data": [
+        "模型蒸馏指控",
+        "Anthropic vs 阿里巴巴",
+        "非法提取能力"
+      ],
+      "judgment": "这起事件可能成为AI行业的分水岭。模型蒸馏是灰色地带，Anthropic的公开指控将迫使行业明确规则。对开发者而言，使用API训练模型的风险显著增加，合规成本上升。",
+      "confidence": 4,
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/"
+    },
+    {
+      "rank": 4,
       "title": "高通以近40亿美元收购芯片初创公司Modular",
-      "finding": "高通宣布以近40亿美元收购AI芯片软件初创公司Modular（由Chris Lattner创立），这是AI芯片领域的重要并购。Modular的Mojo语言和基础设施有望帮助高通在AI推理芯片市场建立软件生态优势。",
+      "finding": "高通宣布以近40亿美元收购AI芯片软件初创公司Modular，后者由Chris Lattner创立，主打Mojo编程语言和AI基础设施。这是AI芯片领域又一重大并购。",
       "key_data": [
         "收购价近40亿美元",
         "Modular被高通收购",
-        "Mojo语言生态"
+        "Chris Lattner创立"
       ],
-      "judgment": "对AI基础设施意味着：芯片竞争从硬件转向'硬件+软件生态'，Mojo作为AI编程语言可能获得高通的大规模推广。对开发者意味着：未来可能有更多针对高通芯片优化的AI开发工具，但Mojo的普及仍需时间。",
+      "judgment": "高通的收购表明AI芯片竞争从硬件延伸到软件生态。Modular的Mojo语言和AI基础设施能力将帮助高通在边缘AI领域建立优势。对开发者而言，Mojo语言可能获得更多资源支持。",
       "confidence": 5,
       "source": "Wired",
       "url": "https://www.wired.com/story/qualcomm-buys-buzzy-chip-startup-modular-for-nearly-dollar4-billion/"
     },
     {
-      "rank": 4,
-      "title": "DeepSWE基准测试发布：评估前沿模型真实编码能力",
-      "finding": "新基准测试DeepSWE发布，专门评估前沿模型从头编写代码的能力。与现有基准不同，DeepSWE的任务是从零开始编写，而非从现有代码库改编，避免了数据污染问题。这为评估模型真实编程能力提供了更干净的测试环境。",
-      "key_data": [
-        "无数据污染",
-        "从头编写代码",
-        "评估真实编程能力"
-      ],
-      "judgment": "对AI Coding领域意味着：现有基准测试可能高估了模型的编码能力，DeepSWE将推动更诚实的评估。对开发者意味着：在选择AI编程工具时，需要关注模型在无污染基准上的表现，而非营销数据。",
-      "confidence": 4,
-      "source": "Reddit r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/"
-    },
-    {
       "rank": 5,
-      "title": "AI研究人员持续从谷歌流向Anthropic",
-      "finding": "顶级AI研究员Jonas Adler和Alexander Pritzel离开谷歌加入Anthropic，此前已有Noam Shazeer和John Jumper等顶尖科学家离职。谷歌AI人才流失趋势加剧，而Anthropic正在成为人才磁石。",
+      "title": "字节跳动豆包推出付费版，中国AI应用进入收费时代",
+      "finding": "字节跳动旗下AI助手豆包上线专业版，首次开启付费模式。这是中国头部AI消费级应用从免费转向收费的标志性事件。",
       "key_data": [
-        "Jonas Adler离职",
-        "Alexander Pritzel离职",
-        "人才持续流向Anthropic"
+        "豆包专业版上线",
+        "首开付费模式",
+        "中国AI应用收费"
       ],
-      "judgment": "对行业格局意味着：Anthropic正在通过人才聚集构建技术护城河，而谷歌需要反思其研究文化和激励机制。对开发者意味着：Anthropic的模型能力有望持续领先，Claude系列值得长期押注。",
-      "confidence": 5,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/"
+      "judgment": "豆包收费意味着中国AI应用开始探索商业化闭环。这对行业是积极信号，证明用户愿意为优质AI服务付费。但定价策略和用户接受度仍需观察，可能引发其他厂商跟进。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/06/438204.html"
     }
   ],
   "model_tech": [
     {
+      "source": "Latent Space",
+      "title": "Claude Tag：Slack中的多人、主动、持久Agent",
+      "finding": "Anthropic为Claude推出Slack机器人升级，支持多人协作、主动发起对话和持久记忆。Agent从被动响应变为主动参与团队工作流。",
+      "key_data": [
+        "Slack集成升级",
+        "多人协作Agent",
+        "主动发起对话"
+      ],
+      "judgment": "这是Agent从工具向团队成员演进的关键一步。对产品经理而言，设计Agent的社交属性和协作能力将成为新方向。",
+      "confidence": 4,
+      "url": "https://www.latent.space/p/ainews-claude-tag-multiplayer-proactive",
+      "importance": 4
+    },
+    {
       "source": "ArXiv",
-      "title": "RIFT-Bench：面向Agent AI系统的动态红队基准",
-      "finding": "新基准RIFT-Bench专门用于测试Agent AI系统的安全漏洞，通过动态红队攻击评估LLM驱动的自主决策系统的鲁棒性。",
+      "title": "RIFT-Bench：Agent系统的动态红队测试基准",
+      "finding": "新论文提出RIFT-Bench，用于动态测试AI Agent系统的安全漏洞。传统静态测试无法覆盖Agent的自主决策攻击面。",
       "key_data": [
         "Agent安全测试",
-        "动态红队攻击",
-        "自主决策系统"
+        "动态红队",
+        "自主决策攻击面"
       ],
-      "judgment": "Agent安全评测从静态转向动态，开发者部署Agent前应参考此类基准。",
+      "judgment": "Agent安全将成为2026年下半年的核心议题。这个基准为开发者提供了实用的安全测试工具。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2606.23927",
       "importance": 3
     },
     {
       "source": "ArXiv",
-      "title": "离线推理训练的权重空间几何研究",
-      "finding": "论文系统分析了RFT、RIFT、DFT、Offline GRPO、DPO等离线强化学习损失函数在推理蒸馏中的表现，揭示了不同训练方法的几何特性。",
+      "title": "小编辑、大模型：维基百科编辑如何塑造LLM价值观",
+      "finding": "研究发现一小群维基百科志愿者通过编辑内容，能显著影响LLM在动物福利等议题上的立场。Wikipedia是LLM训练数据的关键来源。",
       "key_data": [
-        "离线RL损失函数",
-        "推理蒸馏",
-        "权重空间几何"
+        "维基百科影响LLM价值观",
+        "小群体编辑",
+        "动物福利议题"
       ],
-      "judgment": "对模型训练者意味着：选择离线RL损失函数时需要更精细地考虑几何特性，而非简单套用。",
+      "judgment": "这揭示了LLM价值观形成的脆弱性。模型训练数据的质量控制比想象中更难，开发者需要关注数据来源的偏见。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.23740",
-      "importance": 2
-    },
-    {
-      "source": "ArXiv",
-      "title": "自我识别微调可预防并逆转突现失调",
-      "finding": "研究发现通过自我识别微调（Self-Recognition Finetuning）可以有效预防甚至逆转大模型中的突现失调（Emergent Misalignment）现象。",
-      "key_data": [
-        "自我识别微调",
-        "预防突现失调",
-        "逆转失调"
-      ],
-      "judgment": "对AI安全领域意味着：提供了一种新的对齐方法，可能比现有RLHF更高效。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.23700",
+      "url": "https://arxiv.org/abs/2606.24890",
       "importance": 3
-    },
-    {
-      "source": "ArXiv",
-      "title": "量化RAG系统中的先验主导问题",
-      "finding": "论文提出量化方法评估RAG系统中模型先验知识对检索结果的主导程度，发现当前RAG系统存在严重的先验偏差问题。",
-      "key_data": [
-        "先验主导量化",
-        "RAG系统偏差",
-        "评估方法"
-      ],
-      "judgment": "对RAG开发者意味着：需要关注模型先验对检索结果的扭曲，否则RAG可能变成'伪RAG'。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.23695",
-      "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "量子位",
-      "title": "豆包专业版正式上线，开启付费模式",
-      "finding": "字节跳动旗下豆包推出专业版，首次开启付费模式，采用三级阶梯定价。这是国内头部AI消费产品从免费转向商业化的标志性事件。",
+      "source": "TechCrunch",
+      "title": "AI研究人员持续从Google流向Anthropic",
+      "finding": "顶级AI研究员Jonas Adler和Alexander Pritzel离开Google加入Anthropic，延续了Noam Shazeer和John Jumper的离职潮。Google面临人才流失危机。",
       "key_data": [
-        "豆包专业版",
-        "三级阶梯定价",
-        "首次付费"
+        "Jonas Adler离职",
+        "Alexander Pritzel离职",
+        "Anthropic持续挖角"
       ],
-      "judgment": "国内AI消费级产品商业化加速，用户需为高质量AI服务付费将成为常态。",
+      "judgment": "人才流向反映行业信心。Anthropic在安全对齐和Agent方向的吸引力正在超越Google。",
       "confidence": 4,
-      "url": "https://www.qbitai.com/2026/06/438204.html",
+      "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+      "importance": 4
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Cerebras财报后股价暴跌，CEO称利润率预期被误解",
+      "finding": "AI芯片公司Cerebras发布上市后首份财报，核心业务毛利率预期低于市场预期，导致股价大跌。",
+      "key_data": [
+        "Cerebras股价暴跌",
+        "毛利率预期低于预期",
+        "上市后首份财报"
+      ],
+      "judgment": "AI芯片公司面临盈利压力。Cerebras的困境表明，仅靠硬件创新难以维持高估值，软件生态和客户粘性才是关键。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "三家公司一周内出手，编码Agent进入团队基础设施时代",
+      "finding": "一周内三家主流AI编码工具公司（Cursor、GitHub Copilot、Replit）发布重大更新，将编码Agent定位为团队基础设施而非个人工具。",
+      "key_data": [
+        "编码Agent团队化",
+        "Cursor/GitHub/Replit更新",
+        "团队基础设施"
+      ],
+      "judgment": "AI编码工具从个人效率工具升级为团队协作平台。对工程管理者来说，需要重新思考开发流程和代码审查机制。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/w4sl1mazwewiJ6Th2XqV",
       "importance": 4
     },
     {
       "source": "InfoQ",
-      "title": "Anthropic解释Claude如何构建自己的执行框架",
-      "finding": "Anthropic详细解释了Claude如何自主构建执行框架来完成任务，展示了Agent自我编排能力的最新进展。",
+      "title": "一家Agent公司从Claude切换到DeepSeek v4：年省数百万美元，迁移工作量是预期的100倍",
+      "finding": "某Agent公司从Anthropic Claude迁移到DeepSeek v4，每年节省数百万美元推理成本，但迁移工作量远超预期，达到100倍。",
       "key_data": [
-        "Claude自主构建框架",
-        "Agent自我编排",
-        "执行框架"
+        "从Claude切到DeepSeek v4",
+        "年省数百万美元",
+        "迁移工作量100倍"
       ],
-      "judgment": "对Agent开发者意味着：模型自主构建执行框架的能力正在成熟，未来Agent开发可能从'手写框架'转向'模型自生成'。",
+      "judgment": "模型切换的成本被严重低估。虽然推理成本降低，但迁移、测试、适配的工程成本可能抵消收益。开发者应谨慎评估切换成本。",
       "confidence": 4,
-      "url": "https://www.infoq.cn/article/DYIUw7abCW7ZYI1OER9i?utm_source=rss&utm_medium=article",
-      "importance": 3
-    },
-    {
-      "source": "InfoQ",
-      "title": "Xcode 27扩展代理集成并全面改版用户界面",
-      "finding": "苹果Xcode 27发布，大幅扩展了AI代理集成能力，并引入DeviceHub功能，用户界面全面改版。这是苹果在AI开发工具领域的重要升级。",
-      "key_data": [
-        "Xcode 27",
-        "代理集成扩展",
-        "DeviceHub"
-      ],
-      "judgment": "对苹果开发者意味着：Xcode的AI能力大幅提升，iOS/macOS开发效率有望显著提高。",
-      "confidence": 4,
-      "url": "https://www.infoq.cn/article/VGQNO8bH0sq4kFDb6B7H?utm_source=rss&utm_medium=article",
-      "importance": 3
-    },
-    {
-      "source": "量子位",
-      "title": "百度智能云发布千帆Token Plan企业版，适配GLM-5.2",
-      "finding": "百度智能云推出千帆Token Plan企业版，已率先完成智谱GLM-5.2模型的适配，为企业提供更灵活的模型调用方案。",
-      "key_data": [
-        "千帆Token Plan企业版",
-        "适配GLM-5.2",
-        "企业模型调用"
-      ],
-      "judgment": "国内云厂商模型生态竞争加剧，多模型适配成为企业云服务标配。",
-      "confidence": 4,
-      "url": "https://www.qbitai.com/2026/06/438174.html",
-      "importance": 2
-    },
-    {
-      "source": "InfoQ",
-      "title": "ArrowJS发布1.0版，定位为'代理时代'首个UI框架",
-      "finding": "ArrowJS发布1.0正式版，宣称是首个为AI代理时代设计的UI框架，专注于让AI代理更高效地生成和操作UI。",
-      "key_data": [
-        "ArrowJS 1.0",
-        "代理时代UI框架",
-        "AI代理UI生成"
-      ],
-      "judgment": "对前端开发者意味着：UI框架开始为AI代理优化，未来前端开发范式可能从'人写UI'转向'代理生成UI'。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/JW7bom70PQ14N2OlVRLt?utm_source=rss&utm_medium=article",
-      "importance": 2
+      "url": "https://www.infoq.cn/article/KfCaAKEXqDsmrDCxr4P1",
+      "importance": 4
     }
   ],
   "opinions": [
     {
-      "person": "Reid Hoffman",
-      "level": "L3",
-      "quote": "Reid Hoffman称SpaceX'不是AI公司'，xAI是'彻底的灾难'。作为OpenAI早期投资人，他对马斯克的AI策略提出尖锐批评。",
-      "source": "https://fortune.com/2026/06/24/reid-hoffman-spacex-musk-openai-anthropic-gen-z-mistake/"
-    },
-    {
       "person": "Simon Willison",
       "level": "L2",
-      "quote": "Simon Willison观察到，最近开始出现明显由LLM辅助编写的求职申请：简历、作品集、GitHub项目都像是AI生成的，这正在改变招聘市场的信号机制。",
+      "quote": "最近我看到一些求职申请，明显是LLM代写的，链接到LLM生成的个人作品集网站，再链接到LLM生成的GitHub项目，整个链条都是AI生成的。这让人很难评估候选人的真实能力。",
       "source": "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything"
+    },
+    {
+      "person": "Swyx",
+      "level": "L2",
+      "quote": "前沿生态系统必须保持开放。Databricks的技术领袖们讨论了每家公司构建Agent Cloud所需的条件。",
+      "source": "https://www.latent.space/p/databricks"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI推理芯片定制化趋势：从Jalapeño看OpenAI的芯片战略",
-      "reason": "OpenAI自研芯片是AI基础设施的关键转折点，值得深入分析其对行业格局的影响。",
+      "topic": "AI自研芯片浪潮：OpenAI Jalapeño对行业格局的影响",
+      "reason": "OpenAI自研芯片可能打破英伟达垄断，影响未来推理成本和模型部署策略。",
       "priority": "high"
     },
     {
-      "topic": "Agent自我编排能力：Claude自主构建执行框架的技术原理",
-      "reason": "Anthropic的Agent框架能力正在引领行业，理解其原理对Agent产品设计至关重要。",
-      "priority": "medium"
+      "topic": "模型蒸馏的法律与伦理边界：Anthropic诉阿里巴巴事件分析",
+      "reason": "这是首次头部公司公开指控模型蒸馏，可能定义行业规则和合规标准。",
+      "priority": "high"
     }
   ],
-  "summary_one_line": "芯片定制化、Agent能力升级、人才流动加速",
-  "summary_paragraph": "今日AI行业迎来多个重磅消息。OpenAI与博通联合发布推理专用芯片Jalapeño，标志着AI基础设施进入芯片定制化时代，推理成本有望大幅下降。Google DeepMind紧随Anthropic步伐，为Gemini 3.5 Flash引入计算机使用能力，多模态Agent成为标配。高通以近40亿美元收购Modular，芯片竞争从硬件转向生态。人才市场同样动荡，顶级AI研究员持续从谷歌流向Anthropic，后者正在构建技术护城河。国内方面，豆包专业版上线开启付费模式，国内AI消费产品商业化加速。整体来看，行业正从'模型能力竞赛'转向'基础设施+Agent应用'的双轮驱动阶段。",
+  "summary_one_line": "芯片自研、Agent团队化、模型蒸馏争议三线并进",
+  "summary_paragraph": "今日AI行业迎来多个里程碑事件。OpenAI与博通联合发布推理芯片Jalapeño，标志着AI巨头开始摆脱对英伟达的依赖；Google DeepMind为Gemini 3.5 Flash加入计算机使用能力，Agent交互方式进入新阶段；Anthropic公开指控阿里巴巴非法提取Claude模型能力，模型蒸馏的灰色地带首次被摆上台面。与此同时，高通以近40亿美元收购Modular，字节豆包开启付费模式，编码Agent正式进入团队基础设施时代。芯片、Agent、商业化三条主线同时推进，行业正从技术探索转向基础设施和商业模式构建。",
   "snapshot": {
     "date": "2026-06-25",
     "hf_trending": [
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 2358,
+        "likes": 2376,
         "downloads": 57186,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -252,7 +224,7 @@
       {
         "name": "baidu/Unlimited-OCR",
         "short_name": "Unlimited-OCR",
-        "likes": 738,
+        "likes": 771,
         "downloads": 45687,
         "url": "https://huggingface.co/baidu/Unlimited-OCR",
         "tags": [
@@ -268,7 +240,7 @@
       {
         "name": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "short_name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-        "likes": 2301,
+        "likes": 2308,
         "downloads": 483139,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "tags": [
@@ -284,7 +256,7 @@
       {
         "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "short_name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-        "likes": 534,
+        "likes": 551,
         "downloads": 138704,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "tags": [
@@ -298,25 +270,9 @@
         "trend": "same"
       },
       {
-        "name": "WeiboAI/VibeThinker-3B",
-        "short_name": "VibeThinker-3B",
-        "likes": 692,
-        "downloads": 49569,
-        "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen2"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-        "likes": 354,
+        "likes": 380,
         "downloads": 63637,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "tags": [
@@ -330,9 +286,25 @@
         "trend": "new"
       },
       {
+        "name": "WeiboAI/VibeThinker-3B",
+        "short_name": "VibeThinker-3B",
+        "likes": 697,
+        "downloads": 49569,
+        "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M",
-        "likes": 314,
+        "likes": 330,
         "downloads": 5123,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
         "tags": [
@@ -348,7 +320,7 @@
       {
         "name": "unsloth/GLM-5.2-GGUF",
         "short_name": "GLM-5.2-GGUF",
-        "likes": 348,
+        "likes": 357,
         "downloads": 76971,
         "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF",
         "tags": [
@@ -366,45 +338,45 @@
       {
         "name": "calesthio/OpenMontage",
         "desc": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skill",
-        "stars": 19585,
+        "stars": 20278,
         "stars_today": 3719,
-        "forks": 2221,
+        "forks": 2285,
         "language": "Python",
         "url": "https://github.com/calesthio/OpenMontage"
       },
       {
         "name": "ZhuLinsen/daily_stock_analysis",
         "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit",
-        "stars": 48594,
+        "stars": 48917,
         "stars_today": 1468,
-        "forks": 42997,
+        "forks": 43140,
         "language": "Python",
         "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
       },
       {
         "name": "apple/container",
         "desc": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is ",
-        "stars": 42288,
+        "stars": 42551,
         "stars_today": 1838,
-        "forks": 1244,
+        "forks": 1250,
         "language": "Swift",
         "url": "https://github.com/apple/container"
       },
       {
         "name": "interviewstreet/hiring-agent",
         "desc": "AI agent to evaluate and score resumes.",
-        "stars": 2233,
+        "stars": 2417,
         "stars_today": 203,
-        "forks": 601,
+        "forks": 618,
         "language": "Python",
         "url": "https://github.com/interviewstreet/hiring-agent"
       },
       {
         "name": "JCodesMore/ai-website-cloner-template",
         "desc": "Clone any website with one command using AI coding agents",
-        "stars": 19370,
+        "stars": 19593,
         "stars_today": 692,
-        "forks": 2891,
+        "forks": 2907,
         "language": "TypeScript",
         "url": "https://github.com/JCodesMore/ai-website-cloner-template"
       }
@@ -521,6 +493,6 @@
         "url": "https://openrouter.ai/anthropic/claude-4.6-sonnet"
       }
     ],
-    "hf_summary": "开源文本生成模型主导，GLM与Gemma系列表现突出"
+    "hf_summary": "文本生成主导榜单，GLM-5.2与Gemma系列领跑。"
   }
 }
