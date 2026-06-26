@@ -4,252 +4,247 @@
     {
       "rank": 1,
       "title": "白宫要求OpenAI因安全顾虑推迟发布新模型GPT 5.6",
-      "finding": "特朗普政府要求OpenAI放缓其最新模型GPT 5.6的发布节奏，OpenAI计划仅向部分合作伙伴开放，而非全面公测。这是美国政府首次直接干预前沿AI模型的发布节奏。",
+      "finding": "特朗普政府要求OpenAI不要公开发布其最新模型GPT 5.6，而是仅向特定合作伙伴开放。这是美国政府首次直接干预大模型发布节奏，标志着AI安全监管进入新阶段。",
       "key_data": [
         "GPT 5.6",
-        "白宫要求延迟",
+        "白宫要求推迟发布",
         "仅限合作伙伴"
       ],
-      "judgment": "这意味着AI安全监管进入新阶段：政府开始直接干预模型发布节奏，未来所有前沿模型都可能面临类似的审批流程，对产品经理而言，发布周期和合规成本将显著增加。",
+      "judgment": "这意味着AI安全从行业自律转向政府强制干预，未来模型发布可能面临更多政治审查，对产品迭代节奏和商业策略产生重大影响。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/"
     },
     {
       "rank": 2,
-      "title": "Anthropic Claude在付费消费者市场持续蚕食ChatGPT份额",
-      "finding": "数据显示，尽管ChatGPT仍主导市场，但付费AI消费者正越来越多地选择Anthropic的Claude。Claude在付费用户中的占比持续上升，正在改变ChatGPT一家独大的格局。",
+      "title": "Claude正在赢得付费消费者市场，ChatGPT主导地位受挑战",
+      "finding": "数据显示，尽管ChatGPT在整体市场占据主导，但付费用户正在加速转向Claude。Anthropic的产品在代码生成、长文档处理等场景获得开发者青睐，付费用户增长曲线陡峭。",
       "key_data": [
-        "付费用户增长",
-        "Claude蚕食份额",
-        "ChatGPT主导地位动摇"
+        "Claude付费用户增长",
+        "ChatGPT主导地位受挑战",
+        "开发者转向"
       ],
-      "judgment": "Claude在付费用户中的崛起说明产品差异化（安全、长上下文、Agent能力）正在转化为市场优势。对开发者而言，多模型部署不再是可选项，而是必须。",
+      "judgment": "Claude在专业用户群体中的口碑正在转化为市场份额，这对OpenAI的订阅收入构成实质性威胁，也说明AI产品的差异化竞争已从技术参数转向用户体验。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/"
     },
     {
       "rank": 3,
-      "title": "福特AI质检失败，被迫返聘资深质检员",
-      "finding": "福特汽车在生产线引入AI质检系统后出现严重误判，导致质量问题频发，不得不重新聘请经验丰富的'灰胡子'质检员。这暴露了AI在工业质检场景中的可靠性短板。",
+      "title": "OpenAI内部数据显示Codex使用量暴增：研发团队增长56倍",
+      "finding": "OpenAI报告其内部Codex工具的使用量自2025年11月以来大幅增长，研发团队输出Token增长56倍，客服32倍，工程27倍，法律13倍。这反映了AI编程工具在企业内部渗透速度惊人。",
       "key_data": [
-        "AI质检失败",
-        "返聘资深质检员",
-        "工业场景可靠性"
+        "Codex输出增长56倍(研发)",
+        "32倍(客服)",
+        "27倍(工程)"
       ],
-      "judgment": "这是AI落地工业场景的典型挫折：AI在边缘案例和异常检测上远不如人类专家。对AI产品经理而言，这意味着在关键任务场景中，'AI+人类'混合模式仍是当前最优解，纯AI替代短期内不可行。",
-      "confidence": 5,
-      "source": "Bloomberg (via Hacker News)",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short"
-    },
-    {
-      "rank": 4,
-      "title": "OpenAI内部数据显示Codex使用量暴增：研究团队增长56倍",
-      "finding": "OpenAI报告其内部Codex工具的使用量自2025年11月以来大幅增长：研究团队输出Token增长56倍，客服32倍，工程27倍，法律13倍。AI编程已从实验工具变为核心生产力。",
-      "key_data": [
-        "研究团队56倍增长",
-        "客服32倍",
-        "工程27倍"
-      ],
-      "judgment": "这组数据是AI编程渗透率加速的最强信号：不仅工程师在用，非技术岗位（客服、法务）也在大规模使用。对AI Coding产品来说，从'开发者工具'向'全员生产力平台'的转变正在发生。",
+      "judgment": "AI编程已从实验性工具变成企业内部核心生产力，56倍的增长意味着开发者工作方式正在发生不可逆的变革，传统软件工程管理方法面临重构。",
       "confidence": 4,
       "source": "Latent Space",
       "url": "https://www.latent.space/p/ainews-openai-reports-median-internal"
     },
     {
-      "rank": 5,
-      "title": "General Intuition获3.2亿美元融资，用游戏训练AI代理",
-      "finding": "General Intuition以23亿美元估值完成3.2亿美元融资，核心思路是用数百万小时的游戏视频数据训练AI代理，使其发展出接近人类的直觉能力，并将这些能力迁移到现实世界任务中。",
+      "rank": 4,
+      "title": "苹果跳过高端M6芯片，直接开发AI专用M7系列",
+      "finding": "苹果计划放弃原定的高端M6 Mac芯片，转而开发专注于AI推理的M7 Pro/Max/Ultra系列。这表明苹果将AI能力视为下一代Mac的核心差异化，而非单纯追求CPU/GPU性能提升。",
       "key_data": [
-        "3.2亿美元融资",
-        "23亿美元估值",
-        "游戏训练AI代理"
+        "跳过M6",
+        "M7系列专注AI",
+        "苹果AI战略转向"
       ],
-      "judgment": "这是具身智能领域的一个重要信号：游戏作为'低成本模拟器'的价值被资本认可。如果这条路走通，将大幅降低机器人训练成本，加速物理世界AI的落地。",
+      "judgment": "苹果此举标志着消费级AI芯片竞赛进入新阶段，设备端AI能力将成为PC厂商的核心战场，对云AI服务商形成潜在威胁。",
       "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead"
+    },
+    {
+      "rank": 5,
+      "title": "福特AI质检失败，重新雇佣资深人类检查员",
+      "finding": "福特汽车尝试用AI替代质量检查员，但AI系统在检测复杂缺陷时频繁出错，导致质量问题。福特不得不重新雇佣经验丰富的'灰胡子'检查员，引发对AI在制造业中可靠性的广泛讨论。",
+      "key_data": [
+        "福特AI质检失败",
+        "重新雇佣人类检查员",
+        "制造业AI可靠性争议"
+      ],
+      "judgment": "这是一个重要的警示：AI在制造业等高可靠性要求场景中仍无法完全替代人类经验，'AI取代论'需要更务实的评估，混合人机协作可能是更现实的路径。",
+      "confidence": 5,
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short"
     }
   ],
   "model_tech": [
     {
-      "source": "Hugging Face",
-      "title": "混合模型预测哪些Token更准确？",
-      "finding": "Allen AI团队分析了混合架构（结合稠密和稀疏注意力）中不同Token的预测质量差异，发现模型对特定类型Token的预测能力存在显著偏差。",
+      "source": "量子位",
+      "title": "英伟达MoE新开源：一行import，微调加速3.7倍",
+      "finding": "英伟达开源了基于Transformers v5的MoE优化方案，通过专家并行、DeepEP和TransformerEngine等技术，一行代码即可实现3.7倍微调加速。",
       "key_data": [
-        "混合架构分析",
-        "Token预测偏差"
+        "微调加速3.7倍",
+        "一行import",
+        "专家并行"
       ],
-      "judgment": "对模型架构师而言，这意味着混合模型的设计需要更精细地考虑Token类型，不能一刀切。",
+      "judgment": "大幅降低MoE模型微调门槛，中小团队也能高效使用混合专家模型，加速开源生态发展。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/06/438703.html",
+      "importance": 3
+    },
+    {
+      "source": "Hugging Face",
+      "title": "混合模型预测哪些Token表现更好？",
+      "finding": "Allen AI团队在Hugging Face发布研究，分析混合架构（结合稠密和稀疏MoE层）在不同Token类型上的预测能力差异，为模型设计提供指导。",
+      "key_data": [
+        "混合模型",
+        "Token预测差异",
+        "架构优化"
+      ],
+      "judgment": "对MoE架构设计有参考价值，但属于渐进式研究，非突破性进展。",
       "confidence": 3,
       "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
-      "importance": 3
+      "importance": 2
     },
     {
       "source": "Hugging Face",
-      "title": "一键命令在HF Jobs上运行vLLM服务器",
-      "finding": "Hugging Face推出新功能，允许用户通过单条命令在HF Jobs上部署vLLM推理服务器，大幅降低了开源模型部署门槛。",
+      "title": "一键在HF Jobs上运行vLLM服务器",
+      "finding": "Hugging Face推出新功能，用户可通过一条命令在HF Jobs上部署vLLM推理服务器，简化开源模型部署流程。",
       "key_data": [
-        "一键部署",
-        "vLLM",
-        "HF Jobs"
+        "一键部署vLLM",
+        "HF Jobs集成",
+        "推理简化"
       ],
-      "judgment": "对开发者是利好：开源模型部署从'需要运维知识'变成'一条命令搞定'，会加速开源模型在原型验证阶段的采用。",
+      "judgment": "降低开源模型部署门槛，但属于基础设施优化，非突破性创新。",
       "confidence": 4,
       "url": "https://huggingface.co/blog/vllm-jobs",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv",
-      "title": "RIFT-Bench：Agent系统的动态红队测试基准",
-      "finding": "新提出的RIFT-Bench基准专门用于评估Agent系统的安全漏洞，通过动态生成攻击场景来测试LLM驱动的自主决策系统的鲁棒性。",
-      "key_data": [
-        "Agent安全测试",
-        "动态红队",
-        "自主决策系统"
-      ],
-      "judgment": "Agent安全评测正在从静态转向动态，这对所有构建Agent产品的团队都是必须关注的方向。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.23927",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv",
-      "title": "AgentOdyssey：用于测试时持续学习的开放世界文本游戏生成",
-      "finding": "提出AgentOdyssey框架，通过动态生成开放世界文本游戏来评估Agent在测试时的持续学习能力，模拟Agent在真实世界中不断探索和适应新知识的过程。",
-      "key_data": [
-        "持续学习评估",
-        "开放世界文本游戏",
-        "Agent探索"
-      ],
-      "judgment": "Agent的持续学习能力是走向通用智能的关键，这个基准填补了评估空白。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.24893",
       "importance": 2
     },
     {
       "source": "ArXiv",
-      "title": "完美检测，失败控制：语言模型中知道与引导的几何学",
-      "finding": "研究发现，即使模型内部能准确检测到特定行为（如偏见），也无法通过简单的激活干预来有效控制该行为，揭示了可解释性与可控性之间的鸿沟。",
+      "title": "检测和控制模型谄媚行为的级联线性特征方法",
+      "finding": "新论文提出通过激活空间中的级联线性特征来检测和控制AI模型的谄媚行为（模型倾向于迎合用户而非给出真实答案），为模型对齐提供新工具。",
       "key_data": [
-        "检测与控制的鸿沟",
-        "激活干预失效",
-        "可解释性局限"
+        "谄媚行为检测",
+        "级联线性特征",
+        "模型对齐"
       ],
-      "judgment": "对AI安全研究者是重要警示：知道模型在想什么，不等于能控制它做什么。安全对齐需要更根本的方法。",
+      "judgment": "对提升模型可靠性和安全性有实际价值，但方法复杂度较高，工程落地仍需时间。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.24952",
-      "importance": 3
+      "url": "https://arxiv.org/abs/2606.26155",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "基准测试饱和后的新思路：CORE-Bench案例研究",
+      "finding": "论文指出当基准测试准确率饱和后，不应简单替换为更难版本，而应关注模型在边界情况下的表现差异，提出更细粒度的评估方法。",
+      "key_data": [
+        "基准饱和",
+        "细粒度评估",
+        "CORE-Bench"
+      ],
+      "judgment": "对AI评测方法论有启发，但尚未形成行业共识，属于学术讨论范畴。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2606.26158",
+      "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "InfoQ",
-      "title": "GitHub推出Copilot桌面应用，支持并行Agent开发工作流",
-      "finding": "GitHub发布Copilot桌面客户端，支持多个Agent并行工作，开发者可以同时运行多个AI编程任务，大幅提升开发效率。",
-      "key_data": [
-        "桌面应用",
-        "并行Agent",
-        "开发效率"
-      ],
-      "judgment": "GitHub Copilot从IDE插件升级为独立桌面应用，标志着AI编程工具进入'多Agent协作'新阶段。",
-      "confidence": 4,
-      "url": "https://www.infoq.cn/article/GaAsWkrJQW2NFf06kgyG?utm_source=rss&utm_medium=article",
-      "importance": 4
-    },
-    {
-      "source": "InfoQ",
-      "title": "Claude Code工程一号位给Agent热潮降温：该算ROI了",
-      "finding": "Claude Code的工程负责人公开表示，AI Agent烧Token的时代已经过去，现在需要关注投资回报率（ROI），强调Agent的实际产出而非消耗。",
-      "key_data": [
-        "Agent ROI",
-        "Token消耗降温",
-        "工程一号位"
-      ],
-      "judgment": "来自一线构建者的务实声音：Agent热潮需要回归商业本质，产品经理应该关注Agent带来的实际价值而非技术炫酷。",
-      "confidence": 4,
-      "url": "https://www.infoq.cn/article/XebV3B8Vy3Yx0A4HZX4b?utm_source=rss&utm_medium=article",
-      "importance": 4
-    },
-    {
       "source": "TechCrunch",
-      "title": "Patronus AI获5000万美元融资，构建'数字世界'压力测试AI代理",
-      "finding": "由前Meta AI研究员创立的Agent测试初创公司Patronus AI完成5000万美元融资，其产品通过构建虚拟场景来全面测试AI Agent的鲁棒性和安全性。",
+      "title": "Patronus AI获5000万美元融资，构建'数字世界'压力测试AI Agent",
+      "finding": "由前Meta AI研究员创立的Agent测试公司Patronus AI完成5000万美元融资，其产品通过构建虚拟场景对AI Agent进行压力测试，需求旺盛。",
       "key_data": [
         "5000万美元融资",
-        "Agent压力测试",
+        "AI Agent压力测试",
         "前Meta研究员"
       ],
-      "judgment": "Agent测试正在成为一个独立赛道，随着Agent部署增多，安全测试需求将爆发式增长。",
+      "judgment": "Agent可靠性测试成为刚需，这个赛道正在快速升温，未来可能成为AI基础设施标配。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
       "importance": 3
     },
     {
       "source": "TechCrunch",
-      "title": "前Databricks AI负责人声称可将AI能耗降低1000倍",
-      "finding": "前Databricks AI负责人创立的Un-0公司发布图像生成系统，声称其技术可将传统AI系统的能耗降低1000倍，首次展示了其技术的实际效果。",
+      "title": "General Intuition的23亿美元赌注：用视频游戏训练现实世界AI Agent",
+      "finding": "General Intuition融资3.2亿美元，利用数百万小时游戏视频训练AI Agent，希望让AI在虚拟世界中学习人类直觉，再迁移到现实场景。",
       "key_data": [
-        "能耗降低1000倍",
-        "Un-0",
-        "图像生成"
+        "3.2亿美元融资",
+        "游戏训练AI",
+        "人类直觉学习"
       ],
-      "judgment": "如果属实，这将颠覆AI基础设施的成本结构。但需要看到独立验证，目前谨慎乐观。",
-      "confidence": 2,
-      "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
+      "judgment": "游戏作为AI训练场的思路并不新，但如此大规模投入表明行业对'虚拟到现实'迁移的可行性信心增强。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
       "importance": 3
     },
     {
       "source": "Ars Technica",
-      "title": "Notion关闭邮件应用，称用户已转向AI代理管理收件箱",
-      "finding": "Notion宣布关闭其收购自Skiff的邮件应用，原因是大多数用户已不再手动管理邮件，而是使用AI代理自动处理收件箱。Notion将全力投入'用代理管理收件箱'的新方向。",
+      "title": "Notion关闭邮件应用，全面转向AI Agent管理收件箱",
+      "finding": "Notion宣布关闭其Skiff风格的邮件应用，原因是大多数用户已转向使用AI Agent管理收件箱，公司决定'All in Agent'。",
       "key_data": [
-        "关闭邮件应用",
-        "AI代理管理收件箱",
-        "用户行为转变"
+        "Notion关闭邮件应用",
+        "用户转向AI Agent",
+        "All in Agent"
       ],
-      "judgment": "这是一个重要的用户行为信号：AI代理正在替代传统邮件客户端。对产品经理而言，这意味着'收件箱'这个产品形态本身可能正在被重新定义。",
+      "judgment": "这是一个明确的信号：传统邮件客户端正在被AI Agent取代，未来'收件箱'可能不再是独立产品，而是Agent的一个功能模块。",
       "confidence": 4,
       "url": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
       "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "TRAE Work Design实测：从需求到设计到代码，一个软件全搞定",
+      "finding": "字节跳动Trae团队发布Work Design功能实测，展示从需求分析、UI设计到代码生成的全流程AI自动化能力，精准识别设计系统。",
+      "key_data": [
+        "全流程AI自动化",
+        "需求到代码",
+        "设计系统识别"
+      ],
+      "judgment": "AI IDE正在从'代码补全'进化到'全栈开发'，Trae的Work Design代表AI编程工具的新方向。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/06/438750.html",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "北森宣布All in AI：两年砸10亿，上线15个AI HR专家",
+      "finding": "中国HR SaaS厂商北森宣布全面转型AI，两年投入10亿元人民币，推出15个AI HR专家，打造'数字人事部'。",
+      "key_data": [
+        "10亿投入",
+        "15个AI HR专家",
+        "数字人事部"
+      ],
+      "judgment": "企业级AI应用正在从'工具辅助'走向'岗位替代'，HR领域是典型的高频、标准化场景，AI Agent落地速度可能超出预期。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/j1XdsvKMeFio6oyHGTkK",
+      "importance": 2
     }
   ],
   "opinions": [
     {
       "person": "Simon Willison",
       "level": "L2",
-      "quote": "AI代理是部署它们的个人或组织的代理。德国法院裁定谷歌需为其AI概览中的错误承担责任，这开创了先例：部署AI的一方必须为AI的行为负责。",
-      "source": "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything"
-    },
-    {
-      "person": "Bruce Schneier",
-      "level": "L2",
-      "quote": "AI代理是部署它们的个人或组织的代理。德国法院裁定谷歌需为其AI概览中的错误承担责任，这开创了先例：部署AI的一方必须为AI的行为负责。",
-      "source": "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything"
+      "quote": "AI Agent是部署者的代理人，德国法院裁定Google需为AI概览中的错误负责，这意味着部署AI的企业必须承担法律责任，不能以'AI自己做的'为由推卸。",
+      "source": "https://simonwillison.net/2026/Jun/25/ai-and-liability/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI Agent的安全测试与红队方法论",
-      "reason": "白宫干预GPT发布+Patronus AI融资+Agent测试基准涌现，安全测试正成为Agent落地的核心瓶颈。",
+      "topic": "AI Agent在制造业的落地困境与机遇",
+      "reason": "福特AI质检失败案例引发对AI在制造业可靠性的广泛讨论，值得深入分析人机协作的最佳实践。",
       "priority": "high"
     },
     {
-      "topic": "AI在工业质检中的失败案例研究",
-      "reason": "福特AI质检失败是AI落地工业场景的典型教训，值得深入分析失败原因和混合模式的最佳实践。",
-      "priority": "medium"
+      "topic": "白宫干预模型发布：AI安全监管新范式",
+      "reason": "美国政府首次直接要求推迟模型发布，标志着AI监管从行业自律转向政府强制，影响深远。",
+      "priority": "high"
     }
   ],
-  "summary_one_line": "白宫干预GPT发布，Claude蚕食ChatGPT付费市场",
-  "summary_paragraph": "今天AI行业的关键词是'监管与落地'。白宫首次直接要求OpenAI推迟GPT 5.6的发布，标志着AI安全监管进入新阶段。与此同时，Anthropic的Claude在付费消费者市场持续蚕食ChatGPT份额，证明产品差异化正在转化为市场优势。福特AI质检失败的案例则给工业AI落地敲响警钟——纯AI替代在关键任务场景中仍不可行。OpenAI内部数据显示Codex使用量暴增56倍，AI编程正从开发者工具演变为全员生产力平台。此外，Notion因用户转向AI代理管理邮件而关闭邮件应用，进一步印证了AI代理正在重塑传统软件形态。",
+  "summary_one_line": "白宫干预发布，Claude逆袭，AI编程爆发",
+  "summary_paragraph": "今日AI行业迎来多个转折点信号。白宫首次直接要求OpenAI推迟GPT 5.6发布，标志着AI安全监管进入政府强制干预的新阶段。与此同时，Claude在付费用户市场逆势增长，开始动摇ChatGPT的主导地位。OpenAI内部数据显示Codex使用量暴增56倍，AI编程已从实验变成核心生产力。苹果放弃M6芯片转向AI专用M7系列，福特AI质检失败后重新雇佣人类检查员，这两个案例分别代表了AI在消费电子和制造业中的机遇与挑战。Notion关闭邮件应用全面转向AI Agent，进一步印证了Agent正在重塑产品形态。",
   "snapshot": {
     "date": "2026-06-26",
     "hf_trending": [
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 2479,
+        "likes": 2505,
         "downloads": 67107,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -265,7 +260,7 @@
       {
         "name": "baidu/Unlimited-OCR",
         "short_name": "Unlimited-OCR",
-        "likes": 898,
+        "likes": 919,
         "downloads": 70743,
         "url": "https://huggingface.co/baidu/Unlimited-OCR",
         "tags": [
@@ -281,7 +276,7 @@
       {
         "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "short_name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-        "likes": 618,
+        "likes": 630,
         "downloads": 165187,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "tags": [
@@ -297,7 +292,7 @@
       {
         "name": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "short_name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-        "likes": 2366,
+        "likes": 2369,
         "downloads": 495813,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "tags": [
@@ -313,7 +308,7 @@
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-        "likes": 487,
+        "likes": 503,
         "downloads": 134294,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "tags": [
@@ -329,7 +324,7 @@
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M",
-        "likes": 394,
+        "likes": 403,
         "downloads": 10160,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
         "tags": [
@@ -345,7 +340,7 @@
       {
         "name": "WeiboAI/VibeThinker-3B",
         "short_name": "VibeThinker-3B",
-        "likes": 715,
+        "likes": 717,
         "downloads": 51717,
         "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
         "tags": [
@@ -359,65 +354,65 @@
         "trend": "same"
       },
       {
-        "name": "unsloth/GLM-5.2-GGUF",
-        "short_name": "GLM-5.2-GGUF",
-        "likes": 386,
-        "downloads": 88915,
-        "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF",
+        "name": "Qwen/Qwen-AgentWorld-35B-A3B",
+        "short_name": "Qwen-AgentWorld-35B-A3B",
+        "likes": 261,
+        "downloads": 3389,
+        "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
         "tags": [
-          "gguf",
-          "glm_moe_dsa",
-          "unsloth"
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
         ],
         "pipeline_tag": "text-generation",
         "label": "文本生成",
         "card_desc": "",
-        "trend": "same"
+        "trend": "new"
       }
     ],
     "github_trending": [
       {
         "name": "google-labs-code/design.md",
         "desc": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a p",
-        "stars": 19363,
+        "stars": 19808,
         "stars_today": 1475,
-        "forks": 1656,
+        "forks": 1674,
         "language": "TypeScript",
         "url": "https://github.com/google-labs-code/design.md"
       },
       {
         "name": "calesthio/OpenMontage",
         "desc": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skill",
-        "stars": 22170,
+        "stars": 22538,
         "stars_today": 3434,
-        "forks": 2488,
+        "forks": 2524,
         "language": "Python",
         "url": "https://github.com/calesthio/OpenMontage"
       },
       {
         "name": "xbtlin/ai-berkshire",
         "desc": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value inv",
-        "stars": 1997,
+        "stars": 2341,
         "stars_today": 309,
-        "forks": 308,
+        "forks": 345,
         "language": "Python",
         "url": "https://github.com/xbtlin/ai-berkshire"
       },
       {
         "name": "mauriceboe/TREK",
         "desc": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, ",
-        "stars": 6744,
+        "stars": 6934,
         "stars_today": 241,
-        "forks": 611,
+        "forks": 622,
         "language": "TypeScript",
         "url": "https://github.com/mauriceboe/TREK"
       },
       {
         "name": "apple/container",
         "desc": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is ",
-        "stars": 43241,
+        "stars": 43350,
         "stars_today": 1351,
-        "forks": 1269,
+        "forks": 1274,
         "language": "Swift",
         "url": "https://github.com/apple/container"
       }
@@ -534,6 +529,6 @@
         "url": "https://openrouter.ai/anthropic/claude-4.6-sonnet"
       }
     ],
-    "hf_summary": "文本生成主导，GLM-5.2表现突出，多模态模型崛起"
+    "hf_summary": "开源小模型与多模态OCR成热点"
   }
 }
