@@ -3,217 +3,189 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "OpenAI 发布 GPT-5.6 Sol，美国政府将逐个审批用户资格",
-      "finding": "OpenAI 今天发布了新一代模型 GPT-5.6 系列（Sol、Terra、Luna），在编程、科学和网络安全方面能力大幅提升。但最引人注目的是，美国政府要求 OpenAI 对用户进行逐个审批，只有获得批准的个人和组织才能使用最强版本 Sol。这意味着 AI 模型的使用权从市场行为变成了政府管控行为。",
+      "title": "OpenAI 发布 GPT-5.6 Sol，美国政府将决定谁可以使用",
+      "finding": "OpenAI 预览了新一代模型 GPT-5.6 系列，包括旗舰版 Sol、均衡版 Terra 和快速版 Luna。但美国政府要求 OpenAI 限制该模型的发布，只有经过批准的美国组织和个人才能使用，这标志着 AI 监管进入新阶段。",
       "key_data": [
-        "Sol 为旗舰模型",
-        "Terra 为均衡模型",
-        "Luna 为快速廉价模型",
-        "政府逐个审批用户"
+        "GPT-5.6 Sol 旗舰版",
+        "Terra 均衡版",
+        "Luna 快速版",
+        "美国政府审批制"
       ],
-      "judgment": "这是 AI 行业的分水岭时刻。美国政府首次直接介入最先进 AI 模型的分发，将模型使用权从市场行为变为国家安全管控。对开发者来说，这意味着未来获取顶级模型的门槛将大幅提高，开源模型和中小模型的战略价值将急剧上升。",
+      "judgment": "这是 AI 行业的分水岭：美国政府首次对前沿模型实施使用许可制，意味着最强大的 AI 能力将不再是公开商品，而是受控的战略资源。对开发者来说，未来获取顶级模型的门槛将大幅提高。",
       "confidence": 5,
-      "source": "OpenAI Blog",
+      "source": "OpenAI 官方博客 / Washington Post",
       "url": "https://openai.com/index/previewing-gpt-5-6-sol"
     },
     {
       "rank": 2,
-      "title": "Anthropic 的 Mythos 模型获准向 100 多家美国机构开放",
-      "finding": "经过数周谈判，特朗普政府批准 Anthropic 将其最先进的 Mythos 模型向超过 100 家美国公司和政府机构开放，包括非美国籍员工。此前 Anthropic 曾因政府要求而暂停 Mythos 的发布。这标志着美国政府正在建立一套针对顶级 AI 模型的审批制度。",
+      "title": "Anthropic 的 Mythos 模型获美国政府批准，向100多家美国机构开放",
+      "finding": "经过数周谈判，美国政府允许 Anthropic 向超过100家美国公司和政府机构开放其最先进的模型 Mythos 5。此前 Anthropic 曾因政府要求被迫下线该模型。",
       "key_data": [
-        "100+ 家机构获批",
-        "包括政府机构",
-        "非美国籍员工也可用",
-        "此前被要求暂停"
+        "Mythos 5 模型",
+        "100+ 美国机构",
+        "政府审批制"
       ],
-      "judgment": "美国政府正在建立一套事实上的 AI 模型出口管制和用户审批制度。这对全球 AI 生态意味着：顶级模型将成为战略资源，企业获取模型能力的竞争将从技术层面延伸到政治层面。",
-      "confidence": 5,
-      "source": "Wired",
-      "url": "https://www.wired.com/story/anthropic-restores-access-to-mythos/"
+      "judgment": "与 OpenAI 的 GPT-5.6 一样，Mythos 的发布也受政府管控。这证实了美国正在建立一套‘前沿模型许可制’，AI 能力正在从技术竞争转向地缘政治博弈。",
+      "confidence": 4,
+      "source": "TechCrunch / Wired",
+      "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/"
     },
     {
       "rank": 3,
-      "title": "字节跳动 Trae 推出 Work Design 功能：从需求到代码全自动",
-      "finding": "字节跳动旗下 AI IDE Trae 发布了 Work Design 功能，能够从产品需求文档自动生成设计稿和代码。实测显示它能精准识别设计系统，实现从需求到设计再到代码的全流程自动化。这是国内 AI 编程工具首次覆盖产品设计环节。",
+      "title": "OpenAI 挖来 Uber 印度负责人，押注印度市场",
+      "finding": "OpenAI 聘请了 Uber 印度区负责人，负责其在美国之外的最大市场。此举表明 OpenAI 正在加速全球扩张，尤其是在亚洲市场。",
       "key_data": [
-        "从需求到代码全自动",
-        "精准识别设计系统",
-        "国内首个覆盖设计环节的AI IDE"
+        "Uber 印度前负责人",
+        "最大海外市场",
+        "全球扩张"
       ],
-      "judgment": "Trae 正在从代码生成工具升级为产品开发全流程助手。这对产品经理和设计师的影响可能比程序员更大——需求文档直接变产品，传统产品设计流程可能被重塑。",
+      "judgment": "OpenAI 正在从纯技术公司转向全球商业组织。印度是开发者密集且成本敏感的市场，此举可能意味着 OpenAI 将推出针对印度市场的定价或产品。",
       "confidence": 4,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/06/438750.html"
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/"
     },
     {
       "rank": 4,
       "title": "谷歌推理研究负责人跳槽 Meta，AI 人才争夺白热化",
-      "finding": "谷歌 DeepMind 的推理研究负责人（此前由李飞飞挖入谷歌）宣布加入 Meta。这位研究员专注于 AI 推理能力，是谷歌在推理模型方向的核心人物。他的离开对谷歌的推理研究是一个重大打击。",
+      "finding": "谷歌 DeepMind 的推理研究负责人（曾由李飞飞招募）加入 Meta AI。这已是近期多位顶级 AI 科学家从谷歌流向 Meta 的案例之一。",
       "key_data": [
-        "谷歌推理研究负责人",
+        "谷歌推理负责人",
         "跳槽 Meta",
-        "此前由李飞飞挖入谷歌"
+        "李飞飞曾招募"
       ],
-      "judgment": "推理能力是下一代 AI 模型的核心竞争力，Meta 正在系统性地从谷歌挖角推理方向人才。这对谷歌的 Gemini 推理能力发展是个坏消息，也说明 Meta 在开源模型之外正在加强闭源模型的研发实力。",
-      "confidence": 4,
+      "judgment": "Meta 正在通过高薪和开源战略吸引顶级人才，而谷歌的 AI 人才流失问题日益严重。这对谷歌的 Gemini 路线图是一个打击，也说明开源阵营正在吸引更多顶尖研究者。",
+      "confidence": 3,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/06/438848.html"
     },
     {
       "rank": 5,
-      "title": "TechCrunch：AI 竞争已从 OpenAI vs Anthropic 转向政治博弈",
-      "finding": "TechCrunch 发表评论文章指出，随着 GPT-5.6 和 Mythos 的发布受政府管控，AI 模型的竞争已经从技术能力比拼转向了政治博弈。模型的能力已经产生真实的政治后果，未来的竞争将需要集体行动而非单打独斗。",
+      "title": "DeepSeek 计划将所有部门规模扩大至少一倍",
+      "finding": "据 36氪报道，DeepSeek 正在大规模招聘，计划将各部门规模扩大至少一倍。这表明 DeepSeek 正在加速扩张，以应对日益激烈的模型竞争。",
       "key_data": [
-        "竞争从技术转向政治",
-        "模型能力有政治后果",
-        "需要集体行动"
+        "部门规模翻倍",
+        "大规模招聘",
+        "加速扩张"
       ],
-      "judgment": "这篇文章点出了当前 AI 行业最本质的变化：当模型能力足够强大时，谁能用、怎么用就不再是技术问题而是政治问题。对创业公司和开发者来说，这意味着未来最大的不确定性不是技术路线，而是监管政策。",
-      "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/"
+      "judgment": "DeepSeek 作为中国开源模型的标杆，其扩张意味着中国 AI 军备竞赛正在升级。对于开发者来说，DeepSeek 的扩张可能带来更多开源模型和更低的使用成本。",
+      "confidence": 3,
+      "source": "36氪",
+      "url": "https://36kr.com/p/3869884559332356?f=rss"
     }
   ],
   "model_tech": [
     {
-      "source": "arXiv",
-      "title": "检测和控制模型谄媚行为的级联线性特征方法",
-      "finding": "研究人员发现可以通过激活空间中的线性方向来检测和控制 AI 模型的谄媚行为（即模型为了讨好用户而给出错误答案）。这种方法不需要重新训练模型，只需要少量对比样本即可实现。",
+      "source": "Latent Space",
+      "title": "OpenAI GPT-5.6 系列：Sol/Terra/Luna 分层发布，仅限可信合作伙伴",
+      "finding": "OpenAI 发布了三个层级的模型：旗舰 Sol、均衡 Terra、快速 Luna。Terra 性能与竞品相当，但所有模型的使用都受到政府限制。",
       "key_data": [
-        "激活空间线性方向",
-        "不需要重新训练",
-        "少量对比样本即可"
+        "Sol 旗舰版",
+        "Terra 均衡版",
+        "Luna 快速版",
+        "仅限可信合作伙伴"
       ],
-      "judgment": "这是模型可解释性和安全性研究的重要进展，让开发者可以在不牺牲模型能力的前提下控制模型行为。",
+      "judgment": "分层发布策略表明 OpenAI 在平衡性能、成本和监管压力。Terra 可能是大多数开发者的实际选择。",
+      "confidence": 5,
+      "url": "https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv",
+      "title": "检测和控制谄媚行为的级联线性特征",
+      "finding": "一篇新论文提出通过激活空间中的级联线性特征来检测和控制模型的谄媚行为（模型为了讨好用户而给出错误答案）。",
+      "key_data": [
+        "级联线性特征",
+        "检测谄媚行为",
+        "激活控制"
+      ],
+      "judgment": "这是对齐研究的重要进展，为构建更诚实、更可靠的 AI 助手提供了可操作的方法。",
       "confidence": 4,
       "url": "https://arxiv.org/abs/2606.26155",
       "importance": 3
     },
     {
-      "source": "arXiv",
-      "title": "基准测试饱和后的新评估方法：以 CORE-Bench 为例",
-      "finding": "论文指出当基准测试准确率饱和后，直接替换为更难版本的做法会高估模型能力。他们提出了一种新的评估框架，能更准确地衡量模型在基准饱和后的真实能力。",
+      "source": "ArXiv",
+      "title": "基准测试饱和之后：CORE-Bench 案例研究",
+      "finding": "论文指出，当基准测试准确率饱和后，简单替换为更难版本会忽略模型能力的细微差异。建议采用更细致的评估方法。",
       "key_data": [
-        "基准饱和后高估能力",
-        "新评估框架",
-        "更准确衡量真实能力"
+        "基准测试饱和",
+        "CORE-Bench",
+        "评估方法论"
       ],
-      "judgment": "对 AI 评测领域有重要参考价值，提醒开发者和研究者不要盲目相信基准测试分数。",
+      "judgment": "对 AI 评测社区有重要启示：不能只看准确率，需要更丰富的评估维度。",
       "confidence": 4,
       "url": "https://arxiv.org/abs/2606.26158",
       "importance": 2
     },
     {
-      "source": "arXiv",
-      "title": "聊天模型的拒绝行为源于人格设定",
-      "finding": "研究发现指令微调模型中的拒绝行为（拒绝回答某些问题）与模型的人格设定共享相同的激活空间线性方向。这意味着模型的拒绝机制不是独立的安全模块，而是与模型人格紧密耦合。",
+      "source": "ArXiv",
+      "title": "聊天模型中拒绝行为依赖于角色设定",
+      "finding": "研究发现，模型的拒绝行为（拒绝回答有害问题）与角色设定在激活空间中是线性相关的，调整角色设定可以影响拒绝行为。",
       "key_data": [
-        "拒绝行为与人格共享激活方向",
-        "不是独立安全模块",
-        "与模型人格紧密耦合"
+        "拒绝行为",
+        "角色设定",
+        "激活空间"
       ],
-      "judgment": "这对 AI 安全设计有重要启示：安全机制不能独立于模型人格设计，需要更系统的方法。",
+      "judgment": "这意味着通过精心设计的系统提示词，可以在不改变模型权重的情况下调整模型的安全行为。",
       "confidence": 4,
       "url": "https://arxiv.org/abs/2606.26161",
       "importance": 3
-    },
-    {
-      "source": "Reddit",
-      "title": "无需 GPS 仅凭视频画面定位行车记录仪位置",
-      "finding": "一位开发者展示了名为 Third Eye 的项目，能够仅通过视频画面内容确定拍摄地点并在地图上绘制路线。这利用了视觉地理定位技术，不需要任何 GPS 数据。",
-      "key_data": [
-        "仅凭视频画面定位",
-        "绘制路线地图",
-        "视觉地理定位技术"
-      ],
-      "judgment": "展示了视觉 AI 在定位领域的潜力，对自动驾驶、无人机导航等场景有参考价值。",
-      "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ufx8nx/showcase_geolocating_a_dashcam_video_without_gps/",
-      "importance": 2
-    },
-    {
-      "source": "Reddit",
-      "title": "RL 奖励函数调试器：训练中检测奖励欺骗",
-      "finding": "一位开发者在 GRPO 训练中发现奖励增加时难以判断是策略真正改进还是奖励函数被利用，于是开发了一个调试器，能在训练过程中实时检测奖励欺骗行为。",
-      "key_data": [
-        "GRPO 训练",
-        "实时检测奖励欺骗",
-        "区分真正改进与利用"
-      ],
-      "judgment": "对强化学习训练实践者非常实用，奖励欺骗是 RL 训练中的常见问题，这个工具能显著提升训练效率。",
-      "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/",
-      "importance": 2
     }
   ],
   "company_product": [
     {
       "source": "量子位",
       "title": "Claude Fable 5 分批重新上线，GPT-5.6 紧随其后",
-      "finding": "Anthropic 的 Claude Fable 5 模型开始分批重新上线，OpenAI 的 GPT-5.6 也紧随其后发布。两家公司都在政府管控下逐步恢复模型服务，但都采取了分批、限量的方式。",
+      "finding": "Anthropic 的 Claude Fable 5 模型在经历下线后开始分批重新上线，但很快被 OpenAI 的 GPT-5.6 发布抢去风头。",
       "key_data": [
-        "Claude Fable 5 分批上线",
-        "GPT-5.6 紧随其后",
-        "政府管控下限量恢复"
+        "Claude Fable 5",
+        "分批上线",
+        "GPT-5.6 竞争"
       ],
-      "judgment": "顶级模型的发布节奏已被政府管控打乱，未来模型发布将不再是技术事件，而是政治事件。",
-      "confidence": 4,
+      "judgment": "两大模型在同一天有动作，但都被政府管控所影响。模型能力竞争已让位于监管合规竞争。",
+      "confidence": 3,
       "url": "https://www.qbitai.com/2026/06/438789.html",
       "importance": 3
     },
     {
       "source": "TechCrunch",
-      "title": "OpenAI 从 Uber 挖来印度负责人，拓展最大海外市场",
-      "finding": "OpenAI 挖来了 Uber 印度负责人，负责领导美国以外最大的市场。这表明 OpenAI 正在加速海外扩张，印度是其重点布局的市场。",
+      "title": "从 OpenAI 到 SpaceX，大家都在造自己的芯片，给英伟达施压",
+      "finding": "报道指出，OpenAI、SpaceX 等公司都在自研 AI 芯片，以减少对英伟达的依赖。OpenAI 的定制推理芯片代号为 'Jalapeño'。",
       "key_data": [
-        "挖来 Uber 印度负责人",
-        "领导最大海外市场",
-        "加速海外扩张"
+        "自研芯片",
+        "Jalapeño 芯片",
+        "减少对英伟达依赖"
       ],
-      "judgment": "OpenAI 的国际化战略正在加速，印度市场将成为其增长的重要引擎。",
+      "judgment": "自研芯片成为大厂标配，英伟达的垄断地位正在被侵蚀。对开发者来说，未来可能有更多硬件选择，但生态碎片化风险也在增加。",
       "confidence": 4,
-      "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
-      "importance": 2
+      "url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+      "importance": 4
     },
     {
       "source": "36氪",
-      "title": "DeepSeek 计划将所有部门规模扩大至少一倍",
-      "finding": "DeepSeek 宣布计划将公司所有部门的规模扩大至少一倍，这是其大规模扩张的信号。同时，智元机器人旗下的灵巧手业务估值已达 10 亿美元，成立仅 5 个月就实现盈利。",
+      "title": "智元旗下灵巧手估值10亿美元，成立仅5个月首季实现盈利",
+      "finding": "智元机器人旗下的灵巧手业务估值已达10亿美元，成立仅5个月就实现盈利，显示出具身智能赛道的商业化潜力。",
       "key_data": [
-        "DeepSeek 部门规模翻倍",
-        "智元灵巧手估值10亿美元",
-        "5个月实现盈利"
+        "估值10亿美元",
+        "5个月盈利",
+        "具身智能"
       ],
-      "judgment": "DeepSeek 的扩张计划表明其正在从研究实验室转向商业化运营，这对国内 AI 开源生态和人才市场都将产生重大影响。",
-      "confidence": 4,
+      "judgment": "灵巧手是机器人落地的关键部件，其快速盈利说明具身智能的商业化路径正在被验证。",
+      "confidence": 3,
       "url": "https://36kr.com/p/3869884559332356?f=rss",
       "importance": 3
     },
     {
-      "source": "量子位",
-      "title": "深度机智获数亿元融资，加速国产物理 AI 基座模型落地",
-      "finding": "深度机智在两个月内连续获得两轮数亿元融资，以全栈自主路线加速国产物理 AI 基座模型的落地。物理 AI 基座模型是机器人、自动驾驶等领域的核心技术。",
-      "key_data": [
-        "两轮数亿元融资",
-        "全栈自主路线",
-        "物理 AI 基座模型"
-      ],
-      "judgment": "物理 AI 正在成为资本新宠，国产替代路线在具身智能领域获得市场认可。",
-      "confidence": 4,
-      "url": "https://www.qbitai.com/2026/06/438887.html",
-      "importance": 2
-    },
-    {
       "source": "36氪",
-      "title": "G7 易流发布货运行业首款穿戴式 AI 硬件「拍拍豆」",
-      "finding": "G7 易流发布了货运行业首款穿戴式 AI 硬件「拍拍豆」，重 30 克，采用磁吸设计。司机可佩戴在胸前自动录制，放回底座自动上传云端。这解决了物流交付最后两米的数字化问题。",
+      "title": "G7易流发布货运行业首款穿戴式AI硬件「拍拍豆」",
+      "finding": "G7易流发布了货运行业首款穿戴式AI硬件，重30克，可磁吸佩戴，用于物流交付环节的实时记录和云端同步。",
       "key_data": [
-        "30克穿戴式AI硬件",
-        "磁吸设计自动录制",
-        "解决物流最后两米"
+        "穿戴式AI硬件",
+        "30克",
+        "物流交付"
       ],
-      "judgment": "AI 硬件正在渗透传统行业的具体场景，穿戴式 AI 在物流、巡检等领域的应用前景广阔。",
-      "confidence": 4,
+      "judgment": "AI 硬件正在渗透到传统行业的最后一环，物流行业的数字化和 AI 化正在加速。",
+      "confidence": 3,
       "url": "https://36kr.com/p/3869740772316162?f=rss",
       "importance": 2
     }
@@ -221,44 +193,44 @@
   "opinions": [
     {
       "person": "Simon Willison",
-      "level": "L1",
-      "quote": "OpenAI 发布了 GPT-5.6 系列：Sol（旗舰）、Terra（日常均衡）、Luna（快速廉价）。Terra 的性能与 GPT-5 相当但成本更低。",
+      "level": "L2",
+      "quote": "引用 OpenAI 关于 GPT-5.6 的发布说明：Sol 是旗舰模型，Terra 是日常工作的均衡模型，Luna 是快速且经济的模型。Terra 在性能上具有竞争力。",
       "source": "https://simonwillison.net/2026/Jun/26/openai/#atom-everything"
     },
     {
       "person": "Dean W. Ball",
       "level": "L2",
-      "quote": "前沿模型训练成本极高，大部分成本通过发布后的少数几个月回收。如果政府审批流程导致模型发布延迟或受限，将严重破坏商业模式。",
+      "quote": "前沿模型训练成本极高，大部分成本通过发布后的少数几个月收回。如果政府限制发布，会破坏这种商业模式，对行业产生深远影响。",
       "source": "https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything"
     },
     {
       "person": "Timothy B. Lee",
       "level": "L2",
-      "quote": "说 LLM 没有学习曲线就像说当经理没有学习曲线——因为员工会完全听你的。实际上，用好 LLM 需要技巧和经验。",
+      "quote": "说使用 LLM 不需要技能，就像说当经理不需要学习曲线一样——员工会完全按照你说的做。",
       "source": "https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "美国政府 AI 模型审批制度对全球 AI 生态的影响",
-      "reason": "GPT-5.6 和 Mythos 的政府管控是 AI 行业的分水岭，值得深入分析其长期影响。",
+      "topic": "美国政府 AI 模型许可制对全球 AI 产业的影响",
+      "reason": "GPT-5.6 和 Mythos 的发布均受政府管控，这可能是全球 AI 治理的分水岭，值得深入分析其商业模式和地缘政治影响。",
       "priority": "high"
     },
     {
-      "topic": "AI IDE 从代码生成到全流程产品开发的演进路径",
-      "reason": "Trae Work Design 功能代表了 AI 编程工具的新方向，值得研究其对产品开发流程的重塑。",
+      "topic": "OpenAI GPT-5.6 系列模型的技术细节与性能对比",
+      "reason": "Sol/Terra/Luna 三层架构是 OpenAI 的新策略，理解其设计思路对产品经理和开发者至关重要。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "GPT-5.6 发布但需政府审批，AI 进入政治博弈时代",
-  "summary_paragraph": "今天 AI 行业发生了两件大事：OpenAI 发布 GPT-5.6 系列，Anthropic 的 Mythos 获准开放，但两者都受美国政府管控——用户需要逐个审批才能使用最强模型。这标志着 AI 竞争从技术比拼转向政治博弈，顶级模型成为战略资源。与此同时，字节 Trae 推出从需求到代码全自动的 Work Design 功能，国内 AI 编程工具首次覆盖产品设计环节。谷歌推理研究负责人跳槽 Meta，人才争夺白热化。DeepSeek 计划部门规模翻倍，国产物理 AI 公司获数亿元融资，行业仍在快速扩张。",
+  "summary_one_line": "GPT-5.6 发布但受限，AI 进入政府管控时代。",
+  "summary_paragraph": "今天是 AI 行业历史性的一天：OpenAI 发布了 GPT-5.6 系列（Sol/Terra/Luna），Anthropic 的 Mythos 也获准向美国机构开放，但两者都受到美国政府的严格使用限制。这意味着最强大的 AI 模型不再是公开商品，而是受控的战略资源。与此同时，谷歌推理负责人跳槽 Meta、DeepSeek 大规模扩张、OpenAI 挖来 Uber 印度负责人，人才和市场的争夺同样激烈。AI 行业正在从技术竞赛转向地缘政治博弈和商业扩张的新阶段。",
   "snapshot": {
     "date": "2026-06-27",
     "hf_trending": [
       {
         "name": "baidu/Unlimited-OCR",
         "short_name": "Unlimited-OCR",
-        "likes": 1044,
+        "likes": 1065,
         "downloads": 134146,
         "url": "https://huggingface.co/baidu/Unlimited-OCR",
         "tags": [
@@ -274,7 +246,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 2595,
+        "likes": 2615,
         "downloads": 83589,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -290,7 +262,7 @@
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-        "likes": 591,
+        "likes": 610,
         "downloads": 486810,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "tags": [
@@ -306,7 +278,7 @@
       {
         "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "short_name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-        "likes": 689,
+        "likes": 694,
         "downloads": 186663,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "tags": [
@@ -322,7 +294,7 @@
       {
         "name": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "short_name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-        "likes": 2400,
+        "likes": 2406,
         "downloads": 516333,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "tags": [
@@ -338,7 +310,7 @@
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M",
-        "likes": 450,
+        "likes": 456,
         "downloads": 20346,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
         "tags": [
@@ -354,7 +326,7 @@
       {
         "name": "Qwen/Qwen-AgentWorld-35B-A3B",
         "short_name": "Qwen-AgentWorld-35B-A3B",
-        "likes": 322,
+        "likes": 328,
         "downloads": 13186,
         "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
         "tags": [
@@ -370,7 +342,7 @@
       {
         "name": "krea/Krea-2-Turbo",
         "short_name": "Krea-2-Turbo",
-        "likes": 285,
+        "likes": 290,
         "downloads": 8721,
         "url": "https://huggingface.co/krea/Krea-2-Turbo",
         "tags": [
@@ -388,45 +360,45 @@
       {
         "name": "simplex-chat/simplex-chat",
         "desc": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private ",
-        "stars": 12632,
+        "stars": 12828,
         "stars_today": 432,
-        "forks": 714,
+        "forks": 729,
         "language": "Haskell",
         "url": "https://github.com/simplex-chat/simplex-chat"
       },
       {
         "name": "google-labs-code/design.md",
         "desc": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a p",
-        "stars": 21318,
+        "stars": 21572,
         "stars_today": 2407,
-        "forks": 1727,
+        "forks": 1741,
         "language": "TypeScript",
         "url": "https://github.com/google-labs-code/design.md"
       },
       {
         "name": "commaai/openpilot",
         "desc": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system o",
-        "stars": 61801,
+        "stars": 61854,
         "stars_today": 80,
-        "forks": 11049,
+        "forks": 11052,
         "language": "Python",
         "url": "https://github.com/commaai/openpilot"
       },
       {
         "name": "kunchenguid/no-mistakes",
         "desc": "git push no-mistakes",
-        "stars": 3447,
+        "stars": 3554,
         "stars_today": 398,
-        "forks": 207,
+        "forks": 210,
         "language": "Go",
         "url": "https://github.com/kunchenguid/no-mistakes"
       },
       {
         "name": "grafana/grafana",
         "desc": "The open and composable observability and data visualization platform. Visualize metrics, logs, and ",
-        "stars": 74921,
+        "stars": 74982,
         "stars_today": 32,
-        "forks": 14127,
+        "forks": 14131,
         "language": "TypeScript",
         "url": "https://github.com/grafana/grafana"
       }
@@ -543,6 +515,6 @@
         "url": "https://openrouter.ai/anthropic/claude-4.6-sonnet"
       }
     ],
-    "hf_summary": "多模态与文本生成模型主导，推理优化成焦点"
+    "hf_summary": "多模态与文本生成模型热度飙升，Agent化趋势明显"
   }
 }
