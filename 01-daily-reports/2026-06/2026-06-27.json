@@ -1,0 +1,548 @@
+{
+  "date": "2026-06-27",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "OpenAI 发布 GPT-5.6 Sol，美国政府将逐个审批用户资格",
+      "finding": "OpenAI 今天发布了新一代模型 GPT-5.6 系列（Sol、Terra、Luna），在编程、科学和网络安全方面能力大幅提升。但最引人注目的是，美国政府要求 OpenAI 对用户进行逐个审批，只有获得批准的个人和组织才能使用最强版本 Sol。这意味着 AI 模型的使用权从市场行为变成了政府管控行为。",
+      "key_data": [
+        "Sol 为旗舰模型",
+        "Terra 为均衡模型",
+        "Luna 为快速廉价模型",
+        "政府逐个审批用户"
+      ],
+      "judgment": "这是 AI 行业的分水岭时刻。美国政府首次直接介入最先进 AI 模型的分发，将模型使用权从市场行为变为国家安全管控。对开发者来说，这意味着未来获取顶级模型的门槛将大幅提高，开源模型和中小模型的战略价值将急剧上升。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol"
+    },
+    {
+      "rank": 2,
+      "title": "Anthropic 的 Mythos 模型获准向 100 多家美国机构开放",
+      "finding": "经过数周谈判，特朗普政府批准 Anthropic 将其最先进的 Mythos 模型向超过 100 家美国公司和政府机构开放，包括非美国籍员工。此前 Anthropic 曾因政府要求而暂停 Mythos 的发布。这标志着美国政府正在建立一套针对顶级 AI 模型的审批制度。",
+      "key_data": [
+        "100+ 家机构获批",
+        "包括政府机构",
+        "非美国籍员工也可用",
+        "此前被要求暂停"
+      ],
+      "judgment": "美国政府正在建立一套事实上的 AI 模型出口管制和用户审批制度。这对全球 AI 生态意味着：顶级模型将成为战略资源，企业获取模型能力的竞争将从技术层面延伸到政治层面。",
+      "confidence": 5,
+      "source": "Wired",
+      "url": "https://www.wired.com/story/anthropic-restores-access-to-mythos/"
+    },
+    {
+      "rank": 3,
+      "title": "字节跳动 Trae 推出 Work Design 功能：从需求到代码全自动",
+      "finding": "字节跳动旗下 AI IDE Trae 发布了 Work Design 功能，能够从产品需求文档自动生成设计稿和代码。实测显示它能精准识别设计系统，实现从需求到设计再到代码的全流程自动化。这是国内 AI 编程工具首次覆盖产品设计环节。",
+      "key_data": [
+        "从需求到代码全自动",
+        "精准识别设计系统",
+        "国内首个覆盖设计环节的AI IDE"
+      ],
+      "judgment": "Trae 正在从代码生成工具升级为产品开发全流程助手。这对产品经理和设计师的影响可能比程序员更大——需求文档直接变产品，传统产品设计流程可能被重塑。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/06/438750.html"
+    },
+    {
+      "rank": 4,
+      "title": "谷歌推理研究负责人跳槽 Meta，AI 人才争夺白热化",
+      "finding": "谷歌 DeepMind 的推理研究负责人（此前由李飞飞挖入谷歌）宣布加入 Meta。这位研究员专注于 AI 推理能力，是谷歌在推理模型方向的核心人物。他的离开对谷歌的推理研究是一个重大打击。",
+      "key_data": [
+        "谷歌推理研究负责人",
+        "跳槽 Meta",
+        "此前由李飞飞挖入谷歌"
+      ],
+      "judgment": "推理能力是下一代 AI 模型的核心竞争力，Meta 正在系统性地从谷歌挖角推理方向人才。这对谷歌的 Gemini 推理能力发展是个坏消息，也说明 Meta 在开源模型之外正在加强闭源模型的研发实力。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/06/438848.html"
+    },
+    {
+      "rank": 5,
+      "title": "TechCrunch：AI 竞争已从 OpenAI vs Anthropic 转向政治博弈",
+      "finding": "TechCrunch 发表评论文章指出，随着 GPT-5.6 和 Mythos 的发布受政府管控，AI 模型的竞争已经从技术能力比拼转向了政治博弈。模型的能力已经产生真实的政治后果，未来的竞争将需要集体行动而非单打独斗。",
+      "key_data": [
+        "竞争从技术转向政治",
+        "模型能力有政治后果",
+        "需要集体行动"
+      ],
+      "judgment": "这篇文章点出了当前 AI 行业最本质的变化：当模型能力足够强大时，谁能用、怎么用就不再是技术问题而是政治问题。对创业公司和开发者来说，这意味着未来最大的不确定性不是技术路线，而是监管政策。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "arXiv",
+      "title": "检测和控制模型谄媚行为的级联线性特征方法",
+      "finding": "研究人员发现可以通过激活空间中的线性方向来检测和控制 AI 模型的谄媚行为（即模型为了讨好用户而给出错误答案）。这种方法不需要重新训练模型，只需要少量对比样本即可实现。",
+      "key_data": [
+        "激活空间线性方向",
+        "不需要重新训练",
+        "少量对比样本即可"
+      ],
+      "judgment": "这是模型可解释性和安全性研究的重要进展，让开发者可以在不牺牲模型能力的前提下控制模型行为。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2606.26155",
+      "importance": 3
+    },
+    {
+      "source": "arXiv",
+      "title": "基准测试饱和后的新评估方法：以 CORE-Bench 为例",
+      "finding": "论文指出当基准测试准确率饱和后，直接替换为更难版本的做法会高估模型能力。他们提出了一种新的评估框架，能更准确地衡量模型在基准饱和后的真实能力。",
+      "key_data": [
+        "基准饱和后高估能力",
+        "新评估框架",
+        "更准确衡量真实能力"
+      ],
+      "judgment": "对 AI 评测领域有重要参考价值，提醒开发者和研究者不要盲目相信基准测试分数。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2606.26158",
+      "importance": 2
+    },
+    {
+      "source": "arXiv",
+      "title": "聊天模型的拒绝行为源于人格设定",
+      "finding": "研究发现指令微调模型中的拒绝行为（拒绝回答某些问题）与模型的人格设定共享相同的激活空间线性方向。这意味着模型的拒绝机制不是独立的安全模块，而是与模型人格紧密耦合。",
+      "key_data": [
+        "拒绝行为与人格共享激活方向",
+        "不是独立安全模块",
+        "与模型人格紧密耦合"
+      ],
+      "judgment": "这对 AI 安全设计有重要启示：安全机制不能独立于模型人格设计，需要更系统的方法。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2606.26161",
+      "importance": 3
+    },
+    {
+      "source": "Reddit",
+      "title": "无需 GPS 仅凭视频画面定位行车记录仪位置",
+      "finding": "一位开发者展示了名为 Third Eye 的项目，能够仅通过视频画面内容确定拍摄地点并在地图上绘制路线。这利用了视觉地理定位技术，不需要任何 GPS 数据。",
+      "key_data": [
+        "仅凭视频画面定位",
+        "绘制路线地图",
+        "视觉地理定位技术"
+      ],
+      "judgment": "展示了视觉 AI 在定位领域的潜力，对自动驾驶、无人机导航等场景有参考价值。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ufx8nx/showcase_geolocating_a_dashcam_video_without_gps/",
+      "importance": 2
+    },
+    {
+      "source": "Reddit",
+      "title": "RL 奖励函数调试器：训练中检测奖励欺骗",
+      "finding": "一位开发者在 GRPO 训练中发现奖励增加时难以判断是策略真正改进还是奖励函数被利用，于是开发了一个调试器，能在训练过程中实时检测奖励欺骗行为。",
+      "key_data": [
+        "GRPO 训练",
+        "实时检测奖励欺骗",
+        "区分真正改进与利用"
+      ],
+      "judgment": "对强化学习训练实践者非常实用，奖励欺骗是 RL 训练中的常见问题，这个工具能显著提升训练效率。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "量子位",
+      "title": "Claude Fable 5 分批重新上线，GPT-5.6 紧随其后",
+      "finding": "Anthropic 的 Claude Fable 5 模型开始分批重新上线，OpenAI 的 GPT-5.6 也紧随其后发布。两家公司都在政府管控下逐步恢复模型服务，但都采取了分批、限量的方式。",
+      "key_data": [
+        "Claude Fable 5 分批上线",
+        "GPT-5.6 紧随其后",
+        "政府管控下限量恢复"
+      ],
+      "judgment": "顶级模型的发布节奏已被政府管控打乱，未来模型发布将不再是技术事件，而是政治事件。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/06/438789.html",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "OpenAI 从 Uber 挖来印度负责人，拓展最大海外市场",
+      "finding": "OpenAI 挖来了 Uber 印度负责人，负责领导美国以外最大的市场。这表明 OpenAI 正在加速海外扩张，印度是其重点布局的市场。",
+      "key_data": [
+        "挖来 Uber 印度负责人",
+        "领导最大海外市场",
+        "加速海外扩张"
+      ],
+      "judgment": "OpenAI 的国际化战略正在加速，印度市场将成为其增长的重要引擎。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
+      "importance": 2
+    },
+    {
+      "source": "36氪",
+      "title": "DeepSeek 计划将所有部门规模扩大至少一倍",
+      "finding": "DeepSeek 宣布计划将公司所有部门的规模扩大至少一倍，这是其大规模扩张的信号。同时，智元机器人旗下的灵巧手业务估值已达 10 亿美元，成立仅 5 个月就实现盈利。",
+      "key_data": [
+        "DeepSeek 部门规模翻倍",
+        "智元灵巧手估值10亿美元",
+        "5个月实现盈利"
+      ],
+      "judgment": "DeepSeek 的扩张计划表明其正在从研究实验室转向商业化运营，这对国内 AI 开源生态和人才市场都将产生重大影响。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3869884559332356?f=rss",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "深度机智获数亿元融资，加速国产物理 AI 基座模型落地",
+      "finding": "深度机智在两个月内连续获得两轮数亿元融资，以全栈自主路线加速国产物理 AI 基座模型的落地。物理 AI 基座模型是机器人、自动驾驶等领域的核心技术。",
+      "key_data": [
+        "两轮数亿元融资",
+        "全栈自主路线",
+        "物理 AI 基座模型"
+      ],
+      "judgment": "物理 AI 正在成为资本新宠，国产替代路线在具身智能领域获得市场认可。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/06/438887.html",
+      "importance": 2
+    },
+    {
+      "source": "36氪",
+      "title": "G7 易流发布货运行业首款穿戴式 AI 硬件「拍拍豆」",
+      "finding": "G7 易流发布了货运行业首款穿戴式 AI 硬件「拍拍豆」，重 30 克，采用磁吸设计。司机可佩戴在胸前自动录制，放回底座自动上传云端。这解决了物流交付最后两米的数字化问题。",
+      "key_data": [
+        "30克穿戴式AI硬件",
+        "磁吸设计自动录制",
+        "解决物流最后两米"
+      ],
+      "judgment": "AI 硬件正在渗透传统行业的具体场景，穿戴式 AI 在物流、巡检等领域的应用前景广阔。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3869740772316162?f=rss",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "OpenAI 发布了 GPT-5.6 系列：Sol（旗舰）、Terra（日常均衡）、Luna（快速廉价）。Terra 的性能与 GPT-5 相当但成本更低。",
+      "source": "https://simonwillison.net/2026/Jun/26/openai/#atom-everything"
+    },
+    {
+      "person": "Dean W. Ball",
+      "level": "L2",
+      "quote": "前沿模型训练成本极高，大部分成本通过发布后的少数几个月回收。如果政府审批流程导致模型发布延迟或受限，将严重破坏商业模式。",
+      "source": "https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything"
+    },
+    {
+      "person": "Timothy B. Lee",
+      "level": "L2",
+      "quote": "说 LLM 没有学习曲线就像说当经理没有学习曲线——因为员工会完全听你的。实际上，用好 LLM 需要技巧和经验。",
+      "source": "https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "美国政府 AI 模型审批制度对全球 AI 生态的影响",
+      "reason": "GPT-5.6 和 Mythos 的政府管控是 AI 行业的分水岭，值得深入分析其长期影响。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI IDE 从代码生成到全流程产品开发的演进路径",
+      "reason": "Trae Work Design 功能代表了 AI 编程工具的新方向，值得研究其对产品开发流程的重塑。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "GPT-5.6 发布但需政府审批，AI 进入政治博弈时代",
+  "summary_paragraph": "今天 AI 行业发生了两件大事：OpenAI 发布 GPT-5.6 系列，Anthropic 的 Mythos 获准开放，但两者都受美国政府管控——用户需要逐个审批才能使用最强模型。这标志着 AI 竞争从技术比拼转向政治博弈，顶级模型成为战略资源。与此同时，字节 Trae 推出从需求到代码全自动的 Work Design 功能，国内 AI 编程工具首次覆盖产品设计环节。谷歌推理研究负责人跳槽 Meta，人才争夺白热化。DeepSeek 计划部门规模翻倍，国产物理 AI 公司获数亿元融资，行业仍在快速扩张。",
+  "snapshot": {
+    "date": "2026-06-27",
+    "hf_trending": [
+      {
+        "name": "baidu/Unlimited-OCR",
+        "short_name": "Unlimited-OCR",
+        "likes": 1044,
+        "downloads": 134146,
+        "url": "https://huggingface.co/baidu/Unlimited-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "unlimited-ocr"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "zai-org/GLM-5.2",
+        "short_name": "GLM-5.2",
+        "likes": 2595,
+        "downloads": 83589,
+        "url": "https://huggingface.co/zai-org/GLM-5.2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "likes": 591,
+        "downloads": 486810,
+        "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "tags": [
+          "gguf",
+          "llama.cpp",
+          "quantized"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "short_name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "likes": 689,
+        "downloads": 186663,
+        "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "tags": [
+          "gguf",
+          "gemma4",
+          "coding"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+        "short_name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+        "likes": 2400,
+        "downloads": 516333,
+        "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+        "tags": [
+          "gguf",
+          "gemma4",
+          "coding"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+        "short_name": "Qwythos-9B-Claude-Mythos-5-1M",
+        "likes": 450,
+        "downloads": 20346,
+        "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen-AgentWorld-35B-A3B",
+        "short_name": "Qwen-AgentWorld-35B-A3B",
+        "likes": 322,
+        "downloads": 13186,
+        "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "krea/Krea-2-Turbo",
+        "short_name": "Krea-2-Turbo",
+        "likes": 285,
+        "downloads": 8721,
+        "url": "https://huggingface.co/krea/Krea-2-Turbo",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "text-to-image"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "simplex-chat/simplex-chat",
+        "desc": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private ",
+        "stars": 12632,
+        "stars_today": 432,
+        "forks": 714,
+        "language": "Haskell",
+        "url": "https://github.com/simplex-chat/simplex-chat"
+      },
+      {
+        "name": "google-labs-code/design.md",
+        "desc": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a p",
+        "stars": 21318,
+        "stars_today": 2407,
+        "forks": 1727,
+        "language": "TypeScript",
+        "url": "https://github.com/google-labs-code/design.md"
+      },
+      {
+        "name": "commaai/openpilot",
+        "desc": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system o",
+        "stars": 61801,
+        "stars_today": 80,
+        "forks": 11049,
+        "language": "Python",
+        "url": "https://github.com/commaai/openpilot"
+      },
+      {
+        "name": "kunchenguid/no-mistakes",
+        "desc": "git push no-mistakes",
+        "stars": 3447,
+        "stars_today": 398,
+        "forks": 207,
+        "language": "Go",
+        "url": "https://github.com/kunchenguid/no-mistakes"
+      },
+      {
+        "name": "grafana/grafana",
+        "desc": "The open and composable observability and data visualization platform. Visualize metrics, logs, and ",
+        "stars": 74921,
+        "stars_today": 32,
+        "forks": 14127,
+        "language": "TypeScript",
+        "url": "https://github.com/grafana/grafana"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "org": "deepseek",
+        "total_tokens": 639793447310,
+        "total_tokens_str": "640B",
+        "api_calls": 0,
+        "change": -4.9,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 629223208709,
+        "total_tokens_str": "629B",
+        "api_calls": 0,
+        "change": -2.0,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 3,
+        "slug": "tencent/hy3-preview",
+        "name": "Hy3 preview",
+        "org": "tencent",
+        "total_tokens": 527467786405,
+        "total_tokens_str": "527B",
+        "api_calls": 0,
+        "change": 9.0,
+        "url": "https://openrouter.ai/tencent/hy3-preview"
+      },
+      {
+        "rank": 4,
+        "slug": "openrouter/owl-alpha",
+        "name": "Owl Alpha",
+        "org": "openrouter",
+        "total_tokens": 521224758113,
+        "total_tokens_str": "521B",
+        "api_calls": 0,
+        "change": -6.7,
+        "url": "https://openrouter.ai/openrouter/owl-alpha"
+      },
+      {
+        "rank": 5,
+        "slug": "minimax/minimax-m3",
+        "name": "MiniMax M3",
+        "org": "minimax",
+        "total_tokens": 435168290296,
+        "total_tokens_str": "435B",
+        "api_calls": 0,
+        "change": -19.6,
+        "url": "https://openrouter.ai/minimax/minimax-m3"
+      },
+      {
+        "rank": 6,
+        "slug": "z-ai/glm-5.2",
+        "name": "GLM 5.2",
+        "org": "z-ai",
+        "total_tokens": 364099224540,
+        "total_tokens_str": "364B",
+        "api_calls": 0,
+        "change": 12.3,
+        "url": "https://openrouter.ai/z-ai/glm-5.2"
+      },
+      {
+        "rank": 7,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
+        "org": "deepseek",
+        "total_tokens": 354788654355,
+        "total_tokens_str": "355B",
+        "api_calls": 0,
+        "change": 14.8,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 8,
+        "slug": "anthropic/claude-4.8-opus",
+        "name": "Claude 4.8 Opus",
+        "org": "anthropic",
+        "total_tokens": 300551729599,
+        "total_tokens_str": "301B",
+        "api_calls": 0,
+        "change": -7.8,
+        "url": "https://openrouter.ai/anthropic/claude-4.8-opus"
+      },
+      {
+        "rank": 9,
+        "slug": "anthropic/claude-4.7-opus",
+        "name": "Claude 4.7 Opus",
+        "org": "anthropic",
+        "total_tokens": 287057790279,
+        "total_tokens_str": "287B",
+        "api_calls": 0,
+        "change": -5.1,
+        "url": "https://openrouter.ai/anthropic/claude-4.7-opus"
+      },
+      {
+        "rank": 10,
+        "slug": "anthropic/claude-4.6-sonnet",
+        "name": "Claude 4.6 Sonnet",
+        "org": "anthropic",
+        "total_tokens": 225689241102,
+        "total_tokens_str": "226B",
+        "api_calls": 0,
+        "change": -10.1,
+        "url": "https://openrouter.ai/anthropic/claude-4.6-sonnet"
+      }
+    ],
+    "hf_summary": "多模态与文本生成模型主导，推理优化成焦点"
+  }
+}
