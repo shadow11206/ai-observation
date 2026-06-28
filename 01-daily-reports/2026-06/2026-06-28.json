@@ -3,220 +3,218 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "OpenAI 分三层发布 GPT-5.6：Sol、Terra、Luna，仅限可信合作伙伴",
-      "finding": "OpenAI 将 GPT-5.6 分为三个版本：Sol（旗舰）、Terra（平衡）、Luna（轻量），仅向可信合作伙伴开放。同日 Anthropic 也有类似分层发布，暗示两大巨头在安全与商业化之间寻找新平衡。",
+      "title": "亚洲AI初创公司推出类Mythos模型，Anthropic出口禁令持续发酵",
+      "finding": "由于美国对Anthropic等AI实验室的出口限制，亚洲AI初创公司开始推出具有类似Mythos能力的模型，以规避禁令。这可能导致美国AI公司永久失去这一巨大市场。",
       "key_data": [
-        "GPT-5.6 Sol/Terra/Luna",
-        "仅限可信合作伙伴",
-        "同日 Anthropic 分层发布"
+        "出口禁令持续",
+        "亚洲模型崛起",
+        "市场格局重塑"
       ],
-      "judgment": "这意味着模型发布从'一个版本打天下'转向'分层定制'，开发者需要适应不同能力/安全级别的模型选择，同时也暗示前沿模型的能力已经强大到需要限制访问。",
-      "confidence": 4,
-      "source": "Latent Space",
-      "url": "https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna"
-    },
-    {
-      "rank": 2,
-      "title": "DeepSeek 开源 DSpark：投机解码大幅加速 LLM 推理",
-      "finding": "DeepSeek 发布 DSpark 论文，提出一种新的投机解码方法，能在不牺牲生成质量的前提下显著加速大模型推理。论文在 Hacker News 获得 725 分，引发社区热议。",
-      "key_data": [
-        "投机解码",
-        "推理加速",
-        "Hacker News 725 分"
-      ],
-      "judgment": "推理效率是当前大模型落地的最大瓶颈之一，DeepSeek 在开源推理优化上持续输出，这会进一步拉低部署成本，让更多中小团队有能力运行高性能模型。",
-      "confidence": 5,
-      "source": "Hacker News",
-      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf"
-    },
-    {
-      "rank": 3,
-      "title": "亚洲 AI 初创公司推出类 Mythos 模型，填补 Anthropic 出口禁令留下的市场空白",
-      "finding": "由于 Anthropic 的出口禁令持续，亚洲 AI 初创公司开始推出具有类似 Mythos 能力的模型，试图占领被美国 AI 实验室放弃的巨大市场。TechCrunch 评论称美国 AI 实验室可能永远失去这个市场。",
-      "key_data": [
-        "类 Mythos 模型",
-        "Anthropic 出口禁令",
-        "亚洲市场替代"
-      ],
-      "judgment": "地缘政治正在重塑 AI 产业格局，出口禁令反而催生了本土替代品。这对美国 AI 公司是长期利空，对亚洲 AI 生态是加速催化剂。",
+      "judgment": "这是地缘政治重塑AI产业格局的关键信号。美国AI公司的技术优势正被出口管制反噬，亚洲市场将加速形成独立生态，对全球AI供应链和开发者选择产生深远影响。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/"
     },
     {
-      "rank": 4,
-      "title": "微软年度 AI 职场报告：员工已准备好，公司还没跟上",
-      "finding": "微软发布 28 页 AI 职场报告，核心结论是员工个人已经在大量使用 AI 工具提升效率，但企业层面的组织架构、培训、安全策略严重滞后，形成'个人快、公司慢'的脱节。",
+      "rank": 2,
+      "title": "苹果推出Core AI框架，为自研芯片优化端侧生成式AI",
+      "finding": "苹果发布Core AI框架，专为自研芯片（如M系列、A系列）优化端侧生成式AI性能。此举将大幅提升iPhone、Mac等设备上AI应用的运行效率和隐私保护能力。",
       "key_data": [
-        "28 页报告",
-        "员工已准备好",
-        "公司组织滞后"
+        "Core AI框架",
+        "自研芯片优化",
+        "端侧生成式AI"
       ],
-      "judgment": "这是典型的'影子 IT'现象在 AI 时代的重演。对产品经理来说，这意味着企业级 AI 产品的机会在于帮助公司'追上'员工，而不是从零教育用户。",
+      "judgment": "苹果正在构建从芯片到框架的完整端侧AI护城河。这对开发者意味着未来为苹果生态开发AI应用将获得更好的性能和隐私优势，可能吸引更多AI应用从云端转向端侧。",
       "confidence": 4,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/06/439032.html"
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/x6KDPdgrdHzY7I38JK9U?utm_source=rss&utm_medium=article"
+    },
+    {
+      "rank": 3,
+      "title": "GitLab 19.0将Agentic AI嵌入凭证、合并请求与供应链安全",
+      "finding": "GitLab 19.0版本深度集成Agentic AI，覆盖凭证管理、合并请求审查和供应链安全等核心DevOps场景。AI Agent将自动处理安全漏洞检测、代码审查和凭证轮换等任务。",
+      "key_data": [
+        "Agentic AI集成",
+        "DevOps安全",
+        "自动化审查"
+      ],
+      "judgment": "GitLab此举标志着AI Agent从辅助编码向DevOps全流程自动化迈进。开发者日常工作中的安全合规、代码审查等繁琐任务将被AI接管，DevOps工程师的角色将加速向AI Agent管理者转变。",
+      "confidence": 4,
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/ICdHZotGllYog0ocIrxA?utm_source=rss&utm_medium=article"
+    },
+    {
+      "rank": 4,
+      "title": "苹果Vision Pro高管据报将离职加入OpenAI硬件团队",
+      "finding": "苹果负责Vision Pro的副总裁Paul Meade据报将离职加入OpenAI的硬件团队。这标志着OpenAI正在加速硬件布局，而苹果在空间计算领域的核心人才正在流失。",
+      "key_data": [
+        "Vision Pro高管离职",
+        "加入OpenAI硬件",
+        "人才流向"
+      ],
+      "judgment": "OpenAI从软件向硬件延伸的战略意图明确。Vision Pro高管的加入可能意味着OpenAI正在开发类似空间计算设备，这将直接与苹果、Meta在下一代计算平台展开竞争。",
+      "confidence": 3,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/"
     },
     {
       "rank": 5,
-      "title": "Sebastian Raschka：用本地开源模型替代 Claude Code 和 Codex 订阅",
-      "finding": "知名 AI 研究员 Sebastian Raschka 撰文介绍如何使用开源模型在本地搭建编程助手，作为 Claude Code 和 GitHub Codex 的替代方案，强调本地部署在隐私、成本和定制性上的优势。",
+      "title": "CVPR 2026最热方向：杭州团队率先实现端侧流式多模态模型",
+      "finding": "一家杭州团队在CVPR 2026上发布全球首个端侧流式多模态模型，能够在手机等设备上实时处理视频、语音和文本。这是继VLM-R1之后该团队在端侧AI的又一突破。",
       "key_data": [
-        "本地编程 Agent",
-        "替代 Claude Code/Codex",
-        "开源模型"
+        "端侧流式多模态",
+        "CVPR 2026",
+        "实时处理"
       ],
-      "judgment": "这代表了一股'去中心化 AI 编程'的趋势，当 API 成本上升或隐私要求严格时，本地模型会成为一个重要选项。开发者应该开始关注本地推理的成熟度。",
-      "confidence": 4,
-      "source": "Sebastian Raschka",
-      "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents"
+      "judgment": "端侧多模态实时处理是AI落地的关键瓶颈。这一突破意味着未来手机、IoT设备无需联网即可实现类似GPT-4o的实时多模态交互，将催生大量新的AI原生应用。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/06/439236.html"
     }
   ],
   "model_tech": [
     {
-      "source": "ArXiv",
-      "title": "检测和控制模型谄媚行为的级联线性特征方法",
-      "finding": "研究者发现可以通过激活操控（activation steering）检测和控制大模型的谄媚行为（模型倾向于迎合用户观点），提出级联线性特征方法。",
+      "source": "Sebastian Raschka",
+      "title": "使用本地编码Agent：开源模型替代Claude Code和Codex",
+      "finding": "Sebastian Raschka撰文介绍如何使用开源模型在本地搭建编码Agent，作为Claude Code和GitHub Copilot Codex的替代方案。文章提供了具体的工具链和配置方法。",
       "key_data": [
-        "谄媚行为检测",
-        "激活操控",
-        "级联线性特征"
+        "本地编码Agent",
+        "开源替代方案",
+        "Claude Code替代"
       ],
-      "judgment": "对产品经理来说，这意味着未来可以更精细地控制模型的行为倾向，减少'讨好用户'带来的误导风险。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.26155",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv",
-      "title": "基准测试饱和后的新范式：以 CORE-Bench 为例",
-      "finding": "论文指出当基准测试准确率饱和后，简单替换更难版本的做法有局限，提出应更关注模型在真实场景中的泛化能力而非刷榜。",
-      "key_data": [
-        "基准饱和",
-        "泛化能力",
-        "CORE-Bench"
-      ],
-      "judgment": "对开发者来说，这意味着不要只看模型在排行榜上的分数，更要关注实际业务场景中的表现。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.26158",
-      "importance": 2
-    },
-    {
-      "source": "Reddit",
-      "title": "MathFormer：测试符号数学是模式匹配还是真正的推理",
-      "finding": "一个仅 400 万参数的小模型在符号数学展开任务上表现出色，引发讨论：模型是在做真正的推理还是只是模式匹配？",
-      "key_data": [
-        "400 万参数",
-        "符号数学",
-        "推理 vs 模式匹配"
-      ],
-      "judgment": "这个实验提醒我们，即使小模型也能在特定任务上表现惊艳，但'理解'和'记忆'的边界仍然模糊。",
-      "confidence": 3,
-      "url": "https://github.com/Abhinand20/MathFormer",
-      "importance": 2
-    },
-    {
-      "source": "Reddit",
-      "title": "自托管 Gemma 2 9B 与云端 API 的基准对比：FP8 量化的预填充代价",
-      "finding": "开发者实测在 NVIDIA L4 上自托管 Gemma 2 9B，发现 FP8 量化虽然节省显存，但带来了显著的预填充（prefill）延迟开销，与云端 API 的性价比权衡并不简单。",
-      "key_data": [
-        "FP8 量化",
-        "预填充延迟",
-        "NVIDIA L4"
-      ],
-      "judgment": "对考虑自部署的团队是重要参考：量化不是免费的午餐，预填充阶段的延迟可能抵消显存节省的优势。",
+      "judgment": "这标志着AI编码工具正在从云服务向本地化、开源化演进。对于注重数据安全和成本控制的团队，本地编码Agent将成为重要选择。",
       "confidence": 4,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uhdxnb/benchmarking_selfhosted_gemma_2_9b_vs_frontier/",
+      "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
       "importance": 3
+    },
+    {
+      "source": "Reddit",
+      "title": "MathFormer：测试符号数学是模式匹配还是推理",
+      "finding": "研究者开发了MathFormer，一个仅4M参数的小模型，通过因子分解展开任务测试LLM的数学能力本质。结果表明，即使是小模型也能通过模式匹配完成符号数学任务。",
+      "key_data": [
+        "4M参数",
+        "符号数学",
+        "模式匹配vs推理"
+      ],
+      "judgment": "这项研究挑战了'大模型=推理能力'的普遍认知。小模型通过模式匹配就能解决看似需要推理的数学问题，提示我们当前AI的'推理'可能更多是高级模式匹配。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uhatw8/mathformer_testing_whether_symbolic_math_is/",
+      "importance": 3
+    },
+    {
+      "source": "Reddit",
+      "title": "pybench：防止训练代码或配置被静默破坏的统计测试工具",
+      "finding": "开发者发布pybench，一个类似pytest但专为统计测试设计的工具。它能确保训练指标在统计层面不发生回归，自动管理种子和过往基准结果，提供简单的CLI接口。",
+      "key_data": [
+        "统计测试工具",
+        "防止回归",
+        "自动化基准管理"
+      ],
+      "judgment": "ML实验的可复现性一直是痛点。pybench填补了训练流程中统计回归测试的空白，对需要长期迭代模型的团队有实用价值。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ugv7u3/i_silently_break_training_codes_or_configs_so_i/",
+      "importance": 2
+    },
+    {
+      "source": "Reddit",
+      "title": "在ONNX模型权重中隐藏信息：一种新的模型水印方法",
+      "finding": "研究者提出在微调后的ONNX模型权重的尾数位中隐藏信息的方法，可用于模型版权保护和溯源。该方法对模型精度影响极小。",
+      "key_data": [
+        "模型水印",
+        "ONNX权重",
+        "版权保护"
+      ],
+      "judgment": "随着开源模型和微调模型的普及，模型版权保护成为刚需。这种在权重中嵌入水印的方法为模型溯源提供了技术手段。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uh61uw/hiding_messages_in_the_least_significant_mantissa/",
+      "importance": 2
+    },
+    {
+      "source": "Reddit",
+      "title": "可在旧GPU上运行的LLM训练框架",
+      "finding": "开发者构建了一个LLM训练框架，通过减少对flash-attention、triton等硬件特定依赖的导入，使其能在较旧的GPU上运行而不崩溃。",
+      "key_data": [
+        "旧GPU兼容",
+        "减少硬件依赖",
+        "训练框架"
+      ],
+      "judgment": "降低LLM训练的硬件门槛有助于AI民主化。这个框架让更多拥有旧硬件的开发者也能参与模型训练，但性能和效率可能不如专用框架。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uh7ib3/built_an_llm_training_framework_that_actually/",
+      "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "量子位",
-      "title": "CVPR 2026 最热方向：杭州团队率先推出端侧流式多模态模型",
-      "finding": "一家杭州 AI 团队在 CVPR 2026 上发布全球首个端侧流式多模态模型，能在手机等设备上实时处理视频、语音等多模态输入。",
+      "source": "InfoQ",
+      "title": "Bedrock平台上的Fable 5模型需向Anthropic共享推理数据",
+      "finding": "AWS Bedrock平台上的Fable 5模型要求用户向Anthropic共享推理数据。这一条款引发了对企业数据隐私和模型使用成本的关注。",
       "key_data": [
-        "端侧流式多模态",
-        "CVPR 2026",
-        "杭州团队"
+        "数据共享要求",
+        "Bedrock平台",
+        "隐私关注"
       ],
-      "judgment": "端侧多模态是 2026 年的关键趋势，中国团队在这个方向领先，意味着消费级 AI 硬件（手机、眼镜）的体验将大幅提升。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/06/439236.html",
+      "judgment": "企业采用AI模型时，数据隐私条款正成为关键决策因素。Anthropic此举可能推动更多企业转向本地部署或开源模型。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/NodhKVrhWoYF9yGwm12j?utm_source=rss&utm_medium=article",
       "importance": 3
     },
     {
       "source": "量子位",
-      "title": "BrowserBC：克隆人类点击行为，让一次操作转化为所有 Agent 的能力",
-      "finding": "新项目 BrowserBC 通过录制人类的一次网页操作，将其转化为可复用的 Agent 技能，实现'一次录制，所有 Agent 共享'。",
+      "title": "BrowserBC：克隆人类点击，让一次网页操作转化为所有Agent的能力",
+      "finding": "BrowserBC项目提出通过克隆人类的一次网页点击操作，将其转化为所有AI Agent可复用的能力。这类似于行为克隆，让Agent通过观察人类操作学习网页交互。",
       "key_data": [
-        "BrowserBC",
-        "一次录制多 Agent 复用",
-        "网页操作克隆"
+        "行为克隆",
+        "网页操作复用",
+        "Agent学习"
       ],
-      "judgment": "如果成熟，这将大幅降低 Agent 的部署成本——不再需要为每个场景单独训练，而是像录宏一样教 Agent 做事。",
+      "judgment": "如果成熟，这将大幅降低Agent的网页操作训练成本。一次人类演示即可让无数Agent学会特定网页操作，对RPA和自动化测试领域影响深远。",
       "confidence": 3,
       "url": "https://www.qbitai.com/2026/06/439393.html",
       "importance": 2
     },
     {
-      "source": "InfoQ",
-      "title": "GitLab 19.0 将 Agentic AI 嵌入凭证管理、合并请求与供应链安全",
-      "finding": "GitLab 19.0 发布，将 AI Agent 深度集成到 DevOps 流程中，包括自动处理凭证泄露、智能合并请求审查、供应链安全扫描等。",
+      "source": "量子位",
+      "title": "第一批一人公司，现在怎么样了？",
+      "finding": "文章采访了多位利用AI工具创办'一人公司'（OPC）的创业者，探讨他们的现状、挑战和成功经验。AI工具让个人能够完成过去需要整个团队的工作。",
       "key_data": [
-        "GitLab 19.0",
-        "Agentic AI",
-        "DevOps 安全"
+        "一人公司",
+        "AI赋能创业",
+        "OPC现状"
       ],
-      "judgment": "这是 AI 从'辅助编码'向'自动化运维'延伸的标志性事件，DevOps 工程师的工作方式将发生根本变化。",
-      "confidence": 4,
-      "url": "https://www.infoq.cn/article/ICdHZotGllYog0ocIrxA",
-      "importance": 3
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Apple Vision Pro 高管据悉将离职加入 OpenAI 硬件团队",
-      "finding": "负责 Apple Vision Pro 的副总裁 Paul Meade 据报将离开苹果，加入 OpenAI 的硬件团队。",
-      "key_data": [
-        "Vision Pro 高管",
-        "加入 OpenAI 硬件",
-        "人才流动"
-      ],
-      "judgment": "OpenAI 在硬件上的布局越来越认真，挖来苹果 AR 负责人意味着其硬件野心可能不止于芯片，而是完整的终端设备。",
+      "judgment": "AI正在重塑创业的最小可行团队规模。一人公司模式的成功案例增多，意味着AI工具已经成熟到足以支撑独立开发者从0到1构建产品。",
       "confidence": 3,
-      "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
-      "importance": 3
+      "url": "https://www.qbitai.com/2026/06/439237.html",
+      "importance": 2
     }
   ],
-  "opinions": [
-    {
-      "person": "Sebastian Raschka",
-      "level": "L1",
-      "quote": "本地开源模型已经足够好，可以作为 Claude Code 和 Codex 的替代方案，尤其在隐私和成本敏感的场景下。",
-      "source": "https://magazine.sebastianraschka.com/p/using-local-coding-agents"
-    }
-  ],
+  "opinions": [],
   "deep_dive_suggestions": [
     {
-      "topic": "模型分层发布策略对开发者生态的影响",
-      "reason": "OpenAI 和 Anthropic 同日推出分层模型，可能改变开发者选择模型的逻辑，值得深入分析。",
+      "topic": "美国AI出口禁令对全球AI产业格局的影响",
+      "reason": "亚洲模型崛起可能永久改变市场格局，值得深入分析地缘政治对AI产业的影响。",
       "priority": "high"
     },
     {
-      "topic": "亚洲 AI 模型替代美国模型的现状与前景",
-      "reason": "出口禁令催生亚洲本土模型生态，这是地缘政治重塑 AI 产业的关键案例。",
+      "topic": "苹果Core AI框架的技术细节与开发者影响",
+      "reason": "苹果端侧AI战略的关键一步，对开发者生态和AI应用形态有重大影响。",
       "priority": "high"
+    },
+    {
+      "topic": "AI Agent在DevOps全流程中的应用现状与趋势",
+      "reason": "GitLab 19.0是AI Agent深入DevOps的标志，值得研究其对开发流程的变革。",
+      "priority": "medium"
     }
   ],
-  "summary_one_line": "模型分层发布、推理加速、亚洲替代崛起",
-  "summary_paragraph": "今日 AI 行业迎来多个结构性变化信号。OpenAI 和 Anthropic 同日推出分层模型（Sol/Terra/Luna），标志着前沿模型从'一版通吃'转向'按需定制'。DeepSeek 开源 DSpark 投机解码方案，继续降低推理成本。地缘政治方面，Anthropic 出口禁令催生亚洲本土模型替代品，美国 AI 公司可能永久失去这一市场。微软年度报告揭示'员工快、公司慢'的 AI 落地脱节，为企业级 AI 产品指明方向。同时，Apple Vision Pro 高管加入 OpenAI 硬件团队，暗示 AI 硬件竞争将更加激烈。",
+  "summary_one_line": "出口禁令重塑格局，苹果加码端侧AI",
+  "summary_paragraph": "今日AI行业呈现两大主线：地缘政治加速亚洲AI生态独立，美国出口禁令反噬本土公司，亚洲初创推出类Mythos模型；苹果发布Core AI框架，从芯片到软件全面押注端侧生成式AI。同时，GitLab 19.0将AI Agent深度嵌入DevOps全流程，OpenAI从苹果挖来Vision Pro高管布局硬件，CVPR 2026上杭州团队实现端侧流式多模态突破。这些事件共同指向一个趋势：AI竞争正从模型能力转向生态、硬件和端侧部署的综合较量。",
   "snapshot": {
     "date": "2026-06-28",
     "hf_trending": [
       {
         "name": "baidu/Unlimited-OCR",
         "short_name": "Unlimited-OCR",
-        "likes": 1140,
+        "likes": 1153,
         "downloads": 212760,
         "url": "https://huggingface.co/baidu/Unlimited-OCR",
         "tags": [
@@ -232,7 +230,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 2683,
+        "likes": 2695,
         "downloads": 98994,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -248,7 +246,7 @@
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-        "likes": 674,
+        "likes": 683,
         "downloads": 712627,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "tags": [
@@ -264,7 +262,7 @@
       {
         "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "short_name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-        "likes": 733,
+        "likes": 739,
         "downloads": 206828,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "tags": [
@@ -280,7 +278,7 @@
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M",
-        "likes": 489,
+        "likes": 497,
         "downloads": 30298,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
         "tags": [
@@ -296,7 +294,7 @@
       {
         "name": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "short_name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-        "likes": 2427,
+        "likes": 2431,
         "downloads": 536130,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
         "tags": [
@@ -312,7 +310,7 @@
       {
         "name": "Qwen/Qwen-AgentWorld-35B-A3B",
         "short_name": "Qwen-AgentWorld-35B-A3B",
-        "likes": 359,
+        "likes": 367,
         "downloads": 18872,
         "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
         "tags": [
@@ -328,7 +326,7 @@
       {
         "name": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "short_name": "Ornith-1.0-35B-GGUF",
-        "likes": 328,
+        "likes": 339,
         "downloads": 20266,
         "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "tags": [
@@ -346,45 +344,45 @@
       {
         "name": "simplex-chat/simplex-chat",
         "desc": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private ",
-        "stars": 13890,
+        "stars": 14053,
         "stars_today": 1469,
-        "forks": 793,
+        "forks": 805,
         "language": "Haskell",
         "url": "https://github.com/simplex-chat/simplex-chat"
       },
       {
         "name": "xbtlin/ai-berkshire",
-        "desc": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value inv",
-        "stars": 4187,
+        "desc": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a v",
+        "stars": 4507,
         "stars_today": 685,
-        "forks": 582,
+        "forks": 623,
         "language": "Python",
         "url": "https://github.com/xbtlin/ai-berkshire"
       },
       {
         "name": "commaai/openpilot",
         "desc": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system o",
-        "stars": 62082,
+        "stars": 62132,
         "stars_today": 322,
-        "forks": 11066,
+        "forks": 11071,
         "language": "Python",
         "url": "https://github.com/commaai/openpilot"
       },
       {
         "name": "IceWhaleTech/CasaOS",
         "desc": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
-        "stars": 35806,
+        "stars": 35869,
         "stars_today": 502,
-        "forks": 2044,
+        "forks": 2045,
         "language": "Go",
         "url": "https://github.com/IceWhaleTech/CasaOS"
       },
       {
         "name": "ripienaar/free-for-dev",
         "desc": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
-        "stars": 124192,
+        "stars": 124258,
         "stars_today": 459,
-        "forks": 13083,
+        "forks": 13089,
         "language": "HTML",
         "url": "https://github.com/ripienaar/free-for-dev"
       }
@@ -395,7 +393,7 @@
         "slug": "deepseek/deepseek-v4-flash",
         "name": "DeepSeek V4 Flash",
         "org": "deepseek",
-        "total_tokens": 627003404142,
+        "total_tokens": 627004796533,
         "total_tokens_str": "627B",
         "api_calls": 0,
         "change": -2.0,
@@ -501,6 +499,6 @@
         "url": "https://openrouter.ai/anthropic/claude-4.8-opus"
       }
     ],
-    "hf_summary": "开源多模态与量化模型成主流，情感值分化明显"
+    "hf_summary": "量化模型与多模态理解持续领跑"
   }
 }
