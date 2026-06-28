@@ -1,0 +1,506 @@
+{
+  "date": "2026-06-28",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "OpenAI 分三层发布 GPT-5.6：Sol、Terra、Luna，仅限可信合作伙伴",
+      "finding": "OpenAI 将 GPT-5.6 分为三个版本：Sol（旗舰）、Terra（平衡）、Luna（轻量），仅向可信合作伙伴开放。同日 Anthropic 也有类似分层发布，暗示两大巨头在安全与商业化之间寻找新平衡。",
+      "key_data": [
+        "GPT-5.6 Sol/Terra/Luna",
+        "仅限可信合作伙伴",
+        "同日 Anthropic 分层发布"
+      ],
+      "judgment": "这意味着模型发布从'一个版本打天下'转向'分层定制'，开发者需要适应不同能力/安全级别的模型选择，同时也暗示前沿模型的能力已经强大到需要限制访问。",
+      "confidence": 4,
+      "source": "Latent Space",
+      "url": "https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna"
+    },
+    {
+      "rank": 2,
+      "title": "DeepSeek 开源 DSpark：投机解码大幅加速 LLM 推理",
+      "finding": "DeepSeek 发布 DSpark 论文，提出一种新的投机解码方法，能在不牺牲生成质量的前提下显著加速大模型推理。论文在 Hacker News 获得 725 分，引发社区热议。",
+      "key_data": [
+        "投机解码",
+        "推理加速",
+        "Hacker News 725 分"
+      ],
+      "judgment": "推理效率是当前大模型落地的最大瓶颈之一，DeepSeek 在开源推理优化上持续输出，这会进一步拉低部署成本，让更多中小团队有能力运行高性能模型。",
+      "confidence": 5,
+      "source": "Hacker News",
+      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf"
+    },
+    {
+      "rank": 3,
+      "title": "亚洲 AI 初创公司推出类 Mythos 模型，填补 Anthropic 出口禁令留下的市场空白",
+      "finding": "由于 Anthropic 的出口禁令持续，亚洲 AI 初创公司开始推出具有类似 Mythos 能力的模型，试图占领被美国 AI 实验室放弃的巨大市场。TechCrunch 评论称美国 AI 实验室可能永远失去这个市场。",
+      "key_data": [
+        "类 Mythos 模型",
+        "Anthropic 出口禁令",
+        "亚洲市场替代"
+      ],
+      "judgment": "地缘政治正在重塑 AI 产业格局，出口禁令反而催生了本土替代品。这对美国 AI 公司是长期利空，对亚洲 AI 生态是加速催化剂。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/"
+    },
+    {
+      "rank": 4,
+      "title": "微软年度 AI 职场报告：员工已准备好，公司还没跟上",
+      "finding": "微软发布 28 页 AI 职场报告，核心结论是员工个人已经在大量使用 AI 工具提升效率，但企业层面的组织架构、培训、安全策略严重滞后，形成'个人快、公司慢'的脱节。",
+      "key_data": [
+        "28 页报告",
+        "员工已准备好",
+        "公司组织滞后"
+      ],
+      "judgment": "这是典型的'影子 IT'现象在 AI 时代的重演。对产品经理来说，这意味着企业级 AI 产品的机会在于帮助公司'追上'员工，而不是从零教育用户。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/06/439032.html"
+    },
+    {
+      "rank": 5,
+      "title": "Sebastian Raschka：用本地开源模型替代 Claude Code 和 Codex 订阅",
+      "finding": "知名 AI 研究员 Sebastian Raschka 撰文介绍如何使用开源模型在本地搭建编程助手，作为 Claude Code 和 GitHub Codex 的替代方案，强调本地部署在隐私、成本和定制性上的优势。",
+      "key_data": [
+        "本地编程 Agent",
+        "替代 Claude Code/Codex",
+        "开源模型"
+      ],
+      "judgment": "这代表了一股'去中心化 AI 编程'的趋势，当 API 成本上升或隐私要求严格时，本地模型会成为一个重要选项。开发者应该开始关注本地推理的成熟度。",
+      "confidence": 4,
+      "source": "Sebastian Raschka",
+      "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv",
+      "title": "检测和控制模型谄媚行为的级联线性特征方法",
+      "finding": "研究者发现可以通过激活操控（activation steering）检测和控制大模型的谄媚行为（模型倾向于迎合用户观点），提出级联线性特征方法。",
+      "key_data": [
+        "谄媚行为检测",
+        "激活操控",
+        "级联线性特征"
+      ],
+      "judgment": "对产品经理来说，这意味着未来可以更精细地控制模型的行为倾向，减少'讨好用户'带来的误导风险。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2606.26155",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "基准测试饱和后的新范式：以 CORE-Bench 为例",
+      "finding": "论文指出当基准测试准确率饱和后，简单替换更难版本的做法有局限，提出应更关注模型在真实场景中的泛化能力而非刷榜。",
+      "key_data": [
+        "基准饱和",
+        "泛化能力",
+        "CORE-Bench"
+      ],
+      "judgment": "对开发者来说，这意味着不要只看模型在排行榜上的分数，更要关注实际业务场景中的表现。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2606.26158",
+      "importance": 2
+    },
+    {
+      "source": "Reddit",
+      "title": "MathFormer：测试符号数学是模式匹配还是真正的推理",
+      "finding": "一个仅 400 万参数的小模型在符号数学展开任务上表现出色，引发讨论：模型是在做真正的推理还是只是模式匹配？",
+      "key_data": [
+        "400 万参数",
+        "符号数学",
+        "推理 vs 模式匹配"
+      ],
+      "judgment": "这个实验提醒我们，即使小模型也能在特定任务上表现惊艳，但'理解'和'记忆'的边界仍然模糊。",
+      "confidence": 3,
+      "url": "https://github.com/Abhinand20/MathFormer",
+      "importance": 2
+    },
+    {
+      "source": "Reddit",
+      "title": "自托管 Gemma 2 9B 与云端 API 的基准对比：FP8 量化的预填充代价",
+      "finding": "开发者实测在 NVIDIA L4 上自托管 Gemma 2 9B，发现 FP8 量化虽然节省显存，但带来了显著的预填充（prefill）延迟开销，与云端 API 的性价比权衡并不简单。",
+      "key_data": [
+        "FP8 量化",
+        "预填充延迟",
+        "NVIDIA L4"
+      ],
+      "judgment": "对考虑自部署的团队是重要参考：量化不是免费的午餐，预填充阶段的延迟可能抵消显存节省的优势。",
+      "confidence": 4,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uhdxnb/benchmarking_selfhosted_gemma_2_9b_vs_frontier/",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "量子位",
+      "title": "CVPR 2026 最热方向：杭州团队率先推出端侧流式多模态模型",
+      "finding": "一家杭州 AI 团队在 CVPR 2026 上发布全球首个端侧流式多模态模型，能在手机等设备上实时处理视频、语音等多模态输入。",
+      "key_data": [
+        "端侧流式多模态",
+        "CVPR 2026",
+        "杭州团队"
+      ],
+      "judgment": "端侧多模态是 2026 年的关键趋势，中国团队在这个方向领先，意味着消费级 AI 硬件（手机、眼镜）的体验将大幅提升。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/06/439236.html",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "BrowserBC：克隆人类点击行为，让一次操作转化为所有 Agent 的能力",
+      "finding": "新项目 BrowserBC 通过录制人类的一次网页操作，将其转化为可复用的 Agent 技能，实现'一次录制，所有 Agent 共享'。",
+      "key_data": [
+        "BrowserBC",
+        "一次录制多 Agent 复用",
+        "网页操作克隆"
+      ],
+      "judgment": "如果成熟，这将大幅降低 Agent 的部署成本——不再需要为每个场景单独训练，而是像录宏一样教 Agent 做事。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/06/439393.html",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "GitLab 19.0 将 Agentic AI 嵌入凭证管理、合并请求与供应链安全",
+      "finding": "GitLab 19.0 发布，将 AI Agent 深度集成到 DevOps 流程中，包括自动处理凭证泄露、智能合并请求审查、供应链安全扫描等。",
+      "key_data": [
+        "GitLab 19.0",
+        "Agentic AI",
+        "DevOps 安全"
+      ],
+      "judgment": "这是 AI 从'辅助编码'向'自动化运维'延伸的标志性事件，DevOps 工程师的工作方式将发生根本变化。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/ICdHZotGllYog0ocIrxA",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Apple Vision Pro 高管据悉将离职加入 OpenAI 硬件团队",
+      "finding": "负责 Apple Vision Pro 的副总裁 Paul Meade 据报将离开苹果，加入 OpenAI 的硬件团队。",
+      "key_data": [
+        "Vision Pro 高管",
+        "加入 OpenAI 硬件",
+        "人才流动"
+      ],
+      "judgment": "OpenAI 在硬件上的布局越来越认真，挖来苹果 AR 负责人意味着其硬件野心可能不止于芯片，而是完整的终端设备。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+      "importance": 3
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Sebastian Raschka",
+      "level": "L1",
+      "quote": "本地开源模型已经足够好，可以作为 Claude Code 和 Codex 的替代方案，尤其在隐私和成本敏感的场景下。",
+      "source": "https://magazine.sebastianraschka.com/p/using-local-coding-agents"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "模型分层发布策略对开发者生态的影响",
+      "reason": "OpenAI 和 Anthropic 同日推出分层模型，可能改变开发者选择模型的逻辑，值得深入分析。",
+      "priority": "high"
+    },
+    {
+      "topic": "亚洲 AI 模型替代美国模型的现状与前景",
+      "reason": "出口禁令催生亚洲本土模型生态，这是地缘政治重塑 AI 产业的关键案例。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "模型分层发布、推理加速、亚洲替代崛起",
+  "summary_paragraph": "今日 AI 行业迎来多个结构性变化信号。OpenAI 和 Anthropic 同日推出分层模型（Sol/Terra/Luna），标志着前沿模型从'一版通吃'转向'按需定制'。DeepSeek 开源 DSpark 投机解码方案，继续降低推理成本。地缘政治方面，Anthropic 出口禁令催生亚洲本土模型替代品，美国 AI 公司可能永久失去这一市场。微软年度报告揭示'员工快、公司慢'的 AI 落地脱节，为企业级 AI 产品指明方向。同时，Apple Vision Pro 高管加入 OpenAI 硬件团队，暗示 AI 硬件竞争将更加激烈。",
+  "snapshot": {
+    "date": "2026-06-28",
+    "hf_trending": [
+      {
+        "name": "baidu/Unlimited-OCR",
+        "short_name": "Unlimited-OCR",
+        "likes": 1140,
+        "downloads": 212760,
+        "url": "https://huggingface.co/baidu/Unlimited-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "unlimited-ocr"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "zai-org/GLM-5.2",
+        "short_name": "GLM-5.2",
+        "likes": 2683,
+        "downloads": 98994,
+        "url": "https://huggingface.co/zai-org/GLM-5.2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "likes": 674,
+        "downloads": 712627,
+        "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "tags": [
+          "gguf",
+          "llama.cpp",
+          "quantized"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "short_name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "likes": 733,
+        "downloads": 206828,
+        "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "tags": [
+          "gguf",
+          "gemma4",
+          "coding"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+        "short_name": "Qwythos-9B-Claude-Mythos-5-1M",
+        "likes": 489,
+        "downloads": 30298,
+        "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+        "short_name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+        "likes": 2427,
+        "downloads": 536130,
+        "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+        "tags": [
+          "gguf",
+          "gemma4",
+          "coding"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen-AgentWorld-35B-A3B",
+        "short_name": "Qwen-AgentWorld-35B-A3B",
+        "likes": 359,
+        "downloads": 18872,
+        "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
+        "short_name": "Ornith-1.0-35B-GGUF",
+        "likes": 328,
+        "downloads": 20266,
+        "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
+        "tags": [
+          "transformers",
+          "gguf",
+          "text-generation"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "simplex-chat/simplex-chat",
+        "desc": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private ",
+        "stars": 13890,
+        "stars_today": 1469,
+        "forks": 793,
+        "language": "Haskell",
+        "url": "https://github.com/simplex-chat/simplex-chat"
+      },
+      {
+        "name": "xbtlin/ai-berkshire",
+        "desc": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value inv",
+        "stars": 4187,
+        "stars_today": 685,
+        "forks": 582,
+        "language": "Python",
+        "url": "https://github.com/xbtlin/ai-berkshire"
+      },
+      {
+        "name": "commaai/openpilot",
+        "desc": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system o",
+        "stars": 62082,
+        "stars_today": 322,
+        "forks": 11066,
+        "language": "Python",
+        "url": "https://github.com/commaai/openpilot"
+      },
+      {
+        "name": "IceWhaleTech/CasaOS",
+        "desc": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+        "stars": 35806,
+        "stars_today": 502,
+        "forks": 2044,
+        "language": "Go",
+        "url": "https://github.com/IceWhaleTech/CasaOS"
+      },
+      {
+        "name": "ripienaar/free-for-dev",
+        "desc": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+        "stars": 124192,
+        "stars_today": 459,
+        "forks": 13083,
+        "language": "HTML",
+        "url": "https://github.com/ripienaar/free-for-dev"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "org": "deepseek",
+        "total_tokens": 627003404142,
+        "total_tokens_str": "627B",
+        "api_calls": 0,
+        "change": -2.0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 547586053992,
+        "total_tokens_str": "548B",
+        "api_calls": 0,
+        "change": -13.0,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 3,
+        "slug": "openrouter/owl-alpha",
+        "name": "Owl Alpha",
+        "org": "openrouter",
+        "total_tokens": 515055686829,
+        "total_tokens_str": "515B",
+        "api_calls": 0,
+        "change": -1.2,
+        "url": "https://openrouter.ai/openrouter/owl-alpha"
+      },
+      {
+        "rank": 4,
+        "slug": "tencent/hy3-preview",
+        "name": "Hy3 preview",
+        "org": "tencent",
+        "total_tokens": 492963681321,
+        "total_tokens_str": "493B",
+        "api_calls": 0,
+        "change": -6.5,
+        "url": "https://openrouter.ai/tencent/hy3-preview"
+      },
+      {
+        "rank": 5,
+        "slug": "minimax/minimax-m3",
+        "name": "MiniMax M3",
+        "org": "minimax",
+        "total_tokens": 401553339063,
+        "total_tokens_str": "402B",
+        "api_calls": 0,
+        "change": -7.7,
+        "url": "https://openrouter.ai/minimax/minimax-m3"
+      },
+      {
+        "rank": 6,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
+        "org": "deepseek",
+        "total_tokens": 272796745281,
+        "total_tokens_str": "273B",
+        "api_calls": 0,
+        "change": -23.1,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 7,
+        "slug": "z-ai/glm-5.2",
+        "name": "GLM 5.2",
+        "org": "z-ai",
+        "total_tokens": 269312337411,
+        "total_tokens_str": "269B",
+        "api_calls": 0,
+        "change": -26.0,
+        "url": "https://openrouter.ai/z-ai/glm-5.2"
+      },
+      {
+        "rank": 8,
+        "slug": "stepfun/step-3.7-flash",
+        "name": "Step 3.7 Flash",
+        "org": "stepfun",
+        "total_tokens": 209717838706,
+        "total_tokens_str": "210B",
+        "api_calls": 0,
+        "change": 4.6,
+        "url": "https://openrouter.ai/stepfun/step-3.7-flash"
+      },
+      {
+        "rank": 9,
+        "slug": "anthropic/claude-4.7-opus",
+        "name": "Claude 4.7 Opus",
+        "org": "anthropic",
+        "total_tokens": 189728717899,
+        "total_tokens_str": "190B",
+        "api_calls": 0,
+        "change": -33.9,
+        "url": "https://openrouter.ai/anthropic/claude-4.7-opus"
+      },
+      {
+        "rank": 10,
+        "slug": "anthropic/claude-4.8-opus",
+        "name": "Claude 4.8 Opus",
+        "org": "anthropic",
+        "total_tokens": 180999925442,
+        "total_tokens_str": "181B",
+        "api_calls": 0,
+        "change": -39.8,
+        "url": "https://openrouter.ai/anthropic/claude-4.8-opus"
+      }
+    ],
+    "hf_summary": "开源多模态与量化模型成主流，情感值分化明显"
+  }
+}
