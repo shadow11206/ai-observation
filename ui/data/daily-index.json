@@ -1,6 +1,13 @@
 {
-  "total": 95,
+  "total": 96,
   "reports": [
+    {
+      "date": "2026-06-29",
+      "title": "今日 AI 日报：梁文锋署名论文DSpark发布：DeepSeek的MoE架构新突破 + 4 条重要动态",
+      "excerpt": "对国内AI行业意义重大：DeepSeek一直在用极致的工程创新弥补算力差距，DS…",
+      "top_count": 5,
+      "file": "2026-06-29.json"
+    },
     {
       "date": "2026-06-28",
       "title": "今日 AI 日报：亚洲AI初创公司推出类Mythos模型，Anthropic出口禁令持续发酵 + 4 条重要动态",
