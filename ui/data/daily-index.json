@@ -1,6 +1,13 @@
 {
-  "total": 96,
+  "total": 97,
   "reports": [
+    {
+      "date": "2026-06-30",
+      "title": "今日 AI 日报：DeepSeek 梁文锋因 Claude Mythos 决定融资：不储备弹药根本没法打下去 + 4 条重要动态",
+      "excerpt": "这是中国 AI 行业的重要信号：连 DeepSeek 这种以高效训练著称的公司都…",
+      "top_count": 5,
+      "file": "2026-06-30.json"
+    },
     {
       "date": "2026-06-29",
       "title": "今日 AI 日报：谷歌限制Meta使用其Gemini AI模型 + 4 条重要动态",
