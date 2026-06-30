@@ -3,239 +3,221 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "DeepSeek 梁文锋因 Claude Mythos 决定融资：不储备弹药根本没法打下去",
-      "finding": "DeepSeek 创始人梁文锋在内部表示，看到 Anthropic 的 Claude Mythos 模型后，意识到不储备弹药根本没法打下去，因此决定启动融资。这标志着中国最强开源模型厂商开始正视与海外头部模型的差距，并准备大规模投入。",
+      "title": "DeepSeek V4正式版涨价，能力升级但价格翻倍",
+      "finding": "DeepSeek V4正式版发布，输入价格从0.14元/百万Token涨至0.28元，输出价格从0.28元涨至0.56元。官方称能力有升级，但涨价幅度引发开发者讨论。",
       "key_data": [
-        "Claude Mythos 触发",
-        "梁文锋决定融资",
-        "储备弹药",
-        "差距认知"
+        "输入0.28元/百万Token",
+        "输出0.56元/百万Token",
+        "价格翻倍",
+        "能力升级"
       ],
-      "judgment": "这是中国 AI 行业的重要信号：连 DeepSeek 这种以高效训练著称的公司都感到压力，说明模型能力的军备竞赛远未结束，开源与闭源的差距可能正在拉大。对开发者来说，未来可能面临更多闭源模型选择，开源模型的性价比优势需要重新评估。",
+      "judgment": "DeepSeek一直以极致低价著称，这次涨价说明模型成本压力或商业化诉求在上升。对开发者而言，低价API窗口正在收窄，需要重新评估成本模型。",
       "confidence": 4,
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/06/439863.html"
+      "url": "https://www.qbitai.com/2026/06/440162.html"
     },
     {
       "rank": 2,
-      "title": "Google 的 AI 审稿人处理了约 10,000 篇论文，发现数学错误率提高 34%",
-      "finding": "Google 在 ICML 和 STOC 两个顶级计算机科学会议上部署了 AI 审稿人，处理了约 10,000 篇论文，平均 30 分钟即可返回审稿意见。正式研究论文显示，该 AI 审稿人比人类审稿人多发现 34% 的数学错误。",
+      "title": "Google AI审稿人处理约1万篇论文，30分钟出结果",
+      "finding": "Google部署的AI审稿系统在ICML和STOC两大顶会上处理了约1万篇论文，平均30分钟出结果，能比人类审稿人多发现34%的数学错误。",
       "key_data": [
-        "10,000 篇论文",
-        "30 分钟审稿",
-        "数学错误多发现 34%",
-        "ICML/STOC"
+        "处理1万篇论文",
+        "30分钟出结果",
+        "多发现34%数学错误"
       ],
-      "judgment": "AI 审稿的规模化落地是学术界的里程碑事件。30 分钟 vs 人类数周的审稿周期，加上更高的错误检出率，意味着 AI 正在从辅助工具变成核心审稿力量。这对科研效率是巨大提升，但也引发了对审稿质量和公平性的新讨论。",
-      "confidence": 5,
+      "judgment": "AI审稿从实验走向大规模部署，学术出版效率将发生根本性变化。对研究者来说，论文质量评估标准可能被重新定义。",
+      "confidence": 4,
       "source": "Reddit r/MachineLearning",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1uio9rb/googles_agentic_peerreviewer_handled_10k_papers/"
     },
     {
       "rank": 3,
-      "title": "Cursor 发布移动端 App，可远程指导编程 Agent",
-      "finding": "Cursor 推出了移动端 App，允许开发者在手机上远程监督和指导其编程 Agent。这意味着开发者可以在离开电脑时继续推进代码工作，Agent 在后台运行，用户通过手机查看进度、提供反馈。",
+      "title": "Anthropic与加州政府达成协议，Claude半价供政府使用",
+      "finding": "Anthropic与加州州长纽森达成协议，允许加州政府以市场价一半的价格使用Claude。此举被视为Anthropic加强与政府关系、对抗OpenAI的战略举措。",
       "key_data": [
-        "移动端 App",
-        "远程指导 Agent",
-        "后台运行",
-        "离开电脑继续工作"
+        "半价使用Claude",
+        "加州政府合作",
+        "对抗OpenAI"
       ],
-      "judgment": "Cursor 正在重新定义编程工作流：从 IDE 插件进化到 24 小时在线的编程伙伴。移动端 App 让 Agent 可以异步工作，开发者不再被绑在电脑前。这是 AI Coding 从工具向平台演进的关键一步，将加速 Agent 编程的普及。",
-      "confidence": 5,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/"
-    },
-    {
-      "rank": 4,
-      "title": "Anthropic 与加州政府达成协议：Claude 以半价供政府使用",
-      "finding": "Anthropic 与加州州长纽森达成协议，允许加州政府以半价使用 Claude 模型。与此同时，联邦政府与 OpenAI 的关系紧张。这表明 Anthropic 正在积极拓展政府客户，并利用其安全形象获得公共部门信任。",
-      "key_data": [
-        "半价协议",
-        "加州政府",
-        "纽森",
-        "联邦政府与 OpenAI 关系紧张"
-      ],
-      "judgment": "Anthropic 的政府策略非常聪明：以安全形象切入公共部门，半价策略既是市场占领也是品牌投资。这对企业级 AI 市场有示范效应——政府客户可能成为 AI 公司的重要收入来源，而安全合规能力将成为核心竞争力。",
-      "confidence": 5,
+      "judgment": "AI公司开始通过政府合作建立护城河。Anthropic以安全为卖点，政府订单既是收入也是品牌背书，可能引发其他AI公司跟进。",
+      "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/"
     },
     {
-      "rank": 5,
-      "title": "AI 评测平台 Arena 成为估值 1 亿美元的独立业务",
-      "finding": "Arena，这个被广泛使用的 AI 模型排行榜平台，其商业服务自去年 9 月推出以来，已发展成为年收入 1 亿美元的业务。这证明了 AI 评测本身就是一个巨大的市场机会。",
+      "rank": 4,
+      "title": "Vibe Coding平台Base44发布自研模型，寻求差异化",
+      "finding": "被Wix收购的Vibe Coding平台Base44开始推出自研AI模型，希望最终能超越前沿模型。这是AI应用层公司从依赖外部API转向自研模型的又一案例。",
       "key_data": [
-        "1 亿美元估值",
-        "商业服务 9 个月",
-        "AI 评测市场",
-        "广泛使用"
+        "自研AI模型",
+        "Vibe Coding平台",
+        "寻求差异化"
       ],
-      "judgment": "Arena 的商业化成功说明了一个趋势：当模型数量爆炸式增长，评测和基准测试本身就成了刚需。这不仅是工具，更是定义行业标准的话语权。对创业公司来说，在 AI 基础设施层做评测、监控、安全等配套服务，可能是比做模型更可持续的商业模式。",
+      "judgment": "AI应用公司自研模型成为趋势，说明单纯靠调用API难以建立长期壁垒。对开发者来说，平台锁定风险增加，选择工具时需考虑模型自主性。",
       "confidence": 4,
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/"
+      "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/"
+    },
+    {
+      "rank": 5,
+      "title": "Cerebras与OpenAI交易导致其他用户排队等待，小公司不满",
+      "finding": "Cerebras与OpenAI达成的大容量交易占用了大量算力资源，导致其他AI初创公司排队等待时间变长。一家实时编码Agent创业公司抱怨延迟要求无法满足。",
+      "key_data": [
+        "Cerebras-OpenAI交易",
+        "算力资源挤占",
+        "小公司延迟恶化"
+      ],
+      "judgment": "AI算力资源正在向头部玩家集中，小公司获取高性能推理资源的难度在加大。这可能加速AI创业公司的两极分化。",
+      "confidence": 3,
+      "source": "Reddit r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uiqhiv/cerebras_openai_deal_capacity_has_effectively/"
     }
   ],
   "model_tech": [
     {
       "source": "Simon Willison",
-      "title": "Ornith-1.0：自脚手架 LLM 用于 Agent 编程",
-      "finding": "DeepReinforce 发布了首个开源模型 Ornith-1.0（MIT 协议），包含 9B Dense 和 3B 等变体，支持自脚手架（self-scaffolding）的 Agent 编程能力。",
+      "title": "Ornith-1.0：自脚手架LLM用于Agent编程",
+      "finding": "DeepReinforce发布开源模型Ornith-1.0，采用自脚手架（self-scaffolding）方法，让模型在编程任务中自主构建工作流。提供9B和3B两个版本，MIT协议。",
       "key_data": [
-        "MIT 协议",
-        "9B Dense",
-        "自脚手架 Agent",
-        "DeepReinforce 首发"
+        "自脚手架方法",
+        "9B/3B两个版本",
+        "MIT开源协议"
       ],
-      "judgment": "自脚手架能力是 Agent 编程的关键突破，小参数模型能实现 Agent 能力，对端侧部署和低成本应用意义重大。",
+      "judgment": "自脚手架是Agent编程的新范式，让模型自己设计工作流而非依赖外部框架。对开发者来说，这可能降低Agent系统的复杂度。",
       "confidence": 4,
       "url": "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything",
-      "importance": 3
+      "importance": 4
     },
     {
-      "source": "量子位",
-      "title": "全球首个隐空间世界模型，打通长时序双向物理因果链",
-      "finding": "一家刚融了 2 亿美元的具身智能公司发布了全球首个隐空间世界模型，能够打通长时序双向物理因果链，在具身智能榜单上排名第一。",
+      "source": "ArXiv cs.AI",
+      "title": "递归自进化Agent：通过保留集选择实现自我改进",
+      "finding": "新论文提出一种无需权重更新的Agent自我进化方法，通过保留集选择机制让Agent在自然语言工件（如反思、工作流）上递归改进。",
       "key_data": [
-        "2 亿美元融资",
-        "隐空间世界模型",
-        "长时序双向因果",
-        "具身榜单第一"
+        "无需权重更新",
+        "保留集选择",
+        "自然语言工件进化"
       ],
-      "judgment": "隐空间世界模型是具身智能的核心技术突破，意味着机器人可以更好地理解和预测物理世界，这是从感知到认知的关键一步。",
+      "judgment": "这代表Agent自我改进的新方向：不依赖模型微调，而是通过优化Agent的思考和工作流。对产品经理来说，这意味着Agent可以持续学习而不增加成本。",
       "confidence": 3,
-      "url": "https://www.qbitai.com/2026/06/439891.html",
+      "url": "https://arxiv.org/abs/2606.28374",
       "importance": 3
     },
     {
       "source": "Hugging Face Blog",
-      "title": "DiScoFormer：一个 Transformer 同时处理密度和分数，跨分布通用",
-      "finding": "Allen AI 发布了 DiScoFormer，一种新的 Transformer 架构，能够同时处理密度估计和分数匹配，且跨分布泛化能力强。",
+      "title": "DiScoFormer：一个Transformer同时处理密度和分数",
+      "finding": "AllenAI发布DiScoFormer，一种新的Transformer架构，能同时处理密度估计和分数函数，在多个分布上表现优异。",
       "key_data": [
-        "密度+分数统一",
+        "统一密度和分数",
         "跨分布泛化",
-        "Allen AI",
-        "新架构"
+        "新Transformer架构"
       ],
-      "judgment": "架构创新虽然不如大模型发布吸睛，但 DiScoFormer 的思路可能影响生成模型的设计范式，值得关注。",
-      "confidence": 4,
+      "judgment": "架构创新仍在继续，DiScoFormer可能影响生成模型和概率建模的设计思路。对研究者来说，这是值得关注的新方向。",
+      "confidence": 3,
       "url": "https://huggingface.co/blog/allenai/discoformer",
       "importance": 2
     },
     {
-      "source": "ArXiv cs.AI",
-      "title": "内部化未来：世界模型规划的统一 Agent 训练范式",
-      "finding": "一篇新论文提出了一种统一的 Agent 训练范式，让 LLM Agent 通过内部化未来预测来提升长时序决策能力，解决当前 Agent 在长周期任务中的反应式问题。",
+      "source": "ArXiv cs.CL",
+      "title": "Transformer语言模型中情境建模和心理化的发育轨迹",
+      "finding": "研究发现LLM在训练过程中逐步发展出情境建模和心理化能力，其发育轨迹与人类儿童有相似之处。",
       "key_data": [
-        "统一训练范式",
-        "内部化未来",
-        "长时序决策",
-        "Agent 规划"
+        "情境建模能力",
+        "心理化能力",
+        "与人类发育相似"
       ],
-      "judgment": "这是 Agent 研究的重要方向：从反应式到前瞻式。如果实现，Agent 将能更好地处理需要长期规划的任务，如项目管理、科研等。",
+      "judgment": "这为理解LLM的认知能力来源提供了新视角，可能影响未来模型训练策略。但对产品经理来说，短期内影响有限。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.27483",
+      "url": "https://arxiv.org/abs/2606.28524",
       "importance": 2
     }
   ],
   "company_product": [
     {
+      "source": "量子位",
+      "title": "OceanBase发布AI数据库：融合湖库与多模态数据",
+      "finding": "OceanBase推出AI数据库，用一套引擎融合数据湖、数据仓库和多模态数据，让AI能直接理解企业数据。",
+      "key_data": [
+        "AI数据库",
+        "湖库融合",
+        "多模态数据"
+      ],
+      "judgment": "数据库AI化是基础设施层的趋势，降低AI应用的数据接入门槛。对企业开发者来说，数据准备成本可能大幅下降。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/06/439876.html",
+      "importance": 3
+    },
+    {
       "source": "TechCrunch",
-      "title": "Gemini 个性化 AI 图像生成向美国免费用户开放",
-      "finding": "Google 将 Gemini 的个性化 AI 图像生成功能向符合条件的美国免费用户开放，允许聊天机器人根据用户兴趣和连接的 Google 应用数据生成图像。",
+      "title": "Gemini个性化AI图像生成对美国免费用户开放",
+      "finding": "Google将Gemini的个性化AI图像生成功能向美国免费用户开放，可根据用户兴趣和Google应用数据生成图像。",
       "key_data": [
         "免费用户开放",
         "个性化图像生成",
-        "Google 应用数据",
-        "美国市场"
+        "美国地区"
       ],
-      "judgment": "个性化图像生成是 AI 应用从工具向助手演进的关键功能，免费开放将加速用户习惯培养，但也引发隐私担忧。",
-      "confidence": 5,
+      "judgment": "个性化AI生成是差异化竞争点，但数据隐私风险不容忽视。对竞品来说，Google的生态优势正在转化为AI产品壁垒。",
+      "confidence": 4,
       "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
       "importance": 2
     },
     {
+      "source": "Wired",
+      "title": "Flexion Robotics人形机器人：可怕的办公室实习生",
+      "finding": "由前Nvidia工程师创立的Flexion Robotics展示了一款人形机器人，能在办公室环境中完成取文件、送咖啡等任务，动作流畅度令人惊讶。",
+      "key_data": [
+        "人形机器人",
+        "办公室任务",
+        "前Nvidia团队"
+      ],
+      "judgment": "人形机器人在结构化环境中的实用性正在提升，但距离真正替代人类工作还有距离。对行业来说，这是具身智能商业化的重要信号。",
+      "confidence": 4,
+      "url": "https://www.wired.com/story/this-robot-is-going-to-replace-your-interns-flexion/",
+      "importance": 3
+    },
+    {
       "source": "36氪",
-      "title": "Sand.ai 获超亿美元融资：视频是通往世界模型最重要的路径",
-      "finding": "视频生成模型公司 Sand.ai 获得超亿美元融资，创始人曹越表示每一代模型都在押注非共识，视频是通往世界模型最重要的路径。",
+      "title": "前百度自动驾驶与机器人实验室主任创业，做机器人“世界通行模型”",
+      "finding": "前百度自动驾驶与机器人实验室主任杨睿刚创立纽娲机器人，完成5000万元天使轮融资，致力于开发机器人的通用世界模型。",
       "key_data": [
-        "超亿美元融资",
-        "曹越",
-        "视频生成",
-        "世界模型路径"
+        "5000万元天使轮",
+        "前百度实验室主任",
+        "世界通行模型"
       ],
-      "judgment": "Sand.ai 的融资说明视频生成赛道仍然火热，但曹越强调的'非共识'意味着差异化技术路线才是关键，而非跟风。",
+      "judgment": "具身智能创业持续火热，前百度系团队入局说明该赛道人才密度在提升。但通用世界模型的技术难度极高，商业化路径尚不清晰。",
       "confidence": 4,
-      "url": "https://36kr.com/p/3873965241931014?f=rss",
-      "importance": 2
-    },
-    {
-      "source": "量子位",
-      "title": "智平方获 200 亿估值，大湾区具身智能独角兽诞生",
-      "finding": "具身智能公司智平方完成新一轮融资，估值达 200 亿人民币，成为大湾区首个 200 亿级别的具身智能独角兽，吸金 50 亿。",
-      "key_data": [
-        "200 亿估值",
-        "大湾区",
-        "具身智能独角兽",
-        "吸金 50 亿"
-      ],
-      "judgment": "具身智能赛道正在快速资本化，200 亿估值说明资本对物理 AI 的长期信心，但商业化落地仍是最大挑战。",
-      "confidence": 4,
-      "url": "https://www.qbitai.com/2026/06/439861.html",
-      "importance": 2
-    },
-    {
-      "source": "TechCrunch",
-      "title": "韩国科技巨头承诺投资超 5500 亿美元缓解内存短缺",
-      "finding": "三星和 SK 海力士等韩国科技巨头宣布投资超过 5500 亿美元建设新的内存芯片工厂，以应对 AI 带来的内存短缺危机（RAMageddon）。",
-      "key_data": [
-        "5500 亿美元",
-        "内存短缺",
-        "三星/SK 海力士",
-        "AI 基础设施"
-      ],
-      "judgment": "内存短缺正在成为 AI 基础设施的瓶颈，大规模投资是必然选择。这对 AI 芯片和云服务成本有长期影响。",
-      "confidence": 5,
-      "url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/",
+      "url": "https://36kr.com/p/3875059110221064?f=rss",
       "importance": 2
     }
   ],
   "opinions": [
     {
-      "person": "梁文锋",
+      "person": "智谱唐杰",
       "level": "L1",
-      "quote": "看到 Claude Mythos 后，意识到不储备弹药根本没法打下去，因此决定启动融资。",
-      "source": "量子位"
-    },
-    {
-      "person": "曹越",
-      "level": "L1",
-      "quote": "每一代模型，我们都在押注一个非共识。视频是通往世界模型最重要的路径。",
-      "source": "36氪"
+      "quote": "AI时代：认知＞格局＞技术＞管理。成功企业靠管理那是曾经，AI时代不行了。",
+      "source": "https://www.qbitai.com/2026/06/440024.html"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI 审稿对学术出版生态的冲击与机遇",
-      "reason": "Google 的 AI 审稿人已处理 10,000 篇论文，效率提升 100 倍，但质量、公平性、人类审稿人角色如何变化？",
+      "topic": "AI Agent自我进化方法：从保留集选择到自脚手架",
+      "reason": "两篇论文同时探讨Agent自我改进，代表新范式，值得深入理解技术细节和产品影响。",
       "priority": "high"
     },
     {
-      "topic": "DeepSeek 融资背后的中国大模型竞争格局变化",
-      "reason": "梁文锋因 Claude Mythos 决定融资，说明开源模型与闭源模型的差距可能正在拉大，中国 AI 厂商面临战略抉择。",
-      "priority": "high"
+      "topic": "AI公司自研模型趋势：Base44案例与行业影响",
+      "reason": "应用层公司自研模型成为趋势，需分析其动机、成本和长期影响。",
+      "priority": "medium"
     }
   ],
-  "summary_one_line": "DeepSeek 因差距决定融资，Cursor 移动端上线",
-  "summary_paragraph": "今天的 AI 行业发生了两件标志性事件：一是 DeepSeek 创始人梁文锋因看到 Anthropic 的 Claude Mythos 模型后决定启动融资，承认不储备弹药根本没法打下去，这揭示了中国最强开源模型厂商对竞争压力的真实感受；二是 Cursor 发布移动端 App，让开发者可以远程指导编程 Agent，AI Coding 正在从工具进化为 24 小时在线的编程伙伴。此外，Google 的 AI 审稿人处理了 10,000 篇论文，效率提升百倍；Anthropic 以半价打入加州政府市场；AI 评测平台 Arena 成为 1 亿美元业务。这些事件共同指向一个趋势：AI 正在从实验室走向大规模、高效率的行业应用，而竞争的核心已经从模型能力扩展到生态和商业化能力。",
+  "summary_one_line": "DeepSeek涨价，Google审稿，Anthropic攻政府",
+  "summary_paragraph": "今日AI行业多个信号指向商业化加速和格局变化。DeepSeek V4正式版涨价翻倍，标志着低价API窗口正在收窄；Google的AI审稿系统在顶会上处理万篇论文，效率远超人类；Anthropic与加州政府达成半价协议，开辟政府市场新战线。同时，Cerebras与OpenAI的交易挤占小公司算力，Base44开始自研模型，都反映出行业资源向头部集中的趋势。在技术层面，Agent自我进化和自脚手架方法成为研究热点，可能改变未来Agent系统的构建方式。",
   "snapshot": {
     "date": "2026-06-30",
     "hf_trending": [
       {
         "name": "baidu/Unlimited-OCR",
         "short_name": "Unlimited-OCR",
-        "likes": 1372,
+        "likes": 1396,
         "downloads": 362945,
         "url": "https://huggingface.co/baidu/Unlimited-OCR",
         "tags": [
@@ -251,7 +233,7 @@
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-        "likes": 951,
+        "likes": 979,
         "downloads": 907682,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "tags": [
@@ -267,7 +249,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 2942,
+        "likes": 2964,
         "downloads": 133350,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -283,7 +265,7 @@
       {
         "name": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "short_name": "Ornith-1.0-35B-GGUF",
-        "likes": 483,
+        "likes": 488,
         "downloads": 123598,
         "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "tags": [
@@ -299,7 +281,7 @@
       {
         "name": "Qwen/Qwen-AgentWorld-35B-A3B",
         "short_name": "Qwen-AgentWorld-35B-A3B",
-        "likes": 437,
+        "likes": 441,
         "downloads": 26223,
         "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
         "tags": [
@@ -315,7 +297,7 @@
       {
         "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "short_name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-        "likes": 848,
+        "likes": 856,
         "downloads": 241409,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "tags": [
@@ -331,7 +313,7 @@
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M",
-        "likes": 560,
+        "likes": 568,
         "downloads": 79540,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
         "tags": [
@@ -347,7 +329,7 @@
       {
         "name": "krea/Krea-2-Turbo",
         "short_name": "Krea-2-Turbo",
-        "likes": 393,
+        "likes": 396,
         "downloads": 38454,
         "url": "https://huggingface.co/krea/Krea-2-Turbo",
         "tags": [
@@ -365,45 +347,45 @@
       {
         "name": "simplex-chat/simplex-chat",
         "desc": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private ",
-        "stars": 16653,
+        "stars": 16904,
         "stars_today": 1607,
-        "forks": 963,
+        "forks": 980,
         "language": "Haskell",
         "url": "https://github.com/simplex-chat/simplex-chat"
       },
       {
         "name": "msitarzewski/agency-agents",
         "desc": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whi",
-        "stars": 118974,
+        "stars": 119374,
         "stars_today": 1425,
-        "forks": 19481,
+        "forks": 19535,
         "language": "Shell",
         "url": "https://github.com/msitarzewski/agency-agents"
       },
       {
         "name": "cupy/cupy",
         "desc": "NumPy &amp; SciPy for GPU",
-        "stars": 11838,
+        "stars": 11898,
         "stars_today": 352,
-        "forks": 1083,
+        "forks": 1084,
         "language": "Python",
         "url": "https://github.com/cupy/cupy"
       },
       {
         "name": "altic-dev/FluidVoice",
         "desc": "FluidVoice - Fastest macOS Offline Dictation app - Voice to Text fully Local. One ⭐ takes us a long ",
-        "stars": 4422,
+        "stars": 4539,
         "stars_today": 830,
-        "forks": 278,
+        "forks": 285,
         "language": "Swift",
         "url": "https://github.com/altic-dev/FluidVoice"
       },
       {
         "name": "soxoj/maigret",
         "desc": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
-        "stars": 34408,
+        "stars": 34540,
         "stars_today": 224,
-        "forks": 2602,
+        "forks": 2608,
         "language": "Python",
         "url": "https://github.com/soxoj/maigret"
       }
@@ -414,7 +396,7 @@
         "slug": "deepseek/deepseek-v4-flash",
         "name": "DeepSeek V4 Flash",
         "org": "deepseek",
-        "total_tokens": 727922126022,
+        "total_tokens": 727922211542,
         "total_tokens_str": "728B",
         "api_calls": 0,
         "change": 15.5,
@@ -520,6 +502,6 @@
         "url": "https://openrouter.ai/anthropic/claude-4.6-sonnet"
       }
     ],
-    "hf_summary": "多模态与文本生成模型主导，社区偏好开源大模型"
+    "hf_summary": "多模态与文本生成模型主导，开源社区活跃度持续攀升"
   }
 }
