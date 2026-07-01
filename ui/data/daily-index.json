@@ -1,6 +1,13 @@
 {
-  "total": 97,
+  "total": 98,
   "reports": [
+    {
+      "date": "2026-07-01",
+      "title": "今日 AI 日报：Anthropic 发布 Claude Sonnet 5，同时宣布解除出口管制恢复 Fable 5 和 Mythos 5 访问 + 4 条重要动态",
+      "excerpt": "Sonnet 5 的发布和出口管制的解除是 Anthropic 的双重胜利。对开…",
+      "top_count": 5,
+      "file": "2026-07-01.json"
+    },
     {
       "date": "2026-06-30",
       "title": "今日 AI 日报：DeepSeek V4正式版涨价，能力升级但价格翻倍 + 4 条重要动态",

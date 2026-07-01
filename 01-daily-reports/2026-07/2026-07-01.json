@@ -1,0 +1,545 @@
+{
+  "date": "2026-07-01",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Anthropic 发布 Claude Sonnet 5，同时宣布解除出口管制恢复 Fable 5 和 Mythos 5 访问",
+      "finding": "Anthropic 今日发布 Claude Sonnet 5，这是其最新的旗舰模型，主打高性价比。同时，美国商务部解除了对 Claude Fable 5 和 Mythos 5 的出口管制，Anthropic 将于明日恢复这些模型的访问。这一系列动作标志着 Anthropic 在模型能力和市场准入上同时取得突破。",
+      "key_data": [
+        "Sonnet 5 今日发布",
+        "Fable 5/Mythos 5 恢复访问",
+        "出口管制被解除"
+      ],
+      "judgment": "Sonnet 5 的发布和出口管制的解除是 Anthropic 的双重胜利。对开发者而言，这意味着更强大的模型选择和更少的政策不确定性；对行业而言，Anthropic 正在缩小与 OpenAI 的差距，模型竞争进入新阶段。",
+      "confidence": 5,
+      "source": "Simon Willison / TechCrunch / Wired",
+      "url": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything"
+    },
+    {
+      "rank": 2,
+      "title": "Anthropic 发布 Claude Science：面向科学研究的旗舰产品",
+      "finding": "Anthropic 在面向制药高管和生物科技创始人的活动中宣布了 Claude Science，这是一个旨在支持科学研究的新产品，类似于 Claude 在编程领域的定位。这标志着 Anthropic 正式将 AI 从代码生成扩展到科学发现领域。",
+      "key_data": [
+        "面向科学研究",
+        "制药/生物科技场景",
+        "类似 Claude Code 的定位"
+      ],
+      "judgment": "Claude Science 是 AI 从‘写代码’到‘做科研’的关键一步。对产品经理而言，这意味着 AI 应用正在从工具型向知识发现型转变，科学领域将成为下一个 AI 应用爆发点。",
+      "confidence": 4,
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
+    },
+    {
+      "rank": 3,
+      "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
+      "finding": "Google DeepMind 推出了 Nano Banana 2 Lite（即 Gemini 3.1 Flash Lite Image），号称最快最便宜的 Gemini 图像模型，出图仅需 4 秒。同时发布的 Gemini Omni Flash 进一步扩展了多模态能力。这延续了 Google 在轻量级、低成本模型上的激进策略。",
+      "key_data": [
+        "出图仅需 4 秒",
+        "最快最便宜的 Gemini 图像模型",
+        "Gemini Omni Flash 同步发布"
+      ],
+      "judgment": "Google 正在用‘快且便宜’的策略抢占开发者心智。Nano Banana 2 Lite 的低成本和高速度将推动图像生成在更多实时场景落地，对 Midjourney 等高价模型形成压力。",
+      "confidence": 5,
+      "source": "Google DeepMind Blog / 量子位",
+      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/"
+    },
+    {
+      "rank": 4,
+      "title": "Pragmatic Engineer 深度探访 OpenAI、Anthropic 和 Cursor：Agent 在云端运行是主流趋势",
+      "finding": "Gergely Orosz 在参观三家顶级 AI 公司后指出，软件工程正被 AI 深刻重塑：Agent 在云端运行成为主流趋势，编码工具（coding harnesses）正在从编程领域扩展到更多行业。这为理解 AI 对软件工程的影响提供了第一手洞察。",
+      "key_data": [
+        "Agent 云端运行是主流",
+        "编码工具扩展到更多行业",
+        "来自 OpenAI/Anthropic/Cursor 的一线观察"
+      ],
+      "judgment": "这是来自 L2 观察者的高质量洞察。对开发者而言，‘Agent 云端运行’意味着本地开发环境的重要性下降，云端 Agent 将成为新的开发范式。产品经理应关注如何将 Agent 能力嵌入到现有工作流中。",
+      "confidence": 4,
+      "source": "The Pragmatic Engineer",
+      "url": "https://newsletter.pragmaticengineer.com/p/impressions-from-visiting-openai"
+    },
+    {
+      "rank": 5,
+      "title": "Kimi 估值升至 315 亿美元，ARR 突破 3 亿美元",
+      "finding": "Moonshot AI 旗下产品 Kimi 估值达到 315 亿美元，年经常性收入（ARR）突破 3 亿美元。这标志着中国 AI 消费级产品在商业化上取得重要里程碑，Kimi 已成为国内 AI 应用领域的标杆。",
+      "key_data": [
+        "估值 315 亿美元",
+        "ARR 突破 3 亿美元",
+        "中国 AI 消费级产品标杆"
+      ],
+      "judgment": "Kimi 的商业化数据证明中国 AI 应用市场正在成熟。对国内 AI 创业者而言，这是一个积极的信号：只要产品足够好，用户愿意付费。对字节、百度等大厂而言，Kimi 的崛起意味着竞争加剧。",
+      "confidence": 4,
+      "source": "36氪",
+      "url": "https://36kr.com/p/3873626697470985?f=rss"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Simon Willison",
+      "title": "Shot-scraper 1.10 发布：Agent 可自动录制视频演示",
+      "finding": "Simon Willison 发布了 shot-scraper 1.10，新增 video 命令，允许 AI Agent 自动录制 Web 应用的视频演示。这为 Agent 的调试和展示提供了新的工具。",
+      "key_data": [
+        "shot-scraper 1.10",
+        "自动录制视频演示",
+        "基于 Playwright"
+      ],
+      "judgment": "对开发者而言，这意味着 Agent 的工作过程可以被自动记录和回放，大大降低了调试和演示成本。",
+      "confidence": 5,
+      "url": "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything",
+      "importance": 3
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "为什么专业化是不可避免的",
+      "finding": "Hugging Face 博客文章指出，随着 AI 模型能力的提升，专业化（Specialization）将成为必然趋势。通用模型将让位于针对特定领域优化的模型。",
+      "key_data": [
+        "专业化趋势",
+        "领域优化模型"
+      ],
+      "judgment": "对产品经理而言，这意味着未来 AI 产品的核心竞争力将来自对特定领域的深度理解，而非通用能力。",
+      "confidence": 3,
+      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "importance": 2
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "ScarfBench：用于企业 Java 框架迁移的 AI Agent 基准测试",
+      "finding": "IBM 研究团队发布了 ScarfBench，这是一个专门用于评估 AI Agent 在企业 Java 框架迁移任务中表现的基准测试。这标志着 AI 在遗留系统现代化中的应用开始受到重视。",
+      "key_data": [
+        "企业 Java 框架迁移",
+        "AI Agent 基准测试",
+        "IBM 研究"
+      ],
+      "judgment": "对企业开发者而言，这意味着 AI Agent 在代码迁移和现代化方面的能力正在被系统化评估，未来可能成为企业 IT 转型的标配工具。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "REAP：从交互式生产使用中自动策划编码 Agent 基准测试",
+      "finding": "一篇新论文提出了 REAP 方法，可以从实际的编码 Agent 生产使用数据中自动生成基准测试，解决了现有基准测试与真实场景脱节的问题。",
+      "key_data": [
+        "自动生成基准测试",
+        "生产使用数据",
+        "编码 Agent"
+      ],
+      "judgment": "对 AI 编程工具开发者而言，这意味着未来评估 Agent 能力的方式将更贴近真实场景，不再依赖人工构造的测试集。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uk713d/reap_automatic_curation_of_coding_agent/",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "BayesBench：评估 LLM 在多轮证据积累下的信念轨迹",
+      "finding": "新论文 BayesBench 评估了 LLM 在多轮对话中如何根据新证据更新信念，发现当前模型在贝叶斯推理方面存在明显不足。",
+      "key_data": [
+        "多轮证据积累",
+        "信念更新",
+        "贝叶斯推理不足"
+      ],
+      "judgment": "对构建对话 Agent 的开发者而言，这意味着当前模型在长期对话中可能无法正确整合新信息，需要额外的推理机制来弥补。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2606.30850",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "量子位",
+      "title": "Om AI 联汇发布 VLX：全球首个面向物理世界的端侧流式多模态模型",
+      "finding": "Om AI 联汇发布了 VLX，号称全球首个面向物理世界的端侧流式多模态模型，能够在边缘设备上实时处理物理世界信息。",
+      "key_data": [
+        "端侧流式多模态",
+        "物理世界 AI",
+        "边缘设备"
+      ],
+      "judgment": "对物联网和机器人开发者而言，这意味着在设备端实时处理多模态数据成为可能，将推动 AI 在工业、自动驾驶等场景的落地。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/07/441124.html",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "前 DeepMind 三人组创立的量化对冲基金 AI 公司估值超 5 亿美元",
+      "finding": "EquiLibre Technologies，一家由三位前 DeepMind 研究员在布拉格创立的 AI 实验室，目前估值超过 5 亿美元。该公司专注于将 AI 应用于量化对冲基金。",
+      "key_data": [
+        "估值超 5 亿美元",
+        "前 DeepMind 团队",
+        "量化对冲基金 AI"
+      ],
+      "judgment": "这表明 AI 在金融领域的应用正在从概念走向规模化盈利，顶级 AI 人才正在从大模型竞赛转向垂直行业变现。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
+      "importance": 2
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Wayve 以 85 亿美元估值启动 8500 万美元员工要约收购",
+      "finding": "英国自动驾驶 AI 公司 Wayve 启动了 8500 万美元的员工要约收购，公司估值达到 85 亿美元。这是 AI 初创公司利用员工要约吸引和留住人才的最新案例。",
+      "key_data": [
+        "估值 85 亿美元",
+        "8500 万美元要约收购",
+        "自动驾驶 AI"
+      ],
+      "judgment": "对 AI 行业 HR 和创始人而言，这意味着员工要约收购正成为 AI 公司人才竞争的新工具，尤其是在自动驾驶等资本密集型领域。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
+      "importance": 2
+    },
+    {
+      "source": "36氪",
+      "title": "赤子城独家投资 4 人创业团队 MobAI，推出 AI 互动平台 Lunaverse Stories",
+      "finding": "AI 创业公司 MobAI 完成数百万元天使轮融资，由赤子城科技独家投资。其产品 Lunaverse Stories 是一款 AI 互动叙事应用，已进入邀请测试阶段。",
+      "key_data": [
+        "数百万元天使轮",
+        "赤子城独家投资",
+        "AI 互动叙事"
+      ],
+      "judgment": "对 AI 应用创业者而言，这表明 AI 互动叙事赛道仍有资本关注，但 4 人团队和数百万元融资规模说明这仍是一个早期市场。",
+      "confidence": 3,
+      "url": "https://36kr.com/p/3875622047805447?f=rss",
+      "importance": 1
+    },
+    {
+      "source": "36氪",
+      "title": "苏大教授创业做机器人触觉系统，获松禾资本千万级天使轮融资",
+      "finding": "感知纪元科技有限公司完成千万级天使轮融资，由松禾资本领投。公司专注于机器人触觉系统，包括多模态电子皮肤和触觉感知硬件。",
+      "key_data": [
+        "千万级天使轮",
+        "松禾资本领投",
+        "机器人触觉系统"
+      ],
+      "judgment": "对机器人行业而言，触觉系统的突破是具身智能的关键一环。这笔融资表明资本正在押注机器人感知能力的底层技术。",
+      "confidence": 3,
+      "url": "https://36kr.com/p/3874358072710407?f=rss",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "Claude Sonnet 5 的开发者文档比官方公告更有用，因为它包含了更多可操作的信息。",
+      "source": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything"
+    },
+    {
+      "person": "Gergely Orosz",
+      "level": "L2",
+      "quote": "Agent 在云端运行是主流趋势，编码工具正在从编程领域扩展到更多行业。",
+      "source": "https://newsletter.pragmaticengineer.com/p/impressions-from-visiting-openai"
+    },
+    {
+      "person": "Swyx",
+      "level": "L2",
+      "quote": "今天很安静，暴风雨前的宁静。",
+      "source": "https://www.latent.space/p/ainews-not-much-happened-today-07e"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "Claude Science 对科学研究范式的潜在影响",
+      "reason": "Anthropic 将 AI 从代码生成扩展到科学发现，可能改变科研工作方式。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI Agent 云端运行趋势对开发者工具链的影响",
+      "reason": "Pragmatic Engineer 的深度探访揭示了 Agent 云端化趋势，值得深入分析。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "Anthropic 双线出击，Google 快模型抢市场",
+  "summary_paragraph": "今日 AI 行业迎来密集发布：Anthropic 同时推出 Claude Sonnet 5 和面向科研的 Claude Science，并解除出口管制恢复 Fable 5 和 Mythos 5 的访问，展现了从模型到应用的全面攻势。Google DeepMind 则用 Nano Banana 2 Lite 的 4 秒出图和低价策略抢占开发者市场。Pragmatic Engineer 的深度探访揭示了 Agent 云端运行的主流趋势，而 Kimi 估值 315 亿美元、ARR 破 3 亿美元的数据则证明中国 AI 消费级产品正在走向商业化成熟。整体来看，模型竞争进入性价比和场景化阶段，AI 正在从‘写代码’扩展到‘做科研’。",
+  "snapshot": {
+    "date": "2026-07-01",
+    "hf_trending": [
+      {
+        "name": "baidu/Unlimited-OCR",
+        "short_name": "Unlimited-OCR",
+        "likes": 1510,
+        "downloads": 429056,
+        "url": "https://huggingface.co/baidu/Unlimited-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "unlimited-ocr"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "likes": 1077,
+        "downloads": 970663,
+        "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "tags": [
+          "gguf",
+          "llama.cpp",
+          "quantized"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "zai-org/GLM-5.2",
+        "short_name": "GLM-5.2",
+        "likes": 3083,
+        "downloads": 142547,
+        "url": "https://huggingface.co/zai-org/GLM-5.2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
+        "short_name": "Ornith-1.0-35B-GGUF",
+        "likes": 560,
+        "downloads": 157418,
+        "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
+        "tags": [
+          "transformers",
+          "gguf",
+          "text-generation"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen-AgentWorld-35B-A3B",
+        "short_name": "Qwen-AgentWorld-35B-A3B",
+        "likes": 468,
+        "downloads": 28480,
+        "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "short_name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "likes": 896,
+        "downloads": 257216,
+        "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "tags": [
+          "gguf",
+          "gemma4",
+          "coding"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+        "short_name": "Qwythos-9B-Claude-Mythos-5-1M",
+        "likes": 601,
+        "downloads": 99359,
+        "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "deepreinforce-ai/Ornith-1.0-9B-GGUF",
+        "short_name": "Ornith-1.0-9B-GGUF",
+        "likes": 349,
+        "downloads": 98750,
+        "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B-GGUF",
+        "tags": [
+          "transformers",
+          "gguf",
+          "text-generation"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "hasaneyldrm/exercises-dataset",
+        "desc": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle ",
+        "stars": 7331,
+        "stars_today": 1343,
+        "forks": 853,
+        "language": "HTML",
+        "url": "https://github.com/hasaneyldrm/exercises-dataset"
+      },
+      {
+        "name": "usestrix/strix",
+        "desc": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+        "stars": 28376,
+        "stars_today": 515,
+        "forks": 3139,
+        "language": "Python",
+        "url": "https://github.com/usestrix/strix"
+      },
+      {
+        "name": "msitarzewski/agency-agents",
+        "desc": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whi",
+        "stars": 121400,
+        "stars_today": 1791,
+        "forks": 19831,
+        "language": "Shell",
+        "url": "https://github.com/msitarzewski/agency-agents"
+      },
+      {
+        "name": "altic-dev/FluidVoice",
+        "desc": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Lo",
+        "stars": 5082,
+        "stars_today": 588,
+        "forks": 311,
+        "language": "Swift",
+        "url": "https://github.com/altic-dev/FluidVoice"
+      },
+      {
+        "name": "diegosouzapw/OmniRoute",
+        "desc": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Co",
+        "stars": 8821,
+        "stars_today": 387,
+        "forks": 1412,
+        "language": "TypeScript",
+        "url": "https://github.com/diegosouzapw/OmniRoute"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "org": "deepseek",
+        "total_tokens": 723471184456,
+        "total_tokens_str": "723B",
+        "api_calls": 0,
+        "change": -0.6,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 629074995464,
+        "total_tokens_str": "629B",
+        "api_calls": 0,
+        "change": 2.5,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 3,
+        "slug": "tencent/hy3-preview",
+        "name": "Hy3 preview",
+        "org": "tencent",
+        "total_tokens": 622508906567,
+        "total_tokens_str": "623B",
+        "api_calls": 0,
+        "change": 8.9,
+        "url": "https://openrouter.ai/tencent/hy3-preview"
+      },
+      {
+        "rank": 4,
+        "slug": "minimax/minimax-m3",
+        "name": "MiniMax M3",
+        "org": "minimax",
+        "total_tokens": 597967156333,
+        "total_tokens_str": "598B",
+        "api_calls": 0,
+        "change": -0.4,
+        "url": "https://openrouter.ai/minimax/minimax-m3"
+      },
+      {
+        "rank": 5,
+        "slug": "z-ai/glm-5.2",
+        "name": "GLM 5.2",
+        "org": "z-ai",
+        "total_tokens": 398157184530,
+        "total_tokens_str": "398B",
+        "api_calls": 0,
+        "change": 16.1,
+        "url": "https://openrouter.ai/z-ai/glm-5.2"
+      },
+      {
+        "rank": 6,
+        "slug": "anthropic/claude-4.8-opus",
+        "name": "Claude 4.8 Opus",
+        "org": "anthropic",
+        "total_tokens": 352439361040,
+        "total_tokens_str": "352B",
+        "api_calls": 0,
+        "change": 24.2,
+        "url": "https://openrouter.ai/anthropic/claude-4.8-opus"
+      },
+      {
+        "rank": 7,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
+        "org": "deepseek",
+        "total_tokens": 350883698149,
+        "total_tokens_str": "351B",
+        "api_calls": 0,
+        "change": 12.8,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 8,
+        "slug": "anthropic/claude-4.6-sonnet",
+        "name": "Claude 4.6 Sonnet",
+        "org": "anthropic",
+        "total_tokens": 275138529411,
+        "total_tokens_str": "275B",
+        "api_calls": 0,
+        "change": 6.0,
+        "url": "https://openrouter.ai/anthropic/claude-4.6-sonnet"
+      },
+      {
+        "rank": 9,
+        "slug": "anthropic/claude-4.7-opus",
+        "name": "Claude 4.7 Opus",
+        "org": "anthropic",
+        "total_tokens": 250663437461,
+        "total_tokens_str": "251B",
+        "api_calls": 0,
+        "change": -7.3,
+        "url": "https://openrouter.ai/anthropic/claude-4.7-opus"
+      },
+      {
+        "rank": 10,
+        "slug": "openrouter/owl-alpha",
+        "name": "Owl Alpha",
+        "org": "openrouter",
+        "total_tokens": 226776344252,
+        "total_tokens_str": "227B",
+        "api_calls": 0,
+        "change": -58.3,
+        "url": "https://openrouter.ai/openrouter/owl-alpha"
+      }
+    ],
+    "hf_summary": "多模态与文本生成模型齐头并进，大模型持续迭代"
+  }
+}
