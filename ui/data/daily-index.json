@@ -1,6 +1,13 @@
 {
-  "total": 98,
+  "total": 99,
   "reports": [
+    {
+      "date": "2026-07-02",
+      "title": "今日 AI 日报：Anthropic 发布 Claude Science，专为科学研究设计的新旗舰模型 + 4 条重要动态",
+      "excerpt": "这对科研领域是重大信号：AI 不再只是辅助写作，而是开始深度参与科学发现过程。C…",
+      "top_count": 5,
+      "file": "2026-07-02.json"
+    },
     {
       "date": "2026-07-01",
       "title": "今日 AI 日报：Anthropic 发布 Claude Sonnet 5，同时宣布解除出口管制恢复 Fable 5 和 Mythos 5 访问 + 4 条重要动态",
