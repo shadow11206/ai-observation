@@ -4,7 +4,7 @@
 
 **作者**：tujia  
 **定位**：个人认知升级工具 + AI 观点输出平台  
-**站点**：[shadow11206.github.io/AI-Observation](https://shadow11206.github.io/AI-Observation)
+**站点**：[shadow11206.github.io/AI-Observation](https://shadow11206.github.io/ai-observation/ui/index.html)
 
 ---
 
