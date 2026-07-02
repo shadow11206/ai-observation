@@ -3,134 +3,130 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Anthropic 发布 Claude Science，专为科学研究设计的新旗舰模型",
-      "finding": "Anthropic 推出了 Claude Science，这是其最新的旗舰模型，专门针对科学研究场景优化，包括论文分析、实验设计、数据解读等。该模型在多个科学基准测试中表现领先，标志着 AI 从通用助手向垂直科研工具的深度进化。",
+      "title": "Anthropic 推出 Claude Science，专为科学研究打造的新旗舰模型",
+      "finding": "Anthropic 发布了名为 Claude Science 的新旗舰产品，专门针对科学研究场景优化。该模型在数学、物理、化学、生物学等领域的推理和知识深度上进行了强化，旨在成为科学家的 AI 研究助手。这是 Anthropic 继 Claude Code 后又一次垂直领域深耕。",
       "key_data": [
-        "Claude Science 旗舰模型",
+        "Claude Science 旗舰产品",
         "专为科学研究优化",
-        "论文分析与实验设计",
-        "多科学基准领先"
+        "数学/物理/化学/生物领域"
       ],
-      "judgment": "这对科研领域是重大信号：AI 不再只是辅助写作，而是开始深度参与科学发现过程。Claude Science 可能改变研究者的工作流，加速从文献调研到实验设计的全链条。产品经理应关注如何将此类模型嵌入科研工具链。",
-      "confidence": 5,
+      "judgment": "Anthropic 正在走垂直化路线，Claude Science 直接对标科研场景，意图在专业领域建立壁垒。对科研人员和 AI 产品经理来说，这意味着 AI 工具正从通用对话向专业助手进化，垂直模型将成为下一个竞争焦点。",
+      "confidence": 4,
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/07/01/1139996/the-download-anthropic-claude-science-california-carbon-manure/"
     },
     {
       "rank": 2,
       "title": "英伟达开源机器人技能库，Jim Fan 称范式已变",
-      "finding": "英伟达开源了一个机器人技能库，包含大量预训练技能模块，支持机器人持续学习和迁移。Jim Fan 表示这代表了机器人学习范式的根本转变——从从头训练到复用技能库。",
+      "finding": "英伟达开源了一个机器人技能库，Jim Fan 表示这标志着机器人学习范式的转变——从为每个任务单独训练模型，转向持续学习、技能复用的新范式。该技能库包含多种预训练技能，机器人可以像搭积木一样组合使用。",
       "key_data": [
         "英伟达开源机器人技能库",
         "持续学习新范式",
-        "Jim Fan 定性：范式变了",
-        "预训练技能模块"
+        "技能复用与组合"
       ],
-      "judgment": "这是具身智能领域的重要里程碑：开源技能库降低了机器人开发门槛，让更多团队可以基于预训练技能快速构建应用。对开发者而言，这意味着机器人编程正在从‘训练模型’转向‘组装技能’。",
+      "judgment": "这是具身智能领域的重要信号。英伟达正在推动机器人从‘专用模型’向‘通用技能库’演进，降低机器人开发门槛。对机器人创业公司和开发者来说，这意味着可以站在英伟达的肩膀上开发，不必从零训练。",
       "confidence": 4,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/07/441396.html"
     },
     {
       "rank": 3,
-      "title": "Google Gemini Spark 代理助手正式登陆 Mac",
-      "finding": "Google 的 24/7 代理助手 Gemini Spark 现已支持 Mac 平台，新增实时追踪和更多应用集成能力。这意味着 Google 的 AI 代理从移动端扩展到桌面端，与 Apple Intelligence 直接竞争。",
+      "title": "Meta 限制内部 AI Token 支出，成本逼近数十亿美元",
+      "finding": "Meta 因内部 AI 模型调用成本过高（2026 年预计接近数十亿美元），开始对员工使用 AI Token 设置上限。这一举措反映出即使是大厂，AI 推理成本依然是一个巨大的财务压力，需要主动管控。",
       "key_data": [
-        "Gemini Spark 登陆 Mac",
-        "24/7 代理助手",
-        "实时追踪功能",
-        "与 Apple Intelligence 竞争"
+        "Meta 内部 AI Token 设上限",
+        "成本逼近数十亿美元",
+        "大厂也扛不住推理成本"
       ],
-      "judgment": "AI 代理的‘桌面战争’正式打响。Google 将 Gemini Spark 扩展到 Mac，直接挑战 Apple 的生态优势。对产品经理而言，跨平台 AI 代理的体验一致性将成为核心竞争力。",
-      "confidence": 5,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/"
+      "judgment": "这是一个强烈的信号：AI 推理成本仍然是规模化部署的最大瓶颈。对产品经理和开发者来说，这意味着在设计 AI 产品时必须把成本效率作为核心指标，不能无限制地调用大模型。同时，这也将加速推理优化技术和更便宜模型的需求。",
+      "confidence": 4,
+      "source": "Hacker News",
+      "url": "https://mlq.ai/news/meta-caps-internal-ai-token-spending-after-costs-approach-billions-in-2026/"
     },
     {
       "rank": 4,
-      "title": "OpenAI 系统优化使模型推理成本减半",
-      "finding": "据 36氪报道，OpenAI 迎来重大技术突破，通过系统优化将模型推理成本降低了一半。这可能是通过更高效的架构或推理引擎实现，具体细节尚未公开。",
+      "title": "Cloudflare 新政策：AI 公司需为出版商内容付费，否则将被默认屏蔽",
+      "finding": "Cloudflare 宣布，AI 公司必须在 9 月 15 日前将用于搜索的爬虫和用于 AI 训练/Agent 的爬虫分开，否则将被许多出版商网站默认屏蔽。这实质上是迫使 AI 公司为使用出版商内容训练模型或运行 Agent 而付费。",
       "key_data": [
-        "推理成本减半",
-        "系统优化突破",
-        "未公开具体技术细节"
+        "9月15日截止日期",
+        "爬虫需分离搜索与AI用途",
+        "否则被默认屏蔽"
       ],
-      "judgment": "如果属实，这是比模型能力提升更重要的商业信号。推理成本下降直接降低 API 价格，扩大 AI 应用的经济可行性。开发者应关注后续 API 定价调整，这可能引发新一轮应用爆发。",
-      "confidence": 3,
-      "source": "36氪",
-      "url": "https://36kr.com/p/3877746956611847?f=rss"
-    },
-    {
-      "rank": 5,
-      "title": "Cloudflare 新政策：AI 公司需为出版商内容付费，否则将被屏蔽",
-      "finding": "Cloudflare 要求 AI 公司在 9 月 15 日前将用于搜索的爬虫与用于 AI 训练和代理的爬虫分离，否则将默认屏蔽大量出版商网站。这实质上是迫使 AI 公司为训练数据付费。",
-      "key_data": [
-        "9月15日截止",
-        "爬虫分离要求",
-        "默认屏蔽出版商网站",
-        "推动AI内容付费"
-      ],
-      "judgment": "这是 AI 内容版权博弈的关键转折点。Cloudflare 作为全球最大的 CDN 服务商，其政策将重塑 AI 训练数据的获取方式。对 AI 公司而言，数据获取成本将显著上升，高质量数据的价值进一步凸显。",
+      "judgment": "这是互联网内容生态的一个转折点。Cloudflare 作为全球最大的 CDN 之一，其政策将直接影响 AI 公司的数据获取方式。对 AI 创业公司来说，数据获取成本将显著上升，依赖免费爬取数据的商业模式面临挑战。",
       "confidence": 5,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/"
+    },
+    {
+      "rank": 5,
+      "title": "arXiv 从康奈尔大学独立，成为非营利组织",
+      "finding": "运行了 25 年的学术预印本平台 arXiv 正式从康奈尔大学剥离，成为独立的非营利组织。西蒙斯基金会和施密特科学提供了主要资金支持。网站也将告别经典的红色界面。",
+      "key_data": [
+        "arXiv 独立为非营利组织",
+        "西蒙斯基金会+施密特科学资助",
+        "告别红色界面"
+      ],
+      "judgment": "arXiv 是 AI 研究的命脉，独立运营意味着它需要寻找更可持续的财务模式。对研究人员和开发者来说，短期内影响不大，但长期看，arXiv 的运营策略变化可能影响论文发布和访问方式。这是一个值得关注的制度性变化。",
+      "confidence": 5,
+      "source": "Reddit r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ukjtlm/on_july_1_2026_arxiv_will_spin_out_from_cornell/"
     }
   ],
   "model_tech": [
     {
       "source": "InfoQ",
-      "title": "Anthropic 突发 Sonnet 5，但大家更期待 Fable 5 和 Mythos 5 明天解禁",
-      "finding": "Anthropic 发布了 Sonnet 5 模型，但行业更关注即将解禁的 Fable 5 和 Mythos 5。此前美国政府对这些模型有使用限制，现在限制已解除。",
+      "title": "Vercel 推出开源 AI 智能体开发框架 Eve",
+      "finding": "Vercel 开源了 AI Agent 开发框架 Eve，旨在简化智能体的构建和部署。Eve 与 Vercel 的云平台深度集成，让开发者可以快速搭建和托管 AI Agent。",
       "key_data": [
-        "Sonnet 5 发布",
-        "Fable 5 和 Mythos 5 解禁",
-        "政府限制解除"
+        "开源 AI Agent 框架",
+        "Vercel 云平台集成",
+        "快速构建与部署"
       ],
-      "judgment": "Anthropic 的模型矩阵正在快速扩展，不同定位的模型满足不同安全等级的需求。Fable 和 Mythos 的解禁意味着更强能力的模型将进入市场。",
+      "judgment": "Vercel 正在抢占 AI Agent 基础设施层，Eve 可能成为前端开发者进入 AI Agent 开发的首选框架。",
       "confidence": 4,
-      "url": "https://www.infoq.cn/article/S9zHYQqfFCXt8GoLlM5W?utm_source=rss&utm_medium=article",
+      "url": "https://www.infoq.cn/article/kY3j5x1kIEvedufYJ1rJ",
       "importance": 4
     },
     {
-      "source": "ArXiv",
-      "title": "从搜索到合成：训练 LLM 为零样本工作流生成器",
-      "finding": "一篇新论文提出训练 LLM 成为零样本工作流生成器，即模型能自动将复杂任务分解为可执行的工作流，无需人工设计。这可能是 Agent 自动化的关键进展。",
+      "source": "InfoQ",
+      "title": "AReaL 2.0 开源：给 AI 智能体装上“成长系统”",
+      "finding": "AReaL 2.0 开源发布，这是一个让 AI Agent 能够在使用过程中自我学习和进化的框架，相当于给智能体装上了‘成长系统’，越用越强。",
       "key_data": [
-        "零样本工作流生成",
-        "任务自动分解",
-        "Agent 自动化"
+        "AReaL 2.0 开源",
+        "智能体自我进化",
+        "持续学习框架"
       ],
-      "judgment": "如果可行，将大幅降低构建 AI Agent 的门槛。开发者不再需要手动编排工作流，模型自己就能完成。",
+      "judgment": "这是 Agent 工程的重要进展。如果 Agent 能真正实现‘越用越强’，将极大提升其长期价值，减少人工维护成本。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2606.30704",
+      "url": "https://www.infoq.cn/article/IeXGCZqbv5WQ5zFQXoup",
       "importance": 3
     },
     {
       "source": "ArXiv",
+      "title": "GRPO、Dr.GRPO 和 DAPO 本质上是同一种操作：群标准差恒等式",
+      "finding": "一篇新论文指出，当前最流行的三种推理模型训练方法（GRPO、Dr.GRPO、DAPO）在数学上本质等价，都是对同一个数值进行不同形式的调整。这揭示了这些方法的底层统一性。",
+      "key_data": [
+        "GRPO/Dr.GRPO/DAPO 本质等价",
+        "群标准差恒等式",
+        "推理训练方法统一"
+      ],
+      "judgment": "对训练推理模型的研究者来说，这意味着不需要纠结于选择哪种方法，可以更关注核心机制。也暗示该领域可能接近理论收敛。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2607.00152",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/MachineLearning",
       "title": "Moth-Retrieval：无需知识图谱的多跳检索新方法",
-      "finding": "开源项目 Moth-Retrieval 提出了一种无需预建知识图谱的多跳检索方法，在 HotpotQA 上击败了基于图的系统。这简化了复杂 RAG 系统的搭建。",
+      "finding": "开源项目 MOTHRAG 提出了一种无需构建知识图谱的多跳 RAG 方法，在 HotpotQA 基准上超越了基于图的系统。它通过在查询时动态编排检索步骤来实现。",
       "key_data": [
         "无需知识图谱",
-        "多跳检索",
-        "HotpotQA 领先"
+        "超越 GraphRAG",
+        "查询时动态编排"
       ],
-      "judgment": "对 RAG 开发者是好消息：复杂检索不再需要昂贵的图构建，查询时动态编排即可。",
-      "confidence": 4,
+      "judgment": "对 RAG 开发者来说，这意味着可能可以绕过构建和维护知识图谱的复杂工作，用更轻量的方式实现多跳推理。",
+      "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1ukotww/p_mothretrieval_graphfree_multihop_retrieval_via/",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv",
-      "title": "单一重写就足够：生产环境技能描述优化的经验教训",
-      "finding": "一篇来自企业 AI 的实证论文发现，优化技能描述时，只需一次重写就能显著提升路由准确率，多次迭代收益递减。这对 Agent 系统的技能管理有直接指导意义。",
-      "key_data": [
-        "一次重写足够",
-        "技能描述优化",
-        "生产环境经验"
-      ],
-      "judgment": "Agent 系统开发者可以简化技能描述优化流程，不必过度迭代。一次高质量的重写比多次微调更有效。",
-      "confidence": 4,
-      "url": "https://arxiv.org/abs/2606.30775",
       "importance": 3
     }
   ],
@@ -138,58 +134,57 @@
     {
       "source": "TechCrunch",
       "title": "Venice AI 以 6500 万美元 A 轮融资成为独角兽，隐私优先 AI 平台起飞",
-      "finding": "隐私优先的 AI 平台 Venice AI 完成 6500 万美元 A 轮融资，估值超 10 亿美元。公司已盈利，年化收入超 7000 万美元。",
+      "finding": "隐私优先的 AI 平台 Venice AI 完成 6500 万美元 A 轮融资，估值超 10 亿美元成为独角兽。公司已实现盈利，年化收入超 7000 万美元。",
       "key_data": [
         "6500万美元A轮",
         "估值超10亿美元",
-        "年化收入7000万美元",
-        "已盈利"
+        "年化收入超7000万美元"
       ],
-      "judgment": "隐私 AI 不是小众需求，Venice 的盈利证明了市场付费意愿。对产品经理而言，差异化定位（隐私）可以成为竞争壁垒。",
+      "judgment": "隐私 AI 不是伪需求。Venice AI 的盈利和快速增长证明，在数据隐私日益受关注的背景下，差异化定位可以快速建立商业价值。",
       "confidence": 5,
       "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
       "importance": 4
     },
     {
-      "source": "量子位",
-      "title": "OpenSquilla 0.4.0 发布：AI 写代码首次能‘自我验证’",
-      "finding": "OpenSquilla 发布 0.4.0 版本，引入‘自我验证’能力，即 AI 生成的代码可以自动验证正确性。上线数周 GitHub Star 已达数千。",
+      "source": "TechCrunch",
+      "title": "印度科技大亨自掏 3000 万美元，打造 AI 版 Microsoft Office",
+      "finding": "印度企业家 Bhavin Turakhia 投入 3000 万美元自有资金，创办 Neo 公司，目标是开发 AI 原生的 Microsoft Office 替代品。这是他的第五次创业。",
       "key_data": [
-        "自我验证能力",
-        "GitHub Star 数千",
-        "AI 代码质量保障"
+        "3000万美元自有资金",
+        "AI 原生 Office 替代品",
+        "第五次创业"
       ],
-      "judgment": "自我验证是 AI 编程从‘生成代码’到‘交付可靠代码’的关键一步。如果普及，将显著提升 AI 编程的可用性。",
+      "judgment": "AI 办公套件赛道正在升温。Neo 的入场表明，AI 原生办公产品可能颠覆传统 Office 格局，但挑战微软和 Google 的难度极大。",
       "confidence": 4,
-      "url": "https://www.qbitai.com/2026/07/441240.html",
+      "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
       "importance": 3
     },
     {
-      "source": "Latent Space",
-      "title": "Warp CEO 谈软件工厂：下一代编程的形态",
-      "finding": "Warp CEO Zach Lloyd 认为每个大型软件项目都将运行在自动化工厂上。他解释了工程师应如何为这一转变做准备。",
+      "source": "Wired",
+      "title": "Claude 帮助黑客发现漏洞，可签发美国几乎所有音乐节门票",
+      "finding": "一名安全研究员使用 Claude Opus 4.7 成功入侵了票务网站 Front Gate 的系统，能够免费签发从 Lollapalooza 到 Bonnaroo 等几乎所有美国音乐节的门票。",
       "key_data": [
-        "软件工厂概念",
-        "自动化编程",
-        "工程师角色转变"
+        "Claude Opus 4.7 辅助黑客",
+        "入侵 Front Gate 票务系统",
+        "可签发任意门票"
       ],
-      "judgment": "‘软件工厂’概念正在从理论走向实践。开发者需要思考：当 AI 能自动生成大部分代码时，自己的核心价值在哪里？",
+      "judgment": "这再次证明大模型在安全领域的双刃剑效应。AI 既可以帮助发现漏洞，也可能被恶意利用。对安全团队来说，AI 辅助渗透测试将成为常态，防御也需要 AI 化。",
       "confidence": 4,
-      "url": "https://www.latent.space/p/software-factories",
+      "url": "https://www.wired.com/story/claude-helped-a-hacker-find-a-way-to-issue-tickets-to-almost-every-us-music-festival/",
       "importance": 3
     },
     {
-      "source": "InfoQ",
-      "title": "前后端一起消失：AI Coding 正在改写大厂工程师分工",
-      "finding": "InfoQ 文章指出，AI Coding 工具正在模糊前后端工程师的界限，传统分工正在被打破。AI 能同时处理前端和后端代码，工程师需要更全面的技能。",
+      "source": "36氪",
+      "title": "前大疆科学家创业，半年内连获四轮数亿融资，专注通用空中智能",
+      "finding": "由前大疆科学家创立的硅羽科技（SPARO）在半年内完成四轮数亿元融资，投资方包括耀途资本、锦秋基金、阿里巴巴等。公司专注于通用空中智能，推动飞行器从遥控工具向智能体进化。",
       "key_data": [
-        "前后端界限模糊",
-        "工程师分工重构",
-        "AI 全栈能力"
+        "前大疆科学家创业",
+        "半年四轮数亿融资",
+        "通用空中智能"
       ],
-      "judgment": "对开发者是警醒：单一技能栈的工程师将面临更大竞争压力。全栈能力 + AI 工具使用能力成为新门槛。",
+      "judgment": "具身智能正在从地面延伸到空中。无人机+AI 的结合可能催生新的智能体品类，值得关注空中机器人赛道的产品机会。",
       "confidence": 4,
-      "url": "https://www.infoq.cn/article/rHiSH66JZwoQG5Dfvv6x?utm_source=rss&utm_medium=article",
+      "url": "https://36kr.com/p/3877830625046535",
       "importance": 3
     }
   ],
@@ -197,48 +192,48 @@
     {
       "person": "Jim Fan",
       "level": "L1",
-      "quote": "英伟达开源机器人技能库标志着机器人学习范式的根本转变——从从头训练到复用技能库。",
-      "source": "https://www.qbitai.com/2026/07/441396.html"
-    },
-    {
-      "person": "Zach Lloyd (Warp CEO)",
-      "level": "L1",
-      "quote": "每个大型软件项目都将运行在自动化工厂上，工程师需要为这一转变做好准备。",
-      "source": "https://www.latent.space/p/software-factories"
+      "quote": "机器人学习范式正在转变：从为每个任务单独训练模型，转向持续学习、技能复用的新范式。英伟达开源的机器人技能库就是这一转变的体现。",
+      "source": "量子位"
     },
     {
       "person": "Kent Beck",
       "level": "L1",
-      "quote": "在 AI 时代，建立信任——而不仅仅是生成代码——将定义软件工程的未来。",
-      "source": "https://newsletter.pragmaticengineer.com/p/how-kent-beck-shapes-the-software"
+      "quote": "在 AI 时代，软件工程的未来不是生成更多代码，而是建立信任。TDD 和敏捷方法论在 AI 辅助开发中依然有效，但核心挑战变成了如何信任 AI 生成的代码。",
+      "source": "The Pragmatic Engineer"
+    },
+    {
+      "person": "Cloudflare CEO",
+      "level": "L3",
+      "quote": "未来两年，AI Agent 会让互联网每周爆出一个 Log4j 级别的安全漏洞。Agent 的自主行动能力将大幅增加攻击面。",
+      "source": "InfoQ"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI 编程的‘自我验证’技术现状与前景",
-      "reason": "OpenSquilla 0.4.0 引入自我验证，这是 AI 代码质量保障的关键突破，值得深入调研技术实现和行业影响。",
+      "topic": "AI Agent 的安全风险与防护体系",
+      "reason": "Cloudflare CEO 的警告和 Claude 辅助黑客事件表明 Agent 安全是即将爆发的重大问题，值得深入调研。",
       "priority": "high"
     },
     {
-      "topic": "Cloudflare 新政策对 AI 训练数据生态的影响",
-      "reason": "Cloudflare 作为基础设施层推动内容付费，可能改变整个 AI 数据获取格局，影响深远。",
-      "priority": "high"
+      "topic": "AI 推理成本优化：从 Meta 限流看规模化瓶颈",
+      "priority": "high",
+      "reason": "Meta 限流事件揭示了推理成本是 AI 产品规模化最大的隐性障碍，值得研究成本优化策略。"
     },
     {
-      "topic": "‘软件工厂’概念的实际落地案例与挑战",
-      "reason": "Warp CEO 和 Cursor 都在提软件工厂，需要了解哪些公司已实践、效果如何、面临哪些工程挑战。",
-      "priority": "medium"
+      "topic": "垂直 AI 模型趋势：Claude Science 与专业模型崛起",
+      "priority": "medium",
+      "reason": "Anthropic 推出 Claude Science 标志着模型从通用向垂直进化，值得分析其对产品策略的影响。"
     }
   ],
-  "summary_one_line": "Anthropic 推科研模型，英伟达开源机器人技能库",
-  "summary_paragraph": "今日 AI 行业多点开花：Anthropic 发布 Claude Science 进军科研领域，英伟达开源机器人技能库改变具身智能范式，Google Gemini Spark 登陆 Mac 打响桌面 AI 代理战争。同时，Cloudflare 新政策迫使 AI 公司为内容付费，OpenAI 推理成本减半传闻若属实将重塑 API 经济。AI 编程领域，OpenSquilla 实现代码自我验证，Warp CEO 提出‘软件工厂’概念，前后端工程师分工正在被 AI 改写。整体来看，AI 正从通用能力向垂直场景深入，同时基础设施层的博弈加剧。",
+  "summary_one_line": "推理成本成瓶颈，垂直模型与 Agent 安全成焦点",
+  "summary_paragraph": "今天的 AI 动态呈现几个关键信号：Meta 因推理成本逼近数十亿美元而限制内部 Token 使用，揭示了 AI 规模化部署的最大隐性障碍；Anthropic 推出专为科研打造的 Claude Science，标志着模型从通用向垂直领域进化；Cloudflare 新政策要求 AI 公司为内容付费，数据获取成本将上升；英伟达开源机器人技能库，推动具身智能进入持续学习新范式。同时，Claude 辅助黑客攻破票务系统的事件，再次敲响 AI Agent 安全的警钟。整体来看，行业正从‘能用’走向‘好用且可控’的深水区。",
   "snapshot": {
     "date": "2026-07-02",
     "hf_trending": [
       {
         "name": "baidu/Unlimited-OCR",
         "short_name": "Unlimited-OCR",
-        "likes": 1580,
+        "likes": 1588,
         "downloads": 630246,
         "url": "https://huggingface.co/baidu/Unlimited-OCR",
         "tags": [
@@ -254,7 +249,7 @@
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-        "likes": 1162,
+        "likes": 1177,
         "downloads": 1113871,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "tags": [
@@ -270,7 +265,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 3171,
+        "likes": 3183,
         "downloads": 159967,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -286,7 +281,7 @@
       {
         "name": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "short_name": "Ornith-1.0-35B-GGUF",
-        "likes": 611,
+        "likes": 618,
         "downloads": 233701,
         "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "tags": [
@@ -302,7 +297,7 @@
       {
         "name": "deepreinforce-ai/Ornith-1.0-9B-GGUF",
         "short_name": "Ornith-1.0-9B-GGUF",
-        "likes": 368,
+        "likes": 373,
         "downloads": 191409,
         "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B-GGUF",
         "tags": [
@@ -318,7 +313,7 @@
       {
         "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "short_name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-        "likes": 920,
+        "likes": 923,
         "downloads": 288741,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "tags": [
@@ -332,25 +327,9 @@
         "trend": "same"
       },
       {
-        "name": "Qwen/Qwen-AgentWorld-35B-A3B",
-        "short_name": "Qwen-AgentWorld-35B-A3B",
-        "likes": 497,
-        "downloads": 34371,
-        "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "deepreinforce-ai/Ornith-1.0-9B",
         "short_name": "Ornith-1.0-9B",
-        "likes": 333,
+        "likes": 334,
         "downloads": 46677,
         "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B",
         "tags": [
@@ -362,51 +341,67 @@
         "label": "文本生成",
         "card_desc": "",
         "trend": "new"
+      },
+      {
+        "name": "Qwen/Qwen-AgentWorld-35B-A3B",
+        "short_name": "Qwen-AgentWorld-35B-A3B",
+        "likes": 499,
+        "downloads": 34371,
+        "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
       }
     ],
     "github_trending": [
       {
         "name": "msitarzewski/agency-agents",
         "desc": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whi",
-        "stars": 123567,
+        "stars": 124123,
         "stars_today": 2114,
-        "forks": 20105,
+        "forks": 20161,
         "language": "Shell",
         "url": "https://github.com/msitarzewski/agency-agents"
       },
       {
         "name": "usestrix/strix",
         "desc": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-        "stars": 29802,
+        "stars": 30166,
         "stars_today": 1211,
-        "forks": 3228,
+        "forks": 3250,
         "language": "Python",
         "url": "https://github.com/usestrix/strix"
       },
       {
         "name": "HKUDS/Vibe-Trading",
         "desc": "\"Vibe-Trading: Your Personal Trading Agent\"",
-        "stars": 16593,
+        "stars": 16794,
         "stars_today": 694,
-        "forks": 2814,
+        "forks": 2827,
         "language": "Python",
         "url": "https://github.com/HKUDS/Vibe-Trading"
       },
       {
         "name": "hasaneyldrm/exercises-dataset",
         "desc": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle ",
-        "stars": 8473,
+        "stars": 8639,
         "stars_today": 2470,
-        "forks": 956,
+        "forks": 971,
         "language": "HTML",
         "url": "https://github.com/hasaneyldrm/exercises-dataset"
       },
       {
         "name": "facebook/astryx",
         "desc": "An open source design system that's fully customizable and agent ready",
-        "stars": 2698,
+        "stars": 2883,
         "stars_today": 708,
-        "forks": 140,
+        "forks": 155,
         "language": "TypeScript",
         "url": "https://github.com/facebook/astryx"
       }
@@ -523,6 +518,6 @@
         "url": "https://openrouter.ai/anthropic/claude-4.6-sonnet"
       }
     ],
-    "hf_summary": "多模态模型热度攀升 文本生成仍占主导"
+    "hf_summary": "多模态与轻量化开源模型持续主导热度"
   }
 }
