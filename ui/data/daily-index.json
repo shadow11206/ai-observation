@@ -1,6 +1,13 @@
 {
-  "total": 99,
+  "total": 100,
   "reports": [
+    {
+      "date": "2026-07-03",
+      "title": "今日 AI 日报：Anthropic 与三星讨论定制AI芯片 + 4 条重要动态",
+      "excerpt": "AI实验室自研芯片成为趋势，未来模型能力竞争将部分转移到芯片定制化上，对 NVI…",
+      "top_count": 5,
+      "file": "2026-07-03.json"
+    },
     {
       "date": "2026-07-02",
       "title": "今日 AI 日报：Anthropic 推出 Claude Science，专为科学研究打造的新旗舰模型 + 4 条重要动态",

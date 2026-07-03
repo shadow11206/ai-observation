@@ -1,0 +1,498 @@
+{
+  "date": "2026-07-03",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Anthropic 与三星讨论定制AI芯片",
+      "finding": "Anthropic 正在与三星洽谈合作开发定制AI芯片，距离 OpenAI 宣布与博通合作自研芯片仅一周。这标志着头部AI实验室正加速摆脱对 NVIDIA 的单一依赖，走向芯片自主化。",
+      "key_data": [
+        "Anthropic+三星",
+        "距OpenAI自研芯片仅一周",
+        "摆脱NVIDIA依赖"
+      ],
+      "judgment": "AI实验室自研芯片成为趋势，未来模型能力竞争将部分转移到芯片定制化上，对 NVIDIA 的垄断地位构成长期挑战。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/"
+    },
+    {
+      "rank": 2,
+      "title": "扎克伯格内部承认AI Agent进展不及预期",
+      "finding": "Meta CEO 扎克伯格在内部会议上告诉员工，AI Agent 的发展速度没有达到他的预期。这来自一家正在大力投资AI的科技巨头最高层，信号意义重大。",
+      "key_data": [
+        "Meta CEO内部表态",
+        "AI Agent进展慢于预期",
+        "行业降温信号"
+      ],
+      "judgment": "连Meta这种全力押注AI的公司都承认Agent落地困难，说明当前Agent技术成熟度被高估，行业需要从'演示Demo'转向'可靠生产'。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/"
+    },
+    {
+      "rank": 3,
+      "title": "OpenAI提议将5%股权捐赠给美国主权财富基金",
+      "finding": "Sam Altman 提议将 OpenAI 5% 的股权捐赠给美国主权财富基金，让公众分享AI发展红利。这可能是 OpenAI 从非营利转型为营利性公司过程中，为争取监管支持而做出的政治姿态。",
+      "key_data": [
+        "5%股权捐赠",
+        "美国主权财富基金",
+        "营利转型政治筹码"
+      ],
+      "judgment": "这是AI行业'利益分配'问题的标志性事件，OpenAI试图用股权换政治合法性，但5%的比例是否足够、如何执行仍是未知数。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/"
+    },
+    {
+      "rank": 4,
+      "title": "全球首个不含NVIDIA芯片的万亿参数模型开源",
+      "finding": "一个完全使用非NVIDIA硬件（AMD/Intel）训练的万亿参数模型在海外开发者社区爆火，登顶 OpenRouter 排行榜。这打破了'NVIDIA垄断大模型训练'的固有认知。",
+      "key_data": [
+        "万亿参数",
+        "0% NVIDIA",
+        "登顶OpenRouter"
+      ],
+      "judgment": "对开发者来说，这意味着未来训练大模型不再必须绑定NVIDIA，AMD等替代方案正在成为可行选择，AI基础设施的竞争格局正在松动。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/07/442047.html"
+    },
+    {
+      "rank": 5,
+      "title": "宇树科技科创板IPO注册获批",
+      "finding": "证监会同意宇树科技科创板IPO注册，这意味着'具身智能第一股'即将诞生。宇树是全球首家在IPO前实现人形机器人量产交付的公司。",
+      "key_data": [
+        "科创板IPO获批",
+        "具身智能第一股",
+        "人形机器人量产"
+      ],
+      "judgment": "具身智能从概念走向资本市场，宇树上市将给整个机器人赛道带来估值锚点，也会加速中国机器人公司的上市潮。",
+      "confidence": 5,
+      "source": "36氪",
+      "url": "https://36kr.com/p/3879158039834629?f=rss"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "量子位",
+      "title": "AReaL 2.0开源：面向自演进智能体的强化学习基础设施",
+      "finding": "AReaL 2.0 开源发布，这是一个让AI Agent通过强化学习自我进化的基础设施平台，开发者可以用它构建'越用越强'的智能体。",
+      "key_data": [
+        "自演进Agent",
+        "RL基础设施",
+        "开源"
+      ],
+      "judgment": "Agent自我进化是解决'Agent落地难'的关键方向之一，这个开源项目降低了实验门槛。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/07/442134.html",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "GRPO、Dr.GRPO和DAPO本质上是同一个操作：组标准差恒等式",
+      "finding": "一篇论文证明当前最流行的三种推理模型训练方法（GRPO、Dr.GRPO、DAPO）在数学上等价，只是对同一个数值做了不同调整。",
+      "key_data": [
+        "GRPO=DAPO",
+        "数学等价证明",
+        "推理训练方法统一"
+      ],
+      "judgment": "对研究者来说，这意味着不需要纠结选哪个方法，核心是理解背后的组标准化机制。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2607.00152",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "世界模型的新用途：不做选手，去当裁判",
+      "finding": "研究者发现世界模型（World Model）可以用于评估和验证其他AI模型的输出质量，而不是直接用于生成内容。这为世界模型找到了一个实用落地场景。",
+      "key_data": [
+        "世界模型当裁判",
+        "评估验证",
+        "新应用场景"
+      ],
+      "judgment": "世界模型作为'裁判'比作为'选手'更容易落地，这可能加速世界模型在AI安全评测中的应用。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/07/442138.html",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "TechCrunch",
+      "title": "Meta低调发布AI游戏应用Pocket",
+      "finding": "Meta 悄悄上线了一款名为 Pocket 的AI应用，用户可以用文字提示生成和分享互动小游戏，属于'Vibe Coding'风格的产品实验。",
+      "key_data": [
+        "Meta Pocket",
+        "Vibe Coding游戏",
+        "文字生成互动游戏"
+      ],
+      "judgment": "Meta在AI应用上持续试水，但Pocket更像是实验性产品，短期内不会改变游戏行业格局。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+      "importance": 2
+    },
+    {
+      "source": "Wired",
+      "title": "Meta开始对智能眼镜高级功能收取订阅费",
+      "finding": "Meta 宣布对 Ray-Ban 智能眼镜的某些高级AI功能收取订阅费，标志着硬件+AI订阅模式正式落地。用户买了硬件后，还需要每月付费才能使用最先进的AI功能。",
+      "key_data": [
+        "智能眼镜订阅费",
+        "硬件+AI订阅",
+        "新商业模式"
+      ],
+      "judgment": "AI订阅模式从软件扩展到硬件，未来更多AI硬件厂商可能跟进，消费者需要习惯'买硬件+买AI服务'的双重付费。",
+      "confidence": 4,
+      "url": "https://www.wired.com/story/why-meta-is-charging-a-subscription-for-on-device-smart-glasses-features/",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "Meta改行卖算力股价暴涨10%：卖铲子比淘金更赚？",
+      "finding": "Meta 宣布对外出售其AI算力资源后股价大涨10%，市场认可'卖算力'的商业模式。这印证了AI基础设施层比应用层更容易变现。",
+      "key_data": [
+        "Meta卖算力",
+        "股价涨10%",
+        "基础设施变现"
+      ],
+      "judgment": "AI淘金热中，卖铲子（算力/基础设施）的商业模式被市场验证，这对所有拥有算力储备的公司都是利好信号。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/vxgbzsNORRzQDz6xK1jv?utm_source=rss&utm_medium=article",
+      "importance": 3
+    },
+    {
+      "source": "Wired",
+      "title": "Cursor被SpaceX收购后能否继续提供OpenAI和Anthropic的模型？",
+      "finding": "Cursor 被 SpaceX 收购后，其作为开放平台提供第三方AI模型的能力受到质疑，特别是与OpenAI和Anthropic的合作关系可能受到影响。",
+      "key_data": [
+        "Cursor+SpaceX",
+        "第三方模型供应",
+        "平台中立性"
+      ],
+      "judgment": "AI IDE平台的中立性正在被收购事件挑战，开发者需要关注Cursor未来是否还能自由切换模型。",
+      "confidence": 4,
+      "url": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
+      "importance": 3
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "使用 DSPy 框架来评估和优化 Datasette Agent 的 SQL 系统提示词，发现自动化提示词优化工具确实能提升 Agent 的 SQL 生成质量。",
+      "source": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/"
+    },
+    {
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "在 AIE 大会上听到 Geoffrey Litt 的分享，'理解才能参与'（Understand to participate）这个框架很有共鸣——与编码 Agent 协作的关键挑战是用户需要理解代码才能有效参与。",
+      "source": "https://simonwillison.net/2026/Jul/2/understand-to-participate/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI实验室自研芯片趋势分析",
+      "reason": "Anthropic+三星、OpenAI+博通，头部AI实验室集体自研芯片，可能改变AI芯片竞争格局。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI Agent落地困境深度复盘",
+      "reason": "扎克伯格承认Agent进展不及预期，结合InfoQ的'规模化落地僵局'分析，值得系统梳理Agent当前的技术瓶颈。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "芯片自主化加速，Agent落地遇冷",
+  "summary_paragraph": "今日AI行业呈现'冰火两重天'：一方面，Anthropic与三星洽谈定制芯片、OpenAI提议股权捐赠、全球首个非NVIDIA万亿模型开源，AI基础设施的竞争格局正在松动；另一方面，扎克伯格内部承认Agent进展不及预期，Meta股价却因卖算力暴涨10%，说明市场更认可'卖铲子'而非'淘金'。宇树科技科创板IPO获批，具身智能走向资本市场。整体来看，行业正在从'模型军备竞赛'转向'基础设施变现'和'Agent务实落地'的新阶段。",
+  "snapshot": {
+    "date": "2026-07-03",
+    "hf_trending": [
+      {
+        "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "likes": 1256,
+        "downloads": 1250562,
+        "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "tags": [
+          "gguf",
+          "llama.cpp",
+          "quantized"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "baidu/Unlimited-OCR",
+        "short_name": "Unlimited-OCR",
+        "likes": 1653,
+        "downloads": 758489,
+        "url": "https://huggingface.co/baidu/Unlimited-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "unlimited-ocr"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "zai-org/GLM-5.2",
+        "short_name": "GLM-5.2",
+        "likes": 3256,
+        "downloads": 176154,
+        "url": "https://huggingface.co/zai-org/GLM-5.2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
+        "short_name": "Ornith-1.0-35B-GGUF",
+        "likes": 658,
+        "downloads": 284585,
+        "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
+        "tags": [
+          "transformers",
+          "gguf",
+          "text-generation"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "deepreinforce-ai/Ornith-1.0-9B-GGUF",
+        "short_name": "Ornith-1.0-9B-GGUF",
+        "likes": 397,
+        "downloads": 255123,
+        "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B-GGUF",
+        "tags": [
+          "transformers",
+          "gguf",
+          "text-generation"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "short_name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "likes": 963,
+        "downloads": 314374,
+        "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "tags": [
+          "gguf",
+          "gemma4",
+          "coding"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "deepreinforce-ai/Ornith-1.0-9B",
+        "short_name": "Ornith-1.0-9B",
+        "likes": 353,
+        "downloads": 58385,
+        "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "deepseek-ai/DeepSeek-V4-Pro-DSpark",
+        "short_name": "DeepSeek-V4-Pro-DSpark",
+        "likes": 303,
+        "downloads": 8184,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v4"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "usestrix/strix",
+        "desc": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+        "stars": 32346,
+        "stars_today": 2137,
+        "forks": 3383,
+        "language": "Python",
+        "url": "https://github.com/usestrix/strix"
+      },
+      {
+        "name": "JuliusBrussee/caveman",
+        "desc": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking ",
+        "stars": 81066,
+        "stars_today": 926,
+        "forks": 4533,
+        "language": "JavaScript",
+        "url": "https://github.com/JuliusBrussee/caveman"
+      },
+      {
+        "name": "msitarzewski/agency-agents",
+        "desc": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whi",
+        "stars": 125568,
+        "stars_today": 3032,
+        "forks": 20375,
+        "language": "Shell",
+        "url": "https://github.com/msitarzewski/agency-agents"
+      },
+      {
+        "name": "hasaneyldrm/exercises-dataset",
+        "desc": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle ",
+        "stars": 9296,
+        "stars_today": 938,
+        "forks": 1039,
+        "language": "HTML",
+        "url": "https://github.com/hasaneyldrm/exercises-dataset"
+      },
+      {
+        "name": "santifer/career-ops",
+        "desc": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, bat",
+        "stars": 57879,
+        "stars_today": 372,
+        "forks": 11394,
+        "language": "JavaScript",
+        "url": "https://github.com/santifer/career-ops"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "org": "deepseek",
+        "total_tokens": 865968565544,
+        "total_tokens_str": "866B",
+        "api_calls": 0,
+        "change": 0.3,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "minimax/minimax-m3",
+        "name": "MiniMax M3",
+        "org": "minimax",
+        "total_tokens": 621654898974,
+        "total_tokens_str": "622B",
+        "api_calls": 0,
+        "change": 2.5,
+        "url": "https://openrouter.ai/minimax/minimax-m3"
+      },
+      {
+        "rank": 3,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 579313630847,
+        "total_tokens_str": "579B",
+        "api_calls": 0,
+        "change": -9.4,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 4,
+        "slug": "tencent/hy3-preview",
+        "name": "Hy3 preview",
+        "org": "tencent",
+        "total_tokens": 413586106577,
+        "total_tokens_str": "414B",
+        "api_calls": 0,
+        "change": -20.7,
+        "url": "https://openrouter.ai/tencent/hy3-preview"
+      },
+      {
+        "rank": 5,
+        "slug": "anthropic/claude-4.8-opus",
+        "name": "Claude 4.8 Opus",
+        "org": "anthropic",
+        "total_tokens": 381444324922,
+        "total_tokens_str": "381B",
+        "api_calls": 0,
+        "change": -2.1,
+        "url": "https://openrouter.ai/anthropic/claude-4.8-opus"
+      },
+      {
+        "rank": 6,
+        "slug": "anthropic/claude-4.7-opus",
+        "name": "Claude 4.7 Opus",
+        "org": "anthropic",
+        "total_tokens": 367473674487,
+        "total_tokens_str": "367B",
+        "api_calls": 0,
+        "change": 26.0,
+        "url": "https://openrouter.ai/anthropic/claude-4.7-opus"
+      },
+      {
+        "rank": 7,
+        "slug": "z-ai/glm-5.2",
+        "name": "GLM 5.2",
+        "org": "z-ai",
+        "total_tokens": 344265258198,
+        "total_tokens_str": "344B",
+        "api_calls": 0,
+        "change": -3.5,
+        "url": "https://openrouter.ai/z-ai/glm-5.2"
+      },
+      {
+        "rank": 8,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
+        "org": "deepseek",
+        "total_tokens": 324069764830,
+        "total_tokens_str": "324B",
+        "api_calls": 0,
+        "change": -8.1,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 9,
+        "slug": "stepfun/step-3.7-flash",
+        "name": "Step 3.7 Flash",
+        "org": "stepfun",
+        "total_tokens": 240871498128,
+        "total_tokens_str": "241B",
+        "api_calls": 0,
+        "change": 5.9,
+        "url": "https://openrouter.ai/stepfun/step-3.7-flash"
+      },
+      {
+        "rank": 10,
+        "slug": "anthropic/claude-4.6-sonnet",
+        "name": "Claude 4.6 Sonnet",
+        "org": "anthropic",
+        "total_tokens": 214776253955,
+        "total_tokens_str": "215B",
+        "api_calls": 0,
+        "change": 1.0,
+        "url": "https://openrouter.ai/anthropic/claude-4.6-sonnet"
+      }
+    ],
+    "hf_summary": "多模态和轻量化文本生成模型占据主流"
+  }
+}
