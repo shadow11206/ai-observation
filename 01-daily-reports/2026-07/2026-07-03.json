@@ -4,69 +4,71 @@
     {
       "rank": 1,
       "title": "Anthropic与三星讨论定制AI芯片",
-      "finding": "Anthropic正在与三星洽谈开发定制AI芯片，距离OpenAI宣布与博通合作仅一周。这表明前沿AI实验室正加速自研芯片，减少对NVIDIA的依赖。",
+      "finding": "Anthropic正在与三星讨论开发定制AI芯片，以降低对NVIDIA的依赖。这距离OpenAI宣布与博通合作开发自有芯片仅一周，表明头部AI实验室正加速自研芯片。",
       "key_data": [
         "Anthropic+三星",
         "定制AI芯片",
-        "距OpenAI芯片合作仅一周"
+        "OpenAI+博通",
+        "降低NVIDIA依赖"
       ],
-      "judgment": "AI实验室从模型竞赛延伸到芯片自研，未来两年算力格局将重塑，NVIDIA的垄断地位面临挑战。对开发者意味着更多芯片选择，但短期内兼容性成本可能上升。",
+      "judgment": "AI实验室自研芯片成为趋势，未来两年模型训练和推理成本结构可能发生根本性变化，NVIDIA的垄断地位面临挑战。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/"
     },
     {
       "rank": 2,
-      "title": "Meta悄然发布AI游戏应用Pocket，支持Vibe Coding生成小游戏",
-      "finding": "Meta低调上线实验性AI应用Pocket，用户通过文字提示即可生成和分享互动小游戏。这是Meta在AI+创意工具领域的最新尝试，延续了Vibe Coding趋势。",
+      "title": "Meta CEO扎克伯格承认AI Agent进展不及预期",
+      "finding": "扎克伯格在内部会议上表示，AI Agent的开发进展没有达到他期望的速度。Meta此前在Agent领域投入巨大，但实际效果有限。",
       "key_data": [
-        "Meta Pocket",
-        "Vibe Coding",
-        "文字生成小游戏"
+        "AI Agent进展慢",
+        "内部会议",
+        "Meta CEO"
       ],
-      "judgment": "Vibe Coding从开发工具扩展到消费级创意应用，门槛进一步降低。但Meta的'悄然发布'也暗示这仍是实验性质，距离主流产品还有距离。",
-      "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/"
-    },
-    {
-      "rank": 3,
-      "title": "扎克伯格内部承认AI Agent进展不及预期",
-      "finding": "Meta CEO扎克伯格在内部会议上表示，AI Agent的开发进展没有达到他期望的速度。这来自一线决策者的坦诚反思，与外界'AI Agent即将爆发'的叙事形成对比。",
-      "key_data": [
-        "扎克伯格",
-        "AI Agent进展不及预期",
-        "内部会议"
-      ],
-      "judgment": "连Meta这样投入巨大的公司都觉得Agent进展慢，说明当前Agent能力天花板真实存在。产品经理应降低对Agent'全自动'的预期，聚焦'人机协作'的务实场景。",
+      "judgment": "连Meta这种资源雄厚的公司都承认Agent进展缓慢，说明当前Agent技术仍处于早期阶段，产品经理和创业者需要调整预期，不要过度承诺。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "OpenAI提议将5%股权捐赠给美国主权财富基金",
-      "finding": "Sam Altman提议将OpenAI 5%的股权捐赠给美国主权财富基金，让公众分享AI收益。这可能是为应对监管压力、争取政策支持的战略举措。",
+      "finding": "Sam Altman提议将OpenAI 5%的股权捐赠给美国主权财富基金，让公众分享AI收益。这可能是为了换取政策支持或缓解公众对AI集中化的担忧。",
       "key_data": [
-        "OpenAI 5%股权",
+        "5%股权",
         "美国主权财富基金",
         "Sam Altman"
       ],
-      "judgment": "这本质是'用股权换合法性'的公关操作，短期内对产品无影响。但长期看，若成真将改变AI公司的治理结构，可能成为行业先例。",
+      "judgment": "这是OpenAI在治理结构上的重大试探，如果成行将改变AI行业的利益分配模式，但短期内更像是一种政治姿态。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/"
     },
     {
-      "rank": 5,
-      "title": "全球首个零英伟达芯片的万亿参数模型在海外受追捧",
-      "finding": "一个完全使用非英伟达芯片训练的万亿参数模型在OpenRouter上霸榜，成为海外开发者的热门选择。这标志着AI算力去NVIDIA化迈出实质性一步。",
+      "rank": 4,
+      "title": "宇树科技科创板IPO注册获证监会批准",
+      "finding": "证监会同意宇树科技首次公开发行股票注册，宇树将成为全球首家在IPO前实现人形机器人量产的公司。",
       "key_data": [
-        "零英伟达芯片",
-        "万亿参数模型",
-        "OpenRouter霸榜"
+        "科创板IPO",
+        "人形机器人",
+        "全球首家"
       ],
-      "judgment": "这是AI基础设施多元化的重要信号。如果非NVIDIA芯片能支撑万亿模型训练，未来算力成本有望下降，创业公司获得更多选择空间。",
+      "judgment": "具身智能赛道迎来里程碑事件，宇树上市将加速人形机器人商业化进程，也为其他机器人公司提供了估值锚点。",
+      "confidence": 5,
+      "source": "36氪",
+      "url": "https://36kr.com/p/3879158039834629?f=rss"
+    },
+    {
+      "rank": 5,
+      "title": "全球首个不含NVIDIA GPU的万亿参数模型开源",
+      "finding": "一个完全使用AMD等非NVIDIA硬件训练的万亿参数模型在海外开发者中走红，登顶OpenR等开源排行榜。",
+      "key_data": [
+        "万亿参数",
+        "0% NVIDIA",
+        "AMD训练",
+        "开源"
+      ],
+      "judgment": "这证明NVIDIA并非训练大模型的唯一选择，AMD生态正在成熟，未来模型训练成本有望进一步下降，利好中小团队。",
       "confidence": 3,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/07/442047.html"
@@ -74,126 +76,126 @@
   ],
   "model_tech": [
     {
-      "source": "量子位",
-      "title": "AReaL 2.0开源：面向自演进智能体的强化学习基础设施",
-      "finding": "AReaL 2.0开源发布，这是一个专为自演进智能体设计的强化学习基础设施，能让Agent在使用中持续变强。",
+      "source": "ArXiv",
+      "title": "Kara：通过滑动窗口KV缓存压缩实现高效推理LLM服务",
+      "finding": "提出一种滑动窗口KV缓存压缩方法，专门针对长思维链推理模型，可显著降低推理时的显存占用和延迟。",
       "key_data": [
-        "AReaL 2.0",
-        "自演进智能体",
-        "强化学习基础设施"
+        "滑动窗口KV压缩",
+        "长思维链",
+        "推理加速"
       ],
-      "judgment": "Agent自我进化能力是行业瓶颈，这个开源项目可能加速Agent从'一次性工具'向'持续学习系统'的转变。",
+      "judgment": "推理效率优化是当前最实用的研究方向，这类技术将直接降低API调用成本。",
       "confidence": 3,
-      "url": "https://www.qbitai.com/2026/07/442134.html",
+      "url": "https://arxiv.org/abs/2607.01237",
       "importance": 3
     },
     {
-      "source": "量子位",
-      "title": "世界模型的新用途：不做选手，去当裁判",
-      "finding": "研究者探索将世界模型用于评估AI系统行为，而非直接参与任务执行。这种'裁判'角色可能成为AI安全评估的新范式。",
+      "source": "ArXiv",
+      "title": "Wiola：从零构建的高效小语言模型架构",
+      "finding": "提出一个完全原创的小语言模型架构，不继承任何现有架构（如Transformer）的谱系，在效率上表现出色。",
       "key_data": [
-        "世界模型",
-        "AI裁判",
-        "安全评估新范式"
+        "全新架构",
+        "小语言模型",
+        "非Transformer"
       ],
-      "judgment": "世界模型的应用方向从'生成'转向'评估'，对AI安全领域有启发意义，但距离实用化还有距离。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/07/442138.html",
+      "judgment": "如果Wiola能验证其效率优势，可能开辟小模型新路线，但需更多复现和基准测试。",
+      "confidence": 2,
+      "url": "https://arxiv.org/abs/2607.01394",
       "importance": 2
     },
     {
       "source": "ArXiv",
-      "title": "GRPO、Dr.GRPO和DAPO本质上是同一操作的三种变体",
-      "finding": "一篇论文证明当前三种主流的推理训练方法（GRPO、Dr.GRPO、DAPO）在数学上等价，都基于同一个群标准差恒等式。",
+      "title": "BPE分词在安全对齐中创造可利用漏洞",
+      "finding": "研究发现BPE分词器在字符级扰动下会绕过LLM的安全对齐，使得看似无害的输入能触发有害输出。",
       "key_data": [
-        "GRPO/Dr.GRPO/DAPO等价",
-        "群标准差恒等式",
-        "推理训练方法统一"
+        "BPE分词漏洞",
+        "安全对齐",
+        "字符级攻击"
       ],
-      "judgment": "这简化了推理训练的理论基础，意味着开发者可以更聚焦于工程优化而非方法选择。对RL训练框架设计有直接指导意义。",
-      "confidence": 4,
-      "url": "https://arxiv.org/abs/2607.00152",
+      "judgment": "这是一个重要的安全发现，提示所有LLM应用都需要考虑分词层面的对抗攻击。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.01239",
       "importance": 3
     },
     {
       "source": "Simon Willison",
       "title": "使用DSPy评估和改进Datasette Agent的SQL系统提示词",
-      "finding": "Simon Willison尝试用DSPy框架自动化评估和优化AI Agent的SQL生成提示词，展示了DSPy在Agent开发中的实用价值。",
+      "finding": "Simon Willison尝试用DSPy框架自动化优化Datasette Agent的SQL生成提示词，发现DSPy能系统性地提升提示词质量。",
       "key_data": [
         "DSPy",
-        "提示词自动优化",
-        "Datasette Agent"
+        "提示词优化",
+        "SQL Agent"
       ],
-      "judgment": "DSPy从学术工具走向实际Agent开发，提示词工程正在从'手工调参'升级为'自动化优化'，这是Agent工程化的关键一步。",
+      "judgment": "DSPy正在成为提示工程的标准工具，AI工程师应关注其自动化优化能力。",
       "confidence": 4,
-      "url": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/",
-      "importance": 3
+      "url": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything",
+      "importance": 2
     }
   ],
   "company_product": [
     {
       "source": "TechCrunch",
-      "title": "Meta推出AI订阅服务：智能眼镜高级功能需付费",
-      "finding": "Meta开始对智能眼镜的高级AI功能收取订阅费，标志着硬件+AI订阅模式正式落地。用户购买硬件后，还需付费才能使用最先进的AI功能。",
+      "title": "Meta低调发布Vibe Coding游戏应用Pocket",
+      "finding": "Meta推出实验性AI应用Pocket，用户通过文本提示即可生成和分享互动小游戏，属于Vibe Coding（用自然语言编程）的典型应用。",
       "key_data": [
-        "Meta智能眼镜",
-        "AI订阅费",
-        "硬件+订阅模式"
+        "Pocket",
+        "Vibe Coding",
+        "AI生成游戏"
       ],
-      "judgment": "这是AI硬件商业化的关键实验。如果成功，其他硬件厂商（如苹果Vision Pro）可能跟进，消费者需为AI功能单独付费将成为常态。",
+      "judgment": "Meta在探索AI原生娱乐产品，Vibe Coding从开发工具扩展到消费端应用，值得关注。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+      "importance": 2
+    },
+    {
+      "source": "Wired",
+      "title": "Meta为智能眼镜功能推出订阅制收费",
+      "finding": "Meta开始对Ray-Ban智能眼镜的高级AI功能收取订阅费，标志着硬件+订阅模式在可穿戴AI设备上的落地。",
+      "key_data": [
+        "订阅制",
+        "智能眼镜",
+        "高级AI功能"
+      ],
+      "judgment": "硬件+AI订阅可能成为可穿戴设备的标配商业模式，但用户接受度存疑。",
       "confidence": 4,
       "url": "https://www.wired.com/story/why-meta-is-charging-a-subscription-for-on-device-smart-glasses-features/",
-      "importance": 3
+      "importance": 2
+    },
+    {
+      "source": "量子位",
+      "title": "AReaL 2.0开源：面向自演进智能体的强化学习基础设施",
+      "finding": "AReaL 2.0开源发布，这是一个让AI Agent通过强化学习自我进化的基础设施平台，支持社区共同推进。",
+      "key_data": [
+        "AReaL 2.0",
+        "自演进Agent",
+        "RL基础设施"
+      ],
+      "judgment": "自演进Agent是解决Agent能力天花板的关键方向，开源平台将加速社区探索。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/07/442134.html",
+      "importance": 2
     },
     {
       "source": "InfoQ",
-      "title": "被骂'退出AI竞赛'，Meta改行卖算力股价暴涨10%",
-      "finding": "Meta在AI模型竞赛中表现不佳被批评，但转向出售算力服务后股价大涨10%，印证了'卖铲子比淘金更赚'的逻辑。",
+      "title": "科大讯飞举办智能交互生态发布会，三大平台同步升级",
+      "finding": "科大讯飞升级了三大智能交互平台，但具体升级内容未引起广泛关注，属于常规产品迭代。",
       "key_data": [
-        "Meta卖算力",
-        "股价涨10%",
-        "卖铲子比淘金更赚"
+        "科大讯飞",
+        "智能交互",
+        "平台升级"
       ],
-      "judgment": "AI基础设施的商业模式正在被验证。对于创业公司，做AI应用不如做AI基础设施赚钱，但基础设施竞争也更残酷。",
-      "confidence": 4,
-      "url": "https://www.infoq.cn/article/vxgbzsNORRzQDz6xK1jv",
-      "importance": 3
-    },
-    {
-      "source": "36氪",
-      "title": "证监会同意宇树科技科创板IPO注册",
-      "finding": "宇树科技（人形机器人公司）科创板IPO注册获证监会批准，成为'具身智能第一股'，标志着资本市场对机器人赛道的认可。",
-      "key_data": [
-        "宇树科技",
-        "科创板IPO",
-        "具身智能第一股"
-      ],
-      "judgment": "宇树科技上市将带动更多资本涌入人形机器人赛道，但也要警惕估值泡沫。对从业者而言，这是行业从'概念'走向'商业化'的标志性事件。",
-      "confidence": 5,
-      "url": "https://36kr.com/p/3878550357946625",
-      "importance": 4
-    },
-    {
-      "source": "InfoQ",
-      "title": "Agent狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局？",
-      "finding": "文章深入分析了AI Agent规模化落地的核心障碍：可靠性不足、维护成本高、与现有系统集成困难等，指出当前Agent仍处于'玩具'到'工具'的过渡期。",
-      "key_data": [
-        "Agent规模化落地",
-        "可靠性不足",
-        "维护成本高"
-      ],
-      "judgment": "与扎克伯格的内部反思呼应，Agent落地难是行业共识。产品经理应放弃'全自动'幻想，优先解决'人机协作'场景中的具体痛点。",
-      "confidence": 4,
-      "url": "https://www.infoq.cn/article/KmDMAvlzBGgwu5A2kf7t",
-      "importance": 3
+      "judgment": "国内AI厂商的常规更新，缺乏突破性亮点，对行业格局影响有限。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/07/442048.html",
+      "importance": 1
     }
   ],
   "opinions": [
     {
       "person": "Simon Willison",
       "level": "L1",
-      "quote": "在AI编码Agent协作中，'理解才能参与'是关键原则。如果用户不理解Agent在做什么，就无法有效协作。",
-      "source": "https://simonwillison.net/2026/Jul/2/understand-to-participate/"
+      "quote": "与AI Agent协作的关键是'理解才能参与'——你需要理解代码才能有效指导Agent，而不是完全放手。",
+      "source": "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything"
     },
     {
       "person": "Mark Zuckerberg",
@@ -204,25 +206,25 @@
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI Agent规模化落地的真实瓶颈与突破路径",
-      "reason": "扎克伯格内部反思+InfoQ深度分析，说明Agent落地难是行业共识，值得系统研究。",
+      "topic": "AI实验室自研芯片趋势对行业格局的影响",
+      "reason": "Anthropic与三星、OpenAI与博通，头部实验室纷纷自研芯片，可能重塑AI基础设施市场。",
       "priority": "high"
     },
     {
-      "topic": "AI芯片多元化趋势：非NVIDIA芯片能否支撑万亿模型训练？",
-      "reason": "零英伟达芯片万亿模型+Anthropic/OpenAI自研芯片，算力格局正在变化。",
+      "topic": "AI Agent进展缓慢的根本原因分析",
+      "reason": "扎克伯格承认进展不及预期，值得深挖当前Agent技术的瓶颈和突破方向。",
       "priority": "high"
     }
   ],
-  "summary_one_line": "Agent落地遇冷，芯片军备升温",
-  "summary_paragraph": "今天的AI行业呈现出'冰火两重天'的态势。一面是Agent落地的冷静反思：扎克伯格承认进展不及预期，行业分析也指出规模化障碍重重，Vibe Coding虽热但仍是实验性质。另一面是芯片军备竞赛加速：Anthropic与三星洽谈定制芯片，OpenAI与博通合作，零英伟达芯片的万亿模型开始受到追捧。Meta在模型竞赛受挫后转卖算力反而股价大涨，印证了基础设施的商业模式优势。宇树科技获批科创板IPO，具身智能赛道迎来资本里程碑。整体来看，行业正从'模型能力竞赛'转向'基础设施和商业化落地'的深水区。",
+  "summary_one_line": "AI实验室自研芯片加速，Agent进展不及预期",
+  "summary_paragraph": "今日AI行业呈现两极化趋势：一方面，Anthropic与三星讨论定制芯片、OpenAI提议捐赠股权，头部实验室在基础设施和治理上积极布局；另一方面，扎克伯格承认AI Agent进展缓慢，连Meta都感到吃力。宇树科技获批科创板IPO，具身智能迎来资本里程碑。开源社区也有亮点，全球首个不含NVIDIA GPU的万亿参数模型走红，证明AMD生态正在崛起。整体来看，行业在硬件自主化和Agent落地之间面临结构性张力。",
   "snapshot": {
     "date": "2026-07-03",
     "hf_trending": [
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-        "likes": 1265,
+        "likes": 1281,
         "downloads": 1250562,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "tags": [
@@ -238,7 +240,7 @@
       {
         "name": "baidu/Unlimited-OCR",
         "short_name": "Unlimited-OCR",
-        "likes": 1656,
+        "likes": 1658,
         "downloads": 758489,
         "url": "https://huggingface.co/baidu/Unlimited-OCR",
         "tags": [
@@ -254,7 +256,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 3260,
+        "likes": 3270,
         "downloads": 176154,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -270,7 +272,7 @@
       {
         "name": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "short_name": "Ornith-1.0-35B-GGUF",
-        "likes": 658,
+        "likes": 661,
         "downloads": 284585,
         "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "tags": [
@@ -286,7 +288,7 @@
       {
         "name": "deepreinforce-ai/Ornith-1.0-9B-GGUF",
         "short_name": "Ornith-1.0-9B-GGUF",
-        "likes": 397,
+        "likes": 398,
         "downloads": 255123,
         "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B-GGUF",
         "tags": [
@@ -302,7 +304,7 @@
       {
         "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "short_name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-        "likes": 964,
+        "likes": 966,
         "downloads": 314374,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "tags": [
@@ -316,25 +318,9 @@
         "trend": "same"
       },
       {
-        "name": "deepreinforce-ai/Ornith-1.0-9B",
-        "short_name": "Ornith-1.0-9B",
-        "likes": 353,
-        "downloads": 58385,
-        "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "deepseek-ai/DeepSeek-V4-Pro-DSpark",
         "short_name": "DeepSeek-V4-Pro-DSpark",
-        "likes": 303,
+        "likes": 307,
         "downloads": 8184,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
         "tags": [
@@ -346,51 +332,67 @@
         "label": "文本生成",
         "card_desc": "",
         "trend": "new"
+      },
+      {
+        "name": "deepreinforce-ai/Ornith-1.0-9B",
+        "short_name": "Ornith-1.0-9B",
+        "likes": 354,
+        "downloads": 58385,
+        "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
       }
     ],
     "github_trending": [
       {
         "name": "usestrix/strix",
         "desc": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-        "stars": 32477,
+        "stars": 32773,
         "stars_today": 2137,
-        "forks": 3393,
+        "forks": 3421,
         "language": "Python",
         "url": "https://github.com/usestrix/strix"
       },
       {
         "name": "JuliusBrussee/caveman",
         "desc": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking ",
-        "stars": 81243,
+        "stars": 81551,
         "stars_today": 926,
-        "forks": 4539,
+        "forks": 4559,
         "language": "JavaScript",
         "url": "https://github.com/JuliusBrussee/caveman"
       },
       {
         "name": "msitarzewski/agency-agents",
         "desc": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whi",
-        "stars": 125652,
+        "stars": 125798,
         "stars_today": 3032,
-        "forks": 20389,
+        "forks": 20416,
         "language": "Shell",
         "url": "https://github.com/msitarzewski/agency-agents"
       },
       {
         "name": "hasaneyldrm/exercises-dataset",
         "desc": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle ",
-        "stars": 9346,
+        "stars": 9452,
         "stars_today": 938,
-        "forks": 1044,
+        "forks": 1052,
         "language": "HTML",
         "url": "https://github.com/hasaneyldrm/exercises-dataset"
       },
       {
         "name": "santifer/career-ops",
         "desc": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, bat",
-        "stars": 57950,
+        "stars": 58068,
         "stars_today": 372,
-        "forks": 11398,
+        "forks": 11411,
         "language": "JavaScript",
         "url": "https://github.com/santifer/career-ops"
       }
@@ -478,7 +480,7 @@
         "slug": "deepseek/deepseek-v4-pro",
         "name": "DeepSeek V4 Pro",
         "org": "deepseek",
-        "total_tokens": 324069764830,
+        "total_tokens": 324069853147,
         "total_tokens_str": "324B",
         "api_calls": 0,
         "change": -8.1,
@@ -507,6 +509,6 @@
         "url": "https://openrouter.ai/anthropic/claude-4.6-sonnet"
       }
     ],
-    "hf_summary": "多模态与轻量化文本模型热度攀升，头部效应明显"
+    "hf_summary": "开源小模型热度攀升，文本生成仍占主导"
   }
 }
