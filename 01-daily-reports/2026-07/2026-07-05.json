@@ -4,204 +4,192 @@
     {
       "rank": 1,
       "title": "GPT-5.5 Codex 推理Token聚类导致性能退化",
-      "finding": "开发者报告，OpenAI Codex 在 GPT-5.5 版本中，由于对推理过程的 Token 进行了聚类压缩，导致代码生成质量下降，出现逻辑错误和遗漏。这暴露了当前模型在优化推理效率时可能牺牲准确性的风险。",
+      "finding": "OpenAI Codex 仓库的一个Issue报告称，GPT-5.5在代码生成时，推理Token（thinking tokens）出现了聚类现象，导致输出质量不稳定、性能下降。该问题在Hacker News上获得220+点赞和76条评论，引发开发者广泛讨论。",
       "key_data": [
+        "GPT-5.5 Codex",
         "推理Token聚类",
-        "代码生成质量下降",
-        "GitHub Issue 30364"
+        "220+ HN点赞",
+        "76条评论"
       ],
-      "judgment": "对开发者是重要警示：模型厂商在追求推理速度时，可能以牺牲输出质量为代价。使用最新模型时需更谨慎地验证输出，尤其是代码场景。",
+      "judgment": "这对依赖GPT-5.5进行代码生成的开发者是重大警示。推理Token聚类意味着模型在长链推理时可能陷入局部模式，导致代码质量退化。如果这是系统性问题，OpenAI需要紧急修复，否则会动摇开发者对o系列推理模型的信任。",
       "confidence": 4,
       "source": "Hacker News",
       "url": "https://github.com/openai/codex/issues/30364"
     },
     {
       "rank": 2,
-      "title": "Simon Willison 用 Claude Fable 重写 sqlite-utils，成本仅 149 美元",
-      "finding": "知名开发者 Simon Willison 使用 Anthropic 的 Claude Fable 模型，花费约 149 美元，完成了 sqlite-utils 4.0rc2 的大部分代码重写工作。这展示了当前 AI 编程工具已能独立完成中等规模的开源项目维护。",
+      "title": "Simon Willison：更好的模型反而导致工具更差",
+      "finding": "Simon Willison 报告了一个反直觉的问题：新版Claude模型在调用Pi的编辑工具时，会凭空生成工具中不存在的字段，导致工具调用失败。模型越强，反而越容易“过度发挥”，破坏与既有工具的兼容性。",
       "key_data": [
-        "成本149美元",
-        "Claude Fable",
-        "sqlite-utils 4.0rc2"
+        "Claude模型幻觉",
+        "工具调用兼容性",
+        "过度发挥"
       ],
-      "judgment": "这是一个里程碑事件：AI 编程工具已从辅助编码进化到能独立完成开源库的版本迭代。对开发者而言，这意味着维护成本大幅降低，但代码审查和测试的重要性反而上升。",
+      "judgment": "这是AI工程化中的一个关键信号：模型能力提升并不自动带来更好的工具体验。对于构建AI产品的团队来说，这意味着不能简单升级模型版本，必须建立严格的工具调用验证和回退机制。模型越聪明，越需要更精细的约束。",
       "confidence": 5,
       "source": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/"
+      "url": "https://simonwillison.net/2026/Jul/4/better-models-worse-tools/"
     },
     {
       "rank": 3,
-      "title": "阿里内部禁用 Claude Code，列为高风险软件",
-      "finding": "据 TechCrunch 报道，阿里巴巴已内部通知员工禁止使用 Anthropic 的 Claude Code 编程工具，将其列为高风险软件。此举可能出于数据安全或合规考虑，反映出中国科技巨头对海外 AI 工具的审慎态度。",
+      "title": "阿里禁止员工使用Claude Code，列为高风险软件",
+      "finding": "TechCrunch报道，阿里巴巴已将Claude Code（Anthropic的AI编程工具）列为高风险软件，禁止员工在工作中使用。此举可能出于数据安全或合规考虑，也反映了中美科技公司在AI工具使用上的分歧。",
       "key_data": [
-        "阿里禁用",
         "Claude Code",
-        "高风险软件"
+        "高风险软件",
+        "数据安全"
       ],
-      "judgment": "对中国 AI 开发者生态有直接影响：国内大厂对海外 AI 编程工具的管控可能进一步收紧，这将加速国产 AI Coding 工具（如通义灵码、Trae）的普及，但也可能限制开发者的工具选择。",
+      "judgment": "这标志着大型企业开始对AI编程工具进行安全分级管理。对于AI Coding产品来说，企业级安全认证和本地化部署将成为进入大客户市场的必要条件。Claude Code在中国市场的拓展将面临更大阻力。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/"
     },
     {
       "rank": 4,
-      "title": "Simon Willison：更好的模型反而导致工具更差",
-      "finding": "Simon Willison 转述了开发者 Armin 的发现：在使用 Claude 新模型时，模型会向 Pi 的编辑工具传入不存在的字段，导致工具调用失败。这揭示了模型能力提升后，反而可能破坏与旧工具的兼容性。",
-      "key_data": [
-        "模型幻觉",
-        "工具兼容性",
-        "Claude 新模型"
-      ],
-      "judgment": "对 AI 应用开发者是个重要提醒：模型升级不总是正向的。当模型变得更“聪明”，它可能产生更复杂的幻觉，尤其是在工具调用场景。产品经理需要建立更完善的模型输出校验机制。",
-      "confidence": 4,
-      "source": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Jul/4/better-models-worse-tools/"
-    },
-    {
-      "rank": 5,
       "title": "苹果首次将私有云计算平台扩展至谷歌云",
-      "finding": "苹果公司首次将其私有云计算基础设施扩展至谷歌云平台，用于支持 Apple Intelligence 服务。这打破了苹果长期自建云服务的传统，可能出于成本或地理覆盖的考量。",
+      "finding": "InfoQ报道，苹果首次将其私有云计算平台（用于处理Apple Intelligence请求）扩展至谷歌云基础设施。此前苹果主要依赖自家数据中心和AWS，此次引入谷歌云意味着苹果在AI算力上的需求激增，需要更多第三方云资源。",
       "key_data": [
-        "苹果",
+        "苹果私有云",
         "谷歌云",
-        "私有云计算"
+        "AI算力需求激增"
       ],
-      "judgment": "对云服务格局有信号意义：苹果选择谷歌云而非 AWS 或 Azure，可能影响其他大厂的云采购决策。同时，苹果对 AI 算力的巨大需求正在改变其基础设施策略。",
+      "judgment": "苹果的AI战略正在加速。将私有云扩展到谷歌云，说明Apple Intelligence的用户量和计算需求已经超出预期。这对谷歌云是重大胜利，也意味着苹果在AI基础设施上的投入将持续加大，可能影响其未来产品路线图。",
       "confidence": 4,
       "source": "InfoQ",
       "url": "https://www.infoq.cn/article/UoJtxVXj0d1QT1ftyjtd"
+    },
+    {
+      "rank": 5,
+      "title": "USAF：让MoE模型在推理级GPU上也能微调",
+      "finding": "Reddit上一位开发者发布了USAF（一种稀疏微调方法），声称能让MoE（混合专家）模型在仅能运行推理的GPU上完成微调。这意味着开发者不再需要昂贵的专业训练硬件，普通消费级GPU即可进行模型定制。",
+      "key_data": [
+        "USAF微调方法",
+        "MoE模型",
+        "消费级GPU微调"
+      ],
+      "judgment": "如果USAF方法被验证有效，将大幅降低模型微调的门槛。对于中小团队和个人开发者来说，这意味着可以像使用推理API一样方便地定制模型，可能催生更多垂直领域的微调应用。这是AI民主化的又一个重要步骤。",
+      "confidence": 3,
+      "source": "Reddit r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1unl62q/if_your_gpu_can_run_inference_it_should_be_able/"
     }
   ],
   "model_tech": [
     {
-      "source": "Reddit",
-      "title": "BaryGraph：将知识图谱中的每条关系视为独立文档",
-      "finding": "研究者提出 BaryGraph，一种新型知识图谱结构，其中每条关系不再是简单的边，而是一个独立的向量化文档（BaryEdge），可递归组合形成更复杂的语义结构。",
+      "source": "Reddit r/MachineLearning",
+      "title": "BaryGraph：将知识图谱中的每个关系变为独立文档",
+      "finding": "一种新的知识图谱表示方法BaryGraph，将传统的关系边（edge）替换为独立的向量文档（BaryEdge），并支持递归堆叠形成MetaBary三元组。这有望解决传统知识图谱中关系语义表达不足的问题。",
       "key_data": [
         "BaryEdge",
-        "关系即文档",
-        "递归组合"
+        "知识图谱",
+        "关系文档化"
       ],
-      "judgment": "对 RAG 和知识图谱领域有启发意义，可能解决传统图结构在复杂语义表达上的局限，但距离工程落地尚远。",
+      "judgment": "对知识图谱和RAG领域有启发意义，但尚处于理论阶段，距离工程化应用较远。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1un3lsf/barygraph_knowledge_graph_where_every/",
-      "importance": 3
+      "importance": 2
     },
     {
-      "source": "Reddit",
-      "title": "USAF：让 MoE 模型在推理 GPU 上也能高效微调",
-      "finding": "研究者发布 USAF（稀疏微调方法），专为 MoE 架构设计，目标是让任何能运行推理的 GPU 也能完成微调，大幅降低模型定制门槛。",
-      "key_data": [
-        "USAF",
-        "MoE稀疏微调",
-        "降低微调门槛"
-      ],
-      "judgment": "对开源社区是利好：如果方法有效，将让更多开发者能在消费级 GPU 上微调大模型，加速模型定制化应用。",
-      "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1unl62q/if_your_gpu_can_run_inference_it_should_be_able/",
-      "importance": 3
-    },
-    {
-      "source": "Reddit",
-      "title": "用语义压缩作为输入扩散，突破上下文窗口限制",
-      "finding": "有研究者提出利用语义压缩技术，将超长会话内容压缩后作为扩散模型的输入，从而让模型处理远超上下文窗口长度的信息。",
+      "source": "Reddit r/MachineLearning",
+      "title": "提案：用语义压缩作为输入扩散，处理超长上下文",
+      "finding": "一位研究者提出利用语义压缩技术，将超长对话历史压缩为扩散输入，从而让模型处理远超上下文窗口长度的会话。该方法借鉴了扩散模型的思路，旨在解决长会话中的信息丢失问题。",
       "key_data": [
         "语义压缩",
-        "输入扩散",
-        "超长上下文"
+        "超长上下文",
+        "扩散输入"
       ],
-      "judgment": "这是一个有趣但尚在理论阶段的想法，如果可行，可能改变长文档处理的方式，但工程实现难度很大。",
+      "judgment": "想法有创意，但实现难度大，且可能引入压缩失真。相比直接扩展上下文窗口，这条路更曲折。",
       "confidence": 2,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1un63hv/proposal_use_semantic_compression_as_input/",
       "importance": 2
+    },
+    {
+      "source": "Simon Willison",
+      "title": "用500字节生成世界地图：Codex的极致压缩技巧",
+      "finding": "开发者Iwo Kadziela在Codex辅助下，利用deflate压缩算法，仅用445字节数据就生成了一幅可读的ASCII世界地图。展示了AI辅助下的极致代码优化能力。",
+      "key_data": [
+        "445字节",
+        "ASCII世界地图",
+        "deflate压缩"
+      ],
+      "judgment": "有趣的编程挑战，展示了AI在代码优化和压缩算法上的辅助能力，但属于技术花活，对行业影响有限。",
+      "confidence": 4,
+      "url": "https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/",
+      "importance": 1
     }
   ],
   "company_product": [
     {
-      "source": "量子位",
-      "title": "光象科技完成数亿元天使轮融资，布局物理原生基座模型",
-      "finding": "光象科技宣布完成数亿元天使轮融资，将用于研发物理原生基座模型，即从物理规律出发构建 AI 模型，而非仅依赖数据驱动。",
+      "source": "Simon Willison",
+      "title": "sqlite-utils 4.0rc2 发布，主要由Claude Fable编写",
+      "finding": "Simon Willison 发布了 sqlite-utils 4.0rc2 版本，并透露该版本代码主要由 Claude Fable 编写，成本约149.25美元。这展示了AI在开源工具维护中的实际应用。",
       "key_data": [
-        "数亿元天使轮",
-        "物理原生基座模型"
+        "sqlite-utils 4.0rc2",
+        "Claude Fable编写",
+        "成本$149.25"
       ],
-      "judgment": "物理 AI 赛道持续升温，但天使轮即数亿元融资，需警惕估值泡沫。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/07/442958.html",
+      "judgment": "AI辅助开源维护正在成为现实。对于个人维护的开源项目，AI可以大幅降低版本迭代的人力成本，但代码质量和安全性仍需人工审核。",
+      "confidence": 5,
+      "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/",
       "importance": 2
     },
     {
       "source": "TechCrunch",
-      "title": "Midjourney 要求好莱坞工作室披露 AI 使用细节",
-      "finding": "在正在进行的法律纠纷中，Midjourney 要求三家好莱坞工作室披露其内部如何使用 AI 工具，试图证明对方在指责 Midjourney 的同时也在大量使用 AI。",
+      "title": "Midjourney要求好莱坞工作室披露AI使用细节",
+      "finding": "在针对三家好莱坞工作室的诉讼中，Midjourney要求对方披露其内部AI使用情况，包括使用了哪些AI工具、如何训练模型等。这反映了AI版权纠纷中取证难的问题。",
       "key_data": [
-        "Midjourney",
+        "Midjourney诉讼",
         "好莱坞",
         "AI使用披露"
       ],
-      "judgment": "AI 版权纠纷进入新阶段：互相要求披露使用细节可能成为常态，这对所有使用 AI 创作的企业都是合规警示。",
+      "judgment": "AI版权战进入新阶段：原告开始反向要求被告自证AI使用情况。这对所有使用AI进行内容创作的企业都是警示——内部AI使用记录可能成为法律证据。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
-      "importance": 3
+      "importance": 2
     },
     {
       "source": "TechCrunch",
-      "title": "谷歌新广告设想开国元勋用 AI 写独立宣言",
-      "finding": "在美国独立宣言签署 250 周年之际，谷歌发布广告，假设开国元勋们使用 Google Workspace 和 AI 辅助撰写独立宣言，引发关于 AI 与历史叙事的讨论。",
+      "title": "谷歌新广告：用AI辅助起草《独立宣言》",
+      "finding": "谷歌发布了一则250周年纪念广告，设想美国开国元勋使用Google Workspace和AI辅助起草《独立宣言》。广告旨在展示AI在创意写作中的辅助作用，但引发了关于历史准确性和AI过度营销的讨论。",
       "key_data": [
         "谷歌广告",
         "独立宣言250周年",
         "AI辅助写作"
       ],
-      "judgment": "谷歌在强化 AI 与创造力结合的叙事，但这类营销可能引发对 AI 过度介入历史文化的争议。",
+      "judgment": "谷歌试图将AI包装为“创意伙伴”而非替代者，但这类营销容易引发反感。对AI行业来说，过度浪漫化AI能力可能适得其反。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
       "importance": 1
-    },
-    {
-      "source": "36氪",
-      "title": "对话傲鲨创始人：外骨骼机器人如何成为户外装备",
-      "finding": "傲鲨智能发布 VIATRIX 增程动力外骨骼机器人，已从工业场景拓展至户外徒步领域，通过 AI 学习用户步态提供助力。",
-      "key_data": [
-        "外骨骼机器人",
-        "户外徒步",
-        "AI步态学习"
-      ],
-      "judgment": "AI 驱动的外骨骼从工业走向消费级，但价格和续航仍是普及瓶颈。",
-      "confidence": 3,
-      "url": "https://36kr.com/p/3880770270425089",
-      "importance": 2
     }
   ],
   "opinions": [
     {
       "person": "Simon Willison",
       "level": "L1",
-      "quote": "更好的模型有时会导致更差的工具，因为模型会发明不存在的工具参数。这提醒我们，模型能力提升并不总是正向的，尤其是在工具调用场景。",
+      "quote": "更好的模型反而导致工具更差。新版Claude模型在调用工具时会凭空生成不存在的字段，模型越强，越容易过度发挥，破坏与既有工具的兼容性。",
       "source": "https://simonwillison.net/2026/Jul/4/better-models-worse-tools/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI 编程工具对开源项目维护成本的影响",
-      "reason": "Simon Willison 用 149 美元完成 sqlite-utils 重写，值得深入分析 AI 编程工具如何改变开源维护的经济模型。",
+      "topic": "AI模型升级对工具生态的兼容性影响",
+      "reason": "Simon Willison的发现揭示了模型能力提升与工具稳定性之间的矛盾，值得深入分析如何建立模型-工具兼容性验证体系。",
       "priority": "high"
     },
     {
-      "topic": "中国科技企业禁用海外 AI 工具的连锁反应",
-      "reason": "阿里禁用 Claude Code 可能引发国内大厂效仿，对国产 AI Coding 工具和开发者生态产生深远影响。",
+      "topic": "企业级AI编程工具的安全合规策略",
+      "reason": "阿里禁止Claude Code事件表明，AI编程工具进入大企业面临安全合规门槛，值得研究企业级AI工具的安全架构和合规方案。",
       "priority": "high"
     }
   ],
-  "summary_one_line": "模型变强却更易出错，AI编程成本骤降",
-  "summary_paragraph": "今日 AI 行业呈现矛盾景象：一方面，GPT-5.5 因推理优化导致代码质量下降，Claude 新模型因幻觉破坏工具兼容性，提醒我们模型能力提升并非线性利好；另一方面，Simon Willison 仅花 149 美元就用 AI 完成了开源库重写，证明 AI 编程已能独立承担中等规模项目。阿里内部禁用 Claude Code 则释放了国产替代加速的信号。苹果首次将私有云扩展到谷歌云，折射出 AI 算力需求正在重塑基础设施格局。",
+  "summary_one_line": "模型越强工具越差，阿里封禁Claude Code",
+  "summary_paragraph": "今日AI行业出现了一个反直觉的信号：Simon Willison发现新版Claude模型在调用工具时反而更不稳定，会凭空生成不存在的字段，导致工具调用失败——模型越强，工具体验越差。与此同时，GPT-5.5 Codex也被曝出推理Token聚类导致性能退化。这提醒我们，模型能力的提升并不自动带来更好的产品体验，反而需要更精细的工程约束。在企业市场，阿里将Claude Code列为高风险软件并禁止员工使用，标志着AI编程工具进入大客户市场面临严峻的安全合规挑战。此外，苹果首次将私有云计算平台扩展至谷歌云，显示其AI算力需求激增。整体来看，AI行业正从“模型能力竞赛”转向“工程化落地”阶段，兼容性、安全性和稳定性成为新的关键议题。",
   "snapshot": {
     "date": "2026-07-05",
     "hf_trending": [
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-        "likes": 1462,
+        "likes": 1476,
         "downloads": 1464047,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "tags": [
@@ -217,7 +205,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 3399,
+        "likes": 3409,
         "downloads": 208920,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -233,7 +221,7 @@
       {
         "name": "baidu/Unlimited-OCR",
         "short_name": "Unlimited-OCR",
-        "likes": 1714,
+        "likes": 1717,
         "downloads": 988379,
         "url": "https://huggingface.co/baidu/Unlimited-OCR",
         "tags": [
@@ -249,7 +237,7 @@
       {
         "name": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "short_name": "Ornith-1.0-35B-GGUF",
-        "likes": 712,
+        "likes": 713,
         "downloads": 359659,
         "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "tags": [
@@ -263,25 +251,9 @@
         "trend": "same"
       },
       {
-        "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-        "short_name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-        "likes": 1010,
-        "downloads": 342752,
-        "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-        "tags": [
-          "gguf",
-          "gemma4",
-          "coding"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "nvidia/Qwen3.6-27B-NVFP4",
         "short_name": "Qwen3.6-27B-NVFP4",
-        "likes": 250,
+        "likes": 257,
         "downloads": 184521,
         "url": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
         "tags": [
@@ -295,9 +267,25 @@
         "trend": "new"
       },
       {
+        "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "short_name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "likes": 1013,
+        "downloads": 342752,
+        "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+        "tags": [
+          "gguf",
+          "gemma4",
+          "coding"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "InternScience/Agents-A1",
         "short_name": "Agents-A1",
-        "likes": 239,
+        "likes": 246,
         "downloads": 5456,
         "url": "https://huggingface.co/InternScience/Agents-A1",
         "tags": [
@@ -313,7 +301,7 @@
       {
         "name": "deepseek-ai/DeepSeek-V4-Pro-DSpark",
         "short_name": "DeepSeek-V4-Pro-DSpark",
-        "likes": 370,
+        "likes": 372,
         "downloads": 10306,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
         "tags": [
@@ -331,45 +319,45 @@
       {
         "name": "openai/codex-plugin-cc",
         "desc": "Use Codex from Claude Code to review code or delegate tasks.",
-        "stars": 24504,
+        "stars": 24768,
         "stars_today": 718,
-        "forks": 1485,
+        "forks": 1496,
         "language": "JavaScript",
         "url": "https://github.com/openai/codex-plugin-cc"
       },
       {
         "name": "JuliusBrussee/caveman",
         "desc": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking ",
-        "stars": 84016,
+        "stars": 84183,
         "stars_today": 1089,
-        "forks": 4680,
+        "forks": 4695,
         "language": "JavaScript",
         "url": "https://github.com/JuliusBrussee/caveman"
       },
       {
         "name": "alibaba/page-agent",
         "desc": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
-        "stars": 23144,
+        "stars": 23288,
         "stars_today": 742,
-        "forks": 2009,
+        "forks": 2015,
         "language": "TypeScript",
         "url": "https://github.com/alibaba/page-agent"
       },
       {
         "name": "usestrix/strix",
         "desc": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-        "stars": 36109,
+        "stars": 36300,
         "stars_today": 1904,
-        "forks": 3656,
+        "forks": 3678,
         "language": "Python",
         "url": "https://github.com/usestrix/strix"
       },
       {
         "name": "ChromeDevTools/chrome-devtools-mcp",
         "desc": "Chrome DevTools for coding agents",
-        "stars": 45790,
+        "stars": 45846,
         "stars_today": 304,
-        "forks": 2981,
+        "forks": 2987,
         "language": "TypeScript",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
       }
@@ -486,6 +474,6 @@
         "url": "https://openrouter.ai/anthropic/claude-4.6-sonnet"
       }
     ],
-    "hf_summary": "多模态与文本生成并进，小模型GGUF格式受追捧"
+    "hf_summary": "多模态与量化模型热度飙升，文本生成仍占主流"
   }
 }
