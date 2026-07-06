@@ -1,6 +1,13 @@
 {
-  "total": 102,
+  "total": 103,
   "reports": [
+    {
+      "date": "2026-07-06",
+      "title": "今日 AI 日报：扎克伯格内部承认AI Agent进展不及预期 + 4 条重要动态",
+      "excerpt": "这意味着连Meta这种级别的公司都承认AI Agent落地困难，行业对Agent…",
+      "top_count": 5,
+      "file": "2026-07-06.json"
+    },
     {
       "date": "2026-07-05",
       "title": "今日 AI 日报：GPT-5.5 Codex 推理Token聚类导致性能退化 + 4 条重要动态",
