@@ -3,188 +3,213 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "扎克伯格内部承认AI Agent进展不及预期",
-      "finding": "Mark Zuckerberg在内部会议上对员工表示，AI Agent的进展没有他希望的那么快。这来自TechCrunch的报道，反映了Meta内部对当前AI Agent能力的真实评估。",
+      "title": "GPT-5.6 Sol Ultra 将集成到 Codex 中",
+      "finding": "有消息称 OpenAI 即将发布 GPT-5.6 Sol Ultra，并直接集成到 Codex 中。这暗示 OpenAI 正在将最强的推理模型与代码生成工具深度绑定，可能大幅提升 AI 编程的自主性和准确性。",
       "key_data": [
-        "Meta内部评估",
-        "AI Agent进展慢",
-        "扎克伯格表态"
+        "GPT-5.6 Sol Ultra",
+        "集成 Codex",
+        "推理模型升级"
       ],
-      "judgment": "这意味着连Meta这种级别的公司都承认AI Agent落地困难，行业对Agent的预期需要回调。对产品经理来说，短期内不要指望Agent能独立完成复杂任务，更务实的做法是聚焦于辅助人类、半自动化的场景。",
-      "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/"
+      "judgment": "对开发者影响巨大：如果 GPT-5.6 的推理能力显著提升，AI 编程将从辅助工具转向真正的自主编程 Agent，Cursor、Copilot 等产品将面临新一轮竞争。",
+      "confidence": 2,
+      "source": "Hacker News",
+      "url": "https://twitter.com/thsottiaux/status/2073933490513752151"
     },
     {
       "rank": 2,
-      "title": "新AI导师在达特茅斯课程中实现0.71-1.30标准差效应量",
-      "finding": "一篇论文报告了一个AI导师系统在达特茅斯学院的课程中取得了0.71到1.30个标准差的学习效果提升。这是一个非常大的效应量，相当于将学生的成绩从中等提升到优秀水平。",
+      "title": "Anthropic 内部 95% 数据分析查询已由 Claude 承担",
+      "finding": "Anthropic 透露，其内部数据分析工作已有 95% 由 Claude 完成。这不仅是效率提升，更意味着 AI 已深度嵌入公司核心决策流程，从辅助工具变成了数据洞察的主力。",
       "key_data": [
-        "效应量0.71-1.30 SD",
-        "达特茅斯课程",
-        "AI导师"
+        "95% 数据分析",
+        "Claude 内部使用",
+        "决策流程 AI 化"
       ],
-      "judgment": "这是AI在教育领域最令人信服的实证之一。如果这个结果可复制，AI导师将彻底改变高等教育。对教育科技创业者来说，这是一个明确的信号：AI个性化辅导的时机已经成熟，关键是要找到正确的产品形态和商业模式。",
-      "confidence": 3,
-      "source": "Hacker News",
-      "url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf"
+      "judgment": "这是企业 AI 落地的里程碑：当 AI 公司自己都敢把 95% 的数据分析交给 AI，其他企业将加速跟进，企业级 AI 应用将从“尝鲜”进入“标配”阶段。",
+      "confidence": 4,
+      "source": "InfoQ AI",
+      "url": "https://www.infoq.cn/article/eHH8RTgeeOUWODLCLWXS"
     },
     {
       "rank": 3,
-      "title": "亚马逊停止接受Mechanical Turk新客户",
-      "finding": "亚马逊宣布将停止接受Mechanical Turk平台的新客户。MTurk是AI行业数据标注和微调的重要劳动力来源，这一决定可能影响大量依赖众包数据的AI公司。",
+      "title": "73% PR 由 AI 生成！Claude Code 在 Spotify 的深度应用",
+      "finding": "Spotify 2900 名工程师中，73% 的 Pull Request 已由 AI 生成，每天部署 4500 次。Claude Code 之父与 Spotify 的对话揭示了 AI 编程已从辅助工具变成开发主力，工程师甚至可以在通勤时用手机提交代码。",
       "key_data": [
-        "MTurk停止新客户",
-        "数据标注平台",
-        "AI训练数据"
+        "73% PR 由 AI 生成",
+        "2900 名工程师",
+        "每天部署 4500 次"
       ],
-      "judgment": "这对AI数据供应链是一个重要信号。MTurk的关闭意味着AI公司需要寻找替代的数据标注方案，可能会加速转向合成数据、自动标注或专业标注服务。对依赖众包数据的创业公司来说，需要立即评估影响并寻找替代方案。",
+      "judgment": "AI 编程已进入“新常态”：当头部科技公司 73% 的代码由 AI 生成，传统开发流程将被彻底颠覆，开发者角色将从写代码转向审核和架构设计。",
       "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/"
+      "source": "InfoQ AI",
+      "url": "https://www.infoq.cn/article/e6J4FbXQj28CiziktLuS"
     },
     {
       "rank": 4,
-      "title": "Meta考虑推出Meta Compute，从卖模型转向卖算力",
-      "finding": "据报道，Meta正在考虑推出Meta Compute服务，将GPU算力出租给外部客户。扎克伯格表示'模型可以慢，GPU必须赚'，标志着Meta从开源模型策略向基础设施服务商的转变。",
+      "title": "Zuckerberg 内部承认 AI Agent 进展未达预期",
+      "finding": "Mark Zuckerberg 在内部会议上对员工表示，AI Agent 的进展没有他希望的那么快。这来自 Meta 内部消息，说明即使是最激进的 AI 投入者，也面临 Agent 落地的现实困难。",
       "key_data": [
-        "Meta Compute",
-        "GPU算力出租",
-        "从模型到基础设施"
+        "AI Agent 进展未达预期",
+        "Meta 内部会议",
+        "Zuckerberg 表态"
       ],
-      "judgment": "Meta的算力出租计划如果成真，将直接与AWS、Azure、Google Cloud竞争。对开发者来说，这意味着未来可能有更多算力选择，但更重要的是，这反映了AI行业的盈利模式正在从模型层向基础设施层转移。",
-      "confidence": 3,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/07/443339.html"
+      "judgment": "给行业降温：当 Meta 这样的巨头都承认 Agent 难做，说明当前 Agent 产品普遍存在可靠性、泛化能力不足的问题，创业公司需要更务实，不要过度承诺。",
+      "confidence": 4,
+      "source": "Hacker News / TechCrunch",
+      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/"
     },
     {
       "rank": 5,
-      "title": "LeCun团队让世界模型学会持续学习",
-      "finding": "Yann LeCun团队在持续学习世界模型方面取得进展，让AI模型能够在不断变化的环境中持续学习新知识，而不会忘记之前学到的内容。",
+      "title": "AI 新导师在达特茅斯课程中实现 0.71-1.30 标准差的学习效果提升",
+      "finding": "一款新的 AI 导师在达特茅斯大学课程中取得了 0.71 到 1.30 标准差的学习效果提升，远超传统教学。这相当于将学生的成绩从平均分提升到前 10% 甚至更高，是 AI 教育领域的重大突破。",
       "key_data": [
-        "持续学习",
-        "世界模型",
-        "LeCun团队"
+        "0.71-1.30 SD 效果提升",
+        "达特茅斯课程",
+        "AI 教育突破"
       ],
-      "judgment": "持续学习是通往通用人工智能的关键能力之一。如果这项技术成熟，将解决当前大模型'学完就忘'的痛点，让AI系统能够像人类一样不断积累经验。对机器人、自动驾驶等需要适应动态环境的领域尤其重要。",
-      "confidence": 3,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/07/442964.html"
+      "judgment": "AI 教育的“ChatGPT 时刻”：如此显著的效果提升意味着 AI 个性化辅导不再是概念，而是可以规模化落地的产品。教育行业将迎来颠覆性变革，传统辅导机构面临生存危机。",
+      "confidence": 4,
+      "source": "Hacker News",
+      "url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf"
     }
   ],
   "model_tech": [
     {
       "source": "量子位",
-      "title": "李飞飞署名具身新论文：Sim2Real烧不起，Real2Sim量大管饱",
-      "finding": "李飞飞团队提出Real2Sim方法，通过一段真实视频就能生成无限训练场景，大幅降低具身智能的Sim2Real成本。",
+      "title": "华为更新韬定律论文",
+      "finding": "华为发布了关于“韬定律”的最新论文，详细说明了放弃的技术路线。这可能是华为在 AI 芯片或系统架构方向的重要技术总结。",
       "key_data": [
-        "Real2Sim",
-        "视频生成训练场景",
-        "降低Sim2Real成本"
+        "韬定律",
+        "技术路线放弃",
+        "华为 AI 芯片"
       ],
-      "judgment": "Real2Sim如果可行，将大幅降低机器人训练的数据获取成本，加速具身智能的落地。",
+      "judgment": "对芯片从业者有参考价值：了解巨头走过的弯路，可以避免重复投入。",
       "confidence": 3,
-      "url": "https://www.qbitai.com/2026/07/443066.html",
+      "url": "https://www.qbitai.com/2026/07/443186.html",
       "importance": 3
     },
     {
       "source": "量子位",
-      "title": "华为更新韬定律论文",
-      "finding": "华为更新了关于'韬定律'的论文，详细说明了在AI模型训练中放弃的技术路线及其原因。",
+      "title": "Meta 考虑推出 Meta Compute 卖 GPU",
+      "finding": "Meta 正考虑推出 Meta Compute 服务，向外部提供 GPU 算力。这意味着 Meta 从 AI 模型玩家向基础设施提供商转型，类似 AWS 但更聚焦 AI 训练。",
       "key_data": [
-        "韬定律",
-        "华为AI",
-        "放弃路线说明"
+        "Meta Compute",
+        "GPU 算力售卖",
+        "基础设施转型"
       ],
-      "judgment": "华为公开技术路线的取舍过程，对国内AI研究社区有参考价值，但具体影响有待观察。",
+      "judgment": "算力市场将更拥挤：Meta 的加入会加剧 GPU 云服务竞争，对中小云厂商形成压力，但对开发者是好事，算力成本可能进一步下降。",
       "confidence": 3,
-      "url": "https://www.qbitai.com/2026/07/443186.html",
+      "url": "https://www.qbitai.com/2026/07/443339.html",
+      "importance": 3
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "Hugging Face Kernels 重大更新",
+      "finding": "Hugging Face 对其 Kernels 功能进行了重大更新，这是其核心基础设施的升级，可能涉及推理加速或训练效率优化。",
+      "key_data": [
+        "Kernels 更新",
+        "Hugging Face 基础设施"
+      ],
+      "judgment": "对开源生态是利好：基础设施升级会降低开发者使用门槛，加速模型部署。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/revamped-kernels",
       "importance": 2
     },
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "如果DeepMind或Anthropic正在做你的研究课题，你还会继续吗？",
-      "finding": "Reddit上一位独立研究者提出困惑：当大公司已经在做自己的研究课题时，独立研究者是否还有继续的价值。讨论反映了学术界对AI研究被大公司主导的焦虑。",
+      "source": "Simon Willison",
+      "title": "sqlite-utils 4.0rc3 发布",
+      "finding": "Simon Willison 发布了 sqlite-utils 4.0 的第三个候选版本，并用 Claude Fable 5 和 GPT-5.5 辅助开发。这展示了 AI 编程工具在开源项目维护中的实际应用。",
       "key_data": [
-        "独立研究者困境",
-        "大公司主导研究",
-        "学术焦虑"
+        "sqlite-utils 4.0rc3",
+        "Claude Fable 5 辅助开发"
       ],
-      "judgment": "这反映了AI研究生态的结构性问题：独立研究者越来越难在热门方向与大公司竞争，可能需要转向更细分或更基础的领域。",
-      "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1unt64q/if_deepmind_or_anthropic_is_doing_your_exact/",
+      "judgment": "AI 辅助开源维护将成为常态：个人开发者借助 AI 可以维护更复杂的项目，降低开源维护负担。",
+      "confidence": 5,
+      "url": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
       "importance": 2
     },
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "2026年内在动机还是可行的博士课题吗？",
-      "finding": "一位博士生询问内在动机（无监督强化学习）是否还是可行的博士研究方向，反映了对AI研究前沿快速变化的担忧。",
+      "source": "量子位",
+      "title": "OpenSquilla 0.5.0 Preview 发布，登顶 DRACO 双榜",
+      "finding": "OpenSquilla 发布了 0.5.0 Preview 版本，通过多模型集成在 DRACO 评测中取得双榜第一，对比名单中出现了最新的旗舰模型 Fable 5。",
       "key_data": [
-        "内在动机",
-        "无监督RL",
-        "博士研究方向"
+        "OpenSquilla 0.5.0",
+        "DRACO 双榜第一",
+        "多模型集成"
       ],
-      "judgment": "这个讨论反映了AI博士生面临的普遍困境：研究方向的'保质期'越来越短，选择课题需要更谨慎。",
+      "judgment": "多模型集成策略正在成为新趋势：单一模型能力有限，组合使用可能是当前提升性能的最务实路径。",
       "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uo5kg6/is_intrinsic_motivation_a_viable_phd_topic_in/",
+      "url": "https://www.qbitai.com/2026/07/443559.html",
       "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "36氪",
-      "title": "小米前高管唐沐创业咖啡机器人，完成数亿融资",
-      "finding": "小米前高管唐沐创立的影智XBOT完成数亿元融资，专注于通用餐饮具身机器人，投资方包括林斌、黎万强等。",
+      "source": "InfoQ AI",
+      "title": "豆包、千问关停智能体功能；腾讯 token 额度 1400 元/月起步",
+      "finding": "字节豆包和阿里千问相继关停智能体功能，同时腾讯推出 token 额度服务，起步价 1400 元/月。这反映了国内 AI 厂商在 Agent 商业化上的调整和分化。",
       "key_data": [
-        "影智XBOT",
-        "数亿元融资",
-        "餐饮机器人"
+        "豆包关停智能体",
+        "千问关停智能体",
+        "腾讯 token 1400 元/月"
       ],
-      "judgment": "小米系高管+餐饮机器人，这个组合值得关注。餐饮是机器人落地的典型场景，但商业化难度大，需要持续观察。",
+      "judgment": "国内 Agent 商业化遇冷：关停功能说明 Agent 产品在 C 端尚未找到 PMF，厂商正在收缩战线，转向更务实的 B 端服务。",
       "confidence": 4,
-      "url": "https://36kr.com/p/3882361033322755?f=rss",
+      "url": "https://www.infoq.cn/article/rs0HJTRdN6Pl88LIFh1a",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "亚马逊将停止接受 Mechanical Turk 新客户",
+      "finding": "亚马逊宣布将停止接受 Mechanical Turk 平台的新客户注册。这个曾经的数据标注平台正在走向终结，反映了 AI 数据标注行业从人工向自动化的大转型。",
+      "key_data": [
+        "Mechanical Turk 停止新客户",
+        "数据标注行业转型"
+      ],
+      "judgment": "一个时代的结束：人工数据标注正在被 AI 自动标注取代，相关从业者需要尽快转型。",
+      "confidence": 5,
+      "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+      "importance": 3
+    },
+    {
+      "source": "36氪 AI",
+      "title": "AI 砍掉的第一批大厂人：高薪，高绩效，高P",
+      "finding": "中国互联网大厂在 630 减员中，AI 部门成为重灾区，连高绩效、高 P 的员工也被裁。这揭示了 AI 提效正在反噬 AI 从业者自身。",
+      "key_data": [
+        "630 减员",
+        "AI 部门裁员",
+        "高绩效也被裁"
+      ],
+      "judgment": "AI 从业者也要警惕：当 AI 能替代部分 AI 开发工作，大厂不再需要那么多 AI 专家，行业泡沫正在挤出。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3883456791163138",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "WAIC 2026：后 Scaling 时代范式重构，迈入智能体生产力时代",
+      "finding": "WAIC 2026 上，行业共识认为后 Scaling 时代需要新范式，智能体（Agent）将成为新的生产力核心。但 Zuckerberg 的表态与此形成对比。",
+      "key_data": [
+        "WAIC 2026",
+        "后 Scaling 时代",
+        "智能体生产力"
+      ],
+      "judgment": "行业共识与现实的差距：大家都在谈 Agent 是未来，但实际落地困难重重，说明从概念到产品还有很长的路。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/07/443399.html",
       "importance": 2
     },
     {
-      "source": "36氪",
-      "title": "清华车辆学院师兄弟创业具身智能，已完成数亿元天使融资",
-      "finding": "具身智能公司光象科技完成数亿元天使轮融资，由清华车辆学院师兄弟创立，将落地汽车产业。",
+      "source": "量子位",
+      "title": "WAIC 2026 世界模型激辩：答案不在 VLA 或世界模型",
+      "finding": "WAIC 2026 上，专家们对世界模型和 VLA（视觉-语言-动作）路线进行了激烈辩论，认为单一路线可能不是最终答案。",
       "key_data": [
-        "光象科技",
-        "数亿元天使轮",
-        "汽车产业落地"
+        "WAIC 2026",
+        "世界模型辩论",
+        "VLA 路线"
       ],
-      "judgment": "清华系+汽车产业，具身智能在制造业的落地路径逐渐清晰。天使轮就拿到数亿元，说明资本对具身智能赛道仍然热情。",
-      "confidence": 4,
-      "url": "https://36kr.com/p/3882364132077577?f=rss",
-      "importance": 2
-    },
-    {
-      "source": "36氪",
-      "title": "港大教授成立的忆生科技获数亿天使轮融资",
-      "finding": "忆生科技完成数亿元天使轮融资，致力于为机器人打造'记忆系统'，基于'感知-预测-交互'闭环构建机器人'大脑+小脑'。",
-      "key_data": [
-        "忆生科技",
-        "数亿元天使轮",
-        "机器人记忆系统"
-      ],
-      "judgment": "机器人记忆系统是一个有趣的方向，但'大脑+小脑'的说法比较抽象，需要看具体产品。",
-      "confidence": 4,
-      "url": "https://36kr.com/p/3882365879005186?f=rss",
-      "importance": 2
-    },
-    {
-      "source": "InfoQ",
-      "title": "Azure Functions在Build 2026发布Serverless智能体运行时",
-      "finding": "微软在Build 2026上发布了Azure Functions的Serverless智能体运行时，让开发者可以更轻松地部署和运行AI Agent。",
-      "key_data": [
-        "Azure Functions",
-        "Serverless Agent",
-        "Build 2026"
-      ],
-      "judgment": "Serverless Agent运行时降低了AI Agent的部署门槛，但Agent本身的能力瓶颈才是关键，基础设施只是辅助。",
-      "confidence": 4,
-      "url": "https://www.infoq.cn/article/kGHZu2K5V8IrwYvo6Cm3?utm_source=rss&utm_medium=article",
+      "judgment": "具身智能路线未定：行业还在探索阶段，没有公认的最优解，创业公司需要保持灵活性。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/07/443522.html",
       "importance": 2
     }
   ],
@@ -192,31 +217,36 @@
     {
       "person": "Mark Zuckerberg",
       "level": "L3",
-      "quote": "AI Agent的进展没有他希望的那么快。",
+      "quote": "AI Agent 的进展没有他希望的那么快。",
       "source": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI Agent的现状与瓶颈",
-      "reason": "扎克伯格的表态说明Agent落地困难，值得深入分析当前Agent技术的真实能力和局限。",
+      "topic": "AI Agent 落地的真实瓶颈：为什么 Meta 和国内大厂都在收缩？",
+      "reason": "Zuckerberg 承认进展慢，豆包/千问关停功能，说明 Agent 存在系统性问题，值得深入分析。",
       "priority": "high"
     },
     {
-      "topic": "AI在教育领域的实证效果",
-      "reason": "达特茅斯AI导师的效应量数据非常亮眼，值得深入研究其方法、可复制性和商业化前景。",
+      "topic": "AI 编程的“新常态”：73% PR 由 AI 生成对开发流程的颠覆",
+      "reason": "Spotify 的案例是真实的大规模实践，对开发者工作方式有深远影响。",
       "priority": "high"
+    },
+    {
+      "topic": "AI 个性化教育的“ChatGPT 时刻”：达特茅斯 AI 导师的 0.71-1.30 SD 效果分析",
+      "reason": "如此显著的效果提升可能改变教育行业格局，值得深入研究其技术原理和可复制性。",
+      "priority": "medium"
     }
   ],
-  "summary_one_line": "Agent进展不及预期，AI教育迎来强实证",
-  "summary_paragraph": "今日AI行业的关键信号是：连Meta都承认AI Agent进展太慢，行业需要调整预期。与此同时，AI在教育领域却传来好消息——一个AI导师系统在达特茅斯课程中实现了惊人的学习效果提升。亚马逊关闭MTurk新客户注册，预示着AI数据供应链正在发生结构性变化。Meta考虑出租GPU算力，从模型公司转向基础设施服务商。中国具身智能赛道依然火热，三家创业公司同日宣布数亿元融资。整体来看，行业正在从'模型军备竞赛'转向更务实的应用落地阶段。",
+  "summary_one_line": "Agent 遇冷，AI 编程和教育迎来突破",
+  "summary_paragraph": "今天的 AI 动态呈现出明显的两极分化：一方面，AI 编程和 AI 教育迎来了实质性突破——Spotify 73% 的 PR 由 AI 生成、达特茅斯 AI 导师实现 0.71-1.30 标准差的学习效果提升，说明 AI 在具体场景中已经可以大规模落地并产生显著价值。另一方面，AI Agent 却遭遇了集体降温——Zuckerberg 内部承认进展未达预期，国内豆包和千问关停智能体功能，说明 Agent 产品在通用场景下仍面临可靠性不足的难题。此外，GPT-5.6 Sol Ultra 可能集成到 Codex 的消息，预示着 AI 编程能力将再次升级。整体来看，行业正在从“讲故事”转向“看效果”，能真正解决问题的 AI 产品正在脱颖而出。",
   "snapshot": {
     "date": "2026-07-06",
     "hf_trending": [
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-        "likes": 1557,
+        "likes": 1571,
         "downloads": 1533844,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "tags": [
@@ -232,7 +262,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 3470,
+        "likes": 3476,
         "downloads": 220379,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -248,7 +278,7 @@
       {
         "name": "baidu/Unlimited-OCR",
         "short_name": "Unlimited-OCR",
-        "likes": 1750,
+        "likes": 1757,
         "downloads": 1044217,
         "url": "https://huggingface.co/baidu/Unlimited-OCR",
         "tags": [
@@ -264,7 +294,7 @@
       {
         "name": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "short_name": "Ornith-1.0-35B-GGUF",
-        "likes": 731,
+        "likes": 739,
         "downloads": 394164,
         "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "tags": [
@@ -280,7 +310,7 @@
       {
         "name": "InternScience/Agents-A1",
         "short_name": "Agents-A1",
-        "likes": 290,
+        "likes": 301,
         "downloads": 7010,
         "url": "https://huggingface.co/InternScience/Agents-A1",
         "tags": [
@@ -296,7 +326,7 @@
       {
         "name": "nvidia/Qwen3.6-27B-NVFP4",
         "short_name": "Qwen3.6-27B-NVFP4",
-        "likes": 274,
+        "likes": 275,
         "downloads": 297130,
         "url": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
         "tags": [
@@ -312,7 +342,7 @@
       {
         "name": "google/tabfm-1.0.0-pytorch",
         "short_name": "tabfm-1.0.0-pytorch",
-        "likes": 226,
+        "likes": 229,
         "downloads": 2670,
         "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
         "tags": [
@@ -328,7 +358,7 @@
       {
         "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "short_name": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-        "likes": 1029,
+        "likes": 1031,
         "downloads": 355871,
         "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
         "tags": [
@@ -346,45 +376,45 @@
       {
         "name": "Zackriya-Solutions/meetily",
         "desc": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diar",
-        "stars": 17155,
+        "stars": 17690,
         "stars_today": 1409,
-        "forks": 1810,
+        "forks": 1845,
         "language": "Rust",
         "url": "https://github.com/Zackriya-Solutions/meetily"
       },
       {
         "name": "openai/codex-plugin-cc",
         "desc": "Use Codex from Claude Code to review code or delegate tasks.",
-        "stars": 25524,
+        "stars": 25761,
         "stars_today": 1532,
-        "forks": 1541,
+        "forks": 1557,
         "language": "JavaScript",
         "url": "https://github.com/openai/codex-plugin-cc"
       },
       {
         "name": "asgeirtj/system_prompts_leaks",
         "desc": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. Open",
-        "stars": 50041,
+        "stars": 50370,
         "stars_today": 981,
-        "forks": 8186,
+        "forks": 8232,
         "language": "JavaScript",
         "url": "https://github.com/asgeirtj/system_prompts_leaks"
       },
       {
         "name": "Leonxlnx/taste-skill",
         "desc": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-        "stars": 57589,
+        "stars": 57942,
         "stars_today": 863,
-        "forks": 3937,
+        "forks": 3954,
         "language": "JavaScript",
         "url": "https://github.com/Leonxlnx/taste-skill"
       },
       {
         "name": "alirezarezvani/claude-skills",
         "desc": "337 Claude Code skills &amp; agent skills &amp; plugins (30+ Agents, 70+ custom commands, 330+ skill",
-        "stars": 20606,
+        "stars": 20764,
         "stars_today": 392,
-        "forks": 2795,
+        "forks": 2805,
         "language": "Python",
         "url": "https://github.com/alirezarezvani/claude-skills"
       }
@@ -501,6 +531,6 @@
         "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604:free"
       }
     ],
-    "hf_summary": "多模态与量化模型主导，开源文本生成竞争激烈"
+    "hf_summary": "多模态与文本生成模型主导，GGUF格式成主流"
   }
 }
