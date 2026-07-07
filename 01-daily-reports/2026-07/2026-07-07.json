@@ -3,227 +3,242 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "腾讯发布295B参数MoE开源模型Hy3，AI利润崩塌论再起",
-      "finding": "腾讯发布了Hy3，一个295B参数的MoE模型，仅21B活跃参数，采用Apache 2.0开源协议。分析师Martin Alderson发文称，随着GLM 5.2和Hy3等高效开源模型的出现，AI模型层的利润空间将急剧压缩，因为开源模型的能力已接近闭源，但成本极低。",
+      "title": "腾讯发布Hy3：295B参数MoE开源模型，AI成本崩塌信号再起",
+      "finding": "腾讯开源了Hy3模型，这是一个295B参数的MoE架构模型，仅21B活跃参数。分析文章指出，随着GLM 5.2和Hy3等高效开源模型的涌现，AI推理的边际成本正在快速趋近于零，可能引发AI行业利润率的全面崩塌。",
       "key_data": [
         "295B参数",
         "21B活跃参数",
         "Apache 2.0开源",
-        "AI利润崩塌论"
+        "AI利润率崩塌"
       ],
-      "judgment": "这是开源模型逼近闭源能力的重要信号。对开发者是利好，但对依赖模型API高利润的创业公司是警钟——模型层利润正在消失，真正的价值在应用层和数据飞轮。",
+      "judgment": "这对所有依赖API调用的AI应用开发者是重大利好，但对闭源模型厂商（尤其是OpenAI）是直接威胁。开源模型的性价比优势正在摧毁'卖Token'的商业模式，行业必须转向应用层和解决方案变现。",
       "confidence": 5,
-      "source": "Simon Willison",
+      "source": "Simon Willison / Hacker News",
       "url": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything"
     },
     {
       "rank": 2,
-      "title": "Vercel CEO：模型与Agent正在分离，价格/性能成为生产级关键",
-      "finding": "Vercel CEO Guillermo Rauch在采访中表示，AI行业正在经历模型与Agent的分离趋势。在生产环境中，开发者不再只关注模型能力，而是更看重价格/性能比。这意味着Agent框架和推理优化将比模型本身更具商业价值。",
+      "title": "Google发布Gemma 4技术报告：开源多模态模型新标杆",
+      "finding": "Google发布了Gemma 4的技术报告，这是Gemma系列的新一代开源、原生多模态语言模型，旨在推动计算效率和开放权重模型的前沿。报告详细介绍了其架构设计和性能表现。",
       "key_data": [
-        "模型与Agent分离",
-        "价格/性能比",
-        "生产级优化"
+        "Gemma 4",
+        "开源多模态",
+        "计算效率",
+        "开放权重"
       ],
-      "judgment": "这是来自一线构建者的重要信号：模型同质化后，Agent工程和推理效率才是竞争壁垒。对Cursor、LangChain等工具链公司是利好，对纯模型公司是压力。",
-      "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/"
+      "judgment": "Google在开源模型领域的持续加码，与Meta的Llama、腾讯的Hy3形成竞争，进一步挤压了闭源模型的市场空间。开发者现在有更多高质量、低成本的选择，多模态能力正在成为开源模型的标配。",
+      "confidence": 5,
+      "url": "https://arxiv.org/abs/2607.02770",
+      "source": "ArXiv"
     },
     {
       "rank": 3,
-      "title": "AMD发布Ryzen AI Halo开发套件，售价4000美元",
-      "finding": "AMD推出了面向AI开发者的Ryzen AI Halo开发套件，定价4000美元，旨在为边缘AI和本地推理提供高性能方案。该套件集成了CPU、GPU和NPU，可在本地运行大模型。",
+      "title": "Vercel CEO：模型与Agent必须解耦，价格/性能才是生产级关键",
+      "finding": "Vercel CEO Guillermo Rauch在采访中表示，在生产环境中优化时，必须关注价格/性能比，并认为将模型与Agent解耦是必然趋势。这意味着开发者不应被绑定在单一模型上，而应能灵活切换和组合。",
       "key_data": [
-        "4000美元",
-        "Ryzen AI Halo",
-        "边缘AI开发套件"
+        "模型与Agent解耦",
+        "价格/性能比",
+        "生产级优化"
       ],
-      "judgment": "AMD正在加速挑战NVIDIA在AI硬件领域的垄断地位，但4000美元的定价和有限的软件生态使其短期内难以撼动CUDA护城河。对开发者而言，多了一个本地推理的选择，但迁移成本仍高。",
+      "judgment": "这是来自一线构建者的重要信号：Agent框架正在走向成熟，模型层正在商品化。对于AI应用开发者，这意味着应该投资于Agent编排和工具链，而不是押注单一模型。未来赢家是能最好地管理模型组合的公司。",
       "confidence": 4,
-      "source": "Hacker News",
-      "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo"
+      "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+      "source": "TechCrunch"
     },
     {
       "rank": 4,
-      "title": "首个AI自主执行的勒索软件攻击曝光，但人类仍是幕后推手",
-      "finding": "安全研究人员披露了首个由AI Agent自主执行技术环节的勒索软件攻击案例。但深入分析发现，人类攻击者仍然负责选择目标、搭建基础设施和提供凭证。AI只是执行工具，而非决策者。",
+      "title": "Elastic开源Atlas Agent Memory：基于认知科学的Agent记忆系统",
+      "finding": "Elastic开源了Atlas Agent Memory，这是一个基于认知科学原理设计的Agent记忆系统，旨在让AI Agent拥有更类人的记忆和检索能力，提升长期任务执行的连贯性。",
       "key_data": [
-        "首个AI勒索软件",
-        "人类仍控制决策",
-        "AI执行工具"
+        "开源",
+        "认知科学",
+        "Agent记忆",
+        "长期任务"
       ],
-      "judgment": "这打破了'AI自主攻击'的恐慌叙事。当前AI Agent在攻击中的角色类似于自动化脚本，真正的威胁来自人类+AI的组合，而非AI本身。安全防御的重点应放在Agent行为监控上。",
+      "judgment": "Agent记忆是当前AI Agent落地的核心瓶颈之一。Elastic的入局和开源，将加速Agent记忆基础设施的成熟，让开发者更容易构建能处理复杂、长期任务的Agent应用。这是Agent从'玩具'走向'工具'的关键一步。",
       "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/"
+      "url": "https://www.infoq.cn/article/pzYuRUO0ECSKktjJKV8P?utm_source=rss&utm_medium=article",
+      "source": "InfoQ"
     },
     {
       "rank": 5,
-      "title": "阿里清华论文获ICML杰出论文奖：极简方案刷新扩散模型推理纪录",
-      "finding": "阿里巴巴与清华大学合作的论文入选ICML 2026杰出论文，提出了一种极简方案，大幅提升了扩散模型的推理效率。该方法在不牺牲生成质量的前提下，显著减少了推理步数。",
+      "title": "蚂蚁灵波发布空间感知模型LingBot-Depth 2.0，机器人视觉新突破",
+      "finding": "蚂蚁集团旗下灵波发布了LingBot-Depth 2.0空间感知模型，基于1.5亿数据训练，在深度估计和空间理解上取得显著提升，并开源了首个空间原生的具身视觉基模。",
       "key_data": [
-        "ICML 2026杰出论文",
-        "扩散模型推理加速",
-        "极简方案"
+        "1.5亿数据",
+        "空间感知",
+        "深度估计",
+        "开源具身视觉基模"
       ],
-      "judgment": "这是中国AI研究在顶会上的重要突破。扩散模型推理效率是当前图像/视频生成商业化的核心瓶颈，该方案若可落地，将直接降低Runway、Midjourney等产品的推理成本。",
-      "confidence": 5,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/07/444721.html"
+      "judgment": "这是具身智能领域的重要进展。高质量的空间感知是机器人从'看得见'到'看得懂'的关键。蚂蚁选择开源，将加速整个机器人行业在环境理解能力上的提升，对国内具身智能生态是强心剂。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/mqY10ihiZ874id2JDeXu?utm_source=rss&utm_medium=article",
+      "source": "InfoQ / 量子位"
     }
   ],
   "model_tech": [
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "TRACE：开源层级记忆系统，LLM Agent在EventQA上达82.5%",
-      "finding": "研究者发布了TRACE，一个开源的层级记忆系统，将Agent对话历史组织成主题树结构，而非扁平RAG块。在ICLR 2026的MemoryAgentBench上，使用20B开源模型即达到82.5%的EventQA准确率。",
+      "source": "Reddit",
+      "title": "TRACE：开源层次化记忆系统，让LLM Agent在长对话中表现提升82.5%",
+      "finding": "研究者开发了TRACE记忆系统，将Agent对话历史组织成主题树（分支+摘要），替代扁平化的RAG块。在MemoryAgentBench评测中，使用gpt-oss-20B模型达到82.5%准确率。",
       "key_data": [
-        "82.5% EventQA",
-        "层级记忆树",
-        "20B开源模型"
+        "82.5%准确率",
+        "主题树结构",
+        "MemoryAgentBench",
+        "开源"
       ],
-      "judgment": "Agent记忆管理是当前最棘手的工程问题之一。TRACE的层级方案比RAG更接近人类记忆方式，可能成为Agent框架的标准组件。",
+      "judgment": "层次化记忆是解决Agent'失忆'问题的有效方案，比简单RAG更智能。开发者应关注此类架构，它可能成为下一代Agent框架的标准组件。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1uoz5jo/trace_opensource_hierarchical_memory_for_llm/",
-      "importance": 4
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "SwarmResearch：编排编码Agent进行开放式科学发现",
+      "finding": "论文提出SwarmResearch框架，通过编排多个长期运行的编码Agent，使其在开放式问题中持续发现优化方案，避免单个Agent过早收敛到局部最优。",
+      "key_data": [
+        "多Agent编排",
+        "开放式发现",
+        "避免局部最优"
+      ],
+      "judgment": "多Agent协作是突破单一Agent能力天花板的重要方向。SwarmResearch展示了Agent在科研自动化中的潜力，但距离实用化还有距离。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.02807",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "iFLYTEK-Embodied-Omni：通用具身智能体技术报告",
+      "finding": "科大讯飞发布了具身智能体技术报告，提出通用具身智能体需理解多模态指令、预测环境变化并产生精确控制动作。",
+      "key_data": [
+        "多模态指令",
+        "环境预测",
+        "精确控制"
+      ],
+      "judgment": "国内大厂在具身智能领域的布局加速，但该报告偏技术框架，缺乏具体性能数据，实际效果有待验证。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.02542",
+      "importance": 2
     },
     {
       "source": "量子位",
-      "title": "蔚来世界模型OTA升级，70万用户全覆盖",
-      "finding": "蔚来汽车通过OTA向70万用户推送了世界模型升级，所有用户均获得新版本，无用户被留在旧版本。该世界模型用于自动驾驶决策和场景理解。",
+      "title": "WAIC 2026：AI4S从辅助计算到自主发现，中国重塑全球科研版图",
+      "finding": "WAIC 2026科学智能论坛上，专家讨论AI for Science正从辅助计算工具转向自主发现新知识，中国在材料、生物等领域的AI科研应用加速。",
       "key_data": [
-        "70万用户",
-        "世界模型OTA",
-        "全覆盖"
+        "AI4S",
+        "自主发现",
+        "中国科研"
       ],
-      "judgment": "这是世界模型在量产车上的首次大规模部署，验证了端到端模型在自动驾驶中的可行性。对行业意味着'世界模型+自动驾驶'不再是概念，而是可交付的产品。",
-      "confidence": 4,
-      "url": "https://www.qbitai.com/2026/07/443868.html",
-      "importance": 3
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "LeRobot v0.6.0发布：想象、评估、改进",
-      "finding": "Hugging Face的机器人学习框架LeRobot发布v0.6.0，新增了想象（Imagine）、评估（Evaluate）、改进（Improve）三大模块，降低了机器人AI开发的门槛。",
-      "key_data": [
-        "LeRobot v0.6.0",
-        "机器人学习框架",
-        "想象-评估-改进"
-      ],
-      "judgment": "LeRobot正在成为机器人AI领域的Hugging Face Hub。版本迭代加速表明具身智能的开源生态正在成熟，对小型机器人创业公司是重大利好。",
-      "confidence": 4,
-      "url": "https://huggingface.co/blog/lerobot-release-v060",
-      "importance": 3
-    },
-    {
-      "source": "Reddit r/MachineLearning",
-      "title": "LingBot-Vision：自监督预训练新方法，1.1B参数超越DINOv3-7B",
-      "finding": "研究者提出LingBot-Vision，一种基于掩码边界建模的自监督预训练方法。仅1.1B参数在NYUv2线性探测RMSE上达到0.296，优于DINOv3的7B模型（0.309），但ImageNet上仍落后。",
-      "key_data": [
-        "1.1B参数",
-        "NYUv2 RMSE 0.296",
-        "超越DINOv3-7B"
-      ],
-      "judgment": "自监督学习正在走向'小模型大能力'路线。虽然ImageNet表现一般，但在密集预测任务上的突破对自动驾驶、医学影像等场景有实际价值。",
+      "judgment": "AI4S是长期趋势，但WAIC上的讨论偏宏观和宣传性质，缺乏具体技术突破，信号价值有限。",
       "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1up4cjh/lingbotvision_masked_boundary_modeling_for/",
-      "importance": 2
+      "url": "https://www.qbitai.com/2026/07/445067.html",
+      "importance": 1
     }
   ],
   "company_product": [
     {
-      "source": "TechCrunch",
-      "title": "iOS 27 beta允许用户自定义Siri语速和表现力",
-      "finding": "苹果在最新的iOS 27 beta中开放了Siri的语速和表现力自定义功能，用户可调节Siri的说话速度和情感表达。这是苹果用生成式AI重塑Siri的一部分。",
+      "source": "Hacker News",
+      "title": "OfficeCLI：让AI Agent直接读写Office文件的命令行工具",
+      "finding": "开源项目OfficeCLI为AI Agent提供了直接操作Microsoft Office文件（Word、Excel、PowerPoint）的命令行接口，无需通过GUI或复杂API。",
       "key_data": [
-        "iOS 27 beta",
-        "Siri语速自定义",
-        "生成式AI重塑"
+        "开源",
+        "命令行接口",
+        "Office文件操作",
+        "AI Agent工具"
       ],
-      "judgment": "苹果在AI语音助手上的追赶终于有了实质性进展。但相比Alexa和Google Assistant，Siri的AI化改造仍然缓慢，开放自定义只是第一步。",
+      "judgment": "这解决了AI Agent在企业场景中处理Office文档的痛点。开发者可以更轻松地构建自动化办公Agent，但安全性和格式兼容性仍需关注。",
+      "confidence": 4,
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "苹果iOS 27 Beta允许用户自定义Siri语速和表现力",
+      "finding": "苹果在最新的iOS 27 Beta中，允许用户调整Siri的语速和情感表达程度，这是苹果用生成式AI重建Siri的一部分，旨在让语音助手更自然和个性化。",
+      "key_data": [
+        "iOS 27 Beta",
+        "自定义语速",
+        "情感表达",
+        "Siri重建"
+      ],
+      "judgment": "这是苹果在AI语音助手领域追赶的小步，但相比ChatGPT的语音模式仍有差距。个性化是正确方向，但核心能力（理解、推理）的提升才是关键。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
       "importance": 2
     },
     {
+      "source": "InfoQ",
+      "title": "亚马逊云科技发布FinOps Agent预览版，用AI优化云成本",
+      "finding": "AWS发布了FinOps Agent预览版，这是一个AI驱动的成本优化工具，帮助用户分析和优化云资源使用，降低云支出。",
+      "key_data": [
+        "FinOps Agent",
+        "成本优化",
+        "AWS",
+        "预览版"
+      ],
+      "judgment": "AI正在渗透到云基础设施管理的每个角落。FinOps Agent是AWS将AI应用于自身生态的典型案例，对大型云用户有实际价值，但功能尚在早期。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/OtPug093U3A6NXXhxdiW?utm_source=rss&utm_medium=article",
+      "importance": 2
+    },
+    {
+      "source": "量子位",
+      "title": "openJiuwen首发多模态Skill范式Skill-Omni，让机器人技能有图可依",
+      "finding": "openJiuwen发布了Skill-Omni，一个多模态Skill范式，将机器人技能从纯文字说明书升级为多模态经验库，包含图像、视频等，提升技能学习和复用效率。",
+      "key_data": [
+        "多模态Skill",
+        "经验库",
+        "机器人技能"
+      ],
+      "judgment": "多模态技能表示是机器人从编程到学习的关键。Skill-Omni的思路正确，但生态和标准化是挑战，需要更多开发者参与。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/07/445229.html",
+      "importance": 2
+    },
+    {
       "source": "36氪",
-      "title": "千问大模型升级实时语音识别模型Fun-ASR-Realtime",
-      "finding": "阿里通义千问团队发布了实时语音识别大模型Fun-ASR-Realtime，提升了端到端语音识别的实时性和准确率，支持流式处理。",
+      "title": "千问大模型升级实时语音识别大模型Fun-ASR-Realtime",
+      "finding": "阿里通义千问团队升级了实时语音识别大模型Fun-ASR-Realtime，提升了实时语音转文字的准确率和响应速度。",
       "key_data": [
         "实时语音识别",
         "Fun-ASR-Realtime",
-        "流式处理"
+        "通义千问"
       ],
-      "judgment": "实时语音识别是AI语音助手和会议转录的核心能力。阿里在此领域的升级将直接增强其云服务和钉钉产品的竞争力。",
+      "judgment": "实时语音识别是AI语音交互的基础能力，阿里持续迭代保持竞争力，但该领域已有多个成熟方案，差异化不大。",
       "confidence": 4,
       "url": "https://36kr.com/p/3884024701874183?f=rss",
-      "importance": 2
-    },
-    {
-      "source": "InfoQ",
-      "title": "摩尔线程完成美团LongCat-2.0 Day-0适配，硬件原生FP8加持",
-      "finding": "国产GPU厂商摩尔线程宣布完成对美团大模型LongCat-2.0的Day-0适配，利用硬件原生FP8支持实现快速部署。这是国产AI芯片在互联网大厂落地的重要案例。",
-      "key_data": [
-        "摩尔线程",
-        "美团LongCat-2.0",
-        "硬件原生FP8"
-      ],
-      "judgment": "国产GPU替代NVIDIA的进程正在加速。但Day-0适配更多是象征意义，实际性能和稳定性仍需大规模生产环境验证。",
-      "confidence": 4,
-      "url": "https://www.infoq.cn/article/vRzlWZxXMaxC6aZM7Ufw?utm_source=rss&utm_medium=article",
-      "importance": 2
-    },
-    {
-      "source": "36氪",
-      "title": "AI虚拟细胞公司华源智因获千万级种子轮融资",
-      "finding": "AI虚拟细胞（AIVC）企业华源智因完成千万级人民币种子轮融资，由水木创投领投。公司利用AI建模预测药物在细胞层面的反应，加速新药研发。",
-      "key_data": [
-        "千万级种子轮",
-        "AI虚拟细胞",
-        "药物预测"
-      ],
-      "judgment": "AI+生物制药是长期赛道，但虚拟细胞技术仍处于早期。种子轮融资表明资本对AI制药的耐心仍在，但商业化路径尚不清晰。",
-      "confidence": 4,
-      "url": "https://36kr.com/p/3883943959621634?f=rss",
-      "importance": 2
+      "importance": 1
     }
   ],
   "opinions": [
     {
-      "person": "Simon Willison",
+      "person": "Guillermo Rauch (Vercel CEO)",
       "level": "L1",
-      "quote": "我原本希望周末发布sqlite-utils 4.0稳定版，但在用Claude Fable 5和GPT-5.5处理积压的issue和PR时，发现AI工具让开源维护的效率大幅提升。",
-      "source": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything"
-    },
-    {
-      "person": "Guillermo Rauch",
-      "level": "L1",
-      "quote": "在生产环境中优化时，你开始关注价格/性能比。模型与Agent正在分离，真正的价值在于如何用最低成本让Agent可靠地完成任务。",
+      "quote": "在生产环境中优化时，必须关注价格/性能比，模型与Agent必须解耦。开发者不应被绑定在单一模型上，而应能灵活切换和组合。",
       "source": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "开源模型逼近闭源：AI利润崩塌是否即将到来？",
-      "reason": "腾讯Hy3和GLM 5.2等高效开源模型的出现，正在压缩闭源模型的利润空间。值得深入分析模型层利润的可持续性。",
+      "topic": "开源大模型对闭源API商业模式的冲击分析",
+      "reason": "Hy3、Gemma 4等高效开源模型涌现，AI推理成本趋近于零，闭源厂商的定价权正在瓦解。",
       "priority": "high"
     },
     {
-      "topic": "Agent记忆管理：从RAG到层级记忆树的演进",
-      "reason": "TRACE的层级记忆方案可能改变Agent架构设计，值得研究其对现有RAG范式的替代潜力。",
+      "topic": "Agent记忆系统现状与未来：从RAG到层次化记忆",
+      "reason": "TRACE和Elastic Atlas的发布表明Agent记忆是当前热点，但尚无统一方案，值得深入调研。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "开源模型逼近闭源，Agent与模型加速分离",
-  "summary_paragraph": "今天AI行业的核心信号是'分化与重构'。腾讯发布295B参数的MoE开源模型Hy3，引发AI利润崩塌的讨论——开源模型正在逼近闭源能力，模型层的商业价值正在向应用层转移。Vercel CEO Guillermo Rauch明确指出，模型与Agent正在分离，生产级AI的核心竞争力不再是模型本身，而是价格/性能比和Agent工程。与此同时，首个AI自主执行的勒索软件攻击被证实仍需人类主导，打破了'AI失控'的恐慌叙事。在硬件侧，AMD推出4000美元的AI开发套件挑战NVIDIA，但生态壁垒依然高企。中国方面，阿里清华的扩散模型推理优化论文获ICML杰出论文奖，蔚来世界模型完成70万用户OTA升级，显示中国在AI应用落地和基础研究上均有突破。",
+  "summary_one_line": "开源模型冲击闭源，Agent记忆成新战场",
+  "summary_paragraph": "今日AI行业的核心信号是'开源模型正在重塑成本结构'。腾讯发布295B参数的Hy3开源模型，Google发布Gemma 4技术报告，加上GLM 5.2，一系列高效开源模型的涌现让AI推理成本快速下降，引发行业对'利润率崩塌'的讨论。与此同时，Agent基础设施加速成熟：Elastic开源了基于认知科学的Agent记忆系统，Reddit上也有研究者发布了层次化记忆系统TRACE，Vercel CEO则明确表示模型与Agent必须解耦。在具身智能领域，蚂蚁灵波发布了空间感知模型LingBot-Depth 2.0并开源，为机器人视觉带来新突破。整体来看，行业正从'卖模型'转向'卖能力'，开发者迎来最好的时代。",
   "snapshot": {
     "date": "2026-07-07",
     "hf_trending": [
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-        "likes": 1642,
+        "likes": 1665,
         "downloads": 1617508,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "tags": [
@@ -239,7 +254,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 3532,
+        "likes": 3543,
         "downloads": 231218,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -255,7 +270,7 @@
       {
         "name": "baidu/Unlimited-OCR",
         "short_name": "Unlimited-OCR",
-        "likes": 1793,
+        "likes": 1802,
         "downloads": 1070230,
         "url": "https://huggingface.co/baidu/Unlimited-OCR",
         "tags": [
@@ -271,7 +286,7 @@
       {
         "name": "tencent/Hy3",
         "short_name": "Hy3",
-        "likes": 335,
+        "likes": 363,
         "downloads": 2,
         "url": "https://huggingface.co/tencent/Hy3",
         "tags": [
@@ -287,7 +302,7 @@
       {
         "name": "InternScience/Agents-A1",
         "short_name": "Agents-A1",
-        "likes": 345,
+        "likes": 349,
         "downloads": 8766,
         "url": "https://huggingface.co/InternScience/Agents-A1",
         "tags": [
@@ -303,7 +318,7 @@
       {
         "name": "nvidia/Qwen3.6-27B-NVFP4",
         "short_name": "Qwen3.6-27B-NVFP4",
-        "likes": 290,
+        "likes": 297,
         "downloads": 430676,
         "url": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
         "tags": [
@@ -319,7 +334,7 @@
       {
         "name": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "short_name": "Ornith-1.0-35B-GGUF",
-        "likes": 759,
+        "likes": 761,
         "downloads": 436780,
         "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "tags": [
@@ -335,7 +350,7 @@
       {
         "name": "google/tabfm-1.0.0-pytorch",
         "short_name": "tabfm-1.0.0-pytorch",
-        "likes": 257,
+        "likes": 262,
         "downloads": 7036,
         "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
         "tags": [
@@ -353,45 +368,45 @@
       {
         "name": "asgeirtj/system_prompts_leaks",
         "desc": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. Open",
-        "stars": 51621,
+        "stars": 51959,
         "stars_today": 1378,
-        "forks": 8410,
+        "forks": 8472,
         "language": "JavaScript",
         "url": "https://github.com/asgeirtj/system_prompts_leaks"
       },
       {
         "name": "addyosmani/agent-skills",
         "desc": "Production-grade engineering skills for AI coding agents.",
-        "stars": 70891,
+        "stars": 71147,
         "stars_today": 1112,
-        "forks": 7677,
+        "forks": 7703,
         "language": "JavaScript",
         "url": "https://github.com/addyosmani/agent-skills"
       },
       {
         "name": "Zackriya-Solutions/meetily",
         "desc": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diar",
-        "stars": 19464,
+        "stars": 19733,
         "stars_today": 2494,
-        "forks": 1971,
+        "forks": 1991,
         "language": "Rust",
         "url": "https://github.com/Zackriya-Solutions/meetily"
       },
       {
         "name": "ruvnet/RuView",
         "desc": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, an",
-        "stars": 77557,
+        "stars": 77778,
         "stars_today": 470,
-        "forks": 10416,
+        "forks": 10453,
         "language": "Rust",
         "url": "https://github.com/ruvnet/RuView"
       },
       {
         "name": "Leonxlnx/taste-skill",
         "desc": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-        "stars": 59014,
+        "stars": 59353,
         "stars_today": 1458,
-        "forks": 4018,
+        "forks": 4034,
         "language": "JavaScript",
         "url": "https://github.com/Leonxlnx/taste-skill"
       }
@@ -508,6 +523,6 @@
         "url": "https://openrouter.ai/anthropic/claude-4.6-sonnet"
       }
     ],
-    "hf_summary": "多模态与文本生成模型主导，开源生态活跃"
+    "hf_summary": "多模态模型热度上升，文本生成仍是主流"
   }
 }
