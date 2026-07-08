@@ -1,0 +1,478 @@
+{
+  "date": "2026-07-08",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Anthropic 将 Claude Cowork 智能体扩展到手机和网页端",
+      "finding": "Anthropic 宣布 Claude Cowork 现在可以在手机和网页上使用，用户可以在电脑上启动任务，在手机上查看进度，即使电脑关闭也能继续运行。这是智能体从桌面走向移动端的重要一步。",
+      "key_data": [
+        "手机端可用",
+        "电脑关闭后继续运行",
+        "跨设备任务管理"
+      ],
+      "judgment": "这意味着 AI 智能体正在从'辅助工具'进化为'自主执行者'，用户不再需要保持设备在线。对开发者而言，设计智能体时需要考虑异步执行和移动端交互的新范式。",
+      "confidence": 5,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/"
+    },
+    {
+      "rank": 2,
+      "title": "Meta 发布 Muse Image 图像生成模型，引发用户隐私争议",
+      "finding": "Meta 推出 Muse Image 模型，允许任何人使用公开的 Instagram 照片生成 AI 图像，除非用户主动选择退出。这引发了用户对隐私和数据使用的强烈反弹。",
+      "key_data": [
+        "公开 Instagram 照片可用",
+        "用户需主动选择退出",
+        "广告、装饰等应用场景"
+      ],
+      "judgment": "Meta 在 AI 训练数据使用上采取了'默认同意'策略，这可能会引发监管审查和用户流失。对行业而言，数据使用伦理将成为 AI 产品设计的核心挑战。",
+      "confidence": 5,
+      "source": "Wired",
+      "url": "https://www.wired.com/story/meta-now-lets-anyone-use-your-instagram-photos-in-ai-images-unless-you-opt-out/"
+    },
+    {
+      "rank": 3,
+      "title": "OpenAI 首席未来学家 Joshua Achiam 离职",
+      "finding": "在 OpenAI 工作近九年的首席未来学家 Joshua Achiam 宣布离职。他曾负责 AI 安全研究，并在马斯克诉奥特曼案中出庭作证。",
+      "key_data": [
+        "近9年任职",
+        "AI安全研究负责人",
+        "马斯克诉奥特曼案证人"
+      ],
+      "judgment": "这可能是 OpenAI 高层持续动荡的又一信号。安全研究负责人的离职可能影响外界对 OpenAI 安全承诺的信任，尤其是在公司转型为营利性实体的关键时期。",
+      "confidence": 5,
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company/"
+    },
+    {
+      "rank": 4,
+      "title": "YC CEO 声称每天用 AI 编写 3.7 万行代码，开发者深入调查后发现真相",
+      "finding": "YC CEO Garry Tan 声称每天通过 AI 编写 3.7 万行代码，引发热议。有开发者深入分析后发现，实际有效代码量远低于此，大部分是 AI 生成的样板代码和重复内容。",
+      "key_data": [
+        "声称 3.7 万行/天",
+        "实际有效代码远少",
+        "样板代码和重复内容"
+      ],
+      "judgment": "这暴露了当前 AI 编程的'效率幻觉'——代码量不等于生产力。对开发者而言，AI 编程工具的价值在于减少重复劳动，而非堆砌代码行数。",
+      "confidence": 4,
+      "source": "Fast Company",
+      "url": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media"
+    },
+    {
+      "rank": 5,
+      "title": "微软加入 AI 降本趋势，更多依赖自研模型",
+      "finding": "微软正在减少对 OpenAI 等外部模型的依赖，转而更多使用自研 AI 模型，以降低成本和提升自主可控性。这是继多家科技巨头后的又一重要信号。",
+      "key_data": [
+        "减少外部模型依赖",
+        "自研模型替代",
+        "AI 成本控制趋势"
+      ],
+      "judgment": "这意味着 AI 行业正在从'模型军备竞赛'转向'成本效率竞赛'。对创业公司而言，自研模型和模型优化将成为新的竞争焦点，而非单纯追求更大参数。",
+      "confidence": 5,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "arXiv",
+      "title": "Gemma 4 技术报告发布",
+      "finding": "Google 发布 Gemma 4 技术报告，这是一系列原生多模态、开放权重的语言模型，旨在提升计算效率。",
+      "key_data": [
+        "开放权重",
+        "原生多模态",
+        "计算效率优化"
+      ],
+      "judgment": "Gemma 4 延续了 Google 在开源模型上的布局，对开发者来说是值得关注的高效多模态模型选择。",
+      "confidence": 5,
+      "url": "https://arxiv.org/abs/2607.02770",
+      "importance": 3
+    },
+    {
+      "source": "arXiv",
+      "title": "SwarmResearch：编排编码智能体进行开放式发现",
+      "finding": "提出一种多智能体协作框架，让多个编码智能体协同工作，避免单个智能体陷入局部最优，实现更广泛的自动发现。",
+      "key_data": [
+        "多智能体协作",
+        "开放式发现",
+        "避免局部最优"
+      ],
+      "judgment": "多智能体协作是 AI 编程的下一个方向，但工程复杂度高，短期内难以大规模落地。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2607.02807",
+      "importance": 3
+    },
+    {
+      "source": "arXiv",
+      "title": "通过验证器-生成器对齐改进大语言模型",
+      "finding": "提出一种新方法，通过让验证器和生成器对齐来减少 LLM 输出对提示词变化的敏感性，提升一致性。",
+      "key_data": [
+        "验证器-生成器对齐",
+        "减少输出波动",
+        "提升一致性"
+      ],
+      "judgment": "这是提升 LLM 可靠性的重要方向，对构建生产级 AI 应用有实际价值。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2607.02668",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "InfoQ",
+      "title": "微软通过 Copilot Autofix 将 AI 漏洞修复功能引入 Azure DevOps",
+      "finding": "微软在 Azure DevOps 中集成 Copilot Autofix，可自动识别并修复代码漏洞，提升开发安全效率。",
+      "key_data": [
+        "Azure DevOps 集成",
+        "自动漏洞修复",
+        "AI 安全编码"
+      ],
+      "judgment": "AI 安全修复进入 CI/CD 流程是重要趋势，但自动修复的准确性和安全性仍需验证。",
+      "confidence": 5,
+      "url": "https://www.infoq.cn/article/CSS70hYSA57JBUMLdf7L",
+      "importance": 2
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Discord 承认 AI 审核系统错误封禁用户",
+      "finding": "Discord 的 AI 审核系统因误判将正常图片识别为违规内容，导致大量用户被错误封禁，影响持续数月。",
+      "key_data": [
+        "AI 审核误判",
+        "错误封禁用户",
+        "持续数月"
+      ],
+      "judgment": "AI 审核的误报问题依然严重，对依赖 AI 审核的平台是重要警示，需要人工复核机制兜底。",
+      "confidence": 5,
+      "url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "企业微信首款 AI 硬件：出门问问 TicNote 合作款发布",
+      "finding": "出门问问与企业微信合作推出 TicNote AI 硬件，将 AI 语音助手集成到企业通讯场景中。",
+      "key_data": [
+        "企业微信合作",
+        "AI 语音硬件",
+        "企业通讯场景"
+      ],
+      "judgment": "AI 硬件与办公软件的深度整合是趋势，但产品能否真正提升效率还需市场检验。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/CiwPd7c4oYfzqBGMbotV",
+      "importance": 1
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "sqlite-utils 4.0 发布，主要新增数据库 schema 迁移功能，这是该工具自 2020 年以来的首个大版本更新。",
+      "source": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI 智能体从桌面到移动端的演进路径",
+      "reason": "Claude Cowork 移动端发布是重要信号，值得研究智能体跨设备交互的设计范式。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI 编程效率的真实度量：代码行数 vs 实际生产力",
+      "reason": "YC CEO 的 3.7 万行代码争议暴露了行业对 AI 编程效率的认知偏差。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "智能体走向手机，模型成本战打响",
+  "summary_paragraph": "今日 AI 行业的关键词是'移动化'和'成本'。Anthropic 将 Claude Cowork 扩展到手机端，标志着 AI 智能体从桌面工具进化为随时在线的自主执行者。与此同时，微软加入自研模型降本趋势，Meta 的 Muse Image 引发隐私争议，OpenAI 安全负责人离职，YC CEO 的 AI 编程效率争议则揭示了行业对 AI 生产力的认知偏差。整体来看，行业正从'模型军备竞赛'转向'成本效率竞赛'，移动端和隐私合规成为新的竞争焦点。",
+  "snapshot": {
+    "date": "2026-07-08",
+    "hf_trending": [
+      {
+        "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "likes": 1759,
+        "downloads": 1683711,
+        "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "tags": [
+          "gguf",
+          "llama.cpp",
+          "quantized"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "tencent/Hy3",
+        "short_name": "Hy3",
+        "likes": 489,
+        "downloads": 121,
+        "url": "https://huggingface.co/tencent/Hy3",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "hy_v3"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "zai-org/GLM-5.2",
+        "short_name": "GLM-5.2",
+        "likes": 3592,
+        "downloads": 281584,
+        "url": "https://huggingface.co/zai-org/GLM-5.2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "baidu/Unlimited-OCR",
+        "short_name": "Unlimited-OCR",
+        "likes": 1834,
+        "downloads": 1084945,
+        "url": "https://huggingface.co/baidu/Unlimited-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "unlimited-ocr"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "InternScience/Agents-A1",
+        "short_name": "Agents-A1",
+        "likes": 374,
+        "downloads": 14723,
+        "url": "https://huggingface.co/InternScience/Agents-A1",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "google/tabfm-1.0.0-pytorch",
+        "short_name": "tabfm-1.0.0-pytorch",
+        "likes": 288,
+        "downloads": 9458,
+        "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
+        "tags": [
+          "tabfm",
+          "safetensors",
+          "tabular"
+        ],
+        "pipeline_tag": "tabular-classification",
+        "label": "Tabular Classification",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
+        "short_name": "Ornith-1.0-35B-GGUF",
+        "likes": 780,
+        "downloads": 502663,
+        "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
+        "tags": [
+          "transformers",
+          "gguf",
+          "text-generation"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "nvidia/Qwen3.6-27B-NVFP4",
+        "short_name": "Qwen3.6-27B-NVFP4",
+        "likes": 315,
+        "downloads": 538687,
+        "url": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
+        "tags": [
+          "Model Optimizer",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "MadsLorentzen/ai-job-search",
+        "desc": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Cl",
+        "stars": 11139,
+        "stars_today": 2514,
+        "forks": 3711,
+        "language": "TypeScript",
+        "url": "https://github.com/MadsLorentzen/ai-job-search"
+      },
+      {
+        "name": "Zackriya-Solutions/meetily",
+        "desc": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diar",
+        "stars": 20810,
+        "stars_today": 1777,
+        "forks": 2080,
+        "language": "Rust",
+        "url": "https://github.com/Zackriya-Solutions/meetily"
+      },
+      {
+        "name": "addyosmani/agent-skills",
+        "desc": "Production-grade engineering skills for AI coding agents.",
+        "stars": 72217,
+        "stars_today": 1317,
+        "forks": 7823,
+        "language": "JavaScript",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      {
+        "name": "ruvnet/RuView",
+        "desc": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, an",
+        "stars": 78535,
+        "stars_today": 1129,
+        "forks": 10565,
+        "language": "Rust",
+        "url": "https://github.com/ruvnet/RuView"
+      },
+      {
+        "name": "asgeirtj/system_prompts_leaks",
+        "desc": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. Open",
+        "stars": 53071,
+        "stars_today": 1691,
+        "forks": 8648,
+        "language": "JavaScript",
+        "url": "https://github.com/asgeirtj/system_prompts_leaks"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "tencent/hy3-20260706:free",
+        "name": "Hy3 20260706:free",
+        "org": "tencent",
+        "total_tokens": 857486103764,
+        "total_tokens_str": "857B",
+        "api_calls": 0,
+        "change": 1156.7,
+        "url": "https://openrouter.ai/tencent/hy3-20260706:free"
+      },
+      {
+        "rank": 2,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "org": "deepseek",
+        "total_tokens": 806188852621,
+        "total_tokens_str": "806B",
+        "api_calls": 0,
+        "change": 7.7,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "minimax/minimax-m3",
+        "name": "MiniMax M3",
+        "org": "minimax",
+        "total_tokens": 665887051022,
+        "total_tokens_str": "666B",
+        "api_calls": 0,
+        "change": 0.6,
+        "url": "https://openrouter.ai/minimax/minimax-m3"
+      },
+      {
+        "rank": 4,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 665575538730,
+        "total_tokens_str": "666B",
+        "api_calls": 0,
+        "change": 1.1,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 5,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
+        "org": "deepseek",
+        "total_tokens": 530605425492,
+        "total_tokens_str": "531B",
+        "api_calls": 0,
+        "change": 10.2,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 6,
+        "slug": "z-ai/glm-5.2",
+        "name": "GLM 5.2",
+        "org": "z-ai",
+        "total_tokens": 504476799322,
+        "total_tokens_str": "504B",
+        "api_calls": 0,
+        "change": -10.2,
+        "url": "https://openrouter.ai/z-ai/glm-5.2"
+      },
+      {
+        "rank": 7,
+        "slug": "anthropic/claude-4.7-opus",
+        "name": "Claude 4.7 Opus",
+        "org": "anthropic",
+        "total_tokens": 398011479542,
+        "total_tokens_str": "398B",
+        "api_calls": 0,
+        "change": -1.4,
+        "url": "https://openrouter.ai/anthropic/claude-4.7-opus"
+      },
+      {
+        "rank": 8,
+        "slug": "anthropic/claude-4.8-opus",
+        "name": "Claude 4.8 Opus",
+        "org": "anthropic",
+        "total_tokens": 313331926323,
+        "total_tokens_str": "313B",
+        "api_calls": 0,
+        "change": 7.0,
+        "url": "https://openrouter.ai/anthropic/claude-4.8-opus"
+      },
+      {
+        "rank": 9,
+        "slug": "stepfun/step-3.7-flash",
+        "name": "Step 3.7 Flash",
+        "org": "stepfun",
+        "total_tokens": 192497168714,
+        "total_tokens_str": "192B",
+        "api_calls": 0,
+        "change": -17.8,
+        "url": "https://openrouter.ai/stepfun/step-3.7-flash"
+      },
+      {
+        "rank": 10,
+        "slug": "openai/gpt-5.5",
+        "name": "GPT-5.5",
+        "org": "openai",
+        "total_tokens": 175088636483,
+        "total_tokens_str": "175B",
+        "api_calls": 0,
+        "change": 16.2,
+        "url": "https://openrouter.ai/openai/gpt-5.5"
+      }
+    ],
+    "hf_summary": "多模态与文本生成模型热度领跑，开源生态持续活跃"
+  }
+}

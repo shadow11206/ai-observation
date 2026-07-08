@@ -1,6 +1,13 @@
 {
-  "total": 104,
+  "total": 105,
   "reports": [
+    {
+      "date": "2026-07-08",
+      "title": "今日 AI 日报：Anthropic 将 Claude Cowork 智能体扩展到手机和网页端 + 4 条重要动态",
+      "excerpt": "这意味着 AI 智能体正在从'辅助工具'进化为'自主执行者'，用户不再需要保持设…",
+      "top_count": 5,
+      "file": "2026-07-08.json"
+    },
     {
       "date": "2026-07-07",
       "title": "今日 AI 日报：腾讯发布Hy3：295B参数MoE开源模型，AI成本崩塌信号再起 + 4 条重要动态",
