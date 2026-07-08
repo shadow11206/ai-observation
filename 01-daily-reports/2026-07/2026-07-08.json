@@ -3,70 +3,70 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Anthropic 将 Claude Cowork 智能体扩展到手机和网页端",
-      "finding": "Anthropic 宣布 Claude Cowork 现在可以在手机和网页上使用，用户可以在电脑上启动任务，在手机上查看进度，即使电脑关闭也能继续运行。这是智能体从桌面走向移动端的重要一步。",
+      "title": "Anthropic 将 Claude Cowork 智能体扩展到手机端",
+      "finding": "Anthropic 宣布 Claude Cowork 现在可以在手机和网页上运行，用户可以在笔记本电脑上启动任务，然后关闭电脑，通过手机获取状态更新和最终结果。这是智能体从桌面走向移动端的关键一步。",
       "key_data": [
-        "手机端可用",
-        "电脑关闭后继续运行",
-        "跨设备任务管理"
+        "手机端运行",
+        "关闭电脑后继续工作",
+        "跨设备任务流转"
       ],
-      "judgment": "这意味着 AI 智能体正在从'辅助工具'进化为'自主执行者'，用户不再需要保持设备在线。对开发者而言，设计智能体时需要考虑异步执行和移动端交互的新范式。",
+      "judgment": "这意味着 AI 智能体正在从“辅助工具”进化为“独立执行者”，开发者需要重新思考产品设计：用户不再需要一直盯着屏幕，智能体可以异步完成任务。这对企业级 AI 应用是重大利好。",
       "confidence": 5,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/"
     },
     {
       "rank": 2,
-      "title": "Meta 发布 Muse Image 图像生成模型，引发用户隐私争议",
-      "finding": "Meta 推出 Muse Image 模型，允许任何人使用公开的 Instagram 照片生成 AI 图像，除非用户主动选择退出。这引发了用户对隐私和数据使用的强烈反弹。",
+      "title": "Meta 发布 Muse Image 图像生成模型，用户照片被用于训练引发争议",
+      "finding": "Meta 推出 Muse Image 模型，允许任何人基于 Instagram 用户的公开照片生成 AI 图像，用户需要手动选择退出才能阻止。这引发了大规模隐私争议。",
       "key_data": [
-        "公开 Instagram 照片可用",
-        "用户需主动选择退出",
-        "广告、装饰等应用场景"
+        "公开照片默认可用",
+        "需手动选择退出",
+        "广告和创作者场景"
       ],
-      "judgment": "Meta 在 AI 训练数据使用上采取了'默认同意'策略，这可能会引发监管审查和用户流失。对行业而言，数据使用伦理将成为 AI 产品设计的核心挑战。",
+      "judgment": "Meta 在 AI 训练数据获取上采取了最激进的策略，这可能会推动监管收紧。对于其他 AI 公司来说，这是一个信号：数据合规将成为核心竞争力，而非可选项。",
       "confidence": 5,
       "source": "Wired",
       "url": "https://www.wired.com/story/meta-now-lets-anyone-use-your-instagram-photos-in-ai-images-unless-you-opt-out/"
     },
     {
       "rank": 3,
-      "title": "OpenAI 首席未来学家 Joshua Achiam 离职",
-      "finding": "在 OpenAI 工作近九年的首席未来学家 Joshua Achiam 宣布离职。他曾负责 AI 安全研究，并在马斯克诉奥特曼案中出庭作证。",
-      "key_data": [
-        "近9年任职",
-        "AI安全研究负责人",
-        "马斯克诉奥特曼案证人"
-      ],
-      "judgment": "这可能是 OpenAI 高层持续动荡的又一信号。安全研究负责人的离职可能影响外界对 OpenAI 安全承诺的信任，尤其是在公司转型为营利性实体的关键时期。",
-      "confidence": 5,
-      "source": "Wired",
-      "url": "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company/"
-    },
-    {
-      "rank": 4,
-      "title": "YC CEO 声称每天用 AI 编写 3.7 万行代码，开发者深入调查后发现真相",
-      "finding": "YC CEO Garry Tan 声称每天通过 AI 编写 3.7 万行代码，引发热议。有开发者深入分析后发现，实际有效代码量远低于此，大部分是 AI 生成的样板代码和重复内容。",
+      "title": "YC CEO 声称每天用 AI 写 3.7 万行代码，开发者深挖后发现水分",
+      "finding": "Y Combinator CEO Garry Tan 声称自己每天通过 AI 代理生成 3.7 万行代码。一名开发者深入调查后发现，实际有效代码量远低于这个数字，大部分是样板代码和重复内容。",
       "key_data": [
         "声称 3.7 万行/天",
         "实际有效代码远少",
-        "样板代码和重复内容"
+        "AI 代码质量争议"
       ],
-      "judgment": "这暴露了当前 AI 编程的'效率幻觉'——代码量不等于生产力。对开发者而言，AI 编程工具的价值在于减少重复劳动，而非堆砌代码行数。",
+      "judgment": "这个事件揭示了 AI 编程领域的一个核心问题：代码量不等于生产力。对于产品经理和开发者来说，评估 AI 编程工具时应该关注“有效产出”而非“行数”，这会影响工具选型和团队效率评估。",
       "confidence": 4,
       "source": "Fast Company",
       "url": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media"
     },
     {
+      "rank": 4,
+      "title": "OpenAI 首席未来学家 Joshua Achiam 离职",
+      "finding": "在 OpenAI 工作近九年的首席未来学家 Joshua Achiam 宣布离职。他主要负责 AI 安全研究，并在马斯克诉奥特曼案中出庭作证。这是 OpenAI 近期又一位核心安全研究人员的离开。",
+      "key_data": [
+        "近 9 年任职",
+        "AI 安全研究",
+        "马斯克案证人"
+      ],
+      "judgment": "安全研究人员的持续流失对 OpenAI 的长期信誉构成风险。对于行业来说，这意味着 OpenAI 在安全与商业化之间的平衡可能进一步倾斜，竞争对手（如 Anthropic）有机会在安全领域建立差异化优势。",
+      "confidence": 5,
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company/"
+    },
+    {
       "rank": 5,
       "title": "微软加入 AI 降本趋势，更多依赖自研模型",
-      "finding": "微软正在减少对 OpenAI 等外部模型的依赖，转而更多使用自研 AI 模型，以降低成本和提升自主可控性。这是继多家科技巨头后的又一重要信号。",
+      "finding": "微软正在减少对 OpenAI 模型的依赖，转而更多地使用自研模型来降低成本。这是继多家科技巨头之后，又一家在 AI 支出上采取紧缩策略的公司。",
       "key_data": [
-        "减少外部模型依赖",
+        "减少 OpenAI 依赖",
         "自研模型替代",
-        "AI 成本控制趋势"
+        "AI 成本控制"
       ],
-      "judgment": "这意味着 AI 行业正在从'模型军备竞赛'转向'成本效率竞赛'。对创业公司而言，自研模型和模型优化将成为新的竞争焦点，而非单纯追求更大参数。",
+      "judgment": "微软的转向是一个重要信号：即使是 OpenAI 的最大投资者也在寻求替代方案。这意味着 AI 模型市场正在从“单一供应商依赖”走向“多模型混合架构”，对模型 API 定价和生态格局将产生深远影响。",
       "confidence": 5,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/"
@@ -74,121 +74,150 @@
   ],
   "model_tech": [
     {
-      "source": "arXiv",
-      "title": "Gemma 4 技术报告发布",
-      "finding": "Google 发布 Gemma 4 技术报告，这是一系列原生多模态、开放权重的语言模型，旨在提升计算效率。",
+      "source": "Reddit",
+      "title": "MIRA：基于火箭联盟训练的多玩家交互世界模型",
+      "finding": "General Intuition、Kyutai 和 Epic Games 联合发布了 MIRA，这是一个基于 1 万小时合成火箭联盟数据训练的 50 亿参数世界模型，能够模拟多玩家交互环境。",
       "key_data": [
-        "开放权重",
-        "原生多模态",
-        "计算效率优化"
+        "50 亿参数",
+        "1 万小时训练数据",
+        "多玩家交互模拟"
       ],
-      "judgment": "Gemma 4 延续了 Google 在开源模型上的布局，对开发者来说是值得关注的高效多模态模型选择。",
-      "confidence": 5,
-      "url": "https://arxiv.org/abs/2607.02770",
+      "judgment": "世界模型从单智能体走向多智能体交互，这对游戏 AI 和具身智能研究有重要参考价值。",
+      "confidence": 4,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1upofuw/mira_multiplayer_interactive_world_models_trained/",
       "importance": 3
     },
     {
-      "source": "arXiv",
-      "title": "SwarmResearch：编排编码智能体进行开放式发现",
-      "finding": "提出一种多智能体协作框架，让多个编码智能体协同工作，避免单个智能体陷入局部最优，实现更广泛的自动发现。",
+      "source": "InfoQ",
+      "title": "大模型推理也能“智能调度”：让奖励模型按需分配算力的动态路由机制",
+      "finding": "ACL 2026 收录了一篇论文，提出了一种动态路由机制，让奖励模型可以根据任务难度按需分配推理算力，从而提升推理效率。",
       "key_data": [
-        "多智能体协作",
-        "开放式发现",
-        "避免局部最优"
+        "动态路由",
+        "按需分配算力",
+        "ACL 2026"
       ],
-      "judgment": "多智能体协作是 AI 编程的下一个方向，但工程复杂度高，短期内难以大规模落地。",
+      "judgment": "推理效率优化是当前大模型落地的关键瓶颈，这种动态调度思路可能成为未来推理系统的标配。",
       "confidence": 4,
-      "url": "https://arxiv.org/abs/2607.02807",
+      "url": "https://www.infoq.cn/article/qYcpkTcUhClJvytSbLu1",
       "importance": 3
     },
     {
-      "source": "arXiv",
-      "title": "通过验证器-生成器对齐改进大语言模型",
-      "finding": "提出一种新方法，通过让验证器和生成器对齐来减少 LLM 输出对提示词变化的敏感性，提升一致性。",
+      "source": "ArXiv",
+      "title": "KV-Cache 优化基准测试：长上下文服务中的任务质量与系统性能",
+      "finding": "一篇新论文系统性地评估了多种 KV-Cache 压缩技术在长上下文场景下的任务质量与系统性能权衡，为实际部署提供了参考。",
       "key_data": [
-        "验证器-生成器对齐",
-        "减少输出波动",
-        "提升一致性"
+        "KV-Cache 压缩",
+        "长上下文",
+        "质量-性能权衡"
       ],
-      "judgment": "这是提升 LLM 可靠性的重要方向，对构建生产级 AI 应用有实际价值。",
+      "judgment": "长上下文是当前大模型竞争的关键维度，KV-Cache 优化直接影响推理成本和用户体验，这篇基准测试对工程团队有实际指导意义。",
       "confidence": 4,
-      "url": "https://arxiv.org/abs/2607.02668",
+      "url": "https://arxiv.org/abs/2607.05399",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "大多数 LLM 从众行为不需要“说话者”：测量同伴压力基准中的无说话者基线",
+      "finding": "研究发现，LLM 在同伴压力测试中表现出的“从众”行为，大部分实际上是由于答案顺序和措辞偏差导致的，而非真正的社会影响。",
+      "key_data": [
+        "从众行为",
+        "答案顺序偏差",
+        "措辞影响"
+      ],
+      "judgment": "这对 AI 对齐和安全研究很重要：很多看似“社会性”的行为可能只是统计偏差，研究者需要更严谨的实验设计。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2607.05545",
       "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "InfoQ",
-      "title": "微软通过 Copilot Autofix 将 AI 漏洞修复功能引入 Azure DevOps",
-      "finding": "微软在 Azure DevOps 中集成 Copilot Autofix，可自动识别并修复代码漏洞，提升开发安全效率。",
+      "source": "量子位",
+      "title": "蚂蚁灵波 LingBot-VLA 2.0 正式开源，支持 17 家机器人厂商 20 多种构型",
+      "finding": "蚂蚁集团开源了 LingBot-VLA 2.0，这是一个基于 6 万小时训练数据的视觉-语言-动作模型，支持 17 家机器人厂商的 20 多种机器人构型。",
       "key_data": [
-        "Azure DevOps 集成",
-        "自动漏洞修复",
-        "AI 安全编码"
+        "6 万小时训练",
+        "17 家厂商",
+        "20 多种构型",
+        "开源"
       ],
-      "judgment": "AI 安全修复进入 CI/CD 流程是重要趋势，但自动修复的准确性和安全性仍需验证。",
-      "confidence": 5,
-      "url": "https://www.infoq.cn/article/CSS70hYSA57JBUMLdf7L",
+      "judgment": "蚂蚁在具身智能领域的开源策略非常激进，这可能会加速国内机器人行业的标准化进程，降低创业公司的入门门槛。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/07/445668.html",
+      "importance": 3
+    },
+    {
+      "source": "36氪",
+      "title": "快造科技完成 10 亿元融资，为消费级 3D 打印最大单笔融资",
+      "finding": "消费级 3D 打印企业快造科技（Snapmaker）完成 10 亿元新一轮融资，由凯辉基金领投，美团、高瓴等跟投，是近两年消费硬件赛道最大单笔融资之一。",
+      "key_data": [
+        "10 亿元融资",
+        "消费级 3D 打印",
+        "美团、高瓴跟投"
+      ],
+      "judgment": "AI 与 3D 打印的结合正在催生新的制造范式，大额资本涌入说明市场对“AI+硬件”的消费级应用前景看好。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3885728813691145",
       "importance": 2
     },
     {
-      "source": "TechCrunch",
-      "title": "Discord 承认 AI 审核系统错误封禁用户",
-      "finding": "Discord 的 AI 审核系统因误判将正常图片识别为违规内容，导致大量用户被错误封禁，影响持续数月。",
-      "key_data": [
-        "AI 审核误判",
-        "错误封禁用户",
-        "持续数月"
-      ],
-      "judgment": "AI 审核的误报问题依然严重，对依赖 AI 审核的平台是重要警示，需要人工复核机制兜底。",
-      "confidence": 5,
-      "url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
-      "importance": 2
-    },
-    {
       "source": "InfoQ",
-      "title": "企业微信首款 AI 硬件：出门问问 TicNote 合作款发布",
-      "finding": "出门问问与企业微信合作推出 TicNote AI 硬件，将 AI 语音助手集成到企业通讯场景中。",
+      "title": "企业微信首款 AI 硬件：出门问问 TicNote 合作款正式发布",
+      "finding": "出门问问与企业微信合作推出了首款 AI 硬件 TicNote，这是一款面向企业会议的 AI 笔记设备。",
       "key_data": [
-        "企业微信合作",
-        "AI 语音硬件",
-        "企业通讯场景"
+        "企业微信首款 AI 硬件",
+        "AI 笔记",
+        "会议场景"
       ],
-      "judgment": "AI 硬件与办公软件的深度整合是趋势，但产品能否真正提升效率还需市场检验。",
+      "judgment": "企业微信入局 AI 硬件是一个信号，说明大厂正在将 AI 能力从软件延伸到硬件，企业办公场景的 AI 化正在加速。",
       "confidence": 4,
       "url": "https://www.infoq.cn/article/CiwPd7c4oYfzqBGMbotV",
-      "importance": 1
+      "importance": 2
+    },
+    {
+      "source": "Hugging Face",
+      "title": "Hugging Face 模型现可在 Foundry 托管计算上运行",
+      "finding": "Hugging Face 与微软合作，允许用户将 Hugging Face 模型一键部署到 Azure Foundry 托管计算上运行。",
+      "key_data": [
+        "一键部署",
+        "Azure Foundry",
+        "托管计算"
+      ],
+      "judgment": "这降低了从模型探索到生产部署的门槛，对开发者来说是利好消息，也进一步巩固了 Hugging Face 作为模型分发中心的地位。",
+      "confidence": 5,
+      "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "importance": 2
     }
   ],
   "opinions": [
     {
-      "person": "Simon Willison",
+      "person": "Lilian Weng",
       "level": "L1",
-      "quote": "sqlite-utils 4.0 发布，主要新增数据库 schema 迁移功能，这是该工具自 2020 年以来的首个大版本更新。",
-      "source": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/"
+      "quote": "总结了 35 篇关于“Harness Engineering for RSI”（递归自我改进的驾驭工程）的论文，这是一个相对小众但重要的研究方向。",
+      "source": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI 智能体从桌面到移动端的演进路径",
-      "reason": "Claude Cowork 移动端发布是重要信号，值得研究智能体跨设备交互的设计范式。",
+      "topic": "AI 智能体从桌面到移动端的范式转移",
+      "reason": "Claude Cowork 移动端发布是智能体走向异步执行的关键节点，值得深入研究其对产品设计和用户行为的影响。",
       "priority": "high"
     },
     {
-      "topic": "AI 编程效率的真实度量：代码行数 vs 实际生产力",
-      "reason": "YC CEO 的 3.7 万行代码争议暴露了行业对 AI 编程效率的认知偏差。",
+      "topic": "大模型推理效率优化：动态路由与 KV-Cache 压缩",
+      "reason": "ACL 2026 的两篇论文代表了推理优化的两个前沿方向，对降低 AI 部署成本有直接价值。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "智能体走向手机，模型成本战打响",
-  "summary_paragraph": "今日 AI 行业的关键词是'移动化'和'成本'。Anthropic 将 Claude Cowork 扩展到手机端，标志着 AI 智能体从桌面工具进化为随时在线的自主执行者。与此同时，微软加入自研模型降本趋势，Meta 的 Muse Image 引发隐私争议，OpenAI 安全负责人离职，YC CEO 的 AI 编程效率争议则揭示了行业对 AI 生产力的认知偏差。整体来看，行业正从'模型军备竞赛'转向'成本效率竞赛'，移动端和隐私合规成为新的竞争焦点。",
+  "summary_one_line": "智能体走向移动端，微软自研模型降本",
+  "summary_paragraph": "今天的 AI 行业发生了几个重要变化：Anthropic 将 Claude Cowork 扩展到手机端，标志着 AI 智能体从桌面辅助工具进化为可异步执行的独立代理，用户终于可以“关闭电脑等结果”了。与此同时，微软加入 AI 降本趋势，更多依赖自研模型，这对 OpenAI 的商业模式构成潜在挑战。Meta 的 Muse Image 模型因默认使用用户照片引发隐私争议，再次将数据合规问题推上风口浪尖。此外，YC CEO 的“日写 3.7 万行代码”被证伪，提醒行业关注 AI 编程的真实效率。蚂蚁开源了支持 20 多种机器人的 VLA 模型，国内具身智能生态正在加速形成。",
   "snapshot": {
     "date": "2026-07-08",
     "hf_trending": [
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-        "likes": 1759,
+        "likes": 1774,
         "downloads": 1683711,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "tags": [
@@ -204,7 +233,7 @@
       {
         "name": "tencent/Hy3",
         "short_name": "Hy3",
-        "likes": 489,
+        "likes": 499,
         "downloads": 121,
         "url": "https://huggingface.co/tencent/Hy3",
         "tags": [
@@ -220,7 +249,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 3592,
+        "likes": 3606,
         "downloads": 281584,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -236,7 +265,7 @@
       {
         "name": "baidu/Unlimited-OCR",
         "short_name": "Unlimited-OCR",
-        "likes": 1834,
+        "likes": 1838,
         "downloads": 1084945,
         "url": "https://huggingface.co/baidu/Unlimited-OCR",
         "tags": [
@@ -252,7 +281,7 @@
       {
         "name": "InternScience/Agents-A1",
         "short_name": "Agents-A1",
-        "likes": 374,
+        "likes": 379,
         "downloads": 14723,
         "url": "https://huggingface.co/InternScience/Agents-A1",
         "tags": [
@@ -268,7 +297,7 @@
       {
         "name": "google/tabfm-1.0.0-pytorch",
         "short_name": "tabfm-1.0.0-pytorch",
-        "likes": 288,
+        "likes": 291,
         "downloads": 9458,
         "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
         "tags": [
@@ -284,7 +313,7 @@
       {
         "name": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "short_name": "Ornith-1.0-35B-GGUF",
-        "likes": 780,
+        "likes": 782,
         "downloads": 502663,
         "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
         "tags": [
@@ -300,7 +329,7 @@
       {
         "name": "nvidia/Qwen3.6-27B-NVFP4",
         "short_name": "Qwen3.6-27B-NVFP4",
-        "likes": 315,
+        "likes": 317,
         "downloads": 538687,
         "url": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
         "tags": [
@@ -318,45 +347,45 @@
       {
         "name": "MadsLorentzen/ai-job-search",
         "desc": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Cl",
-        "stars": 11139,
+        "stars": 11816,
         "stars_today": 2514,
-        "forks": 3711,
+        "forks": 3860,
         "language": "TypeScript",
         "url": "https://github.com/MadsLorentzen/ai-job-search"
       },
       {
         "name": "Zackriya-Solutions/meetily",
         "desc": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diar",
-        "stars": 20810,
+        "stars": 21002,
         "stars_today": 1777,
-        "forks": 2080,
+        "forks": 2095,
         "language": "Rust",
         "url": "https://github.com/Zackriya-Solutions/meetily"
       },
       {
         "name": "addyosmani/agent-skills",
         "desc": "Production-grade engineering skills for AI coding agents.",
-        "stars": 72217,
+        "stars": 72390,
         "stars_today": 1317,
-        "forks": 7823,
+        "forks": 7835,
         "language": "JavaScript",
         "url": "https://github.com/addyosmani/agent-skills"
       },
       {
         "name": "ruvnet/RuView",
         "desc": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, an",
-        "stars": 78535,
+        "stars": 78639,
         "stars_today": 1129,
-        "forks": 10565,
+        "forks": 10583,
         "language": "Rust",
         "url": "https://github.com/ruvnet/RuView"
       },
       {
         "name": "asgeirtj/system_prompts_leaks",
         "desc": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. Open",
-        "stars": 53071,
+        "stars": 53265,
         "stars_today": 1691,
-        "forks": 8648,
+        "forks": 8684,
         "language": "JavaScript",
         "url": "https://github.com/asgeirtj/system_prompts_leaks"
       }
@@ -378,7 +407,7 @@
         "slug": "deepseek/deepseek-v4-flash",
         "name": "DeepSeek V4 Flash",
         "org": "deepseek",
-        "total_tokens": 806188852621,
+        "total_tokens": 806188922027,
         "total_tokens_str": "806B",
         "api_calls": 0,
         "change": 7.7,
@@ -473,6 +502,6 @@
         "url": "https://openrouter.ai/openai/gpt-5.5"
       }
     ],
-    "hf_summary": "多模态与文本生成模型热度领跑，开源生态持续活跃"
+    "hf_summary": "多模态与文本生成主导，社区偏好高精度实用模型"
   }
 }
