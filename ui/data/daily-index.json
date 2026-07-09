@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-07-09",
-      "title": "今日 AI 日报：OpenAI 发布分析报告：SWE-Bench Pro 代码评测基准存在严重问题 + 4 条重要动态",
-      "excerpt": "这对所有 AI 编程工具厂商和开发者是重要提醒：不要盲目相信基准测试排名，需要建…",
+      "title": "今日 AI 日报：SpaceXAI 发布 Grok 4.5，号称首个 Opus 级模型 + 4 条重要动态",
+      "excerpt": "Grok 4.5 的发布意味着 SpaceXAI 正式进入与 OpenAI、An…",
       "top_count": 5,
       "file": "2026-07-09.json"
     },
