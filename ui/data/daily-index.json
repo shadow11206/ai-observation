@@ -1,6 +1,13 @@
 {
-  "total": 106,
+  "total": 107,
   "reports": [
+    {
+      "date": "2026-07-10",
+      "title": "今日 AI 日报：OpenAI 发布 GPT-5.6 系列模型：Luna、Terra、Sol + 4 条重要动态",
+      "excerpt": "GPT-5.6 的发布标志着 OpenAI 从单一模型转向分层定价和场景化部署，…",
+      "top_count": 5,
+      "file": "2026-07-10.json"
+    },
     {
       "date": "2026-07-09",
       "title": "今日 AI 日报：SpaceXAI 发布 Grok 4.5，号称首个 Opus 级模型 + 4 条重要动态",

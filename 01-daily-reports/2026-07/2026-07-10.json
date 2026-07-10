@@ -1,0 +1,532 @@
+{
+  "date": "2026-07-10",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "OpenAI 发布 GPT-5.6 系列模型：Luna、Terra、Sol",
+      "finding": "OpenAI 今天正式发布了新一代旗舰模型 GPT-5.6，包含三个尺寸：Luna（最小）、Terra（中等）、Sol（最大）。新模型在推理、编码、安全等多项能力上显著提升，并已集成到 Microsoft 365 Copilot 中成为首选模型。同时推出了 ChatGPT Work，一个能跨应用和文件执行复杂任务的 Agent。",
+      "key_data": [
+        "三个尺寸：Luna/Terra/Sol",
+        "已集成到 Microsoft 365 Copilot",
+        "推出 ChatGPT Work Agent",
+        "定价按 Token 计费"
+      ],
+      "judgment": "GPT-5.6 的发布标志着 OpenAI 从单一模型转向分层定价和场景化部署，这对开发者意味着需要重新评估成本与能力平衡。ChatGPT Work 的推出则正式宣告 AI 从对话助手进化为能自主完成工作的 Agent，企业工作流将迎来根本性变革。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/gpt-5-6"
+    },
+    {
+      "rank": 2,
+      "title": "SpaceXAI 发布 Grok 4.5，称其为首个 Opus 级别模型",
+      "finding": "SpaceXAI 在收购 Cursor 后迅速推出 Grok 4.5，声称这是首个达到 Opus 级别的模型。Latent Space 报道称 SpaceXAI 的迭代速度远超其他前沿实验室。",
+      "key_data": [
+        "Grok 4.5 发布",
+        "首个 Opus 级别模型",
+        "收购 Cursor 后快速迭代"
+      ],
+      "judgment": "SpaceXAI 的激进节奏正在改变模型竞争格局。如果 Grok 4.5 真能达到 Opus 级别，将直接挑战 OpenAI 和 Anthropic 的领先地位，同时其与 Cursor 的整合可能催生新一代 AI 编程体验。",
+      "confidence": 4,
+      "source": "Latent Space",
+      "url": "https://www.latent.space/p/ainews-spacexai-launches-grok-45"
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic 发现 Claude 内部存在隐藏的“思考空间”",
+      "finding": "Anthropic 开发了一项新技术，首次清晰地揭示了大型语言模型在回答问题或执行任务时内部到底发生了什么。他们发现 Claude 内部存在一个隐藏的“思考空间”，模型在其中对概念进行推理和整合。",
+      "key_data": [
+        "首次清晰揭示 LLM 内部推理过程",
+        "发现隐藏的思考空间",
+        "可解释性研究重大突破"
+      ],
+      "judgment": "这是可解释性研究的里程碑。如果 Anthropic 能持续深入理解模型内部机制，将极大提升 AI 安全性和可控性，可能催生新的模型调试和优化方法，对开发者来说意味着未来能更精准地诊断和修复模型行为。",
+      "confidence": 4,
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/"
+    },
+    {
+      "rank": 4,
+      "title": "AI Agent 初创公司 Lyzr 让自家 Agent 主导了 1 亿美元融资",
+      "finding": "企业 AI Agent 初创公司 Lyzr 使用自己的 AI Agent 来运行整个 1 亿美元的融资流程，从投资人沟通到文件处理均由 Agent 完成。这被视为产品能力的最强证明。",
+      "key_data": [
+        "1 亿美元融资",
+        "Agent 主导整个流程",
+        "产品能力的最强证明"
+      ],
+      "judgment": "这是 AI Agent 从演示到真实商业场景的关键转折点。Lyzr 的做法虽然激进，但向市场传递了一个强烈信号：Agent 已经可以处理高风险的商业交易。这对企业级 Agent 创业公司是巨大的信心提振，也意味着投资者将开始要求更严格的 Agent 能力验证。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/"
+    },
+    {
+      "rank": 5,
+      "title": "全球首个具身专属 MoE 视频模型开源",
+      "finding": "一个专门为机器人设计的 MoE（混合专家）视频模型正式开源。该模型旨在为机器人提供更强的环境理解和动作生成能力，被视为“机器人大脑”的重要进展。",
+      "key_data": [
+        "全球首个具身专属 MoE 视频模型",
+        "开源发布",
+        "面向机器人场景"
+      ],
+      "judgment": "具身智能领域正在从通用模型转向专用模型。这个开源模型降低了机器人研发的门槛，可能加速人形机器人和服务机器人的商业化进程。对于机器人创业公司来说，这是一个值得立即测试的关键基础设施。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/07/446568.html"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "arXiv",
+      "title": "AgentLens：面向编码 Agent 的生产评估轨迹审查基准",
+      "finding": "提出了 AgentLens，一个基于生产环境的交互式代码 Agent 评估基准。传统基准只给一个通过/不通过的分数，而 AgentLens 能追踪 Agent 的完整执行轨迹，提供更细粒度的评估。",
+      "key_data": [
+        "生产环境评估",
+        "轨迹级审查",
+        "交互式代码 Agent"
+      ],
+      "judgment": "代码 Agent 的评估正在从二元结果转向过程质量，这对开发者选择和使用 Agent 工具更有实际指导意义。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.06624",
+      "importance": 3
+    },
+    {
+      "source": "arXiv",
+      "title": "上下文搜索何时有效？反思驱动推理的采样复杂度理论",
+      "finding": "从理论上分析了 LLM 在推理过程中进行“上下文搜索”（迭代生成、批判、修改）的有效性条件，给出了采样复杂度的理论边界。",
+      "key_data": [
+        "上下文搜索理论",
+        "采样复杂度",
+        "反思驱动推理"
+      ],
+      "judgment": "为理解 o1/o3 等推理模型的“思考”过程提供了理论基础，有助于优化推理策略和计算资源分配。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.06720",
+      "importance": 2
+    },
+    {
+      "source": "arXiv",
+      "title": "TriRoute：联合自适应注意力、专家和 KV 缓存分配的统一学习路由",
+      "finding": "提出 TriRoute，一种统一的学习路由方法，能同时优化注意力分配、专家选择和 KV 缓存管理，实现条件计算的多轴协同。",
+      "key_data": [
+        "联合路由优化",
+        "自适应注意力",
+        "KV 缓存分配"
+      ],
+      "judgment": "MoE 模型的推理效率优化正在从单轴走向多轴协同，TriRoute 可能成为下一代高效推理引擎的关键组件。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.06601",
+      "importance": 2
+    },
+    {
+      "source": "Simon Willison",
+      "title": "Meta 发布 Muse Spark 1.1，首次提供 API 并改进 Agent 工具调用",
+      "finding": "Meta 发布了 Muse Spark 1.1，这是首个提供 API 的 Spark 模型。Meta 声称在 Agent 工具调用和计算机使用能力上有显著改进。",
+      "key_data": [
+        "Muse Spark 1.1",
+        "首次提供 API",
+        "改进 Agent 工具调用"
+      ],
+      "judgment": "Meta 正在加速其模型的产品化，API 的开放意味着开发者可以更便捷地集成 Muse 系列模型，可能推动更多 Agent 应用的开发。",
+      "confidence": 4,
+      "url": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1/",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "TechCrunch",
+      "title": "OpenAI 关闭 Atlas 浏览器，但 AI 浏览器野心仍在增长",
+      "finding": "OpenAI 正在关闭其 AI 浏览器 Atlas，运营不到一年。但 OpenAI 将部分 Agent 浏览功能迁移到桌面应用和 Chrome 扩展中。",
+      "key_data": [
+        "Atlas 浏览器关闭",
+        "运营不到一年",
+        "功能迁移到桌面和 Chrome 扩展"
+      ],
+      "judgment": "OpenAI 在浏览器领域的尝试受挫，但 Agent 浏览功能并未放弃。这表明 AI 公司做独立浏览器的挑战巨大，更务实的做法是作为现有浏览器的增强功能。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
+      "importance": 3
+    },
+    {
+      "source": "Wired",
+      "title": "Anthropic 将对 Claude Fable 5 收取额外使用费",
+      "finding": "Anthropic 宣布 Claude 订阅用户很快需要支付基于使用量的额外费用才能访问其最好的消费级模型 Claude Fable 5。这标志着 AI 订阅的黄金时代即将结束。",
+      "key_data": [
+        "Claude Fable 5 额外收费",
+        "基于使用量计费",
+        "AI 订阅模式转变"
+      ],
+      "judgment": "AI 公司正在从固定订阅转向混合计费模式，这对重度用户意味着成本上升，但也反映了模型推理成本仍然高昂的现实。开发者需要重新评估 API 调用策略。",
+      "confidence": 4,
+      "url": "https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "OpenAI 二号人物 Fidji Simo 离职",
+      "finding": "OpenAI 的 AGI 部署 CEO Fidji Simo 在长期病假后正式辞去全职职务，将转为兼职顾问。这发生在 OpenAI 面临关键转型期，包括 GPT-5.6 发布和与微软关系微妙变化之际。",
+      "key_data": [
+        "Fidji Simo 离职",
+        "二号人物",
+        "转为兼职顾问"
+      ],
+      "judgment": "高层人事变动在 OpenAI 的关键时期增加了不确定性。虽然 GPT-5.6 的发布显示产品线仍在正常推进，但领导层的真空可能影响长期战略执行。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+      "importance": 3
+    },
+    {
+      "source": "Pragmatic Engineer",
+      "title": "Bun 用 AI 在 11 天内完成 Rust 重写，成本仅 16.5 万美元",
+      "finding": "Bun 团队利用 AI 辅助，在 11 天内完成了从 Zig 到 Rust 的代码重写，如果由小团队手动完成预计需要一年。整个过程的 Token 成本约为 16.5 万美元。",
+      "key_data": [
+        "11 天完成重写",
+        "成本 16.5 万美元",
+        "AI 辅助代码迁移"
+      ],
+      "judgment": "这是 AI 改变软件工程经济学的典型案例。大型代码重写的成本和时间被大幅压缩，意味着开发者可以更频繁地进行架构升级，但同时也对代码质量和安全审查提出了新要求。",
+      "confidence": 4,
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "原力灵机 DM0.5 发布：15 万小时数据训练，Zero-Shot 提升 31%",
+      "finding": "原力灵机发布了 DM0.5 模型，使用 15 万小时数据进行训练，在 Zero-Shot 场景下性能提升 31%。团队表示模型已经出现泛化涌现现象。",
+      "key_data": [
+        "15 万小时训练数据",
+        "Zero-Shot 提升 31%",
+        "出现泛化涌现"
+      ],
+      "judgment": "中国具身智能模型正在快速追赶，DM0.5 的泛化能力提升意味着机器人可以更好地适应未知环境，这对服务机器人和工业机器人的落地是积极信号。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/07/447508.html",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "GPT-5.6 的发布是 OpenAI 从单一模型转向分层定价和场景化部署的重要标志。Luna、Terra、Sol 三个尺寸让开发者可以根据成本和能力需求灵活选择，这比以往任何一次模型发布都更务实。",
+      "source": "https://simonwillison.net/2026/Jul/9/gpt-5-6/"
+    },
+    {
+      "person": "Swyx (Shawn Wang)",
+      "level": "L2",
+      "quote": "SpaceXAI 的迭代速度令人震惊。收购 Cursor 后迅速推出 Grok 4.5，并声称达到 Opus 级别，这正在改变前沿模型的竞争格局。",
+      "source": "https://www.latent.space/p/ainews-spacexai-launches-grok-45"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "GPT-5.6 分层模型策略对开发者成本的影响",
+      "reason": "三个尺寸的定价差异巨大，开发者需要重新评估模型选择策略，值得深入研究各尺寸的实际表现和成本效益。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI Agent 主导商业流程的可行性与风险",
+      "reason": "Lyzr 用 Agent 完成 1 亿美元融资是标志性事件，但 Agent 在真实商业场景中的可靠性和安全性仍需深入分析。",
+      "priority": "high"
+    },
+    {
+      "topic": "Anthropic 可解释性研究的实际应用前景",
+      "reason": "发现 Claude 内部思考空间是可解释性的重大突破，但这项技术如何转化为实际工具和产品值得跟踪。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "GPT-5.6 发布，Agent 融资，可解释性突破",
+  "summary_paragraph": "今天 AI 行业迎来多个重磅消息。OpenAI 正式发布 GPT-5.6 系列模型，推出 Luna、Terra、Sol 三个尺寸，并同步上线 ChatGPT Work Agent，标志着 AI 从对话助手向自主工作 Agent 的进化。与此同时，SpaceXAI 发布 Grok 4.5 声称达到 Opus 级别，Anthropic 则在可解释性上取得突破，首次揭示 Claude 内部的思考空间。企业级 Agent 也迎来里程碑：Lyzr 让自家 Agent 主导了 1 亿美元融资。此外，Bun 用 AI 在 11 天内完成 Rust 重写，展示了 AI 对软件工程经济学的颠覆性影响。整体来看，模型能力、Agent 应用和可解释性三大方向同时取得进展，AI 行业正加速从技术演示走向真实商业落地。",
+  "snapshot": {
+    "date": "2026-07-10",
+    "hf_trending": [
+      {
+        "name": "tencent/Hy3",
+        "short_name": "Hy3",
+        "likes": 617,
+        "downloads": 5572,
+        "url": "https://huggingface.co/tencent/Hy3",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "hy_v3"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "likes": 1937,
+        "downloads": 1875602,
+        "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "tags": [
+          "gguf",
+          "llama.cpp",
+          "quantized"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "zai-org/GLM-5.2",
+        "short_name": "GLM-5.2",
+        "likes": 3730,
+        "downloads": 362300,
+        "url": "https://huggingface.co/zai-org/GLM-5.2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "InternScience/Agents-A1",
+        "short_name": "Agents-A1",
+        "likes": 437,
+        "downloads": 23112,
+        "url": "https://huggingface.co/InternScience/Agents-A1",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "baidu/Unlimited-OCR",
+        "short_name": "Unlimited-OCR",
+        "likes": 1903,
+        "downloads": 1246042,
+        "url": "https://huggingface.co/baidu/Unlimited-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "unlimited-ocr"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "google/tabfm-1.0.0-pytorch",
+        "short_name": "tabfm-1.0.0-pytorch",
+        "likes": 330,
+        "downloads": 16374,
+        "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
+        "tags": [
+          "tabfm",
+          "safetensors",
+          "tabular"
+        ],
+        "pipeline_tag": "tabular-classification",
+        "label": "Tabular Classification",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "AliesTaha/fable-traces",
+        "short_name": "fable-traces",
+        "likes": 197,
+        "downloads": 4647,
+        "url": "https://huggingface.co/AliesTaha/fable-traces",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "froggeric/Qwen-Fixed-Chat-Templates",
+        "short_name": "Qwen-Fixed-Chat-Templates",
+        "likes": 822,
+        "downloads": 0,
+        "url": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates",
+        "tags": [
+          "mlx",
+          "jinja",
+          "chat-template"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "MadsLorentzen/ai-job-search",
+        "desc": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Cl",
+        "stars": 19328,
+        "stars_today": 3716,
+        "forks": 5559,
+        "language": "TypeScript",
+        "url": "https://github.com/MadsLorentzen/ai-job-search"
+      },
+      {
+        "name": "SmartlyDressedGames/U3-SDK",
+        "desc": "Source code for Unturned, a free open-world zombie survival sandbox game.",
+        "stars": 2093,
+        "stars_today": 524,
+        "forks": 266,
+        "language": "C#",
+        "url": "https://github.com/SmartlyDressedGames/U3-SDK"
+      },
+      {
+        "name": "addyosmani/agent-skills",
+        "desc": "Production-grade engineering skills for AI coding agents.",
+        "stars": 76007,
+        "stars_today": 2554,
+        "forks": 8172,
+        "language": "JavaScript",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      {
+        "name": "VoltAgent/awesome-design-md",
+        "desc": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project",
+        "stars": 99869,
+        "stars_today": 1391,
+        "forks": 11582,
+        "language": "—",
+        "url": "https://github.com/VoltAgent/awesome-design-md"
+      },
+      {
+        "name": "iOfficeAI/OfficeCLI",
+        "desc": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate",
+        "stars": 13605,
+        "stars_today": 1929,
+        "forks": 923,
+        "language": "C#",
+        "url": "https://github.com/iOfficeAI/OfficeCLI"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "tencent/hy3-20260706:free",
+        "name": "Hy3 20260706:free",
+        "org": "tencent",
+        "total_tokens": 964125052896,
+        "total_tokens_str": "964B",
+        "api_calls": 0,
+        "change": -0.7,
+        "url": "https://openrouter.ai/tencent/hy3-20260706:free"
+      },
+      {
+        "rank": 2,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "org": "deepseek",
+        "total_tokens": 758577549228,
+        "total_tokens_str": "759B",
+        "api_calls": 0,
+        "change": -9.6,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 744699280890,
+        "total_tokens_str": "745B",
+        "api_calls": 0,
+        "change": 11.4,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 4,
+        "slug": "minimax/minimax-m3",
+        "name": "MiniMax M3",
+        "org": "minimax",
+        "total_tokens": 651706490783,
+        "total_tokens_str": "652B",
+        "api_calls": 0,
+        "change": -4.2,
+        "url": "https://openrouter.ai/minimax/minimax-m3"
+      },
+      {
+        "rank": 5,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
+        "org": "deepseek",
+        "total_tokens": 456261095455,
+        "total_tokens_str": "456B",
+        "api_calls": 0,
+        "change": 13.6,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 6,
+        "slug": "z-ai/glm-5.2",
+        "name": "GLM 5.2",
+        "org": "z-ai",
+        "total_tokens": 401680786636,
+        "total_tokens_str": "402B",
+        "api_calls": 0,
+        "change": -21.0,
+        "url": "https://openrouter.ai/z-ai/glm-5.2"
+      },
+      {
+        "rank": 7,
+        "slug": "anthropic/claude-4.8-opus",
+        "name": "Claude 4.8 Opus",
+        "org": "anthropic",
+        "total_tokens": 337845497903,
+        "total_tokens_str": "338B",
+        "api_calls": 0,
+        "change": -7.0,
+        "url": "https://openrouter.ai/anthropic/claude-4.8-opus"
+      },
+      {
+        "rank": 8,
+        "slug": "anthropic/claude-4.7-opus",
+        "name": "Claude 4.7 Opus",
+        "org": "anthropic",
+        "total_tokens": 327693973463,
+        "total_tokens_str": "328B",
+        "api_calls": 0,
+        "change": -22.6,
+        "url": "https://openrouter.ai/anthropic/claude-4.7-opus"
+      },
+      {
+        "rank": 9,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604:free",
+        "name": "Nemotron 3 Ultra 550b A55b 20260604:free",
+        "org": "nvidia",
+        "total_tokens": 220971389592,
+        "total_tokens_str": "221B",
+        "api_calls": 0,
+        "change": 76.2,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604:free"
+      },
+      {
+        "rank": 10,
+        "slug": "anthropic/claude-4.6-sonnet",
+        "name": "Claude 4.6 Sonnet",
+        "org": "anthropic",
+        "total_tokens": 170425352756,
+        "total_tokens_str": "170B",
+        "api_calls": 0,
+        "change": 6.3,
+        "url": "https://openrouter.ai/anthropic/claude-4.6-sonnet"
+      }
+    ],
+    "hf_summary": "开源模型主导，文本生成与多模态理解并重"
+  }
+}
