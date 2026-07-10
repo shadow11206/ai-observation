@@ -8,6 +8,7 @@ on:
 jobs:
   generate-report:
     runs-on: ubuntu-latest
+    timeout-minutes: 15  # 正常 3-4 分钟完成，15 分钟兜底防止卡死
     permissions:
       contents: write      # 需要写入权限以 commit 日报
 

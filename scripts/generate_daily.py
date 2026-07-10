@@ -77,7 +77,7 @@ def generate_report_with_ai(raw_info: list[dict], config: dict, date_override: s
     if not api_key:
         raise ValueError("未找到 AI_API_KEY 环境变量，请在 GitHub Secrets 中配置")
 
-    client = OpenAI(api_key=api_key, base_url=api_base)
+    client = OpenAI(api_key=api_key, base_url=api_base, timeout=120.0)
 
     today = date_override or _now_bjt().strftime("%Y-%m-%d")
     system_prompt = load_prompt()
@@ -235,7 +235,7 @@ def _generate_hf_summary(hf_models: list[dict], config: dict) -> str:
         api_base = os.environ.get("AI_API_BASE", "https://api.deepseek.com")
         if not api_key:
             return ""
-        client = OpenAI(api_key=api_key, base_url=api_base)
+        client = OpenAI(api_key=api_key, base_url=api_base, timeout=30.0)
 
         lines = []
         for m in hf_models[:8]:
