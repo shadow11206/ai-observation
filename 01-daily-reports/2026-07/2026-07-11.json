@@ -1,0 +1,476 @@
+{
+  "date": "2026-07-11",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "OpenAI 发布 GPT-5.6 系列模型，Codex 升级为 ChatGPT 超级应用",
+      "finding": "OpenAI 今日发布 GPT-5.6 系列（Sol/Terra/Luna），同时将 Codex 深度整合进 ChatGPT，打造超级应用。GPT-5.6 Sol Ultra 被曝成功证明了图论中的 Cycle Double Cover 猜想，展示了模型在数学研究上的突破性能力。",
+      "key_data": [
+        "GPT-5.6 Sol/Terra/Luna",
+        "证明 Cycle Double Cover 猜想",
+        "Codex 并入 ChatGPT"
+      ],
+      "judgment": "GPT-5.6 的数学证明能力是真正的里程碑，意味着大模型从'工具'向'科研合作者'进化。Codex 并入 ChatGPT 则表明 OpenAI 在走'超级应用'路线，这对 Cursor 等独立 AI IDE 构成直接威胁。",
+      "confidence": 5,
+      "source": "Latent Space / Hacker News",
+      "url": "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna"
+    },
+    {
+      "rank": 2,
+      "title": "苹果起诉 OpenAI 窃取硬件商业秘密",
+      "finding": "苹果正式起诉 OpenAI，指控其通过挖角苹果员工，窃取包括机密演示文稿、原型机和供应商细节在内的硬件商业秘密。苹果称这些行为由 OpenAI 高级管理层直接指使。",
+      "key_data": [
+        "苹果起诉 OpenAI",
+        "窃取硬件商业秘密",
+        "挖角员工"
+      ],
+      "judgment": "这是 AI 行业竞争白热化的标志性事件。苹果与 OpenAI 从合作走向对抗，反映出 AI 公司对硬件人才的争夺已到不惜法律手段的地步。对 OpenAI 来说，这可能影响其与苹果的潜在合作。",
+      "confidence": 5,
+      "source": "Wired / TechCrunch",
+      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/"
+    },
+    {
+      "rank": 3,
+      "title": "OpenAI 安全负责人 Johannes Heidecke 离职",
+      "finding": "OpenAI 安全负责人 Johannes Heidecke 宣布离职。这是 OpenAI 在试图整合研究与安全团队之际，安全部门核心人物的又一次流失。",
+      "key_data": [
+        "安全负责人离职",
+        "团队整合期"
+      ],
+      "judgment": "在 GPT-5.6 发布当天传出安全负责人离职，时间点耐人寻味。OpenAI 的安全团队持续动荡，可能影响外界对其'安全优先'承诺的信任，尤其是在模型能力快速跃升的当下。",
+      "confidence": 4,
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-head-of-safety-leaving/"
+    },
+    {
+      "rank": 4,
+      "title": "Hugging Face CEO：开源 AI 比以往任何时候都更重要",
+      "finding": "Hugging Face CEO Clem Delangue 在采访中表示，企业正在从'租用 AI'转向拥有和控制自己的 AI 模型，开源 AI 正在蓬勃发展。Hugging Face 已成长为 AI 领域的 GitHub。",
+      "key_data": [
+        "开源 AI 蓬勃发展",
+        "企业从租用转向拥有"
+      ],
+      "judgment": "在 GPT-5.6 闭源模型大放异彩的当天，Hugging Face 强调开源趋势，形成了有趣的对照。这提醒我们：闭源和开源两条路线都在加速，企业需要根据自身数据主权和定制化需求做选择。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/"
+    },
+    {
+      "rank": 5,
+      "title": "SK 海力士创美国史上最大外国公司 IPO，筹资 265 亿美元",
+      "finding": "SK 海力士在纳斯达克上市，筹资 265 亿美元，成为美国历史上最大的外国公司 IPO。上市首日大涨近 13%，市值突破万亿美元。美国政府敦促其在美新建工厂。",
+      "key_data": [
+        "265 亿美元 IPO",
+        "美国史上最大外国 IPO",
+        "首日涨 13%"
+      ],
+      "judgment": "SK 海力士的 IPO 规模是 AI 芯片需求爆炸的直接体现。HBM 内存是训练大模型的必需品，这笔巨额融资将进一步巩固其在 AI 存储芯片领域的领先地位，也加剧了中美芯片供应链的博弈。",
+      "confidence": 5,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv",
+      "title": "用于主动式企业 Agent 的上下文图",
+      "finding": "一篇新论文提出用上下文图（Context Graphs）让企业 Agent 从被动响应变为主动预测，在用户提出需求前就准备好相关信息。",
+      "key_data": [
+        "主动式 Agent",
+        "上下文图",
+        "企业 AI"
+      ],
+      "judgment": "这是 RAG 架构的重要进化方向，让 Agent 从'问答机器'变成'主动助手'。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.07721",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "DeepSearch-World：在可验证环境中通过自蒸馏训练深度搜索 Agent",
+      "finding": "提出一种自蒸馏方法，让工具使用 Agent 从自身经验中学习改进，无需依赖教师模型生成的固定轨迹。",
+      "key_data": [
+        "自蒸馏",
+        "深度搜索 Agent",
+        "可验证环境"
+      ],
+      "judgment": "解决了 Agent 训练中'数据瓶颈'问题，让 Agent 能自我进化，对构建自主 Agent 有实际价值。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.07820",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "ReCoLoRA：用于持续 LLM 微调的频谱感知递归整合",
+      "finding": "提出一种新的持续微调方法 ReCoLoRA，在多个任务序列中避免灾难性遗忘，比传统 LoRA 堆叠更高效。",
+      "key_data": [
+        "持续微调",
+        "灾难性遗忘",
+        "频谱感知"
+      ],
+      "judgment": "对需要频繁更新模型知识的应用场景（如客服、搜索）有实际意义。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.07719",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "InfoQ",
+      "title": "蚂蚁灵波发布具身原生世界动作模型 LingBot-VA 2.0",
+      "finding": "蚂蚁集团旗下灵波机器人发布 LingBot-VA 2.0，这是一个从零开始预训练的具身智能世界动作模型，让机器人能更好地理解和执行物理世界中的动作。",
+      "key_data": [
+        "具身智能",
+        "世界动作模型",
+        "从零预训练"
+      ],
+      "judgment": "蚂蚁在具身智能领域的投入持续加码，LingBot-VA 2.0 表明中国大厂在机器人基础模型上不落后于海外。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/aU7GMFKF8qZRhT8VMWvY",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "AI 生物研发进入“操作系统时代”，许锦波团队 MoleculeOS 正式开放",
+      "finding": "许锦波团队发布 MoleculeOS，一个 AI 生物研发操作系统，将 AI 从'工具'升级为研发流程的'组织者'，整合数据、模型和实验流程。",
+      "key_data": [
+        "MoleculeOS",
+        "AI 生物研发",
+        "操作系统"
+      ],
+      "judgment": "AI 在生物领域的应用从单点工具走向平台化，MoleculeOS 可能加速药物研发流程的自动化。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/07/447832.html",
+      "importance": 2
+    },
+    {
+      "source": "36氪",
+      "title": "三个月融三轮，上交大00后博士让具身智能仿生扑翼机器人理解并驾驭流体",
+      "finding": "具身智能仿生扑翼机器人公司「鹰瞰智翼」三个月内完成三轮融资，其机器人能理解并利用流体动力学，即将量产消费级产品。",
+      "key_data": [
+        "三个月三轮融资",
+        "仿生扑翼机器人",
+        "流体仿真"
+      ],
+      "judgment": "具身智能从地面走向空中，仿生飞行机器人是一个被低估的赛道，00 后创业者入局值得关注。",
+      "confidence": 3,
+      "url": "https://36kr.com/p/3889516712065799",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Clem Delangue",
+      "level": "L3",
+      "quote": "企业正在从'租用 AI'转向拥有和控制自己的 AI 模型，开源 AI 正在蓬勃发展。Hugging Face 已成长为 AI 领域的 GitHub。",
+      "source": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "GPT-5.6 的数学证明能力：大模型从工具到科研合作者的转折点",
+      "reason": "GPT-5.6 证明 Cycle Double Cover 猜想是 AI 在数学研究上的里程碑，值得深入分析其方法论和行业影响。",
+      "priority": "high"
+    },
+    {
+      "topic": "苹果诉 OpenAI 商业秘密案：AI 行业人才争夺与法律风险",
+      "reason": "此案可能重塑 AI 公司间的人才流动规则，对创业公司和大厂的招聘策略有深远影响。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "GPT-5.6 证明数学猜想，苹果起诉 OpenAI 窃密",
+  "summary_paragraph": "今日 AI 行业迎来重磅消息：OpenAI 发布 GPT-5.6 系列，其顶级版本 Sol Ultra 成功证明了一个图论猜想，标志着大模型从工具向科研合作者进化。与此同时，苹果正式起诉 OpenAI 窃取硬件商业秘密，安全负责人也在同日离职，OpenAI 内部动荡与能力跃升形成鲜明对比。在开源阵营，Hugging Face CEO 强调企业正从租用 AI 转向拥有 AI，与闭源路线形成双轨竞争。芯片方面，SK 海力士以 265 亿美元创下美国史上最大外国公司 IPO，AI 基础设施投资热度不减。",
+  "snapshot": {
+    "date": "2026-07-11",
+    "hf_trending": [
+      {
+        "name": "tencent/Hy3",
+        "short_name": "Hy3",
+        "likes": 666,
+        "downloads": 6923,
+        "url": "https://huggingface.co/tencent/Hy3",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "hy_v3"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "likes": 1977,
+        "downloads": 1909705,
+        "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "tags": [
+          "gguf",
+          "llama.cpp",
+          "quantized"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "zai-org/GLM-5.2",
+        "short_name": "GLM-5.2",
+        "likes": 3786,
+        "downloads": 392655,
+        "url": "https://huggingface.co/zai-org/GLM-5.2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "InternScience/Agents-A1",
+        "short_name": "Agents-A1",
+        "likes": 472,
+        "downloads": 25772,
+        "url": "https://huggingface.co/InternScience/Agents-A1",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "baidu/Unlimited-OCR",
+        "short_name": "Unlimited-OCR",
+        "likes": 1921,
+        "downloads": 1319683,
+        "url": "https://huggingface.co/baidu/Unlimited-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "unlimited-ocr"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "bottlecapai/ThinkingCap-Qwen3.6-27B",
+        "short_name": "ThinkingCap-Qwen3.6-27B",
+        "likes": 212,
+        "downloads": 3699,
+        "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "froggeric/Qwen-Fixed-Chat-Templates",
+        "short_name": "Qwen-Fixed-Chat-Templates",
+        "likes": 836,
+        "downloads": 0,
+        "url": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates",
+        "tags": [
+          "mlx",
+          "jinja",
+          "chat-template"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "google/tabfm-1.0.0-pytorch",
+        "short_name": "tabfm-1.0.0-pytorch",
+        "likes": 345,
+        "downloads": 18626,
+        "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
+        "tags": [
+          "tabfm",
+          "safetensors",
+          "tabular"
+        ],
+        "pipeline_tag": "tabular-classification",
+        "label": "Tabular Classification",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "wonderwhy-er/DesktopCommanderMCP",
+        "desc": "This is MCP server for Claude that gives it terminal control, file system search and diff file editi",
+        "stars": 7327,
+        "stars_today": 328,
+        "forks": 933,
+        "language": "TypeScript",
+        "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
+      },
+      {
+        "name": "oven-sh/bun",
+        "desc": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+        "stars": 94253,
+        "stars_today": 209,
+        "forks": 4940,
+        "language": "Rust",
+        "url": "https://github.com/oven-sh/bun"
+      },
+      {
+        "name": "abseil/abseil-cpp",
+        "desc": "Abseil Common Libraries (C++)",
+        "stars": 17523,
+        "stars_today": 89,
+        "forks": 3194,
+        "language": "C++",
+        "url": "https://github.com/abseil/abseil-cpp"
+      },
+      {
+        "name": "addyosmani/agent-skills",
+        "desc": "Production-grade engineering skills for AI coding agents.",
+        "stars": 76847,
+        "stars_today": 1116,
+        "forks": 8253,
+        "language": "JavaScript",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      {
+        "name": "jbeder/yaml-cpp",
+        "desc": "A YAML parser and emitter in C++",
+        "stars": 6082,
+        "stars_today": 69,
+        "forks": 2257,
+        "language": "C++",
+        "url": "https://github.com/jbeder/yaml-cpp"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "tencent/hy3-20260706:free",
+        "name": "Hy3 20260706:free",
+        "org": "tencent",
+        "total_tokens": 1073568000037,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": 11.4,
+        "url": "https://openrouter.ai/tencent/hy3-20260706:free"
+      },
+      {
+        "rank": 2,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 921346417470,
+        "total_tokens_str": "921B",
+        "api_calls": 0,
+        "change": 23.7,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 3,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "org": "deepseek",
+        "total_tokens": 734964582490,
+        "total_tokens_str": "735B",
+        "api_calls": 0,
+        "change": -3.1,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "minimax/minimax-m3",
+        "name": "MiniMax M3",
+        "org": "minimax",
+        "total_tokens": 594327587700,
+        "total_tokens_str": "594B",
+        "api_calls": 0,
+        "change": -8.8,
+        "url": "https://openrouter.ai/minimax/minimax-m3"
+      },
+      {
+        "rank": 5,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604:free",
+        "name": "Nemotron 3 Ultra 550b A55b 20260604:free",
+        "org": "nvidia",
+        "total_tokens": 440743609785,
+        "total_tokens_str": "441B",
+        "api_calls": 0,
+        "change": 99.5,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604:free"
+      },
+      {
+        "rank": 6,
+        "slug": "z-ai/glm-5.2",
+        "name": "GLM 5.2",
+        "org": "z-ai",
+        "total_tokens": 403030235589,
+        "total_tokens_str": "403B",
+        "api_calls": 0,
+        "change": 0.3,
+        "url": "https://openrouter.ai/z-ai/glm-5.2"
+      },
+      {
+        "rank": 7,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
+        "org": "deepseek",
+        "total_tokens": 327541581940,
+        "total_tokens_str": "328B",
+        "api_calls": 0,
+        "change": -28.2,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 8,
+        "slug": "anthropic/claude-4.8-opus",
+        "name": "Claude 4.8 Opus",
+        "org": "anthropic",
+        "total_tokens": 307464204437,
+        "total_tokens_str": "307B",
+        "api_calls": 0,
+        "change": -9.0,
+        "url": "https://openrouter.ai/anthropic/claude-4.8-opus"
+      },
+      {
+        "rank": 9,
+        "slug": "anthropic/claude-4.7-opus",
+        "name": "Claude 4.7 Opus",
+        "org": "anthropic",
+        "total_tokens": 301071968150,
+        "total_tokens_str": "301B",
+        "api_calls": 0,
+        "change": -8.1,
+        "url": "https://openrouter.ai/anthropic/claude-4.7-opus"
+      },
+      {
+        "rank": 10,
+        "slug": "stepfun/step-3.7-flash",
+        "name": "Step 3.7 Flash",
+        "org": "stepfun",
+        "total_tokens": 171824144115,
+        "total_tokens_str": "172B",
+        "api_calls": 0,
+        "change": 8.3,
+        "url": "https://openrouter.ai/stepfun/step-3.7-flash"
+      }
+    ],
+    "hf_summary": "多模态模型热度飙升，文本生成仍占主流"
+  }
+}
