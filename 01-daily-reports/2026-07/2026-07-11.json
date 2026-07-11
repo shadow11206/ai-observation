@@ -3,68 +3,72 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "OpenAI 发布 GPT-5.6 系列模型，Codex 升级为 ChatGPT 超级应用",
-      "finding": "OpenAI 今日发布 GPT-5.6 系列（Sol/Terra/Luna），同时将 Codex 深度整合进 ChatGPT，打造超级应用。GPT-5.6 Sol Ultra 被曝成功证明了图论中的 Cycle Double Cover 猜想，展示了模型在数学研究上的突破性能力。",
+      "title": "OpenAI 发布 GPT-5.6 系列（Sol/Terra/Luna），Codex 升级为 ChatGPT 超级应用",
+      "finding": "OpenAI 推出 GPT-5.6 系列，包含 Sol、Terra、Luna 三个版本，覆盖从旗舰到轻量级场景。同时将 Codex 深度整合进 ChatGPT，使其成为集编程、搜索、对话于一体的超级应用。GPT-5.6 Sol Ultra 版本据称已成功证明图论中的 Cycle Double Cover 猜想，展示了模型在数学推理上的突破。",
       "key_data": [
-        "GPT-5.6 Sol/Terra/Luna",
-        "证明 Cycle Double Cover 猜想",
-        "Codex 并入 ChatGPT"
+        "GPT-5.6 三版本发布",
+        "Codex 并入 ChatGPT",
+        "Sol Ultra 证明数学猜想",
+        "超级应用形态成型"
       ],
-      "judgment": "GPT-5.6 的数学证明能力是真正的里程碑，意味着大模型从'工具'向'科研合作者'进化。Codex 并入 ChatGPT 则表明 OpenAI 在走'超级应用'路线，这对 Cursor 等独立 AI IDE 构成直接威胁。",
+      "judgment": "这是 OpenAI 从模型公司向平台公司转型的关键一步。Codex 并入 ChatGPT 意味着 AI 编程不再是独立工具，而是超级应用的内置能力，这会重塑开发者工作流，并给 Cursor、Copilot 等独立编程工具带来直接竞争压力。",
       "confidence": 5,
-      "source": "Latent Space / Hacker News",
+      "source": "Latent Space / OpenAI",
       "url": "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna"
     },
     {
       "rank": 2,
-      "title": "苹果起诉 OpenAI 窃取硬件商业秘密",
-      "finding": "苹果正式起诉 OpenAI，指控其通过挖角苹果员工，窃取包括机密演示文稿、原型机和供应商细节在内的硬件商业秘密。苹果称这些行为由 OpenAI 高级管理层直接指使。",
+      "title": "苹果起诉 OpenAI 窃取硬件商业机密",
+      "finding": "苹果公司正式起诉 OpenAI，指控其高管（包括一名长期前苹果员工）指使被挖角员工窃取苹果的机密演示文稿、原型设计和供应商细节。这是两大科技巨头之间罕见的直接法律冲突。",
       "key_data": [
         "苹果起诉 OpenAI",
-        "窃取硬件商业秘密",
-        "挖角员工"
+        "指控高管指使窃密",
+        "涉及硬件原型和供应商"
       ],
-      "judgment": "这是 AI 行业竞争白热化的标志性事件。苹果与 OpenAI 从合作走向对抗，反映出 AI 公司对硬件人才的争夺已到不惜法律手段的地步。对 OpenAI 来说，这可能影响其与苹果的潜在合作。",
+      "judgment": "这不仅是法律纠纷，更反映了 AI 军备竞赛中人才争夺的白热化。苹果与 OpenAI 的关系从合作（Apple Intelligence 集成 ChatGPT）转向对抗，可能影响双方未来的合作深度，也提醒所有 AI 公司：人才流动中的合规风险正在升级。",
       "confidence": 5,
       "source": "Wired / TechCrunch",
-      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/"
+      "url": "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/"
     },
     {
       "rank": 3,
       "title": "OpenAI 安全负责人 Johannes Heidecke 离职",
-      "finding": "OpenAI 安全负责人 Johannes Heidecke 宣布离职。这是 OpenAI 在试图整合研究与安全团队之际，安全部门核心人物的又一次流失。",
+      "finding": "OpenAI 安全研究负责人 Johannes Heidecke 宣布离职。这是 OpenAI 在试图进一步整合研究与安全团队之际，安全团队核心人物的又一次流失。",
       "key_data": [
         "安全负责人离职",
-        "团队整合期"
+        "团队整合期",
+        "安全人才持续流失"
       ],
-      "judgment": "在 GPT-5.6 发布当天传出安全负责人离职，时间点耐人寻味。OpenAI 的安全团队持续动荡，可能影响外界对其'安全优先'承诺的信任，尤其是在模型能力快速跃升的当下。",
+      "judgment": "在 GPT-5.6 发布、模型能力大幅提升的节点，安全负责人离职是一个危险信号。说明 OpenAI 内部的安全与研究整合可能并不顺利，外部监管压力下，这种人才流失会削弱公众对模型安全的信任。",
       "confidence": 4,
       "source": "Wired",
       "url": "https://www.wired.com/story/openai-head-of-safety-leaving/"
     },
     {
       "rank": 4,
-      "title": "Hugging Face CEO：开源 AI 比以往任何时候都更重要",
-      "finding": "Hugging Face CEO Clem Delangue 在采访中表示，企业正在从'租用 AI'转向拥有和控制自己的 AI 模型，开源 AI 正在蓬勃发展。Hugging Face 已成长为 AI 领域的 GitHub。",
+      "title": "Hugging Face CEO：开源 AI 比以往任何时候都更重要，企业不再愿意“租用”AI",
+      "finding": "Hugging Face CEO Clem Delangue 在采访中表示，开源 AI 正在蓬勃发展，企业越来越倾向于拥有和控制自己的 AI 模型，而不是依赖闭源 API。Hugging Face 已成长为 AI 领域的 GitHub。",
       "key_data": [
         "开源 AI 蓬勃发展",
-        "企业从租用转向拥有"
+        "企业倾向自建模型",
+        "Hugging Face 成 AI GitHub"
       ],
-      "judgment": "在 GPT-5.6 闭源模型大放异彩的当天，Hugging Face 强调开源趋势，形成了有趣的对照。这提醒我们：闭源和开源两条路线都在加速，企业需要根据自身数据主权和定制化需求做选择。",
+      "judgment": "这是对 OpenAI 等闭源厂商的明确挑战。如果企业真的从“租用”转向“拥有”，那么开源模型（如 Llama、DeepSeek）和开源平台（如 Hugging Face）将获得更大市场份额，闭源 API 的商业模式需要重新证明其不可替代性。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/"
     },
     {
       "rank": 5,
-      "title": "SK 海力士创美国史上最大外国公司 IPO，筹资 265 亿美元",
-      "finding": "SK 海力士在纳斯达克上市，筹资 265 亿美元，成为美国历史上最大的外国公司 IPO。上市首日大涨近 13%，市值突破万亿美元。美国政府敦促其在美新建工厂。",
+      "title": "SK 海力士创下美国史上最大外国公司 IPO，募资 265 亿美元",
+      "finding": "韩国芯片巨头 SK 海力士在纳斯达克上市，募资 265 亿美元，创下美国历史上最大外国公司 IPO 纪录。上市首日股价大涨近 13%，并被美国政府敦促在美国新建工厂。",
       "key_data": [
-        "265 亿美元 IPO",
+        "募资 265 亿美元",
         "美国史上最大外国 IPO",
-        "首日涨 13%"
+        "首日涨 13%",
+        "被要求建美国工厂"
       ],
-      "judgment": "SK 海力士的 IPO 规模是 AI 芯片需求爆炸的直接体现。HBM 内存是训练大模型的必需品，这笔巨额融资将进一步巩固其在 AI 存储芯片领域的领先地位，也加剧了中美芯片供应链的博弈。",
+      "judgment": "这是 AI 芯片需求爆发的直接体现。SK 海力士作为 HBM（高带宽内存）的主要供应商，其 IPO 规模和首日表现说明资本市场对 AI 基础设施的狂热仍在持续。这也将加速全球芯片供应链向美国转移。",
       "confidence": 5,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/"
@@ -72,121 +76,146 @@
   ],
   "model_tech": [
     {
-      "source": "ArXiv",
-      "title": "用于主动式企业 Agent 的上下文图",
-      "finding": "一篇新论文提出用上下文图（Context Graphs）让企业 Agent 从被动响应变为主动预测，在用户提出需求前就准备好相关信息。",
+      "source": "Hacker News",
+      "title": "GPT-5.6 Sol Ultra 成功证明 Cycle Double Cover 猜想",
+      "finding": "OpenAI 发布论文，称 GPT-5.6 Sol Ultra 版本成功证明了图论中悬而未决的 Cycle Double Cover 猜想。这是 AI 在数学研究领域取得的重大突破，展示了模型在形式化推理上的能力。",
       "key_data": [
-        "主动式 Agent",
-        "上下文图",
-        "企业 AI"
+        "证明数学猜想",
+        "图论领域",
+        "形式化推理突破"
       ],
-      "judgment": "这是 RAG 架构的重要进化方向，让 Agent 从'问答机器'变成'主动助手'。",
+      "judgment": "如果属实，这标志着 AI 从解题工具进化为数学研究助手，对科研范式的影响深远。但需警惕过度宣传，需等待数学界验证。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2607.07721",
-      "importance": 3
+      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+      "importance": 4
     },
     {
       "source": "ArXiv",
-      "title": "DeepSearch-World：在可验证环境中通过自蒸馏训练深度搜索 Agent",
-      "finding": "提出一种自蒸馏方法，让工具使用 Agent 从自身经验中学习改进，无需依赖教师模型生成的固定轨迹。",
+      "title": "DeepSearch-World：通过自蒸馏训练深度搜索 Agent",
+      "finding": "新论文提出 DeepSearch-World 方法，让工具使用 Agent 通过自蒸馏从自身经验中学习改进，无需依赖教师轨迹。在可验证环境中实现了显著的性能提升。",
       "key_data": [
-        "自蒸馏",
-        "深度搜索 Agent",
-        "可验证环境"
+        "自蒸馏训练",
+        "Agent 自我改进",
+        "无需教师数据"
       ],
-      "judgment": "解决了 Agent 训练中'数据瓶颈'问题，让 Agent 能自我进化，对构建自主 Agent 有实际价值。",
+      "judgment": "这是 Agent 训练的重要进展。如果 Agent 能像 AlphaGo 一样通过自我对弈提升，将大幅降低对人工标注数据的依赖，加速 Agent 能力的迭代。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2607.07820",
       "importance": 3
     },
     {
       "source": "ArXiv",
-      "title": "ReCoLoRA：用于持续 LLM 微调的频谱感知递归整合",
-      "finding": "提出一种新的持续微调方法 ReCoLoRA，在多个任务序列中避免灾难性遗忘，比传统 LoRA 堆叠更高效。",
+      "title": "从解题到研究：大语言模型驱动的形式化数学研究",
+      "finding": "论文综述了 LLM 驱动的定理证明器在数学研究前沿的应用，展示了 AI 从解决已知问题到参与未知数学研究的转变。",
       "key_data": [
-        "持续微调",
-        "灾难性遗忘",
-        "频谱感知"
+        "AI 数学研究",
+        "定理证明",
+        "从解题到研究"
       ],
-      "judgment": "对需要频繁更新模型知识的应用场景（如客服、搜索）有实际意义。",
+      "judgment": "与 GPT-5.6 证明猜想相呼应，说明 AI 在数学领域的角色正在从工具变为合作者。这对科研工作流程的影响值得长期关注。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2607.07719",
-      "importance": 2
+      "url": "https://arxiv.org/abs/2607.07779",
+      "importance": 3
     }
   ],
   "company_product": [
     {
+      "source": "量子位",
+      "title": "GPT-5.6 发布后，Claude 终于重置了 Fable 5 额度",
+      "finding": "在 OpenAI 发布 GPT-5.6 后，Anthropic 的 Claude 产品重置了 Fable 5 的使用额度。这被解读为 Anthropic 对 OpenAI 新模型的竞争性回应。",
+      "key_data": [
+        "Claude 重置额度",
+        "竞争性回应",
+        "模型发布后动作"
+      ],
+      "judgment": "AI 产品的竞争已经从模型能力延伸到用户运营策略。额度重置是典型的竞争性营销，说明 Anthropic 感受到了 GPT-5.6 的压力。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/07/447691.html",
+      "importance": 2
+    },
+    {
       "source": "InfoQ",
       "title": "蚂蚁灵波发布具身原生世界动作模型 LingBot-VA 2.0",
-      "finding": "蚂蚁集团旗下灵波机器人发布 LingBot-VA 2.0，这是一个从零开始预训练的具身智能世界动作模型，让机器人能更好地理解和执行物理世界中的动作。",
+      "finding": "蚂蚁集团旗下灵波团队发布了从零开始预训练的具身智能世界动作模型 LingBot-VA 2.0，专注于机器人动作生成和理解。",
       "key_data": [
-        "具身智能",
-        "世界动作模型",
-        "从零预训练"
+        "具身智能模型",
+        "从零预训练",
+        "世界动作模型"
       ],
-      "judgment": "蚂蚁在具身智能领域的投入持续加码，LingBot-VA 2.0 表明中国大厂在机器人基础模型上不落后于海外。",
-      "confidence": 4,
+      "judgment": "蚂蚁在具身智能领域的投入表明，中国大厂正在从语言模型向物理世界模型延伸。LingBot-VA 2.0 的发布说明具身智能的竞争已经从学术研究进入产品化阶段。",
+      "confidence": 3,
       "url": "https://www.infoq.cn/article/aU7GMFKF8qZRhT8VMWvY",
       "importance": 3
     },
     {
-      "source": "量子位",
-      "title": "AI 生物研发进入“操作系统时代”，许锦波团队 MoleculeOS 正式开放",
-      "finding": "许锦波团队发布 MoleculeOS，一个 AI 生物研发操作系统，将 AI 从'工具'升级为研发流程的'组织者'，整合数据、模型和实验流程。",
-      "key_data": [
-        "MoleculeOS",
-        "AI 生物研发",
-        "操作系统"
-      ],
-      "judgment": "AI 在生物领域的应用从单点工具走向平台化，MoleculeOS 可能加速药物研发流程的自动化。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/07/447832.html",
-      "importance": 2
-    },
-    {
       "source": "36氪",
-      "title": "三个月融三轮，上交大00后博士让具身智能仿生扑翼机器人理解并驾驭流体",
-      "finding": "具身智能仿生扑翼机器人公司「鹰瞰智翼」三个月内完成三轮融资，其机器人能理解并利用流体动力学，即将量产消费级产品。",
+      "title": "鹰瞰智翼获数千万元 A 轮融资，做具身智能仿生扑翼机器人",
+      "finding": "具身智能仿生扑翼飞行机器人公司鹰瞰智翼在三个月内完成第三轮融资，由元禾璞华领投。公司专注于让扑翼机器人理解并驾驭流体动力学。",
       "key_data": [
         "三个月三轮融资",
         "仿生扑翼机器人",
-        "流体仿真"
+        "流体动力学"
       ],
-      "judgment": "具身智能从地面走向空中，仿生飞行机器人是一个被低估的赛道，00 后创业者入局值得关注。",
+      "judgment": "具身智能正在从轮式/人形机器人向更复杂的飞行形态扩展。扑翼机器人结合了仿生学和 AI，是一个小而美的垂直赛道，但商业化路径仍需验证。",
       "confidence": 3,
       "url": "https://36kr.com/p/3889516712065799",
       "importance": 2
+    },
+    {
+      "source": "量子位",
+      "title": "AI 生物研发进入“操作系统时代”，许锦波团队 MoleculeOS 正式开放",
+      "finding": "许锦波团队发布 MoleculeOS，一个 AI 生物研发操作系统，将 AI 从辅助工具转变为研发流程的“组织者”，整合分子设计、模拟、实验等环节。",
+      "key_data": [
+        "AI 生物操作系统",
+        "MoleculeOS",
+        "研发流程组织者"
+      ],
+      "judgment": "这是 AI 在垂直行业从“工具”升级为“平台”的典型案例。如果成功，将加速药物研发等领域的 AI 落地，但也面临行业接受度和数据整合的挑战。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/07/447832.html",
+      "importance": 3
     }
   ],
   "opinions": [
     {
-      "person": "Clem Delangue",
+      "person": "Clem Delangue (Hugging Face CEO)",
       "level": "L3",
-      "quote": "企业正在从'租用 AI'转向拥有和控制自己的 AI 模型，开源 AI 正在蓬勃发展。Hugging Face 已成长为 AI 领域的 GitHub。",
+      "quote": "开源 AI 正在蓬勃发展，企业不再愿意租用 AI，而是希望拥有和控制自己的模型。Hugging Face 已成为 AI 领域的 GitHub。",
       "source": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/"
+    },
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "要制造增强现实眼镜，你需要把摄像头放在眼睛旁边，持续记录你看到的一切并处理以叠加信息。这就是现实。",
+      "source": "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "GPT-5.6 的数学证明能力：大模型从工具到科研合作者的转折点",
-      "reason": "GPT-5.6 证明 Cycle Double Cover 猜想是 AI 在数学研究上的里程碑，值得深入分析其方法论和行业影响。",
+      "topic": "GPT-5.6 的数学证明能力：真实突破还是营销噱头？",
+      "reason": "如果 AI 真的能证明数学猜想，将改变科研范式。需要验证证明的严谨性和可复现性。",
       "priority": "high"
     },
     {
-      "topic": "苹果诉 OpenAI 商业秘密案：AI 行业人才争夺与法律风险",
-      "reason": "此案可能重塑 AI 公司间的人才流动规则，对创业公司和大厂的招聘策略有深远影响。",
+      "topic": "企业 AI 从“租用”到“拥有”的趋势：开源模型 vs 闭源 API 的商业模式之争",
+      "reason": "Hugging Face CEO 的观点如果成立，将重塑整个 AI 产业链的利润分配。",
+      "priority": "high"
+    },
+    {
+      "topic": "苹果 vs OpenAI 诉讼：AI 人才争夺中的知识产权风险",
+      "reason": "这起诉讼可能成为 AI 行业人才流动合规的标杆案例，影响所有 AI 公司的招聘策略。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "GPT-5.6 证明数学猜想，苹果起诉 OpenAI 窃密",
-  "summary_paragraph": "今日 AI 行业迎来重磅消息：OpenAI 发布 GPT-5.6 系列，其顶级版本 Sol Ultra 成功证明了一个图论猜想，标志着大模型从工具向科研合作者进化。与此同时，苹果正式起诉 OpenAI 窃取硬件商业秘密，安全负责人也在同日离职，OpenAI 内部动荡与能力跃升形成鲜明对比。在开源阵营，Hugging Face CEO 强调企业正从租用 AI 转向拥有 AI，与闭源路线形成双轨竞争。芯片方面，SK 海力士以 265 亿美元创下美国史上最大外国公司 IPO，AI 基础设施投资热度不减。",
+  "summary_one_line": "GPT-5.6 发布，苹果起诉 OpenAI，安全负责人离职",
+  "summary_paragraph": "今天 AI 行业被 OpenAI 的 GPT-5.6 系列发布刷屏，三个版本覆盖旗舰到轻量级，Codex 并入 ChatGPT 标志着超级应用战略成型，Sol Ultra 版本甚至声称证明了数学猜想。但 OpenAI 也面临双重打击：苹果正式起诉其窃取硬件商业机密，安全负责人 Johannes Heidecke 在模型能力跃升的关键节点离职。与此同时，Hugging Face CEO 发出信号——企业不再想租用 AI，开源运动正在加速。SK 海力士以 265 亿美元创下美国史上最大外国 IPO，AI 芯片需求热度不减。",
   "snapshot": {
     "date": "2026-07-11",
     "hf_trending": [
       {
         "name": "tencent/Hy3",
         "short_name": "Hy3",
-        "likes": 666,
+        "likes": 673,
         "downloads": 6923,
         "url": "https://huggingface.co/tencent/Hy3",
         "tags": [
@@ -202,7 +231,7 @@
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-        "likes": 1977,
+        "likes": 1982,
         "downloads": 1909705,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "tags": [
@@ -218,7 +247,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 3786,
+        "likes": 3793,
         "downloads": 392655,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -234,7 +263,7 @@
       {
         "name": "InternScience/Agents-A1",
         "short_name": "Agents-A1",
-        "likes": 472,
+        "likes": 475,
         "downloads": 25772,
         "url": "https://huggingface.co/InternScience/Agents-A1",
         "tags": [
@@ -266,7 +295,7 @@
       {
         "name": "bottlecapai/ThinkingCap-Qwen3.6-27B",
         "short_name": "ThinkingCap-Qwen3.6-27B",
-        "likes": 212,
+        "likes": 214,
         "downloads": 3699,
         "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
         "tags": [
@@ -282,7 +311,7 @@
       {
         "name": "froggeric/Qwen-Fixed-Chat-Templates",
         "short_name": "Qwen-Fixed-Chat-Templates",
-        "likes": 836,
+        "likes": 839,
         "downloads": 0,
         "url": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates",
         "tags": [
@@ -316,43 +345,43 @@
       {
         "name": "wonderwhy-er/DesktopCommanderMCP",
         "desc": "This is MCP server for Claude that gives it terminal control, file system search and diff file editi",
-        "stars": 7327,
+        "stars": 7424,
         "stars_today": 328,
-        "forks": 933,
+        "forks": 937,
         "language": "TypeScript",
         "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
       },
       {
         "name": "oven-sh/bun",
         "desc": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
-        "stars": 94253,
+        "stars": 94341,
         "stars_today": 209,
-        "forks": 4940,
+        "forks": 4942,
         "language": "Rust",
         "url": "https://github.com/oven-sh/bun"
       },
       {
         "name": "abseil/abseil-cpp",
         "desc": "Abseil Common Libraries (C++)",
-        "stars": 17523,
+        "stars": 17540,
         "stars_today": 89,
-        "forks": 3194,
+        "forks": 3195,
         "language": "C++",
         "url": "https://github.com/abseil/abseil-cpp"
       },
       {
         "name": "addyosmani/agent-skills",
         "desc": "Production-grade engineering skills for AI coding agents.",
-        "stars": 76847,
+        "stars": 76943,
         "stars_today": 1116,
-        "forks": 8253,
+        "forks": 8263,
         "language": "JavaScript",
         "url": "https://github.com/addyosmani/agent-skills"
       },
       {
         "name": "jbeder/yaml-cpp",
         "desc": "A YAML parser and emitter in C++",
-        "stars": 6082,
+        "stars": 6095,
         "stars_today": 69,
         "forks": 2257,
         "language": "C++",
@@ -471,6 +500,6 @@
         "url": "https://openrouter.ai/stepfun/step-3.7-flash"
       }
     ],
-    "hf_summary": "多模态模型热度飙升，文本生成仍占主流"
+    "hf_summary": "开源多模态模型热度攀升，文本生成仍占主导"
   }
 }

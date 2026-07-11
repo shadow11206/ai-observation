@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-07-11",
-      "title": "今日 AI 日报：OpenAI 发布 GPT-5.6 系列模型，Codex 升级为 ChatGPT 超级应用 + 4 条重要动态",
-      "excerpt": "GPT-5.6 的数学证明能力是真正的里程碑，意味着大模型从'工具'向'科研合作…",
+      "title": "今日 AI 日报：OpenAI 发布 GPT-5.6 系列（Sol/Terra/Luna），Codex 升级为 ChatGPT 超级应用 + 4 条重要动态",
+      "excerpt": "这是 OpenAI 从模型公司向平台公司转型的关键一步。Codex 并入 Cha…",
       "top_count": 5,
       "file": "2026-07-11.json"
     },
