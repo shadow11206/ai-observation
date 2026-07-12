@@ -1,0 +1,495 @@
+{
+  "date": "2026-07-12",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent",
+      "finding": "GPT-5.6在数学推理上取得惊人突破，仅用一小时就解决了一个困扰数学界50年的猜想。同时，用户可以用700词的提示词控制64个并行子Agent协同工作，展示了极强的多Agent编排能力。",
+      "key_data": [
+        "50年数学猜想",
+        "一小时破解",
+        "700词Prompt",
+        "64个子Agent"
+      ],
+      "judgment": "这标志着大模型从'语言工具'向'科学发现引擎'的质变。对AI产品经理而言，多Agent编排的门槛大幅降低，复杂任务自动化的可行性大大提升。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/07/447873.html"
+    },
+    {
+      "rank": 2,
+      "title": "中国首个十万卡集群落成！全国产算力支撑“十万卡时代”",
+      "finding": "中国建成了首个国产十万卡AI集群，覆盖从FP64到INT8全精度计算，已跑通300余项应用。这标志着中国在AI算力基础设施上迈出了关键一步。",
+      "key_data": [
+        "十万卡集群",
+        "全国产算力",
+        "全精度覆盖",
+        "300+应用跑通"
+      ],
+      "judgment": "这是中国AI基础设施的里程碑事件。十万卡集群意味着可以训练千亿甚至万亿参数级别的模型，国产算力生态的成熟将加速国内大模型的自主迭代。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/07/447891.html"
+    },
+    {
+      "rank": 3,
+      "title": "苹果怒告OpenAI“偷师”其核心机密",
+      "finding": "苹果向法院提交41页PDF，指控OpenAI通过不正当手段获取其核心机密技术。这一诉讼可能涉及苹果在设备端AI和隐私保护方面的关键技术。",
+      "key_data": [
+        "41页PDF",
+        "苹果起诉OpenAI",
+        "核心机密",
+        "设备端AI"
+      ],
+      "judgment": "苹果与OpenAI的冲突公开化，反映出AI巨头之间的人才和技术竞争已白热化。对开发者而言，需关注后续是否会影响Apple Intelligence的发布节奏或功能。",
+      "confidence": 4,
+      "source": "InfoQ AI",
+      "url": "https://www.infoq.cn/article/Rzh9umgPl90MgGolBcWm?utm_source=rss&utm_medium=article"
+    },
+    {
+      "rank": 4,
+      "title": "智谱创始人唐杰发内部信：市值涨10倍后，什么是更重要的事",
+      "finding": "智谱创始人唐杰发布内部信，称公司市值较半年前上市初期涨了10倍，已跻身'万亿港元俱乐部'，超过百度市值近3倍。他在信中强调'巨浪已来'，提醒团队保持清醒。",
+      "key_data": [
+        "市值涨10倍",
+        "万亿港元俱乐部",
+        "超百度3倍",
+        "巨浪已来"
+      ],
+      "judgment": "智谱的市值暴涨是中国AI资本市场的标志性事件。但唐杰的内部信也暗示了高估值背后的压力——如何持续兑现技术领先性，是比股价更重要的命题。",
+      "confidence": 5,
+      "source": "36氪",
+      "url": "https://36kr.com/p/3891132709206784?f=rss"
+    },
+    {
+      "rank": 5,
+      "title": "老黄RTX Spark真机现身B站World！笔记本跑120B大模型",
+      "finding": "NVIDIA的RTX Spark超级芯片在Bilibili World上真机亮相，CPU和GPU直接集成在一起，可以让笔记本本地运行120B参数的大模型。",
+      "key_data": [
+        "RTX Spark真机",
+        "CPU+GPU集成",
+        "笔记本跑120B模型",
+        "Bilibili World"
+      ],
+      "judgment": "这是AI PC的重要里程碑。120B模型本地运行意味着开发者可以在笔记本上完成过去需要云端GPU才能做的推理任务，将极大推动端侧AI应用的爆发。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/07/447981.html"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv",
+      "title": "DeepSearch-World：通过自蒸馏训练深度搜索Agent",
+      "finding": "提出了一种让工具使用Agent从自身经验中学习改进的方法，通过自蒸馏在可验证环境中训练深度搜索Agent，无需依赖固定的教师轨迹。",
+      "key_data": [
+        "自蒸馏训练",
+        "深度搜索Agent",
+        "可验证环境",
+        "无需教师数据"
+      ],
+      "judgment": "解决了Agent训练中依赖人工标注数据的问题，对构建自主Agent有实际价值。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.07820",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "从求解器到研究：大模型驱动的形式化数学达到研究前沿",
+      "finding": "综述了LLM驱动的定理证明器在数学研究前沿的最新进展，表明AI已从解决竞赛题进阶到能辅助数学研究。",
+      "key_data": [
+        "形式化数学",
+        "定理证明",
+        "研究前沿",
+        "LLM驱动"
+      ],
+      "judgment": "与GPT-5.6破解数学猜想呼应，AI在数学领域的应用正从'解题'走向'研究'。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.07779",
+      "importance": 3
+    },
+    {
+      "source": "Reddit",
+      "title": "VultronRetriever模型发布：可在iPhone上离线运行问答和嵌入",
+      "finding": "VultronRetriever系列模型在巴黎Raise Summit上发布，能在iPhone上完全离线运行问答和文档嵌入，展示了端侧检索增强生成的能力。",
+      "key_data": [
+        "端侧RAG",
+        "iPhone离线运行",
+        "问答+嵌入",
+        "Raise Summit"
+      ],
+      "judgment": "端侧AI能力持续增强，离线RAG将打开更多隐私敏感场景的应用空间。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1utmxq8/vultronretriever_family_of_models_released_on/",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "TechCrunch",
+      "title": "OpenAI押注家庭场景，为ChatGPT招聘家庭产品经理",
+      "finding": "OpenAI正在招聘专门负责家庭、看护者和老年人体验的产品经理，表明ChatGPT正从办公场景向家庭场景渗透。",
+      "key_data": [
+        "家庭产品经理",
+        "ChatGPT家庭场景",
+        "老年人",
+        "看护者"
+      ],
+      "judgment": "OpenAI开始探索C端新场景，家庭市场可能是ChatGPT用户增长的下一个引擎。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "近百名玩家涌入具身数据赛道：一年融资44.7亿",
+      "finding": "具身数据行业在过去一年吸引了近百家公司入局，总融资额达44.7亿元。但文章指出，真正能靠'卖数据'赚钱的公司还不多。",
+      "key_data": [
+        "近百家公司",
+        "融资44.7亿",
+        "具身数据",
+        "变现困难"
+      ],
+      "judgment": "具身数据赛道火热但泡沫明显，数据质量和标准化是行业痛点，能提供高质量标注数据的公司才有长期价值。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/07/447914.html",
+      "importance": 2
+    },
+    {
+      "source": "Simon Willison",
+      "title": "sqlite-utils 4.1发布",
+      "finding": "sqlite-utils发布4.1版本，新增--code选项支持在插入和更新数据时使用Python代码进行转换，增强了数据处理灵活性。",
+      "key_data": [
+        "sqlite-utils 4.1",
+        "--code选项",
+        "Python转换",
+        "数据处理"
+      ],
+      "judgment": "对AI开发者来说，这个工具简化了数据预处理流程，尤其适合快速构建和迭代数据集。",
+      "confidence": 5,
+      "url": "https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "George Hotz",
+      "level": "L1",
+      "quote": "AI 2040和智能崇拜：他认为当前对AGI的狂热是一种'智能崇拜'，真正的智能不是参数规模，而是理解世界的能力。他警告不要过度神化AI。",
+      "source": "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html"
+    },
+    {
+      "person": "Yael Writes",
+      "level": "L2",
+      "quote": "别再让我问LLM了：批评当前产品设计中过度依赖LLM作为唯一交互方式，认为应该提供更直接的解决方案，而不是把所有问题都推给AI对话。",
+      "source": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "国产十万卡集群的技术挑战与生态建设",
+      "reason": "这是中国AI基础设施的关键突破，值得深入分析其技术架构、软件栈和实际效果。",
+      "priority": "high"
+    },
+    {
+      "topic": "GPT-5.6数学推理能力突破对科研范式的影响",
+      "reason": "AI破解50年数学猜想是标志性事件，需要评估其对数学、物理等基础科学研究的长期影响。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "GPT-5.6破解数学猜想，国产十万卡集群落成",
+  "summary_paragraph": "今日AI行业迎来多项重磅进展。GPT-5.6在数学推理上实现突破，一小时解开50年数学猜想，同时多Agent编排能力大幅提升。中国首个国产十万卡AI集群落成，标志着算力基础设施迈入新阶段。苹果起诉OpenAI窃取核心机密，巨头间的技术竞争白热化。智谱市值暴涨10倍后，创始人唐杰发内部信提醒保持清醒。端侧AI方面，NVIDIA RTX Spark真机亮相，笔记本可跑120B模型。整体来看，模型能力、算力基础设施和端侧AI都在加速突破，行业正进入新一轮竞争周期。",
+  "snapshot": {
+    "date": "2026-07-12",
+    "hf_trending": [
+      {
+        "name": "tencent/Hy3",
+        "short_name": "Hy3",
+        "likes": 697,
+        "downloads": 8210,
+        "url": "https://huggingface.co/tencent/Hy3",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "hy_v3"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "likes": 2015,
+        "downloads": 1944961,
+        "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "tags": [
+          "gguf",
+          "llama.cpp",
+          "quantized"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "zai-org/GLM-5.2",
+        "short_name": "GLM-5.2",
+        "likes": 3832,
+        "downloads": 421270,
+        "url": "https://huggingface.co/zai-org/GLM-5.2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "InternScience/Agents-A1",
+        "short_name": "Agents-A1",
+        "likes": 495,
+        "downloads": 28141,
+        "url": "https://huggingface.co/InternScience/Agents-A1",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "bottlecapai/ThinkingCap-Qwen3.6-27B",
+        "short_name": "ThinkingCap-Qwen3.6-27B",
+        "likes": 236,
+        "downloads": 4128,
+        "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "froggeric/Qwen-Fixed-Chat-Templates",
+        "short_name": "Qwen-Fixed-Chat-Templates",
+        "likes": 852,
+        "downloads": 0,
+        "url": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates",
+        "tags": [
+          "mlx",
+          "jinja",
+          "chat-template"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "baidu/Unlimited-OCR",
+        "short_name": "Unlimited-OCR",
+        "likes": 1931,
+        "downloads": 1380690,
+        "url": "https://huggingface.co/baidu/Unlimited-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "unlimited-ocr"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "conradlocke/krea2-identity-edit",
+        "short_name": "krea2-identity-edit",
+        "likes": 186,
+        "downloads": 0,
+        "url": "https://huggingface.co/conradlocke/krea2-identity-edit",
+        "tags": [
+          "image-editing",
+          "lora",
+          "comfyui"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "catchorg/Catch2",
+        "desc": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++",
+        "stars": 21062,
+        "stars_today": 113,
+        "forks": 3428,
+        "language": "C++",
+        "url": "https://github.com/catchorg/Catch2"
+      },
+      {
+        "name": "abseil/abseil-cpp",
+        "desc": "Abseil Common Libraries (C++)",
+        "stars": 17810,
+        "stars_today": 118,
+        "forks": 3209,
+        "language": "C++",
+        "url": "https://github.com/abseil/abseil-cpp"
+      },
+      {
+        "name": "davila7/claude-code-templates",
+        "desc": "CLI tool for configuring and monitoring Claude Code",
+        "stars": 29032,
+        "stars_today": 232,
+        "forks": 3185,
+        "language": "Python",
+        "url": "https://github.com/davila7/claude-code-templates"
+      },
+      {
+        "name": "google-labs-code/stitch-skills",
+        "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent ",
+        "stars": 7079,
+        "stars_today": 340,
+        "forks": 944,
+        "language": "TypeScript",
+        "url": "https://github.com/google-labs-code/stitch-skills"
+      },
+      {
+        "name": "hashicorp/terraform",
+        "desc": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a ",
+        "stars": 49375,
+        "stars_today": 229,
+        "forks": 10680,
+        "language": "Go",
+        "url": "https://github.com/hashicorp/terraform"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 1114569434119,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": 21.0,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 2,
+        "slug": "tencent/hy3-20260706:free",
+        "name": "Hy3 20260706:free",
+        "org": "tencent",
+        "total_tokens": 1063377248260,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": -0.9,
+        "url": "https://openrouter.ai/tencent/hy3-20260706:free"
+      },
+      {
+        "rank": 3,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "org": "deepseek",
+        "total_tokens": 706863897979,
+        "total_tokens_str": "707B",
+        "api_calls": 0,
+        "change": -3.8,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "minimax/minimax-m3",
+        "name": "MiniMax M3",
+        "org": "minimax",
+        "total_tokens": 515898688927,
+        "total_tokens_str": "516B",
+        "api_calls": 0,
+        "change": -13.2,
+        "url": "https://openrouter.ai/minimax/minimax-m3"
+      },
+      {
+        "rank": 5,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604:free",
+        "name": "Nemotron 3 Ultra 550b A55b 20260604:free",
+        "org": "nvidia",
+        "total_tokens": 491787811290,
+        "total_tokens_str": "492B",
+        "api_calls": 0,
+        "change": 11.6,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604:free"
+      },
+      {
+        "rank": 6,
+        "slug": "z-ai/glm-5.2",
+        "name": "GLM 5.2",
+        "org": "z-ai",
+        "total_tokens": 469771758960,
+        "total_tokens_str": "470B",
+        "api_calls": 0,
+        "change": 16.6,
+        "url": "https://openrouter.ai/z-ai/glm-5.2"
+      },
+      {
+        "rank": 7,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
+        "org": "deepseek",
+        "total_tokens": 365977012248,
+        "total_tokens_str": "366B",
+        "api_calls": 0,
+        "change": 11.7,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 8,
+        "slug": "anthropic/claude-4.7-opus",
+        "name": "Claude 4.7 Opus",
+        "org": "anthropic",
+        "total_tokens": 201531600710,
+        "total_tokens_str": "202B",
+        "api_calls": 0,
+        "change": -33.1,
+        "url": "https://openrouter.ai/anthropic/claude-4.7-opus"
+      },
+      {
+        "rank": 9,
+        "slug": "anthropic/claude-4.8-opus",
+        "name": "Claude 4.8 Opus",
+        "org": "anthropic",
+        "total_tokens": 200800244084,
+        "total_tokens_str": "201B",
+        "api_calls": 0,
+        "change": -34.7,
+        "url": "https://openrouter.ai/anthropic/claude-4.8-opus"
+      },
+      {
+        "rank": 10,
+        "slug": "stepfun/step-3.7-flash",
+        "name": "Step 3.7 Flash",
+        "org": "stepfun",
+        "total_tokens": 156928798817,
+        "total_tokens_str": "157B",
+        "api_calls": 0,
+        "change": -8.7,
+        "url": "https://openrouter.ai/stepfun/step-3.7-flash"
+      }
+    ],
+    "hf_summary": "开源多模态模型热度反超文本生成"
+  }
+}
