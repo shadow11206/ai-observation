@@ -3,75 +3,72 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent",
-      "finding": "GPT-5.6在数学推理上取得惊人突破，仅用一小时就解决了一个困扰数学界50年的猜想。同时，用户可以用700词的提示词控制64个并行子Agent协同工作，展示了极强的多Agent编排能力。",
+      "title": "智谱创始人唐杰发内部信：市值超百度近3倍，跻身万亿港元俱乐部",
+      "finding": "智谱创始人唐杰发布内部信《巨浪已来》，透露公司市值较半年前上市初期涨了10倍，已突破万亿港元，是百度市值的近3倍，超过小米。这是中国AI大模型公司商业化的里程碑事件，标志着市场对国产大模型价值的重估。",
       "key_data": [
-        "50年数学猜想",
-        "一小时破解",
-        "700词Prompt",
-        "64个子Agent"
+        "市值涨10倍",
+        "万亿港元俱乐部",
+        "超百度3倍",
+        "超小米"
       ],
-      "judgment": "这标志着大模型从'语言工具'向'科学发现引擎'的质变。对AI产品经理而言，多Agent编排的门槛大幅降低，复杂任务自动化的可行性大大提升。",
+      "judgment": "智谱的市值暴涨说明资本市场开始用真金白银为国产大模型投票，GLM系列的开源策略和商业化落地获得了认可。这对其他国产模型厂商是强心针，也意味着大模型赛道的马太效应开始显现。",
       "confidence": 4,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/07/447873.html"
+      "source": "36氪",
+      "url": "https://36kr.com/p/3891132709206784?f=rss"
     },
     {
       "rank": 2,
-      "title": "中国首个十万卡集群落成！全国产算力支撑“十万卡时代”",
-      "finding": "中国建成了首个国产十万卡AI集群，覆盖从FP64到INT8全精度计算，已跑通300余项应用。这标志着中国在AI算力基础设施上迈出了关键一步。",
+      "title": "中国首个十万卡集群落成，全国产算力支撑",
+      "finding": "中国首个十万卡规模的计算集群正式落成，采用全国产算力，已跑通300余项应用，覆盖从FP64到INT8的全精度计算。这是国内AI基础设施建设的标志性突破，意味着国产算力具备了支撑超大规模模型训练的能力。",
       "key_data": [
         "十万卡集群",
         "全国产算力",
-        "全精度覆盖",
-        "300+应用跑通"
+        "300+应用",
+        "全精度覆盖"
       ],
-      "judgment": "这是中国AI基础设施的里程碑事件。十万卡集群意味着可以训练千亿甚至万亿参数级别的模型，国产算力生态的成熟将加速国内大模型的自主迭代。",
+      "judgment": "十万卡集群的落成打破了海外算力的垄断叙事，对国内大模型厂商和AI创业公司是重大利好。但实际训练效率和生态成熟度仍需验证，不能简单等同于NVIDIA的同等规模集群。",
       "confidence": 4,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/07/447891.html"
     },
     {
       "rank": 3,
-      "title": "苹果怒告OpenAI“偷师”其核心机密",
-      "finding": "苹果向法院提交41页PDF，指控OpenAI通过不正当手段获取其核心机密技术。这一诉讼可能涉及苹果在设备端AI和隐私保护方面的关键技术。",
+      "title": "苹果怒告OpenAI“偷师”核心机密",
+      "finding": "苹果发布41页PDF，正式起诉OpenAI涉嫌窃取其核心机密技术。这一事件将AI行业的商业秘密保护问题推上风口浪尖，也反映了大模型时代巨头之间的人才和技术竞争已白热化。",
       "key_data": [
         "41页PDF",
         "苹果起诉OpenAI",
-        "核心机密",
-        "设备端AI"
+        "核心机密"
       ],
-      "judgment": "苹果与OpenAI的冲突公开化，反映出AI巨头之间的人才和技术竞争已白热化。对开发者而言，需关注后续是否会影响Apple Intelligence的发布节奏或功能。",
+      "judgment": "苹果和OpenAI的诉讼战是AI行业从合作走向对抗的标志性事件。对开发者而言，这意味着未来使用开源模型或API时，需要更谨慎地评估知识产权风险，尤其在涉及商业机密的应用场景。",
       "confidence": 4,
-      "source": "InfoQ AI",
+      "source": "InfoQ",
       "url": "https://www.infoq.cn/article/Rzh9umgPl90MgGolBcWm?utm_source=rss&utm_medium=article"
     },
     {
       "rank": 4,
-      "title": "智谱创始人唐杰发内部信：市值涨10倍后，什么是更重要的事",
-      "finding": "智谱创始人唐杰发布内部信，称公司市值较半年前上市初期涨了10倍，已跻身'万亿港元俱乐部'，超过百度市值近3倍。他在信中强调'巨浪已来'，提醒团队保持清醒。",
+      "title": "OpenAI押注家庭场景，招聘家庭产品经理",
+      "finding": "OpenAI正在招聘专门面向家庭、老年人和看护者的ChatGPT产品经理，表明其战略重心从企业办公向家庭消费场景延伸。这是ChatGPT从工具向生活伴侣转型的关键信号。",
       "key_data": [
-        "市值涨10倍",
-        "万亿港元俱乐部",
-        "超百度3倍",
-        "巨浪已来"
+        "家庭产品经理",
+        "老年人和看护者",
+        "消费场景延伸"
       ],
-      "judgment": "智谱的市值暴涨是中国AI资本市场的标志性事件。但唐杰的内部信也暗示了高估值背后的压力——如何持续兑现技术领先性，是比股价更重要的命题。",
+      "judgment": "OpenAI进入家庭场景意味着AI的下一波增长可能来自C端日常使用，而非B端效率工具。对产品经理来说，家庭场景的交互设计、隐私保护和情感陪伴能力将成为新的竞争焦点。",
       "confidence": 5,
-      "source": "36氪",
-      "url": "https://36kr.com/p/3891132709206784?f=rss"
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/"
     },
     {
       "rank": 5,
-      "title": "老黄RTX Spark真机现身B站World！笔记本跑120B大模型",
-      "finding": "NVIDIA的RTX Spark超级芯片在Bilibili World上真机亮相，CPU和GPU直接集成在一起，可以让笔记本本地运行120B参数的大模型。",
+      "title": "老黄RTX Spark真机现身：CPU和GPU焊在一起，笔记本跑120B大模型",
+      "finding": "NVIDIA在ComputeX发布的RTX Spark超级芯片已在Bilibili World上展示真机。该芯片将CPU和GPU直接集成，可在笔记本上运行120B参数的大模型，标志着端侧AI推理能力的重大突破。",
       "key_data": [
         "RTX Spark真机",
         "CPU+GPU集成",
-        "笔记本跑120B模型",
-        "Bilibili World"
+        "笔记本跑120B模型"
       ],
-      "judgment": "这是AI PC的重要里程碑。120B模型本地运行意味着开发者可以在笔记本上完成过去需要云端GPU才能做的推理任务，将极大推动端侧AI应用的爆发。",
+      "judgment": "RTX Spark让本地运行百亿级大模型成为现实，这对AI应用的产品形态是颠覆性的——开发者可以不再依赖云端API，直接在用户设备上运行复杂模型，隐私和延迟问题将得到根本改善。",
       "confidence": 4,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/07/447981.html"
@@ -79,133 +76,127 @@
   ],
   "model_tech": [
     {
-      "source": "ArXiv",
-      "title": "DeepSearch-World：通过自蒸馏训练深度搜索Agent",
-      "finding": "提出了一种让工具使用Agent从自身经验中学习改进的方法，通过自蒸馏在可验证环境中训练深度搜索Agent，无需依赖固定的教师轨迹。",
-      "key_data": [
-        "自蒸馏训练",
-        "深度搜索Agent",
-        "可验证环境",
-        "无需教师数据"
-      ],
-      "judgment": "解决了Agent训练中依赖人工标注数据的问题，对构建自主Agent有实际价值。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2607.07820",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv",
-      "title": "从求解器到研究：大模型驱动的形式化数学达到研究前沿",
-      "finding": "综述了LLM驱动的定理证明器在数学研究前沿的最新进展，表明AI已从解决竞赛题进阶到能辅助数学研究。",
-      "key_data": [
-        "形式化数学",
-        "定理证明",
-        "研究前沿",
-        "LLM驱动"
-      ],
-      "judgment": "与GPT-5.6破解数学猜想呼应，AI在数学领域的应用正从'解题'走向'研究'。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2607.07779",
-      "importance": 3
-    },
-    {
       "source": "Reddit",
-      "title": "VultronRetriever模型发布：可在iPhone上离线运行问答和嵌入",
-      "finding": "VultronRetriever系列模型在巴黎Raise Summit上发布，能在iPhone上完全离线运行问答和文档嵌入，展示了端侧检索增强生成的能力。",
+      "title": "VultronRetriever模型家族发布，可在iPhone上离线运行",
+      "finding": "VultronRetriever模型家族在HuggingFace上发布，支持在iPhone上完全离线进行问答和文档嵌入。这是端侧检索增强生成（RAG）的重要进展。",
       "key_data": [
-        "端侧RAG",
         "iPhone离线运行",
         "问答+嵌入",
-        "Raise Summit"
+        "HuggingFace发布"
       ],
-      "judgment": "端侧AI能力持续增强，离线RAG将打开更多隐私敏感场景的应用空间。",
+      "judgment": "端侧RAG的成熟将催生一批不依赖云端的AI应用，对隐私敏感场景（如医疗、金融）是重大利好。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1utmxq8/vultronretriever_family_of_models_released_on/",
+      "importance": 3
+    },
+    {
+      "source": "Hacker News",
+      "title": "Mesh LLM：基于iroh的分布式AI计算",
+      "finding": "Mesh LLM项目提出了一种基于iroh协议的分布式AI计算方案，允许将大模型推理任务分散到多个设备上协同完成。这为去中心化AI计算提供了新思路。",
+      "key_data": [
+        "分布式AI计算",
+        "iroh协议",
+        "多设备协同"
+      ],
+      "judgment": "分布式推理如果成熟，将降低大模型部署的硬件门槛，但网络延迟和同步效率是主要挑战，短期内难以替代集中式方案。",
+      "confidence": 3,
+      "url": "https://www.iroh.computer/blog/mesh-llm",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "面向Qwen系列模型线性注意力的高性能优化实践",
+      "finding": "InfoQ报道了针对Qwen系列模型线性注意力的优化实践，旨在提升推理效率。这反映了业界对降低Transformer计算复杂度的持续探索。",
+      "key_data": [
+        "Qwen模型",
+        "线性注意力",
+        "推理效率优化"
+      ],
+      "judgment": "线性注意力是突破Transformer二次复杂度瓶颈的关键方向，Qwen的优化实践对开源社区有参考价值。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/wg5h3JBMvs5ZkoP0azha?utm_source=rss&utm_medium=article",
       "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "TechCrunch",
-      "title": "OpenAI押注家庭场景，为ChatGPT招聘家庭产品经理",
-      "finding": "OpenAI正在招聘专门负责家庭、看护者和老年人体验的产品经理，表明ChatGPT正从办公场景向家庭场景渗透。",
+      "source": "量子位",
+      "title": "近百名玩家涌入具身数据赛道，一年融资44.7亿",
+      "finding": "具身数据采集行业爆发，一年内融资总额达44.7亿元。有公司甚至开设“具身数据采集5S店”，让普通人通过做家务来采集机器人训练数据。",
       "key_data": [
-        "家庭产品经理",
-        "ChatGPT家庭场景",
-        "老年人",
-        "看护者"
+        "融资44.7亿",
+        "近百名玩家",
+        "数据采集5S店"
       ],
-      "judgment": "OpenAI开始探索C端新场景，家庭市场可能是ChatGPT用户增长的下一个引擎。",
+      "judgment": "具身数据赛道过热，大量玩家涌入但商业模式尚未验证。数据质量和采集效率是关键瓶颈，盲目跟风风险高。",
       "confidence": 4,
-      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "url": "https://www.qbitai.com/2026/07/447914.html",
       "importance": 3
     },
     {
-      "source": "量子位",
-      "title": "近百名玩家涌入具身数据赛道：一年融资44.7亿",
-      "finding": "具身数据行业在过去一年吸引了近百家公司入局，总融资额达44.7亿元。但文章指出，真正能靠'卖数据'赚钱的公司还不多。",
-      "key_data": [
-        "近百家公司",
-        "融资44.7亿",
-        "具身数据",
-        "变现困难"
-      ],
-      "judgment": "具身数据赛道火热但泡沫明显，数据质量和标准化是行业痛点，能提供高质量标注数据的公司才有长期价值。",
-      "confidence": 4,
-      "url": "https://www.qbitai.com/2026/07/447914.html",
-      "importance": 2
-    },
-    {
       "source": "Simon Willison",
-      "title": "sqlite-utils 4.1发布",
-      "finding": "sqlite-utils发布4.1版本，新增--code选项支持在插入和更新数据时使用Python代码进行转换，增强了数据处理灵活性。",
+      "title": "sqlite-utils 4.1发布，新增--code选项",
+      "finding": "sqlite-utils 4.1版本发布，新增了--code选项，允许用户通过Python代码自定义数据插入和更新逻辑。这是一个面向开发者的实用工具更新。",
       "key_data": [
         "sqlite-utils 4.1",
         "--code选项",
-        "Python转换",
-        "数据处理"
+        "Python自定义"
       ],
-      "judgment": "对AI开发者来说，这个工具简化了数据预处理流程，尤其适合快速构建和迭代数据集。",
+      "judgment": "对AI开发者来说，sqlite-utils是管理本地数据集的好工具，新功能让数据处理更灵活。",
       "confidence": 5,
       "url": "https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "Airbnb分享Kubernetes动态配置Sidecar Sitar-agent架构",
+      "finding": "Airbnb公开了其Kubernetes动态配置Sidecar Sitar-agent的架构设计，展示了如何在大规模微服务中实现灵活配置管理。",
+      "key_data": [
+        "Kubernetes",
+        "动态配置",
+        "Sidecar架构"
+      ],
+      "judgment": "对AI工程团队有参考价值，尤其是在管理多模型推理服务时，动态配置能力可以显著提升运维效率。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/fO5byVPuZwwlBPosijBV?utm_source=rss&utm_medium=article",
       "importance": 2
     }
   ],
   "opinions": [
     {
-      "person": "George Hotz",
+      "person": "George Hotz (geohot)",
       "level": "L1",
-      "quote": "AI 2040和智能崇拜：他认为当前对AGI的狂热是一种'智能崇拜'，真正的智能不是参数规模，而是理解世界的能力。他警告不要过度神化AI。",
+      "quote": "AI 2040和智能崇拜：他认为当前对AGI的狂热是一种“智能崇拜”，真正的智能不是简单的参数规模堆砌，而是需要全新的架构和理论突破。",
       "source": "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html"
     },
     {
-      "person": "Yael Writes",
+      "person": "Cory Doctorow",
       "level": "L2",
-      "quote": "别再让我问LLM了：批评当前产品设计中过度依赖LLM作为唯一交互方式，认为应该提供更直接的解决方案，而不是把所有问题都推给AI对话。",
-      "source": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/"
+      "quote": "反向半人马是AI悖论的答案：他认为AI不应该取代人类，而是应该增强人类能力，形成“反向半人马”（人类主导、AI辅助）的工作模式。",
+      "source": "https://pluralistic.net/2025/09/11/vulgar-thatcherism/#there-is-an-alternative"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "国产十万卡集群的技术挑战与生态建设",
-      "reason": "这是中国AI基础设施的关键突破，值得深入分析其技术架构、软件栈和实际效果。",
+      "topic": "国产十万卡集群的实际训练效率与生态成熟度",
+      "reason": "国产算力集群是基础设施突破，但实际训练效率、软件生态和与NVIDIA的差距需要深入评估。",
       "priority": "high"
     },
     {
-      "topic": "GPT-5.6数学推理能力突破对科研范式的影响",
-      "reason": "AI破解50年数学猜想是标志性事件，需要评估其对数学、物理等基础科学研究的长期影响。",
-      "priority": "high"
+      "topic": "具身数据采集行业的商业模式与数据质量",
+      "reason": "融资火热但商业模式未验证，需要分析数据采集成本、质量控制和实际应用场景。",
+      "priority": "medium"
     }
   ],
-  "summary_one_line": "GPT-5.6破解数学猜想，国产十万卡集群落成",
-  "summary_paragraph": "今日AI行业迎来多项重磅进展。GPT-5.6在数学推理上实现突破，一小时解开50年数学猜想，同时多Agent编排能力大幅提升。中国首个国产十万卡AI集群落成，标志着算力基础设施迈入新阶段。苹果起诉OpenAI窃取核心机密，巨头间的技术竞争白热化。智谱市值暴涨10倍后，创始人唐杰发内部信提醒保持清醒。端侧AI方面，NVIDIA RTX Spark真机亮相，笔记本可跑120B模型。整体来看，模型能力、算力基础设施和端侧AI都在加速突破，行业正进入新一轮竞争周期。",
+  "summary_one_line": "智谱市值破万亿，国产算力集群落成",
+  "summary_paragraph": "今日AI行业迎来多重里程碑：智谱创始人唐杰内部信透露公司市值突破万亿港元，超越百度和小米，标志着国产大模型商业化的重大突破；中国首个十万卡国产算力集群落成，为大规模模型训练提供了自主基础设施。与此同时，苹果起诉OpenAI窃密、OpenAI押注家庭场景、NVIDIA RTX Spark真机亮相等事件，反映出行业竞争从技术层面向商业、法律和消费场景全面延伸。具身数据赛道融资44.7亿但商业模式待验证，端侧AI推理能力则因VultronRetriever和RTX Spark的进展而加速落地。",
   "snapshot": {
     "date": "2026-07-12",
     "hf_trending": [
       {
         "name": "tencent/Hy3",
         "short_name": "Hy3",
-        "likes": 697,
+        "likes": 701,
         "downloads": 8210,
         "url": "https://huggingface.co/tencent/Hy3",
         "tags": [
@@ -221,7 +212,7 @@
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-        "likes": 2015,
+        "likes": 2022,
         "downloads": 1944961,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "tags": [
@@ -237,7 +228,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 3832,
+        "likes": 3836,
         "downloads": 421270,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -253,7 +244,7 @@
       {
         "name": "InternScience/Agents-A1",
         "short_name": "Agents-A1",
-        "likes": 495,
+        "likes": 497,
         "downloads": 28141,
         "url": "https://huggingface.co/InternScience/Agents-A1",
         "tags": [
@@ -269,7 +260,7 @@
       {
         "name": "bottlecapai/ThinkingCap-Qwen3.6-27B",
         "short_name": "ThinkingCap-Qwen3.6-27B",
-        "likes": 236,
+        "likes": 238,
         "downloads": 4128,
         "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
         "tags": [
@@ -285,7 +276,7 @@
       {
         "name": "froggeric/Qwen-Fixed-Chat-Templates",
         "short_name": "Qwen-Fixed-Chat-Templates",
-        "likes": 852,
+        "likes": 855,
         "downloads": 0,
         "url": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates",
         "tags": [
@@ -301,7 +292,7 @@
       {
         "name": "baidu/Unlimited-OCR",
         "short_name": "Unlimited-OCR",
-        "likes": 1931,
+        "likes": 1932,
         "downloads": 1380690,
         "url": "https://huggingface.co/baidu/Unlimited-OCR",
         "tags": [
@@ -317,7 +308,7 @@
       {
         "name": "conradlocke/krea2-identity-edit",
         "short_name": "krea2-identity-edit",
-        "likes": 186,
+        "likes": 193,
         "downloads": 0,
         "url": "https://huggingface.co/conradlocke/krea2-identity-edit",
         "tags": [
@@ -335,45 +326,45 @@
       {
         "name": "catchorg/Catch2",
         "desc": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++",
-        "stars": 21062,
+        "stars": 21133,
         "stars_today": 113,
-        "forks": 3428,
+        "forks": 3430,
         "language": "C++",
         "url": "https://github.com/catchorg/Catch2"
       },
       {
         "name": "abseil/abseil-cpp",
         "desc": "Abseil Common Libraries (C++)",
-        "stars": 17810,
+        "stars": 17855,
         "stars_today": 118,
-        "forks": 3209,
+        "forks": 3210,
         "language": "C++",
         "url": "https://github.com/abseil/abseil-cpp"
       },
       {
         "name": "davila7/claude-code-templates",
         "desc": "CLI tool for configuring and monitoring Claude Code",
-        "stars": 29032,
+        "stars": 29075,
         "stars_today": 232,
-        "forks": 3185,
+        "forks": 3189,
         "language": "Python",
         "url": "https://github.com/davila7/claude-code-templates"
       },
       {
         "name": "google-labs-code/stitch-skills",
         "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent ",
-        "stars": 7079,
+        "stars": 7130,
         "stars_today": 340,
-        "forks": 944,
+        "forks": 947,
         "language": "TypeScript",
         "url": "https://github.com/google-labs-code/stitch-skills"
       },
       {
         "name": "hashicorp/terraform",
         "desc": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a ",
-        "stars": 49375,
+        "stars": 49397,
         "stars_today": 229,
-        "forks": 10680,
+        "forks": 10682,
         "language": "Go",
         "url": "https://github.com/hashicorp/terraform"
       }
@@ -490,6 +481,6 @@
         "url": "https://openrouter.ai/stepfun/step-3.7-flash"
       }
     ],
-    "hf_summary": "开源多模态模型热度反超文本生成"
+    "hf_summary": "文本生成与多模态理解模型主导，热门模型竞争激烈"
   }
 }
