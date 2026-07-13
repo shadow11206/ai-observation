@@ -3,147 +3,216 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "GPT-5.6 Sol 被证实为 Fable/Mythos 类模型，Anthropic 再次延长 Claude Fable 可用时间",
-      "finding": "Simon Willison 发现 GPT-5.6 Sol 的表现与 Anthropic 的 Fable/Mythos 类模型高度相似，暗示 OpenAI 和 Anthropic 的模型能力正在趋同。Anthropic 因此再次延长了 Claude Max 用户使用 Fable 的截止日期。",
-      "key_data": [
-        "GPT-5.6 Sol 被归为 Fable 类",
-        "Anthropic 延长 Fable 可用时间",
-        "模型能力趋同信号"
-      ],
-      "judgment": "这意味着顶级模型之间的能力差距正在缩小，OpenAI 和 Anthropic 的产品差异化越来越难做。对开发者来说，选择模型的标准应从'哪个更强'转向'哪个更便宜、更快、更易用'。",
-      "confidence": 4,
-      "source": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything"
-    },
-    {
-      "rank": 2,
-      "title": "生产级 AI Agent 迁移至 GPT-5.6：速度提升 2.2 倍，成本降低 27%",
-      "finding": "一家 AI 创业公司 Ploy 分享了将生产环境中的 AI Agent 从旧模型迁移到 GPT-5.6 的实际收益：推理速度提升 2.2 倍，成本降低 27%。这是 GPT-5.6 在真实商业场景中的性能验证。",
+      "title": "GPT-5.6 Sol 发布后，开发者实测：Agent 速度提升 2.2 倍，成本降低 27%",
+      "finding": "一家 AI 创业公司将生产环境中的 AI Agent 从旧模型迁移到 GPT-5.6，结果显示推理速度提升了 2.2 倍，成本降低了 27%。这不仅是数字上的提升，更意味着 GPT-5.6 在推理效率和性价比上达到了新的里程碑，可能加速企业大规模采用 AI Agent。",
       "key_data": [
         "速度提升 2.2 倍",
         "成本降低 27%",
-        "生产级 Agent 迁移"
+        "生产环境实测"
       ],
-      "judgment": "GPT-5.6 的性价比提升对 AI 应用开发者是重大利好。这意味着更多 AI 产品可以降低推理成本、提升用户体验，加速 AI 在商业场景中的落地。",
+      "judgment": "对 AI 应用开发者来说，GPT-5.6 的性价比提升意味着可以重新评估很多之前因成本或延迟而搁置的 Agent 场景，企业级 AI 应用的落地门槛进一步降低。",
       "confidence": 4,
       "source": "Hacker News",
       "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6"
     },
     {
-      "rank": 3,
-      "title": "AI 提升科研效率但缩小探索范围：一项引发行业反思的研究",
-      "finding": "一项发表在 IEEE Spectrum 上的研究指出，AI 工具虽然加速了科研产出，但导致科学家探索的 idea 范围变窄，研究同质化加剧。这引发了 Hacker News 上的激烈讨论。",
+      "rank": 2,
+      "title": "Anthropic 再次延长 Fable 5 订阅期限，开发者社区热议“模型军备竞赛”",
+      "finding": "由于 GPT-5.6 Sol 的强劲表现，Anthropic 再次推迟了 Fable 模型的 Claude Max 订阅截止日期，同时有报道称全球开发者因过度使用 AI 编程工具导致健康问题。这反映出头部模型厂商之间的竞争已白热化，且 AI 工具的使用强度正在改变开发者的工作习惯。",
       "key_data": [
-        "AI 加速科研但缩小探索范围",
-        "研究同质化风险",
-        "Hacker News 137 分讨论"
+        "Fable 5 订阅再延 7 天",
+        "开发者因过度使用住院",
+        "模型军备竞赛"
       ],
-      "judgment": "这是对'AI 万能论'的重要警示。AI 产品经理和研究者需要意识到，过度依赖 AI 可能扼杀创新多样性。未来'AI + 人类发散思维'的混合模式可能比纯 AI 驱动更可持续。",
+      "judgment": "对 AI 产品经理而言，这不仅是模型能力的竞争，更是用户粘性和生态的竞争。Anthropic 的被动延期说明其产品节奏被对手牵制，而开发者健康问题则提示行业需要关注 AI 工具的可持续使用模式。",
       "confidence": 4,
-      "source": "IEEE Spectrum",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/07/448139.html"
+    },
+    {
+      "rank": 3,
+      "title": "研究揭示：AI 提升科研效率，但可能窄化探索的广度",
+      "finding": "一项发表在 IEEE Spectrum 的研究指出，AI 工具确实能加速科研人员的职业生涯，但同时也导致他们探索的研究方向范围变窄。这意味着 AI 可能让科研更高效，但也可能让整个科学界陷入“局部最优”，减少意外发现的可能性。",
+      "key_data": [
+        "AI 加速科研",
+        "但窄化探索广度",
+        "可能减少意外发现"
+      ],
+      "judgment": "对 AI 行业从业者来说，这是一个重要的警示：在追求效率的同时，需要主动设计机制来对抗“探索窄化”，否则长期来看可能损害科学创新。",
+      "confidence": 4,
+      "source": "Hacker News",
       "url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery"
     },
     {
       "rank": 4,
-      "title": "98 年哈工大教授创业，打造人形灵巧操作世界模型",
-      "finding": "一位 1998 年出生的哈工大教授创业，专注于人形机器人的灵巧操作，核心思路是从触觉采集、触觉对齐到触觉使用，构建世界模型。这是中国具身智能领域的新锐力量。",
+      "title": "清华团队现场演示：机器狗在无脚本任务中指挥人类协作",
+      "finding": "清华大学在公开演示中展示了机器狗在没有预设脚本的情况下，根据现场观众随机提出的任务，指挥人类使用天平进行称重。这标志着具身智能从“执行固定指令”向“理解人类意图并动态协作”迈出了重要一步。",
       "key_data": [
-        "98 年哈工大教授创业",
-        "人形灵巧操作",
-        "触觉世界模型"
+        "无脚本任务",
+        "人机动态协作",
+        "现场观众即兴出题"
       ],
-      "judgment": "触觉是具身智能的关键瓶颈之一，这位年轻教授的技术路线（从采集到对齐再到使用）很务实。如果成功，将大幅提升人形机器人的精细操作能力，对工业和服务场景意义重大。",
-      "confidence": 3,
+      "judgment": "对机器人行业来说，这是 Physical AGI 概念的一次有力验证。机器狗不再只是“遥控玩具”，而是能理解上下文、主动规划并协调人类行动的智能体，这为家庭服务、工业协作等场景打开了想象空间。",
+      "confidence": 4,
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/07/448034.html"
+      "url": "https://www.qbitai.com/2026/07/448239.html"
+    },
+    {
+      "rank": 5,
+      "title": "Google 发布 TabFM 和 TimesFM 基础模型，开发者迅速构建 MCP 服务实现零样本 ML 任务",
+      "finding": "Google 上周发布了两款新的基础模型 TabFM（表格数据）和 TimesFM（时间序列），一位研究生迅速将其封装为 MCP（Model Context Protocol）服务器，支持 100% 本地运行的零样本预测、分类和回归任务。这表明基础模型的应用边界正在从文本/图像扩展到结构化数据领域。",
+      "key_data": [
+        "TabFM / TimesFM",
+        "MCP 服务器封装",
+        "100% 本地运行"
+      ],
+      "judgment": "对数据科学家和 ML 工程师来说，这意味着未来处理表格数据和时间序列可能不再需要复杂的特征工程和模型训练，直接调用基础模型即可，将极大降低机器学习应用的门槛。",
+      "confidence": 3,
+      "source": "Reddit r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uue8cc/zer0fit_i_took_googles_new_tabfm_timesfm_ml/"
     }
   ],
   "model_tech": [
     {
-      "source": "Reddit",
-      "title": "Zer0Fit：将 Google TabFM 和 TimesFM 基础模型封装为 MCP 服务器，实现零样本机器学习",
-      "finding": "一位研究生将 Google 新发布的 TabFM 和 TimesFM 基础模型封装成 MCP 服务器，支持零样本的预测、分类和回归任务，且完全本地运行。",
+      "source": "ArXiv",
+      "title": "HALO：为冻结的预训练语言模型添加少量自适应计算以提升推理能力",
+      "finding": "提出一种混合自适应潜在推理方法，在不改变预训练模型参数的前提下，通过增加少量额外计算来提升推理能力，类似于给模型加装一个“轻量推理加速器”。",
       "key_data": [
-        "TabFM + TimesFM",
-        "MCP 服务器封装",
-        "零样本 ML 任务",
-        "100% 本地运行"
+        "冻结预训练模型",
+        "少量额外计算",
+        "推理能力提升"
       ],
-      "judgment": "MCP 协议正在成为 AI 工具链的'USB 接口'，这种封装方式降低了基础模型的使用门槛，对开发者是好事。",
+      "judgment": "对模型部署方来说，这意味着可以在不重新训练大模型的情况下，通过轻量插件提升推理表现，降低升级成本。",
       "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uue8cc/zer0fit_i_took_googles_new_tabfm_timesfm_ml/",
+      "url": "https://arxiv.org/abs/2607.08775",
       "importance": 3
     },
     {
-      "source": "InfoQ",
-      "title": "面向 Qwen 系列模型线性注意力的高性能优化实践",
-      "finding": "阿里分享了针对 Qwen 系列模型线性注意力的高性能优化方案，旨在提升推理效率、降低计算成本。",
+      "source": "ArXiv",
+      "title": "Sticky Routing：训练 MoE 模型以实现内存高效推理",
+      "finding": "提出一种新的路由策略，让 Mixture-of-Experts 模型中的连续 token 倾向于激活相同的专家，从而减少专家切换带来的内存开销，提升推理效率。",
       "key_data": [
-        "Qwen 线性注意力优化",
-        "推理效率提升",
-        "阿里实践"
+        "MoE 模型",
+        "连续 token 共享专家",
+        "内存效率提升"
       ],
-      "judgment": "线性注意力是长上下文模型的关键技术，阿里的优化实践对国内大模型部署有参考价值。",
+      "judgment": "对模型架构研究者来说，这是 MoE 推理优化的一个重要方向，可能让大规模 MoE 模型在消费级硬件上运行成为可能。",
       "confidence": 3,
-      "url": "https://www.infoq.cn/article/wg5h3JBMvs5ZkoP0azha?utm_source=rss&utm_medium=article",
+      "url": "https://arxiv.org/abs/2607.08780",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "GATS：图增强树搜索与分层世界模型用于高效 Agent 规划",
+      "finding": "提出一种结合图结构和分层世界模型的树搜索方法，让 LLM Agent 在复杂多步规划任务中更高效地探索和决策，优于现有的 LATS 和 ReAct 方法。",
+      "key_data": [
+        "图增强树搜索",
+        "分层世界模型",
+        "优于 LATS/ReAct"
+      ],
+      "judgment": "对 Agent 开发者来说，这提供了一种新的规划框架，有望提升 Agent 在复杂任务中的成功率和效率。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.08894",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "CogniConsole：将推理时控制外部化为形式化抽象，实现可靠的 LLM 交互",
+      "finding": "提出一种将 LLM 推理过程中的控制逻辑外部化的方法，通过形式化抽象来提升交互可靠性，挑战了“可靠性主要取决于模型能力”的传统观点。",
+      "key_data": [
+        "推理时控制外部化",
+        "形式化抽象",
+        "提升交互可靠性"
+      ],
+      "judgment": "对 AI 工程化团队来说，这意味着可以通过工程手段而非单纯依赖模型升级来提升系统可靠性，具有实际应用价值。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.08774",
       "importance": 2
     },
     {
-      "source": "Reddit",
-      "title": "上下文与平均最佳线性映射：神经网络的一种新视角",
-      "finding": "一篇论文提出从'上下文'角度理解神经网络，推导出层的平均最佳线性映射观点，可能为模型可解释性提供新思路。",
+      "source": "ArXiv",
+      "title": "长时终端任务基准：测试 Agent 在长时间终端任务上的极限",
+      "finding": "发布一个新的基准测试，专门评估 AI Agent 在需要长时间、多步骤、密集奖励反馈的终端任务上的表现，填补了现有基准在长时任务上的空白。",
       "key_data": [
-        "上下文视角",
-        "平均最佳线性映射",
-        "神经网络可解释性"
+        "长时终端任务",
+        "密集奖励反馈",
+        "Agent 极限测试"
       ],
-      "judgment": "理论贡献，但离实际应用较远，适合研究型读者关注。",
-      "confidence": 2,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uu2p63/context_and_average_best_linear_mappings_d/",
-      "importance": 1
+      "judgment": "对 Agent 评测领域来说，这是一个有价值的补充，有助于推动 Agent 从短时简单任务向长时复杂任务演进。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.08964",
+      "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "36氪",
-      "title": "SK 海力士 CEO 称 2027 年将出现史上最大存储短缺",
-      "finding": "SK 海力士 CEO 郭鲁正预测 2027 年将出现存储行业历史上最严重的供应短缺，并考虑推出'内存即服务'模式，允许客户租赁而非购买芯片。",
+      "source": "量子位",
+      "title": "98 年哈工大教授创业，要做人形灵巧操作世界模型",
+      "finding": "一位 98 年出生的哈工大教授创立公司，专注于构建人形机器人的灵巧操作世界模型，核心是从触觉采集、对齐到使用触觉的完整链路。",
       "key_data": [
-        "2027 年存储短缺",
-        "内存即服务模式",
-        "SK 海力士 CEO 预测"
+        "98 年教授创业",
+        "人形灵巧操作",
+        "触觉世界模型"
       ],
-      "judgment": "AI 训练和推理对 HBM 内存的需求爆炸式增长，存储短缺将推高 AI 基础设施成本，影响中小型 AI 公司的算力获取。",
-      "confidence": 4,
-      "url": "https://36kr.com/p/3893305996442118?f=rss",
-      "importance": 3
-    },
-    {
-      "source": "36氪",
-      "title": "腾讯重仓的 DPU 公司云豹智能冲刺创业板，目标'国产 DPU 第一股'",
-      "finding": "深圳云豹智能递交创业板 IPO 申请，计划成为'国产 DPU 第一股'。公司由斯坦福博士萧启阳创立，腾讯是重要股东。",
-      "key_data": [
-        "云豹智能冲刺 IPO",
-        "国产 DPU 第一股",
-        "腾讯投资"
-      ],
-      "judgment": "DPU 是 AI 数据中心的关键芯片，云豹智能上市将加速国产 DPU 生态建设，对国内 AI 基础设施自主可控有积极意义。",
-      "confidence": 4,
-      "url": "https://36kr.com/p/3892352153942530?f=rss",
+      "judgment": "对具身智能赛道来说，触觉是当前被低估的关键能力，这个团队从触觉切入可能形成差异化优势。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/07/448034.html",
       "importance": 2
     },
     {
-      "source": "Wired",
-      "title": "科学家利用 AI 和量子计算生成新型多肽",
-      "finding": "研究人员结合 AI 和量子计算，为罕见病和贫困人群开发新型多肽药物，展示了量子计算在药物研发中的潜力。",
+      "source": "36氪",
+      "title": "港中大博士、前大疆工程师创业消费级四足机器人，天使轮获数千万元融资",
+      "finding": "光之跃迁（Lumisition Robotics）完成近五千万元天使轮融资，由正轩领投，团队来自港中大和大疆，聚焦消费级四足机器人市场。",
       "key_data": [
-        "AI + 量子计算",
-        "新型多肽生成",
-        "罕见病药物研发"
+        "天使轮 5000 万元",
+        "消费级四足机器人",
+        "前大疆工程师"
       ],
-      "judgment": "量子计算+AI 在生物制药领域的应用仍处于早期，但方向正确，值得关注后续进展。",
+      "judgment": "消费级四足机器人赛道持续升温，但商业化路径仍需验证，团队的大疆背景可能带来成本控制优势。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3893473722514181?f=rss",
+      "importance": 2
+    },
+    {
+      "source": "36氪",
+      "title": "AI 家庭智能硬件公司获数千万元融资，首款产品今年上线海外",
+      "finding": "MOVA LINCO 完成数千万元天使融资，产品矩阵包括 AI 智能语音路由器、AI NAS 存储等，计划今年在海外市场推出首款产品。",
+      "key_data": [
+        "数千万元天使轮",
+        "AI 家庭智能硬件",
+        "今年海外上线"
+      ],
+      "judgment": "AI 家庭硬件赛道竞争激烈，路由器作为家庭网络入口具有战略价值，但需要差异化功能才能突围。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3879780282495236?f=rss",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "源络科技在国家级科研平台完成全球首个自主实验室落地",
+      "finding": "源络科技宣布在国家级科研平台部署了全球首个完全自主运行的 AI 实验室，实现从实验设计、执行到数据分析的全流程自动化。",
+      "key_data": [
+        "全球首个自主实验室",
+        "国家级科研平台",
+        "全流程自动化"
+      ],
+      "judgment": "对科研自动化领域来说，这是一个里程碑事件，表明 AI 驱动的科学发现已从概念走向实际部署。",
       "confidence": 3,
-      "url": "https://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides/",
+      "url": "https://www.infoq.cn/article/SikqTtFjSUbzBDz9LhKe",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "红帽决定聚焦中国企业的“多模型、多GPU、多云”选择权",
+      "finding": "红帽宣布将重点帮助中国企业实现多模型、多 GPU、多云环境下的灵活选择，强调开放生态和避免供应商锁定。",
+      "key_data": [
+        "多模型多 GPU 多云",
+        "开放生态",
+        "避免供应商锁定"
+      ],
+      "judgment": "对企业 IT 决策者来说，红帽的立场强化了“混合 AI 基础设施”趋势，企业应优先考虑可移植性而非绑定单一平台。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/aIP7uI00KLecpDYZBKXl",
       "importance": 2
     }
   ],
@@ -151,31 +220,36 @@
     {
       "person": "Simon Willison",
       "level": "L2",
-      "quote": "GPT-5.6 Sol 明显是 Fable/Mythos 类模型，Anthropic 因此再次延长了 Claude Fable 的可用时间。顶级模型的能力正在趋同。",
+      "quote": "GPT-5.6 Sol 明显是 Fable/Mythos 级别的模型，Anthropic 因此不得不再次延长 Fable 的可用日期。模型竞争已经进入白热化阶段。",
       "source": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "GPT-5.6 在真实生产环境中的性价比表现",
-      "reason": "Ploy 的迁移案例提供了真实数据，值得深入分析 GPT-5.6 对 AI 应用成本结构的影响。",
+      "topic": "AI 对科研探索广度的影响：效率提升 vs 创新窄化",
+      "reason": "最新研究揭示了 AI 可能让科研陷入局部最优，这对 AI 产品设计和科研政策有深远影响。",
       "priority": "high"
     },
     {
-      "topic": "AI 对科研创新多样性的影响",
-      "reason": "IEEE 研究揭示了 AI 可能导致的'创新同质化'问题，值得深入探讨如何平衡效率与多样性。",
+      "topic": "GPT-5.6 在企业 Agent 场景中的实际性能与成本分析",
+      "reason": "生产环境实测显示显著提升，值得深入分析其对企业 AI 应用落地的具体影响。",
+      "priority": "high"
+    },
+    {
+      "topic": "Google TabFM/TimesFM 对结构化数据 ML 的潜在变革",
+      "reason": "基础模型扩展到表格和时间序列数据，可能改变数据科学家的日常工作方式。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "GPT-5.6 性价比提升，模型趋同加速",
-  "summary_paragraph": "今日 AI 行业的核心信号是模型能力趋同与性价比提升。GPT-5.6 Sol 被证实与 Anthropic Fable 类模型高度相似，Anthropic 因此延长了 Fable 的可用时间，暗示顶级模型差距缩小。同时，生产级迁移案例显示 GPT-5.6 速度提升 2.2 倍、成本降低 27%，对 AI 应用落地是实质利好。但 IEEE 的研究也敲响警钟：AI 可能让科研探索范围变窄。中国方面，98 年哈工大教授创业做触觉世界模型、云豹智能冲刺 DPU 第一股，显示国内具身智能和 AI 基础设施仍在加速。",
+  "summary_one_line": "GPT-5.6 实测效率飙升，具身智能协作突破，AI 科研双刃剑效应显现",
+  "summary_paragraph": "今日 AI 行业呈现多线并进的态势。GPT-5.6 Sol 在生产环境中的实测数据令人振奋：速度提升 2.2 倍、成本降低 27%，直接推动了企业级 Agent 的落地可行性，也迫使 Anthropic 再次延长 Fable 的订阅期限。与此同时，清华团队展示了机器狗在无脚本任务中与人类动态协作的能力，标志着具身智能从指令执行向意图理解的跨越。然而，一项研究也给行业敲响警钟：AI 在提升科研效率的同时，可能窄化探索的广度。此外，Google 新发布的 TabFM/TimesFM 基础模型被迅速封装为 MCP 服务，预示着结构化数据 ML 的门槛将进一步降低。",
   "snapshot": {
     "date": "2026-07-13",
     "hf_trending": [
       {
         "name": "tencent/Hy3",
         "short_name": "Hy3",
-        "likes": 724,
+        "likes": 731,
         "downloads": 8655,
         "url": "https://huggingface.co/tencent/Hy3",
         "tags": [
@@ -191,7 +265,7 @@
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-        "likes": 2047,
+        "likes": 2051,
         "downloads": 1967677,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "tags": [
@@ -207,7 +281,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 3857,
+        "likes": 3862,
         "downloads": 441413,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -223,7 +297,7 @@
       {
         "name": "bottlecapai/ThinkingCap-Qwen3.6-27B",
         "short_name": "ThinkingCap-Qwen3.6-27B",
-        "likes": 266,
+        "likes": 269,
         "downloads": 4463,
         "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
         "tags": [
@@ -237,25 +311,9 @@
         "trend": "same"
       },
       {
-        "name": "InternScience/Agents-A1",
-        "short_name": "Agents-A1",
-        "likes": 510,
-        "downloads": 29038,
-        "url": "https://huggingface.co/InternScience/Agents-A1",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "conradlocke/krea2-identity-edit",
         "short_name": "krea2-identity-edit",
-        "likes": 213,
+        "likes": 218,
         "downloads": 0,
         "url": "https://huggingface.co/conradlocke/krea2-identity-edit",
         "tags": [
@@ -269,9 +327,25 @@
         "trend": "same"
       },
       {
+        "name": "InternScience/Agents-A1",
+        "short_name": "Agents-A1",
+        "likes": 511,
+        "downloads": 29038,
+        "url": "https://huggingface.co/InternScience/Agents-A1",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "froggeric/Qwen-Fixed-Chat-Templates",
         "short_name": "Qwen-Fixed-Chat-Templates",
-        "likes": 865,
+        "likes": 870,
         "downloads": 0,
         "url": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates",
         "tags": [
@@ -287,7 +361,7 @@
       {
         "name": "baidu/Unlimited-OCR",
         "short_name": "Unlimited-OCR",
-        "likes": 1943,
+        "likes": 1947,
         "downloads": 1430656,
         "url": "https://huggingface.co/baidu/Unlimited-OCR",
         "tags": [
@@ -305,45 +379,45 @@
       {
         "name": "Dicklesworthstone/destructive_command_guard",
         "desc": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being exec",
-        "stars": 2973,
+        "stars": 3202,
         "stars_today": 444,
-        "forks": 108,
+        "forks": 120,
         "language": "Rust",
         "url": "https://github.com/Dicklesworthstone/destructive_command_guard"
       },
       {
         "name": "wonderwhy-er/DesktopCommanderMCP",
         "desc": "This is MCP server for Claude that gives it terminal control, file system search and diff file editi",
-        "stars": 8007,
+        "stars": 8047,
         "stars_today": 210,
-        "forks": 985,
+        "forks": 991,
         "language": "TypeScript",
         "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
       },
       {
         "name": "HKUDS/Vibe-Trading",
         "desc": "\"Vibe-Trading: Your Personal Trading Agent\"",
-        "stars": 20617,
+        "stars": 20824,
         "stars_today": 768,
-        "forks": 3602,
+        "forks": 3627,
         "language": "Python",
         "url": "https://github.com/HKUDS/Vibe-Trading"
       },
       {
         "name": "PrefectHQ/prefect",
         "desc": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
-        "stars": 23164,
+        "stars": 23230,
         "stars_today": 66,
-        "forks": 2392,
+        "forks": 2399,
         "language": "Python",
         "url": "https://github.com/PrefectHQ/prefect"
       },
       {
         "name": "Shubhamsaboo/awesome-llm-apps",
         "desc": "100+ AI Agent &amp; RAG apps you can actually run — clone, customize, ship.",
-        "stars": 118620,
+        "stars": 118809,
         "stars_today": 408,
-        "forks": 17638,
+        "forks": 17660,
         "language": "Python",
         "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
       }
@@ -460,6 +534,6 @@
         "url": "https://openrouter.ai/stepfun/step-3.7-flash"
       }
     ],
-    "hf_summary": "开源多模态模型热度上升，文本生成仍是主流"
+    "hf_summary": "开源多模态模型热度反超文本生成"
   }
 }

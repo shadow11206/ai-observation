@@ -3,9 +3,9 @@
   "reports": [
     {
       "date": "2026-07-13",
-      "title": "今日 AI 日报：GPT-5.6 Sol 被证实为 Fable/Mythos 类模型，Anthropic 再次延长 Claude Fable 可用时间 + 3 条重要动态",
-      "excerpt": "这意味着顶级模型之间的能力差距正在缩小，OpenAI 和 Anthropic 的…",
-      "top_count": 4,
+      "title": "今日 AI 日报：GPT-5.6 Sol 发布后，开发者实测：Agent 速度提升 2.2 倍，成本降低 27% + 4 条重要动态",
+      "excerpt": "对 AI 应用开发者来说，GPT-5.6 的性价比提升意味着可以重新评估很多之前…",
+      "top_count": 5,
       "file": "2026-07-13.json"
     },
     {
