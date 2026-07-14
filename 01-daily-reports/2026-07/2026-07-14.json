@@ -3,271 +3,251 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "OpenAI Codex 用户量6个月增长超10倍达700万，逼近Claude Code",
-      "finding": "据Latent Space报道，OpenAI的AI编程工具Codex在6个月内用户量从约60万增长到700万，仅过去一天就新增100万用户。这一增速暗示Codex可能已经超越Claude Code成为最受欢迎的AI编程助手。",
+      "title": "OpenAI Codex 用户量6个月增长超10倍，达700万，或已超越Claude Code",
+      "finding": "Latent Space 报道称，OpenAI 的编程助手 Codex 在6个月内用户量从不到70万增长到700万，过去一天新增100万。这一增速暗示 Codex 可能已经超越 Claude Code 成为最受欢迎的 AI 编程工具。",
       "key_data": [
         "6个月增长10倍",
         "700万用户",
         "单日新增100万",
         "超越Claude Code"
       ],
-      "judgment": "AI编程工具进入爆发期，Codex的增速说明开发者对原生AI IDE的接受度远超预期。Cursor和Claude Code面临巨大压力，OpenAI的生态优势开始显现。",
+      "judgment": "AI编程工具市场格局正在快速变化，Codex 的爆发式增长说明 OpenAI 在开发者生态中占据优势。对于产品经理和开发者来说，这意味着需要重新评估工具选型，Codex 可能成为新的默认选择。",
       "confidence": 4,
       "source": "Latent Space",
       "url": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months"
     },
     {
       "rank": 2,
-      "title": "字节跳动探索自动驾驶，Seed世界模型团队负责",
-      "finding": "36氪独家报道，字节跳动正进入自动驾驶领域，由Seed旗下周畅的世界模型团队负责。业务方向包括无人物流，隶属于火山引擎汽车行业线。这意味着字节将世界模型技术直接应用于自动驾驶场景。",
+      "title": "Anthropic 最新AI发现：可解释性研究取得进展，但实际影响有限",
+      "finding": "MIT Technology Review 报道了 Anthropic 在 AI 可解释性方面的最新发现，但指出这些发现的实际意义有限。Anthropic 目前是全球估值最高的 AI 公司，其可解释性研究虽然科学价值高，但距离解决实际安全问题还有距离。",
       "key_data": [
-        "Seed世界模型团队",
-        "无人物流场景",
-        "火山引擎汽车线"
+        "Anthropic估值最高",
+        "可解释性新发现",
+        "实际影响有限"
       ],
-      "judgment": "字节跳动将世界模型能力与自动驾驶结合，这是国内大厂中少有的技术路线选择。如果成功，将验证世界模型在物理世界中的实用性，对具身智能和自动驾驶行业都有示范意义。",
-      "confidence": 4,
-      "source": "36氪",
-      "url": "https://36kr.com/p/3893815451417347"
-    },
-    {
-      "rank": 3,
-      "title": "苹果起诉OpenAI窃取商业机密，指控员工未经授权访问系统",
-      "finding": "苹果在针对OpenAI的商业机密诉讼中提出多项惊人指控，包括OpenAI员工开玩笑称未经授权访问苹果系统，以及要求应聘者携带苹果设备参加面试。这是两大AI巨头之间最严重的法律冲突。",
-      "key_data": [
-        "商业机密诉讼",
-        "员工未经授权访问",
-        "要求应聘者带苹果设备"
-      ],
-      "judgment": "这起诉讼可能改变AI行业的人才流动规则。如果苹果胜诉，将大幅增加OpenAI的招聘成本和法律风险，也可能引发更多类似诉讼，影响整个硅谷的人才竞争格局。",
-      "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/"
-    },
-    {
-      "rank": 4,
-      "title": "视频生成新锐PixVerse融资4.39亿美元，估值超20亿美元",
-      "finding": "视频生成AI公司PixVerse完成4.39亿美元融资，估值突破20亿美元。公司计划用这笔资金扩展世界模型能力并拓展全球市场。这是AI视频生成赛道今年最大的一笔融资之一。",
-      "key_data": [
-        "4.39亿美元融资",
-        "估值超20亿美元",
-        "扩展世界模型"
-      ],
-      "judgment": "AI视频生成赛道持续火热，PixVerse的高估值说明资本对世界模型+视频生成方向极度看好。但竞争已白热化，Runway、Pika、可灵等对手环伺，烧钱速度将决定谁能活到最后。",
-      "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/"
-    },
-    {
-      "rank": 5,
-      "title": "Anthropic最新AI发现引发争议：MIT评论其实际意义有限",
-      "finding": "MIT Technology Review发表评论文章，对Anthropic最新AI发现提出质疑，认为其实际意义被夸大。文章指出Anthropic的发现虽然技术上令人印象深刻，但距离实际应用还有很大距离。",
-      "key_data": [
-        "MIT评论",
-        "实际意义有限",
-        "距离应用有距离"
-      ],
-      "judgment": "Anthropic作为当前估值最高的AI公司，其研究成果受到严格审视。MIT的批评提醒行业：实验室里的突破与产品化之间还有巨大鸿沟，不要被PR稿冲昏头脑。",
+      "judgment": "Anthropic 的可解释性研究是重要的科学贡献，但短期内不会改变模型部署或安全实践。对于行业来说，这提醒我们可解释性研究仍处于早期阶段，不要过度期待其商业价值。",
       "confidence": 4,
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/"
+    },
+    {
+      "rank": 3,
+      "title": "视频生成赛道持续火热：爱诗科技完成29.8亿元C轮融资，PixVerse获4.39亿美元融资",
+      "finding": "中国视频生成公司爱诗科技完成29.8亿元人民币C轮融资，海外视频生成平台 PixVerse 获得4.39亿美元融资，估值超20亿美元。两家公司均表示将用于世界模型研发和全球化扩张。",
+      "key_data": [
+        "爱诗科技29.8亿元C轮",
+        "PixVerse 4.39亿美元",
+        "估值超20亿美元",
+        "世界模型研发"
+      ],
+      "judgment": "视频生成赛道正在经历资本狂欢，但竞争已从单纯的视频生成转向'世界模型'叙事。对于产品经理来说，这意味着视频生成产品将快速从'玩具'升级为'工具'，但泡沫风险也在积累。",
+      "confidence": 4,
+      "source": "量子位 / TechCrunch",
+      "url": "https://www.qbitai.com/2026/07/449836.html"
+    },
+    {
+      "rank": 4,
+      "title": "高德发布通用世界模型工坊ABot-World Studio：单卡可生成小时级实时交互视频与3D场景",
+      "finding": "高德地图发布 ABot-World Studio，声称单张 RTX 5090 显卡即可生成小时级的实时交互式视频和3D场景。这大幅降低了世界模型的门槛，让普通开发者也能构建虚拟环境。",
+      "key_data": [
+        "单卡5090运行",
+        "小时级实时交互",
+        "3D场景生成",
+        "通用世界模型"
+      ],
+      "judgment": "高德将世界模型从实验室带到开发者手中，这可能是'空间智能'平民化的关键一步。对于游戏、自动驾驶、机器人训练等领域，这意味着可以低成本生成大量训练数据。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/07/449568.html"
+    },
+    {
+      "rank": 5,
+      "title": "Satya Nadella 警告：AI 公司可能陷入'赢家通吃'的定价陷阱",
+      "finding": "微软 CEO Satya Nadella 发出警告，认为大型 AI 实验室（如 OpenAI、Anthropic）通过销售专有模型可能形成垄断，导致企业客户面临高昂成本。他呼吁行业保持开放竞争。",
+      "key_data": [
+        "赢家通吃风险",
+        "专有模型定价",
+        "开放竞争呼吁"
+      ],
+      "judgment": "Nadella 的警告既是行业洞察也是商业策略——微软在 Azure 上提供多种模型，不希望被单一供应商绑架。对于企业决策者来说，这意味着应该保持多模型策略，避免被锁定。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/"
     }
   ],
   "model_tech": [
     {
-      "source": "ArXiv",
-      "title": "HALO：语言模型的混合自适应潜在推理方法",
-      "finding": "提出一种新方法，在冻结的预训练语言模型上添加少量自适应计算，实现更高效的推理。通过混合潜在推理，在保持模型能力的同时大幅降低计算成本。",
+      "source": "Reddit r/MachineLearning",
+      "title": "Chain of Thought 是扩展陷阱，下一波是潜在推理（Coconut/HRM/RecursiveMAS）",
+      "finding": "一篇长文提出争议性观点：Chain of Thought 虽然有用，但人们混淆了可读的推理轨迹和实际计算。下一波推理方法（如 Coconut、HRM）将转向潜在空间推理，但会面临黑箱问题。",
       "key_data": [
-        "冻结预训练模型",
-        "自适应计算",
-        "降低推理成本"
+        "CoT是扩展陷阱",
+        "潜在推理",
+        "黑箱问题"
       ],
-      "judgment": "对部署场景有实际价值，特别是资源受限环境下的模型推理优化。",
+      "judgment": "如果潜在推理成为主流，将改变我们对模型可解释性的理解。开发者需要关注推理效率与可解释性之间的新权衡。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2607.08775",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uviru5/chain_of_thought_is_a_scaling_trap_the_next_wave/",
       "importance": 3
     },
     {
-      "source": "ArXiv",
-      "title": "GATS：基于图增强树搜索的分层世界模型Agent规划",
-      "finding": "提出GATS框架，结合图增强树搜索和分层世界模型，显著提升LLM Agent在多步规划任务中的效率和准确性。相比LATS和ReAct等方法有实质性改进。",
+      "source": "Reddit r/MachineLearning",
+      "title": "GPUHedge：通过对冲多个无服务器GPU提供商，将冷启动延迟从117秒降至30秒",
+      "finding": "开源工具 GPUHedge 通过同时向多个无服务器 GPU 提供商发送请求，将冷启动 p95 延迟从 117 秒降低到 30 秒。这对于需要快速响应的 AI 应用（如实时推理）意义重大。",
       "key_data": [
-        "图增强树搜索",
-        "分层世界模型",
-        "多步规划提升"
+        "冷启动延迟117s→30s",
+        "开源Apache-2.0",
+        "多提供商对冲"
       ],
-      "judgment": "Agent规划能力的关键突破，分层世界模型思路可能成为下一代Agent架构的标准组件。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2607.08894",
+      "judgment": "冷启动是 Serverless GPU 推理的主要痛点，这个方案实用且开源。对于部署 AI 应用的团队来说，这是一个可以直接采用的优化方案。",
+      "confidence": 4,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uvlb6h/gpuhedge_hedging_serverless_gpu_providers/",
       "importance": 3
     },
     {
-      "source": "ArXiv",
-      "title": "Sticky Routing：训练MoE模型实现内存高效推理",
-      "finding": "提出Sticky Routing方法，通过训练MoE模型使连续token倾向于路由到相同专家，减少推理时的专家切换开销，实现更高效的内存使用。",
+      "source": "ArXiv cs.AI",
+      "title": "格式敏感性指数：Token控制的提示包装器鲁棒性与模式合规性研究",
+      "finding": "研究发现，提示包装器（Prompt Wrapper）仅因格式差异就能改变模型得分，甚至翻转排行榜结论。论文提出了格式敏感性指数来量化这种影响。",
       "key_data": [
-        "减少专家切换",
-        "内存高效推理",
-        "MoE优化"
+        "格式改变翻转排行榜",
+        "格式敏感性指数",
+        "Token控制"
       ],
-      "judgment": "MoE模型部署的关键优化，对降低推理成本有直接帮助，可能被主流模型采用。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2607.08780",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv",
-      "title": "量化签名对称量化：面向少位整数的量化方法",
-      "finding": "提出签名对称量化方法，解决标准对称量化中正负表示范围不对称的问题，在极低位宽（如2-4位）下显著提升模型精度。",
-      "key_data": [
-        "签名对称量化",
-        "2-4位宽",
-        "提升精度"
-      ],
-      "judgment": "对端侧部署和模型压缩有实际价值，特别是需要极致量化的场景。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2607.08779",
+      "judgment": "这对 LLM 评测和产品化部署有实际意义：微小的提示格式变化可能导致模型表现大幅波动，评测结果需要谨慎解读。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2607.09665",
       "importance": 2
     },
     {
-      "source": "Reddit",
-      "title": "ICML接收论文：通过提示工程缓解LLM模式崩溃",
-      "finding": "一篇被ICML接收的论文提出简单提示工程技巧——在采样时改变提示中的措辞，即可显著缓解LLM的模式崩溃问题，提升输出多样性。",
+      "source": "ArXiv cs.AI",
+      "title": "潜在CoT推理作为动力系统的解释",
+      "finding": "论文指出，潜在推理方法（如 CODI、COCONUT）面临根本的可解释性问题：它们同时维护多个叠加的候选推理路径，难以理解模型实际在做什么。",
       "key_data": [
-        "ICML接收",
-        "提示工程技巧",
-        "缓解模式崩溃"
+        "潜在推理可解释性问题",
+        "叠加候选路径",
+        "动力系统视角"
       ],
-      "judgment": "简单有效的实用技巧，对需要多样化输出的应用场景（如创意写作、数据增强）有直接帮助。",
+      "judgment": "潜在推理虽然效率高，但可解释性差可能成为实际部署的障碍。对于安全敏感的应用，这需要额外的验证手段。",
       "confidence": 4,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uv1xb3/promptengineering_paper_accepted_to_icml_r/",
-      "importance": 3
+      "url": "https://arxiv.org/abs/2607.09698",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "Index-1.9B：B站开源小语言模型系列",
+      "finding": "B站发布 Index-1.9B 系列小语言模型，包含基础版、对话版、角色扮演版等四个变体。这是国内视频平台首次开源语言模型。",
+      "key_data": [
+        "1.9B参数",
+        "四个变体",
+        "B站开源"
+      ],
+      "judgment": "B站入局开源模型，说明小模型赛道竞争加剧。1.9B 参数适合端侧部署，可能用于视频内容理解等场景。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2607.09885",
+      "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "TechCrunch",
-      "title": "Nous Research正以15亿美元估值进行新一轮融资",
-      "finding": "Hermes Agent的开发商Nous Research正在洽谈新一轮融资，由Robot Ventures领投，USV等参投，至少融资7500万美元，估值达15亿美元。",
+      "source": "量子位",
+      "title": "逐际动力完成2亿美元Pre-IPO轮融资，投后估值150亿元",
+      "finding": "人形机器人公司逐际动力完成近2亿美元Pre-IPO轮融资，投后估值达150亿元人民币。公司创始人张巍表示，营收对赌不符合具身智能商业逻辑。",
       "key_data": [
-        "15亿美元估值",
-        "至少7500万美元融资",
-        "Robot Ventures领投"
+        "2亿美元Pre-IPO",
+        "估值150亿元",
+        "营收对赌争议"
       ],
-      "judgment": "开源Agent模型公司获得高估值，说明资本市场对Agent基础设施赛道持续看好。",
+      "judgment": "人形机器人赛道融资热度不减，但营收对赌争议说明行业仍处于早期。投资者需要接受更长的商业化周期。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3893976502287618?f=rss",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Nous Research 洽谈融资，估值15亿美元",
+      "finding": "Hermes Agent 的开发商 Nous Research 正在洽谈新一轮融资，至少7500万美元，由 Robot Ventures 领投，USV 等参与，估值约15亿美元。",
+      "key_data": [
+        "估值15亿美元",
+        "融资至少7500万",
+        "Hermes Agent"
+      ],
+      "judgment": "开源 Agent 团队获得高估值，说明市场对自主 Agent 的期待很高。但 Nous 的商业模式尚不清晰，需关注其商业化路径。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
       "importance": 3
     },
     {
-      "source": "36氪",
-      "title": "人形机器人公司逐际动力完成2亿美元Pre-IPO轮融资，估值达150亿元",
-      "finding": "通用人形机器人公司逐际动力完成近2亿美元Pre-IPO轮融资，投后估值150亿元人民币。IDG资本、蓝思科技等参投，资金将用于技术研发和量产。",
-      "key_data": [
-        "2亿美元Pre-IPO",
-        "估值150亿元",
-        "人形机器人量产"
-      ],
-      "judgment": "人形机器人赛道资本热度不减，逐际动力Pre-IPO估值说明投资者对商业化前景有信心。",
-      "confidence": 4,
-      "url": "https://36kr.com/p/3893976502287618",
-      "importance": 3
-    },
-    {
-      "source": "量子位",
-      "title": "Agent专用搜索工具登顶Product Hunt，中国团队出品",
-      "finding": "一款由中国团队开发的Agent专用搜索工具在Product Hunt上登顶，宣称比通用搜索更省Token、搜得更准，专为AI Agent设计。",
-      "key_data": [
-        "Product Hunt登顶",
-        "中国团队",
-        "省Token更准"
-      ],
-      "judgment": "Agent基础设施工具开始涌现，专用搜索是刚需，中国团队在这一细分领域有机会。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/07/449327.html",
-      "importance": 2
-    },
-    {
-      "source": "Ars Technica",
-      "title": "防御方也开始拥抱提示注入攻击",
-      "finding": "安全研究人员提出'上下文轰炸'技术，通过向AI Agent注入大量无害但耗时的上下文，使其在造成危害前自动关闭。这是一种新的防御思路。",
-      "key_data": [
-        "上下文轰炸",
-        "防御性提示注入",
-        "AI Agent安全"
-      ],
-      "judgment": "提示注入攻防进入新阶段，防御方开始主动利用注入技术，这对Agent安全设计有启发意义。",
-      "confidence": 4,
-      "url": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
-      "importance": 3
-    },
-    {
       "source": "Wired",
-      "title": "Siri AI成为苹果的全能工具",
-      "finding": "苹果重构后的Siri不再只是语音助手，而是成为iPhone用户体验的骨干。用户可通过iOS 27公测版体验，Siri现在可以跨应用执行复杂任务。",
+      "title": "Siri AI 成为苹果的万能工具",
+      "finding": "苹果的 Siri 经过重构后，不再只是语音助手，而是成为 iPhone 用户体验的支柱。用户可通过 iOS 27 公测版体验。",
       "key_data": [
-        "iOS 27公测版",
-        "跨应用任务",
-        "用户体验骨干"
+        "Siri成为iPhone支柱",
+        "iOS 27公测",
+        "语音助手升级"
       ],
-      "judgment": "苹果终于将AI深度整合进系统，Siri从'玩具'升级为'工具'，对用户习惯和开发者生态都将产生深远影响。",
+      "judgment": "苹果将 Siri 从'功能'升级为'平台'，这是 AI 融入操作系统的标志性事件。对于开发者来说，这意味着新的应用入口和交互范式。",
       "confidence": 4,
       "url": "https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/",
       "importance": 3
+    },
+    {
+      "source": "36氪",
+      "title": "大衍科技完成数千万元天使轮融资，用合成数据做触觉大模型",
+      "finding": "前博世自动驾驶算法工程师创立的大衍科技，完成数千万元天使轮融资。公司专注于触觉大模型研发，使用合成数据训练机器人触觉感知能力。",
+      "key_data": [
+        "数千万元天使轮",
+        "触觉大模型",
+        "合成数据训练"
+      ],
+      "judgment": "触觉是机器人感知的关键短板，合成数据方案可以降低数据采集成本。这是具身智能领域的重要技术方向。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3894821059918855?f=rss",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "Anthropic 的 Fable 5 访问权限再延一周，但'黑心账本'问题凸显",
+      "finding": "Anthropic 将 Fable 5 的访问权限再延长一周，但文章指出其定价和计费模式存在不透明问题，开发者对成本控制感到担忧。",
+      "key_data": [
+        "Fable 5延期一周",
+        "定价不透明",
+        "开发者成本担忧"
+      ],
+      "judgment": "Anthropic 的定价策略可能成为其企业市场拓展的障碍。对于采购决策者来说，需要仔细评估总拥有成本。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/eRwadJmvQIvuqaDZKBiz?utm_source=rss&utm_medium=article",
+      "importance": 2
     }
   ],
   "opinions": [
     {
       "person": "Satya Nadella",
       "level": "L3",
-      "quote": "微软CEO纳德拉对使用AI的公司发出惊人警告：最大的风险不是AI太强大，而是AI实验室可能垄断专有模型，导致企业失去对自身AI能力的控制。",
+      "quote": "大型AI实验室通过销售专有模型可能形成垄断，导致企业客户面临高昂成本。行业应保持开放竞争。",
       "source": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/"
-    },
-    {
-      "person": "Simon Willison",
-      "level": "L2",
-      "quote": "Simon Willison通过分析自己的GitHub提交频率图表，发现Opus 4.5级别的模型和AI编码Agent显著提升了他的产出效率，代码提交频率曲线出现明显上升。",
-      "source": "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "字节跳动Seed世界模型团队的技术路线与自动驾驶布局",
-      "reason": "字节将世界模型直接用于自动驾驶，这是国内少有的技术路线，值得深入研究其可行性。",
+      "topic": "AI编程工具市场格局变化：Codex vs Claude Code vs Cursor",
+      "reason": "Codex 用户量暴增10倍，可能改变开发者工具生态。值得深入分析各产品的差异化策略和用户选择逻辑。",
       "priority": "high"
     },
     {
-      "topic": "AI编程工具竞争格局：Codex vs Claude Code vs Cursor",
-      "reason": "Codex用户量暴增，AI编程工具市场格局正在重塑，值得深入分析各产品差异。",
+      "topic": "世界模型平民化：高德ABot-World Studio 的技术路径与应用前景",
+      "reason": "单卡生成小时级交互视频，大幅降低世界模型门槛。值得研究其技术实现和潜在应用场景。",
       "priority": "high"
     }
   ],
-  "summary_one_line": "AI编程工具爆发，字节进军自动驾驶",
-  "summary_paragraph": "今日AI行业多线并进：OpenAI Codex用户量6个月暴增10倍至700万，AI编程工具进入白热化竞争；字节跳动正式探索自动驾驶，由Seed世界模型团队负责，将世界模型能力直接应用于物理世界；苹果起诉OpenAI窃取商业机密，两大巨头法律冲突升级；视频生成赛道持续火热，PixVerse以超20亿美元估值融资4.39亿美元；同时，Anthropic的最新发现遭到MIT质疑，提醒行业不要过度解读实验室成果。",
+  "summary_one_line": "AI编程工具格局剧变，视频生成赛道资本狂欢",
+  "summary_paragraph": "今日AI行业呈现两大主线：AI编程工具市场迎来格局变化，OpenAI Codex 用户量6个月增长10倍至700万，可能已超越 Claude Code；视频生成赛道持续火热，爱诗科技和 PixVerse 分别获得数十亿元级融资，资本正加速涌入。同时，高德发布的世界模型工坊让单卡即可生成交互式3D场景，大幅降低了空间智能的门槛。微软 CEO Nadella 则发出警告，提醒企业警惕AI模型的'赢家通吃'风险。在技术前沿，关于 Chain of Thought 是否成为'扩展陷阱'的讨论引发关注，潜在推理方法可能成为下一波方向。",
   "snapshot": {
     "date": "2026-07-14",
     "hf_trending": [
       {
-        "name": "tencent/Hy3",
-        "short_name": "Hy3",
-        "likes": 755,
-        "downloads": 9157,
-        "url": "https://huggingface.co/tencent/Hy3",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "hy_v3"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-        "likes": 2084,
+        "likes": 2093,
         "downloads": 1985221,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "tags": [
@@ -281,9 +261,25 @@
         "trend": "same"
       },
       {
+        "name": "tencent/Hy3",
+        "short_name": "Hy3",
+        "likes": 756,
+        "downloads": 9157,
+        "url": "https://huggingface.co/tencent/Hy3",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "hy_v3"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 3901,
+        "likes": 3908,
         "downloads": 464914,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -299,7 +295,7 @@
       {
         "name": "bottlecapai/ThinkingCap-Qwen3.6-27B",
         "short_name": "ThinkingCap-Qwen3.6-27B",
-        "likes": 311,
+        "likes": 314,
         "downloads": 4909,
         "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
         "tags": [
@@ -315,7 +311,7 @@
       {
         "name": "conradlocke/krea2-identity-edit",
         "short_name": "krea2-identity-edit",
-        "likes": 256,
+        "likes": 264,
         "downloads": 0,
         "url": "https://huggingface.co/conradlocke/krea2-identity-edit",
         "tags": [
@@ -331,7 +327,7 @@
       {
         "name": "froggeric/Qwen-Fixed-Chat-Templates",
         "short_name": "Qwen-Fixed-Chat-Templates",
-        "likes": 888,
+        "likes": 890,
         "downloads": 0,
         "url": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates",
         "tags": [
@@ -347,7 +343,7 @@
       {
         "name": "InternScience/Agents-A1",
         "short_name": "Agents-A1",
-        "likes": 526,
+        "likes": 527,
         "downloads": 29801,
         "url": "https://huggingface.co/InternScience/Agents-A1",
         "tags": [
@@ -363,7 +359,7 @@
       {
         "name": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
         "short_name": "MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
-        "likes": 221,
+        "likes": 222,
         "downloads": 68714,
         "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
         "tags": [
@@ -381,45 +377,45 @@
       {
         "name": "OpenCut-app/OpenCut",
         "desc": "The open-source CapCut alternative",
-        "stars": 66602,
+        "stars": 67271,
         "stars_today": 1229,
-        "forks": 7006,
+        "forks": 7085,
         "language": "TypeScript",
         "url": "https://github.com/OpenCut-app/OpenCut"
       },
       {
         "name": "HKUDS/Vibe-Trading",
         "desc": "\"Vibe-Trading: Your Personal Trading Agent\"",
-        "stars": 21808,
+        "stars": 22036,
         "stars_today": 1153,
-        "forks": 3757,
+        "forks": 3813,
         "language": "Python",
         "url": "https://github.com/HKUDS/Vibe-Trading"
       },
       {
         "name": "moeru-ai/airi",
         "desc": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them",
-        "stars": 41914,
+        "stars": 42046,
         "stars_today": 78,
-        "forks": 4198,
+        "forks": 4226,
         "language": "TypeScript",
         "url": "https://github.com/moeru-ai/airi"
       },
       {
         "name": "Shubhamsaboo/awesome-llm-apps",
         "desc": "100+ AI Agent &amp; RAG apps you can actually run — clone, customize, ship.",
-        "stars": 119688,
+        "stars": 119896,
         "stars_today": 996,
-        "forks": 17747,
+        "forks": 17794,
         "language": "Python",
         "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
       },
       {
         "name": "Nutlope/hallmark",
         "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-        "stars": 5199,
+        "stars": 5377,
         "stars_today": 794,
-        "forks": 274,
+        "forks": 318,
         "language": "CSS",
         "url": "https://github.com/Nutlope/hallmark"
       }
@@ -507,7 +503,7 @@
         "slug": "deepseek/deepseek-v4-pro",
         "name": "DeepSeek V4 Pro",
         "org": "deepseek",
-        "total_tokens": 368615932346,
+        "total_tokens": 368616182047,
         "total_tokens_str": "369B",
         "api_calls": 0,
         "change": 40.8,
@@ -536,6 +532,6 @@
         "url": "https://openrouter.ai/anthropic/claude-4.6-sonnet"
       }
     ],
-    "hf_summary": "中国开源模型主导榜单 多模态与文本生成并重"
+    "hf_summary": "开源模型多模态成主流，文本生成依然活跃"
   }
 }
