@@ -1,6 +1,13 @@
 {
-  "total": 110,
+  "total": 111,
   "reports": [
+    {
+      "date": "2026-07-14",
+      "title": "今日 AI 日报：OpenAI Codex 用户量6个月增长超10倍达700万，逼近Claude Code + 4 条重要动态",
+      "excerpt": "AI编程工具进入爆发期，Codex的增速说明开发者对原生AI IDE的接受度远超…",
+      "top_count": 5,
+      "file": "2026-07-14.json"
+    },
     {
       "date": "2026-07-13",
       "title": "今日 AI 日报：GPT-5.6 Sol 发布后，开发者实测：Agent 速度提升 2.2 倍，成本降低 27% + 4 条重要动态",
