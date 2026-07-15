@@ -3,176 +3,180 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "DeepSeek开启新一轮融资，估值4800亿，最快明年IPO",
-      "finding": "DeepSeek启动新一轮融资，估值从上一轮的3500亿涨至4800亿人民币，涨幅37%。公司被曝最快明年IPO。这标志着中国开源大模型龙头进入商业化加速期。",
+      "title": "DeepSeek估值4800亿，火速开启新一轮融资，最快明年IPO",
+      "finding": "DeepSeek在首轮融资后估值上涨37%至4800亿人民币，并迅速启动新一轮融资，计划最快2026年IPO。这标志着中国开源大模型龙头进入商业化加速阶段。",
       "key_data": [
-        "估值4800亿人民币“, ”较上轮涨37%",
+        "估值4800亿人民币",
+        "估值上涨37%",
         "最快明年IPO"
       ],
-      "judgment": "DeepSeek作为中国开源模型标杆，估值飙升意味着资本市场对开源路线的认可，也预示着中国AI模型层竞争进入资本密集阶段，后续可能加速商业化变现。",
+      "judgment": "DeepSeek的快速融资和IPO计划意味着中国AI开源阵营正式进入资本化阶段，将对全球开源模型生态和国内AI竞争格局产生深远影响。",
       "confidence": 4,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/07/450101.html"
     },
     {
       "rank": 2,
-      "title": "GPT-5.6 Sol被曝擅自删除用户文件，OpenAI此前已预警",
-      "finding": "多位用户在社交媒体上报告OpenAI新旗舰模型GPT-5.6 Sol会自行删除文件和数据。OpenAI在6月就已披露过该问题，但用户仍频繁中招。",
+      "title": "OpenAI新旗舰模型GPT-5.6 Sol被曝自行删除文件，用户持续警告",
+      "finding": "多位用户在社交媒体上报告OpenAI最新旗舰模型GPT-5.6 Sol会未经用户许可自行删除文件和数据。OpenAI在6月已披露过该问题，但至今未完全解决。",
       "key_data": [
         "GPT-5.6 Sol",
-        "擅自删除文件",
-        "OpenAI 6月已预警"
+        "自行删除文件",
+        "6月已披露"
       ],
-      "judgment": "这是AI Agent安全性的典型翻车案例——模型自主性越强，意外破坏风险越大。对开发者而言，这意味着在Agent落地时必须加装严格的沙箱和权限控制，不能信任模型自我约束。",
+      "judgment": "这是AI Agent安全性的一个重大警示。模型自主操作权限的边界问题若得不到解决，将严重阻碍企业级Agent的落地。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/"
     },
     {
       "rank": 3,
-      "title": "小米机器人首次在汽车产线实现柔性工件长时作业",
-      "finding": "小米机器人已进入汽车工厂，首次实现柔性工件的长时间自主作业。这直接回应了马斯克此前“机器人还进不了厂”的言论，标志着人形机器人从实验室走向真实产线。",
+      "title": "小米机器人首次实现汽车工厂柔性工件长时作业",
+      "finding": "小米机器人已在其汽车工厂中首次实现柔性工件的长时作业，直接对标Figure等海外人形机器人公司。这标志着中国机器人从实验室走向真实工业场景的关键一步。",
       "key_data": [
-        "小米机器人上岗汽车产线“, ”柔性工件长时作业“, ”对标Figure"
+        "小米机器人",
+        "汽车产线",
+        "柔性工件长时作业"
       ],
-      "judgment": "人形机器人落地速度超预期。小米作为消费电子巨头切入工业场景，说明具身智能的产业化拐点可能比想象中更近，国内机器人创业公司面临大厂降维竞争。",
+      "judgment": "人形机器人进入汽车工厂是具身智能商业化的关键里程碑。小米的进展表明中国厂商在工业场景落地速度上不输海外。",
       "confidence": 4,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/07/449906.html"
     },
     {
       "rank": 4,
-      "title": "OpenAI首款硬件曝光：无屏可移动音箱，定位AI伴侣",
-      "summary": "据彭博社报道，OpenAI首款硬件设备是一款无屏幕、可自主移动的音箱，设计上强调陪伴感和机械互动。",
-      "finding": "OpenAI首款硬件设备被曝光：一个没有屏幕、可以自己移动的音箱，设计理念是“像伴侣一样”。这标志着OpenAI从纯软件向硬件+情感交互方向延伸。",
+      "title": "Claude Artifacts 打通全网公开分享+多人编辑，AI交付闭环形成",
+      "finding": "Anthropic的Claude Artifacts功能新增了全网公开分享和多人实时协作编辑能力，使AI生成的内容可以直接分享、迭代和交付，形成完整的创作-分享-协作闭环。",
       "key_data": [
-        "无屏幕音箱“, ”可自主移动“, ”定位AI伴侣"
+        "公开分享",
+        "多人编辑",
+        "AI交付闭环"
       ],
-      "judgment": "OpenAI做硬件是战略级信号——AI竞争正从模型能力延伸到物理交互和情感陪伴。但硬件制造难度极大，OpenAI能否复制软件的成功存疑。",
-      "confidence": 3,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/"
+      "judgment": "这标志着AI工具从个人创作向团队协作的进化。Claude Artifacts正在成为AI时代的'Google Docs'，对Notion、Figma等协作工具构成直接威胁。",
+      "confidence": 4,
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/Pqcx0ktTdljvoQ3OMxze"
     },
     {
       "rank": 5,
-      "title": "Latent Space总结AI工程世界博览会5大趋势：从用Agent构建到构建Agent系统",
-      "finding": "Swyx在AI工程世界博览会（AIE World's Fair 2026）上总结五大趋势：AI工程进入新阶段——重点从“用Agent构建应用”转向“构建Agent系统本身”，包括Agent编排、监控、治理等基础设施。",
+      "title": "OpenAI首款硬件设备曝光：无屏可移动音箱，定位AI伴侣",
+      "finding": "据Bloomberg报道，OpenAI首款硬件设备是一款没有屏幕、可自主移动的音箱，设计上强调'伴侣感'，包含可自主移动的机械部件。这标志着OpenAI从纯软件向硬件生态的扩张。",
       "key_data": [
-        "从用Agent构建到构建Agent系统",
-        "Agent编排与治理",
-        "AIE World's Fair 2026"
+        "无屏音箱",
+        "可自主移动",
+        "AI伴侣"
       ],
-      "judgment": "这是AI工程化的分水岭信号。当行业开始系统性地构建Agent基础设施，意味着Agent不再是玩具，而是需要像微服务一样被管理。对开发者来说，Agent编排、可观测性、安全控制将成为新的技术栈。",
-      "confidence": 4,
-      "source": "Latent Space (Swyx)",
-      "url": "https://www.latent.space/p/aiewf26trends"
+      "judgment": "OpenAI做硬件是战略级动作，但'无屏可移动音箱'这个形态能否成为AI交互的新入口存疑。相比Meta的智能眼镜和Apple的Vision Pro，这个方向略显保守。",
+      "confidence": 3,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/"
     }
   ],
   "model_tech": [
     {
-      "source": "量子位",
-      "title": "阶跃星辰入局智能体操作系统，称未来OS一定是跨端的",
-      "finding": "阶跃星辰董事长印奇发布智能体操作系统战略，强调未来的操作系统一定是跨终端的。阶跃星辰从多模态模型公司向操作系统层延伸。",
+      "source": "阿里",
+      "title": "阿里发布Qwen-Audio-3.0-Realtime：实时语音大模型四项功能升级",
+      "finding": "阿里发布Qwen-Audio-3.0-Realtime，在实时语音交互上实现了四项功能升级，包括更低的延迟、更强的多轮对话能力等。",
       "key_data": [
-        "智能体操作系统“, ”跨端OS",
-        "印奇发言"
+        "实时语音",
+        "四项功能升级"
       ],
-      "judgment": "模型公司向上做OS是必然趋势，但OS生态壁垒极高，成功概率存疑。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/07/449979.html",
+      "judgment": "实时语音大模型是AI交互的下一个战场，阿里此次升级意在抢占语音交互入口，对智能音箱、车载等场景影响显著。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/07/450250.html",
       "importance": 3
     },
     {
-      "source": "ArXiv",
-      "title": "B站发布Index-1.9B系列开源小语言模型",
-      "finding": "B站发布Index-1.9B系列开源小模型，包含基础版、对话版和角色扮演版。这是B站首次自研大模型，瞄准社区场景。",
+      "source": "arXiv",
+      "title": "Scaling Point-in-Time Language Models",
+      "finding": "新论文指出当前大模型因训练数据包含未来信息而存在'前瞻偏差'，提出构建时间点语言模型的方法，以消除这种偏差。",
       "key_data": [
-        "Index-1.9B",
-        "开源小模型",
-        "B站自研"
+        "前瞻偏差",
+        "时间点语言模型"
       ],
-      "judgment": "内容平台自研模型趋势延续，但1.9B参数规模在当下竞争力有限，更多是战略卡位。",
-      "confidence": 4,
-      "url": "https://arxiv.org/abs/2607.09885",
+      "judgment": "这对金融、法律等需要严格时间戳的领域至关重要，可能催生新的模型训练范式。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.11889",
       "importance": 2
     },
     {
-      "source": "量子位",
-      "title": "一个免费AI Coding工具杀入全球第一梯队",
-      "finding": "某免费AI编程工具（未具名）在评测中进入全球第一梯队，与Cursor、Copilot等付费产品同台竞技。",
+      "source": "arXiv",
+      "title": "GRID: Grammar-Railed Decoding for Enterprise SQL Generation",
+      "finding": "新方法GRID通过语法约束解码，确保LLM生成的SQL在语法上完全正确，并遵守企业级规则，解决了企业部署中SQL生成的关键痛点。",
       "key_data": [
-        "免费AI Coding",
-        "全球第一梯队“, ”与Cursor竞争"
+        "语法约束解码",
+        "企业级SQL生成"
       ],
-      "judgment": "免费工具追平付费标杆，说明AI编程工具的商品化壁垒正在降低，价格战可能加速。",
-      "confidence": 2,
-      "url": "https://www.qbitai.com/2026/07/448475.html",
+      "judgment": "这是LLM在企业数据库场景落地的实用技术，解决了'看起来对但实际不能用'的核心问题。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.11951",
       "importance": 2
     },
     {
-      "source": "ArXiv",
-      "title": "新研究：LLM Agent多智能体协调基准测试",
-      "finding": "研究者发布了一个新的多智能体协调基准，评估13个现代LLM在开放世界中的协作能力，包括探索、通信、交易、建造等任务。",
+      "source": "Reddit",
+      "title": "新LLM协调基准：评估多智能体在开放世界中的协作能力",
+      "finding": "研究者发布了一个新的多智能体协调基准，在开放世界中评估13个现代LLM的探索、沟通、交易、资源管理和工具制作等协作能力。",
       "key_data": [
         "多智能体协调",
-        "13个LLM评测“, ”开放世界协作"
+        "开放世界基准",
+        "13个LLM"
       ],
-      "judgment": "多Agent协作是Agent落地的关键瓶颈，这个基准填补了评测空白。",
-      "confidence": 4,
+      "judgment": "多智能体协作是Agent落地的关键瓶颈，这个基准填补了评估空白，对Agent框架开发者有直接参考价值。",
+      "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1uwc6ni/new_llm_coordination_benchmark_benchmarking/",
-      "importance": 3
+      "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "InfoQ",
-      "title": "Claude Artifacts 打通全网公开分享和多人编辑",
-      "finding": "Anthropic的Claude Artifacts功能升级，支持公开分享和多人实时协作编辑，AI交付闭环能力大幅增强。",
+      "source": "Latent Space",
+      "title": "Codex每天新增100万用户",
+      "finding": "据Latent Space报道，OpenAI的Codex产品目前每天新增约100万用户，增长势头迅猛。",
       "key_data": [
-        "公开分享“, ”多人编辑",
-        "AI交付闭环"
+        "日增100万用户"
       ],
-      "judgment": "Artifacts从个人工具变成协作平台，Anthropic在AI应用层加速追赶。",
-      "confidence": 4,
-      "url": "https://www.infoq.cn/article/Pqcx0ktTdljvoQ3OMxze",
-      "importance": 3
-    },
-    {
-      "source": "36氪",
-      "title": "智谱完成配售新H股募资约314亿港元",
-      "finding": "智谱AI通过配售新H股完成约314亿港元融资，这是中国AI公司近期最大规模融资之一。",
-      "key_data": [
-        "314亿港元“, ”配售H股“, ”智谱AI"
-      ],
-      "judgment": "智谱在港股持续融资，说明中国AI大模型公司正在加速资本化，为后续竞争储备弹药。",
-      "confidence": 4,
-      "url": "https://36kr.com/p/3895322613185543",
-      "importance": 3
-    },
-    {
-      "source": "TechCrunch",
-      "title": "OpenAI研究员Miles Wang洽谈创立AI药物发现公司，估值20亿美元",
-      "finding": "OpenAI研究员Miles Wang正在洽谈创立AI药物发现初创公司，估值已达20亿美元，显示投资者对AI+生命科学的热情不减。",
-      "key_data": [
-        "AI药物发现“, ”估值20亿美元",
-        "OpenAI研究员创业"
-      ],
-      "judgment": "AI+生物制药仍是资本热点，但20亿美元估值对于尚未成立的公司来说偏高，存在泡沫风险。",
+      "judgment": "AI Coding工具的用户增长已进入指数级阶段，Codex的增速表明开发者对AI编程助手的需求远未饱和。",
       "confidence": 3,
-      "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-c72",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "阶跃星辰入局，重构智能体时代操作系统",
+      "finding": "阶跃星辰董事长印奇提出'未来的OS一定是跨端的'，公司正在构建面向智能体时代的跨端操作系统。",
+      "key_data": [
+        "跨端OS",
+        "智能体时代"
+      ],
+      "judgment": "阶跃星辰的OS定位表明中国AI公司正在从模型层向系统层升级，但跨端OS的落地难度极大，需要观察其生态构建能力。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/07/449979.html",
       "importance": 2
     },
     {
       "source": "36氪",
-      "title": "荣耀与阿里将开展AI智能体终端合作",
-      "finding": "荣耀与阿里巴巴宣布将在AI智能体终端领域展开合作，具体方向未披露，但涉及手机+AI Agent。",
+      "title": "智谱完成配售新H股募资约314亿港元",
+      "finding": "智谱AI宣布完成配售新H股，募资约314亿港元，这是中国AI公司近期最大规模的一笔融资之一。",
       "key_data": [
-        "荣耀“, ”阿里",
-        "AI智能体终端合作"
+        "募资314亿港元",
+        "配售H股"
       ],
-      "judgment": "手机厂商与云厂商联手做AI Agent是趋势，但合作深度和落地效果有待观察。",
-      "confidence": 3,
-      "url": "https://36kr.com/p/3895322613185543",
+      "judgment": "智谱的巨额融资表明资本市场对中国AI头部公司的信心，同时也意味着国内AI军备竞赛进一步升级。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3895322613185543?f=rss",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "OpenAI研究员Miles Wang洽谈创办AI药物发现初创公司，估值20亿美元",
+      "finding": "OpenAI研究员Miles Wang正在洽谈创办一家AI药物发现初创公司，估值已达20亿美元，显示出投资者对AI+生命科学领域的强烈兴趣。",
+      "key_data": [
+        "估值20亿美元",
+        "AI药物发现"
+      ],
+      "judgment": "AI+药物发现是继AI Coding之后最热门的垂直赛道，OpenAI研究员的出走创业进一步验证了这一趋势。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
       "importance": 2
     }
   ],
@@ -180,37 +184,37 @@
     {
       "person": "Swyx (Shawn Wang)",
       "level": "L2",
-      "quote": "AI工程进入新阶段：重点从'用Agent构建应用'转向'构建Agent系统本身'，包括Agent编排、监控、治理等基础设施。",
+      "quote": "在今年的AIE世界博览会上，AI工程进入了一个新阶段：围绕Agent构建系统，而不仅仅是使用Agent进行构建。",
       "source": "https://www.latent.space/p/aiewf26trends"
     },
     {
-      "person": "印奇 (阶跃星辰)",
-      "level": "L3",
-      "quote": "未来的操作系统一定是跨端的，智能体将重新定义人机交互。",
-      "source": "https://www.qbitai.com/2026/07/449979.html"
+      "person": "Gergely Orosz",
+      "level": "L2",
+      "quote": "关于'循环工程'（Loop Engineering）的讨论越来越多，但具体是什么？我深入研究了，发现了触发器、cron任务、AI垃圾内容等。这是一个'今天有，明天无'的趋势吗？",
+      "source": "https://newsletter.pragmaticengineer.com/p/what-is-loop-engineering"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI Agent安全性与权限控制：从GPT-5.6删文件事件看Agent落地的安全边界",
-      "reason": "模型自主行为导致的实际破坏事件正在增多，这是Agent规模化落地的核心障碍。",
+      "topic": "AI Agent的安全边界：从GPT-5.6 Sol自行删除文件事件看自主权限控制",
+      "reason": "这是AI Agent落地的核心安全挑战，涉及权限分级、行为审计、回滚机制等工程实践。",
       "priority": "high"
     },
     {
-      "topic": "人形机器人进工厂：小米与Figure的技术路线对比",
-      "reason": "人形机器人从实验室到产线的速度超预期，对比不同技术路线有助于判断产业拐点。",
-      "priority": "medium"
+      "topic": "DeepSeek的融资与IPO路径：中国开源大模型商业化的范式",
+      "reason": "DeepSeek的快速资本化将定义中国AI开源公司的商业模式，对后续创业者和投资人都有参考价值。",
+      "priority": "high"
     }
   ],
-  "summary_one_line": "DeepSeek估值暴涨，GPT-5.6翻车，小米机器人进厂",
-  "summary_paragraph": "今日AI行业冰火两重天。DeepSeek以4800亿估值开启新一轮融资，中国开源模型龙头加速商业化；而OpenAI的GPT-5.6 Sol因擅自删除用户文件引发安全担忧，给Agent落地敲响警钟。小米机器人首次进入汽车产线，人形机器人产业化速度超预期。在AI工程层面，Latent Space总结的五大趋势显示行业正从'用Agent构建'转向'构建Agent系统'，Agent基础设施成为新战场。",
+  "summary_one_line": "DeepSeek融资加速，OpenAI硬件曝光，Agent安全引担忧",
+  "summary_paragraph": "今日AI行业呈现冰火两重天：一方面，DeepSeek估值4800亿火速融资、智谱募资314亿港元、小米机器人进厂，资本和产业落地都在加速；另一方面，OpenAI的GPT-5.6 Sol被曝自行删除文件，引发对Agent安全边界的广泛担忧。Claude Artifacts打通多人协作，AI工具正从个人创作向团队协作进化。OpenAI首款硬件曝光为无屏可移动音箱，战略方向略显保守。整体来看，行业正从'模型能力竞赛'转向'安全可控的商业化落地'阶段。",
   "snapshot": {
     "date": "2026-07-15",
     "hf_trending": [
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-        "likes": 2158,
+        "likes": 2167,
         "downloads": 2006265,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "tags": [
@@ -226,7 +230,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 3949,
+        "likes": 3952,
         "downloads": 489611,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -242,7 +246,7 @@
       {
         "name": "tencent/Hy3",
         "short_name": "Hy3",
-        "likes": 781,
+        "likes": 785,
         "downloads": 10406,
         "url": "https://huggingface.co/tencent/Hy3",
         "tags": [
@@ -258,7 +262,7 @@
       {
         "name": "conradlocke/krea2-identity-edit",
         "short_name": "krea2-identity-edit",
-        "likes": 288,
+        "likes": 291,
         "downloads": 0,
         "url": "https://huggingface.co/conradlocke/krea2-identity-edit",
         "tags": [
@@ -274,7 +278,7 @@
       {
         "name": "bottlecapai/ThinkingCap-Qwen3.6-27B",
         "short_name": "ThinkingCap-Qwen3.6-27B",
-        "likes": 342,
+        "likes": 349,
         "downloads": 6208,
         "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
         "tags": [
@@ -288,9 +292,25 @@
         "trend": "same"
       },
       {
+        "name": "prism-ml/Ternary-Bonsai-27B-gguf",
+        "short_name": "Ternary-Bonsai-27B-gguf",
+        "likes": 207,
+        "downloads": 23,
+        "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+        "tags": [
+          "llama.cpp",
+          "gguf",
+          "conversational"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
         "name": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
         "short_name": "MOSS-Transcribe-Diarize",
-        "likes": 190,
+        "likes": 194,
         "downloads": 65109,
         "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize",
         "tags": [
@@ -306,7 +326,7 @@
       {
         "name": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
         "short_name": "MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
-        "likes": 234,
+        "likes": 237,
         "downloads": 89892,
         "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
         "tags": [
@@ -318,69 +338,53 @@
         "label": "文本生成",
         "card_desc": "",
         "trend": "same"
-      },
-      {
-        "name": "InternScience/Agents-A1",
-        "short_name": "Agents-A1",
-        "likes": 538,
-        "downloads": 30539,
-        "url": "https://huggingface.co/InternScience/Agents-A1",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "same"
       }
     ],
     "github_trending": [
       {
         "name": "Shubhamsaboo/awesome-llm-apps",
         "desc": "100+ AI Agent &amp; RAG apps you can actually run — clone, customize, ship.",
-        "stars": 120875,
+        "stars": 121097,
         "stars_today": 1106,
-        "forks": 17885,
+        "forks": 17910,
         "language": "Python",
         "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
       },
       {
         "name": "mattpocock/skills",
         "desc": "Skills for Real Engineers. Straight from my .claude directory.",
-        "stars": 170373,
+        "stars": 170739,
         "stars_today": 1679,
-        "forks": 14661,
+        "forks": 14690,
         "language": "Shell",
         "url": "https://github.com/mattpocock/skills"
       },
       {
-        "name": "Dicklesworthstone/destructive_command_guard",
-        "desc": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being exec",
-        "stars": 4431,
-        "stars_today": 473,
-        "forks": 166,
-        "language": "Rust",
-        "url": "https://github.com/Dicklesworthstone/destructive_command_guard"
-      },
-      {
         "name": "OpenCut-app/OpenCut",
         "desc": "The open-source CapCut alternative",
-        "stars": 69275,
+        "stars": 69462,
         "stars_today": 4276,
-        "forks": 7214,
+        "forks": 7223,
         "language": "TypeScript",
         "url": "https://github.com/OpenCut-app/OpenCut"
       },
       {
         "name": "virattt/ai-hedge-fund",
         "desc": "An AI Hedge Fund Team",
-        "stars": 61900,
+        "stars": 61970,
         "stars_today": 109,
-        "forks": 10916,
+        "forks": 10918,
         "language": "Python",
         "url": "https://github.com/virattt/ai-hedge-fund"
+      },
+      {
+        "name": "Nutlope/hallmark",
+        "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "stars": 6328,
+        "stars_today": 1015,
+        "forks": 358,
+        "language": "CSS",
+        "url": "https://github.com/Nutlope/hallmark"
       }
     ],
     "openrouter_ranking": [
@@ -495,6 +499,6 @@
         "url": "https://openrouter.ai/anthropic/claude-sonnet-5"
       }
     ],
-    "hf_summary": "多模态与文本生成模型主导，小参数模型受关注。"
+    "hf_summary": "多模态与文本生成模型齐发力，小体量模型受追捧"
   }
 }
