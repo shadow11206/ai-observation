@@ -1,6 +1,13 @@
 {
-  "total": 111,
+  "total": 112,
   "reports": [
+    {
+      "date": "2026-07-15",
+      "title": "今日 AI 日报：DeepSeek开启新一轮融资，估值4800亿，最快明年IPO + 4 条重要动态",
+      "excerpt": "DeepSeek作为中国开源模型标杆，估值飙升意味着资本市场对开源路线的认可，也…",
+      "top_count": 5,
+      "file": "2026-07-15.json"
+    },
     {
       "date": "2026-07-14",
       "title": "今日 AI 日报：OpenAI Codex 用户量6个月增长超10倍，达700万，或已超越Claude Code + 4 条重要动态",
