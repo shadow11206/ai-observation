@@ -1,6 +1,13 @@
 {
-  "total": 113,
+  "total": 114,
   "reports": [
+    {
+      "date": "2026-07-17",
+      "title": "今日 AI 日报：Mira Murati 的 Thinking Machines Lab 发布首个开源模型 Inkling + 4 条重要动态",
+      "excerpt": "这是开源模型格局的重要变化。Mira Murati 团队从 OpenAI 带出的…",
+      "top_count": 5,
+      "file": "2026-07-17.json"
+    },
     {
       "date": "2026-07-16",
       "title": "今日 AI 日报：OpenAI发布GPT-Red：用AI超级黑客自我对抗提升模型安全性 + 4 条重要动态",
