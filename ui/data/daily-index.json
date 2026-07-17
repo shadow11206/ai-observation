@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-07-17",
-      "title": "今日 AI 日报：Mira Murati 的 Thinking Machines Lab 发布首个开源模型 Inkling + 4 条重要动态",
-      "excerpt": "这是开源模型格局的重要变化。Mira Murati 团队从 OpenAI 带出的…",
+      "title": "今日 AI 日报：Thinking Machines Lab 发布首个开源模型 Inkling：975B 参数 MoE，性能对标顶级闭源模型 + 4 条重要动态",
+      "excerpt": "这是开源模型生态的重大事件。Mira Murati 团队的首秀直接对标顶级闭源模…",
       "top_count": 5,
       "file": "2026-07-17.json"
     },
