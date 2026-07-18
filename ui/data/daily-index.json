@@ -1,6 +1,13 @@
 {
-  "total": 114,
+  "total": 115,
   "reports": [
+    {
+      "date": "2026-07-18",
+      "title": "今日 AI 日报：Databricks 估值飙升至 1880 亿美元，成为 AI 领域最受青睐的“第二曲线”公司 + 4 条重要动态",
+      "excerpt": "对 AI 行业来说，这是一个强烈信号：拥有高质量数据和成熟数据基础设施的公司，在…",
+      "top_count": 5,
+      "file": "2026-07-18.json"
+    },
     {
       "date": "2026-07-17",
       "title": "今日 AI 日报：Thinking Machines Lab 发布首个开源模型 Inkling：975B 参数 MoE，性能对标顶级闭源模型 + 4 条重要动态",

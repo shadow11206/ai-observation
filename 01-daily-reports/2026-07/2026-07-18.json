@@ -1,0 +1,542 @@
+{
+  "date": "2026-07-18",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Databricks 估值飙升至 1880 亿美元，成为 AI 领域最受青睐的“第二曲线”公司",
+      "finding": "Databricks 宣布新一轮融资，估值达到 1880 亿美元。这家原本做数据平台的公司，通过自研和整合开源模型，成功转型为 AI 公司，并发布了关于开源模型在编程任务上成本优势的研究。这标志着 AI 商业化路径从“卖模型”转向“卖数据+AI 平台”的模式得到资本市场认可。",
+      "key_data": [
+        "估值 1880 亿美元",
+        "AI 第二曲线",
+        "开源模型成本优势"
+      ],
+      "judgment": "对 AI 行业来说，这是一个强烈信号：拥有高质量数据和成熟数据基础设施的公司，在 AI 时代的价值可能超过纯模型公司。开发者应关注 Databricks 的 Mosaic AI 平台，它可能成为企业部署开源模型的首选。",
+      "confidence": 5,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/"
+    },
+    {
+      "rank": 2,
+      "title": "月之暗面正式开源 Kimi K3 模型，拒绝泄露系统提示词引发热议",
+      "finding": "月之暗面（Moonshot AI）正式开源了其最新模型 Kimi K3。有趣的是，当用户试图让它泄露系统提示词时，Kimi K3 会礼貌拒绝，并反问“有什么我能真正帮到你的吗？”。这一细节被 Simon Willison 捕捉并分享，反映了模型对齐技术的进步。",
+      "key_data": [
+        "Kimi K3 开源",
+        "拒绝泄露提示词",
+        "模型对齐新高度"
+      ],
+      "judgment": "Kimi K3 开源对国内开发者是重大利好，意味着又多了一个可本地部署的高质量长上下文模型。而它拒绝泄露提示词的能力，说明模型安全对齐已从“防越狱”进化到“防社会工程攻击”，这对企业级部署至关重要。",
+      "confidence": 5,
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything"
+    },
+    {
+      "rank": 3,
+      "title": "智谱 AI 年化经常性收入（ARR）达到 10 亿美元，半年增长 15 倍",
+      "finding": "智谱 AI 在 WAIC 2026 上宣布其 ARR 达到 10 亿美元，相比半年前增长了 15 倍。这一数字使其成为国内最快达到该里程碑的 AI 公司之一，证明了其 GLM 系列模型和 Agent 平台在企业市场的强劲需求。",
+      "key_data": [
+        "ARR 10 亿美元",
+        "半年增长 15 倍",
+        "企业市场验证"
+      ],
+      "judgment": "智谱的爆发式增长证明，在中国市场，开源模型+企业级服务的模式是可行的。对于国内 AI 创业者，这是一个重要的参考案例：与其在消费端烧钱，不如深耕企业客户，提供模型+Agent 平台的一体化解决方案。",
+      "confidence": 4,
+      "source": "36氪",
+      "url": "https://36kr.com/p/3900449325287305?f=rss"
+    },
+    {
+      "rank": 4,
+      "title": "OpenAI CFO 发布“AI 记分卡”，试图量化 AI 投资回报率",
+      "finding": "OpenAI 首席财务官 Sarah Friar 发布了一篇博客，提出一个名为“AI 记分卡”的框架，用于衡量 AI 的 ROI。该框架包含四个维度：有用工作量、每成功任务成本、可靠性、以及计算回报率。这标志着 OpenAI 从“卖能力”转向“卖价值”，开始帮助企业客户量化 AI 投入产出。",
+      "key_data": [
+        "AI 记分卡",
+        "量化 ROI",
+        "从能力到价值"
+      ],
+      "judgment": "这是 OpenAI 向企业市场示好的重要信号。过去企业采购 AI 最大的痛点就是“说不清 ROI”，OpenAI 主动提供量化框架，会加速企业预算从“实验性投入”转向“战略性投入”。对开发者来说，这意味着未来 API 定价可能会更紧密地与“任务完成度”挂钩。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/a-scorecard-for-the-ai-age"
+    },
+    {
+      "rank": 5,
+      "title": "WAIC 2026 开幕：阶跃星辰、蚂蚁集团等展示智能体进入物理世界",
+      "finding": "WAIC 2026 在上海开幕，主题为“智能伙伴，共创未来”。阶跃星辰董事长印奇发表演讲，强调智能体正从数字世界进入物理世界。蚂蚁集团展示了其三层 AI 布局，包括基座模型、智能体平台和行业应用。面壁智能开源了 StaffDeck，一个给 AI 发工号、定岗位、做绩效的数字员工管理平台。",
+      "key_data": [
+        "WAIC 2026 开幕",
+        "智能体进入物理世界",
+        "数字员工管理平台"
+      ],
+      "judgment": "WAIC 2026 的核心信号是：AI 行业共识已从“模型能力竞赛”转向“智能体落地”。面壁智能的 StaffDeck 尤其值得关注，它试图解决企业部署 AI Agent 时最头疼的“管理”问题——这可能是 AI 进入企业核心流程的关键一步。",
+      "confidence": 4,
+      "source": "36氪 / InfoQ",
+      "url": "https://36kr.com/p/3900439867147909?f=rss"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Hacker News",
+      "title": "开源 AI 现状报告发布",
+      "finding": "一份名为《The State of Open Source AI》的报告在 Hacker News 上引发热议，获得 371 分和 270 条评论。报告全面评估了开源 AI 生态的现状，包括模型、框架、数据集等。",
+      "key_data": [
+        "371 分 HN 热议",
+        "开源 AI 生态评估"
+      ],
+      "judgment": "开源 vs 闭源的争论从未停止，这份报告为开发者提供了决策参考。",
+      "confidence": 3,
+      "url": "https://stateofopensource.ai/",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "Prism 项目意外泄露论文，引发社区讨论",
+      "finding": "有用户发现 Prism 项目的编译结果中包含了其他人的论文，疑似代码或数据管理失误。Prism 团队迅速回应并修复。",
+      "key_data": [
+        "Prism 泄露",
+        "社区快速响应"
+      ],
+      "judgment": "开源项目的数据溯源和版权管理问题日益突出，需要更好的工具和流程。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uz75qt/prism_accidentally_leaked_d/",
+      "importance": 2
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "用户尝试在三星 S26 Ultra 上运行 Qwen 35B MoE 模型",
+      "finding": "有开发者尝试在三星 S26 Ultra 手机上运行一个私有的 Qwen 35B MoE 模型，初步测试显示模型可以适配设备内存，但未公开具体方法。",
+      "key_data": [
+        "Qwen 35B MoE",
+        "端侧运行",
+        "S26 Ultra"
+      ],
+      "judgment": "端侧大模型正在从 7B 向 35B 级别迈进，但 MoE 架构和量化技术是关键。",
+      "confidence": 2,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzik5s/tried_testing_qwen_35b_moe_model_on_s26_ultra/",
+      "importance": 2
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "NVIDIA 与 Hugging Face 合作，推出大规模视频和图像模型微调方案",
+      "finding": "NVIDIA 与 Hugging Face 联合发布基于 NeMo Automodel 和 Diffusers 的大规模视频/图像模型微调方案，旨在降低多模态模型微调的门槛。",
+      "key_data": [
+        "NVIDIA NeMo",
+        "大规模微调",
+        "视频/图像模型"
+      ],
+      "judgment": "多模态模型微调正在变得标准化和规模化，这是企业定制化 AI 的重要基础设施。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "HG-RAG：面向结构化知识图谱的分层检索增强生成",
+      "finding": "一篇新论文提出 HG-RAG 框架，通过层级引导的方式，让 RAG 系统更好地利用结构化知识图谱，提升 LLM 输出的质量和准确性。",
+      "key_data": [
+        "HG-RAG",
+        "结构化知识图谱",
+        "RAG 改进"
+      ],
+      "judgment": "RAG 正在从简单的向量检索进化到结构化知识融合，这是企业级 RAG 应用的关键方向。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.14095",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "InfoQ",
+      "title": "阶跃星辰发布全球首个智能体原生操作系统 Step AOS",
+      "finding": "阶跃星辰在 WAIC 2026 上发布了 Step AOS，号称是全球首个智能体原生操作系统。该系统旨在为智能体提供运行环境和管理框架。",
+      "key_data": [
+        "Step AOS",
+        "智能体原生操作系统"
+      ],
+      "judgment": "智能体 OS 的概念很新，但能否成为标准取决于生态建设。值得关注其后续开发者支持。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/62J9L28365BtFlSFxVjE?utm_source=rss&utm_medium=article",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "蚂蚁集团 WAIC 展示三层 AI 布局：从基座模型到行业应用",
+      "finding": "蚂蚁集团在 WAIC 上展示了其 AI 三层布局：底层是自研的百灵基座大模型，中间层是智能体平台，顶层是金融、医疗等垂直行业应用。",
+      "key_data": [
+        "百灵大模型",
+        "智能体平台",
+        "金融 AI"
+      ],
+      "judgment": "蚂蚁的布局显示，大厂 AI 战略已从“秀模型”转向“秀落地”，金融 AI 是竞争最激烈的战场。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/xtEyfZsTRA3FFW4dzCah?utm_source=rss&utm_medium=article",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "面壁智能开源 StaffDeck：给 AI 发工号、定岗位、做绩效",
+      "finding": "面壁智能在 WAIC 上开源了 StaffDeck 平台，该平台允许企业为 AI Agent 分配工号、定义岗位职责、并进行绩效考核，试图解决 AI 员工的管理问题。",
+      "key_data": [
+        "StaffDeck 开源",
+        "AI 员工管理",
+        "绩效考核"
+      ],
+      "judgment": "这是 AI 进入企业核心流程的关键一步——当 AI 从工具变成“同事”，管理工具就成了刚需。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/07/453245.html",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "PPIO 发布智能模型网关，打造面向 Agent 时代的 Token 工厂",
+      "finding": "PPIO 在 WAIC 上发布了智能模型网关，旨在为 Agent 应用提供统一的 Token 管理和调度能力，号称已通过万亿 Token 调用量验证。",
+      "key_data": [
+        "智能模型网关",
+        "万亿 Token 验证",
+        "Agent 时代"
+      ],
+      "judgment": "随着 Agent 应用爆发，Token 管理将成为基础设施级问题，PPIO 切入了一个好赛道。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/07/453467.html",
+      "importance": 2
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Agility Robotics 在特斯拉后院开设机器人训练中心",
+      "finding": "人形机器人公司 Agility Robotics 在加州弗里蒙特（特斯拉总部所在地）开设了一个新的训练中心，用于其 Digit 机器人的部署和培训。",
+      "key_data": [
+        "Agility Robotics",
+        "弗里蒙特训练中心",
+        "Digit 机器人"
+      ],
+      "judgment": "人形机器人竞争白热化，Agility 直接在家门口挑战特斯拉 Optimus，表明行业已进入“抢地盘”阶段。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
+      "importance": 3
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Sarah Friar",
+      "level": "L3",
+      "quote": "我们提出了一个实用的 AI 记分卡，通过有用工作量、每成功任务成本、可靠性和计算回报率四个维度来衡量 AI 的 ROI。",
+      "source": "https://openai.com/index/a-scorecard-for-the-ai-age"
+    },
+    {
+      "person": "印奇",
+      "level": "L1",
+      "quote": "AI 创业已从小众赛道成为全球重要共识。今天的 AI 研究者和创业者既站在几代科学家持续探索的巨人肩膀上，也站在一个前所未有的产业爆发节点上。",
+      "source": "https://36kr.com/p/3900439867147909?f=rss"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI 记分卡：企业如何量化 AI 投资回报率",
+      "reason": "OpenAI 首次提出量化框架，可能改变企业采购 AI 的决策逻辑，值得深入研究其方法论和潜在影响。",
+      "priority": "high"
+    },
+    {
+      "topic": "智能体原生操作系统：Step AOS 的技术架构与生态前景",
+      "reason": "阶跃星辰提出的新概念，可能成为 Agent 时代的基础设施，需要评估其技术可行性和生态潜力。",
+      "priority": "medium"
+    },
+    {
+      "topic": "开源 AI 现状报告深度解读",
+      "reason": "Hacker News 热议的报告，全面评估了开源 AI 生态，对开发者选择技术路线有重要参考价值。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "WAIC 开幕，Kimi K3 开源，Databricks 估值 1880 亿",
+  "summary_paragraph": "今日 AI 行业迎来多个重磅消息。WAIC 2026 在上海开幕，阶跃星辰、蚂蚁集团、面壁智能等纷纷展示智能体落地新进展，其中面壁智能开源的 StaffDeck 试图解决 AI 员工管理这一全新问题。模型层面，月之暗面正式开源 Kimi K3，其拒绝泄露系统提示词的能力展示了模型对齐技术的新高度。商业层面，Databricks 估值飙升至 1880 亿美元，智谱 AI 的 ARR 半年增长 15 倍达到 10 亿美元，证明企业级 AI 市场正在爆发。OpenAI 则首次发布 AI 记分卡，试图帮助企业量化 AI 投资回报。整体来看，行业焦点已从模型能力竞赛转向智能体落地和商业化验证。",
+  "snapshot": {
+    "date": "2026-07-18",
+    "hf_trending": [
+      {
+        "name": "thinkingmachines/Inkling",
+        "short_name": "Inkling",
+        "likes": 958,
+        "downloads": 7870,
+        "url": "https://huggingface.co/thinkingmachines/Inkling",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "inkling_mm_model"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "prism-ml/Ternary-Bonsai-27B-gguf",
+        "short_name": "Ternary-Bonsai-27B-gguf",
+        "likes": 680,
+        "downloads": 200774,
+        "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+        "tags": [
+          "llama.cpp",
+          "gguf",
+          "conversational"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "prism-ml/Bonsai-27B-gguf",
+        "short_name": "Bonsai-27B-gguf",
+        "likes": 396,
+        "downloads": 1045182,
+        "url": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
+        "tags": [
+          "llama.cpp",
+          "gguf",
+          "conversational"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "likes": 2274,
+        "downloads": 2096147,
+        "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "tags": [
+          "gguf",
+          "llama.cpp",
+          "quantized"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "zai-org/GLM-5.2",
+        "short_name": "GLM-5.2",
+        "likes": 4071,
+        "downloads": 534698,
+        "url": "https://huggingface.co/zai-org/GLM-5.2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "bottlecapai/ThinkingCap-Qwen3.6-27B",
+        "short_name": "ThinkingCap-Qwen3.6-27B",
+        "likes": 413,
+        "downloads": 9383,
+        "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "conradlocke/krea2-identity-edit",
+        "short_name": "krea2-identity-edit",
+        "likes": 346,
+        "downloads": 0,
+        "url": "https://huggingface.co/conradlocke/krea2-identity-edit",
+        "tags": [
+          "image-editing",
+          "lora",
+          "comfyui"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "short_name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "likes": 2828,
+        "downloads": 2295313,
+        "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "tags": [
+          "gguf",
+          "uncensored",
+          "qwen3.6"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "codecrafters-io/build-your-own-x",
+        "desc": "Master programming by recreating your favorite technologies from scratch.",
+        "stars": 527416,
+        "stars_today": 1068,
+        "forks": 49908,
+        "language": "Markdown",
+        "url": "https://github.com/codecrafters-io/build-your-own-x"
+      },
+      {
+        "name": "PostHog/posthog",
+        "desc": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI obser",
+        "stars": 36204,
+        "stars_today": 438,
+        "forks": 3010,
+        "language": "Python",
+        "url": "https://github.com/PostHog/posthog"
+      },
+      {
+        "name": "HenryNdubuaku/maths-cs-ai-compendium",
+        "desc": "Become a cracked AI/ML Research Engineer",
+        "stars": 6636,
+        "stars_today": 200,
+        "forks": 811,
+        "language": "TypeScript",
+        "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium"
+      },
+      {
+        "name": "Nutlope/hallmark",
+        "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "stars": 12074,
+        "stars_today": 1485,
+        "forks": 604,
+        "language": "CSS",
+        "url": "https://github.com/Nutlope/hallmark"
+      },
+      {
+        "name": "github/copilot-sdk",
+        "desc": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+        "stars": 9801,
+        "stars_today": 233,
+        "forks": 1331,
+        "language": "Java",
+        "url": "https://github.com/github/copilot-sdk"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "tencent/hy3-20260706:free",
+        "name": "Hy3 20260706:free",
+        "org": "tencent",
+        "total_tokens": 1859956151208,
+        "total_tokens_str": "1.9T",
+        "api_calls": 0,
+        "change": 6.6,
+        "url": "https://openrouter.ai/tencent/hy3-20260706:free"
+      },
+      {
+        "rank": 2,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 1402120049354,
+        "total_tokens_str": "1.4T",
+        "api_calls": 0,
+        "change": 1.1,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 3,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "org": "deepseek",
+        "total_tokens": 804551330089,
+        "total_tokens_str": "805B",
+        "api_calls": 0,
+        "change": 3.5,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "minimax/minimax-m3",
+        "name": "MiniMax M3",
+        "org": "minimax",
+        "total_tokens": 568063677746,
+        "total_tokens_str": "568B",
+        "api_calls": 0,
+        "change": 0.7,
+        "url": "https://openrouter.ai/minimax/minimax-m3"
+      },
+      {
+        "rank": 5,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
+        "org": "deepseek",
+        "total_tokens": 448410074535,
+        "total_tokens_str": "448B",
+        "api_calls": 0,
+        "change": 14.3,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 6,
+        "slug": "z-ai/glm-5.2",
+        "name": "GLM 5.2",
+        "org": "z-ai",
+        "total_tokens": 429786560987,
+        "total_tokens_str": "430B",
+        "api_calls": 0,
+        "change": -31.1,
+        "url": "https://openrouter.ai/z-ai/glm-5.2"
+      },
+      {
+        "rank": 7,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604:free",
+        "name": "Nemotron 3 Ultra 550b A55b 20260604:free",
+        "org": "nvidia",
+        "total_tokens": 425886836305,
+        "total_tokens_str": "426B",
+        "api_calls": 0,
+        "change": -3.5,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604:free"
+      },
+      {
+        "rank": 8,
+        "slug": "anthropic/claude-4.7-opus",
+        "name": "Claude 4.7 Opus",
+        "org": "anthropic",
+        "total_tokens": 370432830396,
+        "total_tokens_str": "370B",
+        "api_calls": 0,
+        "change": -5.0,
+        "url": "https://openrouter.ai/anthropic/claude-4.7-opus"
+      },
+      {
+        "rank": 9,
+        "slug": "anthropic/claude-4.8-opus",
+        "name": "Claude 4.8 Opus",
+        "org": "anthropic",
+        "total_tokens": 323147598061,
+        "total_tokens_str": "323B",
+        "api_calls": 0,
+        "change": -2.8,
+        "url": "https://openrouter.ai/anthropic/claude-4.8-opus"
+      },
+      {
+        "rank": 10,
+        "slug": "anthropic/claude-sonnet-5",
+        "name": "Claude Sonnet 5",
+        "org": "anthropic",
+        "total_tokens": 221681726900,
+        "total_tokens_str": "222B",
+        "api_calls": 0,
+        "change": 37.0,
+        "url": "https://openrouter.ai/anthropic/claude-sonnet-5"
+      }
+    ],
+    "hf_summary": "多模态模型热度飙升，文本生成竞争激烈"
+  }
+}
