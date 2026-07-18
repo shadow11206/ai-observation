@@ -3,256 +3,232 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Databricks 估值飙升至 1880 亿美元，成为 AI 领域最受青睐的“第二曲线”公司",
-      "finding": "Databricks 宣布新一轮融资，估值达到 1880 亿美元。这家原本做数据平台的公司，通过自研和整合开源模型，成功转型为 AI 公司，并发布了关于开源模型在编程任务上成本优势的研究。这标志着 AI 商业化路径从“卖模型”转向“卖数据+AI 平台”的模式得到资本市场认可。",
+      "title": "Databricks 估值达到 1880 亿美元，成为 AI 领域最受青睐的“第二曲线”公司",
+      "finding": "Databricks 宣布其估值达到 1880 亿美元，并发布了关于开源权重 AI 模型在编程中节省成本的研究。这家原本做数据平台的公司，通过转型 AI 实现了惊人的估值增长。",
       "key_data": [
         "估值 1880 亿美元",
-        "AI 第二曲线",
-        "开源模型成本优势"
+        "AI 转型成功",
+        "开源模型成本研究"
       ],
-      "judgment": "对 AI 行业来说，这是一个强烈信号：拥有高质量数据和成熟数据基础设施的公司，在 AI 时代的价值可能超过纯模型公司。开发者应关注 Databricks 的 Mosaic AI 平台，它可能成为企业部署开源模型的首选。",
+      "judgment": "这意味着 AI 基础设施层的价值正在被重估。Databricks 证明了数据平台+AI 的组合是当前最被资本市场认可的模式，对 Snowflake 等同类公司形成巨大压力，也预示着企业级 AI 部署将更依赖数据中台。",
       "confidence": 5,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/"
     },
     {
       "rank": 2,
-      "title": "月之暗面正式开源 Kimi K3 模型，拒绝泄露系统提示词引发热议",
-      "finding": "月之暗面（Moonshot AI）正式开源了其最新模型 Kimi K3。有趣的是，当用户试图让它泄露系统提示词时，Kimi K3 会礼貌拒绝，并反问“有什么我能真正帮到你的吗？”。这一细节被 Simon Willison 捕捉并分享，反映了模型对齐技术的进步。",
+      "title": "月之暗面正式开源 Kimi K3 模型",
+      "finding": "月之暗面（Moonshot AI）正式推出并开源了其最新模型 Kimi K3。该模型在拒绝泄露系统提示词时表现出有趣的个性，引发了社区讨论。",
       "key_data": [
         "Kimi K3 开源",
-        "拒绝泄露提示词",
-        "模型对齐新高度"
+        "模型个性突出",
+        "拒绝泄露系统提示"
       ],
-      "judgment": "Kimi K3 开源对国内开发者是重大利好，意味着又多了一个可本地部署的高质量长上下文模型。而它拒绝泄露提示词的能力，说明模型安全对齐已从“防越狱”进化到“防社会工程攻击”，这对企业级部署至关重要。",
+      "judgment": "Kimi K3 开源是国产大模型的重要一步。月之暗面从闭源转向开源，意味着他们希望通过社区生态来加速模型迭代和应用落地。对开发者来说，多了一个可本地部署的优质中文模型选择。",
       "confidence": 5,
-      "source": "Simon Willison",
+      "source": "Simon Willison / 36氪",
       "url": "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything"
     },
     {
       "rank": 3,
       "title": "智谱 AI 年化经常性收入（ARR）达到 10 亿美元，半年增长 15 倍",
-      "finding": "智谱 AI 在 WAIC 2026 上宣布其 ARR 达到 10 亿美元，相比半年前增长了 15 倍。这一数字使其成为国内最快达到该里程碑的 AI 公司之一，证明了其 GLM 系列模型和 Agent 平台在企业市场的强劲需求。",
+      "finding": "智谱 AI 宣布其 ARR 达到 10 亿美元，仅用半年时间就实现了 15 倍的增长。这标志着国产大模型厂商在商业化上取得了里程碑式的突破。",
       "key_data": [
         "ARR 10 亿美元",
         "半年增长 15 倍",
-        "企业市场验证"
+        "国产大模型商业化里程碑"
       ],
-      "judgment": "智谱的爆发式增长证明，在中国市场，开源模型+企业级服务的模式是可行的。对于国内 AI 创业者，这是一个重要的参考案例：与其在消费端烧钱，不如深耕企业客户，提供模型+Agent 平台的一体化解决方案。",
+      "judgment": "智谱的 ARR 数据是国产大模型行业最积极的信号之一。它证明了中国市场对基础大模型有真实且强劲的付费需求，将提振整个行业的信心，并可能引发新一轮的资本投入和价格战。",
       "confidence": 4,
       "source": "36氪",
       "url": "https://36kr.com/p/3900449325287305?f=rss"
     },
     {
       "rank": 4,
-      "title": "OpenAI CFO 发布“AI 记分卡”，试图量化 AI 投资回报率",
-      "finding": "OpenAI 首席财务官 Sarah Friar 发布了一篇博客，提出一个名为“AI 记分卡”的框架，用于衡量 AI 的 ROI。该框架包含四个维度：有用工作量、每成功任务成本、可靠性、以及计算回报率。这标志着 OpenAI 从“卖能力”转向“卖价值”，开始帮助企业客户量化 AI 投入产出。",
+      "title": "OpenAI 发布“AI 时代记分卡”，衡量 AI 投资回报率",
+      "finding": "OpenAI 的 CFO Sarah Friar 发布了一个实用框架，通过“有用工作量”、“每次成功任务的成本”、“可靠性”和“计算回报”四个指标来评估 AI 的投资回报率。",
       "key_data": [
-        "AI 记分卡",
-        "量化 ROI",
-        "从能力到价值"
+        "有用工作量",
+        "每次成功任务的成本",
+        "可靠性",
+        "计算回报"
       ],
-      "judgment": "这是 OpenAI 向企业市场示好的重要信号。过去企业采购 AI 最大的痛点就是“说不清 ROI”，OpenAI 主动提供量化框架，会加速企业预算从“实验性投入”转向“战略性投入”。对开发者来说，这意味着未来 API 定价可能会更紧密地与“任务完成度”挂钩。",
+      "judgment": "这是一个重要的信号：OpenAI 开始从“秀肌肉”转向帮企业“算账”。这意味着 AI 行业正从技术驱动进入价值驱动阶段，企业采购 AI 将越来越看重可量化的 ROI，这对所有 AI 供应商都提出了更高要求。",
       "confidence": 5,
       "source": "OpenAI Blog",
       "url": "https://openai.com/index/a-scorecard-for-the-ai-age"
     },
     {
       "rank": 5,
-      "title": "WAIC 2026 开幕：阶跃星辰、蚂蚁集团等展示智能体进入物理世界",
-      "finding": "WAIC 2026 在上海开幕，主题为“智能伙伴，共创未来”。阶跃星辰董事长印奇发表演讲，强调智能体正从数字世界进入物理世界。蚂蚁集团展示了其三层 AI 布局，包括基座模型、智能体平台和行业应用。面壁智能开源了 StaffDeck，一个给 AI 发工号、定岗位、做绩效的数字员工管理平台。",
+      "title": "WAIC 2026 开幕：阶跃星辰董事长印奇谈智能体进入物理世界",
+      "finding": "2026 世界人工智能大会（WAIC）在上海开幕。阶跃星辰董事长印奇在主论坛发表演讲，认为 AI 创业已从小众赛道成为全球共识，智能体正从数字世界走向物理世界。",
       "key_data": [
         "WAIC 2026 开幕",
         "智能体进入物理世界",
-        "数字员工管理平台"
+        "AI 创业成全球共识"
       ],
-      "judgment": "WAIC 2026 的核心信号是：AI 行业共识已从“模型能力竞赛”转向“智能体落地”。面壁智能的 StaffDeck 尤其值得关注，它试图解决企业部署 AI Agent 时最头疼的“管理”问题——这可能是 AI 进入企业核心流程的关键一步。",
+      "judgment": "WAIC 的开幕和印奇的演讲，再次确认了“具身智能”和“AI Agent”是 2026 年的绝对主旋律。对于从业者而言，这意味着下一波机会不在纯软件，而在软件与硬件的结合、数字与物理的交互。",
       "confidence": 4,
-      "source": "36氪 / InfoQ",
+      "source": "36氪",
       "url": "https://36kr.com/p/3900439867147909?f=rss"
     }
   ],
   "model_tech": [
     {
+      "source": "量子位",
+      "title": "清华系团队发布国产 Token 优化工厂：兼容 10 余种国产芯片，日吞吐千亿 Token",
+      "finding": "清华系团队发布了一个 Token 优化平台，能兼容超过 10 种国产芯片，实现每天处理千亿 Token 的吞吐量。这旨在让每一份算力都变成有效 Token。",
+      "key_data": [
+        "兼容 10 余种国产芯片",
+        "日吞吐千亿 Token",
+        "国产算力优化"
+      ],
+      "judgment": "这是国产 AI 基础设施自主可控的重要进展。解决了国产芯片生态碎片化的问题，对依赖国产算力的企业和开发者是重大利好。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/07/453617.html",
+      "importance": 4
+    },
+    {
       "source": "Hacker News",
       "title": "开源 AI 现状报告发布",
-      "finding": "一份名为《The State of Open Source AI》的报告在 Hacker News 上引发热议，获得 371 分和 270 条评论。报告全面评估了开源 AI 生态的现状，包括模型、框架、数据集等。",
+      "finding": "一份关于开源 AI 现状的综合报告发布，获得了 399 个点赞和 293 条评论，引发了社区对开源模型与闭源模型未来走向的激烈讨论。",
       "key_data": [
-        "371 分 HN 热议",
-        "开源 AI 生态评估"
+        "399 点赞",
+        "293 评论",
+        "开源 vs 闭源"
       ],
-      "judgment": "开源 vs 闭源的争论从未停止，这份报告为开发者提供了决策参考。",
+      "judgment": "这份报告的高热度说明开源 AI 仍是社区最关心的话题之一。它可能揭示了开源模型在追赶闭源模型过程中的最新进展和挑战。",
       "confidence": 3,
       "url": "https://stateofopensource.ai/",
       "importance": 3
     },
     {
       "source": "Reddit r/MachineLearning",
-      "title": "Prism 项目意外泄露论文，引发社区讨论",
-      "finding": "有用户发现 Prism 项目的编译结果中包含了其他人的论文，疑似代码或数据管理失误。Prism 团队迅速回应并修复。",
+      "title": "Prism 意外泄露用户论文",
+      "finding": "AI 论文写作工具 Prism 被曝出严重事故：用户在编译时，系统返回了其他人的论文。Prism 团队已迅速回应并修复。",
       "key_data": [
-        "Prism 泄露",
-        "社区快速响应"
+        "Prism 泄露用户论文",
+        "数据隔离事故",
+        "AI 工具安全风险"
       ],
-      "judgment": "开源项目的数据溯源和版权管理问题日益突出，需要更好的工具和流程。",
+      "judgment": "这是对 AI 工具数据安全的一次警示。对于使用 AI 写作工具的开发者来说，必须警惕数据泄露风险，尤其是在处理未公开的研究成果时。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1uz75qt/prism_accidentally_leaked_d/",
-      "importance": 2
-    },
-    {
-      "source": "Reddit r/MachineLearning",
-      "title": "用户尝试在三星 S26 Ultra 上运行 Qwen 35B MoE 模型",
-      "finding": "有开发者尝试在三星 S26 Ultra 手机上运行一个私有的 Qwen 35B MoE 模型，初步测试显示模型可以适配设备内存，但未公开具体方法。",
-      "key_data": [
-        "Qwen 35B MoE",
-        "端侧运行",
-        "S26 Ultra"
-      ],
-      "judgment": "端侧大模型正在从 7B 向 35B 级别迈进，但 MoE 架构和量化技术是关键。",
-      "confidence": 2,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzik5s/tried_testing_qwen_35b_moe_model_on_s26_ultra/",
-      "importance": 2
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "NVIDIA 与 Hugging Face 合作，推出大规模视频和图像模型微调方案",
-      "finding": "NVIDIA 与 Hugging Face 联合发布基于 NeMo Automodel 和 Diffusers 的大规模视频/图像模型微调方案，旨在降低多模态模型微调的门槛。",
-      "key_data": [
-        "NVIDIA NeMo",
-        "大规模微调",
-        "视频/图像模型"
-      ],
-      "judgment": "多模态模型微调正在变得标准化和规模化，这是企业定制化 AI 的重要基础设施。",
-      "confidence": 4,
-      "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
       "importance": 3
     },
     {
-      "source": "ArXiv cs.AI",
-      "title": "HG-RAG：面向结构化知识图谱的分层检索增强生成",
-      "finding": "一篇新论文提出 HG-RAG 框架，通过层级引导的方式，让 RAG 系统更好地利用结构化知识图谱，提升 LLM 输出的质量和准确性。",
+      "source": "Hugging Face Blog",
+      "title": "使用 NVIDIA NeMo Automodel 和 🤗 Diffusers 大规模微调视频和图像模型",
+      "finding": "NVIDIA 和 Hugging Face 合作，推出了一套结合 NeMo Automodel 和 Diffusers 的解决方案，用于大规模微调视频和图像生成模型。",
       "key_data": [
-        "HG-RAG",
-        "结构化知识图谱",
-        "RAG 改进"
+        "NVIDIA NeMo",
+        "Hugging Face Diffusers",
+        "大规模微调"
       ],
-      "judgment": "RAG 正在从简单的向量检索进化到结构化知识融合，这是企业级 RAG 应用的关键方向。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2607.14095",
+      "judgment": "降低了视频/图像模型微调的门槛，对需要定制化视觉生成模型的企业和研究者是实用工具。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
       "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "InfoQ",
-      "title": "阶跃星辰发布全球首个智能体原生操作系统 Step AOS",
-      "finding": "阶跃星辰在 WAIC 2026 上发布了 Step AOS，号称是全球首个智能体原生操作系统。该系统旨在为智能体提供运行环境和管理框架。",
-      "key_data": [
-        "Step AOS",
-        "智能体原生操作系统"
-      ],
-      "judgment": "智能体 OS 的概念很新，但能否成为标准取决于生态建设。值得关注其后续开发者支持。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/62J9L28365BtFlSFxVjE?utm_source=rss&utm_medium=article",
-      "importance": 3
-    },
-    {
-      "source": "InfoQ",
-      "title": "蚂蚁集团 WAIC 展示三层 AI 布局：从基座模型到行业应用",
-      "finding": "蚂蚁集团在 WAIC 上展示了其 AI 三层布局：底层是自研的百灵基座大模型，中间层是智能体平台，顶层是金融、医疗等垂直行业应用。",
-      "key_data": [
-        "百灵大模型",
-        "智能体平台",
-        "金融 AI"
-      ],
-      "judgment": "蚂蚁的布局显示，大厂 AI 战略已从“秀模型”转向“秀落地”，金融 AI 是竞争最激烈的战场。",
-      "confidence": 4,
-      "url": "https://www.infoq.cn/article/xtEyfZsTRA3FFW4dzCah?utm_source=rss&utm_medium=article",
-      "importance": 3
-    },
-    {
       "source": "量子位",
-      "title": "面壁智能开源 StaffDeck：给 AI 发工号、定岗位、做绩效",
-      "finding": "面壁智能在 WAIC 上开源了 StaffDeck 平台，该平台允许企业为 AI Agent 分配工号、定义岗位职责、并进行绩效考核，试图解决 AI 员工的管理问题。",
+      "title": "DeepSeek 估值被一家安徽箱包公司意外曝光",
+      "finding": "一家安徽的箱包公司在公告中意外披露了 DeepSeek 的估值，高达 3500 亿人民币。这引发了市场对 DeepSeek 真实价值和上市计划的猜测。",
       "key_data": [
-        "StaffDeck 开源",
-        "AI 员工管理",
-        "绩效考核"
+        "估值 3500 亿人民币",
+        "意外曝光",
+        "DeepSeek"
       ],
-      "judgment": "这是 AI 进入企业核心流程的关键一步——当 AI 从工具变成“同事”，管理工具就成了刚需。",
-      "confidence": 4,
-      "url": "https://www.qbitai.com/2026/07/453245.html",
-      "importance": 3
-    },
-    {
-      "source": "量子位",
-      "title": "PPIO 发布智能模型网关，打造面向 Agent 时代的 Token 工厂",
-      "finding": "PPIO 在 WAIC 上发布了智能模型网关，旨在为 Agent 应用提供统一的 Token 管理和调度能力，号称已通过万亿 Token 调用量验证。",
-      "key_data": [
-        "智能模型网关",
-        "万亿 Token 验证",
-        "Agent 时代"
-      ],
-      "judgment": "随着 Agent 应用爆发，Token 管理将成为基础设施级问题，PPIO 切入了一个好赛道。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/07/453467.html",
-      "importance": 2
+      "judgment": "虽然是非官方披露，但 3500 亿的估值数字如果属实，意味着 DeepSeek 已成为国内估值最高的 AI 独角兽之一，其开源策略的商业价值得到了资本市场的极高认可。",
+      "confidence": 2,
+      "url": "https://www.qbitai.com/2026/07/453641.html",
+      "importance": 4
     },
     {
       "source": "TechCrunch",
-      "title": "Agility Robotics 在特斯拉后院开设机器人训练中心",
-      "finding": "人形机器人公司 Agility Robotics 在加州弗里蒙特（特斯拉总部所在地）开设了一个新的训练中心，用于其 Digit 机器人的部署和培训。",
+      "title": "Agility Robotics 在特斯拉后院开设新训练中心",
+      "finding": "人形机器人公司 Agility Robotics 在加州弗里蒙特（特斯拉总部所在地）开设了一个新的训练中心，用于其 Digit 机器人的训练和部署。",
       "key_data": [
         "Agility Robotics",
         "弗里蒙特训练中心",
         "Digit 机器人"
       ],
-      "judgment": "人形机器人竞争白热化，Agility 直接在家门口挑战特斯拉 Optimus，表明行业已进入“抢地盘”阶段。",
+      "judgment": "这是人形机器人赛道竞争白热化的信号。Agility 直接在家门口挑战特斯拉的 Optimus，表明人形机器人的商业化竞赛已经从实验室打到了工厂和物流中心。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
       "importance": 3
+    },
+    {
+      "source": "Wired",
+      "title": "旧金山要求苹果和谷歌从应用商店删除 AI“脱衣”应用",
+      "finding": "旧金山检察官办公室向苹果和谷歌发出停止函，要求其下架 13 款利用 AI 进行“换脸”的应用程序，这些应用被大量用于针对女性和女孩的性暴力。",
+      "key_data": [
+        "旧金山要求下架",
+        "AI 换脸应用",
+        "女性安全"
+      ],
+      "judgment": "AI 伦理和监管问题再次被推到台前。平台方（苹果、谷歌）在 AI 应用审核上的责任将越来越大，这可能会催生更严格的 AI 应用审核标准和法规。",
+      "confidence": 5,
+      "url": "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "全球首款 720° 连续后空翻机器狗发布",
+      "finding": "宇泛智能在 WAIC 上展示了全球首款能完成 720° 连续后空翻的机器狗“灵猫”，展示了极高的运动控制能力。",
+      "key_data": [
+        "720° 连续后空翻",
+        "机器狗",
+        "宇泛智能"
+      ],
+      "judgment": "虽然看起来像炫技，但这代表了机器人运动控制算法的巨大进步。这种高动态性能是未来机器狗在复杂地形执行搜救、巡检等任务的基础。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/07/453506.html",
+      "importance": 2
     }
   ],
   "opinions": [
     {
-      "person": "Sarah Friar",
-      "level": "L3",
-      "quote": "我们提出了一个实用的 AI 记分卡，通过有用工作量、每成功任务成本、可靠性和计算回报率四个维度来衡量 AI 的 ROI。",
-      "source": "https://openai.com/index/a-scorecard-for-the-ai-age"
-    },
-    {
       "person": "印奇",
       "level": "L1",
-      "quote": "AI 创业已从小众赛道成为全球重要共识。今天的 AI 研究者和创业者既站在几代科学家持续探索的巨人肩膀上，也站在一个前所未有的产业爆发节点上。",
-      "source": "https://36kr.com/p/3900439867147909?f=rss"
+      "quote": "AI 创业已从小众赛道成为全球重要共识。今天的 AI 研究者和创业者既站在几代科学家持续探索的成果之上，也肩负着将智能体从数字世界带入物理世界的使命。",
+      "source": "36氪"
+    },
+    {
+      "person": "Sarah Friar",
+      "level": "L3",
+      "quote": "衡量 AI 投资回报率不应只看成本，而应关注有用工作量、每次成功任务的成本、可靠性和计算回报这四个维度。",
+      "source": "OpenAI Blog"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI 记分卡：企业如何量化 AI 投资回报率",
-      "reason": "OpenAI 首次提出量化框架，可能改变企业采购 AI 的决策逻辑，值得深入研究其方法论和潜在影响。",
+      "topic": "开源大模型商业化路径分析：以 DeepSeek 和智谱为例",
+      "reason": "DeepSeek 估值 3500 亿和智谱 ARR 10 亿美元，是国产开源/闭源模型商业化的两个标杆案例，值得深入对比其商业模式。",
       "priority": "high"
     },
     {
-      "topic": "智能体原生操作系统：Step AOS 的技术架构与生态前景",
-      "reason": "阶跃星辰提出的新概念，可能成为 Agent 时代的基础设施，需要评估其技术可行性和生态潜力。",
-      "priority": "medium"
+      "topic": "AI 投资回报率（ROI）评估框架研究",
+      "reason": "OpenAI 发布的记分卡标志着行业进入价值驱动阶段，深入理解其四个维度对企业采购和产品设计至关重要。",
+      "priority": "high"
     },
     {
-      "topic": "开源 AI 现状报告深度解读",
-      "reason": "Hacker News 热议的报告，全面评估了开源 AI 生态，对开发者选择技术路线有重要参考价值。",
+      "topic": "人形机器人商业化竞赛：Agility vs Tesla vs Figure",
+      "reason": "Agility 在特斯拉家门口建训练中心，人形机器人赛道进入白热化，对比三家的技术路线和商业化策略很有价值。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "WAIC 开幕，Kimi K3 开源，Databricks 估值 1880 亿",
-  "summary_paragraph": "今日 AI 行业迎来多个重磅消息。WAIC 2026 在上海开幕，阶跃星辰、蚂蚁集团、面壁智能等纷纷展示智能体落地新进展，其中面壁智能开源的 StaffDeck 试图解决 AI 员工管理这一全新问题。模型层面，月之暗面正式开源 Kimi K3，其拒绝泄露系统提示词的能力展示了模型对齐技术的新高度。商业层面，Databricks 估值飙升至 1880 亿美元，智谱 AI 的 ARR 半年增长 15 倍达到 10 亿美元，证明企业级 AI 市场正在爆发。OpenAI 则首次发布 AI 记分卡，试图帮助企业量化 AI 投资回报。整体来看，行业焦点已从模型能力竞赛转向智能体落地和商业化验证。",
+  "summary_one_line": "智谱ARR破10亿，OpenAI推ROI记分卡",
+  "summary_paragraph": "今日 AI 行业动态密集，商业化成为主旋律。智谱 AI 宣布 ARR 达到 10 亿美元，半年增长 15 倍，成为国产大模型商业化的里程碑；OpenAI 则发布“AI 时代记分卡”，开始引导企业从 ROI 角度衡量 AI 投入。月之暗面正式开源 Kimi K3，国产大模型阵营再添一员。WAIC 2026 在上海开幕，具身智能和 AI Agent 成为绝对焦点，阶跃星辰印奇强调智能体正走向物理世界。此外，Databricks 估值飙升至 1880 亿美元，进一步验证了数据+AI 的商业价值。整体来看，行业正从技术竞赛转向价值兑现的深水区。",
   "snapshot": {
     "date": "2026-07-18",
     "hf_trending": [
       {
         "name": "thinkingmachines/Inkling",
         "short_name": "Inkling",
-        "likes": 958,
+        "likes": 970,
         "downloads": 7870,
         "url": "https://huggingface.co/thinkingmachines/Inkling",
         "tags": [
@@ -268,7 +244,7 @@
       {
         "name": "prism-ml/Ternary-Bonsai-27B-gguf",
         "short_name": "Ternary-Bonsai-27B-gguf",
-        "likes": 680,
+        "likes": 686,
         "downloads": 200774,
         "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
         "tags": [
@@ -284,7 +260,7 @@
       {
         "name": "prism-ml/Bonsai-27B-gguf",
         "short_name": "Bonsai-27B-gguf",
-        "likes": 396,
+        "likes": 403,
         "downloads": 1045182,
         "url": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
         "tags": [
@@ -300,7 +276,7 @@
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-        "likes": 2274,
+        "likes": 2281,
         "downloads": 2096147,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "tags": [
@@ -316,7 +292,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 4071,
+        "likes": 4076,
         "downloads": 534698,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -332,7 +308,7 @@
       {
         "name": "bottlecapai/ThinkingCap-Qwen3.6-27B",
         "short_name": "ThinkingCap-Qwen3.6-27B",
-        "likes": 413,
+        "likes": 417,
         "downloads": 9383,
         "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
         "tags": [
@@ -348,7 +324,7 @@
       {
         "name": "conradlocke/krea2-identity-edit",
         "short_name": "krea2-identity-edit",
-        "likes": 346,
+        "likes": 350,
         "downloads": 0,
         "url": "https://huggingface.co/conradlocke/krea2-identity-edit",
         "tags": [
@@ -364,7 +340,7 @@
       {
         "name": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "short_name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-        "likes": 2828,
+        "likes": 2832,
         "downloads": 2295313,
         "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
         "tags": [
@@ -382,16 +358,16 @@
       {
         "name": "codecrafters-io/build-your-own-x",
         "desc": "Master programming by recreating your favorite technologies from scratch.",
-        "stars": 527416,
+        "stars": 527567,
         "stars_today": 1068,
-        "forks": 49908,
+        "forks": 49922,
         "language": "Markdown",
         "url": "https://github.com/codecrafters-io/build-your-own-x"
       },
       {
         "name": "PostHog/posthog",
         "desc": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI obser",
-        "stars": 36204,
+        "stars": 36257,
         "stars_today": 438,
         "forks": 3010,
         "language": "Python",
@@ -400,27 +376,27 @@
       {
         "name": "HenryNdubuaku/maths-cs-ai-compendium",
         "desc": "Become a cracked AI/ML Research Engineer",
-        "stars": 6636,
+        "stars": 6707,
         "stars_today": 200,
-        "forks": 811,
+        "forks": 812,
         "language": "TypeScript",
         "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium"
       },
       {
         "name": "Nutlope/hallmark",
         "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-        "stars": 12074,
+        "stars": 12189,
         "stars_today": 1485,
-        "forks": 604,
+        "forks": 610,
         "language": "CSS",
         "url": "https://github.com/Nutlope/hallmark"
       },
       {
         "name": "github/copilot-sdk",
         "desc": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
-        "stars": 9801,
+        "stars": 9824,
         "stars_today": 233,
-        "forks": 1331,
+        "forks": 1333,
         "language": "Java",
         "url": "https://github.com/github/copilot-sdk"
       }
@@ -537,6 +513,6 @@
         "url": "https://openrouter.ai/anthropic/claude-sonnet-5"
       }
     ],
-    "hf_summary": "多模态模型热度飙升，文本生成竞争激烈"
+    "hf_summary": "多模态模型热度飙升，文本生成模型持续发力。"
   }
 }
