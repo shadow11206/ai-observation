@@ -3,220 +3,206 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "GPT-5.6 用提示词解决凸优化30年未解难题",
-      "finding": "Reddit数学版爆料，GPT-5.6在用户提示下，成功证明了一个凸优化领域30年悬而未决的猜想。此前OpenAI刚宣布CDC证明，这次是社区自发验证，说明模型推理能力已能产出真正的数学新知识。",
+      "title": "GPT-5.6 用提示词解决凸优化领域30年未解难题",
+      "finding": "Reddit 数学版爆料，GPT-5.6 在用户提示下，成功证明了一个凸优化领域悬而未决30年的猜想。这并非模型自主发现，而是用户引导+模型推理能力的结合，但结果已被领域专家初步认可。",
       "key_data": [
-        "30年未解难题",
-        "社区自发验证",
-        "凸优化猜想"
+        "30年未解猜想",
+        "用户引导+模型推理",
+        "领域专家初步认可"
       ],
-      "judgment": "这是比CDC证明更震撼的信号：当模型能在非定向提示下独立解决数学难题，意味着AI科研助手从'辅助验证'进入'自主发现'阶段，对学术界和研发范式是质变。",
-      "confidence": 4,
-      "source": "Hacker News / Reddit r/math",
+      "judgment": "这是推理模型能力的里程碑式展示。虽然需要人类引导，但证明数学猜想是LLM从'语言工具'迈向'科学发现助手'的关键一步。对AI产品经理意味着：推理模型的价值正从代码生成扩展到科学计算，垂直科研工具将是下一个蓝海。",
+      "confidence": 3,
+      "source": "Reddit r/math",
       "url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/"
     },
     {
       "rank": 2,
-      "title": "Anthropic宣布Claude Fable 5永久纳入所有付费计划",
-      "finding": "从7月20日起，Claude Fable 5将包含在Max和Team Premium计划中，使用额度为总限额的50%。Pro和Team Standard用户也可按需购买。这意味着Anthropic将最强模型全面开放给付费用户。",
+      "title": "Claude Fable 5 将永久纳入Max和Team Premium套餐",
+      "finding": "Anthropic 宣布从7月20日起，Claude Fable 5 将永久纳入所有 Max 和 Team Premium 套餐，使用额度为原限额的50%。此前Fable 5是限时体验功能。",
       "key_data": [
         "7月20日生效",
-        "Max/Team Premium含50%额度",
-        "Pro可购买"
+        "Max和Team Premium套餐",
+        "50%额度"
       ],
-      "judgment": "Fable 5全面开放是Anthropic商业化的重要一步，说明模型已足够成熟稳定。对开发者而言，这意味着可以放心将Fable 5用于生产环境，不再担心限量或临时访问。",
+      "judgment": "Fable 5 从限时体验转为永久功能，说明Anthropic对其多模态/长上下文能力已有足够信心，并以此作为高端套餐的核心差异化卖点。对开发者而言，这意味着可以放心在长文档、多模态分析等场景中依赖Fable 5，不必担心功能突然下线。",
       "confidence": 5,
-      "source": "Simon Willison / @claudeai",
-      "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/"
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything"
     },
     {
       "rank": 3,
-      "title": "Kimi K3发布即登顶Arena模型排行榜",
-      "finding": "Moonshot AI发布新模型Kimi K3，上线当天即登顶Chatbot Arena排行榜，引发TechCrunch等外媒关注，称其引发'全面AI共产主义'担忧。K3在多项基准测试中表现领先。",
+      "title": "Kimi新版本引发'全面AI共产主义'担忧",
+      "finding": "TechCrunch 报道，Moonshot AI 本周发布的新版 Kimi 模型引发业界担忧，部分评论认为其能力提升可能导致'全面AI共产主义'——即AI替代大量人类工作后的社会结构变革。",
       "key_data": [
-        "登顶Arena",
-        "引发'AI共产主义'讨论",
+        "Kimi新版本发布",
+        "全面AI共产主义讨论",
         "Moonshot AI"
       ],
-      "judgment": "K3登顶Arena是中国模型首次在公开竞技场达到全球顶尖水平，意义不亚于DeepSeek R1。对国内开发者意味着多了一个真正可用的顶级选择，对海外则是中国AI追赶速度的明确信号。",
+      "judgment": "Kimi 的进步引发'AI共产主义'讨论，说明中国大模型在能力上已逼近甚至在某些场景超越海外头部模型。这对全球AI格局意味着：中美模型差距进一步缩小，应用层竞争将更加激烈。产品经理应关注Kimi在长上下文和消费级场景的差异化能力。",
       "confidence": 4,
-      "source": "InfoQ / TechCrunch",
-      "url": "https://www.infoq.cn/article/NtfFE25blBHubhNNTmkJ"
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/"
     },
     {
       "rank": 4,
-      "title": "Sebastian Raschka：LLM推理强度可控性研究",
-      "finding": "Sebastian Raschka发表文章，系统梳理了LLM如何学习低、中、高三种推理强度模式，以及如何通过提示或API参数控制模型的'思考深度'。这是推理模型实用化的重要进展。",
+      "title": "Claude Code 已使用 Rust 重写的 Bun 运行时",
+      "finding": "Bun 作者 Jarred Sumner 透露，Claude Code v2.1.181（6月17日发布）及后续版本已使用 Rust 移植版的 Bun。启动速度在 Linux 上提升10%，但其他方面变化不大。",
       "key_data": [
-        "低/中/高推理强度",
-        "可控推理",
-        "推理效率优化"
+        "Claude Code v2.1.181",
+        "Rust移植版Bun",
+        "启动速度提升10%"
       ],
-      "judgment": "推理强度可控是让推理模型从'黑盒'走向'可调参'的关键一步。对产品经理而言，这意味着可以根据场景（简单问答 vs 复杂推理）动态分配计算资源，大幅降低推理成本。",
-      "confidence": 4,
-      "source": "Sebastian Raschka",
-      "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms"
+      "judgment": "Claude Code 从 Bun（JavaScript运行时）迁移到 Rust 版 Bun，说明 Anthropic 对底层运行时的性能优化非常重视。10%的启动速度提升看似不大，但考虑到AI编程工具的频繁启动，累积体验改善明显。对开发者意味着：AI编程工具正在从'能用'向'流畅'进化，性能优化成为竞争新维度。",
+      "confidence": 5,
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything"
     },
     {
       "rank": 5,
-      "title": "腾讯发布三大具身基座模型，工业实测成功率超95%",
-      "finding": "腾讯在WAIC上发布三大具身智能基座模型，打通'感知-行动'闭环，在工业场景实测中任务成功率超过95%。这是国内大厂在具身智能领域最实质性的产品化进展。",
+      "title": "Stack Overflow 流量因AI编程工具断崖式下跌",
+      "finding": "Hacker News 热帖展示了一张 Stack Overflow 流量图表，显示自 ChatGPT/Copilot 等AI编程工具普及以来，Stack Overflow 的访问量呈断崖式下跌。帖子获得389分，484条评论，开发者社区对此展开激烈讨论。",
       "key_data": [
-        "三大基座模型",
-        "工业实测成功率>95%",
-        "感知-行动闭环"
+        "Stack Overflow流量断崖下跌",
+        "AI编程工具替代",
+        "389分/484评论"
       ],
-      "judgment": "腾讯具身模型从实验室走向工业场景，且成功率极高，说明具身智能已具备商业化落地条件。对机器人行业意味着'通用大脑'正在成型，垂直场景的定制化需求将转向基座模型微调。",
+      "judgment": "这是AI编程工具对开发者行为产生实质性影响的铁证。Stack Overflow 作为'开发者维基百科'的衰落，意味着开发者解决问题的方式已从'搜索-阅读-理解'转变为'提问-获取答案-直接使用'。对产品经理而言，这意味着AI编程工具的'答案质量'和'上下文理解'将成为核心竞争壁垒。",
       "confidence": 4,
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/uD0p2FcQE2JKSwYY1wXK"
+      "source": "Hacker News",
+      "url": "https://data.stackexchange.com/stackoverflow/query/1953768#graph"
     }
   ],
   "model_tech": [
     {
-      "source": "Hacker News",
-      "title": "Fable 5 vs GPT-5.6 在NP难问题上的对比：/goal参数是否有效？",
-      "finding": "一篇博客对比了Fable 5和GPT-5.6在解决NP难问题时的表现，重点测试了/goal参数（设定目标）对推理效果的影响。结果显示设定明确目标能显著提升模型解题成功率。",
+      "source": "Sebastian Raschka",
+      "title": "控制LLM推理努力程度的研究",
+      "finding": "Sebastian Raschka 发表文章，探讨LLM如何学习低、中、高三种推理努力模式。研究发现可以通过提示词或参数控制模型在推理时投入的'思考量'，从而在速度和准确性之间取得平衡。",
       "key_data": [
-        "NP难问题",
-        "/goal参数有效",
-        "Fable 5 vs GPT-5.6"
+        "低/中/高推理模式",
+        "速度-准确性平衡",
+        "提示词或参数控制"
       ],
-      "judgment": "提示工程中'设定目标'这一简单技巧对推理模型效果显著，开发者应将其纳入最佳实践。",
-      "confidence": 3,
-      "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
+      "judgment": "这项研究为开发者提供了'推理成本控制'的新思路，类似模型量化但作用于推理过程本身。对产品经理意味着：未来可以针对不同场景（实时聊天vs深度分析）动态调整模型的推理努力程度，优化用户体验和成本。",
+      "confidence": 4,
+      "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
       "importance": 3
     },
     {
       "source": "Wired",
       "title": "提示注入攻击正在挫败AI黑客代理",
-      "finding": "Wired报道了一种名为'上下文轰炸'的新攻击方式，通过向AI代理注入大量无关或恶意上下文，使其在造成危害前自行关闭。这既是防御手段，也暴露了AI代理系统的脆弱性。",
+      "finding": "Wired 报道了一种名为'上下文轰炸'（Context bombing）的新型防御技术，通过向AI代理注入大量无关上下文，使其在造成伤害前自动关闭。这种技术可有效防御恶意AI黑客代理。",
       "key_data": [
-        "上下文轰炸",
-        "AI代理防御",
-        "提示注入攻击"
+        "上下文轰炸防御",
+        "AI黑客代理",
+        "自动关闭机制"
       ],
-      "judgment": "提示注入仍是AI代理安全的最大软肋，'以毒攻毒'的防御思路虽有趣，但治标不治本。",
+      "judgment": "提示注入攻击是AI安全的核心挑战之一，'上下文轰炸'提供了一种新颖的防御思路。对AI安全从业者意味着：防御手段正在从'过滤输入'向'利用模型自身特性'演进，但这也可能被攻击者反向利用。",
       "confidence": 4,
       "url": "https://www.wired.com/story/prompt-injection-attacks-are-thwarting-ai-hacking-agents/",
       "importance": 3
     },
     {
-      "source": "InfoQ",
-      "title": "为什么AI Agent拿到数据却不会推理？可观测对象图语义层的设计与开源实践",
-      "finding": "AICon深圳上分享的实践：当前AI Agent在拿到结构化数据后仍无法有效推理，核心问题在于缺乏语义层。通过构建可观测对象图，可以显著提升Agent的推理准确率。",
+      "source": "Reddit r/MachineLearning",
+      "title": "DeepMind/Kaggle大奖赛被指获奖作品是AI垃圾",
+      "finding": "Reddit 用户质疑Google DeepMind赞助的Kaggle竞赛'衡量AGI进展——认知能力'的获奖作品是明显的AI生成内容（AI Slop），但依然赢得了25,000美元大奖。",
       "key_data": [
-        "语义层缺失",
-        "可观测对象图",
-        "Agent推理提升"
+        "25,000美元大奖",
+        "AI Slop争议",
+        "DeepMind赞助"
       ],
-      "judgment": "语义层是Agent从'数据搬运工'升级为'智能分析员'的关键基础设施，值得所有Agent开发者关注。",
+      "judgment": "这暴露了AI评测领域的一个尴尬现状：用AI来评测AI，结果可能产生'自我指涉'的泡沫。对AI社区意味着：需要更严格的评审机制来区分人类原创和AI辅助内容，否则评测的公信力将受到挑战。",
       "confidence": 3,
-      "url": "https://www.infoq.cn/article/KPd6YwU0Y1iCMGMakSmE",
-      "importance": 2
-    },
-    {
-      "source": "InfoQ",
-      "title": "腾讯云发布ADP 4.0海外版：集成Google Workspace、Jira，定位AgentOps全生命周期管理",
-      "finding": "腾讯云推出ADP 4.0海外版，集成Google Workspace和Jira等海外主流工具，定位为AgentOps全生命周期管理平台，覆盖开发、部署、监控、优化等环节。",
-      "key_data": [
-        "AgentOps平台",
-        "集成Google Workspace/Jira",
-        "全生命周期管理"
-      ],
-      "judgment": "腾讯云将AgentOps产品化并推向海外，说明Agent运维已成为刚需，国内厂商开始抢占海外市场。",
-      "confidence": 4,
-      "url": "https://www.infoq.cn/article/r6m3xASYYfM81h9dNBRE",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzyf66/did_blatant_ai_slop_just_win_a_25k_usd_deepmind/",
       "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "量子位",
-      "title": "WAIC 2026现场：优理奇UniTac让机器人拥有'触觉想象力'",
-      "finding": "优理奇在WAIC上展示UniTac触觉传感器，让VLA（视觉-语言-动作）模型能理解接触力，入选ECCV 2026。机器人不再只是'看'，还能'感觉'。",
+      "source": "Simon Willison",
+      "title": "SQLite 查询解释器",
+      "finding": "Simon Willison 使用 Claude Fable 构建了一个交互式 SQLite 查询解释器，帮助开发者理解 SQL 查询计划。该工具灵感来自 Julia Evans 的博客，旨在让查询计划可视化。",
       "key_data": [
-        "触觉传感器",
-        "ECCV 2026",
-        "VLA模型"
+        "交互式查询计划可视化",
+        "Claude Fable构建",
+        "开发者工具"
       ],
-      "judgment": "触觉是机器人从'机械臂'进化到'灵巧手'的关键，UniTac入选顶会说明学术界认可其价值。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/07/453897.html",
+      "judgment": "这是一个典型的'AI辅助开发工具'案例，说明Fable在代码生成和交互式工具构建方面的实用性。对开发者意味着：AI可以快速将想法转化为实用工具，降低开发门槛。",
+      "confidence": 5,
+      "url": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything",
       "importance": 2
     },
     {
-      "source": "量子位",
-      "title": "WAIC 2026现场：万兴科技发布'无限画布'、Filmora.AI和Virbo AI",
-      "finding": "万兴科技在WAIC上首秀三款AI产品：无限画布（AI创作空间）、Filmora.AI（AI视频编辑）和Virbo AI（AI数字人），主打创作者经济。",
+      "source": "InfoQ",
+      "title": "WAIC 2026：从大模型到AI执行系统，构建企业级可控Agent体系",
+      "finding": "InfoQ 报道了AICon深圳的演讲内容，探讨如何从大模型构建企业级可控Agent体系。重点包括Agent的可靠性、可观测性和安全控制。",
       "key_data": [
-        "无限画布",
-        "Filmora.AI",
-        "Virbo AI"
+        "企业级Agent体系",
+        "可靠性/可观测性/安全",
+        "AICon深圳"
       ],
-      "judgment": "万兴持续押注AI+创意工具，但产品差异化不足，面临Canva和Adobe的激烈竞争。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/07/454015.html",
-      "importance": 1
+      "judgment": "企业级Agent的'可控性'是当前行业痛点，该演讲切中要害。对AI产品经理意味着：Agent的'可解释性'和'可干预性'将成为企业采购的关键考量因素。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/eTGhBWBHXum6AuVU45Ab",
+      "importance": 2
     },
     {
-      "source": "量子位",
-      "title": "WAIC 2026现场：海亮科服入选AI产业图谱和Top50",
-      "finding": "WAIC 2026发布AI商业落地报告，海亮科服同时入选产业图谱和Top50榜单，代表教育+AI方向获得行业认可。",
+      "source": "InfoQ",
+      "title": "WAIC 2026：云天励飞公布三款AI推理芯片和超节点异构集群",
+      "finding": "云天励飞在WAIC上公布了未来算力蓝图，包括三款AI推理芯片和超节点异构集群，旨在为Token工厂提供专用算力。",
       "key_data": [
-        "AI商业落地报告",
-        "产业图谱",
-        "Top50"
+        "三款AI推理芯片",
+        "超节点异构集群",
+        "Token工厂专用算力"
       ],
-      "judgment": "教育AI落地案例增多，但海亮科服偏传统，缺乏技术亮点，更多是行业标杆意义。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/07/453889.html",
-      "importance": 1
+      "judgment": "国内AI芯片厂商开始聚焦推理场景的专用芯片，而非通用GPU。这对AI基础设施意味着：推理成本将进一步下降，但生态兼容性仍是挑战。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/LCMZqxPWHIFvQbuRIS6f",
+      "importance": 2
     },
     {
-      "source": "量子位",
-      "title": "WAIC 2026现场：滴滴分享AI升级出行体验",
-      "finding": "滴滴在WAIC上分享AI如何升级出行体验，强调好服务连接消费烟火气，但内容偏PR，缺乏具体技术细节。",
+      "source": "InfoQ",
+      "title": "WAIC 2026：安谋科技重做CPU、NPU、VPU与AI操作系统",
+      "finding": "安谋科技在WAIC上宣布重新设计CPU、NPU、VPU和AI操作系统，以解决边端AI算力不足的问题。",
       "key_data": [
-        "AI出行",
-        "WAIC 2026",
-        "滴滴"
+        "CPU/NPU/VPU重新设计",
+        "AI操作系统",
+        "边端AI算力"
       ],
-      "judgment": "滴滴AI分享偏品牌宣传，无实质技术突破，对行业参考价值有限。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/07/454003.html",
-      "importance": 1
+      "judgment": "边端AI的瓶颈不仅是算力，更是软硬件协同。安谋科技的全栈重做思路，可能为端侧AI带来质的飞跃，但落地周期较长。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/iIoJ2qhXbXCH2ozGqCJ6",
+      "importance": 2
     }
   ],
   "opinions": [
     {
-      "person": "Neil Rimer",
+      "person": "Nik Suresh",
       "level": "L2",
-      "quote": "Index Ventures联合创始人预测，硅谷AI创造的巨额财富将不得不被重新分配，无论是自愿还是非自愿。",
-      "source": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/"
+      "quote": "AI狂热正在摧毁全球决策能力。大公司高管们沉迷于AI的'神奇'叙事，忽视了实际业务问题，导致决策质量下降。",
+      "source": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "LLM推理强度可控性的工程实现",
-      "reason": "Sebastian Raschka的最新研究揭示了推理模型从'黑盒'走向'可调参'的关键路径，对降低推理成本有直接指导意义。",
+      "topic": "LLM推理努力控制技术",
+      "reason": "Sebastian Raschka的最新研究揭示了控制模型推理成本的新方法，对产品设计和成本优化有直接指导意义。",
       "priority": "high"
     },
     {
-      "topic": "GPT-5.6解决数学难题的机制分析",
-      "reason": "连续两次数学突破（CDC证明+凸优化猜想）表明推理模型已进入新阶段，值得深入理解其能力边界。",
+      "topic": "AI编程工具对开发者社区生态的影响",
+      "reason": "Stack Overflow流量断崖下跌是标志性事件，值得深入分析AI编程工具如何改变开发者行为和工作流。",
       "priority": "high"
     }
   ],
-  "summary_one_line": "GPT-5.6再破数学难题，Kimi K3登顶Arena",
-  "summary_paragraph": "今日AI行业迎来多个重磅信号。GPT-5.6在社区提示下解决了凸优化领域30年未解猜想，继CDC证明后再次证明推理模型已具备自主数学发现能力。Anthropic宣布Fable 5永久纳入所有付费计划，最强模型全面开放商用。中国方面，Moonshot AI的Kimi K3发布即登顶Arena排行榜，标志着中国模型首次在公开竞技场达到全球顶尖水平。腾讯在WAIC上发布三大具身基座模型，工业实测成功率超95%，具身智能商业化加速。Sebastian Raschka关于推理强度可控性的研究则为降低推理成本提供了新思路。整体而言，模型能力突破、产品全面开放、中国力量崛起是今日三大主线。",
+  "summary_one_line": "推理模型突破数学难题，AI编程重塑开发者生态",
+  "summary_paragraph": "今日AI行业迎来多个标志性事件。GPT-5.6在用户引导下解决凸优化领域30年未解猜想，展示了推理模型在科学发现中的潜力。Anthropic将Fable 5永久纳入高端套餐，Claude Code也迁移到Rust版Bun以提升性能。Kimi新版本引发'AI共产主义'讨论，显示中国大模型能力逼近海外。Stack Overflow流量因AI编程工具断崖下跌，开发者行为正在被彻底重塑。WAIC 2026上，多家中国公司展示了AI芯片和Agent体系的最新进展。整体来看，AI正从'工具'向'科学助手'和'基础设施'演进，行业格局加速变化。",
   "snapshot": {
     "date": "2026-07-19",
     "hf_trending": [
       {
         "name": "thinkingmachines/Inkling",
         "short_name": "Inkling",
-        "likes": 1063,
+        "likes": 1074,
         "downloads": 12456,
         "url": "https://huggingface.co/thinkingmachines/Inkling",
         "tags": [
@@ -232,7 +218,7 @@
       {
         "name": "prism-ml/Ternary-Bonsai-27B-gguf",
         "short_name": "Ternary-Bonsai-27B-gguf",
-        "likes": 737,
+        "likes": 745,
         "downloads": 301893,
         "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
         "tags": [
@@ -248,7 +234,7 @@
       {
         "name": "prism-ml/Bonsai-27B-gguf",
         "short_name": "Bonsai-27B-gguf",
-        "likes": 444,
+        "likes": 450,
         "downloads": 1218815,
         "url": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
         "tags": [
@@ -264,7 +250,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 4126,
+        "likes": 4133,
         "downloads": 541662,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -280,7 +266,7 @@
       {
         "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-        "likes": 2315,
+        "likes": 2319,
         "downloads": 2112869,
         "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
         "tags": [
@@ -296,7 +282,7 @@
       {
         "name": "conradlocke/krea2-identity-edit",
         "short_name": "krea2-identity-edit",
-        "likes": 395,
+        "likes": 399,
         "downloads": 0,
         "url": "https://huggingface.co/conradlocke/krea2-identity-edit",
         "tags": [
@@ -312,7 +298,7 @@
       {
         "name": "bottlecapai/ThinkingCap-Qwen3.6-27B",
         "short_name": "ThinkingCap-Qwen3.6-27B",
-        "likes": 437,
+        "likes": 439,
         "downloads": 10445,
         "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
         "tags": [
@@ -328,7 +314,7 @@
       {
         "name": "ATH-MaaS/OvisOCR2",
         "short_name": "OvisOCR2",
-        "likes": 170,
+        "likes": 174,
         "downloads": 13750,
         "url": "https://huggingface.co/ATH-MaaS/OvisOCR2",
         "tags": [
@@ -346,45 +332,45 @@
       {
         "name": "Robbyant/lingbot-map",
         "desc": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
-        "stars": 12981,
+        "stars": 13090,
         "stars_today": 831,
-        "forks": 1347,
+        "forks": 1358,
         "language": "Python",
         "url": "https://github.com/Robbyant/lingbot-map"
       },
       {
         "name": "apache/ossie",
         "desc": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata ac",
-        "stars": 1281,
+        "stars": 1316,
         "stars_today": 47,
-        "forks": 155,
+        "forks": 156,
         "language": "Python",
         "url": "https://github.com/apache/ossie"
       },
       {
         "name": "PostHog/posthog",
         "desc": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI obser",
-        "stars": 36608,
+        "stars": 36653,
         "stars_today": 338,
-        "forks": 3030,
+        "forks": 3032,
         "language": "Python",
         "url": "https://github.com/PostHog/posthog"
       },
       {
         "name": "ibelick/ui-skills",
         "desc": "Skills for Design Engineers",
-        "stars": 5043,
+        "stars": 5141,
         "stars_today": 123,
-        "forks": 214,
+        "forks": 221,
         "language": "TypeScript",
         "url": "https://github.com/ibelick/ui-skills"
       },
       {
         "name": "rohitg00/ai-engineering-from-scratch",
         "desc": "Learn it. Build it. Ship it for others.",
-        "stars": 39120,
+        "stars": 39203,
         "stars_today": 191,
-        "forks": 6553,
+        "forks": 6558,
         "language": "Python",
         "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
       }
@@ -395,10 +381,10 @@
         "slug": "tencent/hy3-20260706:free",
         "name": "Hy3 20260706:free",
         "org": "tencent",
-        "total_tokens": 1605073532209,
+        "total_tokens": 1606633595170,
         "total_tokens_str": "1.6T",
         "api_calls": 0,
-        "change": -13.7,
+        "change": -13.6,
         "url": "https://openrouter.ai/tencent/hy3-20260706:free"
       },
       {
@@ -406,10 +392,10 @@
         "slug": "xiaomi/mimo-v2.5",
         "name": "MiMo-V2.5",
         "org": "xiaomi",
-        "total_tokens": 1225478276554,
+        "total_tokens": 1235411236046,
         "total_tokens_str": "1.2T",
         "api_calls": 0,
-        "change": -12.6,
+        "change": -11.9,
         "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
       },
       {
@@ -417,10 +403,10 @@
         "slug": "deepseek/deepseek-v4-flash",
         "name": "DeepSeek V4 Flash",
         "org": "deepseek",
-        "total_tokens": 725230656315,
-        "total_tokens_str": "725B",
+        "total_tokens": 729815243439,
+        "total_tokens_str": "730B",
         "api_calls": 0,
-        "change": -9.9,
+        "change": -9.3,
         "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
       },
       {
@@ -428,10 +414,10 @@
         "slug": "minimax/minimax-m3",
         "name": "MiniMax M3",
         "org": "minimax",
-        "total_tokens": 477082491070,
-        "total_tokens_str": "477B",
+        "total_tokens": 486922580839,
+        "total_tokens_str": "487B",
         "api_calls": 0,
-        "change": -16.0,
+        "change": -14.3,
         "url": "https://openrouter.ai/minimax/minimax-m3"
       },
       {
@@ -439,10 +425,10 @@
         "slug": "z-ai/glm-5.2",
         "name": "GLM 5.2",
         "org": "z-ai",
-        "total_tokens": 425548039825,
-        "total_tokens_str": "426B",
+        "total_tokens": 430537182695,
+        "total_tokens_str": "431B",
         "api_calls": 0,
-        "change": -1.0,
+        "change": 0.2,
         "url": "https://openrouter.ai/z-ai/glm-5.2"
       },
       {
@@ -450,10 +436,10 @@
         "slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604:free",
         "name": "Nemotron 3 Ultra 550b A55b 20260604:free",
         "org": "nvidia",
-        "total_tokens": 413810318820,
-        "total_tokens_str": "414B",
+        "total_tokens": 423135690073,
+        "total_tokens_str": "423B",
         "api_calls": 0,
-        "change": -2.8,
+        "change": -0.6,
         "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604:free"
       },
       {
@@ -461,10 +447,10 @@
         "slug": "deepseek/deepseek-v4-pro",
         "name": "DeepSeek V4 Pro",
         "org": "deepseek",
-        "total_tokens": 350214242784,
-        "total_tokens_str": "350B",
+        "total_tokens": 352830031397,
+        "total_tokens_str": "353B",
         "api_calls": 0,
-        "change": -21.9,
+        "change": -21.3,
         "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
       },
       {
@@ -472,10 +458,10 @@
         "slug": "anthropic/claude-4.7-opus",
         "name": "Claude 4.7 Opus",
         "org": "anthropic",
-        "total_tokens": 244960601070,
+        "total_tokens": 245275449539,
         "total_tokens_str": "245B",
         "api_calls": 0,
-        "change": -33.9,
+        "change": -33.8,
         "url": "https://openrouter.ai/anthropic/claude-4.7-opus"
       },
       {
@@ -483,10 +469,10 @@
         "slug": "anthropic/claude-4.8-opus",
         "name": "Claude 4.8 Opus",
         "org": "anthropic",
-        "total_tokens": 179166474430,
-        "total_tokens_str": "179B",
+        "total_tokens": 179699821791,
+        "total_tokens_str": "180B",
         "api_calls": 0,
-        "change": -44.6,
+        "change": -44.4,
         "url": "https://openrouter.ai/anthropic/claude-4.8-opus"
       },
       {
@@ -494,13 +480,13 @@
         "slug": "moonshotai/kimi-k3",
         "name": "Kimi K3",
         "org": "moonshotai",
-        "total_tokens": 139287899335,
-        "total_tokens_str": "139B",
+        "total_tokens": 140218527234,
+        "total_tokens_str": "140B",
         "api_calls": 0,
-        "change": 93.4,
+        "change": 94.7,
         "url": "https://openrouter.ai/moonshotai/kimi-k3"
       }
     ],
-    "hf_summary": "多模态理解模型领跑，文本生成热度分化"
+    "hf_summary": "多模态模型热度上升，小参数模型受追捧"
   }
 }
