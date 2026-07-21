@@ -1,0 +1,516 @@
+{
+  "date": "2026-07-21",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Anthropic 15亿美元版权和解案获最终批准",
+      "finding": "法院正式批准Anthropic与出版商的15亿美元版权和解协议，这是AI行业迄今最大的版权和解案。该案虽告一段落，但并未解决用受版权保护作品训练AI模型的根本法律问题。",
+      "key_data": [
+        "15亿美元",
+        "版权和解",
+        "最终批准",
+        "法律先例"
+      ],
+      "judgment": "这对所有AI公司是重大信号：版权成本将成为模型训练的固定支出，闭源模型的商业成本会持续上升，开源模型的相对优势进一步凸显。",
+      "confidence": 5,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/"
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI 发布长周期模型安全与对齐经验",
+      "finding": "OpenAI分享了部署长时间运行AI模型的安全经验，揭示了新的安全风险、观察到的失败模式，以及通过迭代部署改进的防护措施。这是业界首次系统性地总结长周期Agent的安全实践。",
+      "key_data": [
+        "长周期模型",
+        "安全对齐",
+        "迭代部署",
+        "失败模式"
+      ],
+      "judgment": "随着Agent从单步问答转向多步自主执行，安全范式必须从'输出过滤'转向'过程监控'。这篇报告是所有做Agent产品的团队必读的安全设计参考。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models"
+    },
+    {
+      "rank": 3,
+      "title": "中国开源权重AI战略正在获胜",
+      "finding": "一篇在Hacker News上获得近千点赞的分析文章指出，美国AI公司坚持闭源和专有化策略正在输给中国的开源权重AI战略。文章认为开源模式在开发者生态、创新速度和全球影响力上已占据优势。",
+      "key_data": [
+        "开源权重",
+        "中国AI战略",
+        "开发者生态",
+        "全球影响力"
+      ],
+      "judgment": "这不是技术路线之争，而是生态之战。开源权重模型正在成为全球AI基础设施的'公共品'，闭源模型的护城河正在被侵蚀，开发者应优先选择开源生态。",
+      "confidence": 4,
+      "source": "Hacker News",
+      "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/"
+    },
+    {
+      "rank": 4,
+      "title": "Sam Altman 透露 OpenAI 即将发布开源语言模型",
+      "finding": "Sam Altman在内部讨论中表示，OpenAI正在认真讨论开源战略，计划很快发布一个具备适当能力的开源语言模型。这标志着OpenAI从完全闭源向开源迈出重要一步。",
+      "key_data": [
+        "开源战略",
+        "即将发布",
+        "适当能力",
+        "战略转向"
+      ],
+      "judgment": "这是OpenAI战略的重大转向。面对中国开源模型的竞争压力和开发者社区的流失，OpenAI被迫重新拥抱开源。这对整个AI生态是利好，但开源模型的'能力天花板'将是关键看点。",
+      "confidence": 4,
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything"
+    },
+    {
+      "rank": 5,
+      "title": "逆向工程现在变得很便宜",
+      "finding": "Simon Willison观察到，越来越多的人使用AI编程Agent来逆向工程和自动化家中的设备。他认为这体现了编程成本大幅下降带来的实际影响——以前需要专业知识的任务现在变得人人可及。",
+      "key_data": [
+        "逆向工程",
+        "编程成本下降",
+        "AI Agent",
+        "人人可及"
+      ],
+      "judgment": "AI编程正在从'写代码'进化到'理解系统'。当逆向工程这种高门槛技能被AI平民化，意味着软件行业的护城河正在被彻底重塑，开发者需要重新定义自己的核心竞争力。",
+      "confidence": 4,
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "arXiv",
+      "title": "Cura 1T：面向医疗Agent的专用模型",
+      "finding": "研究人员发布了Cura 1T，一个专门为医疗场景设计的1万亿参数模型，覆盖高风险的医患沟通、专家推理和临床工作流执行。这是目前最大的医疗专用模型。",
+      "key_data": [
+        "1万亿参数",
+        "医疗专用",
+        "Agentic",
+        "临床工作流"
+      ],
+      "judgment": "垂直领域大模型正在从通用模型手中抢走专业场景。医疗、法律、金融等高风险行业将率先采用专用模型，通用模型在专业场景的竞争力将下降。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.15314",
+      "importance": 3
+    },
+    {
+      "source": "arXiv",
+      "title": "SkillCorpus：整合与评估面向真实世界LLM Agent的开放技能生态系统",
+      "finding": "研究者系统梳理了当前LLM Agent的'技能'生态（SKILL.md文件），发现这些可复用的过程性知识包虽然流行，但存在质量参差、互操作性差等问题，并提出了统一的评估框架。",
+      "key_data": [
+        "技能生态系统",
+        "SKILL.md",
+        "可复用知识",
+        "评估框架"
+      ],
+      "judgment": "Agent技能标准化是行业刚需。如果SKILL.md能形成类似npm的生态，Agent开发将从'写代码'变成'组装技能'，这将是Agent工程化的关键转折点。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.15557",
+      "importance": 3
+    },
+    {
+      "source": "arXiv",
+      "title": "多Agent数学推理中评审精度不保证批评采纳",
+      "finding": "研究发现，在多Agent数学推理系统中，即使评审者（Reviewer）给出的批评非常精确，被评审的Agent也不一定会采纳这些批评。这挑战了'多层评审=更好推理'的假设。",
+      "key_data": [
+        "评审精度",
+        "批评采纳",
+        "多Agent",
+        "推理失效"
+      ],
+      "judgment": "多Agent系统的设计不能想当然——加一个评审Agent不等于推理质量提升。Agent之间的'沟通鸿沟'是真实存在的，产品经理在设计Agent协作流程时必须考虑采纳率问题。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.15388",
+      "importance": 2
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA 发布 Cosmos 3 Edge 边缘模型",
+      "finding": "NVIDIA在Hugging Face上发布了Cosmos 3 Edge，一个面向边缘设备的轻量级世界模型，可在资源受限的设备上运行物理世界理解任务。",
+      "key_data": [
+        "边缘设备",
+        "世界模型",
+        "轻量级",
+        "物理理解"
+      ],
+      "judgment": "世界模型正在从云端走向边缘。这对机器人、自动驾驶和IoT设备是重大利好，边缘AI的推理能力将迎来质的飞跃。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "TechCrunch",
+      "title": "AI最重要的协议正在变得更易用",
+      "finding": "AI领域最重要的协议（推测为MCP或类似Agent通信协议）正在进行重大改进，采用更宽松的'无状态'方式处理服务端会话ID，类似于普通网站的工作方式，大幅降低了使用门槛。",
+      "key_data": [
+        "无状态协议",
+        "会话ID",
+        "降低门槛",
+        "Agent通信"
+      ],
+      "judgment": "Agent通信协议的简化是行业成熟的关键标志。当协议变得像HTTP一样简单，Agent之间的互操作性将爆发，这是Agent生态走向繁荣的基础设施前提。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Google正在研发让Gemini更高效的新AI芯片",
+      "finding": "Alphabet正在研发一款新的AI芯片，专门设计用于让Gemini模型运行得更高效。这是Google在自研芯片上的又一布局，旨在降低推理成本并减少对NVIDIA的依赖。",
+      "key_data": [
+        "自研芯片",
+        "Gemini效率",
+        "降低推理成本",
+        "去NVIDIA化"
+      ],
+      "judgment": "大厂自研芯片已成趋势。Google、微软、亚马逊都在走这条路，长期来看将打破NVIDIA的垄断，降低AI推理成本，对开发者是利好。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+      "importance": 2
+    },
+    {
+      "source": "36氪",
+      "title": "月泉仿生获数亿元融资，仿生拉压体灵巧手万台量产",
+      "finding": "月泉仿生完成数亿元Pre-A+轮融资，其仿生拉压体灵巧手已实现万台量产且订单过亿。公司致力于打造'大脑-身体-环境'一体化的仿生具身智能体系。",
+      "key_data": [
+        "数亿元融资",
+        "万台量产",
+        "灵巧手",
+        "具身智能"
+      ],
+      "judgment": "具身智能正在从实验室走向量产。灵巧手作为机器人的关键执行器，万台量产意味着供应链正在成熟，人形机器人的商业化拐点可能比预期更早到来。",
+      "confidence": 4,
+      "url": "https://36kr.com/p/3899174356387718?f=rss",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Sam Altman",
+      "level": "L3",
+      "quote": "我们正在认真讨论开源战略，计划很快发布一个具备适当能力的开源语言模型。",
+      "source": "Simon Willison"
+    },
+    {
+      "person": "Ben Thompson",
+      "level": "L2",
+      "quote": "中国开源权重AI战略正在获胜，美国AI公司坚持闭源和专有化策略正在输掉这场生态之战。",
+      "source": "Simon Willison"
+    },
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "逆向工程现在变得很便宜，人们用AI编程Agent就能自动化家中的设备，这体现了编程成本大幅下降带来的实际影响。",
+      "source": "Simon Willison"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "长周期AI Agent的安全设计范式",
+      "reason": "OpenAI刚发布系统性的安全报告，这是Agent从单步到多步的关键安全设计参考",
+      "priority": "high"
+    },
+    {
+      "topic": "开源权重模型 vs 闭源模型的生态竞争力对比",
+      "reason": "中国开源战略正在全球获胜，OpenAI被迫转向开源，这是行业格局转折点",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "开源浪潮席卷，版权成本落地，Agent安全成焦点",
+  "summary_paragraph": "今天的AI行业迎来多个转折信号。Anthropic的15亿美元版权和解案获批，标志着版权成本正式成为AI公司的固定支出，闭源模型的商业压力进一步加大。与此同时，Sam Altman透露OpenAI即将发布开源模型，Ben Thompson的分析文章指出中国开源权重战略正在全球获胜，开源与闭源的攻守之势正在逆转。在技术层面，OpenAI发布了长周期Agent的安全对齐经验，这是业界首份系统性安全设计指南，所有做Agent产品的团队都应研读。此外，AI编程的平民化效应正在显现——逆向工程这种高门槛技能已被AI Agent变得人人可及，软件行业的护城河正在被彻底重塑。",
+  "snapshot": {
+    "date": "2026-07-21",
+    "hf_trending": [
+      {
+        "name": "thinkingmachines/Inkling",
+        "short_name": "Inkling",
+        "likes": 1270,
+        "downloads": 13462,
+        "url": "https://huggingface.co/thinkingmachines/Inkling",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "inkling_mm_model"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "prism-ml/Ternary-Bonsai-27B-gguf",
+        "short_name": "Ternary-Bonsai-27B-gguf",
+        "likes": 855,
+        "downloads": 338945,
+        "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+        "tags": [
+          "llama.cpp",
+          "gguf",
+          "conversational"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "prism-ml/Bonsai-27B-gguf",
+        "short_name": "Bonsai-27B-gguf",
+        "likes": 542,
+        "downloads": 1262894,
+        "url": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
+        "tags": [
+          "llama.cpp",
+          "gguf",
+          "conversational"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "baidu/Unlimited-OCR",
+        "short_name": "Unlimited-OCR",
+        "likes": 2444,
+        "downloads": 2122848,
+        "url": "https://huggingface.co/baidu/Unlimited-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "unlimited-ocr"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "zai-org/GLM-5.2",
+        "short_name": "GLM-5.2",
+        "likes": 4226,
+        "downloads": 531947,
+        "url": "https://huggingface.co/zai-org/GLM-5.2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "short_name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "likes": 2369,
+        "downloads": 2117323,
+        "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+        "tags": [
+          "gguf",
+          "llama.cpp",
+          "quantized"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "conradlocke/krea2-identity-edit",
+        "short_name": "krea2-identity-edit",
+        "likes": 458,
+        "downloads": 0,
+        "url": "https://huggingface.co/conradlocke/krea2-identity-edit",
+        "tags": [
+          "image-editing",
+          "lora",
+          "comfyui"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "short_name": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "likes": 2937,
+        "downloads": 2007025,
+        "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "tags": [
+          "gguf",
+          "uncensored",
+          "qwen3.6"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "bojieli/ai-agent-book",
+        "desc": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+        "stars": 10239,
+        "stars_today": 4434,
+        "forks": 958,
+        "language": "Python",
+        "url": "https://github.com/bojieli/ai-agent-book"
+      },
+      {
+        "name": "tirth8205/code-review-graph",
+        "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI ",
+        "stars": 23316,
+        "stars_today": 1833,
+        "forks": 2279,
+        "language": "Python",
+        "url": "https://github.com/tirth8205/code-review-graph"
+      },
+      {
+        "name": "1jehuang/jcode",
+        "desc": "The most intelligent agent harness for code",
+        "stars": 9690,
+        "stars_today": 568,
+        "forks": 1084,
+        "language": "Rust",
+        "url": "https://github.com/1jehuang/jcode"
+      },
+      {
+        "name": "diegosouzapw/OmniRoute",
+        "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claud",
+        "stars": 21944,
+        "stars_today": 1107,
+        "forks": 2973,
+        "language": "TypeScript",
+        "url": "https://github.com/diegosouzapw/OmniRoute"
+      },
+      {
+        "name": "rohitg00/ai-engineering-from-scratch",
+        "desc": "Learn it. Build it. Ship it for others.",
+        "stars": 40594,
+        "stars_today": 823,
+        "forks": 6727,
+        "language": "Python",
+        "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "tencent/hy3-20260706:free",
+        "name": "Hy3 20260706:free",
+        "org": "tencent",
+        "total_tokens": 1754733881115,
+        "total_tokens_str": "1.8T",
+        "api_calls": 0,
+        "change": 12.2,
+        "url": "https://openrouter.ai/tencent/hy3-20260706:free"
+      },
+      {
+        "rank": 2,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 1325483303414,
+        "total_tokens_str": "1.3T",
+        "api_calls": 0,
+        "change": 10.0,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 3,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "org": "deepseek",
+        "total_tokens": 713920960951,
+        "total_tokens_str": "714B",
+        "api_calls": 0,
+        "change": 6.2,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
+        "org": "deepseek",
+        "total_tokens": 432821479788,
+        "total_tokens_str": "433B",
+        "api_calls": 0,
+        "change": 11.6,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 5,
+        "slug": "z-ai/glm-5.2",
+        "name": "GLM 5.2",
+        "org": "z-ai",
+        "total_tokens": 405883167816,
+        "total_tokens_str": "406B",
+        "api_calls": 0,
+        "change": -19.6,
+        "url": "https://openrouter.ai/z-ai/glm-5.2"
+      },
+      {
+        "rank": 6,
+        "slug": "minimax/minimax-m3",
+        "name": "MiniMax M3",
+        "org": "minimax",
+        "total_tokens": 258141053101,
+        "total_tokens_str": "258B",
+        "api_calls": 0,
+        "change": -34.9,
+        "url": "https://openrouter.ai/minimax/minimax-m3"
+      },
+      {
+        "rank": 7,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604:free",
+        "name": "Nemotron 3 Ultra 550b A55b 20260604:free",
+        "org": "nvidia",
+        "total_tokens": 252529587680,
+        "total_tokens_str": "253B",
+        "api_calls": 0,
+        "change": -42.9,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604:free"
+      },
+      {
+        "rank": 8,
+        "slug": "anthropic/claude-4.7-opus",
+        "name": "Claude 4.7 Opus",
+        "org": "anthropic",
+        "total_tokens": 215287574093,
+        "total_tokens_str": "215B",
+        "api_calls": 0,
+        "change": 43.3,
+        "url": "https://openrouter.ai/anthropic/claude-4.7-opus"
+      },
+      {
+        "rank": 9,
+        "slug": "anthropic/claude-4.8-opus",
+        "name": "Claude 4.8 Opus",
+        "org": "anthropic",
+        "total_tokens": 211838336477,
+        "total_tokens_str": "212B",
+        "api_calls": 0,
+        "change": 122.6,
+        "url": "https://openrouter.ai/anthropic/claude-4.8-opus"
+      },
+      {
+        "rank": 10,
+        "slug": "anthropic/claude-sonnet-5",
+        "name": "Claude Sonnet 5",
+        "org": "anthropic",
+        "total_tokens": 175726599405,
+        "total_tokens_str": "176B",
+        "api_calls": 0,
+        "change": 51.7,
+        "url": "https://openrouter.ai/anthropic/claude-sonnet-5"
+      }
+    ],
+    "hf_summary": "多模态模型主导，文本生成热度分化"
+  }
+}
