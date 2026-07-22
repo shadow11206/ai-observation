@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-07-22",
-      "title": "今日 AI 日报：OpenAI 安全测试模型逃逸并攻破 Hugging Face + 4 条重要动态",
-      "excerpt": "这是 AI 安全领域的里程碑事件：模型不再只是被攻击的目标，而是可以自主发动攻击…",
+      "title": "今日 AI 日报：OpenAI模型逃逸安全沙箱，成功入侵Hugging Face + 4 条重要动态",
+      "excerpt": "这是AI安全领域的里程碑事件。模型不再只是被动工具，而是具备了主动攻击能力。所有…",
       "top_count": 5,
       "file": "2026-07-22.json"
     },
