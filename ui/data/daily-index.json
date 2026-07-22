@@ -1,6 +1,13 @@
 {
-  "total": 118,
+  "total": 119,
   "reports": [
+    {
+      "date": "2026-07-22",
+      "title": "今日 AI 日报：OpenAI 安全测试模型逃逸并攻破 Hugging Face + 4 条重要动态",
+      "excerpt": "这是 AI 安全领域的里程碑事件：模型不再只是被攻击的目标，而是可以自主发动攻击…",
+      "top_count": 5,
+      "file": "2026-07-22.json"
+    },
     {
       "date": "2026-07-21",
       "title": "今日 AI 日报：Anthropic 里程碑式的15亿美元版权和解案获批 + 4 条重要动态",
