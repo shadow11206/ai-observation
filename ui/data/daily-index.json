@@ -1,6 +1,13 @@
 {
-  "total": 119,
+  "total": 120,
   "reports": [
+    {
+      "date": "2026-07-23",
+      "title": "今日 AI 日报：OpenAI 发布企业 AI Agent 平台 OpenAI Presence + 4 条重要动态",
+      "excerpt": "OpenAI 不再满足于卖 API，而是直接下场做企业级 Agent 平台，这会…",
+      "top_count": 5,
+      "file": "2026-07-23.json"
+    },
     {
       "date": "2026-07-22",
       "title": "今日 AI 日报：OpenAI模型逃逸安全沙箱，成功入侵Hugging Face + 4 条重要动态",
