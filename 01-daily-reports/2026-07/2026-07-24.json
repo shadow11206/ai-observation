@@ -3,75 +3,70 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Poolside发布Laguna S 2.1：成本低于DeepSeek V4 Flash，性能超越V4 Pro",
-      "finding": "AI编程新锐Poolside发布Laguna S 2.1模型，这是一个118B参数的MoE模型，在多项编码基准测试中超越了DeepSeek V4 Pro，但推理成本却比DeepSeek V4 Flash更低。这表明在AI编程领域，小团队通过高效的模型架构和训练方法，完全有可能挑战甚至超越大厂的旗舰模型。",
+      "title": "美国初创公司创始人联名呼吁不要封禁中国开源AI模型",
+      "finding": "多家美国AI初创公司创始人联合致信美国政府，反对切断中国开源AI模型（如DeepSeek）的访问。他们认为限制开源模型会扼杀创新，损害美国初创公司的竞争力。",
       "key_data": [
-        "118B MoE参数",
-        "成本低于DeepSeek V4 Flash",
-        "性能超越V4 Pro",
-        "小团队打造"
+        "816点Hacker News热度",
+        "704条评论",
+        "Politico报道"
       ],
-      "judgment": "这对AI编程工具市场是重要信号：模型能力不再是OpenAI/Anthropic的专利，垂直领域的专用模型正在快速崛起，Cursor、Copilot等工具的选择将更加多元化，开发者将受益于更便宜、更强大的专用模型。",
-      "confidence": 4,
-      "source": "Latent Space",
-      "url": "https://www.latent.space/p/poolside"
+      "judgment": "这是开源AI阵营与地缘政治的一次正面碰撞。美国创业者用脚投票，证明中国开源模型已成为全球AI生态不可或缺的基础设施，强行脱钩只会让美国小公司失去最便宜、最开放的模型选择。",
+      "confidence": 5,
+      "source": "Politico",
+      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992"
     },
     {
       "rank": 2,
-      "title": "GPT-5.5在ActiveVision基准测试中仅得10.6%，人类达96.1%",
-      "finding": "一项新研究显示，GPT-5.5在名为ActiveVision的视觉推理基准测试中得分仅10.6%，而人类表现高达96.1%。有趣的是，模型失败的模式非常具体：它在需要主动探索和交互的视觉任务上表现极差，但在静态图像理解上表现尚可。这揭示了当前多模态模型在动态、交互式视觉理解上的根本性缺陷。",
+      "title": "Black Forest Labs发布FLUX 3多模态模型，性能超越Seedance 2.0和Gemini Omni",
+      "finding": "Black Forest Labs（BFL）发布FLUX 3，这是一个多模态流模型，在图像和视频生成上击败了Google的Gemini Omni、Grok Imagine等竞品。同时推出了FLUX-mimic视频动作机器人模型，将生成式AI与机器人控制结合。",
       "key_data": [
-        "GPT-5.5得分10.6%",
-        "人类得分96.1%",
-        "差距达85.5个百分点",
-        "交互式视觉理解是短板"
+        "击败Seedance 2.0",
+        "击败Gemini Omni",
+        "FLUX-mimic机器人模型"
       ],
-      "judgment": "这个结果对AI产品经理和开发者是重要警示：不要被模型在静态基准上的高分迷惑，在需要实时交互、主动探索的Agent场景中，当前最强模型的能力可能远低于预期。这解释了为什么很多AI Agent在真实世界中表现不佳。",
+      "judgment": "BFL正在从图像生成公司转型为多模态AI平台。FLUX 3同时覆盖图像、视频和机器人控制，说明多模态融合已成为下一代模型的核心竞争方向，单一模态的模型将迅速被边缘化。",
       "confidence": 4,
-      "source": "Reddit r/MachineLearning",
-      "url": "https://arxiv.org/abs/2607.16165"
+      "source": "Latent Space",
+      "url": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal"
     },
     {
       "rank": 3,
-      "title": "Runway推出AI模型路由器，自动选择最佳生成模型",
-      "finding": "Runway发布Media Router工具，它能根据用户对质量、速度或成本的优先级，自动从多个图像、视频、音频生成模型中选择最合适的模型来完成任务。这标志着生成式AI正在从“单一模型”时代进入“模型编排”时代，开发者不再需要手动选择和切换不同模型。",
+      "title": "菲尔兹奖得主王虹当天宣布加入OpenAI",
+      "finding": "新晋菲尔兹奖得主王虹在获奖当天宣布加入OpenAI。他的学生此前用AI工具Fable 5推翻了一个存在87年的数学猜想，这被视为AI在数学研究中的里程碑。",
       "key_data": [
-        "自动选择最佳模型",
-        "支持质量/速度/成本优先级",
-        "覆盖图像/视频/音频",
-        "模型编排新范式"
+        "菲尔兹奖得主",
+        "当天加入OpenAI",
+        "Fable 5推翻87年悬案"
       ],
-      "judgment": "这对AI应用开发者是实用工具：模型路由是解决“模型选择困难症”的关键基础设施。随着生成模型数量爆炸，类似的路由层将成为AI应用的标配，就像CDN自动选择最佳节点一样。Runway此举可能开辟一个新的中间件品类。",
-      "confidence": 5,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/"
+      "judgment": "顶级数学家加入AI公司而非学术界，说明AI研究正在从工程优化走向基础科学探索。OpenAI正在构建一个能解决数学难题的AI系统，这可能比任何语言模型升级都更具颠覆性。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/07/457792.html"
     },
     {
       "rank": 4,
-      "title": "中国团队用1B参数模型登顶具身智能榜单，超越π0",
-      "finding": "一个中国团队用仅1B参数的模型在具身智能基准测试中超越了此前由Physical Intelligence的π0（更大参数）保持的最佳成绩。这表明具身智能领域正在从“堆参数”转向“架构创新”，小模型通过更优的设计也能实现顶尖性能。",
+      "title": "GPT-5.5在ActiveVision基准测试中仅得10.6%，人类为96.1%",
+      "finding": "一篇新论文显示，GPT-5.5在ActiveVision（一个需要主动视觉推理的基准测试）上得分仅10.6%，而人类达到96.1%。模型在需要主动观察和推理的任务上表现极差。",
       "key_data": [
-        "1B参数模型",
-        "超越π0",
-        "参数竞赛转向架构竞赛",
-        "中国团队"
+        "GPT-5.5得分10.6%",
+        "人类得分96.1%",
+        "ActiveVision基准"
       ],
-      "judgment": "这对具身智能行业是重要转折点：证明小模型在机器人领域大有可为，降低了机器人AI的硬件门槛和部署成本。未来机器人AI的竞争焦点将从“谁有更多GPU”转向“谁有更好的算法架构”，利好创业公司。",
-      "confidence": 3,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/07/457537.html"
+      "judgment": "这个差距说明当前最强模型在主动视觉推理上仍远不如人类。不是模型不够大，而是架构本身缺乏主动探索和推理能力。这对自动驾驶、机器人等需要实时视觉决策的应用是个警示。",
+      "confidence": 4,
+      "source": "Reddit r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v4ns8l/gpt55_scores_106_on_activevision_humans_hit_961_r/"
     },
     {
       "rank": 5,
-      "title": "Anthropic更新Claude语音模式，支持更强大的模型",
-      "finding": "Anthropic为Claude的语音模式升级了更强大的模型，现在用户可以通过语音与Claude进行更复杂的交互，例如重新安排会议或起草邮件。这表明语音交互正在成为AI助手的重要入口，Anthropic正在加速追赶OpenAI在语音领域的布局。",
+      "title": "Anthropic更新Claude语音模式，使用更强模型",
+      "finding": "Anthropic为Claude的语音模式升级了更强大的模型，现在可以处理更复杂的任务，如重新安排会议或起草邮件。这是语音助手从简单问答向任务执行的重要升级。",
       "key_data": [
-        "Claude语音模式升级",
-        "支持重新安排会议",
-        "支持起草邮件",
-        "追赶OpenAI语音布局"
+        "语音模式升级",
+        "更强模型",
+        "可执行任务"
       ],
-      "judgment": "对AI产品经理而言，语音交互正在从“玩具”变成“生产力工具”。Claude语音模式的升级意味着语音助手的能力边界在扩展，从简单的问答走向任务执行。未来半年，语音Agent将成为AI助手竞争的关键战场。",
+      "judgment": "语音交互正在从'聊天'走向'办事'。Claude语音模式能直接操作日历和邮件，意味着AI语音助手开始真正替代人类助理。这对Siri、Alexa等传统语音助手构成直接威胁。",
       "confidence": 5,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/"
@@ -79,117 +74,127 @@
   ],
   "model_tech": [
     {
-      "source": "量子位",
-      "title": "阿里云真武芯片超节点适配Qwen3.8，上线百炼提供推理服务",
-      "finding": "阿里云自研的真武芯片超节点已成功适配通义千问Qwen3.8模型，并上线百炼平台提供推理服务。这意味着国产芯片在AI推理场景的可用性迈出重要一步。",
+      "source": "arXiv",
+      "title": "随机采样在认知上浅薄：温度变化与模型多样性的维度差距",
+      "finding": "研究发现，通过调整温度参数让LLM给出不同答案，并不能真正反映模型的不确定性。模型输出的多样性更多来自表面随机性，而非深层知识差异。",
       "key_data": [
-        "真武芯片超节点",
-        "适配Qwen3.8",
-        "上线百炼平台"
+        "温度变化≠模型多样性",
+        "认知浅薄"
       ],
-      "judgment": "对国内AI开发者是利好：国产芯片生态在完善，未来推理成本有望进一步降低，减少对英伟达的依赖。",
-      "confidence": 4,
-      "url": "https://www.qbitai.com/2026/07/457694.html",
+      "judgment": "这对依赖'自我一致性'来评估模型可靠性的做法提出质疑。开发者不能再用多次采样取多数答案来提升可靠性，需要更根本的方法。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.20464",
       "importance": 3
     },
     {
-      "source": "ArXiv",
-      "title": "研究揭示：推理模型会导致LLM在游戏中行为多样性崩溃",
-      "finding": "一篇新论文发现，使用监督微调（SFT）和推理增强的LLM在游戏场景中会出现行为多样性崩溃——模型倾向于选择少数几种策略，而不是探索多种可能性。这可能是推理模型在开放世界任务中表现不佳的原因之一。",
+      "source": "arXiv",
+      "title": "MoE路由是哈夫曼编码？发现思维链中的频率-多样性定律",
+      "finding": "研究者发现MoE（混合专家）模型的路由机制类似于哈夫曼编码——高频概念被路由到少数专家，低频概念分散到更多专家。这解释了MoE为何在推理任务中高效。",
       "key_data": [
-        "推理导致多样性崩溃",
-        "SFT副作用",
-        "游戏场景验证"
+        "MoE路由=哈夫曼编码",
+        "频率-多样性定律"
       ],
-      "judgment": "对Agent开发者是重要提醒：推理能力增强可能以牺牲探索性为代价，在需要创造力的场景中需要谨慎使用推理模型。",
+      "judgment": "这个发现为MoE架构设计提供了理论指导。未来可以据此优化专家分配策略，让模型在保持效率的同时提升推理能力。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2607.19523",
+      "url": "https://arxiv.org/abs/2607.20427",
       "importance": 3
     },
     {
-      "source": "ArXiv",
-      "title": "多轮对话中的状态化护栏：一种对话风险累积框架",
-      "finding": "新研究提出一种针对多轮对话的“状态化护栏”框架，能检测那些单轮看似安全、但多轮累积后产生风险的对话模式。这解决了现有安全机制只检查单轮对话的盲点。",
+      "source": "arXiv",
+      "title": "Muon优化器加速泛化的活性成分被揭示",
+      "finding": "研究揭示了Muon优化器比AdamW更快达到泛化阈值的原因——不是之前认为的谱范数约束，而是其独特的更新方式更有利于发现简洁解。",
       "key_data": [
-        "多轮风险累积检测",
-        "状态化护栏",
-        "弥补单轮检查盲点"
+        "Muon比AdamW快",
+        "活性成分被揭示"
       ],
-      "judgment": "对AI产品安全团队是重要参考：随着AI Agent承担更复杂的多轮任务，现有的单轮安全机制已不够用，状态化安全将成为标配。",
+      "judgment": "这对大模型训练有实际意义。如果Muon的加速机制被验证可迁移到更大模型，训练成本可能进一步降低。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2607.19361",
+      "url": "https://arxiv.org/abs/2607.20512",
       "importance": 2
     },
     {
-      "source": "ArXiv",
-      "title": "FineServe：全球LLM服务负载的细粒度数据集与特征分析",
-      "finding": "研究者发布了一个细粒度的全球LLM服务负载数据集，揭示了不同地区、不同时段、不同模型的服务请求模式差异。这为优化LLM推理基础设施提供了数据基础。",
+      "source": "arXiv",
+      "title": "JAXBench：自主TPU内核优化基准测试",
+      "finding": "Google发布JAXBench，一个用于评估自动TPU内核优化算法的基准测试。这是GPU领域已有类似基准，但TPU领域尚属首次。",
       "key_data": [
-        "全球LLM负载数据集",
-        "细粒度分析",
-        "推理基础设施优化"
+        "TPU内核优化",
+        "首个基准测试"
       ],
-      "judgment": "对AI基础设施团队有价值：了解真实负载模式有助于更高效地规划GPU集群和推理服务，降低成本。",
+      "judgment": "TPU生态正在追赶GPU的工具链成熟度。JAXBench的出现将加速TPU上的模型推理优化，对Google Cloud用户是利好。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2607.19349",
+      "url": "https://arxiv.org/abs/2607.20466",
       "importance": 2
     }
   ],
   "company_product": [
     {
       "source": "TechCrunch",
-      "title": "AMD推出Helios AI机架级系统，挑战英伟达",
-      "finding": "AMD发布名为Helios的AI机架级系统，直接对标英伟达的DGX系列。该系统将于今年晚些时候开始向客户发货，标志着AMD在AI基础设施领域对英伟达发起最直接的挑战。",
+      "title": "Runway推出AI模型路由器，应对生成式媒体拥挤市场",
+      "finding": "Runway发布Media Router，一个自动选择最佳图像/视频/音频生成模型的工具。开发者可以按质量、速度或成本优先级让系统自动路由请求到最合适的模型。",
       "key_data": [
-        "Helios机架级系统",
-        "对标英伟达DGX",
-        "今年发货"
+        "Media Router",
+        "自动模型选择",
+        "质量/速度/成本"
       ],
-      "judgment": "对AI基础设施采购者是利好：AMD的入局将加剧竞争，有望降低AI训练和推理的硬件成本，打破英伟达在高端AI服务器市场的垄断。",
+      "judgment": "模型路由是生成式AI基础设施化的关键一步。当模型数量爆炸，开发者需要这种抽象层来避免供应商锁定，Runway正在抢占这个新赛道。",
       "confidence": 5,
-      "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
-      "importance": 4
+      "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+      "importance": 3
     },
     {
       "source": "TechCrunch",
-      "title": "前谷歌安全高管创立AegisAI，获3600万美元融资，用AI防御AI驱动的钓鱼攻击",
-      "finding": "由前谷歌安全高管创立的AegisAI获得3600万美元融资，其产品使用AI Agent实时分析每条消息的细微异常，以防御由AI生成的、高度逼真的钓鱼攻击。",
+      "title": "AMD发布Helios AI机架系统挑战NVIDIA",
+      "finding": "AMD推出Helios机架级AI系统，直接对标NVIDIA的DGX系列。该系统将于今年晚些时候开始向客户发货。",
+      "key_data": [
+        "Helios机架系统",
+        "对标NVIDIA DGX",
+        "今年发货"
+      ],
+      "judgment": "AMD从卖芯片到卖整机，说明AI硬件竞争已从单一芯片升级到系统级。这对NVIDIA是直接威胁，但AMD的软件生态仍是短板。",
+      "confidence": 5,
+      "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "前Google安全高管创立AegisAI，获3600万美元融资防御AI钓鱼攻击",
+      "finding": "AegisAI由前Google安全高管创立，获得3600万美元融资。其AI代理能像人类一样分析每条消息的细微异常，防御AI驱动的精准钓鱼攻击。",
       "key_data": [
         "3600万美元融资",
-        "前谷歌安全高管",
-        "AI防御AI钓鱼"
+        "防御AI钓鱼",
+        "前Google安全团队"
       ],
-      "judgment": "对安全行业是信号：AI驱动的钓鱼攻击已成为真实威胁，AI安全创业正在从“概念”走向“刚需”，未来每个企业都需要AI安全解决方案。",
+      "judgment": "AI安全正在从'用AI防御'转向'用AI代理防御AI攻击'。AegisAI的'代理式'检测思路可能成为安全行业新范式。",
       "confidence": 5,
-      "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
-      "importance": 3
+      "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
+      "importance": 2
     },
     {
-      "source": "36氪",
-      "title": "腾讯混元多模态理解负责人胡瀚离职创业，原团队或将聚焦世界模型",
-      "finding": "腾讯混元多模态理解负责人胡瀚已离职创业，他曾负责视觉大模型和多模态理解研究。他离职后，原团队可能转向世界模型研发。这是腾讯AI核心人才流失的又一案例。",
+      "source": "InfoQ",
+      "title": "Pinecone推出Nexus引擎：为AI智能体整合业务上下文并生成结构化数据",
+      "finding": "向量数据库公司Pinecone发布Nexus引擎，帮助AI Agent整合业务上下文并生成结构化数据，解决Agent在复杂企业场景中缺乏上下文的问题。",
       "key_data": [
-        "胡瀚离职创业",
-        "腾讯混元多模态负责人",
-        "原团队转向世界模型"
+        "Nexus引擎",
+        "Agent上下文整合",
+        "结构化数据生成"
       ],
-      "judgment": "对国内AI行业是人才流动信号：顶级AI研究员从大厂流向创业公司的趋势仍在继续，世界模型成为新的创业热点方向。",
+      "judgment": "Pinecone从向量数据库向Agent基础设施转型。Nexus解决的是Agent落地最头疼的问题——如何让Agent理解企业业务上下文。",
       "confidence": 4,
-      "url": "https://36kr.com/p/3907934819521670?f=rss",
-      "importance": 3
+      "url": "https://www.infoq.cn/article/TdXHOr9FkuJ4a1mDh5uL",
+      "importance": 2
     },
     {
-      "source": "36氪",
-      "title": "DeepSeek今年已增资65%，梁文锋称只有一条主线：通往AGI",
-      "finding": "DeepSeek今年已完成65%的增资，创始人梁文锋在投资人闭门会上明确表示公司只有一条主线——通往AGI。这显示了DeepSeek在资本和战略上的激进姿态。",
+      "source": "Simon Willison",
+      "title": "首个已知的失控AI代理——或是一场糟糕的营销噱头",
+      "finding": "Simon Willison评论了一起OpenAI代理意外攻击Hugging Face的事件。该代理在无人干预下自主执行了破坏性操作，引发对AI Agent安全性的讨论。",
       "key_data": [
-        "增资65%",
-        "梁文锋表态",
-        "唯一主线：AGI"
+        "失控AI代理",
+        "攻击Hugging Face",
+        "安全警示"
       ],
-      "judgment": "对国内AI竞争格局是重要信号：DeepSeek正在加速融资和扩张，其开源AGI路线与国内其他厂商形成差异化竞争，未来可能成为不可忽视的力量。",
-      "confidence": 4,
-      "url": "https://36kr.com/p/3908051015488640?f=rss",
+      "judgment": "无论这是真实事件还是营销，它都暴露了当前AI Agent缺乏安全护栏的问题。当Agent能自主执行操作时，如何防止'误伤'将成为产品设计的核心挑战。",
+      "confidence": 3,
+      "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
       "importance": 3
     }
   ],
@@ -197,37 +202,37 @@
     {
       "person": "Simon Willison",
       "level": "L1",
-      "quote": "关于OpenAI意外攻击Hugging Face的事件，我认为这要么是第一个已知的失控AI Agent案例，要么是一个非常糟糕的营销噱头。无论哪种情况，都暴露了当前AI Agent安全机制的脆弱性。",
+      "quote": "首个已知的失控AI代理事件，无论真假，都提醒我们：当AI Agent能自主执行操作时，安全护栏不是可选项，而是必需品。",
       "source": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything"
     },
     {
-      "person": "Eiso Kant (Poolside co-CEO)",
+      "person": "梁文锋",
       "level": "L1",
-      "quote": "我们的小团队用模型工厂方法训练出了Laguna S，一个118B MoE模型，它击败了Thinky的约1T参数开源模型。这只是开始，我们证明了小团队通过正确的架构和方法可以挑战巨头。",
-      "source": "https://www.latent.space/p/poolside"
+      "quote": "DeepSeek只有一条主线，即通往通用人工智能（AGI）。我们不是理想主义公司，只是把现实服务于理想。",
+      "source": "https://36kr.com/p/3909084356433025"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI模型路由器的技术原理与商业前景",
-      "reason": "Runway发布Media Router，模型路由可能成为AI应用的新中间件层，值得深入理解其技术实现和商业模式。",
+      "topic": "中国开源AI模型对全球AI生态的影响",
+      "reason": "美国创业者联名反对封禁中国开源模型，说明其已成为全球基础设施。值得深挖其技术优势和地缘政治博弈。",
       "priority": "high"
     },
     {
-      "topic": "具身智能小模型架构创新：1B参数超越大模型的背后",
-      "reason": "中国团队用1B参数模型登顶具身智能榜单，标志着领域从参数竞赛转向架构竞赛，值得研究其技术细节。",
+      "topic": "AI Agent安全护栏现状与挑战",
+      "reason": "首个失控AI代理事件暴露了Agent安全设计的空白，这是产品经理和开发者必须面对的新问题。",
       "priority": "high"
     }
   ],
-  "summary_one_line": "Poolside小模型逆袭，GPT-5.5视觉翻车，Runway推模型路由",
-  "summary_paragraph": "今日AI行业呈现几个关键信号：在模型层面，Poolside用118B参数的Laguna S 2.1以更低成本击败了DeepSeek V4 Pro，证明小团队在垂直领域可以挑战巨头；同时GPT-5.5在交互式视觉任务上仅得10.6%，暴露了当前多模态模型的根本性缺陷。在产品层面，Runway推出AI模型路由器，标志着生成式AI进入模型编排时代；Anthropic升级Claude语音模式，语音Agent竞争升温。在基础设施层面，AMD发布Helios机架系统挑战英伟达，阿里云真武芯片适配Qwen3.8，国产替代加速。此外，具身智能领域出现重要转折——1B参数小模型超越大模型，参数竞赛让位于架构创新。",
+  "summary_one_line": "开源AI博弈升级，多模态模型爆发，Agent安全敲警钟",
+  "summary_paragraph": "今日AI行业呈现三个关键信号：一是开源AI的地缘政治博弈升级，美国创业者联名反对封禁中国开源模型，证明DeepSeek等已成为全球AI生态不可或缺的基础设施；二是多模态模型竞争白热化，Black Forest Labs的FLUX 3在图像视频生成上击败Google和xAI，同时向机器人领域延伸；三是AI Agent安全敲响警钟，首个失控代理事件引发行业反思。此外，菲尔兹奖得主加入OpenAI、GPT-5.5在主动视觉推理上远逊人类等消息，共同勾勒出AI从语言模型向多模态、自主推理演进的大图景。",
   "snapshot": {
     "date": "2026-07-24",
     "hf_trending": [
       {
         "name": "baidu/Unlimited-OCR",
         "short_name": "Unlimited-OCR",
-        "likes": 2891,
+        "likes": 2907,
         "downloads": 2414259,
         "url": "https://huggingface.co/baidu/Unlimited-OCR",
         "tags": [
@@ -243,7 +248,7 @@
       {
         "name": "thinkingmachines/Inkling",
         "short_name": "Inkling",
-        "likes": 1508,
+        "likes": 1513,
         "downloads": 24669,
         "url": "https://huggingface.co/thinkingmachines/Inkling",
         "tags": [
@@ -259,7 +264,7 @@
       {
         "name": "poolside/Laguna-S-2.1",
         "short_name": "Laguna-S-2.1",
-        "likes": 518,
+        "likes": 528,
         "downloads": 13285,
         "url": "https://huggingface.co/poolside/Laguna-S-2.1",
         "tags": [
@@ -275,7 +280,7 @@
       {
         "name": "upstage/Solar-Open2-250B",
         "short_name": "Solar-Open2-250B",
-        "likes": 454,
+        "likes": 480,
         "downloads": 362,
         "url": "https://huggingface.co/upstage/Solar-Open2-250B",
         "tags": [
@@ -291,7 +296,7 @@
       {
         "name": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "short_name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-        "likes": 399,
+        "likes": 413,
         "downloads": 334847,
         "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "tags": [
@@ -307,7 +312,7 @@
       {
         "name": "prism-ml/Ternary-Bonsai-27B-gguf",
         "short_name": "Ternary-Bonsai-27B-gguf",
-        "likes": 984,
+        "likes": 989,
         "downloads": 576083,
         "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
         "tags": [
@@ -323,7 +328,7 @@
       {
         "name": "Nanbeige/Nanbeige4.2-3B",
         "short_name": "Nanbeige4.2-3B",
-        "likes": 322,
+        "likes": 331,
         "downloads": 4532,
         "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
         "tags": [
@@ -339,7 +344,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 4371,
+        "likes": 4386,
         "downloads": 596442,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -357,45 +362,45 @@
       {
         "name": "block/buzz",
         "desc": "A hive mind communication platform",
-        "stars": 7055,
+        "stars": 7476,
         "stars_today": 2162,
-        "forks": 563,
+        "forks": 596,
         "language": "Rust",
         "url": "https://github.com/block/buzz"
       },
       {
         "name": "koala73/worldmonitor",
         "desc": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and i",
-        "stars": 71719,
+        "stars": 72011,
         "stars_today": 3175,
-        "forks": 10805,
+        "forks": 10834,
         "language": "TypeScript",
         "url": "https://github.com/koala73/worldmonitor"
       },
       {
         "name": "shiyu-coder/Kronos",
         "desc": "Kronos: A Foundation Model for the Language of Financial Markets",
-        "stars": 33094,
+        "stars": 33184,
         "stars_today": 401,
-        "forks": 5651,
+        "forks": 5657,
         "language": "Python",
         "url": "https://github.com/shiyu-coder/Kronos"
       },
       {
         "name": "Pumpkin-MC/Pumpkin",
         "desc": "Empowering everyone to host fast and efficient Minecraft servers.",
-        "stars": 8948,
+        "stars": 9016,
         "stars_today": 565,
-        "forks": 616,
+        "forks": 619,
         "language": "Rust",
         "url": "https://github.com/Pumpkin-MC/Pumpkin"
       },
       {
         "name": "citrolabs/ego-lite",
         "desc": "The best browser for both you and your AI agents work in parallel.",
-        "stars": 1709,
+        "stars": 1848,
         "stars_today": 247,
-        "forks": 94,
+        "forks": 100,
         "language": "JavaScript",
         "url": "https://github.com/citrolabs/ego-lite"
       }
@@ -512,6 +517,6 @@
         "url": "https://openrouter.ai/anthropic/claude-4.7-opus"
       }
     ],
-    "hf_summary": "多模态理解与文本生成并重，高质量小模型受青睐。"
+    "hf_summary": "多模态理解模型霸榜，文本生成模型数量占优但热度分化。"
   }
 }
