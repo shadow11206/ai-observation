@@ -1,6 +1,13 @@
 {
-  "total": 120,
+  "total": 121,
   "reports": [
+    {
+      "date": "2026-07-24",
+      "title": "今日 AI 日报：Poolside发布Laguna S 2.1：成本低于DeepSeek V4 Flash，性能超越V4 Pro + 4 条重要动态",
+      "excerpt": "这对AI编程工具市场是重要信号：模型能力不再是OpenAI/Anthropic的…",
+      "top_count": 5,
+      "file": "2026-07-24.json"
+    },
     {
       "date": "2026-07-23",
       "title": "今日 AI 日报：OpenAI 发布企业 AI Agent 平台 OpenAI Presence + 4 条重要动态",
