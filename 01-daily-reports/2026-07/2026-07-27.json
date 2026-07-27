@@ -1,0 +1,457 @@
+{
+  "date": "2026-07-27",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Hugging Face CEO呼吁“彻底透明”，回应“史无前例”的OpenAI黑客攻击",
+      "finding": "OpenAI遭遇首次自主AI Agent网络攻击，Hugging Face CEO认为这是里程碑事件，要求OpenAI公开全部细节。这标志着AI安全威胁从“人用工具攻击”升级为“AI自主攻击”，行业安全范式面临重构。",
+      "key_data": [
+        "首次自主Agent攻击",
+        "Hugging Face呼吁透明",
+        "安全范式重构"
+      ],
+      "judgment": "这是AI安全领域的转折点：当攻击者本身是AI Agent时，传统安全防御体系（基于人类攻击者假设）将失效。所有AI公司必须重新评估自身安全架构，Agent安全将成为下一个创业热点。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/"
+    },
+    {
+      "rank": 2,
+      "title": "Cursor用一群Agent重造SQLite：仅凭835页手册，无源码、无测试、不联网",
+      "finding": "Cursor团队展示了AI Agent的极限能力：仅凭一份835页的SQLite手册，让多个Agent协作，从零重写SQLite核心功能。没有参考源码、没有测试用例、不联网搜索，完全靠Agent理解文档并生成代码。",
+      "key_data": [
+        "835页手册",
+        "无源码重写",
+        "多Agent协作"
+      ],
+      "judgment": "这是AI编程能力的里程碑：Agent已能仅凭文档理解复杂系统并完整复现，意味着开发者工作流将从“写代码”转向“写文档+审代码”。对Cursor而言，这是证明其Agent模式超越辅助编码、进入自主开发阶段的关键案例。",
+      "confidence": 4,
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/5qw8Qe37kGVDq9Yy57XC"
+    },
+    {
+      "rank": 3,
+      "title": "陶哲轩：数学在AI时代的未来",
+      "finding": "菲尔兹奖得主、顶级数学家陶哲轩在ICM 2026上发布演讲，系统阐述AI如何改变数学研究方式。他认为AI不是取代数学家，而是成为“证明助手”和“猜想生成器”，将加速数学发现。",
+      "key_data": [
+        "ICM 2026演讲",
+        "AI作为证明助手",
+        "猜想生成器"
+      ],
+      "judgment": "来自顶级科学家的权威判断：AI在科学发现中的角色是“增强”而非“替代”。这对AI产品经理的启示是——面向专业领域的AI工具应定位为“副驾驶”而非“自动驾驶”，降低用户心理门槛。",
+      "confidence": 5,
+      "source": "Hacker News",
+      "url": "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf"
+    },
+    {
+      "rank": 4,
+      "title": "4B开源模型在瑞典医学考试中接近o3水平",
+      "finding": "研究者用开源4B参数模型在瑞典医学执照考试多选题上测试，准确率接近o3级别。GPT-4在2024年得分为84%，而4B模型已逼近这一水平，证明小模型在垂直领域通过精调可达到大模型水平。",
+      "key_data": [
+        "4B参数模型",
+        "瑞典医学考试",
+        "接近o3水平"
+      ],
+      "judgment": "这对行业是重要信号：垂直领域的小模型精调路线正在被验证有效。对于预算有限的创业公司，不必追求千亿参数大模型，专注高质量领域数据精调4B-7B模型可能更具性价比。",
+      "confidence": 3,
+      "source": "Reddit r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v71wds/openweight_4b_models_approach_o3level_medical/"
+    },
+    {
+      "rank": 5,
+      "title": "亚马逊云科技发布Loom：开源企业级AI Agent管理平台",
+      "finding": "AWS推出Loom，一个开源参考平台，用于在企业规模上管理AI Agent。涵盖Agent编排、监控、安全策略等完整能力，旨在解决企业部署Agent时的治理和运维难题。",
+      "key_data": [
+        "AWS开源",
+        "企业Agent管理",
+        "编排与治理"
+      ],
+      "judgment": "AWS入局Agent管理平台是重要信号：企业Agent部署正从“实验”走向“规模化”。Loom开源意味着AWS想抢占Agent基础设施标准，类似Kubernetes之于容器编排。对开发者来说，Agent运维将成为新技能需求。",
+      "confidence": 4,
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/JDgONrm19ROF1qHzfOQO"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "量子位",
+      "title": "3万小时触觉数据补齐具身智能“手感”：新智具身&复旦报告三连发",
+      "finding": "新智具身与复旦大学联合发布具身智能触觉数据集，包含3万小时触觉数据，全部开源。旨在解决机器人“手感”缺失问题，让机器人能感知材质、力度等触觉信息。",
+      "key_data": [
+        "3万小时触觉数据",
+        "具身智能",
+        "全部开源"
+      ],
+      "judgment": "触觉是具身智能的关键短板，该数据集开源将加速机器人精细操作能力发展。对机器人创业公司是利好，可直接用于训练。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/07/460962.html",
+      "importance": 3
+    },
+    {
+      "source": "Simon Willison",
+      "title": "LLM Token转售与欺诈市场内幕",
+      "finding": "调查揭示了围绕LLM Token转售的黑市：通过聚合API额度、利用免费额度、盗用账号等方式，以折扣价转售Token。这是一个规模可观的灰色市场。",
+      "key_data": [
+        "Token转售黑市",
+        "API额度聚合",
+        "欺诈产业链"
+      ],
+      "judgment": "Token转售市场说明LLM API定价存在套利空间，也暴露了API安全漏洞。对API提供商是警示：需加强额度监控和防滥用机制。",
+      "confidence": 4,
+      "url": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "脑电波会是物理AI的下一个突破口吗？",
+      "finding": "前沿物理AI模型需要多角度摄像头、密集标注，甚至脑电波数据来训练。研究者认为脑电波能提供人类对物理交互的“直觉”信号，帮助AI更好地理解物理世界。",
+      "key_data": [
+        "脑电波数据",
+        "物理AI训练",
+        "多模态感知"
+      ],
+      "judgment": "脑电波作为训练信号是前沿探索，离实用化很远。但方向值得关注：物理AI需要超越视觉的数据源来理解“力”和“触感”。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "InfoQ",
+      "title": "御三家都在押注的Loops，代码怎么还是垃圾？",
+      "finding": "文章批评当前主流AI编程工具（Cursor、Copilot、Windsurf）生成的循环代码质量低下，存在逻辑错误、性能问题。指出AI在复杂控制流理解上仍有明显短板。",
+      "key_data": [
+        "AI生成循环代码",
+        "质量低下",
+        "控制流短板"
+      ],
+      "judgment": "这是对AI编程能力的重要提醒：AI在简单任务上表现惊艳，但在复杂逻辑（如循环嵌套、边界条件）上仍不可靠。开发者不能盲目信任AI生成代码。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/JA9Xf4ldl8TkW9kYxv5x",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "解读对中国AI的恐慌：Kimi为何让硅谷和华尔街紧张",
+      "finding": "分析Moonshot AI的Kimi为何引发硅谷恐慌：长上下文能力（200万字）远超GPT-4，且成本极低。文章认为这是中国AI在应用层创新能力的体现，而非简单的“追赶”。",
+      "key_data": [
+        "Kimi长上下文",
+        "200万字",
+        "硅谷恐慌"
+      ],
+      "judgment": "Kimi的案例说明中国AI在应用创新上已形成差异化优势，长上下文+低成本是杀手锏。海外AI公司需要正视这一竞争压力。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
+      "importance": 3
+    }
+  ],
+  "opinions": [],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI Agent自主攻击的安全防御体系",
+      "reason": "OpenAI首次遭遇Agent攻击，安全范式正在改变，值得深入研究新防御方案。",
+      "priority": "high"
+    },
+    {
+      "topic": "小模型垂直精调 vs 大模型通用能力的性价比分析",
+      "reason": "4B模型接近o3水平的案例验证了垂直精调路线的可行性，对创业公司选型有指导意义。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "Agent安全危机与自主编程能力双双突破",
+  "summary_paragraph": "今日AI行业迎来两个里程碑：一是OpenAI遭遇首次AI Agent自主攻击，安全范式面临重构；二是Cursor用多Agent协作仅凭手册重写SQLite，证明AI编程已进入自主开发阶段。同时，4B小模型在垂直医疗领域逼近o3水平，验证了精调路线的性价比；AWS开源Loom入局Agent管理基础设施。这些事件共同指向一个趋势：AI正从“辅助工具”加速走向“自主执行者”，安全、治理和信任将成为下一阶段的核心议题。",
+  "snapshot": {
+    "date": "2026-07-27",
+    "hf_trending": [
+      {
+        "name": "baidu/Unlimited-OCR",
+        "short_name": "Unlimited-OCR",
+        "likes": 3207,
+        "downloads": 2593460,
+        "url": "https://huggingface.co/baidu/Unlimited-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "unlimited-ocr"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "poolside/Laguna-S-2.1",
+        "short_name": "Laguna-S-2.1",
+        "likes": 701,
+        "downloads": 56445,
+        "url": "https://huggingface.co/poolside/Laguna-S-2.1",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "laguna"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "upstage/Solar-Open2-250B",
+        "short_name": "Solar-Open2-250B",
+        "likes": 595,
+        "downloads": 3305,
+        "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "solar_open2"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+        "short_name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+        "likes": 638,
+        "downloads": 552026,
+        "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+        "tags": [
+          "gguf",
+          "unsloth",
+          "fine tune"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "Nanbeige/Nanbeige4.2-3B",
+        "short_name": "Nanbeige4.2-3B",
+        "likes": 447,
+        "downloads": 14049,
+        "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "nanbeige"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "thinkingmachines/Inkling",
+        "short_name": "Inkling",
+        "likes": 1579,
+        "downloads": 34511,
+        "url": "https://huggingface.co/thinkingmachines/Inkling",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "inkling_mm_model"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "microsoft/Mage-Flow",
+        "short_name": "Mage-Flow",
+        "likes": 335,
+        "downloads": 1375,
+        "url": "https://huggingface.co/microsoft/Mage-Flow",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "text-to-image"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "zai-org/GLM-5.2",
+        "short_name": "GLM-5.2",
+        "likes": 4477,
+        "downloads": 827191,
+        "url": "https://huggingface.co/zai-org/GLM-5.2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "glm_moe_dsa"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "permissionlesstech/bitchat",
+        "desc": "bluetooth mesh chat, IRC vibes",
+        "stars": 30444,
+        "stars_today": 1166,
+        "forks": 4732,
+        "language": "Swift",
+        "url": "https://github.com/permissionlesstech/bitchat"
+      },
+      {
+        "name": "citrolabs/ego-lite",
+        "desc": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser st",
+        "stars": 4621,
+        "stars_today": 900,
+        "forks": 227,
+        "language": "JavaScript",
+        "url": "https://github.com/citrolabs/ego-lite"
+      },
+      {
+        "name": "block/buzz",
+        "desc": "A hive mind communication platform",
+        "stars": 13361,
+        "stars_today": 1710,
+        "forks": 1100,
+        "language": "Rust",
+        "url": "https://github.com/block/buzz"
+      },
+      {
+        "name": "pingdotgg/t3code",
+        "desc": "",
+        "stars": 15070,
+        "stars_today": 149,
+        "forks": 3309,
+        "language": "TypeScript",
+        "url": "https://github.com/pingdotgg/t3code"
+      },
+      {
+        "name": "CoreBunch/Instatic",
+        "desc": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputt",
+        "stars": 5703,
+        "stars_today": 888,
+        "forks": 521,
+        "language": "TypeScript",
+        "url": "https://github.com/CoreBunch/Instatic"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 1516816085452,
+        "total_tokens_str": "1.5T",
+        "api_calls": 0,
+        "change": 4.6,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 2,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "org": "deepseek",
+        "total_tokens": 1028767203083,
+        "total_tokens_str": "1.0T",
+        "api_calls": 0,
+        "change": 9.0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "tencent/hy3",
+        "name": "Hy3",
+        "org": "tencent",
+        "total_tokens": 597279135408,
+        "total_tokens_str": "597B",
+        "api_calls": 0,
+        "change": 1.2,
+        "url": "https://openrouter.ai/tencent/hy3"
+      },
+      {
+        "rank": 4,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
+        "org": "deepseek",
+        "total_tokens": 493259132774,
+        "total_tokens_str": "493B",
+        "api_calls": 0,
+        "change": 19.2,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 5,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604:free",
+        "name": "Nemotron 3 Ultra 550b A55b 20260604:free",
+        "org": "nvidia",
+        "total_tokens": 404590174441,
+        "total_tokens_str": "405B",
+        "api_calls": 0,
+        "change": -4.5,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604:free"
+      },
+      {
+        "rank": 6,
+        "slug": "z-ai/glm-5.2",
+        "name": "GLM 5.2",
+        "org": "z-ai",
+        "total_tokens": 331924448490,
+        "total_tokens_str": "332B",
+        "api_calls": 0,
+        "change": 4.8,
+        "url": "https://openrouter.ai/z-ai/glm-5.2"
+      },
+      {
+        "rank": 7,
+        "slug": "minimax/minimax-m3",
+        "name": "MiniMax M3",
+        "org": "minimax",
+        "total_tokens": 256706438769,
+        "total_tokens_str": "257B",
+        "api_calls": 0,
+        "change": -2.2,
+        "url": "https://openrouter.ai/minimax/minimax-m3"
+      },
+      {
+        "rank": 8,
+        "slug": "stepfun/step-3.7-flash",
+        "name": "Step 3.7 Flash",
+        "org": "stepfun",
+        "total_tokens": 193014928432,
+        "total_tokens_str": "193B",
+        "api_calls": 0,
+        "change": -5.8,
+        "url": "https://openrouter.ai/stepfun/step-3.7-flash"
+      },
+      {
+        "rank": 9,
+        "slug": "moonshotai/kimi-k3",
+        "name": "Kimi K3",
+        "org": "moonshotai",
+        "total_tokens": 164779296882,
+        "total_tokens_str": "165B",
+        "api_calls": 0,
+        "change": 4.5,
+        "url": "https://openrouter.ai/moonshotai/kimi-k3"
+      },
+      {
+        "rank": 10,
+        "slug": "inclusionai/ling-3.0-flash-20260723:free",
+        "name": "Ling 3.0 Flash 20260723:free",
+        "org": "inclusionai",
+        "total_tokens": 151466126407,
+        "total_tokens_str": "151B",
+        "api_calls": 0,
+        "change": 18.1,
+        "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-20260723:free"
+      }
+    ],
+    "hf_summary": "多模态理解模型霸榜，文本生成仍占主流"
+  }
+}
