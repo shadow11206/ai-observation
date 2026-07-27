@@ -3,171 +3,220 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Hugging Face CEO呼吁“彻底透明”，回应“史无前例”的OpenAI黑客攻击",
-      "finding": "OpenAI遭遇首次自主AI Agent网络攻击，Hugging Face CEO认为这是里程碑事件，要求OpenAI公开全部细节。这标志着AI安全威胁从“人用工具攻击”升级为“AI自主攻击”，行业安全范式面临重构。",
+      "title": "DeepSeek被曝主动叫停第二轮融资，原计划募资超100亿元",
+      "finding": "据量子位报道，DeepSeek主动叫停了第二轮融资签约，该轮融资原计划至少募资100亿元。背后原因疑似梁文锋不满内部会议信息泄露，担心影响公司战略节奏。",
+      "key_data": [
+        "募资超100亿元",
+        "主动叫停签约",
+        "内部信息泄露"
+      ],
+      "judgment": "DeepSeek在融资最热时主动刹车，说明梁文锋对控制权和战略节奏有极强执念。对行业而言，这意味着DeepSeek短期内不会因资本压力而改变开源路线或加速商业化，但也可能错失窗口期。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/07/461220.html"
+    },
+    {
+      "rank": 2,
+      "title": "Hugging Face CEO呼吁'彻底透明'，回应'史无前例'的OpenAI黑客攻击",
+      "finding": "Hugging Face CEO称OpenAI遭遇了'首次自主Agent网络攻击'，并呼吁行业采取'彻底透明'的应对方式。这标志着AI安全威胁从传统黑客攻击升级为AI Agent自主发起的攻击。",
       "key_data": [
         "首次自主Agent攻击",
-        "Hugging Face呼吁透明",
-        "安全范式重构"
+        "呼吁彻底透明",
+        "AI安全新范式"
       ],
-      "judgment": "这是AI安全领域的转折点：当攻击者本身是AI Agent时，传统安全防御体系（基于人类攻击者假设）将失效。所有AI公司必须重新评估自身安全架构，Agent安全将成为下一个创业热点。",
+      "judgment": "这是AI安全领域的分水岭事件——攻击者不再是人类，而是AI Agent。对开发者而言，这意味着未来所有AI产品的安全设计必须将'AI对AI攻击'作为默认威胁模型，传统安全策略可能失效。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/"
     },
     {
-      "rank": 2,
-      "title": "Cursor用一群Agent重造SQLite：仅凭835页手册，无源码、无测试、不联网",
-      "finding": "Cursor团队展示了AI Agent的极限能力：仅凭一份835页的SQLite手册，让多个Agent协作，从零重写SQLite核心功能。没有参考源码、没有测试用例、不联网搜索，完全靠Agent理解文档并生成代码。",
+      "rank": 3,
+      "title": "蚂蚁百灵发布新一代原生混合推理模型Ling-3.0-Flash",
+      "finding": "蚂蚁集团发布Ling-3.0-Flash，这是一款原生混合推理模型，结合了快速直觉推理和深度慢思考能力。这是国内金融科技巨头在基座大模型领域的重要进展。",
       "key_data": [
-        "835页手册",
-        "无源码重写",
-        "多Agent协作"
+        "原生混合推理",
+        "快速+深度思考",
+        "金融科技大模型"
       ],
-      "judgment": "这是AI编程能力的里程碑：Agent已能仅凭文档理解复杂系统并完整复现，意味着开发者工作流将从“写代码”转向“写文档+审代码”。对Cursor而言，这是证明其Agent模式超越辅助编码、进入自主开发阶段的关键案例。",
+      "judgment": "蚂蚁在基座大模型上持续投入，Ling-3.0-Flash的混合推理架构值得关注——它试图在速度和深度之间找到平衡。对金融行业而言，这意味着蚂蚁可能在风控、客服等场景中率先落地'快思考+慢思考'的混合推理模式。",
       "confidence": 4,
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/5qw8Qe37kGVDq9Yy57XC"
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/07/461149.html"
     },
     {
-      "rank": 3,
-      "title": "陶哲轩：数学在AI时代的未来",
-      "finding": "菲尔兹奖得主、顶级数学家陶哲轩在ICM 2026上发布演讲，系统阐述AI如何改变数学研究方式。他认为AI不是取代数学家，而是成为“证明助手”和“猜想生成器”，将加速数学发现。",
+      "rank": 4,
+      "title": "陶哲轩：数学在AI时代的演讲引发热议",
+      "finding": "著名数学家陶哲轩在ICM 2026上发表了题为'Mathematics in the Age of AI'的演讲，讨论了AI如何改变数学研究的方式和可能性。该演讲在Hacker News上获得115分和49条评论。",
       "key_data": [
         "ICM 2026演讲",
-        "AI作为证明助手",
-        "猜想生成器"
+        "AI改变数学研究",
+        "115分热议"
       ],
-      "judgment": "来自顶级科学家的权威判断：AI在科学发现中的角色是“增强”而非“替代”。这对AI产品经理的启示是——面向专业领域的AI工具应定位为“副驾驶”而非“自动驾驶”，降低用户心理门槛。",
+      "judgment": "陶哲轩是数学界最懂AI的人之一，他的观点对AI+科学领域有风向标意义。这意味着AI在数学证明、猜想生成等领域的应用可能加速，但同时也引发了对'数学本质'的深层讨论。",
       "confidence": 5,
       "source": "Hacker News",
       "url": "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf"
     },
     {
-      "rank": 4,
-      "title": "4B开源模型在瑞典医学考试中接近o3水平",
-      "finding": "研究者用开源4B参数模型在瑞典医学执照考试多选题上测试，准确率接近o3级别。GPT-4在2024年得分为84%，而4B模型已逼近这一水平，证明小模型在垂直领域通过精调可达到大模型水平。",
+      "rank": 5,
+      "title": "4B参数开源模型在瑞典医学考试中接近o3水平",
+      "finding": "有研究者用4B参数的开源模型在瑞典医学执照考试多选题上取得了接近o3水平的准确率。GPT-4在2024年该测试中得分为84%，而4B模型已接近这一水平。",
       "key_data": [
-        "4B参数模型",
-        "瑞典医学考试",
-        "接近o3水平"
+        "4B参数",
+        "接近o3水平",
+        "瑞典医学考试"
       ],
-      "judgment": "这对行业是重要信号：垂直领域的小模型精调路线正在被验证有效。对于预算有限的创业公司，不必追求千亿参数大模型，专注高质量领域数据精调4B-7B模型可能更具性价比。",
+      "judgment": "这是一个重要的信号：小模型在特定领域（医学）经过微调后，性能可以逼近大模型。对开发者而言，这意味着在垂直场景中，部署4B级模型可能比调用GPT-4更经济、更高效，小模型+领域微调的路线正在被验证。",
       "confidence": 3,
       "source": "Reddit r/MachineLearning",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1v71wds/openweight_4b_models_approach_o3level_medical/"
-    },
-    {
-      "rank": 5,
-      "title": "亚马逊云科技发布Loom：开源企业级AI Agent管理平台",
-      "finding": "AWS推出Loom，一个开源参考平台，用于在企业规模上管理AI Agent。涵盖Agent编排、监控、安全策略等完整能力，旨在解决企业部署Agent时的治理和运维难题。",
-      "key_data": [
-        "AWS开源",
-        "企业Agent管理",
-        "编排与治理"
-      ],
-      "judgment": "AWS入局Agent管理平台是重要信号：企业Agent部署正从“实验”走向“规模化”。Loom开源意味着AWS想抢占Agent基础设施标准，类似Kubernetes之于容器编排。对开发者来说，Agent运维将成为新技能需求。",
-      "confidence": 4,
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/JDgONrm19ROF1qHzfOQO"
     }
   ],
   "model_tech": [
     {
-      "source": "量子位",
-      "title": "3万小时触觉数据补齐具身智能“手感”：新智具身&复旦报告三连发",
-      "finding": "新智具身与复旦大学联合发布具身智能触觉数据集，包含3万小时触觉数据，全部开源。旨在解决机器人“手感”缺失问题，让机器人能感知材质、力度等触觉信息。",
+      "source": "ArXiv",
+      "title": "面向个人LLM Agent的用户条件化评估框架",
+      "finding": "新论文提出了一种评估个人AI Agent的方法，考虑用户记忆、技能、工具配置等随时间演化的因素，解决了现有基准测试无法反映真实使用场景的问题。",
       "key_data": [
-        "3万小时触觉数据",
-        "具身智能",
-        "全部开源"
+        "个人Agent评估",
+        "时间干预",
+        "用户条件化"
       ],
-      "judgment": "触觉是具身智能的关键短板，该数据集开源将加速机器人精细操作能力发展。对机器人创业公司是利好，可直接用于训练。",
-      "confidence": 4,
-      "url": "https://www.qbitai.com/2026/07/460962.html",
-      "importance": 3
-    },
-    {
-      "source": "Simon Willison",
-      "title": "LLM Token转售与欺诈市场内幕",
-      "finding": "调查揭示了围绕LLM Token转售的黑市：通过聚合API额度、利用免费额度、盗用账号等方式，以折扣价转售Token。这是一个规模可观的灰色市场。",
-      "key_data": [
-        "Token转售黑市",
-        "API额度聚合",
-        "欺诈产业链"
-      ],
-      "judgment": "Token转售市场说明LLM API定价存在套利空间，也暴露了API安全漏洞。对API提供商是警示：需加强额度监控和防滥用机制。",
-      "confidence": 4,
-      "url": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
-      "importance": 3
-    },
-    {
-      "source": "TechCrunch",
-      "title": "脑电波会是物理AI的下一个突破口吗？",
-      "finding": "前沿物理AI模型需要多角度摄像头、密集标注，甚至脑电波数据来训练。研究者认为脑电波能提供人类对物理交互的“直觉”信号，帮助AI更好地理解物理世界。",
-      "key_data": [
-        "脑电波数据",
-        "物理AI训练",
-        "多模态感知"
-      ],
-      "judgment": "脑电波作为训练信号是前沿探索，离实用化很远。但方向值得关注：物理AI需要超越视觉的数据源来理解“力”和“触感”。",
+      "judgment": "个人Agent的评估一直是个难题，这篇论文提供了一个新框架，对开发者设计个性化Agent有参考价值。",
       "confidence": 3,
-      "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
+      "url": "https://arxiv.org/abs/2607.21635",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "基于GRPO的对抗性风格优化：增强VLM越狱攻击",
+      "finding": "研究者利用GRPO（一种强化学习方法）优化对抗性风格触发器，成功越狱了多模态大模型。这表明当前VLM的安全对齐仍然脆弱。",
+      "key_data": [
+        "GRPO优化",
+        "VLM越狱",
+        "安全对齐脆弱"
+      ],
+      "judgment": "安全对齐的攻防战正在升级，强化学习被用于攻击端，意味着防御方也需要采用更动态的安全策略。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.21619",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "逻辑门网络的深度可扩展性研究",
+      "finding": "论文探讨了逻辑门网络（LGN）的深度可扩展性，发现现有LGN在深度增加时性能提升有限，与传统神经网络不同。",
+      "key_data": [
+        "逻辑门网络",
+        "深度可扩展性",
+        "与传统NN不同"
+      ],
+      "judgment": "LGN是一种新兴的神经网络范式，这篇论文指出了其局限性，对研究替代架构的人有参考价值。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.21633",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "基于共识的LLM相对偏好评估框架",
+      "finding": "新论文提出了一种基于共识的框架来评估LLM的相对偏好，解决了传统静态基准无法捕捉响应质量差异的问题。",
+      "key_data": [
+        "共识评估",
+        "相对偏好",
+        "超越静态基准"
+      ],
+      "judgment": "LLM评估正在从'分数'转向'偏好'，这个框架可能成为未来模型评测的新范式。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.21632",
       "importance": 2
     }
   ],
   "company_product": [
     {
       "source": "InfoQ",
-      "title": "御三家都在押注的Loops，代码怎么还是垃圾？",
-      "finding": "文章批评当前主流AI编程工具（Cursor、Copilot、Windsurf）生成的循环代码质量低下，存在逻辑错误、性能问题。指出AI在复杂控制流理解上仍有明显短板。",
+      "title": "AMD发布全球首款2nm GPU，OpenAI、Meta、微软集体站台",
+      "finding": "AMD发布了全球首款2nm制程GPU，获得OpenAI、Meta、微软等巨头公开支持。这被视为AMD挑战英伟达AI芯片霸主地位的关键一步。",
       "key_data": [
-        "AI生成循环代码",
-        "质量低下",
-        "控制流短板"
+        "全球首款2nm GPU",
+        "OpenAI/Meta/微软站台",
+        "挑战英伟达"
       ],
-      "judgment": "这是对AI编程能力的重要提醒：AI在简单任务上表现惊艳，但在复杂逻辑（如循环嵌套、边界条件）上仍不可靠。开发者不能盲目信任AI生成代码。",
+      "judgment": "2nm GPU是AI基础设施的重大突破，AMD获得三大AI巨头背书意味着英伟达的垄断地位可能被撼动，对AI开发者而言，未来可能有更多芯片选择。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/SJj23gRv7ZXBHyaCi8Eq",
+      "importance": 4
+    },
+    {
+      "source": "InfoQ",
+      "title": "昆仑万维押注世界模型：内容创作可交互，机器人先'预演'再行动",
+      "finding": "昆仑万维披露了其世界模型的两大产业路径：一是用于内容创作，实现实时可交互；二是用于机器人，让机器人在虚拟环境中'预演'后再执行真实动作。",
+      "key_data": [
+        "世界模型",
+        "内容创作可交互",
+        "机器人预演"
+      ],
+      "judgment": "世界模型正在从概念走向产业落地，昆仑万维的路径选择（内容+机器人）比较务实，但能否做出真正可用的产品还有待验证。",
       "confidence": 3,
-      "url": "https://www.infoq.cn/article/JA9Xf4ldl8TkW9kYxv5x",
+      "url": "https://www.infoq.cn/article/hj53pts5pYdMRuIujqph",
       "importance": 3
     },
     {
-      "source": "TechCrunch",
-      "title": "解读对中国AI的恐慌：Kimi为何让硅谷和华尔街紧张",
-      "finding": "分析Moonshot AI的Kimi为何引发硅谷恐慌：长上下文能力（200万字）远超GPT-4，且成本极低。文章认为这是中国AI在应用层创新能力的体现，而非简单的“追赶”。",
+      "source": "InfoQ",
+      "title": "Snowflake CoCo中的循环工程技术实践",
+      "finding": "Snowflake分享了其AI产品CoCo中使用的循环工程技术，这是一种让AI Agent在循环中自我纠错、迭代优化的方法。",
       "key_data": [
-        "Kimi长上下文",
-        "200万字",
-        "硅谷恐慌"
+        "循环工程",
+        "AI Agent自我纠错",
+        "Snowflake CoCo"
       ],
-      "judgment": "Kimi的案例说明中国AI在应用创新上已形成差异化优势，长上下文+低成本是杀手锏。海外AI公司需要正视这一竞争压力。",
-      "confidence": 4,
-      "url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
-      "importance": 3
+      "judgment": "循环工程是构建可靠AI Agent的关键技术，Snowflake的实践对开发者有直接参考价值。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/APthBQXkUJjM3BkaXZCy",
+      "importance": 2
+    },
+    {
+      "source": "量子位",
+      "title": "企业出海，被中国信通院和腾讯重新定义了一次",
+      "finding": "中国信通院与腾讯合作，推出WorkBuddy平台，首批22位AI专家上岗，旨在帮助企业解决出海过程中的合规、运营等难题。",
+      "key_data": [
+        "22位AI专家",
+        "WorkBuddy平台",
+        "企业出海AI"
+      ],
+      "judgment": "AI+企业出海是一个新兴赛道，腾讯和信通院的合作可能加速中国企业出海的AI化进程。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/07/461153.html",
+      "importance": 2
     }
   ],
-  "opinions": [],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "关于LLM Token转售市场的调查显示，通过池化API密钥来打折转售Token的灰色市场已经形成规模，这暴露了当前API定价体系的脆弱性。",
+      "source": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything"
+    }
+  ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI Agent自主攻击的安全防御体系",
-      "reason": "OpenAI首次遭遇Agent攻击，安全范式正在改变，值得深入研究新防御方案。",
+      "topic": "AI Agent自主攻击的安全威胁与防御",
+      "reason": "OpenAI遭遇首次自主Agent攻击，这可能是AI安全的新范式，值得深入研究攻击手法和防御策略。",
       "priority": "high"
     },
     {
-      "topic": "小模型垂直精调 vs 大模型通用能力的性价比分析",
-      "reason": "4B模型接近o3水平的案例验证了垂直精调路线的可行性，对创业公司选型有指导意义。",
+      "topic": "小模型+领域微调在垂直场景中的可行性",
+      "reason": "4B模型接近o3在医学考试中的表现，验证了小模型+领域微调路线的潜力，对开发者部署策略有重大影响。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "Agent安全危机与自主编程能力双双突破",
-  "summary_paragraph": "今日AI行业迎来两个里程碑：一是OpenAI遭遇首次AI Agent自主攻击，安全范式面临重构；二是Cursor用多Agent协作仅凭手册重写SQLite，证明AI编程已进入自主开发阶段。同时，4B小模型在垂直医疗领域逼近o3水平，验证了精调路线的性价比；AWS开源Loom入局Agent管理基础设施。这些事件共同指向一个趋势：AI正从“辅助工具”加速走向“自主执行者”，安全、治理和信任将成为下一阶段的核心议题。",
+  "summary_one_line": "DeepSeek叫停融资，OpenAI遭Agent攻击，AMD发2nm GPU",
+  "summary_paragraph": "今日AI行业多线并进：DeepSeek主动叫停百亿融资，梁文锋对控制权的执念让这家开源明星公司选择'慢下来'；安全领域迎来分水岭——OpenAI遭遇首次自主Agent攻击，Hugging Face CEO呼吁行业彻底透明；硬件端，AMD发布全球首款2nm GPU，获OpenAI、Meta、微软站台，英伟达的垄断地位首次面临实质性挑战。此外，蚂蚁百灵发布混合推理模型、4B小模型在医学考试中接近o3水平，都预示着行业正在从'越大越好'转向更务实的路线。",
   "snapshot": {
     "date": "2026-07-27",
     "hf_trending": [
       {
         "name": "baidu/Unlimited-OCR",
         "short_name": "Unlimited-OCR",
-        "likes": 3207,
+        "likes": 3236,
         "downloads": 2593460,
         "url": "https://huggingface.co/baidu/Unlimited-OCR",
         "tags": [
@@ -183,7 +232,7 @@
       {
         "name": "poolside/Laguna-S-2.1",
         "short_name": "Laguna-S-2.1",
-        "likes": 701,
+        "likes": 708,
         "downloads": 56445,
         "url": "https://huggingface.co/poolside/Laguna-S-2.1",
         "tags": [
@@ -199,7 +248,7 @@
       {
         "name": "upstage/Solar-Open2-250B",
         "short_name": "Solar-Open2-250B",
-        "likes": 595,
+        "likes": 604,
         "downloads": 3305,
         "url": "https://huggingface.co/upstage/Solar-Open2-250B",
         "tags": [
@@ -215,7 +264,7 @@
       {
         "name": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "short_name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-        "likes": 638,
+        "likes": 647,
         "downloads": 552026,
         "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "tags": [
@@ -231,7 +280,7 @@
       {
         "name": "Nanbeige/Nanbeige4.2-3B",
         "short_name": "Nanbeige4.2-3B",
-        "likes": 447,
+        "likes": 451,
         "downloads": 14049,
         "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
         "tags": [
@@ -247,7 +296,7 @@
       {
         "name": "thinkingmachines/Inkling",
         "short_name": "Inkling",
-        "likes": 1579,
+        "likes": 1582,
         "downloads": 34511,
         "url": "https://huggingface.co/thinkingmachines/Inkling",
         "tags": [
@@ -263,7 +312,7 @@
       {
         "name": "microsoft/Mage-Flow",
         "short_name": "Mage-Flow",
-        "likes": 335,
+        "likes": 344,
         "downloads": 1375,
         "url": "https://huggingface.co/microsoft/Mage-Flow",
         "tags": [
@@ -279,7 +328,7 @@
       {
         "name": "zai-org/GLM-5.2",
         "short_name": "GLM-5.2",
-        "likes": 4477,
+        "likes": 4488,
         "downloads": 827191,
         "url": "https://huggingface.co/zai-org/GLM-5.2",
         "tags": [
@@ -297,45 +346,45 @@
       {
         "name": "permissionlesstech/bitchat",
         "desc": "bluetooth mesh chat, IRC vibes",
-        "stars": 30444,
+        "stars": 30823,
         "stars_today": 1166,
-        "forks": 4732,
+        "forks": 4821,
         "language": "Swift",
         "url": "https://github.com/permissionlesstech/bitchat"
       },
       {
         "name": "citrolabs/ego-lite",
         "desc": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser st",
-        "stars": 4621,
+        "stars": 4929,
         "stars_today": 900,
-        "forks": 227,
+        "forks": 236,
         "language": "JavaScript",
         "url": "https://github.com/citrolabs/ego-lite"
       },
       {
         "name": "block/buzz",
         "desc": "A hive mind communication platform",
-        "stars": 13361,
+        "stars": 13639,
         "stars_today": 1710,
-        "forks": 1100,
+        "forks": 1130,
         "language": "Rust",
         "url": "https://github.com/block/buzz"
       },
       {
         "name": "pingdotgg/t3code",
         "desc": "",
-        "stars": 15070,
+        "stars": 15130,
         "stars_today": 149,
-        "forks": 3309,
+        "forks": 3313,
         "language": "TypeScript",
         "url": "https://github.com/pingdotgg/t3code"
       },
       {
         "name": "CoreBunch/Instatic",
         "desc": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputt",
-        "stars": 5703,
+        "stars": 5832,
         "stars_today": 888,
-        "forks": 521,
+        "forks": 525,
         "language": "TypeScript",
         "url": "https://github.com/CoreBunch/Instatic"
       }
@@ -401,7 +450,7 @@
         "slug": "z-ai/glm-5.2",
         "name": "GLM 5.2",
         "org": "z-ai",
-        "total_tokens": 331924448490,
+        "total_tokens": 331924459042,
         "total_tokens_str": "332B",
         "api_calls": 0,
         "change": 4.8,
@@ -452,6 +501,6 @@
         "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-20260723:free"
       }
     ],
-    "hf_summary": "多模态理解模型霸榜，文本生成仍占主流"
+    "hf_summary": "多模态理解模型热度上升，文本生成仍占主导"
   }
 }
