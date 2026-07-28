@@ -3,233 +3,260 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Moonshot发布2.8万亿参数Kimi K3开源模型",
-      "finding": "月之暗面兑现承诺，正式开源Kimi K3模型权重，参数量达2.8万亿，权重文件1.56TB。这是目前开源社区中规模最大的模型之一，直接对标DeepSeek等开源标杆。",
+      "title": "月之暗面开源2.8万亿参数Kimi K3模型",
+      "finding": "月之暗面兑现承诺，开源了其2.8万亿参数的Kimi K3模型权重，文件大小达1.56TB。这是目前开源社区中参数规模最大的模型之一，标志着中国AI公司在超大模型开源上的重要突破。",
       "key_data": [
         "2.8万亿参数",
-        "权重1.56TB",
-        "开源发布",
-        "对标DeepSeek"
+        "1.56TB权重文件",
+        "开源发布"
       ],
-      "judgment": "Kimi K3开源是国产大模型从'能用'到'可用'的关键转折点。2.8万亿参数意味着在复杂推理和长上下文任务上可能超越现有开源模型，开发者生态将迎来新选择。",
+      "judgment": "对开发者是重大利好，意味着可以基于超大参数模型进行私有化部署和二次开发。对国内开源生态是强心剂，DeepSeek之后又一个重量级玩家加入开源阵营。",
       "confidence": 5,
       "source": "Simon Willison",
       "url": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything"
     },
     {
       "rank": 2,
-      "title": "微软发布首个网络安全AI模型及Agent系统",
-      "finding": "微软推出其首个AI安全模型，并同步发布基于Agent的网络安全平台。微软声称该工具在性能上超越竞品，且成本更低。",
+      "title": "微软发布首个AI安全模型及Agentic安全系统",
+      "finding": "微软推出其首个AI安全专用模型和全新的Agentic网络安全平台，声称在性能和成本上均优于竞品。这标志着微软将AI Agent技术正式引入网络安全领域，意图重塑安全运维范式。",
       "key_data": [
         "首个AI安全模型",
-        "Agent安全平台",
-        "性能超越竞品",
-        "成本更低"
+        "Agentic安全系统",
+        "成本低于竞品"
       ],
-      "judgment": "微软将AI Agent能力直接落地到网络安全这个高价值、高门槛领域，意味着企业级AI应用从'通用助手'向'专业Agent'加速进化。安全领域将成为AI Agent商业化的重要试验田。",
+      "judgment": "对安全行业是重要信号：AI Agent正在从通用助手走向垂直专业领域。微软此举可能加速安全运维的自动化进程，但也意味着企业安全架构需要为AI Agent时代做好准备。",
       "confidence": 5,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/"
     },
     {
       "rank": 3,
-      "title": "Claude共享聊天记录被Google和Bing索引，隐私问题引发关注",
-      "finding": "Anthropic的Claude共享聊天功能存在漏洞，导致用户创建的公开链接被Google和Bing搜索引擎抓取并索引，大量私人对话内容可被公开搜索到。",
+      "title": "全球首个Agentic扩散模型发布：128K上下文追平自回归",
+      "finding": "研究者发布了首个具备Agent能力的扩散模型，能够在执行长程任务时边行动边纠错，支持128K上下文，性能追平自回归模型。这打破了扩散模型只能做生成、不能做推理的固有认知。",
       "key_data": [
-        "共享聊天被索引",
-        "Google/Bing可搜索",
-        "隐私漏洞",
-        "Anthropic回应"
+        "首个Agentic扩散模型",
+        "128K上下文",
+        "边行动边纠错"
       ],
-      "judgment": "这是AI产品隐私设计的典型翻车案例。共享链接默认可被搜索引擎抓取，说明产品团队在'分享功能'的安全边界设计上存在严重疏忽。所有做AI产品的团队都应重新审视自己的分享机制。",
-      "confidence": 5,
-      "source": "Wired",
-      "url": "https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/"
+      "judgment": "对AI架构研究是颠覆性进展：扩散模型不再只是图像/视频生成工具，开始具备Agent能力。这可能开辟一条不同于自回归的模型路线，降低推理成本的同时保持Agent性能。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/07/461650.html"
     },
     {
       "rank": 4,
-      "title": "Satya Nadella警告：只信任单一AI模型的公司可能无法生存",
-      "finding": "微软CEO Satya Nadella在采访中表示，没有自己模型或缺乏AI网关层来隔离提示词与模型的公司将陷入困境。他强调了AI基础设施中'网关'层的重要性。",
-      "key_data": [
-        "单一AI模型风险",
-        "AI网关层",
-        "模型隔离",
-        "企业生存"
-      ],
-      "judgment": "Nadella的发言实际上是在推销微软的AI基础设施战略。但核心洞察是对的：企业不应把所有鸡蛋放在一个模型篮子里。未来企业AI架构的核心是'模型无关的网关层'，这将是新的基础设施机会。",
-      "confidence": 5,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/"
-    },
-    {
-      "rank": 5,
       "title": "Anthropic CEO Dario Amodei回应：不反对开源模型，但担忧中国AI",
-      "finding": "Dario Amodei明确表示Anthropic不反对开源模型，但对中国AI能力的快速崛起表示担忧。他认为开源模型可能被中国利用，加速其AI发展。",
+      "finding": "Dario Amodei在采访中明确表示，Anthropic并不反对开源模型本身，但对中国AI能力的快速增长感到担忧。这一表态反映了美国AI界对开源与安全之间平衡的复杂心态。",
       "key_data": [
         "不反对开源",
         "担忧中国AI",
-        "地缘政治",
-        "Anthropic立场"
+        "安全与开放平衡"
       ],
-      "judgment": "这反映了美国AI领袖在开源问题上的分裂心态：嘴上说支持开源，心里担心被中国'弯道超车'。对国内从业者来说，这是明确的信号——自主可控的大模型能力建设比任何时候都重要。",
-      "confidence": 5,
+      "judgment": "对开源社区是微妙信号：顶级AI实验室的立场正在从'开源危险'转向'开源可以，但要看谁在用'。未来开源模型可能面临更多基于地域的监管限制。",
+      "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/"
+    },
+    {
+      "rank": 5,
+      "title": "翁荔离职Thinking Machines：20个月「像过完了一辈子」",
+      "finding": "AI安全领域知名人物翁荔宣布从Thinking Machines离职，她在该公司工作了20个月。翁荔此前是OpenAI安全研究团队的核心成员，她的离职可能反映AI安全创业公司面临的挑战。",
+      "key_data": [
+        "翁荔离职",
+        "Thinking Machines",
+        "20个月"
+      ],
+      "judgment": "对AI安全领域是人才流动信号：顶级安全研究者从创业公司回流或转向，可能意味着AI安全商业化路径仍不清晰。需要关注她下一步去向，可能影响安全研究格局。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/07/461517.html"
     }
   ],
   "model_tech": [
     {
-      "source": "MIT Technology Review",
-      "title": "通往超级人工智能之路",
-      "finding": "文章提出一个由多个AI Agent组成的医疗系统设想：症状评估、预约、保险、药房各由一个专家Agent负责。讨论了多Agent协作实现ASI的路径。",
+      "source": "ArXiv",
+      "title": "CORVUS：面向LLM编码Agent的上下文优化与缩减框架",
+      "finding": "新研究提出CORVUS框架，通过同步机制优化和缩减LLM编码Agent的上下文，解决长轨迹推理中的上下文膨胀问题。这直接关系到AI编程工具的效率和成本。",
       "key_data": [
-        "多Agent协作",
-        "ASI路径",
-        "医疗场景"
+        "上下文缩减",
+        "编码Agent",
+        "轨迹优化"
       ],
-      "judgment": "多Agent系统是当前最务实的ASI探索路径，但距离真正落地还有很长的路要走。",
-      "confidence": 3,
-      "url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
+      "judgment": "对AI Coding产品是实用技术：解决Agent长任务中的上下文窗口瓶颈，可能让Cursor等工具在复杂项目上表现更好。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2607.22711",
       "importance": 3
     },
     {
       "source": "ArXiv",
-      "title": "面向个人LLM Agent的用户条件评估框架",
-      "finding": "新论文提出针对个人AI Agent的评估框架，强调Agent的记忆、技能、工具配置会随用户交互动态演化，现有基准无法有效评估这种动态性。",
+      "title": "Progress-conditioned Group Policy Optimization：面向长周期Agent任务的强化学习",
+      "finding": "提出一种新的强化学习方法，通过进度条件分组策略优化来训练LLM Agent，使其在稀疏奖励的长周期任务中表现更好。这是Agent训练方法论的重要进展。",
       "key_data": [
-        "个人Agent评估",
-        "动态演化",
-        "新基准"
+        "长周期Agent",
+        "稀疏奖励",
+        "策略优化"
       ],
-      "judgment": "Agent评估是当前行业痛点，这篇论文指出了正确方向，但距离实用化还有距离。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2607.21635",
+      "judgment": "对Agent开发是方法论突破：让Agent在只有最终结果反馈的情况下也能学会复杂任务，降低人工标注成本。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2607.22724",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "Semalith v1.4：184M参数的安全分类器，以44倍更少参数超越Llama-Guard-3-8B",
+      "finding": "发布了一个仅184M参数的安全分类器，在提示注入检测上达到SOTA，参数量仅为Llama-Guard-3-8B的1/44。专为金融和Agent场景设计。",
+      "key_data": [
+        "184M参数",
+        "44倍更少",
+        "提示注入检测SOTA"
+      ],
+      "judgment": "对Agent安全部署是实用工具：小模型即可实现高精度安全检测，意味着Agent应用可以低成本内置安全防护。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2607.22545",
       "importance": 2
     },
     {
       "source": "ArXiv",
-      "title": "基于共识的LLM相对偏好评估框架",
-      "finding": "提出一种新的LLM评估方法，通过多模型共识而非静态数据集来评估模型响应质量，试图解决传统基准无法捕捉响应质量差异的问题。",
+      "title": "DeepLens诊断Agent：小推理模型通过Agentic工作流设计媲美前沿LLM",
+      "finding": "研究发现，通过精心设计的Agentic工作流，一个小型推理模型在医疗诊断任务上可以匹敌GPT-5等前沿大模型。这验证了'好的架构设计可以弥补模型能力差距'的观点。",
       "key_data": [
-        "共识评估",
-        "相对偏好",
-        "替代基准"
+        "小模型+好架构",
+        "媲美前沿LLM",
+        "医疗诊断"
       ],
-      "judgment": "评估方法创新有价值，但共识机制本身可能引入新的偏差。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2607.21632",
-      "importance": 2
+      "judgment": "对AI应用开发者是重要启示：不要只追求大模型，Agent工作流设计可能是更经济的提升性能方式。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2607.22555",
+      "importance": 3
     },
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "评估6个前沿LLM在政治、性别和种族偏见上的表现",
-      "finding": "独立研究者对GPT-5.4、Claude Sonnet 4.6、Claude Opus 4.7、Gemini Pro/Flash、Grok 4.3进行了8个基准、约20600个样本的偏见测试。",
+      "source": "ArXiv",
+      "title": "Learning When to Reason：面向Text-to-SQL的SFT与DPO方法",
+      "finding": "新研究提出让模型学会'何时需要推理、何时可以直接回答'，在Text-to-SQL任务上通过SFT和DPO训练，避免不必要的CoT推理带来的开销和错误。",
       "key_data": [
-        "6个模型",
-        "8个基准",
-        "20600样本",
-        "偏见评估"
+        "选择性推理",
+        "Text-to-SQL",
+        "SFT+DPO"
       ],
-      "judgment": "这种独立、大规模的偏见评测非常有价值，但需要关注其方法论是否科学。",
-      "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v8fnzw/evaluated_6_frontier_llms_gpt54_claude_sonnet_46/",
+      "judgment": "对LLM应用是效率优化方向：不是所有问题都需要链式思考，让模型学会'偷懒'可以降低延迟和成本。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2607.22622",
       "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "Hugging Face Blog",
-      "title": "NVIDIA Cosmos-H-Dreams：为手术机器人带来实时生成式仿真",
-      "finding": "NVIDIA发布Cosmos-H-Dreams，一个用于手术机器人的实时生成式仿真系统，可将物理仿真与AI生成内容结合，加速手术机器人训练。",
+      "source": "TechCrunch",
+      "title": "Cursor在印度市场大举扩张：本地化定价，SpaceX收购前布局",
+      "finding": "Cursor宣布印度是其第三大市场，将推出本地化定价并扩大本地招聘和企业销售。这是在传闻SpaceX收购前的战略布局，显示AI编程工具正在加速全球化。",
       "key_data": [
-        "手术机器人",
-        "实时仿真",
-        "生成式AI",
-        "NVIDIA Cosmos"
+        "印度第三大市场",
+        "本地化定价",
+        "SpaceX收购传闻"
       ],
-      "judgment": "这是NVIDIA将生成式仿真从自动驾驶延伸到医疗机器人的重要一步，具身智能的训练数据瓶颈有望被突破。",
+      "judgment": "对AI Coding行业是市场信号：Cursor的全球化策略表明AI编程工具正在从开发者小众工具走向企业级市场。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/"
+    },
+    {
+      "source": "Wired",
+      "title": "Claude私密聊天记录因Google和Bing搜索暴露",
+      "finding": "Anthropic的Claude共享聊天功能存在漏洞，导致部分用户的私密对话和Artifacts被Google和Bing搜索引擎索引并公开。这暴露了AI聊天产品在隐私设计上的隐患。",
+      "key_data": [
+        "Claude聊天泄露",
+        "Google/Bing索引",
+        "共享功能漏洞"
+      ],
+      "judgment": "对AI产品经理是警示：共享功能的安全边界设计必须严格，否则一次漏洞就可能摧毁用户信任。所有AI聊天产品都应重新审视共享链接的权限模型。",
       "confidence": 5,
-      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
-      "importance": 3
+      "url": "https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/"
     },
     {
       "source": "TechCrunch",
-      "title": "OpenAI的Hugging Face安全漏洞重新引发对齐与控制辩论",
-      "finding": "OpenAI此前遭遇的Hugging Face账户被攻击事件，引发了关于AI对齐和控制的广泛讨论。安全专家认为需要更好的对齐和更强的控制。",
+      "title": "Satya Nadella警告：只信任单一AI的公司可能无法生存",
+      "finding": "微软CEO Satya Nadella表示，没有自有模型或AI网关层的公司将陷入困境，企业需要构建自己的AI基础设施层来解耦提示与模型。这是对'AI平台锁定'风险的重要警告。",
       "key_data": [
-        "Hugging Face漏洞",
-        "安全辩论",
-        "对齐vs控制"
+        "单一AI风险",
+        "AI网关层",
+        "模型解耦"
       ],
-      "judgment": "安全事件本身影响有限，但引发的行业讨论值得关注——AI安全正在从理论走向实践。",
+      "judgment": "对企业CTO是战略建议：不要把所有AI能力绑定在一个模型上，需要构建抽象层来保持灵活性和议价能力。",
       "confidence": 5,
-      "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
-      "importance": 2
+      "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/"
     },
     {
-      "source": "量子位",
-      "title": "翁荔离职Thinking Machines",
-      "finding": "前OpenAI安全研究员、Thinking Machines联合创始人翁荔宣布离职，她在社交媒体上表示'20个月像过完了一辈子'。",
+      "source": "Hacker News",
+      "title": "AI公司创纪录投入华盛顿游说",
+      "finding": "AI公司在美国华盛顿的游说支出创下历史新高，反映出行业正在积极影响AI监管政策的制定。这标志着AI从技术竞赛进入政策博弈阶段。",
       "key_data": [
-        "翁荔离职",
-        "Thinking Machines",
-        "AI安全"
+        "游说支出创新高",
+        "华盛顿",
+        "AI监管"
       ],
-      "judgment": "翁荔是AI安全领域的重要人物，她的离职可能意味着Thinking Machines在战略或方向上出现了变化，值得持续关注。",
+      "judgment": "对行业观察者是重要信号：AI公司的竞争已经从技术层面延伸到政策层面，未来监管走向将直接影响产品路线图。",
       "confidence": 4,
-      "url": "https://www.qbitai.com/2026/07/461517.html",
-      "importance": 2
+      "url": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db"
     },
     {
-      "source": "Simon Willison",
-      "title": "一份有观点的AI使用指南",
-      "finding": "Simon Willison更新了他的AI工具推荐指南，指出Ethan Mollick的指南一年前还在讲聊天，现在已转向Agent和编程。反映了AI应用范式的快速演变。",
+      "source": "Hacker News",
+      "title": "AI公司正在销毁稀有书籍以获取训练数据",
+      "finding": "报道揭露部分AI公司通过购买并销毁稀有书籍来获取独家训练数据，引发版权和文化遗产保护的激烈争议。Hacker News上获得753分和476条评论。",
       "key_data": [
-        "AI使用指南",
-        "从聊天到Agent",
-        "范式转变"
+        "销毁稀有书籍",
+        "训练数据争议",
+        "753分热议"
       ],
-      "judgment": "连科普指南都在一年内从'聊天'转向'Agent'，说明行业变化速度远超大多数人预期。",
-      "confidence": 4,
-      "url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
-      "importance": 2
+      "judgment": "对AI行业是伦理危机：当数据获取手段突破道德底线，可能引发更严格的监管和公众反弹。开源模型社区需要建立更透明的数据溯源机制。",
+      "confidence": 3,
+      "url": "https://twitter.com/HedgieMarkets/status/2081534588485296565"
     }
   ],
   "opinions": [
     {
+      "person": "Dario Amodei",
+      "level": "L3",
+      "quote": "Anthropic不反对开源模型本身，但对中国AI能力的快速增长感到担忧。开源与安全之间的平衡需要基于地域和使用场景进行更精细的管理。",
+      "source": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/"
+    },
+    {
       "person": "Satya Nadella",
       "level": "L3",
-      "quote": "只信任单一AI模型的公司可能无法生存。企业需要自己的模型或AI网关层来隔离提示词与模型。",
+      "quote": "只信任单一AI模型的公司可能无法生存。企业需要构建AI网关层来解耦提示与模型，保持灵活性和议价能力。",
       "source": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/"
     },
     {
-      "person": "Dario Amodei",
-      "level": "L3",
-      "quote": "我们不反对开源模型，但对中国AI能力的快速崛起感到担忧。开源模型可能被中国利用来加速其AI发展。",
-      "source": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/"
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "Ethan Mollick的AI使用指南在过去一年从'聊天为主'演变为'工具多样化'，反映了AI应用从单一对话向多工具协作的转变趋势。",
+      "source": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "企业AI网关架构：为什么Nadella认为这是生存关键",
-      "reason": "Nadella的发言揭示了企业AI基础设施的下一个关键层，值得深入理解其技术架构和商业机会。",
+      "topic": "Agentic扩散模型的架构原理与应用前景",
+      "reason": "这是扩散模型首次具备Agent能力，可能开辟新模型路线，值得深入理解其技术细节和潜在影响。",
       "priority": "high"
     },
     {
-      "topic": "Kimi K3 2.8万亿参数开源模型的技术细节与性能实测",
-      "reason": "这是目前最大的开源模型之一，其MoE架构、训练方法、实际表现值得深入分析。",
+      "topic": "AI公司数据获取伦理与监管趋势",
+      "reason": "销毁稀有书籍事件和游说支出创新高表明数据伦理和监管博弈正在升级，影响所有AI产品的合规策略。",
       "priority": "high"
+    },
+    {
+      "topic": "企业AI网关架构：如何避免模型锁定",
+      "reason": "Nadella的警告指向企业AI架构的关键设计决策，值得研究现有网关方案和最佳实践。",
+      "priority": "medium"
     }
   ],
-  "summary_one_line": "Kimi K3开源，微软推安全Agent，Claude隐私翻车",
-  "summary_paragraph": "今日AI行业迎来多个重磅消息。月之暗面正式开源2.8万亿参数的Kimi K3，成为开源社区最大模型之一，国产大模型实力再获验证。微软发布首个网络安全AI模型及Agent平台，将AI Agent能力落地到高价值安全领域。Anthropic则因Claude共享聊天记录被搜索引擎索引而陷入隐私风波，给所有AI产品团队敲响警钟。战略层面，微软CEO Nadella警告企业不要依赖单一AI模型，Anthropic CEO Amodei则表达了对中国AI崛起的担忧。整体来看，开源模型竞争加剧、AI Agent加速落地、隐私安全成为焦点是今日三大主线。",
+  "summary_one_line": "Kimi K3开源，微软进军AI安全，扩散模型突破Agent能力",
+  "summary_paragraph": "今日AI行业呈现三大主线：开源生态迎来重磅玩家——月之暗面开源2.8万亿参数Kimi K3，为开发者提供了超大模型私有化部署的可能；AI安全领域双线并进——微软推出首个AI安全模型和Agentic安全系统，同时Claude聊天泄露事件警示隐私设计的重要性；技术架构方面，全球首个Agentic扩散模型发布，打破了扩散模型只能做生成的固有认知。此外，Anthropic CEO对开源与安全的矛盾表态、AI公司游说支出创新高、以及数据获取伦理争议，都预示着行业正从纯技术竞赛进入政策与伦理博弈的新阶段。",
   "snapshot": {
     "date": "2026-07-28",
     "hf_trending": [
       {
         "name": "moonshotai/Kimi-K3",
         "short_name": "Kimi-K3",
-        "likes": 6316,
+        "likes": 6759,
         "downloads": 2850,
         "url": "https://huggingface.co/moonshotai/Kimi-K3",
         "tags": [
@@ -243,25 +270,9 @@
         "trend": "new"
       },
       {
-        "name": "baidu/Unlimited-OCR",
-        "short_name": "Unlimited-OCR",
-        "likes": 3333,
-        "downloads": 2645773,
-        "url": "https://huggingface.co/baidu/Unlimited-OCR",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "unlimited-ocr"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "poolside/Laguna-S-2.1",
         "short_name": "Laguna-S-2.1",
-        "likes": 758,
+        "likes": 764,
         "downloads": 63605,
         "url": "https://huggingface.co/poolside/Laguna-S-2.1",
         "tags": [
@@ -275,9 +286,25 @@
         "trend": "same"
       },
       {
+        "name": "baidu/Unlimited-OCR",
+        "short_name": "Unlimited-OCR",
+        "likes": 3345,
+        "downloads": 2645773,
+        "url": "https://huggingface.co/baidu/Unlimited-OCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "unlimited-ocr"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "short_name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-        "likes": 754,
+        "likes": 766,
         "downloads": 634146,
         "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "tags": [
@@ -293,7 +320,7 @@
       {
         "name": "upstage/Solar-Open2-250B",
         "short_name": "Solar-Open2-250B",
-        "likes": 629,
+        "likes": 633,
         "downloads": 3761,
         "url": "https://huggingface.co/upstage/Solar-Open2-250B",
         "tags": [
@@ -309,7 +336,7 @@
       {
         "name": "Nanbeige/Nanbeige4.2-3B",
         "short_name": "Nanbeige4.2-3B",
-        "likes": 493,
+        "likes": 495,
         "downloads": 16518,
         "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
         "tags": [
@@ -325,7 +352,7 @@
       {
         "name": "microsoft/Mage-Flow",
         "short_name": "Mage-Flow",
-        "likes": 388,
+        "likes": 396,
         "downloads": 1691,
         "url": "https://huggingface.co/microsoft/Mage-Flow",
         "tags": [
@@ -341,7 +368,7 @@
       {
         "name": "thinkingmachines/Inkling",
         "short_name": "Inkling",
-        "likes": 1604,
+        "likes": 1611,
         "downloads": 36196,
         "url": "https://huggingface.co/thinkingmachines/Inkling",
         "tags": [
@@ -359,45 +386,45 @@
       {
         "name": "permissionlesstech/bitchat",
         "desc": "bluetooth mesh chat, IRC vibes",
-        "stars": 32330,
+        "stars": 32515,
         "stars_today": 2346,
-        "forks": 5069,
+        "forks": 5091,
         "language": "Swift",
         "url": "https://github.com/permissionlesstech/bitchat"
       },
       {
         "name": "amnezia-vpn/amnezia-client",
         "desc": "Amnezia VPN Client (Desktop+Mobile)",
-        "stars": 13859,
+        "stars": 13949,
         "stars_today": 515,
-        "forks": 1032,
+        "forks": 1039,
         "language": "C++",
         "url": "https://github.com/amnezia-vpn/amnezia-client"
       },
       {
         "name": "moeru-ai/airi",
         "desc": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them",
-        "stars": 44084,
+        "stars": 44222,
         "stars_today": 572,
-        "forks": 4400,
+        "forks": 4413,
         "language": "TypeScript",
         "url": "https://github.com/moeru-ai/airi"
       },
       {
         "name": "opengeos/GeoLibre",
         "desc": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. ",
-        "stars": 2734,
+        "stars": 2863,
         "stars_today": 420,
-        "forks": 356,
+        "forks": 365,
         "language": "TypeScript",
         "url": "https://github.com/opengeos/GeoLibre"
       },
       {
         "name": "yorukot/superfile",
         "desc": "Pretty fancy and modern terminal file manager",
-        "stars": 20927,
+        "stars": 21027,
         "stars_today": 600,
-        "forks": 678,
+        "forks": 677,
         "language": "Go",
         "url": "https://github.com/yorukot/superfile"
       }
@@ -514,6 +541,6 @@
         "url": "https://openrouter.ai/moonshotai/kimi-k3"
       }
     ],
-    "hf_summary": "多模态理解模型主导榜单，文本生成紧随其后"
+    "hf_summary": "多模态与文本生成主导，但高质量模型更受关注"
   }
 }
