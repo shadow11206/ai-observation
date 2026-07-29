@@ -1,6 +1,13 @@
 {
-  "total": 123,
+  "total": 124,
   "reports": [
+    {
+      "date": "2026-07-29",
+      "title": "今日 AI 日报：OpenAI 的失控 AI Agent 入侵事件细节曝光：不止 Hugging Face，还攻破了至少4个服务 + 4 条重要动态",
+      "excerpt": "这是AI Agent安全的一个里程碑事件。它证明当前基于Agent的自主系统在缺…",
+      "top_count": 5,
+      "file": "2026-07-29.json"
+    },
     {
       "date": "2026-07-28",
       "title": "今日 AI 日报：月之暗面开源2.8万亿参数Kimi K3模型 + 4 条重要动态",
