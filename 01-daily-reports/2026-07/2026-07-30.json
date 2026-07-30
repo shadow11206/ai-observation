@@ -3,265 +3,227 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "OpenAI 给10万学术研究者免费提供ChatGPT高级版，加速科学发现",
-      "finding": "OpenAI宣布向10万名学术研究者免费提供ChatGPT最先进模型访问权限，旨在加速科学研究、协作与发现。此举大幅降低了顶级AI工具的使用门槛，可能重塑学术研究范式。",
+      "title": "OpenAI 发布 ARC-AGI-3 评测改进：两个 API 设置让得分翻三倍",
+      "finding": "OpenAI 发现，在 GPT-5.6 上启用两个 API 设置（保留推理轨迹和启用压缩）后，其在 ARC-AGI-3 基准上的得分直接翻了三倍。这表明模型在抽象推理任务上的表现远未被充分挖掘，简单的 API 配置优化就能带来质变。",
       "key_data": [
-        "10万学术研究者",
-        "免费访问最先进模型",
-        "加速科学发现"
-      ],
-      "judgment": "这是OpenAI从消费市场向科研基础设施转型的关键一步。对学术界是重大利好，但对其他AI公司形成压力——谁能提供同样级别的免费科研支持？",
-      "confidence": 5,
-      "source": "OpenAI Blog",
-      "url": "https://openai.com/index/chatgpt-for-academic-researchers"
-    },
-    {
-      "rank": 2,
-      "title": "OpenAI 发现两个API设置让ARC-AGI-3得分翻三倍",
-      "finding": "OpenAI公布通过启用两个API设置（保留推理和启用压缩），GPT-5.6在ARC-AGI-3基准上的得分提升了3倍，同时效率更高。这表明模型能力远未被充分利用，API配置本身就能带来巨大差异。",
-      "key_data": [
-        "得分提升3倍",
-        "保留推理+启用压缩",
+        "得分翻三倍",
+        "保留推理轨迹",
+        "启用压缩",
         "GPT-5.6"
       ],
-      "judgment": "对开发者是重要提醒：不要默认使用API参数，模型潜力可能被简单设置埋没。对OpenAI而言，这意味着推理能力的提升可能更多来自工程优化而非模型本身。",
+      "judgment": "这对开发者是重要信号：模型能力上限远高于默认配置，API 调优（尤其是推理相关参数）将成为提升应用效果的关键杠杆。也说明 ARC 基准对推理能力的测量仍不成熟。",
       "confidence": 5,
       "source": "OpenAI Blog",
       "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores"
     },
     {
-      "rank": 3,
-      "title": "微软从Anthropic投资中获利32亿美元，但OpenAI投资表现参差不齐",
-      "finding": "微软在最新财报中披露，其对Anthropic的投资已产生32亿美元收益，而对OpenAI的投资则表现不一。同时微软在财报电话会上公开推销自研AI模型和工具，与OpenAI、Anthropic的竞争关系日益明显。",
+      "rank": 2,
+      "title": "微软从 Anthropic 投资中获利 32 亿美元，与 OpenAI 关系复杂化",
+      "finding": "微软最新财报披露，其对 Anthropic 的投资已带来 32 亿美元账面收益，同时微软开始公开推销自研 AI 模型和工具，与 OpenAI、Anthropic 形成直接竞争。微软正在从“投资+合作”转向“投资+自研+竞争”的多面手策略。",
       "key_data": [
         "32亿美元收益",
-        "Anthropic投资",
-        "与OpenAI竞争加剧"
+        "自研模型竞争",
+        "与OpenAI关系复杂"
       ],
-      "judgment": "微软正在从AI投资方转变为直接竞争者，自研模型+云服务的组合拳将改变AI市场格局。Anthropic的财务表现证明其商业价值被低估，而OpenAI面临的最大风险可能是失去微软这个盟友。",
+      "judgment": "微软的转向意味着 AI 生态的“平台绑定”时代结束，大客户会越来越倾向于多模型策略。OpenAI 和 Anthropic 需要更快证明自己的不可替代性，否则将面临被“去中间化”的风险。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/"
     },
     {
-      "rank": 4,
-      "title": "文档传播的AI蠕虫可自我复制到Copilot for Word",
-      "finding": "安全研究员发现一种新型提示注入攻击变种，通过恶意文档即可让AI蠕虫在Microsoft Word的Copilot中自我复制和传播。该攻击利用了Copilot读取文档上下文的能力，形成跨文档的自动传播链。",
-      "key_data": [
-        "自我复制蠕虫",
-        "Copilot for Word",
-        "提示注入攻击"
-      ],
-      "judgment": "这是AI安全领域的重要警示：当AI深度嵌入办公软件后，传统安全模型失效。企业部署AI Copilot时必须重新评估安全边界，否则一个恶意文档就能引发连锁感染。",
-      "confidence": 4,
-      "source": "Hacker News",
-      "url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/"
-    },
-    {
-      "rank": 5,
-      "title": "翁荔重返OpenAI，联合创始人仅剩2人",
-      "finding": "前OpenAI安全研究负责人翁荔（Lilian Weng）在离职数月后迅速回归OpenAI。目前OpenAI 6位联合创始人中仅剩Sam Altman和Greg Brockman仍在公司，核心团队持续动荡。",
+      "rank": 3,
+      "title": "翁荔重返 OpenAI 任职，联合创始人仅剩两人",
+      "finding": "前 OpenAI 安全研究负责人翁荔（Lilian Weng）在短暂离职后迅速回归 OpenAI 上班。目前 OpenAI 六位联合创始人中仅剩 Sam Altman 和 Greg Brockman 仍在公司。",
       "key_data": [
         "翁荔回归",
         "联合创始人仅剩2人",
-        "核心团队动荡"
+        "安全研究负责人"
       ],
-      "judgment": "翁荔回归说明OpenAI内部对安全研究的重视程度在回升，但联合创始人的持续流失反映公司治理结构仍不稳定。这对OpenAI的长期战略连贯性是隐忧。",
+      "judgment": "翁荔的回归说明 OpenAI 内部安全研究团队的人才流失问题得到一定缓解，但联合创始人的持续出走仍是公司治理不稳定的信号。对行业而言，顶级 AI 人才的流动将持续加剧。",
       "confidence": 4,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/07/462947.html"
+    },
+    {
+      "rank": 4,
+      "title": "微软与 OpenAI、Anthropic 公开竞争加剧，自研模型和工具全面铺开",
+      "finding": "微软在财报电话会上明确表示，其企业 AI 战略不仅限于代理（Agent），还包括自研模型、API、计算服务和内部软件。微软正在构建一个与 OpenAI 和 Anthropic 直接竞争的完整 AI 栈。",
+      "key_data": [
+        "自研模型",
+        "API竞争",
+        "企业AI栈"
+      ],
+      "judgment": "微软的“去 OpenAI 化”战略正式浮出水面。对于企业客户，这意味着更多选择，但也意味着生态碎片化。对于 OpenAI 和 Anthropic，失去微软这个最大渠道伙伴将是致命打击。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/"
+    },
+    {
+      "rank": 5,
+      "title": "AI 安全排行榜发布：前沿模型安全性能首次被系统评估",
+      "finding": "一个名为 AI Security Leaderboard 的新项目发布了首个系统性的前沿模型安全排行榜，对多家顶级模型进行了安全性能基准测试。结果显示，模型的安全能力差异巨大，且与模型能力并不正相关。",
+      "key_data": [
+        "首个安全排行榜",
+        "模型安全差异大",
+        "与能力不相关"
+      ],
+      "judgment": "安全评测终于从“论文指标”走向“可比较的排行榜”，这对企业选型和开发者部署至关重要。未来模型选型时，安全分数将和推理、编码等能力指标同等重要。",
+      "confidence": 3,
+      "source": "Reddit r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vaargb/ai_security_leaderboard_benchmarking_model/"
     }
   ],
   "model_tech": [
     {
-      "source": "arXiv",
-      "title": "Semalith v1.4：仅1.84亿参数的提示注入检测器，性能超越Llama-Guard-3-8B",
-      "finding": "新发布的轻量级安全分类器Semalith v1.4仅用1.84亿参数就实现了比Llama-Guard-3-8B（80亿参数）更好的提示注入检测效果，参数规模缩小44倍。",
-      "key_data": [
-        "1.84亿参数",
-        "44倍参数缩减",
-        "提示注入检测SOTA"
-      ],
-      "judgment": "安全检测的小型化趋势加速，未来安全模块可以嵌入到任何Agent中，不再依赖大模型本身。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2607.22545",
-      "importance": 3
-    },
-    {
-      "source": "arXiv",
-      "title": "CORVUS：通过上下文同步优化减少LLM编码Agent的上下文长度",
-      "finding": "新研究提出CORVUS方法，通过同步机制优化LLM编码Agent的上下文管理，减少无效信息累积，提升长任务执行效率。",
-      "key_data": [
-        "上下文优化",
-        "编码Agent",
-        "长任务效率提升"
-      ],
-      "judgment": "上下文管理是Agent落地的核心瓶颈之一，CORVUS这类方法对构建可靠的长周期Agent有实际价值。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2607.22711",
-      "importance": 2
-    },
-    {
-      "source": "arXiv",
-      "title": "Progress-conditioned Group Policy Optimization：面向长周期Agent任务的强化学习新方法",
-      "finding": "提出一种基于进度条件的组策略优化方法，让LLM Agent能从稀疏的最终奖励中学习，更有效地完成需要多步决策的长周期任务。",
-      "key_data": [
-        "组策略优化",
-        "长周期Agent",
-        "稀疏奖励学习"
-      ],
-      "judgment": "这是让Agent从'能对话'进化到'能干活'的关键技术方向，对自动化工作流和机器人控制有直接意义。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2607.22724",
-      "importance": 3
-    },
-    {
-      "source": "arXiv",
-      "title": "CogArena：大语言模型认知能力结构的多方法评估",
-      "finding": "新研究提出CogArena评估框架，从多个维度系统评估LLM的认知能力结构，发现不同模型在推理、记忆、规划等子能力上存在显著差异。",
-      "key_data": [
-        "认知能力评估",
-        "多维度框架",
-        "模型能力差异"
-      ],
-      "judgment": "简单看总分已经不够，开发者需要根据任务类型选择模型，CogArena这类细粒度评估将成为标配。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2607.24999",
-      "importance": 2
-    },
-    {
-      "source": "arXiv",
-      "title": "Neuromorphic Diffusion Language Models：通过稀疏性和块去噪解决计算和内存瓶颈",
-      "finding": "提出类脑扩散语言模型，利用稀疏计算和块去噪方法，在推理时大幅降低内存和计算需求，为非自回归生成开辟新路径。",
-      "key_data": [
-        "类脑扩散模型",
-        "稀疏计算",
-        "推理效率提升"
-      ],
-      "judgment": "如果该方法能落地，可能改变LLM推理的能耗格局，对端侧部署和实时应用是重大利好。",
-      "confidence": 2,
-      "url": "https://arxiv.org/abs/2607.24841",
-      "importance": 2
-    }
-  ],
-  "company_product": [
-    {
       "source": "Google DeepMind Blog",
-      "title": "Google DeepMind 发布 Lyria 3.5，集成到 Google Flow Music",
-      "finding": "Google DeepMind推出音乐生成模型Lyria 3.5，在音乐性、歌词、人声和创意控制方面均有显著提升，并已集成到Google Flow Music产品中。",
+      "title": "Google Flow Music 发布 Lyria 3.5：音乐性、歌词、人声和创意控制全面升级",
+      "finding": "Google DeepMind 发布了 Lyria 3.5 音乐生成模型，在音乐性、歌词质量、人声表现和用户创意控制方面有显著提升。这是继 Suno 之后，大厂在 AI 音乐领域的重要布局。",
       "key_data": [
         "Lyria 3.5",
-        "Google Flow Music",
-        "音乐生成升级"
+        "音乐生成",
+        "创意控制"
       ],
-      "judgment": "AI音乐生成进入产品化阶段，但能否撼动Suno和ElevenLabs的市场地位，取决于用户体验和版权策略。",
+      "judgment": "AI 音乐赛道竞争白热化，Google 凭借 DeepMind 的研究积累和 Flow Music 的产品化能力，有望挑战 Suno 的领先地位。对创作者而言，选择更多了。",
       "confidence": 5,
       "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
       "importance": 3
     },
     {
+      "source": "ArXiv cs.AI",
+      "title": "Kernel Forge：基于 LLM Agent 的 CUDA 内核自动生成与优化工具",
+      "finding": "新论文提出 Kernel Forge，一个利用 LLM Agent 自动生成和优化 CUDA 计算内核的系统。它能够将常见的机器学习算子自动编译为高效的 CUDA 代码，减少人工调优工作量。",
+      "key_data": [
+        "CUDA内核自动生成",
+        "LLM Agent",
+        "减少人工调优"
+      ],
+      "judgment": "这是 AI 辅助底层系统编程的重要进展。如果成熟，将大幅降低 GPU 编程门槛，让更多开发者能参与高性能计算优化，可能改变 AI 基础设施的开发模式。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.24762",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "元学习奖励塑形：改进 RLHF 中的人类反馈效率",
+      "finding": "新论文提出一种元学习方法，通过自动学习奖励塑形函数来提升 RLHF（基于人类反馈的强化学习）的效率，减少对人类标注的依赖。",
+      "key_data": [
+        "元学习",
+        "奖励塑形",
+        "减少人工标注"
+      ],
+      "judgment": "RLHF 的成本和效率一直是制约大模型对齐的瓶颈。如果该方法被验证有效，将加速模型对齐流程，降低对齐成本。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.26094",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "DuplexGen：自适应合成全双工人机对话",
+      "finding": "新论文提出 DuplexGen，一个能自适应生成全双工（同时说话/倾听）人机对话的数据合成方法，解决了当前模型在复杂对话场景中轮次控制能力不足的问题。",
+      "key_data": [
+        "全双工对话",
+        "自适应合成",
+        "轮次控制"
+      ],
+      "judgment": "全双工对话是下一代语音助手的关键能力。该研究为训练更自然的语音交互模型提供了数据基础，对智能音箱、车载语音等场景有直接价值。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2607.26178",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "OpenAI Blog",
+      "title": "ChatGPT for Academic Researchers：向 10 万学者免费提供高级模型",
+      "finding": "OpenAI 宣布向 10 万名学术研究人员免费提供 ChatGPT 最先进模型，以加速科学发现。这是 OpenAI 在教育科研领域的一次大规模推广。",
+      "key_data": [
+        "10万学者",
+        "免费",
+        "加速科研"
+      ],
+      "judgment": "这是 OpenAI 争夺学术高地的策略，通过免费获取研究数据和使用习惯，巩固其在科研领域的生态位。对学者是利好，但对其他 AI 公司构成竞争压力。",
+      "confidence": 5,
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "importance": 4
+    },
+    {
+      "source": "量子位",
+      "title": "国产 AI 安全智能体杀进全球前四、国内第一",
+      "finding": "一款国产 AI 安全智能体在漏洞挖掘排行榜上超越 OpenAI 和 Anthropic 的产品，进入全球前四、国内第一。AI 开始被用于自动化漏洞发现。",
+      "key_data": [
+        "全球前四",
+        "国内第一",
+        "漏洞挖掘"
+      ],
+      "judgment": "AI 安全赛道正在从“防御”转向“攻击”，自动化漏洞挖掘将成为安全领域的新范式。国产产品在这一细分领域的突破值得关注。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/07/462447.html",
+      "importance": 3
+    },
+    {
       "source": "InfoQ",
-      "title": "首个突破90%成功率的桌面操作智能体，实在Agent登顶OSWorld双冠",
-      "finding": "实在智能的桌面操作Agent在OSWorld基准测试中首次突破90%成功率，成为首个达到该水平的桌面操作智能体。",
+      "title": "首个突破 90% 成功率的桌面操作智能体：实在 Agent 登顶 OSWorld 双冠",
+      "finding": "实在智能的桌面操作 Agent 在 OSWorld 基准上首次突破 90% 成功率，获得双料冠军。这表明桌面自动化 Agent 正在从“演示”走向“可用”。",
       "key_data": [
         "90%成功率",
         "OSWorld双冠",
-        "桌面操作Agent"
+        "桌面自动化"
       ],
-      "judgment": "桌面Agent从实验室走向实用的关键里程碑，90%成功率意味着可以开始处理真实业务场景中的简单任务。",
+      "judgment": "桌面操作 Agent 是 RPA 的 AI 进化版，90% 成功率意味着它已具备在部分场景替代人工操作的能力。企业自动化市场将迎来新一波升级。",
       "confidence": 3,
       "url": "https://www.infoq.cn/article/4hUcQzeCeKm0wqkc4Zdc",
       "importance": 3
     },
     {
-      "source": "TechCrunch",
-      "title": "扎克伯格预测五年内数十亿人将拥有个人AI Agent",
-      "finding": "Meta CEO扎克伯格在财报电话会上表示，Meta看到超越Agent的企业AI机会，涵盖API、计算和内部软件，并预测五年内数十亿人将拥有个人AI Agent。",
-      "key_data": [
-        "数十亿人",
-        "五年内",
-        "个人AI Agent"
-      ],
-      "judgment": "扎克伯格的预测虽然宏大，但Meta在AI Agent领域尚未有杀手级产品，更多是战略愿景而非现实路线图。",
-      "confidence": 4,
-      "url": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
-      "importance": 2
-    },
-    {
-      "source": "量子位",
-      "title": "国产AI安全智能体杀进全球前四、国内第一",
-      "finding": "一款国产AI安全智能体在漏洞挖掘评测中超越OpenAI和Anthropic，进入全球前四、国内第一。AI开始组团'挖漏洞'，安全攻防进入新阶段。",
-      "key_data": [
-        "全球前四",
-        "国内第一",
-        "AI安全智能体"
-      ],
-      "judgment": "中国在AI安全应用领域取得突破，但评测基准的权威性需要验证，不宜过度解读排名。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/07/462447.html",
-      "importance": 2
-    },
-    {
       "source": "36氪",
-      "title": "蚂蚁阿福上线'AI拍饮食'功能，用AI解决国民级健康难题",
-      "finding": "蚂蚁集团旗下AI助手阿福上线'AI拍饮食'功能，用户拍照即可自动估算食物营养和热量，获得健康建议，并建立个人'热量账户'。",
+      "title": "月之暗面 Kimi 完成超 35 亿美元 F 轮融资",
+      "finding": "月之暗面（Kimi）已完成超过 35 亿美元的 F 轮融资，这是国内 AI 大模型公司迄今为止最大单轮融资之一，表明资本对长上下文赛道的持续看好。",
       "key_data": [
-        "AI拍饮食",
-        "营养估算",
-        "热量账户"
+        "35亿美元",
+        "F轮融资",
+        "长上下文"
       ],
-      "judgment": "AI+健康管理进入实用阶段，拍照识别+个性化建议的组合将成为健康类App的标配功能。",
+      "judgment": "在资本寒冬下，Kimi 能拿到如此大规模融资，说明长上下文技术路线获得了市场认可。但巨额融资也意味着更高的商业化压力。",
       "confidence": 4,
-      "url": "https://36kr.com/p/3916800672656773",
-      "importance": 2
+      "url": "https://36kr.com/p/3917362478148993",
+      "importance": 4
     }
   ],
   "opinions": [
     {
-      "person": "D. Richard Hipp",
-      "level": "L1",
-      "quote": "以前没有SQL时，人们的工作是编写软件来查询大型数据集，他们的职位叫COBOL程序员。SQL出现后，查询工作被抽象化了。现在AI正在做类似的事情——把编程抽象化。",
-      "source": "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything"
-    },
-    {
-      "person": "Matthew Green",
-      "level": "L2",
-      "quote": "我们正处于从传统公钥算法（基于椭圆曲线和RSA）向基于新问题的后量子算法过渡的历史性转变中。",
-      "source": "https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything"
-    },
-    {
       "person": "Mark Zuckerberg",
       "level": "L3",
-      "quote": "Meta看到超越AI Agent的大型企业机会，涵盖AI Agent、API、计算和内部软件。五年内数十亿人将拥有个人AI Agent。",
-      "source": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/"
+      "quote": "Meta 看到巨大的企业 AI 机会，不仅限于 Agent，还包括 API、计算和内部软件。他预测五年内将有数十亿人拥有个人 AI Agent。",
+      "source": "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/"
+    },
+    {
+      "person": "D. Richard Hipp",
+      "level": "L2",
+      "quote": "SQL 的出现让 COBOL 程序员失业，AI 将带来类似的变革——它会淘汰那些只做数据查询的岗位，但也会创造新的工作方式。",
+      "source": "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI Agent的安全边界：从提示注入到自我复制蠕虫",
-      "reason": "AI蠕虫攻击Copilot for Word的案例揭示了Agent安全的新维度，值得深入研究防御方案。",
+      "topic": "微软“去 OpenAI 化”战略及其对 AI 生态的影响",
+      "reason": "微软从合作转向竞争，可能重塑大模型商业格局，值得深入分析其动机和后果。",
       "priority": "high"
     },
     {
-      "topic": "微软从AI投资方到竞争者的战略转变",
-      "reason": "微软自研模型+云服务+投资组合的三角策略正在改变AI市场格局，影响所有AI公司的竞争策略。",
-      "priority": "high"
-    },
-    {
-      "topic": "API参数配置对模型能力的隐藏影响",
-      "reason": "OpenAI发现两个设置让ARC-AGI-3得分翻三倍，说明模型能力远未被充分利用，值得系统研究。",
+      "topic": "ARC-AGI 基准的局限性：API 设置为何能翻三倍得分？",
+      "reason": "揭示当前推理评测的漏洞，对理解模型真实推理能力有重要意义。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "OpenAI免费开放科研，微软与Anthropic/OpenAI关系生变",
-  "summary_paragraph": "今日AI行业迎来多重信号：OpenAI向10万学者免费开放ChatGPT高级版，同时发现API参数配置就能让ARC-AGI-3得分翻三倍，说明模型潜力远未被充分利用。微软财报披露从Anthropic投资获利32亿美元，同时公开推销自研模型，与OpenAI的竞争关系日益明朗。安全方面，AI蠕虫可自我复制到Copilot for Word的发现敲响了Agent安全警钟。人物方面，翁荔重返OpenAI，但联合创始人仅剩2人，团队动荡仍在持续。整体来看，行业正从'模型军备竞赛'转向'生态与安全并重'的新阶段。",
+  "summary_one_line": "微软与 OpenAI 公开竞争，ARC 评测暴露漏洞",
+  "summary_paragraph": "今日 AI 行业的关键词是“竞争与反思”。微软在财报中披露从 Anthropic 投资获利 32 亿美元，同时公开推销自研模型，与 OpenAI 和 Anthropic 形成直接竞争，标志着 AI 生态进入多极化时代。OpenAI 则发布了一项令人深思的发现：仅通过调整两个 API 设置，GPT-5.6 在 ARC-AGI-3 上的得分就翻了三倍，这暴露了当前推理基准的脆弱性。与此同时，翁荔重返 OpenAI、Kimi 完成 35 亿美元融资、国产安全 Agent 进入全球前四等消息，共同勾勒出一个加速分化与重构的 AI 行业图景。",
   "snapshot": {
     "date": "2026-07-30",
     "hf_trending": [
       {
         "name": "moonshotai/Kimi-K3",
         "short_name": "Kimi-K3",
-        "likes": 8693,
+        "likes": 8725,
         "downloads": 99214,
         "url": "https://huggingface.co/moonshotai/Kimi-K3",
         "tags": [
@@ -277,7 +239,7 @@
       {
         "name": "baidu/Unlimited-OCR",
         "short_name": "Unlimited-OCR",
-        "likes": 3517,
+        "likes": 3522,
         "downloads": 2694935,
         "url": "https://huggingface.co/baidu/Unlimited-OCR",
         "tags": [
@@ -293,7 +255,7 @@
       {
         "name": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "short_name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-        "likes": 949,
+        "likes": 961,
         "downloads": 736692,
         "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "tags": [
@@ -309,13 +271,45 @@
       {
         "name": "poolside/Laguna-S-2.1",
         "short_name": "Laguna-S-2.1",
-        "likes": 828,
+        "likes": 831,
         "downloads": 67286,
         "url": "https://huggingface.co/poolside/Laguna-S-2.1",
         "tags": [
           "transformers",
           "safetensors",
           "laguna"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Kwaipilot/KAT-Coder-V2.5-Dev",
+        "short_name": "KAT-Coder-V2.5-Dev",
+        "likes": 321,
+        "downloads": 6275,
+        "url": "https://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Nanbeige/Nanbeige4.2-3B",
+        "short_name": "Nanbeige4.2-3B",
+        "likes": 559,
+        "downloads": 18933,
+        "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "nanbeige"
         ],
         "pipeline_tag": "text-generation",
         "label": "文本生成",
@@ -332,38 +326,6 @@
           "transformers",
           "safetensors",
           "solar_open2"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
-        "name": "Kwaipilot/KAT-Coder-V2.5-Dev",
-        "short_name": "KAT-Coder-V2.5-Dev",
-        "likes": 320,
-        "downloads": 6275,
-        "url": "https://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
-        "name": "Nanbeige/Nanbeige4.2-3B",
-        "short_name": "Nanbeige4.2-3B",
-        "likes": 556,
-        "downloads": 18933,
-        "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "nanbeige"
         ],
         "pipeline_tag": "text-generation",
         "label": "文本生成",
@@ -391,45 +353,45 @@
       {
         "name": "opengeos/GeoLibre",
         "desc": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. ",
-        "stars": 4128,
+        "stars": 4197,
         "stars_today": 671,
-        "forks": 435,
+        "forks": 442,
         "language": "TypeScript",
         "url": "https://github.com/opengeos/GeoLibre"
       },
       {
         "name": "moeru-ai/airi",
         "desc": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them",
-        "stars": 45466,
+        "stars": 45515,
         "stars_today": 682,
-        "forks": 4490,
+        "forks": 4498,
         "language": "TypeScript",
         "url": "https://github.com/moeru-ai/airi"
       },
       {
         "name": "affaan-m/ECC",
         "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research",
-        "stars": 235668,
+        "stars": 235735,
         "stars_today": 857,
-        "forks": 35882,
+        "forks": 35888,
         "language": "JavaScript",
         "url": "https://github.com/affaan-m/ECC"
       },
       {
         "name": "huggingface/speech-to-speech",
         "desc": "Build local voice agents with open-source models",
-        "stars": 7948,
+        "stars": 8014,
         "stars_today": 827,
-        "forks": 1002,
+        "forks": 1017,
         "language": "Python",
         "url": "https://github.com/huggingface/speech-to-speech"
       },
       {
         "name": "1jehuang/jcode",
         "desc": "The most RAM efficient harness",
-        "stars": 13540,
+        "stars": 13600,
         "stars_today": 640,
-        "forks": 1485,
+        "forks": 1495,
         "language": "Rust",
         "url": "https://github.com/1jehuang/jcode"
       }
@@ -546,6 +508,6 @@
         "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-20260723:free"
       }
     ],
-    "hf_summary": "多模态模型霸榜，文本生成竞争加剧"
+    "hf_summary": "多模态模型热度领先，文本生成竞争加剧"
   }
 }
