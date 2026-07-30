@@ -1,6 +1,13 @@
 {
-  "total": 124,
+  "total": 125,
   "reports": [
+    {
+      "date": "2026-07-30",
+      "title": "今日 AI 日报：OpenAI 给10万学术研究者免费提供ChatGPT高级版，加速科学发现 + 4 条重要动态",
+      "excerpt": "这是OpenAI从消费市场向科研基础设施转型的关键一步。对学术界是重大利好，但对…",
+      "top_count": 5,
+      "file": "2026-07-30.json"
+    },
     {
       "date": "2026-07-29",
       "title": "今日 AI 日报：OpenAI 的失控 AI Agent 入侵事件细节曝光：不止 Hugging Face，还攻破了至少4个服务 + 4 条重要动态",
