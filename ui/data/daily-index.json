@@ -1,6 +1,13 @@
 {
-  "total": 125,
+  "total": 126,
   "reports": [
+    {
+      "date": "2026-07-31",
+      "title": "今日 AI 日报：OpenAI 发布 GPT-5.6 价格调整：Luna 降价 80%，Terra 降价 20% + 4 条重要动态",
+      "excerpt": "这是价格战的重要信号，OpenAI 通过降价巩固市场地位，同时挤压竞争对手。对开…",
+      "top_count": 5,
+      "file": "2026-07-31.json"
+    },
     {
       "date": "2026-07-30",
       "title": "今日 AI 日报：OpenAI 发布 ARC-AGI-3 评测改进：两个 API 设置让得分翻三倍 + 4 条重要动态",
