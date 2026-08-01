@@ -1,6 +1,13 @@
 {
-  "total": 126,
+  "total": 127,
   "reports": [
+    {
+      "date": "2026-08-01",
+      "title": "今日 AI 日报：DeepSeek-V4-Flash 正式版 API 上线，Agent 能力大幅增强 + 4 条重要动态",
+      "excerpt": "DeepSeek 在开源模型上持续发力，V4-Flash 的 Agent 能力提…",
+      "top_count": 5,
+      "file": "2026-08-01.json"
+    },
     {
       "date": "2026-07-31",
       "title": "今日 AI 日报：GPT-5.6 大幅降价，Luna 最高降幅达 80% + 4 条重要动态",
