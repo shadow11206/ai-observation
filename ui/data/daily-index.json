@@ -1,6 +1,13 @@
 {
-  "total": 130,
+  "total": 131,
   "reports": [
+    {
+      "date": "2026-08-05",
+      "title": "今日 AI 日报：Anthropic 与 AI 云初创公司 Volta 签署 100 亿美元协议 + 4 条重要动态",
+      "excerpt": "这笔巨额交易凸显了顶级 AI 实验室对算力的渴求，也反映出 AI 云服务市场的竞…",
+      "top_count": 5,
+      "file": "2026-08-05.json"
+    },
     {
       "date": "2026-08-04",
       "title": "今日 AI 日报：OpenAI 发布 GPT-Live：实现无停顿的连续语音交互 + 4 条重要动态",
