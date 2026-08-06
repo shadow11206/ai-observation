@@ -1,6 +1,13 @@
 {
-  "total": 131,
+  "total": 132,
   "reports": [
+    {
+      "date": "2026-08-06",
+      "title": "今日 AI 日报：Jeff Dean 等顶级 AI 研究员集体离开谷歌，联合创立新公司 + 4 条重要动态",
+      "excerpt": "这是谷歌 AI 领导层的重大地震，标志着以 Jeff Dean 为代表的传统 A…",
+      "top_count": 5,
+      "file": "2026-08-06.json"
+    },
     {
       "date": "2026-08-05",
       "title": "今日 AI 日报：Anthropic 与 AI 云初创公司 Volta 签署 100 亿美元协议 + 4 条重要动态",
