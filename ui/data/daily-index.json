@@ -1,6 +1,13 @@
 {
-  "total": 132,
+  "total": 133,
   "reports": [
+    {
+      "date": "2026-08-07",
+      "title": "今日 AI 日报：谷歌AI帝国大洗牌：Jeff Dean等四位元老离职，Demis转任主席 + 4 条重要动态",
+      "excerpt": "这是谷歌AI战略的重大转折点。四位技术灵魂人物的离开可能削弱DeepMind的研…",
+      "top_count": 5,
+      "file": "2026-08-07.json"
+    },
     {
       "date": "2026-08-06",
       "title": "今日 AI 日报：谷歌AI核心团队大震荡：Jeff Dean离职创业，哈萨比斯卸任DeepMind CEO + 4 条重要动态",
