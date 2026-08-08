@@ -1,6 +1,13 @@
 {
-  "total": 133,
+  "total": 134,
   "reports": [
+    {
+      "date": "2026-08-08",
+      "title": "今日 AI 日报：OpenAI 因安全顾虑放缓 Astra 模型开发，承认其可能具备关键性网络攻击能力 + 4 条重要动态",
+      "excerpt": "这是 AI 安全领域的重要信号：前沿模型能力已逼近危险临界点，OpenAI 主动…",
+      "top_count": 5,
+      "file": "2026-08-08.json"
+    },
     {
       "date": "2026-08-07",
       "title": "今日 AI 日报：谷歌AI帝国大洗牌：Jeff Dean等四位元老离职，Demis转任主席 + 4 条重要动态",
