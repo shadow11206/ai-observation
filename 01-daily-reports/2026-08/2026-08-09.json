@@ -3,71 +3,73 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "谷歌急了：AI核心员工全给我搬回硅谷坐班！再花15亿美元买现成AI编程团队",
-      "finding": "谷歌要求AI核心员工回到硅谷办公，并斥资15亿美元收购一支现成的AI编程团队，以应对人才流失和竞争压力。这表明谷歌在AI领域感受到了前所未有的紧迫感，试图通过集中管理和快速并购来巩固实力。",
-      "key_data": [
-        "15亿美元收购",
-        "AI核心员工回硅谷",
-        "应对人才流失"
-      ],
-      "judgment": "谷歌的激进举措反映了AI人才争夺的白热化，远程办公模式在顶级AI研发中可能被终结。对开发者而言，未来可能需要适应更集中的办公要求，而并购潮将加速AI编程工具的市场整合。",
-      "confidence": 4,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/468398.html"
-    },
-    {
-      "rank": 2,
-      "title": "Jeff Dean创业BP曝光，杨植麟也在上面！硅谷VC抢破头送钱",
-      "finding": "谷歌首席科学家Jeff Dean的创业计划书被曝光，其中出现了Moonshot AI创始人杨植麟的名字，硅谷VC争相投资。这表明顶级AI科学家正在寻求新的创业机会，而中国AI人才与国际顶尖科学家的合作可能成为新趋势。",
+      "title": "Jeff Dean创业BP曝光，杨植麟也在上面，硅谷VC抢破头送钱",
+      "finding": "谷歌首席科学家Jeff Dean的创业计划书被曝光，投资人名单上出现了Moonshot AI创始人杨植麟，硅谷VC争相投资。同时有爆料称DeepMind CEO哈萨比斯原本也要一起离开，但被谷歌用条件留下。",
       "key_data": [
         "Jeff Dean创业",
-        "杨植麟参与",
-        "硅谷VC热捧"
+        "杨植麟参投",
+        "哈萨比斯被留",
+        "硅谷VC抢投"
       ],
-      "judgment": "Jeff Dean的创业动向是AI行业的风向标，可能吸引更多顶级人才离开大厂。杨植麟的参与暗示中美AI合作可能深化，但地缘政治风险不容忽视。对创业者而言，这是资本和人才流向的重要信号。",
-      "confidence": 3,
+      "judgment": "Jeff Dean是AI基础设施的顶级人物，他的创业方向可能重塑AI系统架构。哈萨比斯被留下说明谷歌在极力挽留核心人才，这场人才争夺战将深刻影响未来AI竞争格局。",
+      "confidence": 4,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/08/468498.html"
     },
     {
-      "rank": 3,
-      "title": "OpenAI 意外攻击 Hugging Face：时间线曝光，引发安全质疑",
-      "finding": "OpenAI 的一次意外攻击导致 Hugging Face 服务中断，Simon Willison 梳理了详细时间线。事件暴露了 AI 基础设施的脆弱性，以及大型 AI 公司之间复杂的相互依赖关系。",
+      "rank": 2,
+      "title": "OpenAI给10亿用户免费换上GPT-5.6",
+      "finding": "OpenAI宣布将GPT-5.6免费开放给所有ChatGPT用户，覆盖约10亿用户。此前有报道称GPT-5.6在游戏开发等任务上表现出色，仅用5美元成本就复刻了Opus 5烧掉6.9亿token才能完成的游戏。",
       "key_data": [
-        "OpenAI意外攻击",
-        "Hugging Face中断",
-        "时间线曝光"
+        "10亿用户免费",
+        "GPT-5.6",
+        "5美元复刻游戏",
+        "Opus 5烧6.9亿token"
       ],
-      "judgment": "这次事件提醒我们，AI 生态的稳定性依赖于各方的安全实践。对开发者而言，依赖单一平台的风险加剧，多平台冗余和容灾设计应成为标配。OpenAI 需要加强内部流程管控，避免类似事故。",
+      "judgment": "GPT-5.6免费开放是OpenAI巩固用户基础的重大举措，同时其成本效率优势明显，对Anthropic形成巨大压力。开发者应关注GPT-5.6的API定价和性能，这可能是新一代性价比标杆。",
       "confidence": 4,
-      "source": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/"
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/RXRuR3TN9msNMAUWRtCl"
     },
     {
-      "rank": 4,
-      "title": "Claude Code 默认开启 Auto 模式：Anthropic 对自主编程信心十足",
-      "finding": "Anthropic 将 Claude Code 的 Auto 模式设为 Pro、Max 和 Team 计划的默认设置，表明其自主编程能力已足够可靠。这标志着 AI 编程从辅助工具向自主 Agent 的转变。",
+      "rank": 3,
+      "title": "Claude Code Auto模式成为默认，Anthropic押注自主Agent",
+      "finding": "Anthropic将Claude Code的Auto模式设为Pro、Max和Team计划的默认设置，意味着AI编程助手将更主动地自主执行任务，减少人工干预。Simon Willison评论称Anthropic对Auto模式信心十足。",
       "key_data": [
         "Auto模式默认",
-        "覆盖Pro/Max/Team",
-        "自主编程信心"
+        "Pro/Max/Team计划",
+        "自主执行任务"
       ],
-      "judgment": "Claude Code 的默认 Auto 模式将改变开发者的工作流，减少手动干预，提高效率。但这也意味着开发者需要适应新的监督方式，并警惕过度依赖。对 AI 编程赛道而言，Anthropic 正在树立新标杆。",
+      "judgment": "这是AI编程从辅助走向自主的关键信号。开发者需要适应新的工作流，从写代码转向监督和审查AI产出。Anthropic此举可能引领行业趋势，其他AI编程工具或将跟进。",
       "confidence": 5,
       "source": "Simon Willison",
       "url": "https://simonwillison.net/2026/Aug/8/auto-mode/"
     },
     {
-      "rank": 5,
-      "title": "苹果删除 Apple 智能接入阿里千问页面，合作前景生变",
-      "finding": "苹果中国官网删除了关于 Apple 智能接入阿里千问的支持文档，此前该文档明确提到千问扩展适用于 macOS 26.6。删除动作引发外界对双方合作稳定性的猜测。",
+      "rank": 4,
+      "title": "OpenAI收购演示文稿初创公司NextSlide",
+      "finding": "OpenAI收购了演示文稿初创公司NextSlide，其团队成员将加入ChatGPT团队。这是OpenAI在办公场景的又一布局，可能将演示文稿生成能力整合进ChatGPT。",
       "key_data": [
-        "苹果删除文档",
-        "阿里千问合作",
-        "macOS 26.6"
+        "收购NextSlide",
+        "团队并入ChatGPT",
+        "办公场景布局"
       ],
-      "judgment": "苹果与阿里的合作可能面临变数，或涉及合规、技术或商业条款调整。对中国 AI 厂商而言，与国际巨头合作的不确定性增加，需要更谨慎地评估合作风险。对用户而言，Apple 智能的本地化体验可能受影响。",
+      "judgment": "OpenAI正在通过收购快速补齐办公套件能力，与Microsoft Copilot和Google Workspace竞争。对开发者而言，这意味着ChatGPT生态将更深入地渗透到日常办公工具中，API集成机会增加。",
       "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/"
+    },
+    {
+      "rank": 5,
+      "title": "苹果删除Apple智能接入阿里千问页面，合作生变？",
+      "finding": "苹果中国官网曾发布支持文档，称Apple智能可配合阿里千问模型工作，但随后该页面被删除。此前有消息称苹果将在中国区接入阿里千问，此次删除引发外界对双方合作状态的猜测。",
+      "key_data": [
+        "苹果删除页面",
+        "阿里千问",
+        "合作生变"
+      ],
+      "judgment": "苹果与阿里的AI合作若生变，将影响中国区iPhone的AI功能落地。对国内AI厂商而言，苹果的合作伙伴选择至关重要，这关系到谁能获得海量C端用户入口。",
+      "confidence": 3,
       "source": "极客公园",
       "url": "http://www.geekpark.net/news/368577"
     }
@@ -75,175 +77,119 @@
   "model_tech": [
     {
       "source": "量子位",
-      "title": "中国 NeoLab 时刻：EverMind 用 3 篇论文交出全栈自进化首份答卷",
-      "finding": "EverMind 发布 3 篇论文，展示全栈自进化能力，被视为中国 AI 的 NeoLab 时刻。海外团队纷纷下注，NeoLab 浪潮正在兴起。",
+      "title": "中国NeoLab时刻：EverMind用3篇论文交出全栈自进化首份答卷",
+      "finding": "中国团队EverMind发布3篇论文，展示全栈自进化AI能力，被类比为NeoLab时刻。海外团队纷纷下注，NeoLab浪潮兴起。",
       "key_data": [
         "3篇论文",
         "全栈自进化",
         "NeoLab浪潮"
       ],
-      "judgment": "EverMind 的成果表明中国在 AI 自进化领域取得突破，可能吸引更多国际关注和投资。对研究者而言，自进化技术是通往 AGI 的关键路径，值得深入跟踪。",
+      "judgment": "自进化AI是下一代模型的重要方向，中国团队在此领域取得突破，可能改变全球AI竞争格局。",
       "confidence": 3,
       "url": "https://www.qbitai.com/2026/08/468555.html",
       "importance": 4
     },
     {
-      "source": "InfoQ AI",
-      "title": "MiniMax H3 团队 Reddit 被问爆：2K 要开源，图像模型在路上，Apache-2.0 也在考虑",
-      "finding": "MiniMax H3 团队在 Reddit 上透露，2K 模型将开源，图像模型正在开发，并考虑采用 Apache-2.0 协议。这显示了 MiniMax 对开源社区的重视。",
+      "source": "InfoQ",
+      "title": "MiniMax H3团队Reddit被问爆：2K要开源，图像模型在路上",
+      "finding": "MiniMax H3团队在Reddit上透露，H3 2K模型将开源，图像模型正在开发中，并考虑采用Apache-2.0协议。",
       "key_data": [
-        "2K开源",
-        "图像模型",
-        "Apache-2.0"
+        "H3 2K开源",
+        "图像模型开发中",
+        "Apache-2.0考虑"
       ],
-      "judgment": "MiniMax 的开源策略将增强其在开发者社区的影响力，Apache-2.0 协议有利于商业使用。对开发者而言，更多高质量开源模型选择是好事，但也需关注模型的实际性能。",
+      "judgment": "MiniMax开源策略将增强其在开发者社区的影响力，图像模型的推出可能使其在多模态领域更具竞争力。",
       "confidence": 4,
       "url": "https://www.infoq.cn/article/9C3eK9tJqDXbabbBy3aj",
       "importance": 3
     },
     {
       "source": "ArXiv",
-      "title": "RAG 多跳溯源的三重鲁棒性分析",
-      "finding": "一篇论文对 RAG 系统在多跳溯源任务中的表现进行了三重鲁棒性分析，发现 GraphRAG 在引用精度上常不如向量 RAG，但原因因语料而异。",
+      "title": "RAG多跳溯源的三重鲁棒性分析",
+      "finding": "一篇论文对RAG系统在多跳溯源任务中的鲁棒性进行了三重分析，发现GraphRAG在引用精度上常不如向量RAG，但原因因语料而异。",
       "key_data": [
-        "GraphRAG vs 向量RAG",
+        "GraphRAG",
         "引用精度",
         "三重鲁棒性"
       ],
-      "judgment": "该研究为 RAG 系统的选型提供了实证依据，开发者应根据具体场景权衡 GraphRAG 和向量 RAG。对 RAG 工具链的优化有指导意义。",
-      "confidence": 4,
+      "judgment": "该研究为RAG系统选型提供了重要参考，开发者需根据具体场景权衡GraphRAG和向量RAG。",
+      "confidence": 3,
       "url": "https://arxiv.org/abs/2608.05153",
-      "importance": 2
-    },
-    {
-      "source": "ArXiv",
-      "title": "思维链推理的均场动力学理论",
-      "finding": "新论文用均场动力学理论解释 LLM 的思维链推理行为，为理解推理机制提供了数学基础。",
-      "key_data": [
-        "均场动力学",
-        "思维链",
-        "理论解释"
-      ],
-      "judgment": "理论进展有助于指导推理模型的改进，但距离实际应用还有距离。对研究者而言，这是理解 LLM 推理的重要一步。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2608.05152",
-      "importance": 2
-    },
-    {
-      "source": "ArXiv",
-      "title": "面向工业因果推理的模拟器接地 LLM",
-      "finding": "论文提出一种基于模拟器的 LLM 框架，用于工业因果推理，如污水处理决策支持，通过工具使用和结构化注入提高答案的可靠性。",
-      "key_data": [
-        "工业因果推理",
-        "模拟器接地",
-        "污水处理"
-      ],
-      "judgment": "该研究展示了 LLM 在垂直行业的应用潜力，但泛化性有待验证。对工业 AI 从业者而言，这是一个值得关注的案例。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2608.05151",
       "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "TechCrunch",
-      "title": "OpenAI 收购演示文稿初创公司 NextSlide",
-      "finding": "OpenAI 收购了演示文稿初创公司 NextSlide，其团队成员将加入 ChatGPT 团队。这可能是 OpenAI 增强 ChatGPT 演示和办公功能的一步。",
+      "source": "量子位",
+      "title": "Opus 5狂烧6.9亿token做游戏，GPT-5.6用5美元复刻了",
+      "finding": "Anthropic的Opus 5在游戏开发任务中消耗了6.9亿token，而GPT-5.6仅用5美元成本就复刻了相同游戏，展示了极高的成本效率。",
       "key_data": [
-        "收购NextSlide",
-        "团队加入ChatGPT",
-        "演示文稿功能"
+        "6.9亿token",
+        "5美元成本",
+        "游戏复刻"
       ],
-      "judgment": "收购 NextSlide 表明 OpenAI 正在扩展 ChatGPT 的办公场景，可能对 Microsoft 的 PowerPoint 构成威胁。对办公软件市场而言，AI 驱动的演示工具将成新战场。",
-      "confidence": 4,
-      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "judgment": "GPT-5.6的成本优势可能改变AI应用的经济模型，开发者应重新评估模型选择，低成本高性能将推动更多AI应用落地。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/08/468766.html",
       "importance": 3
     },
     {
-      "source": "InfoQ AI",
-      "title": "AWS Lambda 取消代码存储配额，但函数大小限制未变",
-      "finding": "AWS Lambda 取消了代码存储配额，但函数大小限制保持不变。这简化了开发者管理，但实际部署限制仍在。",
+      "source": "InfoQ",
+      "title": "AWS Lambda取消代码存储配额，但函数大小限制未变",
+      "finding": "AWS Lambda取消了代码存储配额，但函数大小限制保持不变。这一调整简化了开发者管理，但实际影响有限。",
       "key_data": [
         "取消存储配额",
-        "函数大小限制不变"
+        "函数大小不变"
       ],
-      "judgment": "对开发者而言，存储配额取消减少了管理负担，但函数大小限制仍是瓶颈。AWS 此举可能是为了简化用户体验，但实际影响有限。",
+      "judgment": "对开发者是利好，但核心限制未变，实际影响有限。",
       "confidence": 4,
       "url": "https://www.infoq.cn/article/OG03ezJaBkdOd1G3rc1b",
       "importance": 2
     },
     {
       "source": "TechCrunch",
-      "title": "亚马逊计划中的数据中心或成美国最大气候污染源",
-      "finding": "亚马逊在德克萨斯州计划的数据中心将配套建设现场发电厂，可能成为美国最大的气候污染源。这引发了环保担忧。",
+      "title": "亚马逊计划建设的数据中心或成美国最大气候污染源",
+      "finding": "亚马逊在德克萨斯州计划建设的数据中心配套自建电厂，可能成为美国最大的气候污染源，引发环保争议。",
       "key_data": [
-        "德克萨斯数据中心",
-        "现场发电厂",
+        "德州数据中心",
+        "自建电厂",
         "最大污染源"
       ],
-      "judgment": "AI 基础设施的能源消耗和环境影响日益严重，亚马逊此举可能招致监管和舆论压力。对行业而言，绿色 AI 将成为重要议题，企业需平衡算力需求与可持续性。",
+      "judgment": "AI算力扩张与环保的矛盾日益突出，可能引发监管和公众压力，影响数据中心选址和能源策略。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
-      "importance": 3
-    },
-    {
-      "source": "Wired",
-      "title": "如何在 Gmail 和 Google Docs 中禁用 Gemini",
-      "finding": "Google 在 Gmail 和 Docs 中强制推出 Gemini AI 功能，用户可以选择关闭。Wired 提供了关闭指南。",
-      "key_data": [
-        "禁用Gemini",
-        "Gmail/Docs",
-        "用户控制"
-      ],
-      "judgment": "Google 的强制集成引发用户反感，但提供关闭选项是明智之举。对产品经理而言，AI 功能的默认开启策略需要谨慎，尊重用户选择权。",
-      "confidence": 4,
-      "url": "https://www.wired.com/story/how-to-disable-the-gemini-ai-features-in-gmail-and-google-docs/",
-      "importance": 2
-    },
-    {
-      "source": "InfoQ AI",
-      "title": "金融监管领域的 Harness 实践：让知识与数据驱动 Agent 稳定运行",
-      "finding": "AICon 深圳分享金融监管领域的 Agent 实践，强调用知识和数据驱动 Agent 稳定运行，避免失控。",
-      "key_data": [
-        "金融监管",
-        "Agent稳定",
-        "知识驱动"
-      ],
-      "judgment": "金融行业对 Agent 的可靠性要求极高，该实践为行业提供了参考。对开发者而言，构建可控的 Agent 是落地的关键。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/hQp9boye2rpPH7ZWUvXL",
       "importance": 2
     }
   ],
   "opinions": [
     {
       "person": "Simon Willison",
-      "level": "L2",
-      "quote": "关于 OpenAI 意外攻击 Hugging Face 的时间线，我认为最有趣的细节可能藏在第一个要点里，这揭示了 AI 基础设施的脆弱性。",
-      "source": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/"
+      "level": "L1",
+      "quote": "关于OpenAI意外攻击Hugging Face的时间线，最有趣的细节可能藏在第一条要点中。",
+      "source": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI 基础设施安全与多平台依赖风险",
-      "reason": "OpenAI 意外攻击 Hugging Face 事件暴露了 AI 生态的脆弱性，值得深入研究如何构建韧性架构。",
+      "topic": "Jeff Dean创业方向及对AI基础设施的影响",
+      "reason": "Jeff Dean是AI系统架构的顶级人物，其创业方向可能定义下一代AI基础设施，值得深入研究。",
       "priority": "high"
     },
     {
-      "topic": "AI 编程 Agent 的自主化趋势与开发者工作流变革",
-      "reason": "Claude Code 默认 Auto 模式标志着 AI 编程进入新阶段，值得探讨对开发者技能和团队协作的影响。",
+      "topic": "GPT-5.6成本效率优势对AI应用经济模型的影响",
+      "reason": "GPT-5.6以极低成本复刻复杂任务，可能重塑AI应用的成本结构，影响开发者选型和商业模式。",
       "priority": "high"
     }
   ],
-  "summary_one_line": "谷歌重金抢人，OpenAI 事故频发，AI 编程进入自主时代",
-  "summary_paragraph": "今日 AI 行业动态密集：谷歌为应对竞争，强制 AI 核心员工回硅谷并豪掷 15 亿美元收购编程团队，凸显人才争夺白热化；Jeff Dean 创业计划曝光，杨植麟参与其中，预示顶级人才流动加速。OpenAI 意外攻击 Hugging Face 事件引发对 AI 基础设施安全的担忧，而 Anthropic 将 Claude Code 默认设为 Auto 模式，标志着 AI 编程向自主 Agent 迈进。苹果删除与阿里千问的合作页面，合作前景生变。此外，MiniMax 计划开源 2K 模型，OpenAI 收购 NextSlide 扩展办公场景。整体来看，行业在人才、安全、自主化多个维度加速演进。",
+  "summary_one_line": "人才争夺、模型免费化、Agent自主化，AI竞争白热化",
+  "summary_paragraph": "今日AI行业风起云涌：谷歌核心人物Jeff Dean创业引发资本追逐，OpenAI免费开放GPT-5.6并收购NextSlide，Anthropic将Claude Code Auto模式设为默认，AI编程走向自主。同时，苹果与阿里合作生变，MiniMax开源策略推进。这些事件共同指向一个趋势：AI竞争从模型能力转向生态、成本和人才争夺，开发者将迎来更强大、更便宜的AI工具，但也需适应新的工作方式。",
   "snapshot": {
     "date": "2026-08-09",
     "hf_trending": [
       {
         "name": "MiniMaxAI/MiniMax-H3",
         "short_name": "MiniMax-H3",
-        "likes": 3111,
+        "likes": 3121,
         "downloads": 26693,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
         "tags": [
@@ -259,7 +205,7 @@
       {
         "name": "deepseek-ai/DeepSeek-V4-Flash-0731",
         "short_name": "DeepSeek-V4-Flash-0731",
-        "likes": 2854,
+        "likes": 2865,
         "downloads": 785771,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
         "tags": [
@@ -275,7 +221,7 @@
       {
         "name": "Comfy-Org/MiniMax-H3",
         "short_name": "MiniMax-H3",
-        "likes": 1006,
+        "likes": 1009,
         "downloads": 3943176,
         "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
         "tags": [
@@ -291,7 +237,7 @@
       {
         "name": "moonshotai/Kimi-K3",
         "short_name": "Kimi-K3",
-        "likes": 10343,
+        "likes": 10345,
         "downloads": 1388105,
         "url": "https://huggingface.co/moonshotai/Kimi-K3",
         "tags": [
@@ -307,7 +253,7 @@
       {
         "name": "larryvrh/MiniMax-H3-Turbo-Lora",
         "short_name": "MiniMax-H3-Turbo-Lora",
-        "likes": 489,
+        "likes": 493,
         "downloads": 0,
         "url": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
         "tags": [
@@ -323,7 +269,7 @@
       {
         "name": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "short_name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-        "likes": 1761,
+        "likes": 1767,
         "downloads": 2345190,
         "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "tags": [
@@ -355,7 +301,7 @@
       {
         "name": "ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
         "short_name": "Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
-        "likes": 403,
+        "likes": 405,
         "downloads": 0,
         "url": "https://huggingface.co/ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
         "tags": [
@@ -373,45 +319,45 @@
       {
         "name": "PrimeIntellect-ai/prime-agent",
         "desc": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-        "stars": 9023,
+        "stars": 9177,
         "stars_today": 2483,
-        "forks": 865,
+        "forks": 884,
         "language": "TypeScript",
         "url": "https://github.com/PrimeIntellect-ai/prime-agent"
       },
       {
         "name": "addyosmani/agent-skills",
         "desc": "Production-grade engineering skills for AI coding agents.",
-        "stars": 84596,
+        "stars": 84654,
         "stars_today": 779,
-        "forks": 9113,
+        "forks": 9116,
         "language": "JavaScript",
         "url": "https://github.com/addyosmani/agent-skills"
       },
       {
         "name": "TapXWorld/ChinaTextbook",
         "desc": "所有小初高、大学PDF教材。",
-        "stars": 77955,
+        "stars": 78000,
         "stars_today": 118,
-        "forks": 17659,
+        "forks": 17670,
         "language": "Roff",
         "url": "https://github.com/TapXWorld/ChinaTextbook"
       },
       {
         "name": "google/skills",
         "desc": "Agent Skills for Google products and technologies",
-        "stars": 16757,
+        "stars": 16803,
         "stars_today": 481,
-        "forks": 1371,
+        "forks": 1374,
         "language": "Python",
         "url": "https://github.com/google/skills"
       },
       {
         "name": "mattpocock/skills",
         "desc": "Skills for Real Engineers. Straight from my .agents directory.",
-        "stars": 210063,
+        "stars": 210165,
         "stars_today": 1359,
-        "forks": 18148,
+        "forks": 18158,
         "language": "Shell",
         "url": "https://github.com/mattpocock/skills"
       }
@@ -422,7 +368,7 @@
         "slug": "deepseek/deepseek-v4-flash",
         "name": "DeepSeek V4 Flash 0423",
         "org": "deepseek",
-        "total_tokens": 1946394318927,
+        "total_tokens": 1946394813733,
         "total_tokens_str": "1.9T",
         "api_calls": 0,
         "change": -14.7,
@@ -528,6 +474,6 @@
         "url": "https://openrouter.ai/stepfun/step-3.7-flash"
       }
     ],
-    "hf_summary": "多模态霸榜，爆款模型带节奏，生态热度集中。"
+    "hf_summary": "多模态霸榜，长名成营销新常态"
   }
 }
