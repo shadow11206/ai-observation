@@ -1,6 +1,13 @@
 {
-  "total": 135,
+  "total": 136,
   "reports": [
+    {
+      "date": "2026-08-10",
+      "title": "今日 AI 日报：Anthropic 将 Claude Code 的自动模式设为默认，编程自主性再进一步 + 4 条重要动态",
+      "excerpt": "对开发者而言，这标志着 AI 编程从辅助工具向自主代理的转变，将深刻改变开发工作…",
+      "top_count": 5,
+      "file": "2026-08-10.json"
+    },
     {
       "date": "2026-08-09",
       "title": "今日 AI 日报：Jeff Dean创业BP曝光，杨植麟也在上面，硅谷VC抢破头送钱 + 4 条重要动态",
