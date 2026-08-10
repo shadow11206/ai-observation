@@ -102,7 +102,8 @@ RSS 信源 → 日报生成 → AI 摘要提炼 → 观点更新 → 公众号�
 |-------------|------|
 | `AI_API_KEY` | AI API Key（DeepSeek / OpenAI / Anthropic 均支持） |
 | `AI_API_BASE` | API Base URL，如 `https://api.deepseek.com` |
-| `OPENROUTER_API_KEY` | OpenRouter API Key（在 [openrouter.ai/keys](https://openrouter.ai/keys) 创建） |
+
+> OpenRouter 排行已改用官方页面同源 API（`/api/frontend/v1/rankings/models`，无需 Key）。
 
 配置完成后，每天 10:00（北京时间）cron-job.org 自动触发日报生成并 commit 到仓库。  
 也可在 Actions 页面手动触发。

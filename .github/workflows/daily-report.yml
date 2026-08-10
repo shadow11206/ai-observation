@@ -43,7 +43,6 @@ jobs:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_API_BASE: ${{ secrets.AI_API_BASE }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
 
       - name: Build daily index
         run: python scripts/build_daily_index.py

@@ -23,7 +23,7 @@
 | `AI_API_KEY` | DeepSeek/OpenAI/Anthropic API Key | ✅ |
 | `AI_API_BASE` | API Base URL（如 `https://api.deepseek.com`） | ✅ |
 | `GITHUB_TOKEN` | 用于 fetch_snapshot GitHub API 请求 | ✅（Actions 自动注入） |
-| `OPENROUTER_API_KEY` | OpenRouter API Key（数据集 API 认证） | ✅ |
+| `OPENROUTER_API_KEY` | ~~数据集 API 认证~~ 已不再需要（2026-08-10 换前端 API 后） | 否 |
 | `WECHAT_APPID` | 微信公众号 AppID | 仅微信推送 |
 | `WECHAT_APPSECRET` | 微信公众号 AppSecret | 仅微信推送 |
 
@@ -31,18 +31,17 @@
 
 ## OpenRouter 数据
 
-- **API**：`https://openrouter.ai/api/v1/datasets/rankings-daily`（需 `OPENROUTER_API_KEY` Bearer Token），返回 JSON
-- **认证**：在 https://openrouter.ai/keys 创建 API Key，设为 GitHub Secret `OPENROUTER_API_KEY`
-- **数据规则**：UTC 日历天（00:00-23:59 UTC），API 返回最近 ~30 天的每日 Top 50 模型 token 量
-- **不含调用次数**：官方数据集 API 只有 `total_tokens` 字段（字符串，需 `int()` 转换），无 API 调用次数
-- **日环比自己算**：用当日和前一日的 `total_tokens` 差值算百分比变化
-- **`model_permaslug` 含日期后缀**（如 `tencent/hy3-preview-20260421`），聚合前需 `_strip_date_suffix()` 去掉
-- **排除 `other` 行**：API 返回中有一条 `model_permaslug: "other"` 的汇总行，需过滤掉
+- **API**：`https://openrouter.ai/api/frontend/v1/rankings/models`（**无需 Key**，官方排行榜页面同源），返回最新一个 UTC 日历天的全量模型数据（含 `variant`、`count` 调用次数、`total_prompt_tokens`/`total_completion_tokens` 分项）
+- **口径与页面一致**：日报数字 = 官方页面 https://openrouter.ai/rankings?view=day 数字（prompt+completion tokens）
+- **聚合规则**：`model_permaslug` 含日期后缀（如 `tencent/hy3-preview-20260421`），聚合前 `_strip_date_suffix()` 去掉；standard/free/batch 变体合并为一个模型
+- **不支持查历史日期**：API 只返回最新一天，日环比从**昨日日报 JSON** 读取（仅认 `source=frontend-v1` 的新口径数据，避免与旧口径错配）
+- **换源第一天环比显示 0%**：昨日日报还是旧口径（数据集 API），不认 → change=0，第二天起恢复正常
 - 排行榜页面确认：`https://openrouter.ai/rankings?view=day`
 
-### 历史：API 迁移（2026-06-19）
+### 历史：API 迁移记录
 
-旧的无认证前端 API (`/api/frontend/rankings/models?view=day`) 被 OpenRouter 下线（返回 404），迁移到官方数据集 API。旧 API 提供 `count`（调用次数）和 `change`（涨跌百分比），新 API 只有 `total_tokens`。
+- **2026-06-19**：旧的无认证前端 API (`/api/frontend/rankings/models?view=day`) 被 OpenRouter 下线（404），迁移到官方数据集 API（`/api/v1/datasets/rankings-daily`，需 `OPENROUTER_API_KEY`）。但数据集 API 的 `total_tokens` 与官方页面口径差约 7 倍（0.12~0.19 非恒定比例），且同一日期数据会延迟修正（8-08 GLM 从 549B 变 331B），导致环比假震荡；`:free` 变体拆分让部分模型（gemini）从榜单消失
+- **2026-08-10**：发现官方页面重新提供 `v1` 前缀前端 API（无需 Key），切回页面同源口径，修复上述全部问题
 
 ## 微信公众号
 
