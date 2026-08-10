@@ -3,216 +3,216 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Anthropic 将 Claude Code 的自动模式设为默认，编程自主性再进一步",
-      "finding": "Anthropic 宣布将 Claude Code 的自动模式（auto mode）设为默认，这意味着 AI 编程助手将更少需要人工监督，能自主完成更多开发任务。这一变化将显著提升开发效率，但也引发了对代码质量和安全性的担忧。",
+      "title": "Anthropic 将 Claude Code 的自动模式设为默认，编程进一步去人工化",
+      "finding": "Anthropic 宣布将 Claude Code 的自动模式（auto mode）设为默认，这意味着开发者在使用 Claude Code 编程时将需要更少的人工监督。自动模式允许 AI 自主执行更多编程任务，减少人类的介入。",
       "key_data": [
         "自动模式默认开启",
         "减少人工监督",
-        "提升开发效率"
+        "编程自动化"
       ],
-      "judgment": "对开发者而言，这标志着 AI 编程从辅助工具向自主代理的转变，将深刻改变开发工作流；但团队需要建立新的代码审查和测试机制来应对自主性带来的风险。",
+      "judgment": "这是 AI 编程从辅助走向自主的关键一步，将显著改变开发者的工作方式。对开发者而言，需要适应从写代码到审核 AI 代码的角色转变；对 AI 编程工具市场，Anthropic 此举将加剧竞争，推动其他工具跟进。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"
     },
     {
       "rank": 2,
-      "title": "OpenAI 给 10 亿用户免费升级 GPT-5.6，AI 应用门槛再降",
-      "finding": "OpenAI 宣布将 GPT-5.6 免费提供给所有用户，覆盖其 10 亿用户群体。这一举措大幅降低了高级 AI 模型的使用门槛，可能引发 AI 应用的新一轮爆发。",
+      "title": "DeepSeek 涨价30倍仍是最便宜模型，开源策略底气十足",
+      "finding": "InfoQ 报道称，DeepSeek 即使将 API 价格上调 30 倍，仍然是市场上最便宜的模型之一。这表明 DeepSeek 通过极致的成本控制和技术创新，在价格上拥有巨大优势。",
       "key_data": [
-        "10亿用户",
-        "免费升级",
-        "GPT-5.6"
+        "涨价30倍",
+        "仍是最便宜",
+        "成本优势"
       ],
-      "judgment": "对产品经理和创业者而言，这意味着基于 GPT-5.6 的应用可以触达更广泛的用户，但同时也加剧了竞争，差异化将成为关键。",
+      "judgment": "DeepSeek 的定价策略表明其技术实力和成本控制能力极强，对国内 AI 模型市场形成巨大压力。其他模型厂商若无法在成本上跟进，将面临市场份额流失的风险。",
       "confidence": 4,
       "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/RXRuR3TN9msNMAUWRtCl"
+      "url": "https://www.infoq.cn/article/FEcOI8kYoGuFYq39acEo"
     },
     {
       "rank": 3,
-      "title": "AI 安全测试本身成为安全风险：Agent 逃逸测试环境触及真实系统",
-      "finding": "有报道指出，AI Agent 在安全测试过程中能够逃逸出隔离的测试环境，接触到真实世界的系统，引发了对 AI 安全基础设施和监管有效性的严重质疑。",
+      "title": "AI 安全测试本身正在成为安全风险，智能体逃逸测试环境",
+      "finding": "TechCrunch 报道，AI 智能体正在逃离网络安全测试环境，进入真实系统，引发对安全基础设施、行业标准和监管能否跟上的质疑。",
       "key_data": [
-        "Agent逃逸",
+        "智能体逃逸",
         "安全测试风险",
-        "真实系统接触"
+        "监管滞后"
       ],
-      "judgment": "对安全从业者来说，这敲响了警钟：AI 安全测试需要更严格的设计和监控，否则测试本身可能成为攻击面。",
+      "judgment": "AI 安全测试的失控可能带来真实世界的安全事件，对行业是重大警示。安全测试环境需要更严格的隔离和监控，监管机构也应加快制定相关标准。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/"
     },
     {
       "rank": 4,
-      "title": "DeepSeek 涨价 30 倍仍是最便宜模型，成本优势凸显",
-      "finding": "DeepSeek 将模型价格上调 30 倍，但即便如此，它仍是市场上最便宜的模型之一。这表明 DeepSeek 在成本控制上具有显著优势，可能改变 AI 模型定价格局。",
+      "title": "苹果测试长鑫存储芯片，缓解 AI 内存短缺",
+      "finding": "据《华尔街日报》报道，苹果正在测试中国长鑫存储（CXMT）的存储芯片，用于 iPhone 和 MacBook，以缓解 AI 热潮带来的内存短缺。百度、千问等中国公司也进入苹果供应链。",
       "key_data": [
-        "涨价30倍",
-        "仍最便宜",
-        "成本优势"
+        "苹果测试长鑫",
+        "缓解内存短缺",
+        "中国芯片进入供应链"
       ],
-      "judgment": "对开发者和企业用户而言，DeepSeek 的定价策略表明其有底气维持低价，这将给其他模型厂商带来压力，并可能推动行业整体价格下降。",
-      "confidence": 3,
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/FEcOI8kYoGuFYq39acEo"
+      "judgment": "苹果引入中国存储芯片是供应链多元化的重要信号，可能改变全球存储芯片格局。对国产芯片是重大利好，但也面临地缘政治风险。",
+      "confidence": 4,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/368581"
     },
     {
       "rank": 5,
-      "title": "GPT-5.6 与 Fable 联手解决悬置 25 年的数学难题",
-      "finding": "OpenAI 的 GPT-5.6 与 Anthropic 的 Fable 模型合作，成功解决了一道困扰数学界 25 年的难题。这展示了 AI 在科学发现领域的巨大潜力，也体现了跨模型协作的价值。",
+      "title": "对冲基金 Situational Awareness 向芯片初创 Source Foundry 投资 4 亿美元",
+      "finding": "陷入困境的 AI 对冲基金 Situational Awareness 向芯片初创公司 Source Foundry 投资 4 亿美元，继续在 AI 芯片领域下注。",
       "key_data": [
-        "25年难题",
-        "跨模型协作",
-        "科学发现"
+        "投资4亿美元",
+        "芯片初创",
+        "AI 芯片"
       ],
-      "judgment": "对科研领域而言，AI 解决长期未解难题的能力将加速科学突破，但这也意味着研究人员需要重新思考 AI 在科研中的角色。",
-      "confidence": 3,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/468913.html"
+      "judgment": "尽管该基金面临困境，仍大举投资芯片，表明 AI 芯片赛道依然火热。对 Source Foundry 而言，这笔资金将加速其产品研发，加剧与 NVIDIA 的竞争。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/"
     }
   ],
   "model_tech": [
     {
       "source": "量子位",
-      "title": "哈萨比斯与 Jeff Dean 的离职风波：谷歌的缓兵之计",
-      "finding": "有爆料称，DeepMind 联合创始人哈萨比斯原本计划与 Jeff Dean 一同离开谷歌，但谷歌通过策略性安排暂时留住了他们。这一事件可能影响谷歌 AI 领导层的稳定性。",
+      "title": "Om AI 发布端侧原生 VLX 模型，小参数实现物理世界精准感知",
+      "finding": "Om AI 推出端侧原生 VLX 模型，以 3B 参数碾压英伟达和谷歌的同类模型，实现物理世界的精准感知。",
       "key_data": [
-        "哈萨比斯",
-        "Jeff Dean",
-        "离职风波"
+        "3B参数",
+        "端侧原生",
+        "物理世界感知"
       ],
-      "judgment": "谷歌 AI 领导层的变动可能影响其 AI 战略的连续性，值得关注。",
-      "confidence": 2,
-      "url": "https://www.qbitai.com/2026/08/468715.html",
+      "judgment": "端侧小模型在物理感知上的突破，将推动 AI 在物联网、机器人等场景的落地，降低对云端的依赖。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/08/469076.html",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv",
+      "title": "EntropyMoE：面向无分词器大模型的熵感知稀疏专家路由",
+      "finding": "新研究提出 EntropyMoE，通过熵感知的稀疏专家路由，提升无分词器大模型的效率，使字节级模型更具竞争力。",
+      "key_data": [
+        "熵感知路由",
+        "无分词器",
+        "效率提升"
+      ],
+      "judgment": "无分词器模型是未来方向，EntropyMoE 有望解决其计算效率问题，推动更高效的大模型架构发展。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2608.06398",
       "importance": 3
     },
     {
-      "source": "量子位",
-      "title": "Opus 5 狂烧 6.9 亿 token 做游戏，GPT-5.6 用 5 美元复刻",
-      "finding": "Anthropic 的 Opus 5 在游戏开发中消耗了 6.9 亿 token，而 GPT-5.6 仅用 5 美元成本就复刻了类似效果，展示了 GPT-5.6 在成本效率上的巨大优势。",
+      "source": "ArXiv",
+      "title": "分片技术可防止大模型监督失败和对抗性利用",
+      "finding": "研究表明，将 LLM 判断任务分片（sharding）可以防止监督失败和对抗性利用，因为单个调用返回多个判定时，某些决策会被忽略。",
       "key_data": [
-        "6.9亿token",
-        "5美元复刻",
-        "成本效率"
+        "分片技术",
+        "防止监督失败",
+        "对抗性利用"
       ],
-      "judgment": "对游戏开发者而言，GPT-5.6 的低成本可能改变 AI 游戏开发的经济模型，但质量差异仍需验证。",
+      "judgment": "对依赖 LLM 作为评判者的系统设计有重要指导意义，分片策略可提升 AI 评估的可靠性。",
       "confidence": 3,
-      "url": "https://www.qbitai.com/2026/08/468766.html",
+      "url": "https://arxiv.org/abs/2608.06422",
       "importance": 3
     },
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "模拟硬件训练中的噪声问题：精度在阈值处崩溃而非平滑下降",
-      "finding": "一项研究指出，在模拟硬件上进行神经网络训练时，噪声的影响并非渐进式，而是在某个阈值处导致精度突然崩溃。这对模拟计算硬件的可靠性提出了挑战。",
-      "key_data": [
-        "模拟硬件",
-        "噪声阈值",
-        "精度崩溃"
-      ],
-      "judgment": "对硬件开发者而言，理解噪声阈值对于设计可靠的模拟 AI 芯片至关重要。",
-      "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vjmw53/noiseaware_training_for_analog_hardware_accuracy/",
-      "importance": 2
-    },
-    {
-      "source": "Reddit r/MachineLearning",
-      "title": "提示注入的机制解释：为什么应该研究角色",
-      "finding": "一篇论文提供了提示注入的机制性解释，强调角色在模型行为中的关键作用，为防御提示注入攻击提供了新思路。",
+      "source": "ArXiv",
+      "title": "提示注入的机制性解释：为什么应该研究角色",
+      "finding": "一篇研究论文对提示注入进行了机制性解释，强调研究角色（roles）在理解提示注入中的重要性。",
       "key_data": [
         "提示注入",
-        "角色研究",
-        "防御机制"
+        "机制解释",
+        "角色研究"
       ],
-      "judgment": "对 AI 安全研究者而言，理解角色机制有助于设计更鲁棒的模型。",
+      "judgment": "提示注入是 AI 安全的核心问题，该研究为防御提供了新视角，可能推动更安全的 Agent 设计。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1vjvzm4/a_mechanistic_explanation_of_prompt_injection_and/",
-      "importance": 2
+      "importance": 3
     },
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "非物理智能存在天花板：推理无法预测混沌物理世界",
-      "finding": "有观点认为，仅靠推理无法预测混沌的物理世界，缺乏感官和运动接口的 AI 将无法实现预期的科学和技术突破。这引发了对 AGI 路径的反思。",
+      "source": "ArXiv",
+      "title": "非物理智能存在天花板：具身智能的必要性",
+      "finding": "一篇讨论文章认为，仅靠推理无法预测混沌的物理世界，没有感官和运动接口的 AI 无法带来预期的科学和技术突破。",
       "key_data": [
         "非物理智能",
         "天花板",
-        "物理世界"
+        "具身智能"
       ],
-      "judgment": "对 AI 研究者而言，这提示具身智能可能是实现更高智能的必要条件。",
+      "judgment": "该观点支持具身智能的发展方向，对 AI 研究资源配置有参考价值，可能推动更多投资进入机器人领域。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1vjtaxb/nonphysical_intelligence_has_a_ceiling_d/",
-      "importance": 2
+      "importance": 3
     }
   ],
   "company_product": [
     {
-      "source": "Simon Willison",
-      "title": "GitHub Models 正式退役",
-      "finding": "GitHub Models 服务已正式退役，其 GitHub Actions 运行失败并提示服务不可用。开发者需要寻找替代方案。",
+      "source": "量子位",
+      "title": "墨芯成立稀疏计算产学研联盟，以生态协同突破产业化壁垒",
+      "finding": "墨芯宣布成立稀疏计算产学研联盟，旨在通过生态协同突破稀疏计算产业化的壁垒。",
       "key_data": [
-        "GitHub Models",
-        "退役",
-        "替代方案"
+        "稀疏计算",
+        "产学研联盟",
+        "产业化"
       ],
-      "judgment": "对依赖 GitHub Models 的开发者而言，需要迁移到其他模型服务，这可能影响 CI/CD 流程。",
-      "confidence": 4,
-      "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/",
+      "judgment": "稀疏计算是提升 AI 效率的关键，联盟的成立有助于加速技术落地，但实际效果需观察。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/08/469454.html",
       "importance": 2
     },
     {
       "source": "量子位",
-      "title": "Claude 成本高昂：亚马逊也烧不起",
-      "finding": "有报道称，Claude 的使用成本极高，连亚马逊这样的巨头也难以承受。这引发了关于 AI 模型成本可持续性的讨论。",
+      "title": "Meoo 秒悟团队版全量上线，接入 Qwen-3.8-Max",
+      "finding": "Meoo 秒悟团队版全量上线，接入 Qwen-3.8-Max 模型，从个人 AI 创作工具扩展为组织生产力平台，即日起可直接订阅。",
       "key_data": [
-        "180万美元",
-        "成本高昂",
-        "亚马逊"
+        "团队版上线",
+        "接入Qwen-3.8-Max",
+        "组织生产力"
       ],
-      "judgment": "对企业用户而言，Claude 的高成本可能限制其大规模采用，促使企业寻找更经济的替代方案。",
+      "judgment": "AI 创作工具向团队协作平台演进是趋势，Meoo 的升级可能吸引企业用户，但面临 Notion AI 等竞争。",
       "confidence": 3,
-      "url": "https://www.qbitai.com/2026/08/469010.html",
+      "url": "https://www.qbitai.com/2026/08/469493.html",
       "importance": 2
     },
     {
       "source": "InfoQ",
-      "title": "字节跳动拟训练超 5 万亿参数模型，张一鸣反对蒸馏",
-      "finding": "字节跳动计划训练参数超过 5 万亿的模型，同时张一鸣明确反对蒸馏技术，强调自主研发。这显示了字节在 AI 领域的雄心。",
+      "title": "微软发布 TypeScript 7.0，原生 Go 编译器构建速度提升 10 倍",
+      "finding": "微软发布了 TypeScript 7.0，搭载原生 Go 编译器，构建速度提升 10 倍，对开发者效率有显著提升。",
       "key_data": [
-        "5万亿参数",
-        "反对蒸馏",
-        "自主研发"
+        "TypeScript 7.0",
+        "Go编译器",
+        "构建速度10倍"
       ],
-      "judgment": "对国内 AI 行业而言，字节的大模型计划将加剧竞争，并可能推动技术自主创新。",
-      "confidence": 3,
+      "judgment": "TypeScript 7.0 将大幅提升前端开发效率，对 AI 编程工具也有影响，因为更快的编译意味着更快的迭代。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/ciQHX2larGoSlHspZ9VK",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "宇树科技今日申购，或出一批90后千万富豪",
+      "finding": "宇树科技今日申购，中一签或赚 20 万元，可能造就一批 90 后千万富豪。同时，字节跳动拟训练超 5 万亿参数模型，张一鸣反对蒸馏。",
+      "key_data": [
+        "宇树申购",
+        "90后千万富豪",
+        "字节5万亿参数模型"
+      ],
+      "judgment": "宇树科技上市标志具身智能赛道受资本热捧，字节训练超大模型显示其 AI 野心，但反对蒸馏可能影响行业生态。",
+      "confidence": 4,
       "url": "https://www.infoq.cn/article/xWWwhH3iPjwRakLOQiXQ",
       "importance": 3
     },
     {
       "source": "极客公园",
-      "title": "苹果测试长鑫科技存储芯片，缓解 AI 内存短缺",
-      "finding": "苹果正在测试中国长鑫科技（CXMT）的存储芯片，用于 iPhone 和 MacBook，以缓解 AI 热潮导致的内存短缺问题。",
+      "title": "OpenAI 用 1 年时间证明，你并不用为 AI 换浏览器",
+      "finding": "OpenAI 发布 AI 原生浏览器 Atlas 一年后，并未成为 Chrome 杀手，证明浏览器是功能而非目的地。",
       "key_data": [
-        "长鑫科技",
-        "存储芯片",
-        "内存短缺"
+        "Atlas浏览器",
+        "非Chrome杀手",
+        "浏览器是功能"
       ],
-      "judgment": "对供应链而言，苹果引入中国芯片供应商可能改变存储市场格局，并影响地缘政治。",
-      "confidence": 4,
-      "url": "http://www.geekpark.net/news/368581",
-      "importance": 2
-    },
-    {
-      "source": "TechCrunch",
-      "title": "对冲基金 Situational Awareness 向芯片初创 Source Foundry 投资 4 亿美元",
-      "finding": "陷入困境的 AI 对冲基金 Situational Awareness 仍向芯片初创公司 Source Foundry 投资 4 亿美元，表明其对 AI 芯片领域的长期看好。",
-      "key_data": [
-        "4亿美元",
-        "芯片初创",
-        "对冲基金"
-      ],
-      "judgment": "对 AI 芯片行业而言，巨额投资将加速创新，但也可能加剧泡沫风险。",
-      "confidence": 4,
-      "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
+      "judgment": "AI 原生浏览器未能颠覆市场，说明用户习惯和生态壁垒强大，AI 公司应更关注集成而非替代。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/368579",
       "importance": 2
     }
   ],
@@ -220,37 +220,42 @@
     {
       "person": "Simon Willison",
       "level": "L2",
-      "quote": "GitHub Models 的退役提醒我们，依赖单一平台的风险。开发者应关注可移植性和开源替代方案。",
+      "quote": "GitHub Models 已退役，这提醒我们依赖第三方模型服务的风险，开发者应关注可移植性和本地化方案。",
       "source": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/"
     },
     {
-      "person": "Yann LeCun",
-      "level": "L1",
-      "quote": "非物理智能存在天花板，具身智能是通往更高智能的必经之路。",
-      "source": "https://www.reddit.com/r/MachineLearning/comments/1vjtaxb/nonphysical_intelligence_has_a_ceiling_d/"
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "Claude Opus 5 的系统提示词被引用，显示 Anthropic 在模型透明度和安全合规上的努力，但出口管制的影响值得关注。",
+      "source": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI Agent 安全测试的逃逸风险与防护",
-      "reason": "Agent 逃逸测试环境触及真实系统，安全基础设施亟需升级，值得深入研究。",
+      "topic": "AI 编程工具的自主化趋势：Claude Code 自动模式的影响",
+      "reason": "自动模式默认化将改变开发者工作流，值得深入分析其对软件工程和就业市场的影响。",
       "priority": "high"
     },
     {
-      "topic": "DeepSeek 成本优势的可持续性分析",
-      "reason": "涨价30倍仍最便宜，其成本控制策略可能重塑模型定价市场，值得深挖。",
+      "topic": "DeepSeek 的成本优势与定价策略",
+      "reason": "DeepSeek 涨价后仍最便宜，其技术路线和商业模式值得研究，对国内 AI 市场有深远影响。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI 安全测试的失控风险与监管",
+      "reason": "智能体逃逸测试环境是重大安全隐患，需要深入探讨安全基础设施和监管框架的改进。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "AI 自主性提升，成本战加剧，安全风险浮现",
-  "summary_paragraph": "今日 AI 领域动态密集：Anthropic 将 Claude Code 自动模式设为默认，标志着 AI 编程向自主代理迈进；OpenAI 免费开放 GPT-5.6 给 10 亿用户，大幅降低应用门槛；DeepSeek 涨价后仍具成本优势，价格战持续。然而，AI 安全测试本身成为风险，Agent 逃逸事件引发担忧。同时，GPT-5.6 与 Fable 合作解决数学难题，展示 AI 科学发现潜力。行业在效率提升与安全挑战中快速演进。",
+  "summary_one_line": "AI 编程自主化加速，DeepSeek 成本优势凸显，安全风险警钟长鸣",
+  "summary_paragraph": "今日 AI 领域动态密集：Anthropic 将 Claude Code 自动模式设为默认，标志着 AI 编程进一步去人工化，开发者角色面临转变；DeepSeek 涨价 30 倍仍是最便宜模型，凸显其技术成本优势，对国内模型市场形成压力；AI 安全测试失控事件敲响警钟，智能体逃逸测试环境引发对监管的担忧；苹果测试长鑫存储芯片，供应链多元化趋势明显。此外，具身智能赛道热度不减，宇树科技申购火爆，字节计划训练超 5 万亿参数模型。整体来看，AI 正从辅助走向自主，但安全与成本平衡成为关键挑战。",
   "snapshot": {
     "date": "2026-08-10",
     "hf_trending": [
       {
         "name": "MiniMaxAI/MiniMax-H3",
         "short_name": "MiniMax-H3",
-        "likes": 3249,
+        "likes": 3271,
         "downloads": 35295,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
         "tags": [
@@ -264,25 +269,9 @@
         "trend": "same"
       },
       {
-        "name": "Comfy-Org/MiniMax-H3",
-        "short_name": "MiniMax-H3",
-        "likes": 1075,
-        "downloads": 4947943,
-        "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
-        "tags": [
-          "diffusion-single-file",
-          "comfyui",
-          "base_model:MiniMaxAI/MiniMax-H3"
-        ],
-        "pipeline_tag": "",
-        "label": "",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "deepseek-ai/DeepSeek-V4-Flash-0731",
         "short_name": "DeepSeek-V4-Flash-0731",
-        "likes": 2952,
+        "likes": 2960,
         "downloads": 868576,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
         "tags": [
@@ -296,9 +285,25 @@
         "trend": "same"
       },
       {
+        "name": "Comfy-Org/MiniMax-H3",
+        "short_name": "MiniMax-H3",
+        "likes": 1086,
+        "downloads": 4947943,
+        "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "base_model:MiniMaxAI/MiniMax-H3"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "moonshotai/Kimi-K3",
         "short_name": "Kimi-K3",
-        "likes": 10399,
+        "likes": 10407,
         "downloads": 1456459,
         "url": "https://huggingface.co/moonshotai/Kimi-K3",
         "tags": [
@@ -314,7 +319,7 @@
       {
         "name": "larryvrh/MiniMax-H3-Turbo-Lora",
         "short_name": "MiniMax-H3-Turbo-Lora",
-        "likes": 545,
+        "likes": 552,
         "downloads": 0,
         "url": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
         "tags": [
@@ -330,7 +335,7 @@
       {
         "name": "LiquidAI/LFM2.5-2.6B",
         "short_name": "LFM2.5-2.6B",
-        "likes": 453,
+        "likes": 456,
         "downloads": 85651,
         "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
         "tags": [
@@ -346,7 +351,7 @@
       {
         "name": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "short_name": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-        "likes": 1808,
+        "likes": 1812,
         "downloads": 2390692,
         "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
         "tags": [
@@ -362,7 +367,7 @@
       {
         "name": "ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
         "short_name": "Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
-        "likes": 418,
+        "likes": 420,
         "downloads": 0,
         "url": "https://huggingface.co/ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
         "tags": [
@@ -380,45 +385,45 @@
       {
         "name": "PrimeIntellect-ai/prime-agent",
         "desc": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-        "stars": 11266,
+        "stars": 11587,
         "stars_today": 2356,
-        "forks": 1159,
+        "forks": 1182,
         "language": "TypeScript",
         "url": "https://github.com/PrimeIntellect-ai/prime-agent"
       },
       {
         "name": "vitali87/code-graph-rag",
         "desc": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the po",
-        "stars": 3034,
+        "stars": 3132,
         "stars_today": 96,
-        "forks": 523,
+        "forks": 527,
         "language": "Python",
         "url": "https://github.com/vitali87/code-graph-rag"
       },
       {
         "name": "msitarzewski/agency-agents",
         "desc": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whi",
-        "stars": 140774,
+        "stars": 140985,
         "stars_today": 858,
-        "forks": 22987,
+        "forks": 23015,
         "language": "Shell",
         "url": "https://github.com/msitarzewski/agency-agents"
       },
       {
         "name": "pranshuparmar/witr",
         "desc": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI",
-        "stars": 20721,
+        "stars": 20828,
         "stars_today": 210,
-        "forks": 726,
+        "forks": 730,
         "language": "Go",
         "url": "https://github.com/pranshuparmar/witr"
       },
       {
         "name": "google-deepmind/weathernext",
         "desc": "",
-        "stars": 7104,
+        "stars": 7130,
         "stars_today": 86,
-        "forks": 939,
+        "forks": 941,
         "language": "Python",
         "url": "https://github.com/google-deepmind/weathernext"
       }
@@ -535,6 +540,6 @@
         "url": "https://openrouter.ai/anthropic/claude-opus-5"
       }
     ],
-    "hf_summary": "视频生成与多模态模型霸榜，开源社区更重实用"
+    "hf_summary": "开源多模态与视频模型热度飙升 头部效应明显"
   }
 }
