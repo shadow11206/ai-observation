@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-08-11",
-      "title": "今日 AI 日报：Meta 发布开源模型 Muse Glimmer，30B 参数，Apache 2.0 许可 + 4 条重要动态",
-      "excerpt": "Meta 重回开源游戏，且许可更干净，这对开发者是重大利好。但更值得关注的是其'…",
+      "title": "今日 AI 日报：OpenAI 发布网络安全专用模型 GPT-5.6-Cyber，扩大 Daybreak 防御计划 + 4 条重要动态",
+      "excerpt": "这是 AI 安全领域的重要信号：模型能力已从通用转向垂直安全攻防，且 OpenA…",
       "top_count": 5,
       "file": "2026-08-11.json"
     },
