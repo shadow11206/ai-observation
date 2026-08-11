@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-08-11",
-      "title": "今日 AI 日报：OpenAI 发布网络安全专用模型 GPT-5.6-Cyber，扩大 Daybreak 防御计划 + 4 条重要动态",
-      "excerpt": "这是 AI 安全领域的重要信号：模型能力已从通用转向垂直安全攻防，且 OpenA…",
+      "title": "今日 AI 日报：Meta发布开源模型Muse Glimmer，扎克伯格宣称“个人超级智能”愿景 + 4 条重要动态",
+      "excerpt": "Meta以更宽松的许可和“个人AI”叙事切入，可能重塑开源模型生态，对开发者而言…",
       "top_count": 5,
       "file": "2026-08-11.json"
     },
