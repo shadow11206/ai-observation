@@ -11,8 +11,8 @@ v2.0 新增：
 - 403 fallback 后正确检查新响应状态码
 - GitHub 查询改为 OR 逻辑，避免 topic 同时命中率极低
 - 独立 timeout，两个请求互不影响
-- OpenRouter 改用官方页面同源 API（/api/frontend/v1/rankings/models，无需 Key），
-  与页面数字一致；环比基准读昨日日报（仅认新口径 source=frontend-v1）
+- OpenRouter 使用数据集 API（与官方页面口径一致）；
+  permaslug 日期后缀清理兼容 :variant 结尾（nemotron-...-20260604:free）
 """
 
 import json
@@ -167,19 +167,27 @@ def _fetch_hf_trending() -> list[dict]:
 def _fetch_openrouter_ranking() -> list[dict]:
     """
     抓取 OpenRouter 当日模型调用排行榜 Top 10。
-    使用 OpenRouter 官方页面同源 API（无需 Key）：
-    https://openrouter.ai/api/frontend/v1/rankings/models
+    使用 OpenRouter 官方数据集 API（需 API Key），与官方排行榜页面口径一致。
 
-    返回最新 UTC 日历天的全量模型数据（token + 调用次数 + variant 标记）。
-    按去掉日期后缀的 slug 聚合（standard/free/batch 变体合并），
-    环比基准读昨日日报 JSON（仅认新口径 source=frontend-v1，避免旧口径错配）。
+    API: https://openrouter.ai/api/v1/datasets/rankings-daily
+    返回最近 ~30 天的每日模型 token 量（不含调用次数）。
+    按清理后的 slug 聚合，取最新一天的总 token 量 Top 10，自行计算日环比变化。
+
+    注意：页面调用的 /api/frontend/v1/rankings/models 接口字段简单相加
+    （prompt+completion）比页面显示值大约 7 倍，不能直接使用。
     """
     from collections import defaultdict
 
-    _OR_API = "https://openrouter.ai/api/frontend/v1/rankings/models"
+    api_key = os.environ.get("OPENROUTER_API_KEY", "")
+    if not api_key:
+        print("  ⚠️ OPENROUTER_API_KEY 未设置，跳过 OpenRouter 快照")
+        return []
+
+    _OR_API = "https://openrouter.ai/api/v1/datasets/rankings-daily"
+    _OR_HEADERS = {**HEADERS, "Authorization": f"Bearer {api_key}"}
 
     try:
-        resp = requests.get(_OR_API, headers=HEADERS, timeout=15)
+        resp = requests.get(_OR_API, headers=_OR_HEADERS, timeout=15)
         resp.raise_for_status()
         payload = resp.json()
     except Exception as e:
@@ -191,18 +199,16 @@ def _fetch_openrouter_ranking() -> list[dict]:
         print("  ⚠️ OpenRouter API 返回空数据")
         return []
 
-    # 按 (date, clean_slug) 聚合 token 量与调用次数
-    day_data = defaultdict(lambda: defaultdict(lambda: {"tokens": 0, "count": 0}))
+    # 按 (date, clean_slug) 聚合 token 量，排除 "other" 汇总行
+    day_data = defaultdict(lambda: defaultdict(int))
     for row in rows:
         raw_slug = row.get("model_permaslug", "")
-        date = (row.get("date", "") or "")[:10]
-        if not raw_slug or not date:
+        if not raw_slug or raw_slug == "other":
             continue
-        tokens = int(row.get("total_completion_tokens", 0) or 0) + int(row.get("total_prompt_tokens", 0) or 0)
-        count = int(row.get("count", 0) or 0)
+        date = row.get("date", "")
+        tokens = int(row.get("total_tokens", "0"))
         slug = _strip_date_suffix(raw_slug)
-        day_data[date][slug]["tokens"] += tokens
-        day_data[date][slug]["count"] += count
+        day_data[date][slug] += tokens
 
     available_dates = sorted(day_data.keys(), reverse=True)
     if not available_dates:
@@ -210,15 +216,17 @@ def _fetch_openrouter_ranking() -> list[dict]:
         return []
 
     target_date = available_dates[0]
-    target_data = day_data[target_date]
-    sorted_models = sorted(target_data.items(), key=lambda x: x[1]["tokens"], reverse=True)[:10]
+    prev_date = available_dates[1] if len(available_dates) > 1 else None
 
-    prev_map = _load_prev_day_openrouter(target_date)
+    target_data = day_data[target_date]
+    prev_data = day_data[prev_date] if prev_date else {}
+
+    sorted_models = sorted(target_data.items(), key=lambda x: x[1], reverse=True)[:10]
+
     _MODEL_NAMES = _load_model_name_map()
 
     result = []
-    for i, (clean_slug, info) in enumerate(sorted_models, 1):
-        total_tokens = info["tokens"]
+    for i, (clean_slug, total_tokens) in enumerate(sorted_models, 1):
         if total_tokens >= 1e12:
             token_str = f"{total_tokens / 1e12:.1f}T"
         elif total_tokens >= 1e9:
@@ -231,7 +239,7 @@ def _fetch_openrouter_ranking() -> list[dict]:
         org = clean_slug.split("/")[0] if "/" in clean_slug else ""
         display_name = _MODEL_NAMES.get(clean_slug, _slug_to_display(clean_slug))
 
-        prev_tokens = prev_map.get(clean_slug, 0)
+        prev_tokens = prev_data.get(clean_slug, 0)
         change = round((total_tokens - prev_tokens) / prev_tokens * 100, 1) if prev_tokens > 0 else 0
 
         result.append({
@@ -241,30 +249,13 @@ def _fetch_openrouter_ranking() -> list[dict]:
             "org": org,
             "total_tokens": total_tokens,
             "total_tokens_str": token_str,
-            "api_calls": info["count"],
+            "api_calls": 0,   # 官方数据集 API 不提供调用次数
             "change": change,
             "url": f"https://openrouter.ai/{clean_slug}",
-            "source": "frontend-v1",
         })
 
     print(f"  ✓ OpenRouter 排行榜：{target_date} Top {len(result)} 个模型")
     return result
-
-
-def _load_prev_day_openrouter(target_date: str) -> dict:
-    """从昨日日报 JSON 读 OpenRouter 排行（仅认新口径 source=frontend-v1），用于环比计算"""
-    prev = (datetime.strptime(target_date, "%Y-%m-%d") - timedelta(days=1)).strftime("%Y-%m-%d")
-    json_path = Path(f"01-daily-reports/{prev[:7]}/{prev}.json")
-    if not json_path.exists():
-        return {}
-    try:
-        data = json.loads(json_path.read_text(encoding="utf-8"))
-        ranking = data.get("snapshot", {}).get("openrouter_ranking", [])
-        if not ranking or ranking[0].get("source") != "frontend-v1":
-            return {}
-        return {m.get("slug", ""): m.get("total_tokens", 0) for m in ranking}
-    except Exception:
-        return {}
 
 
 # 已知模型 slug → 显示名称映射（从 /api/v1/models 提取，首次运行时自动填充）
@@ -306,10 +297,11 @@ def _load_model_name_map() -> dict[str, str]:
 
 
 def _strip_date_suffix(slug: str) -> str:
-    """去掉 permaslug 末尾的日期后缀：deepseek-v4-flash-20260423 → deepseek-v4-flash；
-    兼容 :variant 结尾：nemotron-...-20260604:free → nemotron-..."""
+    """去掉 permaslug 末尾的日期后缀，保留 :variant（与官方页面一致，免费版单独显示）：
+    deepseek-v4-flash-20260423 → deepseek-v4-flash
+    nemotron-...-20260604:free → nemotron-...:free"""
     import re as _re
-    return _re.sub(r"-\d{8}(?::\w+)?$", "", slug)
+    return _re.sub(r"-\d{8}(?=:|$)", "", slug)
 
 
 def _slug_to_display(permaslug: str) -> str:
@@ -317,7 +309,8 @@ def _slug_to_display(permaslug: str) -> str:
     import re as _re
     # "deepseek/deepseek-v4-flash-20260423" → "deepseek-v4-flash"
     last = permaslug.split("/")[-1] if "/" in permaslug else permaslug
-    last = _re.sub(r"-\d{8}(?::\w+)?$", "", last)  # 去掉日期后缀
+    last = _re.sub(r"-\d{8}(?=:|$)", "", last)  # 去掉日期后缀
+    last = last.replace(":free", "（免费）").replace(":extended", "（扩展）").replace(":", " ")
     last = last.replace("-", " ").replace("_", " ")
     # 简单 title case
     return " ".join(w[0].upper() + w[1:] if w else w for w in last.split())
