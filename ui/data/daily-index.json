@@ -1,6 +1,13 @@
 {
-  "total": 137,
+  "total": 138,
   "reports": [
+    {
+      "date": "2026-08-12",
+      "title": "今日 AI 日报：OpenAI 联合创始人 Igor Babuschkin 新创 River AI，成立两个月融资 11 亿美元 + 4 条重要动态",
+      "excerpt": "个人智能体成为继对话机器人后的下一个主战场，Igor 的背书让这个赛道竞争白热化…",
+      "top_count": 5,
+      "file": "2026-08-12.json"
+    },
     {
       "date": "2026-08-11",
       "title": "今日 AI 日报：Meta发布开源模型Muse Glimmer，扎克伯格宣称“个人超级智能”愿景 + 4 条重要动态",
