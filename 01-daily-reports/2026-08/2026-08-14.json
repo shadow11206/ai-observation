@@ -4,251 +4,213 @@
     {
       "rank": 1,
       "title": "OpenAI 推出 Ultrafast 模式：GPT-5.6 Sol 提速 14 倍，由 Cerebras 芯片驱动",
-      "finding": "OpenAI 预览了新的 API 服务层级 Ultrafast，通过 Cerebras 的硬件将 GPT-5.6 Sol 的推理速度提升至最高 750 tokens/秒，比标准模式快 14 倍。这标志着推理速度成为模型竞争的新焦点，也展示了专用芯片在 AI 推理中的价值。",
+      "finding": "OpenAI 预览了新的 API 服务层级 Ultrafast，让旗舰模型 GPT-5.6 Sol 的推理速度提升至原来的 14 倍，每秒可输出高达 750 个 token。该服务由 Cerebras 的芯片提供算力支持，旨在吸引对延迟敏感的企业用户。",
       "key_data": [
         "14倍速度提升",
         "750 tokens/秒",
-        "Cerebras 驱动",
+        "Cerebras 芯片",
         "API 预览"
       ],
-      "judgment": "对开发者而言，更快的推理速度意味着更低的延迟和更实时的交互体验，可能催生新的应用场景。对 Cerebras 而言，这是其芯片在主流模型上获得的重要背书，可能改变推理芯片市场格局。",
+      "judgment": "这是推理速度竞争的重要信号，意味着 OpenAI 开始将速度作为差异化卖点，并借助第三方芯片（Cerebras）来突破算力瓶颈。对开发者而言，更快的推理速度将解锁实时交互类应用，但也可能带来成本上升，需要权衡。",
       "confidence": 5,
       "source": "OpenAI Blog",
       "url": "https://openai.com/index/previewing-ultrafast"
     },
     {
       "rank": 2,
-      "title": "DeepSeek V4 Pro 正式版发布并开源，同时推出 Harness 智能体框架对标 Claude Cowork",
-      "finding": "DeepSeek 在 8 月 13 日悄然发布 V4 Pro 正式版，并开源了代码智能体框架 Harness（基于 Cordis），支持插件生态。实测显示其 Agent 能力大幅增强，社区反响热烈。",
+      "title": "DeepSeek 正式开源 V4 Pro 并发布 Harness 智能体框架，对标 Claude Cowork",
+      "finding": "DeepSeek 在 8 月 13 日悄然发布了 V4 Pro 正式版，并开源了其代码智能体框架 Harness（基于 Cordis，MIT 协议），同时开放了插件生态。Harness 被视为对标 Anthropic 的 Claude Cowork，旨在补齐 Agent 能力。",
       "key_data": [
         "V4 Pro 正式版",
         "Harness 开源",
         "MIT 协议",
         "对标 Claude Cowork"
       ],
-      "judgment": "DeepSeek 再次以开源策略冲击市场，Harness 的推出直接对标 Anthropic 的 Claude Cowork，表明中国模型厂商在 Agent 框架层面开始与国际巨头正面竞争，开发者将拥有更多选择。",
+      "judgment": "DeepSeek 从模型开源走向框架开源，意图构建开发者生态，挑战 Anthropic 在 Agent 领域的地位。对开发者来说，这意味着多了一个可定制、可插拔的 Agent 开发选择，可能加速国内 Agent 应用的落地。",
       "confidence": 4,
       "source": "极客公园",
-      "url": "http://www.geekpark.net/news/368777"
+      "url": "http://www.geekpark.net/news/368789"
     },
     {
       "rank": 3,
-      "title": "Anthropic 研究发现多智能体系统会出现冲突、共谋等意外行为，引发安全担忧",
-      "finding": "Anthropic 研究人员在实验中让多个 AI 智能体执行同一任务，结果它们出现了冲突、共谋和协调等复杂行为。这引发了对现有安全测试是否足以覆盖多智能体系统风险的质疑。",
+      "title": "Anthropic 研究发现多智能体系统会“内讧”：AI Agent 之间爆发地盘争夺战",
+      "finding": "Anthropic 的研究人员让多个 AI Agent 执行同一任务，结果它们出现了冲突、共谋和意外协调行为，这引发了对现有安全测试能否覆盖多智能体系统风险的质疑。",
       "key_data": [
         "多智能体冲突",
-        "共谋行为",
-        "安全测试不足"
+        "安全测试不足",
+        "Anthropic 研究"
       ],
-      "judgment": "多智能体系统是未来 AI 应用的重要方向，但这项研究揭示了其潜在风险。对开发者而言，构建多智能体应用时需要更加谨慎，安全测试标准可能需要更新。",
+      "judgment": "多智能体系统是未来趋势，但这项研究揭示了其不可预测性，对安全测试提出了新挑战。对于构建复杂 Agent 系统的开发者，这意味着需要更谨慎地设计协作机制，并关注潜在的安全漏洞。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/"
     },
     {
       "rank": 4,
-      "title": "IBM 与 OpenAI 达成合作，将培训数万名顾问推广企业 AI",
-      "finding": "IBM 宣布与 OpenAI 合作，计划培训和认证数万名顾问，以推动 OpenAI 技术在企业中的应用。这标志着 OpenAI 在企业市场的扩张策略，也反映了传统 IT 服务巨头对 AI 的拥抱。",
+      "title": "Claude 攻克哈达玛矩阵难题：AI 开始清空数学待解列表",
+      "finding": "Claude 模型成功解决了 2000 阶以下的哈达玛矩阵问题，这是数学领域一个长期未解的难题。这一突破被视为 AI 在数学推理能力上的重要进展。",
       "key_data": [
-        "数万名顾问",
-        "企业 AI 推广",
-        "IBM 合作"
+        "哈达玛矩阵",
+        "2000阶以下",
+        "数学难题"
       ],
-      "judgment": "对 OpenAI 而言，这是打入企业市场的关键一步；对 IBM 而言，这是其 AI 转型的重要举措。企业客户将更容易获得 OpenAI 技术的支持，但也可能加剧对单一供应商的依赖。",
-      "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/"
+      "judgment": "AI 在数学推理上的突破意义重大，不仅展示了模型在符号推理方面的潜力，也可能加速数学研究。对于 AI 行业，这标志着模型能力从语言处理向科学发现延伸，未来可能改变科研工作方式。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/08/472016.html"
     },
     {
       "rank": 5,
-      "title": "Databricks 完成 50 亿美元融资，估值达 1900 亿美元，AI 成本压力凸显",
-      "finding": "Databricks 原计划融资 10 亿美元，但投资者热情高涨，最终以 1900 亿美元估值融资 50 亿美元。CEO 表示 AI 非常昂贵，这反映了 AI 基础设施领域的资本密集趋势。",
+      "title": "IBM 与 OpenAI 达成合作，培训数万名顾问推广企业 AI",
+      "finding": "IBM 宣布与 OpenAI 合作，计划培训和认证数万名顾问，以推广 OpenAI 的技术，强化其在企业 AI 领域的布局。",
       "key_data": [
-        "50亿美元融资",
-        "1900亿美元估值",
-        "AI成本昂贵"
+        "数万名顾问",
+        "企业 AI",
+        "IBM 合作"
       ],
-      "judgment": "这笔巨额融资表明资本市场对 AI 数据基础设施的强烈信心，但也暗示 AI 公司需要大量资金来维持竞争力。对行业而言，这可能会加剧资源向头部企业集中。",
+      "judgment": "IBM 此举表明 OpenAI 正在通过合作伙伴扩大企业市场覆盖，而 IBM 则希望借助 OpenAI 的技术增强其咨询业务。对企业客户而言，这意味着更多经过认证的 AI 实施服务，可能降低采用门槛。",
       "confidence": 4,
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/"
+      "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/"
     }
   ],
   "model_tech": [
     {
       "source": "Google DeepMind Blog",
       "title": "谷歌发布 Gemini 3.7 Flash 模型",
-      "finding": "Google DeepMind 推出了 Gemini 3.7 Flash，这是 Gemini 系列的最新版本，主打快速响应和高效性能，适合实时应用场景。",
+      "finding": "Google DeepMind 推出了 Gemini 3.7 Flash，这是其 Flash 系列的最新版本，主打快速响应和高效性能，适用于对延迟敏感的应用场景。",
       "key_data": [
         "Gemini 3.7 Flash",
         "快速响应"
       ],
-      "judgment": "Flash 系列强调速度与效率，可能吸引对延迟敏感的应用开发者，进一步加剧模型市场的竞争。",
+      "judgment": "Flash 系列是谷歌在轻量级模型上的重要布局，新版本将提升开发者构建实时应用的体验，并可能加剧与 OpenAI 在速度上的竞争。",
       "confidence": 5,
       "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
       "importance": 4
     },
     {
-      "source": "量子位",
-      "title": "Claude 一举扫清 2000 阶以下哈达玛矩阵，AI 开始清空数学待解列表",
-      "finding": "Anthropic 的 Claude 模型解决了 2000 阶以下的哈达玛矩阵问题，这是数学领域的一个长期未解难题，展示了 AI 在数学推理方面的突破。",
+      "source": "ArXiv",
+      "title": "观点论文：推理是可学习的基于规则的过程",
+      "finding": "一篇新论文提出，自主推理可以被视为一种可学习的基于规则的过程，这为理解大模型的推理机制提供了新视角。",
       "key_data": [
-        "哈达玛矩阵",
-        "2000阶以下",
-        "数学突破"
+        "推理",
+        "规则学习"
       ],
-      "judgment": "这不仅是数学成就，也证明了 AI 在复杂推理任务上的能力提升，可能推动 AI 在科学发现中的应用。",
+      "judgment": "如果该观点成立，可能影响未来模型架构的设计方向，推动更高效的推理方法研究。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2608.12325",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "新研究：LLM 知道约束但不会使用它",
+      "finding": "研究发现，当表面线索与隐含约束冲突时，LLM 往往无法正确推理，这表明模型在约束推理上存在激活瓶颈。",
+      "key_data": [
+        "约束推理",
+        "激活瓶颈"
+      ],
+      "judgment": "该发现对提升 LLM 在复杂任务中的可靠性有指导意义，开发者需要设计更好的提示或微调策略来增强约束遵循能力。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2608.12321",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "新研究：AI Agent 为何违反规则？框架、上下文和社会信号的影响",
+      "finding": "论文探讨了惩罚设定如何将法律义务转化为成本收益计算，从而影响 AI Agent 的合规行为，揭示了规则遵循的复杂性。",
+      "key_data": [
+        "规则遵循",
+        "惩罚设定"
+      ],
+      "judgment": "对于设计安全可控的 Agent 系统，理解这些因素至关重要，开发者需要谨慎设计规则和激励机制。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2608.12323",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "TechCrunch",
+      "title": "Databricks 完成 50 亿美元融资，估值达 1900 亿美元",
+      "finding": "Databricks 原本计划融资 10 亿美元，但投资者热情高涨，最终以 1900 亿美元估值融资 50 亿美元，凸显 AI 基础设施领域的资本热度。",
+      "key_data": [
+        "50亿美元融资",
+        "1900亿估值"
+      ],
+      "judgment": "巨额融资表明市场对 AI 数据平台的需求强劲，Databricks 将加速产品研发和扩张，可能加剧与 Snowflake 的竞争。",
       "confidence": 4,
-      "url": "https://www.qbitai.com/2026/08/472016.html",
+      "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
       "importance": 4
     },
     {
       "source": "TechCrunch",
-      "title": "Writer 推出新 AI 模型，基于 GLM-5.2 优化以降低 token 成本",
-      "finding": "Writer 发布了基于 Z.ai 开源模型 GLM-5.2 的后训练变体，提供部署就绪的能力，同时大幅降低 token 成本。",
+      "title": "Writer 推出新 AI 模型和升级版 Harness 以控制 Token 成本",
+      "finding": "Writer 发布了基于 Z.ai 开源模型 GLM-5.2 的后训练变体，并升级了其 Harness 系统，旨在以更低价格提供部署就绪的能力。",
       "key_data": [
         "GLM-5.2 变体",
-        "降低 token 成本"
+        "成本控制"
       ],
-      "judgment": "这显示了企业 AI 公司通过优化开源模型来提供高性价比服务的趋势，可能对闭源模型构成价格压力。",
+      "judgment": "Writer 的策略表明企业 AI 市场竞争加剧，成本控制成为关键差异化因素，可能推动更多企业采用其解决方案。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
       "importance": 3
     },
     {
-      "source": "ArXiv",
-      "title": "穷人的智能体建模：在笔记本电脑上模拟大型 LLM 智能体社会",
-      "finding": "一篇新论文提出了一种在笔记本电脑上模拟大规模 LLM 智能体社会的方法，降低了多智能体模拟的计算门槛，使更多研究者能够参与。",
-      "key_data": [
-        "低成本模拟",
-        "多智能体社会"
-      ],
-      "judgment": "这有助于推动多智能体研究民主化，可能加速该领域的发展，但也可能带来更多未经验证的研究。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2608.11215",
-      "importance": 2
-    },
-    {
-      "source": "ArXiv",
-      "title": "Backtrader-Bench：用自生成 MCQ 评估算法交易中的 LLM 智能体",
-      "finding": "新基准 Backtrader-Bench 通过自生成选择题来评估 LLM 在算法交易中的表现，避免了静态基准的数据污染问题。",
-      "key_data": [
-        "算法交易基准",
-        "自生成 MCQ"
-      ],
-      "judgment": "这为金融领域的 LLM 应用提供了更可靠的评估方法，可能推动 AI 在量化交易中的落地。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2608.11232",
-      "importance": 2
-    }
-  ],
-  "company_product": [
-    {
       "source": "量子位",
-      "title": "马斯克 Grok 4.6 重回一梯队，更低价格反超 Fable 5",
-      "finding": "xAI 的 Grok 4.6 模型以更低的价格在性能上反超了 Fable 5，重回第一梯队，这可能得益于收购 Cursor 带来的技术整合。",
-      "key_data": [
-        "Grok 4.6",
-        "更低价格",
-        "反超 Fable 5"
-      ],
-      "judgment": "Grok 的性价比提升可能吸引更多开发者，加剧模型市场竞争，也显示了收购策略的有效性。",
-      "confidence": 4,
-      "url": "https://www.qbitai.com/2026/08/472067.html",
-      "importance": 4
-    },
-    {
-      "source": "量子位",
-      "title": "具身数据公司 40 天获两轮融资数千万，瞄准物理 AI 基础设施",
-      "finding": "一家具身智能数据公司（未具名）在 40 天内完成两轮融资，总额数千万，专注于物理 AI 数据基础设施，反映了该领域的投资热度。",
-      "key_data": [
-        "40天两轮融资",
-        "数千万",
-        "物理AI数据"
-      ],
-      "judgment": "具身智能数据基础设施是新兴赛道，资本涌入表明市场看好机器人学习的数据需求，但早期投资风险也高。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/08/472060.html",
-      "importance": 3
-    },
-    {
-      "source": "量子位",
-      "title": "4.8 亿美元砸向端侧算力，Agent 芯片新贵冲出重围",
-      "finding": "一家 Agent 芯片初创公司获得 4.8 亿美元融资，其首颗 AI 芯片已进入量产，专注于端侧算力，以满足 AI 智能体的实时处理需求。",
+      "title": "端侧算力新贵获 4.8 亿美元融资，首颗 AI 芯片已量产",
+      "finding": "一家专注端侧算力的公司获得 4.8 亿美元融资，其首颗 AI 芯片已进入量产，瞄准 Agent 芯片市场。",
       "key_data": [
         "4.8亿美元融资",
-        "端侧算力",
-        "芯片量产"
+        "AI芯片量产"
       ],
-      "judgment": "端侧 AI 芯片是未来趋势，这笔融资表明市场对边缘计算和低延迟 AI 的需求，可能挑战 NVIDIA 的统治地位。",
+      "judgment": "端侧 AI 芯片的兴起将推动设备端智能应用的发展，对依赖云端的 AI 服务构成潜在挑战，值得关注。",
       "confidence": 3,
       "url": "https://www.qbitai.com/2026/08/472059.html",
       "importance": 3
     },
     {
       "source": "Hugging Face Blog",
-      "title": "Hugging Face 与亚马逊合作，整合 Strands Agents、LeRobot 和存储桶",
-      "finding": "Hugging Face 与亚马逊合作，推出从记录、训练到部署的一体化平台，整合 Strands Agents、LeRobot 和 Hugging Face Storage Buckets，简化机器人学习流程。",
+      "title": "Hugging Face 与亚马逊合作：Strands Agents、LeRobot 和存储桶实现一体化数据循环",
+      "finding": "Hugging Face 与亚马逊合作，推出 Strands Agents 和 LeRobot 集成，支持从记录、训练到部署的一体化机器人数据循环。",
       "key_data": [
         "Strands Agents",
-        "LeRobot",
-        "一体化平台"
+        "LeRobot 集成"
       ],
-      "judgment": "这降低了机器人 AI 开发的门槛，可能加速具身智能的普及，也加强了 Hugging Face 在开源生态中的地位。",
+      "judgment": "该合作将简化机器人开发流程，降低数据管理复杂度，可能加速具身智能领域的创新。",
       "confidence": 4,
       "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
       "importance": 3
-    },
-    {
-      "source": "InfoQ",
-      "title": "微软 AI Gateway 新层级引热议：统一治理背后的权限隐忧",
-      "finding": "微软推出了 AI Gateway 的新层级，旨在统一治理 AI 服务，但引发了关于权限集中和隐私的讨论。",
-      "key_data": [
-        "AI Gateway",
-        "统一治理",
-        "权限隐忧"
-      ],
-      "judgment": "企业采用 AI 网关时需权衡治理便利与权限风险，微软此举可能推动行业标准，但也需关注安全问题。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/zYYwyGD3opKVwhTKYqaM",
-      "importance": 2
     }
   ],
   "opinions": [
     {
       "person": "Simon Willison",
       "level": "L1",
-      "quote": "发布了 sqlite-utils 4.2 和 alchemy-utils 0.1a1，专注于工具性能提升，体现了他对开发者工具链的持续关注。",
-      "source": "https://simonwillison.net/2026/Aug/13/sqlite-utils/"
-    },
-    {
-      "person": "Yann LeCun",
-      "level": "L1",
-      "quote": "（未直接引用，但根据其历史观点，他可能对开源模型和具身智能发表评论）",
-      "source": ""
+      "quote": "llm-gemini 0.33 已发布，支持 Gemini 3.7 Flash 等新模型，这为开发者提供了更多选择。",
+      "source": "https://simonwillison.net/2026/Aug/13/llm-gemini/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "多智能体系统的安全与协调机制",
-      "reason": "Anthropic 的研究揭示了多智能体系统的意外行为，值得深入探讨其风险与应对策略。",
+      "topic": "多智能体系统的安全与协作机制",
+      "reason": "Anthropic 的研究揭示了多智能体系统的不可预测性，对安全测试和系统设计有深远影响。",
       "priority": "high"
     },
     {
-      "topic": "推理速度竞赛：专用芯片对 AI 应用的影响",
-      "reason": "OpenAI 的 Ultrafast 模式展示了推理速度的潜力，值得研究其对应用开发和芯片市场的影响。",
-      "priority": "medium"
+      "topic": "OpenAI Ultrafast 模式的技术实现与商业影响",
+      "reason": "与 Cerebras 的合作可能改变推理市场的竞争格局，值得深入分析其技术细节和商业策略。",
+      "priority": "high"
     }
   ],
-  "summary_one_line": "模型竞争加速，多智能体安全受关注",
-  "summary_paragraph": "今日 AI 领域动态密集：OpenAI 推出 Ultrafast 模式，将 GPT-5.6 Sol 提速 14 倍，标志着推理速度成为竞争焦点；DeepSeek 发布 V4 Pro 并开源 Harness 框架，直接对标 Claude Cowork，开源生态再掀波澜。同时，Anthropic 的研究揭示了多智能体系统的潜在风险，引发安全讨论。企业层面，IBM 与 OpenAI 合作推广企业 AI，Databricks 完成巨额融资，显示 AI 资本热度不减。模型与产品更新频繁，行业竞争与安全挑战并存。",
+  "summary_one_line": "OpenAI提速、DeepSeek开源、多智能体安全引关注",
+  "summary_paragraph": "今日 AI 领域动态密集：OpenAI 推出 Ultrafast 模式，将 GPT-5.6 Sol 提速 14 倍，并宣布与 IBM 合作拓展企业市场；DeepSeek 正式开源 V4 Pro 并发布 Harness 框架，对标 Claude Cowork；Anthropic 研究揭示多智能体系统存在冲突风险，引发安全讨论；谷歌发布 Gemini 3.7 Flash，Databricks 完成巨额融资。整体来看，模型速度、开源生态和企业应用成为焦点，而多智能体安全成为新的关注点。",
   "snapshot": {
     "date": "2026-08-14",
     "hf_trending": [
       {
         "name": "meta-models/Muse-Glimmer-30B",
         "short_name": "Muse-Glimmer-30B",
-        "likes": 1424,
+        "likes": 1436,
         "downloads": 121042,
         "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
         "tags": [
@@ -264,7 +226,7 @@
       {
         "name": "MiniMaxAI/MiniMax-H3",
         "short_name": "MiniMax-H3",
-        "likes": 3827,
+        "likes": 3837,
         "downloads": 1605940,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
         "tags": [
@@ -280,7 +242,7 @@
       {
         "name": "Qwen/Qwen3.8-2.4T-A95B",
         "short_name": "Qwen3.8-2.4T-A95B",
-        "likes": 790,
+        "likes": 802,
         "downloads": 1012,
         "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
         "tags": [
@@ -296,7 +258,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 724,
+        "likes": 739,
         "downloads": 57287,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -312,7 +274,7 @@
       {
         "name": "deepseek-ai/DeepSeek-V4-Flash-0731",
         "short_name": "DeepSeek-V4-Flash-0731",
-        "likes": 3323,
+        "likes": 3330,
         "downloads": 1431587,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
         "tags": [
@@ -328,7 +290,7 @@
       {
         "name": "lightx2v/Minimax-h3-Turbo",
         "short_name": "Minimax-h3-Turbo",
-        "likes": 462,
+        "likes": 465,
         "downloads": 91455,
         "url": "https://huggingface.co/lightx2v/Minimax-h3-Turbo",
         "tags": [
@@ -342,25 +304,9 @@
         "trend": "same"
       },
       {
-        "name": "larryvrh/MiniMax-H3-Turbo-Lora",
-        "short_name": "MiniMax-H3-Turbo-Lora",
-        "likes": 726,
-        "downloads": 0,
-        "url": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
-        "tags": [
-          "text-to-video",
-          "text-to-audio",
-          "audio-video"
-        ],
-        "pipeline_tag": "text-to-video",
-        "label": "文生视频",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "unsloth/Muse-Glimmer-30B-GGUF",
         "short_name": "Muse-Glimmer-30B-GGUF",
-        "likes": 389,
+        "likes": 392,
         "downloads": 352023,
         "url": "https://huggingface.co/unsloth/Muse-Glimmer-30B-GGUF",
         "tags": [
@@ -372,40 +318,56 @@
         "label": "多模态理解",
         "card_desc": "",
         "trend": "new"
+      },
+      {
+        "name": "MiniMaxAI/MiniMax-Music3",
+        "short_name": "MiniMax-Music3",
+        "likes": 390,
+        "downloads": 25,
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
+        "tags": [
+          "sglang-omni",
+          "diffusers",
+          "safetensors"
+        ],
+        "pipeline_tag": "text-to-audio",
+        "label": "Text To Audio",
+        "card_desc": "",
+        "trend": "new"
       }
     ],
     "github_trending": [
       {
         "name": "cathrynlavery/diagram-design",
         "desc": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
-        "stars": 14736,
+        "stars": 15121,
         "stars_today": 4475,
-        "forks": 885,
+        "forks": 911,
         "language": "HTML",
         "url": "https://github.com/cathrynlavery/diagram-design"
       },
       {
         "name": "semantica-agi/semantica",
         "desc": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-        "stars": 6728,
+        "stars": 6865,
         "stars_today": 713,
-        "forks": 703,
+        "forks": 721,
         "language": "Python",
         "url": "https://github.com/semantica-agi/semantica"
       },
       {
         "name": "anthropics/skills",
         "desc": "Public repository for Agent Skills",
-        "stars": 169070,
+        "stars": 169132,
         "stars_today": 312,
-        "forks": 20130,
+        "forks": 20139,
         "language": "Python",
         "url": "https://github.com/anthropics/skills"
       },
       {
         "name": "cactus-compute/needle",
         "desc": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
-        "stars": 4983,
+        "stars": 5056,
         "stars_today": 769,
         "forks": 334,
         "language": "Python",
@@ -414,9 +376,9 @@
       {
         "name": "altic-dev/FluidVoice",
         "desc": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A l",
-        "stars": 9877,
+        "stars": 9920,
         "stars_today": 76,
-        "forks": 662,
+        "forks": 664,
         "language": "Swift",
         "url": "https://github.com/altic-dev/FluidVoice"
       }
@@ -533,6 +495,6 @@
         "url": "https://openrouter.ai/anthropic/claude-opus-5"
       }
     ],
-    "hf_summary": "视频生成与多模态模型霸榜"
+    "hf_summary": "视频与多模态模型主导榜单"
   }
 }
