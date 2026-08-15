@@ -3,28 +3,28 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "DeepSeek Harness 发布：12小时斩获5万星，Agent 界的 Android 来了",
-      "finding": "DeepSeek 发布了其首个 Agent 产品 DeepSeek Harness，这是一个开源 Agent 框架，旨在成为 Agent 领域的标准平台。发布仅 12 小时，GitHub 星标已超过 5 万，社区反响强烈。",
+      "title": "DeepSeek 发布首个 Agent 产品 Harness，GitHub 一夜 5 万星",
+      "finding": "DeepSeek 正式推出其首个 Agent 产品 DeepSeek Harness，定位为 Agent 领域的“Android”，旨在提供标准化的 Agent 运行环境。发布仅 12 小时，GitHub 星标已超 5 万，引发开发者社区强烈关注。",
       "key_data": [
-        "12小时5万星",
-        "首个Agent产品",
-        "开源框架"
+        "GitHub 5万星",
+        "12小时",
+        "首个Agent产品"
       ],
-      "judgment": "DeepSeek Harness 有望成为 Agent 开发的'Android'，统一碎片化的 Agent 生态。对开发者而言，这意味着一个强大的开源底座，可能改变 Agent 应用的构建方式，加速 Agent 落地。",
+      "judgment": "DeepSeek 从模型层切入 Agent 基础设施，可能重塑 Agent 开发生态，对 LangChain 等现有框架构成直接竞争，开发者应关注其标准化潜力。",
       "confidence": 4,
       "source": "极客公园",
       "url": "http://www.geekpark.net/news/368809"
     },
     {
       "rank": 2,
-      "title": "OpenAI 与 Anthropic 陷入价格战，中国 AI 竞争对手崛起",
-      "finding": "面对中国 AI 竞争对手的挑战，OpenAI 和 Anthropic 纷纷发布更便宜的模型，引发价格战。这反映了全球 AI 竞争格局的变化，中国厂商的性价比优势正在迫使美国巨头调整定价策略。",
+      "title": "OpenAI 与 Anthropic 陷入价格战，中国 AI 对手崛起",
+      "finding": "美国 AI 巨头 OpenAI 和 Anthropic 正通过降价应对中国 AI 公司的竞争，双方相继发布更便宜的模型，以维护其万亿美元市值目标。",
       "key_data": [
         "价格战",
         "中国AI崛起",
-        "更便宜模型"
+        "万亿美元市值"
       ],
-      "judgment": "价格战对开发者是重大利好，模型调用成本将持续下降。但这也意味着单纯靠模型能力难以维持溢价，竞争焦点将转向应用生态和垂直场景，中小团队获得更多机会。",
+      "judgment": "价格战表明中国开源模型已对闭源巨头形成实质压力，开发者将受益于更低的 API 成本，但需警惕服务质量与可持续性。",
       "confidence": 4,
       "source": "Ars Technica",
       "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
@@ -32,109 +32,113 @@
     {
       "rank": 3,
       "title": "谷歌开始肢解 DeepMind，数个团队被划归总部",
-      "finding": "谷歌正在重组 DeepMind，将多个团队划归总部直接管理，布林亲自下场督战。这标志着谷歌对 AI 研发组织架构的重大调整，可能影响 Gemini 等核心产品的开发方向。",
+      "finding": "谷歌正将 DeepMind 的多个团队划归总部，布林亲自下场督战，这一组织调整可能影响 DeepMind 的独立研究方向和 Gemini 系列的发展节奏。",
       "key_data": [
-        "团队划归总部",
+        "团队划归",
         "布林督战",
-        "组织重组"
+        "组织调整"
       ],
-      "judgment": "谷歌的调整表明其希望加速 AI 产品化，减少研究到落地的摩擦。对行业而言，这可能加剧大模型竞争，但也可能引发 DeepMind 人才流失，影响其长期创新能力。",
-      "confidence": 4,
+      "judgment": "谷歌加强对 DeepMind 的控制，可能加速研究商业化，但可能削弱其长期创新文化，对 Gemini 路线图有潜在影响。",
+      "confidence": 3,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/08/473153.html"
     },
     {
       "rank": 4,
-      "title": "GLM-5.3 发布：编程能力提升50%，开源最强安全模型",
-      "finding": "智谱发布 GLM-5.3，基座模型未变，但通过后训练 Scaling 大幅提升智能上界。编程能力较 5.2 提升 50%，在多个公开基准测试中取得开源第一，并成为最强开源安全模型。",
+      "title": "Gemini 3.7 Flash 发布：性能逼近旗舰，价格大幅下调",
+      "finding": "Google DeepMind 发布 Gemini 3.7 Flash，性能接近旗舰模型，但价格大幅降低，被视为 DeepMind 新帅重画性价比斩杀线，对市场格局产生冲击。",
       "key_data": [
-        "编程能力+50%",
-        "开源第一",
-        "最强安全模型"
+        "性能逼近旗舰",
+        "价格骨折",
+        "性价比斩杀线"
       ],
-      "judgment": "GLM-5.3 证明后训练 Scaling 的潜力，开源模型与闭源差距进一步缩小。对开发者，这意味着更强大的开源选择，可能加速企业采用开源模型，降低对闭源 API 的依赖。",
+      "judgment": "Gemini 3.7 Flash 的定价策略将迫使其他厂商跟进降价，开发者获得更便宜的强模型选择，但需关注其实际推理能力与稳定性。",
       "confidence": 4,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/473038.html"
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/plZY01etBHv3ETOYG0af"
     },
     {
       "rank": 5,
-      "title": "Meta 开源模型 Glimmer 发布，与闭源 Muse Spark 形成双轨战略",
-      "finding": "Meta 发布开源模型 Glimmer，任何人都可下载运行，同时保留更强大的闭源模型 Muse Spark。这体现了 Meta 在开源与商业化之间的平衡策略。",
+      "title": "智谱发布 GLM-5.3：编程能力大幅提升，开源安全模型登顶",
+      "finding": "智谱发布 GLM-5.3，基座模型未变但通过后训练 Scaling 提升智能上界，编程能力较 5.2 提升 50%，在多个公开基准上取得开源第一，并成为最强开源安全模型。",
       "key_data": [
-        "开源模型",
-        "双轨战略",
-        "可本地运行"
+        "编程提升50%",
+        "开源第一",
+        "最强开源安全"
       ],
-      "judgment": "Meta 的双轨战略表明开源与闭源并非对立，而是互补。对开发者，Glimmer 提供了灵活的选择，但需注意其能力与闭源版的差距，避免在关键任务上踩坑。",
+      "judgment": "GLM-5.3 证明后训练 Scaling 的潜力，开源模型在编程与安全领域持续逼近闭源，开发者可低成本获得高性能模型，加速应用创新。",
       "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/"
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/08/473038.html"
     }
   ],
   "model_tech": [
     {
-      "source": "InfoQ",
-      "title": "Gemini 3.7 Flash 突袭：性能逼近旗舰、价格打骨折",
-      "finding": "谷歌发布 Gemini 3.7 Flash，性能接近旗舰模型，但价格大幅降低，重新定义了性价比。",
-      "key_data": [
-        "性能逼近旗舰",
-        "价格大幅降低"
-      ],
-      "judgment": "Gemini 3.7 Flash 将加剧价格战，开发者可用更低成本获得高性能，可能改变模型选型策略。",
-      "confidence": 4,
-      "url": "https://www.infoq.cn/article/plZY01etBHv3ETOYG0af?utm_source=rss&utm_medium=article",
-      "importance": 4
-    },
-    {
       "source": "量子位",
-      "title": "Qwen3.8-27B 开源：家用显卡也能跑",
-      "finding": "阿里开源 Qwen3.8-27B 模型，支持家用显卡运行，所有人都可免费下载部署及商用。",
+      "title": "Qwen3.8-27B 开源，家用显卡可运行",
+      "finding": "阿里开源 Qwen3.8-27B 模型，支持免费下载、部署及商用，家用显卡即可运行，降低了本地部署门槛。",
       "key_data": [
         "27B参数",
-        "家用显卡可跑",
+        "家用显卡",
         "免费商用"
       ],
-      "judgment": "Qwen3.8-27B 降低了开源模型的使用门槛，个人开发者和中小企业将受益，可能推动端侧 AI 应用爆发。",
+      "judgment": "Qwen3.8-27B 将推动端侧 AI 应用普及，开发者可低成本构建私有化 AI 服务，对云 API 依赖减弱。",
       "confidence": 4,
       "url": "https://www.qbitai.com/2026/08/473379.html",
       "importance": 4
     },
     {
       "source": "ArXiv",
-      "title": "观点论文：推理是可学习的基于规则的过程",
-      "finding": "新论文提出推理是一种可学习的规则化过程，挑战了传统符号 AI 与神经网络的界限。",
+      "title": "论文：推理是可学习的基于规则的过程",
+      "finding": "新论文提出推理可被视为可学习的规则化过程，挑战传统符号 AI 与神经网络的界限，为提升模型推理能力提供新思路。",
       "key_data": [
-        "推理可学习",
-        "规则化过程"
+        "推理",
+        "规则化",
+        "可学习"
       ],
-      "judgment": "该观点可能影响未来推理模型的设计思路，值得关注。",
+      "judgment": "该观点可能影响未来推理模型的设计方向，值得研究者关注。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2608.12325",
-      "importance": 2
+      "importance": 3
     },
     {
       "source": "ArXiv",
-      "title": "LoKiFormer：高效 LLM 预训练的新架构",
-      "finding": "LoKiFormer 提出局部注意力与解耦知识记忆，旨在提高大模型预训练效率。",
+      "title": "论文：对齐社区无意中构建审查工具包",
+      "finding": "立场论文指出，AI 对齐方法可能被滥用为审查工具，引发对安全研究双用途的担忧。",
       "key_data": [
-        "高效预训练",
-        "新架构"
+        "对齐",
+        "双用途",
+        "审查"
       ],
-      "judgment": "若有效，可能降低大模型训练成本，加速模型迭代。",
+      "judgment": "提醒安全研究需考虑伦理边界，可能影响政策制定。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2608.12419",
+      "url": "https://arxiv.org/abs/2608.12346",
       "importance": 2
     },
     {
       "source": "ArXiv",
-      "title": "MARCH：用内容路由状态锚点扩展循环记忆",
-      "finding": "MARCH 提出一种新的循环记忆机制，旨在提升长上下文处理能力。",
+      "title": "论文：LLM 知道约束但不用，激活瓶颈导致推理失败",
+      "finding": "研究发现 LLM 在表面线索与隐含约束冲突时经常失败，归因于激活瓶颈，而非缺乏知识。",
       "key_data": [
-        "长上下文",
-        "循环记忆"
+        "激活瓶颈",
+        "约束推理",
+        "失败模式"
       ],
-      "judgment": "对长上下文应用有潜在价值，但需进一步验证。",
+      "judgment": "为改进 LLM 推理提供新诊断视角，可能促进架构优化。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2608.12321",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "论文：MARCH 用内容路由状态锚点扩展循环记忆",
+      "finding": "MARCH 提出新架构，通过内容路由状态锚点提升循环模型的长期上下文能力，可能替代部分 Transformer 应用。",
+      "key_data": [
+        "循环记忆",
+        "状态锚点",
+        "长上下文"
+      ],
+      "judgment": "若有效，将降低长上下文推理成本，对高效模型设计有参考价值。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2608.12435",
       "importance": 2
@@ -143,105 +147,110 @@
   "company_product": [
     {
       "source": "InfoQ",
-      "title": "Codex 与 Claude Code 负责人公开对喷",
-      "finding": "OpenAI Codex 与 Anthropic Claude Code 的负责人在公开场合发生争论，围绕 AI 编程工具的技术路线。",
+      "title": "Codex 与 Claude Code 负责人公开互怼",
+      "finding": "OpenAI Codex 与 Anthropic Claude Code 的负责人在公开场合发生争执，围绕 AI 编程工具的技术路线与产品理念展开争论。",
       "key_data": [
-        "AI编程",
-        "技术路线之争"
+        "Codex",
+        "Claude Code",
+        "公开争论"
       ],
-      "judgment": "争论反映 AI 编程工具竞争白热化，开发者应关注技术演进，选择适合自身需求的工具。",
+      "judgment": "头部 AI 编程工具的路线之争反映行业竞争白热化，开发者可关注双方后续更新。",
       "confidence": 3,
-      "url": "https://www.infoq.cn/article/YWXm26HRwC9ySEGZ9Lpp?utm_source=rss&utm_medium=article",
+      "url": "https://www.infoq.cn/article/YWXm26HRwC9ySEGZ9Lpp",
       "importance": 3
     },
     {
-      "source": "InfoQ",
-      "title": "Snowflake 财报：33% 增速、126% 留存，AI 落地成印钞机",
-      "finding": "Snowflake 最新财报显示营收增长 33%，客户留存率高达 126%，证明 AI 落地可以带来可观商业回报。",
+      "source": "TechCrunch",
+      "title": "Meta 发布开源模型 Glimmer，与闭源 Muse Spark 形成对比",
+      "finding": "Meta 发布开源权重模型 Glimmer，任何人都可下载运行，与更强大的闭源 Muse Spark 形成双轨战略。",
       "key_data": [
-        "33%增速",
-        "126%留存"
+        "开源权重",
+        "Glimmer",
+        "双轨战略"
       ],
-      "judgment": "Snowflake 的成功表明企业 AI 需求真实且可持续，为其他平台提供信心。",
+      "judgment": "Meta 继续押注开源，可能吸引开发者生态，但闭源旗舰仍保留商业优势。",
       "confidence": 4,
-      "url": "https://www.infoq.cn/article/55mbodVKkHgiHYqfqkFG?utm_source=rss&utm_medium=article",
+      "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
       "importance": 3
     },
     {
       "source": "TechCrunch",
-      "title": "Kog 公司：GPU 推理效率提升新思路",
-      "finding": "法国初创公司 Kog 认为 GPU 并非不适合 Agent 工作流，并推出新技术以提升推理效率。",
-      "key_data": [
-        "GPU推理",
-        "Agent工作流"
-      ],
-      "judgment": "若 Kog 的技术可行，可能改变 Agent 部署的成本结构，值得关注。",
-      "confidence": 3,
-      "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
-      "importance": 2
-    },
-    {
-      "source": "TechCrunch",
-      "title": "谷歌允许用户移除 AI 生成内容的可见水印",
-      "finding": "谷歌更新政策，允许用户关闭 AI 生成内容的可见水印，但不可见标识仍保留。",
+      "title": "Google 允许用户移除 AI 生成的可见水印",
+      "finding": "Google 更新政策，允许用户关闭 AI 生成内容的可见水印，但不可见标识仍保留。",
       "key_data": [
         "移除水印",
-        "不可见标识保留"
+        "不可见标识",
+        "政策更新"
       ],
-      "judgment": "该政策可能引发版权和溯源争议，但符合用户体验需求。",
+      "judgment": "平衡用户体验与溯源需求，可能引发内容真实性争议。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
       "importance": 2
     },
     {
-      "source": "极客公园",
-      "title": "阿里云：承载中国智驾 60% 算力",
-      "finding": "阿里云乌兰察布数据中心承载了中国智能驾驶研发 60% 的算力，成为智驾算力核心。",
+      "source": "InfoQ",
+      "title": "Snowflake 财报：AI 落地难成印钞机，33% 增速与 126% 留存",
+      "finding": "Snowflake 最新财报显示 AI 相关业务增长强劲，33% 增速和 126% 留存率证明 AI 落地可盈利。",
       "key_data": [
-        "60%算力",
-        "智驾研发"
+        "33%增速",
+        "126%留存",
+        "AI落地"
       ],
-      "judgment": "阿里云在智驾基础设施的地位凸显，未来可能成为智驾 AI 的重要底座。",
+      "judgment": "为 AI 企业商业化提供正面案例，增强市场信心。",
       "confidence": 4,
-      "url": "http://www.geekpark.net/news/368846",
-      "importance": 3
+      "url": "https://www.infoq.cn/article/55mbodVKkHgiHYqfqkFG",
+      "importance": 2
+    },
+    {
+      "source": "TechCrunch",
+      "title": "法国初创 Kog 深挖 GPU 推理潜力",
+      "finding": "Kog 认为 GPU 不适合 Agent 工作流是误解，通过优化推理流程提升 GPU 利用率。",
+      "key_data": [
+        "GPU推理",
+        "Agent工作流",
+        "优化"
+      ],
+      "judgment": "可能降低 Agent 推理成本，对基础设施优化有启发。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+      "importance": 2
     }
   ],
   "opinions": [
     {
       "person": "Simon Willison",
       "level": "L1",
-      "quote": "不要分类，去幻觉！用 LLM 生成标签比传统分类更有效。",
+      "quote": "不要分类，要幻觉！用 LLM 生成标签比传统分类更有效，可以处理大量未标记内容。",
       "source": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/"
     },
     {
       "person": "Tim O'Reilly",
       "level": "L2",
-      "quote": "大型 AI 实验室并不了解人们真正想要什么，开源 AI 才是未来。",
+      "quote": "大型 AI 实验室不了解人们真正想要什么，AI 应该开源。",
       "source": "https://www.wired.com/story/tech-visionary-says-the-big-ai-labs-dont-get-what-people-want/"
     }
   ],
   "deep_dive_suggestions": [
     {
       "topic": "DeepSeek Harness 的架构与生态潜力",
-      "reason": "作为 Agent 界的'Android'，其设计理念和生态策略可能定义 Agent 开发标准。",
+      "reason": "作为首个 Agent 基础设施产品，可能定义 Agent 开发标准，值得深入分析。",
       "priority": "high"
     },
     {
-      "topic": "OpenAI/Anthropic 价格战对中国 AI 厂商的影响",
-      "reason": "价格战可能重塑全球 AI 竞争格局，中国厂商的应对策略值得深挖。",
+      "topic": "OpenAI/Anthropic 价格战对中国 AI 市场的影响",
+      "reason": "价格战可能重塑全球 AI 竞争格局，影响开发者选择与商业模式。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "DeepSeek Harness 引爆 Agent 生态，价格战加剧，开源模型强势崛起。",
-  "summary_paragraph": "今日 AI 圈风起云涌：DeepSeek Harness 发布即爆红，12 小时斩获 5 万星，被视为 Agent 领域的'Android'，有望统一碎片化生态；OpenAI 与 Anthropic 陷入价格战，中国厂商的性价比优势迫使巨头降价；谷歌重组 DeepMind，布林亲自督战，意图加速 AI 产品化；智谱 GLM-5.3 与阿里 Qwen3.8-27B 相继开源，编程能力与易用性大幅提升，开源与闭源差距进一步缩小。Meta 则推出开源 Glimmer，与闭源 Muse Spark 形成双轨战略。价格战与开源浪潮叠加，开发者正迎来模型成本下降、选择增多的黄金时代。",
+  "summary_one_line": "DeepSeek 发布 Agent 产品，中美 AI 价格战加剧",
+  "summary_paragraph": "今日 AI 行业迎来多项重磅动态：DeepSeek 发布首个 Agent 产品 Harness，GitHub 一夜 5 万星，被视为 Agent 领域的“Android”，有望重塑开发生态；OpenAI 与 Anthropic 陷入价格战，应对中国 AI 对手的崛起，模型 API 成本持续下降；谷歌开始调整 DeepMind 组织架构，多个团队划归总部，布林亲自督战；Gemini 3.7 Flash 以高性价比冲击市场；智谱发布 GLM-5.3，编程能力大幅提升并登顶开源安全模型。此外，阿里开源 Qwen3.8-27B，Meta 发布开源模型 Glimmer，AI 编程工具竞争白热化。整体来看，开源模型与价格战正推动 AI 技术普及，开发者迎来更多低成本选择，行业格局加速演变。",
   "snapshot": {
     "date": "2026-08-15",
     "hf_trending": [
       {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 9060,
+        "likes": 9115,
         "downloads": 2,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -257,7 +266,7 @@
       {
         "name": "meta-models/Muse-Glimmer-30B",
         "short_name": "Muse-Glimmer-30B",
-        "likes": 1518,
+        "likes": 1522,
         "downloads": 165300,
         "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
         "tags": [
@@ -273,7 +282,7 @@
       {
         "name": "Qwen/Qwen3.8-2.4T-A95B",
         "short_name": "Qwen3.8-2.4T-A95B",
-        "likes": 920,
+        "likes": 923,
         "downloads": 3832,
         "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
         "tags": [
@@ -287,25 +296,9 @@
         "trend": "same"
       },
       {
-        "name": "MiniMaxAI/MiniMax-H3",
-        "short_name": "MiniMax-H3",
-        "likes": 3922,
-        "downloads": 1997541,
-        "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
-        "tags": [
-          "minimax-h3",
-          "diffusers",
-          "safetensors"
-        ],
-        "pipeline_tag": "image-text-to-video",
-        "label": "Image Text To Video",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "unsloth/Qwen3.8-27B-GGUF",
         "short_name": "Qwen3.8-27B-GGUF",
-        "likes": 824,
+        "likes": 854,
         "downloads": 0,
         "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
         "tags": [
@@ -319,9 +312,25 @@
         "trend": "new"
       },
       {
+        "name": "MiniMaxAI/MiniMax-H3",
+        "short_name": "MiniMax-H3",
+        "likes": 3924,
+        "downloads": 1997541,
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+        "tags": [
+          "minimax-h3",
+          "diffusers",
+          "safetensors"
+        ],
+        "pipeline_tag": "image-text-to-video",
+        "label": "Image Text To Video",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 860,
+        "likes": 862,
         "downloads": 207830,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -337,7 +346,7 @@
       {
         "name": "MiniMaxAI/MiniMax-Music3",
         "short_name": "MiniMax-Music3",
-        "likes": 657,
+        "likes": 660,
         "downloads": 63,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
         "tags": [
@@ -353,7 +362,7 @@
       {
         "name": "deepseek-ai/DeepSeek-V4-Flash-0731",
         "short_name": "DeepSeek-V4-Flash-0731",
-        "likes": 3387,
+        "likes": 3388,
         "downloads": 1606491,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
         "tags": [
@@ -371,16 +380,16 @@
       {
         "name": "cathrynlavery/diagram-design",
         "desc": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
-        "stars": 17313,
+        "stars": 17368,
         "stars_today": 3646,
-        "forks": 1038,
+        "forks": 1039,
         "language": "HTML",
         "url": "https://github.com/cathrynlavery/diagram-design"
       },
       {
         "name": "cactus-compute/needle",
         "desc": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
-        "stars": 5628,
+        "stars": 5651,
         "stars_today": 662,
         "forks": 374,
         "language": "Python",
@@ -389,7 +398,7 @@
       {
         "name": "megadose/holehe",
         "desc": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will r",
-        "stars": 12861,
+        "stars": 12873,
         "stars_today": 427,
         "forks": 1717,
         "language": "Python",
@@ -398,7 +407,7 @@
       {
         "name": "macro-inc/macro",
         "desc": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked ",
-        "stars": 3042,
+        "stars": 3053,
         "stars_today": 436,
         "forks": 307,
         "language": "Rust",
@@ -407,9 +416,9 @@
       {
         "name": "smicallef/spiderfoot",
         "desc": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
-        "stars": 20954,
+        "stars": 20965,
         "stars_today": 293,
-        "forks": 3342,
+        "forks": 3343,
         "language": "Python",
         "url": "https://github.com/smicallef/spiderfoot"
       }
@@ -526,6 +535,6 @@
         "url": "https://openrouter.ai/poolside/laguna-s-2.1:free"
       }
     ],
-    "hf_summary": "多模态与视频音频生成霸榜，文本模型热度下滑"
+    "hf_summary": "开源多模态与视频音频模型成主流"
   }
 }
