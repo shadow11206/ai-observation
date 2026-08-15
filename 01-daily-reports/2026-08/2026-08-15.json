@@ -1,0 +1,531 @@
+{
+  "date": "2026-08-15",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "DeepSeek Harness 发布：12小时斩获5万星，Agent 界的 Android 来了",
+      "finding": "DeepSeek 发布了其首个 Agent 产品 DeepSeek Harness，这是一个开源 Agent 框架，旨在成为 Agent 领域的标准平台。发布仅 12 小时，GitHub 星标已超过 5 万，社区反响强烈。",
+      "key_data": [
+        "12小时5万星",
+        "首个Agent产品",
+        "开源框架"
+      ],
+      "judgment": "DeepSeek Harness 有望成为 Agent 开发的'Android'，统一碎片化的 Agent 生态。对开发者而言，这意味着一个强大的开源底座，可能改变 Agent 应用的构建方式，加速 Agent 落地。",
+      "confidence": 4,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/368809"
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI 与 Anthropic 陷入价格战，中国 AI 竞争对手崛起",
+      "finding": "面对中国 AI 竞争对手的挑战，OpenAI 和 Anthropic 纷纷发布更便宜的模型，引发价格战。这反映了全球 AI 竞争格局的变化，中国厂商的性价比优势正在迫使美国巨头调整定价策略。",
+      "key_data": [
+        "价格战",
+        "中国AI崛起",
+        "更便宜模型"
+      ],
+      "judgment": "价格战对开发者是重大利好，模型调用成本将持续下降。但这也意味着单纯靠模型能力难以维持溢价，竞争焦点将转向应用生态和垂直场景，中小团队获得更多机会。",
+      "confidence": 4,
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
+    },
+    {
+      "rank": 3,
+      "title": "谷歌开始肢解 DeepMind，数个团队被划归总部",
+      "finding": "谷歌正在重组 DeepMind，将多个团队划归总部直接管理，布林亲自下场督战。这标志着谷歌对 AI 研发组织架构的重大调整，可能影响 Gemini 等核心产品的开发方向。",
+      "key_data": [
+        "团队划归总部",
+        "布林督战",
+        "组织重组"
+      ],
+      "judgment": "谷歌的调整表明其希望加速 AI 产品化，减少研究到落地的摩擦。对行业而言，这可能加剧大模型竞争，但也可能引发 DeepMind 人才流失，影响其长期创新能力。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/08/473153.html"
+    },
+    {
+      "rank": 4,
+      "title": "GLM-5.3 发布：编程能力提升50%，开源最强安全模型",
+      "finding": "智谱发布 GLM-5.3，基座模型未变，但通过后训练 Scaling 大幅提升智能上界。编程能力较 5.2 提升 50%，在多个公开基准测试中取得开源第一，并成为最强开源安全模型。",
+      "key_data": [
+        "编程能力+50%",
+        "开源第一",
+        "最强安全模型"
+      ],
+      "judgment": "GLM-5.3 证明后训练 Scaling 的潜力，开源模型与闭源差距进一步缩小。对开发者，这意味着更强大的开源选择，可能加速企业采用开源模型，降低对闭源 API 的依赖。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/08/473038.html"
+    },
+    {
+      "rank": 5,
+      "title": "Meta 开源模型 Glimmer 发布，与闭源 Muse Spark 形成双轨战略",
+      "finding": "Meta 发布开源模型 Glimmer，任何人都可下载运行，同时保留更强大的闭源模型 Muse Spark。这体现了 Meta 在开源与商业化之间的平衡策略。",
+      "key_data": [
+        "开源模型",
+        "双轨战略",
+        "可本地运行"
+      ],
+      "judgment": "Meta 的双轨战略表明开源与闭源并非对立，而是互补。对开发者，Glimmer 提供了灵活的选择，但需注意其能力与闭源版的差距，避免在关键任务上踩坑。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "InfoQ",
+      "title": "Gemini 3.7 Flash 突袭：性能逼近旗舰、价格打骨折",
+      "finding": "谷歌发布 Gemini 3.7 Flash，性能接近旗舰模型，但价格大幅降低，重新定义了性价比。",
+      "key_data": [
+        "性能逼近旗舰",
+        "价格大幅降低"
+      ],
+      "judgment": "Gemini 3.7 Flash 将加剧价格战，开发者可用更低成本获得高性能，可能改变模型选型策略。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/plZY01etBHv3ETOYG0af?utm_source=rss&utm_medium=article",
+      "importance": 4
+    },
+    {
+      "source": "量子位",
+      "title": "Qwen3.8-27B 开源：家用显卡也能跑",
+      "finding": "阿里开源 Qwen3.8-27B 模型，支持家用显卡运行，所有人都可免费下载部署及商用。",
+      "key_data": [
+        "27B参数",
+        "家用显卡可跑",
+        "免费商用"
+      ],
+      "judgment": "Qwen3.8-27B 降低了开源模型的使用门槛，个人开发者和中小企业将受益，可能推动端侧 AI 应用爆发。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/08/473379.html",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv",
+      "title": "观点论文：推理是可学习的基于规则的过程",
+      "finding": "新论文提出推理是一种可学习的规则化过程，挑战了传统符号 AI 与神经网络的界限。",
+      "key_data": [
+        "推理可学习",
+        "规则化过程"
+      ],
+      "judgment": "该观点可能影响未来推理模型的设计思路，值得关注。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2608.12325",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "LoKiFormer：高效 LLM 预训练的新架构",
+      "finding": "LoKiFormer 提出局部注意力与解耦知识记忆，旨在提高大模型预训练效率。",
+      "key_data": [
+        "高效预训练",
+        "新架构"
+      ],
+      "judgment": "若有效，可能降低大模型训练成本，加速模型迭代。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2608.12419",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "MARCH：用内容路由状态锚点扩展循环记忆",
+      "finding": "MARCH 提出一种新的循环记忆机制，旨在提升长上下文处理能力。",
+      "key_data": [
+        "长上下文",
+        "循环记忆"
+      ],
+      "judgment": "对长上下文应用有潜在价值，但需进一步验证。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2608.12435",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "InfoQ",
+      "title": "Codex 与 Claude Code 负责人公开对喷",
+      "finding": "OpenAI Codex 与 Anthropic Claude Code 的负责人在公开场合发生争论，围绕 AI 编程工具的技术路线。",
+      "key_data": [
+        "AI编程",
+        "技术路线之争"
+      ],
+      "judgment": "争论反映 AI 编程工具竞争白热化，开发者应关注技术演进，选择适合自身需求的工具。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/YWXm26HRwC9ySEGZ9Lpp?utm_source=rss&utm_medium=article",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "Snowflake 财报：33% 增速、126% 留存，AI 落地成印钞机",
+      "finding": "Snowflake 最新财报显示营收增长 33%，客户留存率高达 126%，证明 AI 落地可以带来可观商业回报。",
+      "key_data": [
+        "33%增速",
+        "126%留存"
+      ],
+      "judgment": "Snowflake 的成功表明企业 AI 需求真实且可持续，为其他平台提供信心。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/55mbodVKkHgiHYqfqkFG?utm_source=rss&utm_medium=article",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Kog 公司：GPU 推理效率提升新思路",
+      "finding": "法国初创公司 Kog 认为 GPU 并非不适合 Agent 工作流，并推出新技术以提升推理效率。",
+      "key_data": [
+        "GPU推理",
+        "Agent工作流"
+      ],
+      "judgment": "若 Kog 的技术可行，可能改变 Agent 部署的成本结构，值得关注。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+      "importance": 2
+    },
+    {
+      "source": "TechCrunch",
+      "title": "谷歌允许用户移除 AI 生成内容的可见水印",
+      "finding": "谷歌更新政策，允许用户关闭 AI 生成内容的可见水印，但不可见标识仍保留。",
+      "key_data": [
+        "移除水印",
+        "不可见标识保留"
+      ],
+      "judgment": "该政策可能引发版权和溯源争议，但符合用户体验需求。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+      "importance": 2
+    },
+    {
+      "source": "极客公园",
+      "title": "阿里云：承载中国智驾 60% 算力",
+      "finding": "阿里云乌兰察布数据中心承载了中国智能驾驶研发 60% 的算力，成为智驾算力核心。",
+      "key_data": [
+        "60%算力",
+        "智驾研发"
+      ],
+      "judgment": "阿里云在智驾基础设施的地位凸显，未来可能成为智驾 AI 的重要底座。",
+      "confidence": 4,
+      "url": "http://www.geekpark.net/news/368846",
+      "importance": 3
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "不要分类，去幻觉！用 LLM 生成标签比传统分类更有效。",
+      "source": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/"
+    },
+    {
+      "person": "Tim O'Reilly",
+      "level": "L2",
+      "quote": "大型 AI 实验室并不了解人们真正想要什么，开源 AI 才是未来。",
+      "source": "https://www.wired.com/story/tech-visionary-says-the-big-ai-labs-dont-get-what-people-want/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "DeepSeek Harness 的架构与生态潜力",
+      "reason": "作为 Agent 界的'Android'，其设计理念和生态策略可能定义 Agent 开发标准。",
+      "priority": "high"
+    },
+    {
+      "topic": "OpenAI/Anthropic 价格战对中国 AI 厂商的影响",
+      "reason": "价格战可能重塑全球 AI 竞争格局，中国厂商的应对策略值得深挖。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "DeepSeek Harness 引爆 Agent 生态，价格战加剧，开源模型强势崛起。",
+  "summary_paragraph": "今日 AI 圈风起云涌：DeepSeek Harness 发布即爆红，12 小时斩获 5 万星，被视为 Agent 领域的'Android'，有望统一碎片化生态；OpenAI 与 Anthropic 陷入价格战，中国厂商的性价比优势迫使巨头降价；谷歌重组 DeepMind，布林亲自督战，意图加速 AI 产品化；智谱 GLM-5.3 与阿里 Qwen3.8-27B 相继开源，编程能力与易用性大幅提升，开源与闭源差距进一步缩小。Meta 则推出开源 Glimmer，与闭源 Muse Spark 形成双轨战略。价格战与开源浪潮叠加，开发者正迎来模型成本下降、选择增多的黄金时代。",
+  "snapshot": {
+    "date": "2026-08-15",
+    "hf_trending": [
+      {
+        "name": "Qwen/Qwen3.8-27B",
+        "short_name": "Qwen3.8-27B",
+        "likes": 9060,
+        "downloads": 2,
+        "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "meta-models/Muse-Glimmer-30B",
+        "short_name": "Muse-Glimmer-30B",
+        "likes": 1518,
+        "downloads": 165300,
+        "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "muse_glimmer"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen3.8-2.4T-A95B",
+        "short_name": "Qwen3.8-2.4T-A95B",
+        "likes": 920,
+        "downloads": 3832,
+        "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe_text"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "MiniMaxAI/MiniMax-H3",
+        "short_name": "MiniMax-H3",
+        "likes": 3922,
+        "downloads": 1997541,
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+        "tags": [
+          "minimax-h3",
+          "diffusers",
+          "safetensors"
+        ],
+        "pipeline_tag": "image-text-to-video",
+        "label": "Image Text To Video",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "unsloth/Qwen3.8-27B-GGUF",
+        "short_name": "Qwen3.8-27B-GGUF",
+        "likes": 824,
+        "downloads": 0,
+        "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+        "tags": [
+          "gguf",
+          "qwen3_5",
+          "unsloth"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 860,
+        "downloads": 207830,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "MiniMaxAI/MiniMax-Music3",
+        "short_name": "MiniMax-Music3",
+        "likes": 657,
+        "downloads": 63,
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "minimax_music3"
+        ],
+        "pipeline_tag": "text-to-audio",
+        "label": "Text To Audio",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "short_name": "DeepSeek-V4-Flash-0731",
+        "likes": 3387,
+        "downloads": 1606491,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v4"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "cathrynlavery/diagram-design",
+        "desc": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+        "stars": 17313,
+        "stars_today": 3646,
+        "forks": 1038,
+        "language": "HTML",
+        "url": "https://github.com/cathrynlavery/diagram-design"
+      },
+      {
+        "name": "cactus-compute/needle",
+        "desc": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+        "stars": 5628,
+        "stars_today": 662,
+        "forks": 374,
+        "language": "Python",
+        "url": "https://github.com/cactus-compute/needle"
+      },
+      {
+        "name": "megadose/holehe",
+        "desc": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will r",
+        "stars": 12861,
+        "stars_today": 427,
+        "forks": 1717,
+        "language": "Python",
+        "url": "https://github.com/megadose/holehe"
+      },
+      {
+        "name": "macro-inc/macro",
+        "desc": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked ",
+        "stars": 3042,
+        "stars_today": 436,
+        "forks": 307,
+        "language": "Rust",
+        "url": "https://github.com/macro-inc/macro"
+      },
+      {
+        "name": "smicallef/spiderfoot",
+        "desc": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+        "stars": 20954,
+        "stars_today": 293,
+        "forks": 3342,
+        "language": "Python",
+        "url": "https://github.com/smicallef/spiderfoot"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 2263617399334,
+        "total_tokens_str": "2.3T",
+        "api_calls": 0,
+        "change": -2.4,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "tencent/hy3",
+        "name": "Hy3",
+        "org": "tencent",
+        "total_tokens": 1418783594603,
+        "total_tokens_str": "1.4T",
+        "api_calls": 0,
+        "change": -5.2,
+        "url": "https://openrouter.ai/tencent/hy3"
+      },
+      {
+        "rank": 3,
+        "slug": "z-ai/glm-5.2",
+        "name": "GLM 5.2",
+        "org": "z-ai",
+        "total_tokens": 902981037288,
+        "total_tokens_str": "903B",
+        "api_calls": 0,
+        "change": 43.6,
+        "url": "https://openrouter.ai/z-ai/glm-5.2"
+      },
+      {
+        "rank": 4,
+        "slug": "openai/gpt-5.6-luna",
+        "name": "GPT-5.6 Luna",
+        "org": "openai",
+        "total_tokens": 745828278482,
+        "total_tokens_str": "746B",
+        "api_calls": 0,
+        "change": -5.6,
+        "url": "https://openrouter.ai/openai/gpt-5.6-luna"
+      },
+      {
+        "rank": 5,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro",
+        "org": "deepseek",
+        "total_tokens": 533460627747,
+        "total_tokens_str": "533B",
+        "api_calls": 0,
+        "change": -8.7,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 6,
+        "slug": "google/gemini-3.6-flash",
+        "name": "Gemini 3.6 Flash",
+        "org": "google",
+        "total_tokens": 511371240396,
+        "total_tokens_str": "511B",
+        "api_calls": 0,
+        "change": -2.4,
+        "url": "https://openrouter.ai/google/gemini-3.6-flash"
+      },
+      {
+        "rank": 7,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 468950611692,
+        "total_tokens_str": "469B",
+        "api_calls": 0,
+        "change": 1.0,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 8,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 355377397298,
+        "total_tokens_str": "355B",
+        "api_calls": 0,
+        "change": 145.1,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      {
+        "rank": 9,
+        "slug": "anthropic/claude-opus-5",
+        "name": "Claude Opus 5",
+        "org": "anthropic",
+        "total_tokens": 296570298303,
+        "total_tokens_str": "297B",
+        "api_calls": 0,
+        "change": 35.8,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5"
+      },
+      {
+        "rank": 10,
+        "slug": "poolside/laguna-s-2.1:free",
+        "name": "Laguna S 2.1 (free)",
+        "org": "poolside",
+        "total_tokens": 241601126526,
+        "total_tokens_str": "242B",
+        "api_calls": 0,
+        "change": -2.7,
+        "url": "https://openrouter.ai/poolside/laguna-s-2.1:free"
+      }
+    ],
+    "hf_summary": "多模态与视频音频生成霸榜，文本模型热度下滑"
+  }
+}

@@ -1,6 +1,13 @@
 {
-  "total": 140,
+  "total": 141,
   "reports": [
+    {
+      "date": "2026-08-15",
+      "title": "今日 AI 日报：DeepSeek Harness 发布：12小时斩获5万星，Agent 界的 Android 来了 + 4 条重要动态",
+      "excerpt": "DeepSeek Harness 有望成为 Agent 开发的'Android'…",
+      "top_count": 5,
+      "file": "2026-08-15.json"
+    },
     {
       "date": "2026-08-14",
       "title": "今日 AI 日报：OpenAI 推出 Ultrafast 模式：GPT-5.6 Sol 提速 14 倍，由 Cerebras 芯片驱动 + 4 条重要动态",
