@@ -4,69 +4,69 @@
     {
       "rank": 1,
       "title": "SpaceX 正式完成对 Cursor 的收购",
-      "finding": "AI 编程明星公司 Cursor 正式并入 SpaceX，成为其一部分。这笔交易将 AI 编程工具与航天工程深度绑定，可能重塑 AI 在高端制造和航天领域的应用方式。",
+      "finding": "AI 编程明星公司 Cursor 正式成为 SpaceX 的一部分。这笔交易将 Cursor 的 AI 编程能力与 SpaceX 的工程需求深度绑定，也标志着 AI 编程工具开始被大型科技巨头视为核心战略资产。",
       "key_data": [
-        "Cursor 并入 SpaceX",
-        "AI 编程+航天",
+        "Cursor 归入 SpaceX",
+        "AI 编程战略收购",
         "交易正式完成"
       ],
-      "judgment": "这是 AI 编程工具被垂直行业巨头收购的标志性事件，意味着 AI 编程不再只是通用开发工具，而是开始向特定高价值领域深度渗透。对开发者而言，Cursor 的未来走向充满不确定性，但行业整合趋势已不可逆。",
+      "judgment": "这是 AI 编程赛道格局的标志性事件。Cursor 被 SpaceX 收购后，其独立性和中立性将受影响，对依赖 Cursor 的开发者生态和竞品（如 GitHub Copilot）都会产生连锁反应。",
       "confidence": 5,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/"
     },
     {
       "rank": 2,
-      "title": "腾讯二季度 AI 投入 105 亿，增长承压",
-      "finding": "腾讯 2026 年 Q2 财报显示，单季 AI 相关资本开支高达 105 亿元，但整体营收增速放缓至 11%，利润增速仅 9%。管理层表示微信将成为 AI 为先的生态系统，但市场对巨额投入的回报存疑。",
+      "title": "Anthropic 评估 AI 风险上升，暂不公开更强模型",
+      "finding": "Anthropic 在内部评估中发现其前沿模型的风险等级有所上升，因此决定暂不公开发布更强大的模型。同时，公司也公布了 Claude 新水印技术的更多细节，以应对深度伪造和内容溯源问题。",
       "key_data": [
-        "AI 投入 105 亿/季",
-        "营收增速 11%",
-        "微信 AI 为先"
+        "风险等级上升",
+        "暂缓发布强模型",
+        "公布水印技术细节"
       ],
-      "judgment": "腾讯的巨额 AI 投入反映了中国科技巨头在 AI 军备竞赛中的焦虑，但短期财务压力明显。微信作为超级应用，其 AI 化转型将是观察中国消费级 AI 落地的重要窗口，值得持续跟踪。",
-      "confidence": 5,
+      "judgment": "Anthropic 的谨慎态度凸显了前沿 AI 安全问题的严峻性。这可能会延缓整个行业的模型迭代节奏，但也为负责任的 AI 发展设立了新标杆，对依赖最新模型的开发者和企业是个重要信号。",
+      "confidence": 4,
+      "source": "极客公园 / TechCrunch",
+      "url": "http://www.geekpark.net/news/368854"
+    },
+    {
+      "rank": 3,
+      "title": "腾讯 3 个月烧掉 105 亿，AI 投入进入昂贵阶段",
+      "finding": "腾讯发布 2026 年 Q2 财报，营收稳健增长，但 AI 相关资本开支和研发投入巨大，3 个月烧掉 105 亿元。公司总裁刘炽平表示，微信将成为 AI 为先的生态系统。",
+      "key_data": [
+        "3个月烧105亿",
+        "营收2047.9亿元",
+        "微信将AI为先"
+      ],
+      "judgment": "腾讯的巨额投入表明，中国互联网巨头在 AI 领域的军备竞赛已进入白热化阶段。这笔钱能否换来微信生态的 AI 化转型成功，是未来一年最大的看点之一。",
+      "confidence": 4,
       "source": "极客公园",
       "url": "http://www.geekpark.net/news/368852"
     },
     {
-      "rank": 3,
-      "title": "Anthropic 评估 AI 风险上升，暂不公开更强模型",
-      "finding": "Anthropic 在内部评估中发现 AI 风险等级上升，决定暂不发布更强大的模型，并同时公布了 Claude 新水印技术的细节，以增强内容溯源能力。",
-      "key_data": [
-        "风险等级上调",
-        "暂缓发布强模型",
-        "水印技术细节公开"
-      ],
-      "judgment": "Anthropic 的谨慎态度凸显了前沿 AI 实验室在安全与商业化之间的张力。对行业而言，这可能会延缓模型能力提升的节奏，但也为安全研究树立了标杆，影响其他实验室的发布策略。",
-      "confidence": 4,
-      "source": "极客公园",
-      "url": "http://www.geekpark.net/news/368854"
-    },
-    {
       "rank": 4,
-      "title": "Qwen3.8-27B 开源模型登顶多项榜单，消费级显卡可跑",
-      "finding": "阿里通义千问团队发布 Qwen3.8-27B 模型，在多项 Agent 基准测试中反超 Claude，且能在单张消费级显卡上运行，推理能力可自定义，引发开发者社区热议。",
+      "title": "一张消费级显卡跑“Opus级”Agent：Qwen3.8-27B 多项榜单反超 Claude",
+      "finding": "阿里通义千问团队发布的新模型 Qwen3.8-27B，在多项 Agent 能力榜单上反超了 Anthropic 的 Claude 模型。该模型可在消费级显卡上运行，且推理能力可自定义，引发社区热议。",
       "key_data": [
-        "27B 参数",
         "消费级显卡可跑",
-        "反超 Claude"
+        "榜单反超Claude",
+        "推理能力可自定义"
       ],
-      "judgment": "这表明开源模型在特定任务上已能媲美顶级闭源模型，且硬件门槛大幅降低。对开发者而言，这意味着更低的成本和更高的可控性，可能加速企业级 AI 应用的普及。",
-      "confidence": 4,
+      "judgment": "这标志着开源模型在 Agent 能力上首次实现对顶级闭源模型的反超，且硬件门槛极低。对于开发者而言，这意味着高性能 Agent 应用的成本将大幅下降，开源生态的竞争力再次被验证。",
+      "confidence": 3,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/08/473669.html"
     },
     {
       "rank": 5,
-      "title": "Cloudflare 发布 Computer，为 AI 智能体提供持久化运行环境",
-      "finding": "Cloudflare 推出 Computer 服务，为 AI 智能体提供持久化的云端运行环境，解决智能体状态丢失、无法长期运行的问题，被视为 AI 基础设施的重要补充。",
+      "title": "Cloudflare 发布 Computer：让 AI 智能体拥有持久化运行环境",
+      "finding": "Cloudflare 发布新产品 Cloudflare Computer，为 AI 智能体提供持久化的云端运行环境。这意味着 AI Agent 可以拥有长期记忆和稳定的工作空间，不再受限于无状态的 API 调用。",
       "key_data": [
         "持久化运行环境",
-        "AI 智能体",
-        "Cloudflare 新服务"
+        "AI智能体新基建",
+        "Cloudflare发布"
       ],
-      "judgment": "这标志着 AI 基础设施从模型推理向智能体生命周期管理延伸。对开发者而言，持久化环境是构建可靠 Agent 应用的关键，Cloudflare 的入局可能降低开发门槛，推动更多生产级 Agent 落地。",
+      "judgment": "这是 AI 基础设施领域的重要一步。持久化环境是 Agent 从“问答工具”走向“数字员工”的关键，Cloudflare 的入局将加速这一进程，并可能改变开发者构建 Agent 的方式。",
       "confidence": 4,
       "source": "InfoQ",
       "url": "https://www.infoq.cn/article/RaKIH7E4lA9uQ4Iasltb?utm_source=rss&utm_medium=article"
@@ -75,182 +75,167 @@
   "model_tech": [
     {
       "source": "量子位",
-      "title": "DeepSeek Harness 插件一夜爆火：长期记忆、电子宠物、小游戏全来了",
-      "finding": "DeepSeek 的 Harness 插件在 GitHub 上迅速走红，开发者为其添加了长期记忆、电子宠物、4399 小游戏等创意功能，展示了开源生态的活力。",
+      "title": "DeepSeek Harness 插件一夜燃爆 GitHub",
+      "finding": "开发者们为 DeepSeek 开发了大量 Harness 插件，包括长期记忆、电子宠物、4399 小游戏等，社区生态异常活跃。",
       "key_data": [
-        "GitHub 爆火",
+        "插件生态爆发",
         "长期记忆",
-        "社区创意"
+        "社区创意无限"
       ],
-      "judgment": "插件生态的繁荣是模型平台化的关键信号，DeepSeek 正在形成自己的开发者社区，这有助于巩固其开源地位。",
-      "confidence": 4,
+      "judgment": "这反映了 DeepSeek 开源策略的成功，强大的社区生态是其对抗闭源模型的最大护城河。",
+      "confidence": 3,
       "url": "https://www.qbitai.com/2026/08/473597.html",
       "importance": 3
     },
     {
       "source": "量子位",
       "title": "至知研究院提出大模型可解释性新路线：拆权重，数据成本不到 1%",
-      "finding": "至知研究院提出一种新的可解释性方法，通过直接拆解模型权重来理解大模型，所需数据成本不到传统方法的 1%，为可解释性研究开辟了新路径。",
+      "finding": "至知研究院提出一种新的可解释性方法，通过直接拆解模型权重来理解大模型，所需数据成本不到传统方法的 1%。",
       "key_data": [
         "拆解权重",
         "数据成本<1%",
-        "可解释性"
+        "可解释性新路线"
       ],
-      "judgment": "可解释性是 AI 落地的关键瓶颈，该方法若有效，将大幅降低理解大模型的成本，对安全审计和模型调试有重要价值。",
+      "judgment": "如果该方法被验证有效，将极大降低理解大模型内部机制的门槛，对 AI 安全和对齐研究意义重大。",
       "confidence": 3,
       "url": "https://www.qbitai.com/2026/08/473876.html",
       "importance": 3
     },
     {
       "source": "Reddit r/MachineLearning",
-      "title": "Qwen3.6-27B 的 Jacobian 透镜可零重训读取和操控 Qwen3.8-27B",
-      "finding": "研究者发现，为 Qwen3.6-27B 训练的 Jacobian 透镜可以直接用于新版本 Qwen3.8-27B，无需重新训练，实现跨版本的可解释性分析。",
+      "title": "Qwen3.6-27B 的 Jacobian 透镜可零成本读取和操控 Qwen3.8-27B",
+      "finding": "一项研究发现，为 Qwen3.6 模型训练的可解释性透镜，可以直接用于其升级版 Qwen3.8 模型，无需重新训练。",
       "key_data": [
-        "Jacobian 透镜",
-        "跨版本迁移",
-        "零重训"
+        "零重训迁移",
+        "跨版本可解释性",
+        "Jacobian透镜"
       ],
-      "judgment": "这表明可解释性工具可能具有跨版本泛化能力，将大幅降低模型更新后的分析成本，对持续监控模型行为有积极意义。",
+      "judgment": "这表明模型内部的可解释性结构在版本迭代中具有连续性，为未来更高效的可解释性研究提供了新思路。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1vpa5cv/survival_of_the_fitted_qwen3627bs_jacobian_lens/",
       "importance": 2
     },
     {
       "source": "ArXiv",
-      "title": "观点论文：推理是可学习的基于规则的过程",
-      "finding": "一篇新论文提出，自主推理本质上是一个可学习的基于规则的过程，挑战了传统符号 AI 与神经网络的分野，为推理模型的设计提供了新视角。",
+      "title": "观点文章：推理是一个可学习的基于规则的过程",
+      "finding": "一篇新的观点文章提出，自主推理本质上是一个可学习的、基于规则的过程，而非不可解释的黑盒涌现。",
       "key_data": [
         "推理可学习",
         "基于规则",
-        "观点论文"
+        "观点文章"
       ],
-      "judgment": "该观点可能影响下一代推理模型的设计思路，若成立，将推动更高效、更可解释的推理架构发展。",
-      "confidence": 3,
+      "judgment": "该观点若成立，将引导研究社区重新审视推理模型的构建方式，可能催生更高效、更可控的推理架构。",
+      "confidence": 2,
       "url": "https://arxiv.org/abs/2608.12325",
       "importance": 2
     },
     {
       "source": "InfoQ",
       "title": "MCP 走向无状态，开发者追问：这不就又变回 API 了吗？",
-      "finding": "MCP（模型上下文协议）正在向无状态化演进，引发开发者讨论：这是否意味着 MCP 又回到了传统 API 的老路？",
+      "finding": "MCP（模型上下文协议）社区正在讨论其向无状态方向演进的趋势，引发开发者质疑这是否会让 MCP 失去其核心价值，退化为普通 API。",
       "key_data": [
-        "MCP 无状态化",
+        "MCP无状态化",
         "开发者质疑",
-        "协议演进"
+        "与API趋同"
       ],
-      "judgment": "MCP 的演进方向反映了 Agent 通信的标准化需求，但无状态化可能削弱其上下文共享优势，开发者需权衡利弊。",
+      "judgment": "这是 Agent 工具链演进中的关键争论。MCP 若失去状态管理能力，其作为 Agent 标准化协议的价值将大打折扣。",
       "confidence": 3,
       "url": "https://www.infoq.cn/article/412hbBva0NF0AYP0CjzD?utm_source=rss&utm_medium=article",
-      "importance": 2
+      "importance": 3
     }
   ],
   "company_product": [
     {
-      "source": "极客公园",
-      "title": "WorkBuddy：解决 AI 生成内容之后的问题",
-      "finding": "WorkBuddy 定位为 AI 工作台，帮助用户管理 AI 生成的内容，解决“生成之后”的整理、协作问题，近期在社交媒体上走红。",
-      "key_data": [
-        "AI 工作台",
-        "内容管理",
-        "社交走红"
-      ],
-      "judgment": "AI 生成内容的后续管理是刚需，WorkBuddy 的走红表明市场对 AI 工作流整合工具的需求旺盛，但竞争激烈。",
-      "confidence": 3,
-      "url": "http://www.geekpark.net/news/368851",
-      "importance": 2
-    },
-    {
       "source": "量子位",
-      "title": "国产音乐模型挑战 Suno，音潮 API 限时免费",
-      "finding": "一家国产 AI 音乐模型公司推出新产品，宣称根治 AI 音乐通病，并限时免费开放 API，直接对标 Suno。",
+      "title": "国产音乐模型正面挑战 Suno",
+      "finding": "一款国产 AI 音乐模型宣称根治了 AI 音乐的通病，并开始正面挑战行业标杆 Suno，其 API 限时免费开放。",
       "key_data": [
-        "国产音乐模型",
-        "API 免费",
-        "对标 Suno"
+        "挑战Suno",
+        "API限时免费",
+        "根治AI音乐通病"
       ],
-      "judgment": "AI 音乐赛道竞争加剧，国产模型的免费策略可能加速市场渗透，但技术差距仍需验证。",
+      "judgment": "AI 音乐赛道迎来强力挑战者，免费开放 API 是快速获取用户和打磨产品的有效策略。",
       "confidence": 3,
       "url": "https://www.qbitai.com/2026/08/473866.html",
       "importance": 2
     },
     {
-      "source": "Wired",
-      "title": "亚马逊用 Twitch 内容训练 AI，用户可选择退出",
-      "finding": "Twitch 宣布用户内容可能被用于训练亚马逊的 AI 模型，用户可以选择退出，但此举引发大量用户质疑。",
+      "source": "极客公园",
+      "title": "WorkBuddy 想解决 AI 生成之后的“工作台”问题",
+      "finding": "随着 AI 批量生成 HTML，个人 AI 工作台搭建热潮兴起。WorkBuddy 定位解决“生成之后”的管理和使用问题，成为新的热门工具。",
       "key_data": [
-        "Twitch 数据训练",
-        "默认参与",
-        "用户质疑"
+        "个人AI工作台",
+        "解决生成后问题",
+        "WorkBuddy"
       ],
-      "judgment": "数据使用的透明度问题再次成为焦点，平台需在 AI 训练与用户权益间找到平衡，否则可能面临信任危机。",
-      "confidence": 4,
-      "url": "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
+      "judgment": "这反映了 AI 应用的新趋势：从“生成内容”转向“管理内容”。解决生成物的组织和复用问题，是下一个产品机会。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/368851",
       "importance": 2
     },
     {
-      "source": "TechCrunch",
-      "title": "Anthropic 公布 Claude 新水印技术细节",
-      "finding": "Anthropic 详细说明了 Claude 生成内容的水印机制，包括如何嵌入、是否可被编辑隐藏，以及对代码的影响。",
+      "source": "Wired",
+      "title": "亚马逊可使用你的 Twitch 内容训练 AI，除非你选择退出",
+      "finding": "Twitch 宣布其内容将被用于训练亚马逊的 AI 模型，用户需要主动选择退出。此举引发大量主播和用户不满。",
       "key_data": [
-        "水印机制",
-        "可编辑性",
-        "代码影响"
+        "Twitch数据训练AI",
+        "默认同意",
+        "用户强烈不满"
       ],
-      "judgment": "水印技术是 AI 内容溯源的关键，Anthropic 的透明化有助于建立行业标准，但水印的鲁棒性仍是挑战。",
+      "judgment": "这是 AI 数据版权问题的又一典型案例。默认同意、选择退出的模式，正在成为 AI 公司的标准操作，但会持续引发公众信任危机。",
       "confidence": 4,
-      "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
-      "importance": 2
+      "url": "https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out/",
+      "importance": 3
     },
     {
       "source": "InfoQ",
-      "title": "面向多模态推理的高效长上下文建模｜AICon 深圳",
-      "finding": "AICon 深圳大会将探讨多模态推理中的长上下文建模技术，聚焦效率优化。",
+      "title": "Cloudflare Computer 发布：让 AI 智能体拥有持久化运行环境",
+      "finding": "Cloudflare 发布新产品 Cloudflare Computer，为 AI 智能体提供持久化的云端运行环境。",
       "key_data": [
-        "多模态推理",
-        "长上下文",
-        "AICon"
+        "持久化运行环境",
+        "AI智能体新基建",
+        "Cloudflare发布"
       ],
-      "judgment": "长上下文是多模态应用的关键，会议内容可能反映技术前沿，但具体成果需关注后续报道。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/OgbViICigja8tasE0lwi?utm_source=rss&utm_medium=article",
-      "importance": 1
+      "judgment": "这是 AI 基础设施领域的重要一步。持久化环境是 Agent 从“问答工具”走向“数字员工”的关键。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/RaKIH7E4lA9uQ4Iasltb?utm_source=rss&utm_medium=article",
+      "importance": 4
     }
   ],
   "opinions": [
     {
       "person": "Simon Willison",
       "level": "L1",
-      "quote": "我用 GPT-5.6-Sol 构建了 CORS Chat 工具，用于测试 Qwen 3.8 27B 在本地运行时的跨域请求，这展示了 AI 辅助开发的效率。",
+      "quote": "我用 GPT-5.6-Sol 构建了 CORS Chat 工具，用于测试在本地运行的 Qwen 3.8 27B 模型。本地模型的可用性正在快速提升。",
       "source": "https://simonwillison.net/2026/Aug/15/cors-chat/"
-    },
-    {
-      "person": "Swyx",
-      "level": "L2",
-      "quote": "Flue 2 从 React 中汲取灵感，为 Agent 引入 hooks 概念，说明 Agent 的形态正在被其 harness 定义。",
-      "source": "https://www.latent.space/p/flue-2"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "SpaceX 收购 Cursor 的战略意图与影响",
-      "reason": "AI 编程工具被航天巨头收购，可能预示垂直行业整合趋势，值得深入分析其技术协同与市场影响。",
+      "topic": "开源模型 Agent 能力反超闭源模型的技术路径",
+      "reason": "Qwen3.8-27B 在消费级硬件上反超 Claude，可能改变行业竞争格局，值得深入分析其技术细节。",
       "priority": "high"
     },
     {
-      "topic": "腾讯 AI 投入的回报路径",
-      "reason": "巨额投入与增速放缓的矛盾，微信 AI 化转型的成效将影响中国互联网 AI 战略走向。",
+      "topic": "AI Agent 持久化运行环境的技术架构与影响",
+      "reason": "Cloudflare Computer 等产品标志着 Agent 基础设施的升级，理解其架构对开发者至关重要。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI 数据版权与用户同意模式的博弈",
+      "reason": "Twitch 事件再次凸显 AI 训练数据的伦理与法律困境，是影响行业长期发展的关键问题。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "AI 行业整合加速，开源模型崛起，安全与商业化博弈加剧。",
-  "summary_paragraph": "今日 AI 行业动态密集：SpaceX 正式收购 Cursor，标志着 AI 编程工具向垂直领域深度整合；腾讯单季 AI 投入 105 亿，但增长承压，微信 AI 化成为焦点；Anthropic 因风险上调暂缓发布强模型，同时公开水印技术细节，安全与商业化矛盾凸显。开源阵营方面，Qwen3.8-27B 以消费级显卡跑出顶级 Agent 性能，DeepSeek 插件生态爆发，显示开源模型正快速逼近闭源。Cloudflare 推出持久化运行环境，为 Agent 落地提供基础设施。整体来看，行业正从模型竞赛转向应用与生态竞争，安全与成本成为关键变量。",
+  "summary_one_line": "Cursor 被收购，开源模型反超，AI 进入新阶段。",
+  "summary_paragraph": "今日 AI 行业风起云涌。SpaceX 正式完成对 Cursor 的收购，标志着 AI 编程工具成为巨头战略资产，行业格局生变。与此同时，阿里 Qwen3.8-27B 模型在消费级显卡上实现 Agent 能力对闭源模型的反超，开源生态的竞争力再次得到验证。在巨头层面，腾讯单季烧掉 105 亿押注 AI，而 Anthropic 则因风险上升选择暂缓发布强模型，展现出两种截然不同的战略路径。此外，Cloudflare 发布持久化运行环境，为 AI Agent 从工具走向数字员工铺路。今日动态显示，AI 行业正从模型竞赛转向 Agent 应用与基础设施的深层竞争。",
   "snapshot": {
     "date": "2026-08-16",
     "hf_trending": [
       {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 9817,
+        "likes": 9836,
         "downloads": 91917,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -266,7 +251,7 @@
       {
         "name": "meta-models/Muse-Glimmer-30B",
         "short_name": "Muse-Glimmer-30B",
-        "likes": 1581,
+        "likes": 1585,
         "downloads": 246454,
         "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
         "tags": [
@@ -282,7 +267,7 @@
       {
         "name": "unsloth/Qwen3.8-27B-GGUF",
         "short_name": "Qwen3.8-27B-GGUF",
-        "likes": 1244,
+        "likes": 1249,
         "downloads": 867963,
         "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
         "tags": [
@@ -314,7 +299,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 949,
+        "likes": 951,
         "downloads": 378439,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -330,7 +315,7 @@
       {
         "name": "MiniMaxAI/MiniMax-Music3",
         "short_name": "MiniMax-Music3",
-        "likes": 772,
+        "likes": 774,
         "downloads": 5079,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
         "tags": [
@@ -346,7 +331,7 @@
       {
         "name": "MiniMaxAI/MiniMax-H3",
         "short_name": "MiniMax-H3",
-        "likes": 3978,
+        "likes": 3981,
         "downloads": 2212155,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
         "tags": [
@@ -362,7 +347,7 @@
       {
         "name": "deepseek-ai/DeepSeek-V4-Pro-0813",
         "short_name": "DeepSeek-V4-Pro-0813",
-        "likes": 496,
+        "likes": 497,
         "downloads": 19945,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
         "tags": [
@@ -380,25 +365,25 @@
       {
         "name": "cordiverse/cordis",
         "desc": "Meta-Framework of Spatiotemporal Composability",
-        "stars": 4091,
+        "stars": 4132,
         "stars_today": 599,
-        "forks": 202,
+        "forks": 204,
         "language": "TypeScript",
         "url": "https://github.com/cordiverse/cordis"
       },
       {
         "name": "cathrynlavery/diagram-design",
         "desc": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
-        "stars": 18665,
+        "stars": 18716,
         "stars_today": 1607,
-        "forks": 1126,
+        "forks": 1131,
         "language": "HTML",
         "url": "https://github.com/cathrynlavery/diagram-design"
       },
       {
         "name": "cursor/plugins",
         "desc": "Cursor plugin specification and official plugins",
-        "stars": 2955,
+        "stars": 2961,
         "stars_today": 149,
         "forks": 234,
         "language": "TypeScript",
@@ -407,18 +392,18 @@
       {
         "name": "cactus-compute/needle",
         "desc": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
-        "stars": 6082,
+        "stars": 6099,
         "stars_today": 547,
-        "forks": 406,
+        "forks": 407,
         "language": "Python",
         "url": "https://github.com/cactus-compute/needle"
       },
       {
         "name": "unslothai/unsloth",
         "desc": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4",
-        "stars": 72067,
+        "stars": 72094,
         "stars_today": 434,
-        "forks": 6495,
+        "forks": 6497,
         "language": "Python",
         "url": "https://github.com/unslothai/unsloth"
       }
@@ -429,7 +414,7 @@
         "slug": "deepseek/deepseek-v4-flash",
         "name": "DeepSeek V4 Flash 0423",
         "org": "deepseek",
-        "total_tokens": 1988581130468,
+        "total_tokens": 1988581672463,
         "total_tokens_str": "2.0T",
         "api_calls": 0,
         "change": -12.2,
@@ -535,6 +520,6 @@
         "url": "https://openrouter.ai/minimax/minimax-m3"
       }
     ],
-    "hf_summary": "多模态霸榜，推理模型热度下降"
+    "hf_summary": "多模态霸榜，推理模型升温，开源生态加速。"
   }
 }
