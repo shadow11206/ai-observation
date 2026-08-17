@@ -3,128 +3,128 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Stripe 将以 70 亿美元收购 AI 网关初创公司 OpenRouter",
-      "finding": "支付巨头 Stripe 据报道将以超过 70 亿美元收购 AI 模型网关 OpenRouter。OpenRouter 提供统一的 API 接口，让开发者可以访问多种 AI 模型，其 CEO 曾将公司定位为“AI 领域的 Stripe”。",
+      "title": "Stripe 将以 70 亿美元收购 AI 网关 OpenRouter",
+      "finding": "支付巨头 Stripe 据报道将以超过 70 亿美元收购 AI 模型网关 OpenRouter。OpenRouter 提供统一的 API 接口，让开发者可以访问多个 AI 模型，其 CEO 曾称自己是“AI 领域的 Stripe”。这笔交易若完成，将把 AI 模型分发与支付基础设施深度绑定。",
       "key_data": [
         "70亿美元",
         "AI网关",
-        "统一API"
+        "Stripe收购"
       ],
-      "judgment": "这笔收购若完成，将重塑 AI 基础设施格局。Stripe 将获得 AI 流量入口，可能推动 AI 服务的商业化支付闭环，对开发者意味着更便捷的模型调用和计费方案，但也可能引发对市场垄断的担忧。",
+      "judgment": "这是 AI 基础设施领域的重要整合信号。Stripe 收购 OpenRouter 意味着支付巨头看好 AI 模型分发的商业化潜力，未来开发者可能通过 Stripe 直接调用模型并结算，这会改变 AI 应用的支付和分发方式，对开发者生态影响深远。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
     },
     {
       "rank": 2,
-      "title": "Anthropic CEO 罕见发长文回应 AI 信任危机，预告 AI 将治愈多数疾病",
-      "finding": "在 IPO 估值达 2 万亿美元的背景下，Anthropic CEO Dario Amodei 罕见发表长文，回应公众对 AI 的负面看法，认为这是“信任危机”，并预告未来 5-10 年 AI 将治愈多数疾病。",
+      "title": "Anthropic CEO 回应 AI 信任危机，IPO 估值或达 2 万亿美元",
+      "finding": "Anthropic CEO Dario Amodei 罕见发表长文，回应公众对 AI 的负面看法，称这是“信任危机”而非单纯的风险警告。同时，Anthropic 的 IPO 估值被推至 2 万亿美元，其营收暴涨 1400%，最新季度入账 115 亿美元。",
       "key_data": [
-        "IPO估值2万亿美元",
-        "信任危机",
-        "治愈疾病"
+        "2万亿美元估值",
+        "营收增长1400%",
+        "115亿美元季度营收"
       ],
-      "judgment": "Dario 的回应表明 AI 巨头开始正视公众信任问题，这对行业至关重要。若 AI 公司不能有效沟通风险与收益，可能引发更严格的监管，影响技术落地速度。对从业者而言，这提醒我们在追求技术突破的同时，必须重视公众沟通和伦理建设。",
+      "judgment": "Anthropic 的 IPO 估值和营收数据表明 AI 商业化进入爆发期，但 CEO 公开回应信任问题也凸显行业面临的公众信任挑战。对从业者而言，这提醒我们 AI 产品的成功不仅靠技术，还要解决用户信任和伦理问题。",
       "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/"
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/08/473947.html"
     },
     {
       "rank": 3,
-      "title": "通义千问发布 Qwen 3.8 27B 模型，能力出色但默认过度思考",
-      "finding": "阿里通义实验室发布 Apache 2 许可的 27B 参数视觉语言模型 Qwen 3.8 27B。Simon Willison 评测认为该模型表现出色，但默认情况下会“过度思考”，影响效率。",
+      "title": "阿里发布 Qwen 3.8 27B 模型，Simon Willison 评测：优秀但过度思考",
+      "finding": "阿里 Qwen 实验室发布了 Apache 2.0 许可的 27B 参数视觉语言模型 Qwen 3.8 27B。知名开发者 Simon Willison 评测后认为该模型性能出色，适合本地运行，但默认会“过度思考”，即生成过多推理步骤，影响效率。",
       "key_data": [
         "27B参数",
-        "Apache 2",
-        "视觉语言"
+        "Apache 2.0",
+        "视觉语言模型"
       ],
-      "judgment": "Qwen 3.8 27B 的发布进一步丰富了开源模型生态，27B 是本地部署的理想尺寸。但“过度思考”问题提示模型在推理效率和实用性上仍有优化空间，开发者需要关注如何控制模型的思考深度以提升响应速度。",
-      "confidence": 4,
+      "judgment": "Qwen 3.8 27B 的开源策略和性能表现，进一步巩固了阿里在开源模型领域的地位。对于开发者来说，这是一个可在本地部署的优质模型选择，但“过度思考”问题提示我们在实际应用中需要调整推理参数，平衡质量与效率。",
+      "confidence": 5,
       "source": "Simon Willison",
       "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/"
     },
     {
       "rank": 4,
-      "title": "GLM-5.3 编程能力提升 50%，满分通过 GPT-5.6 的 Coding 测试",
-      "finding": "智谱 AI 的 GLM-5.3 模型在编程能力上实现 50% 的提升，并在 GPT-5.6 的 Coding 测试中取得满分。这表明国产模型在代码生成领域已达到国际领先水平。",
+      "title": "Netflix 详述基于 Triton 与 vLLM 的内部 LLM 服务平台",
+      "finding": "Netflix 公开了其内部 LLM 服务平台的技术细节，该平台基于 NVIDIA Triton 和 vLLM 构建，用于支持内部各种 AI 应用。这展示了大型科技公司如何自建 AI 基础设施，以应对业务需求。",
       "key_data": [
-        "编程能力+50%",
-        "满分通过",
-        "GPT-5.6测试"
+        "Triton",
+        "vLLM",
+        "内部平台"
       ],
-      "judgment": "GLM-5.3 的突破标志着中国 AI 模型在代码生成领域已具备与国际顶尖模型竞争的实力，对开发者意味着更多选择，可能加速 AI 编程工具的普及，同时也对 OpenAI 等形成压力。",
-      "confidence": 3,
+      "judgment": "Netflix 的案例表明，大型企业正在从使用外部 API 转向自建 LLM 服务平台，以降低成本并提高控制力。这对 AI 基础设施提供商（如 vLLM、Triton）是利好，也预示着企业级 AI 部署将更加定制化。",
+      "confidence": 4,
       "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/xWyWwu4ZNptlhpb15tia"
+      "url": "https://www.infoq.cn/article/J9Zi9LELcpxFRe23PHdY"
     },
     {
       "rank": 5,
-      "title": "MCP 走向无状态，开发者质疑：这不就又变回 API 了吗？",
-      "finding": "Model Context Protocol (MCP) 正在向无状态方向演进，引发开发者讨论：无状态化是否会让 MCP 失去其连接 AI 与工具的核心价值，变得与传统 API 无异。",
+      "title": "甲骨文企业 AI 战略曝光：Agent 进数据库、GPU 跑满、多云砍掉流量费",
+      "finding": "甲骨文公布了其企业 AI 战略，包括将 AI Agent 集成到数据库中、充分利用 GPU 资源，以及取消多云环境下的流量费用。这标志着传统企业软件巨头正全面拥抱 AI，以增强其云服务的竞争力。",
       "key_data": [
-        "MCP",
-        "无状态",
-        "API化"
+        "Agent进数据库",
+        "GPU跑满",
+        "取消流量费"
       ],
-      "judgment": "MCP 的无状态化可能简化实现，但也可能削弱其在 AI Agent 生态中的独特地位。开发者需要权衡状态管理与生态价值，这一讨论反映了 AI 工具链在标准化过程中的阵痛。",
-      "confidence": 3,
+      "judgment": "甲骨文的战略表明，企业 AI 正在从独立应用走向深度集成，数据库与 AI 的结合将提升企业数据智能水平。对开发者而言，这意味着未来企业应用将更智能，但也要关注数据安全和成本问题。",
+      "confidence": 4,
       "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/412hbBva0NF0AYP0CjzD"
+      "url": "https://www.infoq.cn/article/7wuQJXJqFVR3rZb8Usyg"
     }
   ],
   "model_tech": [
     {
-      "source": "Reddit",
-      "title": "线性注意力如何解决长距离召回问题？",
-      "finding": "研究者探讨线性注意力机制在长序列（如 DNA 序列）中的长距离召回难题，标准 softmax 注意力在 1M token 长度下计算量过大。",
+      "source": "Reddit r/MachineLearning",
+      "title": "线性注意力中的长程记忆问题探讨",
+      "finding": "Reddit 上有人提出在 DNA 序列建模中，线性注意力难以解决长程记忆问题，因为 DNA 序列可长达 100 万 token，标准 softmax 注意力计算量过大。",
       "key_data": [
-        "线性注意力",
-        "长序列",
-        "1M token"
+        "DNA序列",
+        "1M token",
+        "线性注意力"
       ],
-      "judgment": "线性注意力是处理超长序列的关键方向，若解决召回问题，将推动基因组学、长文档处理等应用。",
+      "judgment": "长序列建模是 AI 的重要方向，线性注意力的局限可能催生新的架构创新，对基因组学等长序列应用有潜在影响。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1vpqwdc/how_can_we_solve_longrange_recall_in_linear/",
       "importance": 3
     },
     {
-      "source": "Reddit",
-      "title": "SSOG-Attention：可分离高斯和作为 SDPA 的亚二次替代方案",
-      "finding": "新研究提出 SSOG-Attention，用可分离高斯和替代标准点积注意力，将复杂度从 O(N²·d) 降至亚二次，有望提升长序列处理效率。",
+      "source": "Reddit r/MachineLearning",
+      "title": "SSOG-Attention：可分离高斯和作为 SDPA 的次二次替代方案",
+      "finding": "研究者提出 SSOG-Attention，用可分离高斯和替代标准缩放点积注意力，将复杂度从 O(N²·d) 降低到次二次，有望提升长序列处理效率。",
       "key_data": [
-        "亚二次复杂度",
+        "次二次复杂度",
         "可分离高斯",
         "替代SDPA"
       ],
-      "judgment": "该研究为高效注意力机制提供了新思路，可能影响未来模型架构设计，值得关注。",
+      "judgment": "注意力机制的效率优化是当前研究热点，SSOG 若有效，可能推动长上下文模型的发展，值得关注其后续验证。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1vpt6ay/ssogattention_sum_of_separable_gaussians_as_a/",
       "importance": 2
     },
     {
-      "source": "Reddit",
+      "source": "Reddit r/MachineLearning",
       "title": "重新审视高效通道注意力论文：中心假设并不完全正确",
-      "finding": "研究者对 2019 年 ECA 论文（12k 引用）进行复现，发现其核心假设存在偏差，引发对注意力机制设计原则的反思。",
+      "finding": "有研究者重新审视 2019 年的 ECA 论文，发现其中心假设可能不完全正确，引发对注意力机制设计原理的讨论。",
       "key_data": [
-        "ECA",
-        "12k引用",
-        "假设偏差"
+        "ECA论文",
+        "中心假设",
+        "注意力机制"
       ],
-      "judgment": "对经典论文的质疑有助于推动领域进步，提醒研究者需谨慎对待已有结论。",
+      "judgment": "对经典论文的重新审视有助于推动理论完善，但短期内对实际应用影响有限。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1vptaw9/revisiting_the_efficient_channel_attention_paper/",
       "importance": 2
     },
     {
-      "source": "Reddit",
+      "source": "Reddit r/MachineLearning",
       "title": "SineKAN：使用正弦激活函数的 Kolmogorov-Arnold 网络",
-      "finding": "研究者探索用正弦函数替代 B 样条作为 KAN 的激活函数，发现已有类似工作，但该方向可能带来新的性能特性。",
+      "finding": "研究者探索使用正弦函数替代 B 样条作为 KAN 的激活函数，发现已有类似工作，但仍有改进空间。",
       "key_data": [
         "正弦激活",
         "KAN",
         "替代B样条"
       ],
-      "judgment": "KAN 的激活函数设计仍在探索期，正弦函数可能提供不同归纳偏置，但需更多实验验证。",
+      "judgment": "KAN 是新兴的神经网络架构，激活函数的探索可能带来性能提升，但尚处于早期阶段。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1vqdode/r_sinekan_kolmogorovarnold_networks_using/",
       "importance": 2
@@ -132,73 +132,59 @@
   ],
   "company_product": [
     {
-      "source": "量子位",
-      "title": "A社营收暴涨1400%，最新季度入账115亿美元，将成史上最高估值IPO",
-      "finding": "某 AI 公司（推测为 Anthropic）营收同比增长 1400%，季度收入达 115 亿美元，IPO 估值将超越 SpaceX，成为史上最高。",
+      "source": "InfoQ",
+      "title": "Dropbox 集成 MCP 与 Dash，将安全设计与代码审查连接起来",
+      "finding": "Dropbox 将其安全设计流程与代码审查工具 Dash 集成，并支持 MCP（模型上下文协议），以提升开发安全性和效率。",
       "key_data": [
-        "营收+1400%",
-        "115亿美元",
-        "史上最高IPO"
+        "MCP",
+        "Dash",
+        "安全设计"
       ],
-      "judgment": "AI 公司的商业化速度惊人，高估值 IPO 将吸引更多资本涌入，但也可能加剧泡沫风险。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/08/473947.html",
-      "importance": 4
+      "judgment": "Dropbox 的做法展示了企业如何将 AI 与安全流程结合，MCP 的采用可能成为企业 AI 集成的标准。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/JEaC9PfmAENVHbijfm05",
+      "importance": 2
     },
     {
-      "source": "量子位",
-      "title": "WorkSwarm：引领办公智能体新范式，让 AI 从助手进化为团队",
-      "finding": "WorkSwarm 提出办公智能体新范式，通过四项关键能力让 AI 从单个助手进化为一支协作团队，提升办公效率。",
+      "source": "InfoQ",
+      "title": "盘古训练与推理通信优化实践：亲和昇腾平台的性能探索",
+      "finding": "华为盘古大模型团队分享了在昇腾平台上进行训练和推理通信优化的实践，展示了国产算力平台的性能潜力。",
       "key_data": [
-        "办公智能体",
-        "团队协作",
-        "四项能力"
+        "盘古",
+        "昇腾",
+        "通信优化"
       ],
-      "judgment": "多智能体协作是 AI 应用的重要趋势，WorkSwarm 的范式可能推动办公软件智能化升级。",
-      "confidence": 2,
-      "url": "https://www.qbitai.com/2026/08/473972.html",
+      "judgment": "国产 AI 算力平台的优化实践有助于减少对国外硬件的依赖，对国内 AI 生态有积极意义。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/jOPScUAQrlfpNwDAhaOL",
       "importance": 2
     },
     {
       "source": "极客公园",
       "title": "DeepSeek 涨价策略今日实行",
-      "finding": "DeepSeek 宣布的涨价策略于今日开始执行，可能影响其 API 用户成本。",
+      "finding": "DeepSeek 宣布的涨价策略于今日开始实行，具体调整幅度未在摘要中说明，但可能影响其 API 用户。",
       "key_data": [
         "涨价",
         "API",
-        "成本影响"
+        "DeepSeek"
       ],
-      "judgment": "DeepSeek 涨价反映其商业化需求，开发者需评估成本变化，可能促使部分用户转向其他模型。",
+      "judgment": "DeepSeek 涨价可能反映其成本压力或市场定位调整，对依赖其 API 的开发者有直接影响，需关注后续价格细节。",
       "confidence": 3,
       "url": "http://www.geekpark.net/news/368859",
-      "importance": 3
-    },
-    {
-      "source": "InfoQ",
-      "title": "Spotify 用 RAP 打通分析与在线服务，实现一份数据多种用途",
-      "finding": "Spotify 采用 RAP 架构，将数据分析与在线服务统一，实现数据复用，提升效率。",
-      "key_data": [
-        "RAP",
-        "数据复用",
-        "在线服务"
-      ],
-      "judgment": "数据架构创新对大型互联网公司有借鉴意义，RAP 模式可能成为数据工程新趋势。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/iRjDa2ayZ9KLUtWylQZl",
       "importance": 2
     },
     {
-      "source": "InfoQ",
-      "title": "AI Coding 在金融科技 SDLC 中的落地实践",
-      "finding": "AICon 深圳分享 AI Coding 在金融科技软件开发生命周期中的应用，从代码生成到研发闭环。",
+      "source": "量子位",
+      "title": "WorkSwarm：引领办公智能体新范式，让 AI 从助手进化为团队",
+      "finding": "WorkSwarm 推出办公智能体新范式，通过四项关键能力让 AI 从一个助手进化为一支团队，可能改变办公自动化方式。",
       "key_data": [
-        "AI Coding",
-        "金融科技",
-        "SDLC"
+        "办公智能体",
+        "团队协作",
+        "新范式"
       ],
-      "judgment": "金融行业对 AI 编程的采纳表明其成熟度提升，但合规和安全仍是关键挑战。",
+      "judgment": "办公智能体的团队化趋势值得关注，但需验证其实际效果和用户接受度。",
       "confidence": 3,
-      "url": "https://www.infoq.cn/article/LflwIiIVHRZlakxDgexC",
+      "url": "https://www.qbitai.com/2026/08/473972.html",
       "importance": 2
     }
   ],
@@ -206,7 +192,7 @@
     {
       "person": "Dario Amodei",
       "level": "L3",
-      "quote": "公众对 AI 的负面看法是‘信任危机’，但并非主要由 AI 领袖的风险警告导致。AI 将在未来 5-10 年治愈多数疾病。",
+      "quote": "公众对 AI 的负面看法是‘信任危机’，并非主要由 AI 领袖的风险警告导致。",
       "source": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/"
     },
     {
@@ -218,31 +204,31 @@
     {
       "person": "Simon Willison",
       "level": "L2",
-      "quote": "Qwen 3.8 27B 表现出色，但默认过度思考，影响效率。",
+      "quote": "Qwen 3.8 27B 很优秀，但默认会过度思考，需要调整推理参数。",
       "source": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI 公司 IPO 估值泡沫与商业化可持续性",
-      "reason": "Anthropic 等公司高估值 IPO 引发市场关注，需分析其营收增长背后的真实需求和可持续性。",
+      "topic": "OpenRouter 被 Stripe 收购对 AI 开发者生态的影响",
+      "reason": "支付与模型分发结合可能重塑 AI 应用商业模式，值得深入研究。",
       "priority": "high"
     },
     {
-      "topic": "MCP 无状态化对 AI Agent 生态的影响",
-      "reason": "MCP 是连接 AI 与工具的关键协议，其演进方向将影响开发者生态，值得深入研究。",
+      "topic": "Anthropic IPO 估值 2 万亿美元背后的 AI 商业化逻辑",
+      "reason": "营收暴涨 1400% 和 IPO 估值反映了 AI 行业的资本热度，值得分析其可持续性。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "AI 商业化加速，开源模型竞争白热化",
-  "summary_paragraph": "今日 AI 行业动态密集：Stripe 拟 70 亿美元收购 OpenRouter，显示 AI 基础设施整合加速；Anthropic CEO 罕见回应信任危机，预示 IPO 前公关策略调整；通义千问发布 Qwen 3.8 27B 开源模型，GLM-5.3 编程能力大幅提升，国产模型竞争力增强。同时，MCP 无状态化引发开发者讨论，AI 应用范式正在演进。整体来看，AI 行业正从技术突破转向商业化落地，开源与闭源竞争加剧，信任与效率成为关键词。",
+  "summary_one_line": "AI 商业化加速，基础设施整合与信任危机并存",
+  "summary_paragraph": "今日 AI 行业动态显示，商业化与基础设施整合成为主旋律。Stripe 拟 70 亿美元收购 OpenRouter，预示着 AI 模型分发与支付深度绑定；Anthropic 营收暴涨 1400%，IPO 估值或达 2 万亿美元，但 CEO 公开回应信任危机，凸显行业挑战。阿里发布开源模型 Qwen 3.8 27B，性能优秀但需优化推理效率。Netflix 和甲骨文分别展示了自建 LLM 平台和企业 AI 战略，表明大型企业正加速 AI 基础设施自研。整体来看，AI 行业正从技术突破转向商业落地，但信任与效率问题仍需解决。",
   "snapshot": {
     "date": "2026-08-17",
     "hf_trending": [
       {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 10309,
+        "likes": 10337,
         "downloads": 267725,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -258,7 +244,7 @@
       {
         "name": "meta-models/Muse-Glimmer-30B",
         "short_name": "Muse-Glimmer-30B",
-        "likes": 1634,
+        "likes": 1635,
         "downloads": 292973,
         "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
         "tags": [
@@ -274,7 +260,7 @@
       {
         "name": "unsloth/Qwen3.8-27B-GGUF",
         "short_name": "Qwen3.8-27B-GGUF",
-        "likes": 1468,
+        "likes": 1478,
         "downloads": 1945635,
         "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
         "tags": [
@@ -290,7 +276,7 @@
       {
         "name": "Qwen/Qwen3.8-2.4T-A95B",
         "short_name": "Qwen3.8-2.4T-A95B",
-        "likes": 1012,
+        "likes": 1013,
         "downloads": 7932,
         "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
         "tags": [
@@ -306,7 +292,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 1030,
+        "likes": 1033,
         "downloads": 424099,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -322,7 +308,7 @@
       {
         "name": "MiniMaxAI/MiniMax-Music3",
         "short_name": "MiniMax-Music3",
-        "likes": 846,
+        "likes": 852,
         "downloads": 8639,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
         "tags": [
@@ -338,7 +324,7 @@
       {
         "name": "MiniMaxAI/MiniMax-H3",
         "short_name": "MiniMax-H3",
-        "likes": 4031,
+        "likes": 4034,
         "downloads": 2307541,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
         "tags": [
@@ -354,7 +340,7 @@
       {
         "name": "deepseek-ai/DeepSeek-V4-Pro-0813",
         "short_name": "DeepSeek-V4-Pro-0813",
-        "likes": 537,
+        "likes": 542,
         "downloads": 21873,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
         "tags": [
@@ -372,45 +358,45 @@
       {
         "name": "cordiverse/cordis",
         "desc": "Meta-Framework of Spatiotemporal Composability",
-        "stars": 4820,
+        "stars": 4941,
         "stars_today": 720,
-        "forks": 262,
+        "forks": 270,
         "language": "TypeScript",
         "url": "https://github.com/cordiverse/cordis"
       },
       {
         "name": "basecamp/omarchy",
         "desc": "Beautiful, Modern &amp; Opinionated Linux",
-        "stars": 25433,
+        "stars": 25487,
         "stars_today": 270,
-        "forks": 2596,
+        "forks": 2598,
         "language": "Shell",
         "url": "https://github.com/basecamp/omarchy"
       },
       {
         "name": "unslothai/unsloth",
         "desc": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4",
-        "stars": 72637,
+        "stars": 72698,
         "stars_today": 572,
-        "forks": 6551,
+        "forks": 6553,
         "language": "Python",
         "url": "https://github.com/unslothai/unsloth"
       },
       {
         "name": "OpenCut-app/OpenCut",
         "desc": "The open-source CapCut alternative",
-        "stars": 83936,
+        "stars": 83997,
         "stars_today": 150,
-        "forks": 8290,
+        "forks": 8296,
         "language": "TypeScript",
         "url": "https://github.com/OpenCut-app/OpenCut"
       },
       {
         "name": "public-apis/public-apis",
         "desc": "A collective list of free APIs",
-        "stars": 461864,
+        "stars": 461975,
         "stars_today": 1588,
-        "forks": 51018,
+        "forks": 51027,
         "language": "Python",
         "url": "https://github.com/public-apis/public-apis"
       }
@@ -421,7 +407,7 @@
         "slug": "deepseek/deepseek-v4-flash",
         "name": "DeepSeek V4 Flash 0423",
         "org": "deepseek",
-        "total_tokens": 2168808098683,
+        "total_tokens": 2168809797066,
         "total_tokens_str": "2.2T",
         "api_calls": 0,
         "change": 9.1,
@@ -527,6 +513,6 @@
         "url": "https://openrouter.ai/poolside/laguna-s-2.1:free"
       }
     ],
-    "hf_summary": "多模态与视频音频生成类模型霸榜"
+    "hf_summary": "多模态与视频音频创作成主流，文本生成热度下降"
   }
 }
