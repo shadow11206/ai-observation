@@ -1,6 +1,13 @@
 {
-  "total": 142,
+  "total": 143,
   "reports": [
+    {
+      "date": "2026-08-17",
+      "title": "今日 AI 日报：Stripe 将以 70 亿美元收购 AI 网关初创公司 OpenRouter + 4 条重要动态",
+      "excerpt": "这笔收购若完成，将重塑 AI 基础设施格局。Stripe 将获得 AI 流量入口…",
+      "top_count": 5,
+      "file": "2026-08-17.json"
+    },
     {
       "date": "2026-08-16",
       "title": "今日 AI 日报：SpaceX 正式完成对 Cursor 的收购 + 4 条重要动态",
