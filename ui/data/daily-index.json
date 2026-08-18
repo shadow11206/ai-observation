@@ -1,6 +1,13 @@
 {
-  "total": 143,
+  "total": 144,
   "reports": [
+    {
+      "date": "2026-08-18",
+      "title": "今日 AI 日报：Anthropic 年化收入飙升至 650 亿美元，两个月新增 180 亿 + 4 条重要动态",
+      "excerpt": "Anthropic 的营收增速远超预期，表明企业级 AI 需求仍在高速膨胀，Cl…",
+      "top_count": 5,
+      "file": "2026-08-18.json"
+    },
     {
       "date": "2026-08-17",
       "title": "今日 AI 日报：Stripe 将以 70 亿美元收购 AI 网关 OpenRouter + 4 条重要动态",
