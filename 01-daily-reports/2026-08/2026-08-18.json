@@ -4,13 +4,13 @@
     {
       "rank": 1,
       "title": "Anthropic 年化收入飙升至 650 亿美元，两个月新增 180 亿",
-      "finding": "Anthropic 的年化收入在两个月内从 470 亿美元跃升至 650 亿美元，增长迅猛，主要得益于 Claude 系列模型在企业市场的广泛应用和 API 需求的爆发。",
+      "finding": "Anthropic 的年化收入在两个月内从约 470 亿美元增长到 650 亿美元，新增 180 亿美元，显示出其 Claude 系列模型和商业化的强劲势头。这一增速远超行业平均水平，表明企业级 AI 需求正在爆发。",
       "key_data": [
         "年化收入650亿美元",
         "两个月新增180亿",
-        "企业市场主导"
+        "企业AI需求爆发"
       ],
-      "judgment": "Anthropic 的营收增速远超预期，表明企业级 AI 需求仍在高速膨胀，Claude 已成为 OpenAI 最强有力的竞争对手，AI 商业化进入加速期。",
+      "judgment": "Anthropic 的增速证明企业级 AI 市场正在快速扩张，Claude 已成为 OpenAI 最强有力的竞争对手。对开发者而言，选择模型供应商时需关注其商业化稳定性，Anthropic 的崛起可能改变 API 定价和生态格局。",
       "confidence": 5,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/"
@@ -18,13 +18,13 @@
     {
       "rank": 2,
       "title": "Stripe 以 70 亿美元收购 OpenRouter，AI 基础设施整合加速",
-      "finding": "支付巨头 Stripe 以 70 亿美元收购 AI 模型路由平台 OpenRouter，旨在将 AI 模型调用与支付基础设施深度整合，为开发者提供更便捷的模型访问和计费方案。",
+      "finding": "支付巨头 Stripe 宣布以 70 亿美元收购 AI 模型路由平台 OpenRouter。OpenRouter 是开发者访问多种 LLM 的统一入口，此次收购将 Stripe 的支付网络与 AI 模型分发结合，可能重塑 AI 服务的商业化路径。",
       "key_data": [
         "收购价70亿美元",
-        "模型路由平台",
-        "支付+AI整合"
+        "统一模型入口",
+        "支付+AI分发结合"
       ],
-      "judgment": "Stripe 收购 OpenRouter 是 AI 基础设施领域的重要整合，意味着支付巨头开始深度介入 AI 生态，开发者获取模型的方式将更加便捷，AI 应用商业化门槛进一步降低。",
+      "judgment": "Stripe 收购 OpenRouter 是 AI 基础设施领域的重要整合，意味着支付巨头开始深度介入 AI 生态。对开发者来说，未来可能通过 Stripe 直接计费和使用模型，降低集成成本，但也可能引发对 OpenRouter 中立性的担忧。",
       "confidence": 4,
       "source": "Latent Space",
       "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for"
@@ -32,113 +32,113 @@
     {
       "rank": 3,
       "title": "NVIDIA 披露 210 亿美元 SpaceX 持股，并投资 15 亿美元于软银数据中心项目",
-      "finding": "NVIDIA 在监管文件中披露持有 SpaceX 210 亿美元股份，同时宣布向软银数据中心开发商投资 15 亿美元，以确保其芯片用于 OpenAI 的数据中心。",
+      "finding": "NVIDIA 在监管文件中披露持有 SpaceX 210 亿美元股份，同时宣布向软银旗下数据中心开发商投资 15 亿美元，以确保其芯片供应 OpenAI 数据中心。这标志着 NVIDIA 从芯片供应商向 AI 基础设施投资者的战略转变。",
       "key_data": [
-        "210亿美元持股",
-        "15亿美元投资",
-        "OpenAI数据中心"
+        "SpaceX持股210亿美元",
+        "软银数据中心投资15亿",
+        "芯片绑定数据中心"
       ],
-      "judgment": "NVIDIA 通过资本绑定巩固其在 AI 基础设施的霸主地位，同时涉足航天领域，显示其业务版图正在从芯片扩展到更广泛的科技生态。",
+      "judgment": "NVIDIA 的投资布局显示其正从单纯卖芯片转向深度绑定 AI 基础设施，确保算力需求。这对云厂商和 AI 公司意味着 GPU 供应将更加集中，可能推高算力成本，也加剧了 NVIDIA 在 AI 生态中的主导地位。",
       "confidence": 4,
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/"
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/"
     },
     {
       "rank": 4,
-      "title": "宇树科技发布「超人」人形机器人，原地跳高 2 米，8 月 19 日科创板上市",
-      "finding": "宇树科技发布新款人形机器人「超人」，具备原地跳高 2 米、极限速度 12.66m/s 的能力，刷新世界纪录，并定于 8 月 19 日在科创板上市。",
+      "title": "世界模型进入“有声时代”：24FPS 画面 + 48kHz 立体声实时生成",
+      "finding": "一项新的世界模型技术实现了 24FPS 视频和 48kHz 立体声音频的实时生成，并即将完全开源。这标志着多模态生成模型在实时性和音频同步上取得重大突破，为沉浸式应用铺平道路。",
       "key_data": [
-        "跳高2米",
-        "速度12.66m/s",
-        "科创板上市"
+        "24FPS实时生成",
+        "48kHz立体声",
+        "即将完全开源"
       ],
-      "judgment": "宇树科技的技术突破和上市标志着中国人形机器人产业进入新阶段，其运动能力已超越人类极限，为具身智能的商业化应用打开了想象空间。",
-      "confidence": 4,
-      "source": "极客公园",
-      "url": "http://www.geekpark.net/news/368929"
+      "judgment": "实时音视频生成是世界模型走向实用的关键一步，开源将加速社区创新。对开发者而言，这意味着未来可低成本构建虚拟环境、游戏和交互式应用，但需关注模型的计算需求和实时性能。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/08/474334.html"
     },
     {
       "rank": 5,
-      "title": "Qwen 3.8 27B 模型评测得分追平 GPT-5.6，开源模型性能再创新高",
-      "finding": "阿里通义千问团队发布 Qwen 3.8 27B 模型，在 Artificial Analysis Intelligence Index 上得分 52，与 GPT-5.6 Luna 持平，仅比 GLM-5.2 和 DeepSeek V4 Pro 低 1 分。",
+      "title": "宇树科技发布“超人”机器人，原地跳高 2 米，8 月 19 日科创板上市",
+      "finding": "宇树科技发布人形机器人新品“超人”，原地跳高 2 米，极限速度 12.66m/s，超越人类纪录。同时，公司将于 8 月 19 日在科创板上市，发行市值约 610 亿元，多家机构给出千亿估值。",
       "key_data": [
-        "得分52",
-        "追平GPT-5.6",
-        "27B参数"
+        "原地跳高2米",
+        "速度12.66m/s",
+        "科创板上市市值610亿"
       ],
-      "judgment": "Qwen 3.8 27B 以较小参数达到顶级模型性能，证明开源模型与闭源差距进一步缩小，开发者将拥有更多高性价比选择，AI 应用成本有望大幅下降。",
+      "judgment": "宇树科技的技术突破和上市标志着中国人形机器人进入商业化加速期。对行业而言，硬件性能的飞跃将推动具身智能应用落地，但高估值也带来泡沫风险，需关注实际商业化能力。",
       "confidence": 4,
-      "source": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/"
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/368929"
     }
   ],
   "model_tech": [
     {
-      "source": "量子位",
-      "title": "世界模型进入「有声时代」：24FPS 画面 + 48kHz 立体声实时生成",
-      "finding": "一项新研究实现了世界模型同时生成 24FPS 视频和 48kHz 立体声音频，即将完全开源，标志着多模态生成进入新阶段。",
+      "source": "Simon Willison",
+      "title": "Qwen 3.8 27B 在智能指数上得分 52，与 GPT-5.6 Luna 持平",
+      "finding": "Qwen 3.8 27B 在 Artificial Analysis 智能指数上获得 52 分，与 GPT-5.6 Luna 相同，仅比 GLM-5.2 和 DeepSeek V4 Pro 低 1 分。这表明小尺寸开源模型正在逼近顶级闭源模型。",
       "key_data": [
-        "24FPS",
-        "48kHz",
-        "实时生成"
+        "得分52",
+        "与GPT-5.6 Luna持平",
+        "27B参数"
       ],
-      "judgment": "多模态实时生成能力是 AI 交互体验的关键突破，开源将加速应用创新。",
+      "judgment": "开源小模型的性能追赶速度惊人，开发者可以以更低成本获得接近顶级的模型能力，可能加速边缘部署和私有化应用。",
       "confidence": 4,
-      "url": "https://www.qbitai.com/2026/08/474334.html",
+      "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
       "importance": 4
     },
     {
       "source": "ArXiv",
-      "title": "LLM 中涌现模块化认知架构",
-      "finding": "研究发现大型语言模型内部自发形成类似人脑的功能模块化结构，不同网络分别支持语言、推理等功能，为理解模型工作机制提供新视角。",
+      "title": "Jais 2：阿拉伯语中心的开源大模型家族",
+      "finding": "MBZUAI、Cerebras 和 Inception 联合发布 Jais 2，一个专注于阿拉伯语的开源 LLM 家族，旨在推动阿拉伯语 AI 生态发展。",
       "key_data": [
-        "模块化",
-        "功能分化",
-        "人脑类比"
-      ],
-      "judgment": "该发现可能启发更可解释和高效的模型设计，但距离实际应用尚远。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2608.13567",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv",
-      "title": "新研究揭示：基准优化不等于通用编码能力提升",
-      "finding": "论文指出，许多模型在 SWE-bench 等基准上优化分数，但并未真正提升通用编码能力，呼吁采用更多样化的评估方法。",
-      "key_data": [
-        "基准优化",
-        "通用能力",
-        "评估多样性"
-      ],
-      "judgment": "对当前 AI 编码评估体系提出警示，开发者应警惕过度拟合基准的模型。",
-      "confidence": 4,
-      "url": "https://arxiv.org/abs/2608.13566",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv",
-      "title": "Jais 2：阿拉伯语中心的开源大模型家族发布",
-      "finding": "MBZUAI、Cerebras 和 Inception 联合发布 Jais 2，一系列以阿拉伯语为中心的开源大语言模型，填补非英语模型空白。",
-      "key_data": [
-        "阿拉伯语",
-        "开源",
+        "阿拉伯语中心",
+        "开源模型",
         "多机构合作"
       ],
-      "judgment": "非英语模型生态日益丰富，全球化 AI 应用将受益。",
-      "confidence": 4,
+      "judgment": "多语言模型市场正在细分，Jais 2 填补了阿拉伯语空白，对中东市场开发者是利好，但全球影响力有限。",
+      "confidence": 3,
       "url": "https://arxiv.org/abs/2608.13580",
       "importance": 2
     },
     {
-      "source": "Hugging Face",
-      "title": "同一集群，利用率提升 33 个百分点：关键在于调度顺序",
-      "finding": "博客文章展示通过优化 GPU 任务调度顺序，在相同集群上利用率提升 33 个百分点，强调调度策略的重要性。",
+      "source": "ArXiv",
+      "title": "无需训练的跨模型规模知识迁移：激活引导剪枝",
+      "finding": "提出一种无需训练的剪枝方法，通过激活引导实现不同规模模型间的知识迁移，提升小模型性能。",
       "key_data": [
-        "利用率+33%",
-        "调度优化",
-        "GPU集群"
+        "无需训练",
+        "激活引导",
+        "跨规模迁移"
       ],
-      "judgment": "对 AI 基础设施运营者有直接参考价值，成本优化空间巨大。",
+      "judgment": "该技术可能降低模型压缩成本，对部署资源受限的场景有价值，但实际效果需进一步验证。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2608.13596",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "LLM 服务一年回顾：工作负载演变、缓存与负载均衡",
+      "finding": "论文总结了 LLM 服务一年来的工作负载变化，提出缓存和负载均衡的优化方向，为服务系统设计提供参考。",
+      "key_data": [
+        "工作负载演变",
+        "缓存优化",
+        "负载均衡"
+      ],
+      "judgment": "对 LLM 基础设施开发者有参考价值，但属于渐进式改进，非突破性进展。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2608.13573",
+      "importance": 2
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "同一集群，利用率提升 33 个百分点：改变的是调度顺序",
+      "finding": "通过优化 GPU 任务调度顺序，在相同集群上实现了 33 个百分点的利用率提升，展示了调度策略对成本效率的巨大影响。",
+      "key_data": [
+        "利用率提升33%",
+        "调度优化",
+        "成本效率"
+      ],
+      "judgment": "GPU 利用率优化是降低成本的关键，该案例对 AI 基础设施团队有直接借鉴意义。",
       "confidence": 4,
       "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
       "importance": 3
@@ -147,109 +147,103 @@
   "company_product": [
     {
       "source": "TechCrunch",
-      "title": "Groq 融资 3.5 亿美元，从 AI 芯片转向 Neocloud 业务",
-      "finding": "Groq 完成 3.5 亿美元融资，估值 35 亿美元，将业务重心从 AI 芯片转向 neocloud，并扩大 NVIDIA 驱动的数据中心。",
+      "title": "Groq 融资 3.5 亿美元，从 AI 芯片转向 Neocloud",
+      "finding": "Groq 完成 3.5 亿美元融资，估值 35 亿美元，将业务重心从 AI 芯片转向 Neocloud，并扩展基于 NVIDIA 的数据中心。",
       "key_data": [
         "融资3.5亿美元",
-        "估值35亿美元",
+        "估值35亿",
         "转向Neocloud"
       ],
-      "judgment": "Groq 的战略转型反映 AI 推理市场竞争激烈，单纯芯片难以独立生存，云服务成为新方向。",
+      "judgment": "Groq 的转型反映 AI 芯片创业公司面临 NVIDIA 主导的挑战，Neocloud 模式可能成为新出路，但竞争激烈。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
       "importance": 3
     },
     {
-      "source": "TechCrunch",
-      "title": "AI 自动化初创公司 Relay 关闭，团队加入 Google Chrome",
-      "finding": "AI 自动化初创公司 Relay 宣布关闭，其创始人 Jacob Bank 及团队加入 Google Chrome 团队，计划在 Chrome 中集成 AI 功能。",
-      "key_data": [
-        "关闭",
-        "团队加入Google",
-        "Chrome集成AI"
-      ],
-      "judgment": "AI 自动化赛道整合加剧，大厂通过收购团队强化浏览器 AI 能力。",
-      "confidence": 4,
-      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
-      "importance": 2
-    },
-    {
       "source": "量子位",
       "title": "范式 PhanRouter 上线智谱 GLM-5.3，即日开放调用",
-      "finding": "范式公司的 PhanRouter 在智谱 GLM-5.3 上首发上线，即日开放调用，提供路由服务。",
+      "finding": "智谱 GLM-5.3 首发上线范式 PhanRouter，开放调用，为开发者提供新的模型路由选择。",
       "key_data": [
         "GLM-5.3",
         "PhanRouter",
         "开放调用"
       ],
-      "judgment": "模型路由服务成为新赛道，与 OpenRouter 收购呼应，AI 基础设施服务化趋势明显。",
+      "judgment": "模型路由服务成为新战场，PhanRouter 与 GLM 结合可能提升调用效率，但需观察市场接受度。",
       "confidence": 3,
       "url": "https://www.qbitai.com/2026/08/474361.html",
       "importance": 2
     },
     {
-      "source": "极客公园",
-      "title": "共生知行发布人形机器人赛车 Demo：卡丁车测试「全身智能」",
-      "finding": "具身智能初创公司共生知行发布双足人形机器人驾驶卡丁车的 Demo，展示全身协调控制能力。",
+      "source": "TechCrunch",
+      "title": "AI 自动化初创公司 Relay 关闭，团队加入 Google Chrome",
+      "finding": "Relay 公司关闭，其创始人 Jacob Bank 和团队加入 Google Chrome 团队，计划在 Chrome 中集成 AI 自动化功能。",
       "key_data": [
-        "人形机器人",
-        "卡丁车",
-        "全身智能"
+        "Relay关闭",
+        "团队加入Google",
+        "Chrome集成AI"
       ],
-      "judgment": "具身智能在动态控制领域取得进展，但距离商业化仍有距离。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/08/474537.html",
+      "judgment": "Google 通过收购团队增强 Chrome 的 AI 能力，浏览器将成为 AI Agent 的重要入口，对开发者是机会。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
       "importance": 2
     },
     {
-      "source": "极客公园",
-      "title": "世界机器人大会前瞻：宇树上市在即，行业关注五大问题",
-      "finding": "世界机器人大会即将召开，宇树科技完成科创板申购，发行市值约 610 亿元，市盈率 219 倍，行业关注商业化路径、技术瓶颈等问题。",
+      "source": "OpenAI Blog",
+      "title": "OpenAI 资助 14 个 AI 政策项目，探索智能时代新政策",
+      "finding": "OpenAI 宣布资助 14 个独立项目，研究 AI 政策，以扩大经济机会和增强社会韧性。",
       "key_data": [
-        "发行市值610亿",
-        "市盈率219倍",
-        "五大问题"
+        "14个项目",
+        "AI政策",
+        "经济机会"
       ],
-      "judgment": "机器人行业资本热潮涌动，但高估值下商业化验证成为关键。",
+      "judgment": "OpenAI 积极影响政策制定，但需警惕其利益导向，政策研究独立性存疑。",
       "confidence": 4,
-      "url": "http://www.geekpark.net/news/368887",
-      "importance": 3
+      "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "importance": 2
+    },
+    {
+      "source": "Hacker News",
+      "title": "GPT-5.6 Sol 定价下调 50%",
+      "finding": "OpenRouter 显示 GPT-5.6 Sol 定价下调 50%，可能为吸引更多开发者使用。",
+      "key_data": [
+        "降价50%",
+        "GPT-5.6 Sol"
+      ],
+      "judgment": "模型降价是趋势，OpenAI 通过价格战巩固市场，开发者成本降低，但需关注服务质量。",
+      "confidence": 4,
+      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "importance": 2
     }
   ],
   "opinions": [
     {
-      "person": "Simon Willison",
-      "level": "L2",
-      "quote": "Qwen 3.8 27B 的评测得分与 GPT-5.6 持平，开源模型的性能提升速度令人惊叹，开发者应密切关注。",
-      "source": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/"
+      "person": "Yann LeCun",
+      "level": "L1",
+      "quote": "信任危机是因为你搞权力集中。AI 发展应去中心化，避免少数公司控制技术。",
+      "source": "https://www.infoq.cn/article/sjSVpfSFB3cQwzP3lMHZ"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI 基础设施整合趋势：Stripe 收购 OpenRouter 的深层影响",
-      "reason": "支付巨头进入 AI 模型分发，可能重塑开发者获取模型的方式，值得深入分析。",
+      "topic": "AI 基础设施投资热潮：NVIDIA 的战略布局",
+      "reason": "NVIDIA 投资 SpaceX 和软银数据中心，显示其从芯片向基础设施的转变，影响算力市场格局。",
       "priority": "high"
     },
     {
-      "topic": "开源模型性能追平闭源：Qwen 3.8 27B 的技术与商业意义",
-      "reason": "小参数模型达到顶级性能，可能改变 AI 应用的成本结构，值得深入研究。",
-      "priority": "high"
-    },
-    {
-      "topic": "人形机器人商业化路径：宇树科技上市后的挑战与机遇",
-      "reason": "宇树上市标志行业进入资本化阶段，但高估值下商业化验证是关键，值得跟踪。",
+      "topic": "开源小模型性能追赶闭源模型：Qwen 3.8 的启示",
+      "reason": "小模型性能接近顶级闭源模型，可能改变部署策略和成本结构，值得深入研究。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "AI 商业化加速，开源模型追平闭源，机器人产业资本化",
-  "summary_paragraph": "今日 AI 行业动态密集：Anthropic 年化收入飙升至 650 亿美元，显示企业级 AI 需求爆发；Stripe 以 70 亿美元收购 OpenRouter，AI 基础设施整合加速；NVIDIA 大手笔投资 SpaceX 和软银数据中心，巩固其基础设施霸主地位。开源模型方面，Qwen 3.8 27B 评测得分追平 GPT-5.6，开源与闭源差距进一步缩小。机器人领域，宇树科技发布「超人」机器人并即将上市，人形机器人产业进入资本化新阶段。整体来看，AI 商业化进入加速期，基础设施整合与开源生态繁荣成为主旋律。",
+  "summary_one_line": "AI 商业化加速，基础设施整合与开源小模型崛起",
+  "summary_paragraph": "今日 AI 行业动态显示，商业化与基础设施整合成为主旋律。Anthropic 年化收入飙升至 650 亿美元，证明企业级 AI 需求爆发；Stripe 收购 OpenRouter 和 NVIDIA 的巨额投资，标志着 AI 基础设施进入整合期。同时，开源小模型性能逼近闭源模型，Qwen 3.8 得分与 GPT-5.6 持平，可能改变开发者的模型选择。宇树科技的人形机器人技术突破和上市，展示了具身智能的商业化潜力。整体来看，AI 行业正从技术竞赛转向商业落地和生态构建，竞争格局加速重塑。",
   "snapshot": {
     "date": "2026-08-18",
     "hf_trending": [
       {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 10732,
+        "likes": 10751,
         "downloads": 415039,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -265,7 +259,7 @@
       {
         "name": "unsloth/Qwen3.8-27B-GGUF",
         "short_name": "Qwen3.8-27B-GGUF",
-        "likes": 1639,
+        "likes": 1648,
         "downloads": 2727609,
         "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
         "tags": [
@@ -281,7 +275,7 @@
       {
         "name": "Qwen/Qwen3.8-2.4T-A95B",
         "short_name": "Qwen3.8-2.4T-A95B",
-        "likes": 1042,
+        "likes": 1043,
         "downloads": 9465,
         "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
         "tags": [
@@ -297,7 +291,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 1113,
+        "likes": 1117,
         "downloads": 465529,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -313,7 +307,7 @@
       {
         "name": "MiniMaxAI/MiniMax-Music3",
         "short_name": "MiniMax-Music3",
-        "likes": 907,
+        "likes": 910,
         "downloads": 10375,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
         "tags": [
@@ -329,7 +323,7 @@
       {
         "name": "meta-models/Muse-Glimmer-30B",
         "short_name": "Muse-Glimmer-30B",
-        "likes": 1662,
+        "likes": 1663,
         "downloads": 334099,
         "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
         "tags": [
@@ -345,7 +339,7 @@
       {
         "name": "MiniMaxAI/MiniMax-H3",
         "short_name": "MiniMax-H3",
-        "likes": 4088,
+        "likes": 4091,
         "downloads": 2403238,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
         "tags": [
@@ -361,7 +355,7 @@
       {
         "name": "deepseek-ai/DeepSeek-V4-Pro-0813",
         "short_name": "DeepSeek-V4-Pro-0813",
-        "likes": 574,
+        "likes": 577,
         "downloads": 25006,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
         "tags": [
@@ -379,45 +373,45 @@
       {
         "name": "harry0703/MoneyPrinterTurbo",
         "desc": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automate",
-        "stars": 106200,
+        "stars": 106381,
         "stars_today": 1189,
-        "forks": 16131,
+        "forks": 16151,
         "language": "Python",
         "url": "https://github.com/harry0703/MoneyPrinterTurbo"
       },
       {
         "name": "usestrix/strix",
         "desc": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-        "stars": 54255,
+        "stars": 54326,
         "stars_today": 598,
-        "forks": 5804,
+        "forks": 5807,
         "language": "Python",
         "url": "https://github.com/usestrix/strix"
       },
       {
         "name": "nautechsystems/nautilus_trader",
         "desc": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
-        "stars": 25961,
+        "stars": 25992,
         "stars_today": 120,
-        "forks": 3374,
+        "forks": 3377,
         "language": "Rust",
         "url": "https://github.com/nautechsystems/nautilus_trader"
       },
       {
         "name": "akitaonrails/ai-memory",
         "desc": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agen",
-        "stars": 2122,
+        "stars": 2188,
         "stars_today": 207,
-        "forks": 198,
+        "forks": 200,
         "language": "Rust",
         "url": "https://github.com/akitaonrails/ai-memory"
       },
       {
         "name": "mukul975/Anthropic-Cybersecurity-Skills",
         "desc": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST C",
-        "stars": 28476,
+        "stars": 28520,
         "stars_today": 198,
-        "forks": 3451,
+        "forks": 3452,
         "language": "Python",
         "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
       }
@@ -534,6 +528,6 @@
         "url": "https://openrouter.ai/minimax/minimax-m3"
       }
     ],
-    "hf_summary": "开源多模态与视频生成占据主流"
+    "hf_summary": "开源模型主导多模态与视频生成"
   }
 }
