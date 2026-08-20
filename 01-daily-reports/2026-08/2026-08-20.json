@@ -3,142 +3,142 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "宇树科技上市首日暴涨620%，市值突破4400亿元，王兴兴首次明确「大脑」技术路线",
-      "finding": "宇树科技今日在科创板上市，股价一度较发行价涨超6倍，总市值突破4400亿元。王兴兴在庆功宴上首次明确公司「大脑」的技术路线，计划搭建系统让全球AI进步转化为机器人进化速度。",
+      "title": "宇树科技上市首日暴涨620%，市值突破4400亿，王兴兴首次明确「大脑」技术路线",
+      "finding": "宇树科技今日登陆科创板，开盘即暴涨620%，市值一度突破4400亿元，成为「机器人第一股」。在上市庆功宴上，创始人王兴兴首次公开了公司「大脑」的技术路线，计划搭建一套系统，让全球AI的持续进步转化为机器人进化速度的加速。",
       "key_data": [
         "市值超4400亿元",
-        "首日涨超6倍",
-        "机器人第一股"
+        "开盘涨620%",
+        "王兴兴明确大脑路线"
       ],
-      "judgment": "宇树上市为具身智能赛道设定了价值锚点，王兴兴明确「大脑」路线意味着机器人竞争从硬件转向AI能力，未来具身智能的估值逻辑将更依赖模型和算法。",
+      "judgment": "宇树上市为具身智能赛道设定了价值锚点，证明资本市场对人形机器人的高度认可。王兴兴首次明确「大脑」技术路线，意味着宇树将从「身体最强」向「大脑+身体」全栈进化，这将对全球人形机器人竞争格局产生深远影响。",
       "confidence": 5,
       "source": "极客公园",
       "url": "http://www.geekpark.net/news/369051"
     },
     {
       "rank": 2,
-      "title": "OpenAI推出GPT-5.6 Luna，Replit免费模式让零成本开发软件成为现实",
-      "finding": "OpenAI与Replit合作推出Free Mode，由GPT-5.6 Luna驱动，用户无需担心token成本即可将想法转化为可运行的软件。这标志着AI编程向大众化、免费化迈出重要一步。",
-      "key_data": [
-        "GPT-5.6 Luna",
-        "免费模式",
-        "零成本开发"
-      ],
-      "judgment": "Replit免费模式将AI编程的门槛降到零，可能吸引大量非程序员用户，对传统SaaS和低代码平台形成冲击，也预示着AI编程商业模式的转变。",
-      "confidence": 5,
-      "source": "OpenAI Blog",
-      "url": "https://openai.com/index/replit"
-    },
-    {
-      "rank": 3,
-      "title": "OpenAI推出零数据保留和私有安全处理，企业隐私竞争升级",
-      "finding": "OpenAI宣布为符合条件的API客户提供零数据保留（ZDR），并预览私有安全处理（Private Safety Processing），在不牺牲数据隐私的前提下实现高级AI安全。此举旨在与Anthropic争夺企业客户。",
+      "title": "OpenAI推出零数据保留和私有安全处理，与Anthropic展开企业隐私竞争",
+      "finding": "OpenAI宣布为符合条件的API客户提供零数据保留（ZDR），并预览了「私有安全处理」技术，旨在在不牺牲数据隐私的前提下实现高级AI安全。此举被视为对Anthropic此前隐私保护举措的回应，两家公司在企业客户数据隐私上的竞争正在升温。",
       "key_data": [
         "零数据保留",
         "私有安全处理",
         "企业隐私竞争"
       ],
-      "judgment": "OpenAI与Anthropic在隐私保护上的竞争，将推动整个行业提升数据安全标准，企业客户在选择AI服务时将有更多保障，但也可能加剧模型能力的差异化。",
+      "judgment": "企业客户对数据隐私的要求已成为模型提供商的核心竞争点。OpenAI此举不仅是为了合规，更是为了争夺高价值企业客户。开发者应关注ZDR的适用条件，这可能影响企业级AI应用的架构设计。",
+      "confidence": 5,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/"
+    },
+    {
+      "rank": 3,
+      "title": "Replit推出免费模式，由GPT-5.6 Luna驱动，降低软件创作门槛",
+      "finding": "Replit宣布推出Free Mode，由OpenAI的GPT-5.6 Luna模型驱动，允许用户无需担心token成本即可将想法转化为可运行的软件。这标志着AI编程工具向大众市场的进一步渗透。",
+      "key_data": [
+        "免费模式",
+        "GPT-5.6 Luna",
+        "无需token成本"
+      ],
+      "judgment": "Replit的免费模式将AI编程的体验门槛降至零，可能吸引大量非专业用户尝试「用自然语言造软件」。这对传统开发工具构成威胁，也预示着AI编程将成为大众技能，开发者需要重新定位自己的价值。",
       "confidence": 5,
       "source": "OpenAI Blog",
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
+      "url": "https://openai.com/index/replit"
     },
     {
       "rank": 4,
-      "title": "华尔街实测8款全球主流Agent：千问办公综合排名第一，成本成商业化关键",
-      "finding": "华尔街对8款全球主流AI Agent进行实测，阿里千问在办公场景综合排名第一。报告指出成本正成为Agent商业化的重要考虑因素。",
+      "title": "内存价格12个月暴涨500%，AI算力成本危机加剧",
+      "finding": "Latent Space报道，内存价格在过去12个月内上涨了500%，摩尔定律似乎倒退回2007年水平。这一「内存紧缩」正在影响AI训练和推理的成本结构，成为行业关注的焦点。",
+      "key_data": [
+        "内存涨500%",
+        "摩尔定律倒退",
+        "AI成本压力"
+      ],
+      "judgment": "内存价格飙升将直接推高AI基础设施成本，尤其是大模型训练和推理。开发者可能需要优化模型效率或转向更经济的存储方案。这一趋势若持续，可能加速边缘计算和模型压缩技术的发展。",
+      "confidence": 4,
+      "source": "Latent Space",
+      "url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12"
+    },
+    {
+      "rank": 5,
+      "title": "华尔街实测8款主流Agent：千问办公综合排名第一，成本成商业化关键",
+      "finding": "量子位报道，华尔街对8款主流AI Agent进行了实测，结果显示阿里千问在办公场景综合排名第一。同时，成本被列为Agent商业化的重要考量因素。",
       "key_data": [
         "千问排名第一",
         "8款Agent实测",
         "成本成关键"
       ],
-      "judgment": "千问在办公场景的领先表明国产模型在应用层面已具备国际竞争力，但成本问题凸显Agent商业化仍面临挑战，未来性价比将成为竞争核心。",
+      "judgment": "千问在办公场景的领先表明国产模型在实用性和成本上具备竞争力。Agent的商业化必须平衡性能与成本，这为开发者提供了选型参考，也预示着价格战可能成为Agent市场的主旋律。",
       "confidence": 4,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/08/476070.html"
-    },
-    {
-      "rank": 5,
-      "title": "内存价格12个月暴涨500%，AI算力成本危机加剧",
-      "finding": "Latent Space报道，内存价格在过去12个月内上涨了500%，摩尔定律似乎逆转至2007年水平。这加剧了AI基础设施的成本压力，可能影响模型训练和推理的经济性。",
-      "key_data": [
-        "内存涨500%",
-        "摩尔定律逆转",
-        "AI成本压力"
-      ],
-      "judgment": "内存价格暴涨将直接推高AI部署成本，可能迫使企业优化模型效率或转向更经济的硬件，长期看可能加速推理优化和模型压缩技术的应用。",
-      "confidence": 4,
-      "source": "Latent Space",
-      "url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12"
     }
   ],
   "model_tech": [
     {
       "source": "Hugging Face Blog",
-      "title": "LFM2.5 Q4_0检查点：量化感知蒸馏技术发布",
-      "finding": "Liquid AI发布了LFM2.5的Q4_0量化检查点，通过量化感知蒸馏技术，在保持性能的同时大幅降低模型大小，便于端侧部署。",
+      "title": "LFM2.5 Q4_0量化检查点发布，基于量化感知蒸馏",
+      "finding": "Liquid AI发布了LFM2.5的Q4_0量化检查点，通过量化感知蒸馏技术，在保持性能的同时大幅降低模型体积，便于端侧部署。",
       "key_data": [
         "Q4_0量化",
         "量化感知蒸馏",
         "端侧部署"
       ],
-      "judgment": "量化技术的进步将加速大模型在边缘设备上的应用，降低推理成本，对移动端和IoT场景意义重大。",
+      "judgment": "量化技术的进步将加速大模型在边缘设备的落地，开发者可关注此类模型以降低推理成本。",
       "confidence": 4,
       "url": "https://huggingface.co/blog/LiquidAI/qad",
       "importance": 3
     },
     {
       "source": "ArXiv",
-      "title": "GxP-Agent：基于流程DAG的可靠临床试验编程智能体",
-      "finding": "新论文提出GxP-Agent，利用流程DAG拓扑结构，让LLM智能体在临床试验编程中更可靠，符合CDISC标准，有望加速药物审批流程。",
+      "title": "GxP-Agent：基于流程DAG拓扑的可靠临床试验编程",
+      "finding": "新论文提出GxP-Agent，利用流程DAG拓扑结构指导LLM Agent进行临床试验编程，旨在提高监管提交的可靠性。",
       "key_data": [
         "流程DAG",
         "临床试验编程",
-        "CDISC标准"
+        "监管提交"
       ],
-      "judgment": "AI在垂直领域的可靠应用是落地关键，GxP-Agent展示了LLM在监管严格行业的潜力，可能推动医疗AI的合规化发展。",
+      "judgment": "该研究展示了LLM Agent在高度规范领域的应用潜力，但落地仍需解决合规性问题。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2608.16890",
       "importance": 2
     },
     {
       "source": "ArXiv",
-      "title": "智能体AI运行时治理：行动边界控制与可信溯源",
-      "finding": "论文提出运行时治理框架，通过行动边界控制和可信溯源，确保Agentic AI系统的操作安全，防止越权行为。",
+      "title": "Agentic AI运行时治理：动作边界控制与可信溯源",
+      "finding": "论文提出运行时治理框架，通过动作边界控制、可信溯源和失败关闭执行，增强Agent系统的安全性。",
       "key_data": [
-        "运行时治理",
-        "行动边界",
-        "可信溯源"
+        "动作边界",
+        "可信溯源",
+        "失败关闭"
       ],
-      "judgment": "随着Agent自主性增强，安全治理成为刚需，该研究为Agent的企业级应用提供了安全保障思路。",
+      "judgment": "Agent安全是规模化应用的前提，该框架为开发者提供了可参考的治理模式。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2608.16891",
       "importance": 3
     },
     {
       "source": "ArXiv",
-      "title": "推理成本作为模型特定API契约：思考的代价",
-      "finding": "论文指出API购买者购买的是包含推理努力条款的合约，而非单纯模型名称，推理成本成为模型API的差异化因素。",
+      "title": "推理成本作为模型特定API契约：论推理努力的影响",
+      "finding": "论文指出API购买者实际购买的是包含推理努力条款的契约，而非单纯的模型名称，推理努力水平直接影响成本和性能。",
       "key_data": [
-        "推理成本",
+        "推理努力",
         "API契约",
-        "模型差异化"
+        "成本影响"
       ],
-      "judgment": "推理成本透明化将影响API定价和模型选择，开发者需更精细地管理推理预算，推动成本优化工具的需求。",
+      "judgment": "推理成本透明化将成为API选型的重要考量，开发者需更精细地控制推理预算。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2608.16956",
-      "importance": 2
+      "importance": 3
     },
     {
       "source": "ArXiv",
       "title": "Data-DPO：面向目标模型数据选择的直接偏好优化",
-      "finding": "新方法Data-DPO利用直接偏好优化来选择LLM后训练数据，在降低训练成本的同时提升模型性能。",
+      "finding": "新方法Data-DPO利用直接偏好优化来选择SFT数据子集，在降低训练成本的同时保持模型性能。",
       "key_data": [
         "Data-DPO",
         "数据选择",
-        "后训练优化"
+        "训练成本"
       ],
-      "judgment": "高效数据选择是降低训练成本的关键，Data-DPO可能成为后训练流程的标准组件，提升模型迭代效率。",
+      "judgment": "高效数据选择是降低大模型训练成本的关键，该研究为开发者提供了新思路。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2608.16926",
       "importance": 2
@@ -147,121 +147,121 @@
   "company_product": [
     {
       "source": "TechCrunch",
-      "title": "Google在搜索和Gemini中推出AI学习工具",
-      "finding": "Google发布新的AI学习功能，集成在搜索和Gemini中，旨在帮助学生更高效地学习和研究，与OpenAI等竞争教育市场。",
+      "title": "Google为搜索和Gemini推出新的AI学习工具",
+      "finding": "Google发布面向学生的AI学习工具，整合到搜索和Gemini中，旨在与OpenAI等竞争教育市场。",
       "key_data": [
         "AI学习工具",
-        "搜索集成",
+        "搜索+Gemini",
         "教育市场"
       ],
-      "judgment": "Google将AI学习工具整合进核心产品，将加剧教育AI竞争，可能改变学生的学习方式，对传统教育科技公司构成威胁。",
+      "judgment": "教育是AI应用的高频场景，Google的入局将加剧竞争，推动AI辅助学习普及。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+      "importance": 2
+    },
+    {
+      "source": "Wired",
+      "title": "Claude隐形水印发布数小时即被开发者绕过",
+      "finding": "Anthropic为遵守欧盟法规在AI生成内容中加入隐形水印，但开发者迅速找到了绕过方法，引发合规有效性讨论。",
+      "key_data": [
+        "隐形水印",
+        "欧盟法规",
+        "绕过方法"
+      ],
+      "judgment": "水印技术的脆弱性可能削弱AI内容溯源的可信度，开发者需关注合规与反制技术的平衡。",
+      "confidence": 4,
+      "url": "https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/",
       "importance": 3
     },
     {
       "source": "TechCrunch",
-      "title": "Stripe收购OpenRouter的真实原因：支付基础设施而非“奇点”",
-      "finding": "Stripe收购AI模型路由初创公司OpenRouter，表面宣称为了“奇点”，实际是为了强化其支付基础设施，布局AI经济。",
+      "title": "Cognition CEO否认SpaceX收购传闻，但承认曾接触",
+      "finding": "Cognition CEO否认了SpaceX试图收购该公司的报道，但承认双方有过接触。此前有消息称SpaceX已收购Cursor，以追赶OpenAI和Anthropic。",
       "key_data": [
-        "Stripe收购",
-        "OpenRouter",
-        "支付基础设施"
+        "否认收购",
+        "SpaceX接触",
+        "Cursor已被收购"
       ],
-      "judgment": "支付巨头进入AI领域，表明AI商业化将带动新的支付需求，OpenRouter的模型路由能力可能成为AI应用支付的关键入口。",
+      "judgment": "AI编程工具成为巨头争夺的焦点，SpaceX的入局可能改变企业AI竞争格局，开发者应关注工具生态的整合。",
       "confidence": 4,
-      "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+      "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
       "importance": 3
     },
     {
       "source": "InfoQ",
-      "title": "OpenAI因安全问题突然停训GPT-6",
-      "finding": "OpenAI因安全问题突然暂停GPT-6的训练，引发社区热议，网友评论“当你造出一个神，就不可能再给它拴上绳子”。",
+      "title": "GitHub Code Quality聚焦可维护性，应对AI生成代码激增",
+      "finding": "随着AI生成代码量增加，GitHub推出Code Quality功能，重点提升代码可维护性，帮助团队管理AI辅助开发的代码质量。",
       "key_data": [
-        "停训GPT-6",
-        "安全问题",
-        "社区热议"
+        "Code Quality",
+        "可维护性",
+        "AI代码"
       ],
-      "judgment": "前沿模型的安全问题日益突出，停训GPT-6表明OpenAI对安全风险的重视，但也可能延迟下一代模型发布，影响行业节奏。",
+      "judgment": "AI生成代码的质量管理成为刚需，开发者应尽早采用此类工具保障长期可维护性。",
       "confidence": 4,
-      "url": "https://www.infoq.cn/article/BLfF9zUGrzpqJ5QbSBJD?utm_source=rss&utm_medium=article",
-      "importance": 4
-    },
-    {
-      "source": "Wired",
-      "title": "Claude隐形水印发布数小时即被破解",
-      "finding": "Anthropic上周宣布在AI生成内容中加入隐形水印以符合欧盟规定，但数小时内开发者就找到了绕过方法。",
-      "key_data": [
-        "隐形水印",
-        "破解方法",
-        "欧盟规定"
-      ],
-      "judgment": "水印技术难以完全阻止滥用，监管与技术的博弈将持续，AI内容溯源仍面临挑战。",
-      "confidence": 4,
-      "url": "https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/",
+      "url": "https://www.infoq.cn/article/ELr08T70hyUzfUolgw5g?utm_source=rss&utm_medium=article",
       "importance": 2
     },
     {
       "source": "极客公园",
-      "title": "DeepSeek Harness：从“赛博乐高”到Agent Store",
-      "finding": "DeepSeek Harness上线不到12小时GitHub Star破5万，被称为“Agent界的Android”，如今正演变为Agent Store，构建生态。",
+      "title": "太空算力兴起：800MB模型上天需四周，创业者涌入",
+      "finding": "太空算力成为新风口，一家公司计划将数据中心送入太空，但当前将模型部署到太空需时四周，成本高昂。",
       "key_data": [
-        "GitHub Star破5万",
-        "Agent Store",
-        "生态构建"
+        "太空算力",
+        "800MB模型",
+        "四周部署"
       ],
-      "judgment": "DeepSeek Harness的快速走红显示开发者对Agent生态的强烈需求，其向Agent Store的演进可能重塑AI应用分发方式。",
-      "confidence": 4,
-      "url": "http://www.geekpark.net/news/369003",
-      "importance": 3
+      "judgment": "太空算力尚处早期，但可能成为未来AI基础设施的补充，值得关注其技术突破。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/369013",
+      "importance": 2
     }
   ],
   "opinions": [
     {
       "person": "Simon Willison",
       "level": "L1",
-      "quote": "LLMs大幅降低了扩展软件的创作成本，现代沙箱原语降低了部署成本，网络上可扩展软件的新机会正在出现。",
+      "quote": "LLM大幅降低了扩展软件的创作成本，现代沙箱原语降低了部署成本，这为Web上的可扩展软件创造了新机会。",
       "source": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/"
     },
     {
       "person": "Addy Osmani",
       "level": "L1",
-      "quote": "AI智能体正在重塑软件工程、开发者工作流以及工程师所需的技能，14年Google经验分享。",
+      "quote": "AI Agent正在重塑软件工程，开发者需要适应新的工作流程，并提升AI协作技能。",
       "source": "https://newsletter.pragmaticengineer.com/p/from-chrome-devtools-to-ai-engineering"
     },
     {
       "person": "王兴兴",
       "level": "L1",
-      "quote": "宇树的下一张牌，是搭起一套系统，让全球AI的持续进步，转化为机器人不断加快的进化速度。",
+      "quote": "宇树将搭建一套系统，让全球AI的持续进步转化为机器人不断加快的进化速度。",
       "source": "http://www.geekpark.net/news/369051"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI Agent商业化成本结构分析",
-      "reason": "华尔街实测显示成本成Agent商业化关键，深挖成本构成和优化路径对行业有指导意义。",
+      "topic": "内存价格暴涨对AI基础设施的长期影响",
+      "reason": "内存成本飙升可能重塑AI成本结构，影响模型部署策略和硬件投资方向。",
       "priority": "high"
     },
     {
-      "topic": "GPT-6停训事件背后的安全挑战",
-      "reason": "前沿模型安全问题是行业焦点，停训事件可能影响未来模型发布节奏和监管方向。",
-      "priority": "high"
-    },
-    {
-      "topic": "内存价格暴涨对AI基础设施的影响",
-      "reason": "内存涨价500%将重塑AI成本结构，分析对模型训练、推理和硬件市场的影响。",
+      "topic": "企业级AI隐私保护竞争：OpenAI vs Anthropic",
+      "reason": "隐私保护成为企业客户选型的关键，零数据保留和私有安全处理的技术实现值得深挖。",
       "priority": "medium"
+    },
+    {
+      "topic": "人形机器人「大脑」技术路线之争",
+      "reason": "王兴兴首次明确大脑路线，对比其他玩家（如Figure、Tesla）的技术选择，可洞察行业方向。",
+      "priority": "high"
     }
   ],
-  "summary_one_line": "宇树上市、OpenAI隐私升级、内存涨价，AI行业冰火两重天。",
-  "summary_paragraph": "今日AI行业动态密集：宇树科技上市首日暴涨620%，市值突破4400亿元，王兴兴明确「大脑」技术路线，为具身智能赛道注入强心剂；OpenAI推出GPT-5.6 Luna驱动Replit免费模式，并宣布零数据保留和私有安全处理，与Anthropic展开企业隐私竞争；同时，内存价格12个月暴涨500%，给AI基础设施成本带来巨大压力。华尔街实测显示阿里千问在办公Agent中排名第一，凸显国产模型竞争力。此外，OpenAI因安全问题停训GPT-6，引发行业对前沿模型安全与商业化平衡的深思。整体来看，AI行业在资本狂欢与成本危机中并行，竞争焦点从模型能力转向商业化落地与安全治理。",
+  "summary_one_line": "宇树上市、OpenAI隐私战、内存涨价、AI编程免费化",
+  "summary_paragraph": "今日AI行业多点开花：宇树科技上市暴涨620%，市值超4400亿，王兴兴首次明确「大脑」技术路线，为具身智能赛道注入强心剂；OpenAI推出零数据保留和私有安全处理，与Anthropic展开企业隐私竞争，企业级AI的信任门槛正在提高；Replit免费模式由GPT-5.6 Luna驱动，AI编程向大众普及再进一步；内存价格12个月暴涨500%，算力成本压力凸显；华尔街实测显示千问办公场景排名第一，国产Agent竞争力获认可。此外，Claude水印被绕过、SpaceX收购Cognition传闻等事件也引发关注。整体来看，行业在资本、技术、成本与合规的多重驱动下加速演进。",
   "snapshot": {
     "date": "2026-08-20",
     "hf_trending": [
       {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 11492,
+        "likes": 11503,
         "downloads": 1006235,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -277,7 +277,7 @@
       {
         "name": "unsloth/Qwen3.8-27B-GGUF",
         "short_name": "Qwen3.8-27B-GGUF",
-        "likes": 2088,
+        "likes": 2107,
         "downloads": 4318134,
         "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
         "tags": [
@@ -293,7 +293,7 @@
       {
         "name": "MiniMaxAI/MiniMax-Music3",
         "short_name": "MiniMax-Music3",
-        "likes": 1042,
+        "likes": 1047,
         "downloads": 13138,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
         "tags": [
@@ -309,7 +309,7 @@
       {
         "name": "deepseek-ai/DeepSeek-V4-Pro-0813",
         "short_name": "DeepSeek-V4-Pro-0813",
-        "likes": 635,
+        "likes": 640,
         "downloads": 37583,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
         "tags": [
@@ -339,25 +339,9 @@
         "trend": "same"
       },
       {
-        "name": "Qwen/Qwen3.8-2.4T-A95B",
-        "short_name": "Qwen3.8-2.4T-A95B",
-        "likes": 1100,
-        "downloads": 12699,
-        "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe_text"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
         "short_name": "Qwen3.8-27B-Uncensored-FP8",
-        "likes": 616,
+        "likes": 618,
         "downloads": 60078,
         "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
         "tags": [
@@ -373,7 +357,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 1326,
+        "likes": 1329,
         "downloads": 555993,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -385,49 +369,65 @@
         "label": "图生视频",
         "card_desc": "",
         "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen3.8-2.4T-A95B",
+        "short_name": "Qwen3.8-2.4T-A95B",
+        "likes": 1102,
+        "downloads": 12699,
+        "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe_text"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
       }
     ],
     "github_trending": [
       {
         "name": "harry0703/MoneyPrinterTurbo",
         "desc": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automate",
-        "stars": 110859,
+        "stars": 111060,
         "stars_today": 2221,
-        "forks": 16802,
+        "forks": 16829,
         "language": "Python",
         "url": "https://github.com/harry0703/MoneyPrinterTurbo"
       },
       {
         "name": "volcengine/OpenViking",
         "desc": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
-        "stars": 30256,
+        "stars": 30329,
         "stars_today": 804,
-        "forks": 2338,
+        "forks": 2343,
         "language": "Python",
         "url": "https://github.com/volcengine/OpenViking"
       },
       {
         "name": "chaitanyagiri/munder-difflin",
         "desc": "local multi-agent harness",
-        "stars": 2721,
+        "stars": 2747,
         "stars_today": 795,
-        "forks": 322,
+        "forks": 324,
         "language": "TypeScript",
         "url": "https://github.com/chaitanyagiri/munder-difflin"
       },
       {
         "name": "mukul975/Anthropic-Cybersecurity-Skills",
         "desc": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST C",
-        "stars": 29872,
+        "stars": 29906,
         "stars_today": 766,
-        "forks": 3540,
+        "forks": 3543,
         "language": "Python",
         "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
       },
       {
         "name": "nautechsystems/nautilus_trader",
         "desc": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
-        "stars": 26460,
+        "stars": 26478,
         "stars_today": 80,
         "forks": 3422,
         "language": "Rust",
@@ -546,6 +546,6 @@
         "url": "https://openrouter.ai/poolside/laguna-s-2.1:free"
       }
     ],
-    "hf_summary": "国产开源模型霸榜多模态与效率版本成主流"
+    "hf_summary": "开源多模态称霸，音乐视频生成崛起，推理模型降温。"
   }
 }
