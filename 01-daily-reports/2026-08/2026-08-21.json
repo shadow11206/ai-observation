@@ -3,70 +3,70 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "智谱CEO唐杰谈GLM 5.3与后训练Scaling Law，宣告“参数死亡”",
-      "finding": "智谱AI CEO唐杰在Latent Space的AINews节目中提出“参数死亡”论，认为行业已从预训练Scaling Law转向后训练Scaling Law。他透露GLM 5.3是这一新范式的代表，强调通过后训练阶段的强化学习和推理优化来提升模型能力，而非单纯堆参数。",
+      "title": "智谱CEO唐杰提出“参数之死”：GLM 5.3开启后训练扩展新范式",
+      "finding": "智谱AI CEO唐杰在Latent Space播客中提出“参数之死”观点，认为单纯增加模型参数的时代已经结束，GLM 5.3通过后训练阶段的扩展实现了能力跃升，标志着行业从“预训练扩展”转向“后训练扩展”的新阶段。",
       "key_data": [
         "GLM 5.3",
-        "后训练Scaling Law",
-        "参数死亡论"
+        "后训练扩展",
+        "参数不再增加"
       ],
-      "judgment": "这是中国大模型厂商首次在公开场合系统阐述后训练Scaling Law，标志着行业共识从“拼参数”转向“拼算法和工程”。对开发者意味着，未来模型能力的提升将更多依赖推理优化和强化学习，而非等待更大参数的模型发布。",
+      "judgment": "这是模型发展路线的重要转折信号。如果后训练扩展成为主流，意味着算力投入将更多转向推理和强化学习，而非预训练，开发者需要重新思考模型选型和成本结构。",
       "confidence": 4,
       "source": "Latent Space",
       "url": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie"
     },
     {
       "rank": 2,
-      "title": "OpenAI推出AI Futures博客，探讨变革性AI的社会影响",
-      "finding": "OpenAI发布新博客平台AI Futures，旨在探讨变革性AI如何重塑权力、治理、经济和个体自由。这是OpenAI首次设立专门板块系统性地讨论AI的社会政治影响，而非仅聚焦技术产品。",
+      "title": "OpenAI推出AI Futures博客，探讨AI对权力、治理和经济的影响",
+      "finding": "OpenAI发布新博客“AI Futures”，旨在探讨变革性AI如何重塑权力、治理、经济和个体自由，标志着公司从技术输出向思想领导力延伸。",
       "key_data": [
-        "AI Futures博客",
-        "治理与经济",
-        "个体自由"
+        "AI Futures",
+        "治理",
+        "经济"
       ],
-      "judgment": "OpenAI此举表明其战略重心正从纯技术竞赛扩展到社会影响和治理层面，试图在政策制定中占据话语权。对行业而言，这预示着AI公司将在社会议题上扮演更积极的角色，也可能影响未来AI监管的方向。",
+      "judgment": "OpenAI此举意在影响AI政策话语权，为AGI时代的社会框架提前布局。对行业而言，AI治理讨论将加速，企业需关注合规与伦理风险。",
       "confidence": 5,
       "source": "OpenAI Blog",
       "url": "https://openai.com/index/introducing-ai-futures"
     },
     {
       "rank": 3,
-      "title": "ChatGPT新增Apple Messages插件，可代发短信",
-      "finding": "ChatGPT推出Apple Messages集成插件，用户可通过ChatGPT自动代发短信。这是ChatGPT在个人助手场景的重要扩展，将AI从对话工具延伸到了主动通信执行层面。",
-      "key_data": [
-        "Apple Messages",
-        "自动代发短信",
-        "个人助手场景"
-      ],
-      "judgment": "这是AI助手从“回答问题”到“替你做事”的关键一步，标志着AI在个人生活场景的渗透加深。对产品经理而言，这意味着AI的交互范式正在从“对话框”转向“代理执行”，未来应用设计需考虑如何让AI安全地代表用户行动。",
-      "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/"
-    },
-    {
-      "rank": 4,
       "title": "Grok被曝存在加密指令注入漏洞，可窃取用户数据",
-      "finding": "安全研究人员发现Grok存在“加密上下文注入”漏洞，攻击者可通过加密的恶意指令绕过安全护栏，导致Grok泄露用户数据。这是继提示注入后，LLM安全领域的又一新型攻击方式。",
+      "finding": "安全研究人员发现，Grok模型在处理加密的恶意指令时，能够绕过安全防护，导致用户数据被窃取。这是“加密上下文注入”攻击，凸显了LLM安全性的新挑战。",
       "key_data": [
         "加密上下文注入",
-        "绕过安全护栏",
-        "数据泄露"
+        "数据泄露",
+        "安全漏洞"
       ],
-      "judgment": "这一漏洞揭示了LLM安全防护的根本性缺陷——模型无法区分合法指令和恶意指令，即使指令被加密。对企业和开发者而言，这意味着依赖LLM处理敏感数据时，必须假设模型可能被攻破，需要在系统层面增加额外的安全层。",
+      "judgment": "LLM安全防线再次被突破，说明现有对齐技术仍不完善。企业部署AI代理时需警惕此类攻击，安全评估必须纳入对抗性测试。",
       "confidence": 4,
       "source": "Ars Technica",
       "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/"
     },
     {
+      "rank": 4,
+      "title": "ChatGPT新增Apple Messages插件，可代发短信",
+      "finding": "ChatGPT推出Apple Messages集成插件，用户可通过ChatGPT自动发送短信，标志着AI助手向系统级应用渗透。",
+      "key_data": [
+        "Apple Messages",
+        "插件",
+        "自动发短信"
+      ],
+      "judgment": "这是AI助手从聊天工具向操作系统级服务演进的重要一步，可能改变用户交互习惯，但也引发隐私和自主性担忧。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/"
+    },
+    {
       "rank": 5,
-      "title": "OpenAI在企业用户市场追赶Anthropic，客户忠诚度存疑",
-      "finding": "最新数据显示，OpenAI在企业用户市场的份额正在追赶Anthropic。但数据同时表明，企业客户会随各实验室发布新模型而频繁切换供应商，这种波动性让两家公司的投资者对企业AI支出的“粘性”产生疑虑。",
+      "title": "OpenAI在企业市场追赶Anthropic，客户忠诚度成疑",
+      "finding": "最新数据显示，OpenAI在企业用户中的采用率正在追赶Anthropic，但企业客户在模型间摇摆不定，表明企业AI支出缺乏粘性。",
       "key_data": [
         "企业市场份额",
-        "客户切换频繁",
-        "粘性存疑"
+        "客户流失",
+        "模型切换"
       ],
-      "judgment": "企业AI市场远未形成稳定格局，客户忠诚度极低，竞争核心仍是模型能力而非生态绑定。对创业公司而言，这意味着在模型能力差距缩小的背景下，通过数据集成和工作流深度绑定来构建护城河变得至关重要。",
+      "judgment": "企业AI市场竞争加剧，模型切换成本低意味着产品体验和生态绑定成为关键。对创业公司而言，机会在于提供跨模型的中立层。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/"
@@ -74,167 +74,194 @@
   ],
   "model_tech": [
     {
-      "source": "Hugging Face Blog",
-      "title": "LFM2.5-DSpark实现最高3.2倍推理加速",
-      "finding": "Liquid AI发布LFM2.5-DSpark，宣称推理速度最高提升3.2倍。该优化可能基于稀疏激活或蒸馏技术，旨在降低推理成本。",
+      "source": "Hugging Face",
+      "title": "LFM2.5-DSpark推理速度提升3.2倍",
+      "finding": "Liquid AI发布LFM2.5-DSpark，通过稀疏化技术实现最高3.2倍的推理加速，同时保持模型质量。",
       "key_data": [
         "3.2倍加速",
+        "稀疏化",
         "推理优化"
       ],
-      "judgment": "推理效率是模型落地的关键瓶颈，此类优化将推动AI应用成本进一步下降。",
-      "confidence": 3,
+      "judgment": "推理效率是AI落地的关键瓶颈，此类优化将降低部署成本，推动更多实时应用。",
+      "confidence": 4,
       "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
       "importance": 3
     },
     {
       "source": "ArXiv",
-      "title": "子十亿参数模型中出现实体追踪能力，超越人类表现",
-      "finding": "研究发现，参数量低于10亿的语言模型在自然叙事中已具备实体追踪能力，且表现超过人类。这表明小模型在特定推理任务上可能比预期更强大。",
+      "title": "子十亿参数模型展现实体追踪能力，超越人类表现",
+      "finding": "研究发现，小于10亿参数的模型在自然叙事中的实体追踪能力已超越人类，挑战了“大模型才能理解复杂叙事”的假设。",
       "key_data": [
-        "<10亿参数",
+        "子十亿参数",
         "实体追踪",
         "超越人类"
       ],
-      "judgment": "小模型在特定任务上的能力被低估，端侧AI和低成本推理场景可能比预期更早受益。",
+      "judgment": "小型模型在特定任务上的高效能力，可能推动端侧AI和低成本应用的发展。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2608.18083",
-      "importance": 3
+      "importance": 2
     },
     {
       "source": "ArXiv",
-      "title": "LongNovel：长上下文小说摘要幻觉检测新基准",
-      "finding": "研究者发布LongNovel基准，专门用于检测长上下文小说摘要中的幻觉问题。尽管上下文窗口大幅扩展，长文本摘要的幻觉仍是难题。",
+      "title": "LongNovel基准：长篇小说摘要幻觉检测",
+      "finding": "新基准LongNovel专门用于检测长上下文摘要中的幻觉问题，为评估长文本模型可靠性提供工具。",
       "key_data": [
-        "长上下文",
+        "LongNovel",
         "幻觉检测",
-        "新基准"
+        "长上下文"
       ],
-      "judgment": "长上下文能力与可靠性之间存在鸿沟，该基准为评估和改进长文本生成质量提供了重要工具。",
+      "judgment": "长上下文模型的幻觉问题仍是痛点，该基准有助于推动模型改进和评测标准化。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2608.18082",
       "importance": 2
     },
     {
       "source": "ArXiv",
-      "title": "SuTRA：基于词根感知的结构统一分词器",
-      "finding": "新研究提出SuTRA分词器，在统计压缩的基础上引入词根和词缀的形态学结构，以改善分词质量。",
+      "title": "编译器引导的自适应证明搜索，提升定理证明效率",
+      "finding": "新方法利用编译器信息引导证明搜索，结合跨模型协同，在Lean 4项目上显著提升定理证明的效率和成功率。",
       "key_data": [
-        "词根感知",
-        "分词器"
+        "编译器引导",
+        "定理证明",
+        "Lean 4"
       ],
-      "judgment": "分词是NLP的基础环节，形态学感知的分词器可能提升低资源语言和多语言模型的表现。",
+      "judgment": "AI辅助数学证明取得进展，可能加速形式化验证在软件工程中的应用。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2608.18087",
+      "url": "https://arxiv.org/abs/2608.18084",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "AI代理共谋风险：需认证要求",
+      "finding": "立场论文指出，具备推理能力的AI代理可能产生共谋行为，建议对参与市场决策的代理实施认证要求。",
+      "key_data": [
+        "共谋风险",
+        "认证要求",
+        "市场决策"
+      ],
+      "judgment": "AI代理进入商业决策领域，监管和认证框架的缺失可能带来系统性风险，需提前布局。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2608.18078",
       "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "Mistral AI Blog",
+      "source": "Mistral AI",
       "title": "Mistral发布Agentic Search，提升复杂文档检索效率",
-      "finding": "Mistral推出Agentic Search，一个帮助AI系统在复杂文档中导航、阅读和验证信息的检索层，旨在提高检索的准确性和效率。",
+      "finding": "Mistral推出Agentic Search，通过代理式检索层，帮助AI系统在复杂文档中导航、阅读和验证信息，提高准确性和效率。",
       "key_data": [
         "Agentic Search",
-        "复杂文档检索"
+        "检索层",
+        "复杂文档"
       ],
-      "judgment": "检索增强生成（RAG）正从简单向量搜索向智能体化检索演进，这是企业AI落地的关键方向。",
+      "judgment": "企业级RAG市场迎来新竞争者，Agentic Search可能成为Mistral差异化优势。",
       "confidence": 4,
       "url": "https://mistral.ai/news/agentic-search/",
       "importance": 3
     },
     {
       "source": "TechCrunch",
-      "title": "Google为出版商提供新按钮，应对AI搜索带来的流量损失",
-      "finding": "Google推出新功能，允许读者将特定出版商设为Search、Discover和Google News中的优先来源，以帮助出版商应对AI搜索导致的流量下滑。",
+      "title": "AI数据初创公司Micro1年化收入达5亿美元",
+      "finding": "AI训练数据需求激增，Micro1实现5亿美元的年化收入，显示数据服务市场的爆发式增长。",
       "key_data": [
-        "出版商优先按钮",
-        "AI搜索流量损失"
+        "5亿美元",
+        "训练数据",
+        "增长"
       ],
-      "judgment": "AI搜索正在重塑内容分发格局，Google此举是平衡AI体验与出版商利益的尝试，但实际效果有待观察。",
-      "confidence": 4,
-      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
-      "importance": 3
-    },
-    {
-      "source": "InfoQ",
-      "title": "AI数据初创公司Micro1实现5亿美元总运行率",
-      "finding": "AI训练数据初创公司Micro1宣布其总运行率（gross run rate）达到5亿美元，受益于AI训练数据需求的激增。",
-      "key_data": [
-        "5亿美元运行率",
-        "训练数据需求激增"
-      ],
-      "judgment": "数据是AI训练的燃料，Micro1的快速增长印证了高质量训练数据市场的巨大需求，数据服务赛道将持续火热。",
+      "judgment": "数据是AI的燃料，Micro1的快速增长印证了高质量训练数据的稀缺性，数据服务赛道值得关注。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
       "importance": 2
     },
     {
-      "source": "InfoQ",
-      "title": "AI基础设施诞生“算力期货”，华尔街开始交易GPU",
-      "finding": "随着GPU供应紧张，华尔街开始出现算力期货交易，将GPU算力视为可交易的大宗商品。",
+      "source": "TechCrunch",
+      "title": "Google为出版商提供新工具，应对AI搜索流量损失",
+      "finding": "Google推出新按钮，允许读者将出版商设为优先来源，以缓解AI搜索带来的流量下降。",
       "key_data": [
-        "算力期货",
-        "GPU交易"
+        "优先来源",
+        "流量损失",
+        "AI搜索"
       ],
-      "judgment": "算力金融化是AI基础设施成熟的重要标志，但也可能加剧算力资源的投机和集中。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/qaWyth5P4tZE1CQhhaGq?utm_source=rss&utm_medium=article",
-      "importance": 3
+      "judgment": "AI搜索对内容生态的冲击加剧，Google此举是平衡出版商利益与AI体验的尝试，但效果待观察。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+      "importance": 2
     },
     {
-      "source": "极客公园",
-      "title": "支付宝明确智能体商业化路径，开收“中介费”",
-      "finding": "支付宝在AI生态合作伙伴大会上明确智能体商业化预期，提出通过“意图”匹配和“中介费”模式变现，标志着其从“支付可以用AI”转向“AI可以赚钱”。",
+      "source": "量子位",
+      "title": "网易有道Q2净收入14.7亿元，AI原生战略兑现",
+      "finding": "网易有道发布2026年Q2财报，净收入14.7亿元，AI原生战略加速商业化，显示教育AI的盈利能力。",
       "key_data": [
-        "智能体商业化",
-        "中介费模式"
+        "14.7亿元",
+        "AI原生",
+        "商业化"
       ],
-      "judgment": "超级App的AI商业化探索进入实质阶段，其“中介费”模式可能成为国内AI Agent变现的重要参考。",
+      "judgment": "教育AI赛道商业化验证成功，AI原生战略成为增长引擎，为同类公司提供参考。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/08/476400.html",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "AI基础设施出现“算力期货”，华尔街开始交易GPU",
+      "finding": "随着GPU供应紧张，华尔街开始交易算力期货，AI基础设施正演变为大宗商品市场。",
+      "key_data": [
+        "算力期货",
+        "GPU交易",
+        "华尔街"
+      ],
+      "judgment": "算力金融化将影响AI成本结构，企业需关注算力价格波动，提前锁定资源。",
       "confidence": 3,
-      "url": "http://www.geekpark.net/news/369078",
-      "importance": 3
+      "url": "https://www.infoq.cn/article/qaWyth5P4tZE1CQhhaGq",
+      "importance": 2
     }
   ],
   "opinions": [
     {
       "person": "唐杰",
       "level": "L1",
-      "quote": "行业已从预训练Scaling Law转向后训练Scaling Law，GLM 5.3是这一新范式的代表，参数规模不再是决定模型能力的关键。",
+      "quote": "“参数之死”：后训练扩展成为新范式，GLM 5.3通过后训练实现能力跃升，而非增加参数。",
       "source": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie"
+    },
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "ChatGPT搜索大规模使用site:操作符，GEO（生成式引擎优化）正在兴起，类似SEO的新领域。",
+      "source": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/"
     },
     {
       "person": "Gergely Orosz",
       "level": "L2",
-      "quote": "Asana在两周内完成了原本可能拖延数年的测试框架迁移，AI在代码迁移和重构方面的效率提升是革命性的。",
+      "quote": "AI辅助迁移：Asana用AI在两周内完成测试框架迁移，否则可能推迟数年，AI正在改变工程效率。",
       "source": "https://newsletter.pragmaticengineer.com/p/the-pulse-we-need-to-talk-about-migrations"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "后训练Scaling Law的实践与影响",
-      "reason": "唐杰的“参数死亡”论可能预示行业范式转变，值得深入探究后训练阶段的具体技术路径和资源投入。",
+      "topic": "后训练扩展的兴起：从参数竞赛到算法优化",
+      "reason": "唐杰的“参数之死”观点可能标志行业范式转变，值得深入分析后训练技术栈和算力分配。",
       "priority": "high"
     },
     {
-      "topic": "LLM安全防护的边界：加密上下文注入攻击",
-      "reason": "新型攻击方式暴露了LLM安全防护的根本缺陷，对依赖LLM处理敏感数据的企业有重大警示意义。",
+      "topic": "LLM安全漏洞：加密上下文注入攻击的防御",
+      "reason": "Grok漏洞暴露新攻击面，安全社区需研究防御机制，对AI代理部署至关重要。",
       "priority": "high"
     },
     {
-      "topic": "企业AI客户忠诚度与市场格局",
-      "reason": "企业客户频繁切换模型供应商，对AI公司的商业模式和护城河构建有深远影响。",
+      "topic": "企业AI市场粘性：OpenAI vs Anthropic竞争分析",
+      "reason": "企业客户切换模型频繁，影响AI公司估值和产品策略，值得深入调研。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "后训练时代来临，AI安全与商业化并进",
-  "summary_paragraph": "今日AI行业呈现出“技术范式转移”与“商业化加速”并行的态势。智谱CEO唐杰提出“参数死亡”论，宣告后训练Scaling Law时代的到来，标志着行业竞争焦点从模型规模转向算法优化。与此同时，OpenAI推出AI Futures博客布局社会影响力，ChatGPT新增Apple Messages插件向个人代理场景渗透，而Grok被曝出的加密指令注入漏洞则再次敲响AI安全警钟。企业市场上，OpenAI与Anthropic的客户争夺战进入白热化，客户忠诚度成为双方共同的隐忧。整体来看，行业正从单纯的模型竞赛，转向技术、安全、商业化和社会影响的多维博弈。",
+  "summary_one_line": "后训练扩展兴起，AI安全与商业化并进",
+  "summary_paragraph": "今日AI行业动态聚焦于模型发展范式的转变：智谱CEO唐杰提出“参数之死”，强调后训练扩展成为新方向，GLM 5.3的发布印证了这一趋势。同时，OpenAI推出AI Futures博客，积极布局AI治理话语权，而Grok的安全漏洞则提醒我们AI安全仍任重道远。在企业市场，OpenAI正追赶Anthropic，但客户忠诚度成为隐忧。此外，Mistral发布Agentic Search，Micro1年收入达5亿美元，显示AI基础设施和数据服务市场的蓬勃发展。整体来看，行业正从单纯的参数竞赛转向算法优化、安全加固和商业化落地并重的阶段。",
   "snapshot": {
     "date": "2026-08-21",
     "hf_trending": [
       {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 11755,
+        "likes": 11764,
         "downloads": 1373584,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -250,7 +277,7 @@
       {
         "name": "unsloth/Qwen3.8-27B-GGUF",
         "short_name": "Qwen3.8-27B-GGUF",
-        "likes": 2368,
+        "likes": 2372,
         "downloads": 5126652,
         "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
         "tags": [
@@ -266,7 +293,7 @@
       {
         "name": "MiniMaxAI/MiniMax-Music3",
         "short_name": "MiniMax-Music3",
-        "likes": 1107,
+        "likes": 1114,
         "downloads": 14471,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
         "tags": [
@@ -298,7 +325,7 @@
       {
         "name": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
         "short_name": "Qwen3.8-27B-Uncensored-MLX",
-        "likes": 715,
+        "likes": 718,
         "downloads": 2628,
         "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
         "tags": [
@@ -314,7 +341,7 @@
       {
         "name": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
         "short_name": "Qwen3.8-27B-Uncensored-FP8",
-        "likes": 680,
+        "likes": 682,
         "downloads": 76109,
         "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
         "tags": [
@@ -330,7 +357,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 1418,
+        "likes": 1420,
         "downloads": 611825,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -346,7 +373,7 @@
       {
         "name": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "short_name": "Qwen3.8-27B-Uncensored-GGUF",
-        "likes": 516,
+        "likes": 519,
         "downloads": 979768,
         "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
         "tags": [
@@ -364,7 +391,7 @@
       {
         "name": "modular/modular",
         "desc": "The Modular Platform (includes MAX &amp; Mojo)",
-        "stars": 27993,
+        "stars": 28037,
         "stars_today": 268,
         "forks": 3001,
         "language": "Mojo",
@@ -373,25 +400,25 @@
       {
         "name": "mattpocock/skills",
         "desc": "Skills for Real Engineers. Straight from my .agents directory.",
-        "stars": 226678,
+        "stars": 226853,
         "stars_today": 2192,
-        "forks": 19437,
+        "forks": 19450,
         "language": "Shell",
         "url": "https://github.com/mattpocock/skills"
       },
       {
         "name": "AprilNEA/OpenLogi",
         "desc": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, an",
-        "stars": 11950,
+        "stars": 12004,
         "stars_today": 1545,
-        "forks": 324,
+        "forks": 325,
         "language": "Rust",
         "url": "https://github.com/AprilNEA/OpenLogi"
       },
       {
         "name": "obra/superpowers",
         "desc": "An agentic skills framework &amp; software development methodology that works.",
-        "stars": 274980,
+        "stars": 275014,
         "stars_today": 727,
         "forks": 24612,
         "language": "Shell",
@@ -400,7 +427,7 @@
       {
         "name": "cursor/plugins",
         "desc": "Cursor plugin specification and official plugins",
-        "stars": 4106,
+        "stars": 4128,
         "stars_today": 449,
         "forks": 341,
         "language": "TypeScript",
@@ -519,6 +546,6 @@
         "url": "https://openrouter.ai/poolside/laguna-s-2.1:free"
       }
     ],
-    "hf_summary": "开源社区集中复刻Qwen3.8，多模态成绝对主线"
+    "hf_summary": "通义系模型霸榜，多模态成绝对主流"
   }
 }
