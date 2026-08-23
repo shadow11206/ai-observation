@@ -1,6 +1,13 @@
 {
-  "total": 148,
+  "total": 149,
   "reports": [
+    {
+      "date": "2026-08-23",
+      "title": "今日 AI 日报：DeepMind 校友创立的 Inherent 发布 AI 研究助手 Faraday，声称在复现科研论文任务上超越 Anthropic 和 OpenAI + 4 条重要动态",
+      "excerpt": "如果 Faraday 的能力属实，这标志着 AI Agent 的应用边界从软件工…",
+      "top_count": 5,
+      "file": "2026-08-23.json"
+    },
     {
       "date": "2026-08-22",
       "title": "今日 AI 日报：DeepSeek 发布多模态模型 V4-Flash-Vision-Exp，Agent 能力接近 Opus-4.8 + 4 条重要动态",
