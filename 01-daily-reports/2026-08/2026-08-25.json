@@ -4,125 +4,143 @@
     {
       "rank": 1,
       "title": "OpenAI 发布 GPT-5.6 并大幅降价，开发者成本再降",
-      "finding": "OpenAI 在 Kiro 中推出 GPT-5.6，主打性价比提升，并宣布 Sol 模型降价（至少持续到 11 月 21 日）。这延续了 OpenAI 通过降价吸引开发者的策略，同时强化了 AI 编程场景的竞争力。",
+      "finding": "OpenAI 宣布 GPT-5.6 现已在 Kiro 中可用，帮助开发者规划、构建、审查和测试软件，同时提供更好的性价比。此外，OpenAI 宣布 Sol 价格大幅下调，至少持续到 11 月 21 日，引发开发者社区热议。",
       "key_data": [
-        "GPT-5.6 上线",
-        "Sol 降价",
-        "至少持续到 11 月"
+        "GPT-5.6 上线 Kiro",
+        "Sol 降价至 11 月",
+        "HN 307 分热议"
       ],
-      "judgment": "对开发者是重大利好，成本降低将加速 AI 编程应用普及，但也加剧了与 Claude、Gemini 的竞争，市场将更注重性价比。",
+      "judgment": "这意味着 OpenAI 正在通过价格战巩固开发者生态，同时将模型能力深度集成到编程工具中。对开发者而言，AI 编程成本进一步降低，可能加速 AI 原生开发流程的普及。",
       "confidence": 5,
-      "source": "OpenAI 官方博客",
+      "source": "OpenAI Blog / Hacker News",
       "url": "https://openai.com/index/gpt-5-6-in-kiro"
     },
     {
       "rank": 2,
-      "title": "Hugging Face 或以 130 亿美元寻求出售，AI 中间层整合加速",
-      "finding": "据外媒报道，Hugging Face 正在探索出售，估值可能达 130 亿美元，已聘请投行试探买家。这标志着 AI 基础设施层开始整合，开源社区平台面临商业化压力。",
+      "title": "Hugging Face 或以 130 亿美元估值寻求出售",
+      "finding": "据外媒报道，Hugging Face 正在探索出售，估值可能达到 130 亿美元甚至更高，已聘请投行试探买家兴趣。该公司是 AI 开源社区的核心平台，拥有海量模型和数据集。",
       "key_data": [
-        "130 亿美元估值",
-        "聘请投行",
-        "探索出售"
+        "估值 130 亿美元",
+        "已聘请投行",
+        "2023 年 D 轮融资"
       ],
-      "judgment": "对开源生态影响深远，若被大厂收购可能改变中立性，开发者需关注模型托管和分发渠道的潜在变化。",
+      "judgment": "这是 AI 中间层公司整合的信号。若出售成真，可能影响开源生态的独立性，也反映出 AI 基础设施领域并购潮的加剧。对开发者而言，需关注平台归属变化对模型分发和社区的影响。",
       "confidence": 4,
       "source": "极客公园",
       "url": "http://www.geekpark.net/news/369289"
     },
     {
       "rank": 3,
-      "title": "字节跳动整合 TRAE、扣子入豆包，推出统一办公品牌「豆包工作」",
-      "finding": "字节跳动将 TRAE、扣子团队并入豆包体系，TRAE Work 和扣子与豆包工作场景整合，TRAE IDE 及 CLI 作为编程产品线保留。这明确了豆包作为 AI 主干业务的定位，统一办公 AI 入口。",
+      "title": "字节跳动整合办公 AI：TRAE、扣子并入豆包，推出「豆包工作」",
+      "finding": "字节跳动对旗下办公 AI 产品完成团队整合，TRAE、扣子（Coze）整体并入豆包体系，TRAE Work 和扣子将与豆包整合，TRAE IDE 及 CLI 作为编程产品线继续发展。同时字节将推出统一办公品牌「豆包工作」。",
       "key_data": [
         "TRAE 并入豆包",
         "扣子并入豆包",
-        "推出「豆包工作」"
+        "推出豆包工作"
       ],
-      "judgment": "字节在 AI 办公领域集中资源，可能对国内协同办公市场产生冲击，开发者需关注 TRAE 产品线的独立性和未来方向。",
+      "judgment": "字节跳动正在集中资源打造统一的 AI 办公入口，这反映了国内大厂在 AI 应用层的战略收缩与聚焦。对开发者而言，TRAE IDE 的独立发展意味着编程工具仍是重点，但生态整合可能带来更多协同。",
       "confidence": 4,
       "source": "极客公园",
       "url": "http://www.geekpark.net/news/369303"
     },
     {
       "rank": 4,
-      "title": "AI 编程依赖或导致开发者技能退化，引发行业热议",
-      "finding": "一篇题为《Coding expertise is going to collapse from AI reliance》的文章在 Hacker News 引发 467 点讨论，作者认为过度依赖 AI 编码工具会削弱开发者的核心技能，长期可能导致行业整体能力下降。",
+      "title": "ResNet 作者任少卿机器人创业，公司注册即独角兽",
+      "finding": "ResNet 作者任少卿开启机器人创业，公司刚注册就达到独角兽估值。任少卿目前仍在蔚来任职，但已明确机器人创业方向。",
       "key_data": [
-        "467 点讨论",
-        "技能退化",
-        "AI 依赖"
+        "ResNet 作者",
+        "公司注册即独角兽",
+        "仍在蔚来任职"
       ],
-      "judgment": "这是对 AI 编程浪潮的冷静反思，提醒开发者和企业在效率与能力建设之间平衡，可能推动更多关于 AI 辅助学习与培训的讨论。",
+      "judgment": "顶级 AI 研究者转向机器人领域，再次印证具身智能是下一波浪潮。任少卿的加入可能加速视觉与机器人结合的技术突破，对国内具身智能赛道是重大利好。",
       "confidence": 4,
-      "source": "Hacker News",
-      "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise"
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/08/478675.html"
     },
     {
       "rank": 5,
-      "title": "General Intuition 以 60 亿美元估值融资，AI 机器人赛道持续升温",
-      "finding": "AI 初创公司 General Intuition 正在洽谈以 60 亿美元投前估值融资，投资方包括 Valor 和 Point72。该公司专注于构建训练通用 AI 代理在空间和时间中移动的基础模型，进军机器人领域。",
+      "title": "AI 编程依赖或导致开发者专业技能崩溃，引发行业反思",
+      "finding": "一篇题为《Coding expertise is going to collapse from AI reliance》的文章在 Hacker News 引发热议（485 分，475 条评论），作者认为过度依赖 AI 编程工具可能导致开发者专业技能退化。",
       "key_data": [
-        "60 亿美元估值",
-        "Valor 投资",
-        "Point72 投资"
+        "HN 485 分",
+        "475 条评论",
+        "专业技能退化"
       ],
-      "judgment": "资本持续涌入具身智能，基础模型公司向机器人延伸成为趋势，但高估值也带来商业化验证压力。",
+      "judgment": "这是对 AI 编程热潮的重要反思。虽然 AI 工具提升效率，但长期依赖可能削弱开发者的深层能力。对团队管理者而言，需要平衡效率与技能培养，避免「工具依赖症」。",
       "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/"
+      "source": "Hacker News",
+      "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise"
     }
   ],
   "model_tech": [
     {
-      "source": "arXiv",
-      "title": "SDAD：面向 AI 原生软件开发生命周期的规范驱动智能体开发",
-      "finding": "论文提出 SDAD 方法，利用大上下文窗口的编码智能体重构软件开发生命周期，强调规范驱动。",
+      "source": "ArXiv",
+      "title": "SDAD：面向 AI 原生软件开发生命周期的规范驱动代理开发",
+      "finding": "论文提出 SDAD 方法，利用百万 token 上下文窗口的前沿编码代理重构软件开发生命周期，实现规范驱动的自动化开发。",
       "key_data": [
+        "百万 token 上下文",
         "规范驱动",
-        "AI 原生 SDLC"
+        "SDLC 重构"
       ],
-      "judgment": "为 AI 编程提供新范式，可能影响未来开发工具设计。",
+      "judgment": "这代表 AI 编程从代码补全走向全流程自动化，可能改变软件开发的组织方式。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2608.20341",
       "importance": 3
     },
     {
-      "source": "arXiv",
-      "title": "PrimeAgentOrchestrator：记忆初始化的智能体生成，用于个人 AI 基础设施",
-      "finding": "论文提出记忆初始化的智能体生成方法，解决 LLM 编码智能体每次会话丢失上下文的问题。",
+      "source": "ArXiv",
+      "title": "PrimeAgentOrchestrator：记忆启动的代理生成，构建个人 AI 基础设施",
+      "finding": "论文提出 PrimeAgentOrchestrator，解决 LLM 编码代理每次会话空上下文的问题，通过记忆启动的代理生成，实现跨会话知识积累。",
       "key_data": [
-        "记忆初始化",
-        "智能体生成"
+        "记忆启动",
+        "跨会话知识",
+        "个人 AI 基础设施"
       ],
-      "judgment": "提升智能体连续性，对个人 AI 助手和编码工具有价值。",
+      "judgment": "解决代理记忆问题，是提升 AI 代理实用性的关键一步，可能推动个人 AI 助手的进化。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2608.20342",
-      "importance": 2
+      "importance": 3
     },
     {
-      "source": "arXiv",
-      "title": "多模态智能体框架基础与前沿综述",
-      "finding": "综述了多模态智能体框架的技术与应用，涵盖推理、规划与行动能力。",
+      "source": "ArXiv",
+      "title": "多模态代理框架基础与前沿综述",
+      "finding": "综述文章系统梳理了多模态代理框架的技术与应用，涵盖推理、规划、行动等能力，是该领域的重要参考。",
       "key_data": [
-        "多模态",
-        "智能体框架"
+        "多模态代理",
+        "综述",
+        "推理规划行动"
       ],
-      "judgment": "为多模态智能体研究提供系统参考，推动跨模态应用。",
+      "judgment": "多模态代理是 AI 应用的重要方向，此综述有助于开发者快速了解技术全景。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2608.20379",
       "importance": 2
     },
     {
-      "source": "arXiv",
+      "source": "ArXiv",
       "title": "BF1：高效长上下文 Transformer 的因果二元稀疏注意力改造",
-      "finding": "提出 BF1 方法，通过确定性块稀疏注意力降低长上下文计算成本。",
+      "finding": "论文提出 BF1，一种确定性块稀疏注意力机制，用于降低长上下文 Transformer 的计算成本，同时保持性能。",
       "key_data": [
         "稀疏注意力",
-        "长上下文"
+        "长上下文",
+        "计算效率"
       ],
-      "judgment": "可能提升长文本处理效率，对大规模模型部署有积极意义。",
+      "judgment": "长上下文是模型趋势，效率优化是落地关键，BF1 可能为长上下文模型提供更经济的方案。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2608.20427",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv",
+      "title": "抑制性注意力：缓解 EHR 处理中的长上下文丢失问题",
+      "finding": "论文针对电子健康记录超长上下文导致的 lost-in-the-middle 问题，提出抑制性注意力机制，改善临床长上下文推理。",
+      "key_data": [
+        "EHR 超长上下文",
+        "lost-in-the-middle",
+        "临床推理"
+      ],
+      "judgment": "医疗领域长上下文处理是刚需，该研究可能提升 AI 在临床决策中的可靠性。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2608.20348",
       "importance": 2
     }
   ],
@@ -130,98 +148,108 @@
     {
       "source": "量子位",
       "title": "中诚华隆发布 HL200 推理芯片及超节点集群，定义国产推理算力新范式",
-      "finding": "中诚华隆推出 HL200 推理芯片和超节点集群，支持万卡级 AI 推理算力规模化部署。",
+      "finding": "中诚华隆推出 HL200 推理芯片及超节点集群，实现从单芯片到万卡集群的体系化突破，赋能万卡级 AI 推理算力规模化落地。",
       "key_data": [
         "HL200 芯片",
-        "万卡集群"
+        "万卡集群",
+        "国产推理算力"
       ],
-      "judgment": "国产推理芯片进展值得关注，但生态和性能仍需验证。",
+      "judgment": "国产推理芯片的突破有助于降低对进口算力的依赖，对国内 AI 基础设施自主可控意义重大。",
       "confidence": 3,
       "url": "https://www.qbitai.com/2026/08/478469.html",
-      "importance": 2
+      "importance": 3
     },
     {
       "source": "量子位",
       "title": "阿里达摩院推出肝癌 AI 模型 DAMO LiON，精准识别 1 厘米微小肿瘤",
-      "finding": "达摩院联合盛京医院研发肝癌诊断 AI 模型，能识别 1 厘米微小肿瘤，提升早期诊断能力。",
+      "finding": "阿里巴巴达摩院联合中国医科大学附属盛京医院等机构研发出肝癌诊断 AI 模型 DAMO LiON，能精准识别 1 厘米微小肿瘤。",
       "key_data": [
+        "肝癌 AI 模型",
         "1 厘米肿瘤",
-        "肝癌诊断"
+        "达摩院"
       ],
-      "judgment": "AI 医疗落地案例，展现垂直领域价值，但临床推广仍需验证。",
+      "judgment": "AI 在医疗影像诊断的落地又进一步，精准识别微小肿瘤对早期肝癌筛查意义重大，可能推动 AI 医疗商业化。",
       "confidence": 4,
       "url": "https://www.qbitai.com/2026/08/478473.html",
-      "importance": 2
+      "importance": 3
     },
     {
-      "source": "InfoQ",
-      "title": "GitHub 公开预览 Stacked Pull Requests 功能",
-      "finding": "GitHub 推出 Stacked Pull Requests 公开预览，支持开发者更高效地管理多个依赖的 PR。",
+      "source": "TechCrunch",
+      "title": "General Intuition 以 60 亿美元估值融资，押注机器人基础模型",
+      "finding": "General Intuition 正在洽谈以 60 亿美元投前估值融资，投资方包括 Valor 和 Point72，该公司构建训练通用 AI 代理在空间和时间中移动的基础模型。",
       "key_data": [
-        "Stacked PR",
-        "公开预览"
+        "60 亿美元估值",
+        "Valor 投资",
+        "机器人基础模型"
       ],
-      "judgment": "提升大型代码库协作效率，与 AI 编程工具结合可能成为新工作流。",
+      "judgment": "机器人基础模型赛道持续升温，大额融资表明资本对具身智能的长期信心，可能加速通用机器人落地。",
       "confidence": 4,
-      "url": "https://www.infoq.cn/article/zdc3HzpvqA96jwWA6lGb",
-      "importance": 2
+      "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
+      "importance": 3
     },
     {
       "source": "InfoQ",
       "title": "AgentCore 推出持久计算，多个 AI 智能体可同住一台 EC2",
-      "finding": "AgentCore 提供持久计算服务，允许多个 AI 智能体共享一台 EC2 实例，降低运行成本。",
+      "finding": "AgentCore 推出持久计算服务，允许多个 AI 智能体在同一台 EC2 实例上运行，提高资源利用率。",
       "key_data": [
         "持久计算",
+        "多智能体",
         "EC2 共享"
       ],
-      "judgment": "降低智能体部署成本，可能推动更多 AI 应用落地。",
+      "judgment": "AI 智能体部署成本是落地瓶颈，持久计算方案可能降低运营成本，推动更多企业采用 AI 代理。",
       "confidence": 3,
       "url": "https://www.infoq.cn/article/2IBWc7BuB2qoGao5tlQT",
       "importance": 2
     },
     {
-      "source": "InfoQ",
-      "title": "SpaceXAI 推出面向自主 AI 智能代理的 Grok Bot",
-      "finding": "SpaceXAI 发布 Grok Bot，面向自主 AI 智能代理，扩展 Grok 生态。",
+      "source": "极客公园",
+      "title": "小米发布三颗新芯片，玄戒 O3 跑分突破 500 万",
+      "finding": "小米一口气发布玄戒 O3、玄戒 O100、玄戒 D100 三颗芯片，其中玄戒 O3 安兔兔跑分 522 万，成为首颗突破 500 万分的旗舰手机 SoC。",
       "key_data": [
-        "Grok Bot",
-        "自主代理"
+        "玄戒 O3",
+        "跑分 522 万",
+        "三颗芯片"
       ],
-      "judgment": "xAI 生态扩展，但具体能力和应用场景尚不明确。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/a2Y7bOxLHZfCVWtKhAtQ",
+      "judgment": "小米自研芯片的突破可能改变手机 AI 算力格局，对端侧 AI 应用是利好，但需关注实际落地效果。",
+      "confidence": 4,
+      "url": "http://www.geekpark.net/news/369302",
       "importance": 2
     }
   ],
   "opinions": [
     {
-      "person": "Amjad Masad",
-      "level": "L1",
-      "quote": "Replit CEO 将参加 TechCrunch Disrupt 2026，分享对编程未来的看法，强调 AI 在编程中的角色。",
-      "source": "https://techcrunch.com/2026/08/24/amjad-masad-ceo-and-co-founder-of-replit-joins-the-disrupt-stage-at-techcrunch-disrupt-2026/"
+      "person": "Andrew Ng",
+      "level": "L2",
+      "quote": "Andrew Ng 开始涉足 AI 工程领域，可能带来新的工程实践洞察。",
+      "source": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI 编程依赖对开发者技能长期影响",
-      "reason": "热议话题，涉及行业人才发展和工具设计，值得深入调研。",
+      "topic": "AI 编程工具对开发者专业技能的影响",
+      "reason": "HN 热议话题，涉及 AI 编程的长期影响，值得深入研究。",
       "priority": "high"
     },
     {
-      "topic": "Hugging Face 出售对开源生态的影响",
-      "reason": "若出售成真，将重塑 AI 基础设施格局，影响开发者社区。",
+      "topic": "Hugging Face 出售对开源 AI 生态的影响",
+      "reason": "开源社区核心平台可能易主，影响深远。",
       "priority": "high"
+    },
+    {
+      "topic": "字节跳动 AI 办公整合战略",
+      "reason": "国内大厂 AI 应用整合趋势，值得关注。",
+      "priority": "medium"
     }
   ],
-  "summary_one_line": "GPT-5.6降价、字节整合AI办公、Hugging Face或出售",
-  "summary_paragraph": "今日 AI 行业动态密集：OpenAI 发布 GPT-5.6 并降价，强化开发者吸引力；字节跳动整合 TRAE 和扣子入豆包，统一办公 AI 入口；Hugging Face 传出 130 亿美元出售意向，开源生态面临变局。同时，AI 编程依赖导致技能退化的讨论引发热议，资本继续涌入机器人赛道。整体来看，行业在效率与生态之间寻求平衡，竞争加剧。",
+  "summary_one_line": "模型降价、开源平台易主、巨头整合，AI 行业加速洗牌。",
+  "summary_paragraph": "今日 AI 行业动态密集：OpenAI 发布 GPT-5.6 并大幅降价，进一步压低开发者使用成本；Hugging Face 传出 130 亿美元出售消息，开源生态面临变局；字节跳动整合 TRAE 和扣子，推出「豆包工作」，国内 AI 办公市场格局生变。同时，ResNet 作者任少卿入局机器人创业，具身智能赛道再添重磅玩家。AI 编程依赖引发的技能退化讨论也引发社区反思。整体来看，行业在模型、产品、资本多个层面加速整合与分化，开发者需关注生态变化带来的机遇与风险。",
   "snapshot": {
     "date": "2026-08-25",
     "hf_trending": [
       {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 12519,
+        "likes": 12527,
         "downloads": 2645226,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -237,7 +265,7 @@
       {
         "name": "unsloth/Qwen3.8-27B-GGUF",
         "short_name": "Qwen3.8-27B-GGUF",
-        "likes": 2839,
+        "likes": 2842,
         "downloads": 7009063,
         "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
         "tags": [
@@ -253,7 +281,7 @@
       {
         "name": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
         "short_name": "Qwen3.8-27B-Uncensored-MLX",
-        "likes": 1030,
+        "likes": 1035,
         "downloads": 57947,
         "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
         "tags": [
@@ -269,7 +297,7 @@
       {
         "name": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
         "short_name": "Qwen3.8-27B-OBLITERATED",
-        "likes": 697,
+        "likes": 699,
         "downloads": 312627,
         "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
         "tags": [
@@ -285,7 +313,7 @@
       {
         "name": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
         "short_name": "Qwen3.8-27B-Uncensored-FP8",
-        "likes": 1098,
+        "likes": 1100,
         "downloads": 224114,
         "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
         "tags": [
@@ -301,7 +329,7 @@
       {
         "name": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "short_name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-        "likes": 583,
+        "likes": 585,
         "downloads": 761975,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "tags": [
@@ -317,7 +345,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 1725,
+        "likes": 1726,
         "downloads": 790378,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -333,7 +361,7 @@
       {
         "name": "ornith-ai/Ornith-1.5-35B-A3B",
         "short_name": "Ornith-1.5-35B-A3B",
-        "likes": 399,
+        "likes": 402,
         "downloads": 60294,
         "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B",
         "tags": [
@@ -351,45 +379,45 @@
       {
         "name": "Alishahryar1/free-claude-code",
         "desc": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, ",
-        "stars": 49041,
+        "stars": 49110,
         "stars_today": 891,
-        "forks": 8005,
+        "forks": 8012,
         "language": "Python",
         "url": "https://github.com/Alishahryar1/free-claude-code"
       },
       {
         "name": "openai/codex",
         "desc": "Lightweight coding agent that runs in your terminal",
-        "stars": 117144,
+        "stars": 117253,
         "stars_today": 1994,
-        "forks": 17861,
+        "forks": 17881,
         "language": "Rust",
         "url": "https://github.com/openai/codex"
       },
       {
         "name": "MadsLorentzen/ai-job-search",
         "desc": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluat",
-        "stars": 34125,
+        "stars": 34182,
         "stars_today": 434,
-        "forks": 11909,
+        "forks": 11918,
         "language": "Python",
         "url": "https://github.com/MadsLorentzen/ai-job-search"
       },
       {
         "name": "multica-ai/andrej-karpathy-skills",
         "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations",
-        "stars": 206565,
+        "stars": 206631,
         "stars_today": 588,
-        "forks": 21091,
+        "forks": 21094,
         "language": "—",
         "url": "https://github.com/multica-ai/andrej-karpathy-skills"
       },
       {
         "name": "makeplane/plane",
         "desc": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management ",
-        "stars": 57964,
+        "stars": 57995,
         "stars_today": 243,
-        "forks": 5491,
+        "forks": 5494,
         "language": "TypeScript",
         "url": "https://github.com/makeplane/plane"
       }
@@ -411,7 +439,7 @@
         "slug": "deepseek/deepseek-v4-flash",
         "name": "DeepSeek V4 Flash 0423",
         "org": "deepseek",
-        "total_tokens": 2516460162479,
+        "total_tokens": 2516460357667,
         "total_tokens_str": "2.5T",
         "api_calls": 0,
         "change": 11.1,
@@ -506,6 +534,6 @@
         "url": "https://openrouter.ai/anthropic/claude-opus-5"
       }
     ],
-    "hf_summary": "开源社区聚焦Qwen多模态变体，视频生成崭露头角"
+    "hf_summary": "Qwen3.8霸榜多模态，衍生模型成主流趋势"
   }
 }
