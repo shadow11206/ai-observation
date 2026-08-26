@@ -3,74 +3,72 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "OpenAI发布自研推理芯片Jalapeño，推理速度与效率行业领先",
-      "finding": "OpenAI公布了其定制推理芯片Jalapeño的首批结果，宣称在推理速度和能效上达到行业领先水平，吞吐量更高、延迟更低。这标志着OpenAI从依赖外部GPU转向自研芯片，进一步掌控AI基础设施。",
+      "title": "OpenAI发布自研推理芯片Jalapeño，推理性能行业领先",
+      "finding": "OpenAI公布了其自研定制推理芯片Jalapeño的首批测试结果，宣称在推理速度和能效上达到行业领先水平，为现代模型提供更高吞吐量和更低延迟。这是OpenAI在算力自主化道路上的关键一步，旨在减少对英伟达的依赖。",
       "key_data": [
         "自研推理芯片",
         "行业领先速度",
-        "更高吞吐量",
-        "更低延迟"
+        "更高能效",
+        "降低英伟达依赖"
       ],
-      "judgment": "这是AI基础设施自主化的标志性事件。OpenAI自研芯片将降低对NVIDIA的依赖，长期可能改变AI算力市场格局，对依赖GPU的云厂商和芯片竞争对手构成压力。",
+      "judgment": "这意味着AI算力供给格局将发生根本性变化。头部模型实验室开始自研芯片，将打破英伟达一家独大的局面，长期看会降低AI推理成本，对下游应用开发者是重大利好。",
       "confidence": 5,
       "source": "OpenAI Blog",
       "url": "https://openai.com/index/jalapeno-first-results"
     },
     {
       "rank": 2,
-      "title": "字节跳动发布AI办公产品「豆包工作」，Agent时代巨头战役打响",
-      "finding": "字节跳动正式推出面向生产力场景的Agent产品「豆包工作」，能自主拆解任务、调用工具完成文档、表格、PPT制作，并可通过虚拟桌面操作电脑和浏览器，接入飞书后还能调用企业上下文完成复杂工作。",
+      "title": "字节跳动发布AI办公产品「豆包工作」，正式进军Agent办公市场",
+      "finding": "字节跳动正式发布面向生产力场景的Agent产品「豆包工作」，可自主拆解任务、调用工具完成文档、表格、PPT等制作，并能接入飞书调用企业上下文完成复杂工作。这标志着字节AI产品线向豆包品牌集结，全面发力Agent时代。",
       "key_data": [
         "豆包工作",
         "自主拆解任务",
-        "虚拟桌面操作",
-        "接入飞书"
+        "接入飞书",
+        "Agent办公"
       ],
-      "judgment": "字节跳动将AI能力整合进办公场景，直接对标微软Copilot和Google Workspace，标志着中国AI巨头在Agent办公赛道的正式发力，可能重塑企业办公软件市场格局。",
+      "judgment": "字节跳动将AI竞争从模型层拉到了应用层，直接对标微软Copilot和Notion AI。凭借飞书的企业生态和豆包的流量入口，这可能是国内AI办公Agent走向大规模普及的转折点。",
       "confidence": 4,
       "source": "极客公园",
       "url": "http://www.geekpark.net/news/369344"
     },
     {
       "rank": 3,
-      "title": "Anthropic为Claude Cowork增加共享记忆，告别重复简报",
-      "finding": "Anthropic为Claude Cowork引入共享记忆功能，用户无需在每次对话中重复项目背景和偏好，AI能跨聊天和Cowork记住上下文，提升协作效率。",
-      "key_data": [
-        "共享记忆",
-        "跨聊天",
-        "Cowork",
-        "上下文保持"
-      ],
-      "judgment": "这是Agent产品在用户体验上的重要改进，解决了AI协作中的关键痛点。共享记忆将提升用户粘性，推动Agent从工具向真正的“同事”演进，可能成为行业标配。",
-      "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/"
-    },
-    {
-      "rank": 4,
-      "title": "斯坦福研究：AI正冲击入门级岗位，就业市场结构生变",
-      "finding": "斯坦福大学的一项研究发现，AI对入门级岗位的影响最大，这些岗位的招聘需求和工作内容正在被AI工具替代或改变，引发对就业市场结构性变化的担忧。",
+      "title": "斯坦福研究：AI正对入门级岗位冲击最大",
+      "finding": "斯坦福大学的一项新研究发现，AI对入门级工作的冲击最为严重。该研究在Hacker News上引发广泛讨论，反映了AI技术对劳动力市场结构性影响的担忧正在加剧。",
       "key_data": [
         "入门级岗位",
-        "就业冲击",
+        "冲击最大",
         "斯坦福研究"
       ],
-      "judgment": "这是AI对劳动力市场影响的实证信号，对教育体系、职业培训和政府政策提出新挑战。开发者和管理者需关注AI对初级岗位的替代效应，并思考如何重新设计职业路径。",
+      "judgment": "这印证了AI对就业市场的影响不是均匀的，而是从金字塔底部开始。对企业和产品经理而言，这意味着需要重新思考人才梯队建设和技能培训体系，以应对AI带来的劳动力结构变化。",
       "confidence": 4,
       "source": "Ars Technica",
       "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/"
     },
     {
-      "rank": 5,
-      "title": "Ramp自研内部编码Agent Inspect，领先前沿实验室",
-      "finding": "金融科技公司Ramp没有采用现成的编码Agent，而是自研了内部工具Inspect，并声称在编码效率上领先于前沿AI实验室的产品。文章深入剖析了其技术选型和工程实践。",
+      "rank": 4,
+      "title": "Anthropic为Claude Cowork增加共享记忆功能，告别重复沟通",
+      "finding": "Anthropic为Claude Cowork增加了跨聊天和Cowork的共享记忆功能，用户不再需要反复向AI交代项目背景、偏好等上下文信息。这解决了AI Agent在实际使用中缺乏长期记忆的核心痛点。",
       "key_data": [
-        "自研编码Agent",
-        "Ramp",
-        "Inspect",
-        "领先前沿实验室"
+        "共享记忆",
+        "Claude Cowork",
+        "告别重复沟通"
       ],
-      "judgment": "这证明在特定领域，定制化编码Agent可能比通用产品更有效。对大型企业而言，自研AI工具将成为差异化竞争手段，推动AI Coding市场向垂直化、定制化发展。",
+      "judgment": "记忆能力是AI Agent从工具走向协作者的关键门槛。Anthropic此举将显著提升Claude在复杂项目中的实用性，也预示着记忆将成为AI助手竞争的标配功能。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/"
+    },
+    {
+      "rank": 5,
+      "title": "Ramp自研内部编程Agent Inspect，不走捷径反而领先一步",
+      "finding": "金融科技公司Ramp没有采用现成的AI编程工具，而是选择自研了内部编程Agent Inspect。Pragmatic Engineer的深度报道指出，这一决策让Ramp在AI编程应用上领先于前沿AI实验室的通用方案。",
+      "key_data": [
+        "Ramp",
+        "自研Inspect",
+        "领先通用方案"
+      ],
+      "judgment": "这给所有技术决策者一个重要信号：通用AI编程工具未必是终局，针对自身业务深度定制的Agent可能带来更大的效率提升。未来企业AI竞争力的核心将是对自身场景的理解和数据的利用。",
       "confidence": 4,
       "source": "The Pragmatic Engineer",
       "url": "https://newsletter.pragmaticengineer.com/p/why-ramp-built-inspect"
@@ -80,180 +78,175 @@
     {
       "source": "量子位",
       "title": "开源国产8B模型SenseNova U1.5 Lite，比肩闭源Image 2",
-      "finding": "商汤发布开源8B模型SenseNova U1.5 Lite，在图像生成能力上宣称比肩闭源模型Image 2，展示了小参数模型的潜力。",
+      "finding": "商汤发布开源8B参数模型SenseNova U1.5 Lite，在图像生成能力上声称比肩闭源的Image 2模型。这展示了国产开源模型在多模态领域的快速进步。",
       "key_data": [
         "8B参数",
         "开源",
         "比肩Image 2"
       ],
-      "judgment": "小模型在特定任务上逼近大模型，将推动端侧AI和低成本部署，对闭源模型厂商构成压力。",
+      "judgment": "小参数模型达到闭源大模型效果，将进一步推动AI应用在端侧和私有化部署的普及。",
       "confidence": 3,
       "url": "https://www.qbitai.com/2026/08/479192.html",
-      "importance": 3
+      "importance": 4
     },
     {
       "source": "Hugging Face Blog",
-      "title": "量化感知修复：4-bit压缩模型性能超越全精度原版",
-      "finding": "Multiverse Computing发布量化感知修复技术，使4-bit量化模型在性能上超越其全精度版本，大幅降低推理资源需求。",
+      "title": "量化感知修复：4-bit压缩模型性能反超原版全精度模型",
+      "finding": "Multiverse Computing发布了一项名为量化感知修复的技术，通过该方法压缩的4-bit模型，其性能竟然超过了未压缩的全精度原版模型。",
       "key_data": [
         "4-bit量化",
-        "性能超越",
-        "压缩模型"
+        "性能反超",
+        "压缩技术"
       ],
-      "judgment": "量化技术的突破将加速大模型在边缘设备和低成本场景的部署，对AI普惠化意义重大。",
+      "judgment": "如果该技术可推广，将极大降低大模型部署的硬件门槛，对边缘计算和端侧AI是重大推动。",
       "confidence": 3,
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv",
+      "title": "BF1：用于高效长上下文Transformer的因果成对稀疏注意力改造",
+      "finding": "一篇新论文提出BF1方法，通过确定性的块级稀疏注意力机制，在不影响性能的前提下，显著降低长上下文Transformer的计算成本。",
+      "key_data": [
+        "长上下文",
+        "稀疏注意力",
+        "降低计算成本"
+      ],
+      "judgment": "长上下文是当前大模型竞争焦点，此类效率优化研究对降低推理成本、提升实用性有直接价值。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2608.20427",
       "importance": 3
     },
     {
-      "source": "Hugging Face Blog",
-      "title": "IBM发布Granite 4.2 LLM，详解技术构建",
-      "finding": "IBM发布Granite 4.2系列LLM，并公开了其技术构建细节，包括架构、训练数据和优化方法，强调企业级应用。",
-      "key_data": [
-        "Granite 4.2",
-        "企业级",
-        "技术公开"
-      ],
-      "judgment": "IBM持续加码企业级开源模型，为特定行业提供可定制方案，将加剧企业AI市场的竞争。",
-      "confidence": 3,
-      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-      "importance": 2
-    },
-    {
       "source": "ArXiv",
-      "title": "KVBoost：块级KV缓存复用与偏差引导重计算，提升LLM推理效率",
-      "finding": "新研究提出KVBoost方法，通过块级KV缓存复用和偏差引导的重计算，减少LLM推理中的预填充延迟，提高效率。",
+      "title": "Agentic脚手架会放大LLM的谄媚行为",
+      "finding": "一项新研究指出，当LLM被置于Agentic框架中时，其谄媚行为（即倾向于迎合用户而非给出真实回答）会被显著放大。",
       "key_data": [
-        "KV缓存复用",
-        "推理加速",
-        "预填充延迟"
-      ],
-      "judgment": "推理优化是当前热点，KVBoost有望降低长上下文场景的推理成本，对开发者有实际参考价值。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2608.21362",
-      "importance": 2
-    },
-    {
-      "source": "ArXiv",
-      "title": "Agentic脚手架放大LLM的谄媚行为",
-      "finding": "研究发现，在Agentic脚手架（如多步推理、工具调用）下，LLM的谄媚行为（倾向于迎合用户）被显著放大，可能影响输出可靠性。",
-      "key_data": [
+        "Agentic",
         "谄媚行为",
-        "Agentic脚手架",
-        "可靠性风险"
+        "被放大"
       ],
-      "judgment": "随着Agent应用增多，模型对齐问题更突出，开发者需警惕Agent在复杂任务中的谄媚倾向，加强评估和干预。",
+      "judgment": "这对Agent应用开发者是重要警示：在构建多步骤Agent时，需要额外的对齐和校验机制来抑制模型的不诚实行为。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2608.21377",
       "importance": 3
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "IBM发布Granite 4.2 LLM，揭示其构建细节",
+      "finding": "IBM在Hugging Face上发布了其Granite 4.2系列LLM，并详细介绍了模型的构建过程和技术细节。",
+      "key_data": [
+        "Granite 4.2",
+        "IBM",
+        "构建细节"
+      ],
+      "judgment": "IBM持续投入开源企业级模型，为特定行业提供更多选择，但影响力仍需观察。",
+      "confidence": 3,
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "importance": 2
     }
   ],
   "company_product": [
     {
+      "source": "量子位",
+      "title": "紫东太初将AI4S从做Task推向做Project，进入「项目时代」",
+      "finding": "中科院紫东太初大模型宣布其AI for Science能力从工具级转向系统级，从完成单一任务（Task）升级为执行完整科研项目（Project）。",
+      "key_data": [
+        "AI4S",
+        "项目时代",
+        "系统级"
+      ],
+      "judgment": "AI科研助手从'回答问题'到'完成项目'的跨越，将深刻改变科研工作模式，加速科学发现进程。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/08/479096.html",
+      "importance": 3
+    },
+    {
       "source": "TechCrunch",
-      "title": "Stability AI融资7600万美元，累计达2.32亿美元",
-      "finding": "Stable Diffusion开发商Stability AI完成新一轮7600万美元融资，总融资额达2.32亿美元，资金将用于产品研发和市场拓展。",
+      "title": "具身智能初创公司Generalist估值达30亿美元",
+      "finding": "机器人初创公司Generalist完成2亿美元融资，估值达到30亿美元，距上次20亿美元估值仅数月。",
+      "key_data": [
+        "30亿美元估值",
+        "2亿美元融资",
+        "数月内增长"
+      ],
+      "judgment": "资本持续重注具身智能赛道，但高估值下能否兑现商业化落地仍是最大考验。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Stability AI获7600万美元新融资，累计融资达2.32亿美元",
+      "finding": "图像生成模型Stable Diffusion的开发商Stability AI宣布完成7600万美元的新一轮融资，公司累计融资总额达到2.32亿美元。",
       "key_data": [
         "7600万美元",
         "累计2.32亿",
         "Stable Diffusion"
       ],
-      "judgment": "Stability AI在开源图像生成领域持续获得资本支持，但面临商业化挑战，融资将帮助其巩固技术优势。",
+      "judgment": "在竞争激烈的AI图像生成市场，Stability AI的持续融资表明其仍在努力寻找可持续的商业模式。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
       "importance": 2
     },
     {
-      "source": "TechCrunch",
-      "title": "机器人初创公司Generalist估值达30亿美元",
-      "finding": "据消息人士称，机器人初创公司Generalist完成2亿美元融资，估值达到30亿美元，距上次20亿美元估值仅数月。",
-      "key_data": [
-        "30亿美元估值",
-        "2亿美元融资",
-        "物理AI"
-      ],
-      "judgment": "具身智能赛道持续火热，资本涌入推动技术落地，但高估值也带来商业化压力。",
-      "confidence": 3,
-      "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
-      "importance": 2
-    },
-    {
       "source": "极客公园",
-      "title": "苹果发布M6与M5 Ultra芯片，Mac mini/Mac Studio押注本地AI",
-      "finding": "苹果直接上架M6（2nm工艺）和M5 Ultra芯片，以及新款Mac mini和Mac Studio，强调本地AI性能，但内存涨价导致Mac mini价格上涨2500元。",
+      "title": "苹果发布M6与M5 Ultra芯片，Mac全面押注本地AI",
+      "finding": "苹果直接上架了新一代自研芯片M6（首颗2纳米工艺）和M5 Ultra，并更新了Mac mini和Mac Studio产品线，全面强化本地AI算力。",
       "key_data": [
         "M6芯片",
-        "2nm工艺",
-        "Mac mini涨价"
+        "2纳米工艺",
+        "本地AI"
       ],
-      "judgment": "苹果强化端侧AI能力，但内存涨价可能影响开发者采用，本地AI与云AI的平衡成为关键。",
+      "judgment": "苹果坚定走端侧AI路线，通过自研芯片将AI能力作为硬件核心卖点，将对PC和移动端AI应用生态产生深远影响。",
       "confidence": 4,
       "url": "http://www.geekpark.net/news/369355",
-      "importance": 2
+      "importance": 3
     },
     {
       "source": "InfoQ",
-      "title": "Grafana发布gcx和MCP服务器，助力遥测智能代理开发",
-      "finding": "Grafana正式发布gcx和MCP服务器，为开发者提供基于遥测数据的智能代理开发工具，简化可观测性AI集成。",
+      "title": "Grafana发布gcx和MCP服务器，助力基于遥测的智能代理开发",
+      "finding": "可观测性平台Grafana正式发布gcx和MCP服务器，旨在帮助开发者构建基于遥测数据的智能代理。",
       "key_data": [
-        "gcx",
+        "Grafana",
         "MCP服务器",
-        "遥测智能代理"
+        "智能代理"
       ],
-      "judgment": "可观测性领域AI化加速，Grafana的布局将帮助开发者构建更智能的运维Agent。",
+      "judgment": "可观测性工具与AI Agent结合是必然趋势，这将提升Agent的调试和运维效率。",
       "confidence": 3,
       "url": "https://www.infoq.cn/article/9UoCxEhRcFG5ovFxTkXS?utm_source=rss&utm_medium=article",
-      "importance": 2
-    },
-    {
-      "source": "InfoQ",
-      "title": "主要前沿模型提供商采用水印技术以满足欧盟法规要求",
-      "finding": "为满足欧盟AI法规，多家前沿模型提供商开始采用水印技术，以标记AI生成内容，增强透明度。",
-      "key_data": [
-        "水印技术",
-        "欧盟法规",
-        "AI内容标记"
-      ],
-      "judgment": "合规成为AI产品刚需，水印技术将成标配，推动行业标准化。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/4mIQfr4w5gPLXSIW7YST?utm_source=rss&utm_medium=article",
       "importance": 2
     }
   ],
   "opinions": [
     {
-      "person": "Andrew Ng",
+      "person": "Gergely Orosz",
       "level": "L2",
-      "quote": "Andrew Ng开始涉足AI工程领域，可能带来新的教学和观点，值得关注。",
-      "source": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering"
+      "quote": "Ramp自研编程Agent Inspect的案例表明，针对自身业务深度定制的Agent可能比通用方案带来更大的效率提升，企业AI竞争力的核心将是对自身场景的理解和数据的利用。",
+      "source": "https://newsletter.pragmaticengineer.com/p/why-ramp-built-inspect"
     }
   ],
   "deep_dive_suggestions": [
     {
       "topic": "OpenAI自研芯片Jalapeño的战略影响",
-      "reason": "自研芯片可能重塑AI算力市场，影响NVIDIA和云厂商格局，值得深入分析。",
+      "reason": "头部实验室自研芯片将重塑AI算力格局，影响英伟达的垄断地位和整个AI产业链的成本结构。",
       "priority": "high"
     },
     {
-      "topic": "AI对入门级岗位的冲击与应对策略",
-      "reason": "斯坦福研究揭示就业市场结构性变化，对教育、政策和企业用人有深远影响。",
-      "priority": "high"
-    },
-    {
-      "topic": "字节豆包工作与Agent办公产品竞争格局",
-      "reason": "字节入局Agent办公，与微软、Google等巨头竞争，可能改变企业软件市场。",
+      "topic": "企业自研AI编程Agent的ROI分析",
+      "reason": "Ramp的案例引发讨论，需要深入分析自研与采购通用工具的成本效益，为技术决策者提供参考。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "OpenAI自研芯片、字节Agent办公、AI就业冲击",
-  "summary_paragraph": "今日AI行业动态密集：OpenAI发布自研推理芯片Jalapeño，标志其向算力自主迈出关键一步，可能重塑AI基础设施格局；字节跳动推出「豆包工作」Agent办公产品，正式加入企业AI办公大战；Anthropic为Claude Cowork增加共享记忆，提升Agent协作体验。同时，斯坦福研究揭示AI对入门级岗位的冲击，引发对就业市场结构性变化的讨论。此外，Ramp自研编码Agent的案例表明定制化AI工具的价值。整体来看，AI正从模型能力竞争转向基础设施、应用场景和劳动力影响的全面博弈。",
+  "summary_one_line": "OpenAI自研芯片、字节进军Agent办公、AI冲击就业",
+  "summary_paragraph": "今日AI行业风起云涌。OpenAI发布自研推理芯片Jalapeño，直指英伟达的算力霸权，标志着头部实验室开始掌握算力自主权。与此同时，字节跳动正式发布「豆包工作」进军AI办公Agent市场，将竞争焦点从模型层拉向应用层。Anthropic则为Claude Cowork加入共享记忆，解决Agent实用化的关键痛点。此外，斯坦福研究揭示AI对入门级岗位冲击最大，引发对劳动力结构性变化的广泛讨论。从芯片到应用到社会影响，AI正以前所未有的速度重塑产业格局。",
   "snapshot": {
     "date": "2026-08-26",
     "hf_trending": [
       {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 12719,
+        "likes": 12730,
         "downloads": 2945415,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -269,7 +262,7 @@
       {
         "name": "unsloth/Qwen3.8-27B-GGUF",
         "short_name": "Qwen3.8-27B-GGUF",
-        "likes": 2919,
+        "likes": 2922,
         "downloads": 7334695,
         "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
         "tags": [
@@ -285,7 +278,7 @@
       {
         "name": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
         "short_name": "Qwen3.8-27B-OBLITERATED",
-        "likes": 752,
+        "likes": 758,
         "downloads": 389747,
         "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
         "tags": [
@@ -301,7 +294,7 @@
       {
         "name": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
         "short_name": "Qwen3.8-27B-Uncensored-MLX",
-        "likes": 1098,
+        "likes": 1102,
         "downloads": 68855,
         "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
         "tags": [
@@ -317,7 +310,7 @@
       {
         "name": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
         "short_name": "Qwen3.8-27B-Uncensored-FP8",
-        "likes": 1148,
+        "likes": 1153,
         "downloads": 249744,
         "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
         "tags": [
@@ -333,7 +326,7 @@
       {
         "name": "ornith-ai/Ornith-1.5-35B-A3B",
         "short_name": "Ornith-1.5-35B-A3B",
-        "likes": 419,
+        "likes": 423,
         "downloads": 70158,
         "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B",
         "tags": [
@@ -349,7 +342,7 @@
       {
         "name": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "short_name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-        "likes": 623,
+        "likes": 624,
         "downloads": 832185,
         "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
         "tags": [
@@ -365,7 +358,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 1800,
+        "likes": 1803,
         "downloads": 833845,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -383,45 +376,45 @@
       {
         "name": "freestylefly/awesome-gpt-image-2",
         "desc": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
-        "stars": 18150,
+        "stars": 18517,
         "stars_today": 1698,
-        "forks": 1866,
+        "forks": 1899,
         "language": "JavaScript",
         "url": "https://github.com/freestylefly/awesome-gpt-image-2"
       },
       {
         "name": "anthropics/claude-plugins-community",
         "desc": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at",
-        "stars": 1787,
+        "stars": 1822,
         "stars_today": 351,
-        "forks": 178,
+        "forks": 181,
         "language": "Python",
         "url": "https://github.com/anthropics/claude-plugins-community"
       },
       {
         "name": "MadsLorentzen/ai-job-search",
         "desc": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluat",
-        "stars": 35355,
+        "stars": 35442,
         "stars_today": 1265,
-        "forks": 12154,
+        "forks": 12168,
         "language": "Python",
         "url": "https://github.com/MadsLorentzen/ai-job-search"
       },
       {
         "name": "apache/maka",
         "desc": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool resul",
-        "stars": 3368,
+        "stars": 3401,
         "stars_today": 543,
-        "forks": 332,
+        "forks": 337,
         "language": "TypeScript",
         "url": "https://github.com/apache/maka"
       },
       {
         "name": "TauricResearch/TradingAgents",
         "desc": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-        "stars": 100297,
+        "stars": 100346,
         "stars_today": 218,
-        "forks": 19355,
+        "forks": 19360,
         "language": "Python",
         "url": "https://github.com/TauricResearch/TradingAgents"
       }
@@ -538,6 +531,6 @@
         "url": "https://openrouter.ai/openai/gpt-5.6-sol"
       }
     ],
-    "hf_summary": "开源多模态与量化变体主导榜单"
+    "hf_summary": "开源社区主导，Qwen衍生模型霸榜，多模态成主流"
   }
 }

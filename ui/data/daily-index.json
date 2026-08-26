@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-08-26",
-      "title": "今日 AI 日报：OpenAI发布自研推理芯片Jalapeño，推理速度与效率行业领先 + 4 条重要动态",
-      "excerpt": "这是AI基础设施自主化的标志性事件。OpenAI自研芯片将降低对NVIDIA的依…",
+      "title": "今日 AI 日报：OpenAI发布自研推理芯片Jalapeño，推理性能行业领先 + 4 条重要动态",
+      "excerpt": "这意味着AI算力供给格局将发生根本性变化。头部模型实验室开始自研芯片，将打破英伟…",
       "top_count": 5,
       "file": "2026-08-26.json"
     },
