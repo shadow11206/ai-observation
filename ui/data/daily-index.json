@@ -1,6 +1,13 @@
 {
-  "total": 152,
+  "total": 153,
   "reports": [
+    {
+      "date": "2026-08-27",
+      "title": "今日 AI 日报：智谱发布并开源GLM-5.3-Flash，确认Ox Alpha身份 + 4 条重要动态",
+      "excerpt": "这是中国开源模型的重要里程碑：GLM-5.3-Flash不仅性能对标DeepSe…",
+      "top_count": 5,
+      "file": "2026-08-27.json"
+    },
     {
       "date": "2026-08-26",
       "title": "今日 AI 日报：OpenAI发布自研推理芯片Jalapeño，推理性能行业领先 + 4 条重要动态",
