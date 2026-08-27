@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-08-27",
-      "title": "今日 AI 日报：智谱发布并开源GLM-5.3-Flash，确认Ox Alpha身份 + 4 条重要动态",
-      "excerpt": "这是中国开源模型的重要里程碑：GLM-5.3-Flash不仅性能对标DeepSe…",
+      "title": "今日 AI 日报：英伟达以129亿美元收购Hugging Face，掌控开源AI分发权 + 4 条重要动态",
+      "excerpt": "这是AI基础设施领域的标志性整合。英伟达通过收购Hugging Face，不仅巩…",
       "top_count": 5,
       "file": "2026-08-27.json"
     },
