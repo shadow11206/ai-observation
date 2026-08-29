@@ -1,6 +1,13 @@
 {
-  "total": 154,
+  "total": 155,
   "reports": [
+    {
+      "date": "2026-08-29",
+      "title": "今日 AI 日报：OpenAI 宣布终止向 Cursor 提供模型，因 Cursor 被 SpaceX 收购 + 4 条重要动态",
+      "excerpt": "这是 AI 编程工具格局的重大变动。Cursor 作为 AI IDE 标杆，失去…",
+      "top_count": 5,
+      "file": "2026-08-29.json"
+    },
     {
       "date": "2026-08-28",
       "title": "今日 AI 日报：OpenAI、Anthropic、谷歌等116家公司联名呼吁加强AI安全防护 + 4 条重要动态",
