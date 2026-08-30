@@ -1,6 +1,13 @@
 {
-  "total": 155,
+  "total": 156,
   "reports": [
+    {
+      "date": "2026-08-30",
+      "title": "今日 AI 日报：OpenAI 终止与 Cursor 合作，因 SpaceX 收购引发信任危机 + 4 条重要动态",
+      "excerpt": "这是 AI 生态中罕见的“断供”事件，凸显了模型提供商与下游工具之间的依赖风险。…",
+      "top_count": 5,
+      "file": "2026-08-30.json"
+    },
     {
       "date": "2026-08-29",
       "title": "今日 AI 日报：Anthropic 最早 10 天后公布招股书，拟募资 1300 亿美元超越 SpaceX + 4 条重要动态",
