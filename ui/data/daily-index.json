@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-08-30",
-      "title": "今日 AI 日报：OpenAI 终止与 Cursor 合作，因 SpaceX 收购引发信任危机 + 4 条重要动态",
-      "excerpt": "这是 AI 生态中罕见的“断供”事件，凸显了模型提供商与下游工具之间的依赖风险。…",
+      "title": "今日 AI 日报：OpenAI 终止向被 SpaceX 收购的 Cursor 提供模型支持 + 4 条重要动态",
+      "excerpt": "这是 AI 编程工具领域的一次重大洗牌信号。Cursor 失去 OpenAI 模…",
       "top_count": 5,
       "file": "2026-08-30.json"
     },

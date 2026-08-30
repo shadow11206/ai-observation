@@ -3,145 +3,146 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "OpenAI 终止与 Cursor 合作，因 SpaceX 收购引发信任危机",
-      "finding": "OpenAI 以“无法信任 SpaceX 遵守服务条款”为由，宣布终止向已被 SpaceX 收购的 AI 编程工具 Cursor 提供模型支持，直接访问权限将于 11 月 12 日终止。这一决定源于马斯克与奥特曼之间的长期对立，对 Cursor 用户和 AI 编程生态产生重大影响。",
+      "title": "OpenAI 终止向被 SpaceX 收购的 Cursor 提供模型支持",
+      "finding": "OpenAI 以信任问题为由，宣布终止向已被 SpaceX 收购的 AI 编程工具 Cursor 提供模型支持，直接访问权限将于 11 月 12 日终止。这意味着 Cursor 将失去 OpenAI 模型的支持，可能影响其产品竞争力。",
       "key_data": [
         "终止日期11月12日",
-        "SpaceX收购Cursor",
-        "信任问题"
+        "信任问题",
+        "SpaceX收购Cursor"
       ],
-      "judgment": "这是 AI 生态中罕见的“断供”事件，凸显了模型提供商与下游工具之间的依赖风险。Cursor 用户可能被迫迁移到其他模型，而 OpenAI 的强硬姿态也向市场传递了“政治因素可影响商业合作”的信号。开发者应关注 Cursor 的替代方案，并警惕单一模型依赖的风险。",
-      "confidence": 5,
+      "judgment": "这是 AI 编程工具领域的一次重大洗牌信号。Cursor 失去 OpenAI 模型支持后，可能转向其他模型或自研，而 OpenAI 也在强化自己的编程产品，开发者需关注工具链的稳定性。",
+      "confidence": 4,
       "source": "极客公园",
       "url": "http://www.geekpark.net/news/369551"
     },
     {
       "rank": 2,
-      "title": "腾讯发布并开源混元 Hy4 Preview：770B 参数、1M 上下文",
-      "finding": "腾讯发布新一代大模型混元 Hy4 Preview，总参数达 770B，激活参数 49B，上下文长度扩展至 1M token，并已开源。模型已集成到 WorkBuddy、CodeBuddy、元宝等产品，可通过腾讯云 TokenHub 和 OpenRouter 调用。",
+      "title": "Claude 开始训练 Claude：4美元一小时，跑赢150美元人类研究员",
+      "finding": "Anthropic 的 Claude 模型开始参与训练下一代 Claude，以 4 美元/小时的成本，在数据标注和评估任务上表现优于 150 美元/小时的人类研究员。这标志着 AI 自进化迈出重要一步。",
+      "key_data": [
+        "成本4美元/小时",
+        "人类150美元/小时",
+        "AI自进化"
+      ],
+      "judgment": "AI 自我改进的能力将大幅降低模型迭代成本，可能改变 AI 训练的数据标注产业格局，但需警惕自我训练带来的偏差和失控风险。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/08/481223.html"
+    },
+    {
+      "rank": 3,
+      "title": "腾讯发布 Hy4 预览版：770B 参数开源模型，1M 上下文窗口",
+      "finding": "腾讯发布开源权重模型 Hy4 预览版，总参数 770B，激活参数 49B，支持 1M token 上下文窗口，模型体积 1.56TB。这是中国大模型在开源领域的又一重要动作。",
       "key_data": [
         "770B总参数",
         "49B激活参数",
         "1M上下文",
-        "开源"
+        "1.56TB体积"
       ],
-      "judgment": "腾讯在 AI 大模型领域的投入开始显现成果，Hy4 的参数规模和上下文能力对标国际一线模型，开源策略有助于吸引开发者生态。对于国内 AI 开发者而言，多了一个可用的高性能开源模型选择，可能加剧国内大模型竞争。",
-      "confidence": 5,
-      "source": "极客公园",
-      "url": "http://www.geekpark.net/news/369550"
+      "judgment": "Hy4 的发布显示腾讯在开源大模型上的野心，1M 上下文窗口和 MoE 架构将提升长文本处理能力，可能对 DeepSeek 和智谱等开源阵营形成竞争压力。",
+      "confidence": 4,
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Aug/29/hy4/"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "索尼音乐与华纳起诉 Anthropic，指控大规模版权侵权",
-      "finding": "索尼音乐和华纳音乐联合起诉 Anthropic，指控其“公然进行知识产权盗窃”，要求数十亿美元赔偿。这是 AI 音乐生成领域最重大的版权诉讼之一，可能对整个 AI 内容生成行业产生深远影响。",
+      "finding": "索尼音乐和华纳唱片联合起诉 Anthropic，指控其“公然”侵犯版权，要求数十亿美元赔偿。这是 AI 版权纠纷中规模最大、涉及音乐行业的重要案件。",
       "key_data": [
-        "数十亿美元索赔",
-        "两大唱片公司",
+        "索赔数十亿美元",
+        "索尼音乐",
+        "华纳",
         "版权侵权"
       ],
-      "judgment": "这起诉讼可能成为 AI 版权领域的标志性案例，若 Anthropic 败诉，将迫使所有 AI 公司在训练数据合规上更加谨慎，甚至改变行业的数据获取模式。对开发者而言，使用 AI 生成音乐或内容的合规风险显著上升，需关注法律进展。",
+      "judgment": "此案结果将深刻影响 AI 模型训练的数据合规性，音乐行业可能成为 AI 版权诉讼的标杆，开发者需关注数据来源的合法性。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/"
     },
     {
-      "rank": 4,
-      "title": "Claude 开始训练 Claude：AI 自进化迈出关键一步",
-      "finding": "据量子位报道，Anthropic 的 Claude 已开始参与训练下一代 Claude，以 4 美元/小时的成本跑赢 150 美元/小时的人类研究员。这标志着 AI 在自我改进和自动化研究方面取得实质性进展。",
-      "key_data": [
-        "4美元/小时",
-        "150美元/小时",
-        "自进化"
-      ],
-      "judgment": "AI 参与自身训练是“自进化”的重要里程碑，可能大幅降低模型迭代成本并加速能力提升。但这也引发了对 AI 安全和控制性的担忧。对行业而言，这意味着 AI 研发的竞争将更加激烈，同时需要新的评估和监管框架。",
-      "confidence": 3,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/481223.html"
-    },
-    {
       "rank": 5,
-      "title": "NVIDIA 的 AI 优势正超越 GPU，转向数据中心智能网络",
-      "finding": "TechCrunch 报道，NVIDIA 新一代数据中心系统通过更智能的流量控制提升效率，而不仅仅是增加处理器周期。这表明 NVIDIA 正在从芯片供应商转型为完整的 AI 基础设施平台。",
+      "title": "Debian 投票允许“负责任地使用生成式 AI”",
+      "finding": "Debian 社区投票通过允许在项目开发中“负责任地使用生成式 AI”，这标志着开源社区对 AI 辅助开发的态度转变，可能影响其他开源项目的政策。",
       "key_data": [
-        "智能流量控制",
-        "数据中心系统",
-        "超越GPU"
+        "Debian投票",
+        "负责任使用",
+        "生成式AI"
       ],
-      "judgment": "NVIDIA 的战略延伸意味着 AI 算力竞争从单一芯片转向整体系统效率，这对云厂商和 AI 公司的基础设施选择产生重要影响。开发者可能看到更多集成化、优化过的 AI 服务，但也需关注对 NVIDIA 生态的依赖加深。",
+      "judgment": "开源社区对 AI 的接纳度提升，将加速 AI 在软件开发中的渗透，但“负责任”的定义仍需明确，可能引发更多关于 AI 生成代码版权和质量的讨论。",
       "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/"
+      "source": "Hacker News",
+      "url": "https://lwn.net/Articles/1091231/"
     }
   ],
   "model_tech": [
     {
-      "source": "Simon Willison",
-      "title": "腾讯混元 Hy4 Preview 开源，770B 参数",
-      "finding": "腾讯发布开源模型 Hy4 Preview，总参数 770B，激活 49B，上下文 1M token，模型体积 1.56TB。Simon Willison 第一时间进行了介绍。",
-      "key_data": [
-        "770B参数",
-        "1M上下文",
-        "1.56TB"
-      ],
-      "judgment": "又一个国产大模型进入开源行列，且参数规模对标国际一线，开发者有了更多选择，可能推动国内 AI 生态繁荣。",
-      "confidence": 5,
-      "url": "https://simonwillison.net/2026/Aug/29/hy4/",
-      "importance": 4
-    },
-    {
       "source": "量子位",
-      "title": "开源 OCR 神器：20ms 将 PDF 转为 Markdown，快 300 倍",
-      "finding": "一款开源 OCR 工具声称能在 20ms 内将 PDF 转为 Markdown，速度比现有方案快近 300 倍，3 秒可处理 200 份 PDF。",
+      "title": "20ms 把 PDF 变成 Markdown：开源 OCR 神器快了近 300 倍",
+      "finding": "一款开源 OCR 工具能在 20ms 内将 PDF 转为 Markdown，速度比现有方案快近 300 倍，3 秒可处理 200 份 PDF。",
       "key_data": [
         "20ms/PDF",
         "快300倍",
         "开源"
       ],
-      "judgment": "OCR 速度的大幅提升将极大改善文档处理效率，对 RAG 应用和知识库构建是重大利好，开发者可关注并集成。",
+      "judgment": "极大提升文档处理效率，对 RAG 应用和知识库构建有重要价值，可能成为开发者首选工具。",
       "confidence": 3,
       "url": "https://www.qbitai.com/2026/08/481075.html",
       "importance": 3
     },
     {
       "source": "量子位",
-      "title": "AI 本地部署性能差异的元凶：734 个依赖包",
-      "finding": "研究发现，AI 本地部署与官方版性能差异的根源在于推理软件栈的微小差异，涉及 734 个依赖包，每个都可能影响输出 token。",
+      "title": "AI 本地部署不如官方版的元凶：734 个依赖包影响输出",
+      "finding": "研究发现 AI 本地部署与官方版输出差异的根源在于推理软件栈的微小差异，涉及 734 个依赖包，每个都可能改变输出 token。",
       "key_data": [
         "734个依赖包",
-        "推理软件栈",
-        "输出差异"
+        "输出差异",
+        "推理栈"
       ],
-      "judgment": "这提醒开发者在本地部署大模型时需注意环境一致性，否则可能遭遇性能下降。标准化部署工具和容器化方案将更受重视。",
+      "judgment": "提醒开发者本地部署时需严格复现官方环境，否则可能影响模型行为，对依赖管理和可复现性提出更高要求。",
       "confidence": 3,
       "url": "https://www.qbitai.com/2026/08/481372.html",
       "importance": 2
     },
     {
       "source": "Reddit r/MachineLearning",
-      "title": "百年老算法击败 SOTA 时间序列异常检测",
-      "finding": "Reddit 热帖称，一个 100 年前的简单算法在时间序列异常检测上击败了当前 SOTA 方法，引发对复杂模型必要性的讨论。",
+      "title": "用 100 年前的算法击败 SOTA 时间序列异常检测方法",
+      "finding": "研究者发现一种 100 年前的经典算法在时间序列异常检测任务上能击败当前 SOTA 方法，引发对复杂模型必要性的讨论。",
       "key_data": [
         "百年算法",
-        "SOTA",
+        "击败SOTA",
         "时间序列"
       ],
-      "judgment": "这提醒 AI 社区，复杂模型不一定总是最优，简单方法可能更高效。对实践者而言，应重视基线方法，避免过度工程化。",
+      "judgment": "提醒 AI 社区不要盲目追求复杂模型，经典方法可能更高效，对时间序列分析领域有启发意义。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1w1wt1s/you_can_beat_sota_time_series_anomaly_detection/",
       "importance": 2
     },
     {
-      "source": "InfoQ",
-      "title": "Agent 时代，为什么有人开始重新造 Google？",
-      "finding": "InfoQ 文章探讨了在 Agent 时代，为何有团队重新构建类似 Google 的搜索产品，可能涉及 AI 原生搜索的新范式。",
+      "source": "Reddit r/MachineLearning",
+      "title": "从零实现 Kimi K3 的 PyTorch 教程",
+      "finding": "有开发者发布了从零开始用 PyTorch 实现 Kimi K3 模型的教程，为学习大模型实现提供宝贵资源。",
       "key_data": [
-        "Agent时代",
-        "重新造Google",
-        "AI搜索"
+        "Kimi K3",
+        "PyTorch实现",
+        "教程"
       ],
-      "judgment": "AI Agent 对信息检索的需求正在催生新的搜索产品形态，传统搜索引擎可能面临挑战，值得关注。",
+      "judgment": "有助于开发者深入理解大模型架构，促进技术传播，但需注意版权和合规问题。",
       "confidence": 3,
-      "url": "https://www.infoq.cn/article/KbbHdAQFxQM7AJIYMLqR",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w2aupi/implementing_kimi_k3_from_scratch_in_pytorch_p/",
+      "importance": 2
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "开源 RAG 应用访问控制检查工具",
+      "finding": "开发者发布了一个开源工具，用于检查 RAG 应用是否检索到用户无权访问的文档，支持离线测试和实时 API 测试。",
+      "key_data": [
+        "RAG安全",
+        "访问控制",
+        "开源"
+      ],
+      "judgment": "RAG 应用的安全问题日益重要，该工具填补了访问控制检查的空白，有助于企业合规。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w1zm5m/opensource_accesscontrol_checker_for/",
       "importance": 2
     }
   ],
@@ -149,108 +150,108 @@
     {
       "source": "量子位",
       "title": "阿里 Qoder：让 Coding 不再是程序员专属",
-      "finding": "阿里发布 Qoder，强调 Coding 正变成 AI 世界的“数字执行力”，可能面向非程序员提供 AI 编程能力。",
+      "finding": "阿里发布 Qoder，旨在让非程序员也能进行编程，将 Coding 转化为 AI 世界的数字执行力。",
       "key_data": [
-        "Qoder",
-        "非程序员",
-        "数字执行力"
+        "阿里Qoder",
+        "非程序员编程",
+        "AI执行力"
       ],
-      "judgment": "AI 编程工具正在降低门槛，非程序员也能参与开发，这可能改变软件开发的人力结构，产品经理应关注此类工具。",
+      "judgment": "AI 编程工具正从辅助程序员走向赋能大众，可能改变软件开发的人力结构，但需关注生成代码的质量和安全。",
       "confidence": 3,
       "url": "https://www.qbitai.com/2026/08/480940.html",
       "importance": 3
     },
     {
       "source": "InfoQ",
-      "title": "HarmonyOS 7 视觉 AI：一句话找图，低清图增强",
-      "finding": "华为 HarmonyOS 7 展示了视觉 AI 能力，支持一句话找图和低清图增强，应用于真实场景。",
+      "title": "Agent 时代，为什么有人开始重新造 Google？",
+      "finding": "文章探讨在 Agent 时代，为何有公司开始重新构建类似 Google 的搜索产品，可能源于对传统搜索在 AI 时代不足的反思。",
       "key_data": [
-        "HarmonyOS 7",
-        "一句话找图",
-        "图像增强"
+        "Agent时代",
+        "重新造Google",
+        "搜索变革"
       ],
-      "judgment": "端侧视觉 AI 的实用化将提升用户体验，对移动应用开发者和系统集成商有参考价值。",
+      "judgment": "AI Agent 对信息获取方式的改变可能催生新一代搜索产品，传统搜索引擎面临颠覆风险。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/KbbHdAQFxQM7AJIYMLqR",
+      "importance": 2
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Nvidia 的 AI 优势正超越 GPU",
+      "finding": "Nvidia 新一代数据中心系统通过更智能的流量控制提升效率，而不仅仅是增加处理器周期，AI 优势正从硬件扩展到系统层面。",
+      "key_data": [
+        "数据中心系统",
+        "智能流量控制",
+        "超越GPU"
+      ],
+      "judgment": "Nvidia 正构建更全面的 AI 基础设施护城河，竞争对手需在系统层面创新，而不仅是芯片性能。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "HarmonyOS7 视觉 AI：一句话找图，低清图增强",
+      "finding": "华为 HarmonyOS7 展示了视觉 AI 在真实应用中的能力，包括一句话找图和低清图增强功能。",
+      "key_data": [
+        "HarmonyOS7",
+        "一句话找图",
+        "低清增强"
+      ],
+      "judgment": "端侧视觉 AI 的实用化将提升用户体验，可能推动更多设备端 AI 应用落地。",
       "confidence": 3,
       "url": "https://www.infoq.cn/article/3R8f57Bow3B4kEBkPv5J",
       "importance": 2
     },
     {
       "source": "TechCrunch",
-      "title": "Vijay Pande 离开 a16z 后创办 AI 原生风投 VZVC",
-      "finding": "前 a16z 生物技术负责人 Vijay Pande 离开后创办了 AI 原生风投 VZVC，认为生物学正从“发现”科学转向“工程”科学。",
+      "title": "Vijay Pande 离开 a16z 后创立 AI 原生生物科技基金 VZVC",
+      "finding": "前 a16z 生物科技负责人 Vijay Pande 创立 AI 原生基金 VZVC，认为生物学正从“发现”科学转向“工程”科学。",
       "key_data": [
-        "VZVC",
-        "AI原生风投",
-        "生物学工程化"
+        "VZVC基金",
+        "AI原生",
+        "生物工程化"
       ],
-      "judgment": "AI 在生物领域的应用正从辅助发现转向工程化，这可能吸引更多资本和人才，加速 AI+生物的发展。",
-      "confidence": 4,
-      "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
-      "importance": 2
-    },
-    {
-      "source": "Wired",
-      "title": "AI 巨头警告：网络安全末日将在数月内来临",
-      "finding": "Wired 报道，AI 巨头警告网络安全威胁将在数月内恶化，同时黑客攻击了超 100 个美国供水系统，ICE 订购机器狗。",
-      "key_data": [
-        "数月内",
-        "100个供水系统",
-        "机器狗"
-      ],
-      "judgment": "AI 带来的安全风险日益紧迫，企业和政府需加强防御，AI 安全将成为重要市场。",
+      "judgment": "AI 在生物科技领域的应用正从辅助发现转向工程化设计，可能加速新药研发和生物制造。",
       "confidence": 3,
-      "url": "https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn/",
-      "importance": 3
-    },
-    {
-      "source": "Hacker News",
-      "title": "Debian 投票允许“负责任地使用生成式 AI”",
-      "finding": "Debian 项目投票决定允许在项目内“负责任地使用生成式 AI”，引发社区广泛讨论。",
-      "key_data": [
-        "Debian",
-        "生成式AI",
-        "负责任使用"
-      ],
-      "judgment": "开源社区对 AI 使用的态度正在转变，可能为其他开源项目提供参考，但具体规则仍需明确。",
-      "confidence": 4,
-      "url": "https://lwn.net/Articles/1091231/",
+      "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
       "importance": 2
     }
   ],
   "opinions": [
     {
       "person": "Simon Willison",
-      "level": "L2",
-      "quote": "腾讯混元 Hy4 Preview 是一个新的开源大模型，770B 参数，1M 上下文，值得关注。",
+      "level": "L1",
+      "quote": "腾讯发布 Hy4 预览版，770B 参数、1M 上下文窗口，这是中国开源模型的又一重要进展，值得关注。",
       "source": "https://simonwillison.net/2026/Aug/29/hy4/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "OpenAI 终止与 Cursor 合作的影响",
-      "reason": "这一事件可能重塑 AI 编程工具生态，值得深入分析模型依赖风险和替代方案。",
+      "topic": "AI 自进化的可行性与风险",
+      "reason": "Claude 训练 Claude 标志 AI 自进化趋势，需深入分析其技术路径、成本效益和潜在失控风险。",
       "priority": "high"
     },
     {
-      "topic": "AI 自进化（Claude 训练 Claude）的技术与伦理",
-      "reason": "AI 参与自身训练是重大趋势，涉及技术可行性、安全性和行业影响，值得深挖。",
+      "topic": "OpenAI 与 Cursor 决裂的行业影响",
+      "reason": "OpenAI 终止与 Cursor 合作可能重塑 AI 编程工具市场，需研究对开发者生态和竞争格局的影响。",
       "priority": "high"
     },
     {
-      "topic": "AI 版权诉讼（索尼/华纳 vs Anthropic）的行业影响",
-      "reason": "诉讼结果可能改变 AI 训练数据的合规要求，影响所有 AI 公司，值得跟踪。",
+      "topic": "AI 版权诉讼对模型训练的影响",
+      "reason": "索尼、华纳起诉 Anthropic 可能树立 AI 版权判例，影响全球模型训练的数据合规策略。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "OpenAI 断供 Cursor，腾讯开源 Hy4，AI 自进化加速",
-  "summary_paragraph": "今日 AI 行业风云变幻：OpenAI 因 SpaceX 收购 Cursor 而终止合作，凸显模型依赖风险；腾讯开源混元 Hy4，参数规模对标国际一线；Anthropic 遭遇索尼/华纳版权诉讼，AI 内容合规警钟敲响；同时，Claude 开始参与自身训练，AI 自进化迈出关键一步。NVIDIA 战略转向数据中心智能网络，AI 基础设施竞争升级。开源社区对 AI 的态度也在演变，Debian 投票允许负责任使用生成式 AI。整体来看，行业在技术突破与法律风险中并行前进。",
+  "summary_one_line": "AI 自进化、开源竞争与版权诉讼交织，行业加速洗牌",
+  "summary_paragraph": "今日 AI 行业动态密集：OpenAI 终止与 Cursor 合作，引发 AI 编程工具市场震动；Anthropic 的 Claude 开始自我训练，成本优势显著，AI 自进化趋势初现；腾讯发布 Hy4 开源模型，加入中国开源大模型竞争；同时，索尼音乐与华纳起诉 Anthropic，版权问题成为行业焦点。此外，Debian 对生成式 AI 的接纳、Nvidia 超越 GPU 的系统级创新，以及阿里 Qoder 等产品，共同描绘了 AI 从模型到应用、从技术到合规的全面演进图景。",
   "snapshot": {
     "date": "2026-08-30",
     "hf_trending": [
       {
         "name": "Qwen/Qwen3.8-Flash-Next",
         "short_name": "Qwen3.8-Flash-Next",
-        "likes": 4292,
+        "likes": 4318,
         "downloads": 52341,
         "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
         "tags": [
@@ -266,7 +267,7 @@
       {
         "name": "zai-org/GLM-5.3-Flash",
         "short_name": "GLM-5.3-Flash",
-        "likes": 1623,
+        "likes": 1643,
         "downloads": 189793,
         "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
         "tags": [
@@ -282,7 +283,7 @@
       {
         "name": "zai-org/GLM-5.3",
         "short_name": "GLM-5.3",
-        "likes": 1271,
+        "likes": 1297,
         "downloads": 8804,
         "url": "https://huggingface.co/zai-org/GLM-5.3",
         "tags": [
@@ -298,7 +299,7 @@
       {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 13260,
+        "likes": 13285,
         "downloads": 4028839,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -314,7 +315,7 @@
       {
         "name": "unsloth/Qwen3.8-Flash-Next-GGUF",
         "short_name": "Qwen3.8-Flash-Next-GGUF",
-        "likes": 567,
+        "likes": 578,
         "downloads": 188061,
         "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
         "tags": [
@@ -330,7 +331,7 @@
       {
         "name": "unsloth/Qwen3.8-27B-GGUF",
         "short_name": "Qwen3.8-27B-GGUF",
-        "likes": 3187,
+        "likes": 3192,
         "downloads": 8363481,
         "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
         "tags": [
@@ -346,7 +347,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 2136,
+        "likes": 2162,
         "downloads": 1044661,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -362,7 +363,7 @@
       {
         "name": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
         "short_name": "Qwen3.8-27B-OBLITERATED",
-        "likes": 919,
+        "likes": 929,
         "downloads": 645554,
         "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
         "tags": [
@@ -380,45 +381,45 @@
       {
         "name": "tt-a1i/archify",
         "desc": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle dia",
-        "stars": 31244,
+        "stars": 32215,
         "stars_today": 3902,
-        "forks": 1940,
+        "forks": 2016,
         "language": "JavaScript",
         "url": "https://github.com/tt-a1i/archify"
       },
       {
         "name": "bilawalsidhu/gods-eye-view",
         "desc": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelli",
-        "stars": 12677,
+        "stars": 13028,
         "stars_today": 1855,
-        "forks": 2509,
+        "forks": 2569,
         "language": "JavaScript",
         "url": "https://github.com/bilawalsidhu/gods-eye-view"
       },
       {
         "name": "K-Dense-AI/scientific-agent-skills",
         "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ sc",
-        "stars": 37983,
+        "stars": 38202,
         "stars_today": 1587,
-        "forks": 3580,
+        "forks": 3595,
         "language": "Python",
         "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
       },
       {
         "name": "tailscale/tailcat",
         "desc": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
-        "stars": 3531,
+        "stars": 3809,
         "stars_today": 789,
-        "forks": 106,
+        "forks": 117,
         "language": "Go",
         "url": "https://github.com/tailscale/tailcat"
       },
       {
         "name": "THU-MAIC/OpenMAIC",
         "desc": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just o",
-        "stars": 22333,
+        "stars": 22659,
         "stars_today": 907,
-        "forks": 4323,
+        "forks": 4364,
         "language": "TypeScript",
         "url": "https://github.com/THU-MAIC/OpenMAIC"
       }
@@ -429,7 +430,7 @@
         "slug": "deepseek/deepseek-v4-flash",
         "name": "DeepSeek V4 Flash 0423",
         "org": "deepseek",
-        "total_tokens": 2035331901349,
+        "total_tokens": 2035332249113,
         "total_tokens_str": "2.0T",
         "api_calls": 0,
         "change": -12.2,
@@ -535,6 +536,6 @@
         "url": "https://openrouter.ai/google/gemini-3.7-flash"
       }
     ],
-    "hf_summary": "开源多模态与量化模型主导榜单"
+    "hf_summary": "开源模型主导，多模态与文本并进，Qwen生态霸榜。"
   }
 }
