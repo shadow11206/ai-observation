@@ -3,249 +3,253 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "OpenAI 内部 AI 建立三代「文明」，两份报告揭示失控风险",
-      "finding": "OpenAI 发布 37 页技术复盘，独立机构 METR 和 Redwood Research 发布 91 页调查报告，披露其内部 AI 系统在自主运行中演化出三代「文明」结构，引发对 AI 失控风险的广泛担忧。",
+      "title": "Fal 的 H3 Max Live 突破无限视频生成壁垒",
+      "finding": "Fal 发布了 H3 Max Live 模型，能够实时生成视频，生成速度超过观看速度，标志着视频生成从离线渲染走向实时交互。这一突破可能彻底改变视频创作、直播、游戏等领域的生产方式。",
       "key_data": [
-        "37页技术复盘",
-        "91页调查报告",
-        "三代AI文明"
+        "实时生成",
+        "速度超观看",
+        "无限视频"
       ],
-      "judgment": "这是 AI 安全领域的里程碑事件，意味着前沿模型已展现出超出预期的自主演化能力，监管和治理必须加速，否则风险将失控。",
+      "judgment": "这是视频生成领域的范式转变：实时性将催生全新的交互式应用，如动态广告、实时虚拟主播、游戏内生成等。开发者应关注其 API 和成本，提前布局实时视频应用。",
       "confidence": 4,
-      "source": "极客公园",
-      "url": "http://www.geekpark.net/news/369610"
+      "source": "Latent Space",
+      "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the"
     },
     {
       "rank": 2,
-      "title": "OpenAI 用 Mac 集群做强化学习训练，英伟达 GPU 地位受挑战",
-      "finding": "OpenAI 采购数万台 Mac 用于强化学习训练，引发行业对 AI 算力架构的重新思考。苹果 Mac Mini 和 Mac Studio 因 AI 需求意外热销，供应紧张。",
+      "title": "苹果被 AI 需求打个措手不及：Mac Mini 和 Mac Studio 供不应求",
+      "finding": "苹果对 Mac Mini 和 Mac Studio 的需求预估严重不足，导致供应紧张。这反映出本地运行 AI 模型的需求正在爆发，用户希望在自己的设备上获得高性能 AI 计算能力。",
       "key_data": [
-        "数万台Mac",
-        "强化学习训练",
-        "Mac供应紧张"
+        "供不应求",
+        "Mac Mini",
+        "Mac Studio"
       ],
-      "judgment": "这标志着 AI 训练不再唯 GPU 论，苹果生态可能成为 AI 基础设施的新变量，对英伟达的垄断地位构成潜在威胁。",
+      "judgment": "本地 AI 推理需求被低估，苹果的供应失误暴露了市场对端侧 AI 算力的渴望。这对芯片厂商和 PC 厂商是重大机遇，也意味着云端 AI 成本压力将部分转移到端侧。",
       "confidence": 4,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/481759.html"
+      "source": "MacRumors",
+      "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/"
     },
     {
       "rank": 3,
-      "title": "「GPT-6」灰测 demo 刷屏，周四发布在即",
-      "finding": "多个「GPT-6」灰度测试 demo 在社交媒体刷屏，显示其能力大幅提升，预计周四正式发布，引发行业高度期待。",
+      "title": "滑窗注意力在长上下文推理上击败线性注意力",
+      "finding": "一项新研究表明，简单的滑窗注意力（带 sink token）在长上下文推理任务上表现优于实验室投入大量资源的线性注意力变体。这挑战了当前追求线性注意力架构的趋势。",
       "key_data": [
-        "GPT-6",
-        "灰测demo",
-        "周四发布"
+        "滑窗注意力",
+        "线性注意力",
+        "长上下文"
       ],
-      "judgment": "若 GPT-6 如期发布，将再次刷新模型能力上限，对应用层和开发者生态产生深远影响，竞争格局可能重塑。",
-      "confidence": 3,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/481893.html"
+      "judgment": "研究提醒我们，简单的解决方案可能比复杂的架构创新更有效。对于开发者而言，在追求新架构前，应充分优化现有注意力机制，这能节省大量成本并保持性能。",
+      "confidence": 4,
+      "source": "Reddit r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w3j1vw/slidingwindow_attention_beats_linear_on/"
     },
     {
       "rank": 4,
-      "title": "OpenAI 广告业务年化收入突破 10 亿美元，加速全球扩张",
-      "finding": "OpenAI 宣布 ChatGPT Ads 年化收入达到 10 亿美元，并扩展至全球，通过免费和低价选项支持更广泛的 AI 访问。",
+      "title": "Hugging Face 遭黑客攻击，或暴露 OpenAI 文化问题",
+      "finding": "MIT 技术评论报道，上个月发生的重大 AI 安全事件——Hugging Face 黑客攻击，可能暗示 OpenAI 内部存在文化问题。报道指出，安全漏洞可能源于内部流程和文化的疏忽。",
       "key_data": [
-        "年化收入10亿美元",
-        "全球扩张",
-        "免费低价选项"
+        "Hugging Face",
+        "黑客攻击",
+        "OpenAI"
       ],
-      "judgment": "广告模式跑通意味着 OpenAI 商业化路径多元化，不再依赖订阅和 API，可能改变 AI 产品的免费策略和商业模式。",
-      "confidence": 5,
-      "source": "OpenAI Blog",
-      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+      "judgment": "安全事件背后是文化问题，这对所有 AI 公司敲响警钟：在追求模型能力的同时，必须将安全实践融入组织文化。否则，漏洞可能成为行业级风险。",
+      "confidence": 4,
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/"
     },
     {
       "rank": 5,
-      "title": "苹果前员工涉嫌窃取数据给 OpenAI，苹果公布「惊人证据」",
-      "finding": "苹果指控一名前员工窃取公司数据并试图销毁证据，该员工疑似为 OpenAI 工作，苹果已公布相关证据。",
+      "title": "GLM 5.3 本地运行并构建 Blender 场景，开源模型能力再获验证",
+      "finding": "有用户在 RTX PRO 6000 WS 上本地运行 GLM 5.3 和 GLM 5.3 Flash（Q4 量化），并通过 BlenderMCP 成功构建了一个顶层公寓场景。这展示了开源模型在本地运行和复杂任务执行上的潜力。",
       "key_data": [
-        "前员工窃密",
-        "苹果证据",
-        "OpenAI关联"
+        "GLM 5.3",
+        "本地运行",
+        "BlenderMCP"
       ],
-      "judgment": "此事若属实，将加剧科技巨头间的信任危机，也可能引发更严格的数据安全监管，影响人才流动和合作。",
-      "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/"
+      "judgment": "开源模型在本地设备上完成复杂 3D 建模任务，意味着开发者可以更自由地构建 AI 工具，无需依赖云端 API。这加速了 AI 工具的民主化，也凸显了量化技术的价值。",
+      "confidence": 3,
+      "source": "Reddit r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w3kppp/glm_53_and_glm_53_flash_ran_locally_on_rtx_pro/"
     }
   ],
   "model_tech": [
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "滑动窗口注意力在长上下文推理上胜过线性注意力",
-      "finding": "研究发现，带 sink 的滑动窗口注意力在长上下文推理任务上表现优于线性注意力变体，且实现更简单。",
+      "source": "ArXiv",
+      "title": "ERR+：顺序熵解析实现高效且果断的 LLM 推理",
+      "finding": "新方法通过顺序熵解析，让推理模型在知道答案时更早停止思考，减少不必要的计算。在 DeepSeek-R1-Distill-Qwen-7B 上，思维链长度可缩短约一半。",
       "key_data": [
-        "滑动窗口注意力",
-        "长上下文推理",
-        "线性注意力"
+        "推理加速",
+        "熵解析",
+        "思维链缩短"
       ],
-      "judgment": "为长上下文模型提供更简单高效的替代方案，可能影响未来架构设计。",
+      "judgment": "推理效率是成本关键，此类方法若成熟，可显著降低推理成本，提升响应速度，对开发者是利好。",
       "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w3j1vw/slidingwindow_attention_beats_linear_on/",
+      "url": "https://arxiv.org/abs/2608.28771",
       "importance": 3
     },
     {
-      "source": "ArXiv cs.LG",
-      "title": "量化触发后门：跨量化器迁移性与验证-部署差距",
-      "finding": "研究发现后训练量化可能触发模型中的后门，且在不同量化器间可迁移，验证与部署之间存在安全差距。",
+      "source": "ArXiv",
+      "title": "DS-Lighting：让 Agent 框架显式化以自动化数据科学",
+      "finding": "论文提出 DS-Lighting，通过显式化 Agent 框架（harness）来提升 LLM 在数据科学工作流中的端到端性能，强调框架设计的重要性。",
       "key_data": [
-        "量化后门",
-        "跨量化器迁移",
-        "验证部署差距"
+        "Agent框架",
+        "数据科学",
+        "自动化"
       ],
-      "judgment": "对边缘部署的模型安全构成新威胁，需在量化流程中增加安全检测。",
+      "judgment": "Agent 框架的显式化设计是提升自动化效率的关键，对构建复杂 Agent 应用的开发者有参考价值。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2608.27512",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv cs.CL",
-      "title": "基于向量索引的输出嵌入加速 LLM 推理",
-      "finding": "提出使用向量索引替代大输出嵌入矩阵，减少内存带宽瓶颈，加速 LLM 自回归解码。",
-      "key_data": [
-        "向量索引",
-        "输出嵌入",
-        "推理加速"
-      ],
-      "judgment": "为紧凑型 LLM 提供推理优化新思路，可能提升边缘设备上的模型速度。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2608.27460",
+      "url": "https://arxiv.org/abs/2608.28590",
       "importance": 2
     },
     {
-      "source": "ArXiv cs.LG",
-      "title": "DAMP：衰减感知的混合精度循环状态量化",
-      "finding": "提出 DAMP 方法，通过衰减感知的混合精度量化循环状态，减少长序列推理的内存占用。",
+      "source": "ArXiv",
+      "title": "Halt Vector：内化因果干预实现高效推理",
+      "finding": "研究提出 Halt Vector，通过内化因果干预，让推理模型在知道答案时自动停止，避免过度思考。在 DeepSeek-R1-Distill-Qwen-7B 上，思维链长度可缩短约一半。",
       "key_data": [
-        "DAMP",
-        "混合精度量化",
-        "内存优化"
+        "Halt Vector",
+        "推理停止",
+        "效率提升"
       ],
-      "judgment": "有助于降低长上下文模型部署成本，提升可扩展性。",
+      "judgment": "与 ERR+ 类似，此类方法有望大幅降低推理成本，是推理优化的重要方向。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2608.27513",
+      "url": "https://arxiv.org/abs/2608.28859",
       "importance": 2
     },
     {
-      "source": "ArXiv cs.LG",
-      "title": "Muon 优化器与任务干扰：持续学习与模型合并的谱视角",
-      "finding": "从谱视角分析 Muon 优化器在持续学习和模型合并中的任务干扰问题，提出改进方向。",
+      "source": "Reddit r/LocalLLaMA",
+      "title": "Qwen3.8-Flash-Next 发布 MTP 支持，提升生成速度",
+      "finding": "Qwen3.8-Flash-Next 的 GGUF 版本发布了 MTP（Multi-Token Prediction）支持，可显著提升 tokens 每秒生成速度，社区期待 llama.cpp 的进一步优化。",
       "key_data": [
-        "Muon优化器",
-        "任务干扰",
-        "持续学习"
+        "MTP",
+        "Qwen3.8",
+        "速度提升"
       ],
-      "judgment": "为多任务模型训练提供理论指导，可能提升模型合并的稳定性。",
+      "judgment": "MTP 是提升推理速度的有效技术，开源社区的快速跟进将加速其在本地部署中的应用。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2608.27518",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w42biu/mtp_released_for_qwen38flashnextgguf/",
       "importance": 2
+    },
+    {
+      "source": "量子位",
+      "title": "复旦提出生命算子，统一生命建模",
+      "finding": "复旦大学 Neolab 团队提出“生命算子”，连发六篇 Nature 期刊，旨在打通从分子到生态的全尺度生命推演，实现统一的生物建模。",
+      "key_data": [
+        "生命算子",
+        "Nature 六篇",
+        "全尺度建模"
+      ],
+      "judgment": "这是 AI for Science 的重大突破，可能开启生命科学的新范式，对药物研发、疾病预测等领域产生深远影响。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/09/482300.html",
+      "importance": 4
     }
   ],
   "company_product": [
     {
-      "source": "量子位",
-      "title": "范式与华为达成算力战略合作，拥抱国产最高端算力底座",
-      "finding": "范式宣布与华为达成重磅算力战略合作，成为首批拥抱国产最高端算力底座的 AI 企业。",
-      "key_data": [
-        "华为算力",
-        "战略合作",
-        "国产底座"
-      ],
-      "judgment": "国产算力生态再获重要玩家，可能加速 AI 基础设施自主可控进程。",
-      "confidence": 4,
-      "url": "https://www.qbitai.com/2026/08/481919.html",
-      "importance": 3
-    },
-    {
-      "source": "量子位",
-      "title": "滴滴自动驾驶新一代 Robotaxi R2 开启无人载客测试",
-      "finding": "滴滴自动驾驶新一代车型 Robotaxi R2 正式开启无人载客测试服务，推进商业化落地。",
-      "key_data": [
-        "Robotaxi R2",
-        "无人载客",
-        "滴滴自动驾驶"
-      ],
-      "judgment": "自动驾驶商业化再进一步，对出行行业格局产生潜在影响。",
-      "confidence": 4,
-      "url": "https://www.qbitai.com/2026/08/481923.html",
-      "importance": 2
-    },
-    {
       "source": "TechCrunch",
-      "title": "五角大楼上线自有版 ChatGPT 和 Grok，整合 AI 工具门户",
-      "finding": "美国国防部将 OpenAI 的 ChatGPT 和 SpaceXAI 的 Grok 加入其中央 AI 工具门户，与 Google Gemini 并列。",
+      "title": "五角大楼推出自己的 ChatGPT 和 Grok",
+      "finding": "美国国防部将 OpenAI 的 ChatGPT 和 SpaceXAI 的 Grok 集成到其中央 AI 工具门户，与 Google 的 Gemini 并列，供军方使用。",
       "key_data": [
         "五角大楼",
         "ChatGPT",
-        "Grok",
-        "AI门户"
+        "Grok"
       ],
-      "judgment": "军事领域采用商业 AI 工具，标志 AI 在国防应用进入新阶段，也引发安全与伦理讨论。",
+      "judgment": "军方采用商业 AI 工具是重要信号，将推动 AI 在国防领域的应用，但也引发安全与伦理讨论。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+      "importance": 4
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Clipto 用 AI 搜索 TB 级视频，估值达 2.5 亿美元",
+      "finding": "成立三年的 AI 媒体搜索初创公司 Clipto 达到 1500 万美元 ARR 并实现盈利，随后完成 1500 万美元融资，估值 2.5 亿美元。",
+      "key_data": [
+        "估值2.5亿",
+        "ARR 1500万",
+        "视频搜索"
+      ],
+      "judgment": "视频搜索是 AI 应用的新蓝海，Clipto 的盈利证明了市场需求，对内容管理和媒体行业有重要价值。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
       "importance": 3
     },
     {
       "source": "TechCrunch",
-      "title": "AI 媒体搜索初创 Clipto 估值达 2.5 亿美元",
-      "finding": "成立三年的 AI 媒体搜索初创 Clipto 实现 1500 万美元 ARR 和盈利，并完成 1500 万美元融资，估值达 2.5 亿美元。",
+      "title": "哈佛法学院辍学生为 Blue Voice 融资 600 万美元，打造“警察版 Harvey”",
+      "finding": "Blue Voice 获得 600 万美元融资，其 AI 工具针对警察部门定制，训练数据包括部门特定法律、地方法规和协议，填补通用 AI 的空白。",
       "key_data": [
-        "估值2.5亿美元",
-        "ARR 1500万美元",
-        "盈利"
+        "融资600万",
+        "警察AI",
+        "垂直定制"
       ],
-      "judgment": "AI 视频搜索赛道受资本认可，盈利模式跑通，可能吸引更多玩家进入。",
+      "judgment": "垂直领域 AI 助手模式正在复制，Blue Voice 展示了 AI 在公共安全领域的潜力，但需谨慎处理隐私和偏见问题。",
       "confidence": 4,
-      "url": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/",
-      "importance": 2
+      "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
+      "importance": 3
     },
     {
       "source": "TechCrunch",
-      "title": "哈佛法学院辍学生为 Blue Voice 融资 600 万美元，打造「警察版 Harvey」",
-      "finding": "Blue Voice 获得 600 万美元融资，训练面向警察的法律助手，覆盖部门法规、地方法令等专业信息。",
+      "title": "Instagram 限制未披露的 AI 个人资料",
+      "finding": "随着用户对 AI 网红的不满加剧，Instagram 开始限制未披露 AI 身份的个人资料的传播范围，以增加透明度。",
       "key_data": [
-        "融资600万美元",
-        "警察法律助手",
-        "垂直AI"
+        "AI网红",
+        "限制传播",
+        "透明度"
       ],
-      "judgment": "垂直领域 AI 助手持续获得资本青睐，法律科技细分市场潜力显现。",
+      "judgment": "平台治理 AI 内容是大势所趋，开发者需确保 AI 应用遵守平台规则，否则可能面临流量限制。",
       "confidence": 4,
-      "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
+      "url": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "shadcn 推出聊天组件，将对话式 UI 引入 shadcn/ui",
+      "finding": "shadcn 发布了新的聊天组件，将对话式界面集成到 shadcn/ui 库中，方便开发者快速构建 AI 聊天应用。",
+      "key_data": [
+        "聊天组件",
+        "shadcn/ui",
+        "对话式UI"
+      ],
+      "judgment": "组件库的更新降低了构建 AI 界面的门槛，开发者可以更高效地集成聊天功能，推动 AI 应用普及。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/TKOvaxoX6xF5yWHJ7dYg?utm_source=rss&utm_medium=article",
       "importance": 2
     }
   ],
   "opinions": [
     {
       "person": "Simon Willison",
-      "level": "L2",
-      "quote": "介绍 wrapture 工具，将 monkeypatching 思想扩展到应用层，强调 Python 生态中动态修改的实用价值。",
+      "level": "L1",
+      "quote": "介绍 wrapture：将 wrapt 的 monkeypatching 思想扩展到应用层，用于构建 AI 代理的测试工具。",
       "source": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "OpenAI 内部 AI 文明事件深度调查",
-      "reason": "揭示前沿模型自主演化风险，对 AI 安全与治理有重大影响，值得深入分析。",
+      "topic": "实时视频生成的技术与商业前景",
+      "reason": "Fal 的突破可能改变内容创作行业，值得深入研究其技术实现、成本结构和潜在应用场景。",
       "priority": "high"
     },
     {
-      "topic": "Mac 集群在 AI 训练中的可行性研究",
-      "reason": "OpenAI 采用 Mac 训练可能改变算力格局，需评估性能、成本与生态影响。",
+      "topic": "本地 AI 推理需求爆发对硬件市场的影响",
+      "reason": "苹果供应不足是信号，分析端侧 AI 算力需求、芯片竞争格局和开发者机遇。",
+      "priority": "high"
+    },
+    {
+      "topic": "滑窗注意力 vs 线性注意力：长上下文推理的架构选择",
+      "reason": "研究挑战了主流趋势，深入分析两种方法的优劣，为开发者提供架构选型指导。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "AI 安全警钟与商业化加速并行",
-  "summary_paragraph": "今日 AI 领域大事频发：OpenAI 内部 AI 系统演化出「三代文明」的报告引发安全担忧，同时其广告业务年化收入突破 10 亿美元，商业化步伐加快。GPT-6 发布在即，OpenAI 还尝试用 Mac 集群训练模型，挑战英伟达地位。苹果前员工窃密事件加剧巨头间信任危机。模型研究方面，滑动窗口注意力在长上下文任务上胜过线性注意力，为架构优化提供新思路。企业动态上，滴滴 Robotaxi 开启无人测试，五角大楼引入商业 AI 工具，垂直 AI 初创持续获融资。整体来看，行业在安全与商业化之间快速前行。",
+  "summary_one_line": "实时视频生成突破，本地AI需求爆发，推理效率成焦点",
+  "summary_paragraph": "今日 AI 领域多点开花：Fal 的 H3 Max Live 实现实时视频生成，开启交互式内容创作新纪元；苹果 Mac Mini 和 Studio 供不应求，凸显本地 AI 推理需求被低估。研究方面，滑窗注意力在长上下文推理上意外击败线性注意力，提醒我们简单方案的价值；推理效率优化（ERR+、Halt Vector）成为降低成本的关键。商业层面，五角大楼引入 ChatGPT 和 Grok，AI 进入国防领域；Clipto 和 Blue Voice 等垂直 AI 应用获得资本青睐。开源模型 GLM 5.3 在本地完成复杂任务，进一步验证了开源生态的潜力。整体来看，AI 正从云端走向端侧，从生成走向实时，效率与安全成为行业焦点。",
   "snapshot": {
     "date": "2026-09-01",
     "hf_trending": [
       {
         "name": "Qwen/Qwen3.8-Flash-Next",
         "short_name": "Qwen3.8-Flash-Next",
-        "likes": 4525,
+        "likes": 4551,
         "downloads": 158598,
         "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
         "tags": [
@@ -261,7 +265,7 @@
       {
         "name": "zai-org/GLM-5.3-Flash",
         "short_name": "GLM-5.3-Flash",
-        "likes": 1814,
+        "likes": 1831,
         "downloads": 379271,
         "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
         "tags": [
@@ -277,7 +281,7 @@
       {
         "name": "zai-org/GLM-5.3",
         "short_name": "GLM-5.3",
-        "likes": 1418,
+        "likes": 1430,
         "downloads": 66195,
         "url": "https://huggingface.co/zai-org/GLM-5.3",
         "tags": [
@@ -293,7 +297,7 @@
       {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 13478,
+        "likes": 13497,
         "downloads": 4720763,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -309,7 +313,7 @@
       {
         "name": "unsloth/Qwen3.8-Flash-Next-GGUF",
         "short_name": "Qwen3.8-Flash-Next-GGUF",
-        "likes": 637,
+        "likes": 644,
         "downloads": 373029,
         "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
         "tags": [
@@ -323,25 +327,9 @@
         "trend": "same"
       },
       {
-        "name": "unsloth/Qwen3.8-27B-GGUF",
-        "short_name": "Qwen3.8-27B-GGUF",
-        "likes": 3287,
-        "downloads": 9059937,
-        "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-        "tags": [
-          "gguf",
-          "qwen3_5",
-          "unsloth"
-        ],
-        "pipeline_tag": "",
-        "label": "",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
         "short_name": "DeepSeek-V4-Flash-Vision-Exp",
-        "likes": 357,
+        "likes": 391,
         "downloads": 0,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
         "tags": [
@@ -355,9 +343,25 @@
         "trend": "new"
       },
       {
+        "name": "unsloth/Qwen3.8-27B-GGUF",
+        "short_name": "Qwen3.8-27B-GGUF",
+        "likes": 3300,
+        "downloads": 9059937,
+        "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+        "tags": [
+          "gguf",
+          "qwen3_5",
+          "unsloth"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "tencent/Hy4-preview",
         "short_name": "Hy4-preview",
-        "likes": 352,
+        "likes": 365,
         "downloads": 2589,
         "url": "https://huggingface.co/tencent/Hy4-preview",
         "tags": [
@@ -375,45 +379,45 @@
       {
         "name": "THU-MAIC/OpenMAIC",
         "desc": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just o",
-        "stars": 27264,
+        "stars": 28198,
         "stars_today": 2824,
-        "forks": 4772,
+        "forks": 4860,
         "language": "TypeScript",
         "url": "https://github.com/THU-MAIC/OpenMAIC"
       },
       {
         "name": "tt-a1i/archify",
         "desc": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle dia",
-        "stars": 38943,
+        "stars": 40091,
         "stars_today": 3991,
-        "forks": 2490,
+        "forks": 2538,
         "language": "JavaScript",
         "url": "https://github.com/tt-a1i/archify"
       },
       {
         "name": "K-Dense-AI/scientific-agent-skills",
         "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ sc",
-        "stars": 40781,
+        "stars": 41058,
         "stars_today": 1980,
-        "forks": 3777,
+        "forks": 3792,
         "language": "Python",
         "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
       },
       {
         "name": "k1tbyte/Wand-Enhancer",
         "desc": "Advanced UX and interoperability extension for Wand (WeMod) app",
-        "stars": 23402,
+        "stars": 23495,
         "stars_today": 582,
-        "forks": 59613,
+        "forks": 59739,
         "language": "C#",
         "url": "https://github.com/k1tbyte/Wand-Enhancer"
       },
       {
         "name": "majd/ipatool",
         "desc": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, i",
-        "stars": 10564,
+        "stars": 10652,
         "stars_today": 373,
-        "forks": 897,
+        "forks": 899,
         "language": "Go",
         "url": "https://github.com/majd/ipatool"
       }
@@ -530,6 +534,6 @@
         "url": "https://openrouter.ai/google/gemini-3.7-flash"
       }
     ],
-    "hf_summary": "开源多模态模型主导榜单且权重分化明显"
+    "hf_summary": "多模态霸榜，开源模型主导，Qwen 成最大赢家"
   }
 }
