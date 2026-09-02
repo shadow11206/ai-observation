@@ -3,70 +3,70 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "OpenAI发布Astra模型：首个达到“关键网络安全”门槛的AI",
-      "finding": "OpenAI宣布Astra是首个在内部安全框架下达到“关键网络安全能力”阈值的模型，意味着它在渗透测试、漏洞利用等方面具备高水平能力。公司计划先向精选合作伙伴提供早期访问，以便他们加固防御。",
+      "title": "OpenAI发布Astra模型：首个达到“关键网络安全能力”阈值的AI",
+      "finding": "OpenAI宣布其新模型Astra成为首个在内部Preparedness框架下达到“关键网络安全能力”阈值的模型，意味着其自主攻击能力已接近危险水平。OpenAI将向精选合作伙伴提前开放访问，以便他们加固防御。",
       "key_data": [
-        "首个关键网络安全模型",
-        "精选合作伙伴早期访问",
-        "强化安全防护措施"
+        "首个达到关键阈值",
+        "提前开放给合作伙伴",
+        "强化安全防护"
       ],
-      "judgment": "这是AI安全领域的分水岭：模型能力首次被官方认定为“关键”级别，可能引发监管关注和行业安全标准重塑。对安全从业者意味着新的攻防挑战，对普通用户则需警惕潜在风险。",
+      "judgment": "这是AI安全领域的分水岭事件：模型能力首次被官方认定为“关键”级别，可能引发监管和行业连锁反应。对开发者而言，Astra的发布将重新定义AI能力的上限与安全边界。",
       "confidence": 5,
       "source": "OpenAI Blog",
       "url": "https://openai.com/index/path-to-astra"
     },
     {
       "rank": 2,
-      "title": "Anthropic发布Claude Fable 5.1：更便宜、限制更少，但用户抱怨“明升暗降”",
-      "finding": "Claude Fable 5.1正式上线，官方宣称在编码、知识工作和长任务处理上树立新标准，同时降低token成本和误报限制。然而，有报道称其“永久提额25%”实际到手反而减少17%，引发用户不满。",
+      "title": "Anthropic发布Claude Fable 5.1：性能翻倍、成本降低45%",
+      "finding": "Anthropic推出Claude Fable 5.1，官方称其在编码、知识工作和长时任务上“树立新标准”，同时大幅降低token成本（最高降45%），并引入反蒸馏机制。该模型在多项基准上屠榜，且限制更少。",
       "key_data": [
-        "Fable 5.1发布",
-        "降低token成本",
-        "提额争议：名义+25%实际-17%"
+        "性能翻倍",
+        "成本降低45%",
+        "反蒸馏机制"
       ],
-      "judgment": "模型迭代方向正确，但定价策略的“明升暗降”可能损害用户信任。对开发者而言，需仔细核算实际成本，而Anthropic需在商业化与用户口碑间找到平衡。",
-      "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/"
+      "judgment": "Fable 5.1的性价比跃升将加剧模型竞争，尤其对AI Coding和Agent场景是重大利好。反蒸馏机制则是对模型复制行为的直接回应，可能影响开源生态和二次开发模式。",
+      "confidence": 5,
+      "source": "Anthropic Blog",
+      "url": "https://www.anthropic.com/news/claude-fable-5-1"
     },
     {
       "rank": 3,
-      "title": "Fal的H3 Max Live突破无限视频生成壁垒，实时生成速度超过观看速度",
-      "finding": "Fal发布H3 Max Live，实现了“无限视频生成”，生成速度比播放速度还快，用户可以在观看的同时持续生成新内容，标志着AI视频生成进入实时交互时代。",
+      "title": "阿里发布Qwen3.8-Max：前端编程能力跃居全球第一",
+      "finding": "阿里巴巴更新旗舰模型Qwen3.8-Max，据称其前端编程能力在评测中跃居全球第一。该模型在代码生成、前端框架理解等任务上表现突出，进一步巩固了阿里在开源模型领域的竞争力。",
       "key_data": [
-        "无限视频生成",
-        "生成速度快于播放",
-        "实时交互"
+        "前端编程全球第一",
+        "旗舰模型更新",
+        "开源生态"
       ],
-      "judgment": "这是视频生成领域的重大突破，将改变内容创作和消费方式。对创作者意味着新的表达工具，对平台则可能引发内容生态变革。实时生成能力可能催生全新的应用场景。",
+      "judgment": "Qwen3.8-Max的登顶表明中国模型在垂直能力上已能与国际顶尖模型抗衡，对开发者而言意味着更多高性能开源选择，可能改变AI编程工具的市场格局。",
       "confidence": 4,
-      "source": "Latent Space",
-      "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the"
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/09/483101.html"
     },
     {
       "rank": 4,
       "title": "Google DeepMind推出Gemini智能体视频理解功能",
-      "finding": "Google DeepMind宣布在Gemini中引入智能体视频理解能力，使模型能够理解视频内容并执行相关任务，如视频摘要、事件检测等，进一步拓展多模态AI的应用边界。",
+      "finding": "Google DeepMind宣布为Gemini引入“智能体视频理解”能力，使模型能够理解视频内容并执行相关任务，如识别物体、跟踪事件、回答视频相关问题。这标志着多模态AI从静态理解走向动态交互。",
       "key_data": [
-        "Gemini视频理解",
-        "智能体能力",
-        "多模态扩展"
+        "智能体视频理解",
+        "多模态交互",
+        "动态场景"
       ],
-      "judgment": "视频理解是AI从静态走向动态的关键一步，对安防、媒体、教育等行业有深远影响。Google此举将加剧与OpenAI、Anthropic的竞争，推动多模态AI实用化。",
+      "judgment": "视频理解是AI从文本/图像走向物理世界的关键一步，对机器人、自动驾驶、视频分析等领域有深远影响。Google此举可能推动多模态模型竞争进入新阶段。",
       "confidence": 5,
       "source": "Google DeepMind Blog",
       "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/"
     },
     {
       "rank": 5,
-      "title": "AfterQuery成为Y Combinator史上最快独角兽，估值达32亿美元",
-      "finding": "AI模型训练初创公司AfterQuery在宣布3000万美元A轮融资（估值3亿美元）仅5个月后，再次融资，估值飙升至32亿美元，成为YC史上最快达到独角兽地位的公司。",
+      "title": "AI模型训练创企AfterQuery成YC最快独角兽，估值32亿美元",
+      "finding": "AI模型训练初创公司AfterQuery据报道以32亿美元估值完成新一轮融资，距其4月3000万美元A轮（估值3亿美元）仅5个月，成为Y Combinator史上最快达到独角兽地位的公司。",
       "key_data": [
         "估值32亿美元",
-        "5个月从3亿到32亿",
+        "5个月增长10倍",
         "YC最快独角兽"
       ],
-      "judgment": "资本对AI训练基础设施的热情持续高涨，但如此快速的估值增长也引发泡沫担忧。对创业者而言，这是机遇也是警示：高估值意味着高期望，需有扎实的技术和商业模式支撑。",
+      "judgment": "AfterQuery的爆发式增长反映了资本市场对AI基础设施的狂热，但也可能预示泡沫风险。对创业者而言，这既是机会也是警示：高估值需要扎实的技术和商业模式支撑。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/"
@@ -74,188 +74,163 @@
   ],
   "model_tech": [
     {
-      "source": "ArXiv",
-      "title": "ERR+：顺序熵解析实现高效且果断的LLM推理",
-      "finding": "提出ERR+方法，通过顺序熵解析减少推理模型的冗长思维链，提升决策效率，在保持性能的同时降低计算成本。",
-      "key_data": [
-        "顺序熵解析",
-        "减少思维链",
-        "提升效率"
-      ],
-      "judgment": "推理效率是LLM落地的关键瓶颈，ERR+提供了一种新思路，可能推动更高效的推理模型设计。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2608.28771",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv",
-      "title": "Halt Vector：内化因果干预实现高效推理",
-      "finding": "研究发现推理模型在知道答案后仍会继续思考，提出“Halt Vector”技术，通过内化因果干预让模型及时停止，减少不必要的计算。",
-      "key_data": [
-        "Halt Vector",
-        "减少冗余思考",
-        "提升推理效率"
-      ],
-      "judgment": "解决推理模型的“过度思考”问题，对降低推理成本和延迟有实际意义，值得关注。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2608.28859",
-      "importance": 2
-    },
-    {
       "source": "Hugging Face Blog",
       "title": "BenchMIRT：LLM基准测试到底在测量什么？",
-      "finding": "AI2发布BenchMIRT，分析现有LLM基准测试的有效性，指出许多基准可能测量的是数据污染或表面模式，而非真实能力。",
+      "finding": "AI2发布BenchMIRT，一个用于分析LLM基准测试有效性的框架，揭示许多基准可能测量的是表面相关性而非真正能力。",
       "key_data": [
         "基准测试有效性",
-        "数据污染",
-        "能力评估"
+        "表面相关性"
       ],
-      "judgment": "基准测试的可信度受到质疑，将推动更严谨的评估方法，对模型比较和选型有重要参考价值。",
+      "judgment": "基准测试的可信度受到挑战，开发者应谨慎看待排行榜，更多关注实际任务表现。",
       "confidence": 4,
       "url": "https://huggingface.co/blog/allenai/benchmirt",
       "importance": 3
     },
     {
       "source": "ArXiv",
-      "title": "DS-Lighting：为数据科学自动化显式化Agent Harnesses",
-      "finding": "提出DS-Lighting框架，通过显式化agent harnesses提升LLM在数据科学工作流中的自动化性能，端到端表现更稳定。",
+      "title": "轨迹评判：仅看结果的LLM评判器在智能体轨迹上遗漏了什么",
+      "finding": "新论文指出，仅基于最终结果评估LLM智能体会遗漏过程中的关键错误，提出轨迹级评判方法以更全面评估智能体行为。",
       "key_data": [
-        "数据科学自动化",
-        "Agent harnesses",
-        "端到端性能"
+        "轨迹级评估",
+        "结果导向局限"
       ],
-      "judgment": "数据科学自动化是AI落地的重要方向，该框架可能提升自动化工具的可靠性。",
+      "judgment": "对Agent开发有直接指导意义，推动评估从结果导向转向过程导向，可能影响Agent评测标准。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2608.28590",
+      "url": "https://arxiv.org/abs/2609.00038",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "GUI-CC：GUI世界模型作为智能体环境的上下文一致性基准",
+      "finding": "新基准GUI-CC评估GUI世界模型在多步环境中的上下文一致性，发现现有模型在长序列任务中一致性不足。",
+      "key_data": [
+        "GUI世界模型",
+        "上下文一致性"
+      ],
+      "judgment": "为GUI智能体开发提供评测工具，有助于提升自动化操作类AI的可靠性。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.00048",
       "importance": 2
     },
     {
       "source": "ArXiv",
-      "title": "专家验证的STEM问答基准",
-      "finding": "发布一个由专家验证的STEM问答基准，用于评估AI在数学、医学、材料科学等领域的科学推理能力，填补了现有评估的空白。",
+      "title": "从检测到拒绝：通过电路引导的权重缩放实现更安全的LLM",
+      "finding": "提出一种通过识别和缩放模型内部电路来增强安全拒绝行为的方法，在对抗性提示下显著降低有害内容生成率。",
       "key_data": [
-        "STEM基准",
-        "专家验证",
-        "科学推理"
+        "电路引导",
+        "权重缩放",
+        "对抗鲁棒性"
       ],
-      "judgment": "高质量基准有助于准确评估AI的科学能力，推动AI在科研领域的应用。",
+      "judgment": "为AI安全提供可解释的干预手段，可能成为未来对齐研究的重要方向。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2608.28591",
+      "url": "https://arxiv.org/abs/2609.00051",
       "importance": 2
     }
   ],
   "company_product": [
     {
       "source": "OpenAI Blog",
-      "title": "ChatGPT连接电子健康记录，助力医疗行业",
-      "finding": "OpenAI宣布ChatGPT可连接电子健康记录（EHR）和其他医疗数据，帮助临床医生安全地获取患者上下文和医学研究，提升诊疗效率。",
+      "title": "ChatGPT现可连接电子健康记录等医疗数据",
+      "finding": "OpenAI宣布ChatGPT可安全连接医疗机构的EHR系统，帮助临床医生快速获取患者上下文和医学研究，提升诊疗效率。",
       "key_data": [
         "EHR连接",
-        "医疗数据",
-        "临床支持"
+        "临床辅助"
       ],
-      "judgment": "医疗AI落地加速，但数据隐私和安全是关键，OpenAI需确保合规性。",
+      "judgment": "医疗AI落地加速，但数据隐私和合规仍是关键挑战，OpenAI需证明其安全性。",
       "confidence": 5,
       "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
       "importance": 4
     },
     {
       "source": "TechCrunch",
-      "title": "谷歌推出AI工具Google Pics，对标Canva",
-      "finding": "Google发布AI设计工具Google Pics，用户通过提示词即可生成设计，无需手动操作，直接挑战Canva和Adobe的市场地位。",
+      "title": "谷歌推出AI设计工具Google Pics，对标Canva",
+      "finding": "Google发布AI优先的设计工具Google Pics，用户通过自然语言提示即可生成设计，直接挑战Canva和Adobe的市场。",
       "key_data": [
-        "Google Pics",
-        "提示词设计",
+        "AI设计工具",
         "对标Canva"
       ],
-      "judgment": "AI设计工具竞争加剧，Google的入局可能改变创意软件市场格局，对设计师和普通用户都是新选择。",
+      "judgment": "AI设计工具竞争加剧，Google的入局可能改变创意软件市场格局，对设计师工作流产生深远影响。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
       "importance": 3
     },
     {
-      "source": "InfoQ",
-      "title": "OpenClaw迎来史上最大更新：933名贡献者、超1.6万次PR提交",
-      "finding": "开源项目OpenClaw发布重大更新，拥有933名贡献者和超过1.6万次PR提交，并支持浏览器直接使用，社区活跃度极高。",
-      "key_data": [
-        "933名贡献者",
-        "1.6万次PR",
-        "浏览器可用"
-      ],
-      "judgment": "开源社区的力量凸显，OpenClaw的快速发展可能成为AI Agent领域的重要基础设施。",
-      "confidence": 4,
-      "url": "https://www.infoq.cn/article/9RS84kmpRvz4IqRUbNoe",
-      "importance": 3
-    },
-    {
-      "source": "InfoQ",
-      "title": "Claude越狱后，Anthropic停掉训练、150人紧急转岗",
-      "finding": "据报道，Anthropic在Claude被越狱后暂停了模型训练，并将150名员工紧急转岗，以应对安全事件。",
-      "key_data": [
-        "Claude越狱",
-        "暂停训练",
-        "150人转岗"
-      ],
-      "judgment": "安全事件对AI公司的冲击巨大，Anthropic的应对措施显示安全优先的战略，但也可能影响研发进度。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/EPME6yOoJGusHdGZTGFJ",
-      "importance": 3
-    },
-    {
       "source": "量子位",
-      "title": "MiniMax打开AI视频实时商业化路径：3秒出片比播放还快",
-      "finding": "MiniMax推出实时视频生成功能，3秒即可生成视频，速度超过播放，为AI视频的商业化提供了新路径。",
+      "title": "蚂蚁集团OmniTable系统获VLDB 2026工业最佳论文",
+      "finding": "蚂蚁集团推出统一宽表系统OmniTable，用于处理35PB语料，效率提升5.6倍，获VLDB 2026工业赛道最佳论文。",
       "key_data": [
-        "3秒出片",
-        "实时生成",
-        "商业化"
+        "35PB语料",
+        "效率提升5.6倍",
+        "VLDB最佳论文"
       ],
-      "judgment": "实时视频生成将推动短视频、直播等领域的创新，MiniMax有望在消费级市场占据一席之地。",
+      "judgment": "数据工程创新是AI基础设施的关键，OmniTable展示了高效处理海量数据的可行路径，对大型模型训练有参考价值。",
       "confidence": 4,
-      "url": "https://www.qbitai.com/2026/09/482512.html",
+      "url": "https://www.qbitai.com/2026/09/483104.html",
       "importance": 3
+    },
+    {
+      "source": "极客公园",
+      "title": "硬件版AI助手Violoop获数亿融资，瞄准“终极上下文”",
+      "finding": "Violoop推出即插即用的硬件AI助手，通过Type-C连接电脑，不占用CPU/内存，旨在提供持续上下文感知能力，已获数亿元融资。",
+      "key_data": [
+        "硬件AI助手",
+        "数亿融资",
+        "上下文感知"
+      ],
+      "judgment": "硬件+AI的结合探索了新的交互形态，可能推动AI从云端走向本地化，但市场接受度待验证。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/369718",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "Cloudflare OS：基于能力模型的开源企业级AI平台",
+      "finding": "Cloudflare发布开源企业级AI平台Cloudflare OS，基于能力模型构建，旨在简化企业AI部署和管理。",
+      "key_data": [
+        "开源平台",
+        "能力模型"
+      ],
+      "judgment": "Cloudflare进入企业AI平台市场，可能加剧竞争，但开源策略有助于吸引开发者生态。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/ztbou1CqjAdzrT6GNSKV",
+      "importance": 2
     }
   ],
   "opinions": [
     {
       "person": "Tarn Adams",
       "level": "L1",
-      "quote": "他们从我这里拿走了字母！我现在必须谈论矮人行为。我甚至不能谈论矮人AI。它不存在。这是矮人行为，他们有时会行为不端。",
+      "quote": "他们从我这里拿走了字母！我现在必须谈论矮人行为，甚至不能谈论矮人AI。它不存在。这是矮人行为，他们有时会行为不端。",
       "source": "https://simonwillison.net/2026/Sep/1/tarn-adams/"
     },
     {
       "person": "Ed Zitron",
       "level": "L2",
-      "quote": "AI怀疑论者的预测有多准确？",
+      "quote": "（Dan Luu分析其预测准确性）AI怀疑论者的预测有多少成真？",
       "source": "https://danluu.com/zitron/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "OpenAI Astra模型的安全框架与行业影响",
-      "reason": "首个关键网络安全模型，可能重塑AI安全标准和监管，值得深入研究其技术细节和潜在风险。",
+      "topic": "AI安全阈值与模型能力分级：Astra的发布将如何影响监管和行业标准？",
+      "reason": "首个达到关键网络安全阈值的模型，可能引发监管框架和行业安全标准的重大变化。",
       "priority": "high"
     },
     {
-      "topic": "实时视频生成技术的商业化路径",
-      "reason": "Fal和MiniMax的突破标志着视频生成进入实时时代，探讨其应用场景和商业模式。",
-      "priority": "medium"
-    },
-    {
-      "topic": "LLM基准测试的有效性危机",
-      "reason": "BenchMIRT揭示基准测试可能失真，影响模型评估和选择，值得深入分析。",
+      "topic": "Claude Fable 5.1的反蒸馏机制：对开源生态和模型复制的实际影响",
+      "reason": "反蒸馏机制可能改变模型二次开发和开源社区的运作方式，值得深入分析。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "AI安全里程碑、视频生成突破、资本狂潮与模型迭代并行",
-  "summary_paragraph": "今日AI行业迎来多项重磅动态：OpenAI发布首个达到关键网络安全门槛的模型Astra，标志着AI能力与安全风险的双重升级；Anthropic推出Claude Fable 5.1，但定价策略引发争议；视频生成领域，Fal和MiniMax实现实时生成，速度超过播放，开启商业化新可能；Google DeepMind强化Gemini的视频理解能力，多模态竞争加剧。资本层面，AfterQuery以32亿美元估值成为YC最快独角兽，显示AI投资热度不减。同时，开源社区OpenClaw的爆发和Anthropic的安全事件也提醒我们，AI发展既有机遇也有挑战。",
+  "summary_one_line": "模型能力突破与安全边界并行，AI竞争进入新阶段",
+  "summary_paragraph": "今日AI行业迎来多项重磅动态：OpenAI发布首个达到关键网络安全阈值的Astra模型，标志着AI能力与安全风险的同步升级；Anthropic推出Claude Fable 5.1，性能翻倍且成本大降，进一步加剧模型竞争；阿里Qwen3.8-Max前端编程能力登顶，展现中国模型的竞争力。同时，Google DeepMind的Gemini获得视频理解能力，推动多模态AI向动态交互演进。资本层面，AfterQuery以32亿美元估值成为YC最快独角兽，显示AI基础设施的热度。这些事件共同勾勒出AI行业在能力跃升、安全考量、商业变现之间的复杂张力。",
   "snapshot": {
     "date": "2026-09-02",
     "hf_trending": [
       {
         "name": "Qwen/Qwen3.8-Flash-Next",
         "short_name": "Qwen3.8-Flash-Next",
-        "likes": 4646,
+        "likes": 4670,
         "downloads": 207941,
         "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
         "tags": [
@@ -271,7 +246,7 @@
       {
         "name": "zai-org/GLM-5.3-Flash",
         "short_name": "GLM-5.3-Flash",
-        "likes": 1882,
+        "likes": 1899,
         "downloads": 441348,
         "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
         "tags": [
@@ -287,7 +262,7 @@
       {
         "name": "zai-org/GLM-5.3",
         "short_name": "GLM-5.3",
-        "likes": 1467,
+        "likes": 1474,
         "downloads": 94403,
         "url": "https://huggingface.co/zai-org/GLM-5.3",
         "tags": [
@@ -303,7 +278,7 @@
       {
         "name": "unsloth/Qwen3.8-Flash-Next-GGUF",
         "short_name": "Qwen3.8-Flash-Next-GGUF",
-        "likes": 674,
+        "likes": 683,
         "downloads": 431339,
         "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
         "tags": [
@@ -319,7 +294,7 @@
       {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 13587,
+        "likes": 13610,
         "downloads": 4960483,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -335,7 +310,7 @@
       {
         "name": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
         "short_name": "DeepSeek-V4-Flash-Vision-Exp",
-        "likes": 449,
+        "likes": 462,
         "downloads": 17893,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
         "tags": [
@@ -351,7 +326,7 @@
       {
         "name": "tencent/Hy4-preview",
         "short_name": "Hy4-preview",
-        "likes": 384,
+        "likes": 389,
         "downloads": 3516,
         "url": "https://huggingface.co/tencent/Hy4-preview",
         "tags": [
@@ -367,7 +342,7 @@
       {
         "name": "unsloth/Qwen3.8-27B-GGUF",
         "short_name": "Qwen3.8-27B-GGUF",
-        "likes": 3338,
+        "likes": 3353,
         "downloads": 9354057,
         "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
         "tags": [
@@ -385,45 +360,45 @@
       {
         "name": "Gitlawb/openclaude",
         "desc": "runs anywhere. uses anything",
-        "stars": 31351,
+        "stars": 31562,
         "stars_today": 80,
-        "forks": 8951,
+        "forks": 8969,
         "language": "TypeScript",
         "url": "https://github.com/Gitlawb/openclaude"
       },
       {
         "name": "Imbad0202/academic-research-skills",
         "desc": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
-        "stars": 44940,
+        "stars": 45163,
         "stars_today": 193,
-        "forks": 3551,
+        "forks": 3560,
         "language": "Python",
         "url": "https://github.com/Imbad0202/academic-research-skills"
       },
       {
         "name": "THU-MAIC/OpenMAIC",
         "desc": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just o",
-        "stars": 29571,
+        "stars": 29900,
         "stars_today": 3128,
-        "forks": 4980,
+        "forks": 5012,
         "language": "TypeScript",
         "url": "https://github.com/THU-MAIC/OpenMAIC"
       },
       {
         "name": "iv-org/invidious",
         "desc": "Invidious is an alternative front-end to YouTube",
-        "stars": 23782,
+        "stars": 23872,
         "stars_today": 577,
-        "forks": 2674,
+        "forks": 2676,
         "language": "Crystal",
         "url": "https://github.com/iv-org/invidious"
       },
       {
         "name": "jingyaogong/minimind",
         "desc": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
-        "stars": 57141,
+        "stars": 57378,
         "stars_today": 1005,
-        "forks": 7429,
+        "forks": 7460,
         "language": "Python",
         "url": "https://github.com/jingyaogong/minimind"
       }
@@ -540,6 +515,6 @@
         "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
       }
     ],
-    "hf_summary": "多模态模型霸榜，开源生态竞争白热化"
+    "hf_summary": "开源多模态模型主导榜单"
   }
 }
