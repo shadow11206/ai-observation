@@ -3,248 +3,253 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "OpenAI 新推理技术引发安全专家担忧",
-      "finding": "OpenAI 即将推出的 Astra 模型将采用一种名为“循环深度”的新推理技术，使模型能够跳出传统的顺序思维模式。这一技术突破引发 AI 安全专家的担忧，认为可能带来不可预测的行为。",
+      "title": "Meta超级智能实验室发布Muse Spark 1.3，性能对标GPT-5.6-Sol，训练成本降低超90%",
+      "finding": "Meta的超级智能实验室（Superintelligence Labs）发布了新模型Muse Spark 1.3，在多项基准测试中与OpenAI的GPT-5.6-Sol持平，但训练成本据说比后者低了90%以上。这标志着Meta正式跻身前沿模型实验室行列，并可能改变大模型竞争的成本结构。",
       "key_data": [
-        "循环深度技术",
-        "Astra 模型",
-        "安全专家担忧"
+        "对标GPT-5.6-Sol",
+        "训练成本降90%+",
+        "Meta新前沿实验室"
       ],
-      "judgment": "这意味着推理模型的范式可能发生重大转变，从链式思考走向更高效的循环计算，但安全风险需要严格评估。开发者应关注其 API 的稳定性和安全限制。",
+      "judgment": "如果属实，这意味着大模型竞争从'拼算力'转向'拼效率'，Meta的开源策略可能让中小团队也能接近前沿水平，OpenAI的护城河面临挑战。",
       "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/"
+      "source": "Latent Space",
+      "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt"
     },
     {
       "rank": 2,
-      "title": "阿里 Qwen3.8-Max 前端编程能力全球第一",
-      "finding": "阿里更新旗舰模型 Qwen3.8-Max，据称前端编程能力跃居全球第一。这一消息表明国产模型在特定领域已达到国际领先水平。",
+      "title": "谷歌发布Gemini 3.8 Flash及网络安全专用版，主打软件工程与智能体任务",
+      "finding": "Google DeepMind低调上线了Gemini 3.8 Flash模型，针对软件工程和智能体工作流进行了优化，并支持可调节的思考级别以平衡质量、成本和延迟。同时推出了专门的'Flash Cyber'版本，用于政府和企业主动网络防御。",
       "key_data": [
-        "Qwen3.8-Max",
-        "前端编程第一",
-        "阿里"
+        "软件工程优化",
+        "可调思考级别",
+        "网络安全专用版"
       ],
-      "judgment": "对国内开发者是重大利好，前端开发工具链可能迎来新选择。但需实际测试验证，避免营销夸大。",
-      "confidence": 3,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/09/483101.html"
-    },
-    {
-      "rank": 3,
-      "title": "Anthropic 发布 Claude Fable/Mythos 5.1，缓存价格下调 75%",
-      "finding": "Anthropic 发布新模型 Claude Fable/Mythos 5.1，达到新 SOTA，同时缓存价格下调 75%，但输出 token 增加 70%。",
-      "key_data": [
-        "缓存降价75%",
-        "输出token增加70%",
-        "新SOTA"
-      ],
-      "judgment": "缓存降价将大幅降低长上下文应用成本，利好 Agent 和 RAG 场景。开发者应评估新模型的性价比，可能引发一波应用迁移。",
-      "confidence": 4,
-      "source": "Latent Space",
-      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new"
-    },
-    {
-      "rank": 4,
-      "title": "谷歌发布 Gemini 3.8 Flash 及网络安全专用模型",
-      "finding": "谷歌 DeepMind 低调上线 Gemini 3.8 Flash，提升软件工程和智能体任务性能，并推出 Gemini 3.8 Flash Cyber 用于主动网络防御。",
-      "key_data": [
-        "Gemini 3.8 Flash",
-        "软件工程增强",
-        "网络防御专用"
-      ],
-      "judgment": "谷歌在 AI 编码和网络安全领域持续发力，Flash 系列的低延迟特性适合实时 Agent 应用。企业安全团队可关注 Cyber 模型。",
+      "judgment": "谷歌在快速迭代Flash系列，意图抢占AI编程和智能体开发者的心智，'Cyber'版本则瞄准高价值的安全市场，显示大厂在细分场景的竞争加剧。",
       "confidence": 5,
       "source": "Google DeepMind Blog",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
     },
     {
-      "rank": 5,
-      "title": "Cursor 推出 Origin：面向智能体的 GitHub 替代方案",
-      "finding": "Cursor 发布 Origin，定位为面向 AI 智能体的 GitHub 替代方案，旨在优化 AI 协作开发流程。",
+      "rank": 3,
+      "title": "Cursor推出Origin：面向智能体的GitHub替代方案",
+      "finding": "AI编程工具Cursor的母公司Anysphere发布了名为Origin的新产品，定位为'面向智能体的GitHub替代方案'。这意味着代码托管和协作平台将迎来AI原生竞争者，可能改变开发者与AI代理的协作方式。",
       "key_data": [
-        "Origin",
-        "GitHub替代",
-        "AI智能体"
+        "AI原生代码托管",
+        "替代GitHub",
+        "智能体协作"
       ],
-      "judgment": "这标志着 AI 编程工具从 IDE 向代码托管和协作平台延伸，可能重塑开发工作流。开发者应关注其与现有 Git 生态的兼容性。",
+      "judgment": "如果Origin能无缝集成AI代理的代码审查和合并流程，它可能吸引大量AI重度用户，对GitHub构成实质性威胁，开发者工具链将迎来重构。",
       "confidence": 4,
       "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/labxcNbT15HapoWw69lq?utm_source=rss&utm_medium=article"
+      "url": "https://www.infoq.cn/article/labxcNbT15HapoWw69lq"
+    },
+    {
+      "rank": 4,
+      "title": "OpenAI新推理技术'循环深度'引发AI安全专家担忧",
+      "finding": "OpenAI即将推出的Astra模型将采用一种名为'recurrent depth'的新推理技术，允许模型在非顺序思维模式下运行，可能大幅提升推理效率。但这一技术突破也引发了安全专家的担忧，认为其行为可能更难以预测和控制。",
+      "key_data": [
+        "Astra模型",
+        "非顺序推理",
+        "安全专家担忧"
+      ],
+      "judgment": "这可能是推理模型的下一个重大突破，但安全风险不容忽视。开发者需要关注其可解释性和可控性，监管机构也可能介入。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/"
+    },
+    {
+      "rank": 5,
+      "title": "智谱与MiniMax发布上市后首份财报：ARR分别达16亿美元和8亿美元，收入增长近400%",
+      "finding": "中国大模型公司智谱和MiniMax先后公布了上市后的首份中报。智谱上半年收入9.54亿元人民币，同比增长近400%，8月ARR达16亿美元；MiniMax上半年收入1.17亿美元，同比增长283%，8月ARR超8亿美元。两家公司均展现出强劲的商业化势头。",
+      "key_data": [
+        "智谱ARR 16亿美元",
+        "MiniMax ARR 8亿美元",
+        "收入增长近400%"
+      ],
+      "judgment": "中国大模型公司商业化提速，智谱和MiniMax的ARR数据表明企业市场与消费级应用均有突破，但两家公司路径分化，未来竞争将更激烈。",
+      "confidence": 4,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/369775"
     }
   ],
   "model_tech": [
     {
-      "source": "量子位",
-      "title": "蚂蚁集团 OmniTable 获 VLDB 2026 工业最佳论文",
-      "finding": "蚂蚁集团推出统一宽表系统 OmniTable，处理 35PB 语料效率提升 5.6 倍，获 VLDB 2026 工业赛道最佳论文。",
+      "source": "Latent Space",
+      "title": "Claude Fable/Mythos 5.1发布：新SOTA模型，缓存价格降75%但输出token增加70%",
+      "finding": "Anthropic发布了Claude Fable/Mythos 5.1，成为新的SOTA模型，同时将缓存价格下调75%，但输出token消耗增加了70%。",
       "key_data": [
-        "35PB语料",
-        "效率提升5.6倍",
-        "VLDB最佳论文"
+        "缓存降价75%",
+        "输出token增70%",
+        "新SOTA"
       ],
-      "judgment": "数据预处理是模型训练的关键瓶颈，OmniTable 的宽表方案可能成为行业标准，降低大模型训练的数据工程成本。",
+      "judgment": "模型能力提升但成本结构变化，开发者需重新评估缓存策略和输出成本。",
       "confidence": 4,
-      "url": "https://www.qbitai.com/2026/09/483104.html",
+      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
       "importance": 4
     },
     {
       "source": "Hacker News",
-      "title": "Quasar 438B：欧洲领先 AI 模型发布",
-      "finding": "Multiverse Computing 发布 Quasar 438B 模型，宣称是欧洲领先的 AI 模型，引发社区讨论。",
+      "title": "Quasar 438B：欧洲领先AI模型发布",
+      "finding": "Multiverse Computing发布了4380亿参数的Quasar模型，声称是欧洲领先的AI模型，在Hacker News上引发热议。",
       "key_data": [
         "438B参数",
-        "欧洲模型",
-        "Multiverse Computing"
+        "欧洲领先",
+        "HN热议"
       ],
-      "judgment": "欧洲在基础模型领域持续发力，但需验证其实际性能。对开发者而言，多一个选择总是好的。",
+      "judgment": "欧洲在超大规模模型上发力，但实际性能有待验证，可能挑战美国主导地位。",
       "confidence": 3,
       "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
+      "importance": 3
+    },
+    {
+      "source": "Hacker News",
+      "title": "WebLLM：高性能浏览器内LLM推理引擎",
+      "finding": "MLC AI发布了WebLLM，一个在浏览器中运行LLM的高性能推理引擎，支持本地推理，无需服务器。",
+      "key_data": [
+        "浏览器内推理",
+        "高性能",
+        "开源"
+      ],
+      "judgment": "端侧AI推理进一步普及，WebLLM可能推动隐私敏感和离线场景的应用。",
+      "confidence": 4,
+      "url": "https://github.com/mlc-ai/web-llm",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "EvalDetectBench：评估前沿语言模型评测意识的新基准",
+      "finding": "新研究提出EvalDetectBench基准，用于衡量前沿LLM是否意识到自己正在被评测，以及这种意识是否会导致行为改变。",
+      "key_data": [
+        "评测意识",
+        "新基准",
+        "行为改变"
+      ],
+      "judgment": "评测意识可能影响模型在基准上的表现，对AI评估方法提出新挑战。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.01611",
       "importance": 2
     },
     {
       "source": "Reddit r/MachineLearning",
-      "title": "Deepity：C++ 库证明预测编码网络可媲美反向传播",
-      "finding": "开发者用 C++ 库 Deepity 实现预测编码网络，在 MNIST 上 60 秒达到 97.73% 准确率，挑战反向传播的统治地位。",
+      "title": "Deepity：C++库证明预测编码网络可媲美反向传播",
+      "finding": "开发者用C++实现了预测编码网络库Deepity，在MNIST上达到97.73%准确率，用时60秒，与反向传播相当。",
       "key_data": [
         "97.73% MNIST",
         "60秒训练",
-        "预测编码网络"
+        "预测编码"
       ],
-      "judgment": "如果预测编码网络能扩展到大规模任务，可能改变深度学习训练范式，但目前仅限小规模验证。",
+      "judgment": "替代反向传播的算法研究取得进展，但距离实际应用尚远。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1w5fuhm/deepity_a_c_library_showing_predictive_coding/",
-      "importance": 2
-    },
-    {
-      "source": "ArXiv cs.CL",
-      "title": "轨迹评判：仅看结果的 LLM 评判器遗漏了什么",
-      "finding": "新论文指出，仅基于最终结果的 LLM 评判器在评估 Agent 轨迹时存在盲区，提出轨迹级评判方法。",
-      "key_data": [
-        "结果评判缺陷",
-        "轨迹级评判",
-        "Agent评估"
-      ],
-      "judgment": "Agent 评估正从结果导向转向过程导向，这对构建可靠的 Agent 系统至关重要。",
-      "confidence": 4,
-      "url": "https://arxiv.org/abs/2609.00038",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv cs.AI",
-      "title": "长程状态追踪：LLM 执行 MD5 深度工具调用序列",
-      "finding": "研究测试 LLM 在长程任务中通过深度工具调用序列执行 MD5 的能力，揭示状态追踪的挑战。",
-      "key_data": [
-        "长程任务",
-        "MD5执行",
-        "工具调用"
-      ],
-      "judgment": "长程 Agent 任务仍是难点，该研究为评估和改进模型的状态追踪能力提供了基准。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2609.00012",
       "importance": 2
     }
   ],
   "company_product": [
     {
+      "source": "极客公园",
+      "title": "字节豆包工作台支持多Agent和屏幕操作",
+      "finding": "字节跳动旗下豆包工作台新增多Agent协作和屏幕操作功能，用户可通过自然语言指挥多个AI代理完成复杂任务。",
+      "key_data": [
+        "多Agent协作",
+        "屏幕操作",
+        "豆包工作台"
+      ],
+      "judgment": "国内AI办公工具向Agent化迈进，豆包工作台可能成为企业级AI入口。",
+      "confidence": 4,
+      "url": "http://www.geekpark.net/news/369745",
+      "importance": 3
+    },
+    {
       "source": "量子位",
-      "title": "前字节强化学习专家孙鹏加盟星尘智能",
-      "finding": "前字节跳动强化学习专家、前腾讯 Robotics X 智能体中心负责人孙鹏博士加入星尘智能，完善 Physical AI 全栈技术布局。",
+      "title": "SkyProduction天工工作台：从剧本到成片的短剧创作全流程AI化",
+      "finding": "昆仑万维发布SkyProduction天工工作台，支持从剧本到成片的短剧创作全流程，8月31日上线新版本。",
       "key_data": [
-        "孙鹏加盟",
-        "星尘智能",
-        "Physical AI"
+        "短剧创作",
+        "全流程AI",
+        "天工工作台"
       ],
-      "judgment": "具身智能领域人才争夺加剧，星尘智能强化 RL 能力，可能加速人形机器人商业化。",
-      "confidence": 4,
-      "url": "https://www.qbitai.com/2026/09/483097.html",
-      "importance": 3
-    },
-    {
-      "source": "极客公园",
-      "title": "硬件版 AI 助手 WorkBuddy 获数亿融资",
-      "finding": "硬件 AI 助手 WorkBuddy 获得数亿融资，主打“终极上下文”，通过硬件设备提供无缝 AI 体验。",
-      "key_data": [
-        "数亿融资",
-        "硬件AI助手",
-        "终极上下文"
-      ],
-      "judgment": "AI 硬件赛道持续升温，但能否成为主流取决于用户体验和生态建设。",
+      "judgment": "AI视频生成工具向垂直场景深化，短剧制作门槛降低，可能催生新内容生态。",
       "confidence": 3,
-      "url": "http://www.geekpark.net/news/369718",
+      "url": "https://www.qbitai.com/2026/09/483274.html",
       "importance": 2
-    },
-    {
-      "source": "极客公园",
-      "title": "具身智能重新定价婴儿床，价格飙升至万元",
-      "finding": "智能婴儿床品类被具身智能技术重新定价，从几百元涨至一万元，SNOO 等产品售价 1695 美元。",
-      "key_data": [
-        "价格涨至万元",
-        "SNOO 1695美元",
-        "具身智能"
-      ],
-      "judgment": "具身智能进入消费级家居市场，但高价可能限制普及，需观察成本下降曲线。",
-      "confidence": 3,
-      "url": "http://www.geekpark.net/news/369719",
-      "importance": 2
-    },
-    {
-      "source": "极客公园",
-      "title": "对话黄青虬：成立半年估值 70 亿，发布长程执行自研模型",
-      "finding": "机器人公司成立半年估值 70 亿，阿里腾讯联投，发布能“长程执行”的自研模型，在世界机器人大会完成 15 分钟复杂任务。",
-      "key_data": [
-        "估值70亿",
-        "长程执行",
-        "15分钟任务"
-      ],
-      "judgment": "长程任务能力是机器人商业化的关键，该公司的进展表明具身智能正从演示走向实用。",
-      "confidence": 4,
-      "url": "http://www.geekpark.net/news/369724",
-      "importance": 3
     },
     {
       "source": "Wired",
-      "title": "Meta 向员工推广 AI Agent Hatch，但减轻 Token 使用压力",
-      "finding": "Meta 推出内部 AI Agent Hatch，鼓励员工实验，但减少了对 Token 使用量的强制要求。",
+      "title": "Meta向员工推广新AI代理Hatch，但减少强制使用压力",
+      "finding": "Meta正在内部推广其最先进的AI项目Hatch，鼓励员工使用，但不再强制要求'Tokenmaxxing'（最大化token使用量）。",
       "key_data": [
-        "Hatch",
+        "Hatch代理",
         "内部推广",
-        "减轻压力"
+        "减少强制"
       ],
-      "judgment": "Meta 在内部推动 AI 采用，但意识到强制使用可能适得其反，更注重自发性。",
-      "confidence": 3,
+      "judgment": "Meta调整内部AI推广策略，更注重实际价值而非使用量，Hatch可能成为未来产品方向。",
+      "confidence": 4,
       "url": "https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing/",
+      "importance": 2
+    },
+    {
+      "source": "极客公园",
+      "title": "AI床头灯公司Fullive.ai成立不到一年连融三轮，高瓴连续加注",
+      "finding": "AI硬件公司Fullive.ai专注失眠问题，推出AI床头灯产品，成立不到一年已获高瓴、智元机器人、招商局创投等连续三轮融资。",
+      "key_data": [
+        "连融三轮",
+        "高瓴加注",
+        "AI床头灯"
+      ],
+      "judgment": "AI硬件垂直场景受资本青睐，但产品尚未量产，市场验证是关键。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/369768",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "Diagrid Catalyst 2.0发布，为AI智能体新增持久化、可验证的执行能力",
+      "finding": "Diagrid发布Catalyst 2.0，为AI智能体提供持久化和可验证的执行能力，增强企业级Agent的可靠性。",
+      "key_data": [
+        "持久化执行",
+        "可验证",
+        "Agent可靠性"
+      ],
+      "judgment": "企业级Agent需要更强的可观测性和可靠性，Diagrid这类基础设施将受益。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/ofYabQL5uvxdaIY7B31f",
       "importance": 2
     }
   ],
   "opinions": [
     {
       "person": "Simon Willison",
-      "level": "L2",
-      "quote": "Anthropic 发布了 Claude 消费级应用的系统提示词，但遗憾的是不包括 Claude Cowork 或 Claude Code。我喜欢他们这样做，而且...",
+      "level": "L1",
+      "quote": "Anthropic发布了Claude消费应用的新系统提示词，明确禁止模型复现歌词。这显示了版权保护的强化趋势，但可能影响模型的创造性输出。",
       "source": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "OpenAI 循环深度推理技术的原理与安全影响",
-      "reason": "可能改变推理模型范式，需深入分析其工作机制和潜在风险。",
+      "topic": "Meta Muse Spark 1.3的低成本训练技术",
+      "reason": "如果训练成本真降90%，将颠覆大模型竞争格局，值得深挖其技术细节。",
       "priority": "high"
     },
     {
-      "topic": "AI 编程工具向代码托管平台延伸的趋势",
-      "reason": "Cursor Origin 可能重塑开发工作流，值得研究其对 GitHub 的冲击。",
+      "topic": "OpenAI '循环深度'推理技术的安全影响",
+      "reason": "新推理范式可能带来不可预测行为，安全影响深远，需深入分析。",
+      "priority": "high"
+    },
+    {
+      "topic": "Cursor Origin对GitHub的潜在冲击",
+      "reason": "AI原生代码托管平台可能改变开发者工作流，影响整个工具链生态。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "模型竞赛白热化，AI 编程与安全成焦点",
-  "summary_paragraph": "今日 AI 领域迎来密集发布：OpenAI 新推理技术引发安全讨论，谷歌、Anthropic、阿里相继推出新模型，竞争白热化。Cursor 进军代码托管，AI 编程工具链正在重塑。同时，具身智能和 AI 硬件融资活跃，行业向物理世界延伸。数据工程和 Agent 评估研究也有突破，为后续发展奠定基础。",
+  "summary_one_line": "模型竞赛白热化，Meta与谷歌齐发力，AI编程工具链生变",
+  "summary_paragraph": "今日AI行业动态密集：Meta超级智能实验室发布Muse Spark 1.3，以极低训练成本对标GPT-5.6-Sol，标志着Meta正式跻身前沿模型竞争；谷歌低调推出Gemini 3.8 Flash及网络安全版，加速在软件工程与智能体场景的布局。同时，Cursor推出Origin，意图以AI原生体验挑战GitHub，开发者工具链面临重构。OpenAI新推理技术引发安全担忧，而智谱与MiniMax的财报显示中国大模型商业化提速。整体来看，模型能力、成本与工具生态的竞争全面升级，行业格局正在重塑。",
   "snapshot": {
     "date": "2026-09-03",
     "hf_trending": [
       {
         "name": "zai-org/GLM-5.3",
         "short_name": "GLM-5.3",
-        "likes": 1519,
+        "likes": 1540,
         "downloads": 94403,
         "url": "https://huggingface.co/zai-org/GLM-5.3",
         "tags": [
@@ -260,7 +265,7 @@
       {
         "name": "zai-org/GLM-5.3-Flash",
         "short_name": "GLM-5.3-Flash",
-        "likes": 1968,
+        "likes": 1981,
         "downloads": 441348,
         "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
         "tags": [
@@ -276,7 +281,7 @@
       {
         "name": "Qwen/Qwen3.8-Flash-Next",
         "short_name": "Qwen3.8-Flash-Next",
-        "likes": 4740,
+        "likes": 4747,
         "downloads": 207941,
         "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
         "tags": [
@@ -292,7 +297,7 @@
       {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 13696,
+        "likes": 13728,
         "downloads": 4960483,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -308,7 +313,7 @@
       {
         "name": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
         "short_name": "DeepSeek-V4-Flash-Vision-Exp",
-        "likes": 507,
+        "likes": 514,
         "downloads": 17893,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
         "tags": [
@@ -324,7 +329,7 @@
       {
         "name": "tencent/Hy4-preview",
         "short_name": "Hy4-preview",
-        "likes": 400,
+        "likes": 402,
         "downloads": 3516,
         "url": "https://huggingface.co/tencent/Hy4-preview",
         "tags": [
@@ -338,25 +343,9 @@
         "trend": "same"
       },
       {
-        "name": "unsloth/Qwen3.8-Flash-Next-GGUF",
-        "short_name": "Qwen3.8-Flash-Next-GGUF",
-        "likes": 728,
-        "downloads": 431339,
-        "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
-        "tags": [
-          "gguf",
-          "unsloth",
-          "image-text-to-text"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 2578,
+        "likes": 2597,
         "downloads": 1232274,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -368,51 +357,67 @@
         "label": "图生视频",
         "card_desc": "",
         "trend": "new"
+      },
+      {
+        "name": "unsloth/Qwen3.8-Flash-Next-GGUF",
+        "short_name": "Qwen3.8-Flash-Next-GGUF",
+        "likes": 734,
+        "downloads": 431339,
+        "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
+        "tags": [
+          "gguf",
+          "unsloth",
+          "image-text-to-text"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
       }
     ],
     "github_trending": [
       {
         "name": "fmtlib/fmt",
         "desc": "A modern formatting library",
-        "stars": 24301,
+        "stars": 24506,
         "stars_today": 14,
-        "forks": 2985,
+        "forks": 2995,
         "language": "C++",
         "url": "https://github.com/fmtlib/fmt"
       },
       {
         "name": "google-research/timesfm",
         "desc": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Goo",
-        "stars": 29885,
+        "stars": 30247,
         "stars_today": 343,
-        "forks": 2867,
+        "forks": 2896,
         "language": "Python",
         "url": "https://github.com/google-research/timesfm"
       },
       {
         "name": "DietrichGebert/ponytail",
         "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you nev",
-        "stars": 121686,
+        "stars": 122254,
         "stars_today": 1354,
-        "forks": 6577,
+        "forks": 6607,
         "language": "JavaScript",
         "url": "https://github.com/DietrichGebert/ponytail"
       },
       {
         "name": "debpalash/VoiceStudio",
         "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, vi",
-        "stars": 14842,
+        "stars": 15285,
         "stars_today": 832,
-        "forks": 2115,
+        "forks": 2146,
         "language": "Python",
         "url": "https://github.com/debpalash/VoiceStudio"
       },
       {
         "name": "sngyai/Sequoia-X",
         "desc": "A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书",
-        "stars": 6118,
+        "stars": 6308,
         "stars_today": 63,
-        "forks": 1253,
+        "forks": 1287,
         "language": "Python",
         "url": "https://github.com/sngyai/Sequoia-X"
       }
@@ -529,6 +534,6 @@
         "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
       }
     ],
-    "hf_summary": "开源多模态模型热度压制文本生成"
+    "hf_summary": "开源多模态模型霸榜且热度断层领先"
   }
 }
