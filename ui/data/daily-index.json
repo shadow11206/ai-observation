@@ -1,6 +1,13 @@
 {
-  "total": 160,
+  "total": 161,
   "reports": [
+    {
+      "date": "2026-09-04",
+      "title": "今日 AI 日报：OpenAI发布GPT-6 Astra，总裁称“可能已到达AGI” + 4 条重要动态",
+      "excerpt": "这是模型能力从“对话”到“操作”的质变信号，开发者应关注其Agent能力对现有工…",
+      "top_count": 5,
+      "file": "2026-09-04.json"
+    },
     {
       "date": "2026-09-03",
       "title": "今日 AI 日报：Meta超级智能实验室发布Muse Spark 1.3，性能对标GPT-5.6-Sol，训练成本降低超90% + 4 条重要动态",
