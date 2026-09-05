@@ -1,6 +1,13 @@
 {
-  "total": 161,
+  "total": 162,
   "reports": [
+    {
+      "date": "2026-09-05",
+      "title": "今日 AI 日报：OpenAI 发布 GPT-6 Astra：史上最大规模模型，多项跑分逼近满分 + 4 条重要动态",
+      "excerpt": "GPT-6 Astra 标志着模型能力从'聊天'向'自主执行复杂任务'的质变，但…",
+      "top_count": 5,
+      "file": "2026-09-05.json"
+    },
     {
       "date": "2026-09-04",
       "title": "今日 AI 日报：OpenAI 发布 GPT-6 Astra，总裁称可能已达 AGI + 4 条重要动态",
