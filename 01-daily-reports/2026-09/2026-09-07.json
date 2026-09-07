@@ -3,198 +3,242 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "OpenAI 发布内部研究：编码 Agent 正重塑 AI 研究流程",
-      "finding": "OpenAI 首次公开内部数据，显示编码 Agent 已深度融入研究流程，显著提升了实验速度和任务复杂度。这标志着 AI 研究本身正在被 AI 工具加速，形成递归自我改进的闭环。",
+      "title": "OpenAI 发布内部研究：编码智能体正加速 AI 研究，开启“递归自我改进”时代",
+      "finding": "OpenAI 首次披露内部数据，显示编码智能体已深度参与研究流程，显著提升实验速度和任务复杂度。同日，首席科学家 Jakub Pachocki 发文呼吁加强安全对齐和国际协调，暗示公司正加速迈向 AGI。",
       "key_data": [
-        "编码Agent重塑研究",
+        "编码智能体",
         "实验速度提升",
-        "任务复杂度增加"
+        "递归自我改进",
+        "安全呼吁"
       ],
-      "judgment": "这意味着 AI 研究的生产力范式正在改变，编码 Agent 从辅助工具变为核心研发基础设施。开发者应关注 Agent 驱动的研发流程，这可能成为未来 AI 实验室的标准配置。",
+      "judgment": "这是 AI 研究范式转变的官方信号：智能体不再只是工具，而是研究主体。对开发者意味着编码智能体的能力边界将快速扩展，未来研究效率的竞争将取决于人机协作水平。",
       "confidence": 5,
       "source": "OpenAI Blog",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai"
     },
     {
       "rank": 2,
-      "title": "OpenAI 首席科学家发文警告：需加强 AI 安全防护与国际协作",
-      "finding": "Jakub Pachocki 在《An Alien Mind》一文中反思了日益强大的 AI 带来的对齐挑战，呼吁建立更强有力的安全措施和国际协调机制。",
+      "title": "阿里“千问办公”推出业内首个“多人工作台”，企业 AI 协作进入新阶段",
+      "finding": "阿里巴巴旗下 Agent 产品“千问办公”发布多人工作台，支持多用户在同一 AI 工作空间内协作，这是业内首个此类功能，标志着 AI Agent 从个人助手向团队协作平台演进。",
       "key_data": [
-        "对齐挑战",
-        "国际协调",
-        "安全措施"
+        "多人工作台",
+        "阿里",
+        "企业协作",
+        "Agent 产品"
       ],
-      "judgment": "这释放了 OpenAI 内部对 AI 安全问题的严肃态度，可能预示着未来在模型部署和开源策略上会更加谨慎。行业需要关注 AI 安全从口号转向具体行动的趋势。",
-      "confidence": 5,
-      "source": "OpenAI Blog",
-      "url": "https://openai.com/index/an-alien-mind"
+      "judgment": "企业 AI 竞争正从单点效率工具转向组织级协作平台。对产品经理而言，多 Agent 协作和权限管理将成为标配，率先构建生态者将占据企业入口优势。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/09/485046.html"
     },
     {
       "rank": 3,
-      "title": "B站AI创作赛收官：超八成参赛者为一人团队，AI工具赋能个体创作",
-      "finding": "B站首届AI创造公开赛落幕，超过80%的参赛作品来自一人团队，显示AI工具大幅降低了内容创作的门槛，使个人创作者能够独立完成高质量作品。",
+      "title": "智象发布具身世界模型 HiDream-O1-Embodied，全模态技术闭环落地",
+      "finding": "智象（HiDream.ai）发布具身世界模型 HiDream-O1-Embodied，实现原生全模态技术战略闭环，将视觉、语言、动作等多模态能力整合，为机器人提供更强大的环境理解和决策基础。",
       "key_data": [
-        "超80%一人团队",
-        "AI创作门槛降低"
+        "具身世界模型",
+        "全模态",
+        "机器人",
+        "HiDream-O1"
       ],
-      "judgment": "这印证了AI工具对个体创造力的解放，一人团队也能产出专业级内容。对内容平台和创作者而言，AI赋能下的UGC生态将迎来爆发，平台需思考如何扶持和规范这一趋势。",
-      "confidence": 4,
+      "judgment": "具身智能赛道竞争加剧，世界模型成为关键差异化点。对机器人创业者而言，拥有强大世界模型的团队将获得资本和场景优势，纯硬件厂商可能被边缘化。",
+      "confidence": 3,
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/09/484890.html"
+      "url": "https://www.qbitai.com/2026/09/485056.html"
     },
     {
       "rank": 4,
-      "title": "具身智能+上下文学习成新赛道，创业公司涌现",
-      "finding": "量子位报道称，具身智能领域的上下文学习（ICL）成为新的创业热点，创业公司正利用更长的多模态上下文来提升机器人的学习与适应能力。",
+      "title": "NVIDIA 拟收购 Hugging Face，黄仁勋称“本想让它独立”，引发开源社区担忧",
+      "finding": "据 InfoQ 报道，NVIDIA 正寻求收购 Hugging Face，黄仁勋表示原本希望其保持独立，但面临其他竞购者压力。Hugging Face 是开源模型生态的核心平台，此举可能改变 AI 开源格局。",
       "key_data": [
-        "具身ICL",
-        "多模态上下文",
-        "创业赛道"
+        "NVIDIA",
+        "Hugging Face",
+        "收购",
+        "开源生态"
       ],
-      "judgment": "这表明具身智能正从单一任务执行向基于上下文的学习进化，长上下文能力成为机器人智能化的关键。相关创业公司的涌现预示着这一细分领域将迎来快速发展，值得关注。",
-      "confidence": 4,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/09/484897.html"
+      "judgment": "若收购成行，开源 AI 的中立性将受严重挑战。对开发者而言，模型分发渠道可能被硬件巨头控制，长期看不利于创新多样性，需警惕生态锁定风险。",
+      "confidence": 3,
+      "source": "InfoQ AI",
+      "url": "https://www.infoq.cn/article/5dtlrdsBbSIZfWUUF6JD"
     },
     {
       "rank": 5,
-      "title": "Travis Kalanick 的 Atoms 公司或进军 Robotaxi 业务",
-      "finding": "据 TechCrunch 报道，Uber 创始人 Travis Kalanick 创办的 Atoms 公司可能正在进入 Robotaxi 领域，这被视为他完成\"未竟事业\"的举措。",
+      "title": "Travis Kalanick 的 Atoms 或进军 Robotaxi，自动驾驶竞争再添变数",
+      "finding": "Uber 创始人 Travis Kalanick 的初创公司 Atoms 可能进入 Robotaxi 领域，他此前表示将完成“未竟事业”。此举可能重塑自动驾驶出行市场格局。",
       "key_data": [
-        "Atoms进军Robotaxi",
-        "Kalanick未竟事业"
+        "Atoms",
+        "Robotaxi",
+        "Kalanick",
+        "自动驾驶"
       ],
-      "judgment": "Kalanick 的入局可能加剧 Robotaxi 领域的竞争，其过往的创业经历和资源网络不容小觑。这预示着自动驾驶商业化竞争将进一步白热化，传统出行巨头与新兴AI公司的碰撞值得关注。",
+      "judgment": "Kalanick 的入局可能带来激进的商业化策略，加剧 Robotaxi 价格战。对行业而言，出行巨头与 AI 公司的合作模式将面临新挑战，监管和安全的平衡更加关键。",
       "confidence": 3,
-      "source": "TechCrunch",
+      "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/"
     }
   ],
   "model_tech": [
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "MoE模型推理新架构：增加活跃参数，无需训练即可增强推理能力",
-      "finding": "有开发者提出一种新的MoE模型推理架构，通过分层线性衰减增加活跃专家数量，在无需训练或微调的情况下提升模型的简洁推理能力，并已在llama.cpp中实现。",
+      "source": "ArXiv",
+      "title": "Iris 搜索智能体：35B 和 397B 参数规模，攀登搜索前沿",
+      "finding": "Iris-mini 和 Iris-pro 两个搜索智能体分别基于 35B-A3B 和 397B-A17B 架构，展示了大规模搜索智能体的训练方法和数据流水线。",
       "key_data": [
-        "MoE推理增强",
-        "无需训练",
-        "llama.cpp实现"
+        "35B-A3B",
+        "397B-A17B",
+        "搜索智能体"
       ],
-      "judgment": "若有效，将大幅提升现有MoE模型的推理能力，降低部署成本，对开源社区和边缘部署意义重大。",
-      "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w94dtn/proposed_architecture_for_inferencing_sparse_moe/",
+      "judgment": "搜索智能体规模化是趋势，大参数模型在复杂搜索任务上优势明显，但推理成本仍是落地瓶颈。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2609.04304",
       "importance": 3
     },
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "ML研究可复现性面临危机，社区担忧加剧",
-      "finding": "Reddit 上热议 ML 研究的可复现性正走向消亡，原因包括物理AI需要昂贵硬件、以及研究文化对新颖性的过度追求。",
+      "source": "ArXiv",
+      "title": "EXAONE 金融时序基础模型：专为金融领域设计",
+      "finding": "LG 发布 EXAONE Finance，一个金融时间序列基础模型，针对金融预测任务优化，展示了领域基础模型的潜力。",
       "key_data": [
-        "可复现性危机",
-        "物理AI硬件门槛"
+        "金融时序",
+        "基础模型",
+        "EXAONE"
       ],
-      "judgment": "可复现性危机将损害研究的可信度，社区需反思激励机制，否则AI进展将建立在不可靠的基础上。",
-      "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w92eis/reproducibility_seems_to_be_headed_towards/",
+      "judgment": "垂直领域基础模型正在兴起，金融作为高价值场景，专用模型可能比通用模型更受企业欢迎。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2609.04239",
       "importance": 2
     },
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "PINNStudio：开源无代码GUI工具，降低物理信息神经网络使用门槛",
-      "finding": "PINNStudio 提供了一个免费、开源的无代码图形界面，用于设置、训练和可视化物理信息神经网络（PINNs），旨在帮助物理学家等非编程专家更方便地使用该技术。",
+      "source": "量子位",
+      "title": "具身 ICL 创业玩家涌现，上下文成为 Scaling 新赛道",
+      "finding": "机器人领域出现具身上下文学习（ICL）创业公司，利用更长的多模态上下文提升机器人学习能力，被视为新的扩展方向。",
       "key_data": [
-        "开源无代码",
-        "PINNs可视化",
-        "降低门槛"
+        "具身ICL",
+        "多模态上下文",
+        "机器人学习"
       ],
-      "judgment": "这类工具将推动科学机器学习在更广泛领域的应用，促进跨学科合作，但需关注其功能完整性和对复杂问题的支持度。",
+      "judgment": "上下文长度竞争从语言模型延伸到具身智能，长上下文能力可能成为机器人基础模型的新护城河。",
       "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1w9a2i7/pinnstudio_a_free_opensource_nocode_gui_for/",
+      "url": "https://www.qbitai.com/2026/09/484897.html",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv",
+      "title": "Harbor Adapters 与 Harbor-Index：大规模智能体评测基础设施",
+      "finding": "提出 Harbor Adapters 和 Harbor-Index，一个用于大规模智能体评测的元数据集和基础设施，旨在简化复杂环境下的智能体评估。",
+      "key_data": [
+        "智能体评测",
+        "元数据集",
+        "基础设施"
+      ],
+      "judgment": "智能体评测标准化是行业痛点，此类基础设施有助于建立统一基准，推动智能体技术健康发展。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2609.04298",
       "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "InfoQ",
-      "title": "微软 Foundry 模型路由扩容：覆盖区域增至 28 个，更新模型池",
-      "finding": "微软 Foundry 服务扩展了模型路由功能，覆盖区域增加到 28 个，并更新了模型池，以提供更广泛的模型选择和更低的延迟。",
+      "source": "量子位",
+      "title": "中科类脑完成数亿元 B+ 轮融资，产业龙头领投",
+      "finding": "中科类脑获得数亿元人民币 B+ 轮融资，由产业龙头领投，资金将用于类脑计算技术研发和商业化。",
       "key_data": [
-        "覆盖28个区域",
-        "模型池更新"
+        "数亿元",
+        "B+轮",
+        "类脑计算"
       ],
-      "judgment": "微软正通过扩大基础设施来强化其AI云服务竞争力，对开发者而言意味着更多选择和更好的性能，但需关注定价策略。",
+      "judgment": "类脑计算作为 AI 新方向获得资本青睐，但距离大规模商用尚远，需关注技术落地场景。",
       "confidence": 4,
-      "url": "https://www.infoq.cn/article/ba7Tq1EZbAD6JEzG16uE",
+      "url": "https://www.qbitai.com/2026/09/485039.html",
       "importance": 2
     },
     {
-      "source": "TechCrunch",
-      "title": "作者反击：出版商和代理商争夺 Anthropic 和解金份额",
-      "finding": "在 Anthropic 的版权和解案中，作者们表示出版商和代理商似乎要求获得超出合理范围的赔偿份额，引发新一轮争议。",
+      "source": "InfoQ AI",
+      "title": "微软将 AI 治理从政策转向运行时执行",
+      "finding": "微软宣布将 AI 治理策略从政策层面转向运行时执行，即在 AI 系统运行过程中实时监控和干预，以更有效地管理风险。",
       "key_data": [
-        "Anthropic和解",
-        "作者反击"
+        "运行时治理",
+        "AI 安全",
+        "微软"
       ],
-      "judgment": "该事件凸显了AI训练数据版权问题的复杂性，和解金的分配争议可能影响未来类似案件的解决模式，AI公司需谨慎处理版权授权。",
+      "judgment": "AI 治理落地化是趋势，运行时监控将成为企业 AI 平台的标配，相关工具和服务需求将增长。",
       "confidence": 4,
-      "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
-      "importance": 2
+      "url": "https://www.infoq.cn/article/STpCLL13xCQsoYrfWSLb",
+      "importance": 3
     },
     {
-      "source": "Wired",
-      "title": "Siri AI 的短暂夏日恋情：用户热情消退",
-      "finding": "Wired 作者回顾了与新版 Siri AI 的体验，最初被其能力吸引，但随着正式版临近，却已忘记它的存在，暗示其功能并未留下深刻印象。",
+      "source": "InfoQ AI",
+      "title": "快看漫画重做 AI 时代的内容产品",
+      "finding": "成立 12 年的快看漫画正在转型，利用 AI 技术重构内容创作和分发流程，以适应 AI 时代的内容消费需求。",
       "key_data": [
-        "Siri AI体验",
-        "用户热情消退"
+        "快看漫画",
+        "AI 内容",
+        "转型"
       ],
-      "judgment": "苹果的AI助手若不能在正式发布时带来惊艳体验，可能再次错失市场机会，语音助手的竞争将更加激烈。",
+      "judgment": "传统内容平台拥抱 AI 是必然，但如何平衡创作者利益与 AI 生成内容质量是关键挑战。",
       "confidence": 3,
-      "url": "https://www.wired.com/story/my-brief-summer-fling-with-siri-ai/",
+      "url": "https://www.infoq.cn/article/kAHvBCLrI3sdMyONOveM",
       "importance": 2
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "传 DeepSeek 计划采购 16 万颗昇腾芯片，国产算力崛起",
+      "finding": "据 AI 周报，DeepSeek 计划采购 16 万颗华为昇腾芯片，用于大模型训练，显示国产算力生态正在加速成熟。",
+      "key_data": [
+        "16万颗昇腾",
+        "DeepSeek",
+        "国产算力"
+      ],
+      "judgment": "若属实，将是中国 AI 算力自主化的重要里程碑，但昇腾生态的软件成熟度仍需验证。",
+      "confidence": 2,
+      "url": "https://www.infoq.cn/article/boiE7qfjxSQjHKUtevvp",
+      "importance": 3
     }
   ],
   "opinions": [
     {
-      "person": "Simon Willison",
-      "level": "L2",
-      "quote": "软件没有物理限制，代码可以无限变差，技术债务可以无限累积。这提醒我们，AI生成的代码可能加剧这一问题，需要更严格的工程实践。",
-      "source": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/"
-    },
-    {
       "person": "Jakub Pachocki",
       "level": "L1",
-      "quote": "随着AI能力增强，保持对齐将变得更加困难，我们需要更强的安全措施和国际协调。",
+      "quote": "随着 AI 能力增强，保持对齐的挑战越来越大，我们需要更强的安全措施和国际协调。",
       "source": "https://openai.com/index/an-alien-mind"
     },
     {
-      "person": "Benedict Evans",
+      "person": "Simon Willison",
       "level": "L2",
-      "quote": "AI工具正在推动企业转型，但真正的变革在于重新思考业务流程，而非简单替换工具。",
-      "source": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation"
+      "quote": "代码可以无限变坏，没有物理世界的限制。技术债务会不断累积，直到系统崩溃。",
+      "source": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/"
+    },
+    {
+      "person": "Bryan Cantrill",
+      "level": "L2",
+      "quote": "当你用 LLM 来撰写文章时，你的智力漏洞就暴露了。",
+      "source": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "编码Agent如何重塑AI研究流程？",
-      "reason": "OpenAI内部数据首次揭示，理解其影响对AI研发战略至关重要。",
+      "topic": "OpenAI 内部编码智能体如何加速研究？",
+      "reason": "官方数据揭示智能体在研究中的实际作用，对理解 AI 发展速度至关重要。",
       "priority": "high"
     },
     {
-      "topic": "具身智能+上下文学习的技术路线与创业机会",
-      "reason": "新兴赛道，长上下文如何赋能机器人学习是核心问题。",
+      "topic": "NVIDIA 收购 Hugging Face 的潜在影响",
+      "reason": "若成真将重塑开源 AI 生态，影响所有开发者的工具链选择。",
+      "priority": "high"
+    },
+    {
+      "topic": "具身世界模型的技术路线与商业化前景",
+      "reason": "智象等公司发布新模型，具身智能赛道竞争加剧，值得深入分析。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "OpenAI披露Agent重塑研究，具身智能新赛道涌现",
-  "summary_paragraph": "今日AI动态聚焦于AI研究自身的加速与具身智能的新进展。OpenAI罕见公开内部数据，显示编码Agent已成为研究流程的核心，推动实验速度与复杂度的提升，同时首席科学家发文呼吁加强AI安全，暗示行业对快速发展的审慎态度。与此同时，具身智能与上下文学习的结合成为创业新热点，B站AI创作赛则展示了AI工具对个体创造力的解放。此外，Travis Kalanick的Atoms公司或进军Robotaxi，预示着自动驾驶竞争加剧。整体来看，AI正从工具层面渗透到研究范式与产业格局的重塑之中。",
+  "summary_one_line": "OpenAI 揭示智能体加速研究，企业 AI 协作与具身智能成热点",
+  "summary_paragraph": "今日 AI 领域多点开花：OpenAI 首次披露编码智能体如何加速内部研究，并伴随首席科学家的安全呼吁，暗示行业正加速迈向 AGI；阿里推出多人工作台，将企业 AI 从个人工具推向团队协作平台；智象发布具身世界模型，机器人赛道竞争升温。同时，NVIDIA 收购 Hugging Face 的传闻引发开源社区担忧，而 DeepSeek 计划采购国产芯片则显示算力自主化趋势。整体来看，AI 正从单点技术突破转向系统性生态竞争，安全与开源治理成为焦点。",
   "snapshot": {
     "date": "2026-09-07",
     "hf_trending": [
       {
         "name": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
         "short_name": "DeepSeek-V4-Flash-Vision-Exp",
-        "likes": 748,
+        "likes": 765,
         "downloads": 209191,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
         "tags": [
@@ -210,7 +254,7 @@
       {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 14138,
+        "likes": 14162,
         "downloads": 6190807,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -226,7 +270,7 @@
       {
         "name": "XHToken/Spark-X2.5-4B",
         "short_name": "Spark-X2.5-4B",
-        "likes": 617,
+        "likes": 640,
         "downloads": 5477,
         "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
         "tags": [
@@ -242,7 +286,7 @@
       {
         "name": "google/timesfm-3.0-pytorch",
         "short_name": "timesfm-3.0-pytorch",
-        "likes": 508,
+        "likes": 524,
         "downloads": 144455,
         "url": "https://huggingface.co/google/timesfm-3.0-pytorch",
         "tags": [
@@ -258,7 +302,7 @@
       {
         "name": "Qwen/Qwen3.8-Flash-Next",
         "short_name": "Qwen3.8-Flash-Next",
-        "likes": 4943,
+        "likes": 4952,
         "downloads": 432966,
         "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
         "tags": [
@@ -274,7 +318,7 @@
       {
         "name": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
         "short_name": "Qwen3.8-27B-GSQ-RCO-GGUF",
-        "likes": 469,
+        "likes": 475,
         "downloads": 348389,
         "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
         "tags": [
@@ -290,7 +334,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 2971,
+        "likes": 2994,
         "downloads": 1526928,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -306,7 +350,7 @@
       {
         "name": "zai-org/GLM-5.3-Flash",
         "short_name": "GLM-5.3-Flash",
-        "likes": 2099,
+        "likes": 2110,
         "downloads": 761364,
         "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
         "tags": [
@@ -324,45 +368,45 @@
       {
         "name": "affaan-m/ECC",
         "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research",
-        "stars": 251437,
+        "stars": 251911,
         "stars_today": 1485,
-        "forks": 37791,
+        "forks": 37839,
         "language": "JavaScript",
         "url": "https://github.com/affaan-m/ECC"
       },
       {
         "name": "mattpocock/skills",
         "desc": "Skills for Real Engineers. Straight from my .agents directory.",
-        "stars": 254696,
+        "stars": 255229,
         "stars_today": 2207,
-        "forks": 21469,
+        "forks": 21506,
         "language": "Shell",
         "url": "https://github.com/mattpocock/skills"
       },
       {
         "name": "cathrynlavery/diagram-design",
         "desc": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No",
-        "stars": 32450,
+        "stars": 32786,
         "stars_today": 620,
-        "forks": 2081,
+        "forks": 2097,
         "language": "HTML",
         "url": "https://github.com/cathrynlavery/diagram-design"
       },
       {
         "name": "NousResearch/hermes-agent",
         "desc": "The agent that grows with you",
-        "stars": 242583,
+        "stars": 242719,
         "stars_today": 520,
-        "forks": 49890,
+        "forks": 49924,
         "language": "Python",
         "url": "https://github.com/NousResearch/hermes-agent"
       },
       {
         "name": "openai/skills",
         "desc": "Skills Catalog for Codex",
-        "stars": 25641,
+        "stars": 25723,
         "stars_today": 46,
-        "forks": 1731,
+        "forks": 1734,
         "language": "Python",
         "url": "https://github.com/openai/skills"
       }
@@ -384,7 +428,7 @@
         "slug": "deepseek/deepseek-v4-flash",
         "name": "DeepSeek V4 Flash 0423",
         "org": "deepseek",
-        "total_tokens": 2147157044262,
+        "total_tokens": 2147157560556,
         "total_tokens_str": "2.1T",
         "api_calls": 0,
         "change": -10.6,
@@ -406,7 +450,7 @@
         "slug": "z-ai/glm-5.3-flash",
         "name": "GLM 5.3 Flash",
         "org": "z-ai",
-        "total_tokens": 1472191717090,
+        "total_tokens": 1472192765666,
         "total_tokens_str": "1.5T",
         "api_calls": 0,
         "change": 0.4,
@@ -479,6 +523,6 @@
         "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
       }
     ],
-    "hf_summary": "多模态理解模型霸榜，开源热度集中头部"
+    "hf_summary": "开源多模态与视频生成成为今日主流"
   }
 }
