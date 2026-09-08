@@ -1,6 +1,13 @@
 {
-  "total": 164,
+  "total": 165,
   "reports": [
+    {
+      "date": "2026-09-08",
+      "title": "今日 AI 日报：GPT-6 Astra 与 Sol 内测曝光：速度提升6倍，OpenAI 加速多模型布局 + 4 条重要动态",
+      "excerpt": "OpenAI 正在构建多模型矩阵，Sol 的速度优势可能针对实时交互场景，而 A…",
+      "top_count": 5,
+      "file": "2026-09-08.json"
+    },
     {
       "date": "2026-09-07",
       "title": "今日 AI 日报：OpenAI 发布内部研究：编码智能体正加速 AI 研究，开启“递归自我改进”时代 + 4 条重要动态",
