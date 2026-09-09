@@ -3,191 +3,201 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "OpenAI 宣称攻克纳维-斯托克斯千年难题，但学术界质疑其“作弊”",
-      "finding": "OpenAI 宣布用未发布的模型解决了数学领域七大千年难题之一的纳维-斯托克斯方程，并提供了 Lean 形式化证明。但 NYU 数学家指控 OpenAI 在竞赛中“作弊”，Wired 报道称公告被不当行为指控蒙上阴影，学术界反应两极。",
+      "title": "OpenAI 宣称用 AI 攻克千禧年难题 Navier-Stokes，引发学术界争议",
+      "finding": "OpenAI 宣布其 AI 系统在 88 小时内解决了 Navier-Stokes 存在性与光滑性这一千禧年难题，动用了约 1 万个智能体和 1300 亿 token，成本超 4000 万美元。但多位数学家质疑其证明过程不透明、未经同行评审，且可能利用了未公开的模型，争议不断。",
       "key_data": [
-        "纳维-斯托克斯方程",
-        "Lean 形式化证明",
-        "百万美元奖金",
-        "学术争议"
+        "88小时",
+        "1万智能体",
+        "1300亿token",
+        "成本超4000万美元"
       ],
-      "judgment": "无论证明是否成立，这标志着 AI 在数学发现上迈出关键一步，但 OpenAI 的公关方式和学术伦理问题可能损害其可信度，提醒我们 AI 突破需要更透明的验证流程。",
+      "judgment": "无论证明是否成立，这标志着 AI 在数学发现上的巨大潜力，但同时也暴露了学术规范与 AI 研究速度之间的冲突。对开发者而言，AI 辅助证明可能成为新常态，但透明性和可复现性将是关键挑战。",
       "confidence": 4,
-      "source": "OpenAI Blog / TechCrunch",
+      "source": "OpenAI Blog / MIT Tech Review",
       "url": "https://openai.com/index/navier-stokes-solution"
     },
     {
       "rank": 2,
-      "title": "Mistral 完成 30 亿欧元融资，估值超 210 亿欧元，欧洲 AI 崛起",
-      "finding": "Mistral AI 宣布完成 30 亿欧元 D 轮融资，估值超 210 亿欧元，成为欧洲最大的 AI 公司之一。资金将用于推动主权、开放权重 AI 的发展，挑战美国主导的 AI 格局。",
-      "key_data": [
-        "30 亿欧元融资",
-        "估值 210 亿欧元",
-        "主权 AI",
-        "开放权重"
-      ],
-      "judgment": "Mistral 的巨额融资表明欧洲在 AI 领域不再甘于追随，主权 AI 和开源路线正在获得资本认可，未来全球 AI 竞争将更加多元化。",
-      "confidence": 5,
-      "source": "Mistral AI Blog",
-      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
-    },
-    {
-      "rank": 3,
       "title": "Meta 发布个人 AI 代理 Muse，挑战用户信任边界",
-      "finding": "Meta 推出全新个人 AI 代理 Muse，可访问用户的邮件、日历、支付和健康服务，帮助完成卖车、订机票等任务。此举是 Meta 在消费级 AI 的最大押注，但用户隐私信任成为关键挑战。",
+      "finding": "Meta 推出了名为 Muse 的个人 AI 代理，能够访问用户的电子邮件、日历、支付和健康服务，帮助完成从卖车到订机票等任务。这被视为 Meta 在消费级 AI 领域最大胆的尝试，但隐私问题成为焦点，用户是否信任 Meta 处理如此敏感的数据仍是未知数。",
       "key_data": [
-        "个人 AI 代理",
-        "访问邮件/支付",
-        "对标 OpenClaw",
-        "隐私信任考验"
+        "个人AI代理",
+        "访问支付健康数据",
+        "对标OpenClaw和Instinct"
       ],
-      "judgment": "Muse 标志着 AI 代理从工作场景向个人生活全面渗透，但 Meta 的隐私记录让用户信任成为最大障碍，成败将影响整个行业对个人 AI 代理的接受度。",
+      "judgment": "Muse 标志着 AI 代理从工作场景向个人生活全面渗透，但 Meta 的隐私记录让用户信任成为最大瓶颈。如果成功，将重新定义个人数字助手；如果失败，可能加剧公众对 AI 的警惕。",
       "confidence": 4,
-      "source": "TechCrunch",
+      "source": "TechCrunch / Wired",
       "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/"
     },
     {
-      "rank": 4,
-      "title": "Cognition 估值飙至 480 亿美元，AI 编程市场远未定局",
-      "finding": "AI 编程公司 Cognition（Devin 开发商）估值达到 480 亿美元，超过此前 Cursor 被 SpaceX 收购时的估值。投资者认为 AI 编程领域远非赢家通吃，多家公司仍有巨大增长空间。",
+      "rank": 3,
+      "title": "Cognition 估值达 480 亿美元，AI 编程赛道持续升温",
+      "finding": "AI 编程公司 Cognition 完成新一轮融资，估值飙升至 480 亿美元，超过此前 Cursor 被 SpaceX 收购时的估值。投资者认为 AI 编程市场远未形成赢家通吃格局，多家公司有望共存并各自占据细分市场。",
       "key_data": [
-        "480 亿美元估值",
-        "AI 编程",
-        "Devin",
-        "非赢家通吃"
+        "480亿美元估值",
+        "超Cursor收购估值",
+        "AI编程赛道"
       ],
-      "judgment": "Cognition 的高估值表明资本市场对 AI 编程工具的信心爆棚，但高估值也意味着高预期，产品能否持续领先将决定泡沫是否破裂。",
+      "judgment": "Cognition 的高估值表明资本市场对 AI 编程工具的信心，但同时也带来泡沫风险。对开发者而言，更多竞争意味着更好的工具和更低的价格，但需警惕估值虚高后的行业调整。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/"
     },
     {
-      "rank": 5,
-      "title": "NeurIPS 用 AI 检测器拒稿 178 篇，却误伤自家主席，引发学术伦理大讨论",
-      "finding": "NeurIPS 立场论文赛道使用 AI 检测器（Pangram）拒稿 178 篇（占 18.4%），但检测器对主席自己的论文误报率高达 24-69%，且无人工复核和申诉流程，引发学术界对 AI 检测可靠性和公平性的强烈质疑。",
+      "rank": 4,
+      "title": "NeurIPS 用 AI 检测器拒稿 178 篇论文，引发学术公平性大讨论",
+      "finding": "NeurIPS 立场论文赛道使用专有 AI 检测器（Pangram）拒绝了 18.4% 的投稿，且无人工复审和申诉流程。检测器甚至将 Track 主席自己的论文标记为 24-69% 的 AI 生成概率，引发对检测器可靠性和学术公平性的强烈质疑。",
       "key_data": [
-        "178 篇被拒",
-        "18.4% 拒稿率",
-        "误报率 24-69%",
-        "无申诉流程"
+        "178篇被拒",
+        "18.4%拒稿率",
+        "检测器误判主席论文"
       ],
-      "judgment": "AI 检测工具在学术评审中的滥用暴露了技术不成熟和流程缺陷，这警示所有依赖 AI 做决策的场景：必须保留人工复核和申诉机制，否则将引发信任危机。",
+      "judgment": "AI 检测工具在学术评审中的滥用可能造成误伤，阻碍合法使用 AI 辅助写作的研究者。这提醒所有依赖 AI 检测的机构，必须建立人工复核和申诉机制，否则将损害学术生态。",
       "confidence": 4,
       "source": "Reddit r/MachineLearning",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1wakf62/neurips_deskrejected_178_papers_for_being/"
+    },
+    {
+      "rank": 5,
+      "title": "Mistral 完成 30 亿欧元融资，估值超 210 亿欧元，力推主权开源 AI",
+      "finding": "欧洲 AI 公司 Mistral 宣布完成 30 亿欧元（约 24 亿美元）的 D 轮融资，估值超过 210 亿欧元。资金将用于开发主权、开放权重的 AI 模型，巩固其在欧洲市场的领导地位，并与美国巨头竞争。",
+      "key_data": [
+        "30亿欧元融资",
+        "估值超210亿欧元",
+        "主权AI"
+      ],
+      "judgment": "Mistral 的大额融资表明欧洲在 AI 领域寻求独立自主的决心，开源权重模型将成为地缘政治博弈的焦点。对开发者而言，更多元的模型选择有助于避免依赖单一供应商。",
+      "confidence": 5,
+      "source": "Mistral AI Blog",
+      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
     }
   ],
   "model_tech": [
     {
-      "source": "Google DeepMind Blog",
-      "title": "AlphaGenome Atlas：人类基因组所有可能 DNA 变异的预测图谱",
-      "finding": "Google DeepMind 发布 AlphaGenome Atlas，绘制了人类基因组中 90 亿个单字母 DNA 变异的分子效应图谱，有望加速遗传病研究和药物开发。",
+      "source": "Google DeepMind",
+      "title": "AlphaGenome Atlas：人类基因组所有单碱基变化的预测图谱",
+      "finding": "DeepMind 发布了 AlphaGenome Atlas，绘制了人类基因组中 90 亿个单碱基变异的分子效应图谱，有望加速遗传病研究和药物开发。",
       "key_data": [
-        "90 亿变异",
-        "人类基因组",
-        "AlphaGenome Atlas"
+        "90亿变异",
+        "单碱基分辨率",
+        "人类基因组"
       ],
-      "judgment": "这是 AI 在生命科学领域的又一里程碑，将极大降低基因变异功能解读的成本，推动精准医疗发展。",
+      "judgment": "这是 AI 在生命科学领域的又一里程碑，将极大推动精准医学发展，但数据解读和临床应用仍需谨慎。",
       "confidence": 5,
       "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
       "importance": 4
     },
     {
-      "source": "InfoQ AI",
-      "title": "Cohere 发布 Parse 5，提升复杂文档多模态信息提取能力",
-      "finding": "Cohere 推出 Parse 5，能够从复杂文档中高效提取多模态信息，增强企业 RAG 系统的文档理解能力。",
+      "source": "OpenAI Blog",
+      "title": "GPT-5.6 Sol 助力量子计算实验自动化",
+      "finding": "OpenAI 展示了 GPT-5.6 Sol 与 Codex 结合，在 MIT 研究员的指导下自主运行量子计算实验、分析结果并校准量子比特，展示了 AI 在科研自动化中的潜力。",
       "key_data": [
-        "Parse 5",
-        "多模态提取",
-        "企业 RAG"
+        "GPT-5.6 Sol",
+        "Codex",
+        "量子计算"
       ],
-      "judgment": "文档解析是企业 AI 落地的关键环节，Parse 5 的升级将提升 RAG 系统的实用性，但竞争激烈，需看实际效果。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/C8WbrpalJEjLfSh2xJJj",
-      "importance": 2
-    },
-    {
-      "source": "InfoQ AI",
-      "title": "Arm 发布 Neoverse CSS N4：单裸片最高 128 核，押注智能体时代 CPU 需求",
-      "finding": "Arm 推出 Neoverse CSS N4 架构，单裸片最高 128 核，专为 AI 智能体时代的高并发 CPU 需求设计，强化数据中心计算能力。",
-      "key_data": [
-        "128 核",
-        "Neoverse CSS N4",
-        "智能体时代"
-      ],
-      "judgment": "AI 智能体需要强大的 CPU 支撑，Arm 的布局表明基础设施正在为 AI 工作负载优化，对云厂商和芯片行业有深远影响。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/IR6XdUEok3aY1YSDOvat",
-      "importance": 2
+      "judgment": "AI 智能体开始深入科研一线，有望大幅降低实验门槛，但需确保其决策的可靠性和可解释性。",
+      "confidence": 4,
+      "url": "https://openai.com/index/codex-quantum-computing-experiments",
+      "importance": 3
     },
     {
       "source": "Hugging Face Blog",
-      "title": "安全为谁？拒绝话题的正确子集而非整个话题",
-      "finding": "一篇博客探讨 AI 安全对齐中的精细拒绝机制，主张模型应拒绝特定有害子集而非整个话题，以提高安全性和实用性。",
+      "title": "安全拒绝的艺术：如何精准拒绝话题的子集而非整个话题",
+      "finding": "一篇博客探讨了 AI 安全对齐中的精细拒绝策略，主张模型应学会拒绝特定有害子内容，而不是一刀切地拒绝整个话题，以提升实用性和安全性。",
       "key_data": [
         "安全对齐",
         "精细拒绝",
         "话题子集"
       ],
-      "judgment": "安全对齐的精细度是 AI 可用性的关键，该研究为开发者提供了更细致的拒绝策略思路，但落地仍需谨慎。",
+      "judgment": "这为 AI 安全研究提供了新思路，但实现难度大，需要更细粒度的语义理解。",
       "confidence": 3,
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "importance": 2
+    },
+    {
+      "source": "Hacker News",
+      "title": "LLM 注意力可视化工具发布",
+      "finding": "开发者发布了一个 LLM 注意力可视化工具，帮助用户直观理解 Transformer 模型在处理文本时如何分配注意力，对教育和调试有实用价值。",
+      "key_data": [
+        "注意力可视化",
+        "Transformer",
+        "教育工具"
+      ],
+      "judgment": "此类工具能降低 LLM 的理解门槛，促进 AI 教育的普及，但功能相对基础，适合入门。",
+      "confidence": 3,
+      "url": "https://ishamf.dev/p/llm-attention-visualizer/",
       "importance": 2
     }
   ],
   "company_product": [
     {
       "source": "OpenAI Blog",
-      "title": "OpenAI 发布 ChatGPT Images 2.5，图像生成更个性化",
-      "finding": "OpenAI 推出 ChatGPT Images 2.5，提升图像生成的个性化和精细度，支持从草图、参考照片生成更符合用户意图的图像。",
+      "title": "ChatGPT Images 2.5 发布：图像生成更个性化",
+      "finding": "OpenAI 推出 ChatGPT Images 2.5，能够根据用户的草图、参考照片生成更个性化、更精致的图像，提升创作体验。",
       "key_data": [
-        "ChatGPT Images 2.5",
+        "图像生成",
         "个性化",
-        "草图生成"
+        "草图转图像"
       ],
-      "judgment": "图像生成竞争白热化，OpenAI 持续迭代以保持领先，但差异化优势尚不明显，需看实际用户体验。",
+      "judgment": "图像生成能力的提升将进一步模糊人类创作与 AI 辅助的边界，对设计师和内容创作者是福音。",
       "confidence": 5,
       "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
       "importance": 3
     },
     {
-      "source": "TechCrunch",
-      "title": "Google Cloud 与埃森哲合作，加速企业 AI 部署",
-      "finding": "Google Cloud 与埃森哲达成合作，利用前向部署工程师推动企业 AI 采用，克服部署瓶颈，追赶竞争对手。",
+      "source": "蚂蚁集团 / 量子位",
+      "title": "蚂蚁百灵发布首个金融增强模型，AI 进入真实投研工作流",
+      "finding": "蚂蚁集团百灵发布首个金融增强开放模型 Ling-3.0-flash-Fin，旨在将 AI 融入真实投研流程，提升金融分析的效率和准确性。",
       "key_data": [
-        "Google Cloud",
-        "埃森哲",
-        "企业 AI 部署"
+        "金融增强模型",
+        "Ling-3.0-flash-Fin",
+        "投研工作流"
       ],
-      "judgment": "云厂商竞争从模型转向落地服务，Google Cloud 借助埃森哲的行业资源有望缩小与 AWS/Azure 的差距，但执行是关键。",
+      "judgment": "垂直领域模型将加速金融行业的智能化转型，但需严格监管和风险控制。",
       "confidence": 4,
-      "url": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/",
+      "url": "https://www.qbitai.com/2026/09/486288.html",
       "importance": 3
     },
     {
-      "source": "InfoQ AI",
-      "title": "Karmada 正式从 CNCF 毕业，用于多集群 AI 训练与 GPU 调度",
-      "finding": "Karmada 项目正式从 CNCF 毕业，成为多云多集群管理的重要工具，已用于多集群 AI 训练和 GPU 调度场景。",
+      "source": "极客公园",
+      "title": "千问办公发布多人工作台，重写企业软件最后一公里",
+      "finding": "阿里千问办公推出多人协作工作台，旨在通过 AI 重构企业软件的使用体验，提升团队协作效率。",
       "key_data": [
-        "CNCF 毕业",
-        "多集群 AI 训练",
-        "GPU 调度"
+        "多人工作台",
+        "企业软件",
+        "AI协作"
       ],
-      "judgment": "Karmada 的毕业标志着多云管理走向成熟，对需要大规模 AI 训练的企业是重要基础设施选项。",
+      "judgment": "AI 办公工具从个人辅助走向团队协作，将改变企业软件市场格局，但需解决数据安全和集成问题。",
       "confidence": 3,
-      "url": "https://www.infoq.cn/article/yfQdTa8cRxjJB0rzZMJR",
+      "url": "http://www.geekpark.net/news/370061",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "Anthropic 的“失败团队”：70% 项目注定被砍，20 人团队如何运作",
+      "finding": "Anthropic 内部设有一支 20 人的“失败团队”，专门负责探索高风险项目，其中 70% 会被终止，项目超过 4 人即“毕业”。这种机制鼓励快速试错和创新。",
+      "key_data": [
+        "70%项目被砍",
+        "20人团队",
+        "快速试错"
+      ],
+      "judgment": "Anthropic 的创新管理方式值得借鉴，但并非所有公司都适合，需平衡风险与资源。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/ctAqA0IOsgsu2gRCHd9z",
       "importance": 2
     },
     {
       "source": "极客公园",
-      "title": "硅谷开始倒查员工 AI 账单，单人月耗 19 万",
-      "finding": "微软等硅谷公司开始审查员工的 AI 使用费用，有员工单月 AI 花费高达 19 万元，企业开始控制 AI 成本。",
+      "title": "硅谷公司开始审计员工 AI 账单，单人月耗 19 万引关注",
+      "finding": "微软等硅谷公司开始审查员工的 AI 工具使用费用，有员工每月 AI 花费高达 19 万元，引发对 AI 成本控制的讨论。",
       "key_data": [
-        "月耗 19 万",
-        "AI 账单",
+        "月耗19万",
+        "AI账单审计",
         "成本控制"
       ],
-      "judgment": "AI 工具普及后成本失控成为企业新痛点，这推动企业寻求更精细的 AI 用量管理和预算工具，是 AI 运维的新机会。",
+      "judgment": "AI 工具的高昂成本成为企业负担，需要更精细的预算管理和成本优化策略。",
       "confidence": 3,
       "url": "http://www.geekpark.net/news/370006",
       "importance": 2
@@ -195,39 +205,39 @@
   ],
   "opinions": [
     {
-      "person": "Simon Willison",
-      "level": "L2",
-      "quote": "OpenAI 用未发布模型解决纳维-斯托克斯问题是令人印象深刻的成果，但学术界对验证过程的质疑提醒我们，AI 发现需要更严格的同行评审。",
-      "source": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/"
+      "person": "Terence Tao",
+      "level": "L1",
+      "quote": "好的、富有成果的开放问题正被 AI 以不可再生的方式开采，可能导致这些问题变得稀缺。",
+      "source": "https://mathstodon.xyz/@tao/117237320796901560"
     },
     {
-      "person": "Terence Tao",
+      "person": "Simon Willison",
       "level": "L2",
-      "quote": "好的开放问题正在被非可再生地开采，可能导致这些问题变得稀缺。AI 正在改变数学研究的模式。",
-      "source": "https://simonwillison.net/2026/Sep/9/terence-tao/"
+      "quote": "OpenAI 的 Navier-Stokes 结果令人印象深刻，但必须经过严格的验证和同行评审。",
+      "source": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI 在数学发现中的角色与验证机制",
-      "reason": "OpenAI 的纳维-斯托克斯成果引发争议，值得深入探讨 AI 发现如何被验证和信任。",
+      "topic": "AI 在数学证明中的角色与学术规范挑战",
+      "reason": "OpenAI 的 Navier-Stokes 宣称引发争议，值得深入探讨 AI 辅助证明的验证流程和伦理边界。",
       "priority": "high"
     },
     {
-      "topic": "AI 编程工具市场格局与估值泡沫风险",
-      "reason": "Cognition 估值 480 亿美元，AI 编程赛道竞争激烈，需分析市场是否过热。",
+      "topic": "个人 AI 代理的隐私与信任问题",
+      "reason": "Meta Muse 等产品需要访问敏感数据，用户信任和隐私保护成为普及的关键，值得研究。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "AI 突破与争议并存，欧洲崛起，编程市场火热",
-  "summary_paragraph": "今日 AI 领域热闹非凡：OpenAI 宣称攻克纳维-斯托克斯难题，却陷入学术争议；Mistral 完成 30 亿欧元融资，欧洲 AI 力量崛起；Meta 发布个人代理 Muse，挑战用户信任；Cognition 估值飙至 480 亿美元，AI 编程市场持续升温。同时，NeurIPS 的 AI 检测误伤事件引发学术伦理讨论，Google DeepMind 的 AlphaGenome Atlas 展现 AI 在生命科学的价值。行业在突破与质疑中前行，资本热情不减，但透明度和信任成为新焦点。",
+  "summary_one_line": "AI 攻克数学难题引争议，Meta 推个人代理，编程赛道融资热",
+  "summary_paragraph": "今日 AI 领域热闹非凡：OpenAI 宣称用 AI 解决千禧年难题 Navier-Stokes，虽引发学术界质疑，但标志着 AI 在科学发现上的巨大潜力；Meta 发布个人 AI 代理 Muse，试图深入用户生活，却面临信任考验；Cognition 估值达 480 亿美元，AI 编程赛道持续升温；Mistral 完成 30 亿欧元融资，欧洲主权 AI 加速。同时，NeurIPS 的 AI 检测器误判事件引发对学术公平的讨论。这些事件共同勾勒出 AI 从实验室走向应用、从工具走向伙伴的图景，但伴随的争议和挑战也提醒我们，AI 的发展需要更严谨的规范和更周全的考量。",
   "snapshot": {
     "date": "2026-09-09",
     "hf_trending": [
       {
         "name": "XHToken/Spark-X2.5-4B",
         "short_name": "Spark-X2.5-4B",
-        "likes": 853,
+        "likes": 870,
         "downloads": 10661,
         "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
         "tags": [
@@ -243,7 +253,7 @@
       {
         "name": "openbmb/MiniCPM5-2B",
         "short_name": "MiniCPM5-2B",
-        "likes": 688,
+        "likes": 761,
         "downloads": 2879,
         "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
         "tags": [
@@ -259,7 +269,7 @@
       {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 14395,
+        "likes": 14420,
         "downloads": 6712160,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -275,7 +285,7 @@
       {
         "name": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
         "short_name": "Qwen3.8-27B-GSQ-RCO-GGUF",
-        "likes": 659,
+        "likes": 673,
         "downloads": 479597,
         "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
         "tags": [
@@ -291,7 +301,7 @@
       {
         "name": "google/timesfm-3.0-pytorch",
         "short_name": "timesfm-3.0-pytorch",
-        "likes": 638,
+        "likes": 652,
         "downloads": 444052,
         "url": "https://huggingface.co/google/timesfm-3.0-pytorch",
         "tags": [
@@ -307,7 +317,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 3181,
+        "likes": 3195,
         "downloads": 1644796,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -323,7 +333,7 @@
       {
         "name": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "short_name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-        "likes": 357,
+        "likes": 372,
         "downloads": 348753,
         "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "tags": [
@@ -339,7 +349,7 @@
       {
         "name": "unsloth/Qwen3.8-27B-GGUF",
         "short_name": "Qwen3.8-27B-GGUF",
-        "likes": 3706,
+        "likes": 3720,
         "downloads": 10675683,
         "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
         "tags": [
@@ -357,45 +367,45 @@
       {
         "name": "ayghri/i-have-adhd",
         "desc": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-        "stars": 30681,
+        "stars": 31713,
         "stars_today": 656,
-        "forks": 1864,
+        "forks": 1913,
         "language": "Python",
         "url": "https://github.com/ayghri/i-have-adhd"
       },
       {
         "name": "cathrynlavery/diagram-design",
         "desc": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No",
-        "stars": 34932,
+        "stars": 35537,
         "stars_today": 710,
-        "forks": 2208,
+        "forks": 2233,
         "language": "HTML",
         "url": "https://github.com/cathrynlavery/diagram-design"
       },
       {
         "name": "openai/skills",
         "desc": "Skills Catalog for Codex",
-        "stars": 26537,
+        "stars": 26665,
         "stars_today": 490,
-        "forks": 1777,
+        "forks": 1789,
         "language": "Python",
         "url": "https://github.com/openai/skills"
       },
       {
         "name": "affaan-m/ECC",
         "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research",
-        "stars": 254345,
+        "stars": 254582,
         "stars_today": 1427,
-        "forks": 38115,
+        "forks": 38140,
         "language": "JavaScript",
         "url": "https://github.com/affaan-m/ECC"
       },
       {
         "name": "heygen-com/hyperframes",
         "desc": "Write HTML. Render video. Built for agents.",
-        "stars": 47802,
+        "stars": 48041,
         "stars_today": 2627,
-        "forks": 4394,
+        "forks": 4413,
         "language": "TypeScript",
         "url": "https://github.com/heygen-com/hyperframes"
       }
@@ -512,6 +522,6 @@
         "url": "https://openrouter.ai/z-ai/glm-5.2"
       }
     ],
-    "hf_summary": "小模型霸榜，Qwen系衍生主导，多模态与量化成热点"
+    "hf_summary": "开源小模型霸榜，多模态与量化版本成主流"
   }
 }
