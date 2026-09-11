@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-09-11",
-      "title": "今日 AI 日报：DeepSeek 发布 V4.1 Flash：全面超越 V4 Pro，原生多模态，最高降价 60% + 4 条重要动态",
-      "excerpt": "这是 DeepSeek 用新架构重新定义产品线的信号：小模型打大模型、价格再下探…",
+      "title": "今日 AI 日报：Cognition 发布 SWE-2 模型，编程 Agent 能力对标 Fable 5.1 与 GPT-Astra + 4 条重要动态",
+      "excerpt": "编程 Agent 正从「套壳通用模型」走向「专用模型自研」。Cognition …",
       "top_count": 5,
       "file": "2026-09-11.json"
     },
