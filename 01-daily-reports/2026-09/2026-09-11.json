@@ -1,0 +1,566 @@
+{
+  "date": "2026-09-11",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "DeepSeek 发布 V4.1 Flash：全面超越 V4 Pro，原生多模态，最高降价 60%",
+      "finding": "DeepSeek 正式发布 V4.1 Flash，这是其全新模型结构系列中最小尺寸的模型，却全面超越了上一代旗舰 V4 Pro。新模型具备原生多模态视觉理解能力，推理速度更快、吞吐更大，且最高降价 60%。",
+      "key_data": [
+        "全面超越 V4 Pro",
+        "原生多模态视觉",
+        "最高降价 60%",
+        "全新模型结构"
+      ],
+      "judgment": "这是 DeepSeek 用新架构重新定义产品线的信号：小模型打大模型、价格再下探，直接压缩国内其他厂商的定价空间。对开发者而言，多模态+低价组合意味着视觉类应用的成本门槛被大幅拉低。",
+      "confidence": 4,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/370157"
+    },
+    {
+      "rank": 2,
+      "title": "Cognition 发布 SWE-2 模型，对标 Fable 5.1 与 GPT-Astra",
+      "finding": "Cognition（Devin 母公司）发布新一代编程模型 SWE-2，官方定位直接对标当前最强的 Fable 5.1 和 GPT-Astra。Hacker News 上讨论热度极高，355 分、144 条评论。",
+      "key_data": [
+        "SWE-2 模型",
+        "对标 Fable 5.1",
+        "HN 355 分",
+        "144 条评论"
+      ],
+      "judgment": "编程 Agent 赛道从'产品体验竞争'升级为'底层模型竞争'。Cognition 不再只靠 Devin 的产品包装，而是亲自下场做模型，说明自主编程的护城河正在向模型能力转移。",
+      "confidence": 4,
+      "source": "Hacker News / Cognition",
+      "url": "https://cognition.com/blog/swe-2"
+    },
+    {
+      "rank": 3,
+      "title": "OpenAI 推出 ChatGPT 金融服务版，搭载 GPT-6 Astra",
+      "finding": "OpenAI 发布面向金融行业的 ChatGPT for Financial Services，内置金融数据，搭载 GPT-6 Astra 模型，可用于研究、建模和生成客户级材料。同一天还发布了 ChatGPT Work 中的 Data agent，支持连接企业数据、用自然语言生成交互式仪表盘。",
+      "key_data": [
+        "GPT-6 Astra",
+        "内置金融数据",
+        "Data agent",
+        "自然语言建仪表盘"
+      ],
+      "judgment": "OpenAI 正在从通用助手转向垂直行业解决方案，金融是第一个被'产品化'的行业。这对 Glean、Hebbia 等企业 AI 创业公司是直接冲击——平台级玩家开始吃掉垂直场景。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services"
+    },
+    {
+      "rank": 4,
+      "title": "Anthropic 指控阿里、Moonshot、DeepSeek 持续进行蒸馏攻击",
+      "finding": "Anthropic 发布报告，指控中国 AI 公司对其模型进行持续性的蒸馏攻击，且近几个月随着竞争加剧而升级。涉及阿里、Moonshot AI 和 DeepSeek 三家。",
+      "key_data": [
+        "蒸馏攻击指控",
+        "阿里/Moonshot/DeepSeek",
+        "近月升级",
+        "竞争加剧"
+      ],
+      "judgment": "这是中美 AI 竞争从'能力比拼'延伸到'合规与知识产权'的标志性事件。蒸馏争议可能成为未来模型出口管制、API 使用条款收紧的导火索，做跨境 AI 产品的团队需要关注合规风险。",
+      "confidence": 3,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/"
+    },
+    {
+      "rank": 5,
+      "title": "微信小范围测试'小微 AI 社交'：两个 AI 先替你聊，再回来请示",
+      "finding": "微信开始小范围测试新功能：用户把沟通诉求告诉自己的'小微'，小微找到对方的小微说明话题并请求授权，双方同意后两个 AI 先行交流，遇到需要决策的地方再分别提醒主人。这与简单的'代发消息'有本质区别。",
+      "key_data": [
+        "小微 AI 社交",
+        "AI 先行交流",
+        "双向授权",
+        "小范围测试"
+      ],
+      "judgment": "这是 AI Agent 进入社交场景的第一个大厂级尝试，把'人找人'变成'Agent 找 Agent'。如果跑通，将重新定义 IM 的交互范式——但也带来授权边界、隐私和社交礼仪的新问题。",
+      "confidence": 3,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/370155"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Hacker News",
+      "title": "3.8B 小模型训练到 0.384 CORE，总成本仅 998 美元",
+      "finding": "一位开发者公开了用 998 美元训练 3.8B 参数 LLM 达到 0.384 CORE 分数的完整过程，引发 HN 热议。这说明在有限预算下做出有竞争力的小模型已经可行。",
+      "key_data": [
+        "3.8B 参数",
+        "998 美元",
+        "0.384 CORE",
+        "HN 110 分"
+      ],
+      "judgment": "小模型训练成本正在快速下探，个人研究者和小团队也能参与模型层创新，开源生态的供给会进一步加速。",
+      "confidence": 3,
+      "url": "https://hugovergnes.github.io/little-lm-3-8b/",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "长期记忆对工具型 Agent 到底有没有用？首个成本感知评测出炉",
+      "finding": "研究指出当前 Agent 长期记忆的评测都基于对话回忆基准（LoCoMo、LongMemEval），无法反映真实工具使用场景。论文提出成本感知的评测方法，回答'记忆何时真正有帮助'。",
+      "key_data": [
+        "成本感知评测",
+        "LoCoMo/LongMemEval",
+        "工具型 Agent",
+        "记忆收益"
+      ],
+      "judgment": "给'无脑加记忆'的 Agent 设计泼了冷水——记忆不是免费的，需要按成本收益权衡，这会推动 Agent 架构更务实。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.05441",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "AhaBench：Agent 会从过往经验中学习吗？长时程持续学习基准发布",
+      "finding": "新基准 AhaBench 专门评测语言 Agent 在长时程任务中能否复用过往经验、处理工具反馈并持续适应，填补了'Agent 持续学习能力'缺乏标准评测的空白。",
+      "key_data": [
+        "AhaBench",
+        "长时程任务",
+        "持续学习",
+        "工具反馈"
+      ],
+      "judgment": "Agent 评测正从'单次任务完成度'转向'跨任务学习能力'，这是判断 Agent 是否真智能的关键维度。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.05435",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "Osprey：目标无关预训练让投机解码的草稿模型更强",
+      "finding": "投机解码的加速效果通常很脆弱，因为草稿模型只针对窄分布训练。Osprey 提出目标无关的预训练方法，让草稿模型在更换目标模型时依然保持加速效果。",
+      "key_data": [
+        "投机解码",
+        "目标无关预训练",
+        "草稿模型",
+        "推理加速"
+      ],
+      "judgment": "推理加速的通用性提升，意味着部署方不必为每个目标模型单独训练草稿模型，降低推理优化成本。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.09338",
+      "importance": 2
+    },
+    {
+      "source": "量子位",
+      "title": "1.3B 开源世界模型发布，单卡即可实时运行",
+      "finding": "轻量版 LingBot-World 2.0 发布，仅 1.3B 参数，单张显卡就能实时运行世界模型，大幅降低了世界模型的使用门槛。",
+      "key_data": [
+        "1.3B 参数",
+        "单卡实时",
+        "开源",
+        "LingBot-World 2.0"
+      ],
+      "judgment": "世界模型从'实验室大算力玩具'走向'单卡可跑'，是具身智能和仿真应用普及的关键一步。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/09/486716.html",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "TechCrunch",
+      "title": "OpenAI 因 Astra 需求过载，暂停 Pro 订阅注册",
+      "finding": "OpenAI 宣布暂停 Pro 订阅的新用户注册，原因是 Pro 订阅对系统压力最大，需要先扩充容量。这直接反映了 GPT-6 Astra 上线后的需求爆发。",
+      "key_data": [
+        "暂停 Pro 注册",
+        "Astra 需求过载",
+        "扩充容量",
+        "系统压力"
+      ],
+      "judgment": "算力瓶颈从训练端蔓延到推理端，'有钱也买不到'可能成为头部模型的新常态，对依赖 OpenAI 的企业客户是供应风险。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
+      "importance": 4
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Meta 的 AI Agent 应用 Muse 冲上美国 App 榜第二",
+      "finding": "Meta 最新 AI Agent 应用 Muse 成为美国 App Store 第二名，但起步速度慢于 Meta AI 和 Threads 等此前产品。",
+      "key_data": [
+        "美国榜第二",
+        "AI Agent 应用",
+        "起步慢于 Threads",
+        "Meta 出品"
+      ],
+      "judgment": "Meta 用 Agent 形态再战消费级 AI，排名证明分发能力仍在，但'起步慢'说明 Agent 类产品的留存仍是难题。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "高德发布全球首个 3D 原生城市世界模型 ABot-Earth 0.7",
+      "finding": "阿里巴巴旗下高德发布 ABot-Earth 0.7，号称全球首个 3D 原生城市世界模型，目标是构建 AI 理解真实世界的入口。",
+      "key_data": [
+        "3D 原生",
+        "城市世界模型",
+        "高德出品",
+        "ABot-Earth 0.7"
+      ],
+      "judgment": "地图厂商做世界模型有天然数据优势，这是阿里在具身智能/自动驾驶基础设施上的一次卡位。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/09/486900.html",
+      "importance": 3
+    },
+    {
+      "source": "Mistral AI Blog",
+      "title": "Mistral 与 Cloudera 合作，为受监管行业提供主权 AI",
+      "finding": "Mistral 与数据平台 Cloudera 达成合作，将专业化、主权化的 AI 能力带入企业数据，帮助受监管行业在自有数据上创新。",
+      "key_data": [
+        "主权 AI",
+        "Cloudera 合作",
+        "受监管行业",
+        "企业数据"
+      ],
+      "judgment": "欧洲厂商用'主权 AI'差异化对抗美国云厂商，数据合规敏感行业是 Mistral 最现实的突破口。",
+      "confidence": 4,
+      "url": "https://mistral.ai/news/mistral-x-cloudera/",
+      "importance": 2
+    },
+    {
+      "source": "极客公园",
+      "title": "小度 Agent 走出聊天框，进入现实世界",
+      "finding": "小度展示 Agent 从处理文件、网页、软件，向物理世界延伸的路径，Agent 正在寻找自己的'身体'，与硬件结合成为新方向。",
+      "key_data": [
+        "小度 Agent",
+        "物理世界",
+        "硬件结合",
+        "走出聊天框"
+      ],
+      "judgment": "Agent 的下一战场是硬件入口，谁能把 Agent 装进日常设备，谁就掌握新的交互入口。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/370064",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "Shopify 从 React Native 迁回 Swift 和 Kotlin 原生代码库，理由正是我们预料到的——AI 辅助编程时代，原生代码的可维护性和工具链优势重新凸显。",
+      "source": "https://simonwillison.net/2026/Sep/10/shopify-react-native/"
+    },
+    {
+      "person": "Jensen Huang",
+      "level": "L3",
+      "quote": "英伟达明年将增长惊人的 70%，我们在每个领域都有布局，但这些交易不是循环交易。",
+      "source": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/"
+    },
+    {
+      "person": "Gergely Orosz",
+      "level": "L2",
+      "quote": "出现 CPU 短缺新趋势，对计算密集型服务来说，现在值得提前预留更多算力；同时 AI 接管事故处理，让工程师正在与系统'失去接触'。",
+      "source": "https://newsletter.pragmaticengineer.com/p/the-pulse-191-a-new-trend-of-cpu"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "DeepSeek V4.1 Flash 新架构与多模态能力实测",
+      "reason": "小模型超越上代旗舰+降价60%，需实测验证是否真能替代高价模型",
+      "priority": "high"
+    },
+    {
+      "topic": "Cognition SWE-2 与 Fable 5.1、GPT-Astra 的编程能力横评",
+      "reason": "编程 Agent 底层模型竞争白热化，直接影响开发者工具选型",
+      "priority": "high"
+    },
+    {
+      "topic": "模型蒸馏的法律与合规边界",
+      "reason": "Anthropic 指控事件可能引发 API 条款收紧，跨境 AI 团队需评估风险",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "DeepSeek 小模型掀桌，编程 Agent 开打模型战",
+  "summary_paragraph": "今天最值得关注的是 DeepSeek V4.1 Flash 用最小尺寸模型全面超越上代旗舰 V4 Pro，并降价 60%，再次用新架构重新定义产品线；Cognition 发布 SWE-2 直接对标 Fable 5.1 和 GPT-Astra，编程 Agent 的竞争从产品体验转向底层模型。OpenAI 一边推出金融行业版 ChatGPT 和 Data agent 深耕垂直场景，一边因 Astra 需求过载暂停 Pro 订阅，算力瓶颈从训练蔓延到推理。Anthropic 指控阿里、Moonshot、DeepSeek 蒸馏攻击，中美 AI 竞争延伸到合规层面。微信测试'小微 AI 社交'，Agent 开始进入社交场景。整体看，模型层价格战与能力战同步升级，Agent 正从屏幕走向现实世界。",
+  "snapshot": {
+    "date": "2026-09-11",
+    "hf_trending": [
+      {
+        "name": "deepseek-ai/DeepSeek-V4.1-Flash",
+        "short_name": "DeepSeek-V4.1-Flash",
+        "likes": 1389,
+        "downloads": 6,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v41"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "openbmb/MiniCPM5-2B",
+        "short_name": "MiniCPM5-2B",
+        "likes": 1117,
+        "downloads": 42289,
+        "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "XHToken/Spark-X2.5-4B",
+        "short_name": "Spark-X2.5-4B",
+        "likes": 1068,
+        "downloads": 15930,
+        "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "spark2_5"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+        "short_name": "Qwen3.8-27B-GSQ-RCO-GGUF",
+        "likes": 797,
+        "downloads": 614850,
+        "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+        "tags": [
+          "gguf",
+          "gsq",
+          "rco"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen3.8-27B",
+        "short_name": "Qwen3.8-27B",
+        "likes": 14648,
+        "downloads": 7322476,
+        "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "nex-agi/Nex-N2.5-mini",
+        "short_name": "Nex-N2.5-mini",
+        "likes": 657,
+        "downloads": 2444,
+        "url": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 3391,
+        "downloads": 1740572,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "unsloth/Qwen3.8-27B-GGUF",
+        "short_name": "Qwen3.8-27B-GGUF",
+        "likes": 3850,
+        "downloads": 11127203,
+        "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+        "tags": [
+          "gguf",
+          "qwen3_5",
+          "unsloth"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "ayghri/i-have-adhd",
+        "desc": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+        "stars": 38480,
+        "stars_today": 3882,
+        "forks": 2207,
+        "language": "Python",
+        "url": "https://github.com/ayghri/i-have-adhd"
+      },
+      {
+        "name": "bilawalsidhu/gods-eye-view",
+        "desc": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelli",
+        "stars": 24439,
+        "stars_today": 1762,
+        "forks": 5070,
+        "language": "JavaScript",
+        "url": "https://github.com/bilawalsidhu/gods-eye-view"
+      },
+      {
+        "name": "obra/superpowers",
+        "desc": "An agentic skills framework &amp; software development methodology that works.",
+        "stars": 284729,
+        "stars_today": 732,
+        "forks": 25471,
+        "language": "Shell",
+        "url": "https://github.com/obra/superpowers"
+      },
+      {
+        "name": "alsk1992/CloddsBot",
+        "desc": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, B",
+        "stars": 1687,
+        "stars_today": 277,
+        "forks": 259,
+        "language": "TypeScript",
+        "url": "https://github.com/alsk1992/CloddsBot"
+      },
+      {
+        "name": "Tencent/teamai-cli",
+        "desc": "Make Every Team AI Native",
+        "stars": 3831,
+        "stars_today": 841,
+        "forks": 249,
+        "language": "TypeScript",
+        "url": "https://github.com/Tencent/teamai-cli"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "openai/gpt-5.6-luna",
+        "name": "GPT-5.6 Luna",
+        "org": "openai",
+        "total_tokens": 2705480879906,
+        "total_tokens_str": "2.7T",
+        "api_calls": 0,
+        "change": 112.4,
+        "url": "https://openrouter.ai/openai/gpt-5.6-luna"
+      },
+      {
+        "rank": 2,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 2653345300211,
+        "total_tokens_str": "2.7T",
+        "api_calls": 0,
+        "change": 17.2,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 2330317015078,
+        "total_tokens_str": "2.3T",
+        "api_calls": 0,
+        "change": -28.4,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 4,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1821255463174,
+        "total_tokens_str": "1.8T",
+        "api_calls": 0,
+        "change": -6.7,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 5,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 1280830844429,
+        "total_tokens_str": "1.3T",
+        "api_calls": 0,
+        "change": 2.6,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 6,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 678686144342,
+        "total_tokens_str": "679B",
+        "api_calls": 0,
+        "change": 0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 7,
+        "slug": "tencent/hy3",
+        "name": "Hy3",
+        "org": "tencent",
+        "total_tokens": 547218166106,
+        "total_tokens_str": "547B",
+        "api_calls": 0,
+        "change": -4.1,
+        "url": "https://openrouter.ai/tencent/hy3"
+      },
+      {
+        "rank": 8,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 514249464767,
+        "total_tokens_str": "514B",
+        "api_calls": 0,
+        "change": 7.9,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      {
+        "rank": 9,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro 0423",
+        "org": "deepseek",
+        "total_tokens": 405903426303,
+        "total_tokens_str": "406B",
+        "api_calls": 0,
+        "change": 14.9,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 10,
+        "slug": "google/gemini-3.8-flash",
+        "name": "Gemini 3.8 Flash",
+        "org": "google",
+        "total_tokens": 363587380793,
+        "total_tokens_str": "364B",
+        "api_calls": 0,
+        "change": -44.3,
+        "url": "https://openrouter.ai/google/gemini-3.8-flash"
+      }
+    ],
+    "hf_summary": "Qwen3.8霸榜多模态成主流小模型与视频生成齐升温"
+  }
+}

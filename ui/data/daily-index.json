@@ -1,6 +1,13 @@
 {
-  "total": 167,
+  "total": 168,
   "reports": [
+    {
+      "date": "2026-09-11",
+      "title": "今日 AI 日报：DeepSeek 发布 V4.1 Flash：全面超越 V4 Pro，原生多模态，最高降价 60% + 4 条重要动态",
+      "excerpt": "这是 DeepSeek 用新架构重新定义产品线的信号：小模型打大模型、价格再下探…",
+      "top_count": 5,
+      "file": "2026-09-11.json"
+    },
     {
       "date": "2026-09-10",
       "title": "今日 AI 日报：OpenAI 发布 GPT-6 Astra：面向企业工作的新一代模型 + 4 条重要动态",
