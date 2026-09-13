@@ -1,6 +1,13 @@
 {
-  "total": 169,
+  "total": 170,
   "reports": [
+    {
+      "date": "2026-09-13",
+      "title": "今日 AI 日报：DeepSeek 发布 V4.1-Flash：763B 参数、全新因果编码器-解码器架构，社区直呼「这该叫 V5」 + 4 条重要动态",
+      "excerpt": "这是 DeepSeek 从「高效 MoE 追赶者」向「架构创新者」转型的信号。E…",
+      "top_count": 5,
+      "file": "2026-09-13.json"
+    },
     {
       "date": "2026-09-12",
       "title": "今日 AI 日报：DeepSeek V4.1-Flash 发布：763B 参数、全新因果编码器-解码器架构、带视觉能力 + 4 条重要动态",
