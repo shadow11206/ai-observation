@@ -1,0 +1,537 @@
+{
+  "date": "2026-09-14",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "OpenAI 年内不上市，奥特曼公开支持对手 Dario 的「AI 该踩刹车」论",
+      "finding": "OpenAI 明确表示今年内不会启动 IPO，同时 Sam Altman 罕见地公开支持竞争对手、Anthropic CEO Dario Amodei 关于 AI 需要监管刹车的呼吁。两人在「递归自我改进（RSI）太危险」这一判断上达成一致，这在过去是竞争双方极少出现的立场合流。",
+      "key_data": [
+        "年内不上市",
+        "RSI 太危险",
+        "两大 CEO 立场合流"
+      ],
+      "judgment": "这是行业叙事的关键转折：头部实验室开始主动给资本和监管「降温」，说明他们对下一代模型的能力曲线存在真实担忧，而非公关姿态。对创业者和投资人意味着，短期靠「AGI 叙事」融资的窗口正在收窄，安全与合规能力会成为新的竞争维度。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/09/488380.html"
+    },
+    {
+      "rank": 2,
+      "title": "Perplexity 把生产系统交给 GPT-6 Astra 端到端托管",
+      "finding": "OpenAI 官方博客披露，Perplexity 正在用 GPT-6 Astra 撰写对外沟通内容、修改软件、监控生产系统，并且对模型的检查频率远低于此前几代模型。这是头部 AI 应用公司第一次公开把「生产系统运维」这一高风险环节交给单一模型端到端处理。",
+      "key_data": [
+        "GPT-6 Astra",
+        "端到端托管生产系统",
+        "人工检查频次大幅下降"
+      ],
+      "judgment": "这是 Agent 从「辅助工具」跨向「系统责任人」的标志性案例。对开发者而言，模型可靠性评估的基准线被抬高了；对企业 CTO 而言，需要重新设计人机责任边界和回滚机制，否则一次模型幻觉可能直接变成线上事故。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra"
+    },
+    {
+      "rank": 3,
+      "title": "智谱提前剧透 GLM-6.0：完全自训练方法首次公开",
+      "finding": "智谱在模型和论文都尚未发布的情况下，先从财务公告中透露了 GLM-6.0 的存在，并公开了「完全自训练」的技术方法。这种先披露方法论、后发布模型的节奏在国内大模型厂商中并不常见。",
+      "key_data": [
+        "GLM-6.0",
+        "完全自训练",
+        "从财务公告剧透"
+      ],
+      "judgment": "「完全自训练」如果成立，意味着国产模型在训练数据与流程上进一步摆脱对开源权重的依赖，是自主可控路线的一次实质推进。但通过财务公告而非技术渠道释放信息，也说明这轮披露带有资本市场沟通的动机，技术细节仍需等论文验证。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/09/488694.html"
+    },
+    {
+      "rank": 4,
+      "title": "Y Combinator 的 Garry Tan 呼吁美国开源模型也去「蒸馏」前沿模型",
+      "finding": "Y Combinator 的 Garry Tan 公开主张，美国的开源权重 AI 实验室也应该像中国同行那样，通过蒸馏前沿闭源模型来快速追赶。这一表态把「蒸馏」从技术手段推到了产业政策层面的争论中心。",
+      "key_data": [
+        "Garry Tan",
+        "开源权重实验室",
+        "蒸馏前沿模型"
+      ],
+      "judgment": "这等于承认中国开源模型靠蒸馏追赶的路径是有效的，并试图把它正当化为美国开源阵营的合法策略。对闭源前沿实验室是压力——如果蒸馏被默许，模型能力的护城河会被显著削薄；对开源生态则是加速信号。",
+      "confidence": 4,
+      "source": "TechCrunch AI / Hacker News",
+      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"
+    },
+    {
+      "rank": 5,
+      "title": "Zachery Lipton 炮轰 CS 学术界：系统已经崩坏，只能推倒重建",
+      "finding": "机器学习学者 Zachery Lipton 公开表示计算机科学学术界「搞坏了整个系统」，并称也许唯一的重建方式就是让它彻底烧毁。背景是 2026 年 9 月 9 日 cs.LG 单日新上传论文达到 447 篇的历史新高，远超人类可阅读的极限。",
+      "key_data": [
+        "单日 447 篇新论文",
+        "cs.LG 历史新高",
+        "推倒重建"
+      ],
+      "judgment": "论文产能已经彻底脱离人类注意力，同行评审和学术声誉机制正在失效。这对产业界的直接影响是：不能再用「发了多少论文」判断研究者水平，评估体系必须转向可复现的工程产出和真实系统能力。",
+      "confidence": 3,
+      "source": "Reddit r/MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wf4b5g/zachery_lipton_cs_academia_broke_the/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "量子位",
+      "title": "亮源新创导航模型零样本通吃四种机器人本体",
+      "finding": "亮源新创把 2000 多个真实场景搬进仿真环境训练导航模型，该模型无需针对特定硬件微调，就能零样本适配四种不同的机器人本体。这验证了 Physical AI 路线中「一套模型跨本体泛化」的可行性。",
+      "key_data": [
+        "2000+ 真实场景",
+        "零样本跨本体",
+        "四种机器人"
+      ],
+      "judgment": "跨本体泛化是具身智能规模化的前提，若可复现将大幅降低机器人厂商的模型适配成本。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/09/488672.html",
+      "importance": 4
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "82.5 万参数小模型学会生成可在 RP2040 上精确执行的绘图程序",
+      "finding": "一位研究者训练了仅 82.5 万参数的小模型，让它生成能在 RP2040 这类极受限硬件上精确执行的绘图程序。这挑战了「代码生成必须依赖大模型」的默认假设。",
+      "key_data": [
+        "82.5 万参数",
+        "RP2040 微控制器",
+        "可执行绘图程序"
+      ],
+      "judgment": "端侧和嵌入式场景可能不需要大模型，小模型专用化是被低估的方向。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wf611v/i_trained_an_825kparameter_model_to_generate/",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "「Read, Don't Write」：用探测式管线重塑大模型评测体系",
+      "finding": "QCon 上海分享提出一种全自动、可进化的「探测式」评测管线，主张评测应该以读取和探测为主而非人工编写测试集，从而让评测体系本身能够持续进化。",
+      "key_data": [
+        "探测式评测",
+        "全自动管线",
+        "可进化"
+      ],
+      "judgment": "静态 benchmark 已经跟不上模型迭代速度，评测自动化是刚需，值得关注其开源进展。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/0kYhxXxhOXhxGATe64ec?utm_source=rss&utm_medium=article",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "Waymo AI 团队开放 AMA，聚焦基础模型与仿真扩展",
+      "finding": "Waymo AI 团队在 r/MachineLearning 开放 AMA，主题涵盖基础模型、仿真和 Waymo Driver 的规模化。这是自动驾驶头部公司少见地直接面向研究者社区开放技术问答。",
+      "key_data": [
+        "Waymo AI",
+        "基础模型",
+        "仿真扩展"
+      ],
+      "judgment": "自动驾驶的基础模型方法论长期封闭，这次 AMA 可能释放有价值的规模化经验。",
+      "confidence": 4,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wfesc0/upcoming_ama_waymo_ai_team_ama_drop_your/",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "量子位",
+      "title": "外滩大会最特别 Agent：能干活、能陪聊、还会朋友圈拉黑你",
+      "finding": "今年外滩大会出现一类新 Agent 产品，除了完成任务，还具备社交关系管理能力，甚至能主动在朋友圈拉黑用户。产品定位从「生产力工具」转向「关系型生产力」。",
+      "key_data": [
+        "关系型生产力",
+        "社交关系管理",
+        "主动拉黑"
+      ],
+      "judgment": "Agent 竞争开始从能力比拼转向人格与关系设计，这是产品差异化的新战场。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/09/488447.html",
+      "importance": 3
+    },
+    {
+      "source": "Simon Willison",
+      "title": "shot-scraper 1.12 发布，新增 WebP 截图支持",
+      "finding": "Simon Willison 的截图自动化工具 shot-scraper 更新到 1.12，新增 WebP 格式支持，可直接输出 WebP 截图。属于小而实用的工具迭代。",
+      "key_data": [
+        "shot-scraper 1.12",
+        "WebP 支持",
+        "截图自动化"
+      ],
+      "judgment": "工具链细节优化，对做网页抓取和视觉回归测试的开发者有直接价值。",
+      "confidence": 5,
+      "url": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
+      "importance": 2
+    },
+    {
+      "source": "Simon Willison",
+      "title": "commit-rewriter 0.1：清理编码 Agent 留下的提交信息垃圾",
+      "finding": "Simon Willison 发布 commit-rewriter 0.1，用于编辑提交信息，起因是 Datasette 安全发布时初始提交里塞满了编码 Agent 产生的冗余内容。",
+      "key_data": [
+        "commit-rewriter 0.1",
+        "清理 Agent 提交垃圾",
+        "Datasette 安全发布"
+      ],
+      "judgment": "这是编码 Agent 普及后的典型副作用，说明 Agent 产出需要专门的清理工具链。",
+      "confidence": 5,
+      "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+      "importance": 2
+    },
+    {
+      "source": "Wired AI",
+      "title": "AI Agent 极度耗电，正在重塑数据中心建设",
+      "finding": "硅谷正从聊天机器人式的单次查询，转向资源密集型的 Agentic AI，这一转变正在直接推动数据中心的扩建潮。Agent 的持续运行特性使其能耗远高于传统对话式 AI。",
+      "key_data": [
+        "Agentic AI 耗电",
+        "数据中心扩建",
+        "从查询转向持续运行"
+      ],
+      "judgment": "能耗将成为 Agent 规模化的硬约束，推理效率和调度优化会变成核心竞争力。",
+      "confidence": 4,
+      "url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power/",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "Figma 如何用 AI 代理提升安全性",
+      "finding": "Figma 分享了其利用 AI 代理来增强安全性的实践，把 Agent 用于安全相关流程的自动化处理。具体细节需查看原文。",
+      "key_data": [
+        "Figma",
+        "AI 代理",
+        "安全自动化"
+      ],
+      "judgment": "设计工具公司把 Agent 用于安全，说明 Agent 落地正从业务侧渗透到基础设施侧。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/eS4M9XEPmLbkxksCyAye?utm_source=rss&utm_medium=article",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Sam Altman",
+      "level": "L3",
+      "quote": "支持竞争对手 Dario Amodei 的呼吁：AI 该踩刹车了，递归自我改进（RSI）太危险，得管。同时明确 OpenAI 年内不会上市。",
+      "source": "https://www.qbitai.com/2026/09/488380.html"
+    },
+    {
+      "person": "Garry Tan",
+      "level": "L3",
+      "quote": "美国的开源权重 AI 实验室也应该去蒸馏前沿模型，就像中国同行做的那样。",
+      "source": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"
+    },
+    {
+      "person": "Zachery Lipton",
+      "level": "L1",
+      "quote": "CS 学术界搞坏了整个系统，也许唯一能让系统重建的方式，就是让它彻底烧毁。",
+      "source": "https://www.reddit.com/r/MachineLearning/comments/1wf4b5g/zachery_lipton_cs_academia_broke_the/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "GPT-6 Astra 端到端托管生产系统的可靠性边界",
+      "reason": "头部应用公司首次把生产运维交给单一模型，人机责任边界与回滚机制值得系统研究。",
+      "priority": "high"
+    },
+    {
+      "topic": "蒸馏作为产业策略：中美开源模型路径的正当性之争",
+      "reason": "蒸馏从技术手段升级为政策议题，直接影响闭源护城河与开源生态的竞争格局。",
+      "priority": "high"
+    },
+    {
+      "topic": "跨本体泛化的具身导航模型",
+      "reason": "零样本适配四种机器人本体若可复现，将大幅降低具身智能的规模化门槛。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "头部实验室主动踩刹车，Agent 开始接管生产系统。",
+  "summary_paragraph": "今天最值得注意的信号来自头部实验室的态度转向：OpenAI 年内不上市，Sam Altman 罕见公开支持竞争对手 Dario 的「AI 该踩刹车」论，双方在递归自我改进的风险判断上合流。与此同时，Perplexity 把生产系统运维端到端交给 GPT-6 Astra，Agent 从辅助工具跨向系统责任人，责任边界问题被推到台前。国内方面，智谱从财务公告剧透 GLM-6.0 的完全自训练方法，Y Combinator 的 Garry Tan 则呼吁美国开源阵营也去蒸馏前沿模型，蒸馏正从技术手段升级为产业策略之争。学术界则传来警报：cs.LG 单日新论文达 447 篇，Lipton 直言系统已崩坏。",
+  "snapshot": {
+    "date": "2026-09-14",
+    "hf_trending": [
+      {
+        "name": "deepseek-ai/DeepSeek-V4.1-Flash",
+        "short_name": "DeepSeek-V4.1-Flash",
+        "likes": 2223,
+        "downloads": 244457,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v41"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "openbmb/MiniCPM5-2B",
+        "short_name": "MiniCPM5-2B",
+        "likes": 1344,
+        "downloads": 150110,
+        "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Edge0/Edge0-35B-A3B-preview",
+        "short_name": "Edge0-35B-A3B-preview",
+        "likes": 1063,
+        "downloads": 3552,
+        "url": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
+        "tags": [
+          "mlx",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "nex-agi/Nex-N2.5-mini",
+        "short_name": "Nex-N2.5-mini",
+        "likes": 758,
+        "downloads": 3970,
+        "url": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen3.8-27B",
+        "short_name": "Qwen3.8-27B",
+        "likes": 14979,
+        "downloads": 7768964,
+        "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "nex-agi/Nex-N2.5-Pro",
+        "short_name": "Nex-N2.5-Pro",
+        "likes": 623,
+        "downloads": 30289,
+        "url": "https://huggingface.co/nex-agi/Nex-N2.5-Pro",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+        "short_name": "Qwen3.8-27B-GSQ-RCO-GGUF",
+        "likes": 971,
+        "downloads": 769557,
+        "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+        "tags": [
+          "gguf",
+          "gsq",
+          "rco"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "XHToken/Spark-X2.5-4B",
+        "short_name": "Spark-X2.5-4B",
+        "likes": 1155,
+        "downloads": 21336,
+        "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "spark2_5"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "JustVugg/colibri",
+        "desc": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk.",
+        "stars": 29948,
+        "stars_today": 868,
+        "forks": 3253,
+        "language": "C",
+        "url": "https://github.com/JustVugg/colibri"
+      },
+      {
+        "name": "ever-co/ever-gauzy",
+        "desc": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+        "stars": 5145,
+        "stars_today": 191,
+        "forks": 948,
+        "language": "TypeScript",
+        "url": "https://github.com/ever-co/ever-gauzy"
+      },
+      {
+        "name": "bilawalsidhu/gods-eye-view",
+        "desc": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelli",
+        "stars": 31998,
+        "stars_today": 2680,
+        "forks": 6422,
+        "language": "JavaScript",
+        "url": "https://github.com/bilawalsidhu/gods-eye-view"
+      },
+      {
+        "name": "tech-leads-club/agent-skills",
+        "desc": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude C",
+        "stars": 5680,
+        "stars_today": 265,
+        "forks": 500,
+        "language": "TypeScript",
+        "url": "https://github.com/tech-leads-club/agent-skills"
+      },
+      {
+        "name": "melgarafael/DeskcommCRM",
+        "desc": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative ",
+        "stars": 2218,
+        "stars_today": 432,
+        "forks": 599,
+        "language": "TypeScript",
+        "url": "https://github.com/melgarafael/DeskcommCRM"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "openai/gpt-5.6-luna",
+        "name": "GPT-5.6 Luna",
+        "org": "openai",
+        "total_tokens": 3927395225826,
+        "total_tokens_str": "3.9T",
+        "api_calls": 0,
+        "change": 1.2,
+        "url": "https://openrouter.ai/openai/gpt-5.6-luna"
+      },
+      {
+        "rank": 2,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 1961017304370,
+        "total_tokens_str": "2.0T",
+        "api_calls": 0,
+        "change": 6.0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1408200805006,
+        "total_tokens_str": "1.4T",
+        "api_calls": 0,
+        "change": 4.8,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 1379623339700,
+        "total_tokens_str": "1.4T",
+        "api_calls": 0,
+        "change": -7.6,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 5,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 1294618265169,
+        "total_tokens_str": "1.3T",
+        "api_calls": 0,
+        "change": -9.3,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 6,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 985434034957,
+        "total_tokens_str": "985B",
+        "api_calls": 0,
+        "change": 2.6,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 7,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 470367674438,
+        "total_tokens_str": "470B",
+        "api_calls": 0,
+        "change": -20.6,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      {
+        "rank": 8,
+        "slug": "tencent/hy3",
+        "name": "Hy3",
+        "org": "tencent",
+        "total_tokens": 458068532851,
+        "total_tokens_str": "458B",
+        "api_calls": 0,
+        "change": -3.2,
+        "url": "https://openrouter.ai/tencent/hy3"
+      },
+      {
+        "rank": 9,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro 0423",
+        "org": "deepseek",
+        "total_tokens": 284753219346,
+        "total_tokens_str": "285B",
+        "api_calls": 0,
+        "change": -0.8,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 10,
+        "slug": "z-ai/glm-5.3",
+        "name": "GLM 5.3",
+        "org": "z-ai",
+        "total_tokens": 276879754451,
+        "total_tokens_str": "277B",
+        "api_calls": 0,
+        "change": 18.4,
+        "url": "https://openrouter.ai/z-ai/glm-5.3"
+      }
+    ],
+    "hf_summary": "小模型与多模态并进 轻量高效成今日主线"
+  }
+}
