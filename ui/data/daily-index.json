@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-09-14",
-      "title": "今日 AI 日报：OpenAI 年内不上市，奥特曼公开支持对手 Dario 的「AI 该踩刹车」论 + 4 条重要动态",
-      "excerpt": "这是行业叙事的关键转折：头部实验室开始主动给资本和监管「降温」，说明他们对下一代…",
+      "title": "今日 AI 日报：OpenAI 发布 GPT-6 Astra，Perplexity 已将其用于端到端系统运维 + 4 条重要动态",
+      "excerpt": "这是 GPT-6 从发布走向真实生产环境的关键信号。Perplexity 敢把生…",
       "top_count": 5,
       "file": "2026-09-14.json"
     },

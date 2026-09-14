@@ -3,251 +3,272 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "OpenAI 年内不上市，奥特曼公开支持对手 Dario 的「AI 该踩刹车」论",
-      "finding": "OpenAI 明确表示今年内不会启动 IPO，同时 Sam Altman 罕见地公开支持竞争对手、Anthropic CEO Dario Amodei 关于 AI 需要监管刹车的呼吁。两人在「递归自我改进（RSI）太危险」这一判断上达成一致，这在过去是竞争双方极少出现的立场合流。",
-      "key_data": [
-        "年内不上市",
-        "RSI 太危险",
-        "两大 CEO 立场合流"
-      ],
-      "judgment": "这是行业叙事的关键转折：头部实验室开始主动给资本和监管「降温」，说明他们对下一代模型的能力曲线存在真实担忧，而非公关姿态。对创业者和投资人意味着，短期靠「AGI 叙事」融资的窗口正在收窄，安全与合规能力会成为新的竞争维度。",
-      "confidence": 4,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/09/488380.html"
-    },
-    {
-      "rank": 2,
-      "title": "Perplexity 把生产系统交给 GPT-6 Astra 端到端托管",
-      "finding": "OpenAI 官方博客披露，Perplexity 正在用 GPT-6 Astra 撰写对外沟通内容、修改软件、监控生产系统，并且对模型的检查频率远低于此前几代模型。这是头部 AI 应用公司第一次公开把「生产系统运维」这一高风险环节交给单一模型端到端处理。",
+      "title": "OpenAI 发布 GPT-6 Astra，Perplexity 已将其用于端到端系统运维",
+      "finding": "OpenAI 官方博客披露，Perplexity 正在使用 GPT-6 Astra 撰写对外沟通内容、修改软件代码并监控生产系统，且人工检查频率远低于此前模型。这是 GPT-6 首次有明确的企业级落地案例公开。",
       "key_data": [
         "GPT-6 Astra",
-        "端到端托管生产系统",
-        "人工检查频次大幅下降"
+        "Perplexity 生产落地",
+        "端到端系统运维",
+        "人工检查大幅减少"
       ],
-      "judgment": "这是 Agent 从「辅助工具」跨向「系统责任人」的标志性案例。对开发者而言，模型可靠性评估的基准线被抬高了；对企业 CTO 而言，需要重新设计人机责任边界和回滚机制，否则一次模型幻觉可能直接变成线上事故。",
+      "judgment": "这是 GPT-6 从发布走向真实生产环境的关键信号。Perplexity 敢把生产系统监控交给模型，说明 Astra 在可靠性和自主性上有实质跃升。对开发者而言，Agent 替代部分运维工作的窗口正在打开；对企业而言，AI 接管核心系统的信任门槛正在被头部公司率先突破。",
       "confidence": 5,
       "source": "OpenAI Blog",
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra"
     },
     {
-      "rank": 3,
-      "title": "智谱提前剧透 GLM-6.0：完全自训练方法首次公开",
-      "finding": "智谱在模型和论文都尚未发布的情况下，先从财务公告中透露了 GLM-6.0 的存在，并公开了「完全自训练」的技术方法。这种先披露方法论、后发布模型的节奏在国内大模型厂商中并不常见。",
+      "rank": 2,
+      "title": "智谱提前剧透下一代 GLM：完全自训练方法首次公开",
+      "finding": "智谱在模型和论文尚未发布的情况下，先通过财务公告披露了下一代 GLM 的完全自训练方法。这意味着智谱在训练范式上可能已脱离对开源基座的依赖，走向全自主训练路线。",
       "key_data": [
-        "GLM-6.0",
+        "下一代 GLM",
         "完全自训练",
-        "从财务公告剧透"
+        "财务公告剧透",
+        "脱离开源基座"
       ],
-      "judgment": "「完全自训练」如果成立，意味着国产模型在训练数据与流程上进一步摆脱对开源权重的依赖，是自主可控路线的一次实质推进。但通过财务公告而非技术渠道释放信息，也说明这轮披露带有资本市场沟通的动机，技术细节仍需等论文验证。",
+      "judgment": "如果完全自训练方法属实，智谱将成为国内少数具备从零训练基座能力的厂商，战略价值远超模型本身的性能提升。对国内大模型格局而言，这意味着头部厂商之间的技术路线分化正在加速——谁能自主训练，谁就有长期定价权。",
       "confidence": 3,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/09/488694.html"
     },
     {
-      "rank": 4,
-      "title": "Y Combinator 的 Garry Tan 呼吁美国开源模型也去「蒸馏」前沿模型",
-      "finding": "Y Combinator 的 Garry Tan 公开主张，美国的开源权重 AI 实验室也应该像中国同行那样，通过蒸馏前沿闭源模型来快速追赶。这一表态把「蒸馏」从技术手段推到了产业政策层面的争论中心。",
+      "rank": 3,
+      "title": "中国物理 AI 突破：PhysBrain 1.5 登顶全球开源榜一",
+      "finding": "中国公司 PhysBrain 1.5 在全球开源物理 AI 榜单上排名第一，在空间智能能力上与 GPT-6 Astra 并驾齐驱。该模型完成了物理闭环中最难的一段路——从感知到物理推理的完整链路。",
       "key_data": [
-        "Garry Tan",
-        "开源权重实验室",
-        "蒸馏前沿模型"
+        "PhysBrain 1.5",
+        "全球开源榜一",
+        "空间智能",
+        "对标 GPT-6 Astra"
       ],
-      "judgment": "这等于承认中国开源模型靠蒸馏追赶的路径是有效的，并试图把它正当化为美国开源阵营的合法策略。对闭源前沿实验室是压力——如果蒸馏被默许，模型能力的护城河会被显著削薄；对开源生态则是加速信号。",
-      "confidence": 4,
-      "source": "TechCrunch AI / Hacker News",
-      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"
+      "judgment": "物理 AI 是具身智能和机器人落地的前置条件，此前一直是欧美团队主导。PhysBrain 登顶开源榜说明中国团队在物理推理这一硬核方向上已具备全球竞争力。对机器人行业而言，开源物理 AI 模型的出现将大幅降低具身智能的研发门槛。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/09/488725.html"
+    },
+    {
+      "rank": 4,
+      "title": "MetaRSI：AI 开始改进「改进自己的方法」，递归自我改进进入平方时代",
+      "finding": "MetaRSI 提出了一种让 AI 改进自身改进方法的新框架，使递归自我改进（RSI）从线性增长进入平方增长。小模型借此突破瓶颈，旗舰模型则打开了新的能力空间。",
+      "key_data": [
+        "MetaRSI",
+        "递归自我改进",
+        "平方级增长",
+        "小模型突破瓶颈"
+      ],
+      "judgment": "RSI 一直是 AGI 讨论中的核心概念，MetaRSI 把「AI 改进 AI」从理论推向了工程化。如果平方级增长可复现，模型迭代速度将不再受限于人类研究者的产出效率。这对整个行业的研发节奏是根本性变量，值得持续跟踪。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/09/488832.html"
     },
     {
       "rank": 5,
-      "title": "Zachery Lipton 炮轰 CS 学术界：系统已经崩坏，只能推倒重建",
-      "finding": "机器学习学者 Zachery Lipton 公开表示计算机科学学术界「搞坏了整个系统」，并称也许唯一的重建方式就是让它彻底烧毁。背景是 2026 年 9 月 9 日 cs.LG 单日新上传论文达到 447 篇的历史新高，远超人类可阅读的极限。",
+      "title": "Zachery Lipton 炮轰 CS 学术界：系统已崩坏，需推倒重建",
+      "finding": "CMU 教授 Zachery Lipton 公开表示计算机科学学术界「已经崩坏了系统」，认为只有推倒重建才能修复。背景是 arXiv cs.LG 单日新论文上传量达到 447 篇的历史新高，远超人类研究者可消化的极限。",
       "key_data": [
         "单日 447 篇新论文",
-        "cs.LG 历史新高",
+        "历史新高",
+        "学术界崩坏",
         "推倒重建"
       ],
-      "judgment": "论文产能已经彻底脱离人类注意力，同行评审和学术声誉机制正在失效。这对产业界的直接影响是：不能再用「发了多少论文」判断研究者水平，评估体系必须转向可复现的工程产出和真实系统能力。",
-      "confidence": 3,
+      "judgment": "论文数量爆炸已经不是新问题，但一位资深教授公开喊出「推倒重建」标志着学术界内部的不满达到了临界点。对从业者而言，arXiv 作为信息渠道的信噪比正在急剧恶化，依赖论文追踪技术趋势的成本越来越高。这也解释了为什么一线实践者的博客和播客正在取代论文成为更高效的信息源。",
+      "confidence": 4,
       "source": "Reddit r/MachineLearning",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1wf4b5g/zachery_lipton_cs_academia_broke_the/"
     }
   ],
   "model_tech": [
     {
-      "source": "量子位",
-      "title": "亮源新创导航模型零样本通吃四种机器人本体",
-      "finding": "亮源新创把 2000 多个真实场景搬进仿真环境训练导航模型，该模型无需针对特定硬件微调，就能零样本适配四种不同的机器人本体。这验证了 Physical AI 路线中「一套模型跨本体泛化」的可行性。",
-      "key_data": [
-        "2000+ 真实场景",
-        "零样本跨本体",
-        "四种机器人"
-      ],
-      "judgment": "跨本体泛化是具身智能规模化的前提，若可复现将大幅降低机器人厂商的模型适配成本。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/09/488672.html",
-      "importance": 4
-    },
-    {
       "source": "Reddit r/MachineLearning",
-      "title": "82.5 万参数小模型学会生成可在 RP2040 上精确执行的绘图程序",
-      "finding": "一位研究者训练了仅 82.5 万参数的小模型，让它生成能在 RP2040 这类极受限硬件上精确执行的绘图程序。这挑战了「代码生成必须依赖大模型」的默认假设。",
+      "title": "825K 参数微型模型在 RP2040 上生成可执行绘图程序",
+      "finding": "一位研究者训练了仅 82.5 万参数的模型，能在 RP2040 微控制器上生成可直接执行的绘图程序。这证明亚百万参数模型在受限硬件上也能完成程序生成任务。",
       "key_data": [
-        "82.5 万参数",
+        "825K 参数",
         "RP2040 微控制器",
-        "可执行绘图程序"
+        "生成可执行程序",
+        "亚百万参数"
       ],
-      "judgment": "端侧和嵌入式场景可能不需要大模型，小模型专用化是被低估的方向。",
+      "judgment": "端侧 AI 的极限正在被不断推低，对嵌入式和 IoT 场景意义重大。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1wf611v/i_trained_an_825kparameter_model_to_generate/",
       "importance": 3
     },
     {
-      "source": "InfoQ AI",
-      "title": "「Read, Don't Write」：用探测式管线重塑大模型评测体系",
-      "finding": "QCon 上海分享提出一种全自动、可进化的「探测式」评测管线，主张评测应该以读取和探测为主而非人工编写测试集，从而让评测体系本身能够持续进化。",
+      "source": "ArXiv cs.CL",
+      "title": "压缩的代价：事实幻觉的信息论极限",
+      "finding": "研究者从率失真理论出发，证明事实幻觉不仅是知识覆盖问题，更受模型压缩率的根本性约束。这为理解幻觉提供了信息论层面的解释框架。",
       "key_data": [
-        "探测式评测",
-        "全自动管线",
-        "可进化"
+        "率失真理论",
+        "幻觉信息论极限",
+        "压缩率约束"
       ],
-      "judgment": "静态 benchmark 已经跟不上模型迭代速度，评测自动化是刚需，值得关注其开源进展。",
+      "judgment": "把幻觉从工程问题提升到信息论层面，可能改变业界对幻觉「可消除性」的预期。",
       "confidence": 3,
-      "url": "https://www.infoq.cn/article/0kYhxXxhOXhxGATe64ec?utm_source=rss&utm_medium=article",
+      "url": "https://arxiv.org/abs/2609.12111",
       "importance": 3
     },
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "Waymo AI 团队开放 AMA，聚焦基础模型与仿真扩展",
-      "finding": "Waymo AI 团队在 r/MachineLearning 开放 AMA，主题涵盖基础模型、仿真和 Waymo Driver 的规模化。这是自动驾驶头部公司少见地直接面向研究者社区开放技术问答。",
+      "source": "ArXiv cs.LG",
+      "title": "代码 LLM 离线后训练的性能、效率与坍缩",
+      "finding": "研究系统分析了代码生成 LLM 在离线 RL 后训练中的表现，发现存在性能提升与模型坍缩之间的权衡。这对代码模型的训练策略有直接指导意义。",
       "key_data": [
-        "Waymo AI",
-        "基础模型",
-        "仿真扩展"
+        "代码 LLM 后训练",
+        "RL 离线训练",
+        "模型坍缩",
+        "性能效率权衡"
       ],
-      "judgment": "自动驾驶的基础模型方法论长期封闭，这次 AMA 可能释放有价值的规模化经验。",
-      "confidence": 4,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wfesc0/upcoming_ama_waymo_ai_team_ama_drop_your/",
+      "judgment": "代码模型是当前商业化最成熟的 LLM 应用，后训练策略的优化直接影响产品竞争力。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.11956",
       "importance": 3
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "物理信息保形预测：将 PDE 一致性嵌入神经算子的不确定性量化",
+      "finding": "研究者提出将偏微分方程的物理约束嵌入保形预测框架，使神经算子在分布无关的不确定性量化中保持物理一致性。这提升了科学计算场景下 AI 的可靠性。",
+      "key_data": [
+        "保形预测",
+        "PDE 物理约束",
+        "神经算子",
+        "不确定性量化"
+      ],
+      "judgment": "科学 AI 的可靠性瓶颈正在被逐步攻克，对气象、材料等领域的 AI 落地有推动作用。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.11935",
+      "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "量子位",
-      "title": "外滩大会最特别 Agent：能干活、能陪聊、还会朋友圈拉黑你",
-      "finding": "今年外滩大会出现一类新 Agent 产品，除了完成任务，还具备社交关系管理能力，甚至能主动在朋友圈拉黑用户。产品定位从「生产力工具」转向「关系型生产力」。",
+      "source": "TechCrunch AI",
+      "title": "Y Combinator 的 Garry Tan 呼吁美国开源权重 AI 实验室也去「蒸馏」前沿模型",
+      "finding": "Y Combinator 总裁 Garry Tan 公开主张美国开源权重 AI 实验室应该像中国团队一样，对前沿闭源模型进行蒸馏。这反映了美国开源阵营对竞争劣势的焦虑。",
       "key_data": [
-        "关系型生产力",
-        "社交关系管理",
-        "主动拉黑"
+        "Garry Tan",
+        "开源权重蒸馏",
+        "Y Combinator",
+        "中美开源竞争"
       ],
-      "judgment": "Agent 竞争开始从能力比拼转向人格与关系设计，这是产品差异化的新战场。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/09/488447.html",
+      "judgment": "蒸馏一直是中国开源模型快速追赶的争议性手段，YC 掌门人公开呼吁美国团队跟进，说明开源竞争的压力已经传导到硅谷顶层。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
       "importance": 3
     },
     {
-      "source": "Simon Willison",
-      "title": "shot-scraper 1.12 发布，新增 WebP 截图支持",
-      "finding": "Simon Willison 的截图自动化工具 shot-scraper 更新到 1.12，新增 WebP 格式支持，可直接输出 WebP 截图。属于小而实用的工具迭代。",
+      "source": "量子位",
+      "title": "Anthropic 加速冲刺 IPO，募资规模叫板 SpaceX",
+      "finding": "Anthropic 正在加速推进 IPO 进程，募资目标规模对标 SpaceX。与此同时，有报道称 Sam Altman 在某项交易中「被骗」，具体细节尚不明确。",
       "key_data": [
-        "shot-scraper 1.12",
-        "WebP 支持",
-        "截图自动化"
+        "Anthropic IPO",
+        "募资对标 SpaceX",
+        "Dario Amodei",
+        "Altman 被骗"
       ],
-      "judgment": "工具链细节优化，对做网页抓取和视觉回归测试的开发者有直接价值。",
-      "confidence": 5,
-      "url": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
-      "importance": 2
+      "judgment": "Anthropic 若成功上市，将成为 AI 安全赛道首个公开市场标的，对整个行业的估值锚定有重大影响。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/09/488699.html",
+      "importance": 4
     },
     {
-      "source": "Simon Willison",
-      "title": "commit-rewriter 0.1：清理编码 Agent 留下的提交信息垃圾",
-      "finding": "Simon Willison 发布 commit-rewriter 0.1，用于编辑提交信息，起因是 Datasette 安全发布时初始提交里塞满了编码 Agent 产生的冗余内容。",
+      "source": "InfoQ AI",
+      "title": "GitLab 警告：AI 代理沙箱安全性取决于网络访问控制",
+      "finding": "GitLab 发布安全警告，指出 AI 代理的沙箱隔离效果最终取决于其网络访问权限的管理。如果网络层未严格限制，沙箱形同虚设。",
       "key_data": [
-        "commit-rewriter 0.1",
-        "清理 Agent 提交垃圾",
-        "Datasette 安全发布"
+        "AI 代理沙箱",
+        "网络访问控制",
+        "GitLab 安全警告",
+        "隔离失效风险"
       ],
-      "judgment": "这是编码 Agent 普及后的典型副作用，说明 Agent 产出需要专门的清理工具链。",
-      "confidence": 5,
-      "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
-      "importance": 2
-    },
-    {
-      "source": "Wired AI",
-      "title": "AI Agent 极度耗电，正在重塑数据中心建设",
-      "finding": "硅谷正从聊天机器人式的单次查询，转向资源密集型的 Agentic AI，这一转变正在直接推动数据中心的扩建潮。Agent 的持续运行特性使其能耗远高于传统对话式 AI。",
-      "key_data": [
-        "Agentic AI 耗电",
-        "数据中心扩建",
-        "从查询转向持续运行"
-      ],
-      "judgment": "能耗将成为 Agent 规模化的硬约束，推理效率和调度优化会变成核心竞争力。",
+      "judgment": "随着 Agent 大规模进入生产环境，沙箱安全将成为企业部署 AI 的硬性门槛，安全基础设施需求将爆发。",
       "confidence": 4,
-      "url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power/",
+      "url": "https://www.infoq.cn/article/XLzpR2brCNW2VgYuuYJk?utm_source=rss&utm_medium=article",
+      "importance": 3
+    },
+    {
+      "source": "极客公园",
+      "title": "399 美元机器鸭 Microduck 爆火：五天预售破万台，深圳制造",
+      "finding": "Hugging Face 旗下 Pollen Robotics 设计的机器鸭 Microduck 售价 399 美元，高峰期每 4 秒卖出一台，五天预售破万台，销售额突破 500 万美元，订单已排到明年。产品由深圳供应链制造。",
+      "key_data": [
+        "399 美元",
+        "5 天破万台",
+        "500 万美元销售额",
+        "深圳制造"
+      ],
+      "judgment": "消费级机器人终于跑出了一个真正的爆款，验证了「AI+低价硬件+深圳供应链」的产品范式。",
+      "confidence": 4,
+      "url": "http://www.geekpark.net/news/370269",
       "importance": 3
     },
     {
       "source": "InfoQ AI",
-      "title": "Figma 如何用 AI 代理提升安全性",
-      "finding": "Figma 分享了其利用 AI 代理来增强安全性的实践，把 Agent 用于安全相关流程的自动化处理。具体细节需查看原文。",
+      "title": "openJiuwen 发布双维度 RSI 框架，落地办公智能体",
+      "finding": "openJiuwen 推出双维度 RSI（递归自我改进）框架，主打 AI 自修改能力，并落地办公智能体场景。该框架强调算力亲和，兼顾速度与成本。",
       "key_data": [
-        "Figma",
-        "AI 代理",
-        "安全自动化"
+        "openJiuwen",
+        "双维度 RSI",
+        "AI 自修改",
+        "办公智能体"
       ],
-      "judgment": "设计工具公司把 Agent 用于安全，说明 Agent 落地正从业务侧渗透到基础设施侧。",
+      "judgment": "RSI 概念正在从论文走向工程落地，办公场景是验证自改进 Agent 商业价值的最佳试验田。",
       "confidence": 3,
-      "url": "https://www.infoq.cn/article/eS4M9XEPmLbkxksCyAye?utm_source=rss&utm_medium=article",
+      "url": "https://www.infoq.cn/article/JghIFNXBNVSAfbgbR4S9?utm_source=rss&utm_medium=article",
       "importance": 2
     }
   ],
   "opinions": [
     {
-      "person": "Sam Altman",
-      "level": "L3",
-      "quote": "支持竞争对手 Dario Amodei 的呼吁：AI 该踩刹车了，递归自我改进（RSI）太危险，得管。同时明确 OpenAI 年内不会上市。",
-      "source": "https://www.qbitai.com/2026/09/488380.html"
+      "person": "Zachery Lipton",
+      "level": "L1",
+      "quote": "CS 学术界已经崩坏了这个系统……也许系统重建所需要的，就是让它彻底烧毁。单日 447 篇新论文上传到 cs.LG，这远超人类研究者能消化的极限。",
+      "source": "https://www.reddit.com/r/MachineLearning/comments/1wf4b5g/zachery_lipton_cs_academia_broke_the/"
     },
     {
       "person": "Garry Tan",
       "level": "L3",
-      "quote": "美国的开源权重 AI 实验室也应该去蒸馏前沿模型，就像中国同行做的那样。",
+      "quote": "美国开源权重 AI 实验室也应该像中国团队一样去蒸馏前沿模型。如果我们不这么做，就是在自我设限。",
       "source": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"
     },
     {
-      "person": "Zachery Lipton",
-      "level": "L1",
-      "quote": "CS 学术界搞坏了整个系统，也许唯一能让系统重建的方式，就是让它彻底烧毁。",
-      "source": "https://www.reddit.com/r/MachineLearning/comments/1wf4b5g/zachery_lipton_cs_academia_broke_the/"
+      "person": "Barack Obama",
+      "level": "L3",
+      "quote": "民主党需要把人工智能作为核心议程之一，并拿出非常清晰的方案来应对这项技术对经济和安全的冲击。",
+      "source": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "GPT-6 Astra 端到端托管生产系统的可靠性边界",
-      "reason": "头部应用公司首次把生产运维交给单一模型，人机责任边界与回滚机制值得系统研究。",
+      "topic": "GPT-6 Astra 的企业级落地路径与 Agent 替代边界",
+      "reason": "Perplexity 已把生产系统交给 Astra，需要搞清楚哪些岗位和工作流正在被真实替代。",
       "priority": "high"
     },
     {
-      "topic": "蒸馏作为产业策略：中美开源模型路径的正当性之争",
-      "reason": "蒸馏从技术手段升级为政策议题，直接影响闭源护城河与开源生态的竞争格局。",
+      "topic": "递归自我改进（RSI）从论文到工程化的可行性",
+      "reason": "MetaRSI 和 openJiuwen 同日出现，RSI 可能正在成为下一个技术拐点，值得系统梳理。",
       "priority": "high"
     },
     {
-      "topic": "跨本体泛化的具身导航模型",
-      "reason": "零样本适配四种机器人本体若可复现，将大幅降低具身智能的规模化门槛。",
+      "topic": "AI 代理沙箱安全与网络隔离最佳实践",
+      "reason": "Agent 大规模进入生产后，安全隔离将成为企业部署的硬门槛，需要提前建立认知框架。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "头部实验室主动踩刹车，Agent 开始接管生产系统。",
-  "summary_paragraph": "今天最值得注意的信号来自头部实验室的态度转向：OpenAI 年内不上市，Sam Altman 罕见公开支持竞争对手 Dario 的「AI 该踩刹车」论，双方在递归自我改进的风险判断上合流。与此同时，Perplexity 把生产系统运维端到端交给 GPT-6 Astra，Agent 从辅助工具跨向系统责任人，责任边界问题被推到台前。国内方面，智谱从财务公告剧透 GLM-6.0 的完全自训练方法，Y Combinator 的 Garry Tan 则呼吁美国开源阵营也去蒸馏前沿模型，蒸馏正从技术手段升级为产业策略之争。学术界则传来警报：cs.LG 单日新论文达 447 篇，Lipton 直言系统已崩坏。",
+  "summary_one_line": "GPT-6 落地生产，智谱剧透自训练，RSI 进入平方时代",
+  "summary_paragraph": "今天最重要的信号来自 OpenAI：GPT-6 Astra 已被 Perplexity 用于端到端系统运维，标志着最强模型开始接管真实生产环境。国内方面，智谱通过财务公告提前剧透下一代 GLM 的完全自训练方法，PhysBrain 1.5 登顶全球开源物理 AI 榜，显示中国团队在硬核方向上持续突破。研究侧，MetaRSI 让递归自我改进进入平方增长时代，而 CMU 教授 Lipton 对学术界「推倒重建」的呼吁则揭示了论文爆炸背后的系统性危机。产品侧，399 美元机器鸭五天破万台，消费级机器人终于跑出爆款。整体来看，AI 正在从「能做什么」转向「谁来负责、如何安全地做」。",
+  "_meta": {
+    "generated_at": "2026-09-14T00:00:00Z",
+    "sources_count": 33,
+    "top_items_count": 5,
+    "model_tech_count": 4,
+    "company_product_count": 5,
+    "opinions_count": 3
+  },
   "snapshot": {
     "date": "2026-09-14",
     "hf_trending": [
       {
         "name": "deepseek-ai/DeepSeek-V4.1-Flash",
         "short_name": "DeepSeek-V4.1-Flash",
-        "likes": 2223,
+        "likes": 2292,
         "downloads": 244457,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
         "tags": [
@@ -261,25 +282,9 @@
         "trend": "same"
       },
       {
-        "name": "openbmb/MiniCPM5-2B",
-        "short_name": "MiniCPM5-2B",
-        "likes": 1344,
-        "downloads": 150110,
-        "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "llama"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "Edge0/Edge0-35B-A3B-preview",
         "short_name": "Edge0-35B-A3B-preview",
-        "likes": 1063,
+        "likes": 1311,
         "downloads": 3552,
         "url": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
         "tags": [
@@ -293,9 +298,25 @@
         "trend": "same"
       },
       {
+        "name": "openbmb/MiniCPM5-2B",
+        "short_name": "MiniCPM5-2B",
+        "likes": 1359,
+        "downloads": 150110,
+        "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "nex-agi/Nex-N2.5-mini",
         "short_name": "Nex-N2.5-mini",
-        "likes": 758,
+        "likes": 771,
         "downloads": 3970,
         "url": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
         "tags": [
@@ -311,7 +332,7 @@
       {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 14979,
+        "likes": 15052,
         "downloads": 7768964,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -325,25 +346,9 @@
         "trend": "same"
       },
       {
-        "name": "nex-agi/Nex-N2.5-Pro",
-        "short_name": "Nex-N2.5-Pro",
-        "likes": 623,
-        "downloads": 30289,
-        "url": "https://huggingface.co/nex-agi/Nex-N2.5-Pro",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
         "short_name": "Qwen3.8-27B-GSQ-RCO-GGUF",
-        "likes": 971,
+        "likes": 983,
         "downloads": 769557,
         "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
         "tags": [
@@ -357,9 +362,25 @@
         "trend": "same"
       },
       {
+        "name": "nex-agi/Nex-N2.5-Pro",
+        "short_name": "Nex-N2.5-Pro",
+        "likes": 627,
+        "downloads": 30289,
+        "url": "https://huggingface.co/nex-agi/Nex-N2.5-Pro",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "XHToken/Spark-X2.5-4B",
         "short_name": "Spark-X2.5-4B",
-        "likes": 1155,
+        "likes": 1158,
         "downloads": 21336,
         "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
         "tags": [
@@ -377,45 +398,45 @@
       {
         "name": "JustVugg/colibri",
         "desc": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk.",
-        "stars": 29948,
+        "stars": 30558,
         "stars_today": 868,
-        "forks": 3253,
+        "forks": 3293,
         "language": "C",
         "url": "https://github.com/JustVugg/colibri"
       },
       {
         "name": "ever-co/ever-gauzy",
         "desc": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
-        "stars": 5145,
+        "stars": 5468,
         "stars_today": 191,
-        "forks": 948,
+        "forks": 959,
         "language": "TypeScript",
         "url": "https://github.com/ever-co/ever-gauzy"
       },
       {
         "name": "bilawalsidhu/gods-eye-view",
         "desc": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelli",
-        "stars": 31998,
+        "stars": 32541,
         "stars_today": 2680,
-        "forks": 6422,
+        "forks": 6501,
         "language": "JavaScript",
         "url": "https://github.com/bilawalsidhu/gods-eye-view"
       },
       {
         "name": "tech-leads-club/agent-skills",
         "desc": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude C",
-        "stars": 5680,
+        "stars": 5826,
         "stars_today": 265,
-        "forks": 500,
+        "forks": 504,
         "language": "TypeScript",
         "url": "https://github.com/tech-leads-club/agent-skills"
       },
       {
         "name": "melgarafael/DeskcommCRM",
         "desc": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative ",
-        "stars": 2218,
+        "stars": 2362,
         "stars_today": 432,
-        "forks": 599,
+        "forks": 608,
         "language": "TypeScript",
         "url": "https://github.com/melgarafael/DeskcommCRM"
       }
@@ -532,6 +553,6 @@
         "url": "https://openrouter.ai/z-ai/glm-5.3"
       }
     ],
-    "hf_summary": "小模型与多模态并进 轻量高效成今日主线"
+    "hf_summary": "Qwen多模态断层领跑 小模型与国产文本生成集体崛起"
   }
 }
