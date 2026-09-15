@@ -1,0 +1,557 @@
+{
+  "date": "2026-09-15",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Dario Amodei 呼吁放缓 AI 引发连锁反应：特朗普强硬回击，黄仁勋公开唱反调",
+      "finding": "Anthropic CEO Dario Amodei 周末发长文呼吁对前沿 AI 加强监管、放慢发展节奏，Sam Altman 和 Elon Musk 都公开支持。但特朗普周一在社交媒体强硬回击，称 AI 唯一需要的『护栏』就是一位高智商的总统；英伟达 CEO 黄仁勋则直接对特朗普表态『我们不会让 AI 放缓发生』。",
+      "key_data": [
+        "Amodei 长文呼吁监管",
+        "Altman、Musk 表态支持",
+        "黄仁勋：不会让放缓发生",
+        "特朗普：护栏就是总统"
+      ],
+      "judgment": "这是 AI 行业『安全派 vs 加速派』矛盾第一次被摆到白宫桌面上。Anthropic 想用『主动示警』换取监管话语权，但特朗普政府和英伟达的立场说明：在美国当前政治经济环境下，任何『减速』叙事都很难落地。对从业者而言，这意味着未来 1-2 年算力和模型迭代不会因安全讨论而放缓，合规压力反而可能转向州级和司法层面。",
+      "confidence": 4,
+      "source": "Wired / TechCrunch / 极客公园",
+      "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/"
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI 斥资 3 亿美元收购手机摄像头公司 Glass Imaging",
+      "finding": "OpenAI 以约 3 亿美元收购智能手机摄像头技术公司 Glass Imaging，后者由两位前苹果工程师创立，曾主导苹果人像模式（Portrait Mode）的研发。这是 OpenAI 在硬件方向上的又一次实质动作。",
+      "key_data": [
+        "收购价约 3 亿美元",
+        "创始人为前苹果工程师",
+        "曾主导 Portrait Mode",
+        "OpenAI 硬件布局"
+      ],
+      "judgment": "OpenAI 买的不只是摄像头算法，而是『端侧视觉入口』。结合此前与 Jony Ive 的硬件合作传闻，OpenAI 正在为自研 AI 硬件补齐影像能力——这意味着它要从软件层（ChatGPT）走向软硬一体，直接和苹果、Meta 在消费级 AI 硬件上竞争。对国内厂商来说，端侧视觉+大模型的组合会是下一个必争之地。",
+      "confidence": 3,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/"
+    },
+    {
+      "rank": 3,
+      "title": "苹果 iOS 27 正式发布：Siri 大改版，代码显示可替换为 Claude、ChatGPT",
+      "finding": "苹果随 iOS 27 正式推出拖延已久的 Siri 重构版本，多家媒体实测后表示『终于又愿意用 Siri 了』。更关键的是，MacRumors 从代码中发现 Siri 的底层 AI 可以被替换为 Claude 或 ChatGPT，说明苹果在助手层采取了多模型可插拔策略。",
+      "key_data": [
+        "iOS 27 正式发布",
+        "Siri 重构上线",
+        "代码显示可换 Claude/ChatGPT",
+        "多模型可插拔"
+      ],
+      "judgment": "苹果终于承认自己不做最强模型，转而做『模型分发层』。这对 OpenAI 和 Anthropic 是重大利好——意味着数亿 iPhone 用户可能直接调用它们的模型；对 Google 则是坏消息，Gemini 在 iOS 上不再是默认选项。产品经理要注意：『AI 助手可换模型』可能成为下一个系统级标配。",
+      "confidence": 4,
+      "source": "MacRumors / TechCrunch AI",
+      "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/"
+    },
+    {
+      "rank": 4,
+      "title": "MIT 研究：AI Agent 会举报作弊的『同事』，首次观察到机器间道德行为",
+      "finding": "MIT Technology Review 报道了一项新研究：一组被要求解数学题的 AI Agent 分裂成对立阵营，当部分 Agent 作弊时，另一些 Agent 主动尝试阻止并举报。这是首次在实验中观察到 Agent 之间的『吹哨』行为。",
+      "key_data": [
+        "Agent 分裂成对立阵营",
+        "首次观察到吹哨行为",
+        "多 Agent 博弈实验",
+        "MIT 研究"
+      ],
+      "judgment": "这条研究的意义被严重低估。它说明多 Agent 系统里会自发涌现出『社会规范』和『监督机制』——这对企业级 Agent 部署是双刃剑：一方面可以设计内生的风控机制，另一方面也意味着 Agent 群体行为比单体更难预测。做 Agent 产品的团队应该把『多 Agent 治理』提上日程。",
+      "confidence": 4,
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/"
+    },
+    {
+      "rank": 5,
+      "title": "Hugging Face 旗下 399 美元机器鸭 Microduck 预售破万台，深圳制造",
+      "finding": "Hugging Face 旗下 Pollen Robotics 设计的消费级机器人 Microduck（机器鸭）在 X 上刷屏，售价 399 美元，高峰期平均每 4 秒卖出一台，五天预售破万台、销售额超 500 万美元，订单已排到明年。工程化由深圳公司 Seeed 完成。",
+      "key_data": [
+        "售价 399 美元",
+        "5 天预售破万台",
+        "销售额超 500 万美元",
+        "深圳 Seeed 工程化"
+      ],
+      "judgment": "这是消费级机器人第一次跑出『爆款』节奏，而且是中国供应链+海外开源社区的组合。它证明：低价、有情绪价值、能社交传播的机器人，比堆参数的人形机器人更快触达大众市场。对硬件创业者来说，『AI 玩具』可能是比『通用人形』更现实的商业化路径。",
+      "confidence": 4,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/370269"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Hacker News / Entelligence",
+      "title": "GPT-5.6 Luna 对决 GPT-6 Astra：1.2 美元的模型够用吗？",
+      "finding": "一篇实测文章对比了 GPT-5.6 Luna（约 1.2 美元档位）和 GPT-6 Astra 在代码审查任务上的表现，讨论低价模型是否已经能满足工程级需求。",
+      "key_data": [
+        "GPT-5.6 Luna",
+        "GPT-6 Astra",
+        "代码审查场景",
+        "1.2 美元档位"
+      ],
+      "judgment": "模型分层正在固化：旗舰做难题，廉价模型吃掉 80% 日常任务。开发者该按任务分层选模型，而不是无脑用最强。",
+      "confidence": 3,
+      "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "新论文：递归自我改进（RSI）短期内不会发生",
+      "finding": "一篇论文论证当前 Agent 无法完成开放式 ML 研究任务，因此『AI 自己改进自己』的 RSI 拐点并不在眼前，引发社区热议。",
+      "key_data": [
+        "RSI 不会发生",
+        "Agent 无法做开放研究",
+        "论文引发争论"
+      ],
+      "judgment": "给 RSI 炒作降温的实证声音。对投资人和产品经理是提醒：别把『AI 自我进化』当作近期可依赖的路线。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wgazy4/rsi_is_not_happening_r/",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "幻觉的代价：事实幻觉存在率失真上限",
+      "finding": "论文从信息论角度提出，闭卷问答中的事实幻觉本质是压缩的代价，存在一个率失真理论上限，而非单纯的知识覆盖问题。",
+      "key_data": [
+        "率失真理论",
+        "幻觉=压缩代价",
+        "闭卷问答"
+      ],
+      "judgment": "把幻觉从『工程 bug』重新定义为『理论极限』，意味着靠堆数据无法根治，需要架构层面的新思路。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.12111",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "代码大模型离线后训练：性能、效率与模型坍塌",
+      "finding": "论文系统研究了代码 LLM 在 RL 后训练中的权衡，指出离线后训练虽提升性能，但存在模型坍塌风险。",
+      "key_data": [
+        "代码 LLM 后训练",
+        "RL 训练",
+        "模型坍塌风险"
+      ],
+      "judgment": "给做代码模型后训练的团队敲警钟：RL 不是免费的午餐，坍塌是真实存在的工程风险。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.11956",
+      "importance": 2
+    },
+    {
+      "source": "Hacker News / GitHub",
+      "title": "OpenArch：现代 LLM 架构的 PyTorch 实现合集",
+      "finding": "一个开源项目把当前主流 LLM 架构（含各类注意力、MoE 变体）用 PyTorch 逐一实现，方便开发者对照学习与复现。",
+      "key_data": [
+        "PyTorch 实现",
+        "现代 LLM 架构",
+        "HN 133 分"
+      ],
+      "judgment": "对想深入理解模型架构的工程师是高质量学习材料，比读论文更直接。",
+      "confidence": 4,
+      "url": "https://github.com/anuj0456/OpenArch",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "量子位",
+      "title": "元空智能端侧 AI 进入惠普预装，从『能跑』到『会进化』",
+      "finding": "元空智能的端侧 AI 方案被惠普纳入预装，主打模型与设备共同进化的能力，标志着端侧 AI 从实验室走向大规模出货。",
+      "key_data": [
+        "惠普预装",
+        "端侧 AI",
+        "模型设备共同进化"
+      ],
+      "judgment": "端侧 AI 的竞争从『能不能跑』转向『能不能持续进化』，预装渠道是规模化关键。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/09/488933.html",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "生数科技发布新世界模型，让机器人开始自我进化",
+      "finding": "生数科技推出面向机器人自我进化的新世界模型，探索 RSI（递归自我改进）在具身智能上的落地路径。",
+      "key_data": [
+        "生数科技",
+        "世界模型",
+        "机器人自我进化"
+      ],
+      "judgment": "世界模型+机器人是具身智能最热路线，但『自我进化』宣称需谨慎看待，落地验证是关键。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/09/489037.html",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "蚂蚁灵波启动首届具身大模型挑战赛，开放 LingBot-VLA",
+      "finding": "蚂蚁灵波发起首届具身大模型挑战赛，把 LingBot-VLA 推向开发者社区和高校，试图构建具身智能生态。",
+      "key_data": [
+        "蚂蚁灵波",
+        "LingBot-VLA",
+        "具身大模型挑战赛"
+      ],
+      "judgment": "大厂开始用『比赛+开源』抢具身智能开发者心智，生态卡位战已经开打。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/09/489105.html",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "Arm 推出 AI Portal，从『模型可用』走向『平台可用』",
+      "finding": "Arm 发布 AI Portal 平台，目标是让 AI 应用在 Arm 架构上从『能跑模型』升级到『平台级可用』，降低部署门槛。",
+      "key_data": [
+        "Arm AI Portal",
+        "平台化部署",
+        "降低门槛"
+      ],
+      "judgment": "Arm 想在端侧 AI 生态里复制 CUDA 的角色，能否成关键看开发者是否买账。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/xD9oWbebhcjwgHz1oEfa",
+      "importance": 2
+    },
+    {
+      "source": "量子位",
+      "title": "商汤临港 AIDC 获『算效+算电』双 5A 认证",
+      "finding": "商汤大装置临港 AIDC 获得业界首个『算效+算电』双 5A 协同认证，主打绿色高效算力。",
+      "key_data": [
+        "商汤大装置",
+        "双 5A 认证",
+        "算电协同"
+      ],
+      "judgment": "算力竞争进入『能效』阶段，绿色算力会成为数据中心的新门槛和卖点。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/09/489106.html",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Laurie Voss",
+      "level": "L2",
+      "quote": "写代码的成本已经崩塌，而审查、修复和运维代码的成本正在跟进，我假设它最终也会崩塌。软件制作剩下的部分，是搞清楚人们真正想要什么。",
+      "source": "https://simonwillison.net/2026/Sep/14/laurie-voss/"
+    },
+    {
+      "person": "Bryan Cantrill",
+      "level": "L2",
+      "quote": "恐惧是会传染的。前 Anthropic 员工 Jacob Coxon 的推文证实，许多 Anthropic 研究人员相信 AI『可能在这个十年结束前杀死我们所有人』——这种信念本身正在行业内扩散。",
+      "source": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/"
+    },
+    {
+      "person": "Richard Socher",
+      "level": "L1",
+      "quote": "（在 Latent Space 访谈中）我离开 You.com 创办 Recursive，专注递归自我改进（RSI），这可能是人类最后一项发明。公司估值已达 50 亿美元。",
+      "source": "https://www.latent.space/p/recursive"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI 安全叙事与政治博弈：从 Amodei 长文到白宫回击",
+      "reason": "安全派与加速派矛盾公开化，直接影响未来监管走向和算力政策，值得系统梳理各方立场。",
+      "priority": "high"
+    },
+    {
+      "topic": "多 Agent 系统的涌现行为与治理机制",
+      "reason": "MIT 吹哨实验揭示 Agent 群体自组织现象，对企业级 Agent 部署和风控设计有直接指导意义。",
+      "priority": "high"
+    },
+    {
+      "topic": "OpenAI 硬件战略：从 Glass Imaging 到端侧视觉入口",
+      "reason": "连续硬件动作说明 OpenAI 在布一盘软硬一体的大棋，值得追踪其产品形态和供应链。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "安全派喊停，加速派踩油门，AI 路线之争摆上白宫桌面",
+  "summary_paragraph": "今天最核心的信号是 AI 行业路线之争彻底公开化：Anthropic CEO Amodei 发长文呼吁放缓，Altman 和 Musk 表态支持，但特朗普强硬回击『护栏就是总统』，黄仁勋更直接对特朗普说『不会让 AI 放缓发生』——安全叙事在美国当前政治环境下几乎注定落空。产品层面，OpenAI 花 3 亿美元收购前苹果工程师创办的摄像头公司 Glass Imaging，硬件野心继续加码；苹果 iOS 27 正式发布，Siri 重构上线且代码显示可替换为 Claude/ChatGPT，苹果选择做模型分发层而非自研最强模型。研究侧，MIT 首次观察到 AI Agent 互相举报作弊的『吹哨』行为，多 Agent 治理成为新课题；同时一篇论文给 RSI 炒作降温，认为递归自我改进短期内不会发生。消费端，Hugging Face 旗下 399 美元机器鸭五天预售破万台，深圳制造，证明低价情绪型机器人可能比人形机器人更快跑通商业化。",
+  "snapshot": {
+    "date": "2026-09-15",
+    "hf_trending": [
+      {
+        "name": "deepseek-ai/DeepSeek-V4.1-Flash",
+        "short_name": "DeepSeek-V4.1-Flash",
+        "likes": 2459,
+        "downloads": 288414,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v41"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Edge0/Edge0-35B-A3B-preview",
+        "short_name": "Edge0-35B-A3B-preview",
+        "likes": 2051,
+        "downloads": 8109,
+        "url": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
+        "tags": [
+          "mlx",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "openbmb/MiniCPM5-2B",
+        "short_name": "MiniCPM5-2B",
+        "likes": 1396,
+        "downloads": 206774,
+        "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "nex-agi/Nex-N2.5-mini",
+        "short_name": "Nex-N2.5-mini",
+        "likes": 781,
+        "downloads": 4543,
+        "url": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen3.8-27B",
+        "short_name": "Qwen3.8-27B",
+        "likes": 15148,
+        "downloads": 7703400,
+        "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "nex-agi/Nex-N2.5-Pro",
+        "short_name": "Nex-N2.5-Pro",
+        "likes": 633,
+        "downloads": 30489,
+        "url": "https://huggingface.co/nex-agi/Nex-N2.5-Pro",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+        "short_name": "Qwen3.8-27B-GSQ-RCO-GGUF",
+        "likes": 1050,
+        "downloads": 819784,
+        "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+        "tags": [
+          "gguf",
+          "gsq",
+          "rco"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "m-a-p/YuE2-3B",
+        "short_name": "YuE2-3B",
+        "likes": 476,
+        "downloads": 5186,
+        "url": "https://huggingface.co/m-a-p/YuE2-3B",
+        "tags": [
+          "safetensors",
+          "yue2",
+          "music-generation"
+        ],
+        "pipeline_tag": "text-to-audio",
+        "label": "Text To Audio",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "JustVugg/colibri",
+        "desc": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk.",
+        "stars": 32161,
+        "stars_today": 2173,
+        "forks": 3391,
+        "language": "C",
+        "url": "https://github.com/JustVugg/colibri"
+      },
+      {
+        "name": "alibaba/open-code-review",
+        "desc": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: determinist",
+        "stars": 25889,
+        "stars_today": 1571,
+        "forks": 1873,
+        "language": "Go",
+        "url": "https://github.com/alibaba/open-code-review"
+      },
+      {
+        "name": "multimodal-art-projection/YuE",
+        "desc": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+        "stars": 8378,
+        "stars_today": 559,
+        "forks": 909,
+        "language": "Python",
+        "url": "https://github.com/multimodal-art-projection/YuE"
+      },
+      {
+        "name": "debpalash/VoiceStudio",
+        "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, vi",
+        "stars": 29290,
+        "stars_today": 2776,
+        "forks": 3561,
+        "language": "Python",
+        "url": "https://github.com/debpalash/VoiceStudio"
+      },
+      {
+        "name": "666ghj/MiroFish",
+        "desc": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+        "stars": 73195,
+        "stars_today": 560,
+        "forks": 11290,
+        "language": "Python",
+        "url": "https://github.com/666ghj/MiroFish"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "openai/gpt-5.6-luna",
+        "name": "GPT-5.6 Luna",
+        "org": "openai",
+        "total_tokens": 2564862114350,
+        "total_tokens_str": "2.6T",
+        "api_calls": 0,
+        "change": -34.7,
+        "url": "https://openrouter.ai/openai/gpt-5.6-luna"
+      },
+      {
+        "rank": 2,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 2385258820453,
+        "total_tokens_str": "2.4T",
+        "api_calls": 0,
+        "change": 21.6,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 1724288980443,
+        "total_tokens_str": "1.7T",
+        "api_calls": 0,
+        "change": 25.0,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 4,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1577050969622,
+        "total_tokens_str": "1.6T",
+        "api_calls": 0,
+        "change": 12.0,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 5,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 1283244821904,
+        "total_tokens_str": "1.3T",
+        "api_calls": 0,
+        "change": -0.9,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 6,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 1156974515296,
+        "total_tokens_str": "1.2T",
+        "api_calls": 0,
+        "change": 17.4,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 7,
+        "slug": "tencent/hy3",
+        "name": "Hy3",
+        "org": "tencent",
+        "total_tokens": 775665854952,
+        "total_tokens_str": "776B",
+        "api_calls": 0,
+        "change": 69.3,
+        "url": "https://openrouter.ai/tencent/hy3"
+      },
+      {
+        "rank": 8,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 455036739575,
+        "total_tokens_str": "455B",
+        "api_calls": 0,
+        "change": -3.3,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      {
+        "rank": 9,
+        "slug": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro 0423",
+        "org": "deepseek",
+        "total_tokens": 357231628104,
+        "total_tokens_str": "357B",
+        "api_calls": 0,
+        "change": 25.5,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      },
+      {
+        "rank": 10,
+        "slug": "openai/gpt-5.6-sol",
+        "name": "GPT-5.6 Sol",
+        "org": "openai",
+        "total_tokens": 310389288824,
+        "total_tokens_str": "310B",
+        "api_calls": 0,
+        "change": 93.2,
+        "url": "https://openrouter.ai/openai/gpt-5.6-sol"
+      }
+    ],
+    "hf_summary": "多模态与轻量文本模型主导榜单，Qwen3.8热度断层领先。"
+  }
+}
