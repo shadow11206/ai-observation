@@ -3,265 +3,280 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "xAI、OpenAI、Anthropic 共同签署 AEF-1 第三方评估标准",
-      "finding": "三家最头部的大模型公司罕见地达成一致，共同认可一套针对第三方评估机构的标准化框架 AEF-1。这意味着模型能力的评测方式将从各家自说自话，走向有统一规则的第三方审计。",
-      "key_data": [
-        "三方共同签署",
-        "第三方评估标准",
-        "AEF-1 框架"
-      ],
-      "judgment": "这是 AI 行业治理的分水岭事件。过去模型评测是厂商自证清白，现在有了跨公司认可的第三方标准，对监管、企业采购、投资人都是重大利好。但关键看执行——谁来当评估方、评估结果是否公开，决定了这是真标准还是公关姿态。",
-      "confidence": 4,
-      "source": "Latent Space",
-      "url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for"
-    },
-    {
-      "rank": 2,
-      "title": "Google 发布 Gemini 3.8 Live 与 Extended Thinking 语音模型",
-      "finding": "Google 推出两款新的语音到语音模型，形态对标 OpenAI 的 GPT-Live 系列。Extended Thinking 版本支持在语音对话中进行更深层的推理，标志着语音交互从'快问快答'进入'边想边说'阶段。",
+      "title": "谷歌发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking 语音模型",
+      "finding": "谷歌推出两款新的语音到语音模型，形态对标 OpenAI 的 GPT-Live 系列，其中 Extended Thinking 版本在语音交互中引入了推理能力。Simon Willison 第一时间做了实测并给出正面评价。",
       "key_data": [
         "语音到语音",
         "Extended Thinking",
-        "对标 GPT-Live"
+        "对标 GPT-Live",
+        "Simon Willison 实测"
       ],
-      "judgment": "语音正在成为大模型竞争的新战场。谁能让 AI 在语音场景下保持推理深度，谁就能拿下客服、教育、车载等高频场景。Google 这次跟进速度很快，但真正的差异化要看延迟和打断处理能力。",
-      "confidence": 5,
+      "judgment": "语音交互正在从「快问快答」进化到「边想边说」，这是实时语音 Agent 的关键能力补齐。对做客服、陪伴、语音助手的团队来说，纯语音模型的竞争窗口正在关闭，差异化要往推理深度和场景闭环上走。",
+      "confidence": 4,
       "source": "Google DeepMind Blog / Simon Willison",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/"
     },
     {
-      "rank": 3,
-      "title": "Hugging Face 以 129 亿美元被英伟达收购",
-      "finding": "开源 AI 社区的核心平台 Hugging Face 以 129 亿美元的价格被英伟达收购。这个价格远超其此前估值，标志着英伟达从芯片供应商向 AI 全栈平台的关键一跃。",
-      "key_data": [
-        "129亿美元",
-        "英伟达收购",
-        "开源社区平台"
-      ],
-      "judgment": "英伟达买的不只是模型托管平台，而是整个开源 AI 生态的入口和开发者关系。这对开源社区是双刃剑：一方面获得更强算力支持，另一方面平台中立性存疑。开发者需要开始思考'开源模型的家'是否还中立。",
-      "confidence": 4,
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/foEzSr8xfG0STQ1wgbti"
-    },
-    {
-      "rank": 4,
-      "title": "OpenAI 内部 Codex 已'接管'软件开发，工程实践深度揭秘",
-      "finding": "Pragmatic Engineer 深度报道了 OpenAI 内部的 agentic 软件工厂：Codex 已经深度嵌入 OpenAI 自身的开发流程，从写代码到代码审查全面参与。文章还披露了支撑十亿用户规模的工程挑战。",
+      "rank": 2,
+      "title": "OpenAI 内部 Codex 已「接管」软件开发，Pragmatic Engineer 深度揭秘",
+      "finding": "Gergely Orosz 深入 OpenAI 内部，揭示 Codex 如何成为 OpenAI 自己的「代理式软件工厂」，支撑十亿级用户产品的工程开发。这是目前对前沿实验室内部 Agent 工程实践最详细的一手报道。",
       "key_data": [
         "Codex 接管开发",
-        "十亿用户规模",
-        "agentic 软件工厂"
+        "十亿用户",
+        "代理式软件工厂",
+        "内部一手细节"
       ],
-      "judgment": "这是'AI 写 AI'的最强信号。OpenAI 用自己的产品改造自己的工程流程，等于给全行业做了一次大规模实验。如果连最顶尖的实验室都让 AI 接管编码，那普通开发团队的抗拒就只是时间问题。",
+      "judgment": "这是「AI 写 AI」从口号变成日常运营的实证。对开发者来说，最值得研究的不是 Codex 本身，而是 OpenAI 如何重新设计工程流程来适配 Agent——这套组织级方法论比任何模型参数都更难复制。",
       "confidence": 4,
       "source": "The Pragmatic Engineer",
       "url": "https://newsletter.pragmaticengineer.com/p/openai-software-factory"
     },
     {
-      "rank": 5,
-      "title": "CrofAI 被曝是 OpenRouter 套壳，加价 20 倍后跑路",
-      "finding": "号称'全球最便宜推理提供商'的 CrofAI 被曝光实际是 OpenRouter 的包装层，将请求路由到更便宜的小模型并加价最高 20 倍。被质疑后先否认、再改口、三小时后清空全部线上痕迹。",
+      "rank": 3,
+      "title": "腾讯、字节、阿里会战 AI 办公，Agent 领域格局已变",
+      "finding": "字节将豆包工作正式发布，TRAE、扣子团队整体并入豆包体系，飞书产品团队也已并入；腾讯 WorkBuddy 跑出千万月活，阿里在整合桌面 Agent。中国大厂在 Agent 办公赛道发起第一场正面战役。",
       "key_data": [
-        "20倍加价",
-        "OpenRouter 套壳",
-        "3小时清空跑路"
+        "豆包工作发布",
+        "TRAE 并入豆包",
+        "WorkBuddy 千万月活",
+        "飞书团队并入"
       ],
-      "judgment": "AI 推理市场的'低价陷阱'开始暴露。当价格战打到成本线以下，必然出现以次充好的套壳玩家。这对企业采购是个警钟：便宜 Token 的背后可能是模型降级，需要建立自己的评测验证机制。",
-      "confidence": 3,
-      "source": "Reddit r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgwe4n/crofai_cheapest_inference_provider_in_the_world/"
+      "judgment": "大厂正在把「AI 编程工具」和「AI 办公」合并成同一个 Agent 入口，独立 AI Coding 工具的生存空间会被进一步挤压。对创业者来说，纯工具层的机会窗口正在关闭，要么往垂直场景深扎，要么做被大厂集成的能力层。",
+      "confidence": 4,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/370431"
+    },
+    {
+      "rank": 4,
+      "title": "OpenAI 付费收购失败生物科技公司数据，为医学 AI 补数据缺口",
+      "finding": "MIT 科技评论报道，OpenAI 正在通过竞拍破产生物科技公司的数据来为医学 AI 模型补充训练素材。这一思路最初由政策分析师 Ruxandra Teslo 提出，如今被 OpenAI 真金白银落地。",
+      "key_data": [
+        "收购破产公司数据",
+        "医学 AI 训练",
+        "OpenAI 付费",
+        "失败实验数据"
+      ],
+      "judgment": "高质量领域数据正在成为比算力更稀缺的资源。生物医药的「失败数据」被重新定价，意味着垂直行业的数据资产价值需要重估——这对做医疗、法律、金融 AI 的团队是一个明确的信号：数据获取策略要提前布局。",
+      "confidence": 4,
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/"
+    },
+    {
+      "rank": 5,
+      "title": "黄仁勋：不需要 AI 监管，安全交给厂商自己工程化解决",
+      "finding": "英伟达 CEO 黄仁勋公开表态，AI 不是「外星心智」，只是硬件和软件的组合，因此安全性可以由每个 AI 产品厂商自行工程化解决，不需要外部监管介入。",
+      "key_data": [
+        "反对 AI 监管",
+        "安全靠工程化",
+        "厂商自负责",
+        "非外星心智"
+      ],
+      "judgment": "这是产业界对监管最直白的抵制表态，也代表了基础设施层玩家的核心利益。对 AI 产品经理来说，这意味着短期内合规压力可能更多来自客户和平台方，而非政府——但一旦出事，行业自律的可信度会被严重质疑。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/"
     }
   ],
   "model_tech": [
     {
-      "source": "ArXiv cs.AI",
-      "title": "ZGCM-1：完全开源的 7B 数学与 Agent 搜索基础模型",
-      "finding": "一个从零训练的 7B 稠密模型，在数据、系统和算法效率上都做到极致，专注于数学推理和 Agent 搜索场景，完全开源。",
-      "key_data": [
-        "7B 稠密模型",
-        "完全开源",
-        "数学+Agent搜索"
-      ],
-      "judgment": "小模型在垂直场景的竞争力持续增强，7B 级别做数学推理已具备实用价值。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2609.13356",
-      "importance": 3
-    },
-    {
       "source": "Reddit r/MachineLearning",
-      "title": "TabPFN-3.5 发布：新一代表格数据 SOTA 基础模型",
-      "finding": "Prior Labs 发布 TabPFN-3.5，在 TabArena 和 BeyondArena 两个榜单上均排名第一，支持 100 万行数据和最多 2 万个特征。",
-      "key_data": [
-        "双榜第一",
-        "100万行数据",
-        "2万特征"
-      ],
-      "judgment": "表格数据是企业的核心资产，专用基础模型正在替代传统梯度提升树方案。",
-      "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1wh4xhy/tabpfn35_is_released_as_the_next_sota_tabular/",
-      "importance": 3
-    },
-    {
-      "source": "Reddit r/MachineLearning",
-      "title": "44M 参数量化 LLM 从零训练：19.8MB 大小，CPU 上 1900 tok/s",
-      "finding": "开发者从零训练了一个 4400 万参数的量化模型，仅 19.8MB，在 CPU 上达到约 1900 token/秒的推理速度，延续了此前 SHADOW-250M 的工作。",
+      "title": "44M 参数量化小模型跑出 1900 tok/s，仅 19.8MB",
+      "finding": "开发者从零训练了一个 4400 万参数的量化 LLM，模型文件只有 19.8MB，在 CPU 上跑到约 1900 tokens/秒。这是其继 SHADOW-250M 之后的又一次端侧模型尝试。",
       "key_data": [
         "44M 参数",
         "19.8MB",
-        "1900 tok/s CPU"
+        "1900 tok/s",
+        "纯 CPU 运行"
       ],
-      "judgment": "端侧超小模型的速度已经实用化，为离线场景和隐私敏感应用打开新空间。",
+      "judgment": "端侧小模型的性能边界在被持续推高，对隐私敏感和离线场景有实际价值。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1wgzpli/i_trained_a_44m_parameter_quantized_llm_from/",
       "importance": 3
     },
     {
       "source": "Hugging Face Blog",
-      "title": "Agent 通过了任务，但能重复做到吗？一致性评估新方法",
-      "finding": "IBM Research 提出 ALTK-Evolve 一致性评估框架，指出 Agent 单次通过任务不代表稳定可靠，需要评估其在重复执行中的一致性表现。",
+      "title": "IBM 研究：Agent 通过一次任务不代表能稳定复现",
+      "finding": "IBM Research 在 Hugging Face 发布研究，指出 Agent 评测中「一次通过」不能说明能力可靠，需要引入一致性（consistency）维度来评估 Agent 是否能在重复执行中稳定完成任务。",
       "key_data": [
-        "一致性评估",
-        "重复执行",
-        "ALTK-Evolve"
+        "Agent 一致性",
+        "重复执行评测",
+        "IBM Research",
+        "超越单次通过率"
       ],
-      "judgment": "Agent 评估从'能不能做'转向'能不能稳定做'，这是企业级落地的关键门槛。",
-      "confidence": 3,
+      "judgment": "Agent 评测标准正在从「能不能做」转向「能不能稳定做」，这会重塑产品选型逻辑。",
+      "confidence": 4,
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "importance": 4
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "TabPFN-3.5 发布，刷新表格基础模型 SOTA",
+      "finding": "Prior Labs 发布 TabPFN-3.5，在 TabArena 和 BeyondArena 两个评测上均排名第一，支持 100 万行数据和最多 2 万个特征。表格数据这个被忽视的领域正在出现基础模型级产品。",
+      "key_data": [
+        "TabPFN-3.5",
+        "双榜第一",
+        "100 万行",
+        "2 万特征"
+      ],
+      "judgment": "表格数据是企业的真实主战场，基础模型化会直接冲击传统 AutoML 和特征工程工具。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wh4xhy/tabpfn35_is_released_as_the_next_sota_tabular/",
       "importance": 3
     },
     {
-      "source": "ArXiv cs.AI",
-      "title": "广义 Agent 迭代：迭代策略改进与递归自我改进的统一框架",
-      "finding": "论文提出一个统一的形式化框架，将迭代策略改进和递归自我改进（RSI）纳入同一理论体系，试图厘清 RSI 到底是现象、机制还是前景。",
+      "source": "量子位",
+      "title": "清华稳准智能发布 LimiX-2，结构化数据基础模型登顶国际榜单",
+      "finding": "稳准智能联合清华大学发布 LimiX-2，参数规模提升至 4 亿，定位结构化数据基础模型，在国际评测榜单上登顶。这是国内在表格/结构化数据方向的对标动作。",
       "key_data": [
-        "递归自我改进",
-        "统一形式框架",
-        "策略迭代"
+        "LimiX-2",
+        "400M 参数",
+        "清华联合",
+        "登顶国际榜单"
       ],
-      "judgment": "RSI 从哲学讨论走向形式化定义，为安全研究提供了可操作的理论基础。",
+      "judgment": "国内团队在结构化数据基础模型上紧跟国际节奏，企业数据智能赛道值得关注。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2609.13406",
+      "url": "https://www.qbitai.com/2026/09/490400.html",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "研究揭示少样本提示为何反而让模型变差",
+      "finding": "一项覆盖 12 个开源模型、2 类任务、2 种架构的研究发现，少样本提示有时会降低模型表现，并通过表征分析和随机文本对照组给出了行为学证据。",
+      "key_data": [
+        "12 个模型",
+        "少样本退化",
+        "随机文本对照",
+        "表征分析"
+      ],
+      "judgment": "少样本提示不是万能药，Prompt 工程需要更精细的实证方法而非经验主义。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.15990",
       "importance": 3
     }
   ],
   "company_product": [
     {
       "source": "TechCrunch AI",
-      "title": "Meta 推出 WhatsApp Business MCP 服务器，AI Agent 可接管商户配置",
-      "finding": "Meta 发布 WhatsApp Business 的 MCP 服务器，开发者可以用 Claude、Cursor、Codex 等 AI 编程工具自动完成商户设置、消息模板配置、测试和故障排查。",
+      "title": "Meta 推出 WhatsApp Business MCP 服务器，让 AI 编程 Agent 接管配置",
+      "finding": "Meta 发布 WhatsApp Business 的 MCP 服务器，开发者可以用 Claude、Cursor、Codex、ChatGPT 等 AI 编程 Agent 来处理商业账号的配置、消息模板、测试和排障。",
       "key_data": [
-        "WhatsApp Business",
-        "MCP 服务器",
-        "AI 接管配置"
+        "WhatsApp Business MCP",
+        "支持 Claude/Cursor",
+        "自动化配置",
+        "消息模板"
       ],
-      "judgment": "MCP 正在成为 AI Agent 接入企业服务的标准接口，Meta 的加入加速了这一趋势。",
+      "judgment": "MCP 正在成为大厂开放能力的标准接口，Agent 生态的「USB-C 时刻」加速到来。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
       "importance": 4
     },
     {
-      "source": "量子位",
-      "title": "智象未来发布首个物理规律导向视频生成模型 HiDream-O1-Video",
-      "finding": "智象未来（HiDream.ai）发布原生全模态视频生成模型 HiDream-O1-Video-1.0，主打物理规律导向，进入全球 AI 视频榜单第一梯队。",
+      "source": "Hacker News",
+      "title": "Formas.ai 发布 Cartesian：面向设计的 AI 3D 建模工具",
+      "finding": "Cartesian 是一款 AI 驱动的 3D 建模工具，面向设计师群体，在 Hacker News 上获得 106 分和 78 条评论，讨论热度较高。",
       "key_data": [
-        "物理规律导向",
-        "全模态视频",
-        "第一梯队"
+        "AI 3D 建模",
+        "面向设计师",
+        "HN 106 分",
+        "Formas.ai"
       ],
-      "judgment": "视频生成竞争从画质转向物理真实性，这是从'好看'到'可用'的关键跨越。",
+      "judgment": "3D 建模是 AI 生成尚未攻克的硬骨头，若体验成立将冲击传统 CAD 工作流。",
       "confidence": 3,
-      "url": "https://www.qbitai.com/2026/09/489389.html",
+      "url": "https://www.formas.ai/cartesian",
+      "importance": 3
+    },
+    {
+      "source": "极客公园",
+      "title": "小鹏 IRON 人形机器人完成自动化总装走下产线",
+      "finding": "小鹏高阶通用人形机器人 IRON 于 9 月 8 日完成自动化总装并从产线走下。相比特斯拉和 Figure 仍在攻克量产，小鹏强调的亮点是身后刚启用的自动化产线。",
+      "key_data": [
+        "小鹏 IRON",
+        "自动化总装",
+        "走下产线",
+        "对标特斯拉/Figure"
+      ],
+      "judgment": "人形机器人竞争焦点从 Demo 转向量产能力，产线本身比机器人视频更有信息量。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/370421",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "美国数据中心 2035 年天然气消耗量或超德日总和",
+      "finding": "报告预测，受 AI 热潮推动，美国数据中心到 2035 年可能成为全球最大的天然气消费者之一，消耗量超过德国和日本两国的总和。",
+      "key_data": [
+        "2035 年",
+        "超德日总和",
+        "天然气消耗",
+        "AI 数据中心"
+      ],
+      "judgment": "AI 的能源账单正在从隐性成本变成显性约束，选址和电力将成为扩张瓶颈。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/",
       "importance": 3
     },
     {
       "source": "量子位",
-      "title": "无问芯穹联合清华、上交开源具身端侧推理引擎 APXInf",
-      "finding": "无问芯穹联合清华大学和上海交通大学开源了具身智能端侧推理引擎 APXInf，在 Pi 0.5 模型上达到 SOTA 性能，瞄准具身智能规模化落地的'最后一公里'。",
+      "title": "B站上线「AI 无限竞技场」，全球百大模型同场竞技",
+      "finding": "9 月 16 日 B 站「AI 无限竞技场」正式上线，首期大模型测评榜单同步公布，GPT-6 高居榜首。这是国内视频平台首次以竞技场形式做模型评测。",
       "key_data": [
-        "端侧推理引擎",
-        "Pi 0.5 SOTA",
-        "开源"
+        "B站竞技场",
+        "百大模型",
+        "GPT-6 榜首",
+        "9 月 16 日上线"
       ],
-      "judgment": "具身智能的瓶颈正在从模型转向端侧部署效率，推理引擎是规模化的关键拼图。",
+      "judgment": "模型评测正在从学术榜单走向大众化平台，对国内用户认知模型格局有实际影响。",
       "confidence": 3,
-      "url": "https://www.qbitai.com/2026/09/489460.html",
-      "importance": 3
-    },
-    {
-      "source": "InfoQ AI",
-      "title": "飞书与豆包工作合体：Agent 能进群、写周报、做 PPT",
-      "finding": "飞书与豆包完成整合后首次亮相，Agent 可以进入群聊、自动撰写周报、制作 PPT，深度嵌入企业办公流程。",
-      "key_data": [
-        "Agent 进群",
-        "自动写周报",
-        "飞书+豆包"
-      ],
-      "judgment": "国内办公 AI 从'助手'进化为'同事'，Agent 进入协作流是产品形态的重要跃迁。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/aCRVupdyEAHtENIiIDwq",
-      "importance": 3
-    },
-    {
-      "source": "Reddit r/LocalLLaMA",
-      "title": "Apple 在 macOS 27 原生开放本地基础模型，终端可直接调用",
-      "finding": "Apple 在 macOS 27 中原生提供 AFM 基础模型，用户只需在终端运行 fm chat 即可调用本地 AI 能力，无需额外安装。",
-      "key_data": [
-        "macOS 27 原生",
-        "终端调用",
-        "本地模型"
-      ],
-      "judgment": "Apple 把端侧 AI 变成操作系统级能力，对第三方本地推理工具是降维打击。",
-      "confidence": 3,
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wh5fpa/apple_foundation_models_local_ai_natively_on/",
-      "importance": 3
+      "url": "https://www.qbitai.com/2026/09/490396.html",
+      "importance": 2
     }
   ],
   "opinions": [
     {
-      "person": "Jensen Huang",
-      "level": "L3",
-      "quote": "AI 不是什么'外星心智'，它只是硬件和软件，所以安全可以由每个 AI 产品制造商自己工程化解决。我们不需要 AI 监管，把安全交给我们。",
-      "source": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/"
-    },
-    {
       "person": "Simon Willison",
       "level": "L2",
-      "quote": "Google 发布 Gemini 3.8 Live 和 Extended Thinking，形态与 OpenAI 的 GPT-Live 家族类似。语音到语音模型正在成为大厂标配，但真正的差异化在于打断处理和推理深度的平衡。",
+      "quote": "谷歌今天发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking，形态与 OpenAI 的 GPT-Live 家族类似。我实测后认为这是语音交互从「快问快答」走向「边想边说」的重要一步。",
       "source": "https://simonwillison.net/2026/Sep/15/gemini-live/"
     },
     {
-      "person": "Swyx",
-      "level": "L2",
-      "quote": "Good Start Labs 用铁路游戏训练 AI，结果一个版本在金融研究任务上也有提升。关键差异不在游戏本身，而在训练设计——这暗示了技能迁移的机制可能比我们想的更通用。",
-      "source": "https://www.latent.space/p/good-start-labs"
+      "person": "黄仁勋",
+      "level": "L3",
+      "quote": "AI 不是某种新的「外星心智」，它只是硬件和软件的组合。因此安全性可以由每个 AI 产品厂商通过工程手段解决，不需要外部监管介入。",
+      "source": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/"
+    },
+    {
+      "person": "汪华",
+      "level": "L3",
+      "quote": "这仗打错了，最多是白烧几十亿；但如果不打，可能是生死问题。大厂重金押注 AI 办公，本质上是 Agent 时代入口之争。",
+      "source": "http://www.geekpark.net/news/370431"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AEF-1 第三方评估标准的具体机制与执行方案",
-      "reason": "跨公司评估标准是行业治理里程碑，但执行细节决定其是真标准还是公关姿态。",
+      "topic": "OpenAI 内部代理式软件工厂的工程方法论",
+      "reason": "这是目前唯一一份前沿实验室如何用 Agent 重构自身研发流程的一手材料，对任何想落地 Agent 的团队都有直接参考价值。",
       "priority": "high"
     },
     {
-      "topic": "OpenAI 内部 agentic 软件工厂的工程实践",
-      "reason": "最顶尖实验室如何用 AI 改造自身开发流程，是全行业的参考模板。",
+      "topic": "MCP 协议在大厂生态中的扩散路径",
+      "reason": "Meta 接入 MCP 是一个标志性事件，值得系统梳理哪些平台已开放、哪些还在观望，判断 Agent 工具链的整合节奏。",
       "priority": "high"
     },
     {
-      "topic": "AI 推理市场的低价陷阱与模型降级验证",
-      "reason": "CrofAI 事件暴露了推理市场的信任危机，企业需要建立自己的模型验证机制。",
+      "topic": "语音推理模型（Gemini Live Extended Thinking）的产品化机会",
+      "reason": "语音+推理是实时 Agent 的关键能力补齐，值得研究其在客服、教育、陪伴场景中的落地边界。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "评估标准统一、语音模型开战、开源平台易主",
-  "summary_paragraph": "今天最值得关注的信号是行业基础设施层的三重变化：xAI、OpenAI、Anthropic 罕见联手签署 AEF-1 第三方评估标准，模型评测从自说自话走向统一审计；Google 发布 Gemini 3.8 Live 语音模型，语音交互成为大厂新战场；英伟达以 129 亿美元收购 Hugging Face，开源社区的中立性面临考验。与此同时，OpenAI 内部 Codex 已深度接管软件开发流程，而 CrofAI 套壳跑路事件则给低价推理市场敲响警钟。行业正在从'比谁模型强'进入'比谁基础设施稳'的阶段。",
+  "summary_one_line": "语音推理与 Agent 工厂同日推进，大厂入口战升级",
+  "summary_paragraph": "今天最值得关注的是两条主线同时推进：一是谷歌发布 Gemini 3.8 Live 与 Extended Thinking，把推理能力带进实时语音交互，语音 Agent 的能力边界被显著推高；二是 Pragmatic Engineer 深度揭秘 OpenAI 内部 Codex 已「接管」软件开发，证明「AI 写 AI」已从口号变成日常运营。与此同时，中国大厂在 AI 办公赛道正面开战，字节把 TRAE、扣子、飞书团队全部并入豆包体系，腾讯 WorkBuddy 跑出千万月活，独立工具层的生存空间被进一步压缩。此外，OpenAI 付费收购破产生物科技公司数据、黄仁勋公开反对 AI 监管，分别指向数据稀缺和监管博弈两个长期变量。",
   "snapshot": {
     "date": "2026-09-16",
     "hf_trending": [
       {
         "name": "deepseek-ai/DeepSeek-V4.1-Flash",
         "short_name": "DeepSeek-V4.1-Flash",
-        "likes": 2705,
+        "likes": 2752,
         "downloads": 325712,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
         "tags": [
@@ -277,7 +292,7 @@
       {
         "name": "Edge0/Edge0-35B-A3B-preview",
         "short_name": "Edge0-35B-A3B-preview",
-        "likes": 2801,
+        "likes": 2968,
         "downloads": 17853,
         "url": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
         "tags": [
@@ -293,7 +308,7 @@
       {
         "name": "openbmb/MiniCPM5-2B",
         "short_name": "MiniCPM5-2B",
-        "likes": 1464,
+        "likes": 1479,
         "downloads": 271754,
         "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
         "tags": [
@@ -307,25 +322,9 @@
         "trend": "same"
       },
       {
-        "name": "nex-agi/Nex-N2.5-mini",
-        "short_name": "Nex-N2.5-mini",
-        "likes": 809,
-        "downloads": 5202,
-        "url": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "qwen3_5_moe"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 15280,
+        "likes": 15310,
         "downloads": 7702543,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -339,9 +338,25 @@
         "trend": "same"
       },
       {
+        "name": "nex-agi/Nex-N2.5-mini",
+        "short_name": "Nex-N2.5-mini",
+        "likes": 813,
+        "downloads": 5202,
+        "url": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "m-a-p/YuE2-3B",
         "short_name": "YuE2-3B",
-        "likes": 570,
+        "likes": 584,
         "downloads": 6716,
         "url": "https://huggingface.co/m-a-p/YuE2-3B",
         "tags": [
@@ -357,7 +372,7 @@
       {
         "name": "nex-agi/Nex-N2.5-Pro",
         "short_name": "Nex-N2.5-Pro",
-        "likes": 651,
+        "likes": 655,
         "downloads": 30881,
         "url": "https://huggingface.co/nex-agi/Nex-N2.5-Pro",
         "tags": [
@@ -373,7 +388,7 @@
       {
         "name": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
         "short_name": "Qwen3.8-27B-GSQ-RCO-GGUF",
-        "likes": 1142,
+        "likes": 1150,
         "downloads": 884926,
         "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
         "tags": [
@@ -391,45 +406,45 @@
       {
         "name": "alibaba/open-code-review",
         "desc": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: determinist",
-        "stars": 28759,
+        "stars": 29583,
         "stars_today": 2756,
-        "forks": 2059,
+        "forks": 2110,
         "language": "Go",
         "url": "https://github.com/alibaba/open-code-review"
       },
       {
         "name": "JustVugg/colibri",
         "desc": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk.",
-        "stars": 33917,
+        "stars": 34265,
         "stars_today": 2026,
-        "forks": 3550,
+        "forks": 3586,
         "language": "C",
         "url": "https://github.com/JustVugg/colibri"
       },
       {
         "name": "ever-co/ever-gauzy",
         "desc": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
-        "stars": 6696,
+        "stars": 6911,
         "stars_today": 634,
-        "forks": 1032,
+        "forks": 1060,
         "language": "TypeScript",
         "url": "https://github.com/ever-co/ever-gauzy"
       },
       {
         "name": "debpalash/VoiceStudio",
         "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, vi",
-        "stars": 31062,
+        "stars": 31416,
         "stars_today": 2072,
-        "forks": 3707,
+        "forks": 3730,
         "language": "Python",
         "url": "https://github.com/debpalash/VoiceStudio"
       },
       {
         "name": "Homebrew/BrewUI",
         "desc": "📺 Homebrew's official macOS GUI",
-        "stars": 1402,
+        "stars": 1604,
         "stars_today": 271,
-        "forks": 31,
+        "forks": 38,
         "language": "Swift",
         "url": "https://github.com/Homebrew/BrewUI"
       }
@@ -546,6 +561,6 @@
         "url": "https://openrouter.ai/google/gemini-3.8-flash"
       }
     ],
-    "hf_summary": "Qwen3.8以绝对热度领跑多模态赛道小模型与音频生成加速崛起"
+    "hf_summary": "Qwen3.8-27B断层领跑 多模态与轻量文本模型双线升温"
   }
 }

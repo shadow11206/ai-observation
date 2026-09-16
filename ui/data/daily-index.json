@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-09-16",
-      "title": "今日 AI 日报：xAI、OpenAI、Anthropic 共同签署 AEF-1 第三方评估标准 + 4 条重要动态",
-      "excerpt": "这是 AI 行业治理的分水岭事件。过去模型评测是厂商自证清白，现在有了跨公司认可…",
+      "title": "今日 AI 日报：谷歌发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking 语音模型 + 4 条重要动态",
+      "excerpt": "语音交互正在从「快问快答」进化到「边想边说」，这是实时语音 Agent 的关键能…",
       "top_count": 5,
       "file": "2026-09-16.json"
     },
