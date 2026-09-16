@@ -1,6 +1,13 @@
 {
-  "total": 172,
+  "total": 173,
   "reports": [
+    {
+      "date": "2026-09-16",
+      "title": "今日 AI 日报：xAI、OpenAI、Anthropic 共同签署 AEF-1 第三方评估标准 + 4 条重要动态",
+      "excerpt": "这是 AI 行业治理的分水岭事件。过去模型评测是厂商自证清白，现在有了跨公司认可…",
+      "top_count": 5,
+      "file": "2026-09-16.json"
+    },
     {
       "date": "2026-09-15",
       "title": "今日 AI 日报：OpenAI 以 3 亿美元收购手机摄像头公司 Glass Imaging + 4 条重要动态",
