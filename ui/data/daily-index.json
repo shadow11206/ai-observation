@@ -1,6 +1,13 @@
 {
-  "total": 173,
+  "total": 174,
   "reports": [
+    {
+      "date": "2026-09-17",
+      "title": "今日 AI 日报：Anthropic 将 Claude 聊天与 Cowork 合并为统一界面 + 4 条重要动态",
+      "excerpt": "这是 Anthropic 在 Agent 产品化上的一次关键收敛：过去一年 Cl…",
+      "top_count": 5,
+      "file": "2026-09-17.json"
+    },
     {
       "date": "2026-09-16",
       "title": "今日 AI 日报：谷歌发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking 语音模型 + 4 条重要动态",
