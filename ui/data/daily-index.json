@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-09-17",
-      "title": "今日 AI 日报：Anthropic 将 Claude 聊天与 Cowork 合并为统一界面 + 4 条重要动态",
-      "excerpt": "这是 Anthropic 在 Agent 产品化上的一次关键收敛：过去一年 Cl…",
+      "title": "今日 AI 日报：Mistral 与 Mozilla 联手，把开源、隐私、多语言 AI 塞进浏览器 + 4 条重要动态",
+      "excerpt": "这是对 Chrome + Gemini 组合的直接挑战。浏览器正在成为 AI 入…",
       "top_count": 5,
       "file": "2026-09-17.json"
     },
