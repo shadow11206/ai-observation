@@ -1,6 +1,13 @@
 {
-  "total": 174,
+  "total": 175,
   "reports": [
+    {
+      "date": "2026-09-18",
+      "title": "今日 AI 日报：Claude Code 大重构：Anthropic 内部 3 万 Agent 管理技术免费开放 + 4 条重要动态",
+      "excerpt": "这是 Agent 工程从「单兵作战」走向「军团协作」的标志性事件。对开发者而言，…",
+      "top_count": 5,
+      "file": "2026-09-18.json"
+    },
     {
       "date": "2026-09-17",
       "title": "今日 AI 日报：Mistral 与 Mozilla 联手，把开源、隐私、多语言 AI 塞进浏览器 + 4 条重要动态",
