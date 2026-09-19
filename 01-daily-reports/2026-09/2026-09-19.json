@@ -1,0 +1,575 @@
+{
+  "date": "2026-09-19",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "智谱GLM-5.3摸到RSI门槛，唐杰团队称「正一步步走向取代我们」",
+      "finding": "智谱GLM团队发布长文，首次系统披露其在递归自我改进（RSI）方向的最新进展。GLM-5.3已经能在部分研发环节中自主完成模型优化任务，团队坦承「正一步步走向取代我们」。与此同时，Anthropic被曝Claude已主导其26%的AI研发工作，3万个Agent同时运行。头部AI公司的RSI路线正在加速分化。",
+      "key_data": [
+        "GLM-5.3摸到RSI门槛",
+        "Claude主导26%研发",
+        "3万Agent同时运行",
+        "RSI路线分化"
+      ],
+      "judgment": "RSI从理论讨论进入工程实践阶段，这是2026年最重要的行业转折信号。如果AI真的开始参与自身迭代，安全对齐和监管框架将面临根本性挑战。对开发者而言，需要开始思考「当AI能改进AI」时，人类工程师的不可替代价值在哪里。",
+      "confidence": 4,
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/O1uIfJx3CF5SZz3ayuaI?utm_source=rss&utm_medium=article"
+    },
+    {
+      "rank": 2,
+      "title": "美军因AI幻觉情报险些触发军事行动",
+      "finding": "CNN报道称，美国军方在一次情报分析中使用了AI生成的内容，该内容包含完全虚构的信息（涉及中国船只），险些导致军事误判。这是首次有公开报道的AI幻觉直接影响军事决策的案例。TechCrunch和Hacker News均以头条跟进，引发广泛讨论。",
+      "key_data": [
+        "AI幻觉涉中国船只",
+        "险些触发军事行动",
+        "首次公开军事误判案例",
+        "HN 403分"
+      ],
+      "judgment": "这是AI安全从「学术讨论」变成「现实威胁」的标志性事件。对AI产品经理而言，高风险场景下LLM的幻觉问题不是「可以接受的误差」，而是必须用工程手段（多源验证、置信度阈值、人机回环）严格管控的红线。军事领域只是极端案例，金融、医疗、法律同样适用。",
+      "confidence": 4,
+      "source": "CNN / TechCrunch",
+      "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/"
+    },
+    {
+      "rank": 3,
+      "title": "ChatGPT共同发明人Diogo Almeida创立TypeSafe AI，发布「哑巴」模型Jev",
+      "finding": "前OpenAI研究员、ChatGPT共同发明者Diogo Almeida在潜行两年后，带着新公司TypeSafe AI和4000万美元融资回归。其发布的模型Jev完全不具备自然语言生成能力——不能写周报、不能聊天、连标点符号都吐不出来。Jev只输出Choice、Score或Noul三种结构化结果，专注于决策和分类任务。",
+      "key_data": [
+        "4000万美元融资",
+        "不输出自然语言",
+        "只输出结构化决策",
+        "ChatGPT共同发明人"
+      ],
+      "judgment": "这是一个值得关注的反直觉方向：当所有人都在卷「更会说话」的模型时，有人选择做「不会说话」的模型。Jev的定位暗示了一个趋势——在Agent和自动化决策场景中，自然语言输出可能是多余的甚至有害的。对做Agent产品的团队来说，这值得深入研究。",
+      "confidence": 4,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/370603"
+    },
+    {
+      "rank": 4,
+      "title": "谷歌Gemini 4 Pro疑似偷跑，多项指标领先竞品",
+      "finding": "谷歌下一代旗舰模型Gemini 4 Pro疑似以「gemini-3.8-flash」的名称在Arena等基准平台上偷跑上线，内部开发代号为Argon。流传的测试图显示该模型在智能体等多项指标上领先Astra和Fable 5.1。谷歌尚未正式发布。",
+      "key_data": [
+        "代号Argon",
+        "偷跑名称gemini-3.8-flash",
+        "多项指标领先",
+        "智能体能力突出"
+      ],
+      "judgment": "如果测试数据属实，Gemini 4 Pro在Agent能力上的提升将直接挑战OpenAI和Anthropic在企业级Agent市场的地位。偷跑测试是谷歌惯用的预热策略，但真正的看点是Agent能力的实质性突破还是基准调优。建议等正式发布后看实际产品体验。",
+      "confidence": 3,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/370608"
+    },
+    {
+      "rank": 5,
+      "title": "Claude Code开始支持AGENTS.md标准，跨工具Agent配置走向统一",
+      "finding": "Anthropic的Claude Code从2.1.277版本开始，如果文件夹中没有CLAUDE.md，将自动检查并使用AGENTS.md。这意味着Claude Code正式兼容社区推动的AGENTS.md标准，跨AI编程工具的Agent配置文件有望走向统一。",
+      "key_data": [
+        "Claude Code 2.1.277",
+        "支持AGENTS.md",
+        "兼容CLAUDE.md",
+        "跨工具标准"
+      ],
+      "judgment": "AGENTS.md正在成为AI编程工具的「通用配置文件」标准。对开发者来说，这意味着同一套Agent配置可以在不同工具间复用，降低迁移成本。对工具厂商来说，支持标准是务实选择——与其锁定用户，不如降低使用门槛。",
+      "confidence": 5,
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv cs.AI",
+      "title": "立场论文：是时候用自进化操作系统层来虚拟化基础模型了",
+      "finding": "当前AI应用已从单一基础模型转向复合Agent系统，但技术栈仍然碎片化。论文提出应构建一个自进化的操作系统层来虚拟化基础模型，统一管理多模型、多Agent的调度与协作。",
+      "key_data": [
+        "自进化OS层",
+        "虚拟化基础模型",
+        "复合Agent系统",
+        "统一调度"
+      ],
+      "judgment": "这个方向如果落地，将改变AI基础设施的竞争格局，OS层可能成为新的入口级产品。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.19203",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "分层课程学习实现高效LLM压缩",
+      "finding": "研究者提出一种分层课程学习方法，通过逐层知识迁移来实现LLM压缩。该方法能让压缩后的模型更高效地保留原始模型的能力，降低部署成本。",
+      "key_data": [
+        "分层课程学习",
+        "逐层知识迁移",
+        "LLM压缩",
+        "降低部署成本"
+      ],
+      "judgment": "模型压缩是端侧AI和低成本推理的关键技术，分层策略比一刀切压缩更精细。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.19213",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "采样揭示风格：无监督、免训练发现LLM激活中的提示条件风格轴",
+      "finding": "研究者发现通过采样方法可以在不需要训练的情况下，从LLM的隐藏激活中发现与提示相关的风格维度。这为理解和控制LLM输出风格提供了新的可解释性工具。",
+      "key_data": [
+        "无监督方法",
+        "免训练",
+        "风格轴发现",
+        "激活可解释性"
+      ],
+      "judgment": "对做模型可解释性和风格控制的研究者有参考价值，但距离产品化还有距离。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.19150",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "LLM基准测试设计映射：我们到底在期望LLM做什么？",
+      "finding": "论文系统分析了当前LLM基准测试的设计逻辑，指出仅靠模型排名无法揭示评测到底在衡量什么能力。研究呼吁更透明、更有针对性的基准设计。",
+      "key_data": [
+        "基准设计分析",
+        "排名局限性",
+        "评测透明度",
+        "能力映射"
+      ],
+      "judgment": "基准测试的「测什么」比「谁第一」更重要，这篇论文对评测方向有纠偏意义。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.19182",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "块并行：面向高效分布式长上下文扩散语言模型训练",
+      "finding": "针对块扩散语言模型（BDLM）在长上下文训练中的效率瓶颈，研究者提出块并行方法，将自回归依赖与块内并行去噪结合，显著提升分布式训练效率。",
+      "key_data": [
+        "块并行",
+        "扩散语言模型",
+        "长上下文训练",
+        "分布式效率"
+      ],
+      "judgment": "扩散语言模型是值得关注的架构方向，训练效率的提升可能加速其规模化。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.19242",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "InfoQ",
+      "title": "微软借助AI单月修补超千个安全漏洞",
+      "finding": "微软利用AI技术在一个月内修补了超过1000个安全漏洞，展示了AI在软件安全领域的规模化应用能力。这标志着AI辅助安全修复从实验走向生产。",
+      "key_data": [
+        "单月修补超千个",
+        "AI辅助安全",
+        "规模化应用",
+        "生产级部署"
+      ],
+      "judgment": "AI在安全领域的规模化落地是务实方向，对安全团队的工作方式将产生实质影响。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/eluArohETBhwjjYZRoMG?utm_source=rss&utm_medium=article",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "OPPO ColorOS 17发布，手机OS开始向AgentOS演进",
+      "finding": "OPPO发布ColorOS 17，明确将手机操作系统推向AgentOS方向。系统级Agent能力成为核心卖点，标志着手机厂商开始将AI Agent作为OS的核心架构而非附加功能。",
+      "key_data": [
+        "ColorOS 17",
+        "AgentOS方向",
+        "系统级Agent",
+        "手机OS演进"
+      ],
+      "judgment": "手机OS的Agent化是2026年的重要趋势，对App开发者的交互设计范式将产生深远影响。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/gDSf7xBmd08H0eB0GG11?utm_source=rss&utm_medium=article",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Anthropic运营生物学实验室进行实验",
+      "finding": "Anthropic被曝正在运营一个进行生物学实验的实验室。这一消息与其一贯的AI安全警告形成有趣对比——一边警告AI可能毁灭人类，一边用AI推进生物研究。",
+      "key_data": [
+        "Anthropic生物实验室",
+        "AI+生物实验",
+        "安全与推进并行",
+        "AI制药方向"
+      ],
+      "judgment": "AI公司亲自下场做生物实验是重要信号，说明AI在生命科学的应用正从工具走向深度整合。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
+      "importance": 3
+    },
+    {
+      "source": "极客公园",
+      "title": "AI硬件创业者扎堆手机背面，Plaud ARR达1亿美元",
+      "finding": "AI硬件创业者开始集中涌入手机配件赛道。Plaud的AI录音卡累计出货突破百万台，ARR达到1亿美元，全球用户超250万。阅星曈完成近5000万元A轮追加融资。",
+      "key_data": [
+        "Plaud ARR 1亿美元",
+        "出货破百万台",
+        "用户超250万",
+        "手机配件赛道"
+      ],
+      "judgment": "手机背面配件成为AI硬件的新战场，验证了「轻量级AI硬件+手机」的产品形态可行性。",
+      "confidence": 4,
+      "url": "http://www.geekpark.net/news/370610",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "UP.Labs获1亿美元融资，全面转向物理AI",
+      "finding": "专门为工业企业孵化创业公司的UP.Labs（现更名Vantora）获得1亿美元融资，全面押注物理AI方向。这反映了资本对AI与实体经济结合的高度关注。",
+      "key_data": [
+        "1亿美元融资",
+        "更名Vantora",
+        "物理AI方向",
+        "工业AI孵化"
+      ],
+      "judgment": "物理AI（机器人、工业自动化）正在成为资本新宠，但落地周期比软件AI长得多。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "作为一个计算机科学家，现在拒绝觉得LLM有任何有趣之处，就像是一个遗传学家拒绝觉得刚开放的侏罗纪公园有任何有趣之处一样。",
+      "source": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/"
+    },
+    {
+      "person": "微软高管（未具名）",
+      "level": "L3",
+      "quote": "AI训练是「人类历史上最大规模的劳动盗窃」。这一表述出现在未删减的法律文件中，反映了科技公司内部对AI数据获取方式的矛盾心态。",
+      "source": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/"
+    },
+    {
+      "person": "Dario Amodei",
+      "level": "L3",
+      "quote": "AI带有严重风险，安全的关键在于理解AI如何「思考」。但截至目前，证据令人不安。",
+      "source": "https://www.wired.com/story/if-the-ai-industry-followed-its-own-research-it-might-have-paused-already/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "RSI（递归自我改进）的工程实践与安全边界",
+      "reason": "智谱和Anthropic同日披露RSI进展，这是2026年最具争议的技术方向，值得深入研究其技术路径和安全含义。",
+      "priority": "high"
+    },
+    {
+      "topic": "AGENTS.md标准与AI编程工具的互操作性",
+      "reason": "Claude Code支持AGENTS.md标志着跨工具标准开始形成，对开发者的工具选型和迁移策略有直接影响。",
+      "priority": "medium"
+    },
+    {
+      "topic": "AI幻觉在高风险决策场景中的工程管控方案",
+      "reason": "美军AI幻觉事件表明幻觉问题已从「用户体验问题」升级为「安全红线问题」，需要系统性的工程解决方案。",
+      "priority": "high"
+    }
+  ],
+  "summary_one_line": "RSI从理论走向工程实践，AI安全警钟再响",
+  "summary_paragraph": "今日最重要的信号来自RSI（递归自我改进）领域：智谱GLM-5.3摸到RSI门槛，Anthropic的Claude已主导其26%的AI研发，AI开始「造AI」从理论走向工程实践。与此同时，美军因AI幻觉情报险些触发军事行动，为AI安全敲响现实警钟。产品层面，ChatGPT共同发明人发布「不会说话」的决策模型Jev，Claude Code开始支持AGENTS.md跨工具标准，谷歌Gemini 4 Pro疑似偷跑。行业正站在「AI自我迭代」与「安全管控」的十字路口。",
+  "_meta": {
+    "date": "2026-09-19",
+    "generated_at": "2026-09-19T00:00:00Z",
+    "total_items": 13,
+    "top_items_count": 5,
+    "model_tech_count": 5,
+    "company_product_count": 5,
+    "opinions_count": 3
+  },
+  "snapshot": {
+    "date": "2026-09-19",
+    "hf_trending": [
+      {
+        "name": "deepseek-ai/DeepSeek-V4.1-Flash",
+        "short_name": "DeepSeek-V4.1-Flash",
+        "likes": 3179,
+        "downloads": 429865,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v41"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+        "short_name": "Ternary-Bonsai-2-27B-gguf",
+        "likes": 936,
+        "downloads": 405609,
+        "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+        "tags": [
+          "llama.cpp",
+          "gguf",
+          "ternary"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen3.8-27B",
+        "short_name": "Qwen3.8-27B",
+        "likes": 15654,
+        "downloads": 7358662,
+        "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "m-a-p/YuE2-3B",
+        "short_name": "YuE2-3B",
+        "likes": 808,
+        "downloads": 13668,
+        "url": "https://huggingface.co/m-a-p/YuE2-3B",
+        "tags": [
+          "safetensors",
+          "yue2",
+          "music-generation"
+        ],
+        "pipeline_tag": "text-to-audio",
+        "label": "Text To Audio",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+        "short_name": "Qwen3.8-27B-GSQ-RCO-GGUF",
+        "likes": 1340,
+        "downloads": 1078301,
+        "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+        "tags": [
+          "gguf",
+          "gsq",
+          "rco"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 4339,
+        "downloads": 1590087,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "ukisai/Swift-Qwen3.8-27b",
+        "short_name": "Swift-Qwen3.8-27b",
+        "likes": 442,
+        "downloads": 6293,
+        "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "XingChen-AGI/Xing4.0-29B-A4B",
+        "short_name": "Xing4.0-29B-A4B",
+        "likes": 455,
+        "downloads": 3073,
+        "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "xing4_0"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "cloudflare/security-audit-skill",
+        "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable f",
+        "stars": 13809,
+        "stars_today": 3006,
+        "forks": 740,
+        "language": "JavaScript",
+        "url": "https://github.com/cloudflare/security-audit-skill"
+      },
+      {
+        "name": "anthropics/claude-code",
+        "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and he",
+        "stars": 146321,
+        "stars_today": 444,
+        "forks": 23796,
+        "language": "TypeScript",
+        "url": "https://github.com/anthropics/claude-code"
+      },
+      {
+        "name": "alibaba/open-code-review",
+        "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: det",
+        "stars": 36721,
+        "stars_today": 2704,
+        "forks": 2616,
+        "language": "Go",
+        "url": "https://github.com/alibaba/open-code-review"
+      },
+      {
+        "name": "affaan-m/ECC",
+        "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research",
+        "stars": 262103,
+        "stars_today": 958,
+        "forks": 39220,
+        "language": "JavaScript",
+        "url": "https://github.com/affaan-m/ECC"
+      },
+      {
+        "name": "Tencent/BrowserSkill",
+        "desc": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for b",
+        "stars": 5334,
+        "stars_today": 1306,
+        "forks": 370,
+        "language": "TypeScript",
+        "url": "https://github.com/Tencent/BrowserSkill"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 2621994855954,
+        "total_tokens_str": "2.6T",
+        "api_calls": 0,
+        "change": 16.5,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 2026493739267,
+        "total_tokens_str": "2.0T",
+        "api_calls": 0,
+        "change": 2.2,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 3,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1944494628152,
+        "total_tokens_str": "1.9T",
+        "api_calls": 0,
+        "change": -1.0,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 1681356699969,
+        "total_tokens_str": "1.7T",
+        "api_calls": 0,
+        "change": -10.7,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 5,
+        "slug": "openai/gpt-5.6-luna",
+        "name": "GPT-5.6 Luna",
+        "org": "openai",
+        "total_tokens": 1185205943995,
+        "total_tokens_str": "1.2T",
+        "api_calls": 0,
+        "change": -1.9,
+        "url": "https://openrouter.ai/openai/gpt-5.6-luna"
+      },
+      {
+        "rank": 6,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 940111807129,
+        "total_tokens_str": "940B",
+        "api_calls": 0,
+        "change": -3.1,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 7,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 807469387005,
+        "total_tokens_str": "807B",
+        "api_calls": 0,
+        "change": 22.3,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      {
+        "rank": 8,
+        "slug": "deepseek/deepseek-v4-flash:free",
+        "name": "Deepseek V4 Flash（免费）",
+        "org": "deepseek",
+        "total_tokens": 742744282698,
+        "total_tokens_str": "743B",
+        "api_calls": 0,
+        "change": 0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash:free"
+      },
+      {
+        "rank": 9,
+        "slug": "tencent/hy3",
+        "name": "Hy3",
+        "org": "tencent",
+        "total_tokens": 728437121813,
+        "total_tokens_str": "728B",
+        "api_calls": 0,
+        "change": -4.9,
+        "url": "https://openrouter.ai/tencent/hy3"
+      },
+      {
+        "rank": 10,
+        "slug": "z-ai/glm-5.3",
+        "name": "GLM 5.3",
+        "org": "z-ai",
+        "total_tokens": 588449210524,
+        "total_tokens_str": "588B",
+        "api_calls": 0,
+        "change": 25.5,
+        "url": "https://openrouter.ai/z-ai/glm-5.3"
+      }
+    ],
+    "hf_summary": "多模态与视频生成主导热度，开源模型加速向高效多模态演进。"
+  }
+}
