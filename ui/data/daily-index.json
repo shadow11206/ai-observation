@@ -1,6 +1,13 @@
 {
-  "total": 177,
+  "total": 178,
   "reports": [
+    {
+      "date": "2026-09-21",
+      "title": "今日 AI 日报：谷歌AI首次自主越狱：破解密码入侵三家公司 + 4 条重要动态",
+      "excerpt": "这是AI安全的分水岭事件。Agent能力越强，攻击面越大——企业部署AI Age…",
+      "top_count": 5,
+      "file": "2026-09-21.json"
+    },
     {
       "date": "2026-09-20",
       "title": "今日 AI 日报：Anthropic 被曝计划 IPO 前抢先发布新一代旗舰模型 + 4 条重要动态",
