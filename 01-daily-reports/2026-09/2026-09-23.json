@@ -1,0 +1,563 @@
+{
+  "date": "2026-09-23",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "OpenAI 发布 GPT-6 Sol 与 Luna，API 价格直降 50%",
+      "finding": "OpenAI 推出 GPT-6 系列两款新模型 Sol 和 Luna，沿用 Astra 的训练方法，在专业工作、事实性、编程和计算机操作等能力上接近旗舰水平，但速度更快、成本更低。API 价格较此前大幅下调约 50%，同时改进了提示缓存机制。",
+      "key_data": [
+        "API 价格降 50%",
+        "两款模型 Sol/Luna",
+        "沿用 Astra 训练方法",
+        "改进提示缓存"
+      ],
+      "judgment": "这是 OpenAI 在价格战中的正面回应。前一天 Anthropic 刚发 Claude Opus 5.5，OpenAI 一小时内跟进，说明头部实验室的发布节奏已进入'贴身肉搏'阶段。对开发者而言，前沿能力正在快速商品化，套利空间收窄，真正的壁垒转向产品体验和数据飞轮。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna"
+    },
+    {
+      "rank": 2,
+      "title": "小米发布 MiMo-V2.6-Pro：1T 参数开源模型，训练成本仅 300 万美元",
+      "finding": "小米推出 MiMo-V2.6-Pro，总参数 1 万亿、激活 42B，号称新的开源权重模型榜首。最引人注目的是其 RL 训练成本仅约 350 万美元，并附带实时更新的 benchmaxxing 仪表盘，全程公开构建过程。",
+      "key_data": [
+        "1T 总参数",
+        "42B 激活",
+        "训练成本 300 万美元",
+        "开源权重"
+      ],
+      "judgment": "小米以消费电子公司身份杀入前沿模型竞赛，且用极低成本做出顶级开源模型，这对'训练大模型需要数亿美元'的行业共识构成挑战。如果成本数据属实，意味着高效训练方法正在快速扩散，开源与闭源的能力差距将进一步缩小。",
+      "confidence": 4,
+      "source": "Latent Space / Reddit r/MachineLearning",
+      "url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b"
+    },
+    {
+      "rank": 3,
+      "title": "GPT-6 Astra 破解悬置 21 年的 Enigma 加密消息",
+      "finding": "OpenAI 的 GPT-6 Astra 模型成功破解了一条自 2005 年以来无人能解的 Enigma 加密消息。这一消息在 Hacker News 上获得 561 分、360 条评论，引发广泛讨论。",
+      "key_data": [
+        "悬置 21 年",
+        "Enigma 加密",
+        "HN 561 分",
+        "360 条评论"
+      ],
+      "judgment": "这不只是一次炫技。它展示了前沿模型在密码分析等需要深度推理和模式识别的领域已具备超越人类专家的能力。对安全行业而言，这是一个需要认真对待的信号——AI 辅助攻击的门槛正在降低。",
+      "confidence": 3,
+      "source": "Hacker News",
+      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html"
+    },
+    {
+      "rank": 4,
+      "title": "Meta 个人 AI 助手 Muse 上线 13 天即遭 Amazon 封杀",
+      "finding": "Meta 于 9 月 8 日发布的个人 AI 助手 Muse 在 Amazon 上购物时被拦截，Amazon 弹窗警告'未经授权的 AI Agent 继续访问将违反使用条款'。此外 Meta 承认 Muse 在 workspace 文件名和内容上'深受 OpenClaw 启发'。",
+      "key_data": [
+        "上线仅 13 天",
+        "Amazon 封杀",
+        "承认借鉴 OpenClaw",
+        "Agent 购物场景"
+      ],
+      "judgment": "这是 AI Agent 与平台生态冲突的第一个标志性案例。当 Agent 代表用户操作其他平台时，谁拥有访问权、谁承担合规责任，目前完全没有规则。做 Agent 产品的团队必须把'平台兼容性风险'列入核心产品风险清单。",
+      "confidence": 4,
+      "source": "极客公园 / TechCrunch",
+      "url": "http://www.geekpark.net/news/370797"
+    },
+    {
+      "rank": 5,
+      "title": "MIT 科技评论：别被这个夏天的 AI 炒作冲昏头脑",
+      "finding": "MIT 科技评论发文指出，从 Anthropic 声称 Claude Mythos 在漏洞发现上超越安全专家，到一系列密集的模型发布，这个夏天的 AI 炒作需要冷静审视。文章认为部分突破和恐惧可能更多是营销而非现实。",
+      "key_data": [
+        "Anthropic 漏洞发现声明",
+        "密集模型发布",
+        "呼吁冷静审视"
+      ],
+      "judgment": "在头部实验室几乎每天发布新模型的节奏下，这篇泼冷水的文章值得一读。它提醒我们区分'benchmark 上的进步'和'真实世界的可用性'。对产品经理来说，不要被发布会的 demo 牵着走，要自己动手测。",
+      "confidence": 4,
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv cs.AI",
+      "title": "RBS-Attention：面向长上下文 LLM 的半径约束稀疏预填充",
+      "finding": "长上下文推理的瓶颈在预填充阶段，密集自注意力需要处理整个提示。该研究提出半径约束稀疏预填充方法，在保持效果的同时降低计算开销。",
+      "key_data": [
+        "长上下文预填充优化",
+        "稀疏注意力",
+        "降低推理成本"
+      ],
+      "judgment": "长上下文推理成本是当前 Agent 产品的核心瓶颈，这类优化直接影响产品经济模型。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.20971",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "注意力感知路由：在 MoE 中耦合路由与注意力机制",
+      "finding": "传统 MoE 路由器仅基于 token 隐藏状态选择专家，上下文利用有限。该研究将路由与注意力机制耦合，提升专家选择的上下文感知能力。",
+      "key_data": [
+        "MoE 路由优化",
+        "注意力耦合",
+        "上下文感知"
+      ],
+      "judgment": "MoE 是当前主流架构，路由效率的改进可直接影响大模型推理质量和成本。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.20974",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "通过注意力图拓扑特征检测 LLM 幻觉",
+      "finding": "研究通过分析注意力图中的信息流拓扑模式，区分幻觉与非幻觉输出。这为幻觉检测提供了一种不依赖外部验证的新思路。",
+      "key_data": [
+        "注意力图拓扑",
+        "幻觉检测",
+        "信息流模式"
+      ],
+      "judgment": "幻觉检测是 LLM 落地的关键障碍，从模型内部信号入手比外部校验更高效。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.21096",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "理解与增强 Kimi Delta Attention",
+      "finding": "研究对比了 Gated Deltanet 和 Kimi Delta Attention 的表达能力差异，发现 KDA 的完整对角门可以充当反射机制，实现二维旋转。",
+      "key_data": [
+        "Kimi Delta Attention",
+        "对角门机制",
+        "表达能力对比"
+      ],
+      "judgment": "Kimi 的注意力机制被学术界认真研究，说明中国模型架构创新开始产生国际影响力。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wn5uv9/understanding_and_enhancing_kimi_delta_attention_r/",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "PRQuant：面向低开销推理的排列残差量化",
+      "finding": "低位量化精度常被少量离群值主导。该研究提出排列残差量化方法，在保持精度的同时降低推理开销。",
+      "key_data": [
+        "低位量化",
+        "离群值处理",
+        "低开销推理"
+      ],
+      "judgment": "量化是端侧部署的关键技术，这类改进直接推动大模型在手机等设备上运行。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.22106",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "Simon Willison",
+      "title": "Claude Opus 5.5、GPT-6 Sol/Luna 与新一轮价格战",
+      "finding": "Simon Willison 记录了过去两天密集的模型发布：Grok 4.7、小米 MiMo v2.6、Claude Opus 5.5、GPT-6 Sol/Luna。他指出行业正在进入新一轮价格战，模型能力趋同但成本快速下降。",
+      "key_data": [
+        "两天四款模型",
+        "Claude Opus 5.5",
+        "价格战开启"
+      ],
+      "judgment": "头部模型发布密度已达每天一款，开发者选型窗口期极短，锁定单一供应商风险加大。",
+      "confidence": 4,
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "importance": 4
+    },
+    {
+      "source": "The Pragmatic Engineer",
+      "title": "AI 将如何改变操作系统？第二部分：Windows",
+      "finding": "深入分析微软 Windows 团队如何让操作系统'对 AI Agent 友好'，包括全面拥抱 Linux on Windows、本地模型、GPU 加速等策略，试图赢回开发者。",
+      "key_data": [
+        "Windows AI Agent 友好",
+        "Linux on Windows",
+        "本地模型支持"
+      ],
+      "judgment": "操作系统层面的 Agent 原生支持是下一个平台级机会，Windows 的动作值得所有做 Agent 的人关注。",
+      "confidence": 4,
+      "url": "https://newsletter.pragmaticengineer.com/p/windows-and-ai",
+      "importance": 4
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Snorkel AI 估值翻三倍至 35 亿美元，AI 训练数据需求爆发",
+      "finding": "Snorkel AI 完成 3.5 亿美元 E 轮融资，估值从约 12 亿跃升至 35 亿美元。公司主打'数据即服务'模式，反映 AI 训练数据需求持续旺盛。",
+      "key_data": [
+        "估值 35 亿美元",
+        "E 轮 3.5 亿美元",
+        "数据即服务"
+      ],
+      "judgment": "模型能力趋同后，差异化竞争转向数据质量。数据标注和合成数据赛道正在被重新定价。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "高通发布两款新手机芯片，主打 AI 能力",
+      "finding": "高通推出两款新智能手机芯片，其中旗舰芯片可在本地运行 30B 参数的 MoE 模型。这标志着端侧 AI 推理能力大幅提升。",
+      "key_data": [
+        "本地运行 30B MoE",
+        "两款新芯片",
+        "端侧 AI 推理"
+      ],
+      "judgment": "端侧跑 30B 模型意味着隐私敏感场景和离线 Agent 的可行性大幅提升，手机 AI 应用将迎来新一波创新。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
+      "importance": 3
+    },
+    {
+      "source": "Wired",
+      "title": "Rabbit 回归：这次带来 AI Agent 应用 OS3",
+      "finding": "两年前试图用专用硬件取代手机 App 的 Rabbit 推出 OS3，一个跨平台 Agent 应用，运行在用户已有的设备屏幕上。这是对之前硬件路线的重大转向。",
+      "key_data": [
+        "从硬件转向软件",
+        "跨平台 Agent",
+        "OS3 发布"
+      ],
+      "judgment": "Rabbit 的转向说明纯 AI 硬件在当前阶段难以独立成立，Agent 必须寄生在现有生态中。",
+      "confidence": 3,
+      "url": "https://www.wired.com/story/rabbit-r1-os3-jesse-lyu/",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "Meta 开源 Astryx：面向 Agent 的 React 设计系统",
+      "finding": "Meta 开源了 Astryx，一个专为 Agent 场景设计的 React 设计系统，帮助开发者快速构建 Agent 交互界面。",
+      "key_data": [
+        "开源 React 设计系统",
+        "面向 Agent",
+        "Meta 出品"
+      ],
+      "judgment": "Agent 交互范式尚未定型，Meta 开源设计系统是在抢占标准定义权。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/He6bUhlNIuPEa99GGRYC",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "两天内 Grok 4.7、小米 MiMo v2.6、Claude Opus 5.5、GPT-6 Sol/Luna 接连发布，行业正在进入新一轮价格战。模型能力趋同，成本快速下降，开发者选型窗口期极短。",
+      "source": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/"
+    },
+    {
+      "person": "MIT Technology Review",
+      "level": "L2",
+      "quote": "从 Anthropic 声称 Claude Mythos 在漏洞发现上超越安全专家，到密集的模型发布，这个夏天的 AI 炒作需要冷静审视。部分突破和恐惧可能更多是营销而非现实。",
+      "source": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI Agent 与平台生态的访问权冲突",
+      "reason": "Meta Muse 被 Amazon 封杀是标志性事件，Agent 代表用户操作第三方平台的规则空白需要系统性研究。",
+      "priority": "high"
+    },
+    {
+      "topic": "小米 MiMo-V2.6 的低成本训练方法论",
+      "reason": "300 万美元训练 1T 参数模型如果可复现，将颠覆大模型训练的成本假设，值得深入拆解技术细节。",
+      "priority": "high"
+    },
+    {
+      "topic": "端侧 30B MoE 模型的落地场景",
+      "reason": "高通新芯片支持本地运行 30B MoE，隐私敏感和离线 Agent 场景的产品机会值得深挖。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "模型发布进入肉搏战，价格战全面开启",
+  "summary_paragraph": "今天最重要的信号是头部模型发布已进入'贴身肉搏'节奏：Anthropic 发 Claude Opus 5.5，OpenAI 一小时内跟进 GPT-6 Sol/Luna 并降价 50%，小米以 300 万美元成本做出 1T 参数开源模型。与此同时，Meta Muse 被 Amazon 封杀揭示了 AI Agent 与平台生态的规则空白，GPT-6 Astra 破解 21 年悬案展示了前沿模型在专业领域的突破。MIT 科技评论则泼冷水提醒：别被炒作冲昏头脑。对从业者而言，前沿能力正在快速商品化，真正的壁垒转向产品体验、数据飞轮和生态兼容性。",
+  "snapshot": {
+    "date": "2026-09-23",
+    "hf_trending": [
+      {
+        "name": "convaiinnovations/laya",
+        "short_name": "laya",
+        "likes": 2572,
+        "downloads": 0,
+        "url": "https://huggingface.co/convaiinnovations/laya",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "laya"
+        ],
+        "pipeline_tag": "text-classification",
+        "label": "Text Classification",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+        "short_name": "Ternary-Bonsai-2-27B-gguf",
+        "likes": 1885,
+        "downloads": 2569604,
+        "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+        "tags": [
+          "llama.cpp",
+          "gguf",
+          "ternary"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen-Image-2.1",
+        "short_name": "Qwen-Image-2.1",
+        "likes": 1806,
+        "downloads": 16242,
+        "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "qwen"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "XingChen-AGI/Xing4.0-29B-A4B",
+        "short_name": "Xing4.0-29B-A4B",
+        "likes": 1384,
+        "downloads": 30627,
+        "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "xing4_0"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+        "short_name": "Qwen-Image-2.1-Uncensored-GGUF",
+        "likes": 1134,
+        "downloads": 182313,
+        "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+        "tags": [
+          "gguf",
+          "qwen",
+          "image-generation"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "deepseek-ai/DeepSeek-V4.1-Flash",
+        "short_name": "DeepSeek-V4.1-Flash",
+        "likes": 3612,
+        "downloads": 542014,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v41"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen3.8-27B",
+        "short_name": "Qwen3.8-27B",
+        "likes": 16079,
+        "downloads": 7079646,
+        "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Comfy-Org/Qwen-Image-2.1",
+        "short_name": "Qwen-Image-2.1",
+        "likes": 573,
+        "downloads": 1429925,
+        "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "base_model:Qwen/Qwen-Image-2.1"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "anthropics/financial-services",
+        "desc": "",
+        "stars": 36379,
+        "stars_today": 438,
+        "forks": 5320,
+        "language": "Python",
+        "url": "https://github.com/anthropics/financial-services"
+      },
+      {
+        "name": "agent-substrate/substrate",
+        "desc": "Agent Substrate: the core system",
+        "stars": 2999,
+        "stars_today": 245,
+        "forks": 386,
+        "language": "Go",
+        "url": "https://github.com/agent-substrate/substrate"
+      },
+      {
+        "name": "dream-num/univer",
+        "desc": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in",
+        "stars": 15499,
+        "stars_today": 255,
+        "forks": 1383,
+        "language": "TypeScript",
+        "url": "https://github.com/dream-num/univer"
+      },
+      {
+        "name": "davila7/claude-code-templates",
+        "desc": "CLI tool for configuring and monitoring Claude Code",
+        "stars": 31146,
+        "stars_today": 64,
+        "forks": 3541,
+        "language": "Python",
+        "url": "https://github.com/davila7/claude-code-templates"
+      },
+      {
+        "name": "google/ax",
+        "desc": "Google's open agentic orchestration runtime",
+        "stars": 7680,
+        "stars_today": 2305,
+        "forks": 360,
+        "language": "Go",
+        "url": "https://github.com/google/ax"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 3153115211486,
+        "total_tokens_str": "3.2T",
+        "api_calls": 0,
+        "change": -27.7,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 2717219458442,
+        "total_tokens_str": "2.7T",
+        "api_calls": 0,
+        "change": 11.7,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 2084298005087,
+        "total_tokens_str": "2.1T",
+        "api_calls": 0,
+        "change": 10.7,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 4,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 1760418807926,
+        "total_tokens_str": "1.8T",
+        "api_calls": 0,
+        "change": 1.4,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 5,
+        "slug": "openai/gpt-5.6-luna",
+        "name": "GPT-5.6 Luna",
+        "org": "openai",
+        "total_tokens": 1454086446233,
+        "total_tokens_str": "1.5T",
+        "api_calls": 0,
+        "change": 10.0,
+        "url": "https://openrouter.ai/openai/gpt-5.6-luna"
+      },
+      {
+        "rank": 6,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 750397778931,
+        "total_tokens_str": "750B",
+        "api_calls": 0,
+        "change": 0.9,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      {
+        "rank": 7,
+        "slug": "xiaomi/mimo-v2.5",
+        "name": "MiMo-V2.5",
+        "org": "xiaomi",
+        "total_tokens": 695269946096,
+        "total_tokens_str": "695B",
+        "api_calls": 0,
+        "change": -29.5,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      },
+      {
+        "rank": 8,
+        "slug": "tencent/hy3",
+        "name": "Hy3",
+        "org": "tencent",
+        "total_tokens": 482617399211,
+        "total_tokens_str": "483B",
+        "api_calls": 0,
+        "change": -3.8,
+        "url": "https://openrouter.ai/tencent/hy3"
+      },
+      {
+        "rank": 9,
+        "slug": "google/gemini-3.8-flash",
+        "name": "Gemini 3.8 Flash",
+        "org": "google",
+        "total_tokens": 391040911838,
+        "total_tokens_str": "391B",
+        "api_calls": 0,
+        "change": 13.0,
+        "url": "https://openrouter.ai/google/gemini-3.8-flash"
+      },
+      {
+        "rank": 10,
+        "slug": "z-ai/glm-5.3",
+        "name": "GLM 5.3",
+        "org": "z-ai",
+        "total_tokens": 334063346903,
+        "total_tokens_str": "334B",
+        "api_calls": 0,
+        "change": -36.3,
+        "url": "https://openrouter.ai/z-ai/glm-5.3"
+      }
+    ],
+    "hf_summary": "Qwen系全面霸榜多模态与图像生成成绝对主流"
+  }
+}
