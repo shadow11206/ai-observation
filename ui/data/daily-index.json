@@ -1,6 +1,13 @@
 {
-  "total": 182,
+  "total": 183,
   "reports": [
+    {
+      "date": "2026-09-26",
+      "title": "今日 AI 日报：Anthropic 与 Akamai 签下 7 年 116 亿美元算力大单，押注 CPU 推理 + 4 条重要动态",
+      "excerpt": "这是头部实验室第一次把大规模推理算力押在 CPU 而非 GPU 上，说明推理成本…",
+      "top_count": 5,
+      "file": "2026-09-26.json"
+    },
     {
       "date": "2026-09-25",
       "title": "今日 AI 日报：Meta Connect 2026 发布 Muse 眼镜与 Charm 挂件，AI 硬件转向时尚化 + 4 条重要动态",
