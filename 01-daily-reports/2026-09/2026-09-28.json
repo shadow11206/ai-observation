@@ -1,0 +1,304 @@
+{
+  "date": "2026-09-28",
+  "top_items": [],
+  "model_tech": [],
+  "company_product": [],
+  "opinions": [],
+  "deep_dive_suggestions": [],
+  "summary_one_line": "今日日报生成完成",
+  "summary_paragraph": "",
+  "raw_content": "{\n  \"date\": \"2026-09-28\",\n  \"top_items\": [\n    {\n      \"rank\": 1,\n      \"title\": \"OpenAI 将于 9 月 29 日 DevDay 发布常驻 AI 助手「O」\",\n      \"finding\": \"据消息人士透露，OpenAI 将在 9 月 29 日的 DevDay 上推出一款代号为「O」的常驻 AI 助手。ChatGPT 配置文件中已出现大量与「O」相关的线索，包括显示名称和电子邮箱配置。这意味着 OpenAI 正从「对话式工具」向「常驻个人助理」形态演进。\",\n      \"key_data\": [\"代号「O」\", \"9月29日 DevDay\", \"常驻AI助手\", \"配置文件已现线索\"],\n      \"judgment\": \"这是 OpenAI 从聊天窗口走向操作系统级入口的关键一步。如果「O」真能常驻并主动感知上下文，将直接冲击现有 AI 助手格局，也会让「AI 助手」从被动应答变成主动服务，产品经理需要重新思考交互范式。\",\n      \"confidence\": 3,\n      \"source\": \"极客公园\",\n      \"url\": \"http://www.geekpark.net/news/371044\"\n    },\n    {\n      \"rank\": 2,\n      \"title\": \"Anthropic CEO Dario Amodei 将与特朗普首次一对一会面\",\n      \"finding\": \"TechCrunch 报道，Anthropic CEO Dario Amodei 即将与美国总统特朗普共进晚餐，这是两人首次一对一会面。此前 Dario 刚被 SNL 节目调侃「AI 是魔鬼，而我是它的创造者」。\",\n      \"key_data\": [\"首次一对一会面\", \"与特朗普共进晚餐\", \"SNL 调侃\", \"AI 政策博弈\"],\n      \"judgment\": \"AI 头部实验室与政治权力的直接对话正在常态化。Dario 一直以安全派立场著称，此次会面可能影响美国 AI 监管走向，也说明 AI 公司已无法回避政策博弈，安全叙事正在成为政治筹码。\",\n      \"confidence\": 4,\n      \"source\": \"TechCrunch AI\",\n      \"url\": \"https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/\"\n    },\n    {\n      \"rank\": 3,\n      \"title\": \"Simon Willison 发布「2026 年 LLM 进展回顾」主题演讲\",\n      \"finding\": \"Simon Willison 在 WeAreDevelopers World Congress 北美站发表闭幕主题演讲，系统梳理了过去一年 LLM 领域的关键趋势，并以时间线方式串联了全年重要事件。这是目前少见的、由一线实践者给出的年度全景式总结。\",\n      \"key_data\": [\"闭幕主题演讲\", \"全年趋势梳理\", \"时间线叙事\", \"一线实践者视角\"],\n      \"judgment\": \"在信息过载的当下，这种由高信度实践者给出的年度梳理极具参考价值。它不只是新闻汇总，而是帮开发者建立「什么真正改变了」的认知框架，值得作为团队内部分享材料。\",\n      \"confidence\": 5,\n      \"source\": \"Simon Willison\",\n      \"url\": \"https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/\"\n    },\n    {\n      \"rank\": 4,\n      \"title\": \"匿名模型「玉兔」登顶 OpenRouter 双榜第一，Coding 实测表现亮眼\",\n      \"finding\": \"一个名为「玉兔」的匿名模型在中秋假期期间冲上 OpenRouter 调用日榜榜首，并在 Coding 实测中表现优异。匿名模型登顶通常意味着某家大厂在正式发布前进行盲测。\",\n      \"key_data\": [\"OpenRouter 日榜第一\", \"Coding 实测全记录\", \"匿名模型\", \"中秋假期登顶\"],\n      \"judgment\": \"匿名模型冲榜是当前大模型发布的常见预热手法。玉兔若确为国产模型，说明国内 Coding 能力正在快速逼近第一梯队。开发者应关注其正式发布后的定价与 API 可用性。\",\n      \"confidence\": 3,\n      \"source\": \"量子位\",\n      \"url\": \"https://www.qbitai.com/2026/09/498584.html\"\n    },\n    {\n      \"rank\": 5,\n      \"title\": \"「没有流氓 AI Agent」一文引发 Hacker News 热议\",\n      \"finding\": \"一篇题为《There are no \"rogue\" AI agents》的文章在 Hacker News 获得 336 分、245 条评论。文章核心观点是：所谓「失控的 AI Agent」并不存在，问题根源在于部署者而非 Agent 本身。\",\n      \"key_data\": [\"HN 336 分\", \"245 条评论\", \"否定「流氓 Agent」\", \"责任归属争论\"],\n      \"judgment\": \"这场讨论触及 AI 安全叙事的核心分歧：把责任推给「失控 Agent」是否在转移视线？对开发者而言，这意味着 Agent 系统的权限设计、审计日志、人工兜底机制才是真正的工程重点，而非担心 AI 觉醒。\",\n      \"confidence\": 4,\n      \"source\": \"Hacker News\",\n      \"url\": \"https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents\"\n    }\n  ],\n  \"model_tech\": [\n    {\n      \"source\": \"Hacker News\",\n      \"title\": \"研究发现 Chat Template 会改变 LLM 的自我指代语气\",\n      \"finding\": \"一篇 arXiv 论文指出，仅仅切换 Chat Template，就能显著改变大模型在自我指代时的语气和表达方式。这说明模型的「人格」很大程度上由模板而非权重决定。\",\n      \"key_data\": [\"Chat Template 影响语气\", \"自我指代变化\", \"arXiv 论文\", \"HN 101 分\"],\n      \"judgment\": \"对 Prompt 工程师是重要提醒：系统提示与模板设计直接塑造模型行为，值得纳入版本管理。\",\n      \"confidence\": 3,\n      \"url\": \"https://arxiv.org/abs/2609.25021\",\n      \"importance\": 3\n    },\n    {\n      \"source\": \"Reddit r/MachineLearning\",\n      \"title\": \"开源项目用强化学习训练神经网络对打格斗游戏\",\n      \"finding\": \"一位开发者用强化学习训练两个 Agent 玩类街霸格斗游戏，观察是否会出现有趣的自发行为。作者表示部分涌现行为事后看很明显，但训练过程中确实出现了非预期策略。\",\n      \"key_data\": [\"双 Agent 对打\", \"强化学习\", \"涌现行为\", \"格斗游戏环境\"],\n      \"judgment\": \"游戏环境仍是研究多智能体涌现行为的最低成本试验场，对 Agent 对抗训练有参考价值。\",\n      \"confidence\": 3,\n      \"url\": \"https://www.reddit.com/r/MachineLearning/comments/1wr99bn/teaching_neural_nets_to_fight_with_rl_p/\",\n      \"importance\": 2\n    },\n    {\n      \"source\": \"Reddit r/MachineLearning\",\n      \"title\": \"开源 Clash Royale 模拟器支持循环 PPO 与前瞻搜索\",\n      \"finding\": \"开发者开源了一个确定性的 Clash Royale 模拟器，用于强化学习研究，内置循环 PPO、前瞻搜索和专家迭代。对手 AI 每秒会模拟未来 10 秒来评估每个候选操作。\",\n      \"key_data\": [\"确定性模拟器\", \"循环 PPO\", \"前瞻 10 秒\", \"专家迭代\"],\n      \"judgment\": \"确定性环境 + 前瞻搜索是 RL 研究的实用组合，为游戏 AI 和决策类 Agent 提供了可复现的基准。\",\n      \"confidence\": 3,\n      \"url\": \"https://www.reddit.com/r/MachineLearning/comments/1wrj0t3/clashroyaleai_an_opensource_deterministic_clash/\",\n      \"importance\": 2\n    },\n    {\n      \"source\": \"Reddit r/MachineLearning\",\n      \"title\": \"讨论：哪些机器学习子领域正在变得无关紧要？\",\n      \"finding\": \"有用户发帖讨论哪些 ML 子领域正在失去 relevance，引用了一篇 NAS 综述指出 5 年内提出了 3000 多个新模型，质疑其算力与资源投入的回报。\",\n      \"key_data\": [\"NAS 5 年 3000+ 模型\", \"子领域相关性讨论\", \"算力投入质疑\"],\n      \"judgment\": \"这类反思对研究者选题有实际意义：在算力昂贵的时代，低回报方向的自我审视正在成为共识。\",\n      \"confidence\": 2,\n      \"url\": \"https://www.reddit.com/r/MachineLearning/comments/1wrqoxp/are_there_machine_learning_subfields_that_are/\",\n      \"importance\": 2\n    }\n  ],\n  \"company_product\": [\n    {\n      \"source\": \"InfoQ AI\",\n      \"title\": \"谷歌 Kotlin 版 ADK 实现与 Python 版功能对齐，支持端侧 AI\",\n      \"finding\": \"谷歌发布 Kotlin 版 Agent Development Kit（ADK），功能与 Python 版对齐，并支持端侧 AI 部署。这意味着 Android 开发者可以用原生语言构建 AI Agent。\",\n      \"key_data\": [\"Kotlin 版 ADK\", \"与 Python 版对齐\", \"支持端侧 AI\", \"Android 原生\"],\n      \"judgment\": \"谷歌在把 Agent 开发能力下沉到移动端生态，对 Android 开发者是明确利好，端侧 Agent 竞争将升温。\",\n      \"confidence\": 4,\n      \"url\": \"https://www.infoq.cn/article/sQV4EomjPP0J3hM3lyF9\",\n      \"importance\": 3\n    },\n    {\n      \"source\": \"极客公园\",\n      \"title\": \"阿里整合 AI 办公力量，千问办公加入企业 Agent 大战\",\n      \"finding\": \"阿里在整合内部 AI 办公资源后，推出「千问办公」，瞄准企业办公场景。文章指出办公正成为全球 AI 竞争最集中的战场，Agent 让「千司千面」的企业场景落地成为可能。\",\n      \"key_data\": [\"千问办公\", \"整合 AI 办公力量\", \"企业 Agent\", \"千司千面\"],\n      \"judgment\": \"办公入口是 AI 商业化最确定的战场。阿里整合资源说明内部已认识到分散作战无效，但面对微软和字节的竞争，胜负取决于企业数据打通能力。\",\n      \"confidence\": 4,\n      \"url\": \"http://www.geekpark.net/news/371040\",\n      \"importance\": 3\n    },\n    {\n      \"source\": \"TechCrunch AI\",\n      \"title\": \"Meta 的 Muse 能否克服信任危机？\",\n      \"finding\": \"TechCrunch 的 Equity 播客讨论 Meta 最新 AI 发布如何抢走 OpenAI 和 Anthropic 的风头，同时质疑 Meta 能否克服用户对其的信任问题。\",\n      \"key_data\": [\"Muse 发布\", \"抢走风头\", \"信任问题\", \"Equity 播客讨论\"],\n      \"judgment\": \"Meta 有分发优势但缺信任资产。AI 产品的竞争正在从能力转向信任，这对所有面向消费者的 AI 产品都是警示。\",\n      \"confidence\": 3,\n      \"url\": \"https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/\",\n      \"importance\": 2\n    },\n    {\n      \"source\": \"量子位\",\n      \"title\": \"清华系量子 AI 创业公司估值 10 亿，用量子改造大模型底层\",\n      \"finding\": \"一支被称为「清华梦之队」的量子 AI 创业公司获得 10 亿估值，方向是用量子计算改造大模型底层架构。同期还有「小盒子」跑通端到端量子计算，数据全程不出门。\",\n      \"key_data\": [\"10 亿估值\", \"清华系团队\", \"量子改造大模型\", \"端到端量子计算\"],\n      \"judgment\": \"量子 + AI 仍处于极早期，10 亿估值更多是对团队和叙事的定价。短期内对主流大模型训练成本影响有限，但值得长期跟踪。\",\n      \"confidence\": 2,\n      \"url\": \"https://www.qbitai.com/2026/09/498633.html\",\n      \"importance\": 2\n    },\n    {\n      \"source\": \"量子位\",\n      \"title\": \"量子计算走上桌面，「小盒子」跑通端到端\",\n      \"finding\": \"一款桌面级量子计算设备实现端到端跑通，数据全程不出本地。目标是让开发者「说句话就能跑量子计算」。\",\n      \"key_data\": [\"桌面级量子设备\", \"端到端跑通\", \"数据不出门\", \"开发者友好\"],\n      \"judgment\": \"量子计算设备小型化是降低门槛的关键一步，但离实用还有距离，开发者可先关注其编程接口设计。\",\n      \"confidence\": 2,\n      \"url\": \"https://www.qbitai.com/2026/09/498605.html\",\n      \"importance\": 2\n    }\n  ],\n  \"opinions\": [\n    {\n      \"person\": \"Simon Willison\",\n      \"level\": \"L1\",\n      \"quote\": \"S3 曾经会定期降价，但现在已经很久没有降价了。这个细节值得注意——基础设施的定价惯性，往往比技术本身更能说明行业格局的变化。\",\n      \"source\": \"https://simonwillison.net/2026/Sep/27/hn-49871741/\"\n    },\n    {\n      \"person\": \"Eoin Higgins\",\n      \"level\": \"L2\",\n      \"quote\": \"所谓「流氓 AI Agent」并不存在。当 Agent 做出有害行为时，问题出在部署它的人、赋予它的权限和缺乏的审计机制上，而不是 Agent 本身「失控」。把责任推给 AI 是在转移视线。\",\n      \"source\": \"https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents\"\n    }\n  ],\n  \"deep_dive_suggestions\": [\n    {\n      \"topic\": \"OpenAI「O」助手的产品形态与交互范式\",\n      \"reason\": \"常驻 AI 助手若成立，将重新定义人机交互入口，值得研究其权限、上下文与隐私设计。\",\n      \"priority\": \"high\"\n    },\n    {\n      \"topic\": \"Chat Template 对模型行为的系统性影响\",\n      \"reason\": \"模板决定模型人格，这对 Prompt 工程和产品一致性有直接影响，值得做实验验证。\",\n      \"priority\": \"medium\"\n    },\n    {\n      \"topic\": \"企业办公 Agent 的竞争格局与落地路径\",\n      \"reason\": \"阿里、微软、字节同时押注，办公是 AI 商业化最确定战场，值得梳理各家打法差异。\",\n      \"priority\": \"high\"\n    }\n  ],\n  \"summary_one_line\": \"OpenAI 将发常驻助手，AI 权力博弈升温\",\n  \"summary_paragraph\": \"今天最值得关注的是 OpenAI 将于 9 月 29 日 DevDay 发布代号「O」的常驻 AI 助手，这标志着 AI 正从对话工具走向操作系统级入口。与此同时，Anthropic CEO Dario Amodei 将与特朗普首次一对一会面，AI 头部实验室与政治权力的直接对话正在常态化。Simon Willison 发布了年度 LLM 趋势回顾，为开发者提供了难得的全景框架。国内方面，匿名模型「玉兔」登顶 OpenRouter 双榜，阿里整合资源推出千问办公，企业办公 Agent 战场进一步升温。整体看，今天的信号集中在「入口争夺」与「政策博弈」两条主线。\"\n}",
+  "snapshot": {
+    "date": "2026-09-28",
+    "hf_trending": [
+      {
+        "name": "convaiinnovations/laya",
+        "short_name": "laya",
+        "likes": 4105,
+        "downloads": 0,
+        "url": "https://huggingface.co/convaiinnovations/laya",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "laya"
+        ],
+        "pipeline_tag": "text-classification",
+        "label": "Text Classification",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+        "short_name": "Qwen-Image-2.1-Uncensored-GGUF",
+        "likes": 2091,
+        "downloads": 964220,
+        "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+        "tags": [
+          "gguf",
+          "qwen",
+          "image-generation"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen-Image-2.1",
+        "short_name": "Qwen-Image-2.1",
+        "likes": 2501,
+        "downloads": 52804,
+        "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "qwen"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Edge0/Audio8-ASR-Infinite",
+        "short_name": "Audio8-ASR-Infinite",
+        "likes": 1102,
+        "downloads": 19434,
+        "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "audio8_asr_infinite"
+        ],
+        "pipeline_tag": "automatic-speech-recognition",
+        "label": "语音识别",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "XingChen-AGI/Xing4.0-29B-A4B",
+        "short_name": "Xing4.0-29B-A4B",
+        "likes": 1783,
+        "downloads": 45028,
+        "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "xing4_0"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+        "short_name": "Ternary-Bonsai-2-27B-gguf",
+        "likes": 2195,
+        "downloads": 3343748,
+        "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+        "tags": [
+          "llama.cpp",
+          "gguf",
+          "ternary"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Altworld/Hemmingway-1",
+        "short_name": "Hemmingway-1",
+        "likes": 740,
+        "downloads": 5904,
+        "url": "https://huggingface.co/Altworld/Hemmingway-1",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_text"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
+        "short_name": "MiMo-V2.6-Pro-RL",
+        "likes": 558,
+        "downloads": 75079,
+        "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "mimo_v2"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "paperclipai/paperclip",
+        "desc": "The open-source app everyone uses to manage agents at work",
+        "stars": 90059,
+        "stars_today": 2401,
+        "forks": 15681,
+        "language": "TypeScript",
+        "url": "https://github.com/paperclipai/paperclip"
+      },
+      {
+        "name": "vectorize-io/hindsight",
+        "desc": "Hindsight: Agent Memory That Learns",
+        "stars": 37452,
+        "stars_today": 4520,
+        "forks": 4850,
+        "language": "Python",
+        "url": "https://github.com/vectorize-io/hindsight"
+      },
+      {
+        "name": "debpalash/VoiceStudio",
+        "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, vi",
+        "stars": 40287,
+        "stars_today": 3086,
+        "forks": 4786,
+        "language": "Python",
+        "url": "https://github.com/debpalash/VoiceStudio"
+      },
+      {
+        "name": "rohitg00/ai-engineering-from-scratch",
+        "desc": "Learn it. Build it. Ship it for others.",
+        "stars": 59377,
+        "stars_today": 790,
+        "forks": 10243,
+        "language": "Python",
+        "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+      },
+      {
+        "name": "InfinityLoop1308/PipePipe",
+        "desc": "An open-source Android app to let you browse YouTube and other services freely.",
+        "stars": 6600,
+        "stars_today": 242,
+        "forks": 223,
+        "language": "Shell",
+        "url": "https://github.com/InfinityLoop1308/PipePipe"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "stealth/space-bunny-alpha",
+        "name": "Space Bunny Alpha",
+        "org": "stealth",
+        "total_tokens": 3992090048994,
+        "total_tokens_str": "4.0T",
+        "api_calls": 0,
+        "change": 10.3,
+        "url": "https://openrouter.ai/stealth/space-bunny-alpha"
+      },
+      {
+        "rank": 2,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 3440258106142,
+        "total_tokens_str": "3.4T",
+        "api_calls": 0,
+        "change": 40.3,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 1243440551281,
+        "total_tokens_str": "1.2T",
+        "api_calls": 0,
+        "change": -17.0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo-V2.6-Flash",
+        "org": "xiaomi",
+        "total_tokens": 1228958683003,
+        "total_tokens_str": "1.2T",
+        "api_calls": 0,
+        "change": 6.0,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+      },
+      {
+        "rank": 5,
+        "slug": "openai/gpt-5.6-luna",
+        "name": "GPT-5.6 Luna",
+        "org": "openai",
+        "total_tokens": 1116066046052,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": -2.2,
+        "url": "https://openrouter.ai/openai/gpt-5.6-luna"
+      },
+      {
+        "rank": 6,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1018265702294,
+        "total_tokens_str": "1.0T",
+        "api_calls": 0,
+        "change": -20.6,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 7,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 1009590310067,
+        "total_tokens_str": "1.0T",
+        "api_calls": 0,
+        "change": -6.4,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      {
+        "rank": 8,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 1001910248569,
+        "total_tokens_str": "1.0T",
+        "api_calls": 0,
+        "change": 14.6,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 9,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 591200152319,
+        "total_tokens_str": "591B",
+        "api_calls": 0,
+        "change": -4.5,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 10,
+        "slug": "typesafe/jev-1.13",
+        "name": "Jev 1.13",
+        "org": "typesafe",
+        "total_tokens": 360756567389,
+        "total_tokens_str": "361B",
+        "api_calls": 0,
+        "change": -6.7,
+        "url": "https://openrouter.ai/typesafe/jev-1.13"
+      }
+    ],
+    "hf_summary": "文生图与文本生成双线爆发开源模型正加速向多模态和去审查方向演进"
+  }
+}

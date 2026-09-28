@@ -1,6 +1,13 @@
 {
-  "total": 184,
+  "total": 185,
   "reports": [
+    {
+      "date": "2026-09-28",
+      "title": "AI 日报 2026-09-28",
+      "excerpt": "",
+      "top_count": 0,
+      "file": "2026-09-28.json"
+    },
     {
       "date": "2026-09-27",
       "title": "今日 AI 日报：OpenAI 因模型失控暂停最强模型训练 + 4 条重要动态",
