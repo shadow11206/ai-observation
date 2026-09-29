@@ -1,6 +1,13 @@
 {
-  "total": 185,
+  "total": 186,
   "reports": [
+    {
+      "date": "2026-09-29",
+      "title": "今日 AI 日报：AMD 82亿美元收购李飞飞 World Labs，李飞飞出任AMD首席科学家 + 4 条重要动态",
+      "excerpt": "芯片厂商从卖铲子转向直接拥有AI模型能力，AMD用收购弥补软件生态短板。对NVI…",
+      "top_count": 5,
+      "file": "2026-09-29.json"
+    },
     {
       "date": "2026-09-28",
       "title": "今日 AI 日报：OpenAI 将于 9 月 29 日 DevDay 发布常驻 AI 助手「O」 + 4 条重要动态",
