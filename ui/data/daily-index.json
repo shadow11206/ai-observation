@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-10-01",
-      "title": "今日 AI 日报：OpenAI DevDay 2026：Dots、GPT-6.1 Sol、Ultrafast、Decisions API、Agents API 全线发布，ChatGPT 周活达 12 亿 + 4 条重要动态",
-      "excerpt": "这是 OpenAI 迄今最自信的一次 DevDay，从模型公司全面转向 Agen…",
+      "title": "今日 AI 日报：谷歌发布 Gemini 4 Argon：号称史上最强模型，但只对政府与安全团队开放 + 4 条重要动态",
+      "excerpt": "这是前沿模型发布策略的一次明显转向：能力越强，越先给政府和防御方用，而不是先给开…",
       "top_count": 5,
       "file": "2026-10-01.json"
     },
