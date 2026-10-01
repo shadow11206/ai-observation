@@ -1,6 +1,13 @@
 {
-  "total": 187,
+  "total": 188,
   "reports": [
+    {
+      "date": "2026-10-01",
+      "title": "今日 AI 日报：OpenAI DevDay 2026：Dots、GPT-6.1 Sol、Ultrafast、Decisions API、Agents API 全线发布，ChatGPT 周活达 12 亿 + 4 条重要动态",
+      "excerpt": "这是 OpenAI 迄今最自信的一次 DevDay，从模型公司全面转向 Agen…",
+      "top_count": 5,
+      "file": "2026-10-01.json"
+    },
     {
       "date": "2026-09-30",
       "title": "今日 AI 日报：OpenAI DevDay 2026：GPT-6.1 Sol 以五分之一价格提供接近 Astra 的能力 + 4 条重要动态",
