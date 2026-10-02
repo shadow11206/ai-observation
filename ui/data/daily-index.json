@@ -1,6 +1,13 @@
 {
-  "total": 188,
+  "total": 189,
   "reports": [
+    {
+      "date": "2026-10-02",
+      "title": "今日 AI 日报：谷歌发布 Gemini 4 Argon，多项基准碾压 GPT-6 Astra，价格仅对手一半 + 4 条重要动态",
+      "excerpt": "这是谷歌在模型竞赛中首次在基测上全面领先，且用半价策略直接打击 OpenAI 的…",
+      "top_count": 5,
+      "file": "2026-10-02.json"
+    },
     {
       "date": "2026-10-01",
       "title": "今日 AI 日报：谷歌发布 Gemini 4 Argon：号称史上最强模型，但只对政府与安全团队开放 + 4 条重要动态",

@@ -1,0 +1,560 @@
+{
+  "date": "2026-10-02",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "谷歌发布 Gemini 4 Argon，多项基准碾压 GPT-6 Astra，价格仅对手一半",
+      "finding": "谷歌 DeepMind 突然发布 Gemini 4 Argon，在多项基础测试中超过 OpenAI 的 GPT-6 Astra 和 Anthropic 的 Opus 系列，且价格只有 Astra 的一半。该模型已参与谷歌内部 80 万行内核代码迁移，但目前仅向政府用户和 Fairwind 计划中的可信网络安全防御者开放试用。",
+      "key_data": [
+        "价格仅 Astra 一半",
+        "80万行内核代码迁移",
+        "暂不公开试用",
+        "1M 输出长度"
+      ],
+      "judgment": "这是谷歌在模型竞赛中首次在基测上全面领先，且用半价策略直接打击 OpenAI 的企业客户。但限制访问意味着谷歌在安全审查和商业推广之间选择了前者，短期内不会改变市场格局，真正的冲击要等公开发布。",
+      "confidence": 4,
+      "source": "量子位 / InfoQ / Latent Space",
+      "url": "https://www.qbitai.com/2026/10/499663.html"
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI 与 Synopsys 联合发布 GPT-Synopsys，AI 正式进入芯片设计核心流程",
+      "finding": "OpenAI 与全球最大芯片 EDA 工具商 Synopsys 联合发布 GPT-Synopsys，定位为前沿智能芯片设计系统。这是大模型首次深度嵌入芯片设计这一高度专业化的工业流程，而非停留在辅助编码层面。",
+      "key_data": [
+        "OpenAI x Synopsys",
+        "芯片设计全流程",
+        "EDA 巨头合作",
+        "前沿智能定位"
+      ],
+      "judgment": "这标志着 AI 从写代码走向设计芯片本身，是 AI 渗透硬科技产业链的关键一步。对芯片工程师来说，未来 2-3 年工作方式将被根本性改变；对 AI 公司来说，这是从通用能力向垂直工业场景变现的标杆案例。",
+      "confidence": 4,
+      "source": "Hacker News / Synopsys",
+      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design"
+    },
+    {
+      "rank": 3,
+      "title": "FTC 对 OpenAI、Anthropic 等 AI 公司展开产品风险调查",
+      "finding": "美国联邦贸易委员会（FTC）正式对 OpenAI、Anthropic 及其他 AI 公司展开调查，重点关注其产品对消费者可能造成的风险。这是美国监管机构迄今对 AI 行业最直接的执法行动。",
+      "key_data": [
+        "FTC 正式调查",
+        "OpenAI/Anthropic 在列",
+        "产品风险评估",
+        "监管升级信号"
+      ],
+      "judgment": "AI 行业从「自律为主」进入「监管介入」阶段。对头部公司来说，合规成本将显著上升；对创业公司来说，产品上线前的安全审查可能成为新的竞争壁垒。这也解释了为什么谷歌选择限制 Gemini 4 的访问范围。",
+      "confidence": 4,
+      "source": "CNBC / Hacker News",
+      "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html"
+    },
+    {
+      "rank": 4,
+      "title": "AI Agent 安全漏洞曝光：可被「蠕虫式」攻击在 Agent 间传播",
+      "finding": "密码学专家 Matthew Green 指出，当前 AI Agent 架构存在系统性安全缺陷：攻击者可以构造一个「载荷」劫持 Agent，被劫持的 Agent 又会将载荷传播给下一个 Agent，形成类似蠕虫的传播链。即使 Agent 运行在隔离沙箱中，跨 Agent 通信仍可被利用。",
+      "key_data": [
+        "Agent 间蠕虫传播",
+        "沙箱隔离失效",
+        "跨 Agent 通信风险",
+        "系统性架构缺陷"
+      ],
+      "judgment": "这是 Agent 大规模落地前必须解决的安全问题。当前所有 Agent 框架（LangChain、AutoGen 等）都未对此类攻击做充分防护。如果企业级 Agent 部署前不解决这个问题，一次攻击可能瘫痪整条 Agent 流水线。",
+      "confidence": 4,
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/1/matthew-green/"
+    },
+    {
+      "rank": 5,
+      "title": "ChatGPT 上线虚拟试衣功能，AI 购物闭环再进一步",
+      "finding": "OpenAI 为 ChatGPT 推出购物新功能，用户可以用自己的照片虚拟试穿衣服和配饰，并将喜欢的商品保存到收藏库。这是 ChatGPT 从对话助手向电商入口转型的又一实质性动作。",
+      "key_data": [
+        "虚拟试穿",
+        "个人照片上传",
+        "收藏库功能",
+        "电商闭环"
+      ],
+      "judgment": "ChatGPT 正在从「帮你找商品」变成「帮你决定买什么」，直接切入电商决策环节。这对传统电商平台的搜索和推荐系统构成威胁，也为品牌商提供了新的投放渠道。OpenAI 的广告/佣金商业模式越来越清晰。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Hugging Face Blog",
+      "title": "Allen AI 发布 Olmo-core 3：面向大型 MoE 的开源可扩展训练基础设施",
+      "finding": "Allen AI 推出 Olmo-core 3，提供了一套开源的大规模 MoE 模型训练基础设施，支持可扩展的分布式训练。这是继 Olmo 系列模型后，Allen AI 在开源 AI 基础设施层面的又一重要贡献。",
+      "key_data": [
+        "开源训练框架",
+        "支持大型 MoE",
+        "可扩展分布式",
+        "Allen AI 出品"
+      ],
+      "judgment": "开源社区终于有了对标 DeepSeek 训练效率的公开基础设施方案，降低了训练 MoE 模型的门槛。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/allenai/olmocore3",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "系统提示词的「幻觉」：指令前导如何改变语言模型内部计算",
+      "finding": "研究发现系统提示词并非简单地「告诉模型做什么」，而是从根本上改变了 Transformer 内部的计算路径。这意味着同一个问题在不同系统提示下，模型可能走完全不同的推理逻辑，而非仅仅改变输出风格。",
+      "key_data": [
+        "系统提示改变计算路径",
+        "非表面风格调整",
+        "Transformer 内部机制",
+        "提示工程理论基础"
+      ],
+      "judgment": "为提示工程提供了理论解释：好的系统提示不是「说清楚要求」，而是「引导正确的计算路径」。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.38205",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "AI Agent 可被激进化：LLM 之间的相互影响与操纵",
+      "finding": "研究首次系统性地证明 LLM Agent 之间存在相互操纵的风险：一个 Agent 可以影响另一个 Agent 的信念和行为，且这种影响可以级联传播。这为多 Agent 系统的安全性敲响警钟。",
+      "key_data": [
+        "Agent 间相互操纵",
+        "信念级联传播",
+        "多 Agent 安全",
+        "首次系统研究"
+      ],
+      "judgment": "多 Agent 协作系统的安全隐患比预想更严重，企业在部署 Agent 集群时需加入「信念一致性」检查。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.38296",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "TomasuLLM：面向 LLM Agent 的乱序推测执行加速方案",
+      "finding": "针对编码 Agent 中长时间工具调用（编译器、测试套件等）导致的延迟问题，研究者提出 TomasuLLM 方案，通过乱序推测执行让 Agent 在等待工具返回时提前执行后续步骤，显著降低端到端延迟。",
+      "key_data": [
+        "乱序推测执行",
+        "降低 Agent 延迟",
+        "编码场景优化",
+        "工具调用加速"
+      ],
+      "judgment": "直接解决 Agent 编码场景的核心痛点——等待工具返回时的空转，有望被 Cursor 等产品快速采纳。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.38201",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "从 Pass@K 与 Pass@1 的差距中学习：RLVR 训练新方法",
+      "finding": "研究者发现 Pass@K 和 Pass@1 之间的差距包含了丰富的训练信号，可以利用这个差距来改进基于可验证奖励的强化学习（RLVR）训练效果，让模型在单次尝试中表现更好。",
+      "key_data": [
+        "Pass@K vs Pass@1",
+        "RLVR 训练优化",
+        "利用差距信号",
+        "提升单次准确率"
+      ],
+      "judgment": "为 RLVR 训练提供了新的优化维度，对提升推理模型的单次输出质量有直接价值。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.35793",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "TechCrunch",
+      "title": "OpenAI 与三名安全研究员解除关系，内部调查称其不当处理敏感信息",
+      "finding": "据 WSJ 报道，OpenAI 在一次内部调查后与三名安全研究员解除合作关系，理由是他们在处理公司敏感信息时存在不当行为。这是 OpenAI 安全团队近期又一次人员变动。",
+      "key_data": [
+        "3 名安全研究员",
+        "内部调查",
+        "敏感信息处理",
+        "安全团队动荡"
+      ],
+      "judgment": "OpenAI 安全团队持续动荡，结合 FTC 调查，其安全治理能力正受到内外双重质疑。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "谷歌：SpaceX 星舰需发射 1800 次才能支撑太空数据中心",
+      "finding": "谷歌在将首颗先进芯片送入轨道后表示，要让太空数据中心具备实际可行性，SpaceX 星舰需要发射约 1800 次。这揭示了太空计算基础设施面临的巨大物流挑战。",
+      "key_data": [
+        "1800 次发射",
+        "首颗芯片入轨",
+        "太空数据中心",
+        "物流瓶颈"
+      ],
+      "judgment": "太空数据中心短期内不现实，但谷歌此举是在为 10 年后的算力布局卡位，信号意义大于实际。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
+      "importance": 2
+    },
+    {
+      "source": "Ars Technica",
+      "title": "内存芯片短缺预计持续至 2028 年，AI 需求是主要推手",
+      "finding": "美光 CEO 表示，内存供应紧张状况将持续到 2028 年，2027 年的内存售价将「远高于 2026 年」。AI 训练和推理对高带宽内存的需求是核心驱动因素。",
+      "key_data": [
+        "短缺持续至 2028",
+        "2027 价格更高",
+        "AI 需求驱动",
+        "美光 CEO 表态"
+      ],
+      "judgment": "AI 算力扩张正在挤压整个半导体供应链，内存成本上升将传导至云服务价格，最终由 AI 用户买单。",
+      "confidence": 4,
+      "url": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/",
+      "importance": 4
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Opus 5.5 的写作「指纹」：最爱说「这很重要」和「可靠」",
+      "finding": "分析发现 Anthropic 的 Opus 5.5 在写作中有明显的用词偏好，「可靠」（dependable）一词出现频率是人类的 23 倍，「这很重要」也是高频表达。这些「AI 写作指纹」可用于检测 AI 生成内容。",
+      "key_data": [
+        "dependable 频率高 23 倍",
+        "AI 写作指纹",
+        "可检测特征",
+        "Opus 5.5 特有"
+      ],
+      "judgment": "AI 写作检测正在从「统计特征」走向「模型指纹」，但这也意味着模型厂商可以刻意消除这些特征。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
+      "importance": 2
+    },
+    {
+      "source": "OpenAI Blog",
+      "title": "Albertsons 用 ChatGPT Enterprise 和 OpenAI API 重塑零售运营",
+      "finding": "美国大型连锁超市 Albertsons 正在使用 ChatGPT Enterprise 和 OpenAI API 帮助团队提升工作效率，并为数百万顾客简化购物体验。这是 OpenAI 在企业零售领域的又一标杆客户。",
+      "key_data": [
+        "ChatGPT Enterprise",
+        "零售巨头客户",
+        "数百万顾客",
+        "企业级落地"
+      ],
+      "judgment": "OpenAI 的企业客户从科技公司向传统零售扩展，说明 LLM 的企业级应用正在跨越行业鸿沟。",
+      "confidence": 4,
+      "url": "https://openai.com/index/albertsons-reimagining-retail",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Matthew Green",
+      "level": "L1",
+      "quote": "把碎片拼起来，你就得到了蠕虫的两半：一个劫持 Agent 的载荷，和一个会把载荷带给下一个 Agent 的 Agent。即使 Agent 运行在各自隔离的沙箱中，跨 Agent 通信仍然可以被利用。",
+      "source": "https://simonwillison.net/2026/Oct/1/matthew-green/"
+    },
+    {
+      "person": "Alex Zhang",
+      "level": "L1",
+      "quote": "学术界需要野心。RLM（强化学习模型）的第一作者、MIT 博士 Alex Zhang 讨论了博士最大化策略和 harness 的未来——当前 AI 研究中最稀缺的不是算力，而是敢于挑战大问题的野心。",
+      "source": "https://www.latent.space/p/rlm"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI Agent 间蠕虫式攻击的防御方案",
+      "reason": "这是 Agent 大规模部署前必须解决的安全问题，当前所有主流框架均无有效防护",
+      "priority": "high"
+    },
+    {
+      "topic": "Gemini 4 Argon 的技术细节与竞争格局影响",
+      "reason": "谷歌首次在基测上全面领先且半价策略，需深入分析其技术路线和对 OpenAI 的实质威胁",
+      "priority": "high"
+    },
+    {
+      "topic": "GPT-Synopsys 如何改变芯片设计工作流",
+      "reason": "AI 进入芯片设计核心流程是硬科技领域的标志性事件，值得研究其技术实现和行业影响",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "谷歌半价 Gemini 4 突袭，FTC 调查与 Agent 安全漏洞敲响警钟",
+  "summary_paragraph": "今日 AI 行业呈现「进攻与防守」并行的格局。进攻端，谷歌突然发布 Gemini 4 Argon，多项基测碾压 GPT-6 Astra 且价格仅一半，OpenAI 则联手 Synopsys 将 AI 嵌入芯片设计核心流程，ChatGPT 上线虚拟试衣进一步逼近电商闭环。防守端，FTC 正式对 OpenAI、Anthropic 展开产品风险调查，密码学专家曝光 AI Agent 存在蠕虫式传播漏洞，OpenAI 安全团队再失三名研究员。此外，内存短缺预计持续至 2028 年，AI 算力扩张正在重塑整个半导体供应链。行业正从「能力竞赛」进入「能力与安全并重」的新阶段。",
+  "snapshot": {
+    "date": "2026-10-02",
+    "hf_trending": [
+      {
+        "name": "convaiinnovations/laya",
+        "short_name": "laya",
+        "likes": 4867,
+        "downloads": 0,
+        "url": "https://huggingface.co/convaiinnovations/laya",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "laya"
+        ],
+        "pipeline_tag": "text-classification",
+        "label": "Text Classification",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "XingChen-AGI/TeleOCR",
+        "short_name": "TeleOCR",
+        "likes": 1230,
+        "downloads": 31584,
+        "url": "https://huggingface.co/XingChen-AGI/TeleOCR",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen2_5_vl"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+        "short_name": "Qwen-Image-2.1-Uncensored-GGUF",
+        "likes": 2714,
+        "downloads": 1303476,
+        "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+        "tags": [
+          "gguf",
+          "qwen",
+          "image-generation"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen-Image-2.1",
+        "short_name": "Qwen-Image-2.1",
+        "likes": 2793,
+        "downloads": 76938,
+        "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "qwen"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Contrastive-LM/CLM-v0.1-8B",
+        "short_name": "CLM-v0.1-8B",
+        "likes": 625,
+        "downloads": 2720,
+        "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
+        "tags": [
+          "contrastive-lm",
+          "clm",
+          "contrastive-learning"
+        ],
+        "pipeline_tag": "text-ranking",
+        "label": "Text Ranking",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 5861,
+        "downloads": 1588619,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen3.8-27B",
+        "short_name": "Qwen3.8-27B",
+        "likes": 16731,
+        "downloads": 6950834,
+        "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Cloudflare/clef",
+        "short_name": "clef",
+        "likes": 345,
+        "downloads": 18,
+        "url": "https://huggingface.co/Cloudflare/clef",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "DietrichGebert/ponytail",
+        "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you nev",
+        "stars": 150565,
+        "stars_today": 1194,
+        "forks": 8083,
+        "language": "JavaScript",
+        "url": "https://github.com/DietrichGebert/ponytail"
+      },
+      {
+        "name": "mattpocock/skills",
+        "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+        "stars": 273939,
+        "stars_today": 883,
+        "forks": 23000,
+        "language": "Shell",
+        "url": "https://github.com/mattpocock/skills"
+      },
+      {
+        "name": "NVIDIA/OpenShell",
+        "desc": "OpenShell is the safe, private runtime for autonomous AI agents.",
+        "stars": 14043,
+        "stars_today": 2456,
+        "forks": 1630,
+        "language": "Rust",
+        "url": "https://github.com/NVIDIA/OpenShell"
+      },
+      {
+        "name": "firebase/firebase-ios-sdk",
+        "desc": "Firebase SDK for Apple App Development",
+        "stars": 6865,
+        "stars_today": 112,
+        "forks": 1807,
+        "language": "C++",
+        "url": "https://github.com/firebase/firebase-ios-sdk"
+      },
+      {
+        "name": "mvschwarz/openrig",
+        "desc": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared",
+        "stars": 3752,
+        "stars_today": 642,
+        "forks": 249,
+        "language": "TypeScript",
+        "url": "https://github.com/mvschwarz/openrig"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "stealth/space-bunny-alpha",
+        "name": "Space Bunny Alpha",
+        "org": "stealth",
+        "total_tokens": 5166688701553,
+        "total_tokens_str": "5.2T",
+        "api_calls": 0,
+        "change": -3.1,
+        "url": "https://openrouter.ai/stealth/space-bunny-alpha"
+      },
+      {
+        "rank": 2,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 3549412353474,
+        "total_tokens_str": "3.5T",
+        "api_calls": 0,
+        "change": 1.7,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1479787406091,
+        "total_tokens_str": "1.5T",
+        "api_calls": 0,
+        "change": 4.1,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 1427163123794,
+        "total_tokens_str": "1.4T",
+        "api_calls": 0,
+        "change": -1.0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 5,
+        "slug": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo-V2.6-Flash",
+        "org": "xiaomi",
+        "total_tokens": 1340271290700,
+        "total_tokens_str": "1.3T",
+        "api_calls": 0,
+        "change": -8.2,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+      },
+      {
+        "rank": 6,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 1161202170943,
+        "total_tokens_str": "1.2T",
+        "api_calls": 0,
+        "change": 7.3,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 7,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 755803809994,
+        "total_tokens_str": "756B",
+        "api_calls": 0,
+        "change": 10.2,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      {
+        "rank": 8,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 672539410375,
+        "total_tokens_str": "673B",
+        "api_calls": 0,
+        "change": -35.8,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 9,
+        "slug": "typesafe/jev-1.13",
+        "name": "Jev 1.13",
+        "org": "typesafe",
+        "total_tokens": 503135217969,
+        "total_tokens_str": "503B",
+        "api_calls": 0,
+        "change": -1.0,
+        "url": "https://openrouter.ai/typesafe/jev-1.13"
+      },
+      {
+        "rank": 10,
+        "slug": "openai/gpt-6-astra",
+        "name": "GPT-6 Astra",
+        "org": "openai",
+        "total_tokens": 459821328032,
+        "total_tokens_str": "460B",
+        "api_calls": 0,
+        "change": 192.8,
+        "url": "https://openrouter.ai/openai/gpt-6-astra"
+      }
+    ],
+    "hf_summary": "多模态与生成模型霸榜 开源生态正加速向统一大模型收敛"
+  }
+}
