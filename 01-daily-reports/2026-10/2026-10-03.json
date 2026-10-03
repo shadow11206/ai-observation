@@ -1,0 +1,566 @@
+{
+  "date": "2026-10-03",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "OpenAI 发布 GPT-6 系列模型选型指南",
+      "finding": "OpenAI 官方发布了一份面向创业公司的 GPT-6 家族模型使用指南，涵盖如何选择不同型号、调节推理强度、优化提示词与技能、协调工具调用，以及为生产环境准备工作流。这是 GPT-6 系列发布后首次系统性给出落地方法论。",
+      "key_data": [
+        "GPT-6 家族",
+        "推理强度可调",
+        "面向创业公司",
+        "生产环境部署"
+      ],
+      "judgment": "OpenAI 从卖模型转向卖方法论，说明模型能力差距正在缩小，竞争焦点转移到'怎么用好'。对开发者而言，官方指南降低了选型成本，但也意味着单纯靠模型能力做差异化的窗口在关闭。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6"
+    },
+    {
+      "rank": 2,
+      "title": "苹果收紧 macOS 全盘访问权限，明确针对 AI Agent 风险",
+      "finding": "苹果宣布将新增 macOS 全盘访问权限的控制措施，警告越来越强大的 AI Agent 让用户文件、消息、邮件和浏览记录的广泛访问变得危险。此前 ChatGPT Mac 应用刚被曝出一个可让黑客窃取敏感数据的漏洞。",
+      "key_data": [
+        "全盘访问收紧",
+        "AI Agent 风险",
+        "ChatGPT Mac 漏洞",
+        "macOS 安全"
+      ],
+      "judgment": "操作系统开始把 AI Agent 当作安全威胁来对待，这是标志性转折。Agent 产品必须重新设计权限模型，'全盘访问'的粗放模式将不可持续，沙箱化和最小权限会成为标配。",
+      "confidence": 5,
+      "source": "Ars Technica / TechCrunch",
+      "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/"
+    },
+    {
+      "rank": 3,
+      "title": "arXiv 出台史上最严投稿新规：每人每月最多 2 篇",
+      "finding": "arXiv 宣布限制每位作者每月最多提交 2 篇论文，且拒稿不退还额度，换区投稿也无法规避。这是 arXiv 面对 AI 论文洪水的首次硬性限流措施。",
+      "key_data": [
+        "每月限 2 篇",
+        "拒稿不退额度",
+        "换区无效",
+        "AI 论文洪水"
+      ],
+      "judgment": "arXiv 被 AI 论文淹没到必须限流，反映的是整个学术评价体系的失灵。对研究者意味着投稿策略要更谨慎，对行业意味着'arXiv 刷量'的性价比大幅下降，质量将重新压过数量。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/499958.html"
+    },
+    {
+      "rank": 4,
+      "title": "MIT 科技评论：别被骗了，大模型不会推理",
+      "finding": "MIT 科技评论发表长文，以 AlphaGo 第 37 手为引子，论证当前大语言模型并不具备真正的推理能力，只是在进行复杂的模式匹配。文章引发广泛讨论，HN 上相关话题超过 200 条评论。",
+      "key_data": [
+        "LLM 不推理",
+        "模式匹配",
+        "AlphaGo 第37手",
+        "HN 200+ 评论"
+      ],
+      "judgment": "在推理模型（o系列、R1）被热炒的当下，这类泼冷水的观点值得重视。它提醒产品经理：不要把'看起来在推理'等同于'可靠推理'，高风险场景仍需人工兜底和验证机制。",
+      "confidence": 4,
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/"
+    },
+    {
+      "rank": 5,
+      "title": "AI 在 Stratego 上首次击败人类最强选手，且成本极低",
+      "finding": "在信息高度隐藏的棋盘游戏 Stratego 中，AI 首次击败了史上最强人类选手，且据报道是在低预算条件下完成的。相关研究发表在 Nature 并同步在 arXiv 公开。",
+      "key_data": [
+        "Stratego 首次攻克",
+        "击败最强人类",
+        "低预算",
+        "Nature 发表"
+      ],
+      "judgment": "继围棋、扑克之后，不完美信息博弈再下一城。这类研究的意义不在游戏本身，而在于验证 AI 在信息不完整、需要欺骗与反欺骗的真实决策场景中的能力，对谈判、安全、军事推演有直接启发。",
+      "confidence": 4,
+      "source": "Ars Technica / Nature",
+      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv cs.CL",
+      "title": "系统提示词幻觉：指令前导如何改变语言模型内部计算",
+      "finding": "研究发现系统提示词并非简单地'告诉模型做什么'，而是实质性地改变了 Transformer 内部的计算路径。这意味着提示词工程的效果有更深层的机制解释，而非表面指令遵循。",
+      "key_data": [
+        "系统提示词",
+        "改变内部计算",
+        "非表面指令",
+        "机制解释"
+      ],
+      "judgment": "提示词工程从玄学走向可解释，为更可靠的模型控制方法铺路。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.38205",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "TomasuLLM：面向 LLM Agent 的乱序推测执行",
+      "finding": "针对编码 Agent 中编译器、测试套件等长耗时工具导致 Agent 空转的问题，提出乱序推测执行方法，让 Agent 在等待工具返回时提前推进后续步骤，显著降低延迟。",
+      "key_data": [
+        "乱序推测执行",
+        "降低 Agent 延迟",
+        "编码 Agent",
+        "工具调用优化"
+      ],
+      "judgment": "Agent 效率优化的关键方向，直接改善编码 Agent 的实际使用体验。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2609.38201",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "长程语言 Agent 中的重尾记忆轨迹",
+      "finding": "研究指出长程 Agent 越来越依赖外部记忆作为'冻结的世界模型'，但当前记忆系统只用任务成功率来评估，忽略了记忆访问分布的重尾特性，可能导致评估失真。",
+      "key_data": [
+        "重尾分布",
+        "外部记忆",
+        "评估失真",
+        "长程 Agent"
+      ],
+      "judgment": "Agent 记忆系统的评估标准需要重写，现有 benchmark 可能高估了记忆能力。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.00010",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "从提案到验证效果：Praxa——受治理的 AI Agent 执行框架",
+      "finding": "提出 Praxa 框架，将 Agent 的提案、授权、调度、已验证外部效果和服务上线区分开来，解决当前 Agent 执行链路中权限与效果验证混为一谈的问题。",
+      "key_data": [
+        "执行链路分离",
+        "效果验证",
+        "权限治理",
+        "Agent 框架"
+      ],
+      "judgment": "企业级 Agent 落地的关键基础设施，权限与效果验证分离是合规刚需。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.00015",
+      "importance": 3
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "AutoSynthData：为企业 Agent 生成训练数据",
+      "finding": "ServiceNow AI 团队开源 AutoSynthData 方法，用于自动生成企业 Agent 的训练数据，解决企业场景下高质量标注数据稀缺的问题。",
+      "key_data": [
+        "自动生成训练数据",
+        "企业 Agent",
+        "ServiceNow",
+        "开源方法"
+      ],
+      "judgment": "企业 Agent 的数据瓶颈有了新解法，合成数据正在成为标配。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "Latent Space",
+      "title": "Pi 1.0 发布：极简 Agent 框架走向稳定，支持 TypeScript",
+      "finding": "Swyx 在 Latent Space 报道，极简 Agent 框架 Pi 发布 1.0 稳定版，并推出 Pi Durable 和 TypeScript 支持。该框架主打'最小化 harness'理念，与当前重型 Agent 框架形成对比。",
+      "key_data": [
+        "Pi 1.0 稳定版",
+        "TypeScript 支持",
+        "极简 harness",
+        "Pi Durable"
+      ],
+      "judgment": "Agent 框架开始分化：一派做重（LangGraph），一派做轻（Pi）。轻量派更适合快速原型和可控性要求高的场景。",
+      "confidence": 4,
+      "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Meta 免费开放 Muse 代码，鼓励开发者自建 AI 硬件",
+      "finding": "Meta 将 Muse 的代码免费开放，鼓励开发者把 Muse 集成到电视、烤面包机等各种设备中，推动其 AI 能力进入更多硬件形态。",
+      "key_data": [
+        "Muse 代码免费",
+        "自建 AI 硬件",
+        "多设备集成",
+        "Meta 生态"
+      ],
+      "judgment": "Meta 在用开源换生态，复制 Android 打法。硬件厂商需评估是否愿意把 AI 层交给 Meta。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Sean Parker 围绕音乐重建 Stability AI",
+      "finding": "Sean Parker 正在围绕音乐方向重建 Stability AI，并已获得唱片公司的支持与资金。这标志着这家曾经的图像生成标杆公司战略重心大幅转移。",
+      "key_data": [
+        "Sean Parker 主导",
+        "转向音乐",
+        "唱片公司支持",
+        "战略重建"
+      ],
+      "judgment": "Stability 从图像生成红海撤退，转向有版权合作壁垒的音乐赛道，是务实的求生选择。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "openJiuwen X-Router 自演进模型路由技术首发，实测减少 50%+ Token 消耗",
+      "finding": "openJiuwen 发布 X-Router 自演进模型路由技术，针对昇腾平台优化，让 Agent 在每次请求时自动选择最合适的模型，实测可减少 50% 以上的 Token 消耗。",
+      "key_data": [
+        "减少 50%+ Token",
+        "自演进路由",
+        "昇腾亲和",
+        "Agent 降本"
+      ],
+      "judgment": "模型路由是 Agent 降本最直接的杠杆，50% 的 Token 节省对企业级部署是实质性利好。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/10/500098.html",
+      "importance": 3
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "Allen AI 开源 AstaBrief：Asta 中的快速报告生成模型",
+      "finding": "Allen AI 开源了 AstaBrief，这是其 Asta 平台中用于快速生成报告的核心模型，面向科研场景的文献综述和报告撰写。",
+      "key_data": [
+        "开源模型",
+        "报告生成",
+        "Allen AI",
+        "科研场景"
+      ],
+      "judgment": "科研报告生成是 AI 落地的高价值垂直场景，开源降低了学术工具的门槛。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Greg Kroah-Hartman",
+      "level": "L1",
+      "quote": "在 LLM 时代，安全问题不再只是代码漏洞，而是模型生成内容的不可预测性。Linux 内核维护者需要重新思考如何审查 AI 生成的补丁，因为攻击面从'代码逻辑'扩展到了'模型行为'。",
+      "source": "https://www.youtube.com/watch?v=NnV_cWeoo5Q"
+    },
+    {
+      "person": "Ahmad Al-Dahle",
+      "level": "L1",
+      "quote": "在领导 Meta Llama 之后，我现在在 Airbnb 用 AI 重塑从团队开发产品的方式到服务客人的全流程。关键不是加一个 AI 功能，而是让 AI 成为产品开发的内生环节。",
+      "source": "https://www.latent.space/p/airbnb"
+    },
+    {
+      "person": "Andrew Kelley",
+      "level": "L1",
+      "quote": "我禁止 AI 贡献代码，并将 Zig 从 GitHub 移出。不是因为 AI 不好，而是因为 AI 生成的代码贡献会稀释社区信任和代码审查的意义。开源项目需要的是有责任感的贡献者，不是批量生成的补丁。",
+      "source": "https://www.infoq.cn/article/eRbEA3dMd58RNPqp5D8S"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI Agent 的操作系统级权限模型重构",
+      "reason": "苹果已动手，Agent 产品必须重新设计权限与沙箱，这是未来 6 个月的产品刚需。",
+      "priority": "high"
+    },
+    {
+      "topic": "模型路由与 Agent 成本优化工程",
+      "reason": "50% Token 节省是实打实的利润，路由策略正在成为 Agent Infra 的核心竞争力。",
+      "priority": "high"
+    },
+    {
+      "topic": "arXiv 限流对 AI 学术生态的连锁反应",
+      "reason": "投稿限流会改变研究者的发表策略、招聘评价和开源社区的论文驱动模式。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "苹果对 Agent 动手，arXiv 限流，GPT-6 出指南。",
+  "summary_paragraph": "今天最重要的信号来自安全与治理层面：苹果因 AI Agent 风险收紧 macOS 全盘访问权限，ChatGPT Mac 应用刚曝漏洞，操作系统开始把 Agent 当威胁对待；arXiv 出台史上最严投稿限流，每人每月最多 2 篇，AI 论文洪水倒逼学术评价体系调整。产品侧，OpenAI 发布 GPT-6 系列选型指南，从卖模型转向卖方法论；Meta 免费开放 Muse 代码抢硬件生态；Stability AI 转向音乐重建。研究侧，AI 首次在 Stratego 上击败人类最强选手，MIT 科技评论则泼冷水称 LLM 不会推理。一句话：能力在涨，但治理、成本、可信度的短板正在成为新的主战场。",
+  "snapshot": {
+    "date": "2026-10-03",
+    "hf_trending": [
+      {
+        "name": "convaiinnovations/laya",
+        "short_name": "laya",
+        "likes": 5005,
+        "downloads": 0,
+        "url": "https://huggingface.co/convaiinnovations/laya",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "laya"
+        ],
+        "pipeline_tag": "text-classification",
+        "label": "Text Classification",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Cloudflare/clef",
+        "short_name": "clef",
+        "likes": 789,
+        "downloads": 824,
+        "url": "https://huggingface.co/Cloudflare/clef",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+        "short_name": "Qwen-Image-2.1-Uncensored-GGUF",
+        "likes": 2846,
+        "downloads": 1376248,
+        "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+        "tags": [
+          "gguf",
+          "qwen",
+          "image-generation"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Contrastive-LM/CLM-v0.1-8B",
+        "short_name": "CLM-v0.1-8B",
+        "likes": 671,
+        "downloads": 2951,
+        "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
+        "tags": [
+          "contrastive-lm",
+          "clm",
+          "contrastive-learning"
+        ],
+        "pipeline_tag": "text-ranking",
+        "label": "Text Ranking",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 5995,
+        "downloads": 1584129,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen-Image-2.1",
+        "short_name": "Qwen-Image-2.1",
+        "likes": 2839,
+        "downloads": 81738,
+        "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "qwen"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "SupersonicLabs/Julia-1",
+        "short_name": "Julia-1",
+        "likes": 367,
+        "downloads": 2909,
+        "url": "https://huggingface.co/SupersonicLabs/Julia-1",
+        "tags": [
+          "pytorch",
+          "safetensors",
+          "decision-model"
+        ],
+        "pipeline_tag": "text-classification",
+        "label": "Text Classification",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "Qwen/Qwen3.8-27B",
+        "short_name": "Qwen3.8-27B",
+        "likes": 16806,
+        "downloads": 6934867,
+        "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "Panniantong/Agent-Reach",
+        "desc": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitH",
+        "stars": 88701,
+        "stars_today": 696,
+        "forks": 7810,
+        "language": "Python",
+        "url": "https://github.com/Panniantong/Agent-Reach"
+      },
+      {
+        "name": "JuliusBrussee/caveman",
+        "desc": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of",
+        "stars": 109113,
+        "stars_today": 209,
+        "forks": 6316,
+        "language": "Go",
+        "url": "https://github.com/JuliusBrussee/caveman"
+      },
+      {
+        "name": "obra/superpowers",
+        "desc": "An agentic skills framework &amp; software development methodology that works.",
+        "stars": 294486,
+        "stars_today": 556,
+        "forks": 26320,
+        "language": "Shell",
+        "url": "https://github.com/obra/superpowers"
+      },
+      {
+        "name": "DietrichGebert/ponytail",
+        "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you nev",
+        "stars": 151860,
+        "stars_today": 1435,
+        "forks": 8144,
+        "language": "JavaScript",
+        "url": "https://github.com/DietrichGebert/ponytail"
+      },
+      {
+        "name": "pbakaus/impeccable",
+        "desc": "The design language that makes your AI harness better at design.",
+        "stars": 74353,
+        "stars_today": 722,
+        "forks": 4482,
+        "language": "JavaScript",
+        "url": "https://github.com/pbakaus/impeccable"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "stealth/space-bunny-alpha",
+        "name": "Space Bunny Alpha",
+        "org": "stealth",
+        "total_tokens": 5890362479879,
+        "total_tokens_str": "5.9T",
+        "api_calls": 0,
+        "change": 14.0,
+        "url": "https://openrouter.ai/stealth/space-bunny-alpha"
+      },
+      {
+        "rank": 2,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 3641015577092,
+        "total_tokens_str": "3.6T",
+        "api_calls": 0,
+        "change": 2.6,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1650868242738,
+        "total_tokens_str": "1.7T",
+        "api_calls": 0,
+        "change": 11.6,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo-V2.6-Flash",
+        "org": "xiaomi",
+        "total_tokens": 1336416469917,
+        "total_tokens_str": "1.3T",
+        "api_calls": 0,
+        "change": -0.3,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+      },
+      {
+        "rank": 5,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 1270809992527,
+        "total_tokens_str": "1.3T",
+        "api_calls": 0,
+        "change": -11.0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 6,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 886998159102,
+        "total_tokens_str": "887B",
+        "api_calls": 0,
+        "change": -23.6,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 7,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 782804716601,
+        "total_tokens_str": "783B",
+        "api_calls": 0,
+        "change": 3.6,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      {
+        "rank": 8,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 665223669446,
+        "total_tokens_str": "665B",
+        "api_calls": 0,
+        "change": -1.1,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 9,
+        "slug": "typesafe/jev-1.13",
+        "name": "Jev 1.13",
+        "org": "typesafe",
+        "total_tokens": 470615578400,
+        "total_tokens_str": "471B",
+        "api_calls": 0,
+        "change": -6.5,
+        "url": "https://openrouter.ai/typesafe/jev-1.13"
+      },
+      {
+        "rank": 10,
+        "slug": "openai/gpt-6-astra",
+        "name": "GPT-6 Astra",
+        "org": "openai",
+        "total_tokens": 428855567490,
+        "total_tokens_str": "429B",
+        "api_calls": 0,
+        "change": -6.7,
+        "url": "https://openrouter.ai/openai/gpt-6-astra"
+      }
+    ],
+    "hf_summary": "多模态与生成式模型霸榜 开源社区正加速拥抱统一大模型"
+  }
+}

@@ -1,6 +1,13 @@
 {
-  "total": 189,
+  "total": 190,
   "reports": [
+    {
+      "date": "2026-10-03",
+      "title": "今日 AI 日报：OpenAI 发布 GPT-6 系列模型选型指南 + 4 条重要动态",
+      "excerpt": "OpenAI 从卖模型转向卖方法论，说明模型能力差距正在缩小，竞争焦点转移到'怎…",
+      "top_count": 5,
+      "file": "2026-10-03.json"
+    },
     {
       "date": "2026-10-02",
       "title": "今日 AI 日报：谷歌 Gemini 4 突然发布，多项基准碾压 GPT-6 Astra + 4 条重要动态",
