@@ -1,6 +1,13 @@
 {
-  "total": 192,
+  "total": 193,
   "reports": [
+    {
+      "date": "2026-10-06",
+      "title": "今日 AI 日报：Hinton 发表首篇 RSI（递归自我改进）论文，AI 开始参与造下一代 AI + 4 条重要动态",
+      "excerpt": "RSI 是 AGI 路径上最敏感也最关键的一环。Hinton 亲自下场意味着这个…",
+      "top_count": 5,
+      "file": "2026-10-06.json"
+    },
     {
       "date": "2026-10-05",
       "title": "今日 AI 日报：ARC-AGI-3 Kaggle 最高分 30 天内从 7% 飙升至 56% + 4 条重要动态",

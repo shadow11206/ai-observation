@@ -1,0 +1,545 @@
+{
+  "date": "2026-10-06",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Hinton 发表首篇 RSI（递归自我改进）论文，AI 开始参与造下一代 AI",
+      "finding": "Geoffrey Hinton 团队发布首篇关于递归自我改进（RSI）的论文，探讨 AI 系统如何参与改进自身或下一代 AI 模型。这标志着 AI 自我进化从哲学讨论正式进入学术研究议程。",
+      "key_data": [
+        "首篇 RSI 论文",
+        "Hinton 署名",
+        "AI 造 AI"
+      ],
+      "judgment": "RSI 是 AGI 路径上最敏感也最关键的一环。Hinton 亲自下场意味着这个话题从边缘猜想变成主流研究议题。对行业而言，安全对齐的紧迫性将再次升级——如果 AI 能改进 AI，人类监督的窗口期可能比想象中更短。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/501705.html"
+    },
+    {
+      "rank": 2,
+      "title": "MCP 协议曝出结构性安全漏洞，Agent 间通信可被恶意提示跨链传播",
+      "finding": "安全研究人员发现 MCP（Model Context Protocol）存在结构性缺陷，恶意提示可以从一个 Agent 传播到另一个 Agent，影响 Google 等多家公司的 Agent 产品。这是 Agent 互操作协议首次被曝出系统性安全风险。",
+      "key_data": [
+        "MCP 结构性漏洞",
+        "跨 Agent 传播",
+        "Google 等受影响"
+      ],
+      "judgment": "MCP 正在成为 Agent 时代的 HTTP 协议，但安全性远未跟上。这个漏洞提醒所有做 Agent 产品的团队：Agent 间通信的信任模型需要重新设计，否则一个被污染的 Agent 可以污染整个协作网络。企业级 Agent 部署应立刻评估此风险。",
+      "confidence": 4,
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
+    },
+    {
+      "rank": 3,
+      "title": "Reflection 发布开源模型 Beam，主打低算力对标中国开源模型",
+      "finding": "Reflection 公司推出开源权重模型 Beam，定位为以更低计算成本对标中国开源模型（如 DeepSeek、Qwen）。同时推出「AI 工厂」产品概念，面向企业和主权国家提供本地化定制 AI 系统。",
+      "key_data": [
+        "开源权重模型",
+        "低算力对标中国模型",
+        "面向主权国家"
+      ],
+      "judgment": "Reflection 的定位很聪明：不打前沿性能战，打性价比和主权 AI 牌。这反映出美国 AI 公司开始正视中国开源模型的成本优势，并试图用「主权 AI 工厂」这个叙事切入政府和企业市场。开源模型竞争从性能卷向部署成本。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"
+    },
+    {
+      "rank": 4,
+      "title": "OpenAI 在 ChatGPT 中推出新广告格式，AI 助手商业化进入广告时代",
+      "finding": "OpenAI 正式在 ChatGPT 中引入视觉广告格式，并扩展测量工具、归因合作和品牌适配能力。这是 ChatGPT 从订阅制向广告变现迈出的实质性一步。",
+      "key_data": [
+        "ChatGPT 视觉广告",
+        "归因合作",
+        "品牌适配工具"
+      ],
+      "judgment": "ChatGPT 做广告是必然的，但时机和方式值得关注。当 AI 助手开始推荐商品，广告和回答的边界将变得模糊。对广告主是新渠道，对用户体验是潜在风险。这也会给 Perplexity 等竞品带来商业化压力。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+    },
+    {
+      "rank": 5,
+      "title": "OpenAI 宣布「28 天计划」：Codex 和 Work 持续迭代，无改进就重置",
+      "finding": "OpenAI 推出限时 28 天的产品迭代承诺，针对 Codex 和 Work 产品持续改进，如果到期没有新功能就重置用户额度。这是一种将产品迭代节奏公开承诺化的新做法。",
+      "key_data": [
+        "28 天迭代承诺",
+        "Codex/Work",
+        "无改进就重置"
+      ],
+      "judgment": "这是 OpenAI 在开发者工具领域面对 Cursor、Claude Code 等竞品压力的回应。把迭代节奏变成公开承诺，既是营销手段也是内部倒逼机制。但开发者真正关心的不是承诺，而是 Codex 能否在 Agent 编程体验上追上 Claude Code。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/501700.html"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv cs.AI",
+      "title": "长周期工具调用 Agent 的「先比较再行动」价值评估框架",
+      "finding": "研究者提出一种比较式价值估计方法，让 LLM Agent 在执行长周期工具调用任务时，先比较不同行动方案的预期价值再决策，而非直接行动。这解决了 Agent 在多步任务中容易走偏的问题。",
+      "key_data": [
+        "比较式价值估计",
+        "长周期工具调用",
+        "多步任务决策"
+      ],
+      "judgment": "Agent 决策质量是当前落地瓶颈，这个方向比单纯堆模型能力更务实。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.02330",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "象棋基准测试揭示 LLM Agent 闭环评估的盲区：找到一步不等于赢棋",
+      "finding": "研究者发布 XiangqiBench，用中国象棋做 LLM Agent 的闭环评估。发现静态评测中模型能选出正确走法，但在完整对局中无法将计划执行到验证结果，暴露了当前 Agent 评估方法的根本缺陷。",
+      "key_data": [
+        "中国象棋闭环评估",
+        "静态评测失真",
+        "计划执行差距"
+      ],
+      "judgment": "Agent 评估需要从「选对答案」转向「完成任务」，这是行业评测标准升级的信号。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.02425",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "Agent 框架中「快模型、慢证据」的配对自审计评估方法",
+      "finding": "研究对 LLM Agent 框架中的 System-1 决策模型进行配对自审计评估，发现 Agent 在每步做的小决策（选模型、选工具、判断相关性）存在系统性偏差，快思考模式在 Agent 场景下证据不足。",
+      "key_data": [
+        "System-1 决策",
+        "配对自审计",
+        "Agent 框架偏差"
+      ],
+      "judgment": "Agent 框架的每个小决策都在累积误差，框架设计者需要引入更多验证环节。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.02267",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "Yandex Music 用单个 Transformer 替代 15+ 候选生成器和排序模型",
+      "finding": "Yandex Music 在生产推荐系统中用单个端到端 Transformer 替代了原有的 15+ 候选生成器、预排序和排序模型，A/B 测试显示效果不降反升。这是 LLM 架构统一推荐系统 pipeline 的重要工业验证。",
+      "key_data": [
+        "1 个模型替代 15+",
+        "端到端推荐",
+        "A/B 测试验证"
+      ],
+      "judgment": "推荐系统正在经历 LLM 化重构，复杂 pipeline 可能被单一模型取代，工程团队需重新思考架构。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wy4qxm/sona_one_transformer_replaced_our_15_candidate/",
+      "importance": 4
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "Rust 分块库比现有方案快 20 倍，RAG 预处理效率大幅提升",
+      "finding": "开发者用 Rust 构建了一个文本分块库 chunkr，在不影响准确率的前提下比现有方案快约 20 倍。文本分块是 RAG 系统的关键预处理步骤，速度提升直接影响大规模文档处理效率。",
+      "key_data": [
+        "Rust 实现",
+        "快 20 倍",
+        "RAG 预处理"
+      ],
+      "judgment": "RAG 基础设施的性能优化空间仍然很大，这类工具会加速企业知识库的构建效率。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wyfruw/a_chunking_lib_in_rust_that_is_20x_faster_p/",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "OpenAI Blog",
+      "title": "OpenAI 在欧盟启动文本水印，ChatGPT 和 Codex 输出将被标记",
+      "finding": "为遵守欧盟 AI 法案，OpenAI 将对 ChatGPT 和 Codex 生成的文本添加不可见水印。检测能力首先向研究人员开放，编辑后的文本水印检测难度会增加。",
+      "key_data": [
+        "欧盟 AI 法案合规",
+        "不可见水印",
+        "先向研究者开放"
+      ],
+      "judgment": "AI 文本溯源从自愿走向强制，水印技术将成为所有大模型厂商的合规标配。",
+      "confidence": 5,
+      "url": "https://openai.com/index/eu-text-provenance",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "TikTok 上线 AI 购物助手和一键结账功能",
+      "finding": "TikTok 推出对话式 AI 购物助手，帮助用户发现和购买商品，同时上线一键结账功能。这是 TikTok 将 AI Agent 能力嵌入电商闭环的重要一步。",
+      "key_data": [
+        "对话式购物助手",
+        "一键结账",
+        "电商闭环"
+      ],
+      "judgment": "社交电商 + AI Agent 是最自然的组合，TikTok 此举将给亚马逊和 Shopify 带来新压力。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Instinct 将 AI Agent 带入群聊，无需注册即可使用",
+      "finding": "Instinct 推出群聊功能，让朋友之间可以共同使用 AI Agent 完成规划旅行、组织拼车、协调活动等任务，且群聊中的朋友无需注册账号即可参与。",
+      "key_data": [
+        "群聊 AI Agent",
+        "无需注册",
+        "协作任务"
+      ],
+      "judgment": "AI Agent 从个人助手走向社交协作场景，降低使用门槛是关键设计决策，值得产品经理关注。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+      "importance": 2
+    },
+    {
+      "source": "Simon Willison",
+      "title": "Cowork 的 VM 架构细节曝光：云端推理 + 本地 VM 执行工具调用",
+      "finding": "Felix Rieseberg 透露 Cowork 的「旧版」架构：模型推理在云端进行，工具调用在 Anthropic 提供的本地 VM 中执行。VM 的引入是为了能力、安全和安保三方面考虑。",
+      "key_data": [
+        "云端推理",
+        "本地 VM 执行",
+        "安全隔离"
+      ],
+      "judgment": "Agent 产品的安全架构正在形成共识：推理在云、执行在沙箱，这是企业级 Agent 的标准范式。",
+      "confidence": 4,
+      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+      "importance": 3
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "企业 AI Agent 的核心瓶颈不是数据而是知识",
+      "finding": "MIT Tech Review 指出，企业 AI Agent 普遍面临「知识匮乏」问题——不是缺少数据，而是缺少对数据的理解。连接 Agent 与企业知识成为 2026 年企业 AI 的核心议题。",
+      "key_data": [
+        "知识≠数据",
+        "企业 Agent 瓶颈",
+        "知识连接"
+      ],
+      "judgment": "企业 AI 的竞争焦点从模型能力转向知识工程，Glean 等公司的价值将进一步凸显。",
+      "confidence": 3,
+      "url": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
+      "importance": 3
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Felix Rieseberg",
+      "level": "L1",
+      "quote": "Cowork 旧版将模型推理放在云端，工具调用在 Anthropic 提供的本地 VM 中执行。引入 VM 是为了能力、安全和安保——这意味着 Agent 执行环境需要与推理环境物理隔离。",
+      "source": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/"
+    },
+    {
+      "person": "Yossi Matias",
+      "level": "L3",
+      "quote": "AI 正在开始重塑生物学、基础设施、制造业和科学。它最大的影响可能不是某个单一应用，而是当 AI 与所有这些领域深度交织时产生的化学反应。",
+      "source": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "MCP 协议安全架构与 Agent 间信任模型",
+      "reason": "结构性漏洞影响所有采用 MCP 的 Agent 产品，需要深入理解攻击面和防御方案。",
+      "priority": "high"
+    },
+    {
+      "topic": "Hinton 的 RSI 论文全文解读",
+      "reason": "递归自我改进是 AGI 安全的核心议题，首篇论文值得逐段分析其方法论和结论。",
+      "priority": "high"
+    },
+    {
+      "topic": "Reflection Beam 模型技术细节与「AI 工厂」商业模式",
+      "reason": "低算力开源模型 + 主权 AI 定位是差异化路线，需评估其技术可行性和市场空间。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "Hinton 发 RSI 论文，MCP 曝安全漏洞",
+  "summary_paragraph": "今天最值得关注的两个信号：一是 Hinton 发表首篇递归自我改进论文，AI 参与造 AI 从猜想变成学术议题，安全对齐的紧迫性再次升级；二是 MCP 协议曝出结构性安全漏洞，恶意提示可在 Agent 间跨链传播，给正在快速铺开的 Agent 互操作生态敲响警钟。产品层面，OpenAI 在 ChatGPT 中正式推出广告格式、宣布 Codex 28 天迭代计划，Reflection 发布低算力开源模型 Beam 对标中国模型，TikTok 上线 AI 购物助手。企业 AI 的竞争焦点正从模型能力转向知识工程和安全架构。",
+  "snapshot": {
+    "date": "2026-10-06",
+    "hf_trending": [
+      {
+        "name": "Cloudflare/clef",
+        "short_name": "clef",
+        "likes": 1507,
+        "downloads": 5416,
+        "url": "https://huggingface.co/Cloudflare/clef",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+        "short_name": "Qwen-Image-2.1-Uncensored-GGUF",
+        "likes": 3268,
+        "downloads": 1638838,
+        "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+        "tags": [
+          "gguf",
+          "qwen",
+          "image-generation"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "convaiinnovations/laya",
+        "short_name": "laya",
+        "likes": 5241,
+        "downloads": 11733,
+        "url": "https://huggingface.co/convaiinnovations/laya",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "laya"
+        ],
+        "pipeline_tag": "text-classification",
+        "label": "Text Classification",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Aleph-Alpha/Kolibri-1",
+        "short_name": "Kolibri-1",
+        "likes": 631,
+        "downloads": 2453,
+        "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+        "tags": [
+          "vllm",
+          "safetensors",
+          "kolibri1"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "autotrust/JEV-27B-VL",
+        "short_name": "JEV-27B-VL",
+        "likes": 635,
+        "downloads": 1278569,
+        "url": "https://huggingface.co/autotrust/JEV-27B-VL",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "Cloudflare/clef-flash",
+        "short_name": "clef-flash",
+        "likes": 536,
+        "downloads": 8075,
+        "url": "https://huggingface.co/Cloudflare/clef-flash",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 6505,
+        "downloads": 1645444,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
+        "short_name": "Xing4.0-29B-A4B-GGUF",
+        "likes": 419,
+        "downloads": 18863,
+        "url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "gguf"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "tester-army/e2e",
+        "desc": "Next generation e2e testing framework for web and mobile apps.",
+        "stars": 4862,
+        "stars_today": 1398,
+        "forks": 202,
+        "language": "TypeScript",
+        "url": "https://github.com/tester-army/e2e"
+      },
+      {
+        "name": "thedotmack/claude-mem",
+        "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sess",
+        "stars": 96651,
+        "stars_today": 534,
+        "forks": 8526,
+        "language": "TypeScript",
+        "url": "https://github.com/thedotmack/claude-mem"
+      },
+      {
+        "name": "earthtojake/text-to-cad",
+        "desc": "Give your agent CAD superpowers.",
+        "stars": 17448,
+        "stars_today": 437,
+        "forks": 1770,
+        "language": "Python",
+        "url": "https://github.com/earthtojake/text-to-cad"
+      },
+      {
+        "name": "pingdotgg/t3code",
+        "desc": "",
+        "stars": 25635,
+        "stars_today": 485,
+        "forks": 6598,
+        "language": "TypeScript",
+        "url": "https://github.com/pingdotgg/t3code"
+      },
+      {
+        "name": "boykopovar/AnyPS5",
+        "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
+        "stars": 4986,
+        "stars_today": 997,
+        "forks": 371,
+        "language": "C++",
+        "url": "https://github.com/boykopovar/AnyPS5"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 6458330218100,
+        "total_tokens_str": "6.5T",
+        "api_calls": 0,
+        "change": 88.9,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "stealth/space-bunny-alpha",
+        "name": "Space Bunny Alpha",
+        "org": "stealth",
+        "total_tokens": 4196825632807,
+        "total_tokens_str": "4.2T",
+        "api_calls": 0,
+        "change": -37.6,
+        "url": "https://openrouter.ai/stealth/space-bunny-alpha"
+      },
+      {
+        "rank": 3,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1603476115426,
+        "total_tokens_str": "1.6T",
+        "api_calls": 0,
+        "change": 35.3,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo-V2.6-Flash",
+        "org": "xiaomi",
+        "total_tokens": 1518957374333,
+        "total_tokens_str": "1.5T",
+        "api_calls": 0,
+        "change": 15.1,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+      },
+      {
+        "rank": 5,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 1323019576796,
+        "total_tokens_str": "1.3T",
+        "api_calls": 0,
+        "change": 17.2,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 6,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 1064912183986,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": 10.1,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 7,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 845005564428,
+        "total_tokens_str": "845B",
+        "api_calls": 0,
+        "change": -7.7,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      {
+        "rank": 8,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 829955752507,
+        "total_tokens_str": "830B",
+        "api_calls": 0,
+        "change": 7.9,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 9,
+        "slug": "typesafe/jev-1.13",
+        "name": "Jev 1.13",
+        "org": "typesafe",
+        "total_tokens": 518660802669,
+        "total_tokens_str": "519B",
+        "api_calls": 0,
+        "change": 29.4,
+        "url": "https://openrouter.ai/typesafe/jev-1.13"
+      },
+      {
+        "rank": 10,
+        "slug": "z-ai/glm-5.3",
+        "name": "GLM 5.3",
+        "org": "z-ai",
+        "total_tokens": 474242199541,
+        "total_tokens_str": "474B",
+        "api_calls": 0,
+        "change": 45.8,
+        "url": "https://openrouter.ai/z-ai/glm-5.3"
+      }
+    ],
+    "hf_summary": "多模态与视频生成霸榜 文本模型热度明显退潮"
+  }
+}
