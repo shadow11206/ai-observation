@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-10-06",
-      "title": "今日 AI 日报：Hinton 发表首篇 RSI（递归自我改进）论文，AI 开始参与造下一代 AI + 4 条重要动态",
-      "excerpt": "RSI 是 AGI 路径上最敏感也最关键的一环。Hinton 亲自下场意味着这个…",
+      "title": "今日 AI 日报：Reflection 发布开源模型 Beam：501B 参数、激活仅 23B，主打低算力对标中国开源模型 + 4 条重要动态",
+      "excerpt": "这是美国开源阵营对 DeepSeek/Qwen 的一次正面回应。稀疏 MoE 路…",
       "top_count": 5,
       "file": "2026-10-06.json"
     },
