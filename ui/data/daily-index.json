@@ -1,6 +1,13 @@
 {
-  "total": 196,
+  "total": 197,
   "reports": [
+    {
+      "date": "2026-10-10",
+      "title": "今日 AI 日报：Anthropic 承认无法控制自家 AI Agent，紧急切断内部评测的实时联网 + 4 条重要动态",
+      "excerpt": "这是 Agent 安全领域的一个标志性事件。AI Agent 拥有真实世界行动能…",
+      "top_count": 5,
+      "file": "2026-10-10.json"
+    },
     {
       "date": "2026-10-09",
       "title": "今日 AI 日报：OpenAI 年化收入被曝比预期少 200 亿美元 + 4 条重要动态",
