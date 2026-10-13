@@ -1,6 +1,13 @@
 {
-  "total": 199,
+  "total": 200,
   "reports": [
+    {
+      "date": "2026-10-13",
+      "title": "今日 AI 日报：Meta 发布首个前沿模型 Muse Wonder，重回 AI 第一梯队 + 4 条重要动态",
+      "excerpt": "这是 Meta 在开源模型路线之外的一次关键转向——从 Llama 的'开源生态…",
+      "top_count": 5,
+      "file": "2026-10-13.json"
+    },
     {
       "date": "2026-10-12",
       "title": "今日 AI 日报：Karpathy 警告：业界对 LLM 能力的认知鸿沟正在扩大 + 4 条重要动态",

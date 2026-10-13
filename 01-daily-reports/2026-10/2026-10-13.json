@@ -1,0 +1,566 @@
+{
+  "date": "2026-10-13",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Meta 发布首个前沿模型 Muse Wonder，重回 AI 第一梯队",
+      "finding": "Meta 发布了名为 Muse Wonder 的新一代大模型，这是 Meta 首个真正对标全球最强模型的产品。相比此前主打轻量低延迟的 Muse Spark，Wonder 系列体量更大、能力更强，在多项基准测试上取得更高分数，并新增了防止 Agent 失控的安全功能。",
+      "key_data": [
+        "Meta首个前沿模型",
+        "对标全球最强",
+        "新增Agent安全机制",
+        "基准分数大幅提升"
+      ],
+      "judgment": "这是 Meta 在开源模型路线之外的一次关键转向——从 Llama 的'开源生态'策略转向直接竞争前沿闭源模型。对开发者而言，多了一个顶级模型选择；对 OpenAI 和 Anthropic 而言，竞争压力进一步加大。Meta 能否借此重回第一梯队，取决于后续的 API 开放策略和生态建设。",
+      "confidence": 4,
+      "source": "TechCrunch / Wired",
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+    },
+    {
+      "rank": 2,
+      "title": "梁文锋密集接触具身智能创业者，DeepSeek 拟入局机器人赛道",
+      "finding": "据报道，DeepSeek 创始人梁文锋近期密集与具身智能领域创业者交流，探讨机器人、大模型与现实世界交互等方向。DeepSeek 可能亲自组建团队下场研发，也可能通过投资切入。此前梁文锋已投资宇树科技，另据彭博社报道 DeepSeek 计划领投相关项目。",
+      "key_data": [
+        "梁文锋密集见创业者",
+        "已投资宇树科技",
+        "或亲自组队下场",
+        "大模型+机器人"
+      ],
+      "judgment": "DeepSeek 从纯语言模型向具身智能延伸，标志着中国头部 AI 实验室开始认真押注'大模型+物理世界'。这对国内具身智能创业公司是双刃剑：一方面获得大模型能力加持，另一方面面临巨头亲自下场的竞争。产品经理应关注'语言模型作为机器人大脑'这一范式的落地进展。",
+      "confidence": 3,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/372264"
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic 分享动态工作流：用 Unix 哲学协调多 Claude Agent",
+      "finding": "在 AI Engineer New York 大会上，Anthropic 借鉴 Unix 和 Linux 的设计理念，解释了如何让多个 Claude Agent 协同处理大型项目而不至于让开发者不堪重负。核心思路是通过动态工作流来编排 Agent 之间的分工与协作。",
+      "key_data": [
+        "Unix哲学",
+        "多Agent协调",
+        "动态工作流",
+        "AI Engineer NY"
+      ],
+      "judgment": "这是 Agent 工程从'单体智能'走向'系统工程'的重要信号。Anthropic 用操作系统级别的思路来解决多 Agent 协作问题，意味着 Agent 编排正在从 prompt 技巧升级为架构设计。对构建 Agent 产品的团队来说，这套方法论值得深入研究。",
+      "confidence": 4,
+      "source": "Latent Space",
+      "url": "https://www.latent.space/p/claude-dynamic-workflows"
+    },
+    {
+      "rank": 4,
+      "title": "AI 编程 Agent 产出更多代码，但并未产出更多软件",
+      "finding": "Ars Technica 报道指出，AI 编程 Agent 虽然能生成大量代码，但实际交付的可用软件并没有同比增加。这一现象引发 HN 上 311 分、272 条评论的热议，开发者普遍反映 AI 生成的代码需要大量审查和返工。",
+      "key_data": [
+        "代码量增加",
+        "软件产出未增",
+        "HN 311分",
+        "272条评论"
+      ],
+      "judgment": "这是对当前 AI Coding 热潮的一盆冷水。核心矛盾在于：代码生成速度提升了，但需求理解、架构设计、质量保证等环节并未同步提效。对 AI Coding 工具厂商而言，下一阶段的竞争重点不是'生成更多代码'，而是'交付更好的软件'——这需要更深的工程集成而非单纯的模型能力。",
+      "confidence": 4,
+      "source": "Ars Technica / Hacker News",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/"
+    },
+    {
+      "rank": 5,
+      "title": "智谱发布高速模型：490 tokens/s 刷新推理速度",
+      "finding": "智谱推出新模型，推理速度达到 490 tokens/s，被量子位称为'速度仙人'。这一速度在国产大模型中处于领先水平，主要面向对延迟敏感的应用场景。",
+      "key_data": [
+        "490 tokens/s",
+        "国产最快之一",
+        "低延迟场景",
+        "智谱GLM系列"
+      ],
+      "judgment": "推理速度正在成为大模型竞争的新维度。当模型能力逐渐趋同时，谁能提供更快的响应、更低的成本，谁就能在实时交互、Agent 循环调用等场景中占据优势。智谱此举瞄准的是对速度敏感的企业级和消费级应用市场。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502649.html"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv cs.CL",
+      "title": "SWE-Duel：面向编程 Agent 的自扩展竞技场",
+      "finding": "研究者提出 SWE-Duel，一个能自我扩展的编程 Agent 评测竞技场。传统静态基准会因任务泄露到训练数据而失效，SWE-Duel 通过动态生成新任务来持续评估 Agent 能力。",
+      "key_data": [
+        "自扩展评测",
+        "防数据泄露",
+        "编程Agent",
+        "动态基准"
+      ],
+      "judgment": "静态基准的寿命越来越短，动态评测是必然趋势。这对 AI Coding 工具的评估体系有直接参考价值。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.12569",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "弹性潜在循环：一个模型通过改变循环深度调节推理算力",
+      "finding": "研究者提出弹性潜在循环语言模型，通过重复使用共享层块，让同一个模型 checkpoint 可以在推理时通过改变循环深度来权衡算力和精度。",
+      "key_data": [
+        "共享层块复用",
+        "推理时调算力",
+        "一个checkpoint",
+        "精度可调"
+      ],
+      "judgment": "这为模型部署提供了极大的灵活性——同一模型可适配从边缘设备到云端的不同算力场景。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.12582",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "SpireBench：用《杀戮尖塔》评测 Agent 的长程战略推理能力",
+      "finding": "研究者用卡牌游戏《杀戮尖塔》构建了 SpireBench，专门评测 Agent 模型在长程战略规划上的表现。现有 Agent 基准大多是短任务，无法反映长程决策能力。",
+      "key_data": [
+        "杀戮尖塔",
+        "长程战略",
+        "Agent评测",
+        "短任务盲区"
+      ],
+      "judgment": "长程规划是 Agent 从'能用'到'好用'的关键瓶颈，这个基准填补了评测空白。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.12596",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "U-Space：揭示语言模型何时以及为何产生不确定性",
+      "finding": "研究者提出 U-Space 方法，能在不增加 5 倍采样成本、不需要评判模型或标注数据的情况下，为开源推理模型提供'模型对这个答案有多确定'的信号。",
+      "key_data": [
+        "不确定性量化",
+        "无需额外采样",
+        "无需标注",
+        "开源推理模型"
+      ],
+      "judgment": "低成本不确定性估计对 Agent 可靠性至关重要，是生产环境部署的关键基础设施。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x44f9m/uspace_uncovering_when_and_why_uncertainty_arises/",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "Kairos：面向全模态的字节级基础模型",
+      "finding": "Kairos 结合双向门控 DeltaNet 等架构，尝试在单台本地机器上训练一个字节级基础模型，可处理多种模态数据，为小规模研究提供了新的架构实验平台。",
+      "key_data": [
+        "字节级模型",
+        "全模态",
+        "本地训练",
+        "门控DeltaNet"
+      ],
+      "judgment": "字节级全模态模型是简化多模态架构的有趣探索，但距离实用还有距离。",
+      "confidence": 2,
+      "url": "https://arxiv.org/abs/2610.12495",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "InfoQ",
+      "title": "AI 智能体三周重构 30 万行代码，Code Health 从 5.6 升至 10.0",
+      "finding": "一个 AI 智能体在三周内完成了 30 万行代码的重构，代码健康度评分从 5.6 提升到 10.0。这引发了一个关键问题：AI 重构后的代码质量真的变好了吗？",
+      "key_data": [
+        "30万行代码",
+        "三周完成",
+        "Code Health 5.6→10.0",
+        "质量存疑"
+      ],
+      "judgment": "大规模 AI 重构的案例值得关注，但 Code Health 评分提升不等于代码真正变好，需要人工审查验证。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/Qk7CzmLpDCvfYpAiU6Tf",
+      "importance": 3
+    },
+    {
+      "source": "极客公园",
+      "title": "REA 项目一周 10 万星：AI'逆向一切'引发开发者狂欢与警惕",
+      "finding": "REA（Reverse Engineer Anything）项目在 AI 开发者圈刷屏，一周获得 10 万星。该项目让智能体在没有源代码的情况下检查应用、解释功能原理，并帮助开发者在自己的项目中实现类似功能。",
+      "key_data": [
+        "一周10万星",
+        "逆向一切",
+        "无源码分析",
+        "功能复刻"
+      ],
+      "judgment": "AI 驱动的逆向工程能力大幅降低了'抄功能'的门槛，将引发知识产权和商业伦理的新争议。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/372263",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Blueprints AI：几分钟内生成合规建筑蓝图",
+      "finding": "位于 Santa Monica 的创业公司 Blueprints AI 开发了一款软件，能从照片、PDF 或草图生成符合建筑规范的施工蓝图。该公司采用自举模式（bootstrapped），未依赖外部融资。",
+      "key_data": [
+        "照片生成蓝图",
+        "合规建筑图纸",
+        "自举创业",
+        "分钟级生成"
+      ],
+      "judgment": "AI 进入建筑审批流程是垂直行业落地的典型案例，合规性验证是核心壁垒。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "Cursor 基于 S3 的 WAL 将 Git 存储扩展到每秒 300+ Push",
+      "finding": "Cursor 工程团队分享了如何利用基于 S3 的预写日志（WAL）架构，将 Git 存储系统的吞吐量扩展到每秒 300 多次 Push，支撑其大规模 AI 编程平台的代码管理需求。",
+      "key_data": [
+        "S3 WAL架构",
+        "300+ Push/秒",
+        "Git存储扩展",
+        "Cursor基础设施"
+      ],
+      "judgment": "AI Coding 工具的竞争已从模型能力延伸到基础设施工程，Cursor 的架构分享值得后端团队参考。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/QPf1GXbpDxhcCHHP4xfo",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "微软总裁呼吁英国主导 AI 监管：洗衣机受到的监管都比 AI 多",
+      "finding": "微软总裁 Brad Smith 呼吁紧急制定 AI 监管法规，指出当前牛奶和洗衣机受到的监管都比 AI 公司更多。他认为英国在推动 AI 监管方面处于最佳位置。",
+      "key_data": [
+        "Brad Smith呼吁",
+        "英国主导监管",
+        "洗衣机监管对比",
+        "紧急立法"
+      ],
+      "judgment": "科技巨头主动呼吁监管，反映出行业对'规则真空'的不安——明确的规则反而有利于头部玩家。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Rich Hickey",
+      "level": "L1",
+      "quote": "'AI'不是一个工具。工具是你理解其工作原理后可以可靠使用的东西。当前所谓的 AI 更像是一个你不完全理解其行为的合作者，把它当工具用是危险的思维框架。",
+      "source": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e"
+    },
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "我在手机上用 Codex Remote 做项目时，想编辑一个凭证文件但不想让凭证经过 LLM。于是做了 web-edit 这个工具——AI 辅助开发中，'不让 AI 碰敏感数据'应该是基本设计原则。",
+      "source": "https://simonwillison.net/2026/Oct/12/web-edit/"
+    },
+    {
+      "person": "Kevin Kelly（回顾）",
+      "level": "L3",
+      "quote": "2016 年 Kevin Kelly 对 AI 的预测在 10 年后被重新审视。他对 AI 将像电力一样渗透所有行业的判断基本准确，但低估了 LLM 路线的爆发速度和集中度。",
+      "source": "https://taylor.town/kk-ai-2026"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "多 Agent 协作的 Unix 哲学：Anthropic 动态工作流方法论",
+      "reason": "Agent 编排正从 prompt 技巧升级为系统工程，Anthropic 的方法论可能定义下一代 Agent 架构标准。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI Coding 的'代码量陷阱'：为什么生成更多代码不等于交付更好软件",
+      "reason": "这是当前 AI Coding 最核心的矛盾，理解它才能找到下一代工具的差异化方向。",
+      "priority": "high"
+    },
+    {
+      "topic": "DeepSeek 入局具身智能：大模型公司做机器人的路径与挑战",
+      "reason": "中国头部 AI 实验室向物理世界延伸，可能重塑国内具身智能竞争格局。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "Meta 发前沿模型，DeepSeek 谋机器人",
+  "summary_paragraph": "今日最重磅的信号来自 Meta——发布首个前沿模型 Muse Wonder，正式从开源生态玩家转向前沿模型竞争者，全球大模型格局再添变数。国内方面，DeepSeek 梁文锋密集接触具身智能创业者，暗示大模型公司开始向物理世界延伸。Agent 领域，Anthropic 分享了用 Unix 哲学协调多 Agent 的动态工作流方法论，而 Ars Technica 的报道则给 AI Coding 热潮泼了冷水：代码生成量上去了，软件交付质量却没跟上。此外，智谱以 490 tokens/s 刷新国产推理速度，REA 项目一周 10 万星引发逆向工程伦理讨论。整体来看，行业正从'模型能力竞赛'转向'工程落地与生态卡位'。",
+  "snapshot": {
+    "date": "2026-10-13",
+    "hf_trending": [
+      {
+        "name": "google/embeddinggemma-2",
+        "short_name": "embeddinggemma-2",
+        "likes": 1941,
+        "downloads": 115763,
+        "url": "https://huggingface.co/google/embeddinggemma-2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "embedding_gemma2"
+        ],
+        "pipeline_tag": "feature-extraction",
+        "label": "向量嵌入",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "jialinyyzz/humanizer",
+        "short_name": "humanizer",
+        "likes": 1324,
+        "downloads": 46070,
+        "url": "https://huggingface.co/jialinyyzz/humanizer",
+        "tags": [
+          "gguf",
+          "safetensors",
+          "gemma4_unified"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen-Image-2.1-Turbo",
+        "short_name": "Qwen-Image-2.1-Turbo",
+        "likes": 638,
+        "downloads": 6787,
+        "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "qwen"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+        "short_name": "Qwen-Image-2.1-Uncensored-Quantized",
+        "likes": 4100,
+        "downloads": 2188658,
+        "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+        "tags": [
+          "gguf",
+          "qwen",
+          "image-generation"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Cloudflare/clef",
+        "short_name": "clef",
+        "likes": 2096,
+        "downloads": 15064,
+        "url": "https://huggingface.co/Cloudflare/clef",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 7489,
+        "downloads": 1719766,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "ConwayResearch/Underdog-Saluki-27B-1.0",
+        "short_name": "Underdog-Saluki-27B-1.0",
+        "likes": 371,
+        "downloads": 242329,
+        "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+        "tags": [
+          "gguf",
+          "llama.cpp",
+          "2-bit"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "Qwen/Qwen3.8-27B",
+        "short_name": "Qwen3.8-27B",
+        "likes": 17581,
+        "downloads": 6895303,
+        "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "morluto/rea",
+        "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+        "stars": 160848,
+        "stars_today": 45327,
+        "forks": 37597,
+        "language": "TypeScript",
+        "url": "https://github.com/morluto/rea"
+      },
+      {
+        "name": "bilawalsidhu/gods-eye-view",
+        "desc": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelli",
+        "stars": 53770,
+        "stars_today": 1895,
+        "forks": 10618,
+        "language": "JavaScript",
+        "url": "https://github.com/bilawalsidhu/gods-eye-view"
+      },
+      {
+        "name": "mksglu/context-mode",
+        "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists se",
+        "stars": 27340,
+        "stars_today": 246,
+        "forks": 1948,
+        "language": "TypeScript",
+        "url": "https://github.com/mksglu/context-mode"
+      },
+      {
+        "name": "storytold/artcraft",
+        "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+        "stars": 22235,
+        "stars_today": 4095,
+        "forks": 3585,
+        "language": "Rust",
+        "url": "https://github.com/storytold/artcraft"
+      },
+      {
+        "name": "open-webui/open-webui",
+        "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+        "stars": 155070,
+        "stars_today": 157,
+        "forks": 22646,
+        "language": "Python",
+        "url": "https://github.com/open-webui/open-webui"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 6020046730509,
+        "total_tokens_str": "6.0T",
+        "api_calls": 0,
+        "change": 6.0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "stepfun/step-5-preview",
+        "name": "Step 5 Preview",
+        "org": "stepfun",
+        "total_tokens": 3249049356669,
+        "total_tokens_str": "3.2T",
+        "api_calls": 0,
+        "change": 31.7,
+        "url": "https://openrouter.ai/stepfun/step-5-preview"
+      },
+      {
+        "rank": 3,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 2033311942256,
+        "total_tokens_str": "2.0T",
+        "api_calls": 0,
+        "change": 13.4,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo-V2.6-Flash",
+        "org": "xiaomi",
+        "total_tokens": 1599516527750,
+        "total_tokens_str": "1.6T",
+        "api_calls": 0,
+        "change": 10.9,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+      },
+      {
+        "rank": 5,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 1140419191697,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": -2.0,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      {
+        "rank": 6,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 1100893021022,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": 7.3,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 7,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 1099108443116,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": 30.7,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 8,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 856178804934,
+        "total_tokens_str": "856B",
+        "api_calls": 0,
+        "change": 17.9,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 9,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 788542034297,
+        "total_tokens_str": "789B",
+        "api_calls": 0,
+        "change": 14.3,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 10,
+        "slug": "z-ai/glm-5.3",
+        "name": "GLM 5.3",
+        "org": "z-ai",
+        "total_tokens": 652090204364,
+        "total_tokens_str": "652B",
+        "api_calls": 0,
+        "change": -3.2,
+        "url": "https://openrouter.ai/z-ai/glm-5.3"
+      }
+    ],
+    "hf_summary": "多模态与视频生成主导热度 开源模型加速向多模态融合演进"
+  }
+}
