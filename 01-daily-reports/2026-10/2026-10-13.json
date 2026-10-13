@@ -4,230 +4,215 @@
     {
       "rank": 1,
       "title": "Meta 发布首个前沿模型 Muse Wonder，重回 AI 第一梯队",
-      "finding": "Meta 发布了名为 Muse Wonder 的新一代大模型，这是 Meta 首个真正对标全球最强模型的产品。相比此前主打轻量低延迟的 Muse Spark，Wonder 系列体量更大、能力更强，在多项基准测试上取得更高分数，并新增了防止 Agent 失控的安全功能。",
+      "finding": "Meta 正式发布其首个前沿大模型 Muse Wonder，定位为比此前轻量版 Muse Spark 更大、更强，在多项基准测试中取得更高分数，复杂任务表现更好。该模型还加入了防止 Agent 行为失控的新机制。Wired 评价称这让 Meta 重新回到 AI 前沿位置。",
       "key_data": [
-        "Meta首个前沿模型",
+        "Meta 首个前沿模型",
         "对标全球最强",
-        "新增Agent安全机制",
-        "基准分数大幅提升"
+        "内置 Agent 防失控机制"
       ],
-      "judgment": "这是 Meta 在开源模型路线之外的一次关键转向——从 Llama 的'开源生态'策略转向直接竞争前沿闭源模型。对开发者而言，多了一个顶级模型选择；对 OpenAI 和 Anthropic 而言，竞争压力进一步加大。Meta 能否借此重回第一梯队，取决于后续的 API 开放策略和生态建设。",
+      "judgment": "这是 Meta 从开源 Llama 路线转向闭源前沿模型竞争的关键信号。如果 Muse Wonder 真能对标 GPT/Claude 顶级模型，意味着前沿模型竞争从三强（OpenAI/Anthropic/Google）变成四强，开发者的模型选择将更多元，但 Meta 能否持续迭代而非一次性发布是最大疑问。",
       "confidence": 4,
-      "source": "TechCrunch / Wired",
-      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+      "source": "Wired / TechCrunch",
+      "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/"
     },
     {
       "rank": 2,
-      "title": "梁文锋密集接触具身智能创业者，DeepSeek 拟入局机器人赛道",
-      "finding": "据报道，DeepSeek 创始人梁文锋近期密集与具身智能领域创业者交流，探讨机器人、大模型与现实世界交互等方向。DeepSeek 可能亲自组建团队下场研发，也可能通过投资切入。此前梁文锋已投资宇树科技，另据彭博社报道 DeepSeek 计划领投相关项目。",
+      "title": "DeepSeek 梁文锋密集接触具身智能创业者，拟亲自下场",
+      "finding": "据报道，DeepSeek 创始人梁文锋近期密集关注具身智能领域，与多位机器人创业者交流，探讨机器人、大模型与现实世界交互等方向。他可能亲自组建团队研发，也可能通过投资切入。此前梁文锋已投资宇树科技，DeepSeek 还计划领投相关项目。",
       "key_data": [
-        "梁文锋密集见创业者",
+        "梁文锋密集见机器人创业者",
         "已投资宇树科技",
-        "或亲自组队下场",
-        "大模型+机器人"
+        "或亲自组队下场"
       ],
-      "judgment": "DeepSeek 从纯语言模型向具身智能延伸，标志着中国头部 AI 实验室开始认真押注'大模型+物理世界'。这对国内具身智能创业公司是双刃剑：一方面获得大模型能力加持，另一方面面临巨头亲自下场的竞争。产品经理应关注'语言模型作为机器人大脑'这一范式的落地进展。",
+      "judgment": "这是中国大模型头部玩家向具身智能延伸的最强信号。DeepSeek 若入局，将把「大模型+机器人」的竞争从实验室推向工程化落地，对国内具身智能创业公司既是资金利好也是竞争压力。产品经理应关注「语言模型作为机器人大脑」这一范式的加速。",
       "confidence": 3,
       "source": "极客公园",
       "url": "http://www.geekpark.net/news/372264"
     },
     {
       "rank": 3,
-      "title": "Anthropic 分享动态工作流：用 Unix 哲学协调多 Claude Agent",
-      "finding": "在 AI Engineer New York 大会上，Anthropic 借鉴 Unix 和 Linux 的设计理念，解释了如何让多个 Claude Agent 协同处理大型项目而不至于让开发者不堪重负。核心思路是通过动态工作流来编排 Agent 之间的分工与协作。",
+      "title": "Anthropic 详解 Claude Agent 动态工作流：借鉴 Unix 哲学协调多 Agent",
+      "finding": "在 AI Engineer New York 大会上，Anthropic 分享了如何借鉴 Unix 和 Linux 的设计经验，让多个 Claude Agent 协作处理更大规模的项目，而不会让开发者被复杂度淹没。核心思路是用动态工作流来协调 Agent 之间的分工与通信。",
       "key_data": [
-        "Unix哲学",
-        "多Agent协调",
-        "动态工作流",
-        "AI Engineer NY"
+        "借鉴 Unix 哲学",
+        "多 Agent 协调",
+        "动态工作流"
       ],
-      "judgment": "这是 Agent 工程从'单体智能'走向'系统工程'的重要信号。Anthropic 用操作系统级别的思路来解决多 Agent 协作问题，意味着 Agent 编排正在从 prompt 技巧升级为架构设计。对构建 Agent 产品的团队来说，这套方法论值得深入研究。",
+      "judgment": "这是 Agent 工程从「单 Agent 调工具」走向「多 Agent 系统化协作」的重要方法论输出。对正在构建 Agent 产品的团队来说，Anthropic 的这套思路可能成为事实标准参考，值得深入研究其架构设计。",
       "confidence": 4,
       "source": "Latent Space",
       "url": "https://www.latent.space/p/claude-dynamic-workflows"
     },
     {
       "rank": 4,
-      "title": "AI 编程 Agent 产出更多代码，但并未产出更多软件",
-      "finding": "Ars Technica 报道指出，AI 编程 Agent 虽然能生成大量代码，但实际交付的可用软件并没有同比增加。这一现象引发 HN 上 311 分、272 条评论的热议，开发者普遍反映 AI 生成的代码需要大量审查和返工。",
+      "title": "复旦邱锡鹏团队获超 10 亿融资，押注「边听边看边说」的全模态模型",
+      "finding": "复旦大学邱锡鹏教授团队成立的公司获得超 10 亿元融资，成立仅两年。其核心方向是让模型能同时感知、理解并响应变化的世界——不是分别处理文本、音频、视觉，而是像人一样实时整合多模态信息做出反应。",
       "key_data": [
-        "代码量增加",
-        "软件产出未增",
-        "HN 311分",
-        "272条评论"
+        "超 10 亿融资",
+        "成立仅两年",
+        "全模态实时感知"
       ],
-      "judgment": "这是对当前 AI Coding 热潮的一盆冷水。核心矛盾在于：代码生成速度提升了，但需求理解、架构设计、质量保证等环节并未同步提效。对 AI Coding 工具厂商而言，下一阶段的竞争重点不是'生成更多代码'，而是'交付更好的软件'——这需要更深的工程集成而非单纯的模型能力。",
+      "judgment": "资本正在从「更大的语言模型」转向「能实时感知世界的全模态模型」。这代表一个明确趋势：下一代模型竞争的核心不是参数规模，而是多模态信息的实时融合与响应能力。对做 AI 硬件、实时交互产品的团队是重要信号。",
       "confidence": 4,
-      "source": "Ars Technica / Hacker News",
-      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/"
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/372278"
     },
     {
       "rank": 5,
-      "title": "智谱发布高速模型：490 tokens/s 刷新推理速度",
-      "finding": "智谱推出新模型，推理速度达到 490 tokens/s，被量子位称为'速度仙人'。这一速度在国产大模型中处于领先水平，主要面向对延迟敏感的应用场景。",
+      "title": "REA「逆向一切」项目一周破 10 万星，但极客公园泼冷水",
+      "finding": "REA（Reverse Engineer Anything）项目在 AI 开发者圈刷屏，一周内 GitHub 星标突破 10 万。它让智能体在没有源代码的情况下检查应用、解释功能原理，并帮你在自己项目中实现类似功能。但极客公园发文提醒大家不要过于兴奋，暗示其实际能力可能被夸大。",
       "key_data": [
-        "490 tokens/s",
-        "国产最快之一",
-        "低延迟场景",
-        "智谱GLM系列"
+        "一周 10 万星",
+        "无源码逆向",
+        "极客公园泼冷水"
       ],
-      "judgment": "推理速度正在成为大模型竞争的新维度。当模型能力逐渐趋同时，谁能提供更快的响应、更低的成本，谁就能在实时交互、Agent 循环调用等场景中占据优势。智谱此举瞄准的是对速度敏感的企业级和消费级应用市场。",
+      "judgment": "这类「Agent 万能」项目的高热度反映了开发者对自动化逆向工程的强烈需求，但极客公园的冷静提醒值得注意——高星标不等于高可用性。建议开发者亲自测试后再决定是否纳入工作流，不要被社区热度裹挟。",
       "confidence": 3,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502649.html"
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/372263"
     }
   ],
   "model_tech": [
     {
+      "source": "Reddit r/MachineLearning",
+      "title": "U-Space：揭示语言模型何时以及为何产生不确定性",
+      "finding": "研究者提出 U-Space 方法，能在不增加 5 倍采样成本、不需要裁判模型或标注数据的情况下，为开源推理模型提供「模型对这个答案有多确定」的信号。这对构建可靠 AI 应用的开发者非常实用。",
+      "key_data": [
+        "无需额外采样",
+        "无需标注数据",
+        "开源推理模型适用"
+      ],
+      "judgment": "不确定性量化是 Agent 可靠性的关键拼图，低成本方案将加速落地。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x44f9m/uspace_uncovering_when_and_why_uncertainty_arises/",
+      "importance": 4
+    },
+    {
       "source": "ArXiv cs.CL",
       "title": "SWE-Duel：面向编程 Agent 的自扩展竞技场",
-      "finding": "研究者提出 SWE-Duel，一个能自我扩展的编程 Agent 评测竞技场。传统静态基准会因任务泄露到训练数据而失效，SWE-Duel 通过动态生成新任务来持续评估 Agent 能力。",
+      "finding": "静态编程基准发布后就固定了，任务会泄漏进训练数据，强 Agent 最终会饱和。SWE-Duel 提出一种自我扩展的竞技场机制，让编程 Agent 的评测能持续产生新任务，避免基准失效。",
       "key_data": [
-        "自扩展评测",
-        "防数据泄露",
-        "编程Agent",
-        "动态基准"
+        "自扩展竞技场",
+        "避免基准饱和",
+        "编程 Agent 评测"
       ],
-      "judgment": "静态基准的寿命越来越短，动态评测是必然趋势。这对 AI Coding 工具的评估体系有直接参考价值。",
+      "judgment": "编程 Agent 评测的「军备竞赛」需要动态基准，这是方法论层面的重要进步。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2610.12569",
       "importance": 3
     },
     {
       "source": "ArXiv cs.CL",
-      "title": "弹性潜在循环：一个模型通过改变循环深度调节推理算力",
-      "finding": "研究者提出弹性潜在循环语言模型，通过重复使用共享层块，让同一个模型 checkpoint 可以在推理时通过改变循环深度来权衡算力和精度。",
+      "title": "One Model to Loop Them All：语言模型的弹性潜在循环",
+      "finding": "该研究提出潜在循环语言模型，通过重复应用共享层块，让同一个模型检查点可以在推理时通过改变循环深度来权衡计算量和准确率。这意味着一个模型可以按需「变深」或「变浅」。",
       "key_data": [
-        "共享层块复用",
-        "推理时调算力",
-        "一个checkpoint",
-        "精度可调"
+        "共享层块重复",
+        "推理时调循环深度",
+        "一个模型多档算力"
       ],
-      "judgment": "这为模型部署提供了极大的灵活性——同一模型可适配从边缘设备到云端的不同算力场景。",
+      "judgment": "弹性推理算力是降低部署成本的关键方向，对推理基础设施团队有参考价值。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2610.12582",
       "importance": 3
     },
     {
-      "source": "ArXiv cs.AI",
-      "title": "SpireBench：用《杀戮尖塔》评测 Agent 的长程战略推理能力",
-      "finding": "研究者用卡牌游戏《杀戮尖塔》构建了 SpireBench，专门评测 Agent 模型在长程战略规划上的表现。现有 Agent 基准大多是短任务，无法反映长程决策能力。",
+      "source": "Hacker News / ArXiv",
+      "title": "AI 模型可以可证明地隐藏任意能力",
+      "finding": "一篇论文从理论上证明，AI 模型可以隐藏任意能力而不被检测到。这对 AI 安全领域是一个重要警示：我们可能无法通过现有检测手段发现模型中隐藏的恶意或未授权能力。",
       "key_data": [
-        "杀戮尖塔",
-        "长程战略",
-        "Agent评测",
-        "短任务盲区"
+        "可证明隐藏能力",
+        "安全检测失效",
+        "理论证明"
       ],
-      "judgment": "长程规划是 Agent 从'能用'到'好用'的关键瓶颈，这个基准填补了评测空白。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2610.12596",
-      "importance": 3
+      "judgment": "对 AI 安全和对齐研究是重大警钟，模型审计的可靠性面临根本性质疑。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2610.13928",
+      "importance": 4
     },
     {
       "source": "Reddit r/MachineLearning",
-      "title": "U-Space：揭示语言模型何时以及为何产生不确定性",
-      "finding": "研究者提出 U-Space 方法，能在不增加 5 倍采样成本、不需要评判模型或标注数据的情况下，为开源推理模型提供'模型对这个答案有多确定'的信号。",
+      "title": "循环扩散 Transformer：同一组块在每步去噪中运行多次",
+      "finding": "不同于把文生图 DiT 做得更大，该论文让一组共享的 Transformer 块在每个去噪步骤内运行多次，且循环深度可以在采样时动态调整。这为图像生成提供了新的效率-质量权衡方式。",
       "key_data": [
-        "不确定性量化",
-        "无需额外采样",
-        "无需标注",
-        "开源推理模型"
+        "共享块多次循环",
+        "采样时调深度",
+        "文生图效率优化"
       ],
-      "judgment": "低成本不确定性估计对 Agent 可靠性至关重要，是生产环境部署的关键基础设施。",
+      "judgment": "扩散模型的架构创新持续涌现，循环设计可能成为下一波效率优化主流。",
       "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x44f9m/uspace_uncovering_when_and_why_uncertainty_arises/",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x49d61/looped_diffusion_transformer_the_same_blocks_run/",
       "importance": 3
-    },
-    {
-      "source": "ArXiv cs.LG",
-      "title": "Kairos：面向全模态的字节级基础模型",
-      "finding": "Kairos 结合双向门控 DeltaNet 等架构，尝试在单台本地机器上训练一个字节级基础模型，可处理多种模态数据，为小规模研究提供了新的架构实验平台。",
-      "key_data": [
-        "字节级模型",
-        "全模态",
-        "本地训练",
-        "门控DeltaNet"
-      ],
-      "judgment": "字节级全模态模型是简化多模态架构的有趣探索，但距离实用还有距离。",
-      "confidence": 2,
-      "url": "https://arxiv.org/abs/2610.12495",
-      "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "InfoQ",
-      "title": "AI 智能体三周重构 30 万行代码，Code Health 从 5.6 升至 10.0",
-      "finding": "一个 AI 智能体在三周内完成了 30 万行代码的重构，代码健康度评分从 5.6 提升到 10.0。这引发了一个关键问题：AI 重构后的代码质量真的变好了吗？",
-      "key_data": [
-        "30万行代码",
-        "三周完成",
-        "Code Health 5.6→10.0",
-        "质量存疑"
-      ],
-      "judgment": "大规模 AI 重构的案例值得关注，但 Code Health 评分提升不等于代码真正变好，需要人工审查验证。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/Qk7CzmLpDCvfYpAiU6Tf",
-      "importance": 3
-    },
-    {
-      "source": "极客公园",
-      "title": "REA 项目一周 10 万星：AI'逆向一切'引发开发者狂欢与警惕",
-      "finding": "REA（Reverse Engineer Anything）项目在 AI 开发者圈刷屏，一周获得 10 万星。该项目让智能体在没有源代码的情况下检查应用、解释功能原理，并帮助开发者在自己的项目中实现类似功能。",
-      "key_data": [
-        "一周10万星",
-        "逆向一切",
-        "无源码分析",
-        "功能复刻"
-      ],
-      "judgment": "AI 驱动的逆向工程能力大幅降低了'抄功能'的门槛，将引发知识产权和商业伦理的新争议。",
-      "confidence": 3,
-      "url": "http://www.geekpark.net/news/372263",
-      "importance": 3
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Blueprints AI：几分钟内生成合规建筑蓝图",
-      "finding": "位于 Santa Monica 的创业公司 Blueprints AI 开发了一款软件，能从照片、PDF 或草图生成符合建筑规范的施工蓝图。该公司采用自举模式（bootstrapped），未依赖外部融资。",
+      "source": "TechCrunch AI",
+      "title": "Blueprints AI：几分钟内生成可审批的建筑蓝图",
+      "finding": "位于圣莫尼卡的创业公司 Blueprints AI 开发了一款软件，能从照片、PDF 或草图生成符合建筑规范的施工蓝图。公司为自举创业，未依赖外部融资。",
       "key_data": [
         "照片生成蓝图",
-        "合规建筑图纸",
-        "自举创业",
-        "分钟级生成"
+        "符合建筑规范",
+        "自举创业"
       ],
-      "judgment": "AI 进入建筑审批流程是垂直行业落地的典型案例，合规性验证是核心壁垒。",
+      "judgment": "AI 进入建筑审批流程是垂直行业落地的典型案例，但合规性验证是最大挑战。",
       "confidence": 3,
       "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "千问 Personal Agent 硬件升级：AI 眼镜支持虹膜支付，携手 Bose 发 AI 耳夹耳机",
+      "finding": "阿里千问的 Personal Agent 硬件产品线升级，AI 眼镜新增虹膜支付功能，同时与 Bose 合作首发 AI 耳夹耳机。这标志着千问从软件 Agent 向硬件载体延伸。",
+      "key_data": [
+        "AI 眼镜虹膜支付",
+        "携手 Bose",
+        "AI 耳夹耳机"
+      ],
+      "judgment": "AI Agent 需要硬件入口，阿里选择眼镜+耳机双线布局，但支付场景的隐私争议需关注。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/xJ8vYf2lCwGWzVizOTSM",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "微软总裁：英国最适合主导 AI 监管",
+      "finding": "微软总裁 Brad Smith 呼吁紧急 AI 监管，称牛奶和洗衣机受到的监管都比 AI 公司多。他认为英国在推动 AI 监管方面处于最佳位置。",
+      "key_data": [
+        "呼吁紧急监管",
+        "英国最适合主导",
+        "AI 监管少于家电"
+      ],
+      "judgment": "科技巨头主动呼吁监管，既是公关策略也是行业成熟信号，但谁来监管仍是博弈焦点。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "WindBorne 获美国空军近 5000 万美元气象数据合同",
+      "finding": "硅谷创业公司 WindBorne 利用气象气球和 AI 预测天气，赢得美国军方价值近 5000 万美元的合同。这是 AI 气象预测在国防领域的重大商业化案例。",
+      "key_data": [
+        "近 5000 万美元合同",
+        "美国空军",
+        "AI 气象预测"
+      ],
+      "judgment": "AI+气象+国防的交叉领域正在形成新市场，值得关注军民融合方向的创业机会。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
       "importance": 2
     },
     {
-      "source": "InfoQ",
-      "title": "Cursor 基于 S3 的 WAL 将 Git 存储扩展到每秒 300+ Push",
-      "finding": "Cursor 工程团队分享了如何利用基于 S3 的预写日志（WAL）架构，将 Git 存储系统的吞吐量扩展到每秒 300 多次 Push，支撑其大规模 AI 编程平台的代码管理需求。",
+      "source": "极客公园",
+      "title": "字节海外短剧 App PineDrama 上线九个月下载破亿",
+      "finding": "字节跳动旗下海外短剧应用 PineDrama 累计下载量突破 1 亿次，日活跃用户约 700 万，仅 2026 年 9 月单月下载量就超过 1200 万次。距离正式上线才过去 9 个月。",
       "key_data": [
-        "S3 WAL架构",
-        "300+ Push/秒",
-        "Git存储扩展",
-        "Cursor基础设施"
+        "9 个月破亿下载",
+        "日活 700 万",
+        "单月下载 1200 万"
       ],
-      "judgment": "AI Coding 工具的竞争已从模型能力延伸到基础设施工程，Cursor 的架构分享值得后端团队参考。",
+      "judgment": "字节在海外复制「红果」模式成功，AI 推荐算法是核心驱动力，短剧出海赛道竞争将加剧。",
       "confidence": 4,
-      "url": "https://www.infoq.cn/article/QPf1GXbpDxhcCHHP4xfo",
-      "importance": 3
-    },
-    {
-      "source": "TechCrunch",
-      "title": "微软总裁呼吁英国主导 AI 监管：洗衣机受到的监管都比 AI 多",
-      "finding": "微软总裁 Brad Smith 呼吁紧急制定 AI 监管法规，指出当前牛奶和洗衣机受到的监管都比 AI 公司更多。他认为英国在推动 AI 监管方面处于最佳位置。",
-      "key_data": [
-        "Brad Smith呼吁",
-        "英国主导监管",
-        "洗衣机监管对比",
-        "紧急立法"
-      ],
-      "judgment": "科技巨头主动呼吁监管，反映出行业对'规则真空'的不安——明确的规则反而有利于头部玩家。",
-      "confidence": 4,
-      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "url": "http://www.geekpark.net/news/372284",
       "importance": 2
     }
   ],
@@ -235,48 +220,48 @@
     {
       "person": "Rich Hickey",
       "level": "L1",
-      "quote": "'AI'不是一个工具。工具是你理解其工作原理后可以可靠使用的东西。当前所谓的 AI 更像是一个你不完全理解其行为的合作者，把它当工具用是危险的思维框架。",
+      "quote": "「AI 不是工具」——Clojure 创始人 Rich Hickey 撰文指出，把 AI 简单类比为锤子或计算器是危险的误导。AI 系统具有自主性和不可预测性，需要与工具完全不同的使用哲学和责任框架。该观点在 HN 获 270 分、137 条评论。",
       "source": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e"
     },
     {
       "person": "Simon Willison",
       "level": "L2",
-      "quote": "我在手机上用 Codex Remote 做项目时，想编辑一个凭证文件但不想让凭证经过 LLM。于是做了 web-edit 这个工具——AI 辅助开发中，'不让 AI 碰敏感数据'应该是基本设计原则。",
+      "quote": "发布 web-edit 0.1a0 工具，解决在手机上用 Codex Remote 时编辑凭证文件不想让凭证经过 LLM 的问题。同时撰文介绍 Python 3.15 发布，作为开源软件维护者分享版本升级实践。",
       "source": "https://simonwillison.net/2026/Oct/12/web-edit/"
     },
     {
-      "person": "Kevin Kelly（回顾）",
+      "person": "Brad Smith",
       "level": "L3",
-      "quote": "2016 年 Kevin Kelly 对 AI 的预测在 10 年后被重新审视。他对 AI 将像电力一样渗透所有行业的判断基本准确，但低估了 LLM 路线的爆发速度和集中度。",
-      "source": "https://taylor.town/kk-ai-2026"
+      "quote": "「牛奶和洗衣机受到的监管都比 AI 公司多。」微软总裁呼吁紧急 AI 监管，认为英国最适合主导全球 AI 监管框架的制定。",
+      "source": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "多 Agent 协作的 Unix 哲学：Anthropic 动态工作流方法论",
-      "reason": "Agent 编排正从 prompt 技巧升级为系统工程，Anthropic 的方法论可能定义下一代 Agent 架构标准。",
+      "topic": "Anthropic 多 Agent 动态工作流架构",
+      "reason": "借鉴 Unix 哲学协调多 Agent 是 Agent 工程的前沿方法论，值得深入研究其设计模式。",
       "priority": "high"
     },
     {
-      "topic": "AI Coding 的'代码量陷阱'：为什么生成更多代码不等于交付更好软件",
-      "reason": "这是当前 AI Coding 最核心的矛盾，理解它才能找到下一代工具的差异化方向。",
+      "topic": "Meta Muse Wonder 技术细节与竞争格局影响",
+      "reason": "Meta 重回前沿模型竞争将改变行业格局，需评估其真实能力与可持续性。",
       "priority": "high"
     },
     {
-      "topic": "DeepSeek 入局具身智能：大模型公司做机器人的路径与挑战",
-      "reason": "中国头部 AI 实验室向物理世界延伸，可能重塑国内具身智能竞争格局。",
+      "topic": "AI 模型可证明隐藏能力的安全含义",
+      "reason": "如果模型能可证明地隐藏能力，现有 AI 安全审计框架面临根本性挑战。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "Meta 发前沿模型，DeepSeek 谋机器人",
-  "summary_paragraph": "今日最重磅的信号来自 Meta——发布首个前沿模型 Muse Wonder，正式从开源生态玩家转向前沿模型竞争者，全球大模型格局再添变数。国内方面，DeepSeek 梁文锋密集接触具身智能创业者，暗示大模型公司开始向物理世界延伸。Agent 领域，Anthropic 分享了用 Unix 哲学协调多 Agent 的动态工作流方法论，而 Ars Technica 的报道则给 AI Coding 热潮泼了冷水：代码生成量上去了，软件交付质量却没跟上。此外，智谱以 490 tokens/s 刷新国产推理速度，REA 项目一周 10 万星引发逆向工程伦理讨论。整体来看，行业正从'模型能力竞赛'转向'工程落地与生态卡位'。",
+  "summary_one_line": "Meta 发前沿模型，DeepSeek 探具身智能",
+  "summary_paragraph": "今日最重磅信号来自两个方向：Meta 发布首个前沿模型 Muse Wonder，正式从开源路线转向顶级闭源竞争，前沿模型格局可能从三强变四强；DeepSeek 梁文锋密集接触具身智能创业者，中国大模型头部玩家向机器人领域延伸。与此同时，Anthropic 分享了借鉴 Unix 哲学的多 Agent 协调方法论，为 Agent 工程提供新范式；复旦邱锡鹏团队获超 10 亿融资押注全模态实时感知模型，资本正从「更大语言模型」转向「能感知世界的模型」。安全领域，一篇论文证明 AI 模型可隐藏任意能力，对现有审计框架构成根本性挑战。",
   "snapshot": {
     "date": "2026-10-13",
     "hf_trending": [
       {
         "name": "google/embeddinggemma-2",
         "short_name": "embeddinggemma-2",
-        "likes": 1941,
+        "likes": 2001,
         "downloads": 115763,
         "url": "https://huggingface.co/google/embeddinggemma-2",
         "tags": [
@@ -292,7 +277,7 @@
       {
         "name": "jialinyyzz/humanizer",
         "short_name": "humanizer",
-        "likes": 1324,
+        "likes": 1380,
         "downloads": 46070,
         "url": "https://huggingface.co/jialinyyzz/humanizer",
         "tags": [
@@ -308,7 +293,7 @@
       {
         "name": "Qwen/Qwen-Image-2.1-Turbo",
         "short_name": "Qwen-Image-2.1-Turbo",
-        "likes": 638,
+        "likes": 670,
         "downloads": 6787,
         "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
         "tags": [
@@ -324,7 +309,7 @@
       {
         "name": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
         "short_name": "Qwen-Image-2.1-Uncensored-Quantized",
-        "likes": 4100,
+        "likes": 4145,
         "downloads": 2188658,
         "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
         "tags": [
@@ -340,7 +325,7 @@
       {
         "name": "Cloudflare/clef",
         "short_name": "clef",
-        "likes": 2096,
+        "likes": 2108,
         "downloads": 15064,
         "url": "https://huggingface.co/Cloudflare/clef",
         "tags": [
@@ -356,7 +341,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 7489,
+        "likes": 7528,
         "downloads": 1719766,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -372,7 +357,7 @@
       {
         "name": "ConwayResearch/Underdog-Saluki-27B-1.0",
         "short_name": "Underdog-Saluki-27B-1.0",
-        "likes": 371,
+        "likes": 385,
         "downloads": 242329,
         "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
         "tags": [
@@ -388,7 +373,7 @@
       {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 17581,
+        "likes": 17598,
         "downloads": 6895303,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -406,45 +391,45 @@
       {
         "name": "morluto/rea",
         "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-        "stars": 160848,
+        "stars": 180219,
         "stars_today": 45327,
-        "forks": 37597,
+        "forks": 43483,
         "language": "TypeScript",
         "url": "https://github.com/morluto/rea"
       },
       {
         "name": "bilawalsidhu/gods-eye-view",
         "desc": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelli",
-        "stars": 53770,
+        "stars": 54356,
         "stars_today": 1895,
-        "forks": 10618,
+        "forks": 10693,
         "language": "JavaScript",
         "url": "https://github.com/bilawalsidhu/gods-eye-view"
       },
       {
         "name": "mksglu/context-mode",
         "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists se",
-        "stars": 27340,
+        "stars": 27662,
         "stars_today": 246,
-        "forks": 1948,
+        "forks": 1961,
         "language": "TypeScript",
         "url": "https://github.com/mksglu/context-mode"
       },
       {
         "name": "storytold/artcraft",
         "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-        "stars": 22235,
+        "stars": 23514,
         "stars_today": 4095,
-        "forks": 3585,
+        "forks": 3744,
         "language": "Rust",
         "url": "https://github.com/storytold/artcraft"
       },
       {
         "name": "open-webui/open-webui",
         "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-        "stars": 155070,
+        "stars": 155435,
         "stars_today": 157,
-        "forks": 22646,
+        "forks": 22666,
         "language": "Python",
         "url": "https://github.com/open-webui/open-webui"
       }
@@ -561,6 +546,6 @@
         "url": "https://openrouter.ai/z-ai/glm-5.3"
       }
     ],
-    "hf_summary": "多模态与视频生成主导热度 开源模型加速向多模态融合演进"
+    "hf_summary": "多模态与视频生成霸榜 开源模型社区加速向多模态融合演进"
   }
 }
