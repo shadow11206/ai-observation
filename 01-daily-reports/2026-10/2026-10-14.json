@@ -1,0 +1,551 @@
+{
+  "date": "2026-10-14",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "谷歌发布 Gemini 4 Argon：输出上限 100 万 Token，同步推出机器人专用版本",
+      "finding": "谷歌 DeepMind 正式发布 Gemini 4 Argon，面向全球开发者和企业开放，单次输出词元上限达 100 万个，专攻最棘手难题。同时推出面向机器人的 Gemini 4 Argon for Robotics 版本，并发布了负责任与安全开发说明。",
+      "key_data": [
+        "输出上限 100 万 Token",
+        "同步发布机器人版",
+        "AI Studio/API 全量开放"
+      ],
+      "judgment": "这是谷歌今年最强的一次模型发布，100 万输出 Token 意味着长文档生成、大型代码库重构等场景的瓶颈被打破。同时推出机器人专用版本，说明谷歌正把 Gemini 从纯语言模型向具身智能延伸，直接对标 OpenAI 和 Anthropic 的 Agent 生态。对开发者而言，长输出能力将重新定义 AI 编程和内容生成的产品形态。",
+      "confidence": 5,
+      "source": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/"
+    },
+    {
+      "rank": 2,
+      "title": "Character.ai 申请破产保护，AI 陪伴赛道首个重大失败案例",
+      "finding": "曾经估值超 10 亿美元的 AI 陪伴聊天平台 Character.ai 正式申请 Chapter 11 破产保护。该公司在 2025 年与迪士尼产生版权纠纷后用户流失严重，运营成本持续高企。",
+      "key_data": [
+        "Chapter 11 破产",
+        "曾估值超 10 亿美元",
+        "与迪士尼版权纠纷"
+      ],
+      "judgment": "AI 陪伴赛道第一个标志性死亡案例。这说明纯 C 端 AI 陪伴产品在版权成本、算力成本和用户留存三重压力下极难跑通商业模式。对创业者是一个警示：没有差异化技术壁垒和可持续变现路径的 AI 应用，即便有先发优势和用户规模，也可能迅速崩塌。",
+      "confidence": 5,
+      "source": "The Verge / Hacker News",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney"
+    },
+    {
+      "rank": 3,
+      "title": "Meta 发布 Muse 模型杀回 AI 第一梯队，7 个月完成翻身",
+      "finding": "Meta 旗下 MSL 发布 Muse 前沿模型，被评价为达到 Claude 5.5 同级水平，标志着 Meta 重新回到前沿模型第一梯队。Alexandr Wang 亲述了 7 个月内从落后到追赶的翻身内幕。",
+      "key_data": [
+        "Muse 模型",
+        "Claude 5.5 同级",
+        "7 个月翻身"
+      ],
+      "judgment": "Meta 的回归改变了前沿模型的竞争格局。此前业界普遍认为 Meta 在 Llama 4 之后掉队，但 Muse 的发布证明 Meta 仍有顶级研发能力。对开发者来说，多一个前沿模型选择意味着 API 定价和生态竞争将更加激烈，利好整个行业。",
+      "confidence": 4,
+      "source": "Latent Space / InfoQ",
+      "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
+    },
+    {
+      "rank": 4,
+      "title": "梁文锋投资 Swin Transformer 作者，DeepSeek 正式布局具身智能",
+      "finding": "DeepSeek 创始人梁文锋投资了 Swin Transformer 作者创立的 Winverse AI，标志着 DeepSeek 开始从纯语言模型向具身智能大脑方向布局。",
+      "key_data": [
+        "投资 Winverse AI",
+        "Swin Transformer 作者",
+        "布局具身大脑"
+      ],
+      "judgment": "DeepSeek 从语言模型向具身智能延伸是一个重要信号。Swin Transformer 是计算机视觉领域最具影响力的架构之一，其作者加入具身智能赛道意味着视觉-语言-动作模型的融合将加速。这对国内具身智能赛道是强心针，也说明 DeepSeek 在为后语言模型时代做技术储备。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/503093.html"
+    },
+    {
+      "rank": 5,
+      "title": "Anthropic 自研替代 Git 的版本控制系统，AI 编程倒逼基础设施重构",
+      "finding": "Anthropic 发布文章详述为何以及如何构建自己的 Git 替代方案。核心原因是 AI Agent 带来的代码变更速率暴增，传统 Git 工作流已无法满足 AI 驱动开发的需求。",
+      "key_data": [
+        "自研版本控制",
+        "替代 Git",
+        "AI 变更速率暴增"
+      ],
+      "judgment": "这是一个被低估的信号：AI 编程工具的普及正在倒逼底层开发基础设施重构。当 AI Agent 每天产生数百次代码变更时，Git 的 branch-merge 模型确实会成为瓶颈。Anthropic 此举可能引发连锁反应，未来可能出现专为 AI 编程设计的版本控制标准。",
+      "confidence": 4,
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Hugging Face Blog",
+      "title": "Liquid AI 发布 LFM2.5-24B-A2B：可在设备端运行快速私有 Agent",
+      "finding": "Liquid AI 发布 LFM2.5-24B-A2B 模型，主打在本地设备上运行快速、私密的 AI Agent，无需云端调用。",
+      "key_data": [
+        "24B 参数",
+        "设备端运行",
+        "私有 Agent"
+      ],
+      "judgment": "端侧 Agent 是下一个重要方向，隐私和延迟优势明显。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "SWE-Duel：面向编程 Agent 的自扩展竞技场基准",
+      "finding": "研究者提出 SWE-Duel，一个自我扩展的编程 Agent 评测竞技场，解决静态基准被训练数据泄漏和饱和的问题。",
+      "key_data": [
+        "自扩展基准",
+        "编程 Agent",
+        "解决数据泄漏"
+      ],
+      "judgment": "编程 Agent 评测需要动态化，静态基准已不够用。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.12569",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "SpireBench：用《杀戮尖塔》评测 Agent 长程战略推理能力",
+      "finding": "研究者提出 SpireBench，利用《杀戮尖塔》游戏评测 Agent 模型的长程战略规划能力，填补现有基准在长视野推理上的空白。",
+      "key_data": [
+        "长程战略推理",
+        "杀戮尖塔",
+        "Agent 评测"
+      ],
+      "judgment": "长程规划是 Agent 落地的核心瓶颈，这类评测很有价值。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.12596",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "弹性潜在循环：一个模型通过循环层数灵活调节推理算力",
+      "finding": "研究者提出弹性潜在循环语言模型，通过重复使用共享层块，让同一个模型检查点可以在推理时灵活调整计算量来换取精度。",
+      "key_data": [
+        "共享层循环",
+        "推理算力可调",
+        "单检查点"
+      ],
+      "judgment": "推理算力弹性化是降低部署成本的关键方向。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.12582",
+      "importance": 3
+    },
+    {
+      "source": "Google DeepMind Blog",
+      "title": "谷歌 DeepMind 与新加坡政府合作推出端侧 AI 反诈骗工具",
+      "finding": "谷歌 DeepMind 与新加坡 GovTech 合作，利用轻量级 Gemma 模型在设备端拦截对话诈骗，实现零云端数据外泄。",
+      "key_data": [
+        "端侧 Gemma",
+        "零数据外泄",
+        "拦截对话诈骗"
+      ],
+      "judgment": "端侧小模型在公共安全场景的落地范例，值得关注。",
+      "confidence": 5,
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "OpenAI Blog",
+      "title": "Higgsfield 借助 GPT-6 Astra 将 AI 视频从 1 分钟延长到 10 分钟以上",
+      "finding": "Higgsfield 利用 OpenAI 的 GPT-6 Astra 和 GPT-Image-2.5 实现超 10 分钟 AI 视频生成，并探索 GPT-Live 语音电影制作。",
+      "key_data": [
+        "10 分钟以上视频",
+        "GPT-6 Astra",
+        "语音电影"
+      ],
+      "judgment": "AI 视频从短视频向长视频跨越，影视行业变革加速。",
+      "confidence": 4,
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "importance": 4
+    },
+    {
+      "source": "极客公园",
+      "title": "苹果发布 299 美元 Siri AI 带屏音箱 HomeView",
+      "finding": "苹果发布 7 英寸屏幕的 Apple HomeView，售价 299 美元，以新一代 Siri AI 为核心卖点，能识别家庭成员。同时发布第四代 Apple TV 4K 和 HomePod mini 2。",
+      "key_data": [
+        "299 美元",
+        "7 英寸屏幕",
+        "Siri AI 识别家人"
+      ],
+      "judgment": "苹果正式进军智能家居 AI 入口，Siri 终于有了硬件载体。",
+      "confidence": 4,
+      "url": "http://www.geekpark.net/news/372302",
+      "importance": 4
+    },
+    {
+      "source": "InfoQ",
+      "title": "阶跃星辰推出首款智能体手机，定价 3999 元",
+      "finding": "阶跃星辰发布首款智能体手机，主打「手机解锁先见 AI，不再先找 App」的交互理念，定价 3999 元。",
+      "key_data": [
+        "3999 元",
+        "智能体手机",
+        "AI 优先交互"
+      ],
+      "judgment": "AI 原生手机是值得关注的品类创新，但生态是最大挑战。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/p2TobACROBC8UBPlRKXx",
+      "importance": 3
+    },
+    {
+      "source": "极客公园",
+      "title": "复旦邱锡鹏团队获超 10 亿融资，押注全模态实时交互模型",
+      "finding": "复旦大学邱锡鹏团队成立的公司获得超 10 亿元融资，专注让模型能同时边听、边看、边说，实现全模态实时感知与响应。",
+      "key_data": [
+        "超 10 亿融资",
+        "全模态实时交互",
+        "复旦邱锡鹏"
+      ],
+      "judgment": "全模态实时交互是下一个模型竞争焦点，资本已开始下注。",
+      "confidence": 4,
+      "url": "http://www.geekpark.net/news/372278",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Industrial Next 让工厂机器人换任务从数周缩短到几分钟",
+      "finding": "Industrial Next 帮助制造商自动化传统上需要人工的复杂精细任务，使工厂机器人切换任务的时间从数周缩短到几分钟。",
+      "key_data": [
+        "换任务几分钟",
+        "工厂机器人",
+        "替代人工精细操作"
+      ],
+      "judgment": "工业机器人灵活性提升是制造业 AI 落地的关键突破。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+      "importance": 3
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Geoffrey Huntley",
+      "level": "L1",
+      "quote": "如果 Agent 不使用我的诊断库，我可以内省并更新 AGENTS.md，但仍然会有偏差，而且会漂移。所以我写了一个 pre-commit hook 来检查 git diff。与其依赖 Agent 自觉遵守规则，不如用工程手段强制执行。",
+      "source": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/"
+    },
+    {
+      "person": "Andrew Feldman（Cerebras CEO）",
+      "level": "L3",
+      "quote": "对 AI 末日警告的传播者说：也许该停止说话了。行业对 AI 风险的关注正在淹没其积极潜力。我们正在接近一个人人都有个人 AI 助手的未来，部分在本地运行，部分在云端。",
+      "source": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/"
+    },
+    {
+      "person": "Alexandr Wang（Meta MSL）",
+      "level": "L3",
+      "quote": "Meta 在 7 个月内完成了从前沿模型掉队者到第一梯队的翻身。Muse 模型的发布标志着 MSL 作为前沿实验室的崛起已经完成。",
+      "source": "https://www.infoq.cn/article/2QXm6PqYYX57AOxTYyO0"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI 编程倒逼版本控制基础设施重构",
+      "reason": "Anthropic 自研 Git 替代方案，可能引发开发工具链的系统性变革",
+      "priority": "high"
+    },
+    {
+      "topic": "端侧 AI Agent 的技术栈与产品形态",
+      "reason": "Liquid AI 和谷歌 Gemma 端侧方案密集发布，隐私+延迟优势将催生新品类",
+      "priority": "high"
+    },
+    {
+      "topic": "AI 陪伴产品的商业模式困境",
+      "reason": "Character.ai 破产是标志性事件，需深入分析赛道结构性问题",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "Gemini 4 发布、Character.ai 破产、Meta 回归",
+  "summary_paragraph": "今天是 AI 行业格局剧烈变动的一天。谷歌发布 Gemini 4 Argon，100 万输出 Token 上限重新定义长文本生成能力，同步推出机器人版本向具身智能延伸；Meta 以 Muse 模型杀回第一梯队，前沿模型竞争重新洗牌；而 Character.ai 申请破产则为 AI 陪伴赛道敲响警钟——没有技术壁垒的 C 端应用即便有先发优势也可能迅速崩塌。国内方面，梁文锋投资 Swin Transformer 作者布局具身智能，复旦邱锡鹏团队获超 10 亿融资押注全模态交互。Anthropic 自研 Git 替代方案则揭示了一个深层趋势：AI 编程正在倒逼底层开发基础设施重构。",
+  "snapshot": {
+    "date": "2026-10-14",
+    "hf_trending": [
+      {
+        "name": "google/embeddinggemma-2",
+        "short_name": "embeddinggemma-2",
+        "likes": 2112,
+        "downloads": 124930,
+        "url": "https://huggingface.co/google/embeddinggemma-2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "embedding_gemma2"
+        ],
+        "pipeline_tag": "feature-extraction",
+        "label": "向量嵌入",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "jialinyyzz/humanizer",
+        "short_name": "humanizer",
+        "likes": 1527,
+        "downloads": 54039,
+        "url": "https://huggingface.co/jialinyyzz/humanizer",
+        "tags": [
+          "gguf",
+          "safetensors",
+          "gemma4_unified"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen-Image-2.1-Turbo",
+        "short_name": "Qwen-Image-2.1-Turbo",
+        "likes": 710,
+        "downloads": 9665,
+        "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "qwen"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+        "short_name": "Qwen-Image-2.1-Uncensored-Quantized",
+        "likes": 4208,
+        "downloads": 2247929,
+        "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+        "tags": [
+          "gguf",
+          "qwen",
+          "image-generation"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "openbmb/MiniCPM-V-4.7-35B-A3B",
+        "short_name": "MiniCPM-V-4.7-35B-A3B",
+        "likes": 469,
+        "downloads": 630,
+        "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "minicpmv4_7"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 7650,
+        "downloads": 1724548,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "ConwayResearch/Underdog-Saluki-27B-1.0",
+        "short_name": "Underdog-Saluki-27B-1.0",
+        "likes": 426,
+        "downloads": 269829,
+        "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+        "tags": [
+          "gguf",
+          "llama.cpp",
+          "2-bit"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "LiquidAI/d1-3B",
+        "short_name": "d1-3B",
+        "likes": 381,
+        "downloads": 13190,
+        "url": "https://huggingface.co/LiquidAI/d1-3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "lfm2_vl"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "morluto/rea",
+        "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+        "stars": 209867,
+        "stars_today": 54679,
+        "forks": 51423,
+        "language": "TypeScript",
+        "url": "https://github.com/morluto/rea"
+      },
+      {
+        "name": "bilawalsidhu/gods-eye-view",
+        "desc": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelli",
+        "stars": 55497,
+        "stars_today": 1961,
+        "forks": 10841,
+        "language": "JavaScript",
+        "url": "https://github.com/bilawalsidhu/gods-eye-view"
+      },
+      {
+        "name": "debpalash/VoiceStudio",
+        "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, vi",
+        "stars": 63487,
+        "stars_today": 1748,
+        "forks": 7056,
+        "language": "Python",
+        "url": "https://github.com/debpalash/VoiceStudio"
+      },
+      {
+        "name": "mksglu/context-mode",
+        "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists se",
+        "stars": 28293,
+        "stars_today": 969,
+        "forks": 1996,
+        "language": "TypeScript",
+        "url": "https://github.com/mksglu/context-mode"
+      },
+      {
+        "name": "cathrynlavery/diagram-design",
+        "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 d",
+        "stars": 54234,
+        "stars_today": 1815,
+        "forks": 3440,
+        "language": "HTML",
+        "url": "https://github.com/cathrynlavery/diagram-design"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 5046621695407,
+        "total_tokens_str": "5.0T",
+        "api_calls": 0,
+        "change": -16.2,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "stepfun/step-5-preview",
+        "name": "Step 5 Preview",
+        "org": "stepfun",
+        "total_tokens": 2966448461113,
+        "total_tokens_str": "3.0T",
+        "api_calls": 0,
+        "change": -8.7,
+        "url": "https://openrouter.ai/stepfun/step-5-preview"
+      },
+      {
+        "rank": 3,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1874361498272,
+        "total_tokens_str": "1.9T",
+        "api_calls": 0,
+        "change": -7.8,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo-V2.6-Flash",
+        "org": "xiaomi",
+        "total_tokens": 1659004761743,
+        "total_tokens_str": "1.7T",
+        "api_calls": 0,
+        "change": 3.7,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+      },
+      {
+        "rank": 5,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 1147938222567,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": 4.3,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 6,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 1066485093939,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": -6.5,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      {
+        "rank": 7,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 1049936538401,
+        "total_tokens_str": "1.0T",
+        "api_calls": 0,
+        "change": -4.5,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 8,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 1023174468753,
+        "total_tokens_str": "1.0T",
+        "api_calls": 0,
+        "change": 19.5,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 9,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 931821267503,
+        "total_tokens_str": "932B",
+        "api_calls": 0,
+        "change": 18.2,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 10,
+        "slug": "z-ai/glm-5.3",
+        "name": "GLM 5.3",
+        "org": "z-ai",
+        "total_tokens": 719016765373,
+        "total_tokens_str": "719B",
+        "api_calls": 0,
+        "change": 10.3,
+        "url": "https://openrouter.ai/z-ai/glm-5.3"
+      }
+    ],
+    "hf_summary": "视频生成与无审查图像模型热度领跑开源社区加速内卷"
+  }
+}
