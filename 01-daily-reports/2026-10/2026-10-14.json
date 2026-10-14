@@ -3,142 +3,142 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "谷歌发布 Gemini 4 Argon：输出上限 100 万 Token，同步推出机器人专用版本",
-      "finding": "谷歌 DeepMind 正式发布 Gemini 4 Argon，面向全球开发者和企业开放，单次输出词元上限达 100 万个，专攻最棘手难题。同时推出面向机器人的 Gemini 4 Argon for Robotics 版本，并发布了负责任与安全开发说明。",
+      "title": "谷歌发布 Gemini 4 Argon：百万级输出、专攻最难题",
+      "finding": "谷歌正式向全球开发者和企业开放 Gemini 4 Argon，可通过 AI Studio 和 Gemini API 使用，同时上线 Google Antigravity 和搜索 AI 模式。该模型输出词元上限达 100 万，定位是解决最棘手的复杂问题，并同步发布了面向机器人场景的版本。",
       "key_data": [
-        "输出上限 100 万 Token",
-        "同步发布机器人版",
+        "输出上限100万词元",
+        "同步机器人版本",
         "AI Studio/API 全量开放"
       ],
-      "judgment": "这是谷歌今年最强的一次模型发布，100 万输出 Token 意味着长文档生成、大型代码库重构等场景的瓶颈被打破。同时推出机器人专用版本，说明谷歌正把 Gemini 从纯语言模型向具身智能延伸，直接对标 OpenAI 和 Anthropic 的 Agent 生态。对开发者而言，长输出能力将重新定义 AI 编程和内容生成的产品形态。",
+      "judgment": "这是谷歌在旗舰模型上的一次正面强攻，百万级输出直接瞄准长文档生成、大型代码库重构等此前模型难以胜任的场景。对开发者而言，Gemini 4 Argon 与 Claude、GPT 的竞争将进入'谁能真正处理超长任务'的新阶段，选型逻辑需要重新评估。",
       "confidence": 5,
       "source": "Google DeepMind Blog",
       "url": "https://deepmind.google/blog/introducing-gemini-4-argon/"
     },
     {
       "rank": 2,
-      "title": "Character.ai 申请破产保护，AI 陪伴赛道首个重大失败案例",
-      "finding": "曾经估值超 10 亿美元的 AI 陪伴聊天平台 Character.ai 正式申请 Chapter 11 破产保护。该公司在 2025 年与迪士尼产生版权纠纷后用户流失严重，运营成本持续高企。",
+      "title": "Character.ai 申请破产保护，AI 陪伴赛道首个标志性失败",
+      "finding": "曾经估值数十亿美元的 AI 陪伴应用 Character.ai 主动申请 Chapter 11 破产保护，多家媒体同步报道。这家公司是最早一批将大模型用于情感陪伴和角色扮演的消费级产品，用户规模一度领先。",
       "key_data": [
-        "Chapter 11 破产",
-        "曾估值超 10 亿美元",
-        "与迪士尼版权纠纷"
+        "主动申请Chapter 11",
+        "AI陪伴赛道首例",
+        "曾估值数十亿美元"
       ],
-      "judgment": "AI 陪伴赛道第一个标志性死亡案例。这说明纯 C 端 AI 陪伴产品在版权成本、算力成本和用户留存三重压力下极难跑通商业模式。对创业者是一个警示：没有差异化技术壁垒和可持续变现路径的 AI 应用，即便有先发优势和用户规模，也可能迅速崩塌。",
-      "confidence": 5,
-      "source": "The Verge / Hacker News",
+      "judgment": "AI 陪伴类产品的高用户量并不等于高商业价值，Character.ai 的倒下说明'情感陪伴'这条路的付费转化和成本结构极难平衡。对所有做 C 端 AI 应用的团队是一个警示：用户时长和留存如果不能转化为可持续收入，融资故事终会破灭。",
+      "confidence": 4,
+      "source": "Hacker News / The Verge",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney"
     },
     {
       "rank": 3,
-      "title": "Meta 发布 Muse 模型杀回 AI 第一梯队，7 个月完成翻身",
-      "finding": "Meta 旗下 MSL 发布 Muse 前沿模型，被评价为达到 Claude 5.5 同级水平，标志着 Meta 重新回到前沿模型第一梯队。Alexandr Wang 亲述了 7 个月内从落后到追赶的翻身内幕。",
+      "title": "Anthropic 因 Claude 写代码太快，7 人团队 5 个月重造版本控制系统",
+      "finding": "Anthropic 发现 Claude 生成代码的速度远超 Git 的处理能力，传统版本控制成为瓶颈，于是组建 7 人团队用 5 个月自研了一套替代 Git 的源码管理系统。Simon Willison 和 InfoQ 均对此做了详细报道。",
       "key_data": [
-        "Muse 模型",
-        "Claude 5.5 同级",
-        "7 个月翻身"
+        "7人团队",
+        "5个月自研",
+        "替代Git"
       ],
-      "judgment": "Meta 的回归改变了前沿模型的竞争格局。此前业界普遍认为 Meta 在 Llama 4 之后掉队，但 Muse 的发布证明 Meta 仍有顶级研发能力。对开发者来说，多一个前沿模型选择意味着 API 定价和生态竞争将更加激烈，利好整个行业。",
+      "judgment": "这是 AI 编程真正改变工程基础设施的第一个硬核案例。当 AI 让代码变更速率提升一个数量级，Git、CI/CD、代码评审等整套工具链都会成为瓶颈。这预示着'AI 原生开发工具链'将成为一个新的创业和投入方向。",
       "confidence": 4,
-      "source": "Latent Space / InfoQ",
-      "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
+      "source": "Simon Willison / InfoQ",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
     },
     {
       "rank": 4,
-      "title": "梁文锋投资 Swin Transformer 作者，DeepSeek 正式布局具身智能",
-      "finding": "DeepSeek 创始人梁文锋投资了 Swin Transformer 作者创立的 Winverse AI，标志着 DeepSeek 开始从纯语言模型向具身智能大脑方向布局。",
+      "title": "AI 实验室开始收购倒闭创业公司的数据来训练模型",
+      "finding": "MIT Technology Review 报道，随着大量创业公司倒闭，AI 实验室开始购买这些'死掉的公司'积累的用户数据用于模型训练。一位加密创业者的匿名用户数据被证明有出售价值。",
       "key_data": [
-        "投资 Winverse AI",
-        "Swin Transformer 作者",
-        "布局具身大脑"
+        "收购倒闭公司数据",
+        "匿名用户数据可变现",
+        "数据枯竭催生新市场"
       ],
-      "judgment": "DeepSeek 从语言模型向具身智能延伸是一个重要信号。Swin Transformer 是计算机视觉领域最具影响力的架构之一，其作者加入具身智能赛道意味着视觉-语言-动作模型的融合将加速。这对国内具身智能赛道是强心针，也说明 DeepSeek 在为后语言模型时代做技术储备。",
+      "judgment": "高质量训练数据枯竭已成现实，'数据二级市场'正在形成。这对创业者和投资人是一个新信号：即使产品失败，积累的数据资产可能仍有残值。同时也引发隐私和合规的新争议，监管大概率会跟进。",
       "confidence": 4,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/503093.html"
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/"
     },
     {
       "rank": 5,
-      "title": "Anthropic 自研替代 Git 的版本控制系统，AI 编程倒逼基础设施重构",
-      "finding": "Anthropic 发布文章详述为何以及如何构建自己的 Git 替代方案。核心原因是 AI Agent 带来的代码变更速率暴增，传统 Git 工作流已无法满足 AI 驱动开发的需求。",
+      "title": "苹果发布 299 美元 Siri AI 带屏音箱 HomeView，进军客厅",
+      "finding": "苹果召开'欢迎回家'发布会，推出 7 英寸屏幕的 Apple HomeView 智能音箱，售价 299 美元，以新一代 Siri AI 为核心卖点，能识别家庭成员。同步发布第四代 Apple TV 4K 和 HomePod mini 2。",
       "key_data": [
-        "自研版本控制",
-        "替代 Git",
-        "AI 变更速率暴增"
+        "售价299美元",
+        "7英寸屏幕",
+        "Siri AI识别家人"
       ],
-      "judgment": "这是一个被低估的信号：AI 编程工具的普及正在倒逼底层开发基础设施重构。当 AI Agent 每天产生数百次代码变更时，Git 的 branch-merge 模型确实会成为瓶颈。Anthropic 此举可能引发连锁反应，未来可能出现专为 AI 编程设计的版本控制标准。",
+      "judgment": "苹果终于把 AI 能力落到硬件入口上，这是对亚马逊 Echo 和谷歌 Nest 的直接反击。带屏 + 家庭识别的组合意味着苹果想在'家庭 AI 中枢'这个位置卡位。对智能家居生态的开发者来说，这是一个值得提前布局的新平台。",
       "confidence": 4,
-      "source": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/372302"
     }
   ],
   "model_tech": [
     {
-      "source": "Hugging Face Blog",
-      "title": "Liquid AI 发布 LFM2.5-24B-A2B：可在设备端运行快速私有 Agent",
-      "finding": "Liquid AI 发布 LFM2.5-24B-A2B 模型，主打在本地设备上运行快速、私密的 AI Agent，无需云端调用。",
+      "source": "Google DeepMind Blog",
+      "title": "Gemini 4 Argon 机器人版发布，专为具身智能优化",
+      "finding": "谷歌同步推出 Gemini 4 Argon 的机器人专用版本，针对机器人控制和具身智能场景做了专门优化。这是谷歌将旗舰模型能力延伸到物理世界的重要一步。",
       "key_data": [
-        "24B 参数",
-        "设备端运行",
-        "私有 Agent"
+        "机器人专用版本",
+        "具身智能优化",
+        "与旗舰版同步发布"
       ],
-      "judgment": "端侧 Agent 是下一个重要方向，隐私和延迟优势明显。",
+      "judgment": "大模型厂商开始为机器人场景做专用模型，具身智能的'大脑'之争正式打响。",
+      "confidence": 5,
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "importance": 4
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "Liquid AI 开源 LFM2.5-24B-A2B：可在设备端运行快速私有 Agent",
+      "finding": "Liquid AI 发布 LFM2.5-24B-A2B 模型，主打在设备端本地运行快速、私密的 AI Agent，无需云端。这是端侧 Agent 能力的一次重要提升。",
+      "key_data": [
+        "24B参数",
+        "A2B激活架构",
+        "端侧私有Agent"
+      ],
+      "judgment": "端侧 Agent 是隐私敏感场景的关键解法，开源将进一步加速本地 AI 应用爆发。",
       "confidence": 4,
       "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
       "importance": 4
     },
     {
-      "source": "ArXiv cs.CL",
-      "title": "SWE-Duel：面向编程 Agent 的自扩展竞技场基准",
-      "finding": "研究者提出 SWE-Duel，一个自我扩展的编程 Agent 评测竞技场，解决静态基准被训练数据泄漏和饱和的问题。",
+      "source": "量子位",
+      "title": "面壁智能开源 MiniCPM-V 4.7：iPhone 断网跑 35B 多模态，仅占 3G 内存",
+      "finding": "面壁智能开源 MiniCPM-V 4.7，可在 iPhone 断网状态下运行 35B 参数的多模态模型，内存占用仅 3G。这是国产端侧多模态模型的又一突破。",
       "key_data": [
-        "自扩展基准",
-        "编程 Agent",
-        "解决数据泄漏"
+        "35B多模态",
+        "仅占3G内存",
+        "iPhone断网运行"
       ],
-      "judgment": "编程 Agent 评测需要动态化，静态基准已不够用。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2610.12569",
-      "importance": 3
+      "judgment": "端侧多模态能力持续突破，手机本地 AI 助手的可行性大幅提升，利好隐私场景。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/10/503109.html",
+      "importance": 4
     },
     {
-      "source": "ArXiv cs.AI",
-      "title": "SpireBench：用《杀戮尖塔》评测 Agent 长程战略推理能力",
-      "finding": "研究者提出 SpireBench，利用《杀戮尖塔》游戏评测 Agent 模型的长程战略规划能力，填补现有基准在长视野推理上的空白。",
+      "source": "量子位",
+      "title": "APUS AI 开源 Reflex Agent：响应速度比 Claude Code 快 3 倍，实现无限上下文",
+      "finding": "APUS AI 宣布开源 Personal Agent 产品 Reflex Agent，宣称响应速度比 Claude Code 快 3 倍，并实现真正的无限上下文能力。",
       "key_data": [
-        "长程战略推理",
-        "杀戮尖塔",
-        "Agent 评测"
+        "快3倍",
+        "无限上下文",
+        "开源Personal Agent"
       ],
-      "judgment": "长程规划是 Agent 落地的核心瓶颈，这类评测很有价值。",
+      "judgment": "开源 Agent 竞争加剧，'无限上下文'若属实将显著改变长任务 Agent 的可用性。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2610.12596",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv cs.CL",
-      "title": "弹性潜在循环：一个模型通过循环层数灵活调节推理算力",
-      "finding": "研究者提出弹性潜在循环语言模型，通过重复使用共享层块，让同一个模型检查点可以在推理时灵活调整计算量来换取精度。",
-      "key_data": [
-        "共享层循环",
-        "推理算力可调",
-        "单检查点"
-      ],
-      "judgment": "推理算力弹性化是降低部署成本的关键方向。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2610.12582",
+      "url": "https://www.qbitai.com/2026/10/503165.html",
       "importance": 3
     },
     {
       "source": "Google DeepMind Blog",
-      "title": "谷歌 DeepMind 与新加坡政府合作推出端侧 AI 反诈骗工具",
-      "finding": "谷歌 DeepMind 与新加坡 GovTech 合作，利用轻量级 Gemma 模型在设备端拦截对话诈骗，实现零云端数据外泄。",
+      "title": "谷歌 DeepMind 与新加坡政府合作，用端侧 Gemma 模型检测诈骗",
+      "finding": "谷歌 DeepMind 与新加坡 GovTech 合作，用轻量级端侧 Gemma 模型在私聊中拦截对话式诈骗，数据零云端外泄。这是 AI 治理落地的典型案例。",
       "key_data": [
-        "端侧 Gemma",
-        "零数据外泄",
-        "拦截对话诈骗"
+        "端侧Gemma",
+        "零云端外泄",
+        "政府合作"
       ],
-      "judgment": "端侧小模型在公共安全场景的落地范例，值得关注。",
+      "judgment": "端侧小模型在公共安全场景找到落地路径，隐私合规是核心卖点。",
       "confidence": 5,
       "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
       "importance": 3
@@ -148,120 +148,120 @@
     {
       "source": "OpenAI Blog",
       "title": "Higgsfield 借助 GPT-6 Astra 将 AI 视频从 1 分钟延长到 10 分钟以上",
-      "finding": "Higgsfield 利用 OpenAI 的 GPT-6 Astra 和 GPT-Image-2.5 实现超 10 分钟 AI 视频生成，并探索 GPT-Live 语音电影制作。",
+      "finding": "Higgsfield 利用 OpenAI 的 GPT-6 Astra 模型，将 AI 生成视频时长从 1 分钟提升到 10 分钟以上，同时用 GPT-Image-2.5 提升画面精度，并探索 GPT-Live 的语音电影制作。",
       "key_data": [
-        "10 分钟以上视频",
+        "视频延长至10分钟+",
         "GPT-6 Astra",
-        "语音电影"
+        "GPT-Image-2.5"
       ],
-      "judgment": "AI 视频从短视频向长视频跨越，影视行业变革加速。",
-      "confidence": 4,
+      "judgment": "AI 视频从'片段'走向'长片'，内容创作门槛进一步降低，冲击传统影视制作。",
+      "confidence": 5,
       "url": "https://openai.com/index/higgsfield-longer-videos-voice",
       "importance": 4
     },
     {
-      "source": "极客公园",
-      "title": "苹果发布 299 美元 Siri AI 带屏音箱 HomeView",
-      "finding": "苹果发布 7 英寸屏幕的 Apple HomeView，售价 299 美元，以新一代 Siri AI 为核心卖点，能识别家庭成员。同时发布第四代 Apple TV 4K 和 HomePod mini 2。",
+      "source": "Latent Space",
+      "title": "Meta MSL 推出 Muse Wonder 前沿模型，跻身一线实验室",
+      "finding": "Meta 的 MSL 团队发布 Muse Wonder 模型，被 Swyx 评价为达到 Claude 5.5 级别的前沿水平，标志着 Meta 正式完成向一线前沿实验室的跃迁。",
       "key_data": [
-        "299 美元",
-        "7 英寸屏幕",
-        "Siri AI 识别家人"
+        "Muse Wonder",
+        "Claude 5.5级别",
+        "MSL跻身一线"
       ],
-      "judgment": "苹果正式进军智能家居 AI 入口，Siri 终于有了硬件载体。",
-      "confidence": 4,
-      "url": "http://www.geekpark.net/news/372302",
+      "judgment": "Meta 重回前沿模型第一梯队，开源与闭源策略的平衡将更受关注。",
+      "confidence": 3,
+      "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
       "importance": 4
     },
     {
-      "source": "InfoQ",
-      "title": "阶跃星辰推出首款智能体手机，定价 3999 元",
-      "finding": "阶跃星辰发布首款智能体手机，主打「手机解锁先见 AI，不再先找 App」的交互理念，定价 3999 元。",
+      "source": "Latent Space",
+      "title": "Dyna Robotics 发布 Dyna-2：具备小时级自主性的通用物理 Agent",
+      "finding": "Dyna Robotics 首席科学家 Jason Ma 在 Latent Space 播客中介绍 Dyna-2，这是具备小时级自主性的通用物理 Agent，押注 World Action Models 作为物理 AI 的新前沿。",
       "key_data": [
-        "3999 元",
-        "智能体手机",
-        "AI 优先交互"
+        "小时级自主性",
+        "World Action Models",
+        "通用物理Agent"
       ],
-      "judgment": "AI 原生手机是值得关注的品类创新，但生态是最大挑战。",
+      "judgment": "机器人从'单任务'走向'长时自主'，物理 AI 的通用性竞赛开始。",
       "confidence": 3,
-      "url": "https://www.infoq.cn/article/p2TobACROBC8UBPlRKXx",
-      "importance": 3
-    },
-    {
-      "source": "极客公园",
-      "title": "复旦邱锡鹏团队获超 10 亿融资，押注全模态实时交互模型",
-      "finding": "复旦大学邱锡鹏团队成立的公司获得超 10 亿元融资，专注让模型能同时边听、边看、边说，实现全模态实时感知与响应。",
-      "key_data": [
-        "超 10 亿融资",
-        "全模态实时交互",
-        "复旦邱锡鹏"
-      ],
-      "judgment": "全模态实时交互是下一个模型竞争焦点，资本已开始下注。",
-      "confidence": 4,
-      "url": "http://www.geekpark.net/news/372278",
+      "url": "https://www.latent.space/p/dyna",
       "importance": 3
     },
     {
       "source": "TechCrunch AI",
-      "title": "Industrial Next 让工厂机器人换任务从数周缩短到几分钟",
-      "finding": "Industrial Next 帮助制造商自动化传统上需要人工的复杂精细任务，使工厂机器人切换任务的时间从数周缩短到几分钟。",
+      "title": "Industrial Next 让工厂机器人任务切换从数周缩短到数分钟",
+      "finding": "Industrial Next 帮助制造商自动化传统上需要人工的复杂精细任务，核心卖点是让工厂机器人切换任务的时间从数周缩短到数分钟。",
       "key_data": [
-        "换任务几分钟",
-        "工厂机器人",
-        "替代人工精细操作"
+        "切换任务数分钟",
+        "替代精细人工",
+        "工厂自动化"
       ],
-      "judgment": "工业机器人灵活性提升是制造业 AI 落地的关键突破。",
+      "judgment": "工业机器人柔性化是制造业 AI 落地的关键，切换效率决定 ROI。",
       "confidence": 3,
       "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
       "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "商汤大装置助力上海量子城市首批智能体落地，调度效率提升 80%",
+      "finding": "商汤大装置支持上海'量子城市'首批智能体落地，调度效率提升 80%，实现从'懂空间'到'能干活'的转变。",
+      "key_data": [
+        "调度效率+80%",
+        "量子城市",
+        "首批智能体落地"
+      ],
+      "judgment": "城市级 AI 智能体开始落地，空间智能与 Agent 结合是智慧城市新方向。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/10/503173.html",
+      "importance": 2
     }
   ],
   "opinions": [
     {
       "person": "Geoffrey Huntley",
       "level": "L1",
-      "quote": "如果 Agent 不使用我的诊断库，我可以内省并更新 AGENTS.md，但仍然会有偏差，而且会漂移。所以我写了一个 pre-commit hook 来检查 git diff。与其依赖 Agent 自觉遵守规则，不如用工程手段强制执行。",
+      "quote": "如果 Agent 没有使用我的诊断库，我可以内省并更新 AGENTS.md，但仍会有偏差，而且会漂移。所以我写了一个 pre-commit hook，检查 git diff 中的诊断信息，强制 Agent 遵守约定。",
       "source": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/"
     },
     {
-      "person": "Andrew Feldman（Cerebras CEO）",
+      "person": "Andrew Feldman (Cerebras CEO)",
       "level": "L3",
-      "quote": "对 AI 末日警告的传播者说：也许该停止说话了。行业对 AI 风险的关注正在淹没其积极潜力。我们正在接近一个人人都有个人 AI 助手的未来，部分在本地运行，部分在云端。",
+      "quote": "AI 领袖们散布末日警告，也许该停止说话了。行业对 AI 风险的关注正在淹没其积极潜力。我们正接近一个人人都能在家里拥有个人 AI 助手的未来，部分在本地运行，部分在云端。",
       "source": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/"
     },
     {
-      "person": "Alexandr Wang（Meta MSL）",
-      "level": "L3",
-      "quote": "Meta 在 7 个月内完成了从前沿模型掉队者到第一梯队的翻身。Muse 模型的发布标志着 MSL 作为前沿实验室的崛起已经完成。",
-      "source": "https://www.infoq.cn/article/2QXm6PqYYX57AOxTYyO0"
+      "person": "Sam Newman (via Pragmatic Engineer)",
+      "level": "L2",
+      "quote": "构建有韧性的 AI 驱动软件，需要为 AI 供应商的不确定性和灾难恢复做好准备。当你的系统依赖外部 AI 服务时，必须考虑供应商宕机、模型变更、成本波动等风险。",
+      "source": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI 编程倒逼版本控制基础设施重构",
-      "reason": "Anthropic 自研 Git 替代方案，可能引发开发工具链的系统性变革",
+      "topic": "AI 原生版本控制系统：当代码变更速率提升一个数量级",
+      "reason": "Anthropic 自研 Git 替代方案是 AI 改变工程基础设施的首个硬核案例，值得研究其架构与动机。",
       "priority": "high"
     },
     {
-      "topic": "端侧 AI Agent 的技术栈与产品形态",
-      "reason": "Liquid AI 和谷歌 Gemma 端侧方案密集发布，隐私+延迟优势将催生新品类",
+      "topic": "端侧多模态模型的能力边界与商业场景",
+      "reason": "面壁、Liquid AI 等密集发布端侧模型，隐私敏感场景的本地 AI 应用可能迎来爆发。",
       "priority": "high"
     },
     {
-      "topic": "AI 陪伴产品的商业模式困境",
-      "reason": "Character.ai 破产是标志性事件，需深入分析赛道结构性问题",
+      "topic": "AI 训练数据二级市场与合规风险",
+      "reason": "倒闭创业公司数据被收购训练模型，涉及隐私、合规与数据资产定价的新问题。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "Gemini 4 发布、Character.ai 破产、Meta 回归",
-  "summary_paragraph": "今天是 AI 行业格局剧烈变动的一天。谷歌发布 Gemini 4 Argon，100 万输出 Token 上限重新定义长文本生成能力，同步推出机器人版本向具身智能延伸；Meta 以 Muse 模型杀回第一梯队，前沿模型竞争重新洗牌；而 Character.ai 申请破产则为 AI 陪伴赛道敲响警钟——没有技术壁垒的 C 端应用即便有先发优势也可能迅速崩塌。国内方面，梁文锋投资 Swin Transformer 作者布局具身智能，复旦邱锡鹏团队获超 10 亿融资押注全模态交互。Anthropic 自研 Git 替代方案则揭示了一个深层趋势：AI 编程正在倒逼底层开发基础设施重构。",
+  "summary_one_line": "Gemini 4 上线，Character.ai 破产，AI 重塑工程基建",
+  "summary_paragraph": "今天最重要的信号来自三个方向：谷歌 Gemini 4 Argon 正式开放，百万级输出上限把旗舰模型竞争推向'超长任务'新阶段；Character.ai 申请破产，宣告 AI 陪伴赛道首个标志性失败，提醒所有 C 端 AI 应用用户量不等于商业价值；Anthropic 因 Claude 写代码太快而自研替代 Git 的版本控制系统，成为 AI 真正改变工程基础设施的首个硬核案例。此外，AI 实验室开始收购倒闭创业公司数据、苹果发布 299 美元 Siri 带屏音箱、Meta 推出 Muse Wonder 跻身一线实验室，都在说明行业正从'拼模型'转向'拼落地、拼基建、拼数据'。",
   "snapshot": {
     "date": "2026-10-14",
     "hf_trending": [
       {
         "name": "google/embeddinggemma-2",
         "short_name": "embeddinggemma-2",
-        "likes": 2112,
+        "likes": 2136,
         "downloads": 124930,
         "url": "https://huggingface.co/google/embeddinggemma-2",
         "tags": [
@@ -277,7 +277,7 @@
       {
         "name": "jialinyyzz/humanizer",
         "short_name": "humanizer",
-        "likes": 1527,
+        "likes": 1551,
         "downloads": 54039,
         "url": "https://huggingface.co/jialinyyzz/humanizer",
         "tags": [
@@ -293,7 +293,7 @@
       {
         "name": "Qwen/Qwen-Image-2.1-Turbo",
         "short_name": "Qwen-Image-2.1-Turbo",
-        "likes": 710,
+        "likes": 728,
         "downloads": 9665,
         "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
         "tags": [
@@ -309,7 +309,7 @@
       {
         "name": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
         "short_name": "Qwen-Image-2.1-Uncensored-Quantized",
-        "likes": 4208,
+        "likes": 4237,
         "downloads": 2247929,
         "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
         "tags": [
@@ -325,7 +325,7 @@
       {
         "name": "openbmb/MiniCPM-V-4.7-35B-A3B",
         "short_name": "MiniCPM-V-4.7-35B-A3B",
-        "likes": 469,
+        "likes": 494,
         "downloads": 630,
         "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
         "tags": [
@@ -341,7 +341,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 7650,
+        "likes": 7673,
         "downloads": 1724548,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -357,7 +357,7 @@
       {
         "name": "ConwayResearch/Underdog-Saluki-27B-1.0",
         "short_name": "Underdog-Saluki-27B-1.0",
-        "likes": 426,
+        "likes": 434,
         "downloads": 269829,
         "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
         "tags": [
@@ -371,18 +371,18 @@
         "trend": "same"
       },
       {
-        "name": "LiquidAI/d1-3B",
-        "short_name": "d1-3B",
-        "likes": 381,
-        "downloads": 13190,
-        "url": "https://huggingface.co/LiquidAI/d1-3B",
+        "name": "autotrust/JEV-35B",
+        "short_name": "JEV-35B",
+        "likes": 643,
+        "downloads": 17426,
+        "url": "https://huggingface.co/autotrust/JEV-35B",
         "tags": [
           "transformers",
           "safetensors",
-          "lfm2_vl"
+          "qwen3_5_moe"
         ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
+        "pipeline_tag": "text-classification",
+        "label": "Text Classification",
         "card_desc": "",
         "trend": "new"
       }
@@ -391,45 +391,45 @@
       {
         "name": "morluto/rea",
         "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-        "stars": 209867,
+        "stars": 219241,
         "stars_today": 54679,
-        "forks": 51423,
+        "forks": 54230,
         "language": "TypeScript",
         "url": "https://github.com/morluto/rea"
       },
       {
         "name": "bilawalsidhu/gods-eye-view",
         "desc": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelli",
-        "stars": 55497,
+        "stars": 55902,
         "stars_today": 1961,
-        "forks": 10841,
+        "forks": 10894,
         "language": "JavaScript",
         "url": "https://github.com/bilawalsidhu/gods-eye-view"
       },
       {
         "name": "debpalash/VoiceStudio",
         "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, vi",
-        "stars": 63487,
+        "stars": 64269,
         "stars_today": 1748,
-        "forks": 7056,
+        "forks": 7138,
         "language": "Python",
         "url": "https://github.com/debpalash/VoiceStudio"
       },
       {
         "name": "mksglu/context-mode",
         "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists se",
-        "stars": 28293,
+        "stars": 28521,
         "stars_today": 969,
-        "forks": 1996,
+        "forks": 2012,
         "language": "TypeScript",
         "url": "https://github.com/mksglu/context-mode"
       },
       {
         "name": "cathrynlavery/diagram-design",
         "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 d",
-        "stars": 54234,
+        "stars": 54664,
         "stars_today": 1815,
-        "forks": 3440,
+        "forks": 3454,
         "language": "HTML",
         "url": "https://github.com/cathrynlavery/diagram-design"
       }
@@ -546,6 +546,6 @@
         "url": "https://openrouter.ai/z-ai/glm-5.3"
       }
     ],
-    "hf_summary": "视频生成与无审查图像模型热度领跑开源社区加速内卷"
+    "hf_summary": "视频生成与无审查图像模型爆发，社区偏好正加速转向多模态与低限制内容。"
   }
 }
