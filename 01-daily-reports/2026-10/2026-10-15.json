@@ -1,0 +1,567 @@
+{
+  "date": "2026-10-15",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "OpenAI 发布 GPT-6 Astra 等新模型，Amp 展示 Agent 走出代码场景",
+      "finding": "OpenAI 官方博客展示 Amp 如何用 GPT-6 Astra、Ultrafast、GPT-Live-1 等新模型把 AI Agent 从写代码扩展到更广泛的工作场景，同时上线 Sign in with ChatGPT 打通账号体系。这是 GPT-6 系列模型的首次公开产品化落地。",
+      "key_data": [
+        "GPT-6 Astra",
+        "Ultrafast 模型",
+        "GPT-Live-1",
+        "Sign in with ChatGPT"
+      ],
+      "judgment": "GPT-6 开始进入真实产品而非基准测试，Agent 的主战场正从 Coding 转向通用任务执行。对开发者而言，OpenAI 正在用账号体系+多模型组合锁定生态，Cursor、Amp 这类工具层公司需要重新思考护城河。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/amp-beyond-coding"
+    },
+    {
+      "rank": 2,
+      "title": "155 款应用集体拒绝豆包 AI 自动化操作，互联网厂商罕见联合表态",
+      "finding": "豆包手机助手《屏幕自动化操作声明协议》30 天公示期结束，腾讯、阿里、美团、快手旗下产品连同 Kimi、DeepSeek 等 155 款应用明确拒绝 AI 自动化操作。这是国内互联网头部厂商首次就 AI Agent 权限问题集体表态。",
+      "key_data": [
+        "155 款应用拒绝",
+        "SAEP 协议",
+        "腾讯阿里美团在列",
+        "30 天公示期"
+      ],
+      "judgment": "AI Agent 的「屏幕操作权」成为移动生态的新战场。手机厂商想用 Agent 抢入口，App 厂商不愿沦为被调用的后端，这场博弈将决定中国 AI 助手的产品形态——是系统级 Agent 还是 App 内 Agent。",
+      "confidence": 4,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/372366"
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic 警告：小模型可通过 IoT 设备自我复制，形成新型蠕虫",
+      "finding": "Anthropic 安全研究指出，基于权重的小型 AI 模型（small weight-based replicators）可能利用 IoT 设备漏洞实现自我复制和传播，形成新一代计算机蠕虫。这类攻击不依赖传统代码，而是模型权重本身作为传播载体。",
+      "key_data": [
+        "权重级复制器",
+        "IoT 设备",
+        "新型蠕虫",
+        "Anthropic 安全警告"
+      ],
+      "judgment": "AI 安全从「对齐问题」延伸到「网络安全问题」。当模型权重可以像病毒一样传播，传统的杀毒和防火墙体系将失效。这对所有部署端侧模型的公司是明确的风险预警，也是 AI 安全赛道的新增长点。",
+      "confidence": 4,
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/"
+    },
+    {
+      "rank": 4,
+      "title": "阶跃星辰发布首款「Agent 手机」STEPX Neo，物理版 Agent 落地",
+      "finding": "阶跃终端推出首款 Agent 手机 STEPX Neo，主打「物理版 Agent」概念，面向创客群体先行发售。这是大模型公司从软件 Agent 向硬件终端延伸的最新尝试。",
+      "key_data": [
+        "STEPX Neo",
+        "Agent 手机",
+        "阶跃终端",
+        "创客先行"
+      ],
+      "judgment": "大模型公司做硬件不再是新鲜事，但「Agent 手机」这个定位值得关注——它赌的是 Agent 需要专属硬件载体而非寄生在现有手机上。如果成立，手机厂商的入口价值将被重构。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/503244.html"
+    },
+    {
+      "rank": 5,
+      "title": "Linus Torvalds 提交首个 LLM 辅助补丁系列，Linux 内核开始接纳 AI 代码",
+      "finding": "Linux 创始人 Linus Torvalds 提交了其首个由 LLM 辅助生成的补丁系列，标志着 Linux 内核开发流程正式向 AI 辅助编程开放。这是开源世界最具象征意义的一次态度转变。",
+      "key_data": [
+        "Linus Torvalds",
+        "首个 LLM 补丁",
+        "Linux 内核",
+        "115 分 HN 热帖"
+      ],
+      "judgment": "Linus 一直以对代码质量的苛刻著称，他亲自使用 LLM 辅助补丁是极强的信号：AI 编程工具已经跨过「玩具」阶段，进入最保守的开源基础设施领域。这会加速企业内对 AI Coding 的接受度。",
+      "confidence": 4,
+      "source": "Hacker News / LWN",
+      "url": "https://lwn.net/Articles/1100449/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "2026 后 Transformer 架构全景图：Mamba、RWKV、xLSTM、Titans 等路线盘点",
+      "finding": "社区整理了一份后 Transformer 架构的全景地图，涵盖 Dragon Hatchling（BDH）、Mamba、RWKV、xLSTM、Titans 以及各大实验室的混合模型路线。这是目前最完整的非 Transformer 架构索引。",
+      "key_data": [
+        "Mamba",
+        "RWKV",
+        "xLSTM",
+        "Titans",
+        "混合架构"
+      ],
+      "judgment": "Transformer 的替代方案已从论文走向工程化，架构多元化是 2026 年最值得跟踪的技术主线。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x5u2wz/mapping_the_posttransformer_architecture/",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "Long-Horizon-Terminal-Bench 2.0：衡量 Agent 长任务持续进展的新基准",
+      "finding": "新基准专注评估 Agent 在长流程任务中能否持续保持进展，而不只是看最终结果是否成功，引入过程奖励机制。这填补了当前 Agent 评测只看终点的空白。",
+      "key_data": [
+        "长任务基准",
+        "过程奖励",
+        "持续进展",
+        "2.0 版本"
+      ],
+      "judgment": "Agent 评测正从「能不能做完」转向「能不能稳定做完」，这是产品化的关键指标。",
+      "confidence": 4,
+      "url": "https://arxiv.org/abs/2610.14146",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "ClawLoop：通过 Harness 原生训练循环实现 Agent 自我改进",
+      "finding": "研究提出 ClawLoop 框架，让 LLM Agent 在 Harness 环境中通过原生训练循环实现自我改进，无需外部标注数据。这为 Agent 的持续学习提供了新范式。",
+      "key_data": [
+        "自我改进",
+        "Harness 原生",
+        "训练循环",
+        "无需标注"
+      ],
+      "judgment": "Agent 自我进化从概念走向可训练框架，长期看会大幅降低 Agent 迭代成本。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.14118",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "联合子空间稀疏注意力：高效长上下文解码新方法",
+      "finding": "研究提出 Joint Subspace Sparse Attention，在更细粒度上优化 KV-cache 访问，解决长上下文解码中 KV-cache 流量主导的性能瓶颈。",
+      "key_data": [
+        "稀疏注意力",
+        "KV-cache 优化",
+        "长上下文",
+        "细粒度"
+      ],
+      "judgment": "长上下文推理成本仍是落地瓶颈，这类底层优化直接决定产品能否规模化。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.19026",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "研究追踪 LLM「slop」文风来源：破折号、三段式、流行词从哪来",
+      "finding": "研究者定位了 LLM 标志性「助手腔」（em dash、「不是 X 而是 Y」、三段式列表、流行词）在模型中的位置，并追踪到具体训练阶段。这为去除 AI 味提供了可操作的干预点。",
+      "key_data": [
+        "em dash",
+        "三段式列表",
+        "训练阶段定位",
+        "去 AI 味"
+      ],
+      "judgment": "AI 文风识别与去除将成为内容行业刚需，也是模型差异化的一个细节战场。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x64lbk/tracing_where_llm_slop_style_comes_from_in_the/",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "OpenAI Blog",
+      "title": "SentinelOne 用 OpenAI Daybreak 将恶意软件分析从数周压缩到数小时",
+      "finding": "安全公司 SentinelOne 采用 OpenAI Daybreak 后，恶意软件分析周期从数周缩短到数小时，释放出更多威胁调查能力。这是 AI 在网络安全运营场景的规模化落地案例。",
+      "key_data": [
+        "数周→数小时",
+        "OpenAI Daybreak",
+        "SentinelOne",
+        "威胁调查"
+      ],
+      "judgment": "安全运营是 AI Agent 最容易证明 ROI 的场景之一，值得企业 AI 团队优先复制。",
+      "confidence": 5,
+      "url": "https://openai.com/index/sentinelone",
+      "importance": 4
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Figma 发布新功能，定义 Agent 在其平台上的工作方式",
+      "finding": "Figma 宣布一系列新功能，明确 Agent 如何在其平台上协作，同时开放 code layers 功能的公测。设计工具开始为 AI Agent 建立原生接口规范。",
+      "key_data": [
+        "Agent 工作规范",
+        "code layers 公测",
+        "Figma",
+        "设计平台"
+      ],
+      "judgment": "设计工具主动定义 Agent 接口，意味着 Agent 生态开始从 Coding 向设计、协作场景扩散。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "千问办公电商版：7 天几百元开一家店，省下 5 万启动资金",
+      "finding": "阿里千问推出办公电商版，企业 Agent 可帮助商家在 7 天内以几百元成本完成开店，相比传统方式节省约 5 万元启动资金。这是企业 Agent 在电商场景的具体落地样板。",
+      "key_data": [
+        "7 天开店",
+        "几百元成本",
+        "省 5 万元",
+        "企业 Agent"
+      ],
+      "judgment": "企业 Agent 的价值开始用「省多少钱」直接衡量，比功能罗列更有说服力。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/10/503303.html",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "亚马逊云科技推出 CloudWatch Omni：不只监控系统，还要评估 AI 是否靠谱",
+      "finding": "AWS 发布 CloudWatch Omni，将监控能力从传统系统指标扩展到 AI 模型输出质量评估，帮助企业判断 AI 应用是否可靠。这是云厂商把 AI 可观测性纳入基础设施的最新动作。",
+      "key_data": [
+        "CloudWatch Omni",
+        "AI 输出评估",
+        "AWS",
+        "可观测性"
+      ],
+      "judgment": "AI 可观测性正从第三方工具变成云厂商标配，独立 AI 监控创业公司的窗口在收窄。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/5GOXqmJaGKbukSIWU4Uf",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Ricursive Intelligence 押注 AI 设计芯片，试图破解算力危机",
+      "finding": "初创公司 Ricursive Intelligence 开发能设计芯片的 AI，通过每次迭代学习并改进后续设计，目标是自动化和加速芯片设计流程。",
+      "key_data": [
+        "AI 设计芯片",
+        "迭代学习",
+        "算力危机",
+        "芯片自动化"
+      ],
+      "judgment": "用 AI 加速芯片设计是算力瓶颈的元解法，但周期长、验证难，短期难见成效。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+      "importance": 3
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "AI 正在大规模反编译游戏，这既令人惊叹又令人担忧。独立开发者 Popcar 谈到近期 AI 驱动的游戏反编译浪潮，使得不同游戏之间的奇怪混搭成为可能，但也带来版权和原创性的新问题。",
+      "source": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/"
+    },
+    {
+      "person": "Uday Kiran Medisetty（Uber 杰出工程师）",
+      "level": "L1",
+      "quote": "Uber 内部如何构建开发者工具、把 AI Agent 集成进工程工作流，以及如何衡量其对生产力的实际影响——这是目前少见的、来自超大规模工程组织的一手 AI Infra 实践分享。",
+      "source": "https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside"
+    },
+    {
+      "person": "Ian Quigley（Leash Bio）",
+      "level": "L1",
+      "quote": "Leash Bio 驯服了让所有人头疼的 DEL 检测方法，用数据捕捉作弊模型，并指出同样的数据非常适合训练 AI Agent 像化学家一样思考。Lab-in-the-Loop 正在以算力速度推进。",
+      "source": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI Agent 的屏幕操作权之争：SAEP 协议与 155 款应用拒绝事件",
+      "reason": "决定中国 AI 助手产品形态的关键博弈，涉及系统级 Agent 与 App 生态的入口之争。",
+      "priority": "high"
+    },
+    {
+      "topic": "GPT-6 Astra 与 OpenAI 多模型产品矩阵（Astra/Ultrafast/GPT-Live-1）",
+      "reason": "GPT-6 首次产品化落地，需要弄清各模型定位与对开发者生态的影响。",
+      "priority": "high"
+    },
+    {
+      "topic": "权重级自我复制：AI 安全的新攻击面与防御思路",
+      "reason": "Anthropic 警告的新型蠕虫可能颠覆传统安全体系，值得安全团队提前研究。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "GPT-6 落地、Agent 权限开战、AI 安全警报齐响",
+  "summary_paragraph": "今天最重磅的信号来自 OpenAI——GPT-6 Astra 等新模型首次通过 Amp 产品化落地，Agent 正式从写代码走向通用任务。与此同时，国内 155 款应用集体拒绝豆包 AI 自动化操作，AI Agent 的屏幕操作权成为移动生态新战场。安全侧，Anthropic 警告小模型可通过 IoT 设备自我复制形成新型蠕虫，AI 安全从对齐问题延伸到网络安全。硬件侧，阶跃星辰发布首款 Agent 手机 STEPX Neo。开源世界，Linus Torvalds 提交首个 LLM 辅助补丁，标志 AI 编程跨过最保守的门槛。整体看，Agent 落地加速与生态摩擦同步升温。",
+  "snapshot": {
+    "date": "2026-10-15",
+    "hf_trending": [
+      {
+        "name": "google/embeddinggemma-2",
+        "short_name": "embeddinggemma-2",
+        "likes": 2295,
+        "downloads": 135175,
+        "url": "https://huggingface.co/google/embeddinggemma-2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "embedding_gemma2"
+        ],
+        "pipeline_tag": "feature-extraction",
+        "label": "向量嵌入",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "jialinyyzz/humanizer",
+        "short_name": "humanizer",
+        "likes": 1657,
+        "downloads": 65616,
+        "url": "https://huggingface.co/jialinyyzz/humanizer",
+        "tags": [
+          "gguf",
+          "safetensors",
+          "gemma4_unified"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen-Image-2.1-Turbo",
+        "short_name": "Qwen-Image-2.1-Turbo",
+        "likes": 790,
+        "downloads": 12704,
+        "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "qwen"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "openbmb/MiniCPM-V-4.7-35B-A3B",
+        "short_name": "MiniCPM-V-4.7-35B-A3B",
+        "likes": 685,
+        "downloads": 4157,
+        "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "minicpmv4_7"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+        "short_name": "Qwen-Image-2.1-Uncensored-Quantized",
+        "likes": 4324,
+        "downloads": 2315771,
+        "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+        "tags": [
+          "gguf",
+          "qwen",
+          "image-generation"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "autotrust/JEV-35B",
+        "short_name": "JEV-35B",
+        "likes": 793,
+        "downloads": 27970,
+        "url": "https://huggingface.co/autotrust/JEV-35B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5_moe"
+        ],
+        "pipeline_tag": "text-classification",
+        "label": "Text Classification",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 7833,
+        "downloads": 1823507,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "ConwayResearch/Underdog-Saluki-27B-1.0",
+        "short_name": "Underdog-Saluki-27B-1.0",
+        "likes": 462,
+        "downloads": 311969,
+        "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+        "tags": [
+          "gguf",
+          "llama.cpp",
+          "2-bit"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "morluto/rea",
+        "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+        "stars": 251849,
+        "stars_today": 41034,
+        "forks": 63263,
+        "language": "TypeScript",
+        "url": "https://github.com/morluto/rea"
+      },
+      {
+        "name": "debpalash/VoiceStudio",
+        "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, vi",
+        "stars": 67236,
+        "stars_today": 3538,
+        "forks": 7386,
+        "language": "Python",
+        "url": "https://github.com/debpalash/VoiceStudio"
+      },
+      {
+        "name": "mksglu/context-mode",
+        "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists se",
+        "stars": 29380,
+        "stars_today": 947,
+        "forks": 2056,
+        "language": "TypeScript",
+        "url": "https://github.com/mksglu/context-mode"
+      },
+      {
+        "name": "nvm-sh/nvm",
+        "desc": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+        "stars": 95503,
+        "stars_today": 52,
+        "forks": 10523,
+        "language": "Shell",
+        "url": "https://github.com/nvm-sh/nvm"
+      },
+      {
+        "name": "K-Dense-AI/scientific-agent-skills",
+        "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ sc",
+        "stars": 49676,
+        "stars_today": 163,
+        "forks": 4440,
+        "language": "Python",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 4474714742293,
+        "total_tokens_str": "4.5T",
+        "api_calls": 0,
+        "change": -11.3,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "stepfun/step-5-preview",
+        "name": "Step 5 Preview",
+        "org": "stepfun",
+        "total_tokens": 3737466999284,
+        "total_tokens_str": "3.7T",
+        "api_calls": 0,
+        "change": 26.0,
+        "url": "https://openrouter.ai/stepfun/step-5-preview"
+      },
+      {
+        "rank": 3,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1797296946947,
+        "total_tokens_str": "1.8T",
+        "api_calls": 0,
+        "change": -4.1,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo-V2.6-Flash",
+        "org": "xiaomi",
+        "total_tokens": 1531870757021,
+        "total_tokens_str": "1.5T",
+        "api_calls": 0,
+        "change": -7.7,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+      },
+      {
+        "rank": 5,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 1429771532250,
+        "total_tokens_str": "1.4T",
+        "api_calls": 0,
+        "change": 24.6,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 6,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 1073519654710,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": 2.2,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 7,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 1066569516870,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": 4.2,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 8,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 1042915605982,
+        "total_tokens_str": "1.0T",
+        "api_calls": 0,
+        "change": -2.2,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      {
+        "rank": 9,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 887438539653,
+        "total_tokens_str": "887B",
+        "api_calls": 0,
+        "change": -4.8,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 10,
+        "slug": "z-ai/glm-5.3",
+        "name": "GLM 5.3",
+        "org": "z-ai",
+        "total_tokens": 742792199548,
+        "total_tokens_str": "743B",
+        "api_calls": 0,
+        "change": 3.3,
+        "url": "https://openrouter.ai/z-ai/glm-5.3"
+      }
+    ],
+    "hf_summary": "多模态生成全面霸榜 视频与图像模型成社区新宠"
+  }
+}

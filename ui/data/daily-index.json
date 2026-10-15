@@ -1,6 +1,13 @@
 {
-  "total": 201,
+  "total": 202,
   "reports": [
+    {
+      "date": "2026-10-15",
+      "title": "今日 AI 日报：OpenAI 发布 GPT-6 Astra 等新模型，Amp 展示 Agent 走出代码场景 + 4 条重要动态",
+      "excerpt": "GPT-6 开始进入真实产品而非基准测试，Agent 的主战场正从 Coding…",
+      "top_count": 5,
+      "file": "2026-10-15.json"
+    },
     {
       "date": "2026-10-14",
       "title": "今日 AI 日报：谷歌发布 Gemini 4 Argon：百万级输出、专攻最难题 + 4 条重要动态",
