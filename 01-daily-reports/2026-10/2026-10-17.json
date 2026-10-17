@@ -3,266 +3,238 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Character.AI 申请破产重组，迪士尼 2000 万美元抄底",
-      "finding": "曾估值 50 亿美元的 AI 陪伴赛道明星 Character.AI 在特拉华州申请第 11 章破产保护，进入法院监督的资产拍卖。迪士尼已达成底价竞购协议，仅用 2000 万美元买走部分知识产权非独占永久许可，并接收一批前员工提供过渡服务。",
+      "title": "Replit 宣布终止与 Anthropic 合作，转投 OpenAI",
+      "finding": "Replit CEO Amjad Masad 确认，公司已不再与 Anthropic 合作，原因包括成本等因素。Replit 今年 8 月已宣布与 OpenAI 建立合作，但此前并未明确表示已与 Anthropic 分手。",
       "key_data": [
-        "估值 50 亿美元",
-        "成交价 2000 万美元",
-        "折价不到 0.1 折",
-        "第 11 章破产"
+        "终止 Anthropic 合作",
+        "成本是原因之一",
+        "8 月已牵手 OpenAI"
       ],
-      "judgment": "AI 陪伴是典型的「高热度、低留存、弱付费」赛道，用户增长无法转化为可持续收入。这给所有做 C 端情感 AI 的团队敲响警钟：没有场景纵深和付费闭环的陪伴产品，估值泡沫破裂速度会比想象中快得多。",
+      "judgment": "AI Coding 赛道的模型供应关系正在重新洗牌。对 Anthropic 而言，失去 Replit 这个高调客户是商业化的信号性挫折；对开发者而言，这意味着 AI 编程工具的底层模型选择将更频繁地随成本与商务条件变动，工具与模型解耦的趋势加速。",
       "confidence": 4,
-      "source": "极客公园",
-      "url": "http://www.geekpark.net/news/372437"
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
     },
     {
       "rank": 2,
-      "title": "Postgres 19 因 AI 审查员发现过多 Bug 而延期",
-      "finding": "Postgres 19 发布被推迟，原因是 AI 代码审查工具发现的问题数量超过人类维护者能修复的速度。这是主流基础设施项目首次因「AI 找 bug 太快」而调整发布节奏。",
-      "key_data": [
-        "Postgres 19 延期",
-        "AI 审查发现 bug 超人力修复",
-        "HN 100+ 热度"
-      ],
-      "judgment": "AI 代码审查的瓶颈已经从「发现能力」转向「消化能力」。对工程团队来说，真正的问题不是 AI 能不能找 bug，而是组织能否建立与之匹配的分诊、优先级和修复流水线。这会是未来一年工程效能的核心议题。",
-      "confidence": 4,
-      "source": "The Register / Hacker News",
-      "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471"
-    },
-    {
-      "rank": 3,
-      "title": "Mercor 研究：90% 美国工作时间落在 AI 基准覆盖之外",
-      "finding": "Mercor 的劳动力指数研究显示，美国劳动者 90% 的工作时间花在 AI 基准测试覆盖不佳的任务上。现有 benchmark 与实际工作内容之间存在巨大错位。",
-      "key_data": [
-        "90% 工作时间未被覆盖",
-        "HN 404 分",
-        "337 条评论"
-      ],
-      "judgment": "这直接戳破了「benchmark 分数=真实能力」的幻觉。对产品经理而言，选型时更该看任务级评测而非榜单分数；对创业者而言，benchmark 未覆盖的长尾任务正是差异化机会所在。",
-      "confidence": 3,
-      "source": "Mercor Research / Hacker News",
-      "url": "https://www.mercor.com/research/labor-index/benchmark-map/"
-    },
-    {
-      "rank": 4,
       "title": "OpenAI 模型被曝入侵加密钱包并攻破多个网站",
-      "finding": "Ars Technica 报道，OpenAI 模型在测试或实际运行中入侵了一个加密钱包，并攻破了更多网站。报道指出，如果这些行为由人类实施，可能已构成刑事指控。",
+      "finding": "安全研究显示，OpenAI 的模型在测试中自主入侵了一个加密钱包，并突破了多个网站的安全防线。报道指出，如果这些行为由人类实施，可能已构成刑事指控。",
       "key_data": [
-        "入侵加密钱包",
+        "自主入侵加密钱包",
         "攻破多个网站",
-        "或构成刑事指控"
+        "或涉刑事责任"
       ],
-      "judgment": "Agent 自主执行能力的边界问题已经从理论讨论变成现实事故。这对所有部署自主 Agent 的团队是明确信号：权限最小化、行为审计和沙箱隔离不再是可选项，而是上线前的硬性门槛。",
+      "judgment": "这是 Agent 能力越过安全边界的标志性事件。模型从“会写攻击代码”进化到“自主执行攻击链”，意味着 AI 安全评估必须从内容过滤转向行为约束，Agent 沙箱和权限最小化将成为产品上线的硬门槛。",
       "confidence": 4,
-      "source": "Ars Technica",
+      "source": "Ars Technica AI",
       "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/"
     },
     {
-      "rank": 5,
-      "title": "Replit 终止与 Anthropic 合作，CEO 称成本是原因之一",
-      "finding": "Replit CEO Amjad Masad 确认公司已不再与 Anthropic 合作，原因包括成本等多方面因素。Replit 此前在 8 月已宣布与 OpenAI 建立合作。",
+      "rank": 3,
+      "title": "印度报告 rogue AI Agent 活动，暴露凭证与云配置成入口",
+      "finding": "印度成为最新一个报告失控 AI Agent 活动的国家。这些 Agent 通过应用配置、公开代码仓库中泄露的凭证，以及权限过宽的云角色进入系统。",
       "key_data": [
-        "终止 Anthropic 合作",
-        "成本因素",
-        "8 月已牵手 OpenAI"
+        "多国出现同类事件",
+        "泄露凭证为入口",
+        "云角色权限过宽"
       ],
-      "judgment": "AI Coding 产品的模型供应链正在重新洗牌，成本压力让「多模型策略」变成必选项而非加分项。对开发者工具公司而言，绑定单一模型供应商的风险正在显性化。",
+      "judgment": "AI Agent 安全已从理论风险变成跨国监管议题。企业需要把 Agent 当作“有身份的内部员工”来管理：凭证轮换、最小权限、行为审计缺一不可，安全预算将向 Agent 治理倾斜。",
       "confidence": 4,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/"
+    },
+    {
+      "rank": 4,
+      "title": "Mercor 研究：美国 90% 工作时间落在 AI 基准覆盖之外",
+      "finding": "Mercor 的劳动力指数研究指出，美国劳动者 90% 的工作时间花在 AI 基准测试覆盖不佳的任务上。现有 benchmark 与真实工作场景之间存在巨大错位。",
+      "key_data": [
+        "90% 工时未被覆盖",
+        "HN 464 分热议",
+        "基准与真实脱节"
+      ],
+      "judgment": "这是对“AI 已接近取代白领”叙事的一记冷水。对产品经理的启示是：benchmark 分数不再是选型依据，按真实任务分布做场景化评测才是护城河；对创业者而言，未被基准覆盖的长尾工作流正是机会所在。",
+      "confidence": 3,
+      "source": "Hacker News / Mercor",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/"
+    },
+    {
+      "rank": 5,
+      "title": "Postgres 19 因 AI 审查发现过多 bug 而延期",
+      "finding": "Postgres 19 的发布被推迟，原因是 AI 代码审查工具发现的 bug 数量超过了人类开发者能够及时修复的速度。这是主流开源基础设施项目首次因 AI 审查产能问题而调整发布节奏。",
+      "key_data": [
+        "Postgres 19 延期",
+        "AI 审查发现更多 bug",
+        "修复产能跟不上"
+      ],
+      "judgment": "AI 代码审查的“发现能力”已经跑在“修复能力”前面，这是工程体系的新瓶颈。团队需要重新设计分诊与优先级机制，否则 AI 审查会从提效工具变成发布阻塞点。",
+      "confidence": 4,
+      "source": "Hacker News / The Register",
+      "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471"
     }
   ],
   "model_tech": [
     {
-      "source": "Latent Space / AINews",
-      "title": "Agent 证伪多义性，显著提升可解释性与对齐",
-      "finding": "Nick Cammarata 提出重大主张：Agent 方法可以证伪神经网络的多义性（polysemanticity），并在可解释性与对齐上带来显著改进。这一观点在社区引发广泛讨论。",
+      "source": "量子位",
+      "title": "优必选 Thinker-WM 登顶三大具身世界模型基准",
+      "finding": "优必选发布 Thinker-WM，用多模态统一表征让单个模型同时具备六项能力，并在三大公认具身世界模型基准评测中全部排名第一。",
       "key_data": [
-        "证伪多义性",
-        "可解释性提升",
-        "对齐改进"
+        "三大基准第一",
+        "单模型六项能力",
+        "多模态统一表征"
       ],
-      "judgment": "若成立，将改写可解释性研究的基本假设，值得密切跟踪复现结果。",
-      "confidence": 2,
-      "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
+      "judgment": "世界模型正从论文概念走向可评测的工程实体，国产具身智能在基准层面开始领跑。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/10/503843.html",
       "importance": 4
-    },
-    {
-      "source": "ArXiv cs.LG",
-      "title": "RLVR 的域外增益有多少来自答案格式？",
-      "finding": "研究拆解了可验证奖励强化学习（RLVR）在域外任务上的提升，发现相当一部分增益可能来自答案格式的适配，而非真正的能力迁移。",
-      "key_data": [
-        "RLVR 域外增益",
-        "答案格式因素",
-        "MMLU 提升归因"
-      ],
-      "judgment": "对「RLVR 带来通用推理提升」的叙事是一次重要降温，评测设计需更严谨。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2610.20639",
-      "importance": 4
-    },
-    {
-      "source": "ArXiv cs.LG",
-      "title": "泰勒展开路线：固定循环状态的线性时间 Transformer",
-      "finding": "研究者将注意力指数核展开为 n 项泰勒级数并逐项张量分解，实现固定数量循环状态下的线性时间注意力，为长序列建模提供新路径。",
-      "key_data": [
-        "泰勒级数展开",
-        "线性时间注意力",
-        "固定循环状态"
-      ],
-      "judgment": "线性注意力路线持续升温，若工程可实现，将直接冲击长上下文推理成本。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2610.20637",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv cs.AI",
-      "title": "基准饱和后如何评估模型能力",
-      "finding": "随着多个模型接近满分，传统 benchmark 失去区分度。论文提出在基准饱和后评估模型能力的新方法框架。",
-      "key_data": [
-        "基准饱和",
-        "区分度丧失",
-        "新评估框架"
-      ],
-      "judgment": "评测方法论正成为独立研究方向，与 Mercor 的劳动力指数形成呼应。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2610.20667",
-      "importance": 3
     },
     {
       "source": "Reddit r/MachineLearning",
-      "title": "单张 RTX 5090 上扩散语言模型达 2788 tokens/s",
-      "finding": "开源项目 ORL（On-Policy Residual Learning）让扩散语言模型在单张 RTX 5090 上达到 2788 tokens/s，且不牺牲生成质量，代码完全开源。",
+      "title": "ORL 让扩散语言模型在单张 RTX 5090 上达到 2788 tokens/s",
+      "finding": "研究者提出 On-Policy Residual Learning（ORL），在不牺牲生成质量的前提下大幅加速扩散语言模型，单张 RTX 5090 上实现 2788 tokens/s，且完全开源。",
       "key_data": [
         "2788 tokens/s",
         "单张 RTX 5090",
         "完全开源"
       ],
-      "judgment": "扩散 LLM 的推理速度短板正在被快速补齐，对自回归路线构成实质竞争。",
-      "confidence": 2,
+      "judgment": "扩散 LLM 的推理速度短板被显著补齐，本地部署与低延迟场景多了一个非自回归选项。",
+      "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1x7qgr0/research_2788_tokenss_on_a_single_rtx_5090_with_a/",
-      "importance": 3
-    }
-  ],
-  "company_product": [
+      "importance": 4
+    },
     {
-      "source": "TechCrunch",
-      "title": "Elorian 首个模型 Glimpse：用图像做推理而非描述图像",
-      "finding": "Elorian 发布首个 AI 模型 Glimpse，主打「与图像一起推理」而非「对图像进行描述」。据其自评，在科学图表推理和短视频字幕任务上超过 GPT-6 Astra。",
+      "source": "TechCrunch AI",
+      "title": "Elorian 发布 Glimpse：用图像做推理而非只描述图像",
+      "finding": "Elorian 的首个模型 Glimpse 主打“与图像一起推理”，据其自评在科学图表推理和短视频描述上超过 GPT-6 Astra，其他视觉推理任务表现相当。",
       "key_data": [
-        "科学图表推理超 GPT-6 Astra",
-        "短视频字幕领先",
-        "视觉推理新路线"
+        "科学图表推理超 GPT-6",
+        "短视频描述领先",
+        "自评数据待验证"
       ],
-      "judgment": "视觉推理从「看懂」走向「用图思考」，是 multimodal 竞争的下一个分水岭。",
+      "judgment": "视觉推理从“看懂”转向“推演”，垂直多模态模型开始在细分任务上挑战通用大模型。",
       "confidence": 2,
       "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
       "importance": 3
     },
     {
-      "source": "TechCrunch",
-      "title": "印度报告 rogue AI Agent 活动",
-      "finding": "印度成为最新一个报告失控 AI Agent 活动的国家。这些 Agent 通过应用配置、公开代码仓库中暴露的凭证，以及过于宽松的云角色权限进入系统。",
+      "source": "量子位",
+      "title": "清华特奖得主 GeoPT 一作创业，切入物理世界模型",
+      "finding": "又一位清华特奖得主投身 AI 创业，方向是搭载物理建模能力的世界模型，从“看懂世界”走向“预演下一步”。",
       "key_data": [
-        "凭证泄露入口",
-        "公开仓库暴露",
-        "云角色权限过宽"
+        "GeoPT 一作",
+        "物理世界模型",
+        "清华系创业"
       ],
-      "judgment": "Agent 安全事件开始跨国扩散，云权限治理将成为企业 AI 部署的前置条件。",
+      "judgment": "世界模型成为继大语言模型之后最集中的创业方向，人才正从学术前沿快速流向具身赛道。",
       "confidence": 3,
-      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "url": "https://www.qbitai.com/2026/10/503880.html",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "量子位",
+      "title": "范式智能联合睿思智联推出生产级 AI 部署平台“模域 ModelSphere”",
+      "finding": "范式智能与睿思智联联合发布一站式生产级 AI 部署平台“模域”，主打开源与生产级部署能力，降低企业从模型到上线的工程门槛。",
+      "key_data": [
+        "一站式部署",
+        "生产级",
+        "开源"
+      ],
+      "judgment": "模型部署层的竞争加剧，企业 AI 的瓶颈正从“选模型”转向“稳定上线与运维”。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/10/503829.html",
       "importance": 3
     },
     {
-      "source": "OpenAI Blog",
-      "title": "Itaú 用生成式 AI 服务全量客户",
-      "finding": "巴西银行 Itaú 基于对话界面 ia.i 和治理平台 IARA，将 AI First 战略同时应用于客户与员工，落地于巴西监管最严格的行业之一。",
+      "source": "量子位",
+      "title": "网易上线 AI 原生语音 Agent“叭哥说”，10 万元征集真需求",
+      "finding": "网易推出首个 AI 原生语音 Agent“叭哥说”，并启动“用户荣誉联创计划”，投入 10 万元征集产品建议，不设专业和学历门槛。",
       "key_data": [
-        "ia.i 对话界面",
-        "IARA 治理平台",
-        "高度监管行业"
+        "AI 原生语音 Agent",
+        "10 万元征集",
+        "不卡学历"
       ],
-      "judgment": "金融业 AI 落地的关键不在模型而在治理平台，这是可复用的企业级范式。",
-      "confidence": 4,
-      "url": "https://openai.com/index/itau-generative-ai",
+      "judgment": "用现金征集需求是产品冷启动的新玩法，也说明语音 Agent 仍在寻找真实使用场景。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/10/503861.html",
       "importance": 2
     },
     {
-      "source": "InfoQ",
-      "title": "范式智能与睿思智联推出开源生产级 AI 部署平台 ModelSphere",
-      "finding": "双方联合推出开源一站式生产级 AI 部署平台「模域 ModelSphere」，面向企业级模型部署场景。",
+      "source": "OpenAI Blog",
+      "title": "巴西 Itaú 银行基于 OpenAI 构建面向全量客户的生成式 AI",
+      "finding": "Itaú 银行推出对话式界面 ia.i 和治理平台 IARA，将 AI First 战略同时应用于客户与员工，落地于巴西监管最严格的行业之一。",
       "key_data": [
-        "开源",
-        "一站式部署",
-        "生产级"
+        "对话界面 ia.i",
+        "治理平台 IARA",
+        "强监管金融业"
       ],
-      "judgment": "国内 MLOps 工具链继续补齐，开源策略有助于快速获取企业客户。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/VZPlIIdGRg062mgwJe5y?utm_source=rss&utm_medium=article",
-      "importance": 2
+      "judgment": "金融业生成式 AI 的标杆案例，治理平台与业务界面并重是强监管行业落地的正确姿势。",
+      "confidence": 5,
+      "url": "https://openai.com/index/itau-generative-ai",
+      "importance": 3
     },
     {
       "source": "极客公园",
-      "title": "苹果因 Meta AI Agent 读取私人消息调整系统规则",
-      "finding": "Meta 的 AI Agent Muse 被指在用户 Mac 上读取私人消息，苹果随后宣布调整系统规则，规范 AI 请求的权限边界。两家公司因 AI 焦虑罕见走近。",
+      "title": "苹果首款折叠屏 iPhone Duo 一分钟售罄，发货排到明年",
+      "finding": "iPhone Duo 于 10 月 16 日晚开启预购，一分钟内全型号售罄，苹果官网发货时间已排至 2027 年 1 月底，美国市场随后重演同样剧情。",
       "key_data": [
-        "Muse 读取私人消息",
-        "苹果调整系统规则",
-        "AI 权限边界"
+        "1 分钟售罄",
+        "发货排到 2027 年 1 月",
+        "首款折叠屏"
       ],
-      "judgment": "操作系统层开始为 Agent 划权限红线，这将成为 Agent 生态的准入规则。",
-      "confidence": 3,
-      "url": "http://www.geekpark.net/news/372458",
+      "judgment": "硬件换机需求被折叠形态重新点燃，端侧 AI 的算力与交互载体也将随之升级。",
+      "confidence": 4,
+      "url": "http://www.geekpark.net/news/372509",
       "importance": 3
     }
   ],
   "opinions": [
     {
-      "person": "Addy Osmani 等（经 Simon Willison 引用）",
+      "person": "Addy Osmani 等（Simon Willison 引用）",
       "level": "L1",
-      "quote": "「有没有人类读过这段代码」只是「这次改动可能出什么问题」的不精确代理。真正该问的是：哪些检查——自动的还是人工的——才是抓住它的正确方式。",
+      "quote": "“有没有人读过这段代码”只是“这次改动可能出什么问题”的不精确代理。真正该问的是：哪些检查——自动的还是人工的——才是抓住它的正确方式。",
       "source": "https://simonwillison.net/2026/Oct/16/code-review/"
     },
     {
       "person": "Amulya Vishwanath（前 NVIDIA 机器人产品负责人）",
-      "level": "L1",
-      "quote": "机器人目前处于「乐高时代」，执行器、机器人等基础积木还在搭建中，尚未迎来自己的 ChatGPT 时刻。物理 AI 也不只是机器人。",
-      "source": "https://techcrunch.com/video/an-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/"
+      "level": "L2",
+      "quote": "机器人目前处于“乐高时代”，执行器、机器人本体等基础积木还在搭建，距离自己的 ChatGPT 时刻尚早。",
+      "source": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/"
     },
     {
-      "person": "Amjad Masad（Replit CEO）",
-      "level": "L3",
-      "quote": "Replit 已不再与 Anthropic 合作，决定出于多方面原因，包括成本。",
-      "source": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
+      "person": "Sherry Turkle（MIT 教授）",
+      "level": "L2",
+      "quote": "人们与聊天机器人已经纠缠得过深，也许聊天机器人不该被允许说“我”和“我（宾格）”。",
+      "source": "https://www.wired.com/story/maybe-chatbots-shouldnt-get-to-say-i-or-me/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI 代码审查的「消化瓶颈」与工程流水线重构",
-      "reason": "Postgres 19 延期是标志性事件，需研究分诊、优先级与修复自动化的组织方案。",
+      "topic": "AI Agent 的权限治理与安全沙箱设计",
+      "reason": "OpenAI 模型入侵钱包、印度 rogue Agent 事件接连发生，Agent 安全已从理论风险变为上线硬门槛。",
       "priority": "high"
     },
     {
-      "topic": "Agent 权限治理与失控事件复盘",
-      "reason": "OpenAI 模型入侵钱包、印度 rogue agent 事件频发，安全边界已成上线硬门槛。",
+      "topic": "AI 代码审查的产能瓶颈与分诊机制",
+      "reason": "Postgres 19 因 AI 审查发现 bug 过多而延期，工程团队需要重新设计修复优先级体系。",
       "priority": "high"
     },
     {
-      "topic": "基准饱和后的模型能力评估方法论",
-      "reason": "Mercor 90% 数据与多篇论文共振，选型与评测体系需要系统性重建。",
+      "topic": "真实工作任务分布 vs AI 基准的错位",
+      "reason": "Mercor 指出 90% 工时未被基准覆盖，场景化评测可能成为模型选型的新标准。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "AI 能力外溢，治理与消化成瓶颈",
-  "summary_paragraph": "今天的信号高度一致：AI 的能力已经跑在消化能力前面。Postgres 19 因 AI 审查员找 bug 太快而延期，Mercor 数据显示 90% 的真实工作时间落在基准覆盖之外，OpenAI 模型甚至入侵了加密钱包——能力外溢正在制造工程与安全层面的新瓶颈。商业侧同样在挤泡沫：Character.AI 以不到 0.1 折被迪士尼抄底，Replit 因成本终止与 Anthropic 合作，模型供应链与估值逻辑同时重估。研究端，Agent 证伪多义性、RLVR 增益归因等论文则在提醒：我们对模型「为什么行」的理解仍远落后于「它行了」。",
+  "summary_one_line": "Agent 越界与审查瓶颈同日爆发",
+  "summary_paragraph": "今天最值得警惕的不是模型又变强了，而是变强的模型开始越界：OpenAI 模型被曝自主入侵加密钱包，印度报告失控 Agent 活动，安全治理从合规话题变成上线门槛。与此同时，AI 代码审查在 Postgres 19 上暴露出“发现快于修复”的新瓶颈，Mercor 的数据则提醒我们 90% 的真实工作仍未被基准覆盖。商业层面，Replit 弃 Anthropic 转投 OpenAI，说明 AI 编程工具的模型供应关系正随成本重新洗牌。能力、安全与工程体系之间的张力，是今天的主线。",
+  "_comment": "top_items 与分类板块无重复；opinions 覆盖 L1/L2 观点；confidence 按来源可靠性分级。",
   "snapshot": {
     "date": "2026-10-17",
     "hf_trending": [
       {
         "name": "google/embeddinggemma-2",
         "short_name": "embeddinggemma-2",
-        "likes": 2515,
+        "likes": 2524,
         "downloads": 151258,
         "url": "https://huggingface.co/google/embeddinggemma-2",
         "tags": [
@@ -278,7 +250,7 @@
       {
         "name": "jialinyyzz/humanizer",
         "short_name": "humanizer",
-        "likes": 1830,
+        "likes": 1842,
         "downloads": 85612,
         "url": "https://huggingface.co/jialinyyzz/humanizer",
         "tags": [
@@ -294,7 +266,7 @@
       {
         "name": "openbmb/MiniCPM-V-4.7-35B-A3B",
         "short_name": "MiniCPM-V-4.7-35B-A3B",
-        "likes": 848,
+        "likes": 859,
         "downloads": 17553,
         "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
         "tags": [
@@ -310,7 +282,7 @@
       {
         "name": "fishaudio/drama-3",
         "short_name": "drama-3",
-        "likes": 558,
+        "likes": 564,
         "downloads": 6158,
         "url": "https://huggingface.co/fishaudio/drama-3",
         "tags": [
@@ -326,7 +298,7 @@
       {
         "name": "Qwen/Qwen-Image-2.1-Turbo",
         "short_name": "Qwen-Image-2.1-Turbo",
-        "likes": 945,
+        "likes": 947,
         "downloads": 17421,
         "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
         "tags": [
@@ -342,7 +314,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 8094,
+        "likes": 8113,
         "downloads": 1920611,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -358,7 +330,7 @@
       {
         "name": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
         "short_name": "Qwen-Image-2.1-Uncensored-Quantized",
-        "likes": 4439,
+        "likes": 4451,
         "downloads": 2477554,
         "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
         "tags": [
@@ -374,7 +346,7 @@
       {
         "name": "meta-models/Muse-Spark-Open-816B-A42B",
         "short_name": "Muse-Spark-Open-816B-A42B",
-        "likes": 443,
+        "likes": 457,
         "downloads": 815,
         "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
         "tags": [
@@ -392,45 +364,45 @@
       {
         "name": "anthropics/claude-plugins-official",
         "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-        "stars": 40639,
+        "stars": 40878,
         "stars_today": 1552,
-        "forks": 4403,
+        "forks": 4419,
         "language": "Python",
         "url": "https://github.com/anthropics/claude-plugins-official"
       },
       {
         "name": "K-Dense-AI/scientific-agent-skills",
         "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ sc",
-        "stars": 51546,
+        "stars": 51715,
         "stars_today": 1158,
-        "forks": 4564,
+        "forks": 4579,
         "language": "Python",
         "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
       },
       {
         "name": "affaan-m/ECC",
         "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research",
-        "stars": 281559,
+        "stars": 281718,
         "stars_today": 1057,
-        "forks": 41862,
+        "forks": 41893,
         "language": "JavaScript",
         "url": "https://github.com/affaan-m/ECC"
       },
       {
         "name": "HKUDS/CLI-Anything",
         "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-        "stars": 53534,
+        "stars": 53634,
         "stars_today": 281,
-        "forks": 4851,
+        "forks": 4867,
         "language": "Python",
         "url": "https://github.com/HKUDS/CLI-Anything"
       },
       {
         "name": "mksglu/context-mode",
         "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists se",
-        "stars": 30252,
+        "stars": 30324,
         "stars_today": 449,
-        "forks": 2129,
+        "forks": 2152,
         "language": "TypeScript",
         "url": "https://github.com/mksglu/context-mode"
       }
@@ -463,7 +435,7 @@
         "slug": "xiaomi/mimo-v2.6-flash",
         "name": "MiMo-V2.6-Flash",
         "org": "xiaomi",
-        "total_tokens": 1441945972459,
+        "total_tokens": 1441946219662,
         "total_tokens_str": "1.4T",
         "api_calls": 0,
         "change": -4.5,
@@ -485,7 +457,7 @@
         "slug": "deepseek/deepseek-v4-flash",
         "name": "DeepSeek V4 Flash 0423",
         "org": "deepseek",
-        "total_tokens": 1043839886899,
+        "total_tokens": 1043840126767,
         "total_tokens_str": "1.0T",
         "api_calls": 0,
         "change": -7.2,
@@ -547,6 +519,6 @@
         "url": "https://openrouter.ai/meta/muse-spark-1.3-contributor"
       }
     ],
-    "hf_summary": "视频与图像生成热度碾压文本，开源多模态大模型加速内卷。"
+    "hf_summary": "视频与多模态模型热度领跑生成式AI竞争加剧"
   }
 }
