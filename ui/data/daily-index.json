@@ -1,6 +1,13 @@
 {
-  "total": 204,
+  "total": 205,
   "reports": [
+    {
+      "date": "2026-10-18",
+      "title": "今日 AI 日报：Replit 弃用 Anthropic，将 OpenAI 设为默认模型供应商 + 3 条重要动态",
+      "excerpt": "模型层的竞争已从跑分延伸到 AI 编程平台的默认入口。对 Anthropic 而…",
+      "top_count": 4,
+      "file": "2026-10-18.json"
+    },
     {
       "date": "2026-10-17",
       "title": "今日 AI 日报：Replit 宣布终止与 Anthropic 合作，转投 OpenAI + 4 条重要动态",
