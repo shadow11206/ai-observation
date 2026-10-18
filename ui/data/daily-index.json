@@ -3,9 +3,9 @@
   "reports": [
     {
       "date": "2026-10-18",
-      "title": "今日 AI 日报：Replit 弃用 Anthropic，将 OpenAI 设为默认模型供应商 + 3 条重要动态",
-      "excerpt": "模型层的竞争已从跑分延伸到 AI 编程平台的默认入口。对 Anthropic 而…",
-      "top_count": 4,
+      "title": "今日 AI 日报：DeepSeek 发布 V4.1-Flash-1017，性能提升同时更快更便宜，并开放自研搜索 API + 4 条重要动态",
+      "excerpt": "这是典型的「加量还降价」打法：性能、速度、成本三线同时压，直接抬高国内 API …",
+      "top_count": 5,
       "file": "2026-10-18.json"
     },
     {
