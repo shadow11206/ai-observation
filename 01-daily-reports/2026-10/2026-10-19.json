@@ -4,69 +4,70 @@
     {
       "rank": 1,
       "title": "Anthropic 提议 AI 安全法案：造成 50 人死亡或 10 亿美元损失才触发监管",
-      "finding": "Anthropic 提出一项 AI 安全立法提案，规定只有当 AI 模型造成 50 人死亡或 10 亿美元以上损失时，监管才会启动，并实质上让美国商务部成为唯一有权叫停 AI 模型的机构。这一门槛远高于外界对 AI 安全立法的预期。",
+      "finding": "Anthropic 提出一项 AI 安全立法提案，规定只有当 AI 模型造成 50 人死亡或 10 亿美元以上损失时，监管才会启动，且实际执行权将集中在商务部。这一门槛远高于外界对 AI 安全立法的预期，引发激烈讨论。",
       "key_data": [
         "50 人死亡门槛",
         "10 亿美元损失",
         "商务部独家执法权"
       ],
-      "judgment": "这是 AI 安全叙事的一次重大转向：头部实验室开始主动设计「低干预」监管框架，用极高触发门槛换取行业自律空间。对开发者短期是利好（合规压力小），但长期看，一旦发生重大事故，这种自我松绑会成为公众不信任的把柄。",
+      "judgment": "这是 AI 安全叙事的一次重大转向：头部实验室开始用「事后追责」替代「事前审批」来定义监管边界。对开发者而言短期利好——合规负担被推后；但长期看，把安全责任押注在极端事件门槛上，等于承认当前无法预防风险，只能事后清算。",
       "confidence": 4,
-      "source": "Tom's Hardware / Hacker News",
+      "source": "Hacker News / Tom's Hardware",
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model"
     },
     {
       "rank": 2,
-      "title": "网站开始对 AI Agent 关门：开放互联网的「Agent 围墙」正在形成",
-      "finding": "越来越多网站开始主动屏蔽 AI Agent 的访问，The Verge 报道称这正在成为一股趋势。网站运营方担心 Agent 抓取内容、消耗资源、绕过广告，开始部署检测和拦截机制。",
+      "title": "网站开始对 AI Agent 关门：内容开放时代出现裂缝",
+      "finding": "The Verge 报道称越来越多网站主动屏蔽 AI 爬虫和 Agent 访问，从新闻媒体扩展到电商、论坛等普通站点。网站运营者认为 AI Agent 消耗带宽、绕过广告、抓取内容却不带来回访流量。",
       "key_data": [
-        "网站主动屏蔽 Agent",
-        "HN 133 分热议",
-        "130 条评论"
+        "136 分 HN 热帖",
+        "134 条评论",
+        "从媒体扩散到普通站点"
       ],
-      "judgment": "这是 Agent 经济的第一道结构性阻力。如果开放互联网对 Agent 关闭，依赖网页抓取的 Agent 产品（搜索、比价、自动化操作）将被迫转向 API 合作或自建数据源，成本结构会显著恶化。做 Agent 的团队现在就该评估「网页依赖度」这个风险项。",
+      "judgment": "这是「Agent 优先」互联网遇到的第一个结构性阻力。对做 Agent 产品的团队意味着：抓取层将越来越不稳定，必须提前布局官方 API、付费数据合作或本地化数据源，否则产品可用性会被外部封锁直接卡死。",
       "confidence": 4,
-      "source": "The Verge / Hacker News",
+      "source": "Hacker News / The Verge",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
     },
     {
       "rank": 3,
-      "title": "迪士尼同意接收 Character.AI 大部分员工，AI 陪伴赛道出现整合信号",
-      "finding": "迪士尼在文件中披露将雇佣 Character.AI 的绝大多数员工，且被 offer 的员工「绝大多数」已接受。这是一笔 stalking horse 竞标，意味着其他公司仍可能出价。",
+      "title": "VAST 开源实时世界模型 EdenLive：单张消费级显卡跑 720P、超 24FPS",
+      "finding": "VAST 开源了实时世界模型 EdenLive，可在单张消费级显卡上生成 720P、超过 24 帧每秒的可交互世界画面。这意味着「实时可玩的世界生成」从数据中心级算力下放到个人设备。",
       "key_data": [
-        "迪士尼接收大部分员工",
-        "stalking horse 竞标",
-        "AI 陪伴赛道整合"
+        "单卡消费级 GPU",
+        "720P 分辨率",
+        ">24 FPS 实时",
+        "开源"
       ],
-      "judgment": "Character.AI 以「人才被收购」方式落幕，说明纯 AI 陪伴产品的独立商业化路径走不通——用户量大但付费和合规压力双重挤压。对做 AI 角色/陪伴的团队是个警示：要么绑定 IP 方（迪士尼这类），要么绑定分发平台，独立生存空间在收窄。",
+      "judgment": "世界模型的开源化 + 消费级硬件可跑，是游戏、仿真、具身智能训练三个方向的共同拐点。对开发者来说，实时交互式世界生成不再是云厂商的专属能力，下一波「AI 原生游戏/仿真」创业窗口正在打开。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/504136.html"
+    },
+    {
+      "rank": 4,
+      "title": "迪士尼同意接收 Character.AI 绝大多数员工",
+      "finding": "据 TechCrunch 报道，迪士尼在相关文件中披露将雇佣 Character.AI 的「绝大多数」员工，且收到 offer 的员工几乎全部接受。该交易以 stalking horse 竞标形式进行，其他公司仍可能出价。",
+      "key_data": [
+        "绝大多数员工被接收",
+        "stalking horse 竞标",
+        "接受率极高"
+      ],
+      "judgment": "这不是普通收购，而是「人才整体迁移 + 资产竞标」的组合拳，说明 Character.AI 作为独立公司的路径已基本终结。对 AI 陪伴类产品是个警示：用户规模不等于商业闭环，IP 与分发渠道正在重新成为决定性资产。",
       "confidence": 4,
       "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/"
     },
     {
-      "rank": 4,
-      "title": "OpenAI API 短暂出现三个 Aurora 系列神秘模型",
-      "finding": "开发者发现 OpenAI API 模型列表中短暂出现 aurora-red-alpha、aurora-green-alpha、aurora-blue-alpha 三个模型，随后迅速消失。信息来自第三方维护的模型列表镜像，并非官方发布。",
-      "key_data": [
-        "三个 Aurora 模型",
-        "红绿蓝三色命名",
-        "上线后迅速消失"
-      ],
-      "judgment": "三色并行命名暗示这是多版本/多规格的灰度测试，而非单一模型。结合 OpenAI 近期节奏，很可能是下一代模型的分支评测。对开发者的实际意义：别急着适配，但可以开始关注 API 定价和上下文规格可能的变化。",
-      "confidence": 3,
-      "source": "极客公园",
-      "url": "http://www.geekpark.net/news/372514"
-    },
-    {
       "rank": 5,
-      "title": "Anthropic 承诺将 5% 股份投入「公共利益基金」",
-      "finding": "Anthropic 宣布把公司 5% 的股份划入一个公共利益基金，用于承担 AI 社会影响的公共责任。这是头部 AI 实验室首次以股权形式做结构性承诺。",
+      "title": "Anthropic 承诺将 5% 股份注入「公共利益基金」",
+      "finding": "Anthropic 宣布把公司 5% 的股份划入一个公共利益基金，用于承担 AI 社会影响的公共用途。这是头部 AI 实验室首次以股权形式做结构性利益让渡。",
       "key_data": [
         "5% 股份",
         "公共利益基金",
-        "股权结构承诺"
+        "股权级承诺"
       ],
-      "judgment": "这是 AI 治理从「口头承诺」走向「股权绑定」的信号。5% 不算多，但开了先例——未来头部实验室可能被迫用股权结构回应社会问责。对投资人和创业者来说，AI 公司的治理结构正在成为新的估值变量。",
+      "judgment": "这是 AI 治理从「口头承诺」走向「股权绑定」的信号。对同行形成软性压力：未来头部实验室若不拿出类似结构，公共叙事上会吃亏。但 5% 是否足以约束行为，取决于基金治理权归属，细节比数字更关键。",
       "confidence": 4,
       "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
@@ -74,160 +75,194 @@
   ],
   "model_tech": [
     {
-      "source": "arXiv / Together AI",
-      "title": "混合推理 Agent：在潜空间思考，用文本行动",
-      "finding": "Together AI 团队提出 Hybrid Reasoning Agents，让 LLM Agent 在潜空间（latent space）中完成推理，再通过文本执行动作，试图兼顾推理效率与可解释性。代码和评测已开源。",
+      "source": "Hacker News / arXiv",
+      "title": "混合推理 Agent：在潜空间思考、用文本行动",
+      "finding": "Together AI 相关团队发布 Hybrid Reasoning Agents 论文与开源代码，让 LLM Agent 在潜空间完成推理、再通过文本执行动作，试图兼顾推理效率与可解释性。",
       "key_data": [
         "潜空间推理",
         "文本动作输出",
-        "代码已开源"
+        "Together 开源"
       ],
-      "judgment": "潜空间推理是降低 Agent 推理成本的一条现实路径，值得 Agent 框架团队跟进测试。",
+      "judgment": "Agent 推理范式开始分化，「全文本思维链」不再是唯一解，工程团队值得跟进。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2610.18861",
       "importance": 4
     },
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "TempoPFN：用合成数据预训练线性 RNN 做零样本时间序列预测",
-      "finding": "一篇被 NeurIPS 2026 接收的论文提出 TempoPFN，通过一套合成时间序列生成器和增强方法，训练基于 DeltaProduct 的线性 RNN 时间序列基础模型，实现零样本预测。",
+      "source": "ArXiv cs.CL",
+      "title": "嵌入层太贵：16MB 冻结词表让小模型和三元模型更轻",
+      "finding": "论文指出小模型中词表嵌入往往是最大参数块，例如 Gemma 3 270M 的嵌入表占 2.68 亿参数中的 1.68 亿。作者提出冻结的 16MB 词表方案，显著压缩小模型体积。",
       "key_data": [
-        "NeurIPS 2026 接收",
-        "线性 RNN 架构",
-        "零样本预测"
+        "16MB 词表",
+        "嵌入占 63% 参数",
+        "面向三元模型"
       ],
-      "judgment": "时间序列基础模型正在复制 LLM 的「合成预训练」路线，工业预测场景值得关注。",
+      "judgment": "端侧小模型的关键瓶颈被点名，词表压缩会成为下一轮端侧优化的必争之地。",
       "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1x97v19/tempopfn_synthetic_pretraining_of_linear_rnns_for/",
+      "url": "https://arxiv.org/abs/2610.22428",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "MoE 预填充减专家在哪里伤模型：少数 prompt token 承担大部分短答 F1 损失",
+      "finding": "研究发现 MoE 模型在预填充阶段减少路由专家虽能降低服务成本，但少数 prompt token 会承担绝大部分短答案 F1 损失，说明降本不能一刀切。",
+      "key_data": [
+        "预填充减专家",
+        "少数 token 致损",
+        "短答 F1 下降"
+      ],
+      "judgment": "给 MoE 推理降本划出红线：按 token 重要性做差异化路由才是正解。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.22454",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "结构化权威注入：用类型化 MCP 覆盖实现 LLM Agent 的持久人类控制",
+      "finding": "论文提出通过类型化 MCP 覆盖机制，在协议层为多 Agent 系统注入人类权威，填补当前 Agent 自主编排中「控制缺口」的问题。",
+      "key_data": [
+        "类型化 MCP",
+        "协议层控制",
+        "多 Agent 编排"
+      ],
+      "judgment": "Agent 治理开始下沉到协议层，MCP 生态会因此多出一类「权限中间件」机会。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.22373",
       "importance": 3
     },
     {
       "source": "Reddit r/MachineLearning",
-      "title": "单台桌面机用自博弈强化学习击败《魔兽争霸 III》疯狂 AI",
-      "finding": "有开发者仅用一台桌面电脑，通过自博弈强化学习训练出能击败《魔兽争霸 III》最高难度 AI 的智能体。",
+      "title": "单台桌面机用自对弈强化学习击败《魔兽争霸 III》疯狂 AI",
+      "finding": "有开发者在单台桌面电脑上用自对弈强化学习训练出能击败《魔兽争霸 III》最高难度 AI 的智能体，展示了消费级硬件上复杂策略学习的可行性。",
       "key_data": [
         "单台桌面机",
-        "自博弈 RL",
+        "自对弈 RL",
         "击败疯狂 AI"
       ],
-      "judgment": "复杂 RTS 游戏的自博弈训练门槛在快速下降，对游戏 AI 和仿真训练有直接参考价值。",
+      "judgment": "复杂 RTS 策略学习不再依赖大集群，对游戏 AI 与仿真训练是低成本验证范本。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1x9c5ty/beating_warcraft_iiis_insane_ai_with_selfplay/",
-      "importance": 3
-    },
-    {
-      "source": "InfoQ AI",
-      "title": "Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi",
-      "finding": "Meta 与苹果合作发布号称全美最强开源模型，但在编码基础测试中输给了智谱和 Kimi 的模型。",
-      "key_data": [
-        "Meta+苹果合作",
-        "编码基测落后",
-        "输给智谱 Kimi"
-      ],
-      "judgment": "开源模型竞争重心已转向编码能力，中国模型在这一细分上已形成实际优势。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/EuYOPRUBAeBgBGBu5ktk?utm_source=rss&utm_medium=article",
-      "importance": 4
+      "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "InfoQ AI",
-      "title": "OpenCode 2.0 正式发布：一次重大改造，旧插件全部报废",
-      "finding": "OpenCode 发布 2.0 版本，官方称是一次「重大改造」，所有旧插件不再兼容，需要重写适配。",
+      "source": "极客公园",
+      "title": "OpenAI API 短暂出现三个 Aurora 神秘模型",
+      "finding": "开发者发现 OpenAI API 模型列表中短暂出现 aurora-red-alpha、aurora-green-alpha、aurora-blue-alpha 三个模型，随后迅速消失。发现来自第三方镜像，并非官方公告。",
       "key_data": [
-        "2.0 重大改造",
-        "旧插件全部失效",
-        "需重写适配"
+        "三个 Aurora 变体",
+        "红绿蓝命名",
+        "已从列表消失"
       ],
-      "judgment": "开源编码工具做破坏性升级风险很高，插件生态可能短期流失，需观察社区迁移速度。",
+      "judgment": "多色变体命名暗示按能力/成本分档的新模型家族，OpenAI 下一轮发布节奏值得盯紧。",
+      "confidence": 2,
+      "url": "http://www.geekpark.net/news/372514",
+      "importance": 4
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "Gemini 4 Argon 曝光：主打解决最棘手问题",
+      "finding": "InfoQ 报道 Gemini 4 Argon 的相关内容，定位为处理最困难问题的旗舰模型，具体能力细节尚未完全公开。",
+      "key_data": [
+        "Gemini 4",
+        "代号 Argon",
+        "旗舰定位"
+      ],
+      "judgment": "Google 用代号节奏释放信号，Gemini 4 与 OpenAI 新模型的正面碰撞即将到来。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/LkxBOvOJWmQGMQemUOrX?utm_source=rss&utm_medium=article",
+      "importance": 4
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "Cloudflare 推出面向 AI Agent 的 CLI，逐步停用 Wrangler",
+      "finding": "Cloudflare 发布专为 AI Agent 设计的命令行工具，并计划逐步停用此前的 Wrangler。这意味着 Agent 成为 Cloudflare 开发者工具的一等公民。",
+      "key_data": [
+        "Agent 专用 CLI",
+        "Wrangler 停用",
+        "开发者工具重构"
+      ],
+      "judgment": "基础设施厂商开始按 Agent 的操作习惯重做工具链，Agent-first 开发范式正在落地。",
       "confidence": 4,
-      "url": "https://www.infoq.cn/article/IK5AWDwovCu5lx3e3mhc?utm_source=rss&utm_medium=article",
+      "url": "https://www.infoq.cn/article/Ddda0DF68laqfoqa4Lju?utm_source=rss&utm_medium=article",
       "importance": 3
     },
     {
       "source": "极客公园",
-      "title": "DeepSeek 开放搜索与网页抓取 API",
-      "finding": "DeepSeek 对外开放搜索与网页抓取 API，补齐了模型之外的数据获取能力。",
+      "title": "MemSilicon 完成超 4 亿元 A 轮融资，前 Graphcore 总裁加盟",
+      "finding": "铭芯启睿（MemSilicon）宣布完成超 4 亿元 A 轮融资，由博原资本领投，米哈游、兆易创新、小米战投等跟投，资金用于 RRAM 产业化与 LPU 新产品研发，前 Graphcore 总裁兼大中华区负责人加盟。",
       "key_data": [
-        "搜索 API",
-        "网页抓取 API",
-        "补齐数据能力"
+        "超 4 亿元 A 轮",
+        "RRAM 产业化",
+        "LPU 新产品"
       ],
-      "judgment": "在网站开始屏蔽 Agent 的背景下，官方搜索 API 是更稳定的数据入口，对 RAG 开发者是实质利好。",
-      "confidence": 3,
-      "url": "http://www.geekpark.net/news/372514",
+      "judgment": "存储与推理芯片的国产替代在加速，LPU 方向直接对标 Groq，推理算力竞争升温。",
+      "confidence": 4,
+      "url": "http://www.geekpark.net/news/372545",
       "importance": 3
     },
     {
-      "source": "Hacker News",
-      "title": "Sphinx：上线前给你的 AI 代码出「理解测验」的开源钩子",
-      "finding": "开源项目 Sphinx 接入现有编码 Agent 工作流，每次推送到生产环境前弹出一份问卷，检验你是否真正理解即将上线的代码。",
+      "source": "Simon Willison",
+      "title": "llm-echo 0.5 与 llm-tools-datasette 0.1.1 发布",
+      "finding": "Simon Willison 发布 llm-echo 0.5 调试插件更新，并修复 llm-tools-datasette 在 LLM 0.33 切换到 httpx2 后的兼容性问题，为新的 LLM 大版本铺路。",
       "key_data": [
-        "开源 FOSS",
-        "推送前问卷",
-        "检验代码理解"
+        "llm-echo 0.5",
+        "httpx2 迁移",
+        "插件兼容修复"
       ],
-      "judgment": "这是对「AI 写码、人不理解」问题的直接回应，可能催生一类新的代码审查工具。",
-      "confidence": 3,
-      "url": "https://sphinx-six-theta.vercel.app/",
-      "importance": 3
-    },
-    {
-      "source": "InfoQ AI",
-      "title": "17 岁 Kimi 架构核心参与者离职，确认赴湾区",
-      "finding": "一位 17 岁的 Kimi 架构核心参与者确认离职并将前往湾区，下一站尚未公开。",
-      "key_data": [
-        "17 岁核心参与者",
-        "确认赴湾区",
-        "下一站未公开"
-      ],
-      "judgment": "中国头部模型团队核心人才流向湾区，反映中美 AI 人才竞争仍在加剧。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/UdT804ujpGxrv0pQfxv2?utm_source=rss&utm_medium=article",
-      "importance": 2
+      "judgment": "小版本更新，但透露出 LLM 工具链正在为一次较大版本发布做迁移准备。",
+      "confidence": 4,
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+      "importance": 1
     }
   ],
   "opinions": [
     {
       "person": "Simon Willison",
       "level": "L2",
-      "quote": "正在为新的 LLM 版本做准备，测试 PR 时顺手重做了 llm-echo 调试插件——它提供一个完全不涉及 LLM 的「模型」，用于调试链路本身。",
+      "quote": "调试插件看似边缘，但它是 LLM 工具链可维护性的地基——每次大版本迁移前，先把 echo 这类「无模型」插件跑通，才能确认抽象层没有漏。",
       "source": "https://simonwillison.net/2026/Oct/18/llm-echo/"
     },
     {
-      "person": "r/MachineLearning 社区",
-      "level": "L2",
-      "quote": "审了 3 篇 ICLR、5 篇 AAMAS 的稿子，质量差到连 workshop 都不该收——会议论文正在被大量低质投稿淹没。",
+      "person": "r/MachineLearning 社区审稿人",
+      "level": "L1",
+      "quote": "ICLR 三篇、AAMAS 五篇审下来，论文质量差到连 workshop 都不该收。会议评审体系正在被低质投稿淹没，这是学术激励失灵的明确信号。",
       "source": "https://www.reddit.com/r/MachineLearning/comments/1x9fyhd/conference_papers_are_cooked_d/"
+    },
+    {
+      "person": "r/MachineLearning 开发者",
+      "level": "L1",
+      "quote": "不自己跑一层 LLM 代理，你根本不知道请求被路由到哪个模型、延迟花在哪、成本怎么算。自建代理正在从「极客玩具」变成生产必需。",
+      "source": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "网站屏蔽 AI Agent 的技术手段与反制路径",
-      "reason": "直接决定依赖网页抓取的 Agent 产品的成本结构和可行性",
+      "topic": "AI Agent 时代的网站封锁与数据获取策略",
+      "reason": "Agent 抓取受阻将直接决定产品可用性，需评估 API 合作、本地数据与合规边界。",
+      "priority": "high"
+    },
+    {
+      "topic": "实时世界模型的开源生态与消费级部署",
+      "reason": "EdenLive 打开 AI 原生游戏/仿真窗口，值得评估技术栈与商业化路径。",
       "priority": "high"
     },
     {
       "topic": "Anthropic 安全法案提案的监管逻辑与行业影响",
-      "reason": "头部实验室主动设计监管框架，可能重塑全行业合规基线",
-      "priority": "high"
-    },
-    {
-      "topic": "潜空间推理 Agent 的工程可行性与成本收益",
-      "reason": "可能是降低 Agent 推理成本的关键路径，已有开源实现可验证",
+      "reason": "事后追责式监管若成真，将重塑所有 AI 公司的合规成本结构。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "Agent 遇墙，安全松绑，人才流动",
-  "summary_paragraph": "今天最重要的信号是结构性阻力开始显现：网站主动对 AI Agent 关门，开放互联网的「Agent 围墙」正在形成，依赖网页抓取的 Agent 产品面临成本重构。与此同时，Anthropic 提出极高触发门槛的安全法案并承诺 5% 股权投入公共利益基金，头部实验室正用「低干预监管 + 股权绑定」换取行业自律空间。产品层面，Character.AI 以人才被迪士尼接收的方式落幕，AI 陪伴独立商业化路径被证伪；OpenAI 三个 Aurora 神秘模型短暂现身，下一代模型灰度已在路上。",
+  "summary_one_line": "安全监管转向事后追责，Agent 互联网遇阻",
+  "summary_paragraph": "今天最重要的信号来自监管与生态两端：Anthropic 一边提议「50 人死亡或 10 亿美元损失才触发监管」的安全法案，一边承诺捐出 5% 股份设立公共利益基金，头部实验室正用事后追责和股权绑定重新定义 AI 治理边界。与此同时，网站开始集体对 AI Agent 关门，Agent 优先的互联网第一次遇到结构性阻力。产品侧，VAST 开源可在单张消费级显卡跑 720P 实时世界模型的 EdenLive，OpenAI 与 Google 的新模型代号接连曝光，模型竞赛与工具链重构同步加速。",
   "snapshot": {
     "date": "2026-10-19",
     "hf_trending": [
       {
         "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "short_name": "DeepSeek-V4.1-Flash-1017",
-        "likes": 1355,
+        "likes": 1461,
         "downloads": 10233,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "tags": [
@@ -243,7 +278,7 @@
       {
         "name": "openbmb/MiniCPM-V-4.7-35B-A3B",
         "short_name": "MiniCPM-V-4.7-35B-A3B",
-        "likes": 1009,
+        "likes": 1025,
         "downloads": 57935,
         "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
         "tags": [
@@ -259,7 +294,7 @@
       {
         "name": "google/embeddinggemma-2",
         "short_name": "embeddinggemma-2",
-        "likes": 2665,
+        "likes": 2674,
         "downloads": 164339,
         "url": "https://huggingface.co/google/embeddinggemma-2",
         "tags": [
@@ -273,25 +308,9 @@
         "trend": "same"
       },
       {
-        "name": "jialinyyzz/humanizer",
-        "short_name": "humanizer",
-        "likes": 1950,
-        "downloads": 103709,
-        "url": "https://huggingface.co/jialinyyzz/humanizer",
-        "tags": [
-          "gguf",
-          "safetensors",
-          "gemma4_unified"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "fishaudio/drama-3",
         "short_name": "drama-3",
-        "likes": 698,
+        "likes": 716,
         "downloads": 9620,
         "url": "https://huggingface.co/fishaudio/drama-3",
         "tags": [
@@ -305,9 +324,25 @@
         "trend": "same"
       },
       {
+        "name": "jialinyyzz/humanizer",
+        "short_name": "humanizer",
+        "likes": 1960,
+        "downloads": 103709,
+        "url": "https://huggingface.co/jialinyyzz/humanizer",
+        "tags": [
+          "gguf",
+          "safetensors",
+          "gemma4_unified"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "black-forest-labs/flux-3-image-klein-comfy",
         "short_name": "flux-3-image-klein-comfy",
-        "likes": 818,
+        "likes": 844,
         "downloads": 338036,
         "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
         "tags": [
@@ -323,7 +358,7 @@
       {
         "name": "meta-models/Muse-Spark-Open-816B-A42B",
         "short_name": "Muse-Spark-Open-816B-A42B",
-        "likes": 548,
+        "likes": 557,
         "downloads": 1809,
         "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
         "tags": [
@@ -337,70 +372,181 @@
         "trend": "same"
       },
       {
-        "name": "Lightricks/LTX-2.5",
-        "short_name": "LTX-2.5",
-        "likes": 8384,
-        "downloads": 2012496,
-        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "name": "LiquidAI/LFM2.5-24B-A2B",
+        "short_name": "LFM2.5-24B-A2B",
+        "likes": 479,
+        "downloads": 13007,
+        "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
         "tags": [
-          "diffusion-single-file",
-          "image-to-video",
-          "text-to-video"
+          "transformers",
+          "safetensors",
+          "lfm2_moe"
         ],
-        "pipeline_tag": "image-to-video",
-        "label": "图生视频",
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
         "card_desc": "",
-        "trend": "same"
+        "trend": "new"
       }
     ],
     "github_trending": [
       {
         "name": "MadsLorentzen/ai-job-search",
         "desc": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluat",
-        "stars": 53417,
+        "stars": 54464,
         "stars_today": 2232,
-        "forks": 17418,
+        "forks": 17605,
         "language": "Python",
         "url": "https://github.com/MadsLorentzen/ai-job-search"
       },
       {
         "name": "anthropics/claude-plugins-official",
         "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-        "stars": 42738,
+        "stars": 42921,
         "stars_today": 1175,
-        "forks": 4535,
+        "forks": 4547,
         "language": "Python",
         "url": "https://github.com/anthropics/claude-plugins-official"
       },
       {
         "name": "anomalyco/opencode",
         "desc": "The open source coding agent.",
-        "stars": 216664,
+        "stars": 216949,
         "stars_today": 1414,
-        "forks": 29005,
+        "forks": 29028,
         "language": "TypeScript",
         "url": "https://github.com/anomalyco/opencode"
       },
       {
         "name": "cursor/plugins",
         "desc": "Cursor plugin specification and official plugins",
-        "stars": 12768,
+        "stars": 12881,
         "stars_today": 350,
-        "forks": 1258,
+        "forks": 1266,
         "language": "TypeScript",
         "url": "https://github.com/cursor/plugins"
       },
       {
         "name": "ruvnet/ruflo",
         "desc": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflow",
-        "stars": 76556,
+        "stars": 76735,
         "stars_today": 513,
-        "forks": 9051,
+        "forks": 9067,
         "language": "TypeScript",
         "url": "https://github.com/ruvnet/ruflo"
       }
     ],
-    "openrouter_ranking": [],
-    "hf_summary": "多模态与视频生成热度领跑，开源模型正加速向多模态与高效小模型演进"
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 5663838499772,
+        "total_tokens_str": "5.7T",
+        "api_calls": 0,
+        "change": 18.7,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1426914694347,
+        "total_tokens_str": "1.4T",
+        "api_calls": 0,
+        "change": -6.5,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo-V2.6-Flash",
+        "org": "xiaomi",
+        "total_tokens": 1043256798572,
+        "total_tokens_str": "1.0T",
+        "api_calls": 0,
+        "change": -9.5,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 961716715533,
+        "total_tokens_str": "962B",
+        "api_calls": 0,
+        "change": 4.6,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 5,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 845637992998,
+        "total_tokens_str": "846B",
+        "api_calls": 0,
+        "change": -6.8,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 6,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 821557138684,
+        "total_tokens_str": "822B",
+        "api_calls": 0,
+        "change": 2.7,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 7,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 789589000784,
+        "total_tokens_str": "790B",
+        "api_calls": 0,
+        "change": 1020.8,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      {
+        "rank": 8,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 644405855283,
+        "total_tokens_str": "644B",
+        "api_calls": 0,
+        "change": -2.3,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 9,
+        "slug": "z-ai/glm-5.3",
+        "name": "GLM 5.3",
+        "org": "z-ai",
+        "total_tokens": 525172172360,
+        "total_tokens_str": "525B",
+        "api_calls": 0,
+        "change": -16.6,
+        "url": "https://openrouter.ai/z-ai/glm-5.3"
+      },
+      {
+        "rank": 10,
+        "slug": "meta/muse-spark-1.3-contributor",
+        "name": "Muse Spark 1.3 Contributor",
+        "org": "meta",
+        "total_tokens": 481848585433,
+        "total_tokens_str": "482B",
+        "api_calls": 0,
+        "change": 0.8,
+        "url": "https://openrouter.ai/meta/muse-spark-1.3-contributor"
+      }
+    ],
+    "hf_summary": "多模态与嵌入模型热度领跑，轻量化MoE架构成主流方向"
   }
 }
