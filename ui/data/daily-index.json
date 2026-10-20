@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-10-20",
-      "title": "今日 AI 日报：DeepSeek-V4.1-Flash 登顶 Code Arena WebDev 开源榜首 + 4 条重要动态",
-      "excerpt": "开源代码模型的竞争已从「追平闭源」进入「内部互卷」阶段。对开发者而言，WebDe…",
+      "title": "今日 AI 日报：亚马逊推出 TorchNeuron，正面挑战英伟达对 PyTorch 生态的控制 + 4 条重要动态",
+      "excerpt": "真正的战场不在芯片硬件，而在 PyTorch 这一层软件抽象。如果亚马逊能把迁移…",
       "top_count": 5,
       "file": "2026-10-20.json"
     },
