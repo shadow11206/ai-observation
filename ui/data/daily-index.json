@@ -1,6 +1,13 @@
 {
-  "total": 206,
+  "total": 207,
   "reports": [
+    {
+      "date": "2026-10-20",
+      "title": "今日 AI 日报：DeepSeek-V4.1-Flash 登顶 Code Arena WebDev 开源榜首 + 4 条重要动态",
+      "excerpt": "开源代码模型的竞争已从「追平闭源」进入「内部互卷」阶段。对开发者而言，WebDe…",
+      "top_count": 5,
+      "file": "2026-10-20.json"
+    },
     {
       "date": "2026-10-19",
       "title": "今日 AI 日报：Anthropic 提议 AI 安全法案：造成 50 人死亡或 10 亿美元损失才触发监管 + 4 条重要动态",

@@ -1,0 +1,552 @@
+{
+  "date": "2026-10-20",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "DeepSeek-V4.1-Flash 登顶 Code Arena WebDev 开源榜首",
+      "finding": "10 月 19 日，Arena 评测平台宣布 DeepSeek-V4.1-Flash-1017（Max）以 1670 分超过 Kimi K3（Max），成为 Code Arena WebDev 榜单排名最高的开源模型。这是国产开源模型在代码生成竞技场上首次压过 Kimi 系。",
+      "key_data": [
+        "得分 1670",
+        "超越 Kimi K3",
+        "开源模型第一"
+      ],
+      "judgment": "开源代码模型的竞争已从「追平闭源」进入「内部互卷」阶段。对开发者而言，WebDev 场景的高性价比开源选项又多了一个；对 Kimi 而言，长上下文优势在纯代码竞技场上并不自动转化为胜势。",
+      "confidence": 4,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/372568"
+    },
+    {
+      "rank": 2,
+      "title": "亚马逊推出 TorchNeuron，正面撬动英伟达对 PyTorch 的掌控",
+      "finding": "亚马逊发布 TorchNeuron 开发工具，目标是让开发者把基于 PyTorch 构建的 AI 应用更方便地跑在 Trainium 等自研芯片上，而不是只能绑定英伟达 GPU。这是亚马逊迄今对英伟达软件护城河最直接的一次进攻。",
+      "key_data": [
+        "TorchNeuron",
+        "对标 CUDA 生态",
+        "Trainium 芯片"
+      ],
+      "judgment": "英伟达的真正壁垒从来不是硬件而是 CUDA/PyTorch 生态惯性。亚马逊选择从开发者工具链切入是对的，但迁移成本与算子覆盖度决定成败——短期难撼动，长期是必须盯的变量。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+    },
+    {
+      "rank": 3,
+      "title": "微软称 AI Agent 形同「内部威胁」，前沿模型不可信任",
+      "finding": "微软安全团队公开表态，企业应像防范内部人员一样监控员工使用的第三方 AI Agent，理由是前沿模型的行为不可完全信任、且不受 OpenAI/Anthropic 等实验室控制。这标志着大厂对 Agent 的态度从「推广」转向「管控」。",
+      "key_data": [
+        "Agent=内部威胁",
+        "前沿模型不可信",
+        "企业需监控"
+      ],
+      "judgment": "这是 Agent 落地进入深水区的信号：安全与审计将成为企业采购 Agent 的一级门槛。做 Agent 产品的团队，权限隔离、行为日志、可回滚设计不再是加分项而是入场券。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/"
+    },
+    {
+      "rank": 4,
+      "title": "Anthropic 据报与 Nscale 洽谈 450 亿美元算力大单",
+      "finding": "据 TechCrunch 报道，Anthropic 正与算力供应商 Nscale 洽谈一笔约 450 亿美元的计算资源交易。若成行，这将是 Anthropic 过去一年里一连串巨额算力协议中的最新一笔。",
+      "key_data": [
+        "450 亿美元",
+        "Nscale",
+        "算力军备竞赛"
+      ],
+      "judgment": "头部实验室的算力锁定已进入「千亿级长约」时代，后来者的入场成本被进一步抬高。这也意味着 Anthropic 对下一代模型的训练规模有明确押注，模型能力差距可能继续拉大。",
+      "confidence": 3,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+    },
+    {
+      "rank": 5,
+      "title": "研究者称发现神经网络「新规律」，2.6 万字长文震动 AI 圈",
+      "finding": "Goodfire 研究员 Nick Cammarata 发布 2.6 万字博客，声称对神经网络本质有了「好消息」式的新发现，MIT 科技评论称这一主张「颠覆了 AI 世界」。目前该说法仍在社区激烈讨论中，尚未形成共识。",
+      "key_data": [
+        "2.6 万字长文",
+        "Goodfire 研究员",
+        "可解释性"
+      ],
+      "judgment": "可解释性领域久违的高热度事件。若结论站得住，将影响模型调试、安全对齐与能力预测的方法论；但在同行复现前，应保持「高度关注、谨慎采信」的态度。",
+      "confidence": 2,
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "OpenAI Blog",
+      "title": "OpenAI 提升 ChatGPT 在低资源编程语言上的能力",
+      "finding": "OpenAI 公布针对低资源编程语言的新评测与改进，覆盖软件工程、SQLite 以及 COBOL 迁移等场景，让 ChatGPT 在冷门语言上也能给出可用代码。",
+      "key_data": [
+        "COBOL 迁移",
+        "SQLite 评测",
+        "低资源语言"
+      ],
+      "judgment": "瞄准的是金融、政企遗留系统现代化这块硬骨头，商业价值明确。",
+      "confidence": 5,
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "研究：MoE 模型预填充阶段减少专家会显著拉低短答准确率",
+      "finding": "论文指出，在 MoE 模型预填充阶段让 prompt token 只经过更少的专家虽能降低服务成本，但少数 prompt token 承载了大部分短答案 F1 损失，省钱有明确代价。",
+      "key_data": [
+        "MoE 预填充",
+        "短答 F1 损失",
+        "降本有代价"
+      ],
+      "judgment": "给 MoE 推理降本划出了精度红线，服务商做专家裁剪时需按任务类型区分。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.22454",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "RealCLI：面向 CLI Agent 的人机协作统一评测基准",
+      "finding": "现有 CLI Agent 基准大多假设用户指令固定不变，RealCLI 提出在长周期任务中评估人与 Agent 的动态协作，更贴近真实终端使用场景。",
+      "key_data": [
+        "CLI Agent",
+        "人机协作评测",
+        "长周期任务"
+      ],
+      "judgment": "Agent 评测正从「单轮正确率」转向「协作过程质量」，方向正确。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.22507",
+      "importance": 2
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "Maxwell：通过重写二进制文件在运行时加速 Whisper、LTX-2 等模型",
+      "finding": "社区发现一种名为 Maxwell 的新模型，可在程序运行时基于观察动态重写二进制以加速推理，已在 Whisper 和 LTX-2 上验证。",
+      "key_data": [
+        "二进制重写",
+        "运行时加速",
+        "Whisper/LTX-2"
+      ],
+      "judgment": "若可泛化，是绕开重训练和专用编译器的第三条加速路径，值得跟踪。",
+      "confidence": 2,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xa2rrh/maxwell_a_new_model_that_speeds_up_ai_models_like/",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "结构化权威注入：用类型化 MCP 覆盖实现 LLM Agent 的持久人类控制",
+      "finding": "论文针对多智能体系统中「控制缺口」问题，提出在协议层通过类型化 MCP 覆盖注入人类权威，让 Agent 的自主编排始终处于可控边界内。",
+      "key_data": [
+        "MCP 覆盖",
+        "协议级控制",
+        "多智能体"
+      ],
+      "judgment": "把人类监督做进协议层而非提示词层，是 Agent 治理的正确工程化方向。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.22373",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "InfoQ AI",
+      "title": "谷歌开源 Harness，支持 OpenCode 与 Codex，国内开发者实测可用",
+      "finding": "谷歌开源了 Harness 框架，可对接 OpenCode 和 Codex 等编码 Agent，国内开发者实测接入 Jev 后运行正常。",
+      "key_data": [
+        "谷歌开源",
+        "兼容 OpenCode/Codex",
+        "国内实测通过"
+      ],
+      "judgment": "Agent 的「外壳层」正在标准化，框架之争将决定谁能掌握开发者入口。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/AD1M3mJ2SH1dJrTA1r5q",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "OpenCode 遭黑客围攻 48 小时，大量 API 账户被刷爆",
+      "finding": "OpenCode 遭遇持续 48 小时的黑客攻击，大批用户 API 账户被盗刷，官方将原因归为「蒸馏攻击」，但该说法受到社区质疑。",
+      "key_data": [
+        "48 小时攻击",
+        "API 账户被刷爆",
+        "官方甩锅遭质疑"
+      ],
+      "judgment": "AI 编码工具的密钥与额度安全是普遍短板，暴露了 Agent 产品的信任成本。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/K5J7yb60djWKM6vUZqwq",
+      "importance": 3
+    },
+    {
+      "source": "极客公园",
+      "title": "MemSilicon 完成超 4 亿元 A 轮融资，战略升级并研发 LPU",
+      "finding": "铭芯启睿（MemSilicon）宣布完成超 4 亿元 A 轮融资，由博原资本领投，米哈游、兆易创新等跟投，资金将用于 RRAM 产业化及新产品 LPU 研发，前 Graphcore 总裁亦加盟。",
+      "key_data": [
+        "超 4 亿元",
+        "RRAM 产业化",
+        "研发 LPU"
+      ],
+      "judgment": "存储与推理芯片赛道持续吸金，LPU 方向直接对标 Groq，国产替代叙事升温。",
+      "confidence": 4,
+      "url": "http://www.geekpark.net/news/372545",
+      "importance": 3
+    },
+    {
+      "source": "Wired AI",
+      "title": "迪士尼要求 Character.AI 破产以换取诉讼豁免",
+      "finding": "Wired 报道，迪士尼希望从 Character.AI 获取信任与安全技术等知识产权，并提出让对方破产以摆脱多州诉讼的方案，这些诉讼指控其聊天机器人诱导未成年人自残。",
+      "key_data": [
+        "迪士尼施压",
+        "多州诉讼",
+        "信任与安全技术"
+      ],
+      "judgment": "AI 陪伴类产品的合规风险正在从罚款升级为生死问题，安全能力成为可交易资产。",
+      "confidence": 3,
+      "url": "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "StartLux 登顶决策模型榜单，学会「拿不准再想」",
+      "finding": "国内团队 StartLux 在决策模型榜单上登顶，其模型具备「不确定时再深入推理」的自适应能力，被视为 Jev 的中国挑战者。",
+      "key_data": [
+        "登顶决策榜单",
+        "自适应推理",
+        "Jev 挑战者"
+      ],
+      "judgment": "「按需思考」正成为推理模型的新竞争点，成本与准确率的平衡术是关键。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/bROfcYFpijQQVBz4NqDi",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "编程正在变成另一件事：对享受解谜过程的职业程序员来说，编码 Agent 夺走的是「把代码写出来」这件事本身的乐趣。这不是效率问题，是职业身份问题。",
+      "source": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
+    },
+    {
+      "person": "Hugging Face 政策负责人",
+      "level": "L2",
+      "quote": "把「中立」第三方评估者嵌入 AI 实验室内部，听起来很美，但执行起来并不容易——评估者的独立性、权限和信息获取都难以保证。",
+      "source": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/"
+    },
+    {
+      "person": "Meta 工程师（HN 讨论）",
+      "level": "L1",
+      "quote": "我从未像现在这样对交付自己看不懂的 AI 生成代码感到不安。代码能跑，但没人能解释它为什么能跑——这是工程文化层面的隐患。",
+      "source": "https://news.ycombinator.com/item?id=50151036"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI Agent 的「外壳层」标准化之争：Harness、MCP 与运行时控制",
+      "reason": "谷歌开源 Harness、MCP 协议级控制论文同日出现，框架层格局正在成型。",
+      "priority": "high"
+    },
+    {
+      "topic": "亚马逊 TorchNeuron 与英伟达 CUDA 生态的真实攻防",
+      "reason": "决定未来三年 AI 算力成本曲线，需评估算子覆盖与迁移成本。",
+      "priority": "high"
+    },
+    {
+      "topic": "神经网络「新规律」主张的可解释性争议",
+      "reason": "若被复现将改变对齐与调试方法论，但目前证据不足需交叉验证。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "开源代码模型互卷，算力与 Agent 管控同步升温",
+  "summary_paragraph": "今天最值得关注的是两条并行的主线。一条是能力与成本的博弈：DeepSeek-V4.1-Flash 登顶 Code Arena 开源榜首，开源代码模型进入内部互卷；亚马逊用 TorchNeuron 正面撬动英伟达的 PyTorch 生态，Anthropic 则据报洽谈 450 亿美元算力长约，头部实验室的算力锁定继续加码。另一条是治理与信任：微软把 AI Agent 定性为「内部威胁」，OpenCode 遭攻击导致 API 账户被刷爆，Character.AI 面临迪士尼的破产施压——Agent 落地越深，安全与合规越是入场券。此外，Goodfire 研究员关于神经网络本质的 2.6 万字主张引发热议，值得关注但需谨慎采信。",
+  "_comment": "placeholder",
+  "snapshot": {
+    "date": "2026-10-20",
+    "hf_trending": [
+      {
+        "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "short_name": "DeepSeek-V4.1-Flash-1017",
+        "likes": 1703,
+        "downloads": 17924,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v41"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "openbmb/MiniCPM-V-4.7-35B-A3B",
+        "short_name": "MiniCPM-V-4.7-35B-A3B",
+        "likes": 1068,
+        "downloads": 76410,
+        "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "minicpmv4_7"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "black-forest-labs/flux-3-image-klein-comfy",
+        "short_name": "flux-3-image-klein-comfy",
+        "likes": 972,
+        "downloads": 393062,
+        "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "image-generation"
+        ],
+        "pipeline_tag": "image-to-image",
+        "label": "Image To Image",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "fishaudio/drama-3",
+        "short_name": "drama-3",
+        "likes": 772,
+        "downloads": 11795,
+        "url": "https://huggingface.co/fishaudio/drama-3",
+        "tags": [
+          "safetensors",
+          "fish_omni",
+          "fish-audio"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "google/embeddinggemma-2",
+        "short_name": "embeddinggemma-2",
+        "likes": 2728,
+        "downloads": 167750,
+        "url": "https://huggingface.co/google/embeddinggemma-2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "embedding_gemma2"
+        ],
+        "pipeline_tag": "feature-extraction",
+        "label": "向量嵌入",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "jialinyyzz/humanizer",
+        "short_name": "humanizer",
+        "likes": 1989,
+        "downloads": 109937,
+        "url": "https://huggingface.co/jialinyyzz/humanizer",
+        "tags": [
+          "gguf",
+          "safetensors",
+          "gemma4_unified"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "meta-models/Muse-Spark-Open-816B-A42B",
+        "short_name": "Muse-Spark-Open-816B-A42B",
+        "likes": 580,
+        "downloads": 2109,
+        "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "muse_spark"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "LiquidAI/LFM2.5-24B-A2B",
+        "short_name": "LFM2.5-24B-A2B",
+        "likes": 501,
+        "downloads": 14151,
+        "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "lfm2_moe"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "MadsLorentzen/ai-job-search",
+        "desc": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluat",
+        "stars": 57468,
+        "stars_today": 3856,
+        "forks": 18239,
+        "language": "Python",
+        "url": "https://github.com/MadsLorentzen/ai-job-search"
+      },
+      {
+        "name": "anomalyco/opencode",
+        "desc": "The open source coding agent.",
+        "stars": 217869,
+        "stars_today": 1311,
+        "forks": 29117,
+        "language": "TypeScript",
+        "url": "https://github.com/anomalyco/opencode"
+      },
+      {
+        "name": "akitaonrails/ai-memory",
+        "desc": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agen",
+        "stars": 11396,
+        "stars_today": 666,
+        "forks": 811,
+        "language": "Rust",
+        "url": "https://github.com/akitaonrails/ai-memory"
+      },
+      {
+        "name": "Comfy-Org/ComfyUI",
+        "desc": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The",
+        "stars": 139788,
+        "stars_today": 1011,
+        "forks": 16587,
+        "language": "Python",
+        "url": "https://github.com/Comfy-Org/ComfyUI"
+      },
+      {
+        "name": "ruvnet/ruflo",
+        "desc": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflow",
+        "stars": 77222,
+        "stars_today": 564,
+        "forks": 9104,
+        "language": "TypeScript",
+        "url": "https://github.com/ruvnet/ruflo"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 6416005953347,
+        "total_tokens_str": "6.4T",
+        "api_calls": 0,
+        "change": 13.3,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1742144787145,
+        "total_tokens_str": "1.7T",
+        "api_calls": 0,
+        "change": 22.1,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 1369069954570,
+        "total_tokens_str": "1.4T",
+        "api_calls": 0,
+        "change": 61.9,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 4,
+        "slug": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo-V2.6-Flash",
+        "org": "xiaomi",
+        "total_tokens": 1230561128342,
+        "total_tokens_str": "1.2T",
+        "api_calls": 0,
+        "change": 18.0,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+      },
+      {
+        "rank": 5,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 1077326576586,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": 31.1,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 6,
+        "slug": "minimax/minimax-m3.1-flash:free",
+        "name": "MiniMax M3.1 Flash (free)",
+        "org": "minimax",
+        "total_tokens": 1052452886795,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": 0,
+        "url": "https://openrouter.ai/minimax/minimax-m3.1-flash:free"
+      },
+      {
+        "rank": 7,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 1003563690024,
+        "total_tokens_str": "1.0T",
+        "api_calls": 0,
+        "change": 4.4,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 8,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 878201839705,
+        "total_tokens_str": "878B",
+        "api_calls": 0,
+        "change": 36.3,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 9,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 803135360997,
+        "total_tokens_str": "803B",
+        "api_calls": 0,
+        "change": 1.7,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      {
+        "rank": 10,
+        "slug": "z-ai/glm-5.3",
+        "name": "GLM 5.3",
+        "org": "z-ai",
+        "total_tokens": 745206842817,
+        "total_tokens_str": "745B",
+        "api_calls": 0,
+        "change": 41.9,
+        "url": "https://openrouter.ai/z-ai/glm-5.3"
+      }
+    ],
+    "hf_summary": "多模态与轻量化MoE主导榜单 嵌入和文本生成模型热度反超"
+  }
+}
