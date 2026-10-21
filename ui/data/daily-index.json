@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-10-21",
-      "title": "今日 AI 日报：DeepSeek 开源大规模推理框架 DeepInfer，V4.1 Flash 已跑在其上 + 4 条重要动态",
-      "excerpt": "这是比发模型更狠的一步：DeepSeek 把「怎么把模型跑得又快又便宜」也开源了…",
+      "title": "今日 AI 日报：DeepSeek 开源内部推理框架 DeepInfer，单集群日处理 155 万亿 Token + 4 条重要动态",
+      "excerpt": "这是把推理成本结构直接摊在桌面上：开源推理栈意味着中小厂商也能复制这套经济模型，…",
       "top_count": 5,
       "file": "2026-10-21.json"
     },
