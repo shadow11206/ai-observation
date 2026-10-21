@@ -1,6 +1,13 @@
 {
-  "total": 207,
+  "total": 208,
   "reports": [
+    {
+      "date": "2026-10-21",
+      "title": "今日 AI 日报：DeepSeek 开源大规模推理框架 DeepInfer，V4.1 Flash 已跑在其上 + 4 条重要动态",
+      "excerpt": "这是比发模型更狠的一步：DeepSeek 把「怎么把模型跑得又快又便宜」也开源了…",
+      "top_count": 5,
+      "file": "2026-10-21.json"
+    },
     {
       "date": "2026-10-20",
       "title": "今日 AI 日报：亚马逊推出 TorchNeuron，正面挑战英伟达对 PyTorch 生态的控制 + 4 条重要动态",
