@@ -3,216 +3,228 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "DeepSeek 开源 DeepInfer：单集群日处理 155 万亿 Token，日入 2200 万美元",
-      "finding": "DeepSeek 开源了一套推理系统 DeepInfer，单个集群每天能处理 155 万亿个 Token，按此规模测算日收入约 2200 万美元、毛利率约 80%，硬件投资回收周期仅 81 天。这是把「推理经济学」的底牌直接摊在桌面上。",
-      "key_data": [
-        "155 万亿 Token/日/集群",
-        "日入 2200 万美元",
-        "毛利约 80%",
-        "回收期 81 天"
-      ],
-      "judgment": "这是对闭源推理服务商的正面价格战宣言：开源推理栈把成本结构公开后，靠「推理 API 差价」赚钱的空间会被持续压缩，云厂商和模型公司必须转向靠模型能力本身或生态锁定来收费。对开发者是利好，对中间层推理转售商是坏消息。",
-      "confidence": 4,
-      "source": "Latent Space (Swyx) / AINews",
-      "url": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source"
-    },
-    {
-      "rank": 2,
-      "title": "OpenAI 模型上架 Google Cloud：前沿模型与 Codex 进入 Gemini Model Garden",
-      "finding": "OpenAI 与 Google Cloud 达成合作，OpenAI 的前沿模型和 Codex 编程工作流将进入 Gemini 的 Model Garden，并通过 Google Cloud Marketplace 提供。两家最直接的竞争对手在分发层面握手。",
+      "title": "OpenAI 模型登陆 Google Cloud，Gemini 模型花园迎来最强竞争对手",
+      "finding": "OpenAI 宣布其前沿模型和 Codex 编程工作流将进入 Google Cloud 的 Gemini Model Garden，并通过 Google Cloud Marketplace 销售。这意味着企业客户可以在谷歌云上直接调用 OpenAI 模型，两大竞争对手在分发层面罕见握手。",
       "key_data": [
         "Gemini Model Garden",
         "Codex 工作流",
-        "Cloud Marketplace 分发"
+        "Cloud Marketplace 上架"
       ],
-      "judgment": "模型竞争的主战场正从「谁的模型强」转向「谁的分发渠道广」。OpenAI 愿意把模型放进对手的云市场，说明企业客户的采购惯性（走云市场账单）比品牌忠诚更重要；对 Google 而言，这是用渠道换生态黏性。企业采购方将获得更少的供应商锁定。",
+      "judgment": "这是 AI 云市场格局的一次重要松动：模型层的竞争正在让位于分发层的合作，企业客户的选择成本进一步降低。对开发者是好消息，对试图靠模型独占性锁定客户的云厂商是警钟。",
       "confidence": 5,
       "source": "OpenAI Blog",
       "url": "https://openai.com/index/openai-models-google-cloud"
     },
     {
-      "rank": 3,
-      "title": "AI 发现 PHP 致命远程代码执行漏洞，全球数百万网站紧急打补丁",
-      "finding": "安全公司 Wiz 披露 PHP 存在两个严重漏洞（PHP2Shell），可远程执行代码，影响数百万网站；PHP 官方紧急发布全 8.x 系列补丁。与此同时 OpenAI 推出 Patch the Planet 计划，用 AI Agent 协调开源漏洞的发现与披露。",
+      "rank": 2,
+      "title": "AI 挖出 PHP 史诗级远程代码执行漏洞，全球关键基础设施紧急下线",
+      "finding": "安全公司 Wiz 披露 AI 辅助发现的 PHP 高危漏洞 PHP2Shell，可导致远程代码执行，影响数百万网站。芬兰、荷兰、法国、德国等多国政府及港口、医院网站在补丁发布前紧急关闭服务，AWS 日志显示漏洞在修补前四天已被利用。",
       "key_data": [
-        "两个 RCE 漏洞",
-        "影响数百万站点",
-        "PHP 8.x 全线补丁",
-        "AI 辅助漏洞挖掘"
+        "影响数百万网站",
+        "补丁前4天已被利用",
+        "多国政府网站下线"
       ],
-      "judgment": "AI 攻防进入「Agent 对 Agent」阶段：AI 找漏洞的速度已经超过人类维护者的修复节奏，开源基础设施的安全债会被集中引爆。对企业意味着补丁响应流程必须自动化，对安全行业意味着「AI 漏洞挖掘」从演示走向生产。",
-      "confidence": 4,
-      "source": "Wiz / Hacker News / OpenAI Blog",
+      "judgment": "这是 AI 安全能力双刃剑的里程碑事件：AI 找漏洞的效率已超过人类防守方的修补节奏。所有跑 PHP 的团队今天必须升级，同时安全行业要重新评估 AI 驱动的漏洞发现对补丁窗口的压缩效应。",
+      "confidence": 5,
+      "source": "Wiz / Wired",
       "url": "https://www.wiz.io/blog/php2shell-php-rce"
     },
     {
-      "rank": 4,
-      "title": "Anthropic 推出 Claude Duet：可主动工作的全天候 AI 智能体",
-      "finding": "Anthropic 以研究预览形式发布 Claude Duet，定位为能主动工作的 AI Agent，加入 Meta Muse、OpenAI Dots 所在的「全天候主动型助理」赛道。竞争焦点从「你问它答」转向「它主动替你干活」。",
+      "rank": 3,
+      "title": "Anthropic 推出 Claude Duet 主动型 AI 智能体，全天候助理赛道开打",
+      "finding": "Anthropic 以研究预览形式发布 Claude Duet，定位为可主动工作的 AI 智能体，加入 Meta Muse 和 OpenAI Dots 领衔的「全天候主动型 AI 助理」竞争。产品形态从被动问答转向主动执行任务。",
       "key_data": [
         "研究预览版",
         "主动型 Agent",
-        "对标 Meta Muse / OpenAI Dots"
+        "对标 Meta Muse"
       ],
-      "judgment": "主动型 Agent 正在成为大厂标配，产品差异点将从模型能力转向「权限边界、可审计性、任务可靠性」。对产品经理来说，下一轮竞争是信任设计而非功能堆砌；对开发者来说，Agent 的调度与权限框架会成为新的基础设施层。",
-      "confidence": 3,
+      "judgment": "三大实验室在「主动型助理」上正面撞车，说明 Agent 的竞争焦点已从能力演示转向产品化落地。谁先解决主动性与用户信任的平衡，谁就拿到下一个入口。",
+      "confidence": 4,
       "source": "极客公园",
       "url": "http://www.geekpark.net/news/372711"
     },
     {
+      "rank": 4,
+      "title": "Recursive 发布 Flint 编程模型，号称大部分由 AI 自我构建",
+      "finding": "创业公司 Recursive 发布免费、可在笔记本上运行的编程模型 Flint，称其研发过程大量由自家 AI 研究系统完成，是「AI 改进 AI」的早期实测。Wired 评价其最新模型「好得吓人」。",
+      "key_data": [
+        "笔记本可运行",
+        "免费发布",
+        "AI 构建 AI"
+      ],
+      "judgment": "递归自我改进从论文话题变成可下载的产品，哪怕只是营销口径，也标志着这条路线开始接受公开检验。对开发者而言，端侧可跑的编程模型值得立刻实测。",
+      "confidence": 3,
+      "source": "TechCrunch / Wired",
+      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/"
+    },
+    {
       "rank": 5,
-      "title": "沃尔玛开放 Agent 购物接口，亚马逊反向封堵：电商对 AI 代理态度分裂",
-      "finding": "沃尔玛推出新技术，允许 AI Agent 代表用户完成下单并保留用户控制权；而亚马逊则在封堵 AI Agent 在其站点购物。两大零售巨头对「Agent 流量」采取了完全相反的策略。",
+      "title": "沃尔玛开放 AI 智能体购物接口，亚马逊反其道封堵",
+      "finding": "沃尔玛推出新技术允许 AI 智能体代表用户完成购买，并设置用户可控权限；与此同时亚马逊选择阻止 AI 智能体在其站点购物。两大零售巨头对 Agent 电商采取完全相反的立场。",
       "key_data": [
         "Agent 代下单",
-        "亚马逊封堵",
-        "沃尔玛开放"
+        "用户可控权限",
+        "亚马逊封堵"
       ],
-      "judgment": "这是「Agent 作为新流量入口」的第一场渠道战争。开放方赌的是 Agent 带来增量订单，封堵方怕的是失去定价权和用户关系。未来一年，电商的 API 开放程度会成为 Agent 产品能否落地的关键变量，做购物 Agent 的团队要优先绑定开放阵营。",
+      "judgment": "Agent 电商的入口之争正式开打：开放派赌的是流量增量，封堵派守的是广告与转化控制权。做 Agent 产品的团队要开始认真考虑与零售平台的接口协议问题。",
       "confidence": 4,
-      "source": "TechCrunch AI",
+      "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/"
     }
   ],
   "model_tech": [
     {
-      "source": "TechCrunch AI / Wired AI",
-      "title": "Recursive 发布 Flint：一台笔记本就能跑的编程模型，且大部分由 AI 自己造",
-      "finding": "创业公司 Recursive 发布免费编程模型 Flint，可在笔记本本地运行，并称该模型很大程度上由其自研 AI 研究系统构建，是「AI 改进 AI」的早期实测。",
+      "source": "Hugging Face Blog",
+      "title": "IBM 发布 Granite Speech 5.0，转写翻译与说话人归因更快更准",
+      "finding": "IBM 更新 Granite Speech 5.0 语音模型，在转写、翻译和说话人归因三项任务上同时提升准确率与速度。企业级语音场景再添一个可选项。",
       "key_data": [
-        "笔记本本地运行",
-        "免费",
-        "AI 自研比例高"
+        "转写+翻译+归因",
+        "速度提升",
+        "企业级语音"
       ],
-      "judgment": "递归自我改进从论文走向产品验证，但「大部分由 AI 造」仍需第三方复现，短期更像叙事而非能力跃迁。",
-      "confidence": 3,
-      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
-      "importance": 4
-    },
-    {
-      "source": "ArXiv cs.AI",
-      "title": "Navalia：用可验证任务合成与长程后训练推进「协作型 Agent」",
-      "finding": "论文提出 Navalia 框架，通过自动合成可验证任务并对模型做长程后训练，让 LLM 从对话助手进化为能自主规划、调用工具的协作型 Agent。",
-      "key_data": [
-        "可验证任务合成",
-        "长程后训练",
-        "协作型 Agent"
-      ],
-      "judgment": "「可验证任务 + 长程训练」正成为 Agent 能力提升的标准配方，数据合成质量比模型规模更关键。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2610.26887",
+      "judgment": "语音模型竞争从「能转写」进入「能归因、能翻译」的综合能力阶段，会议与客服场景受益最大。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
       "importance": 3
     },
     {
       "source": "Hugging Face Blog",
-      "title": "词表专业化可将小模型推理成本降低 77%",
-      "finding": "实践文章展示：针对具体应用场景裁剪和专业化小语言模型的词表，可在真实业务中把推理成本降低 77%，而不显著损失效果。",
+      "title": "小模型词表专业化可将真实应用推理成本降低 77%",
+      "finding": "一篇实践文章展示通过为小语言模型定制词表，在真实应用中把推理成本削减 77%。这是不换模型、只改分词层的降本路径。",
       "key_data": [
-        "推理成本降 77%",
+        "推理成本降77%",
         "词表专业化",
-        "小模型落地"
+        "小模型优化"
       ],
-      "judgment": "对成本敏感的场景，词表级优化比换更大模型更划算，是中小团队最容易被忽视的降本杠杆。",
+      "judgment": "对成本敏感的落地团队，词表优化是被低估的杠杆，值得在垂直场景优先试验。",
       "confidence": 3,
       "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
       "importance": 3
     },
     {
       "source": "Hugging Face Blog",
-      "title": "NVIDIA Kumo Relational：关系型数据上免训练即超越监督学习",
-      "finding": "NVIDIA 发布 Kumo Relational，在关系型数据任务上无需训练即可超过传统监督学习方法，把「免训练」能力从文本扩展到结构化数据。",
+      "title": "NVIDIA Kumo Relational 在关系型数据上免训练超越监督学习",
+      "finding": "NVIDIA 发布 Kumo Relational，在关系型数据任务上无需训练即可超过传统监督机器学习方法。对表格数据场景是一个范式变化信号。",
       "key_data": [
         "免训练",
         "关系型数据",
         "超越监督学习"
       ],
-      "judgment": "企业数据大多躺在关系库里，免训练方案若可复现，将大幅降低企业 AI 的落地门槛和标注成本。",
+      "judgment": "若结果可复现，企业数据团队的大量特征工程与训练流程可能被直接跳过，值得实测验证。",
       "confidence": 3,
       "url": "https://huggingface.co/blog/nvidia/kumo-relational",
       "importance": 3
     },
     {
-      "source": "ArXiv cs.LG",
-      "title": "专家引导评分量表作为不可验证领域的稠密奖励信号",
-      "finding": "研究提出用专家引导的评分量表（rubrics）为金融等「不可验证领域」的 Agent 提供稠密奖励信号，解决 RL 在开放任务中缺乏明确对错的问题。",
+      "source": "ArXiv cs.AI",
+      "title": "Navalia：用可验证任务合成与长程后训练推进协作型 Agent",
+      "finding": "论文提出 Navalia 框架，通过可验证的任务合成和长程后训练，让 LLM Agent 从对话助手进化为能自主规划、调用工具的「协作型 Agent」。",
       "key_data": [
-        "专家评分量表",
-        "稠密奖励",
-        "不可验证领域"
+        "可验证任务合成",
+        "长程后训练",
+        "协作型 Agent"
       ],
-      "judgment": "RL 正从代码、数学等可验证任务向金融、法律等高价值领域渗透，评分量表工程会成为新工种。",
+      "judgment": "Agent 训练正从「堆数据」转向「造可验证任务」，这是提升可靠性的关键方法论方向。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2610.26932",
+      "url": "https://arxiv.org/abs/2610.26887",
       "importance": 3
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "SimHack：在 RL 训练前预测可检测的奖励黑客行为",
+      "finding": "研究提出 SimHack，可在强化学习训练开始前预测何时会出现可检测的奖励黑客现象，针对 LLM 编程训练中的环境加固难题。",
+      "key_data": [
+        "训练前预测",
+        "奖励黑客",
+        "RL 编程训练"
+      ],
+      "judgment": "奖励黑客是 RL 落地的隐形税，能提前预测意味着训练成本与返工率可显著下降。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.28707",
+      "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "TechCrunch AI",
-      "title": "Meta Muse 用户破 1000 万，购物成为主要使用场景",
-      "finding": "Meta 在 Q3 财报中披露，AI 应用 Muse 用户已超 1000 万，购物和生产力是主要使用场景，AI 助手正被用户当作消费决策入口。",
-      "key_data": [
-        "用户超 1000 万",
-        "购物为主场景",
-        "Q3 财报披露"
-      ],
-      "judgment": "AI 助手的商业化路径正在向「导购」收敛，这会直接冲击传统搜索广告的预算分配。",
-      "confidence": 4,
-      "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
-      "importance": 4
-    },
-    {
       "source": "OpenAI Blog",
-      "title": "ChatGPT 广告扩展至 26 个新国家，广告主已超 10 万家",
-      "finding": "OpenAI 宣布 ChatGPT 广告业务扩展至 26 个新国家，累计已有超过 10 万家广告主使用该平台，覆盖本地商家到全球品牌。",
+      "title": "ChatGPT 广告扩展至 26 个新国家，广告主突破 10 万",
+      "finding": "OpenAI 宣布 ChatGPT 广告业务进入 26 个新国家，已有超过 10 万名广告主使用该平台。商业化从试点走向规模化铺开。",
       "key_data": [
-        "新增 26 国",
-        "广告主超 10 万家",
-        "覆盖本地到全球品牌"
+        "26 个新国家",
+        "10 万广告主",
+        "购物决策场景"
       ],
-      "judgment": "ChatGPT 的广告飞轮开始转起来，AI 助手「对话即广告位」的模式将对搜索广告形成实质分流。",
+      "judgment": "ChatGPT 的广告模式已被验证可规模化，搜索广告的替代效应开始真实发生，品牌预算将重新分配。",
       "confidence": 5,
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
       "importance": 4
     },
     {
-      "source": "Latent Space (Swyx)",
-      "title": "Claude Mods：把 Agent 框架「翻过来」面向人类",
-      "finding": "Latent Space 介绍 Claude Mods，称其为「注意力界面」的早期形态，把 Agent 框架从面向机器翻转为面向人类，改变人机协作的交互范式。",
+      "source": "OpenAI Blog",
+      "title": "OpenAI 用数千个 AI Agent 挖掘复杂生物数据中的新线索",
+      "finding": "OpenAI 发文介绍用数千个 AI Agent 并行分析复杂生物数据，寻找新的研究线索。这是 Agent 集群在科研场景的一次规模化实践。",
       "key_data": [
-        "注意力界面",
-        "框架翻转",
-        "人机协作范式"
+        "数千个 Agent",
+        "生物数据",
+        "并行科研"
       ],
-      "judgment": "Agent 产品的下一层创新在交互层而非模型层，「人类可读的 Agent 状态」会成为产品差异化点。",
-      "confidence": 3,
-      "url": "https://www.latent.space/p/claude-mods",
+      "judgment": "Agent 集群从工程演示进入真实科研产出阶段，生物医药可能是最先被规模化的垂直领域。",
+      "confidence": 4,
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
       "importance": 3
     },
     {
       "source": "Mistral AI Blog",
       "title": "Mistral 联手 NVIDIA 推进工业工程 AI 工作流",
-      "finding": "Mistral 宣布与 NVIDIA 合作，基于 NVIDIA 加速计算开发面向工业工程的新一代 AI 原生工作流，切入制造业与工程场景。",
+      "finding": "Mistral 宣布与 NVIDIA 合作，基于 NVIDIA 加速计算开发新一代 AI 原生工程工作流，瞄准工业工程场景。欧洲模型厂商开始绑定算力生态做垂直纵深。",
       "key_data": [
         "NVIDIA 合作",
         "工业工程",
         "AI 原生工作流"
       ],
-      "judgment": "欧洲模型厂商正绕开通用助手红海，转向工业垂直场景，这是差异化求生也是企业付费更实的市场。",
+      "judgment": "Mistral 选择避开通用助手红海，转向工业工程这类高壁垒场景，是欧洲 AI 差异化的合理路径。",
       "confidence": 4,
       "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/",
       "importance": 3
     },
     {
+      "source": "TechCrunch",
+      "title": "Meta Muse 用户破 1000 万，购物成为主要使用场景",
+      "finding": "Meta 在 Q3 财报电话会上披露 AI 应用 Muse 用户已超 1000 万，购物和生产力是主要使用场景。消费级 AI 助手开始出现规模化的使用习惯。",
+      "key_data": [
+        "用户超1000万",
+        "购物为主场景",
+        "Q3 财报披露"
+      ],
+      "judgment": "1000 万是消费级 AI 应用的第一道门槛，Meta 用社交分发换来了入场券，但留存质量仍待观察。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "GitHub 借 AI 辅助重构将 Copilot 运行时迁移至 Rust",
+      "finding": "GitHub 通过 AI 辅助重构，把 Copilot 运行时从原技术栈迁移到 Rust，展示了 AI 参与大规模生产系统重写的真实案例。",
+      "key_data": [
+        "迁移至 Rust",
+        "AI 辅助重构",
+        "Copilot 运行时"
+      ],
+      "judgment": "这是 AI 编程从「写新代码」走向「改老系统」的标志性案例，遗留系统迁移市场被打开。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/zGqDWHF8tHDtlYcImAJS",
+      "importance": 3
+    },
+    {
       "source": "Wired AI",
-      "title": "英伟达 GTC 柏林：推出即插即用数据中心 DSX Pod，瞄准欧洲算力缺口",
-      "finding": "黄仁勋在 GTC 柏林发布即插即用数据中心 DSX Pod，作为解决欧洲 AI 基础设施落后的关键方案，同时提及自主人形机器人方向。",
+      "title": "英伟达在柏林 GTC 发布即插即用数据中心 DSX Pod",
+      "finding": "黄仁勋在柏林 GTC 上发布即插即用数据中心 DSX Pod，作为解决欧洲 AI 基础设施落后问题的关键方案，同时提及自主人形机器人。",
       "key_data": [
         "DSX Pod",
-        "即插即用数据中心",
-        "欧洲算力缺口"
+        "即插即用",
+        "欧洲基建"
       ],
-      "judgment": "算力交付正在「产品化」，模块化数据中心会降低区域市场的 AI 基建门槛，利好欧洲本地云与主权 AI。",
+      "judgment": "把数据中心做成标准化模块销售，是英伟达把算力生意从芯片延伸到基建交付的关键一步。",
       "confidence": 4,
       "url": "https://www.wired.com/story/jensen-huangs-vision-for-europe-runs-on-plug-in-data-centers/",
       "importance": 3
@@ -220,50 +232,44 @@
   ],
   "opinions": [
     {
+      "person": "Swyx (Shawn Wang)",
+      "level": "L2",
+      "quote": "Claude Mods 是「注意力界面」的早期形态，它把 Agent 的 harness 从面向机器翻转为面向人——这是 Agent 产品设计范式的一次倒转。",
+      "source": "https://www.latent.space/p/claude-mods"
+    },
+    {
       "person": "Will Larson",
       "level": "L2",
-      "quote": "AI 正在改写工程管理的规则：职业阶梯、晋升标准和从工程师到 CTO 的路径都需要重新定义，管理者的价值从「分配任务」转向「设计人机协作系统」。",
+      "quote": "AI 与行业预期的变化正在重写工程管理规则：职业阶梯、从工程师到 CTO 的路径都需要重新定义，管理者的核心工作正在从协调人力转向协调人与 Agent 的混合团队。",
       "source": "https://newsletter.pragmaticengineer.com/p/the-revised-rules-of-engineering"
-    },
-    {
-      "person": "Werner Vogels",
-      "level": "L3",
-      "quote": "亚马逊云科技仍在招聘初级工程师，并高度关注中国的开放模型；AI 创业要避开「技术炫技」，回到可验证的客户价值与成本结构。",
-      "source": "https://www.infoq.cn/article/XxOpQpEMZpdCCYhXxgaE?utm_source=rss&utm_medium=article"
-    },
-    {
-      "person": "Jas Khaira",
-      "level": "L3",
-      "quote": "市场对 AI 基建债务的担忧被夸大了，私募巨头并不恐慌，AI 数据中心的长期现金流足以支撑当前杠杆水平。",
-      "source": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "DeepSeek DeepInfer 推理经济学拆解",
-      "reason": "开源推理栈的成本结构将重塑 API 定价与云厂商商业模式，值得逐项核算。",
+      "topic": "AI 驱动的漏洞发现对安全补丁体系的冲击",
+      "reason": "PHP2Shell 显示 AI 找漏洞速度已超修补节奏，需重新设计补丁窗口与应急机制。",
       "priority": "high"
     },
     {
-      "topic": "AI Agent 驱动的漏洞挖掘与自动化补丁流程",
-      "reason": "PHP2Shell 事件表明攻防节奏已被 AI 改变，企业安全流程需重新设计。",
+      "topic": "主动型 AI 助理的产品形态与信任设计",
+      "reason": "Claude Duet、Meta Muse、OpenAI Dots 同台竞争，主动性与用户控制的平衡尚无定论。",
       "priority": "high"
     },
     {
-      "topic": "电商 Agent 接口开放与渠道战争",
-      "reason": "沃尔玛与亚马逊的分歧决定购物 Agent 的落地路径，影响一批创业公司生死。",
+      "topic": "小模型词表专业化与端侧推理降本路径",
+      "reason": "77% 降本幅度若可复现，将改变垂直场景的模型选型与成本结构。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "推理成本透明化，Agent 抢入口",
-  "summary_paragraph": "今天最值得关注的是「成本」与「入口」两条主线。DeepSeek 开源 DeepInfer，把单集群日处理 155 万亿 Token、毛利约 80% 的推理账本公开，等于向闭源推理服务商宣战；OpenAI 则把模型搬进 Google Cloud 的 Model Garden，说明分发渠道比品牌对抗更重要。产品侧，Anthropic 的 Claude Duet、Meta Muse 破千万用户、ChatGPT 广告扩至 26 国，共同指向「主动型 AI 助手成为消费与商业入口」。与此同时，AI 挖出的 PHP 致命漏洞让全球网站紧急打补丁，攻防节奏已被 AI 改写。整体看，行业正从「模型能力竞赛」转入「成本结构 + 分发入口 + 安全信任」的三线竞争。",
+  "summary_one_line": "AI 找漏洞快过修补，Agent 入口战全面开打",
+  "summary_paragraph": "今天最刺眼的信号来自安全领域：AI 辅助挖出的 PHP 高危漏洞在补丁发布前已被利用，多国政府网站紧急下线，AI 攻防的速度差第一次以全球性事件的形式暴露。商业层面，Agent 正从能力演示转向入口争夺——Anthropic 推出主动型 Claude Duet，沃尔玛开放 Agent 购物而亚马逊封堵，OpenAI 模型则罕见登陆 Google Cloud。与此同时，Recursive 的 Flint 把「AI 构建 AI」做成可下载产品，ChatGPT 广告铺向 26 国、广告主破 10 万。一句话：能力竞赛正在让位于分发、信任与安全节奏的竞赛。",
   "snapshot": {
     "date": "2026-10-22",
     "hf_trending": [
       {
         "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "short_name": "DeepSeek-V4.1-Flash-1017",
-        "likes": 2174,
+        "likes": 2225,
         "downloads": 42122,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "tags": [
@@ -279,7 +285,7 @@
       {
         "name": "black-forest-labs/flux-3-image-klein-comfy",
         "short_name": "flux-3-image-klein-comfy",
-        "likes": 1194,
+        "likes": 1216,
         "downloads": 490447,
         "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
         "tags": [
@@ -295,7 +301,7 @@
       {
         "name": "meta-models/Muse-Spark-Open-816B-A42B",
         "short_name": "Muse-Spark-Open-816B-A42B",
-        "likes": 638,
+        "likes": 643,
         "downloads": 2891,
         "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
         "tags": [
@@ -311,7 +317,7 @@
       {
         "name": "black-forest-labs/flux-3-image-klein",
         "short_name": "flux-3-image-klein",
-        "likes": 602,
+        "likes": 611,
         "downloads": 92604,
         "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
         "tags": [
@@ -327,7 +333,7 @@
       {
         "name": "fishaudio/drama-3",
         "short_name": "drama-3",
-        "likes": 888,
+        "likes": 896,
         "downloads": 15274,
         "url": "https://huggingface.co/fishaudio/drama-3",
         "tags": [
@@ -343,7 +349,7 @@
       {
         "name": "OpenMOSS-Team/MOSS-Image-SFT",
         "short_name": "MOSS-Image-SFT",
-        "likes": 537,
+        "likes": 543,
         "downloads": 5840,
         "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
         "tags": [
@@ -359,7 +365,7 @@
       {
         "name": "OpenMOSS-Team/MOSS-Image-Base",
         "short_name": "MOSS-Image-Base",
-        "likes": 467,
+        "likes": 475,
         "downloads": 4344,
         "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
         "tags": [
@@ -375,7 +381,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 8763,
+        "likes": 8791,
         "downloads": 2057942,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -393,45 +399,45 @@
       {
         "name": "cloudflare/security-audit-skill",
         "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable f",
-        "stars": 36631,
+        "stars": 37468,
         "stars_today": 2012,
-        "forks": 2287,
+        "forks": 2342,
         "language": "JavaScript",
         "url": "https://github.com/cloudflare/security-audit-skill"
       },
       {
         "name": "vllm-project/vllm",
         "desc": "A high-throughput and memory-efficient inference and serving engine for LLMs",
-        "stars": 94908,
+        "stars": 95022,
         "stars_today": 441,
-        "forks": 23750,
+        "forks": 23778,
         "language": "Python",
         "url": "https://github.com/vllm-project/vllm"
       },
       {
         "name": "stablyai/orca",
         "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding ag",
-        "stars": 101368,
+        "stars": 101810,
         "stars_today": 1541,
-        "forks": 6411,
+        "forks": 6438,
         "language": "TypeScript",
         "url": "https://github.com/stablyai/orca"
       },
       {
         "name": "headroomlabs-ai/headroom",
         "desc": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for c",
-        "stars": 77289,
+        "stars": 77411,
         "stars_today": 474,
-        "forks": 5996,
+        "forks": 6010,
         "language": "Python",
         "url": "https://github.com/headroomlabs-ai/headroom"
       },
       {
         "name": "DietrichGebert/ponytail",
         "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you nev",
-        "stars": 171752,
+        "stars": 172189,
         "stars_today": 2079,
-        "forks": 9346,
+        "forks": 9373,
         "language": "JavaScript",
         "url": "https://github.com/DietrichGebert/ponytail"
       }
@@ -464,7 +470,7 @@
         "slug": "z-ai/glm-5.3-flash",
         "name": "GLM 5.3 Flash",
         "org": "z-ai",
-        "total_tokens": 1541090474385,
+        "total_tokens": 1541090577880,
         "total_tokens_str": "1.5T",
         "api_calls": 0,
         "change": 0.9,
@@ -548,6 +554,6 @@
         "url": "https://openrouter.ai/z-ai/glm-5.3"
       }
     ],
-    "hf_summary": "多模态与生成式模型霸榜，视频与图像创作热度远超语言模型"
+    "hf_summary": "多模态与生成模型霸榜，视频生成热度最高，开源生态加速向多模态融合演进"
   }
 }

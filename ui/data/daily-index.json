@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-10-22",
-      "title": "今日 AI 日报：DeepSeek 开源 DeepInfer：单集群日处理 155 万亿 Token，日入 2200 万美元 + 4 条重要动态",
-      "excerpt": "这是对闭源推理服务商的正面价格战宣言：开源推理栈把成本结构公开后，靠「推理 AP…",
+      "title": "今日 AI 日报：OpenAI 模型登陆 Google Cloud，Gemini 模型花园迎来最强竞争对手 + 4 条重要动态",
+      "excerpt": "这是 AI 云市场格局的一次重要松动：模型层的竞争正在让位于分发层的合作，企业客…",
       "top_count": 5,
       "file": "2026-10-22.json"
     },
