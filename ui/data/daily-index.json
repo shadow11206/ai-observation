@@ -1,6 +1,13 @@
 {
-  "total": 208,
+  "total": 209,
   "reports": [
+    {
+      "date": "2026-10-22",
+      "title": "今日 AI 日报：DeepSeek 开源 DeepInfer：单集群日处理 155 万亿 Token，日入 2200 万美元 + 4 条重要动态",
+      "excerpt": "这是对闭源推理服务商的正面价格战宣言：开源推理栈把成本结构公开后，靠「推理 AP…",
+      "top_count": 5,
+      "file": "2026-10-22.json"
+    },
     {
       "date": "2026-10-21",
       "title": "今日 AI 日报：DeepSeek 开源内部推理框架 DeepInfer，单集群日处理 155 万亿 Token + 4 条重要动态",

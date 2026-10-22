@@ -1,0 +1,553 @@
+{
+  "date": "2026-10-22",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "DeepSeek 开源 DeepInfer：单集群日处理 155 万亿 Token，日入 2200 万美元",
+      "finding": "DeepSeek 开源了一套推理系统 DeepInfer，单个集群每天能处理 155 万亿个 Token，按此规模测算日收入约 2200 万美元、毛利率约 80%，硬件投资回收周期仅 81 天。这是把「推理经济学」的底牌直接摊在桌面上。",
+      "key_data": [
+        "155 万亿 Token/日/集群",
+        "日入 2200 万美元",
+        "毛利约 80%",
+        "回收期 81 天"
+      ],
+      "judgment": "这是对闭源推理服务商的正面价格战宣言：开源推理栈把成本结构公开后，靠「推理 API 差价」赚钱的空间会被持续压缩，云厂商和模型公司必须转向靠模型能力本身或生态锁定来收费。对开发者是利好，对中间层推理转售商是坏消息。",
+      "confidence": 4,
+      "source": "Latent Space (Swyx) / AINews",
+      "url": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source"
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI 模型上架 Google Cloud：前沿模型与 Codex 进入 Gemini Model Garden",
+      "finding": "OpenAI 与 Google Cloud 达成合作，OpenAI 的前沿模型和 Codex 编程工作流将进入 Gemini 的 Model Garden，并通过 Google Cloud Marketplace 提供。两家最直接的竞争对手在分发层面握手。",
+      "key_data": [
+        "Gemini Model Garden",
+        "Codex 工作流",
+        "Cloud Marketplace 分发"
+      ],
+      "judgment": "模型竞争的主战场正从「谁的模型强」转向「谁的分发渠道广」。OpenAI 愿意把模型放进对手的云市场，说明企业客户的采购惯性（走云市场账单）比品牌忠诚更重要；对 Google 而言，这是用渠道换生态黏性。企业采购方将获得更少的供应商锁定。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/openai-models-google-cloud"
+    },
+    {
+      "rank": 3,
+      "title": "AI 发现 PHP 致命远程代码执行漏洞，全球数百万网站紧急打补丁",
+      "finding": "安全公司 Wiz 披露 PHP 存在两个严重漏洞（PHP2Shell），可远程执行代码，影响数百万网站；PHP 官方紧急发布全 8.x 系列补丁。与此同时 OpenAI 推出 Patch the Planet 计划，用 AI Agent 协调开源漏洞的发现与披露。",
+      "key_data": [
+        "两个 RCE 漏洞",
+        "影响数百万站点",
+        "PHP 8.x 全线补丁",
+        "AI 辅助漏洞挖掘"
+      ],
+      "judgment": "AI 攻防进入「Agent 对 Agent」阶段：AI 找漏洞的速度已经超过人类维护者的修复节奏，开源基础设施的安全债会被集中引爆。对企业意味着补丁响应流程必须自动化，对安全行业意味着「AI 漏洞挖掘」从演示走向生产。",
+      "confidence": 4,
+      "source": "Wiz / Hacker News / OpenAI Blog",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce"
+    },
+    {
+      "rank": 4,
+      "title": "Anthropic 推出 Claude Duet：可主动工作的全天候 AI 智能体",
+      "finding": "Anthropic 以研究预览形式发布 Claude Duet，定位为能主动工作的 AI Agent，加入 Meta Muse、OpenAI Dots 所在的「全天候主动型助理」赛道。竞争焦点从「你问它答」转向「它主动替你干活」。",
+      "key_data": [
+        "研究预览版",
+        "主动型 Agent",
+        "对标 Meta Muse / OpenAI Dots"
+      ],
+      "judgment": "主动型 Agent 正在成为大厂标配，产品差异点将从模型能力转向「权限边界、可审计性、任务可靠性」。对产品经理来说，下一轮竞争是信任设计而非功能堆砌；对开发者来说，Agent 的调度与权限框架会成为新的基础设施层。",
+      "confidence": 3,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/372711"
+    },
+    {
+      "rank": 5,
+      "title": "沃尔玛开放 Agent 购物接口，亚马逊反向封堵：电商对 AI 代理态度分裂",
+      "finding": "沃尔玛推出新技术，允许 AI Agent 代表用户完成下单并保留用户控制权；而亚马逊则在封堵 AI Agent 在其站点购物。两大零售巨头对「Agent 流量」采取了完全相反的策略。",
+      "key_data": [
+        "Agent 代下单",
+        "亚马逊封堵",
+        "沃尔玛开放"
+      ],
+      "judgment": "这是「Agent 作为新流量入口」的第一场渠道战争。开放方赌的是 Agent 带来增量订单，封堵方怕的是失去定价权和用户关系。未来一年，电商的 API 开放程度会成为 Agent 产品能否落地的关键变量，做购物 Agent 的团队要优先绑定开放阵营。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "TechCrunch AI / Wired AI",
+      "title": "Recursive 发布 Flint：一台笔记本就能跑的编程模型，且大部分由 AI 自己造",
+      "finding": "创业公司 Recursive 发布免费编程模型 Flint，可在笔记本本地运行，并称该模型很大程度上由其自研 AI 研究系统构建，是「AI 改进 AI」的早期实测。",
+      "key_data": [
+        "笔记本本地运行",
+        "免费",
+        "AI 自研比例高"
+      ],
+      "judgment": "递归自我改进从论文走向产品验证，但「大部分由 AI 造」仍需第三方复现，短期更像叙事而非能力跃迁。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "Navalia：用可验证任务合成与长程后训练推进「协作型 Agent」",
+      "finding": "论文提出 Navalia 框架，通过自动合成可验证任务并对模型做长程后训练，让 LLM 从对话助手进化为能自主规划、调用工具的协作型 Agent。",
+      "key_data": [
+        "可验证任务合成",
+        "长程后训练",
+        "协作型 Agent"
+      ],
+      "judgment": "「可验证任务 + 长程训练」正成为 Agent 能力提升的标准配方，数据合成质量比模型规模更关键。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.26887",
+      "importance": 3
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "词表专业化可将小模型推理成本降低 77%",
+      "finding": "实践文章展示：针对具体应用场景裁剪和专业化小语言模型的词表，可在真实业务中把推理成本降低 77%，而不显著损失效果。",
+      "key_data": [
+        "推理成本降 77%",
+        "词表专业化",
+        "小模型落地"
+      ],
+      "judgment": "对成本敏感的场景，词表级优化比换更大模型更划算，是中小团队最容易被忽视的降本杠杆。",
+      "confidence": 3,
+      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "importance": 3
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "NVIDIA Kumo Relational：关系型数据上免训练即超越监督学习",
+      "finding": "NVIDIA 发布 Kumo Relational，在关系型数据任务上无需训练即可超过传统监督学习方法，把「免训练」能力从文本扩展到结构化数据。",
+      "key_data": [
+        "免训练",
+        "关系型数据",
+        "超越监督学习"
+      ],
+      "judgment": "企业数据大多躺在关系库里，免训练方案若可复现，将大幅降低企业 AI 的落地门槛和标注成本。",
+      "confidence": 3,
+      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "专家引导评分量表作为不可验证领域的稠密奖励信号",
+      "finding": "研究提出用专家引导的评分量表（rubrics）为金融等「不可验证领域」的 Agent 提供稠密奖励信号，解决 RL 在开放任务中缺乏明确对错的问题。",
+      "key_data": [
+        "专家评分量表",
+        "稠密奖励",
+        "不可验证领域"
+      ],
+      "judgment": "RL 正从代码、数学等可验证任务向金融、法律等高价值领域渗透，评分量表工程会成为新工种。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.26932",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "TechCrunch AI",
+      "title": "Meta Muse 用户破 1000 万，购物成为主要使用场景",
+      "finding": "Meta 在 Q3 财报中披露，AI 应用 Muse 用户已超 1000 万，购物和生产力是主要使用场景，AI 助手正被用户当作消费决策入口。",
+      "key_data": [
+        "用户超 1000 万",
+        "购物为主场景",
+        "Q3 财报披露"
+      ],
+      "judgment": "AI 助手的商业化路径正在向「导购」收敛，这会直接冲击传统搜索广告的预算分配。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "importance": 4
+    },
+    {
+      "source": "OpenAI Blog",
+      "title": "ChatGPT 广告扩展至 26 个新国家，广告主已超 10 万家",
+      "finding": "OpenAI 宣布 ChatGPT 广告业务扩展至 26 个新国家，累计已有超过 10 万家广告主使用该平台，覆盖本地商家到全球品牌。",
+      "key_data": [
+        "新增 26 国",
+        "广告主超 10 万家",
+        "覆盖本地到全球品牌"
+      ],
+      "judgment": "ChatGPT 的广告飞轮开始转起来，AI 助手「对话即广告位」的模式将对搜索广告形成实质分流。",
+      "confidence": 5,
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "importance": 4
+    },
+    {
+      "source": "Latent Space (Swyx)",
+      "title": "Claude Mods：把 Agent 框架「翻过来」面向人类",
+      "finding": "Latent Space 介绍 Claude Mods，称其为「注意力界面」的早期形态，把 Agent 框架从面向机器翻转为面向人类，改变人机协作的交互范式。",
+      "key_data": [
+        "注意力界面",
+        "框架翻转",
+        "人机协作范式"
+      ],
+      "judgment": "Agent 产品的下一层创新在交互层而非模型层，「人类可读的 Agent 状态」会成为产品差异化点。",
+      "confidence": 3,
+      "url": "https://www.latent.space/p/claude-mods",
+      "importance": 3
+    },
+    {
+      "source": "Mistral AI Blog",
+      "title": "Mistral 联手 NVIDIA 推进工业工程 AI 工作流",
+      "finding": "Mistral 宣布与 NVIDIA 合作，基于 NVIDIA 加速计算开发面向工业工程的新一代 AI 原生工作流，切入制造业与工程场景。",
+      "key_data": [
+        "NVIDIA 合作",
+        "工业工程",
+        "AI 原生工作流"
+      ],
+      "judgment": "欧洲模型厂商正绕开通用助手红海，转向工业垂直场景，这是差异化求生也是企业付费更实的市场。",
+      "confidence": 4,
+      "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/",
+      "importance": 3
+    },
+    {
+      "source": "Wired AI",
+      "title": "英伟达 GTC 柏林：推出即插即用数据中心 DSX Pod，瞄准欧洲算力缺口",
+      "finding": "黄仁勋在 GTC 柏林发布即插即用数据中心 DSX Pod，作为解决欧洲 AI 基础设施落后的关键方案，同时提及自主人形机器人方向。",
+      "key_data": [
+        "DSX Pod",
+        "即插即用数据中心",
+        "欧洲算力缺口"
+      ],
+      "judgment": "算力交付正在「产品化」，模块化数据中心会降低区域市场的 AI 基建门槛，利好欧洲本地云与主权 AI。",
+      "confidence": 4,
+      "url": "https://www.wired.com/story/jensen-huangs-vision-for-europe-runs-on-plug-in-data-centers/",
+      "importance": 3
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Will Larson",
+      "level": "L2",
+      "quote": "AI 正在改写工程管理的规则：职业阶梯、晋升标准和从工程师到 CTO 的路径都需要重新定义，管理者的价值从「分配任务」转向「设计人机协作系统」。",
+      "source": "https://newsletter.pragmaticengineer.com/p/the-revised-rules-of-engineering"
+    },
+    {
+      "person": "Werner Vogels",
+      "level": "L3",
+      "quote": "亚马逊云科技仍在招聘初级工程师，并高度关注中国的开放模型；AI 创业要避开「技术炫技」，回到可验证的客户价值与成本结构。",
+      "source": "https://www.infoq.cn/article/XxOpQpEMZpdCCYhXxgaE?utm_source=rss&utm_medium=article"
+    },
+    {
+      "person": "Jas Khaira",
+      "level": "L3",
+      "quote": "市场对 AI 基建债务的担忧被夸大了，私募巨头并不恐慌，AI 数据中心的长期现金流足以支撑当前杠杆水平。",
+      "source": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "DeepSeek DeepInfer 推理经济学拆解",
+      "reason": "开源推理栈的成本结构将重塑 API 定价与云厂商商业模式，值得逐项核算。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI Agent 驱动的漏洞挖掘与自动化补丁流程",
+      "reason": "PHP2Shell 事件表明攻防节奏已被 AI 改变，企业安全流程需重新设计。",
+      "priority": "high"
+    },
+    {
+      "topic": "电商 Agent 接口开放与渠道战争",
+      "reason": "沃尔玛与亚马逊的分歧决定购物 Agent 的落地路径，影响一批创业公司生死。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "推理成本透明化，Agent 抢入口",
+  "summary_paragraph": "今天最值得关注的是「成本」与「入口」两条主线。DeepSeek 开源 DeepInfer，把单集群日处理 155 万亿 Token、毛利约 80% 的推理账本公开，等于向闭源推理服务商宣战；OpenAI 则把模型搬进 Google Cloud 的 Model Garden，说明分发渠道比品牌对抗更重要。产品侧，Anthropic 的 Claude Duet、Meta Muse 破千万用户、ChatGPT 广告扩至 26 国，共同指向「主动型 AI 助手成为消费与商业入口」。与此同时，AI 挖出的 PHP 致命漏洞让全球网站紧急打补丁，攻防节奏已被 AI 改写。整体看，行业正从「模型能力竞赛」转入「成本结构 + 分发入口 + 安全信任」的三线竞争。",
+  "snapshot": {
+    "date": "2026-10-22",
+    "hf_trending": [
+      {
+        "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "short_name": "DeepSeek-V4.1-Flash-1017",
+        "likes": 2174,
+        "downloads": 42122,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v41"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "black-forest-labs/flux-3-image-klein-comfy",
+        "short_name": "flux-3-image-klein-comfy",
+        "likes": 1194,
+        "downloads": 490447,
+        "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "image-generation"
+        ],
+        "pipeline_tag": "image-to-image",
+        "label": "Image To Image",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "meta-models/Muse-Spark-Open-816B-A42B",
+        "short_name": "Muse-Spark-Open-816B-A42B",
+        "likes": 638,
+        "downloads": 2891,
+        "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "muse_spark"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "black-forest-labs/flux-3-image-klein",
+        "short_name": "flux-3-image-klein",
+        "likes": 602,
+        "downloads": 92604,
+        "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "image-generation"
+        ],
+        "pipeline_tag": "image-to-image",
+        "label": "Image To Image",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "fishaudio/drama-3",
+        "short_name": "drama-3",
+        "likes": 888,
+        "downloads": 15274,
+        "url": "https://huggingface.co/fishaudio/drama-3",
+        "tags": [
+          "safetensors",
+          "fish_omni",
+          "fish-audio"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "OpenMOSS-Team/MOSS-Image-SFT",
+        "short_name": "MOSS-Image-SFT",
+        "likes": 537,
+        "downloads": 5840,
+        "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "moss-image"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "OpenMOSS-Team/MOSS-Image-Base",
+        "short_name": "MOSS-Image-Base",
+        "likes": 467,
+        "downloads": 4344,
+        "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "moss-image"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 8763,
+        "downloads": 2057942,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "cloudflare/security-audit-skill",
+        "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable f",
+        "stars": 36631,
+        "stars_today": 2012,
+        "forks": 2287,
+        "language": "JavaScript",
+        "url": "https://github.com/cloudflare/security-audit-skill"
+      },
+      {
+        "name": "vllm-project/vllm",
+        "desc": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+        "stars": 94908,
+        "stars_today": 441,
+        "forks": 23750,
+        "language": "Python",
+        "url": "https://github.com/vllm-project/vllm"
+      },
+      {
+        "name": "stablyai/orca",
+        "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding ag",
+        "stars": 101368,
+        "stars_today": 1541,
+        "forks": 6411,
+        "language": "TypeScript",
+        "url": "https://github.com/stablyai/orca"
+      },
+      {
+        "name": "headroomlabs-ai/headroom",
+        "desc": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for c",
+        "stars": 77289,
+        "stars_today": 474,
+        "forks": 5996,
+        "language": "Python",
+        "url": "https://github.com/headroomlabs-ai/headroom"
+      },
+      {
+        "name": "DietrichGebert/ponytail",
+        "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you nev",
+        "stars": 171752,
+        "stars_today": 2079,
+        "forks": 9346,
+        "language": "JavaScript",
+        "url": "https://github.com/DietrichGebert/ponytail"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 7841844019499,
+        "total_tokens_str": "7.8T",
+        "api_calls": 0,
+        "change": 13.4,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "minimax/minimax-m3.1-flash:free",
+        "name": "MiniMax M3.1 Flash (free)",
+        "org": "minimax",
+        "total_tokens": 5378268675918,
+        "total_tokens_str": "5.4T",
+        "api_calls": 0,
+        "change": 37.4,
+        "url": "https://openrouter.ai/minimax/minimax-m3.1-flash:free"
+      },
+      {
+        "rank": 3,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1541090474385,
+        "total_tokens_str": "1.5T",
+        "api_calls": 0,
+        "change": 0.9,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 1462587748707,
+        "total_tokens_str": "1.5T",
+        "api_calls": 0,
+        "change": 5.8,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 5,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 1222784118628,
+        "total_tokens_str": "1.2T",
+        "api_calls": 0,
+        "change": -3.2,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 6,
+        "slug": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo-V2.6-Flash",
+        "org": "xiaomi",
+        "total_tokens": 1053191635261,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": -7.2,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+      },
+      {
+        "rank": 7,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 1008845038980,
+        "total_tokens_str": "1.0T",
+        "api_calls": 0,
+        "change": 0.5,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 8,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 998549993059,
+        "total_tokens_str": "999B",
+        "api_calls": 0,
+        "change": 6.3,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      {
+        "rank": 9,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 937191027880,
+        "total_tokens_str": "937B",
+        "api_calls": 0,
+        "change": -6.6,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 10,
+        "slug": "z-ai/glm-5.3",
+        "name": "GLM 5.3",
+        "org": "z-ai",
+        "total_tokens": 632655606743,
+        "total_tokens_str": "633B",
+        "api_calls": 0,
+        "change": -16.0,
+        "url": "https://openrouter.ai/z-ai/glm-5.3"
+      }
+    ],
+    "hf_summary": "多模态与生成式模型霸榜，视频与图像创作热度远超语言模型"
+  }
+}
