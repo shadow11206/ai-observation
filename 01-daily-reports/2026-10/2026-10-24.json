@@ -1,0 +1,546 @@
+{
+  "date": "2026-10-24",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "OpenAI 宣布停止用实时互联网数据训练前沿模型",
+      "finding": "OpenAI 官方确认，出于「重大风险」考虑，将不再让前沿模型直接接触实时互联网进行训练，改为使用离线环境和隔离数据。这一决定发生在公司内部工程师公开质疑该方案有效性数周之后。",
+      "key_data": [
+        "停止实时联网训练",
+        "离线隔离环境",
+        "官方称重大风险"
+      ],
+      "judgment": "这是前沿实验室第一次公开承认「联网训练」的风险大于收益。对行业意味着：数据飞轮的竞争从「谁抓得多」转向「谁的数据管道更可控」，合规与安全团队的话语权将显著上升，依赖爬虫数据的中小模型厂商会被迫跟进。",
+      "confidence": 5,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
+    },
+    {
+      "rank": 2,
+      "title": "Kimi K3.1 Pro 发布：先上 API，承诺 11 月 4 日开放全量权重",
+      "finding": "Moonshot 在 Kimi API 上线 K3.1 Pro，暂未开源但承诺 11 月 4 日放出完整模型权重，同时推出高阶订阅方案。Simon Willison 第一时间做了实测记录。",
+      "key_data": [
+        "11月4日开放权重",
+        "先 API 后开源",
+        "高阶订阅方案"
+      ],
+      "judgment": "「先闭源收钱、再开源放权重」正在成为中国头部模型的标准节奏——既抢商业化窗口，又保住开源口碑。对开发者是好消息，但要警惕开源版本与 API 版本的能力差；对国内同行则是压力，开源时间表会被迫提前。",
+      "confidence": 4,
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
+    },
+    {
+      "rank": 3,
+      "title": "同一 AI 请求在德州碳排放是瑞典的 8.5 倍",
+      "finding": "瑞典能源公司 Berget.ai 发布测算：相同的一次 AI 推理请求，在美国德州产生的二氧化碳排放是瑞典的 8.5 倍，差异主要来自两地电网的能源结构。该文在 Hacker News 获得 140 分、154 条讨论。",
+      "key_data": [
+        "碳排放差 8.5 倍",
+        "德州 vs 瑞典",
+        "154 条 HN 讨论"
+      ],
+      "judgment": "「算力在哪」正在变成「碳在哪」。这会直接冲击数据中心的选址逻辑和云厂商的 ESG 叙事，欧洲低碳算力可能成为新的差异化卖点；对做 AI 产品的团队，未来客户采购时可能会问「你的推理跑在哪个电网」。",
+      "confidence": 3,
+      "source": "Hacker News",
+      "url": "https://berget.ai/en/blog/per-request-co2-press-release"
+    },
+    {
+      "rank": 4,
+      "title": "OpenAI 披露前沿模型训练环境的安全加固方案",
+      "finding": "OpenAI 官方博客详解如何强化前沿模型训练与评估的隔离：包括完全离线环境、高算力红队测试等，目标是防止训练过程中的模型逃逸与数据泄露。",
+      "key_data": [
+        "完全离线环境",
+        "高算力红队",
+        "训练环境隔离"
+      ],
+      "judgment": "与「停止联网训练」是同一条主线的两面：前沿实验室正在把训练环境当成核设施来管。这会抬高前沿训练的门槛，中小实验室难以复制同等安全基建，行业集中度会进一步上升。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+    },
+    {
+      "rank": 5,
+      "title": "AI 找 Bug 太快，PostgreSQL 19 发布节奏被打乱",
+      "finding": "InfoQ 报道称，AI 工具发现漏洞的速度已超过人类修复的速度，导致 PostgreSQL 19 的发布计划受到影响，社区开始讨论如何应对「AI 找茬」带来的补丁洪流。",
+      "key_data": [
+        "AI 找 Bug 快于人类修",
+        "PostgreSQL 19 延期",
+        "开源社区承压"
+      ],
+      "judgment": "这是 AI 改变软件工程协作方式的第一个标志性案例：瓶颈从「发现缺陷」转移到「消化缺陷」。开源维护者将被迫引入 AI 分诊与优先级排序，否则会被善意的高质量报告淹没——「AI 生产力」的另一面是维护成本通胀。",
+      "confidence": 3,
+      "source": "InfoQ AI",
+      "url": "https://www.infoq.cn/article/Q6mgHWCSqV6KeZzee3NT?utm_source=rss&utm_medium=article"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv cs.AI",
+      "title": "前沿编码 Agent 能否自主攀登科学高峰？",
+      "finding": "论文系统测试了前沿编码 Agent 在真实科研任务中的表现，把「自动化研究员」的承诺放到 ML for Science 场景下做压力测试，发现能力与宣传之间仍有明显落差。",
+      "key_data": [
+        "前沿 Agent 实测",
+        "ML for Science",
+        "端到端科研"
+      ],
+      "judgment": "给「AI 科学家」叙事降温：Agent 能加速实验，但离自主提出并验证科学假设还差得远。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.28763",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "MoEZip：面向稀疏 MoE 大模型的路由感知 KV 缓存压缩",
+      "finding": "针对 MoE 模型在长上下文场景下 KV 缓存膨胀的问题，提出结合路由信息的压缩方法，在不牺牲效果的前提下降低显存占用。",
+      "key_data": [
+        "路由感知压缩",
+        "MoE 长上下文",
+        "KV 缓存优化"
+      ],
+      "judgment": "长上下文成本战的又一块拼图，对做推理部署的团队有直接工程价值。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.30206",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "SpecEvo：用大模型做低成本科学发现的推测性进化",
+      "finding": "针对 LLM 驱动的进化搜索成本高、速度慢的问题，提出只在关键节点调用昂贵模型的推测性进化框架，显著降低科学发现流程的算力开销。",
+      "key_data": [
+        "推测性进化",
+        "降低调用成本",
+        "科学发现自动化"
+      ],
+      "judgment": "「少调用、巧调用」是 LLM 科研应用落地的现实路径，值得做 Agent 工作流的团队参考。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.28706",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "小模型更会提问：为 RAG 微调查询澄清能力",
+      "finding": "研究发现，面对模糊的用户查询，经过微调的小模型可以比大模型更好地生成澄清问题，从而提升检索增强生成的整体准确率。",
+      "key_data": [
+        "小模型做澄清",
+        "多轮 RAG",
+        "微调优于堆参数"
+      ],
+      "judgment": "RAG 的下一波优化不在检索端而在「问对问题」，小模型专用化是被低估的方向。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.28686",
+      "importance": 3
+    },
+    {
+      "source": "Latent Space",
+      "title": "AI 数学能力正在变强，成功模式开始可预测",
+      "finding": "Latent Space 分析指出，AI 模型解出的数学题越来越多，且成功案例呈现出可识别的模式，这有助于预测模型接下来能解决哪类问题。",
+      "key_data": [
+        "数学解题成功率上升",
+        "成功模式可识别",
+        "能力边界可预测"
+      ],
+      "judgment": "从「能不能解」到「能解哪类」，评测范式正在从分数转向能力地图。",
+      "confidence": 3,
+      "url": "https://latent.space/p/ai-is-getting-good-at-math/",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "极客早知道",
+      "title": "Seedance 2.5 4K 正式发布",
+      "finding": "字节旗下视频生成模型 Seedance 升级至 2.5 版本并支持 4K 输出，与 Kimi K3.1 Pro 同日发布，国内多模态视频生成竞争进一步升温。",
+      "key_data": [
+        "4K 输出",
+        "Seedance 2.5",
+        "视频生成"
+      ],
+      "judgment": "4K 是视频生成进入商用交付的门槛，广告与短剧制作链条会最先被改写。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/372858",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "inDrive 联手小马智行与英伟达，2027 年在中亚测试 Robotaxi",
+      "finding": "Uber 竞争对手 inDrive 计划 2027 年上半年在哈萨克斯坦首都启动小马智行 Robotaxi 测试，英伟达提供算力支持。",
+      "key_data": [
+        "2027 上半年测试",
+        "哈萨克斯坦",
+        "小马智行出海"
+      ],
+      "judgment": "中国 Robotaxi 方案开始向「非中美市场」输出，中亚是低成本验证场。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "importance": 3
+    },
+    {
+      "source": "极客公园",
+      "title": "天猫双 11 想卖的不只是货，还有 Token",
+      "finding": "天猫总裁家洛在双 11 发布会上提出，传统搜索只是「统计学匹配」，无法唤醒沉睡需求，平台正尝试把 AI 能力（Token）本身作为商品与流量入口。",
+      "key_data": [
+        "Token 作为商品",
+        "搜索转向 AI 匹配",
+        "双 11 场景"
+      ],
+      "judgment": "电商平台开始把推理算力当营销资源卖，AI 成本正在被转嫁进交易链路。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/372801",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "智源 FlagOS 2.2 发布，推动前沿模型与多元算力协同",
+      "finding": "智源众智 FlagOS 升级至 2.2 版本，目标是让前沿模型能在多种国产算力上协同运行，降低对单一硬件生态的依赖。",
+      "key_data": [
+        "FlagOS 2.2",
+        "多元算力协同",
+        "国产硬件适配"
+      ],
+      "judgment": "国产算力生态的关键在软件层统一，FlagOS 是在补这块短板。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/mhdJwMMzYFedMFHKfHWs?utm_source=rss&utm_medium=article",
+      "importance": 2
+    },
+    {
+      "source": "极客公园",
+      "title": "中国 AI 球类机器人集体在 Kickstarter 筹得百万美元",
+      "finding": "过去一年至少四款中国团队打造的 AI 球类机器人在 Kickstarter 筹得百万美元级资金，庞伯特以 26255% 超募率拿下 265 万美元，SwitchBot 也推出 Acemate。",
+      "key_data": [
+        "4 款产品",
+        "庞伯特 265 万美元",
+        "26255% 超募"
+      ],
+      "judgment": "AI 硬件创业正从「通用助手」转向「垂直运动场景」，深圳供应链是护城河。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/372807",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "Kimi K3.1 Pro 已在 API 上线，权重尚未开放，但 Moonshot 承诺 11 月 4 日放出完整模型权重——这种「先 API 后开源」的节奏值得开发者留意版本差异。",
+      "source": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
+    },
+    {
+      "person": "Swyx",
+      "level": "L2",
+      "quote": "「黑色十月」：网络攻击持续升级，AI 基础设施的安全压力正在成为本月主线，而不是模型能力本身。",
+      "source": "https://latent.space/p/ainews-black-october/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "前沿模型训练环境的隔离与安全基建",
+      "reason": "OpenAI 连发两篇官方说明，训练环境安全正成为前沿实验室的核心竞争力。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI 推理的碳排放与算力选址经济学",
+      "reason": "8.5 倍碳差会重塑数据中心选址与云厂商 ESG 叙事，影响采购决策。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI 找 Bug 对开源维护流程的冲击",
+      "reason": "PostgreSQL 案例预示开源社区需要 AI 分诊机制，影响所有依赖开源的团队。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "OpenAI 断网训练，Kimi 先闭后开",
+  "summary_paragraph": "今天最重要的信号来自 OpenAI：一边宣布停止用实时互联网训练前沿模型，一边披露训练环境的离线隔离方案，前沿实验室正把训练当成核设施来管，行业门槛与集中度会进一步上升。模型侧，Kimi K3.1 Pro 先上 API、承诺 11 月 4 日开放权重，「先闭源收钱再开源」成为中国头部模型的标准节奏。与此同时，一份测算显示同一 AI 请求在德州碳排放是瑞典的 8.5 倍，算力选址开始被碳约束重写；而 PostgreSQL 19 因 AI 找 Bug 太快而节奏被打乱，则第一次把「AI 生产力」的另一面——维护成本通胀——摆上台面。",
+  "_comment": "top_items 与分类板块无重复；opinions 仅收录有明确公开输出的追踪人物。",
+  "snapshot": {
+    "date": "2026-10-24",
+    "hf_trending": [
+      {
+        "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "short_name": "DeepSeek-V4.1-Flash-1017",
+        "likes": 2593,
+        "downloads": 57715,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v41"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "RecursiveSI/flint",
+        "short_name": "flint",
+        "likes": 689,
+        "downloads": 1904,
+        "url": "https://huggingface.co/RecursiveSI/flint",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "flint"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "black-forest-labs/flux-3-image-klein-comfy",
+        "short_name": "flux-3-image-klein-comfy",
+        "likes": 1407,
+        "downloads": 534837,
+        "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "image-generation"
+        ],
+        "pipeline_tag": "image-to-image",
+        "label": "Image To Image",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "OpenMOSS-Team/MOSS-Image-SFT",
+        "short_name": "MOSS-Image-SFT",
+        "likes": 653,
+        "downloads": 7658,
+        "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "moss-image"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 9037,
+        "downloads": 2026951,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "XHToken/Spark-X2.6-4B",
+        "short_name": "Spark-X2.6-4B",
+        "likes": 416,
+        "downloads": 1060,
+        "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "spark2_5"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "fishaudio/drama-3",
+        "short_name": "drama-3",
+        "likes": 947,
+        "downloads": 17017,
+        "url": "https://huggingface.co/fishaudio/drama-3",
+        "tags": [
+          "safetensors",
+          "fish_omni",
+          "fish-audio"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "OpenMOSS-Team/MOSS-Image-Base",
+        "short_name": "MOSS-Image-Base",
+        "likes": 520,
+        "downloads": 5618,
+        "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "moss-image"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "cloudflare/security-audit-skill",
+        "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable f",
+        "stars": 42225,
+        "stars_today": 2716,
+        "forks": 2638,
+        "language": "JavaScript",
+        "url": "https://github.com/cloudflare/security-audit-skill"
+      },
+      {
+        "name": "php/php-src",
+        "desc": "The PHP Interpreter",
+        "stars": 41573,
+        "stars_today": 716,
+        "forks": 8361,
+        "language": "C",
+        "url": "https://github.com/php/php-src"
+      },
+      {
+        "name": "anthropics/knowledge-work-plugins",
+        "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+        "stars": 32249,
+        "stars_today": 635,
+        "forks": 3574,
+        "language": "Python",
+        "url": "https://github.com/anthropics/knowledge-work-plugins"
+      },
+      {
+        "name": "NVIDIA/OpenShell",
+        "desc": "OpenShell is the safe, private runtime for autonomous AI agents.",
+        "stars": 18833,
+        "stars_today": 1119,
+        "forks": 1886,
+        "language": "Rust",
+        "url": "https://github.com/NVIDIA/OpenShell"
+      },
+      {
+        "name": "Renhuai123/ziwei-doushu",
+        "desc": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+        "stars": 6894,
+        "stars_today": 546,
+        "forks": 1413,
+        "language": "TypeScript",
+        "url": "https://github.com/Renhuai123/ziwei-doushu"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 7531842296757,
+        "total_tokens_str": "7.5T",
+        "api_calls": 0,
+        "change": -7.5,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 2178011369327,
+        "total_tokens_str": "2.2T",
+        "api_calls": 0,
+        "change": 13.8,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 1625523749143,
+        "total_tokens_str": "1.6T",
+        "api_calls": 0,
+        "change": 64.8,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 4,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 1523603533158,
+        "total_tokens_str": "1.5T",
+        "api_calls": 0,
+        "change": 14.7,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 5,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 1345210358109,
+        "total_tokens_str": "1.3T",
+        "api_calls": 0,
+        "change": -7.7,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 6,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 1015740476717,
+        "total_tokens_str": "1.0T",
+        "api_calls": 0,
+        "change": -1.1,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 7,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 882798625010,
+        "total_tokens_str": "883B",
+        "api_calls": 0,
+        "change": -6.4,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      {
+        "rank": 8,
+        "slug": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo-V2.6-Flash",
+        "org": "xiaomi",
+        "total_tokens": 852297715972,
+        "total_tokens_str": "852B",
+        "api_calls": 0,
+        "change": -9.5,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+      },
+      {
+        "rank": 9,
+        "slug": "z-ai/glm-5.3",
+        "name": "GLM 5.3",
+        "org": "z-ai",
+        "total_tokens": 816438886914,
+        "total_tokens_str": "816B",
+        "api_calls": 0,
+        "change": -11.2,
+        "url": "https://openrouter.ai/z-ai/glm-5.3"
+      },
+      {
+        "rank": 10,
+        "slug": "stepfun/step-5-preview",
+        "name": "Step 5 Preview",
+        "org": "stepfun",
+        "total_tokens": 584527912314,
+        "total_tokens_str": "585B",
+        "api_calls": 0,
+        "change": -8.7,
+        "url": "https://openrouter.ai/stepfun/step-5-preview"
+      }
+    ],
+    "hf_summary": "多模态与生成式模型霸榜，视频生成热度断层领先，文本模型边缘化"
+  }
+}
