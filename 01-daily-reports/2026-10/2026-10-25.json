@@ -3,115 +3,142 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Kimi 3.1 Pro 开源权重发布，闭源与开源差距缩至约一个月",
-      "finding": "月之暗面发布 Kimi 3.1 Pro，采用 104B 激活参数、2.8T 总参数的 MoE 架构，并开放权重。Latent Space 评价其能力接近 Fable-5.1 级别，同时提供速度提升 2-3 倍的高速 API。这意味着开源模型追平闭源前沿的时间差被压缩到约一个月。",
+      "title": "Linux 基金会报告：AI 写代码快 52%，但四分之一 PR 是「AI 垃圾」",
+      "finding": "Linux 基金会最新报告指出，AI 辅助让代码提交速度提升 52%，但开源项目收到的 PR 中有约四分之一是低质量、无实质价值的「AI 垃圾」。维护者审核负担显著加重，社区治理成本上升。",
       "key_data": [
-        "104B 激活参数",
-        "2.8T 总参数",
-        "差距缩至约1个月",
-        "API 提速2-3倍"
+        "编码提速 52%",
+        "1/4 PR 为 AI 垃圾",
+        "维护者负担加重"
       ],
-      "judgment": "这是开源阵营今年最强的信号之一：闭源模型靠能力领先获取溢价的窗口正在快速关闭，模型厂商的竞争重心将被迫转向产品体验、Agent 生态和推理成本，而不是单纯的榜单分数。对开发者而言，可自托管的高能力模型让成本结构有了重新谈判的空间。",
+      "judgment": "AI 编程的瓶颈已从「写得慢」变成「审不过来」。对工具厂商来说，下一步竞争点不是生成速度，而是如何帮团队过滤、验证和收敛 AI 产出；对开源社区，PR 门槛和自动化审查将被迫升级。",
       "confidence": 4,
-      "source": "Latent Space",
-      "url": "https://latent.space/p/ainews-kimi-31/"
+      "source": "InfoQ AI",
+      "url": "https://www.infoq.cn/article/9TSuUDxrUSGS26XTA2yB?utm_source=rss&utm_medium=article"
     },
     {
       "rank": 2,
-      "title": "研究显示 AI 对科技行业以外几乎无生产力回报",
-      "finding": "Apollo 的研究指出，目前没有迹象表明 AI 在科技行业之外带来了可测量的生产力提升。该文在 Hacker News 获得 483 分、大量讨论，反映出业界对 AI 投资回报的怀疑情绪正在升温。",
+      "title": "Cerebras 宣布可在单系统上部署万亿参数前沿模型",
+      "finding": "Cerebras 发布技术博客，展示如何在自家晶圆级芯片系统上部署万亿参数级前沿模型，主打超大模型推理不再依赖大规模 GPU 集群。这是对「推理算力路线」的一次正面挑战。",
       "key_data": [
-        "科技业外无回报",
-        "HN 483 分",
-        "投资回报存疑"
+        "万亿参数",
+        "晶圆级芯片",
+        "单系统部署"
       ],
-      "judgment": "这条信号比任何模型发布都更值得产品经理警惕：AI 的价值兑现仍集中在软件与知识工作密集行业，传统行业的落地受制于流程改造和组织能力，而不是模型能力。企业 AI 创业公司如果只会卖“更聪明的模型”，会在这轮 ROI 审查中首先被砍预算。",
-      "confidence": 3,
-      "source": "Apollo / Hacker News",
-      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+      "judgment": "如果数据属实，推理侧的算力格局会出现新变量：超大模型服务不必绑定英伟达集群，成本和延迟结构可能被重写。值得关注其实际吞吐与客户落地，而非只看 demo。",
+      "confidence": 4,
+      "source": "Hacker News / Cerebras",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
     },
     {
       "rank": 3,
+      "title": "研究：Grok 与 GPT 在近 500 场选举中立场分歧超 90%",
+      "finding": "一项新研究让 Grok 和 OpenAI 的 GPT 在近 500 场选举中做选择，结果 Grok 压倒性倾向共和党候选人，GPT 倾向民主党，两者在超过 90% 的选区给出不同答案。模型政治倾向问题再次被量化。",
+      "key_data": [
+        "近 500 场选举",
+        "分歧超 90%",
+        "立场系统性偏移"
+      ],
+      "judgment": "这不是「谁更中立」的问题，而是模型对齐与训练数据偏置会直接转化为可测量的政治输出。对做 AI 搜索、推荐、Agent 的产品方，政治类查询的护栏和披露将成为合规必答题。",
+      "confidence": 3,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
+    },
+    {
+      "rank": 4,
+      "title": "Apollo 研究：AI 回报仍集中在科技行业之外几乎看不到",
+      "finding": "Apollo 的分析指出，除科技行业外，几乎没有迹象表明 AI 带来了可测量的生产率或利润回报。企业广泛试点，但收益尚未在宏观数据中体现。",
+      "key_data": [
+        "回报仅限科技业",
+        "宏观数据无体现",
+        "企业试点多落地少"
+      ],
+      "judgment": "这给「AI 泡沫论」提供了数据弹药，也提醒企业 AI 产品经理：卖点不能停在「能做什么」，必须证明 ROI。未来一年，能拿出可量化降本增效案例的厂商会明显胜出。",
+      "confidence": 3,
+      "source": "Hacker News / Apollo",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+    },
+    {
+      "rank": 5,
       "title": "Block 发布可在 MacBook 本地运行的高拟真语音模型",
-      "finding": "Block 推出新的语音生成模型，官方称其听感“近乎真人”，并且可以在 MacBook M4 Max 上本地运行，无需云端推理。这标志着高质量语音合成正从 API 服务走向端侧部署。",
+      "finding": "Block 推出新的语音模型，官方称听起来「异常像真人」，且可在 MacBook M4 Max 上本地运行，不依赖云端。本地化、高自然度语音合成再进一步。",
       "key_data": [
         "本地运行",
         "M4 Max 可跑",
         "拟真度极高"
       ],
-      "judgment": "端侧语音模型会重塑语音 Agent 的成本与隐私边界：客服、陪伴、无障碍等场景可以摆脱按 token 计费，延迟和合规问题也大幅缓解。对 ElevenLabs 这类云端语音 API 公司构成直接压力，语音赛道的护城河将从“音质”转向“工作流集成”。",
+      "judgment": "语音合成正从「云端 API」走向「端侧能力」。对做客服、陪伴、无障碍产品的团队，本地语音意味着更低延迟、更低成本和更好的隐私叙事，端侧语音交互的产品空间会被打开。",
       "confidence": 3,
-      "source": "TechCrunch",
+      "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
-    },
-    {
-      "rank": 4,
-      "title": "研究：AI 辅助挖掘出 PHP 多年老漏洞，攻击面被放大",
-      "finding": "安全研究人员借助 AI 工具在 PHP 语言中发现了存在多年的旧漏洞，随后 AI 辅助的攻击尝试随之出现。Wired 指出，AI 正在让本就存在的软件缺陷变得更容易被利用。",
-      "key_data": [
-        "PHP 老漏洞",
-        "AI 辅助攻击",
-        "漏洞利用门槛降低"
-      ],
-      "judgment": "这是 AI 安全叙事的关键转折：AI 对攻防双方同时加速，但防守方修复需要时间，攻击方利用只需分钟级。依赖老旧技术栈的企业应把“AI 辅助漏洞扫描”列为今年优先级最高的安全投入，而不是等出事再补。",
-      "confidence": 3,
-      "source": "Wired",
-      "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/"
-    },
-    {
-      "rank": 5,
-      "title": "研究：Grok 与 GPT 在选举推荐上分歧超 90%",
-      "finding": "一项针对近 500 场选举的研究发现，在被要求做出选择时，Grok 压倒性地推荐共和党候选人，而 OpenAI 的 GPT 倾向民主党，两者在超过 90% 的选举中给出不同答案。",
-      "key_data": [
-        "近 500 场选举",
-        "分歧超 90%",
-        "模型政治倾向差异"
-      ],
-      "judgment": "模型不是中立的：训练数据、对齐策略和系统提示都会注入倾向性。对做 AI 产品的团队来说，这意味着政治、医疗、法律等敏感领域的输出必须做显式的立场审计，否则一次“模型选边”就可能演变成品牌危机。",
-      "confidence": 3,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
     }
   ],
   "model_tech": [
     {
       "source": "Sebastian Raschka",
-      "title": "Raschka 发布 11 小时推理模型实战课程",
-      "finding": "Sebastian Raschka 推出完整视频课程，用 Python 和 PyTorch 从零构建推理模型，覆盖评测、推理时扩展、强化学习和蒸馏四大主题，总时长超过 11 小时。",
+      "title": "Raschka 发布 11 小时「从零构建推理模型」完整视频课程",
+      "finding": "课程覆盖评测、推理时扩展、强化学习和蒸馏，全部用 Python 和 PyTorch 手写实现，超过 11 小时。这是目前少有的系统性推理模型工程教程。",
       "key_data": [
         "11 小时视频",
         "Python + PyTorch",
         "覆盖 RL 与蒸馏"
       ],
-      "judgment": "推理模型的知识正在从论文走向可复现的工程教程，这会显著降低团队自建推理能力的门槛。",
+      "judgment": "推理模型知识正在从论文走向可复现工程，团队自建推理能力的门槛明显下降。",
       "confidence": 4,
       "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "importance": 4
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "memt-1.0 架构拆解：门控 DeltaNet-2 与「存储混合」压缩 Agent 记忆",
+      "finding": "社区拆解 memt-1.0 的记忆原生架构，用门控 DeltaNet-2 和混合存储方案替代全量 KV 缓存，存储占用缩小约 66 倍。核心是在参数化记忆与上下文缓存之间做工程权衡。",
+      "key_data": [
+        "存储缩小 66 倍",
+        "门控 DeltaNet-2",
+        "混合存储"
+      ],
+      "judgment": "Agent 长期记忆的成本瓶颈正在被架构创新解决，长会话 Agent 的经济性会明显改善。",
+      "confidence": 2,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xeu0ht/memt10_architecture_breakdown_gated_deltanet2/",
       "importance": 3
     },
     {
       "source": "arXiv / Hacker News",
-      "title": "论文追问：为什么 AI 生成的语言这么难懂",
-      "finding": "一篇在 Hacker News 获得 155 分的论文系统分析了 AI 生成文本的可读性问题，试图解释为什么大模型输出常显得冗长、绕弯、难以理解。",
+      "title": "论文追问：为什么 AI 生成的语言这么难懂？",
+      "finding": "一篇在 HN 获 185 分的论文系统分析了 AI 生成文本的可读性问题，试图解释为何大模型输出常显得冗长、绕、难以理解。讨论热度说明这是普遍痛点。",
       "key_data": [
-        "HN 155 分",
-        "150 条讨论",
-        "可读性量化分析"
+        "HN 185 分",
+        "161 条评论",
+        "可读性系统分析"
       ],
-      "judgment": "这是对“AI 味”的第一次系统性拆解，对提示词工程和产品文案设计有直接指导价值。",
+      "judgment": "「AI 味」不只是风格问题，而是可测量的质量缺陷，提示工程与后训练都需正视。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2610.29162",
       "importance": 3
     },
     {
+      "source": "Wired AI",
+      "title": "PHP 漏洞风波：AI 让老 bug 变得更容易被利用",
+      "finding": "安全研究者用 AI 工具挖出 PHP 语言中潜伏多年的漏洞，随后 AI 辅助的攻击随之出现。AI 同时降低了发现漏洞和利用漏洞的门槛。",
+      "key_data": [
+        "AI 挖出旧漏洞",
+        "攻击门槛降低",
+        "PHP 生态受冲击"
+      ],
+      "judgment": "攻防两侧同时被 AI 加速，安全团队必须把 AI 红队和自动化补丁纳入常规流程。",
+      "confidence": 4,
+      "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+      "importance": 4
+    },
+    {
       "source": "Reddit r/MachineLearning",
-      "title": "预训练音乐 Transformer 实现实时即兴合奏",
-      "finding": "一位开发者不做任何微调，仅通过引导采样过程，就让预训练符号音乐模型实时“听懂”MIDI 键盘演奏并与之即兴合奏，展示了推理时控制在不重训模型前提下的潜力。",
+      "title": "预训练音乐 Transformer 无需微调即可与人实时合奏",
+      "finding": "开发者用预训练符号音乐模型，通过引导采样让它「听」现场 MIDI 演奏并实时配合，全程不做微调。展示了推理时控制对生成模型的实用价值。",
       "key_data": [
         "零微调",
-        "实时 MIDI 输入",
-        "采样引导"
+        "实时 MIDI 合奏",
+        "引导采样"
       ],
-      "judgment": "推理时控制正在成为替代微调的低成本路径，对实时交互类 AI 产品有借鉴意义。",
+      "judgment": "推理时控制正在成为不训练也能定制模型行为的主流手段，创意工具最先受益。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xe4pex/got_a_pretrained_music_transformer_to_jam_with_me/",
       "importance": 2
@@ -119,29 +146,29 @@
   ],
   "company_product": [
     {
-      "source": "TechCrunch",
-      "title": "TechCrunch 盘点可驻留短信的 AI Agent",
-      "finding": "TechCrunch 整理了一份可运行在短信中的 AI Agent 清单，覆盖通用助手、家庭、旅行和工作场景，显示“无 App 的对话式 Agent”正成为新的产品形态。",
+      "source": "TechCrunch AI",
+      "title": "短信里的 AI Agent 盘点：从通用助手到家庭、旅行、办公专用",
+      "finding": "TechCrunch 梳理了一批「住在短信里」的 AI Agent，覆盖通用助理、家庭、旅行和工作场景。Agent 的入口正从独立 App 转向用户已有的消息通道。",
       "key_data": [
         "短信即入口",
-        "覆盖家庭/旅行",
-        "无 App 形态"
+        "家庭/旅行/办公",
+        "免安装体验"
       ],
-      "judgment": "短信 Agent 绕过了 App 安装与留存难题，但渠道受制于运营商与平台政策，商业化路径尚不清晰。",
+      "judgment": "入口之争从 App 转向消息层，谁能占据用户最高频的对话通道，谁就掌握 Agent 分发。",
       "confidence": 3,
       "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "importance": 2
+      "importance": 3
     },
     {
-      "source": "TechCrunch",
-      "title": "TechCrunch 推出“AI 墓地”项目失败清单",
-      "finding": "TechCrunch 建立了一份持续更新的 AI 项目与创业公司失败清单，收录了从苹果多次延期的 Siri AI 到 OpenAI“超级 App”发布混乱等案例。",
+      "source": "TechCrunch AI",
+      "title": "TechCrunch 上线「AI 墓地」：持续记录失败与跳票的 AI 项目",
+      "finding": "TechCrunch 整理了一份 AI 项目与创业公司的「死亡名单」，从苹果反复跳票的 Siri AI 到 OpenAI 混乱的「超级 App」发布都在列。失败案例开始被系统化记录。",
       "key_data": [
-        "持续更新清单",
-        "含 Siri AI 延期",
-        "含 OpenAI 发布混乱"
+        "Siri AI 跳票",
+        "超级 App 翻车",
+        "失败案例清单"
       ],
-      "judgment": "失败案例库比成功故事更有信息量，是判断哪些 AI 产品形态已被证伪的实用参考。",
+      "judgment": "行业进入去泡沫阶段，失败案例的复盘价值上升，产品决策应更重视交付确定性。",
       "confidence": 3,
       "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
       "importance": 2
@@ -149,59 +176,86 @@
     {
       "source": "极客公园",
       "title": "英国宣布超 6 亿英镑 AI 投资计划",
-      "finding": "英国政府宣布超过 6 亿英镑的 AI 投资计划，同期苹果首批折叠屏 iPhone Duo 因屏幕开裂遭集中投诉，两条消息同日出圈。",
+      "finding": "英国政府公布超过 6 亿英镑的 AI 投资计划，用于相关基础设施与能力建设。国家级 AI 投入继续加码。",
       "key_data": [
-        "6 亿英镑",
-        "英国国家级投资",
-        "折叠屏质量投诉"
+        "超 6 亿英镑",
+        "国家级投资",
+        "基础设施为主"
       ],
-      "judgment": "国家级 AI 投资继续加码，但资金流向和落地效率才是关键，硬件品控问题则提醒 AI 终端仍不成熟。",
+      "judgment": "主权 AI 投资是确定性趋势，对算力、数据和公共部门 AI 供应商是直接机会。",
       "confidence": 3,
       "url": "http://www.geekpark.net/news/372860",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "React 19.3 新增 browser() API，客户端渲染成为一等公民",
+      "finding": "React 19.3 引入 browser() API，让「仅客户端渲染」成为框架层面的一等能力。对大量 AI 生成的前端应用，这简化了纯浏览器端渲染的工程路径。",
+      "key_data": [
+        "React 19.3",
+        "browser() API",
+        "纯客户端渲染"
+      ],
+      "judgment": "AI 生成前端代码的默认形态多为纯客户端，框架原生支持会降低这类产物的落地摩擦。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/jNX6EAzqP34xRjqUMU1N?utm_source=rss&utm_medium=article",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "湖仓布局策略基准测试：何时该用 Liquid Clustering",
+      "finding": "InfoQ 发布湖仓布局策略的基准测试，对比 Liquid Clustering 与传统分区在不同数据形态下的表现，给出选型建议。",
+      "key_data": [
+        "Liquid Clustering",
+        "湖仓布局",
+        "基准测试"
+      ],
+      "judgment": "数据基础设施的 AI 负载优化是隐性成本大头，选型错误会直接拖慢训练与推理管线。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/lkefSu7SjjIHL1Fmk0Pv?utm_source=rss&utm_medium=article",
       "importance": 2
     }
   ],
   "opinions": [
     {
-      "person": "Simon Willison",
+      "person": "Sebastian Raschka",
       "level": "L1",
-      "quote": "用一句提示词就给 Battledrones 加上了四人联机地图，AI 辅助开发已经能覆盖从玩法设计到实现的完整小闭环。",
-      "source": "https://simonwillison.net/2026/Oct/24/battledrones/"
+      "quote": "推理模型不再是黑盒：评测、推理时扩展、强化学习和蒸馏都可以用 PyTorch 从零实现，工程团队应当自己动手复现而不是只读论文。",
+      "source": "https://magazine.sebastianraschka.com/p/building-reasoning-models"
     },
     {
-      "person": "Swyx (Latent Space)",
-      "level": "L2",
-      "quote": "开源权重模型与闭源前沿的差距已缩至约一个月，Kimi 3.1 Pro 让“Fable 在家”从调侃变成了现实。",
-      "source": "https://latent.space/p/ainews-kimi-31/"
+      "person": "r/MachineLearning 社区研究者",
+      "level": "L1",
+      "quote": "越来越多本科生在没有导师的情况下独立在 A* 会议发文，这既说明工具降低了研究门槛，也引发对研究质量与指导缺失的担忧。",
+      "source": "https://www.reddit.com/r/MachineLearning/comments/1xe9uoh/increasing_number_of_ug_authors_in_a_conferences/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "Kimi 3.1 Pro 开源权重的能力边界与自托管成本测算",
-      "reason": "决定团队是否值得从闭源 API 迁移，需实测能力、延迟与总拥有成本。",
+      "topic": "AI 生成代码的质量治理：从 PR 过滤到自动化审查",
+      "reason": "1/4 PR 为 AI 垃圾，直接影响开源协作与团队效率，是当下最真实的工程痛点。",
       "priority": "high"
     },
     {
-      "topic": "AI 在非科技行业 ROI 缺失的结构性原因",
-      "reason": "直接影响企业 AI 产品的定位与销售话术，值得结合案例深挖。",
+      "topic": "万亿参数模型的非 GPU 推理路线（Cerebras 等）",
+      "reason": "若成立将改变推理算力成本结构，影响基础设施选型与模型服务定价。",
       "priority": "high"
     },
     {
-      "topic": "端侧语音模型的部署方案与隐私合规影响",
-      "reason": "语音 Agent 成本结构可能被重写，需评估本地推理的工程可行性。",
+      "topic": "Agent 长期记忆的架构方案对比（KV 缓存 vs 参数化记忆）",
+      "reason": "记忆成本决定长会话 Agent 能否规模化商用，架构分歧尚未收敛。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "开源追平闭源，AI 回报遭质疑",
-  "summary_paragraph": "今天最重要的信号来自两端：一端是 Kimi 3.1 Pro 以 104B 激活参数的开源权重把与闭源前沿的差距压缩到约一个月，开源阵营的追赶速度再次超出预期；另一端是 Apollo 研究指出 AI 在科技行业之外几乎没有可测量的生产力回报，给火热的 AI 投资泼了一盆冷水。产品层面，Block 的本地语音模型和短信 Agent 清单显示交互入口正在分散化，而 AI 辅助挖掘 PHP 老漏洞则提醒攻防天平正在倾斜。模型能力继续狂奔，但价值兑现的瓶颈已经明显从技术转向组织与场景。",
-  "_comment": "top_items 与分类板块无重复；opinions 仅收录追踪清单内人物（Simon Willison L2、Swyx L2，level 字段按实际层级标注）。",
+  "summary_one_line": "AI 编程提速但垃圾 PR 泛滥，落地回报仍待验证",
+  "summary_paragraph": "今天最值得关注的不是新模型，而是 AI 落地的真实账本。Linux 基金会报告显示 AI 让编码提速 52%，却有四分之一 PR 是低质「AI 垃圾」，维护成本反升；Apollo 的数据则指出 AI 回报仍几乎只存在于科技行业内部。基础设施侧，Cerebras 宣称可在单系统部署万亿参数模型，挑战 GPU 集群路线；Block 把高拟真语音模型做到 MacBook 本地运行。与此同时，Grok 与 GPT 在近 500 场选举中立场分歧超 90%，模型偏置从抽象讨论变成可量化事实。整体看，行业正从「能力展示」转向「质量、成本与可信度」的硬仗。",
   "snapshot": {
     "date": "2026-10-25",
     "hf_trending": [
       {
         "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "short_name": "DeepSeek-V4.1-Flash-1017",
-        "likes": 2794,
+        "likes": 2841,
         "downloads": 73215,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "tags": [
@@ -217,7 +271,7 @@
       {
         "name": "RecursiveSI/flint",
         "short_name": "flint",
-        "likes": 781,
+        "likes": 791,
         "downloads": 4795,
         "url": "https://huggingface.co/RecursiveSI/flint",
         "tags": [
@@ -233,7 +287,7 @@
       {
         "name": "black-forest-labs/flux-3-image-klein-comfy",
         "short_name": "flux-3-image-klein-comfy",
-        "likes": 1506,
+        "likes": 1524,
         "downloads": 590742,
         "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
         "tags": [
@@ -247,25 +301,9 @@
         "trend": "same"
       },
       {
-        "name": "Lightricks/LTX-2.5",
-        "short_name": "LTX-2.5",
-        "likes": 9194,
-        "downloads": 2087721,
-        "url": "https://huggingface.co/Lightricks/LTX-2.5",
-        "tags": [
-          "diffusion-single-file",
-          "image-to-video",
-          "text-to-video"
-        ],
-        "pipeline_tag": "image-to-video",
-        "label": "图生视频",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "XHToken/Spark-X2.6-4B",
         "short_name": "Spark-X2.6-4B",
-        "likes": 454,
+        "likes": 461,
         "downloads": 2537,
         "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
         "tags": [
@@ -279,9 +317,25 @@
         "trend": "same"
       },
       {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 9213,
+        "downloads": 2087721,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "OpenMOSS-Team/MOSS-Image-SFT",
         "short_name": "MOSS-Image-SFT",
-        "likes": 698,
+        "likes": 704,
         "downloads": 9717,
         "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
         "tags": [
@@ -297,7 +351,7 @@
       {
         "name": "fishaudio/drama-3",
         "short_name": "drama-3",
-        "likes": 990,
+        "likes": 995,
         "downloads": 19831,
         "url": "https://huggingface.co/fishaudio/drama-3",
         "tags": [
@@ -313,7 +367,7 @@
       {
         "name": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
         "short_name": "Qwen-Image-2.1-Uncensored-Quantized",
-        "likes": 4975,
+        "likes": 4990,
         "downloads": 2303585,
         "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
         "tags": [
@@ -331,45 +385,45 @@
       {
         "name": "cloudflare/security-audit-skill",
         "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable f",
-        "stars": 44675,
+        "stars": 45268,
         "stars_today": 2264,
-        "forks": 2771,
+        "forks": 2808,
         "language": "JavaScript",
         "url": "https://github.com/cloudflare/security-audit-skill"
       },
       {
         "name": "NVIDIA/OpenShell",
         "desc": "OpenShell is the safe, private runtime for autonomous AI agents.",
-        "stars": 19500,
+        "stars": 19644,
         "stars_today": 896,
-        "forks": 1933,
+        "forks": 1940,
         "language": "Rust",
         "url": "https://github.com/NVIDIA/OpenShell"
       },
       {
         "name": "aws/agent-toolkit-for-aws",
         "desc": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
-        "stars": 3147,
+        "stars": 3217,
         "stars_today": 13,
-        "forks": 400,
+        "forks": 403,
         "language": "Python",
         "url": "https://github.com/aws/agent-toolkit-for-aws"
       },
       {
         "name": "Nutlope/hallmark",
         "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-        "stars": 32203,
+        "stars": 32530,
         "stars_today": 455,
-        "forks": 1653,
+        "forks": 1679,
         "language": "CSS",
         "url": "https://github.com/Nutlope/hallmark"
       },
       {
         "name": "luongnv89/claude-howto",
         "desc": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-pa",
-        "stars": 44589,
+        "stars": 44749,
         "stars_today": 392,
-        "forks": 5495,
+        "forks": 5504,
         "language": "Python",
         "url": "https://github.com/luongnv89/claude-howto"
       }
@@ -486,6 +540,6 @@
         "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
       }
     ],
-    "hf_summary": "多模态与视频生成热度领跑，开源模型加速向消费级创作工具下沉"
+    "hf_summary": "视频与多模态模型热度领先，图像生成竞争激烈"
   }
 }
