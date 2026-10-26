@@ -3,219 +3,281 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "OpenAI 与 Anthropic 数月内 LLM 价格最高降 80%，引发行业追问",
-      "finding": "有开发者统计发现，OpenAI 和 Anthropic 在短短几个月内把大模型 API 价格下调了最多 80%，并在技术社区引发 150+ 分的热议。降价幅度远超正常促销节奏，背后是推理成本下降、开源模型挤压和抢开发者份额的多重压力。",
+      "title": "OpenAI 与 Anthropic 数月内将 LLM 价格最高下调 80%",
+      "finding": "一篇在 Hacker News 引发 264 分、278 条讨论的分析指出，OpenAI 和 Anthropic 在短短几个月内把大模型 API 价格砍掉了最多 80%。降价幅度远超正常竞争节奏，背后是推理成本下降、开源模型挤压和抢占地盘的共同作用。",
       "key_data": [
-        "降价最高 80%",
-        "数月内连续下调",
-        "HN 151 分热议"
+        "降价最高80%",
+        "HN 264分",
+        "278条讨论",
+        "数月内完成"
       ],
-      "judgment": "这是模型层从技术竞赛转向价格战的明确信号。对开发者是红利窗口，对中间层套壳产品是生存危机——模型本身不再是护城河，谁能把成本优势转化为产品体验谁才能活。",
+      "judgment": "这不是普通促销，而是头部闭源模型开始用价格换生态位。对开发者是短期红利，对中间层推理服务商是生存危机——当 GPT/Claude 的价格逼近开源自托管成本，靠'便宜'吃饭的 API 转售商护城河基本消失。",
       "confidence": 4,
       "source": "Hacker News / minimaxir.com",
       "url": "https://minimaxir.com/2026/10/cheap-llms/"
     },
     {
       "rank": 2,
-      "title": "Linux 基金会报告：AI 写代码快 52%，但四分之一 PR 是「AI 垃圾」",
-      "finding": "Linux 基金会新报告给出了一组矛盾数据：AI 辅助让代码产出速度提升 52%，但开源项目收到的 PR 中约四分之一是低质量「AI 垃圾」，维护者审核负担反而加重。效率红利被转嫁成了社区治理成本。",
+      "title": "港科与 CMU 联手岩山科技开源新模型，KV Cache 砍掉 99%、单卡吞吐提升 6 倍",
+      "finding": "研究团队开源了一个新模型，通过大幅压缩 KV Cache，把长上下文推理的显存占用降低 99%，单张卡可以同时跑 512 路长推理，吞吐量提升约 6 倍。这直接打在长上下文推理最贵的环节上。",
       "key_data": [
-        "编码提速 52%",
-        "1/4 PR 为 AI 垃圾",
-        "维护者更累"
+        "KV Cache降99%",
+        "吞吐提升6倍",
+        "单卡512路",
+        "开源"
       ],
-      "judgment": "AI Coding 的瓶颈已经从「写得快不快」变成「审得过来吗」。这直接利好代码审查、PR 质量门禁类工具，也提醒所有做 AI 编程产品的团队：生成不是终点，可信交付才是。",
-      "confidence": 4,
-      "source": "InfoQ AI",
-      "url": "https://www.infoq.cn/article/9TSuUDxrUSGS26XTA2yB?utm_source=rss&utm_medium=article"
+      "judgment": "长上下文推理的成本瓶颈正在被工程手段快速拆解。对做 Agent、长文档、多轮对话的产品团队，这意味着'长上下文'从奢侈品变成可规模化能力，产品设计可以更大胆地喂上下文，而不是拼命做检索压缩。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/505407.html"
     },
     {
       "rank": 3,
-      "title": "Apollo 经济学家：AI 对大多数企业「零财务回报」",
-      "finding": "Apollo 首席经济学家指出，尽管企业界对 AI 投入巨大、宣传铺天盖地，但除科技行业外，美国企业从 AI 中获得的财务回报基本为零。这与持续高涨的资本开支形成鲜明反差。",
+      "title": "Apollo 经济学家：AI 对大多数企业带来'零财务回报'",
+      "finding": "Apollo 首席经济学家指出，尽管企业在 AI 上投入巨大，但除科技行业外，美国企业界从 AI 中获得的财务回报基本为零。这一判断与当前企业 AI 采购热潮形成鲜明反差。",
       "key_data": [
-        "非科技企业回报为零",
-        "投入与产出背离",
-        "宏观经济学家发声"
+        "零财务回报",
+        "科技业除外",
+        "巨额投入",
+        "企业AI"
       ],
-      "judgment": "这是对「AI 泡沫论」的一次有力注脚。企业 AI 的落地卡点不在模型能力，而在流程重构和组织适配。做企业 AI 产品的团队需要准备好回答客户一个尖锐问题：ROI 到底在哪。",
+      "judgment": "这是对'AI 落地'叙事的一盆冷水，但方向值得重视：卖工具的人赚到了钱，用工具的人还没算过账。对 To B AI 创业者，接下来客户会从'试试看'转向'给我看 ROI'，没有可量化收益的产品会先被砍预算。",
       "confidence": 3,
       "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
     },
     {
       "rank": 4,
-      "title": "南北阁开源 Nanbeige4.3-33B：Apache 2.0、512K 上下文、主打小 Agent 教师模型",
-      "finding": "南北阁发布 33B 参数模型 Nanbeige4.3-33B，采用 Apache 2.0 完全开源，支持 512K 超长上下文，定位是为其后续更小的 Agent 模型（含即将推出的 3B 版本）充当「教师模型」。",
+      "title": "加州大学伯克利分校数学教授因 AI 使用，认为批改作业'已无意义'",
+      "finding": "伯克利一位数学教授公开表示，学生普遍使用 AI 完成作业后，批改作业已经失去意义，传统以作业为核心的考核方式正在失效。这已不是个别抱怨，而是顶尖高校一线教学的真实困境。",
       "key_data": [
-        "33B 参数",
-        "Apache 2.0 开源",
-        "512K 上下文",
-        "3B 小模型在即"
+        "伯克利数学教授",
+        "批改作业无意义",
+        "AI代写作业",
+        "考核失效"
       ],
-      "judgment": "「大模型当老师、小模型上端侧」正在成为开源社区的标准化打法。512K 上下文配 Apache 2.0，对做本地 Agent 和长文档处理的开发者是直接可用的资产，值得立刻实测。",
-      "confidence": 3,
-      "source": "Reddit r/MachineLearning",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xf6x35/nanbeige_releases_nanbeige4333b_an_apache_20/"
+      "judgment": "教育是 AI 冲击最直接、最缺乏缓冲的场景。这件事的信号意义在于：当'过程性作业'无法验证真实能力，考核会向现场、口试、项目制迁移。做教育 AI 产品的团队，机会不在'帮学生做题'，而在'帮机构重建可信评估'。",
+      "confidence": 4,
+      "source": "Hacker News / Daily Cal",
+      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html"
     },
     {
       "rank": 5,
-      "title": "伯克利数学教授因 AI 泛滥称批改作业「已无意义」",
-      "finding": "UC Berkeley 一位数学教授公开表示，由于学生普遍使用 AI 完成作业，他看不到批改作业的意义了。这一表态在 Hacker News 获得大量讨论，折射出教育体系对 AI 的集体焦虑。",
+      "title": "尼康摄影大赛获奖者因作品被科学家识别出 AI 痕迹被取消头衔",
+      "finding": "尼康摄影比赛一名获奖者被科学家指出作品存在 AI 生成迹象，随后被取消获奖资格。这是又一起权威赛事被 AI 作品'攻破'后的事后追责案例。",
       "key_data": [
-        "伯克利教授发声",
-        "作业批改失去意义",
-        "HN 高热度讨论"
+        "尼康摄影大赛",
+        "AI痕迹",
+        "取消头衔",
+        "科学家识别"
       ],
-      "judgment": "这是 AI 冲击知识工作评估体系的一个标志性案例。短期看是教育问题，长期看是所有「以产出物评估能力」的场景都会被迫重构——包括招聘、考核和企业内部认证。",
-      "confidence": 3,
-      "source": "Hacker News / Daily Cal",
-      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html"
+      "judgment": "内容真实性验证正在从'技术问题'变成'制度问题'。对平台和赛事方，AI 检测不能只靠事后举报，需要前置审核流程；对创作者，'拍出来'和'生成出来'的边界会越来越需要可验证的凭证。",
+      "confidence": 4,
+      "source": "Hacker News / TechSpot",
+      "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html"
     }
   ],
   "model_tech": [
     {
       "source": "Reddit r/MachineLearning",
-      "title": "memt-1.0 架构拆解：门控 DeltaNet-2 + 混合存储，存储占用缩小 66 倍",
-      "finding": "社区对 memt-1.0 的「记忆原生」架构做了深度拆解，核心是用内部化参数记忆替代全量 KV 缓存，在 Agent 记忆场景下存储占用缩小 66 倍。文章详细对比了两种路线的工程取舍。",
+      "title": "南北阁发布 Nanbeige4.3-33B，Apache 2.0 开源、512K 上下文",
+      "finding": "南北阁发布 33B 参数模型 Nanbeige4.3-33B，采用 Apache 2.0 协议开源，上下文窗口达 512K，定位是给后续更小的 Agent 模型当'老师模型'。",
       "key_data": [
-        "存储缩小 66 倍",
-        "门控 DeltaNet-2",
-        "混合存储架构"
+        "33B参数",
+        "Apache 2.0",
+        "512K上下文",
+        "教师模型"
       ],
-      "judgment": "Agent 记忆的成本瓶颈正在被架构创新打开，长会话产品的经济模型可能因此改写。",
+      "judgment": "开源模型继续往'大上下文+可商用'方向卷，小团队自建 Agent 的底座选择又多了一个。",
       "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xeu0ht/memt10_architecture_breakdown_gated_deltanet2/",
-      "importance": 4
-    },
-    {
-      "source": "Reddit r/MachineLearning",
-      "title": "自托管 Agent 盲测：M5 Max 本地跑 Qwen 3.8 27B，五项日常任务实测",
-      "finding": "一位开发者在 M5 Max MacBook Pro（64GB）上用 llama.cpp 跑 Qwen 3.8 27B 量化版，对多个自托管 Agent 做了盲测，覆盖五项日常任务。结果显示本地 Agent 已具备一定可用性，但差异明显。",
-      "key_data": [
-        "M5 Max 64GB",
-        "Qwen 3.8 27B Q4",
-        "五项日常任务盲测"
-      ],
-      "judgment": "本地 Agent 从「能跑」走向「能用」，隐私敏感场景的自托管需求会被进一步激活。",
-      "confidence": 2,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xfgf1w/i_ran_a_blind_test_on_selfhosted_ai_agents_here/",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xf6x35/nanbeige_releases_nanbeige4333b_an_apache_20/",
       "importance": 3
     },
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "开源权重模型微调的最大难点：如何构造边缘案例数据集",
-      "finding": "社区讨论聚焦于微调开源模型时最棘手的问题——不是让模型在常见样本上表现好，而是如何系统性地构造边缘案例数据。这被认为是决定微调成败的关键环节。",
+      "source": "ArXiv cs.AI",
+      "title": "PaperFormalizer：让作者参与循环，把研究论文自动形式化到 Lean",
+      "finding": "研究者提出 PaperFormalizer，一个基于 Lean 的 Agent 流水线，能把论文中的证明和假设自动形式化，并让作者参与校验循环，补上论文中隐藏的证明缺口。",
       "key_data": [
-        "边缘案例数据",
-        "开源权重微调",
-        "数据构造难点"
+        "Lean形式化",
+        "作者参与循环",
+        "证明缺口检测",
+        "Agent流水线"
       ],
-      "judgment": "微调的门槛正从算力转向数据工程，边缘案例数据集会成为新的稀缺资产。",
+      "judgment": "AI 开始啃数学证明的'最后一公里'，形式化验证可能从少数人的工具变成论文审稿的常规环节。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.31810",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "自我修复让 Agent 把错误变成长期经验",
+      "finding": "论文指出当前 Agent 犯错后往往只是临时恢复，不会真正记住教训。研究提出'自我导向修复'方法，让 Agent 把错误转化为可复用的经验，实现持续改进。",
+      "key_data": [
+        "自我导向修复",
+        "错误转经验",
+        "持续改进",
+        "Agent记忆"
+      ],
+      "judgment": "Agent 从'每次重来'走向'越用越聪明'，这是 Agent 产品体验分化的关键能力。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.31846",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "交互式 LLM 评测：整体准确率可能误导比较结论",
+      "finding": "研究指出，很多 LLM 研究在比较不同追问提示下模型的表现时，只看整体准确率会掩盖真实差异，应该验证'比较过程'本身是否公平。",
+      "key_data": [
+        "整体准确率误导",
+        "交互式评测",
+        "追问提示",
+        "评测方法"
+      ],
+      "judgment": "评测方法论正在被重新审视，做模型选型的团队不能只看榜单总分。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.31678",
+      "importance": 2
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "自托管 AI Agent 盲测：同一模型跑 5 个日常任务",
+      "finding": "一位开发者在 M5 Max MacBook Pro（64GB）上用同一款 Qwen 3.8 27B 量化模型跑自托管 Agent 盲测，覆盖 5 个日常任务，邀请社区猜测各 Agent 身份。",
+      "key_data": [
+        "M5 Max 64GB",
+        "Qwen 3.8 27B",
+        "Q4_K_M量化",
+        "5个日常任务"
+      ],
+      "judgment": "本地 Agent 已能跑完整任务链，端侧 Agent 的体验差距更多在工程封装而非模型本身。",
       "confidence": 2,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xfa17z/whats_the_hardest_part_of_creating_edge_cases_for/",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xfgf1w/i_ran_a_blind_test_on_selfhosted_ai_agents_here/",
       "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "TechCrunch AI",
-      "title": "Grok 放出 AI 生成《奥德赛》前七分钟",
-      "finding": "Grok 发布了其 AI 生成影片《奥德赛》的前七分钟片段。媒体评价画面「还行」，但缺乏艺术性、灵感和人文关怀，属于技术演示级别的产出。",
+      "source": "量子位",
+      "title": "无问芯穹与三体宇宙联合发布智子 Agent 1.0",
+      "finding": "无问芯穹与三体宇宙联合推出智子 Agent 1.0，主打以多智能体协同为核心的角色 Agent，把科幻 IP 与 Agent 产品结合。",
       "key_data": [
-        "AI 生成影片",
-        "前 7 分钟",
-        "评价：缺乏艺术性"
+        "智子Agent 1.0",
+        "多智能体协同",
+        "三体宇宙",
+        "角色Agent"
       ],
-      "judgment": "AI 视频已跨过「能不能生成」的门槛，卡点转向叙事与审美，工具型产品机会大于内容型。",
+      "judgment": "IP+Agent 是差异化路径，但角色 Agent 的留存取决于协同体验而非设定本身。",
       "confidence": 3,
-      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "url": "https://www.qbitai.com/2026/10/505309.html",
+      "importance": 2
+    },
+    {
+      "source": "量子位",
+      "title": "WorkBuddy 进驻企业微信，AI 同事自带工作记忆",
+      "finding": "WorkBuddy 进入企业微信生态，定位为'AI 同事'，自带工作记忆，目标是替代人工在群聊和文件流转中当'文件传输助手'的角色。",
+      "key_data": [
+        "进驻企微",
+        "AI同事",
+        "工作记忆",
+        "文件流转"
+      ],
+      "judgment": "企业 IM 是 Agent 落地最自然的入口，企微生态的 AI 同事竞争会迅速升温。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/10/505365.html",
       "importance": 3
     },
     {
+      "source": "量子位",
+      "title": "趋境科技完成 B 轮融资，半年增长超十倍",
+      "finding": "趋境科技宣布完成 B 轮融资，半年内实现超十倍速增长，主打高品质 AI Token 的规模化交付。",
+      "key_data": [
+        "B轮融资",
+        "半年十倍增长",
+        "AI Token交付",
+        "规模化"
+      ],
+      "judgment": "Token 交付正在成为独立生意，但头部模型降价 80% 会直接压缩这类中间层的利润空间。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/10/505429.html",
+      "importance": 2
+    },
+    {
       "source": "TechCrunch AI",
-      "title": "AI 可穿戴设备盘点：Muse Charm、Bee、Friend、Plaud 等上榜",
-      "finding": "TechCrunch 汇总了当前最热门的 AI 可穿戴与硬件产品，包括 Muse Charm、Bee、Friend、Plaud 等。品类集中在随身记录、语音交互和个人助理方向。",
+      "title": "Grok 发布 AI 生成《奥德赛》前七分钟",
+      "finding": "Grok 放出其 AI 生成影片《奥德赛》的前七分钟片段。媒体评价画面'还行'，但缺乏艺术性和人文趣味。",
       "key_data": [
-        "Muse Charm",
-        "Bee / Friend",
-        "Plaud 录音硬件"
+        "AI生成影片",
+        "前七分钟",
+        "奥德赛",
+        "Grok"
       ],
-      "judgment": "AI 硬件仍在寻找杀手级场景，录音与记忆类产品最接近真实需求，但同质化严重。",
+      "judgment": "AI 视频已过'能不能生成'阶段，卡点在叙事和审美，这恰恰是模型短期补不上的。",
       "confidence": 3,
-      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
       "importance": 2
     },
     {
-      "source": "Wired AI",
-      "title": "美国反数据中心运动可向海外学什么",
-      "finding": "Wired 报道称，作家 Paris Marx 长期追踪全球数据中心扩张，指出美国在应对数据中心引发的能源、土地和社区问题上，可以从爱尔兰、新西兰等国的经验中吸取教训。",
+      "source": "InfoQ AI",
+      "title": "花椒建设 30 个 Agent 背后的企业 AI 能力体系",
+      "finding": "InfoQ 案例报道花椒如何围绕 30 个 Agent 建设可持续演进的企业 AI 能力，重点不在单点 Agent，而在支撑多 Agent 长期演进的工程体系。",
       "key_data": [
-        "反数据中心运动",
-        "爱尔兰/新西兰经验",
-        "能源与社区矛盾"
+        "30个Agent",
+        "可持续演进",
+        "企业AI能力",
+        "工程体系"
       ],
-      "judgment": "算力扩张的社会成本正在显性化，数据中心选址与能源政策将成为 AI 基建的隐性瓶颈。",
+      "judgment": "企业 Agent 的竞争正从'做出来'转向'养得起、改得动'，平台化能力比单点 Demo 更重要。",
       "confidence": 3,
-      "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
-      "importance": 2
-    },
-    {
-      "source": "Hacker News",
-      "title": "尼康摄影大赛获奖者因 AI 痕迹被取消资格",
-      "finding": "尼康摄影比赛一名获奖者被科学家识别出画面存在 AI 生成迹象，随后被取消头衔。事件在 Hacker News 获得 133 分讨论，凸显 AI 内容鉴别的现实需求。",
-      "key_data": [
-        "尼康摄影大赛",
-        "AI 痕迹被识破",
-        "取消获奖资格"
-      ],
-      "judgment": "AI 内容鉴别正从技术议题变成赛事、媒体、平台的刚性合规需求，检测工具市场被打开。",
-      "confidence": 4,
-      "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
-      "importance": 2
+      "url": "https://www.infoq.cn/article/O7lcxqKD2avRPbNoMmtg?utm_source=rss&utm_medium=article",
+      "importance": 3
     }
   ],
   "opinions": [
     {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "我做了一个很奇怪但很具体的裁剪工具 Seam Cutter：在图片上切一条横线或竖线，然后把两边相对滑动。它体现的是 LLM 时代'想到一个小工具就立刻做出来'的新工作方式。",
+      "source": "https://simonwillison.net/2026/Oct/25/seam-cutter/"
+    },
+    {
       "person": "Apollo 首席经济学家",
-      "level": "L3",
-      "quote": "尽管 AI 投入巨大、宣传铺天盖地，但除科技行业外，美国企业从 AI 中获得的财务回报基本为零。",
+      "level": "L2",
+      "quote": "尽管 AI 投入巨大、炒作广泛，但除科技行业外，AI 对美国企业界带来的财务回报为零。",
       "source": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
     },
     {
-      "person": "UC Berkeley 数学教授",
+      "person": "前 Stripe 工程高管",
       "level": "L2",
-      "quote": "学生普遍用 AI 完成作业后，批改作业已经看不到意义了——评估体系必须重构。",
-      "source": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html"
+      "quote": "中层技术经理要么重新学技术，要么考虑退休。未来三年工程管理将彻底变样。",
+      "source": "https://www.infoq.cn/article/hhxL1M65UU3Iwr4ovALT?utm_source=rss&utm_medium=article"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "LLM 价格战的成本结构与可持续性",
-      "reason": "80% 降幅背后是推理优化还是补贴换份额，直接决定中间层产品的生死",
+      "topic": "头部模型降价 80% 后的推理服务商生存空间",
+      "reason": "价格战直接改写中间层商业模式，值得系统测算成本结构与差异化路径。",
       "priority": "high"
     },
     {
-      "topic": "AI 生成代码的质量门禁与 PR 治理",
-      "reason": "1/4 PR 为 AI 垃圾，代码审查工具链存在明确的产品机会",
+      "topic": "KV Cache 压缩 99% 对长上下文产品设计的影响",
+      "reason": "长上下文成本骤降会改变 Agent 与 RAG 的产品取舍，值得动手验证。",
       "priority": "high"
     },
     {
-      "topic": "记忆原生架构对 Agent 长会话成本的影响",
-      "reason": "存储缩小 66 倍可能改写长上下文产品的经济模型，值得实测验证",
+      "topic": "企业 AI 的 ROI 量化框架",
+      "reason": "'零财务回报'论调下，能否算清账决定 To B AI 产品的续约率。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "价格战开打，AI 落地遇冷",
-  "summary_paragraph": "今天最值得关注的是两条互相印证的信号：一边是 OpenAI 和 Anthropic 数月内把 API 价格砍掉最多 80%，模型层正式进入价格战；另一边是 Apollo 经济学家直言 AI 对非科技企业「零财务回报」，说明降价并未换来落地。与此同时，Linux 基金会报告揭示 AI 写代码快 52% 却制造了四分之一「AI 垃圾 PR」，效率红利正在转化为治理成本。开源侧，南北阁以 Apache 2.0 放出 512K 上下文的 33B 教师模型，小 Agent 生态继续升温。整体看，行业正从「能力竞赛」转向「成本与交付」的硬仗。",
-  "_comment": "无",
+  "summary_one_line": "价格战与效率革命同时到来",
+  "summary_paragraph": "今天最值得注意的不是某个新模型，而是两条曲线同时拐弯：一边是 OpenAI 和 Anthropic 数月内把 API 价格砍掉最多 80%，另一边是开源团队把长上下文推理的 KV Cache 压掉 99%、单卡吞吐提升 6 倍。成本端双向塌陷，意味着'长上下文+多 Agent'正从奢侈品变成可规模化能力。但 Apollo 经济学家的'零财务回报'论提醒我们，卖铲子的人先赚到了钱，用铲子的人还没算过账。与此同时，伯克利教授因 AI 放弃批改作业、尼康摄影奖被 AI 作品攻破，说明真实性与评估体系的重建已经迫在眉睫。",
+  "_comment": "top_items 与分类板块无重复；opinions 覆盖 L2 观察者与行业声音；今日无 L1 实践者一手输出，故未收录 L1 观点。",
   "snapshot": {
     "date": "2026-10-26",
     "hf_trending": [
       {
         "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "short_name": "DeepSeek-V4.1-Flash-1017",
-        "likes": 2992,
+        "likes": 3042,
         "downloads": 85275,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "tags": [
@@ -231,7 +293,7 @@
       {
         "name": "RecursiveSI/flint",
         "short_name": "flint",
-        "likes": 861,
+        "likes": 874,
         "downloads": 6444,
         "url": "https://huggingface.co/RecursiveSI/flint",
         "tags": [
@@ -247,7 +309,7 @@
       {
         "name": "black-forest-labs/flux-3-image-klein-comfy",
         "short_name": "flux-3-image-klein-comfy",
-        "likes": 1605,
+        "likes": 1627,
         "downloads": 660874,
         "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
         "tags": [
@@ -263,7 +325,7 @@
       {
         "name": "XHToken/Spark-X2.6-4B",
         "short_name": "Spark-X2.6-4B",
-        "likes": 514,
+        "likes": 541,
         "downloads": 3488,
         "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
         "tags": [
@@ -277,25 +339,9 @@
         "trend": "same"
       },
       {
-        "name": "Lightricks/LTX-2.5",
-        "short_name": "LTX-2.5",
-        "likes": 9342,
-        "downloads": 2107108,
-        "url": "https://huggingface.co/Lightricks/LTX-2.5",
-        "tags": [
-          "diffusion-single-file",
-          "image-to-video",
-          "text-to-video"
-        ],
-        "pipeline_tag": "image-to-video",
-        "label": "图生视频",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "Nanbeige/Nanbeige4.3-33B",
         "short_name": "Nanbeige4.3-33B",
-        "likes": 387,
+        "likes": 456,
         "downloads": 0,
         "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
         "tags": [
@@ -309,9 +355,25 @@
         "trend": "new"
       },
       {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 9362,
+        "downloads": 2107108,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "MiniMaxAI/MiniMax-M3.1-Flash",
         "short_name": "MiniMax-M3.1-Flash",
-        "likes": 353,
+        "likes": 360,
         "downloads": 7355,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
         "tags": [
@@ -327,7 +389,7 @@
       {
         "name": "OpenMOSS-Team/MOSS-Image-SFT",
         "short_name": "MOSS-Image-SFT",
-        "likes": 729,
+        "likes": 735,
         "downloads": 10757,
         "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
         "tags": [
@@ -345,45 +407,45 @@
       {
         "name": "makecindy/cindy",
         "desc": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-        "stars": 4945,
+        "stars": 5351,
         "stars_today": 675,
-        "forks": 671,
+        "forks": 700,
         "language": "TypeScript",
         "url": "https://github.com/makecindy/cindy"
       },
       {
         "name": "Nutlope/hallmark",
         "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-        "stars": 33922,
+        "stars": 34587,
         "stars_today": 1317,
-        "forks": 1771,
+        "forks": 1797,
         "language": "CSS",
         "url": "https://github.com/Nutlope/hallmark"
       },
       {
         "name": "debpalash/VoiceStudio",
         "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, vi",
-        "stars": 86950,
+        "stars": 87483,
         "stars_today": 1592,
-        "forks": 9622,
+        "forks": 9666,
         "language": "Python",
         "url": "https://github.com/debpalash/VoiceStudio"
       },
       {
         "name": "pbakaus/impeccable",
         "desc": "The design language that makes your AI harness better at design.",
-        "stars": 87776,
+        "stars": 88162,
         "stars_today": 1092,
-        "forks": 5246,
+        "forks": 5265,
         "language": "Rust",
         "url": "https://github.com/pbakaus/impeccable"
       },
       {
         "name": "pollen-robotics/microduck",
         "desc": "A Tiny biped duck robot 🦆",
-        "stars": 11704,
+        "stars": 11954,
         "stars_today": 647,
-        "forks": 1488,
+        "forks": 1506,
         "language": "Rust",
         "url": "https://github.com/pollen-robotics/microduck"
       }
@@ -500,6 +562,6 @@
         "url": "https://openrouter.ai/meta/muse-spark-1.3-contributor"
       }
     ],
-    "hf_summary": "视频与多模态模型热度领跑 文本生成明显降温"
+    "hf_summary": "多模态与视频生成热度碾压纯文本，开源模型正加速向多模态实用化演进"
   }
 }
