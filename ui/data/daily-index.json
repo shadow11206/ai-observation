@@ -1,6 +1,13 @@
 {
-  "total": 213,
+  "total": 214,
   "reports": [
+    {
+      "date": "2026-10-27",
+      "title": "今日 AI 日报：Anthropic 正式递交 IPO 申请，目标 11 月 16 日当周登陆纳斯达克 + 4 条重要动态",
+      "excerpt": "这是生成式 AI 从「烧钱叙事」转向「公开市场定价」的分水岭。S-1 把 Ant…",
+      "top_count": 5,
+      "file": "2026-10-27.json"
+    },
     {
       "date": "2026-10-26",
       "title": "今日 AI 日报：OpenAI 与 Anthropic 数月内将 LLM 价格最高下调 80% + 4 条重要动态",
