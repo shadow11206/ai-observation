@@ -3,300 +3,128 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Anthropic 递交 S-1 招股书，估值区间 1.5 万亿至 2 万亿美元",
-      "finding": "Anthropic 正式向美国证监会公开递交招股书，计划以代码 ANT 登陆纳斯达克。招股书显示其 2026 年上半年营收 162.86 亿美元，增速约 1400%，毛利率 85%，Q2 已实现 10 亿美元经营利润，账上现金 1340 亿美元。",
+      "title": "Anthropic 递交 S-1 招股书，估值讨论区间达 1.5 万亿至 2 万亿美元",
+      "finding": "Anthropic 于 10 月 26 日正式向美国证监会递交 S-1 招股书，计划在纳斯达克上市，代码 ANT。2026 年上半年营收 162.86 亿美元，估值讨论区间已到 1.5 万亿至 2 万亿美元。招股书同时披露了复杂的治理结构，以及亚马逊通过债转股获得的巨额持股。",
       "key_data": [
-        "估值1.5-2万亿美元",
-        "上半年营收162.86亿",
-        "毛利率85%",
-        "Q2经营利润10亿"
+        "估值 1.5-2 万亿美元",
+        "上半年营收 162.86 亿美元",
+        "代码 ANT",
+        "亚马逊债转股大赢家"
       ],
-      "judgment": "这是 AI 行业第一个真正意义上的超级 IPO，把'模型公司能否赚钱'的争论直接终结——85% 毛利率和正向经营利润说明前沿模型已是高毛利生意。对开发者意味着 API 定价逻辑将被资本市场重新审视，对企业客户意味着供应商锁定风险需要重新评估。",
-      "confidence": 5,
-      "source": "Latent Space / 极客公园",
-      "url": "https://latent.space/p/ainews-anthropic-s1/"
+      "judgment": "这是 AI 行业第一个真正意义上的超级 IPO，将把整个行业的估值锚定从私募市场拉到公开市场。对从业者意味着：融资逻辑、人才定价、企业采购决策都会被重新校准，Anthropic 的财务透明度也会成为同行被审视的标尺。",
+      "confidence": 4,
+      "source": "极客公园 / TechCrunch",
+      "url": "http://www.geekpark.net/news/373006"
     },
     {
       "rank": 2,
-      "title": "Google DeepMind 发布 Genie 4：实时世界模拟模型",
-      "finding": "DeepMind 推出第四代世界模型 Genie 4，主打实时交互式模拟的'前所未有的真实感'。这是世界模型从研究演示走向可交互产品的关键一步，直接对标具身智能训练和游戏/仿真场景。",
+      "title": "OpenAI 发布 GPT-6.1 Terra：比旗舰快 3 倍，价格仅 1/10",
+      "finding": "OpenAI 推出 GPT-6.1 Terra，定位为轻量高速版本，速度比旗舰模型快 3 倍，价格只有旗舰的十分之一，事实错误率暴降近 70%。同时 GPT-6 Astra 在 Retell 的语音 Agent 基准上排名第一，Codex 帮助客户达到每员工 160 万美元年化营收。",
+      "key_data": [
+        "快 3 倍",
+        "价格 1/10",
+        "错误率降 70%",
+        "GPT-6 Astra 语音第一"
+      ],
+      "judgment": "轻量模型价格打到旗舰的十分之一、错误率还大幅下降，意味着高频 Agent 场景（语音客服、批量代码生成）的单位经济模型被彻底改写。做 Agent 产品的团队应该立刻重算成本结构，之前因成本不敢做的场景现在可以做了。",
+      "confidence": 4,
+      "source": "InfoQ / OpenAI Blog",
+      "url": "https://www.infoq.cn/article/28VVsANi9FBYRKfUz8vA"
+    },
+    {
+      "rank": 3,
+      "title": "Google DeepMind 发布 Genie 4：实时世界模拟进入新世代",
+      "finding": "DeepMind 推出 Genie 4 世界模型，主打实时模拟中的前所未有的真实感。这是 Genie 系列的第四代，从可交互世界生成向实时、高保真模拟演进。",
       "key_data": [
         "Genie 4",
         "实时模拟",
         "世界模型",
-        "DeepMind"
+        "真实感大幅提升"
       ],
-      "judgment": "世界模型正在成为继 LLM 之后的下一个平台级赛道。对机器人公司意味着仿真训练数据成本可能大幅下降，对内容/游戏行业意味着'可交互生成世界'从概念进入工程化阶段。国内具身智能团队应重点关注其开放程度。",
-      "confidence": 5,
+      "judgment": "世界模型是具身智能和游戏/仿真训练的数据引擎。Genie 4 的实时性如果属实，意味着机器人训练和交互式内容生产的成本曲线会再次下移，值得关注它对 Physical AI 数据飞轮的加速作用。",
+      "confidence": 4,
       "source": "Google DeepMind Blog",
       "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
     },
     {
-      "rank": 3,
-      "title": "亚马逊 AI 部门被曝大幅裁撤，Nova 模型遭遇持续失败",
-      "finding": "据 Futurism 报道，亚马逊正在削减其 AI 研发部门，自研 Nova 模型系列未能取得预期市场效果。这与 AWS 在模型层被 OpenAI/Anthropic 压制的现实一致，亚马逊正转向'卖算力+做渠道'而非'做最强模型'。",
-      "key_data": [
-        "Nova 模型失败",
-        "AI 部门裁撤",
-        "AWS 转向渠道",
-        "HN 268 分"
-      ],
-      "judgment": "大厂自研基础模型的窗口正在关闭。亚马逊的撤退说明：没有顶级研究人才密度和长期投入决心，做通用基座模型是负期望值游戏。对创业公司是利好——模型层玩家减少，应用层和基础设施层机会更清晰。",
-      "confidence": 3,
-      "source": "Futurism / Hacker News",
-      "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova"
-    },
-    {
       "rank": 4,
-      "title": "OpenAI 与 Oracle 扩大合作，企业应用与 Agent 直接嵌入 ChatGPT",
-      "finding": "OpenAI 宣布与 Oracle 深化合作，把 Oracle 的企业业务应用和 AI Agent 接入 ChatGPT，同时为 Oracle 产品提供模型能力。这是 ChatGPT 从'聊天工具'向'企业工作入口'演进的又一动作。",
+      "title": "物理 RSI 第一站：便利店打工机器人实现无人在环自我进化",
+      "finding": "量子位报道，机器人已在便利店真实场景中打工，通过无人在环的进店实测啃下长尾场景，物理 AI 的自我进化飞轮开始转动。同期还有报道称乔布斯的皮克斯团队盛赞中国物理 AI 数据终端。",
       "key_data": [
-        "Oracle 应用进 ChatGPT",
-        "企业 Agent",
-        "双向集成"
+        "无人在环",
+        "便利店实测",
+        "长尾场景",
+        "物理 RSI"
       ],
-      "judgment": "ChatGPT 正在变成企业软件的超级入口，而不是被企业软件调用。这对 SaaS 厂商是警示：如果你的产品只是被 Agent 调用的一个 API，价值会被平台方抽走。企业软件需要重新思考'不可替代的交互层'在哪里。",
-      "confidence": 5,
-      "source": "OpenAI Blog",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt"
+      "judgment": "物理世界的递归自我改进（RSI）从论文走向门店，是具身智能商业化的关键信号。谁能拿到真实场景的长尾数据闭环，谁就掌握下一阶段壁垒——这对国内具身智能公司是明确的方向指引。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/505799.html"
     },
     {
       "rank": 5,
-      "title": "Manus 发布 2.0 宣言：用 Manus 改造 Manus，工程师同时开多个 Agent Session",
-      "finding": "Manus 联合创始人张涛发长文《用 Manus 改造 Manus》，描述内部工程师已习惯同时开启多个 Codex 和 Manus 会话并行处理需求，产品进入 2.0 阶段。这是 AI 原生工作流从'辅助'走向'并行代理'的实操样本。",
+      "title": "Manus 联合创始人发长文《用 Manus 改造 Manus》，宣告 2.0 宣言",
+      "finding": "Manus 产品合伙人张涛（HideCloud）在公众号发布长文，描述工程师同时开着一排 Codex 和 Manus Session、直接把 Slack 需求原文丢进去的工作方式，被视为 Manus 2.0 的产品宣言。",
       "key_data": [
-        "Manus 2.0",
+        "用 Manus 改造 Manus",
         "多 Session 并行",
-        "Codex+Manus 混用",
-        "AI 原生工作流"
+        "Slack 需求直投",
+        "2.0 宣言"
       ],
-      "judgment": "真正的信号不是 Manus 2.0 本身，而是'一个人同时管理多个 Agent'已成为一线团队的真实工作方式。这意味着 AI 产品的竞争焦点从'单次对话质量'转向'多任务编排与上下文管理'，Agent 编排层会是下一个产品高地。",
+      "judgment": "这是 AI 原生工作流的一手样本：需求不再被翻译成任务卡，而是原文直投给 Agent 并行执行。对产品经理的启示是，下一代生产力工具的竞争点在于「如何组织多个 Agent 的并行会话」，而非单次对话质量。",
       "confidence": 3,
       "source": "极客公园",
       "url": "http://www.geekpark.net/news/373004"
     }
   ],
-  "model_tech": [
-    {
-      "source": "Hugging Face Blog",
-      "title": "Liquid AI 发布 LFM3：可构建专用多模态模型",
-      "finding": "Liquid AI 推出 LFM3 系列，主打在特定领域构建专用多模态模型，而非追求通用能力。延续其非 Transformer 架构路线，强调端侧和效率。",
-      "key_data": [
-        "LFM3",
-        "专用多模态",
-        "非 Transformer",
-        "端侧效率"
-      ],
-      "judgment": "专用小模型 + 高效架构是避开巨头正面战场的合理路径，端侧多模态值得关注。",
-      "confidence": 4,
-      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv cs.CL",
-      "title": "线性时间上下文压缩：基于状态空间编码的新方法",
-      "finding": "研究者提出用状态空间编码实现线性时间的上下文压缩，试图解决 Transformer 长上下文计算和内存开销随长度平方增长的问题。",
-      "key_data": [
-        "线性时间",
-        "状态空间编码",
-        "长上下文压缩"
-      ],
-      "judgment": "长上下文成本是 Agent 规模化的核心瓶颈，此类架构创新若可落地将直接降低 Agent 运行成本。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2610.33006",
-      "importance": 3
-    },
-    {
-      "source": "Reddit r/MachineLearning",
-      "title": "Ψ-0.6：统一视觉-语言世界模型中的自适应思维流",
-      "finding": "研究者发布 Ψ-0.6，把思维链从纯文本扩展到深度、运动、相机等物理维度，让模型在统一视觉-语言世界模型中'用多种模态思考'。",
-      "key_data": [
-        "多模态思维链",
-        "世界模型",
-        "物理推理"
-      ],
-      "judgment": "把 CoT 从语言扩展到物理世界是具身智能的关键拼图，方向正确但需看评测实证。",
-      "confidence": 2,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xgwq9u/ψ06_adaptive_streams_of_thought_in_a_unified/",
-      "importance": 3
-    },
-    {
-      "source": "Hugging Face Blog (AllenAI)",
-      "title": "LLM 能可信地判断研究想法是否新颖吗？Novelty Bench 给出答案",
-      "finding": "AllenAI 发布 Novelty Bench，系统评测 LLM 作为'研究新颖性评审'的可靠性，结论倾向于当前模型在此任务上存在明显偏差。",
-      "key_data": [
-        "Novelty Bench",
-        "AI 评审可靠性",
-        "新颖性判断"
-      ],
-      "judgment": "在把 AI 用于科研评审前，这类基准是必要的刹车，避免 AI 评审放大同质化。",
-      "confidence": 4,
-      "url": "https://huggingface.co/blog/allenai/novelty-bench",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv cs.AI",
-      "title": "大模型中的前景理论：损失厌恶与概率权重的元分析",
-      "finding": "一项元分析系统检验 LLM 是否表现出类似人类的前景理论偏差，包括损失厌恶、敏感度递减和概率权重扭曲。",
-      "key_data": [
-        "前景理论",
-        "损失厌恶",
-        "元分析"
-      ],
-      "judgment": "理解模型的'类人偏差'对 Agent 决策可靠性至关重要，是行为对齐研究的新切口。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2610.33103",
-      "importance": 2
-    }
-  ],
-  "company_product": [
-    {
-      "source": "Latent Space",
-      "title": "Anthropic 如何安全交付全球第一 LLM：把'大脑'和'手'分离",
-      "finding": "Latent Space 访谈 Anthropic 平台团队，详解 Opus 5.5 发布背后的工程：将模型'大脑'与 Agent'手'（工具执行层）解耦，以支撑 API 规模化与安全边界。",
-      "key_data": [
-        "Opus 5.5",
-        "大脑/手分离",
-        "Agent 平台架构"
-      ],
-      "judgment": "'模型与执行层解耦'正成为 Agent 平台的标准架构，值得所有做 Agent 产品的团队参考。",
-      "confidence": 4,
-      "url": "https://latent.space/p/opus55/",
-      "importance": 4
-    },
-    {
-      "source": "OpenAI Blog",
-      "title": "Retell 用 OpenAI 模型支撑每月 1 亿通电话",
-      "finding": "语音 Agent 公司 Retell 披露其月通话量达 1 亿次，GPT-6 Astra 在其语音 Agent 基准上排名第一，Codex 帮助其人均年化营收达 160 万美元。",
-      "key_data": [
-        "月通话1亿次",
-        "GPT-6 Astra",
-        "人均营收160万美元"
-      ],
-      "judgment": "语音 Agent 已进入规模化商用，'人均营收 160 万美元'是 AI 原生公司效率的新标杆。",
-      "confidence": 5,
-      "url": "https://openai.com/index/retell-ai",
-      "importance": 4
-    },
-    {
-      "source": "极客公园",
-      "title": "Agent 抢购 iPhone 折叠屏，Shopify AI 交易订单增长 13 倍",
-      "finding": "iPhone Duo 预购中大量订单由 Agent 自动完成，Shopify 披露其平台 AI 驱动的交易订单同比增长 13 倍。电商正在为'Agent 作为买家'重构交互。",
-      "key_data": [
-        "AI订单增长13倍",
-        "Agent抢购",
-        "电商Agent化"
-      ],
-      "judgment": "电商的第一个 Agent 原生场景已出现：不是导购，而是代抢代买。平台需尽快设计 Agent 身份与风控体系。",
-      "confidence": 3,
-      "url": "http://www.geekpark.net/news/373002",
-      "importance": 3
-    },
-    {
-      "source": "极客公园",
-      "title": "启元机器人第 5000 台个人机器人下线",
-      "finding": "启元机器人宣布第 5000 台个人机器人下线，距其 Q1/T1 两款产品发售仅一个月，标志其从研发走向可复制的规模化制造。",
-      "key_data": [
-        "5000台下线",
-        "一个月爬坡",
-        "个人机器人"
-      ],
-      "judgment": "个人机器人开始验证'量产-交付-迭代'闭环，但 5000 台仍是小批量，商业化验证才刚开始。",
-      "confidence": 3,
-      "url": "http://www.geekpark.net/news/373003",
-      "importance": 2
-    },
-    {
-      "source": "InfoQ",
-      "title": "TypeSafe AI 发布 Jev：只返回类型化概率而非文本的决策模型",
-      "finding": "TypeSafe AI 推出 Jev，一种不生成自然语言、只输出类型化概率分布的决策模型，面向需要确定性输出的业务决策场景。",
-      "key_data": [
-        "类型化概率",
-        "非文本输出",
-        "决策模型"
-      ],
-      "judgment": "在风控、定价等场景，'概率而非文本'是更工程化的接口设计，可能开辟一条新品类。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/3o7gwgKJt2SbH8AhdpkU",
-      "importance": 2
-    },
-    {
-      "source": "InfoQ",
-      "title": "Docker Cloud Sandboxes 提供笔记本与云端一致的沙箱抽象",
-      "finding": "Docker 推出 Cloud Sandboxes，让开发者在本地笔记本和云端获得一致的沙箱环境抽象，主要面向 AI Agent 代码执行等需要隔离运行的需求。",
-      "key_data": [
-        "一致沙箱抽象",
-        "本地/云端",
-        "Agent 代码执行"
-      ],
-      "judgment": "Agent 安全执行环境正在成为基础设施标配，Docker 入场说明这块需求已从自建走向标准化。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/gXKvW3g4KXhTTiIaJFkl",
-      "importance": 2
-    }
-  ],
+  "model_tech": [],
+  "company_product": [],
   "opinions": [
     {
       "person": "张涛（Manus 产品合伙人）",
       "level": "L1",
-      "quote": "工程师电脑上开着一排 Codex 和 Manus 的 Session，输入就是 Slack 上的需求原文——AI 原生团队的工作方式已经不是'用 AI 辅助'，而是'同时指挥多个 Agent 并行干活'。",
+      "quote": "工程师电脑上开着一排 Codex 和 Manus 的 Session，输入就是 Slack 上刚发的需求原文——需求不再被翻译成任务卡，而是原文直投给多个 Agent 并行执行。这是 AI 原生工作流的真实形态。",
       "source": "http://www.geekpark.net/news/373004"
     },
     {
-      "person": "Simon Willison",
+      "person": "Swyx（Latent Space）",
       "level": "L2",
-      "quote": "在 GitHub Universe 现场，会议胸牌已经是一台完整的彩色屏计算机——硬件可编程化让'随身带一个可改造的计算设备'变得平常，这对 AI 端侧应用是个有趣信号。",
-      "source": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/"
+      "quote": "Anthropic 的核心工程哲学是「把大脑和手分开」：模型负责推理，Agent 平台负责执行与安全边界。Opus 5.5 的发布和 Claude Platform 的规模化，都建立在这个分离架构上。",
+      "source": "https://latent.space/p/opus55/"
     },
     {
-      "person": "Hacker News 社区（620 分热帖作者）",
+      "person": "Gergely Orosz（The Pragmatic Engineer）",
       "level": "L2",
-      "quote": "AI 承诺减少工作，我却从没这么忙过——工具变快后，任务边界和审查负担同步膨胀，'AI 提效'在个体层面常常转化为更多的工作量而非更少。",
-      "source": "https://oioannou.com/blog/ai-promised-less-work/"
+      "quote": "「AI SRE」正成为热门词汇，但关键问题是：有没有哪个 AI SRE 真的在工程师睡觉时值过班？花哨的 demo 和真实 on-call 之间还有巨大鸿沟。",
+      "source": "https://newsletter.pragmaticengineer.com/p/ai-sre"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "Anthropic S-1 招股书精读：收入结构、云厂商分成与治理架构",
-      "reason": "首个前沿模型公司财务全貌，决定行业估值锚点与 API 定价预期",
+      "topic": "Anthropic S-1 招股书精读：营收结构、治理设计与亚马逊持股",
+      "reason": "首个 AI 超级 IPO 的财务底牌，决定行业估值锚与竞争格局",
       "priority": "high"
     },
     {
-      "topic": "世界模型（Genie 4 / Ψ-0.6）与具身智能训练数据的关系",
-      "reason": "可能重构机器人仿真训练成本结构，是下一个平台级赛道",
+      "topic": "GPT-6.1 Terra 定价策略对 Agent 产品成本模型的重构",
+      "reason": "价格 1/10 + 错误率降 70%，高频 Agent 场景经济性需重算",
       "priority": "high"
     },
     {
-      "topic": "Agent 平台架构：模型'大脑'与工具'手'的解耦设计",
-      "reason": "Anthropic 实践已成型，是 Agent 产品工程化的标准参考",
+      "topic": "物理 RSI：真实场景无人在环自我进化的技术路径与数据闭环",
+      "reason": "具身智能商业化的关键分水岭，决定下一阶段壁垒归属",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "Anthropic 万亿 IPO 定调，世界模型接棒",
-  "summary_paragraph": "今天最重要的信号来自 Anthropic：S-1 招股书公开，1.5-2 万亿美元估值、85% 毛利率和 Q2 正向经营利润，第一次用财务数据证明前沿模型是高毛利生意，也把整个行业的估值锚点抬到了新高度。技术侧，DeepMind 的 Genie 4 让世界模型从演示走向实时交互，与 Ψ-0.6 的多模态思维链一起，指向具身智能的下一个基础设施层。反面案例是亚马逊 AI 部门被曝裁撤，说明大厂做通用基座模型的窗口正在关闭。产品侧，ChatGPT 接入 Oracle 企业应用、Manus 展示多 Agent 并行工作流、Retell 月通话破亿，共同勾勒出'Agent 成为工作入口'的轮廓。",
+  "summary_one_line": "Anthropic 冲刺超级 IPO，轻量模型改写 Agent 成本",
+  "summary_paragraph": "今天最重要的信号来自资本市场与成本曲线两端。Anthropic 递交 S-1，估值讨论区间高达 1.5 万亿至 2 万亿美元，AI 行业第一次被拉到公开市场接受定价审视；与此同时 OpenAI 用 GPT-6.1 Terra 把轻量模型价格打到旗舰的十分之一、错误率降七成，高频 Agent 场景的经济模型被彻底改写。技术侧，DeepMind Genie 4 把实时世界模拟推向新世代，国内便利店机器人实现无人在环的物理自我进化，Manus 则用一篇长文展示了多 Agent 并行会话的 AI 原生工作流。资本、成本、物理世界三条线同时加速，行业正从「能力竞赛」转向「经济性与数据闭环」的竞赛。",
   "snapshot": {
     "date": "2026-10-28",
     "hf_trending": [
       {
-        "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
-        "short_name": "DeepSeek-V4.1-Flash-1017",
-        "likes": 3395,
-        "downloads": 105667,
-        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "deepseek_v41"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "RecursiveSI/flint",
         "short_name": "flint",
-        "likes": 984,
+        "likes": 1092,
         "downloads": 10574,
         "url": "https://huggingface.co/RecursiveSI/flint",
         "tags": [
@@ -310,9 +138,25 @@
         "trend": "same"
       },
       {
+        "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "short_name": "DeepSeek-V4.1-Flash-1017",
+        "likes": 3451,
+        "downloads": 105667,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v41"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "Nanbeige/Nanbeige4.3-33B",
         "short_name": "Nanbeige4.3-33B",
-        "likes": 676,
+        "likes": 684,
         "downloads": 4785,
         "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
         "tags": [
@@ -328,7 +172,7 @@
       {
         "name": "XHToken/Spark-X2.6-4B",
         "short_name": "Spark-X2.6-4B",
-        "likes": 798,
+        "likes": 819,
         "downloads": 6191,
         "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
         "tags": [
@@ -344,7 +188,7 @@
       {
         "name": "black-forest-labs/flux-3-image-klein-comfy",
         "short_name": "flux-3-image-klein-comfy",
-        "likes": 1866,
+        "likes": 1888,
         "downloads": 750694,
         "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
         "tags": [
@@ -360,7 +204,7 @@
       {
         "name": "MiniMaxAI/MiniMax-M3.1-Flash",
         "short_name": "MiniMax-M3.1-Flash",
-        "likes": 422,
+        "likes": 431,
         "downloads": 11075,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
         "tags": [
@@ -376,7 +220,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 9589,
+        "likes": 9612,
         "downloads": 2163739,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -392,7 +236,7 @@
       {
         "name": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
         "short_name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-        "likes": 403,
+        "likes": 408,
         "downloads": 1105751,
         "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
         "tags": [
@@ -410,45 +254,45 @@
       {
         "name": "elayadesign/ai-design-skills",
         "desc": "",
-        "stars": 9489,
+        "stars": 10177,
         "stars_today": 1395,
-        "forks": 679,
+        "forks": 735,
         "language": "—",
         "url": "https://github.com/elayadesign/ai-design-skills"
       },
       {
         "name": "Nutlope/hallmark",
         "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-        "stars": 39103,
+        "stars": 39579,
         "stars_today": 2830,
-        "forks": 2041,
+        "forks": 2068,
         "language": "CSS",
         "url": "https://github.com/Nutlope/hallmark"
       },
       {
         "name": "nightly-labs/openbot",
         "desc": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedica",
-        "stars": 2500,
+        "stars": 2742,
         "stars_today": 777,
-        "forks": 253,
+        "forks": 277,
         "language": "TypeScript",
         "url": "https://github.com/nightly-labs/openbot"
       },
       {
         "name": "obra/superpowers",
         "desc": "An agentic skills framework &amp; software development methodology that works.",
-        "stars": 306478,
+        "stars": 306761,
         "stars_today": 617,
-        "forks": 27281,
+        "forks": 27306,
         "language": "Shell",
         "url": "https://github.com/obra/superpowers"
       },
       {
         "name": "pbakaus/impeccable",
-        "desc": "The design language that makes your AI harness better at design.",
-        "stars": 90633,
+        "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and ",
+        "stars": 91076,
         "stars_today": 1449,
-        "forks": 5378,
+        "forks": 5394,
         "language": "Rust",
         "url": "https://github.com/pbakaus/impeccable"
       }
@@ -459,7 +303,7 @@
         "slug": "deepseek/deepseek-v4.1-flash",
         "name": "DeepSeek V4.1 Flash",
         "org": "deepseek",
-        "total_tokens": 8403001441017,
+        "total_tokens": 8403001511159,
         "total_tokens_str": "8.4T",
         "api_calls": 0,
         "change": 10.0,
@@ -547,7 +391,7 @@
         "slug": "z-ai/glm-5.3",
         "name": "GLM 5.3",
         "org": "z-ai",
-        "total_tokens": 705426965891,
+        "total_tokens": 705427060737,
         "total_tokens_str": "705B",
         "api_calls": 0,
         "change": -20.9,
@@ -565,6 +409,6 @@
         "url": "https://openrouter.ai/typesafe/jev-1.13"
       }
     ],
-    "hf_summary": "视频生成模型LTX-2.5热度断层领先 多模态与轻量文本模型紧随其后"
+    "hf_summary": "视频生成模型LTX-2.5以绝对热度领跑，多模态与轻量文本模型成主流"
   }
 }
