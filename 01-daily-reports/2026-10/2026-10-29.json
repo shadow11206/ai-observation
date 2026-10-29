@@ -1,0 +1,565 @@
+{
+  "date": "2026-10-29",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "谷歌发布 Gemini 4 Carbon：下一代前沿模型",
+      "finding": "谷歌 DeepMind 在官网发布 Gemini 4 Carbon，称其为「下一代前沿模型」，但官方博客正文极简，未披露参数、上下文长度或基准成绩。这是 Gemini 系列在 Gemini 3 之后的又一次代际跳跃，发布时间点紧贴 Alphabet 财报。",
+      "key_data": [
+        "Gemini 4 Carbon",
+        "DeepMind 官方博客",
+        "财报同日发布"
+      ],
+      "judgment": "模型代际命名开始「跳号+代号」并行，说明谷歌在抢叙事节奏而非等完整评测。对开发者而言，真正要看的是 API 定价和上下文窗口是否同步放开——官方信息缺位本身就是信号：能力叙事优先于工程细节。",
+      "confidence": 4,
+      "source": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+    },
+    {
+      "rank": 2,
+      "title": "Anthropic 取消编程面试：「饥饿感胜过资历」",
+      "finding": "Latent Space 的 AINews 报道 Anthropic 结束传统编程面试环节，理由是「编程已被解决」，转而考察候选人的驱动力与判断力。这是头部实验室第一次公开承认：用算法题筛人已经失去区分度。",
+      "key_data": [
+        "取消编程面试",
+        "Hunger beats tenure",
+        "编程已被解决"
+      ],
+      "judgment": "这是招聘范式的转折信号：当 AI 能写代码，考代码等于考打字。对国内大厂和 AI 创业公司的 HR 是直接冲击——面试流程、笔试题库、校招标准都要重做，否则筛出来的只是「会手写快排的人」。",
+      "confidence": 3,
+      "source": "Latent Space (Swyx)",
+      "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/"
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic 上线 AI 支出可视化工具，IPO 前夜亮账本",
+      "finding": "Anthropic 推出新工具，让企业客户看清自己的钱具体花在哪些模型、哪些用量上。TechCrunch 指出此举发生在公司计划 IPO 之前，意在向资本市场证明企业侧收入的可解释性与可预测性。",
+      "key_data": [
+        "支出可视化",
+        "IPO 前发布",
+        "企业客户"
+      ],
+      "judgment": "模型厂商的竞争正从「能力榜」转向「财务透明度」。对企业采购方是好事——成本归因终于可做；对竞品是压力——OpenAI 和谷歌迟早要跟进同级别的用量账单。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
+    },
+    {
+      "rank": 4,
+      "title": "微软单季从 OpenAI 相关安排中确认 100 亿美元收入",
+      "finding": "微软在截至 9 月 30 日的季度中，从与 OpenAI 的商业安排（含收入分成）中录得 100 亿美元收入，同时整体季度营收 92.3 亿美元级别增长 19%，并首次单独披露 Azure 季度收入 332 亿美元。",
+      "key_data": [
+        "100 亿美元",
+        "Azure 332 亿美元",
+        "营收增 19%"
+      ],
+      "judgment": "这组数字把「AI 泡沫论」暂时按住：微软已经从 AI 拿到真金白银，且 Azure 体量逼近 AWS。但要注意，100 亿里含分成与算力互售，属于关联交易口径，不能简单等同于终端市场需求。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+    },
+    {
+      "rank": 5,
+      "title": "Simon Willison：氛围游戏开发迎来十月拐点",
+      "finding": "Simon Willison 撰文称，继 2025 年 11 月编程 Agent 跨过临界点之后，2026 年 10 月是「vibe game development」的拐点——非专业开发者靠自然语言就能做出可玩的游戏原型。他把这归因于 Opus 4.5 与 GPT-5.1 之后 Agent 能力的持续外溢。",
+      "key_data": [
+        "vibe game dev",
+        "十月拐点",
+        "Opus 4.5/GPT-5.1"
+      ],
+      "judgment": "拐点判断来自最一线的工具评测者，可信度高。含义是：游戏、互动内容这类「重实现、轻资产」的品类，最先被 Agent 吃掉原型环节，独立开发者的竞争壁垒会从「会不会写」转向「想不想得到」。",
+      "confidence": 4,
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "量子位",
+      "title": "蚂蚁百灵开源 Ling-3.1-flash-1019，主打真实任务个人 Agent",
+      "finding": "蚂蚁集团旗下百灵大模型开源 Ling-3.1-flash-1019，定位从对话转向可执行真实任务的个人 Agent，强调轻量快速。",
+      "key_data": [
+        "Ling-3.1-flash",
+        "开源",
+        "个人 Agent"
+      ],
+      "judgment": "国内大厂开始用「开源+Agent 场景」抢开发者心智，轻量 flash 档位是价格战主战场。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/10/505928.html",
+      "importance": 4
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "英伟达发布 Nemotron 3.5 Transcribe 与 Granary v2 多语种转写模型",
+      "finding": "英伟达在 Hugging Face 发布 Nemotron 3.5 Transcribe 和 Granary v2，主打可提示、可适配的多语种智能转写，支持按指令调整输出。",
+      "key_data": [
+        "Nemotron 3.5",
+        "多语种转写",
+        "可提示适配"
+      ],
+      "judgment": "语音转写从「通用模型」走向「可提示定制」，企业会议与客服场景的落地门槛进一步降低。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "零训练把 EmbeddingGemma-2 音频榜从第 26 名推到第 1",
+      "finding": "开发者用 PCA 降维的 Conformer 中间层填充模型 256 维零空间，在 MAEB 30 项音频基准上把 EmbeddingGemma-2（577M）从第 26 名提升到第 1，全程零训练。",
+      "key_data": [
+        "577M 参数",
+        "零训练",
+        "第 26→第 1"
+      ],
+      "judgment": "「不改权重只改表征」的路线再次被验证，对做多模态检索的团队是低成本提分范本。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xho7pr/r_taking_embeddinggemma2_577m_from_rank_26_to_1/",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "OmniBrain-0：面向具身智能的统一 Agent 模型",
+      "finding": "论文提出 OmniBrain-0，让机器人用单一模型协调多种技能、跟踪长程任务进度并从失败中恢复，试图解决具身智能的长时程协调难题。",
+      "key_data": [
+        "统一 Agent 模型",
+        "长程任务",
+        "失败恢复"
+      ],
+      "judgment": "具身智能正从「单技能 demo」转向「长时程任务编排」，这是走向真实场景的必经一关。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.36013",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "「三位一体」：多模态 Agent 的能力驱动递归自我改进",
+      "finding": "论文提出让多模态 Agent 通过与世界交互实现递归自我改进的框架，试图突破当前扩展该过程面临的两大瓶颈。",
+      "key_data": [
+        "递归自我改进",
+        "多模态 Agent",
+        "人机协同演化"
+      ],
+      "judgment": "自我改进是 Agent 研究的圣杯，但论文阶段离工程可用仍有距离，值得跟踪不宜押注。",
+      "confidence": 2,
+      "url": "https://arxiv.org/abs/2610.36077",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "OpenAI Blog",
+      "title": "OpenAI 与 ServiceNow 扩大合作，打通企业工作流",
+      "finding": "双方扩大合作，把 OpenAI 模型与 Agent 嵌入 ServiceNow，同时把 ServiceNow 工作流接入 ChatGPT 和 Codex，形成双向集成。",
+      "key_data": [
+        "双向集成",
+        "ServiceNow",
+        "ChatGPT/Codex"
+      ],
+      "judgment": "企业 Agent 的战场从「单点工具」转向「工作流入口」，OpenAI 选择借 ServiceNow 的 IT 流程腹地落地。",
+      "confidence": 5,
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "importance": 4
+    },
+    {
+      "source": "OpenAI Blog",
+      "title": "Legora 用 OpenAI 模型搭建法律工作的 Agent 操作系统",
+      "finding": "OpenAI 官方案例介绍 Legora 如何用其模型、ChatGPT 与 Codex 加速法律工作流、扩展合同分析，把律师从低价值劳动中释放。",
+      "key_data": [
+        "法律 Agent",
+        "合同分析",
+        "Codex"
+      ],
+      "judgment": "法律是 Agent 商业化最快的垂直赛道之一，OpenAI 用客户案例做行业模板，意在复制到更多专业服务。",
+      "confidence": 5,
+      "url": "https://openai.com/index/legora",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "亚马逊云科技开源智能体「决策器」与「安全箱」",
+      "finding": "AWS 开源了 Agent 的决策组件与安全沙箱组件，但报道指出并发能力与冷启动问题仍未解决。",
+      "key_data": [
+        "开源",
+        "决策器+安全箱",
+        "冷启动未解"
+      ],
+      "judgment": "云厂商在抢 Agent 基础设施的标准定义权，但工程短板说明这类组件离生产级还有距离。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/YmgmEh686wTClmj3PY8o",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "谷歌将 AI 搜索广告扩展至全球，核心广告增速放缓",
+      "finding": "谷歌在 Alphabet 三季度财报（营收 1276 亿美元，同比增 25%）同期宣布把 AI 搜索广告推向全球，背景是传统搜索广告增长乏力。",
+      "key_data": [
+        "AI 搜索广告",
+        "营收 1276 亿美元",
+        "同比增 25%"
+      ],
+      "judgment": "AI 搜索的商业化正式进入「广告变现」阶段，这会重塑 SEO 与内容分发的游戏规则。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "importance": 4
+    },
+    {
+      "source": "极客公园",
+      "title": "即梦把剧本、导演、剪辑放进同一个工作室",
+      "finding": "字节即梦推出面向短剧创作者的一体化视频生成工作台，从剧本、人物设定、分镜到视频生成与后期剪辑打通，瞄准短剧工业化生产。",
+      "key_data": [
+        "一体化工作台",
+        "短剧生产",
+        "分镜到剪辑"
+      ],
+      "judgment": "视频生成竞争从「单镜头质量」转向「工作流整合」，谁先吃下短剧流水线谁就拿到高频付费场景。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/373066",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "小红书企业级 AI 助理 Seal：从三天 Demo 到一个月全员可用",
+      "finding": "小红书分享其企业级 AI 助理 Seal 的规模化实践，讲述如何在约一个月内从内部 Demo 推进到全员可用，并解决落地中的组织与工程问题。",
+      "key_data": [
+        "Seal",
+        "一个月全员",
+        "三天 Demo"
+      ],
+      "judgment": "这是国内少见的「企业内部 Agent 规模化」一手复盘，对做内部 AI 平台的团队参考价值高于厂商案例。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/eOqH5GJ5R6UuZGtlhL53",
+      "importance": 3
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L1",
+      "quote": "2025 年 11 月是编程 Agent 的拐点，Opus 4.5 和 GPT-5.1 让 Agent 真正可用；而 2026 年 10 月，同样的拐点正在「氛围游戏开发」上重演——非专业开发者靠自然语言就能做出可玩原型。",
+      "source": "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
+    },
+    {
+      "person": "Terk Terkowitz",
+      "level": "L2",
+      "quote": "如果你的工作没有从当前 AI 工具中受益，那是一个发现，不是失败。记录原因、分享给同行、带给你的管理者，并去寻找解决方案。",
+      "source": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/"
+    },
+    {
+      "person": "Ted Sanders",
+      "level": "L2",
+      "quote": "LLM 的表现是高度多维的，不存在固定排序——最擅长数学的模型不一定最擅长讲笑话。这种复杂性意味着任何单一榜单都无法代表模型的真实能力。",
+      "source": "https://simonwillison.net/2026/Oct/28/ted-sanders/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "编程面试取消之后：AI 时代工程师招聘标准如何重建",
+      "reason": "头部实验室已公开弃用算法题，国内招聘体系尚未反应，值得研究替代评估方案。",
+      "priority": "high"
+    },
+    {
+      "topic": "Gemini 4 Carbon 的真实能力与 API 定价",
+      "reason": "官方信息极简，需等评测与定价放出后判断是否改变模型选型格局。",
+      "priority": "high"
+    },
+    {
+      "topic": "企业 AI 支出可视化与成本归因方法论",
+      "reason": "Anthropic 开了头，企业采购将要求同级别账单透明度，值得提前设计内部成本体系。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "模型代际跳跃，招聘与商业化同步转向",
+  "summary_paragraph": "今天最值得注意的不是单点发布，而是三条线同时转向：谷歌用 Gemini 4 Carbon 抢代际叙事，Anthropic 取消编程面试并上线支出可视化工具，说明头部实验室已把「能力已足够」当作前提，转而争夺招聘标准与财务透明度的话语权。微软单季从 OpenAI 相关安排确认 100 亿美元收入、Azure 首次披露 332 亿美元，给泡沫论提供了反证。一线侧，Simon Willison 判断氛围游戏开发迎来十月拐点，Agent 能力正从写代码外溢到做产品。对企业与开发者，真正的信号是：评估体系、成本归因和工作流入口，正在取代模型榜单成为新的竞争焦点。",
+  "snapshot": {
+    "date": "2026-10-29",
+    "hf_trending": [
+      {
+        "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "short_name": "DeepSeek-V4.1-Flash-1017",
+        "likes": 3560,
+        "downloads": 116770,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v41"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "RecursiveSI/flint",
+        "short_name": "flint",
+        "likes": 1158,
+        "downloads": 14047,
+        "url": "https://huggingface.co/RecursiveSI/flint",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "flint"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Nanbeige/Nanbeige4.3-33B",
+        "short_name": "Nanbeige4.3-33B",
+        "likes": 724,
+        "downloads": 7412,
+        "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "XHToken/Spark-X2.6-4B",
+        "short_name": "Spark-X2.6-4B",
+        "likes": 858,
+        "downloads": 8222,
+        "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "spark2_5"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "MiniMaxAI/MiniMax-M3.1-Flash",
+        "short_name": "MiniMax-M3.1-Flash",
+        "likes": 456,
+        "downloads": 13247,
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "minimax_m3_vl"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+        "short_name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+        "likes": 439,
+        "downloads": 1377570,
+        "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+        "tags": [
+          "gguf",
+          "gsq",
+          "rco"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "black-forest-labs/flux-3-image-klein-comfy",
+        "short_name": "flux-3-image-klein-comfy",
+        "likes": 1959,
+        "downloads": 798943,
+        "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "image-generation"
+        ],
+        "pipeline_tag": "image-to-image",
+        "label": "Image To Image",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 9728,
+        "downloads": 2234788,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "JetBrains/thinkrail",
+        "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vi",
+        "stars": 5130,
+        "stars_today": 1068,
+        "forks": 267,
+        "language": "TypeScript",
+        "url": "https://github.com/JetBrains/thinkrail"
+      },
+      {
+        "name": "elayadesign/ai-design-skills",
+        "desc": "",
+        "stars": 11203,
+        "stars_today": 2139,
+        "forks": 805,
+        "language": "—",
+        "url": "https://github.com/elayadesign/ai-design-skills"
+      },
+      {
+        "name": "obra/superpowers",
+        "desc": "An agentic skills framework &amp; software development methodology that works.",
+        "stars": 307498,
+        "stars_today": 1095,
+        "forks": 27350,
+        "language": "Shell",
+        "url": "https://github.com/obra/superpowers"
+      },
+      {
+        "name": "HKUDS/DeepTutor",
+        "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+        "stars": 48109,
+        "stars_today": 2371,
+        "forks": 5965,
+        "language": "Python",
+        "url": "https://github.com/HKUDS/DeepTutor"
+      },
+      {
+        "name": "macro-inc/macro",
+        "desc": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked ",
+        "stars": 5452,
+        "stars_today": 117,
+        "forks": 520,
+        "language": "Rust",
+        "url": "https://github.com/macro-inc/macro"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 9734994343868,
+        "total_tokens_str": "9.7T",
+        "api_calls": 0,
+        "change": 15.9,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 2430423748498,
+        "total_tokens_str": "2.4T",
+        "api_calls": 0,
+        "change": 29.6,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 1451186454462,
+        "total_tokens_str": "1.5T",
+        "api_calls": 0,
+        "change": 7.5,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 4,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 1449406472094,
+        "total_tokens_str": "1.4T",
+        "api_calls": 0,
+        "change": 33.8,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 5,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 1017933943935,
+        "total_tokens_str": "1.0T",
+        "api_calls": 0,
+        "change": -7.5,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 6,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 1012282804503,
+        "total_tokens_str": "1.0T",
+        "api_calls": 0,
+        "change": -7.9,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 7,
+        "slug": "stepfun/step-5-preview",
+        "name": "Step 5 Preview",
+        "org": "stepfun",
+        "total_tokens": 960227433475,
+        "total_tokens_str": "960B",
+        "api_calls": 0,
+        "change": 19.8,
+        "url": "https://openrouter.ai/stepfun/step-5-preview"
+      },
+      {
+        "rank": 8,
+        "slug": "minimax/minimax-m3.1-flash",
+        "name": "MiniMax M3.1 Flash",
+        "org": "minimax",
+        "total_tokens": 899124188490,
+        "total_tokens_str": "899B",
+        "api_calls": 0,
+        "change": 6.5,
+        "url": "https://openrouter.ai/minimax/minimax-m3.1-flash"
+      },
+      {
+        "rank": 9,
+        "slug": "z-ai/glm-5.3",
+        "name": "GLM 5.3",
+        "org": "z-ai",
+        "total_tokens": 640819953855,
+        "total_tokens_str": "641B",
+        "api_calls": 0,
+        "change": -9.2,
+        "url": "https://openrouter.ai/z-ai/glm-5.3"
+      },
+      {
+        "rank": 10,
+        "slug": "typesafe/jev-1.13",
+        "name": "Jev 1.13",
+        "org": "typesafe",
+        "total_tokens": 628622440261,
+        "total_tokens_str": "629B",
+        "api_calls": 0,
+        "change": 7.9,
+        "url": "https://openrouter.ai/typesafe/jev-1.13"
+      }
+    ],
+    "hf_summary": "多模态与视频生成热度碾压文本模型，开源生态正加速向视觉创作倾斜"
+  }
+}
