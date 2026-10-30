@@ -1,0 +1,558 @@
+{
+  "date": "2026-10-30",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Mistral 开源 1 万亿参数多模态模型 Le Chonk，称在编程与安全上反超中国开源模型",
+      "finding": "法国 Mistral 把 Mistral Large 4（代号 Le Chonk）的权重完全开放，这是一个 1 万亿参数的多模态模型，官方称其为最强开源编程模型。Wired 报道称其在编程和网络安全基准上追平甚至超过 DeepSeek、智谱等中国头部开源模型。",
+      "key_data": [
+        "1 万亿参数",
+        "权重全开放",
+        "多模态",
+        "欧洲训练"
+      ],
+      "judgment": "开源模型的竞争重心正从「参数规模」转向「编程+安全」这类可验证的硬指标。欧洲厂商用一次全量开源直接对标中国开源阵营，意味着开源第一梯队的争夺已变成地缘竞争，企业选型时多了一个非中美选项，但 1T 参数的部署成本会限制其实际落地范围。",
+      "confidence": 4,
+      "source": "Mistral AI Blog / Wired",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/"
+    },
+    {
+      "rank": 2,
+      "title": "谷歌 Gemini 4 Carbon 登顶独立评测榜，但 Alphabet 单日市值蒸发 5000 亿美元",
+      "finding": "谷歌新前沿模型 Gemini 4 Carbon 在独立评测中领先，初期仅向受信任的网络安全防御方开放。同一天 Alphabet 股价一度跌超 13%，市值缩水逾 5000 亿美元，原因是搜索与广告营收不及预期，投资者担心 AI 正在侵蚀其核心现金牛。",
+      "key_data": [
+        "单日跌超 13%",
+        "市值蒸发 5000 亿美元",
+        "搜索广告不及预期",
+        "限可信防御方"
+      ],
+      "judgment": "这是本周最重要的信号：模型能力领先不再自动转化为商业安全。谷歌赢下评测榜却输掉华尔街，说明「AI 吞噬搜索」已从叙事变成财报事实。对所有依赖流量分发的产品来说，护城河正在被重估。",
+      "confidence": 4,
+      "source": "Latent Space / InfoQ / 极客公园",
+      "url": "https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9"
+    },
+    {
+      "rank": 3,
+      "title": "扩散模型杀入 Agent 主场：350 亿参数新模型速度比 Jev 快一倍",
+      "finding": "有团队把扩散模型用于 Agent 决策，做出 350 亿参数的决策模型，官方称速度比当前热门的 Jev 类决策模型快一倍。这挑战了「Agent 决策必须用自回归大模型」的默认假设。",
+      "key_data": [
+        "350 亿参数",
+        "速度提升 2 倍",
+        "扩散做决策",
+        "对标 Jev"
+      ],
+      "judgment": "Agent 的瓶颈正在从「会不会想」转向「想得多快、多便宜」。扩散路线若在真实任务上站得住，Agent 的推理成本结构会被改写，实时性场景（游戏、机器人、交互式工具）最先受益。但需警惕 benchmark 与真实任务之间的落差。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/505934.html"
+    },
+    {
+      "rank": 4,
+      "title": "OpenAI 更新 Model Spec，并披露前沿模型失准检测的分层监控机制",
+      "finding": "OpenAI 发布新版 Model Spec，用五项核心价值约束模型行为，强调判断力、人类能动性与对人类意图的忠实。同时公开其检测前沿模型失准和 Agent 越权行为的分层监控体系，目标是在事故升级前介入。",
+      "key_data": [
+        "五项核心价值",
+        "分层监控",
+        "Agent 越权检测",
+        "事故前介入"
+      ],
+      "judgment": "模型规范正在从「文档」变成「可执行的安全基础设施」。当 Agent 开始自主行动，对齐不再是研究话题而是产品发布的前置条件。这对做 Agent 产品的团队是明确信号：监控与可中断能力要写进架构，而不是事后补。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/updated-model-spec"
+    },
+    {
+      "rank": 5,
+      "title": "国防承包商员工把个人 Claude Agent 接入五角大楼安全网络，运行两个月才被发现",
+      "finding": "Wired 报道，埃森哲一名员工把个人 Claude Agent 部署到美国国防部网络上，持续运行约两个月才被识别并修补漏洞。同期 MIT 科技评论发文呼吁必须实时监控 AI Agent 的行为。",
+      "key_data": [
+        "运行 2 个月",
+        "五角大楼网络",
+        "个人 Agent 越界",
+        "实时监控呼声"
+      ],
+      "judgment": "这是 Agent 时代第一个标志性的「影子 IT」安全事故。Agent 的自主性和持久性让传统边界防护失效，企业需要把 Agent 身份、权限与行为审计当成一等公民来管。安全赛道会因此加速。",
+      "confidence": 4,
+      "source": "Wired / MIT Technology Review",
+      "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Hugging Face Blog",
+      "title": "IBM 发布 Granite Switch 4.1.1：像更新软件一样更新模型",
+      "finding": "IBM 推出 Granite Switch 4.1.1，主打「模型可像软件一样增量更新」的范式，降低企业替换模型的成本。",
+      "key_data": [
+        "增量更新",
+        "企业级",
+        "4.1.1 版本"
+      ],
+      "judgment": "模型版本管理正在工程化，企业 AI 的运维痛点被正面回应。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "importance": 3
+    },
+    {
+      "source": "Latent Space",
+      "title": "Elorian 推出诱饵计数基准，暴露前沿模型「看得见但想不明白」的差距",
+      "finding": "新基准通过设置视觉诱饵测试模型的视觉推理能力，结果显示前沿模型在感知与推理之间存在明显断层。Elorian 的 Glimpse 尝试用「以图思考」来弥合这一差距。",
+      "key_data": [
+        "诱饵计数基准",
+        "感知-推理断层",
+        "以图思考"
+      ],
+      "judgment": "多模态评测开始从「识别」走向「推理」，视觉 Agent 的真实能力被重新校准。",
+      "confidence": 3,
+      "url": "https://latent.space/p/elorian/",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "TKintegers K5：在 NVIDIA L4 上预填充与解码吞吐分别达 TorchAO FP8 的 3.21 倍和 3.10 倍",
+      "finding": "作者用平衡三进制权重表示实现 GPU 推理，在原生支持 FP8 的 L4 上仍大幅超过 FP8 基线，说明数值表示本身还有优化空间。",
+      "key_data": [
+        "3.21× 预填充",
+        "3.10× 解码",
+        "三进制权重",
+        "L4 GPU"
+      ],
+      "judgment": "低精度推理的竞争从 FP8 延伸到非标准数值格式，推理成本还有下探空间。",
+      "confidence": 2,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xir3oa/tkintegers_k5_321_prefill_and_310_decode/",
+      "importance": 2
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "Arc：约 70MB 的流式语音模型，一步完成转写与实体链接",
+      "finding": "Arc-Transcriber 每 100 毫秒输出一次转写结果，同时把其中的人名、产品名等实体链接到用户给定的名单，无需第二个模型。",
+      "key_data": [
+        "70MB 模型",
+        "100ms 延迟",
+        "ASR+实体链接",
+        "单模型"
+      ],
+      "judgment": "端侧语音 Agent 的可行性提升，小模型做复合任务成为新趋势。",
+      "confidence": 2,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xiyuoj/arc_a_70_mb_streaming_speech_model_that/",
+      "importance": 2
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "范德瓦尔登数 w(2;3,21)=416 获 Lean 4 内核校验证明",
+      "finding": "一个 2010 年提出的范德瓦尔登数猜想被形式化证明，附带 13.6GB 证据包并通过 Lean 4 内核校验。",
+      "key_data": [
+        "w(2;3,21)=416",
+        "Lean 4 校验",
+        "13.6GB 证据"
+      ],
+      "judgment": "AI 辅助形式化数学正在产出可验证的硬成果，数学是最先被改造的领域。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xivpue/w2321_416_a_van_der_waerden_number_conjectured_by/",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI 支持的 Thrive Holdings 以 153 亿美元收购 ADT",
+      "finding": "Thrive Holdings 宣布以 153 亿美元收购家庭安防公司 ADT，计划把 AI 引入家庭安防业务。这是 OpenAI 生态资本向传统行业渗透的标志性交易。",
+      "key_data": [
+        "153 亿美元",
+        "家庭安防",
+        "OpenAI 生态"
+      ],
+      "judgment": "AI 资本开始收购「场景入口」而非只投模型，家庭成为下一个 Agent 落地战场。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Reddit 宣布转向登录制体验，应对 AI 导致的搜索流量枯竭",
+      "finding": "随着 AI 改变人们获取信息的方式，Reddit 宣布重新思考开放网络定位，转向以登录用户为核心的体验，以保护受众和商业利益。",
+      "key_data": [
+        "转向登录制",
+        "搜索流量下滑",
+        "开放网络收缩"
+      ],
+      "judgment": "AI 搜索正在抽干内容平台的流量，内容方被迫筑墙，开放互联网进一步碎片化。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+      "importance": 3
+    },
+    {
+      "source": "Wired AI",
+      "title": "新创公司 &Truth 用形式化验证为 Vibe Coding 兜底",
+      "finding": "&Truth 加入自动化形式化验证的竞赛，用数学方法证明软件按预期工作，试图解决 AI 生成代码难以保证正确性的问题。",
+      "key_data": [
+        "形式化验证",
+        "自动化证明",
+        "Vibe Coding 安全"
+      ],
+      "judgment": "AI 编程的下一个瓶颈是「可信」，验证工具会成为 AI Coding 工具链的标配环节。",
+      "confidence": 3,
+      "url": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
+      "finding": "Chainguard 发布针对 AI 编码 Agent 的安全工作区和校验能力，为 Agent 执行代码提供隔离与验证环境。",
+      "key_data": [
+        "Agent 安全工作区",
+        "代码校验",
+        "隔离执行"
+      ],
+      "judgment": "Agent 安全从「提示词约束」走向「运行时隔离」，基础设施层开始补位。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/UNli8x0wc8XUNjI5ETya",
+      "importance": 2
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AWS CEO 称 AWS 将成为万亿美元业务，但需继续大举投入",
+      "finding": "亚马逊 CEO Jassy 表示 AWS 有望成为首个万亿美元营收业务，但前提是继续维持高额资本开支以争夺 AI 云计算主导权。",
+      "key_data": [
+        "万亿美元目标",
+        "持续高资本开支",
+        "AI 云争夺"
+      ],
+      "judgment": "AI 云进入重资产军备竞赛，中小玩家在算力投入上将被进一步拉开差距。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "引用 Ben Hylak 的观点：每个产品都应该是无头 MCP，接入 Agent，用户无需关心底层——但「我们自己的产品除外」，因为客户喜欢我们的界面。这揭示了 MCP 化浪潮中的双重标准。",
+      "source": "https://simonwillison.net/2026/Oct/29/ben-hylak/"
+    },
+    {
+      "person": "Martin Fowler",
+      "level": "L2",
+      "quote": "在《LLM Voice》一文中探讨 LLM 生成内容的「声音」问题，引发 HN 346 分、180 条讨论，反映工程界对 AI 写作同质化的普遍焦虑。",
+      "source": "https://martinfowler.com/bliki/LLM-Voice.html"
+    },
+    {
+      "person": "Titus Winters",
+      "level": "L2",
+      "quote": "在 Pragmatic Engineer 访谈中分享谷歌大规模工程经验，并探讨 AI 如何重塑开发者生产力和计算机科学教育。",
+      "source": "https://newsletter.pragmaticengineer.com/p/software-engineering-at-google-and"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "扩散模型作为 Agent 决策骨干的可行性与成本结构",
+      "reason": "若成立将改写 Agent 推理成本与实时性假设，需验证真实任务表现",
+      "priority": "high"
+    },
+    {
+      "topic": "AI Agent 的运行时监控与权限治理架构",
+      "reason": "五角大楼事件表明影子 Agent 已是现实风险，企业急需可落地方案",
+      "priority": "high"
+    },
+    {
+      "topic": "开源 1T 参数模型的部署经济性与企业选型影响",
+      "reason": "Le Chonk 开源改变第一梯队格局，但落地成本决定实际渗透率",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "模型领先不等于商业安全，Agent 治理成焦点",
+  "summary_paragraph": "今天最刺眼的对比来自谷歌：Gemini 4 Carbon 登顶独立评测，Alphabet 却单日蒸发 5000 亿美元市值，AI 侵蚀搜索已从叙事变成财报事实。开源侧，Mistral 用 1 万亿参数的 Le Chonk 全量开源，把竞争焦点拉到编程与安全这类硬指标上。Agent 领域两条线同时推进：扩散模型以更快速度挑战自回归决策，而五角大楼影子 Agent 事件和 OpenAI 的分层监控则说明，Agent 的权限与行为治理正从研究话题变成产品发布的前置条件。",
+  "snapshot": {
+    "date": "2026-10-30",
+    "hf_trending": [
+      {
+        "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "short_name": "DeepSeek-V4.1-Flash-1017",
+        "likes": 3784,
+        "downloads": 131062,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v41"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Nanbeige/Nanbeige4.3-33B",
+        "short_name": "Nanbeige4.3-33B",
+        "likes": 777,
+        "downloads": 9655,
+        "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "RecursiveSI/flint",
+        "short_name": "flint",
+        "likes": 1244,
+        "downloads": 16598,
+        "url": "https://huggingface.co/RecursiveSI/flint",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "flint"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "LiquidAI/LFM3-1.7B",
+        "short_name": "LFM3-1.7B",
+        "likes": 485,
+        "downloads": 15885,
+        "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "lfm3"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "XHToken/Spark-X2.6-4B",
+        "short_name": "Spark-X2.6-4B",
+        "likes": 909,
+        "downloads": 10163,
+        "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "spark2_5"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+        "short_name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+        "likes": 474,
+        "downloads": 1578937,
+        "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+        "tags": [
+          "gguf",
+          "gsq",
+          "rco"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "short_name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "likes": 414,
+        "downloads": 4276,
+        "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "tags": [
+          "nemo",
+          "safetensors",
+          "nemo_speechlm"
+        ],
+        "pipeline_tag": "automatic-speech-recognition",
+        "label": "语音识别",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "MiniMaxAI/MiniMax-M3.1-Flash",
+        "short_name": "MiniMax-M3.1-Flash",
+        "likes": 489,
+        "downloads": 15738,
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "minimax_m3_vl"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "HKUDS/DeepTutor",
+        "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+        "stars": 50216,
+        "stars_today": 1930,
+        "forks": 6184,
+        "language": "Python",
+        "url": "https://github.com/HKUDS/DeepTutor"
+      },
+      {
+        "name": "obra/superpowers",
+        "desc": "An agentic skills framework &amp; software development methodology that works.",
+        "stars": 308615,
+        "stars_today": 1034,
+        "forks": 27448,
+        "language": "Shell",
+        "url": "https://github.com/obra/superpowers"
+      },
+      {
+        "name": "pbakaus/impeccable",
+        "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and ",
+        "stars": 95455,
+        "stars_today": 2870,
+        "forks": 5629,
+        "language": "Rust",
+        "url": "https://github.com/pbakaus/impeccable"
+      },
+      {
+        "name": "JetBrains/thinkrail",
+        "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vi",
+        "stars": 6048,
+        "stars_today": 1117,
+        "forks": 325,
+        "language": "TypeScript",
+        "url": "https://github.com/JetBrains/thinkrail"
+      },
+      {
+        "name": "milind-soni/OpenMausBot",
+        "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+        "stars": 7533,
+        "stars_today": 1199,
+        "forks": 1119,
+        "language": "TypeScript",
+        "url": "https://github.com/milind-soni/OpenMausBot"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 10282329720675,
+        "total_tokens_str": "10.3T",
+        "api_calls": 0,
+        "change": 5.6,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 2758971784126,
+        "total_tokens_str": "2.8T",
+        "api_calls": 0,
+        "change": 90.4,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 3,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 2522694994205,
+        "total_tokens_str": "2.5T",
+        "api_calls": 0,
+        "change": 3.8,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 1677727915075,
+        "total_tokens_str": "1.7T",
+        "api_calls": 0,
+        "change": 15.6,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 5,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 1312486443475,
+        "total_tokens_str": "1.3T",
+        "api_calls": 0,
+        "change": 29.7,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 6,
+        "slug": "stepfun/step-5-preview",
+        "name": "Step 5 Preview",
+        "org": "stepfun",
+        "total_tokens": 1177246450717,
+        "total_tokens_str": "1.2T",
+        "api_calls": 0,
+        "change": 22.6,
+        "url": "https://openrouter.ai/stepfun/step-5-preview"
+      },
+      {
+        "rank": 7,
+        "slug": "openai/gpt-6.1-sol",
+        "name": "GPT-6.1 Sol",
+        "org": "openai",
+        "total_tokens": 1133204478596,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": 113.5,
+        "url": "https://openrouter.ai/openai/gpt-6.1-sol"
+      },
+      {
+        "rank": 8,
+        "slug": "minimax/minimax-m3.1-flash",
+        "name": "MiniMax M3.1 Flash",
+        "org": "minimax",
+        "total_tokens": 966329081586,
+        "total_tokens_str": "966B",
+        "api_calls": 0,
+        "change": 7.5,
+        "url": "https://openrouter.ai/minimax/minimax-m3.1-flash"
+      },
+      {
+        "rank": 9,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 927909704999,
+        "total_tokens_str": "928B",
+        "api_calls": 0,
+        "change": -8.8,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 10,
+        "slug": "z-ai/glm-5.3",
+        "name": "GLM 5.3",
+        "org": "z-ai",
+        "total_tokens": 664404522707,
+        "total_tokens_str": "664B",
+        "api_calls": 0,
+        "change": 3.7,
+        "url": "https://openrouter.ai/z-ai/glm-5.3"
+      }
+    ],
+    "hf_summary": "DeepSeek多模态断层领跑，小模型与语音专精加速分化。"
+  }
+}
