@@ -1,0 +1,553 @@
+{
+  "date": "2026-10-31",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "DeepSeek 完成 1055 亿元第二轮融资，估值达 6155 亿元",
+      "finding": "DeepSeek 完成第二轮 1055 亿元人民币融资，投后估值约 6155 亿元，成为中国大模型公司中估值最高的独立厂商之一。资金规模远超此前市场预期，显示资本对开源路线和高效训练范式的持续押注。",
+      "key_data": [
+        "融资 1055 亿元",
+        "估值 6155 亿元",
+        "第二轮融资"
+      ],
+      "judgment": "这是中国大模型格局的分水岭：DeepSeek 用开源+低成本训练证明了商业可行性，巨额资金将加速其在算力和人才上的军备竞赛，对智谱、Kimi 等独立厂商形成直接挤压，也意味着开源阵营有了真正的资本后盾。",
+      "confidence": 3,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/373220"
+    },
+    {
+      "rank": 2,
+      "title": "国行 Apple 智能官宣接入阿里千问，11 月开放测试、12 月正式推送",
+      "finding": "苹果中国官网正式宣布 Apple 智能将于 11 月 4 日随 iOS 开发者 Beta 开放测试，12 月随 iOS 27.3 正式面向中国用户推出，Siri 等核心功能接入阿里千问。首批功能包括实时翻译、写作工具、照片消除、智绘表情和通知摘要。",
+      "key_data": [
+        "11 月 4 日 Beta",
+        "12 月正式推送",
+        "Siri 接入千问",
+        "iPhone 15 Pro 起支持"
+      ],
+      "judgment": "苹果在中国市场选择了阿里而非自研或百度，等于给千问盖了官方认证章。对阿里是重大胜利，对百度文心是明确挫败；对开发者而言，iOS 端 AI 能力入口打开，围绕 Apple 智能做应用的机会窗口正式开启。",
+      "confidence": 4,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/373238"
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic 的 Cursor 扩展被植入后门近 12 小时",
+      "finding": "Ars Technica 报道，Anthropic 在 Cursor 上的官方 VS Code 扩展被攻击者植入后门，持续近 12 小时才被发现，攻击者如何获取 Anthropic 已验证的 Cursor 账号仍未知。这是 AI 编程工具链首次出现供应链级别的安全事件。",
+      "key_data": [
+        "后门持续近 12 小时",
+        "官方扩展被篡改",
+        "账号权限来源未知"
+      ],
+      "judgment": "AI Coding 工具正成为高价值攻击面：开发者对官方扩展天然信任，一旦被攻破影响面极大。这会给所有 AI IDE 厂商敲响警钟，扩展签名验证、发布链路审计将从可选项变成必选项，企业采购 AI 编程工具时会开始追问供应链安全。",
+      "confidence": 4,
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/"
+    },
+    {
+      "rank": 4,
+      "title": "Anthropic 预计 IPO 后获信用机构高\"垃圾级\"评级",
+      "finding": "据 FT 报道，Anthropic 在推进 IPO 过程中预计将获得信用评级机构的高\"垃圾级\"评级，这将使其融资成本显著上升。与此同时，Wired 披露 Anthropic 已提交 IPO 文件。",
+      "key_data": [
+        "高垃圾级评级",
+        "IPO 推进中",
+        "融资成本上升"
+      ],
+      "judgment": "AI 实验室的高估值与高烧钱正在被信用市场重新定价。垃圾级评级意味着 Anthropic 未来举债扩张的成本会明显高于预期，这会倒逼其更早追求收入兑现，也可能让整个 AI 实验室赛道的融资环境趋紧——烧钱换增长的叙事开始接受财务纪律的检验。",
+      "confidence": 3,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/"
+    },
+    {
+      "rank": 5,
+      "title": "美国科技股因 AI 成本担忧大幅下跌，英特尔单日跌超 30%",
+      "finding": "BBC 报道美国科技股因 AI 成本担忧出现明显下跌，英特尔股价开盘跌超 30%，政府持股价值蒸发约 120 亿美元。AI 行业对内存等组件的吞噬推高 PC 价格，反过来伤害了英特尔的 PC 业务。",
+      "key_data": [
+        "英特尔跌超 30%",
+        "政府持股蒸发 120 亿美元",
+        "AI 挤占内存产能"
+      ],
+      "judgment": "市场开始给 AI 资本开支算账了。AI 基础设施的虹吸效应正在反噬传统硬件厂商，而\"AI 成本恐惧\"成为新的市场情绪主线——这对所有依赖持续融资的 AI 公司是坏消息，对现金流健康的玩家反而是拉开差距的机会。",
+      "confidence": 4,
+      "source": "BBC / Hacker News",
+      "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "量子位",
+      "title": "Claude 新模型曝光：新 Fable、新 Opus 系列",
+      "finding": "量子位曝光 Anthropic 正在准备新的 Claude 模型，包括新的 Fable 和 Opus 系列。具体能力参数尚未公开，但命名体系显示 Anthropic 在产品线上做进一步细分。",
+      "key_data": [
+        "新 Fable 系列",
+        "新 Opus 系列",
+        "产品线细分"
+      ],
+      "judgment": "Anthropic 在 IPO 前密集释放模型信号，意在维持技术领先叙事，但需警惕\"曝光\"多于实质。",
+      "confidence": 2,
+      "url": "https://www.qbitai.com/2026/10/506674.html",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "国产开源 OCR 模型 OXR 登顶全球第一，1.3B 参数重塑 OCR",
+      "finding": "基于 RSI 方法训练的国产开源 OCR 模型 OXR 以 1.3B 参数量登顶全球第一，主打\"解析一切\"的通用文档解析能力。小参数达到 SOTA，说明训练方法和数据质量比堆参数更关键。",
+      "key_data": [
+        "1.3B 参数",
+        "全球第一",
+        "开源",
+        "RSI 训练法"
+      ],
+      "judgment": "小模型+好方法在垂直任务上碾压大模型，OCR 这类高频刚需场景的国产开源方案会快速替代闭源 API。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/10/506686.html",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "EmbeddingGemma 2：Google 把五种模态塞进同一个向量空间",
+      "finding": "Google 发布 EmbeddingGemma 2，将文本、图像等五种模态统一映射到同一个向量空间，简化多模态检索的工程复杂度。开发者可以用单一嵌入模型处理跨模态搜索。",
+      "key_data": [
+        "五种模态",
+        "统一向量空间",
+        "EmbeddingGemma 2"
+      ],
+      "judgment": "多模态 RAG 的工程门槛被大幅拉低，统一嵌入空间会成为检索基础设施的新标配。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/O6mtiB7FVd0VSDHJe348",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "多 Token 预测（MTP）被证明可以做得更好",
+      "finding": "研究者指出 MTP 已成为前沿预训练的标准配方，但标准 MTP 的梯度计算存在缺陷，论文提出了改进方案，可显著提升训练效果。",
+      "key_data": [
+        "MTP 标准配方",
+        "梯度计算有缺陷",
+        "预训练改进"
+      ],
+      "judgment": "预训练效率的边际改进会直接转化为成本优势，值得关注其是否被头部实验室采纳。",
+      "confidence": 2,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xjnz40/multitoken_prediction_done_right_r/",
+      "importance": 2
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "英伟达发布 Nemotron 万圣节特别模型",
+      "finding": "英伟达在 Hugging Face 发布 nemotron-halloween 模型，延续其 Nemotron 开源系列，具体能力细节尚未展开。",
+      "key_data": [
+        "Nemotron 系列",
+        "英伟达开源",
+        "Hugging Face"
+      ],
+      "judgment": "英伟达持续用开源模型巩固生态影响力，但节日营销色彩较重，实质信息有限。",
+      "confidence": 3,
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "importance": 1
+    }
+  ],
+  "company_product": [
+    {
+      "source": "极客公园",
+      "title": "TRAE 推出开发者个人助理，瞄准 AI Coding 下半场",
+      "finding": "字节 TRAE 发布开发者个人助理产品，主张 AI Coding 的竞争已从\"代码生成速度\"转向\"项目交付全流程效率\"。文章指出单点任务提速 5-10 倍，但项目整体交付未必能翻倍，瓶颈在提示词编写和等待生成之外的环节。",
+      "key_data": [
+        "开发者个人助理",
+        "AI Coding 下半场",
+        "全流程交付"
+      ],
+      "judgment": "AI Coding 竞争从补全速度转向工作流编排，TRAE 试图用\"助理\"定位卡位，但能否跑通要看与字节内部工程体系的整合深度。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/373190",
+      "importance": 3
+    },
+    {
+      "source": "Fortune / InfoQ",
+      "title": "思科给 27 岁工程师无限 Token，两个月重写 98% 遗留代码",
+      "finding": "思科总裁 Jeetu Patel 给一名 27 岁工程师开放无限 AI Token 额度，目标是在两个月内重写公司 98% 的遗留代码。这是大企业首次公开以\"无限 Token\"作为工程资源分配方式。",
+      "key_data": [
+        "无限 AI Token",
+        "重写 98% 遗留代码",
+        "两个月周期"
+      ],
+      "judgment": "Token 预算正在取代人力预算成为工程管理新变量，遗留系统改造是最先被 AI 攻破的企业场景。",
+      "confidence": 3,
+      "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+      "importance": 3
+    },
+    {
+      "source": "OpenAI Blog",
+      "title": "OpenAI 支持 robots.txt 统一信号表达 AI 训练偏好",
+      "finding": "OpenAI 宣布将遵守共享的 robots.txt 信号，让网站运营者能向参与该机制的 AI 提供商统一表达训练数据偏好。这是 AI 训练数据版权争议下的一次行业自律尝试。",
+      "key_data": [
+        "robots.txt 统一信号",
+        "训练偏好",
+        "多家提供商参与"
+      ],
+      "judgment": "内容方与 AI 公司的数据博弈有了技术性折中方案，但\"自愿遵守\"的约束力有限，真正的分水岭在监管是否背书。",
+      "confidence": 4,
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "隐私优先 AI 助手 Ollie 宣布一周内关停",
+      "finding": "主打隐私保护的 AI 助手 Ollie 宣布将在一周内关停，创始人的理由是 AI 助手市场过于拥挤。这是 AI 助手赛道洗牌的最新案例。",
+      "key_data": [
+        "一周内关停",
+        "隐私优先定位",
+        "市场拥挤"
+      ],
+      "judgment": "通用 AI 助手已是巨头游戏，差异化定位（隐私）不足以支撑独立产品生存，垂直场景才是小团队出路。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+      "importance": 2
+    },
+    {
+      "source": "TechCrunch",
+      "title": "英伟达考虑为 Nscale 西弗吉尼亚 AI 数据中心提供贷款担保",
+      "finding": "英伟达正评估为 Nscale 在西弗吉尼亚的 AI 数据中心项目充当贷款共同签署方。在投资者对 AI 支出感到紧张时，卖芯片的公司出面为买方融资背书。",
+      "key_data": [
+        "贷款共同签署",
+        "西弗吉尼亚数据中心",
+        "Nscale"
+      ],
+      "judgment": "英伟达从卖铲子转向给淘金者做担保，是 AI 基建泡沫担忧下的风险共担信号，也说明数据中心融资环境正在收紧。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "有人把 NES 6502 CPU 模拟器直接烘焙进 Qwen3.5-4B 的权重里，现在可以在模型权重上玩 NES 游戏。这是\"模型即程序\"思路的又一次有趣验证——权重不只是知识容器，也能承载确定性逻辑。",
+      "source": "https://simonwillison.net/2026/Oct/30/nesformer/"
+    },
+    {
+      "person": "Gergely Orosz",
+      "level": "L2",
+      "quote": "AI 让 Leetcode 式面试失去意义，Anthropic 已把编程面试从流程中删除。同时 incident.io 公开了 AI 支出细节，微软向工程师提供离职补偿——工程组织的成本结构正在被 AI 重写。",
+      "source": "https://newsletter.pragmaticengineer.com/p/the-pulse-anthropic-kills-the-coding"
+    },
+    {
+      "person": "Hacker News 社区",
+      "level": "L1",
+      "quote": "AI 没有取代 SRE，而是在让 SRE 去技能化：工程师越来越依赖 AI 排障，对系统底层原理的掌握在退化。这是比\"被替代\"更隐蔽的风险——能力空心化。",
+      "source": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI Coding 工具链供应链安全",
+      "reason": "Anthropic 扩展被植入后门暴露了 AI IDE 生态的信任链脆弱性，值得系统梳理扩展签名、发布审计与权限模型。",
+      "priority": "high"
+    },
+    {
+      "topic": "DeepSeek 巨额融资后的开源商业化路径",
+      "reason": "6155 亿估值需要对应的收入模型，开源+低成本训练如何转化为可持续商业，是判断中国大模型格局的关键。",
+      "priority": "high"
+    },
+    {
+      "topic": "Apple 智能接入千问后的开发者机会",
+      "reason": "iOS 端 AI 能力入口开放，围绕系统级 AI 功能的应用形态和分发逻辑可能被重塑，值得提前研究。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "资本重定价 AI：DeepSeek 巨额融资与 Anthropic 垃圾评级同日上演",
+  "summary_paragraph": "今天最强烈的信号是资本对 AI 的重新定价：DeepSeek 以 6155 亿元估值完成 1055 亿元融资，开源阵营拿到真金白银；同一天 Anthropic 预计 IPO 后获高垃圾级评级，美国科技股因 AI 成本担忧大跌、英特尔单日跌超 30%。产品侧，苹果官宣国行 Apple 智能接入阿里千问，11 月测试 12 月推送，给中国市场投下关键一票；TRAE 推出开发者个人助理，AI Coding 竞争转向全流程效率。安全层面，Anthropic 的 Cursor 扩展被植入后门近 12 小时，AI 编程工具链的供应链风险首次浮出水面。行业正从\"烧钱换增长\"进入\"算账与守门\"的新阶段。",
+  "snapshot": {
+    "date": "2026-10-31",
+    "hf_trending": [
+      {
+        "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "short_name": "DeepSeek-V4.1-Flash-1017",
+        "likes": 4010,
+        "downloads": 145869,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v41"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Nanbeige/Nanbeige4.3-33B",
+        "short_name": "Nanbeige4.3-33B",
+        "likes": 798,
+        "downloads": 12178,
+        "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "LiquidAI/LFM3-1.7B",
+        "short_name": "LFM3-1.7B",
+        "likes": 567,
+        "downloads": 23694,
+        "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "lfm3"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "short_name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "likes": 503,
+        "downloads": 15980,
+        "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "tags": [
+          "nemo",
+          "safetensors",
+          "nemo_speechlm"
+        ],
+        "pipeline_tag": "automatic-speech-recognition",
+        "label": "语音识别",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "baidu/Unlimited-OCR-2",
+        "short_name": "Unlimited-OCR-2",
+        "likes": 454,
+        "downloads": 24276,
+        "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "unlimited-ocr"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+        "short_name": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+        "likes": 507,
+        "downloads": 1747945,
+        "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+        "tags": [
+          "gguf",
+          "gsq",
+          "rco"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "mistralai/Mistral-Large-4-1T-A52B",
+        "short_name": "Mistral-Large-4-1T-A52B",
+        "likes": 1347,
+        "downloads": 1239,
+        "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+        "tags": [
+          "transformers",
+          "mistral_large4",
+          "image-text-to-text"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 9971,
+        "downloads": 2335172,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "thedotmack/claude-mem",
+        "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sess",
+        "stars": 106322,
+        "stars_today": 1140,
+        "forks": 9358,
+        "language": "TypeScript",
+        "url": "https://github.com/thedotmack/claude-mem"
+      },
+      {
+        "name": "milind-soni/OpenMausBot",
+        "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+        "stars": 8705,
+        "stars_today": 895,
+        "forks": 1203,
+        "language": "TypeScript",
+        "url": "https://github.com/milind-soni/OpenMausBot"
+      },
+      {
+        "name": "pbakaus/impeccable",
+        "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and ",
+        "stars": 97130,
+        "stars_today": 2300,
+        "forks": 5718,
+        "language": "Rust",
+        "url": "https://github.com/pbakaus/impeccable"
+      },
+      {
+        "name": "CopilotKit/OpenBot",
+        "desc": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with eve",
+        "stars": 8821,
+        "stars_today": 706,
+        "forks": 1110,
+        "language": "TypeScript",
+        "url": "https://github.com/CopilotKit/OpenBot"
+      },
+      {
+        "name": "Renhuai123/ziwei-doushu",
+        "desc": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+        "stars": 11253,
+        "stars_today": 1126,
+        "forks": 2246,
+        "language": "TypeScript",
+        "url": "https://github.com/Renhuai123/ziwei-doushu"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 9991262438761,
+        "total_tokens_str": "10.0T",
+        "api_calls": 0,
+        "change": -2.8,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 2663747650665,
+        "total_tokens_str": "2.7T",
+        "api_calls": 0,
+        "change": 5.6,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 1497255007073,
+        "total_tokens_str": "1.5T",
+        "api_calls": 0,
+        "change": -10.8,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 4,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 1191780388636,
+        "total_tokens_str": "1.2T",
+        "api_calls": 0,
+        "change": -56.8,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 5,
+        "slug": "openai/gpt-5.6-luna",
+        "name": "GPT-5.6 Luna",
+        "org": "openai",
+        "total_tokens": 1150175522949,
+        "total_tokens_str": "1.2T",
+        "api_calls": 0,
+        "change": 138.7,
+        "url": "https://openrouter.ai/openai/gpt-5.6-luna"
+      },
+      {
+        "rank": 6,
+        "slug": "minimax/minimax-m3.1-flash",
+        "name": "MiniMax M3.1 Flash",
+        "org": "minimax",
+        "total_tokens": 1052786177350,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": 8.9,
+        "url": "https://openrouter.ai/minimax/minimax-m3.1-flash"
+      },
+      {
+        "rank": 7,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 993470967412,
+        "total_tokens_str": "993B",
+        "api_calls": 0,
+        "change": -24.3,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 8,
+        "slug": "stepfun/step-5-preview",
+        "name": "Step 5 Preview",
+        "org": "stepfun",
+        "total_tokens": 959885814181,
+        "total_tokens_str": "960B",
+        "api_calls": 0,
+        "change": -18.5,
+        "url": "https://openrouter.ai/stepfun/step-5-preview"
+      },
+      {
+        "rank": 9,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 892945722884,
+        "total_tokens_str": "893B",
+        "api_calls": 0,
+        "change": -3.8,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 10,
+        "slug": "z-ai/glm-5.3",
+        "name": "GLM 5.3",
+        "org": "z-ai",
+        "total_tokens": 541400590383,
+        "total_tokens_str": "541B",
+        "api_calls": 0,
+        "change": -18.5,
+        "url": "https://openrouter.ai/z-ai/glm-5.3"
+      }
+    ],
+    "hf_summary": "视频生成热度断层领先，多模态与开源大模型持续升温"
+  }
+}
