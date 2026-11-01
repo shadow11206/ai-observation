@@ -1,0 +1,552 @@
+{
+  "date": "2026-11-01",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "谷歌承认 AI Mode 侵蚀搜索收入，市值单日蒸发 5000 亿美元",
+      "finding": "谷歌首次公开承认，AI 搜索模式（AI Mode）正在削弱其传统搜索广告收入，财报发布后股价暴跌 15%，市值蒸发约 5000 亿美元，创 2004 年上市以来最差单日表现。这意味着 AI 对搜索商业模式的冲击从'担忧'变成了'已发生的财务事实'。",
+      "key_data": [
+        "市值蒸发5000亿美元",
+        "股价跌15%",
+        "2004年来最差",
+        "AI Mode侵蚀广告"
+      ],
+      "judgment": "这是整个 AI 行业的分水岭事件：AI 原生交互正在摧毁旧有的流量变现模型，所有依赖'用户点击广告'的公司都必须重新设计商业模式。对产品经理而言，'AI 功能免费送'的时代结束了，必须回答 AI 如何直接赚钱。",
+      "confidence": 4,
+      "source": "Latent Space / AINews",
+      "url": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/"
+    },
+    {
+      "rank": 2,
+      "title": "DeepSeek 发布 Super Agent 架构，瞄准多任务与团队协作",
+      "finding": "DeepSeek Harness 团队发布技术文章《Super-agent 设计探索》，提出面向多任务、团队协作规模的新 Agent 架构，认为现有主流 Agent 设计无法支撑个人助手大规模涌现的需求。这是 DeepSeek 从'模型公司'向'Agent 系统公司'延伸的明确信号。",
+      "key_data": [
+        "Super Agent架构",
+        "多任务协作",
+        "Harness团队",
+        "个人助手"
+      ],
+      "judgment": "DeepSeek 选择在 Agent 架构层开源输出方法论，是在抢'Agent 时代基础设施'的话语权。对开发者来说，这是继模型权重之后又一个值得跟进的开源技术路线；对国内 Agent 创业公司，意味着底层架构可能被进一步商品化。",
+      "confidence": 4,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/373243"
+    },
+    {
+      "rank": 3,
+      "title": "Claude 取消 5 小时使用限制，200 美元 Ultra 用户率先解封",
+      "finding": "Anthropic 宣布取消 Claude 的 5 小时对话窗口限制，首批 200 美元/月的 Ultra 订阅用户已可无限制使用。这是头部模型厂商首次在订阅制下放开时长限制，把竞争焦点从'模型能力'转向'使用体验与配额'。",
+      "key_data": [
+        "取消5小时限制",
+        "Ultra 200美元/月",
+        "首批解封",
+        "订阅制竞争"
+      ],
+      "judgment": "配额限制一直是重度用户（尤其是开发者）使用 Claude 的最大摩擦点。取消限制会显著提升 Claude Code 等长任务场景的粘性，也倒逼 OpenAI、Google 跟进。对开发者是好消息，对算力成本是坏消息。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/506855.html"
+    },
+    {
+      "rank": 4,
+      "title": "AI Agent 首次自主完成活体小鼠脑部基因治疗注射",
+      "finding": "一家生物科技初创公司让 AI Agent 自主选择基因疗法并成功向活体小鼠大脑注射治疗药物，全程由 Agent 决策执行。这是 AI Agent 从'数字世界'跨入'物理实验操作'的标志性案例。",
+      "key_data": [
+        "活体小鼠",
+        "自主选药注射",
+        "物理世界操作",
+        "生物实验室"
+      ],
+      "judgment": "Agent 的价值边界从'写代码、查资料'扩展到'动手做实验'，这对科研自动化是巨大想象空间，但也把 AI 安全议题从信息层推到生命科学层。监管和伦理框架会很快被提上日程。",
+      "confidence": 3,
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/"
+    },
+    {
+      "rank": 5,
+      "title": "OpenAI 据报下调新一轮融资目标，估值预期不及此前",
+      "finding": "TechCrunch 报道 OpenAI 最新一轮融资未能达到预期，已下调融资目标。结合谷歌财报暴跌引发的'AI 熊市'讨论，头部 AI 公司的资本叙事正在从'无限扩张'转向'务实收敛'。",
+      "key_data": [
+        "下调融资目标",
+        "不及预期",
+        "AI熊市讨论",
+        "资本收敛"
+      ],
+      "judgment": "如果连 OpenAI 都融不到预期金额，说明一级市场对 AI 的估值逻辑正在重置。对创业公司意味着融资窗口收窄，对行业意味着'烧钱换增长'的模式将被迫转向'单位经济模型'。",
+      "confidence": 3,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv cs.AI",
+      "title": "LRMoE：面向内存受限节点的 MoE 训练负载再校准方法",
+      "finding": "针对稀疏 MoE 模型路由不均导致的计算与通信瓶颈，论文提出需求侧负载再校准方法，让 MoE 训练在内存受限的普通节点上更高效。这直接关系到中小团队能否低成本训练 MoE。",
+      "key_data": [
+        "MoE训练",
+        "内存受限节点",
+        "负载再校准",
+        "路由不均"
+      ],
+      "judgment": "降低 MoE 训练硬件门槛，利好开源模型社区和中小实验室。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.37720",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "OpenFrontiers：面向科学再发现的开放研究问题集与基准",
+      "finding": "研究团队构建了一个包含研究级开放问题与基准的数据集，用于评估大模型在'科学再发现'上的能力。这为衡量 LLM 是否真能做科研提供了更系统的标尺。",
+      "key_data": [
+        "科学再发现",
+        "开放问题集",
+        "研究级基准",
+        "LLM科研能力"
+      ],
+      "judgment": "给'AI 做科研'的炒作降温，提供可复现的评测基础设施。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.37739",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "WebAnything：从真实互联网到可扩展的 Agent 环境",
+      "finding": "针对 Web Agent 训练缺乏可重置、可执行网站环境的问题，论文提出从真实网页自动构建可扩展 Agent 训练环境的方法，减少人工镜像成本。",
+      "key_data": [
+        "Web Agent",
+        "可重置环境",
+        "自动构建",
+        "训练评测"
+      ],
+      "judgment": "Web Agent 训练数据瓶颈的关键解法，值得 Agent 团队跟进。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.37786",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "ThinkJev：面向校准型分类决策的单一思维多预算推理",
+      "finding": "论文提出让语言模型在不同推理预算下输出校准良好的分类决策概率，使代码可以直接基于概率行动。这解决了 LLM 输出概率不可靠、难以被程序消费的痛点。",
+      "key_data": [
+        "校准概率",
+        "分类决策",
+        "推理预算",
+        "代码可消费"
+      ],
+      "judgment": "让 LLM 输出真正可被工程系统信任，是 Agent 落地的隐形刚需。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2610.37732",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "量子位",
+      "title": "世界模型首次用于芯片设计，NPU 达 700 TOPS 且 99% 算力可用",
+      "finding": "有团队首次用世界模型指导芯片设计，产出超大核 NPU，算力达 700 TOPS，且 99% 的算力可被实际利用。AI 开始反哺 AI 硬件本身的设计流程。",
+      "key_data": [
+        "700 TOPS",
+        "99%算力可用",
+        "世界模型",
+        "芯片设计"
+      ],
+      "judgment": "AI 设计芯片从概念走向工程验证，硬件迭代周期有望缩短。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/10/506866.html",
+      "importance": 3
+    },
+    {
+      "source": "极客公园",
+      "title": "蚂蚁灵光 2.0 实测：个人 AI 助理的机会与门槛",
+      "finding": "文章实测蚂蚁个人 AI 助理灵光 2.0，并与 Meta Muse 的数据对比：Muse 已有超 1000 万人设置，购物是最常见用途，超四分之一用户用它买东西，平均客单价超 200 美元。个人 Agent 的商业化路径正在被验证。",
+      "key_data": [
+        "Muse 1000万用户",
+        "客单价200美元",
+        "购物场景",
+        "灵光2.0"
+      ],
+      "judgment": "个人 Agent 的胜负手在'交易闭环'而非对话能力，蚂蚁有支付优势。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/373244",
+      "importance": 3
+    },
+    {
+      "source": "Simon Willison",
+      "title": "Parameter Labs 披露可接管 ChatGPT 账户的漏洞",
+      "finding": "Parameter Labs 公开了一个针对 ChatGPT artifacts（原 Canvas）实现方式的漏洞利用，可接管用户账户。这是 AI 产品'代码执行型功能'带来的新型安全风险。",
+      "key_data": [
+        "账户接管",
+        "artifacts漏洞",
+        "代码执行",
+        "安全披露"
+      ],
+      "judgment": "AI 产品的沙箱与权限设计将成为企业采购的硬性审查项。",
+      "confidence": 4,
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "importance": 3
+    },
+    {
+      "source": "Wired AI",
+      "title": "Meta Muse 被指尚未真正颠覆任何行业",
+      "finding": "Wired 报道称，企业界过去数周忙于向投资者保证 Meta Muse 等 AI Agent 是机会而非威胁，但 Muse 至今尚未对任何行业产生实质性颠覆。Agent 的商业影响仍停留在预期层面。",
+      "key_data": [
+        "Muse未颠覆行业",
+        "投资者安抚",
+        "预期vs现实",
+        "Agent商业化"
+      ],
+      "judgment": "给 Agent 热潮泼冷水：演示效果与真实商业改造之间仍有巨大鸿沟。",
+      "confidence": 3,
+      "url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+      "importance": 2
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "苹果 CEO 表态：不为 AI 而 AI",
+      "finding": "苹果新任 CEO 公开为公司在 AI 领域的保守姿态辩护，称公司不会'为了 AI 而发布 AI'。这与谷歌因 AI 搜索激进转型导致收入受损形成鲜明对照。",
+      "key_data": [
+        "不为AI而AI",
+        "苹果保守策略",
+        "新任CEO",
+        "差异化路线"
+      ],
+      "judgment": "苹果押注'体验优先'，短期落后但可能避开商业模式自噬陷阱。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Swyx (Shawn Wang)",
+      "level": "L2",
+      "quote": "谷歌承认 AI Mode 损害搜索收入、市值单日跌 15%，说明'鱼与熊掌不可兼得'——AI 原生体验与旧广告模型存在结构性冲突，AI 熊市叙事正在形成。",
+      "source": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/"
+    },
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "ChatGPT artifacts 被攻破说明：一旦 AI 产品允许模型生成并执行代码，攻击面就从'提示注入'升级为'账户接管'，沙箱设计必须按安全产品标准来做。",
+      "source": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/"
+    },
+    {
+      "person": "Gary Marcus",
+      "level": "L2",
+      "quote": "（据其博客）我受邀觐见教皇利奥十四世并同意担任其 AI 大使，AI 的治理讨论正在从技术圈扩展到宗教与伦理机构。",
+      "source": "https://www.reddit.com/r/MachineLearning/comments/1xkqf9h/prof_gary_marcus_gave_audience_to_his_holiness/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI 搜索对广告商业模式的系统性冲击",
+      "reason": "谷歌 5000 亿美元市值蒸发是标志性事件，需研究替代变现路径。",
+      "priority": "high"
+    },
+    {
+      "topic": "DeepSeek Super Agent 架构技术细节",
+      "reason": "可能定义下一代 Agent 系统设计范式，值得逐段研读原文。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI Agent 进入物理实验操作的安全与监管框架",
+      "reason": "活体动物实验案例打开潘多拉盒子，监管空白需提前研判。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "谷歌承认AI伤搜索，行业迎估值重估",
+  "summary_paragraph": "今天最重要的信号来自谷歌：它首次承认 AI Mode 正在侵蚀搜索广告收入，股价单日暴跌 15%、市值蒸发 5000 亿美元，叠加 OpenAI 下调融资目标，'AI 熊市'叙事开始成形——AI 从'增长故事'变成'商业模式压力测试'。产品侧，DeepSeek 发布 Super Agent 架构抢 Agent 基础设施话语权，Claude 取消 5 小时限制把竞争推向使用体验，AI Agent 甚至首次自主完成活体小鼠脑部注射。一边是资本退潮，一边是能力边界持续外扩，行业正进入'既要能力、也要算账'的新阶段。",
+  "_comment": "placeholder",
+  "snapshot": {
+    "date": "2026-11-01",
+    "hf_trending": [
+      {
+        "name": "Nanbeige/Nanbeige4.3-33B",
+        "short_name": "Nanbeige4.3-33B",
+        "likes": 884,
+        "downloads": 13832,
+        "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "short_name": "DeepSeek-V4.1-Flash-1017",
+        "likes": 4110,
+        "downloads": 156373,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v41"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "LiquidAI/LFM3-1.7B",
+        "short_name": "LFM3-1.7B",
+        "likes": 635,
+        "downloads": 32933,
+        "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "lfm3"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "short_name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "likes": 545,
+        "downloads": 24357,
+        "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "tags": [
+          "nemo",
+          "safetensors",
+          "nemo_speechlm"
+        ],
+        "pipeline_tag": "automatic-speech-recognition",
+        "label": "语音识别",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "mistralai/Mistral-Large-4-1T-A52B",
+        "short_name": "Mistral-Large-4-1T-A52B",
+        "likes": 1405,
+        "downloads": 2945,
+        "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+        "tags": [
+          "transformers",
+          "mistral_large4",
+          "image-text-to-text"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "baidu/Unlimited-OCR-2",
+        "short_name": "Unlimited-OCR-2",
+        "likes": 473,
+        "downloads": 69231,
+        "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "unlimited-ocr"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 10099,
+        "downloads": 2441077,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "ccore/Qwen3.5-4B-3D-Coder",
+        "short_name": "Qwen3.5-4B-3D-Coder",
+        "likes": 396,
+        "downloads": 29615,
+        "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+        "tags": [
+          "safetensors",
+          "gguf",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "thedotmack/claude-mem",
+        "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sess",
+        "stars": 107937,
+        "stars_today": 1723,
+        "forks": 9476,
+        "language": "TypeScript",
+        "url": "https://github.com/thedotmack/claude-mem"
+      },
+      {
+        "name": "mattpocock/skills",
+        "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+        "stars": 308440,
+        "stars_today": 883,
+        "forks": 25957,
+        "language": "Shell",
+        "url": "https://github.com/mattpocock/skills"
+      },
+      {
+        "name": "Donchitos/Claude-Code-Game-Studios",
+        "desc": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coor",
+        "stars": 31216,
+        "stars_today": 742,
+        "forks": 4277,
+        "language": "Shell",
+        "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
+      },
+      {
+        "name": "pingdotgg/t3code",
+        "desc": "",
+        "stars": 35688,
+        "stars_today": 1148,
+        "forks": 8792,
+        "language": "TypeScript",
+        "url": "https://github.com/pingdotgg/t3code"
+      },
+      {
+        "name": "Renhuai123/ziwei-doushu",
+        "desc": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+        "stars": 12312,
+        "stars_today": 1092,
+        "forks": 2414,
+        "language": "TypeScript",
+        "url": "https://github.com/Renhuai123/ziwei-doushu"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 8764475497906,
+        "total_tokens_str": "8.8T",
+        "api_calls": 0,
+        "change": -12.3,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1832566279112,
+        "total_tokens_str": "1.8T",
+        "api_calls": 0,
+        "change": -31.2,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "openai/gpt-5.6-luna",
+        "name": "GPT-5.6 Luna",
+        "org": "openai",
+        "total_tokens": 1102762937048,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": -4.1,
+        "url": "https://openrouter.ai/openai/gpt-5.6-luna"
+      },
+      {
+        "rank": 4,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 958858767218,
+        "total_tokens_str": "959B",
+        "api_calls": 0,
+        "change": -36.0,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 5,
+        "slug": "minimax/minimax-m3.1-flash",
+        "name": "MiniMax M3.1 Flash",
+        "org": "minimax",
+        "total_tokens": 891924343000,
+        "total_tokens_str": "892B",
+        "api_calls": 0,
+        "change": -15.3,
+        "url": "https://openrouter.ai/minimax/minimax-m3.1-flash"
+      },
+      {
+        "rank": 6,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 840522809663,
+        "total_tokens_str": "841B",
+        "api_calls": 0,
+        "change": -5.9,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 7,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 810419786471,
+        "total_tokens_str": "810B",
+        "api_calls": 0,
+        "change": -32.0,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 8,
+        "slug": "stepfun/step-5-preview",
+        "name": "Step 5 Preview",
+        "org": "stepfun",
+        "total_tokens": 799697698812,
+        "total_tokens_str": "800B",
+        "api_calls": 0,
+        "change": -16.7,
+        "url": "https://openrouter.ai/stepfun/step-5-preview"
+      },
+      {
+        "rank": 9,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 620927134149,
+        "total_tokens_str": "621B",
+        "api_calls": 0,
+        "change": -37.5,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 10,
+        "slug": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo-V2.6-Flash",
+        "org": "xiaomi",
+        "total_tokens": 445069287174,
+        "total_tokens_str": "445B",
+        "api_calls": 0,
+        "change": 16.4,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+      }
+    ],
+    "hf_summary": "视频生成与多模态模型热度领跑 大模型加速向实用场景落地"
+  }
+}
