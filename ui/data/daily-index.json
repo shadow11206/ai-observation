@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-11-01",
-      "title": "今日 AI 日报：谷歌承认 AI Mode 侵蚀搜索收入，市值单日蒸发 5000 亿美元 + 4 条重要动态",
-      "excerpt": "这是整个 AI 行业的分水岭事件：AI 原生交互正在摧毁旧有的流量变现模型，所有…",
+      "title": "今日 AI 日报：DeepSeek 公布 Super Agent 架构，瞄准多任务与团队协作 + 4 条重要动态",
+      "excerpt": "这是 DeepSeek 从模型层向 Agent 系统层延伸的明确信号。当模型能力…",
       "top_count": 5,
       "file": "2026-11-01.json"
     },
