@@ -1,0 +1,531 @@
+{
+  "date": "2026-11-02",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "百度搜索 AI API 千次调用仅 4.9 元，价格低于 DeepSeek",
+      "finding": "百度把搜索增强的 AI API 价格压到千次调用 4.9 元，比 DeepSeek 还便宜，同时宣称搜索业务开始用强化学习自我迭代（RSI）。这是国内大厂第一次把「搜索+AI」做成白菜价的基础设施。",
+      "key_data": [
+        "千次调用 4.9 元",
+        "低于 DeepSeek",
+        "搜索 RSI 自迭代"
+      ],
+      "judgment": "价格战从模型层烧到搜索层，靠搜索数据做 RAG 的创业公司护城河被进一步削平；对开发者是利好，对中间层套壳产品是坏消息。",
+      "confidence": 4,
+      "source": "InfoQ AI",
+      "url": "https://www.infoq.cn/article/HJgTwfsPAugNBJ2jUefj?utm_source=rss&utm_medium=article"
+    },
+    {
+      "rank": 2,
+      "title": "Claude 被曝暗改 Harness 禁止逆向游戏，引发透明度争议",
+      "finding": "有用户发现 Claude 在底层 harness 中悄悄加入限制，阻止用户通过逆向工程让模型玩游戏或绕过既定行为。Anthropic 随后紧急叫停相关改动，但「模型行为被暗中修改」这件事本身引发了信任讨论。",
+      "key_data": [
+        "暗改 Harness",
+        "禁止逆向游戏",
+        "紧急叫停"
+      ],
+      "judgment": "Agent 时代模型厂商对「行为边界」的控制欲会越来越强，但暗改而不告知会透支开发者信任；可解释性和变更日志将成为模型产品的竞争点。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507038.html"
+    },
+    {
+      "rank": 3,
+      "title": "50 组 AI Agent 团队在《我的世界》建文明失败，陷入官僚内耗",
+      "finding": "一项实验让 50 组多 Agent 团队在 Minecraft 中协作建设文明，结果全部失败——Agent 们陷入无休止的会议、审批和职责推诿，而不是干活。这是对「多 Agent 协作」叙事的一次现实打脸。",
+      "key_data": [
+        "50 组 Agent 团队",
+        "全部失败",
+        "陷入官僚内耗"
+      ],
+      "judgment": "多 Agent 编排不是把 Agent 数量堆上去就行，协调成本会指数级吞噬产出；做 Agent 框架的团队应优先解决「决策收敛」而非「角色丰富度」。",
+      "confidence": 3,
+      "source": "Hacker News / Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy"
+    },
+    {
+      "rank": 4,
+      "title": "阿波罗经济学家：AI 对大多数公司带来「零财务回报」",
+      "finding": "Apollo 首席经济学家指出，尽管企业在 AI 上投入巨大，但绝大多数公司并未看到可量化的财务回报，AI 的收益高度集中在少数头部企业。这与「AI 提升全要素生产率」的乐观叙事形成对冲。",
+      "key_data": [
+        "零财务回报",
+        "收益高度集中",
+        "投入产出失衡"
+      ],
+      "judgment": "企业 AI 采购将进入「算账期」，靠 PPT 卖 AI 的方案商会被挤压；能证明 ROI 的垂直场景（客服、代码、法律）反而会拿到更多预算。",
+      "confidence": 3,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
+    },
+    {
+      "rank": 5,
+      "title": "清华姚期智团队提出「代数世界模型」，让 AI 像牛顿一样推导物理规律",
+      "finding": "姚期智团队发表新作，提出代数世界模型，让模型不是靠海量视频拟合物理，而是从观测中归纳出代数方程形式的规律。这是世界模型路线中「符号+学习」融合的一次重要尝试。",
+      "key_data": [
+        "代数世界模型",
+        "符号+学习融合",
+        "姚期智团队"
+      ],
+      "judgment": "纯神经网络世界模型在长程推理上一直吃力，符号化归纳可能是补上「可解释物理直觉」的关键拼图；对具身智能和科学 AI 都有直接价值。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507031.html"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "量子位",
+      "title": "Jev 新成果再次引爆开源，主打极致性价比",
+      "finding": "被称为「性价比屠夫」的 Jev 发布新成果，在开源社区引发热议，延续其以极低成本逼近头部模型能力的路线。",
+      "key_data": [
+        "性价比屠夫",
+        "开源",
+        "低成本路线"
+      ],
+      "judgment": "开源模型的成本曲线还在下探，闭源 API 的溢价空间被持续压缩。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/11/506922.html",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "LSREP：评估对话记忆的纵向状态回放协议",
+      "finding": "一名独立本科生研究者提出 LSREP 协议，用于评估对话记忆系统在长时间跨度内如何累积、变化和检索信息，填补了记忆评测缺乏纵向标准的空白。",
+      "key_data": [
+        "纵向状态回放",
+        "对话记忆评测",
+        "本科生独立研究"
+      ],
+      "judgment": "记忆是 Agent 产品的核心差异化点，评测标准先行会倒逼产品认真做长期记忆。",
+      "confidence": 2,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xkzwz9/lsrep_a_longitudinal_statereplay_protocol_for/",
+      "importance": 2
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "UnEZ：完全无监督且可直接解释的神经网络",
+      "finding": "一篇新论文提出 UnEZ，结构类似自编码器但具备直接可解释的潜变量，试图在无监督学习和可解释性之间找到平衡。",
+      "key_data": [
+        "完全无监督",
+        "直接可解释",
+        "类自编码器"
+      ],
+      "judgment": "可解释性从「事后解释」走向「结构内生」，对高风险行业落地有意义。",
+      "confidence": 2,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xlkj9m/unez_a_fully_unsupervised_directly_interpretable/",
+      "importance": 2
+    },
+    {
+      "source": "量子位",
+      "title": "西湖大学成立世界模型研究中心，三年前已布局",
+      "finding": "西湖大学正式成立世界模型研究中心，相关方向已布局三年，今年随世界模型热度上升而集中爆发。",
+      "key_data": [
+        "世界模型研究中心",
+        "西湖大学",
+        "三年布局"
+      ],
+      "judgment": "高校开始把世界模型作为独立学科方向建制，人才供给会加速。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/11/507076.html",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "InfoQ AI",
+      "title": "ChatGPT Pro 额度翻倍：是让步，不是福利",
+      "finding": "OpenAI 将 ChatGPT Pro 的使用额度翻倍，分析认为这是在算力成本下降和竞争压力下的被动让步，而非主动让利。",
+      "key_data": [
+        "Pro 额度翻倍",
+        "竞争压力",
+        "算力成本下降"
+      ],
+      "judgment": "订阅制进入「加量不加价」阶段，模型厂商的定价权正在被削弱。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/WpTNht7guarWEyejJFV6?utm_source=rss&utm_medium=article",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI 或把数据中心改名为「AI 算力园区」",
+      "finding": "面对数据中心在当地社区的强烈抵触，OpenAI 考虑用「AI compute campuses」这一新名称重新包装其基础设施项目。",
+      "key_data": [
+        "AI 算力园区",
+        "改名公关",
+        "社区抵触"
+      ],
+      "judgment": "算力扩张的瓶颈从技术转向社会许可，命名只是开始，利益分配才是硬仗。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "importance": 2
+    },
+    {
+      "source": "极客公园",
+      "title": "个人灵光 2.0 实测：个人 AI 助理的机会与门槛",
+      "finding": "文章实测个人灵光 2.0，并对比 Meta 的 Muse：超 1000 万人设置 Muse，购物是最常见用途，超四分之一用户用它买东西，平均客单价超 200 美元。",
+      "key_data": [
+        "Muse 超 1000 万用户",
+        "1/4 用户购物",
+        "客单价 200 美元"
+      ],
+      "judgment": "个人助理的商业模式在购物场景先跑通，国内产品缺的是支付闭环而非模型能力。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/373249",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "Buildkite 提出 CI 智能体新思路：出错后由 Agent 把关",
+      "finding": "Buildkite 探索在 CI 流程中引入智能体，当构建出错时由 Agent 自动判断是代码问题还是环境问题并决定是否放行。",
+      "key_data": [
+        "CI 智能体",
+        "自动判断放行",
+        "Buildkite"
+      ],
+      "judgment": "AI 正在从「写代码」渗透到「守门」，DevOps 工具链会被 Agent 重做一遍。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/WmlATgJudjwPKqHf4QgX?utm_source=rss&utm_medium=article",
+      "importance": 2
+    },
+    {
+      "source": "极客公园",
+      "title": "苹果 CEO 回应 AI 落后：不会为了做 AI 而做产品",
+      "finding": "苹果新任 CEO 特努斯为苹果 AI 布局辩护，称对当前阶段满意，强调不会为了做 AI 而做产品；同时传苹果将逐步淘汰非触控 MacBook Pro。",
+      "key_data": [
+        "不为 AI 而 AI",
+        "特努斯表态",
+        "Siri 推迟"
+      ],
+      "judgment": "苹果押注端侧与体验整合，但「慢」在 Agent 时代可能变成结构性劣势。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/373252",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Kyle Kingsbury",
+      "level": "L1",
+      "quote": "LLM 的使用正在侵蚀人们对文档、软件以及生产这些的组织机构的信任。也许工程师会开始对任何新软件项目抱有怀疑——因为你不知道哪些部分是模型生成的、哪些经过人类验证。",
+      "source": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/"
+    },
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "切换到 Python 3.15 后偶尔会遇到令人困惑的依赖错误，我不得不记住的规则是：拿不准就删掉 uv.lock 文件。",
+      "source": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "多 Agent 协作的协调成本与失败模式",
+      "reason": "Minecraft 实验证明堆 Agent 数量会陷入官僚内耗，值得系统研究决策收敛机制。",
+      "priority": "high"
+    },
+    {
+      "topic": "搜索增强 API 价格战对 RAG 创业的影响",
+      "reason": "百度把搜索 API 打到千次 4.9 元，中间层产品的商业模式需要重新评估。",
+      "priority": "high"
+    },
+    {
+      "topic": "代数世界模型与符号化物理归纳",
+      "reason": "姚期智团队的路线可能补上神经网络世界模型在长程推理上的短板。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "价格战烧到搜索层，Agent 叙事遭遇现实打脸",
+  "summary_paragraph": "今天最值得注意的不是某个模型又刷了榜，而是两条反向信号同时出现：一边是百度把搜索 AI API 打到千次 4.9 元、ChatGPT Pro 被迫加量，说明模型能力正在快速商品化；另一边是 50 组 Agent 团队在 Minecraft 里集体陷入官僚内耗、阿波罗经济学家直言大多数公司 AI 回报为零，提醒行业「能跑」和「能产出」之间还有巨大鸿沟。Claude 暗改 harness 被叫停则暴露了 Agent 时代厂商与开发者之间的信任裂缝。一句话：能力在贬值，协调与信任在升值。",
+  "snapshot": {
+    "date": "2026-11-02",
+    "hf_trending": [
+      {
+        "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "short_name": "DeepSeek-V4.1-Flash-1017",
+        "likes": 4315,
+        "downloads": 170353,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v41"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "LiquidAI/LFM3-1.7B",
+        "short_name": "LFM3-1.7B",
+        "likes": 702,
+        "downloads": 37568,
+        "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "lfm3"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "short_name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "likes": 604,
+        "downloads": 29364,
+        "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "tags": [
+          "nemo",
+          "safetensors",
+          "nemo_speechlm"
+        ],
+        "pipeline_tag": "automatic-speech-recognition",
+        "label": "语音识别",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "mistralai/Mistral-Large-4-1T-A52B",
+        "short_name": "Mistral-Large-4-1T-A52B",
+        "likes": 1452,
+        "downloads": 4576,
+        "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+        "tags": [
+          "transformers",
+          "mistral_large4",
+          "image-text-to-text"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Nanbeige/Nanbeige4.3-33B",
+        "short_name": "Nanbeige4.3-33B",
+        "likes": 973,
+        "downloads": 15795,
+        "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "llama"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "baidu/Unlimited-OCR-2",
+        "short_name": "Unlimited-OCR-2",
+        "likes": 520,
+        "downloads": 109519,
+        "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "unlimited-ocr"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 10226,
+        "downloads": 2431846,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "ccore/Qwen3.5-4B-3D-Coder",
+        "short_name": "Qwen3.5-4B-3D-Coder",
+        "likes": 483,
+        "downloads": 44825,
+        "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+        "tags": [
+          "safetensors",
+          "gguf",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "thedotmack/claude-mem",
+        "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sess",
+        "stars": 109370,
+        "stars_today": 1526,
+        "forks": 9569,
+        "language": "TypeScript",
+        "url": "https://github.com/thedotmack/claude-mem"
+      },
+      {
+        "name": "lightpanda-io/browser",
+        "desc": "Lightpanda: the headless browser designed for AI and automation",
+        "stars": 40211,
+        "stars_today": 825,
+        "forks": 1966,
+        "language": "Zig",
+        "url": "https://github.com/lightpanda-io/browser"
+      },
+      {
+        "name": "shiyu-coder/Kronos",
+        "desc": "Kronos: A Foundation Model for the Language of Financial Markets",
+        "stars": 45434,
+        "stars_today": 630,
+        "forks": 7505,
+        "language": "Python",
+        "url": "https://github.com/shiyu-coder/Kronos"
+      },
+      {
+        "name": "pingdotgg/t3code",
+        "desc": "",
+        "stars": 38170,
+        "stars_today": 3094,
+        "forks": 8924,
+        "language": "TypeScript",
+        "url": "https://github.com/pingdotgg/t3code"
+      },
+      {
+        "name": "milind-soni/OpenMausBot",
+        "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+        "stars": 10594,
+        "stars_today": 922,
+        "forks": 1462,
+        "language": "TypeScript",
+        "url": "https://github.com/milind-soni/OpenMausBot"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 8144554378178,
+        "total_tokens_str": "8.1T",
+        "api_calls": 0,
+        "change": -7.1,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1410424532927,
+        "total_tokens_str": "1.4T",
+        "api_calls": 0,
+        "change": -23.0,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "minimax/minimax-m3.1-flash",
+        "name": "MiniMax M3.1 Flash",
+        "org": "minimax",
+        "total_tokens": 900303232003,
+        "total_tokens_str": "900B",
+        "api_calls": 0,
+        "change": 0.9,
+        "url": "https://openrouter.ai/minimax/minimax-m3.1-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 818393984016,
+        "total_tokens_str": "818B",
+        "api_calls": 0,
+        "change": -2.6,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 5,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 802869553177,
+        "total_tokens_str": "803B",
+        "api_calls": 0,
+        "change": -0.9,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 6,
+        "slug": "stepfun/step-5-preview",
+        "name": "Step 5 Preview",
+        "org": "stepfun",
+        "total_tokens": 747826323105,
+        "total_tokens_str": "748B",
+        "api_calls": 0,
+        "change": -6.5,
+        "url": "https://openrouter.ai/stepfun/step-5-preview"
+      },
+      {
+        "rank": 7,
+        "slug": "tencent/hy4-preview",
+        "name": "Hy4 preview",
+        "org": "tencent",
+        "total_tokens": 734598359979,
+        "total_tokens_str": "735B",
+        "api_calls": 0,
+        "change": -23.4,
+        "url": "https://openrouter.ai/tencent/hy4-preview"
+      },
+      {
+        "rank": 8,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 654058205056,
+        "total_tokens_str": "654B",
+        "api_calls": 0,
+        "change": 5.3,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 9,
+        "slug": "moonshotai/kimi-k3.1-pro",
+        "name": "Kimi K3.1 Pro",
+        "org": "moonshotai",
+        "total_tokens": 571569869907,
+        "total_tokens_str": "572B",
+        "api_calls": 0,
+        "change": 143.6,
+        "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro"
+      },
+      {
+        "rank": 10,
+        "slug": "openai/gpt-5.6-luna",
+        "name": "GPT-5.6 Luna",
+        "org": "openai",
+        "total_tokens": 570849949679,
+        "total_tokens_str": "571B",
+        "api_calls": 0,
+        "change": -48.2,
+        "url": "https://openrouter.ai/openai/gpt-5.6-luna"
+      }
+    ],
+    "hf_summary": "多模态与视频生成热度领先，开源模型向更大规模与专用化并行演进"
+  }
+}

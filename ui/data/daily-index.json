@@ -1,6 +1,13 @@
 {
-  "total": 219,
+  "total": 220,
   "reports": [
+    {
+      "date": "2026-11-02",
+      "title": "今日 AI 日报：百度搜索 AI API 千次调用仅 4.9 元，价格低于 DeepSeek + 4 条重要动态",
+      "excerpt": "价格战从模型层烧到搜索层，靠搜索数据做 RAG 的创业公司护城河被进一步削平；对…",
+      "top_count": 5,
+      "file": "2026-11-02.json"
+    },
     {
       "date": "2026-11-01",
       "title": "今日 AI 日报：DeepSeek 公布 Super Agent 架构，瞄准多任务与团队协作 + 4 条重要动态",
