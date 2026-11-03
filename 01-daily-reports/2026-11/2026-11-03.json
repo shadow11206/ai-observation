@@ -3,251 +3,253 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Anthropic 警告已非常接近 RSI，即能自我构建的 AI",
-      "finding": "Anthropic 公开表示，其模型能力已接近「递归自我改进」（RSI）的门槛——AI 能高效训练下一代 AI，从而引发能力加速。这是头部实验室首次以官方口径把 RSI 从理论讨论拉进现实时间表。",
-      "key_data": [
-        "接近 RSI 门槛",
-        "官方首次警告",
-        "能力加速临界点"
-      ],
-      "judgment": "这是今年最重要的安全信号之一。RSI 一旦成立，模型迭代周期将从「月」压缩到「天」，所有依赖「等下一代模型」的产品规划都会失效；同时监管压力会陡增，安全对齐从研究课题变成商业准入条件。",
-      "confidence": 4,
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
-    },
-    {
-      "rank": 2,
-      "title": "Anthropic 更新招股书：Q3 营收 169.6 亿美元，算力承诺 8954 亿美元",
-      "finding": "Anthropic 向 SEC 提交更新版 S-1，首次披露 Q3 营收 169.6 亿美元，环比增长 47%，但增速较 Q2 的 144% 明显放缓；单季营业亏损 5.67 亿美元，同时签下高达 8954 亿美元的算力承诺。",
+      "title": "Anthropic 更新招股书：Q3 营收 169.6 亿美元，内部 AI 消耗超过员工工资",
+      "finding": "Anthropic 向 SEC 提交更新版 S-1，首次披露第三季度营收 169.6 亿美元，环比增长 47%（增速较 Q2 的 144% 明显放缓），营业亏损 5.67 亿美元，算力承诺高达 8954 亿美元。同时 Business Insider 报道，Anthropic 内部按零售价计算的 AI 使用量已超过员工薪酬总额。",
       "key_data": [
         "Q3 营收 169.6 亿美元",
-        "环比增速 47%",
-        "算力承诺 8954 亿美元"
+        "环比增速降至 47%",
+        "算力承诺 8954 亿美元",
+        "内部 AI 消耗超工资"
       ],
-      "judgment": "增速腰斩 + 天量算力承诺，说明 Anthropic 正用「锁定未来算力」换「确定性供给」，本质是一场豪赌。对行业意味着：头部实验室的竞争已从模型能力转向资本与算力合约的军备竞赛，中小玩家将被彻底挤出牌桌。",
+      "judgment": "这是 AI 行业第一个把「AI 替代人力」写进财务报表的样本：营收增速腰斩说明企业级需求并非无限加速，而内部 token 消耗超过工资则证明 AI 原生公司的成本结构已经彻底变形。对 PM 和创业者而言，这意味着「AI 优先」不是口号而是真实的成本项，必须开始算单位经济账。",
       "confidence": 5,
-      "source": "极客公园",
+      "source": "极客公园 / Business Insider",
       "url": "http://www.geekpark.net/news/373358"
     },
     {
-      "rank": 3,
-      "title": "OpenAI 发布 LifeVal 基准：衡量 AI 帮人办实事的真实能力",
-      "finding": "OpenAI 推出 LifeVal 评测，不再考「答题」，而是考 AI 能否帮用户完成找托儿、管财务、处理政府表格等日常事务。这标志着评测范式从「知识正确」转向「任务完成」。",
+      "rank": 2,
+      "title": "研究称前沿 LLM 可直接读写神经网络权重，「权重空间编程」绕开自动研究循环",
+      "finding": "一项新研究显示，前沿大模型能原生读取和修改神经网络的权重参数，效果远超预期。研究者演示了直接编辑 Qwen 权重来减少推理循环，Latent Space 将其解读为可能把「自动研究」从 RSI（递归自我改进）循环中剥离出来。",
       "key_data": [
-        "日常事务评测",
-        "找托儿/报税/政务",
-        "任务完成导向"
+        "直接读写权重",
+        "编辑 Qwen 减少推理循环",
+        "绕开 Autoresearch",
+        "RSI 新路径"
       ],
-      "judgment": "评测标准变了，产品目标就得跟着变。过去刷榜靠知识广度，现在要靠多步骤执行与工具调用。做 Agent 产品的团队应把 LifeVal 这类「生活任务」当作真实 KPI，而不是继续卷 MMLU。",
-      "confidence": 5,
-      "source": "OpenAI Blog",
-      "url": "https://openai.com/index/lifeval"
+      "judgment": "如果可复现，这是比「模型会写代码」更根本的范式变化——模型开始操作自己的「大脑硬件」而非仅生成文本。对研究者是全新方向，对安全团队则是警报：权重级自我修改让可解释性和对齐难度再上一个台阶。",
+      "confidence": 3,
+      "source": "Reddit r/MachineLearning / Latent Space",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/"
     },
     {
-      "rank": 4,
-      "title": "OpenAI 为 Codex 规模重写 Git：自研 Pando 后端",
-      "finding": "OpenAI 披露内部构建了 Git 兼容后端 Pando，专为 Codex 带来的超大规模代码提交与分支操作设计。这说明 AI 生成代码的量级已把传统 Git 基础设施压到极限。",
+      "rank": 3,
+      "title": "OpenAI 自建 Git 后端 Pando，为 Codex 规模化的开发量做准备",
+      "finding": "OpenAI 官方博客披露其为 Codex 带来的开发规模自研了 Pando——一个兼容 Git 的后端系统，用于支撑远超传统工程团队的代码提交与分支规模。",
       "key_data": [
-        "自研 Pando 后端",
-        "Git 兼容",
-        "为 Codex 规模设计"
+        "自研 Git 后端 Pando",
+        "兼容 Git 协议",
+        "服务 Codex 开发量"
       ],
-      "judgment": "这是一个被低估的信号：AI 编程的真正瓶颈正在从「模型会不会写」转向「基础设施扛不扛得住」。未来一年，代码托管、CI/CD、评审工具都会因 AI 生成量被迫重构，这是新一轮工具创业的窗口。",
+      "judgment": "这是「AI 写代码」倒逼基础设施重构的第一个公开信号：当 Agent 成为主要提交者，GitHub 这类为人类协作设计的工具会成为瓶颈。对开发者工具厂商是明确的方向提示——下一代开发基础设施要按机器提交量设计。",
       "confidence": 5,
       "source": "OpenAI Blog",
       "url": "https://openai.com/index/scaling-git-at-openai"
     },
     {
-      "rank": 5,
-      "title": "智能体互联网（Agentic Web）正式到来",
-      "finding": "MIT 科技评论指出，伯纳斯-李 2001 年提出的「语义网」愿景，正以 AI Agent 的形式落地——网页不再只给人看，而是给 Agent 读和操作。文章同时讨论了这一转变带来的协议、信任与治理问题。",
+      "rank": 4,
+      "title": "MIT 科技评论：Agentic Web 正式到来，衡量标准应从 token 转向交付成果",
+      "finding": "MIT 科技评论连发两篇文章，一篇宣告「Agent 互联网」已经到来（呼应 Berners-Lee 的语义网愿景），另一篇提出开发者评估 AI Agent 的方式应从统计 token 消耗转向统计实际交付的成果——单个编码任务可能消耗 10 到 50 倍于单次问答的 token。",
       "key_data": [
-        "Agent 读网页",
-        "语义网愿景落地",
-        "协议与信任缺口"
+        "Agentic Web 到来",
+        "单任务 10-50 倍 token",
+        "从 token 转向交付"
       ],
-      "judgment": "流量入口正在从「人点链接」变成「Agent 调接口」。对产品经理而言，未来要同时设计「给人看的界面」和「给 Agent 用的接口」，SEO 将演化为 AEO（Agent Engine Optimization），不做这件事的产品会被 Agent 绕过。",
+      "judgment": "主流媒体开始给 Agent 时代定调，说明叙事已从「模型能力」转向「任务交付」。对产品经理的直接含义：按 token 计费的商业模式会与用户价值脱节，按结果/任务计价将成为下一轮定价竞争的焦点。",
       "confidence": 4,
-      "source": "MIT Technology Review AI",
-      "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/"
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/"
+    },
+    {
+      "rank": 5,
+      "title": "Oracle 申请增发 200 亿美元股票与债券，为 AI 基建融资",
+      "finding": "Oracle 向监管机构提交文件，计划通过增发股票和发行债券筹集 200 亿美元，用于支撑其 AI 数据中心建设。这是继多家云厂商之后，又一家以资本市场手段为 AI 算力扩张加杠杆的巨头。",
+      "key_data": [
+        "融资 200 亿美元",
+        "股票+债券",
+        "AI 数据中心建设"
+      ],
+      "judgment": "AI 基建的融资方式正从经营现金流转向大规模举债和增发，行业整体杠杆率在快速上升。这既是算力军备竞赛的必然，也意味着一旦 AI 需求增速放缓（如 Anthropic 增速腰斩所示），这批重资产玩家将首当其冲。",
+      "confidence": 4,
+      "source": "CNBC / Hacker News",
+      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
     }
   ],
   "model_tech": [
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "前沿 LLM 竟能原生读写神经网络权重",
-      "finding": "研究者发现，前沿大模型可以直接读取和修改神经网络的权重参数，表现远超预期，被称为「权重空间编程」的萌芽。这意味着模型可能绕过文本，直接在参数层面操作另一个模型。",
+      "source": "Hacker News / X",
+      "title": "AI Agent 首次完成小鼠脑外科手术",
+      "finding": "一条在 Hacker News 获得 131 分的热帖称，前一晚一个 AI Agent 完成了对小鼠的脑部手术操作。讨论集中在自主手术的安全边界与验证方式上。",
       "key_data": [
-        "原生读写权重",
-        "权重空间编程",
-        "远超预期"
+        "AI Agent 主刀",
+        "小鼠脑手术",
+        "HN 131 分"
       ],
-      "judgment": "若可复现，模型微调与模型编辑的门槛将大幅降低，但也打开新的安全口子。",
+      "judgment": "具身 Agent 从「演示」走向「高风险操作」的信号，医疗监管会先于技术成熟度成为瓶颈。",
       "confidence": 2,
-      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
-      "importance": 4
-    },
-    {
-      "source": "ArXiv cs.CL",
-      "title": "Mage-VL-Cowork：视觉 GUI 与代码终端混合的电脑操作智能体训练配方",
-      "finding": "论文提出一套完整训练方法，让电脑操作 Agent 在同一策略内同时掌握视觉界面点击与代码/终端执行，而非二选一。这是「混合电脑使用」方向少见的端到端配方。",
-      "key_data": [
-        "GUI+终端混合",
-        "端到端训练配方",
-        "单一策略"
-      ],
-      "judgment": "纯 GUI Agent 和纯代码 Agent 的路线之争将收敛，混合能力是产品化关键。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2610.40747",
+      "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
       "importance": 3
     },
     {
-      "source": "ArXiv cs.CL",
-      "title": "Li²SAO：用组相对 Actor-Critic 自举提升异步 RL 优化",
-      "finding": "针对大模型后训练中异步强化学习效率低的问题，论文提出轻量单次 rollout 的异步 RL 优化方法，通过组相对自举提升训练效率。",
+      "source": "Hugging Face Blog",
+      "title": "Transformers 引入模型集成契约（MIC）机制",
+      "finding": "Hugging Face 发布 Transformers Model Integration Contracts，为第三方模型接入定义标准化契约，降低新模型集成的维护成本与兼容风险。",
       "key_data": [
-        "异步 RL",
-        "单次 rollout",
-        "Actor-Critic 自举"
+        "模型集成契约",
+        "标准化接入",
+        "降低维护成本"
       ],
-      "judgment": "后训练效率是当前模型竞争暗线，这类工程优化会直接影响训练成本曲线。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2610.40726",
-      "importance": 3
+      "judgment": "开源生态的「接口治理」动作，长期利好模型数量爆炸下的工程可维护性。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/transformers-mic",
+      "importance": 2
     },
     {
-      "source": "ArXiv cs.LG",
-      "title": "自动构建强基线：让新方法的价值可被严格验证",
-      "finding": "论文指出深度学习新方法常因基线太弱而被高估，提出自动构建强基线的方法论，用于更严格地确立新方法的真实增益。",
+      "source": "Reddit r/MachineLearning",
+      "title": "研究者无法用作者代码复现论文数据，引发可复现性讨论",
+      "finding": "一位研究者称，使用原作者发布的代码和论文中的精确超参数重跑基线方法，在多数基准上无法复现原文数字，正在寻求如何在论文中呈现这一问题。",
       "key_data": [
-        "自动强基线",
-        "方法评估",
-        "可复现性"
+        "原代码+原超参",
+        "多数基准不复现",
+        "基线方法"
       ],
-      "judgment": "直击 ML 论文「弱基线灌水」顽疾，对评审与工程选型都有参考价值。",
+      "judgment": "AI 论文可复现性危机再添一例，评审与工业落地都应默认对论文数字打折。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2610.40700",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xm64of/couldnt_reproduce_a_published_papers_numbers_with/",
+      "importance": 2
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "社区将十年 10.9 万篇 ML 论文整理为 1260 个主题页",
+      "finding": "一个项目把 2016 年以来 ICML、NeurIPS、ICLR、CVPR、AAAI 的约 10.9 万篇录用论文按约 1260 个主题聚合，每页汇总基准记录、已尝试方法与评审偏好。",
+      "key_data": [
+        "10.9 万篇论文",
+        "1260 个主题",
+        "基准记录汇总"
+      ],
+      "judgment": "文献综述的「基础设施化」，对选题和审稿预期管理有实用价值。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xmk8rx/we_turned_10_years_of_ml_papers_into_one_page_per/",
       "importance": 2
     }
   ],
   "company_product": [
     {
       "source": "OpenAI Blog",
-      "title": "OpenAI 推出电网守护者计划，为算力园区保供电稳定",
-      "finding": "OpenAI 启动 Grid Protectors Program，与电力公司合作，让未来的大型算力园区在接入电网时不影响居民用电、不推高电价。AI 算力的能源问题被正式摆上台面。",
+      "title": "OpenAI 推出 Grid Protectors 计划，帮电网承接算力园区负荷",
+      "finding": "OpenAI 宣布与公用事业公司合作，帮助未来的算力园区支撑电网可靠性并保护居民电价，试图缓解 AI 数据中心带来的电力压力。",
       "key_data": [
-        "电网合作",
-        "算力园区",
+        "Grid Protectors 计划",
+        "合作公用事业",
         "保护居民电价"
       ],
-      "judgment": "算力扩张的下一个瓶颈是电，不是芯片。能源关系将成 AI 公司核心竞争力。",
+      "judgment": "算力扩张的瓶颈正从芯片转向电力，能源关系将成为 AI 公司的核心竞争力之一。",
       "confidence": 5,
       "url": "https://openai.com/index/grid-protectors-program",
-      "importance": 4
+      "importance": 3
     },
     {
       "source": "TechCrunch AI",
       "title": "Trajectory 融资 4500 万美元，让非技术专家也能训练 AI 模型",
-      "finding": "成立仅一年的 Trajectory 完成 4500 万美元融资，估值达 3 亿美元，主打让领域专家（非工程师）直接参与模型训练与调优。",
+      "finding": "成立仅一年的 Trajectory 完成 4500 万美元融资，估值达 3 亿美元，主打让领域专家无需写代码即可参与模型训练与调优。",
       "key_data": [
         "融资 4500 万美元",
         "估值 3 亿美元",
         "成立一年"
       ],
-      "judgment": "「领域专家训模型」是垂直 AI 的真需求，但护城河取决于数据闭环而非工具本身。",
+      "judgment": "「领域专家直接训模型」是 Agent 之后的下一个工具层机会，但需验证真实留存。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
       "importance": 3
     },
     {
-      "source": "量子位",
-      "title": "商汤发布 SenseNova 6.8 Flash，主打免费与高性价比",
-      "finding": "商汤推出 SenseNova 6.8 Flash，宣称在多个此前顶级模型翻车的任务上表现稳定，并以免费策略切入市场。",
+      "source": "TechCrunch AI",
+      "title": "苹果 Watch 上线对话回溯与摘要 AI 功能，进入 Beta 测试",
+      "finding": "Apple Watch 的 Audio Intelligence 功能开始 Beta 测试，可回听并总结对话内容、辅助记笔记，是苹果在可穿戴端 AI 的实质性落地。",
       "key_data": [
-        "SenseNova 6.8 Flash",
-        "免费策略",
-        "商汤"
+        "Audio Intelligence",
+        "对话回溯摘要",
+        "Beta 测试"
       ],
-      "judgment": "国产模型继续用「免费+够用」抢开发者，价格战仍是 2026 下半年主旋律。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/11/507277.html",
+      "judgment": "可穿戴 AI 从健康监测转向「记忆外挂」，隐私与场景边界将是主要争议点。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+      "importance": 2
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google 将 Dreambeans 推向印度，支持 13 种印度语言",
+      "finding": "Google 的 AI 个人故事生成实验 Dreambeans 进入印度市场，新增对 13 种印度语言的支持，瞄准大众化内容创作场景。",
+      "key_data": [
+        "Dreambeans 入印",
+        "13 种印度语言",
+        "AI 故事生成"
+      ],
+      "judgment": "多语言大众市场是 Google 对抗消费级 AI 应用的差异化打法，本地化深度是关键。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
       "importance": 2
     },
     {
       "source": "量子位",
-      "title": "小米开源 150 元 AI 小硬件，可指挥 Agent 并控制智能家居",
-      "finding": "小米开源一款售价约 150 元的 AI 小设备，能调用 Agent 干活并控制智能家居，热度高到配件涨价。低价 AI 硬件 + 开源正在形成新的开发者生态入口。",
+      "title": "小米获世界互联网大会双料大奖，具身基座模型获领先科技奖",
+      "finding": "小米集团在 2026 世界互联网大会获「杰出贡献奖」创新突破类奖项，其具身基座模型同时获得「领先科技奖」，显示小米在具身智能方向的官方认可度提升。",
       "key_data": [
-        "售价 150 元",
-        "开源",
-        "控制智能家居"
+        "乌镇双料大奖",
+        "具身基座模型",
+        "领先科技奖"
       ],
-      "judgment": "AI 硬件的胜负手在生态不在硬件本身，开源是小米抢开发者的聪明打法。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/11/507107.html",
-      "importance": 3
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "苹果暗示将通过第三方 AI 应用寻求新收入",
-      "finding": "苹果在财报电话会上暗示，可能通过第三方 AI 应用的「机会」来增加收入，意味着 App Store 对 AI 应用的分发与抽成策略可能调整。",
-      "key_data": [
-        "第三方 AI 应用",
-        "财报电话会",
-        "收入新渠道"
-      ],
-      "judgment": "苹果若开放 AI 应用分成新规，将重塑 iOS 上 AI 产品的分发成本结构。",
-      "confidence": 3,
-      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
-      "importance": 3
+      "judgment": "国内具身智能竞争进入「官方背书」阶段，小米的生态整合优势值得持续跟踪。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/11/507396.html",
+      "importance": 2
     }
   ],
   "opinions": [
     {
       "person": "Simon Willison",
       "level": "L2",
-      "quote": "用美国人口普查局的数据回看「企业 AI 采用率下滑」图表，提醒大家：宏观采用数据常被误读，真正的信号在具体工作流是否被改变，而不是问卷里的「是否使用 AI」。",
+      "quote": "美国人口普查局与「超级智能」的案例提醒我们：企业 AI 采用率的数据可能被误读，宏观叙事与真实落地之间存在明显落差，不要用单一图表判断行业拐点。",
       "source": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
     },
     {
-      "person": "Garry Tan",
-      "level": "L3",
-      "quote": "我一年在 token 上花高达 20 万美元，几乎不睡觉地跟 Agent 协作，自嘲得了「赛博精神病」。这侧面说明重度 Agent 用户的实际付费意愿远超预期。",
-      "source": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/"
+      "person": "陶哲轩（Terence Tao）",
+      "level": "L1",
+      "quote": "AI 时代的数学应当「无我」：研究者需要放下对个人署名与优先权的执念，把 AI 当作协作工具而非威胁，重构学术协作的方式。",
+      "source": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/"
     },
     {
-      "person": "陶哲轩",
-      "level": "L2",
-      "quote": "在 AI 时代做「无我的数学」：AI 让数学协作与验证的成本骤降，研究者应更关注问题本身而非署名与ego，把 AI 当作协作者而非威胁。",
-      "source": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/"
+      "person": "Jacob Lauritzen（Legora CTO）",
+      "level": "L1",
+      "quote": "法律 Agent 最大的工程难题是「看不见数据」：律师的客户数据不能出律所，我们必须在没有 trace 的情况下做评测，这倒逼出一套全新的 Agent 开发方法论。",
+      "source": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "RSI（递归自我改进）的能力边界与安全治理",
-      "reason": "头部实验室首次官方警告接近 RSI，直接决定未来 12 个月的模型迭代节奏与监管走向。",
+      "topic": "权重空间编程：LLM 直接读写神经网络权重的可行性与安全含义",
+      "reason": "若成立将改写模型自我改进与对齐的技术路线，需验证复现与边界。",
       "priority": "high"
     },
     {
-      "topic": "Agentic Web 下的产品设计：从人机界面到 Agent 接口",
-      "reason": "流量入口正在迁移，产品与 SEO 策略需重写，影响所有面向 C 端和 B 端的产品团队。",
+      "topic": "Anthropic 招股书拆解：AI 原生公司的成本结构与单位经济",
+      "reason": "首个公开的 AI 公司完整财务样本，对估值与商业模式判断价值极高。",
       "priority": "high"
     },
     {
-      "topic": "AI 生成代码对研发基础设施的冲击（Git/CI/评审）",
-      "reason": "OpenAI 自研 Pando 是明确信号，基础设施重构窗口已开，值得评估自建或采购方案。",
+      "topic": "Agent 时代的开发基础设施：从 Git 到 CI 的机器提交量重构",
+      "reason": "Pando 只是开始，工具链重构是未来 1-2 年确定性机会。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "RSI 逼近，算力与电网成新战场",
-  "summary_paragraph": "今天最重要的信号来自 Anthropic：它一边警告已非常接近能自我改进的 RSI，一边在招股书里披露 Q3 营收 169.6 亿美元、增速却从 144% 腰斩到 47%，同时签下 8954 亿美元算力承诺——能力加速与资本豪赌同时发生。OpenAI 则从另一侧给出注脚：发布 LifeVal 把评测从「答题」拉向「办事」，并自研 Pando 重写 Git 以承接 Codex 的代码洪流，说明瓶颈正从模型转向基础设施与能源。MIT 科技评论宣告 Agentic Web 到来，流量入口开始从人转向 Agent。一句话：模型还在加速，但真正的竞争已经转移到算力、电力与接口标准上。",
+  "summary_one_line": "AI 开始改自己的权重和账本",
+  "summary_paragraph": "今天最重要的信号来自两个方向。一是 Anthropic 招股书揭开了 AI 原生公司的真实财务：Q3 营收 169.6 亿美元但增速腰斩，内部 AI 消耗按零售价已超过员工工资，AI 替代人力第一次被写进报表。二是技术侧出现范式苗头——研究称前沿 LLM 可直接读写神经网络权重，OpenAI 则为 Codex 自研 Git 后端 Pando，说明 Agent 正在倒逼从模型内部到开发基础设施的全面重构。与此同时，Oracle 举债 200 亿美元、OpenAI 介入电网，算力军备竞赛的杠杆与能源约束同步浮出水面。",
   "snapshot": {
     "date": "2026-11-03",
     "hf_trending": [
       {
         "name": "LiquidAI/LFM3-1.7B",
         "short_name": "LFM3-1.7B",
-        "likes": 1090,
+        "likes": 1265,
         "downloads": 42384,
         "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
         "tags": [
@@ -263,7 +265,7 @@
       {
         "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "short_name": "DeepSeek-V4.1-Flash-1017",
-        "likes": 4706,
+        "likes": 4762,
         "downloads": 177009,
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
         "tags": [
@@ -279,7 +281,7 @@
       {
         "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
         "short_name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-        "likes": 685,
+        "likes": 701,
         "downloads": 32439,
         "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
         "tags": [
@@ -295,7 +297,7 @@
       {
         "name": "mistralai/Mistral-Large-4-1T-A52B",
         "short_name": "Mistral-Large-4-1T-A52B",
-        "likes": 1501,
+        "likes": 1515,
         "downloads": 5500,
         "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
         "tags": [
@@ -309,25 +311,9 @@
         "trend": "same"
       },
       {
-        "name": "baidu/Unlimited-OCR-2",
-        "short_name": "Unlimited-OCR-2",
-        "likes": 563,
-        "downloads": 147588,
-        "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "unlimited-ocr"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "speridlabs/idol",
         "short_name": "idol",
-        "likes": 420,
+        "likes": 450,
         "downloads": 7787,
         "url": "https://huggingface.co/speridlabs/idol",
         "tags": [
@@ -341,10 +327,26 @@
         "trend": "new"
       },
       {
+        "name": "baidu/Unlimited-OCR-2",
+        "short_name": "Unlimited-OCR-2",
+        "likes": 573,
+        "downloads": 147588,
+        "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "unlimited-ocr"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 10368,
-        "downloads": 2467613,
+        "likes": 10405,
+        "downloads": 2488128,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
           "diffusion-single-file",
@@ -359,7 +361,7 @@
       {
         "name": "ccore/Qwen3.5-4B-3D-Coder",
         "short_name": "Qwen3.5-4B-3D-Coder",
-        "likes": 564,
+        "likes": 575,
         "downloads": 63499,
         "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
         "tags": [
@@ -377,45 +379,45 @@
       {
         "name": "vercel-labs/agent-desktop",
         "desc": "Computer use CLI for AI agents",
-        "stars": 9918,
+        "stars": 11212,
         "stars_today": 2275,
-        "forks": 664,
+        "forks": 770,
         "language": "Rust",
         "url": "https://github.com/vercel-labs/agent-desktop"
       },
       {
         "name": "thedotmack/claude-mem",
         "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sess",
-        "stars": 110792,
+        "stars": 111173,
         "stars_today": 1803,
-        "forks": 9661,
+        "forks": 9688,
         "language": "TypeScript",
         "url": "https://github.com/thedotmack/claude-mem"
       },
       {
         "name": "D4Vinci/Scrapling",
         "desc": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale cra",
-        "stars": 92970,
+        "stars": 93575,
         "stars_today": 706,
-        "forks": 9787,
+        "forks": 9833,
         "language": "Python",
         "url": "https://github.com/D4Vinci/Scrapling"
       },
       {
         "name": "hyprwm/Hyprland",
         "desc": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacr",
-        "stars": 39962,
+        "stars": 40137,
         "stars_today": 509,
-        "forks": 2157,
+        "forks": 2162,
         "language": "C++",
         "url": "https://github.com/hyprwm/Hyprland"
       },
       {
         "name": "Donchitos/Claude-Code-Game-Studios",
         "desc": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coor",
-        "stars": 33614,
+        "stars": 34035,
         "stars_today": 1379,
-        "forks": 4524,
+        "forks": 4559,
         "language": "Shell",
         "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
       }
@@ -532,6 +534,6 @@
         "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro"
       }
     ],
-    "hf_summary": "视频与多模态霸榜 大模型转向高效稀疏架构"
+    "hf_summary": "多模态与生成式模型主导榜单 轻量化和视频生成热度最高"
   }
 }
