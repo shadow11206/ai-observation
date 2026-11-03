@@ -1,6 +1,13 @@
 {
-  "total": 220,
+  "total": 221,
   "reports": [
+    {
+      "date": "2026-11-03",
+      "title": "今日 AI 日报：Anthropic 警告已非常接近 RSI，即能自我构建的 AI + 4 条重要动态",
+      "excerpt": "这是今年最重要的安全信号之一。RSI 一旦成立，模型迭代周期将从「月」压缩到「天…",
+      "top_count": 5,
+      "file": "2026-11-03.json"
+    },
     {
       "date": "2026-11-02",
       "title": "今日 AI 日报：GPT-6.2 Astra 开启灰测，Claude Mythos 5.5 同日曝光 + 4 条重要动态",
