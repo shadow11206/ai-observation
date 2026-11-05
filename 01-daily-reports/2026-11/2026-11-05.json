@@ -4,215 +4,201 @@
     {
       "rank": 1,
       "title": "OpenAI 收购 Pierre Computer，为 Codex 补齐代码审查能力",
-      "finding": "OpenAI 宣布收购 Pierre Computer Company，将其工具整合进 Codex，用于代码的构建、理解和审查。这是 OpenAI 在 AI 编程赛道上从「生成代码」向「全流程接管代码质量」延伸的关键一步。",
+      "finding": "OpenAI 宣布收购 Pierre Computer Company，将其工具整合进 Codex，用于代码的构建、理解与审查。这是 OpenAI 在 AI 编程赛道上少见的并购动作，指向的正是当前 AI 编程产品最薄弱的环节——代码审查与质量把关。",
       "key_data": [
         "收购 Pierre Computer",
         "整合进 Codex",
-        "代码审查能力"
+        "补代码审查环节"
       ],
-      "judgment": "OpenAI 不再满足于做一个代码补全工具，而是要把 Codex 做成覆盖写、审、改的完整工程闭环。这对 Cursor、Cognition 等独立 AI 编程公司是直接压力——当模型厂商自己下场做工作流，中间层产品的护城河只剩体验和生态。",
+      "judgment": "AI 编程的竞争重心正从“生成代码”转向“审查与信任代码”。OpenAI 用并购补短板，说明单靠模型能力已不足以赢下开发者，工作流闭环才是护城河。对 Cursor、Cognition 等工具厂商是直接压力。",
       "confidence": 5,
       "source": "OpenAI Blog",
       "url": "https://openai.com/index/openai-to-acquire-pierre"
     },
     {
       "rank": 2,
-      "title": "OpenAI 自动化流水线发现并修复 Linux 内核 948 个提权漏洞",
-      "finding": "OpenAI 构建了一条自主流水线，自动发现、验证并为 Linux 内核中的 948 个本地提权漏洞生成补丁。这是 AI 在真实生产级代码库中大规模做安全审计的罕见公开案例。",
+      "title": "Claude Code 产品负责人 Cut Wu 官宣加入 OpenAI",
+      "finding": "Anthropic 旗下 Claude Code 的产品负责人 Cut Wu 宣布离职并加入 OpenAI。Claude Code 是今年增长最猛的 AI 编程产品之一，核心产品负责人出走，时机敏感。",
       "key_data": [
-        "948 个漏洞",
-        "Linux 内核",
-        "自动生成补丁"
+        "Claude Code 产品负责人",
+        "转投 OpenAI",
+        "AI 编程人才战"
       ],
-      "judgment": "这件事的意义远超安全领域：它证明 AI Agent 已经能在超大型代码库中完成「发现-验证-修复」的完整闭环。安全审计可能是 Agent 最先实现商业闭环的垂直场景之一，传统安全厂商和漏洞赏金平台需要重新思考定位。",
-      "confidence": 5,
-      "source": "OpenAI Blog",
-      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
+      "judgment": "这是 AI 编程领域人才战升级的明确信号。产品负责人比研究员更懂“怎么把模型变成开发者愿意每天用的工具”，OpenAI 连续两天在编程赛道出手（收购+挖人），说明其 Codex 战略正在加速补课。Anthropic 需警惕 Claude Code 后续迭代节奏。",
+      "confidence": 4,
+      "source": "InfoQ AI",
+      "url": "https://www.infoq.cn/article/cDERcarozbrsCBNs5sWM"
     },
     {
       "rank": 3,
-      "title": "Uber 数据打脸：AI Agent 订车几乎无人使用",
-      "finding": "Uber 披露，在上季度最繁忙的一周里，只有 4 个人通过 AI Agent 完成叫车。这与行业对「Agent 接管一切」的乐观叙事形成鲜明反差。",
+      "title": "百度开源文心 5.5 Flash Base，同尺寸模型多项基准刷新 SOTA",
+      "finding": "百度正式开源最新基座模型文心 5.5 Flash Base，官方称在多基准测试中刷新同尺寸模型 SOTA。这是百度在开源路线上少有的激进动作，直接对标 Qwen、DeepSeek 的开源生态位。",
       "key_data": [
-        "仅 4 人使用",
-        "最繁忙一周",
-        "Agent 订车"
+        "文心 5.5 Flash Base",
+        "开源基座模型",
+        "同尺寸 SOTA"
       ],
-      "judgment": "这是今天最值得产品经理警醒的一条数据。Agent 的演示效果和真实使用量之间存在巨大鸿沟，用户并不愿意把有支付、有安全风险的操作交给 Agent。做 Agent 产品的团队应该先问：用户真的想被自动化这一步吗？",
+      "judgment": "百度过去在开源上偏保守，这次把主力基座模型开源，说明国内开源模型竞争已进入“不开放就没人用”的阶段。对开发者是利好，但真正的考验是社区采用率和后续迭代承诺——一次性开源没有意义。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507787.html"
+    },
+    {
+      "rank": 4,
+      "title": "Uber 数据打脸：最忙一周仅 4 人用 AI Agent 叫车",
+      "finding": "Uber 披露，上个季度最繁忙的一周里，只有 4 个人通过 AI Agent 完成叫车。这与行业对“Agent 接管一切”的乐观叙事形成鲜明反差。",
+      "key_data": [
+        "最忙一周仅 4 人",
+        "AI Agent 叫车",
+        "真实使用数据"
+      ],
+      "judgment": "这是今天最值得产品经理警醒的一条。Agent 的 demo 能力和真实使用量之间存在巨大鸿沟，用户并不愿意把高频、低决策成本的操作交给 Agent。做 Agent 产品的团队应该重新审视：你的场景是否真的需要 Agent，还是只是技术上能做。",
       "confidence": 4,
       "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/"
     },
     {
-      "rank": 4,
-      "title": "美国中期选举蓝潮冲击 AI 数据中心扩张，德州成焦点",
-      "finding": "民主党在中期选举中大胜，而数据中心选址密集的德州等地正是蓝潮重灾区。多地选民明确反对数据中心，从参议院选战到地方 rezoning 公投，数据中心及其支持者全线失利。",
-      "key_data": [
-        "蓝潮席卷德州",
-        "选民反对数据中心",
-        "AI 基建受阻"
-      ],
-      "judgment": "AI 算力扩张第一次遭遇系统性政治阻力。过去两年「建数据中心」被视为纯商业决策，现在变成了需要过选民关的政治议题。这对算力租赁价格、云厂商资本开支节奏、乃至模型训练排期都会产生连锁影响，基础设施团队需要开始做政治风险评估。",
-      "confidence": 4,
-      "source": "Wired AI",
-      "url": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/"
-    },
-    {
       "rank": 5,
-      "title": "苹果被曝大幅削减内部 AI 预算，同时国行 Apple 智能接入阿里千问",
-      "finding": "苹果据报显著削减工程团队的内部 AI 使用预算；与此同时，Apple 智能随 iOS 27.3 测试版向中国大陆用户开放，并确认与阿里巴巴合作，将千问接入 Siri、写作工具和视觉智能。",
+      "title": "美国中期选举蓝潮冲击 AI 数据中心扩张，得州枢纽地位或生变",
+      "finding": "民主党在中期选举中大胜，数据中心选址在多场选举和公投中成为焦点议题，选民普遍反对数据中心。得州作为美国增长最快的数据中心市场，其扩张前景因此蒙上阴影，部分从业者甚至开始讨论“太空数据中心”。",
       "key_data": [
-        "削减内部 AI 预算",
-        "国行接入千问",
-        "iOS 27.3 测试"
+        "蓝潮胜选",
+        "选民反对数据中心",
+        "得州扩张受阻"
       ],
-      "judgment": "一边省钱一边借外力，说明苹果在 AI 上选择了「自研克制 + 本地合作」的务实路线。对国内大模型厂商是利好信号——系统级入口的争夺战里，阿里先下一城；但也意味着苹果自研模型短期内不会成为独立竞争力。",
-      "confidence": 3,
-      "source": "TechCrunch AI / 极客公园",
-      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/"
+      "judgment": "AI 基础设施的瓶颈正从芯片、电力转向“社会许可”。算力扩张不再只是工程和资本问题，而是政治问题。这对所有规划大规模数据中心的公司是结构性风险，也意味着 AI 基建的选址逻辑和成本模型需要重估。",
+      "confidence": 4,
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
     }
   ],
   "model_tech": [
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "Hydrogen-1.0 开源科学模型在 FSR 基准上击败 GPT-6 Astra，成本低 72%",
-      "finding": "Deep Principle 团队基于 GLM-5.3 后训练出面向化学、材料、生命科学的开源权重模型 Hydrogen-1.0，在科学推理基准 FSR 上超过 GPT-6 Astra，估算输出成本低 72%。",
+      "source": "Latent Space",
+      "title": "Kimi K3.1 Pro 开放权重，Ricursive 发布 Ripple-65B",
+      "finding": "Moonshot 的 Kimi K3.1 Pro 以开放权重形式发布，同时 Ricursive 推出 Ripple-65B。开源模型阵营继续扩容，且开始向更大参数规模推进。",
       "key_data": [
-        "基于 GLM-5.3",
-        "成本低 72%",
-        "开源权重"
+        "Kimi K3.1 Pro",
+        "开放权重",
+        "Ripple-65B"
       ],
-      "judgment": "垂直领域后训练正在用低成本撬动通用大模型的护城河，科学场景是第一个被验证的突破口。",
+      "judgment": "开源与闭源的差距在持续收窄，开放权重正成为头部玩家的默认选项而非差异化策略。",
       "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xnjhdd/hydrogen10_openweight_scientific_model_beats_gpt6/",
+      "url": "https://latent.space/p/ainews-it-s-swapping-season/",
       "importance": 4
     },
     {
       "source": "量子位",
-      "title": "招商局狮子山实验室发布具身推理模型驭物 Lion-ER-35B-A3B",
-      "finding": "该模型总参数 35B、仅激活 3B，在十项具身推理基准上全线提升，主打不靠堆数据而让机器人理解真实物理世界。",
+      "title": "MIT 研究被质疑：Astra 所谓“爆改 Qwen 权重”遭 spaCy 作者长文反驳",
+      "finding": "一项被宣传为对 Qwen 权重做出重大改进的 MIT 研究遭到 spaCy 作者长文炮轰，质疑其方法有效性和结论可靠性。",
       "key_data": [
-        "激活仅 3B",
-        "十项基准提升",
-        "具身推理"
+        "Astra 研究",
+        "spaCy 作者质疑",
+        "Qwen 权重"
       ],
-      "judgment": "稀疏激活路线在具身场景落地，说明机器人端侧推理的算力约束正在被架构创新化解。",
+      "judgment": "模型改进类研究的可信度问题正在浮出水面，社区自净机制开始发挥作用，读者应对“刷榜式”研究保持警惕。",
       "confidence": 3,
-      "url": "https://www.qbitai.com/2026/11/507586.html",
+      "url": "https://www.qbitai.com/2026/11/507782.html",
       "importance": 3
     },
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "GLM-5.3-Flash 在 AWS Trainium2 上的推理引擎开源",
-      "finding": "团队为 320B MoE、1M 上下文 的 GLM-5.3-Flash 编写推理引擎，在单台 trn2.48xlarge 上服务，并开源，重点优化了 decode 阶段。",
+      "source": "ArXiv cs.AI",
+      "title": "多智能体系统中的“证据门控权限”：谁有权否决 Agent？",
+      "finding": "论文研究多智能体系统中引入审查者 Agent 的利弊，指出审查者既能修复上游错误，也可能错误地推翻正确决策，并提出基于证据的门控机制。",
       "key_data": [
-        "320B MoE",
-        "1M 上下文",
-        "单机部署"
+        "审查者 Agent",
+        "证据门控",
+        "多智能体治理"
       ],
-      "judgment": "非 NVIDIA 硬件上的大 MoE 推理工程经验稀缺，这份开源实现对降低推理成本有直接参考价值。",
+      "judgment": "Agent 系统的治理问题开始被严肃对待，这对构建多 Agent 生产系统的团队有直接参考价值。",
       "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xo0yuq/p_nki_layer_megakernels_for_glm53flash_on_aws/",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv cs.CL",
-      "title": "MEMENTO：面向长上下文处理 Agent 的上下文管理学习",
-      "finding": "论文提出让 Agent 学习在固定上下文窗口内决定保留什么信息的方法，替代简单的截断或摘要策略。",
-      "key_data": [
-        "上下文管理",
-        "固定窗口",
-        "Agent 学习"
-      ],
-      "judgment": "长上下文 Agent 的瓶颈正从「窗口多大」转向「怎么用窗口」，这是工程落地的关键课题。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2611.00244",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv cs.CL",
-      "title": "全模态嵌入综述：从碎片化走向融合的路线图",
-      "finding": "论文系统梳理了文本、图像、音频等嵌入模型各自为战到统一融合的现状，并提出全模态嵌入的发展路线图。",
-      "key_data": [
-        "全模态嵌入",
-        "统一表示",
-        "路线图"
-      ],
-      "judgment": "嵌入层的统一是多模态应用的基础设施级问题，这篇综述适合作为团队技术选型的参考底稿。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2611.00172",
-      "importance": 2
-    }
-  ],
-  "company_product": [
-    {
-      "source": "OpenAI Blog",
-      "title": "Daybreak Red 上线 AWS GovCloud，GPT-5.6 Cyber 面向政府网络安全客户",
-      "finding": "OpenAI 通过 Amazon Bedrock 在 AWS GovCloud（美东）向获批客户提供 GPT-5.6 Cyber，专用于授权网络安全工作。",
-      "key_data": [
-        "GPT-5.6 Cyber",
-        "AWS GovCloud",
-        "政府客户"
-      ],
-      "judgment": "OpenAI 在政府与安全垂直市场加速落地，云厂商渠道成为其 To G 的关键通路。",
-      "confidence": 5,
-      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "url": "https://arxiv.org/abs/2611.05390",
       "importance": 3
     },
     {
       "source": "InfoQ AI",
-      "title": "谷歌发布 Data Agent Kit，安全防护分为 Skill 与 IAM 两层",
-      "finding": "谷歌正式发布 Data Agent Kit，将 Agent 的安全防护拆分为 Skill 层与 IAM 层，试图为企业数据 Agent 提供标准化权限框架。",
+      "title": "谷歌发布 ML Drift，为各类 GPU 加速端侧 AI 推理",
+      "finding": "谷歌推出 ML Drift，目标是让端侧 AI 推理能在多种 GPU 上获得加速，降低设备端模型部署的门槛。",
       "key_data": [
-        "Skill + IAM 分层",
-        "企业数据 Agent",
-        "标准化权限"
+        "ML Drift",
+        "端侧推理",
+        "多 GPU 加速"
       ],
-      "judgment": "Agent 安全从「提示词约束」走向「权限工程」，这是企业级 Agent 落地的必经之路。",
+      "judgment": "端侧推理的工程工具链在补课，这对做设备端 AI 产品的团队是实用利好，但需观察实际硬件覆盖度。",
       "confidence": 3,
-      "url": "https://www.infoq.cn/article/UtKS9EofSoyd2P7Otx7e",
+      "url": "https://www.infoq.cn/article/hHzARIJTeqoqYpjNKEuq",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "极客公园",
+      "title": "Apple 智能国行上线测试，确认接入阿里千问",
+      "finding": "Apple 智能随 iOS 27.3 开发者测试版向中国大陆用户开放，并确认与阿里巴巴合作，将千问接入 Siri、写作工具和视觉智能。正式版计划 12 月推送。",
+      "key_data": [
+        "iOS 27.3 测试",
+        "接入阿里千问",
+        "12 月正式版"
+      ],
+      "judgment": "苹果在中国市场选择了“本地模型合作”路线，这为国内大模型厂商打开了系统级入口，也意味着端侧 AI 的竞争进入生态绑定阶段。",
+      "confidence": 4,
+      "url": "http://www.geekpark.net/news/373494",
+      "importance": 4
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "苹果据报大幅削减内部 AI 使用预算",
+      "finding": "报道称苹果显著削减了工程团队使用 AI 的预算额度。这与苹果对外高调推进 Apple 智能的形象形成反差。",
+      "key_data": [
+        "削减 AI 预算",
+        "工程团队",
+        "内部使用收缩"
+      ],
+      "judgment": "如果属实，说明苹果对内部 AI 投入的 ROI 存疑，成本控制优先于全面铺开，值得关注其后续 AI 战略是否转向更聚焦。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "MCP C# SDK 2.0 默认启用 HTTP 无状态模式，新增多轮请求能力",
+      "finding": "MCP 的 C# SDK 升级到 2.0，默认采用 HTTP 无状态模式，并支持多轮请求。这降低了 MCP 服务端的部署复杂度。",
+      "key_data": [
+        "MCP C# SDK 2.0",
+        "HTTP 无状态",
+        "多轮请求"
+      ],
+      "judgment": "MCP 生态在向生产可用性演进，无状态化是服务端规模化的关键一步，对 .NET 技术栈的 Agent 开发者是直接利好。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/80iUxvCNB59aOgyXB7LN",
       "importance": 3
     },
     {
       "source": "量子位",
-      "title": "虎鲸文娱上线 AI 影视制作平台鲸锐 AI，单分钟成本省 30% 以上",
-      "finding": "虎鲸文娱推出行业首个 AI 影视制作与管理平台鲸锐 AI，官方称 AI 视频单分钟制作成本节省 30% 以上。",
+      "title": "XROGO 在 CeMAT ASIA 发布“机器人到岗计划”",
+      "finding": "XROGO 提出以“像雇人一样雇机器人”的方式衡量机器人价值，并在展会上发布机器人到岗计划，强调以真实工作场景检验机器人能力。",
       "key_data": [
-        "单分钟省 30%",
-        "AI 影视平台",
-        "制作+管理"
+        "机器人到岗计划",
+        "真实工作检验",
+        "按岗雇佣"
       ],
-      "judgment": "视频生成正在从工具走向工业化流水线，成本数据比模型参数更能说明商业化进度。",
+      "judgment": "具身智能开始从 demo 展示转向“按岗位交付结果”的商业模式，这是行业走向务实的一个信号。",
       "confidence": 3,
-      "url": "https://www.qbitai.com/2026/11/507567.html",
+      "url": "https://www.qbitai.com/2026/11/507767.html",
       "importance": 2
     },
     {
-      "source": "量子位",
-      "title": "百度无人车用世界模型实时推演全局场景",
-      "finding": "百度无人车展示基于世界模型的实时全局推演能力，官方称跑一天仿真抵三年路测，连路人行为都有建模。",
+      "source": "极客公园",
+      "title": "Qoder 获世界互联网大会领先科技奖，称拿下中国 AI 编程市场第一",
+      "finding": "Qoder 在世界互联网大会领先科技奖中获奖，并对外宣称在中国 AI 编程市场占有率第一。",
       "key_data": [
-        "世界模型推演",
-        "一天抵三年",
-        "路人行为建模"
+        "领先科技奖",
+        "中国 AI 编程第一",
+        "乌镇大会"
       ],
-      "judgment": "世界模型成为自动驾驶数据效率的杠杆，仿真与路测的比例关系可能被重写。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/11/507647.html",
-      "importance": 2
-    },
-    {
-      "source": "Hacker News",
-      "title": "高通发布 Cloud AI 100 Ultra：150W、128GB、548GB/s 的数据中心加速卡",
-      "finding": "高通推出面向数据中心的 Cloud AI 100 Ultra 推理加速卡，功耗 150W，配备 128GB 显存，带宽 548GB/s。",
-      "key_data": [
-        "150W 功耗",
-        "128GB 显存",
-        "548GB/s 带宽"
-      ],
-      "judgment": "低功耗推理卡在数据中心电力受限背景下有结构性机会，但软件生态仍是高通的硬伤。",
-      "confidence": 4,
-      "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+      "judgment": "国内 AI 编程市场的份额之争开始公开化，但“第一”的口径需谨慎看待，实际应以开发者留存和付费数据为准。",
+      "confidence": 2,
+      "url": "http://www.geekpark.net/news/373542",
       "importance": 2
     }
   ],
@@ -220,49 +206,42 @@
     {
       "person": "Geoffrey Hinton",
       "level": "L3",
-      "quote": "也许没有 AI 我们会过得更好。这位「AI 教父」在卫报采访中给出了迄今最悲观的表态，认为 AI 带来的风险可能超过收益。",
+      "quote": "回顾来看，没有 AI 我们可能过得更好。AI 的风险不在于它变坏，而在于它太能干，且我们无法可靠地控制它。",
       "source": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai"
     },
     {
-      "person": "Clément Delangue",
+      "person": "Clément Delangue（Hugging Face CEO）",
       "level": "L3",
-      "quote": "我的 P(Doom) 接近于零。大部分风险其实来自少数几个闭门造车的玩家，开源才是解法。Hugging Face CEO 在 Wired World Fair 上如此表态。",
+      "quote": "我的 P(Doom) 接近于零。大部分风险其实来自少数几个闭门造车的玩家，而不是开源本身。开放才是降低风险的方式。",
       "source": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/"
-    },
-    {
-      "person": "Simon Willison",
-      "level": "L2",
-      "quote": "发布 datasette-llm 0.1a10，修复了 agent.datasette.io 演示站中可用模型未按配置正确限制的 bug——一线实践者仍在打磨 Agent 与模型配置的边界细节。",
-      "source": "https://simonwillison.net/2026/Nov/4/datasette-llm/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI Agent 在真实消费场景的使用率鸿沟",
-      "reason": "Uber 仅 4 人用 Agent 订车，值得系统梳理各场景 Agent 真实渗透率数据。",
+      "topic": "AI Agent 的真实使用率与场景适配性",
+      "reason": "Uber 仅 4 人用 Agent 叫车的数据，值得系统性研究哪些场景真正适合 Agent、哪些是伪需求。",
       "priority": "high"
     },
     {
-      "topic": "数据中心的政治化与算力扩张风险",
-      "reason": "中期选举显示数据中心成选举议题，需评估对算力价格与训练排期的传导。",
+      "topic": "AI 数据中心的社会许可与政治风险",
+      "reason": "中期选举显示数据中心成为选举议题，算力扩张的成本模型需要重估，影响所有基础设施规划。",
       "priority": "high"
     },
     {
-      "topic": "AI 自动化安全审计的商业化路径",
-      "reason": "OpenAI 948 漏洞案例证明闭环可行，值得研究安全 Agent 的产品形态与定价。",
+      "topic": "OpenAI 编程赛道连续出手的战略意图",
+      "reason": "收购 Pierre 加挖角 Claude Code 负责人，两天内两次动作，值得拆解 Codex 的完整路线图。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "Agent 叙事遇冷，基建扩张遇阻",
-  "summary_paragraph": "今天最值得玩味的是两盆冷水：Uber 披露一周仅 4 人用 AI Agent 叫车，戳破了 Agent 全面接管的乐观叙事；美国中期选举蓝潮则让数据中心在多地公投中全线失利，AI 算力扩张首次撞上系统性政治阻力。与此同时，OpenAI 一边收购 Pierre Computer 补齐 Codex 的代码审查闭环，一边用自动化流水线修复了 Linux 内核 948 个提权漏洞，证明 Agent 在专业垂直场景已能跑通「发现-验证-修复」。苹果则选择削减内部 AI 预算、国行接入阿里千问，走务实借力路线。行业正从「能力演示」进入「真实使用率与落地成本」的硬碰硬阶段。",
-  "_comment": "",
+  "summary_one_line": "Agent 遇冷，编程赛道升温",
+  "summary_paragraph": "今天最值得玩味的是两条相反方向的信号：一边是 Uber 披露最忙一周仅 4 人用 AI Agent 叫车，给火热的 Agent 叙事泼了冷水；另一边是 OpenAI 两天内连续出手——收购 Pierre Computer 补代码审查、挖走 Claude Code 产品负责人，AI 编程赛道的军备竞赛明显加速。模型层面，百度开源文心 5.5 Flash Base、Kimi K3.1 Pro 开放权重，开源阵营继续扩容。而在基础设施侧，美国中期选举的蓝潮让数据中心扩张遭遇政治阻力，AI 算力的瓶颈正从技术转向社会许可。",
   "snapshot": {
     "date": "2026-11-05",
     "hf_trending": [
       {
         "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
         "short_name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-        "likes": 1544,
+        "likes": 3028,
         "downloads": 44939,
         "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
         "tags": [
@@ -276,73 +255,9 @@
         "trend": "same"
       },
       {
-        "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
-        "short_name": "DeepSeek-V4.1-Flash-1017",
-        "likes": 5275,
-        "downloads": 221621,
-        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "deepseek_v41"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
-        "name": "speridlabs/idol",
-        "short_name": "idol",
-        "likes": 620,
-        "downloads": 14613,
-        "url": "https://huggingface.co/speridlabs/idol",
-        "tags": [
-          "idol",
-          "gaussian-splatting",
-          "3d"
-        ],
-        "pipeline_tag": "image-to-3d",
-        "label": "Image To 3D",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
-        "name": "LiquidAI/LFM3-1.7B",
-        "short_name": "LFM3-1.7B",
-        "likes": 1486,
-        "downloads": 54959,
-        "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "lfm3"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
-        "name": "mistralai/Mistral-Large-4-1T-A52B",
-        "short_name": "Mistral-Large-4-1T-A52B",
-        "likes": 1591,
-        "downloads": 8200,
-        "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
-        "tags": [
-          "transformers",
-          "mistral_large4",
-          "image-text-to-text"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "moonshotai/Kimi-K3.1-Pro",
         "short_name": "Kimi-K3.1-Pro",
-        "likes": 518,
+        "likes": 673,
         "downloads": 797,
         "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
         "tags": [
@@ -356,9 +271,73 @@
         "trend": "new"
       },
       {
+        "name": "speridlabs/idol",
+        "short_name": "idol",
+        "likes": 656,
+        "downloads": 14613,
+        "url": "https://huggingface.co/speridlabs/idol",
+        "tags": [
+          "idol",
+          "gaussian-splatting",
+          "3d"
+        ],
+        "pipeline_tag": "image-to-3d",
+        "label": "Image To 3D",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "short_name": "DeepSeek-V4.1-Flash-1017",
+        "likes": 5309,
+        "downloads": 221621,
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deepseek_v41"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "mistralai/Mistral-Large-4-1T-A52B",
+        "short_name": "Mistral-Large-4-1T-A52B",
+        "likes": 1595,
+        "downloads": 8200,
+        "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+        "tags": [
+          "transformers",
+          "mistral_large4",
+          "image-text-to-text"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "LiquidAI/LFM3-1.7B",
+        "short_name": "LFM3-1.7B",
+        "likes": 1496,
+        "downloads": 54959,
+        "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "lfm3"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "Pika-Labs/Pika-H3-Flex",
         "short_name": "Pika-H3-Flex",
-        "likes": 429,
+        "likes": 438,
         "downloads": 749,
         "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
         "tags": [
@@ -374,7 +353,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 10620,
+        "likes": 10648,
         "downloads": 2493402,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -392,45 +371,45 @@
       {
         "name": "NVIDIA/auto-ontology",
         "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. I",
-        "stars": 5167,
+        "stars": 6067,
         "stars_today": 2050,
-        "forks": 409,
+        "forks": 479,
         "language": "Python",
         "url": "https://github.com/NVIDIA/auto-ontology"
       },
       {
         "name": "max-sixty/worktrunk",
         "desc": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-        "stars": 11068,
+        "stars": 11253,
         "stars_today": 531,
-        "forks": 415,
+        "forks": 423,
         "language": "Rust",
         "url": "https://github.com/max-sixty/worktrunk"
       },
       {
         "name": "mattpocock/skills",
         "desc": "Skills for Real Engineers. Straight from my .agents directory.",
-        "stars": 313387,
+        "stars": 313928,
         "stars_today": 1379,
-        "forks": 26290,
+        "forks": 26321,
         "language": "Shell",
         "url": "https://github.com/mattpocock/skills"
       },
       {
         "name": "floci-io/floci",
         "desc": "Light, fluffy, and always free - The AWS Local Emulator alternative",
-        "stars": 29664,
+        "stars": 29922,
         "stars_today": 1090,
-        "forks": 3282,
+        "forks": 3296,
         "language": "Java",
         "url": "https://github.com/floci-io/floci"
       },
       {
         "name": "thedotmack/claude-mem",
         "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sess",
-        "stars": 112901,
+        "stars": 113189,
         "stars_today": 1172,
-        "forks": 9805,
+        "forks": 9823,
         "language": "TypeScript",
         "url": "https://github.com/thedotmack/claude-mem"
       }
@@ -547,6 +526,6 @@
         "url": "https://openrouter.ai/openai/gpt-6.1-sol"
       }
     ],
-    "hf_summary": "多模态与视频生成霸榜，开源模型正加速向多模态融合与高热度集中"
+    "hf_summary": "图生视频与多模态理解霸榜 开源模型加速向多模态与生成式视频集中"
   }
 }
