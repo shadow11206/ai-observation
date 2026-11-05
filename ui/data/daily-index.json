@@ -1,6 +1,13 @@
 {
-  "total": 222,
+  "total": 223,
   "reports": [
+    {
+      "date": "2026-11-05",
+      "title": "今日 AI 日报：OpenAI 收购 Pierre Computer，为 Codex 补齐代码审查能力 + 4 条重要动态",
+      "excerpt": "OpenAI 不再满足于做一个代码补全工具，而是要把 Codex 做成覆盖写、审…",
+      "top_count": 5,
+      "file": "2026-11-05.json"
+    },
     {
       "date": "2026-11-04",
       "title": "今日 AI 日报：Codex 11天写出13.9万行新内核，Rocky Linux 10成功跑起来 + 4 条重要动态",
