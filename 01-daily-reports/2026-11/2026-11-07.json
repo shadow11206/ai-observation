@@ -1,0 +1,548 @@
+{
+  "date": "2026-11-07",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "OpenAI 再融 110 亿美元，估值达 1.25 万亿美元",
+      "finding": "OpenAI 在尚未关闭的新一轮融资中又拿到 110 亿美元，整体估值被推到 1.25 万亿美元，成为史上估值最高的 AI 公司。这笔钱大概率会继续砸向算力和数据中心。",
+      "key_data": [
+        "新增融资 110 亿美元",
+        "估值 1.25 万亿美元",
+        "融资轮尚未关闭"
+      ],
+      "judgment": "资本仍在无脑押注头部模型公司，但估值已远超多数上市公司，意味着 OpenAI 必须用收入增速证明自己不是泡沫；对创业公司而言，融资窗口正在向头部集中，中间层公司会更难拿钱。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+    },
+    {
+      "rank": 2,
+      "title": "Thinking Machines 发布 Inkling 2 Small：68 小时训练出中国以外最强开源权重模型",
+      "finding": "Mira Murati 创立的 Thinking Machines Lab 发布第二代模型 Inkling 2 Small，采用 17B 激活、594B 总参数的 MoE 架构，在 12T token 上仅训练 68 小时，第三方评测称其将成为中国以外得分最高的开放权重模型。同日公司被曝估值达 400 亿美元。",
+      "key_data": [
+        "17B 激活 / 594B 总参数",
+        "训练 68 小时",
+        "12T tokens",
+        "估值 400 亿美元"
+      ],
+      "judgment": "这是对「开源权重=中国公司主场」叙事的正面挑战，训练效率（68 小时/12T token）比参数规模更值得关注；如果权重真放出，欧美开源生态会重新获得一个可对标 DeepSeek/Qwen 的选项。",
+      "confidence": 4,
+      "source": "Latent Space / 极客公园",
+      "url": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/"
+    },
+    {
+      "rank": 3,
+      "title": "免费中国模型黑客能力逼近 OpenAI 顶级网络安全模型",
+      "finding": "Wired 报道的一项实验让多个 AI 模型尝试入侵模拟网络，结果显示 DeepSeek 和 GLM 的黑客技能已接近 OpenAI 尚未公开的最强网络安全模型。同期国内某 AI 安全团队以 99.4% 成绩刷新 CyberGym「AI 安全世界杯」世界纪录。",
+      "key_data": [
+        "DeepSeek/GLM 接近 OpenAI 顶级",
+        "CyberGym 纪录 99.4%",
+        "OpenAI 模型未公开"
+      ],
+      "judgment": "开源模型的攻防能力正在快速追平闭源，意味着网络安全行业不能再假设「最强攻击工具掌握在少数人手里」；对企业安全团队来说，防御方必须假设攻击者已能用上接近前沿水平的免费模型。",
+      "confidence": 4,
+      "source": "Wired / 量子位",
+      "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/"
+    },
+    {
+      "rank": 4,
+      "title": "Meta 推出 Spaces，让用户与 Muse Agent 协作",
+      "finding": "Meta 为旗下 Muse AI 助手新增 Spaces 功能，提供一种新的协作式交互方式，让用户与 Agent 在共享空间里共同完成任务。这是 Meta 在消费级 Agent 产品上的持续加码。",
+      "key_data": [
+        "Muse Agent 新功能",
+        "协作式空间",
+        "Meta 消费级 AI"
+      ],
+      "judgment": "Agent 产品正从「对话框」走向「共享工作空间」，这是交互范式的迁移信号；对产品经理来说，下一波竞争点不是模型能力而是 Agent 的协作界面设计。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/"
+    },
+    {
+      "rank": 5,
+      "title": "AI 正在显著加速 AI 自身研究，引发社区激辩",
+      "finding": "Hacker News 热帖讨论 AI 对 AI 研究的加速效应，同时 LessWrong 上有文章质疑「AI R&D 是否真的ingenious」，两篇合计获得近 400 分、200 多条评论。METR 也发布了对 Anthropic AI 研究工作的研究。",
+      "key_data": [
+        "HN 204 分 / 156 评论",
+        "LessWrong 180 分",
+        "METR 研究 Anthropic"
+      ],
+      "judgment": "「AI 加速 AI 研究」从口号进入可测量阶段，这是判断递归自我改进是否开始的关键窗口；但社区分歧说明证据仍不充分，产品团队不宜过早押注「AI 自动做研发」的叙事。",
+      "confidence": 3,
+      "source": "Hacker News / LessWrong",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "Boson AI 发布 Higgs Realtime Duplex：45B MoE 全双工语音模型",
+      "finding": "该模型能同时听、看、说，并在后台思考、调用工具和分派子任务，突破传统语音模型「一问一答」的轮次限制。目前不开源，API 需排队申请。",
+      "key_data": [
+        "45B MoE",
+        "全双工",
+        "后台调用工具",
+        "API 排队"
+      ],
+      "judgment": "全双工是语音交互的下一代形态，实时 Agent 的产品体验会因此重写。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xpn5pv/higgs_realtime_duplex_a_45b_moe_fullduplex_model/",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "BlockLock：固定批几何实现可复现的 LLM 推理",
+      "finding": "论文提出一种方法，让同一请求无论和哪些请求一起批处理都产生完全相同的输出，解决了 LLM 推理结果不可复现的痛点。",
+      "key_data": [
+        "固定批几何",
+        "输出可复现",
+        "无需额外成本"
+      ],
+      "judgment": "对需要审计和合规的企业级 LLM 应用是刚需能力，推理确定性会成为采购标准。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.06977",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "弹性专家并行：降低 RL 后训练的资源消耗",
+      "finding": "论文针对 RL 后训练中生成训练响应这一算力瓶颈，提出弹性专家并行方案，提升资源利用率。",
+      "key_data": [
+        "RL 后训练",
+        "弹性专家并行",
+        "降低算力瓶颈"
+      ],
+      "judgment": "RL 后训练成本是当前模型迭代的主要瓶颈，这类工程优化直接决定训练经济性。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.06984",
+      "importance": 3
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "ToyBlocks：为机器人学习与评测提供受控世界",
+      "finding": "AllenAI 在 Hugging Face 发布 ToyBlocks，一个用于机器人学习和评测的受控实验环境，便于可复现地比较不同机器人学习方案。",
+      "key_data": [
+        "受控环境",
+        "机器人学习",
+        "可复现评测"
+      ],
+      "judgment": "具身智能缺的正是标准化评测环境，这类基础设施比单个 demo 更有长期价值。",
+      "confidence": 3,
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "PACT：从预填充到自回归的跨模型隐空间迁移",
+      "finding": "论文提出 PACT，让大模型的提示表示通过隐空间传递给小模型，实现跨模型的知识迁移与推理加速。",
+      "key_data": [
+        "跨模型迁移",
+        "隐空间通信",
+        "大模型提示给小模型"
+      ],
+      "judgment": "大小模型协同是降本关键路径，隐空间迁移比蒸馏更轻量，值得关注。",
+      "confidence": 2,
+      "url": "https://arxiv.org/abs/2611.06976",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "量子位",
+      "title": "DeepSeek 带火稀疏计算，国产芯片公司再融近 10 亿",
+      "finding": "受 DeepSeek 稀疏计算路线带动，一家国产 AI 芯片公司完成近 10 亿元融资，Q3 营收实现数倍增长，主攻稀疏计算加速方向。",
+      "key_data": [
+        "融资近 10 亿元",
+        "Q3 营收数倍增长",
+        "稀疏计算"
+      ],
+      "judgment": "模型架构选择正在反向定义芯片需求，稀疏计算可能成为国产芯片差异化突围点。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/11/508155.html",
+      "importance": 4
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Crusoe 将怀俄明州问题数据中心项目出售给 Google",
+      "finding": "Crusoe 把陷入困境的怀俄明州大型数据中心项目卖给 Google，凸显超大规模 AI 数据中心开发的高难度与高成本。",
+      "key_data": [
+        "数据中心项目易手",
+        "Google 接盘",
+        "开发挑战大"
+      ],
+      "judgment": "数据中心建设已进入「只有巨头扛得住」的阶段，二线玩家会持续出局。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "Cloudflare 与 VoidZero 联合推出 tsrs：AI 生成的 TypeScript 编译器 Rust 移植版",
+      "finding": "Cloudflare 和 VoidZero 发布 tsrs，用 AI 生成方式把 TypeScript 编译器移植到 Rust，探索 AI 参与大型基础设施代码迁移的可行性。",
+      "key_data": [
+        "AI 生成代码",
+        "TS 编译器 Rust 移植",
+        "Cloudflare + VoidZero"
+      ],
+      "judgment": "AI 参与编译器级基础设施迁移是重要信号，验证了 AI Coding 从补全走向系统级重构。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/lGoA1ZSw6ojeh68GVlBl",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "DigitalOcean 推出学习与数据服务，帮助 AI 智能体自我迭代",
+      "finding": "DigitalOcean 上线面向 AI Agent 的学习与数据服务，让智能体能够基于自身运行数据持续迭代改进。",
+      "key_data": [
+        "Agent 自我迭代",
+        "学习与数据服务",
+        "云厂商新品类"
+      ],
+      "judgment": "云厂商开始把「Agent 记忆与学习」做成标准服务，Agent 基础设施层竞争加剧。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/upfROwtEl8R75H24D13J",
+      "importance": 2
+    },
+    {
+      "source": "Wired AI",
+      "title": "AI 公司高价收购企业工作文件与邮件用于训练",
+      "finding": "数据经纪商正在大量收集企业内部文件和邮件，转售给 AI 公司用于模型训练，引发企业数据隐私担忧。",
+      "key_data": [
+        "企业文件被收购",
+        "数据经纪商介入",
+        "训练数据新来源"
+      ],
+      "judgment": "企业数据正在成为新的训练燃料，CIO 需要重新审视内部数据的流出风险。",
+      "confidence": 3,
+      "url": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
+      "importance": 3
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Nilay Patel（经 Simon Willison 引用）",
+      "level": "L2",
+      "quote": "这些产品还不够好到能让人们接受其成本。你没法告诉人们，为了 AI 概览和一些最滑稽的答案，他们得忍受后院数据中心的嗡嗡声。",
+      "source": "https://simonwillison.net/2026/Nov/6/nilay-patel/"
+    },
+    {
+      "person": "LessWrong 社区（Arjun Panickssery 短评）",
+      "level": "L2",
+      "quote": "我很难相信 AI 的研发是真正「ingenious」的——社区对 AI 自动做研究的实际创造力仍存重大分歧，证据尚不足以支撑递归自我改进的叙事。",
+      "source": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "Inkling 2 Small 的训练效率方法论",
+      "reason": "68 小时/12T token 的训练配方若可复现，将改写开源模型的成本结构。",
+      "priority": "high"
+    },
+    {
+      "topic": "全双工语音模型的产品化路径",
+      "reason": "Higgs Realtime Duplex 代表语音交互范式迁移，值得评估对现有语音产品的冲击。",
+      "priority": "medium"
+    },
+    {
+      "topic": "AI 加速 AI 研究的可测量证据",
+      "reason": "METR 研究与社区激辩并存，是判断递归自我改进是否启动的关键窗口。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "资本与开源双线加速，Agent 交互范式迁移",
+  "summary_paragraph": "今天最重要的信号来自两条线：一是资本继续向头部集中，OpenAI 以 1.25 万亿美元估值再融 110 亿美元，而 Mira Murati 的 Thinking Machines 用 68 小时训练出中国以外最强开源权重模型 Inkling 2 Small，直接挑战「开源看中国」的格局；二是能力边界在扩散，免费的中国模型黑客能力已逼近 OpenAI 顶级安全模型，Meta 则用 Spaces 把 Agent 从对话框推向共享工作空间。与此同时，AI 加速 AI 研究的话题在社区引发近 400 分的激辩，说明递归自我改进仍处于「可测量但未定论」的阶段。整体看，钱、算力、开源权重和交互形态都在同时加速，真正的分水岭是谁能把能力转成可持续的产品。",
+  "_comment": "top_items 与分类板块无重复；opinions 覆盖 L2 观察者观点；分类合计 10 条满足至少 6 条要求。",
+  "snapshot": {
+    "date": "2026-11-07",
+    "hf_trending": [
+      {
+        "name": "moonshotai/Kimi-K3.1-Pro",
+        "short_name": "Kimi-K3.1-Pro",
+        "likes": 1504,
+        "downloads": 18432,
+        "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "kimi_k31"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "speridlabs/idol",
+        "short_name": "idol",
+        "likes": 945,
+        "downloads": 19139,
+        "url": "https://huggingface.co/speridlabs/idol",
+        "tags": [
+          "idol",
+          "gaussian-splatting",
+          "3d"
+        ],
+        "pipeline_tag": "image-to-3d",
+        "label": "Image To 3D",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "ccore/Qwen3.5-4B-3D-Coder",
+        "short_name": "Qwen3.5-4B-3D-Coder",
+        "likes": 793,
+        "downloads": 190243,
+        "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+        "tags": [
+          "safetensors",
+          "gguf",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 10870,
+        "downloads": 2607491,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "burner22/numbat",
+        "short_name": "numbat",
+        "likes": 372,
+        "downloads": 9066,
+        "url": "https://huggingface.co/burner22/numbat",
+        "tags": [
+          "safetensors",
+          "numbat",
+          "custom_code"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "FusionCow/Sulphur-3",
+        "short_name": "Sulphur-3",
+        "likes": 395,
+        "downloads": 950,
+        "url": "https://huggingface.co/FusionCow/Sulphur-3",
+        "tags": [
+          "minimax-h3",
+          "base_model:MiniMaxAI/MiniMax-H3",
+          "base_model:finetune:MiniMaxAI/MiniMax-H3"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "ricursiveAI/Ripple-65B-Preview",
+        "short_name": "Ripple-65B-Preview",
+        "likes": 333,
+        "downloads": 2013,
+        "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+        "tags": [
+          "safetensors",
+          "ricursive",
+          "custom_code"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "short_name": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "likes": 3073,
+        "downloads": 61049,
+        "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "tags": [
+          "nemo",
+          "safetensors",
+          "nemo_speechlm"
+        ],
+        "pipeline_tag": "automatic-speech-recognition",
+        "label": "语音识别",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "zed-industries/zed",
+        "desc": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators ",
+        "stars": 93664,
+        "stars_today": 306,
+        "forks": 11502,
+        "language": "Rust",
+        "url": "https://github.com/zed-industries/zed"
+      },
+      {
+        "name": "NVIDIA/auto-ontology",
+        "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. I",
+        "stars": 9096,
+        "stars_today": 2015,
+        "forks": 730,
+        "language": "Python",
+        "url": "https://github.com/NVIDIA/auto-ontology"
+      },
+      {
+        "name": "rails/rails",
+        "desc": "Ruby on Rails",
+        "stars": 59032,
+        "stars_today": 142,
+        "forks": 23832,
+        "language": "Ruby",
+        "url": "https://github.com/rails/rails"
+      },
+      {
+        "name": "mpv-player/mpv",
+        "desc": "🎥 Command line media player",
+        "stars": 37887,
+        "stars_today": 37,
+        "forks": 3633,
+        "language": "C",
+        "url": "https://github.com/mpv-player/mpv"
+      },
+      {
+        "name": "rust-lang/rust",
+        "desc": "Empowering everyone to build reliable and efficient software.",
+        "stars": 121465,
+        "stars_today": 192,
+        "forks": 17365,
+        "language": "Rust",
+        "url": "https://github.com/rust-lang/rust"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 10373704896509,
+        "total_tokens_str": "10.4T",
+        "api_calls": 0,
+        "change": 9.5,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "tencent/hy4",
+        "name": "Hy4",
+        "org": "tencent",
+        "total_tokens": 3045838588202,
+        "total_tokens_str": "3.0T",
+        "api_calls": 0,
+        "change": 12.2,
+        "url": "https://openrouter.ai/tencent/hy4"
+      },
+      {
+        "rank": 3,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1707604876414,
+        "total_tokens_str": "1.7T",
+        "api_calls": 0,
+        "change": 4.4,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 1149964707379,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": 7.0,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 5,
+        "slug": "stepfun/step-5-preview",
+        "name": "Step 5 Preview",
+        "org": "stepfun",
+        "total_tokens": 1121266385272,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": 1.1,
+        "url": "https://openrouter.ai/stepfun/step-5-preview"
+      },
+      {
+        "rank": 6,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 1052183725590,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": 1.6,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 7,
+        "slug": "stealth/crouton-alpha",
+        "name": "Crouton Alpha",
+        "org": "stealth",
+        "total_tokens": 1050528629440,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": 7.9,
+        "url": "https://openrouter.ai/stealth/crouton-alpha"
+      },
+      {
+        "rank": 8,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 728424779255,
+        "total_tokens_str": "728B",
+        "api_calls": 0,
+        "change": -8.8,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 9,
+        "slug": "minimax/minimax-m3.1-flash",
+        "name": "MiniMax M3.1 Flash",
+        "org": "minimax",
+        "total_tokens": 685744211528,
+        "total_tokens_str": "686B",
+        "api_calls": 0,
+        "change": 4.4,
+        "url": "https://openrouter.ai/minimax/minimax-m3.1-flash"
+      },
+      {
+        "rank": 10,
+        "slug": "openai/gpt-6.1-sol",
+        "name": "GPT-6.1 Sol",
+        "org": "openai",
+        "total_tokens": 670862913180,
+        "total_tokens_str": "671B",
+        "api_calls": 0,
+        "change": 4.6,
+        "url": "https://openrouter.ai/openai/gpt-6.1-sol"
+      }
+    ],
+    "hf_summary": "多模态与生成式模型霸榜 图生视频热度断层领先 语音和3D紧随其后"
+  }
+}
