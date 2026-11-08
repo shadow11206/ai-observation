@@ -3,9 +3,9 @@
   "reports": [
     {
       "date": "2026-11-08",
-      "title": "今日 AI 日报：Anthropic 启动 IPO，AI 头部实验室进入公开市场时代 + 4 条重要动态",
-      "excerpt": "头部实验室上市意味着财务透明度要求和季度业绩压力将开始影响模型发布节奏与安全策略…",
-      "top_count": 5,
+      "title": "今日 AI 日报：AI 写代码太快，GitHub 不堪重负，OpenAI 收购替代方案、Anthropic 自研、马斯克也要入场 + 3 条重要动态",
+      "excerpt": "这是 AI Coding 从「工具层」向「基础设施层」挤压的明确信号。当代码生成…",
+      "top_count": 4,
       "file": "2026-11-08.json"
     },
     {

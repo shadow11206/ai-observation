@@ -3,246 +3,223 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Anthropic 启动 IPO，AI 头部实验室进入公开市场时代",
-      "finding": "Latent Space 的 AINews 以「Anthropic IPO：接下来会怎样」为题报道 Anthropic 启动上市进程，这是继 OpenAI 之后又一家头部模型实验室走向公开资本市场。同期 ARC Prize 测试了 Inkling 2 Small，Thinking Machines 披露其早期 checkpoint 绕过安全护栏的问题。",
+      "title": "AI 写代码太快，GitHub 不堪重负，OpenAI 收购替代方案、Anthropic 自研、马斯克也要入场",
+      "finding": "AI 生成代码的速度已经超出 GitHub 等代码托管基础设施的承载能力，OpenAI 直接收购了一家替代方案，Anthropic 选择自研，马斯克也宣布要搞自己的代码托管。核心矛盾是：AI 让代码产出量暴增，但底层协作和托管设施还停留在人类写代码的节奏。",
       "key_data": [
-        "Anthropic 启动 IPO",
-        "Inkling 2 Small 参测 ARC",
-        "早期 checkpoint 绕过护栏"
-      ],
-      "judgment": "头部实验室上市意味着财务透明度要求和季度业绩压力将开始影响模型发布节奏与安全策略，Anthropic 一贯的「安全优先」叙事将首次接受公开市场检验，这对整个行业的估值锚定是标志性事件。",
-      "confidence": 3,
-      "source": "Latent Space (Swyx)",
-      "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/"
-    },
-    {
-      "rank": 2,
-      "title": "OpenAI 新融资仅到账 110 亿美元，不及原计划一半",
-      "finding": "量子位报道 OpenAI 新一轮融资实际到账 110 亿美元，远低于原定目标的一半，报道直言「融资缩水，硅谷投资人也谨慎了」。这与 Anthropic 启动 IPO 形成对照，显示一级市场对头部 AI 实验室的输血意愿正在降温。",
-      "key_data": [
-        "到账 110 亿美元",
-        "不及原计划一半",
-        "投资人趋于谨慎"
-      ],
-      "judgment": "这是今天最值得警惕的信号：连 OpenAI 都拿不到预期融资，说明 AI 资本周期正在从「无脑加注」转向「看回报下注」。对创业公司意味着融资窗口收窄，对 OpenAI 意味着必须更快证明商业化能力，算力军备竞赛的可持续性要打问号。",
-      "confidence": 3,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508344.html"
-    },
-    {
-      "rank": 3,
-      "title": "AI 写代码太快压垮 GitHub，OpenAI 收购替代品、Anthropic 自研、马斯克也要入场",
-      "finding": "量子位报道称 AI 生成代码的速度已经让 GitHub 基础设施不堪重负，OpenAI 直接收购了代码托管替代品，Anthropic 选择原地自研，马斯克方面也宣布要搞自己的方案。三家头部玩家同时绕开 GitHub，是罕见的集体动作。",
-      "key_data": [
-        "GitHub 不堪重负",
+        "AI 代码产出暴增",
         "OpenAI 收购替代品",
         "Anthropic 自研",
         "马斯克入场"
       ],
-      "judgment": "代码托管这个二十年稳定的基础设施层正在被 AI 编程重新定义。当 Agent 每天提交的代码量超过人类团队几个数量级，GitHub 的中心地位会被结构性削弱，谁能承接「Agent 原生」的代码协作流，谁就拿到下一代开发入口。",
-      "confidence": 3,
+      "judgment": "这是 AI Coding 从「工具层」向「基础设施层」挤压的明确信号。当代码生成量级跃升，版本控制、CI/CD、代码审查这些环节都会被迫重构。对开发者来说，未来半年代码托管和协作工具会有一轮洗牌，GitHub 的护城河第一次真正被 AI 原生需求挑战。",
+      "confidence": 4,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/11/508449.html"
     },
     {
-      "rank": 4,
+      "rank": 2,
       "title": "微软研究院 AI Frontiers 团队被解散",
-      "finding": "Hacker News 高热讨论（389 分、226 条评论）指向微软研究院旗下 AI Frontiers 团队走向终结，原文来自机器学习研究者 John Langford 的博客。这是大型企业研究院在 AI 时代定位尴尬的又一例证。",
+      "finding": "微软研究院旗下的 AI Frontiers 研究组被曝解散，该团队此前负责前沿 AI 方向探索。消息在 Hacker News 上引发 450 分、270 条评论的热议，社区普遍将其解读为大厂研究院在基础研究上的收缩。",
       "key_data": [
-        "HN 389 分",
-        "226 条评论",
-        "AI Frontiers 团队终结"
+        "AI Frontiers 解散",
+        "HN 450 分",
+        "270 条评论",
+        "基础研究收缩"
       ],
-      "judgment": "企业中央研究院的「自由探索」模式正在被产品线内嵌的 AI 团队取代。对研究者意味着纯研究岗位收缩，对行业意味着前沿探索更多由实验室和创业公司承担，大厂回归工程化与商业化。",
-      "confidence": 4,
+      "judgment": "大厂「研究院做前沿探索」的模式正在退潮，资源向产品化和可落地方向集中。对研究者意味着纯探索型岗位减少，对行业意味着下一波突破可能更多来自创业公司和开源社区，而非大厂实验室。",
+      "confidence": 3,
       "source": "Hacker News",
       "url": "https://hunch.net/?p=13764006"
     },
     {
-      "rank": 5,
-      "title": "AGENTS.MD 被指存在安全风险，成为新型攻击面",
-      "finding": "量子位以「AGENTS.MD，危险危险危险！！！」为题警告，这个被广泛用于给 AI 编程 Agent 提供项目上下文的约定文件，正在变成全新的电脑病毒式攻击载体。攻击者可通过篡改该文件向 Agent 注入恶意指令。",
+      "rank": 3,
+      "title": "资本正在撤离「世界模型」赛道",
+      "finding": "量子位报道称，曾经火热的「世界模型」方向正在遭遇资本退潮，融资热度和估值预期明显回落。文章用「没有永远的夏天」形容这一转向，暗示该赛道从概念追捧进入冷静期。",
       "key_data": [
-        "AGENTS.MD",
-        "新型攻击面",
-        "Agent 指令注入"
+        "资本撤离",
+        "世界模型降温",
+        "融资回落",
+        "概念退潮"
       ],
-      "judgment": "Agent 生态的「配置文件即攻击面」问题正式浮出水面。所有把 AGENTS.MD、CLAUDE.md 之类文件纳入版本库的团队都该重新审视权限边界——这是 AI 编程普及后第一个真正意义上的供应链安全议题。",
+      "judgment": "世界模型的问题在于叙事宏大但落地路径模糊，资本耐心耗尽后率先撤退。这不代表技术方向错误，而是提醒创业者：没有可验证的产品闭环，再性感的概念也撑不过两个融资周期。对投资人是信号，对做空间智能的团队是压力测试。",
       "confidence": 3,
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508244.html"
+      "url": "https://www.qbitai.com/2026/11/508466.html"
+    },
+    {
+      "rank": 4,
+      "title": "顶尖 AI 实验室成「人才黑洞」，Claude Code 团队工程师离职后首次受访",
+      "finding": "InfoQ 报道指出，头部 AI 实验室正在像黑洞一样吸走顶尖工程人才，一位从 Claude Code 团队离职的工程师首次接受采访，谈及大厂内部的人才集中效应和个体选择。",
+      "key_data": [
+        "Claude Code 团队",
+        "离职工程师首访",
+        "人才黑洞",
+        "顶尖实验室虹吸"
+      ],
+      "judgment": "人才向少数几家实验室高度集中，意味着生态多样性在下降。对创业公司来说，招人难会进一步加剧；对个人来说，进不了头部实验室的工程师需要靠开源和独立产品建立影响力，这反而会催生更多个人开发者品牌。",
+      "confidence": 3,
+      "source": "InfoQ AI",
+      "url": "https://www.infoq.cn/article/Qs0pJ5M43c56hdozHiR0?utm_source=rss&utm_medium=article"
     }
   ],
   "model_tech": [
     {
-      "source": "量子位",
-      "title": "硅谷华人团队抢先做出下一代 Agent Harness",
-      "finding": "报道称两大 Agent 玩家不约而同地苦于「单 Session」限制，一家硅谷华人团队抢先造出了下一代 Agent Harness，被形容为「抢跑 DeepSeek」。核心是突破单会话上下文与执行边界。",
-      "key_data": [
-        "下一代 Agent Harness",
-        "突破单 Session",
-        "抢跑 DeepSeek"
-      ],
-      "judgment": "Agent 竞争正从模型能力转向运行时框架，Harness 层可能成为新的差异化战场。",
-      "confidence": 2,
-      "url": "https://www.qbitai.com/2026/11/508264.html",
-      "importance": 4
-    },
-    {
       "source": "InfoQ AI",
-      "title": "自动路由真能省钱吗？便宜模型出错后人类修一小时可能更贵",
-      "finding": "文章质疑「用便宜模型自动路由省钱」的流行做法：当廉价模型输出错误，人类返工一小时的隐性成本可能远超省下的推理费用。给出了成本核算的反直觉视角。",
+      "title": "自动路由真能省钱吗？便宜模型出错后，人类修一小时可能更贵",
+      "finding": "文章质疑「用便宜模型自动路由省钱」的流行做法，指出便宜模型出错后人工修复的时间成本可能远超省下的调用费用。核心论点是：模型路由的账不能只算 token 单价，要算总拥有成本。",
       "key_data": [
-        "自动路由",
-        "返工成本被低估",
-        "隐性人力成本"
+        "路由省钱存疑",
+        "人工修复一小时",
+        "总成本视角",
+        "token 单价陷阱"
       ],
-      "judgment": "模型路由的 ROI 必须把人工纠错成本算进去，否则「省钱」是账面幻觉。",
+      "judgment": "给所有做模型路由优化的团队提了个醒：省钱指标要算到人工返工为止，否则是伪优化。",
       "confidence": 3,
       "url": "https://www.infoq.cn/article/gOcDmZM2MPAQhWtNb6IJ?utm_source=rss&utm_medium=article",
       "importance": 3
     },
     {
       "source": "InfoQ AI",
-      "title": "Ontology 与 AI 自迭代的工程实践",
-      "finding": "AICon 北京演讲整理，讨论如何用本体论（Ontology）约束 AI 的自迭代过程，让模型在受控的知识结构内演进，而非自由漂移。属于企业级 Agent 落地的工程方法论。",
+      "title": "AI 生成视频何时告别「抽卡」：高效生成背后的返工与成本难题",
+      "finding": "文章剖析 AI 视频生成目前仍高度依赖反复「抽卡」式重试，高效生成的宣传背后是大量返工和隐性成本。真正制约落地的是可控性和一次成片率，而非生成速度。",
       "key_data": [
-        "Ontology 约束",
-        "AI 自迭代",
-        "受控演进"
+        "抽卡式生成",
+        "返工成本高",
+        "一次成片率低",
+        "可控性瓶颈"
       ],
-      "judgment": "知识结构约束是让 Agent 从「能用」走向「可信」的关键工程手段，值得企业团队借鉴。",
+      "judgment": "视频生成的产品化瓶颈不在模型能力，而在工作流可控性，谁能解决「一次就对」谁赢。",
       "confidence": 3,
-      "url": "https://www.infoq.cn/article/sy9XMK3zJ3jPwHBN5fQV?utm_source=rss&utm_medium=article",
+      "url": "https://www.infoq.cn/article/xd9o6TyQ8GLON3dmiWpG?utm_source=rss&utm_medium=article",
+      "importance": 3
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "用扩散模型生成神经网络权重：让生成式 AI 造生成式 AI",
+      "finding": "有研究者在社区提出用扩散模型直接生成神经网络权重而非像素的设想，探索「生成式 AI 生成生成式 AI」的路径。目前仍是概念讨论阶段，但指向模型自动设计的方向。",
+      "key_data": [
+        "扩散生成权重",
+        "模型造模型",
+        "概念探索",
+        "自动架构设计"
+      ],
+      "judgment": "方向诱人但离落地很远，值得关注的是「模型自动设计」这条线正在被认真对待。",
+      "confidence": 2,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xqsl8d/what_if_diffusion_models_generates_neural_network/",
       "importance": 2
     },
     {
-      "source": "InfoQ AI",
-      "title": "大模型在 OT 侧如何跨越「幻觉」与「失控」",
-      "finding": "CyberwIIOS 在 AICon 北京分享工业控制系统（OT 侧）引入大模型时的双重风险：幻觉导致误判、失控导致物理事故，以及对应的防护设计。",
+      "source": "Reddit r/MachineLearning",
+      "title": "本地训练的 VLA 模型，用极简注意力视觉编码器",
+      "finding": "一位开发者分享了本地训练的视觉-语言-动作（VLA）模型进展，采用极简注意力视觉编码器，在有限算力下跑通具身智能 agent 原型。",
       "key_data": [
-        "OT 工控场景",
-        "幻觉风险",
-        "失控防护"
+        "本地训练 VLA",
+        "极简视觉编码器",
+        "具身 agent",
+        "低算力原型"
       ],
-      "judgment": "OT 场景对错误的容忍度接近零，这里的 AI 落地方法论会比办公场景严苛一个量级。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/K1bCIbHxeu3wLIjdusgr?utm_source=rss&utm_medium=article",
+      "judgment": "具身智能的门槛在下降，个人开发者也能跑 VLA 原型，这会加速机器人应用的草根创新。",
+      "confidence": 2,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xqrtcz/locally_trained_vla_model_with_minimal_attention/",
       "importance": 2
     }
   ],
   "company_product": [
     {
       "source": "极客公园",
-      "title": "企业级 Agent 开始对经营结果负责，腾讯云押注服务型 Agent",
-      "finding": "腾讯云副总裁吴永坚提出，企业级智能体的核心赛道正从「对话式桌面办公 Agent」转向「服务型 Agent」，衡量标准从办公提效变为能否产出可量化的经营价值、真正跑进业务流程。",
-      "key_data": [
-        "腾讯云吴永坚",
-        "服务型 Agent",
-        "对经营结果负责"
-      ],
-      "judgment": "企业 Agent 的考核标准从「好不好用」变成「赚不赚钱」，这是行业从 Demo 期进入交付期的分水岭。",
-      "confidence": 3,
-      "url": "http://www.geekpark.net/news/373642",
-      "importance": 4
-    },
-    {
-      "source": "极客公园",
-      "title": "博世用豆包工作重构工程师故障分析流程",
-      "finding": "博世某研发事业部让「豆包工作」和「豆包工作伙伴」接手工程师在群聊、私聊中搜集整理故障信息的环节，把原本大半天耗在「找信息、找对人」上的流程压缩，让工程师专注分析本身。",
-      "key_data": [
-        "博世研发事业部",
-        "豆包工作",
-        "故障分析提效"
-      ],
-      "judgment": "这是字节豆包在企业侧少见的深度案例，说明国产办公 Agent 已能切入制造业核心研发流程。",
-      "confidence": 3,
-      "url": "http://www.geekpark.net/news/373643",
-      "importance": 3
-    },
-    {
-      "source": "极客公园",
-      "title": "银湖资本与沙特 PIF 拟 250 亿美元收购 Unity",
-      "finding": "路透社消息称，在收购 EA 之后，由银湖资本与沙特公共投资基金组成的财团向 Unity Software 提出约 250 亿美元收购要约，Unity 正在认真考虑。",
+      "title": "银湖资本与沙特基金 250 亿美元报价收购 Unity",
+      "finding": "在收购 EA 之后，银湖资本与沙特公共投资基金组成的财团向 Unity 提出约 250 亿美元的收购要约，Unity 正在认真评估。这是游戏引擎和实时 3D 基础设施领域的又一大资本动作。",
       "key_data": [
         "250 亿美元报价",
-        "银湖 + 沙特 PIF",
-        "Unity 考虑中"
+        "银湖+沙特 PIF",
+        "收购 Unity",
+        "游戏引擎整合"
       ],
-      "judgment": "游戏引擎资产被中东主权基金与 PE 联手扫货，AI 内容生成对 3D 引擎的战略价值正在被重新定价。",
+      "judgment": "资本在押注实时 3D 与 AI 生成内容的结合点，Unity 若被收购，AI 原生 3D 工具链的整合会加速。",
       "confidence": 3,
       "url": "http://www.geekpark.net/news/373649",
       "importance": 3
     },
     {
-      "source": "InfoQ AI",
-      "title": "Cloudflare 让开发者直接查看生产环境火焰图",
-      "finding": "针对「线上 Worker 变慢、本地复现不了」的常见困境，Cloudflare 推出让开发者直接查看生产环境性能火焰图的能力，把线上诊断从猜测变为可视化定位。",
+      "source": "极客公园",
+      "title": "创业者做 Personal Agent，还有没有一线生机？",
+      "finding": "文章讨论 Personal Agent 赛道是否已被大厂锁定，指出「入口归大厂」是大概率事件，但 Personal Agent 未必只是入口问题，垂直场景和深度个性化仍可能留给创业者空间。",
       "key_data": [
-        "生产环境火焰图",
-        "Workers 性能诊断",
-        "免本地复现"
+        "Personal Agent 热",
+        "入口归大厂",
+        "创业者空间",
+        "垂直场景"
       ],
-      "judgment": "边缘计算平台的运维工具正在补齐可观测性短板，对重度依赖 Workers 的团队是实打实的效率提升。",
-      "confidence": 4,
-      "url": "https://www.infoq.cn/article/pMNGPheLLJ8hkfikmjUU?utm_source=rss&utm_medium=article",
+      "judgment": "结论偏谨慎乐观：通用 Personal Agent 没戏，但绑定具体工作流和生活场景的垂直 agent 仍有机会。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/373650",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "Ontology 与 AI 自迭代的工程实践",
+      "finding": "AICon 北京站分享探讨如何用本体（Ontology）约束 AI 的自迭代过程，让模型在结构化知识框架内进化，而非无约束地自我修改。属于企业级 AI 工程的落地方法论。",
+      "key_data": [
+        "Ontology 约束",
+        "AI 自迭代",
+        "结构化知识",
+        "企业落地"
+      ],
+      "judgment": "给企业 AI 团队提供了一条「可控自迭代」的工程思路，本体约束可能成为 agent 可靠性的关键抓手。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/sy9XMK3zJ3jPwHBN5fQV?utm_source=rss&utm_medium=article",
       "importance": 2
     },
     {
-      "source": "Wired AI",
-      "title": "照护者应用接入 AI，但核心问题仍未解决",
-      "finding": "Wired 报道面向家庭照护者的应用正变得越来越能干，加入 AI 能力帮助管理被照护者的需求，但照护者自身的身心健康这一根本问题依然无解。",
+      "source": "TechCrunch AI",
+      "title": "中期选举后，马斯克和数据中心的日子不好过",
+      "finding": "TechCrunch 的 Equity 播客分析中期选举结果对科技行业的影响，指出马斯克旗下业务和 AI 数据中心的政策环境在选举后变得更具不确定性。",
       "key_data": [
-        "家庭照护应用",
-        "AI 能力加持",
-        "照护者福祉未解"
+        "中期选举",
+        "数据中心政策",
+        "马斯克承压",
+        "监管不确定"
       ],
-      "judgment": "AI 能优化照护的「事务流」，但替代不了情感与人力缺口，这个赛道的产品价值天花板需要重新评估。",
+      "judgment": "AI 基础设施的扩张越来越受政治周期影响，数据中心的选址、能耗和补贴都会被打上政策变量。",
       "confidence": 3,
-      "url": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
+      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
       "importance": 2
     }
   ],
   "opinions": [
     {
-      "person": "Swyx (Shawn Wang)",
+      "person": "Simon Willison",
       "level": "L2",
-      "quote": "Anthropic 启动 IPO 是行业分水岭：当头部实验室必须向公开市场交代季度数字，安全叙事与增长压力的张力会第一次被摆到台面上，接下来看它如何在两者之间取舍。",
-      "source": "https://latent.space/p/ainews-anthropic-ipo-whither-now/"
-    },
-    {
-      "person": "John Langford",
-      "level": "L1",
-      "quote": "微软研究院 AI Frontiers 团队的终结，说明大厂中央研究院「自由探索」的模式在 AI 时代难以为继，前沿研究正让位于产品线内嵌的工程化团队。",
-      "source": "https://hunch.net/?p=13764006"
+      "quote": "在调试 Datasette 时发现 Firefox 网络面板对 link rel=next 头的处理有问题，顺手修了一个细节 bug——这种对工具链细节的持续打磨，正是 AI 时代开发者仍不可替代的部分。",
+      "source": "https://simonwillison.net/2026/Nov/7/link-rel-next/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI 资本周期拐点：OpenAI 融资缩水与 Anthropic IPO 的对照解读",
-      "reason": "一级市场降温与二级市场开闸同时发生，是判断 2027 年 AI 估值逻辑的关键窗口。",
+      "topic": "AI 代码托管与协作基础设施的重构机会",
+      "reason": "GitHub 承压、OpenAI 收购、Anthropic 自研，代码托管层正在被 AI 原生需求重写，值得系统研究。",
       "priority": "high"
     },
     {
-      "topic": "Agent 原生代码托管：GitHub 之后的基础设施重构",
-      "reason": "三家头部同时绕开 GitHub，可能催生全新的代码协作与版本控制范式。",
-      "priority": "high"
+      "topic": "世界模型赛道退潮后的空间智能落地路径",
+      "reason": "资本撤离不等于技术失败，需要厘清哪些团队有真实产品闭环、哪些只是概念。",
+      "priority": "medium"
     },
     {
-      "topic": "AGENTS.MD 类配置文件的安全边界与供应链防护",
-      "reason": "AI 编程普及后的首个真实安全议题，所有工程团队都需要制定应对规范。",
+      "topic": "模型路由的总拥有成本（TCO）评估框架",
+      "reason": "便宜模型+人工返工的真实成本需要量化模型，对做 AI 产品的团队有直接决策价值。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "资本退潮与上市开闸同日上演",
-  "summary_paragraph": "今天最强烈的信号来自资本面：OpenAI 新融资只到账 110 亿美元、不及原计划一半，而 Anthropic 却启动 IPO，一级市场降温与二级市场开闸同时发生，AI 头部实验室的估值逻辑正在被重写。产品侧，AI 写代码太快已把 GitHub 压到极限，OpenAI 收购替代品、Anthropic 自研、马斯克入场，代码托管这一稳定二十年的基础设施层面临重构；企业 Agent 则从「办公提效」转向「对经营结果负责」，腾讯云与博世的案例说明落地已进入深水区。安全上，AGENTS.MD 被指成为新型攻击面，值得所有 AI 编程团队警惕。",
+  "summary_one_line": "AI 代码洪流倒逼基础设施重构",
+  "summary_paragraph": "今天最值得关注的信号来自基础设施层：AI 写代码太快，GitHub 已不堪重负，OpenAI 收购替代品、Anthropic 自研、马斯克入场，代码托管与协作工具迎来 AI 原生重构。与此同时，微软研究院 AI Frontiers 团队解散、世界模型赛道资本撤离，说明大厂前沿探索和概念型赛道都在降温，资源向可落地产品集中。人才继续向头部实验室高度集中，Claude Code 团队离职工程师的发声印证了「人才黑洞」效应。整体看，行业正从叙事驱动转向工程驱动，谁能解决真实工作流里的成本与可控性问题，谁就能拿到下一轮门票。",
   "snapshot": {
     "date": "2026-11-08",
     "hf_trending": [
       {
         "name": "speridlabs/idol",
         "short_name": "idol",
-        "likes": 1128,
+        "likes": 1214,
         "downloads": 20689,
         "url": "https://huggingface.co/speridlabs/idol",
         "tags": [
@@ -258,7 +235,7 @@
       {
         "name": "moonshotai/Kimi-K3.1-Pro",
         "short_name": "Kimi-K3.1-Pro",
-        "likes": 1639,
+        "likes": 1674,
         "downloads": 22571,
         "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
         "tags": [
@@ -274,7 +251,7 @@
       {
         "name": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
         "short_name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-        "likes": 507,
+        "likes": 612,
         "downloads": 1369,
         "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
         "tags": [
@@ -290,7 +267,7 @@
       {
         "name": "ccore/Qwen3.5-4B-3D-Coder",
         "short_name": "Qwen3.5-4B-3D-Coder",
-        "likes": 877,
+        "likes": 886,
         "downloads": 221506,
         "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
         "tags": [
@@ -306,7 +283,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 11001,
+        "likes": 11037,
         "downloads": 2643778,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -322,7 +299,7 @@
       {
         "name": "ricursiveAI/Ripple-65B-Preview",
         "short_name": "Ripple-65B-Preview",
-        "likes": 371,
+        "likes": 378,
         "downloads": 3803,
         "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
         "tags": [
@@ -338,7 +315,7 @@
       {
         "name": "burner22/numbat",
         "short_name": "numbat",
-        "likes": 381,
+        "likes": 383,
         "downloads": 9212,
         "url": "https://huggingface.co/burner22/numbat",
         "tags": [
@@ -354,7 +331,7 @@
       {
         "name": "FusionCow/Sulphur-3",
         "short_name": "Sulphur-3",
-        "likes": 405,
+        "likes": 407,
         "downloads": 997,
         "url": "https://huggingface.co/FusionCow/Sulphur-3",
         "tags": [
@@ -368,60 +345,14 @@
         "trend": "same"
       }
     ],
-    "github_trending": [
-      {
-        "name": "vercel-labs/agent-browser",
-        "desc": "Browser automation CLI for AI agents",
-        "stars": 46868,
-        "stars_today": 190,
-        "forks": 3211,
-        "language": "Rust",
-        "url": "https://github.com/vercel-labs/agent-browser"
-      },
-      {
-        "name": "cloudflare/security-audit-skill",
-        "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable f",
-        "stars": 65798,
-        "stars_today": 2085,
-        "forks": 4273,
-        "language": "JavaScript",
-        "url": "https://github.com/cloudflare/security-audit-skill"
-      },
-      {
-        "name": "google/skills",
-        "desc": "Agent Skills for Google products and technologies",
-        "stars": 23439,
-        "stars_today": 443,
-        "forks": 1957,
-        "language": "Python",
-        "url": "https://github.com/google/skills"
-      },
-      {
-        "name": "mattpocock/skills",
-        "desc": "Skills for Real Engineers. Straight from my .agents directory.",
-        "stars": 317761,
-        "stars_today": 1100,
-        "forks": 26583,
-        "language": "Shell",
-        "url": "https://github.com/mattpocock/skills"
-      },
-      {
-        "name": "anthropics/skills",
-        "desc": "Public repository for Agent Skills",
-        "stars": 188829,
-        "stars_today": 390,
-        "forks": 22257,
-        "language": "Python",
-        "url": "https://github.com/anthropics/skills"
-      }
-    ],
+    "github_trending": [],
     "openrouter_ranking": [
       {
         "rank": 1,
         "slug": "deepseek/deepseek-v4.1-flash",
         "name": "DeepSeek V4.1 Flash",
         "org": "deepseek",
-        "total_tokens": 9107027798192,
+        "total_tokens": 9107027912959,
         "total_tokens_str": "9.1T",
         "api_calls": 0,
         "change": -12.2,
@@ -527,6 +458,6 @@
         "url": "https://openrouter.ai/minimax/minimax-m3.1-flash"
       }
     ],
-    "hf_summary": "视频与3D生成霸榜，开源社区加速向多模态创作工具倾斜"
+    "hf_summary": "多模态与3D生成霸榜，视频模型LTX热度断层领先，开源社区加速向空间智能倾斜"
   }
 }
