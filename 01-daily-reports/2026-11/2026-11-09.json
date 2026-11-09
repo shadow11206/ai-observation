@@ -1,0 +1,567 @@
+{
+  "date": "2026-11-09",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "英伟达启动独立调查：黄仁勋承认婚外情，涉疑似中国间谍关系",
+      "finding": "英伟达CEO黄仁勋在公司官网发布致全员公开信，承认对妻子不忠，并披露董事会将就相关报道提及的国家安全关切展开独立调查。耶鲁大学管理学者Jeffrey Sonnenfeld评估黄仁勋留任概率约为五五开。",
+      "key_data": [
+        "董事会独立调查",
+        "承认婚外情",
+        "留任概率约50%",
+        "涉国家安全关切"
+      ],
+      "judgment": "这是AI算力霸主罕见的治理风险事件。短期看英伟达战略不会转向，但CEO个人风险与中美科技博弈叠加，会让供应链合作方和投资者重新评估关键人物风险，也给竞争对手和监管方留下施压窗口。",
+      "confidence": 4,
+      "source": "TechCrunch / 极客公园",
+      "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/"
+    },
+    {
+      "rank": 2,
+      "title": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent",
+      "finding": "阿里千问办公发布2.0版本，主打多人与Agent在同一工作空间内协作，Agent可被分配任务、共享上下文并参与团队流程。同期千问还在推进Personal Agent方向，强调把能力下限做稳而非只拼上限。",
+      "key_data": [
+        "Team Agent",
+        "多人+Agent协作",
+        "千问办公2.0",
+        "Personal Agent并行推进"
+      ],
+      "judgment": "办公场景正从“人用AI”转向“人和Agent同岗协作”，这是Agent落地最现实的切口。阿里把协作编排做进办公套件，意味着Agent竞争从模型能力转向工作流入口，钉钉、飞书、企业微信的压力会明显上升。",
+      "confidence": 4,
+      "source": "量子位 / InfoQ",
+      "url": "https://www.qbitai.com/2026/11/508694.html"
+    },
+    {
+      "rank": 3,
+      "title": "AI接管一家8万Star开源公司：写代码、派任务、查Bug全包",
+      "finding": "有团队让AI系统接管开源项目的日常运转，主管Agent在Worker不足时还能自行招募新的Agent，覆盖写代码、任务分派和Bug排查全流程。这被视为多Agent组织化协作的一次真实压力测试。",
+      "key_data": [
+        "8万Star项目",
+        "主管Agent自主招人",
+        "全流程接管",
+        "多Agent组织"
+      ],
+      "judgment": "信号意义大于个案：Agent开始从“工具”变成“组织单元”，出现层级和招聘行为。对开发者意味着项目管理本身可能被自动化，但也暴露出权限、审计和责任归属的新问题，值得提前设计治理机制。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508607.html"
+    },
+    {
+      "rank": 4,
+      "title": "斯坦福CS146S：当编程Agent能一次做完去年作业，课程该怎么教",
+      "finding": "斯坦福AI原生工程课程CS146S第二轮开课，主讲人Mihail Eric把开源项目维护者请进课堂，因为学生用编程Agent可以一个提示完成去年的作业。课程重心转向真实项目协作与工程判断。",
+      "key_data": [
+        "CS146S第二轮",
+        "一提示完成旧作业",
+        "引入开源维护者",
+        "AI原生工程课"
+      ],
+      "judgment": "这是教育端对“作业已失效”的正面回应，也预示招聘标准会变：会写代码不再稀缺，会定义问题、审查Agent产出、做工程取舍才稀缺。对AI Coding产品来说，教学场景是下一个高价值入口。",
+      "confidence": 4,
+      "source": "Latent Space",
+      "url": "https://latent.space/p/cs146s/"
+    },
+    {
+      "rank": 5,
+      "title": "L3自动驾驶大撤退：奔驰宝马官宣放弃，称还不如L2好用",
+      "finding": "奔驰、宝马相继宣布退出L3级自动驾驶的量产推进，理由集中在实际体验不如成熟的L2、成本与法规收益不匹配。最早量产L3的车企亲自泼冷水，行业对高阶自动驾驶的节奏预期明显降温。",
+      "key_data": [
+        "奔驰宝马退出L3",
+        "体验不如L2",
+        "最早量产者转向",
+        "法规成本不匹配"
+      ],
+      "judgment": "这是自动驾驶叙事的一次务实回调：L3的责任划分和场景限制使其商业价值被高估，L2+渐进路线反而更稳。对AI行业是提醒——能力演示和可交付产品之间隔着责任与成本，具身智能同样要过这一关。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508629.html"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "GAP架构：把注意力和MLP合并进单个门控Transformer块",
+      "finding": "研究者提出GAP（Gated Attention Projection）架构，将注意力与MLP式处理合并为单一门控模块，试图简化标准Transformer的块结构。目前为社区实验性工作，尚无大规模验证。",
+      "key_data": [
+        "GAP架构",
+        "注意力+MLP合并",
+        "单门控块",
+        "社区实验"
+      ],
+      "judgment": "架构层面的简化探索值得跟踪，但缺乏规模验证前不宜高估，重点看能否在同等算力下提升效率。",
+      "confidence": 2,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xr47tw/i_merged_attention_and_mlp_processing_into_a/",
+      "importance": 2
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "Frontier3DBench：评测编程Agent能否构建可交互3D世界",
+      "finding": "Einsia团队发布Frontier3DBench，用145个任务分三档考察编程Agent从单个3D物体、场景搭建到可交互世界的完整能力递进。这是少见的针对3D生成闭环的Agent评测。",
+      "key_data": [
+        "145个任务",
+        "三档递进",
+        "11种配置",
+        "可交互世界"
+      ],
+      "judgment": "把Agent评测从代码正确性推进到空间与交互维度，为游戏、仿真、具身智能提供了新的能力标尺。",
+      "confidence": 3,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xrhg3a/can_coding_agents_build_interactive_3d_worlds/",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "强制输出一个字母就能抑制拒答：多选题格式的安全漏洞",
+      "finding": "论文发现安全基准常用的多选题格式存在机制性漏洞：仅强制模型输出某个字母即可显著抑制拒答行为，作者从WMDP基准给出了机制层面的证据。",
+      "key_data": [
+        "多选题格式",
+        "强制字母抑制拒答",
+        "WMDP证据",
+        "安全基准失真"
+      ],
+      "judgment": "直接冲击现有安全评测的可信度，说明基准格式本身会改变模型行为，安全评估需要重新设计。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.08639",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "RL-ATTACK：基于强化学习的通用黑盒对抗攻击",
+      "finding": "研究者提出RL-ATTACK，用强化学习构造对语言模型的通用黑盒对抗攻击，无需白盒梯度即可诱导非预期输出。",
+      "key_data": [
+        "黑盒攻击",
+        "强化学习构造",
+        "通用对抗",
+        "无需梯度"
+      ],
+      "judgment": "黑盒攻击门槛继续降低，部署侧应把对抗鲁棒性纳入上线前的常规测试项。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.08711",
+      "importance": 3
+    },
+    {
+      "source": "极客公园",
+      "title": "实测腾讯混元Hy4：主打性价比，首次冲击最强开源模型",
+      "finding": "腾讯11月4日发布混元Hy4，模型权重近期开源，同时推出主打性价比的轻量版Hy4 flash。评测认为这是腾讯首次真正跻身最强开源模型之列。",
+      "key_data": [
+        "Hy4发布",
+        "权重将开源",
+        "Hy4 flash轻量版",
+        "主打性价比"
+      ],
+      "judgment": "腾讯补齐模型层短板，开源+轻量双线会加剧国内开源模型价格与能力竞争。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/373644",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "量子位",
+      "title": "基元律动发布NeoHorse-1.5-Flash Preview，Agent模型RSI进入第二轮迭代",
+      "finding": "基元律动发布Agent原生模型NeoHorse-1.5-Flash Preview，其RSI（递归自我改进）机制进入第二轮迭代，强调模型面向Agent任务而非通用对话优化。",
+      "key_data": [
+        "NeoHorse-1.5-Flash",
+        "Agent原生模型",
+        "RSI第二轮",
+        "Preview版本"
+      ],
+      "judgment": "“Agent原生模型”是值得关注的新品类，若自我迭代路径成立，将改变模型训练与产品迭代节奏。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/11/508603.html",
+      "importance": 3
+    },
+    {
+      "source": "极客公园",
+      "title": "具身智能迎来API时刻：接上自己的机器人跑自己的任务",
+      "finding": "部分具身模型公司开始向开发者开放接口，允许接入自有机器人并测试自定义任务，标志具身模型开始具备跨本体迁移和一定范围内的新任务适应能力。Physical Intelligence是代表之一。",
+      "key_data": [
+        "具身模型开放接口",
+        "跨本体迁移",
+        "自定义任务测试",
+        "Physical Intelligence"
+      ],
+      "judgment": "具身智能从演示视频走向可验证的开发者生态，是行业从叙事转向工程化的关键一步。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/373683",
+      "importance": 4
+    },
+    {
+      "source": "InfoQ",
+      "title": "Gartner 2027十大趋势：智能体治理成企业新战场",
+      "finding": "Gartner发布2027年十大技术趋势，指出AI能力增长快于企业管控能力，智能体治理成为核心议题，企业需要为Agent的权限、行为与审计建立制度。",
+      "key_data": [
+        "2027十大趋势",
+        "智能体治理",
+        "企业管控缺口",
+        "权限与审计"
+      ],
+      "judgment": "Agent大规模落地的前置条件正从模型能力转向治理能力，企业采购标准会随之改变。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/CUgMFMX7uRJNMec1pfYo?utm_source=rss&utm_medium=article",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "AI分诊CVE可行，但人工审查仍不可少",
+      "finding": "实践表明用大模型对CVE漏洞做初步分诊可以提效，但安全团队强调不能把整个安全体系押在大模型上，人工审查环节仍必须保留。",
+      "key_data": [
+        "AI分诊CVE",
+        "人工审查保留",
+        "安全体系不外包",
+        "提效但不替代"
+      ],
+      "judgment": "安全场景是“AI辅助+人把关”的典型范式，过度自动化会放大误判代价。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/mBvmvcQ8a8ty2Ob1xN64?utm_source=rss&utm_medium=article",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "OpenAI、Anthropic、Google各有接口，统一标准还有多远",
+      "finding": "三大模型厂商的API在工具调用、消息格式等层面仍各自为政，业界呼吁统一开放标准，但短期内难以形成共识。",
+      "key_data": [
+        "三家接口各异",
+        "工具调用不统一",
+        "开放标准缺位",
+        "迁移成本高"
+      ],
+      "judgment": "接口碎片化推高多模型适配成本，中间层与网关类产品仍有明确生存空间。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/5e8Qs11VHRHRyYsB2kFO?utm_source=rss&utm_medium=article",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "姚顺雨",
+      "level": "L1",
+      "quote": "AI公司的护城河在产品层，而不是模型层。模型能力会趋同，真正拉开差距的是把能力封装成用户愿意持续使用的产品。",
+      "source": "http://www.geekpark.net/news/373687"
+    },
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "我现在项目里大部分改动都来自Claude Code或Codex开的PR，PR已经成为我的工作单元。建议把AI生成的冗长PR描述折叠进details标签，别让噪音淹没评审。",
+      "source": "https://simonwillison.net/2026/Nov/9/details-summary/"
+    },
+    {
+      "person": "Mihail Eric",
+      "level": "L1",
+      "quote": "当编程Agent能一个提示做完去年的作业，课程就必须转向真实开源项目协作，教学生定义问题、审查产出和做工程判断。",
+      "source": "https://latent.space/p/cs146s/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "Agent原生模型与递归自我改进（RSI）路线",
+      "reason": "若自我迭代成立，将改变模型训练与产品迭代节奏，需评估其真实性与边界。",
+      "priority": "high"
+    },
+    {
+      "topic": "多Agent组织化协作的权限与审计设计",
+      "reason": "AI接管开源项目暴露责任归属问题，是企业落地Agent的前置课题。",
+      "priority": "high"
+    },
+    {
+      "topic": "具身智能开放接口与跨本体迁移能力",
+      "reason": "决定具身智能能否从演示走向开发者生态，是行业工程化分水岭。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "Agent从工具走向组织，治理成新战场",
+  "summary_paragraph": "今天最值得注意的不是某个模型分数，而是Agent开始进入组织形态：AI接管8万Star开源项目、能自主招人派活，千问办公2.0让多人与Agent同岗协作，斯坦福课程因作业被一次做完而重构。与此同时，英伟达因CEO个人与国家安全关切启动独立调查，给算力霸主添上治理变量；奔驰宝马退出L3则提醒行业，能力演示与可交付产品之间隔着责任与成本。腾讯Hy4冲击开源第一梯队、具身智能开放接口，说明竞争正从模型层转向产品层与治理层。",
+  "_comment": "",
+  "snapshot": {
+    "date": "2026-11-09",
+    "hf_trending": [
+      {
+        "name": "speridlabs/idol",
+        "short_name": "idol",
+        "likes": 1462,
+        "downloads": 22854,
+        "url": "https://huggingface.co/speridlabs/idol",
+        "tags": [
+          "idol",
+          "gaussian-splatting",
+          "3d"
+        ],
+        "pipeline_tag": "image-to-3d",
+        "label": "Image To 3D",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+        "short_name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+        "likes": 946,
+        "downloads": 7088,
+        "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "moonshotai/Kimi-K3.1-Pro",
+        "short_name": "Kimi-K3.1-Pro",
+        "likes": 1754,
+        "downloads": 25569,
+        "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "kimi_k31"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "ricursiveAI/Ripple-65B-Preview",
+        "short_name": "Ripple-65B-Preview",
+        "likes": 422,
+        "downloads": 5087,
+        "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+        "tags": [
+          "safetensors",
+          "ricursive",
+          "custom_code"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 11163,
+        "downloads": 2661026,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "ccore/Qwen3.5-4B-3D-Coder",
+        "short_name": "Qwen3.5-4B-3D-Coder",
+        "likes": 932,
+        "downloads": 254053,
+        "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+        "tags": [
+          "safetensors",
+          "gguf",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+        "short_name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+        "likes": 2726,
+        "downloads": 1553252,
+        "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+        "tags": [
+          "gguf",
+          "unsloth",
+          "fine tune"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "Qwen/Qwen3.8-27B",
+        "short_name": "Qwen3.8-27B",
+        "likes": 19436,
+        "downloads": 7668187,
+        "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "sherlock-project/sherlock",
+        "desc": "Hunt down social media accounts by username across social networks",
+        "stars": 105450,
+        "stars_today": 2373,
+        "forks": 12262,
+        "language": "Python",
+        "url": "https://github.com/sherlock-project/sherlock"
+      },
+      {
+        "name": "dsx-ai-factory/nvke",
+        "desc": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+        "stars": 975,
+        "stars_today": 345,
+        "forks": 113,
+        "language": "Go",
+        "url": "https://github.com/dsx-ai-factory/nvke"
+      },
+      {
+        "name": "milind-soni/OpenMausBot",
+        "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+        "stars": 19021,
+        "stars_today": 1439,
+        "forks": 2621,
+        "language": "TypeScript",
+        "url": "https://github.com/milind-soni/OpenMausBot"
+      },
+      {
+        "name": "anthropics/claude-quickstarts",
+        "desc": "A collection of projects designed to help developers quickly get started with building deployable ap",
+        "stars": 19672,
+        "stars_today": 32,
+        "forks": 3292,
+        "language": "Python",
+        "url": "https://github.com/anthropics/claude-quickstarts"
+      },
+      {
+        "name": "vercel-labs/agent-browser",
+        "desc": "Browser automation CLI for AI agents",
+        "stars": 48025,
+        "stars_today": 815,
+        "forks": 3280,
+        "language": "Rust",
+        "url": "https://github.com/vercel-labs/agent-browser"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 8071164983229,
+        "total_tokens_str": "8.1T",
+        "api_calls": 0,
+        "change": -11.4,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "tencent/hy4",
+        "name": "Hy4",
+        "org": "tencent",
+        "total_tokens": 2740110972758,
+        "total_tokens_str": "2.7T",
+        "api_calls": 0,
+        "change": -8.8,
+        "url": "https://openrouter.ai/tencent/hy4"
+      },
+      {
+        "rank": 3,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1126842492745,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": -11.9,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "stepfun/step-5-preview",
+        "name": "Step 5 Preview",
+        "org": "stepfun",
+        "total_tokens": 959480801893,
+        "total_tokens_str": "959B",
+        "api_calls": 0,
+        "change": -0.2,
+        "url": "https://openrouter.ai/stepfun/step-5-preview"
+      },
+      {
+        "rank": 5,
+        "slug": "stealth/crouton-alpha",
+        "name": "Crouton Alpha",
+        "org": "stealth",
+        "total_tokens": 935744392333,
+        "total_tokens_str": "936B",
+        "api_calls": 0,
+        "change": 31.6,
+        "url": "https://openrouter.ai/stealth/crouton-alpha"
+      },
+      {
+        "rank": 6,
+        "slug": "moonshotai/kimi-k3.1-pro",
+        "name": "Kimi K3.1 Pro",
+        "org": "moonshotai",
+        "total_tokens": 826388830583,
+        "total_tokens_str": "826B",
+        "api_calls": 0,
+        "change": 0.3,
+        "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro"
+      },
+      {
+        "rank": 7,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 750026798187,
+        "total_tokens_str": "750B",
+        "api_calls": 0,
+        "change": -11.6,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 8,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 697582062290,
+        "total_tokens_str": "698B",
+        "api_calls": 0,
+        "change": 8.8,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 9,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 688338316014,
+        "total_tokens_str": "688B",
+        "api_calls": 0,
+        "change": -10.2,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 10,
+        "slug": "minimax/minimax-m3.1-flash",
+        "name": "MiniMax M3.1 Flash",
+        "org": "minimax",
+        "total_tokens": 537842875697,
+        "total_tokens_str": "538B",
+        "api_calls": 0,
+        "change": -8.7,
+        "url": "https://openrouter.ai/minimax/minimax-m3.1-flash"
+      }
+    ],
+    "hf_summary": "Qwen系霸榜且多模态与视频生成热度飙升 长名微调模型泛滥显社区内卷"
+  }
+}
