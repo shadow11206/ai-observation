@@ -1,6 +1,13 @@
 {
-  "total": 227,
+  "total": 228,
   "reports": [
+    {
+      "date": "2026-11-10",
+      "title": "今日 AI 日报：Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，API 价格下调 20% + 4 条重要动态",
+      "excerpt": "这是 Anthropic 首次把「安全分级」做成产品线而非政策声明——同一模型按…",
+      "top_count": 5,
+      "file": "2026-11-10.json"
+    },
     {
       "date": "2026-11-09",
       "title": "今日 AI 日报：英伟达启动独立调查：黄仁勋承认婚外情，涉疑似中国间谍关系 + 4 条重要动态",
