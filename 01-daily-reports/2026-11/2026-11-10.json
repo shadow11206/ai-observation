@@ -3,144 +3,132 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，API 价格下调 20%",
-      "finding": "Anthropic 推出两款基于同一底层模型的新版本：Fable 5.2 面向普通用户并内置网络安全与生物安全防护，Mythos 5.2 面向通过审核的安全研究人员。同时 API 调用费下降 20%，官方演示中 8 天从零构建出一个操作系统。",
+      "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，重夺全球第一并启动 IPO 路演",
+      "finding": "Anthropic 推出两款基于同一底座的新模型：面向普通用户的 Fable 5.2 和面向通过审核的安全研究者的 Mythos 5.2，Fable 5.2 在 Artificial Analysis 榜单重回第一，API 调用费还降了 20%。同一天 Anthropic 启动 IPO 路演，预计本周确定估值区间。",
       "key_data": [
+        "榜单重回第一",
         "API 费用降 20%",
-        "8 天搓出操作系统",
-        "双版本同底座",
-        "内置生物安全防护"
+        "同日启动 IPO 路演",
+        "双模型同底座"
       ],
-      "judgment": "这是 Anthropic 首次把「安全分级」做成产品线而非政策声明——同一模型按风险等级切两个 SKU，既守住监管叙事又扩大商用面。降价 20% 直接压缩 OpenAI 与开源模型的定价空间，Agent 类高频调用场景的成本曲线被再次拉低。",
+      "judgment": "这是本周最强的组合拳：用一次发布同时打技术牌和资本牌。模型降价 20% 说明 Anthropic 开始用价格换市场份额，直接挤压 OpenAI 和 Gemini 的中端定价空间；IPO 路演当天发最强模型，是给投资人看的实力证明。对开发者而言，现在是把高价值任务迁到 Claude 的窗口期。",
       "confidence": 4,
-      "source": "极客公园 / Simon Willison",
-      "url": "http://www.geekpark.net/news/373736"
+      "source": "Latent Space / 极客公园",
+      "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/"
     },
     {
       "rank": 2,
-      "title": "英伟达因黄仁勋与疑似中国间谍关系启动董事会调查，股价跌超 4%",
-      "finding": "黄仁勋发布全员公开信承认对妻子不忠，同时披露董事会将就相关报道提及的国家安全关切展开独立调查。此前六个月已有做空机构质疑其与一名中国高管关系异常，黄仁勋已退出 ElevenLabs 峰会与 Anthropic 活动。",
+      "title": "英伟达黄仁勋卷入疑似中国间谍丑闻，董事会启动调查、股价大跌",
+      "finding": "英伟达董事会就黄仁勋与一名疑似中国间谍人员的私人关系展开调查，此前做空机构 Culper Research 已提前六个月预警。消息曝光后英伟达股价跌超 4%，Wired 称黄仁勋一年前就聘请了擅长处理性丑闻的公关公司。",
       "key_data": [
         "股价跌超 4%",
-        "董事会独立调查",
+        "董事会启动调查",
         "做空机构提前 6 个月预警",
-        "连续退出两场活动"
+        "疑似中国间谍关系"
       ],
-      "judgment": "这是 AI 算力霸主首次出现「CEO 个人风险」与「国家安全叙事」叠加的治理危机。短期看是公关事件，中期看会波及对华出口管制审查与客户信心——当一家公司的芯片供应依赖一个人的政治可信度，整个 AI 基建链条都在被动承担这个风险敞口。",
+      "judgment": "这是今天对行业影响最大的非技术事件。黄仁勋个人是英伟达生态的核心信用背书，一旦调查升级为治理危机，将波及 AI 算力供应链的估值逻辑和采购决策。对国内 AI 公司而言，芯片供应的不确定性风险再次上升，自研算力和国产替代的紧迫性被进一步放大。",
       "confidence": 4,
       "source": "TechCrunch / Wired",
       "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/"
     },
     {
       "rank": 3,
-      "title": "Anthropic 据报推进 IPO 计划，本周将确定估值区间",
-      "finding": "据华尔街日报报道，Anthropic 计划推进 IPO，预计本周设定估值区间。这是继模型发布节奏加快后，Anthropic 在资本层面的关键动作。",
+      "title": "DeepSeek Harness 日活 154 万，官方开始给插件作者发 Token 补贴",
+      "finding": "DeepSeek 的 Agent 运行环境 Harness 日活达到 154 万，官方宣布向插件开发者发放 Token 作为激励，用真金白银换生态供给。这是国内大模型厂商第一次用 Token 补贴的方式直接扶持 Agent 插件生态。",
       "key_data": [
-        "本周定估值区间",
-        "WSJ 报道",
-        "推进 IPO"
+        "日活 154 万",
+        "Token 补贴插件作者",
+        "Agent 运行环境",
+        "国内首个生态补贴"
       ],
-      "judgment": "Anthropic 若抢先 OpenAI 上市，将拿到「第一家公开市场纯血大模型公司」的定价权，也会把 AI 实验室的财务透明度第一次摊到阳光下。对开发者而言，这意味着 Claude 的产品路线将更多受季度财报驱动，长期研究型项目的容忍度可能下降。",
-      "confidence": 3,
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
+      "judgment": "信号很明确：DeepSeek 不再只拼模型参数，而是开始拼生态飞轮。用 Token 补贴开发者，本质是把推理成本转化为生态投资，复制移动互联网时代的开发者分成逻辑。对做 Agent 工具的团队来说，这是低成本试水 DeepSeek 生态的窗口；对竞品来说，插件生态的护城河正在被抢先构筑。",
+      "confidence": 4,
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/Y7lTO7Q1M8oN5JhxhirK"
     },
     {
       "rank": 4,
-      "title": "千问办公 2.0 发布，首个支持多人与 Agent 协作的 Team Agent",
-      "finding": "11 月 9 日千问办公发布 2.0 版本，主打 Team Agent——多个真人成员与多个 Agent 在同一工作空间内协作完成任务，而非单人单 Agent 的对话模式。",
+      "title": "Meta 发布最小最省模型 Muse Ember，成本仅为 Claude Haiku 5.5 的三分之一",
+      "finding": "Meta 推出 Muse Ember，定位对标 Claude Haiku 和 GPT Luna 的轻量级模型，官方称是其最小、最高效的模型，运行成本只有 Claude Haiku 5.5 的三分之一。",
       "key_data": [
-        "多人+多 Agent 协作",
-        "Team Agent",
-        "办公场景落地"
+        "成本仅 1/3",
+        "对标 Claude Haiku 5.5",
+        "Meta 最小模型",
+        "轻量级赛道"
       ],
-      "judgment": "Agent 产品正从「个人副驾」走向「团队编制」，这是协作范式而非功能升级。真正的门槛不在模型能力，而在权限、任务分配与结果归属的工程化——谁先解决「Agent 之间的责任边界」，谁就拿到企业办公的下一张门票。",
+      "judgment": "轻量模型的价格战正式开打。Muse Ember 的出现意味着高频、低价值的 AI 调用（分类、抽取、路由）成本还能再砍一大截，这会加速 Agent 工作流里'小模型干粗活、大模型干细活'的分层架构普及。做 RAG 和批量处理的团队应该立刻重新算一遍成本账。",
       "confidence": 4,
-      "source": "量子位 / InfoQ",
-      "url": "https://www.qbitai.com/2026/11/508694.html"
+      "source": "InfoQ / Simon Willison",
+      "url": "https://www.infoq.cn/article/Ou4l4aD7zvUzXWXsWJfY"
     },
     {
       "rank": 5,
-      "title": "「100% AI 编程令」一年后：没人看得懂自己的代码",
-      "finding": "Hacker News 热帖讲述一家公司强制 100% 使用 AI 写代码一年后的后果：代码库无人能完整理解，维护与排障陷入困境。同期另一热帖显示 Apple 将工程师 AI 使用预算限制在每天 200 美元。",
+      "title": "Google DeepMind 用 AI 工具形式化验证 Signal 协议安全性",
+      "finding": "DeepMind 的研究人员用新的 AI 工具对广泛使用的 Signal 加密协议完成了形式化验证，证明其按设计正常工作。团队的目标是把同样的方法推广到'世界上所有软件'。",
       "key_data": [
-        "HN 108 分 130 评论",
-        "Apple 日预算 200 美元",
-        "代码可维护性崩塌"
+        "形式化验证 Signal 协议",
+        "AI 辅助安全证明",
+        "目标覆盖所有软件"
       ],
-      "judgment": "这是对「AI 编程全面替代论」最直接的反证：生成速度的提升正在转化为理解成本的负债。对企业而言，AI Coding 的 KPI 应从「代码产出量」转向「可维护性留存率」；对工具厂商，代码理解与文档生成将是下一个必争之地。",
-      "confidence": 3,
-      "source": "Hacker News",
-      "url": "https://news.ycombinator.com/item?id=50433079"
+      "judgment": "这是 AI for Science 之外一条被低估的路线：AI 做形式化验证。它把'安全审计'从人工专家密集型工作变成可规模化验证的工程流程，长期看会重塑安全行业和关键基础设施的软件交付标准。对做企业级和安全敏感产品的团队，这是值得提前布局的技术方向。",
+      "confidence": 4,
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/"
     }
   ],
   "model_tech": [
     {
-      "source": "量子位 / 极客公园",
-      "title": "腾讯混元 Hy4 发布：首次跻身最强开源模型，主打性价比",
-      "finding": "腾讯 11 月 4 日发布混元 Hy4，模型权重近期开源，同时推出主打性价比的轻量版 Hy4 flash。腾讯定位其为首次进入最强开源模型行列，实测搭配 WorkBuddy 展现多模态 Agent 交付能力。",
-      "key_data": [
-        "权重将开源",
-        "Hy4 flash 轻量版",
-        "多模态 Agent 交付"
-      ],
-      "judgment": "腾讯在模型层长期声量弱于应用层，Hy4 是其补齐底座的关键一枪；开源策略意在争夺开发者生态而非直接变现。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/11/507843.html",
-      "importance": 4
-    },
-    {
-      "source": "Hugging Face Blog (Amazon)",
-      "title": "HOPE：让专家模块与其「搭档」一起被剪枝的高阶剪枝方法",
-      "finding": "Amazon 在 Hugging Face 发布 HOPE 方法，针对 MoE 模型中专家之间存在配对依赖的问题，在剪枝时保持专家搭档关系不被拆散，从而在压缩模型的同时保住性能。",
+      "source": "Hugging Face Blog",
+      "title": "亚马逊提出 HOPE 方法：高阶剪枝让 MoE 专家配对更稳定",
+      "finding": "Hugging Face 博客介绍亚马逊的新研究，针对混合专家模型中专家之间需要配对协作的特点，提出高阶剪枝方法 HOPE，在压缩模型的同时保持专家组合的有效性。",
       "key_data": [
         "MoE 专家剪枝",
-        "保持专家配对",
-        "高阶剪枝"
+        "高阶剪枝 HOPE",
+        "保持专家配对"
       ],
-      "judgment": "MoE 已成为主流架构，剪枝从「按重要性删」进化到「按依赖关系删」，是推理降本的关键工程细节。",
+      "judgment": "MoE 压缩是降本关键，HOPE 给开源社区提供了可复用的剪枝思路。",
       "confidence": 3,
       "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
       "importance": 3
     },
     {
       "source": "Reddit r/MachineLearning",
-      "title": "潜空间预测优于重建：灵巧操作触觉预训练新方法",
-      "finding": "Robbyant 发布 LingBot-Touch，采用 JEPA 式自监督训练触觉编码器，预测被遮挡接触区域的潜表示而非重建原始信号，推理代码与 checkpoint 已公开。",
+      "title": "潜在预测优于重建：灵巧操作触觉预训练新方法",
+      "finding": "Robbyant 发布论文与开源代码，LingBot-Touch 采用 JEPA 式自监督方法，通过预测被遮挡接触的潜在表示来训练触觉编码器，在灵巧操作任务上优于重建式预训练。",
       "key_data": [
-        "JEPA 式训练",
-        "预测潜表示",
-        "代码权重已开源"
+        "JEPA 式自监督",
+        "触觉编码器",
+        "代码与权重已开源"
       ],
-      "judgment": "触觉是具身智能最被低估的模态，潜空间预测路线若成立，将降低对高精度触觉硬件的依赖。",
+      "judgment": "具身智能的预训练范式正在从'重建'转向'预测'，值得机器人团队跟进。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xs05uo/latent_prediction_beats_reconstruction_for/",
       "importance": 3
     },
     {
       "source": "ArXiv cs.CL",
-      "title": "强制输出一个字母就能绕过拒答：多选题格式的安全漏洞机制证据",
-      "finding": "研究基于 WMDP 基准发现，LLM 安全评测常用的多选题格式本身存在漏洞——强制模型先输出一个字母会显著抑制其拒答行为，论文给出了机制层面的证据。",
+      "title": "强制输出字母可抑制拒答：WMDP 基准的机制性证据",
+      "finding": "论文发现，安全评测常用的多选题格式存在漏洞：当模型被要求先输出某个字母时，拒答行为会被显著抑制，作者从机制层面给出了证据。",
       "key_data": [
         "多选题格式漏洞",
-        "抑制拒答",
-        "WMDP 基准"
+        "强制字母抑制拒答",
+        "安全评测失真"
       ],
-      "judgment": "这意味着大量安全评测结论可能被格式本身污染，安全基准的设计需要重新审视。",
+      "judgment": "现有安全基准可能系统性高估模型安全性，评测方法论需要重做。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2611.08639",
       "importance": 3
     },
     {
       "source": "Reddit r/MachineLearning",
-      "title": "用潜空间 Agent 群体做数学发现与优化",
-      "finding": "社区讨论借鉴 AlphaEvolve 思路——让 LLM 写程序、打分、迭代——并将其扩展为潜空间中的 Agent 群体协作，用于数学发现与组合优化问题。",
+      "title": "用潜在 Agent 群体做数学发现与优化",
+      "finding": "社区讨论借鉴 AlphaEvolve 的思路，让 LLM 写程序、打分、迭代，用 Agent 群体搜索数学构造，复现了打破 1969 年矩阵乘法记录这类发现的路径。",
       "key_data": [
         "AlphaEvolve 思路",
-        "Agent 群体协作",
-        "数学发现"
+        "Agent 群体搜索",
+        "数学构造优化"
       ],
-      "judgment": "「LLM 写程序+自动评分+进化搜索」正成为算法发现的标准配方，群体化是下一步扩展方向。",
+      "judgment": "AI 做数学发现从个案走向可复制方法论，科研自动化加速。",
       "confidence": 2,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xrunu7/using_latentagent_swarms_for_math_discovery_and/",
       "importance": 2
@@ -149,122 +137,121 @@
   "company_product": [
     {
       "source": "OpenAI Blog",
-      "title": "CodeRabbit 用 Codex 实现同等团队交付量提升 20 倍",
-      "finding": "CodeRabbit 使用 OpenAI 模型治理与审核 AI 生成代码，并借助 Codex 在工程团队规模不变的情况下将软件交付量提升 20 倍。",
+      "title": "ChatGPT 企业版上架 AWS Marketplace",
+      "finding": "OpenAI 宣布 ChatGPT Enterprise 可通过 AWS Marketplace 采购，企业客户能直接用现有的 AWS 采购和账单关系完成购买，简化采购流程。",
       "key_data": [
-        "交付量 20 倍",
-        "团队规模不变",
-        "AI 代码治理"
-      ],
-      "judgment": "这是目前公开的最激进 AI 编程提效数字，但关键在于「治理」环节——没有审核层的 20 倍只是负债放大器。",
-      "confidence": 4,
-      "url": "https://openai.com/index/coderabbit-codex-daybreak",
-      "importance": 4
-    },
-    {
-      "source": "OpenAI Blog",
-      "title": "ChatGPT Enterprise 上架 AWS Marketplace",
-      "finding": "ChatGPT Enterprise 现可通过 AWS Marketplace 采购，企业可复用既有的 AWS 采购与账单关系完成订阅，简化采购流程。",
-      "key_data": [
-        "AWS Marketplace 上架",
-        "复用既有账单",
+        "上架 AWS Marketplace",
+        "复用 AWS 采购账单",
         "简化企业采购"
       ],
-      "judgment": "渠道即护城河：接入 AWS 采购体系意味着 OpenAI 开始用云厂商的分销网络对抗微软绑定，企业渗透率将加速。",
+      "judgment": "渠道战开打：OpenAI 借 AWS 的 enterprise 销售网络铺量，直接对打微软渠道。",
       "confidence": 5,
       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
       "importance": 3
     },
     {
       "source": "OpenAI Blog",
-      "title": "OpenAI 披露 Control Room：可快速中止研究基础设施上的模型负载",
-      "finding": "OpenAI 介绍其 Control Room 系统，用于跨研究基础设施追踪模型工作负载，并在出现安全或安保关切时快速中止运行。",
+      "title": "OpenAI 推出 Control Room：统一追踪并紧急叫停模型工作负载",
+      "finding": "OpenAI 披露内部系统 Control Room，可跨研究基础设施追踪模型工作负载，在出现安全或安保担忧时快速停止运行。",
       "key_data": [
-        "跨基础设施追踪",
-        "快速中止负载",
-        "安全响应机制"
+        "统一追踪工作负载",
+        "快速叫停机制",
+        "安全与安保响应"
       ],
-      "judgment": "在 IPO 与监管审查临近的节点公开内部安全基建，是主动的合规叙事铺垫，也给同行立了运维标准。",
+      "judgment": "前沿实验室开始把'可关停性'做成基础设施，安全治理进入工程化阶段。",
       "confidence": 5,
       "url": "https://openai.com/index/control-room",
       "importance": 3
     },
     {
-      "source": "极客公园",
-      "title": "具身智能迎来「API 时刻」：接上自己的机器人跑自己的任务",
-      "finding": "Physical Intelligence 等公司开始把具身模型以 API 形式开放，开发者可接入自有机器人测试自定义任务，检验标准从「发布视频」转向「跨本体迁移与任务适应」。",
+      "source": "TechCrunch AI",
+      "title": "Otter AI 支持 30 多种语言，可跟随跨语言对话切换",
+      "finding": "Otter AI 新增 27 种语言支持，并预告即将上线跨语言对话跟随功能，说话人中途切换语言也能持续转写。",
       "key_data": [
-        "具身模型 API 化",
-        "跨本体迁移",
-        "自定义任务测试"
+        "新增 27 种语言",
+        "共 30+ 语言",
+        "跨语言实时跟随"
       ],
-      "judgment": "评测方式从演示视频转向可复现任务，是具身智能从 PR 走向工程化的分水岭，硬件厂商的议价权将被削弱。",
-      "confidence": 3,
-      "url": "http://www.geekpark.net/news/373683",
-      "importance": 4
+      "judgment": "会议 AI 的竞争点从转写准确率转向多语言实时能力，出海团队受益。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+      "importance": 2
     },
     {
-      "source": "量子位",
-      "title": "奔驰宝马官宣放弃 L3 自动驾驶：还没 L2 好用",
-      "finding": "最早量产 L3 的车企公开泼冷水，奔驰与宝马宣布不再推进 L3，理由是实际体验不如成熟的 L2 方案，责任与成本结构不划算。",
+      "source": "极客公园",
+      "title": "千问办公押注 Team Agent，企业 AI 进入流水线协作阶段",
+      "finding": "阿里千问办公将重点放在 Team Agent 方向，让多个 Agent 像流水线一样分工协作处理企业办公任务，而非单点问答。",
       "key_data": [
-        "奔驰宝马退出 L3",
-        "体验不及 L2",
-        "最早量产者转向"
+        "Team Agent",
+        "多 Agent 流水线",
+        "企业办公场景"
       ],
-      "judgment": "L3 的「责任转移」商业模式被证伪，行业将跳过 L3 直奔 L4 或长期停留在高阶 L2，智驾叙事需要重写。",
+      "judgment": "企业 AI 从'个人助手'转向'组织级流水线'，落地形态正在定型。",
       "confidence": 3,
-      "url": "https://www.qbitai.com/2026/11/508629.html",
+      "url": "http://www.geekpark.net/news/373760",
       "importance": 3
+    },
+    {
+      "source": "Hacker News",
+      "title": "CoreWeave 债券收益率突破 16%，AI 信贷压力上升",
+      "finding": "CNBC 报道 CoreWeave 债券收益率升至 16% 以上，反映市场对 AI 基础设施公司债务风险的担忧加剧，该帖在 HN 获 143 分。",
+      "key_data": [
+        "债券收益率超 16%",
+        "AI 信贷压力",
+        "基础设施债务风险"
+      ],
+      "judgment": "算力扩张的融资成本正在失控，AI 基建泡沫的第一个裂缝出现在债市。",
+      "confidence": 4,
+      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "importance": 4
     }
   ],
   "opinions": [
     {
       "person": "Simon Willison",
-      "level": "L1",
-      "quote": "我现在项目里大部分改动都来自 Claude Code 或 Codex 开的 PR，PR 就是我的工作单元——但 AI 生成的冗长 PR 描述应该折叠进 <details> 标签里，别让噪音淹没真正需要 review 的 diff。",
-      "source": "https://simonwillison.net/2026/Nov/9/details-summary/"
+      "level": "L2",
+      "quote": "实测 Claude Fable 5.2 时发现，模型对'代码归谁所有'这类提示极其敏感——Anthropic 的小型编码任务测试中，提示里不提归属或暗示归用户时，模型行为明显不同。这说明模型的'立场'可以被提示词直接塑造，值得警惕。",
+      "source": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/"
     },
     {
-      "person": "姚顺雨",
-      "level": "L1",
-      "quote": "AI 公司的护城河在产品层，而不是模型层。模型能力会被追平，真正沉淀下来的是产品对用户工作流的嵌入深度。",
-      "source": "http://www.geekpark.net/news/373687"
+      "person": "Swyx (Latent Space)",
+      "level": "L2",
+      "quote": "Fable 5.2 重回世界第一恰逢 Anthropic IPO 路演首日，核心问题变成：'思考'到底值多少钱？模型能力领先和资本市场叙事正在被同一场发布会绑定。",
+      "source": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/"
     },
     {
-      "person": "Anthropic 工程师",
+      "person": "Garrett Lord (Handshake AI)",
       "level": "L1",
-      "quote": "不想当管理者，就用不好 Coding Agent。Agent 管理的本质是任务拆解、验收标准与上下文供给，这和管理一个初级工程师没有区别。",
-      "source": "https://www.infoq.cn/article/YPQyY6bqhzhtO8MN6XUb"
+      "quote": "Handshake 一年内做到 10 亿美元，靠的是给前沿实验室供应金融、生物、对齐等领域的专家级数据。前沿实验室真正在买的是'领域专家的判断力'，而不是普通标注。",
+      "source": "https://latent.space/p/handshake/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI 编程的「可维护性负债」：如何量化与治理",
-      "reason": "100% AI 编程一年后的代码失控案例已出现，需要一套可落地的度量与审核框架。",
+      "topic": "Anthropic 双模型策略与 IPO 估值逻辑",
+      "reason": "Fable/Mythos 同底座分轨、降价 20% 与 IPO 路演同日发生，值得拆解其定价与安全叙事如何服务资本故事。",
       "priority": "high"
     },
     {
-      "topic": "Anthropic 双 SKU 安全分级模式的合规与商业逻辑",
-      "reason": "同一底座按风险切分产品线，可能成为大模型监管时代的行业标准范式。",
+      "topic": "AI 基建债务风险：CoreWeave 债券收益率 16% 意味着什么",
+      "reason": "算力扩张的融资成本信号可能预示 AI 基建投资周期拐点，值得追踪债市与租赁合约数据。",
       "priority": "high"
     },
     {
-      "topic": "具身智能 API 化后的评测体系重构",
-      "reason": "从演示视频到可复现任务，评测标准的迁移将重塑机器人公司的竞争格局。",
+      "topic": "Agent 插件生态的 Token 补贴模式",
+      "reason": "DeepSeek 用 Token 补贴开发者是全新生态打法，需研究其可持续性与对开发者留存的实际效果。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "Anthropic 双发模型降价抢市，英伟达陷治理危机",
-  "summary_paragraph": "今天最值得关注的是两条主线。一是 Anthropic 同时打出产品与资本两张牌：发布 Fable 5.2 与 Mythos 5.2 双版本模型、API 降价 20%，并据报本周敲定 IPO 估值区间，安全分级首次被做成产品 SKU。二是英伟达因黄仁勋与疑似中国间谍的关系启动董事会调查、股价跌超 4%，AI 算力霸主首次暴露「CEO 个人风险」这一治理软肋。产品侧，千问办公 2.0 把 Agent 从个人副驾推向团队编制，腾讯 Hy4 以开源姿态补齐底座；而「100% AI 编程一年后没人看得懂代码」的热帖与 Apple 每日 200 美元的 AI 预算上限，共同给 AI Coding 的狂热泼了一盆冷水——生成速度正在变成理解成本的负债。",
-  "_comment": "placeholder",
+  "summary_one_line": "Anthropic 双模型登顶并启动 IPO，英伟达陷治理危机",
+  "summary_paragraph": "今天 AI 行业同时上演技术、资本与风险三条线。Anthropic 发布 Fable 5.2 与 Mythos 5.2 重夺全球第一，API 降价 20%，并同日启动 IPO 路演，把模型实力直接变成资本叙事；Meta 则用成本仅三分之一的 Muse Ember 点燃轻量模型价格战。另一边，英伟达因黄仁勋疑似间谍关系遭董事会调查、股价大跌，叠加 CoreWeave 债券收益率破 16%，算力供应链的治理与债务风险同时亮起红灯。国内 DeepSeek 用 Token 补贴扶持 Agent 插件生态，标志竞争从模型转向生态飞轮。",
   "snapshot": {
     "date": "2026-11-10",
     "hf_trending": [
       {
         "name": "speridlabs/idol",
         "short_name": "idol",
-        "likes": 1641,
+        "likes": 1704,
         "downloads": 24747,
         "url": "https://huggingface.co/speridlabs/idol",
         "tags": [
@@ -280,7 +267,7 @@
       {
         "name": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
         "short_name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-        "likes": 1052,
+        "likes": 1096,
         "downloads": 11755,
         "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
         "tags": [
@@ -296,7 +283,7 @@
       {
         "name": "moonshotai/Kimi-K3.1-Pro",
         "short_name": "Kimi-K3.1-Pro",
-        "likes": 1800,
+        "likes": 1820,
         "downloads": 27926,
         "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
         "tags": [
@@ -312,7 +299,7 @@
       {
         "name": "ricursiveAI/Ripple-65B-Preview",
         "short_name": "Ripple-65B-Preview",
-        "likes": 455,
+        "likes": 465,
         "downloads": 5835,
         "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
         "tags": [
@@ -328,7 +315,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 11269,
+        "likes": 11302,
         "downloads": 2720096,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -344,7 +331,7 @@
       {
         "name": "NousResearch/Arete-27B",
         "short_name": "Arete-27B",
-        "likes": 366,
+        "likes": 377,
         "downloads": 2407,
         "url": "https://huggingface.co/NousResearch/Arete-27B",
         "tags": [
@@ -360,7 +347,7 @@
       {
         "name": "ccore/Qwen3.5-4B-3D-Coder",
         "short_name": "Qwen3.5-4B-3D-Coder",
-        "likes": 953,
+        "likes": 964,
         "downloads": 289466,
         "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
         "tags": [
@@ -376,7 +363,7 @@
       {
         "name": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "short_name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-        "likes": 2782,
+        "likes": 2795,
         "downloads": 1530688,
         "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "tags": [
@@ -394,45 +381,45 @@
       {
         "name": "anthropics/skills",
         "desc": "Public repository for Agent Skills",
-        "stars": 191059,
+        "stars": 191592,
         "stars_today": 1038,
-        "forks": 22447,
+        "forks": 22500,
         "language": "Python",
         "url": "https://github.com/anthropics/skills"
       },
       {
         "name": "meta/astryx",
         "desc": "An open source design system that's fully customizable and agent ready",
-        "stars": 20223,
+        "stars": 21155,
         "stars_today": 3278,
-        "forks": 1537,
+        "forks": 1625,
         "language": "TypeScript",
         "url": "https://github.com/meta/astryx"
       },
       {
         "name": "sherlock-project/sherlock",
         "desc": "Hunt down social media accounts by username across social networks",
-        "stars": 107182,
+        "stars": 108014,
         "stars_today": 4267,
-        "forks": 12400,
+        "forks": 12498,
         "language": "Python",
         "url": "https://github.com/sherlock-project/sherlock"
       },
       {
         "name": "google-deepmind/mujoco",
         "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
-        "stars": 16938,
+        "stars": 17124,
         "stars_today": 574,
-        "forks": 1993,
+        "forks": 2041,
         "language": "C++",
         "url": "https://github.com/google-deepmind/mujoco"
       },
       {
         "name": "anthropics/claude-quickstarts",
         "desc": "A collection of projects designed to help developers quickly get started with building deployable ap",
-        "stars": 20043,
+        "stars": 20209,
         "stars_today": 551,
-        "forks": 3315,
+        "forks": 3355,
         "language": "Python",
         "url": "https://github.com/anthropics/claude-quickstarts"
       }
@@ -549,6 +536,6 @@
         "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
       }
     ],
-    "hf_summary": "视频生成与开源多模态模型热度领跑 超长命名去审查模型扎堆涌现"
+    "hf_summary": "开源模型正加速向多模态与视频生成集中，长名堆砌的微调变体泛滥成噪音"
   }
 }
