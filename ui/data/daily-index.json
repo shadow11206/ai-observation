@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-11-11",
-      "title": "今日 AI 日报：Anthropic 启动 IPO 路演，七位创始人各套现约 2.5 亿美元 + 4 条重要动态",
-      "excerpt": "这是 AI 行业从「烧钱研发」转向「公开市场定价」的分水岭事件。创始人集体套现说…",
+      "title": "今日 AI 日报：DeepMind 发布 AlphaProof Code：用 AI 形式化验证 Signal 加密核心 + 4 条重要动态",
+      "excerpt": "这是 AI for Code 的分水岭：AI 从写代码跨到证明代码正确。对安全敏…",
       "top_count": 5,
       "file": "2026-11-11.json"
     },

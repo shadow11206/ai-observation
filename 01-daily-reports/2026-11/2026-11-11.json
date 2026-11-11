@@ -3,230 +3,202 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Anthropic 启动 IPO 路演，七位创始人各套现约 2.5 亿美元",
-      "finding": "Anthropic 在发布 Claude Fable 5.2 的同一天启动 IPO 路演，估值区间对应近 700 亿美元融资规模，七位联合创始人将各自出售相同数量股份，每人套现约 2.5 亿美元。此前市场一度传出 IPO 定价撤回的消息，最终路演照常推进。",
+      "title": "DeepMind 发布 AlphaProof Code：用 AI 形式化验证 Signal 加密核心",
+      "finding": "Google DeepMind 推出 AlphaProof Code，其智能体在 Lean 中写出三百万行形式化证明，完成了对 Signal 核心加密协议的安全性验证。这是 AI 首次在真实生产级安全软件上完成大规模形式化验证，而非玩具示例。",
       "key_data": [
-        "七位创始人各套现2.5亿美元",
-        "融资规模近700亿美元",
-        "路演日发布Fable 5.2"
+        "300万行 Lean 证明",
+        "验证 Signal 加密核心",
+        "形式化验证突破"
       ],
-      "judgment": "这是 AI 行业从「烧钱研发」转向「公开市场定价」的分水岭事件。创始人集体套现说明内部对短期估值见顶有共识，而选择在路演日发布最强模型，是把技术叙事直接转化为估值叙事的典型操作。对二级市场投资者而言，Anthropic 的招股书将成为第一个可审计的头部大模型公司财务样本。",
-      "confidence": 4,
-      "source": "TechCrunch / InfoQ / Latent Space",
-      "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/"
-    },
-    {
-      "rank": 2,
-      "title": "Google DeepMind 发布 AlphaProof Code，用 AI 形式化验证 Signal 加密协议",
-      "finding": "DeepMind 的 AlphaProof Code 智能体在 Lean 中写出三百万行形式化证明，验证了 Signal 核心加密协议的正确性。这是 AI 首次对生产级加密协议完成深度形式化验证，DeepMind 称其长期目标是「验证世界上所有软件」。",
-      "key_data": [
-        "300万行Lean证明",
-        "验证Signal加密协议",
-        "目标覆盖全部软件"
-      ],
-      "judgment": "这比又一个聊天模型重要得多：AI 开始进入「数学证明级」的软件正确性领域，直接冲击安全审计、形式化验证和关键基础设施软件市场。对开发者意味着「AI 写代码」之后的下一个台阶是「AI 证明代码是对的」，安全与合规团队应开始关注这条技术路线。",
+      "judgment": "这是 AI for Code 的分水岭：AI 从写代码跨到证明代码正确。对安全敏感行业（通信、金融、国防）意味着验证成本可能下降一个数量级，也直接威胁传统形式化验证工具和咨询市场。",
       "confidence": 5,
-      "source": "Google DeepMind Blog / Wired",
+      "source": "Google DeepMind Blog",
       "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
     },
     {
-      "rank": 3,
-      "title": "CoreWeave 债券收益率突破 16%，AI 信贷压力显性化",
-      "finding": "AI 云基础设施公司 CoreWeave 的债券收益率升至 16% 以上，反映市场对其债务偿付能力的担忧加剧。HN 上该话题获得近 200 分和 186 条评论，讨论集中在 AI 算力扩张背后的杠杆风险。",
+      "rank": 2,
+      "title": "Gemini 4 Carbon 全面开放，定价 2 美元/百万 Token",
+      "finding": "此前仅向部分网络安全防御者开放的 Gemini 4 Carbon 正式向所有用户开放。Simon Willison 称其为 Google 史上最强 Gemini，输入定价仅 2 美元/百万 Token，性价比极具攻击性。",
       "key_data": [
-        "债券收益率超16%",
-        "HN 191分",
-        "AI算力杠杆风险"
+        "输入 $2/百万Token",
+        "全面开放",
+        "Google 最强 Gemini"
       ],
-      "judgment": "这是 AI 泡沫叙事从「估值贵」转向「债务违约风险」的信号。算力军备竞赛靠债务融资支撑，一旦融资成本失控，中小 AI 云厂商将率先出清，而手握现金流的巨头反而受益。产品经理应重新评估对第三方推理供应商的长期依赖风险。",
+      "judgment": "Google 用低价+强能力组合拳抢开发者心智，直接压缩 OpenAI 和 Anthropic 的定价空间。对开发者是利好，对闭源模型厂商意味着价格战进入新阶段。",
+      "confidence": 5,
+      "source": "Simon Willison / Google DeepMind",
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/"
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic 启动 IPO 路演，7 位创始人各套现约 2.5 亿美元",
+      "finding": "Anthropic 正式启动 IPO 路演，七位联合创始人将各自出售相同数量的股份，按发行价区间中值计算每人套现约 2.5 亿美元，合计约 17.5 亿美元，同时保留大部分持股。",
+      "key_data": [
+        "7位创始人各套现$2.5亿",
+        "合计$17.5亿",
+        "IPO路演启动"
+      ],
+      "judgment": "这是 AI 头部实验室从私募叙事转向公开市场定价的标志性事件。创始人集体套现但保留持股，说明内部对长期价值有信心，但 IPO 定价将成为整个 AI 板块的估值锚。",
       "confidence": 4,
-      "source": "CNBC / Hacker News",
-      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/"
     },
     {
       "rank": 4,
-      "title": "Grok Build 编程智能体泄露大量机密信息，涉及 SpaceX 数据",
-      "finding": "安全研究员发现约 3.5 万个 Grok Build 应用对任何人开放，无需认证即可访问，泄露内容包含大量机密信息，部分属于 SpaceX。这是 AI 编程智能体首次出现大规模配置性数据泄露事故。",
+      "title": "AI 生成代码导致代码库脆弱性引发 500+ 条 HN 热议",
+      "finding": "一篇题为《AI 使用产生脆弱代码库》的文章在 Hacker News 获得 527 分、507 条评论，作者认为大量依赖 AI 生成的代码正在制造难以维护、缺乏深层理解的脆弱系统。讨论热度显示这是一线开发者的普遍焦虑。",
       "key_data": [
-        "3.5万个应用裸奔",
-        "涉及SpaceX数据",
-        "无需认证即可访问"
+        "HN 527分",
+        "507条评论",
+        "脆弱代码库"
       ],
-      "judgment": "AI Agent 的安全问题正从「模型说错话」升级为「Agent 把公司数据挂公网」。这对所有做 Agent 产品的团队是警钟：默认安全配置、权限边界和部署审计必须成为 Agent 产品的第一优先级，而非事后补丁。企业采购 Agent 工具时应把安全审计能力列为硬性门槛。",
-      "confidence": 4,
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/"
-    },
-    {
-      "rank": 5,
-      "title": "「AI 使用产生脆弱代码库」引发 HN 热议，381 分 406 评论",
-      "finding": "一篇题为《AI 使用产生脆弱代码库》的文章在 Hacker News 获得 381 分、406 条评论，作者认为依赖 AI 生成的代码会积累隐性技术债，导致系统在边界条件下更易崩溃。讨论热度显示这是开发者群体的普遍焦虑而非个别抱怨。",
-      "key_data": [
-        "HN 381分",
-        "406条评论",
-        "隐性技术债"
-      ],
-      "judgment": "这是对「AI 编程提效」叙事的必要反拨。短期看 AI 让写代码变快，长期看维护成本可能转移到更晚、更贵的地方。对 AI Coding 产品而言，下一阶段的竞争点不是生成速度，而是可维护性、可测试性和架构一致性——谁能解决「AI 代码谁来维护」谁就赢。",
+      "judgment": "这是 AI Coding 叙事从'效率提升'转向'技术债'的关键信号。对 Cursor、Copilot 等工具厂商意味着下一阶段竞争点是代码可维护性和架构理解，而非单纯生成速度。",
       "confidence": 3,
       "source": "Hacker News",
       "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/"
+    },
+    {
+      "rank": 5,
+      "title": "Grok Build 编程智能体泄露大量机密信息，含 SpaceX 相关数据",
+      "finding": "安全研究员发现约 3.5 万个 Grok Build 应用对任何人开放，无需认证即可访问，泄露内容包含大量机密信息，部分属于 SpaceX 相关方。这是 AI 编程智能体领域迄今规模最大的安全事件之一。",
+      "key_data": [
+        "3.5万个应用暴露",
+        "无需认证访问",
+        "含SpaceX数据"
+      ],
+      "judgment": "AI Agent 默认配置的安全问题被严重低估。对企业意味着部署 AI 编程工具前必须做安全审计，对 xAI 则是品牌与信任的重大打击，也给整个 Agent 赛道敲响警钟。",
+      "confidence": 4,
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/"
     }
   ],
   "model_tech": [
     {
-      "source": "Google DeepMind Blog / Simon Willison",
-      "title": "Gemini 4 Carbon 向所有用户开放，定价 2 美元/百万 Token",
-      "finding": "Gemini 4 Carbon 两周前仅向部分网络安全防御者开放，今日正式全量开放，被 Simon Willison 称为「Google 史上最好的 Gemini」，定价约 2 美元/百万 Token。",
-      "key_data": [
-        "2美元/百万Token",
-        "全量开放",
-        "定位网络安全场景"
-      ],
-      "judgment": "定价极具攻击性，直接压向 Claude 与 GPT 的中端档位，价格战继续下探。",
-      "confidence": 5,
-      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-      "importance": 4
-    },
-    {
-      "source": "Simon Willison / Meta AI",
-      "title": "Meta 发布最小最高效模型 Muse Ember，切入小模型赛道",
-      "finding": "Meta AI 推出 Muse Ember，定位对标 Claude Haiku 和 GPT Luna 的小型高效模型，主打「最小、最高效」。这是 Meta 在开源大模型之外首次明确布局轻量级闭源小模型。",
-      "key_data": [
-        "对标Claude Haiku",
-        "最小最高效",
-        "Meta小模型首秀"
-      ],
-      "judgment": "小模型成为新战场，端侧与低成本推理需求正在重塑模型产品矩阵。",
-      "confidence": 4,
-      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
-      "importance": 3
-    },
-    {
       "source": "Latent Space",
-      "title": "NaiveAI 宣称 2100 Token/秒，实测编程质量对标 DeepSeek",
-      "finding": "NaiveAI 声称推理速度可达每秒 2100 Token，有望登顶 Artificial Analysis 速度榜。Latent Space 实测显示其编程质量与 DeepSeek 相当，速度优势明显。",
+      "title": "NaiveAI 宣称 2100 Token/秒，实测编码质量对标 DeepSeek",
+      "finding": "NaiveAI 声称推理速度可达每秒 2100 Token，可能登顶 Artificial Analysis 速度榜。Swyx 团队实测其编码质量与 DeepSeek 相当，速度优势明显。",
       "key_data": [
         "2100 Token/秒",
-        "编程质量对标DeepSeek",
+        "编码质量对标DeepSeek",
         "速度榜潜在第一"
       ],
-      "judgment": "速度正在成为独立竞争维度，对延迟敏感的 Agent 场景价值巨大。",
+      "judgment": "速度正在成为独立竞争维度，高速推理对交互式编程和 Agent 循环价值巨大。",
       "confidence": 3,
       "url": "https://latent.space/p/naiveai/",
       "importance": 3
     },
     {
-      "source": "ArXiv cs.CL",
-      "title": "研究发现强制输出单个字母可绕过模型拒答机制",
-      "finding": "一篇 arXiv 论文通过 WMDP 基准提供机制性证据：在多项选择题格式下，强制模型先输出某个字母会显著抑制其拒答行为，说明安全对齐对输出格式高度敏感。",
+      "source": "Reddit r/MachineLearning",
+      "title": "时间序列基础模型实测：TimesFM 3.0 等均未跑赢简单基线",
+      "finding": "有研究者将 Google TimesFM 3.0、Chronos-2、Toto 2.0 用于金融市场时间序列预测，结果显示三者均未击败简单基线模型。这给时间序列基础模型的实际价值打上问号。",
       "key_data": [
-        "WMDP基准",
-        "格式影响拒答",
-        "机制性证据"
+        "TimesFM 3.0",
+        "Chronos-2",
+        "未跑赢简单基线"
       ],
-      "judgment": "安全对齐的脆弱性被再次证实，评测基准本身可能系统性高估安全性。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2611.08639",
+      "judgment": "时间序列基础模型在金融等低信噪比场景的泛化能力存疑，落地需谨慎验证。",
+      "confidence": 2,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xsqztt/i_benchmarked_timesfm_30_chronos2_and_toto_20_on/",
       "importance": 3
     },
     {
-      "source": "量子位",
-      "title": "蚂蚁灵波开源触觉基础模型 LingBot-Touch",
-      "finding": "蚂蚁灵波科技开源 LingBot-Touch 触觉基础模型，从「一脑多机」推进到「一脑多手」，让同一模型可适配不同机器人手部硬件。",
+      "source": "Hugging Face Blog",
+      "title": "BotPsy：亚十亿参数端侧智能体个人助理",
+      "finding": "Hugging Face 社区发布 BotPsy，一个参数量低于十亿的端侧智能体语言模型，可在设备本地运行个人助理任务，无需云端推理。",
       "key_data": [
-        "开源触觉模型",
-        "一脑多手",
-        "跨硬件适配"
+        "<10亿参数",
+        "端侧运行",
+        "智能体助理"
       ],
-      "judgment": "触觉是具身智能被低估的短板，开源将加速国内机器人手部生态标准化。",
-      "confidence": 4,
-      "url": "https://www.qbitai.com/2026/11/508996.html",
-      "importance": 3
+      "judgment": "小模型+Agent 的端侧路线正在成熟，对隐私敏感场景和离线可用性是关键突破。",
+      "confidence": 3,
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "ADIndex：基于组级蒸馏的层自适应稀疏注意力索引",
+      "finding": "研究针对 DeepSeek 稀疏注意力（DSA）的索引器仍需全量打分的问题，提出 ADIndex 通过组级蒸馏实现层自适应稀疏注意力索引，降低长上下文计算成本。",
+      "key_data": [
+        "稀疏注意力",
+        "组级蒸馏",
+        "降低长上下文成本"
+      ],
+      "judgment": "长上下文效率优化仍是研究热点，对推理成本敏感的厂商有直接工程价值。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.12956",
+      "importance": 2
     }
   ],
   "company_product": [
     {
       "source": "OpenAI Blog",
-      "title": "OpenAI 在 ChatGPT 内推出「企业商家」功能",
-      "finding": "OpenAI 上线 Businesses in ChatGPT，商家可管理企业信息、查看自己在 ChatGPT 中的展示情况，并把用户兴趣直接转化为行动。这是 ChatGPT 从对话工具向商业流量入口的关键一步。",
+      "title": "OpenAI 在 ChatGPT 中推出 Businesses 功能",
+      "finding": "OpenAI 上线 ChatGPT 内的 Businesses 功能，商家可管理企业信息、查看自己在 ChatGPT 中的展示方式，并将用户兴趣转化为行动。这是 ChatGPT 从对话工具向商业平台延伸的一步。",
       "key_data": [
         "商家信息管理",
-        "ChatGPT内转化",
-        "商业流量入口"
+        "ChatGPT内商业入口",
+        "兴趣转行动"
       ],
-      "judgment": "ChatGPT 开始做「AI 版商家主页」，直接冲击本地搜索与广告市场。",
+      "judgment": "ChatGPT 开始做本地商业和广告式入口，直接冲击 Google 搜索与本地生活平台。",
       "confidence": 5,
       "url": "https://openai.com/index/introducing-businesses-chatgpt",
-      "importance": 4
-    },
-    {
-      "source": "OpenAI Blog",
-      "title": "OpenAI 与 Upwork 研究：AI 改变自由职业需求结构",
-      "finding": "OpenAI 与 Upwork 联合研究发现，AI 相关自由职业项目的预算和工时都在增长，同时技能组合出现新的搭配模式，部分传统岗位需求被重塑。",
-      "key_data": [
-        "AI项目预算增长",
-        "技能组合重构",
-        "Upwork联合研究"
-      ],
-      "judgment": "劳动力市场数据是 AI 经济影响最硬的证据，值得产品与 HR 团队细读。",
-      "confidence": 4,
-      "url": "https://openai.com/index/ai-effect-on-freelance-work",
       "importance": 3
     },
     {
-      "source": "TechCrunch",
-      "title": "OpenAI 收购 Sonder 创始人创办的旅游初创 Odessia",
-      "finding": "OpenAI 收购由 Sonder 创始人 Francis Davidson 创办的旅游初创公司 Odessia，但未说明具体用途。这是 OpenAI 少见的面向消费场景的并购。",
+      "source": "TechCrunch AI",
+      "title": "纽约州 AI 安全法生效，OpenAI 与 Anthropic 面临新监管",
+      "finding": "纽约州开始执行全面的 AI 安全法，要求 OpenAI、Anthropic 等主要开发商注册、披露安全实践并报告重大事故，违者面临罚款。这是美国州级 AI 监管首次实质性落地。",
       "key_data": [
-        "收购旅游初创",
-        "Sonder创始人",
-        "用途未披露"
-      ],
-      "judgment": "OpenAI 在为 Agent 补齐「真实世界服务预订」能力，消费级 Agent 落地加速。",
-      "confidence": 4,
-      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
-      "importance": 3
-    },
-    {
-      "source": "Hacker News / Notion",
-      "title": "Fireworks AI 安全事件波及 Notion 及其客户",
-      "finding": "Notion 发布安全事件公告，确认因第三方 AI 供应商 Fireworks AI 遭入侵而影响自身及客户数据。这是 AI 推理供应链风险的典型案例。",
-      "key_data": [
-        "第三方AI供应商被入侵",
-        "波及Notion客户",
-        "推理供应链风险"
-      ],
-      "judgment": "AI 推理中间商成为新的攻击面，企业需重新审视模型供应商的安全资质。",
-      "confidence": 4,
-      "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
-      "importance": 3
-    },
-    {
-      "source": "TechCrunch",
-      "title": "纽约州 AI 安全法生效，OpenAI 与 Anthropic 面临强制登记与事故报告",
-      "finding": "纽约州开始执行全面的 AI 安全法，要求 OpenAI、Anthropic 等主要开发商注册、披露安全实践并报告重大事故，违规将面临罚款。",
-      "key_data": [
-        "强制注册",
-        "事故报告义务",
+        "纽约州AI安全法",
+        "强制注册披露",
         "违规罚款"
       ],
-      "judgment": "美国州级 AI 监管从立法进入执法，合规成本将成模型厂商的新竞争壁垒。",
+      "judgment": "州级监管先行将形成事实标准，合规成本成为头部厂商的护城河，小厂商压力更大。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
       "importance": 3
     },
     {
-      "source": "TechCrunch",
+      "source": "TechCrunch AI",
+      "title": "OpenAI 收购 Sonder 创始人创办的旅游创业公司 Odessia",
+      "finding": "OpenAI 收购了由 Sonder 创始人 Francis Davidson 创办的旅游创业公司 Odessia，但未透露具体用途。这是 OpenAI 在消费级场景的又一次收购动作。",
+      "key_data": [
+        "收购Odessia",
+        "Sonder创始人",
+        "用途未披露"
+      ],
+      "judgment": "OpenAI 收购旅游团队暗示 ChatGPT 将深入旅行规划与预订，Agent 商业化提速。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+      "importance": 2
+    },
+    {
+      "source": "TechCrunch AI",
       "title": "Oura 以 6.25 亿美元收购 AI 原生初级医疗公司 Counsel Health",
-      "finding": "智能戒指厂商 Oura 宣布以 6.25 亿美元收购 AI 原生初级医疗服务公司 Counsel Health，此前 Oura 刚以「IPO 市场不确定」为由无限期推迟最高 22 亿美元 IPO。",
+      "finding": "智能戒指厂商 Oura 宣布以 6.25 亿美元收购 AI 原生初级医疗服务创业公司 Counsel Health。此前 Oura 因 IPO 市场不确定性无限期推迟了最高 22 亿美元的 IPO。",
       "key_data": [
         "6.25亿美元收购",
-        "AI原生医疗",
-        "IPO推迟后并购"
+        "AI原生初级医疗",
+        "IPO推迟"
       ],
-      "judgment": "硬件公司用并购补齐 AI 医疗服务闭环，健康 AI 进入整合期。",
+      "judgment": "可穿戴硬件+AI 医疗服务闭环成为新叙事，硬件厂商正向上游服务整合。",
       "confidence": 4,
       "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "Cloudflare 推出面向 AI 应用的 Web Search API",
+      "finding": "Cloudflare 发布面向 AI 应用的 Web Search API，为 AI Agent 和 RAG 应用提供搜索能力，依托其全球网络基础设施。",
+      "key_data": [
+        "Web Search API",
+        "面向AI应用",
+        "Cloudflare网络"
+      ],
+      "judgment": "搜索基础设施正在被 AI 原生应用重构，Cloudflare 入局加剧与 Perplexity 等搜索层竞争。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/SgXuVvzbHr8lKrihTAZW",
       "importance": 2
     }
   ],
@@ -234,48 +206,48 @@
     {
       "person": "Simon Willison",
       "level": "L2",
-      "quote": "Claude Fable 5.2 对提示词中「代码归谁所有」的表述高度敏感。在 Anthropic 的小型编程任务测试中，当提示词未提及所有权或给出不同归属时，模型行为出现明显差异——这说明所有权措辞正在成为影响 AI 编程输出的隐性变量。",
-      "source": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/"
+      "quote": "Gemini 4 Carbon 是 Google 史上最好的 Gemini，全面开放后定价仅 2 美元/百万 Token，这个价格配上这个能力，开发者没有理由不去试。",
+      "source": "https://simonwillison.net/2026/Nov/10/llm-gemini/"
     },
     {
-      "person": "Swyx (Latent Space)",
+      "person": "Swyx",
       "level": "L2",
-      "quote": "Fable 5.2 与 Mythos 5.2 在 Anthropic IPO 路演当天同时登场，问题不再是模型强不强，而是「多少思考值得付费」——推理成本与定价结构正在成为模型竞争的主战场。",
-      "source": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/"
+      "quote": "NaiveAI 的速度优势如果能在真实编码任务中稳定保持，会改变 Agent 循环的设计前提——当推理快到接近实时，交互范式本身就会变。",
+      "source": "https://latent.space/p/naiveai/"
     },
     {
-      "person": "Sean Allen (The Pragmatic Engineer 访谈)",
-      "level": "L2",
-      "quote": "整场对话刻意不提「AI」一词，只为挖出那些在 AI 时代反而更重要的软件基本功：正确性与供应链安全。AI 让写代码变快，但让「证明代码是对的」变得更难也更贵。",
+      "person": "Sean Allen",
+      "level": "L1",
+      "quote": "讨论 AI 编程时最该谈的其实是软件正确性和供应链安全这些老问题，AI 只是把它们的代价放大了，而不是创造了新问题。",
       "source": "https://newsletter.pragmaticengineer.com/p/software-correctness"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI 形式化验证与软件正确性（AlphaProof Code 路线）",
-      "reason": "可能重塑安全审计与关键软件行业，需理解 Lean 生态与工程落地路径",
+      "topic": "AI 形式化验证对安全软件供应链的重构",
+      "reason": "AlphaProof Code 验证 Signal 是首个生产级案例，值得研究其对安全行业的成本与流程冲击。",
       "priority": "high"
     },
     {
-      "topic": "AI 基础设施债务风险与算力融资结构",
-      "reason": "CoreWeave 债券信号可能预示 AI 云厂商出清，影响供应商选择",
+      "topic": "AI 生成代码的技术债与可维护性度量",
+      "reason": "HN 500+ 评论显示这是开发者普遍痛点，可能催生新的代码质量工具赛道。",
       "priority": "high"
     },
     {
-      "topic": "AI Agent 的默认安全与权限边界设计",
-      "reason": "Grok Build 与 Fireworks 事件表明 Agent 安全已成产品硬门槛",
+      "topic": "AI Agent 默认配置的安全审计框架",
+      "reason": "Grok Build 3.5 万应用暴露事件说明 Agent 安全需要系统性方法论，而非个案修补。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "Anthropic 路演日发最强模型，AI 进入公开市场定价时刻",
-  "summary_paragraph": "今天最重要的信号是资本与技术的正面交汇：Anthropic 在 IPO 路演当天发布 Claude Fable 5.2，七位创始人各套现 2.5 亿美元，头部大模型公司正式接受公开市场定价。与此同时，DeepMind 的 AlphaProof Code 用三百万行 Lean 证明验证了 Signal 加密协议，把 AI 从「写代码」推进到「证明代码正确」。但风险面同样清晰：CoreWeave 债券收益率破 16% 暴露算力债务压力，Grok Build 与 Fireworks 两起安全事件说明 Agent 与推理供应链正成为新的攻击面。技术向上、资本收紧、安全补课，三条线同时展开。",
+  "summary_one_line": "AI 从写代码走向证明代码，安全与估值双线升温",
+  "summary_paragraph": "今天最重要的信号是 AI 能力边界的两端同时被推进：DeepMind 的 AlphaProof Code 用三百万行 Lean 证明验证了 Signal 加密核心，把 AI 从'写代码'推到'证明代码正确'；而 Gemini 4 Carbon 以 2 美元/百万 Token 全面开放，把强能力打到低价。与此同时，Anthropic 启动 IPO 路演、创始人合计套现 17.5 亿美元，头部实验室开始接受公开市场定价。但另一面，Grok Build 泄露 3.5 万个应用机密、HN 上'AI 生成脆弱代码库'引发 500+ 条讨论，提醒行业：Agent 的安全默认值和代码可维护性，正在成为比生成速度更紧迫的议题。",
   "snapshot": {
     "date": "2026-11-11",
     "hf_trending": [
       {
         "name": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
         "short_name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-        "likes": 1208,
+        "likes": 1285,
         "downloads": 14378,
         "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
         "tags": [
@@ -291,7 +263,7 @@
       {
         "name": "speridlabs/idol",
         "short_name": "idol",
-        "likes": 1875,
+        "likes": 1911,
         "downloads": 26470,
         "url": "https://huggingface.co/speridlabs/idol",
         "tags": [
@@ -307,7 +279,7 @@
       {
         "name": "moonshotai/Kimi-K3.1-Pro",
         "short_name": "Kimi-K3.1-Pro",
-        "likes": 1867,
+        "likes": 1892,
         "downloads": 30721,
         "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
         "tags": [
@@ -321,25 +293,9 @@
         "trend": "same"
       },
       {
-        "name": "ricursiveAI/Ripple-65B-Preview",
-        "short_name": "Ripple-65B-Preview",
-        "likes": 487,
-        "downloads": 6480,
-        "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
-        "tags": [
-          "safetensors",
-          "ricursive",
-          "custom_code"
-        ],
-        "pipeline_tag": "",
-        "label": "",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "MiniMaxAI/MiniMax-H3-Image",
         "short_name": "MiniMax-H3-Image",
-        "likes": 403,
+        "likes": 548,
         "downloads": 667,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
         "tags": [
@@ -353,25 +309,25 @@
         "trend": "new"
       },
       {
-        "name": "Lightricks/LTX-2.5",
-        "short_name": "LTX-2.5",
-        "likes": 11385,
-        "downloads": 2791606,
-        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "name": "ricursiveAI/Ripple-65B-Preview",
+        "short_name": "Ripple-65B-Preview",
+        "likes": 490,
+        "downloads": 6480,
+        "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
         "tags": [
-          "diffusion-single-file",
-          "image-to-video",
-          "text-to-video"
+          "safetensors",
+          "ricursive",
+          "custom_code"
         ],
-        "pipeline_tag": "image-to-video",
-        "label": "图生视频",
+        "pipeline_tag": "",
+        "label": "",
         "card_desc": "",
         "trend": "same"
       },
       {
         "name": "NousResearch/Arete-27B",
         "short_name": "Arete-27B",
-        "likes": 404,
+        "likes": 416,
         "downloads": 3431,
         "url": "https://huggingface.co/NousResearch/Arete-27B",
         "tags": [
@@ -385,9 +341,25 @@
         "trend": "same"
       },
       {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 11425,
+        "downloads": 2791606,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "short_name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-        "likes": 2845,
+        "likes": 2866,
         "downloads": 1459029,
         "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "tags": [
@@ -405,45 +377,45 @@
       {
         "name": "meta/astryx",
         "desc": "An open source design system that's fully customizable and agent ready",
-        "stars": 23002,
+        "stars": 23877,
         "stars_today": 3108,
-        "forks": 1829,
+        "forks": 1874,
         "language": "TypeScript",
         "url": "https://github.com/meta/astryx"
       },
       {
         "name": "anthropics/skills",
         "desc": "Public repository for Agent Skills",
-        "stars": 192385,
+        "stars": 192716,
         "stars_today": 1679,
-        "forks": 22650,
+        "forks": 22679,
         "language": "Python",
         "url": "https://github.com/anthropics/skills"
       },
       {
         "name": "addyosmani/agent-skills",
         "desc": "Production-grade engineering skills for AI coding agents.",
-        "stars": 115212,
+        "stars": 115456,
         "stars_today": 465,
-        "forks": 12096,
+        "forks": 12116,
         "language": "JavaScript",
         "url": "https://github.com/addyosmani/agent-skills"
       },
       {
         "name": "anthropics/claude-quickstarts",
         "desc": "A collection of projects designed to help developers quickly get started with building deployable ap",
-        "stars": 20524,
+        "stars": 20676,
         "stars_today": 531,
-        "forks": 3471,
+        "forks": 3480,
         "language": "Python",
         "url": "https://github.com/anthropics/claude-quickstarts"
       },
       {
         "name": "google-deepmind/mujoco",
         "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
-        "stars": 17390,
+        "stars": 17536,
         "stars_today": 456,
-        "forks": 2148,
+        "forks": 2160,
         "language": "C++",
         "url": "https://github.com/google-deepmind/mujoco"
       }
@@ -560,6 +532,6 @@
         "url": "https://openrouter.ai/z-ai/glm-5.3"
       }
     ],
-    "hf_summary": "视频生成热度断层领先，开源模型社区偏好极端微调与多模态。"
+    "hf_summary": "视频与3D生成热度领先，无审查微调模型扎堆刷榜。"
   }
 }
