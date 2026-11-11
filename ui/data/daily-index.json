@@ -1,6 +1,13 @@
 {
-  "total": 228,
+  "total": 229,
   "reports": [
+    {
+      "date": "2026-11-11",
+      "title": "今日 AI 日报：Anthropic 启动 IPO 路演，七位创始人各套现约 2.5 亿美元 + 4 条重要动态",
+      "excerpt": "这是 AI 行业从「烧钱研发」转向「公开市场定价」的分水岭事件。创始人集体套现说…",
+      "top_count": 5,
+      "file": "2026-11-11.json"
+    },
     {
       "date": "2026-11-10",
       "title": "今日 AI 日报：Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，重夺全球第一并启动 IPO 路演 + 4 条重要动态",
