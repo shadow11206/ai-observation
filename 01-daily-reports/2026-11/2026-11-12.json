@@ -1,0 +1,566 @@
+{
+  "date": "2026-11-12",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "英伟达董事会据报准备罢免黄仁勋，股价应声下跌",
+      "finding": "英伟达董事会最快可能在周三晚间决定是否罢免创始人兼CEO黄仁勋。此前他承认与一名被指为中国情报人员的女性有婚外情，如今又被曝出与公司内部一名高管存在另一段关系。",
+      "key_data": [
+        "33年创始人CEO",
+        "董事会或周三表决",
+        "股价下跌",
+        "涉国家安全审查"
+      ],
+      "judgment": "这是AI基础设施领域最大的单点风险事件。黄仁勋是英伟达战略与生态的核心符号，若真被罢免，短期将引发供应链与客户信心震荡，长期看英伟达的CUDA生态护城河仍在，但领导层真空期对所有依赖其算力的模型公司都是利空。",
+      "confidence": 3,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/"
+    },
+    {
+      "rank": 2,
+      "title": "谷歌最强模型 Gemini 4 Carbon 全面开放，价格仅为竞品四分之一",
+      "finding": "谷歌正式GA了Gemini 4 Carbon，官方演示中它一夜之间重写了OpenCode桌面应用。定价策略极具攻击性，只有Fable 5.2的四分之一，直接打价格战。",
+      "key_data": [
+        "Gemini 4 Carbon GA",
+        "价格1/4",
+        "重写OpenCode",
+        "全面开放"
+      ],
+      "judgment": "谷歌这次是模型能力+价格双杀。对开发者是明确利好，迁移成本骤降；对OpenAI和Anthropic则是定价压力，闭源模型的溢价空间正在被系统性压缩。",
+      "confidence": 4,
+      "source": "InfoQ AI / Latent Space",
+      "url": "https://www.infoq.cn/article/YiANe38yfSYitvZOtab0"
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic启动IPO路演，Claude杀入办公软件腹地",
+      "finding": "Anthropic昨日启动IPO路演，路演视频首次披露了其商业模式细节。同时Claude推出办公能力，能自己参会、做表格、生成PPT，直接对标微软Office Copilot。",
+      "key_data": [
+        "IPO路演启动",
+        "首次披露商业模式",
+        "参会/表格/PPT",
+        "对标微软"
+      ],
+      "judgment": "Anthropic从模型公司向办公入口扩张，这是对微软最直接的进攻。IPO窗口打开意味着AI头部实验室开始接受公开市场检验，行业进入资本化下半场。",
+      "confidence": 4,
+      "source": "Simon Willison / InfoQ AI",
+      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
+    },
+    {
+      "rank": 4,
+      "title": "Mercor完成7.5亿美元D轮，估值200亿美元，年化收入30亿",
+      "finding": "AI数据与人才平台Mercor宣布完成7.5亿美元D轮融资，估值达200亿美元，年化收入已达30亿美元。这是AI数据服务赛道迄今最大规模的融资之一。",
+      "key_data": [
+        "7.5亿美元D轮",
+        "估值200亿美元",
+        "年化收入30亿",
+        "数据服务赛道"
+      ],
+      "judgment": "数据与人类反馈仍是模型训练的核心瓶颈，Mercor的估值说明市场愿意为高质量数据供应链支付极高溢价。对创业者而言，AI数据基础设施是被低估的确定性赛道。",
+      "confidence": 4,
+      "source": "Latent Space (Swyx)",
+      "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/"
+    },
+    {
+      "rank": 5,
+      "title": "美联航禁止AI代理代客订票，Agent落地遭遇现实阻力",
+      "finding": "美联航明确禁止AI代理代表旅客预订机票。这是主流企业首次公开对AI Agent设置业务边界，引发HN近400分热议。",
+      "key_data": [
+        "美联航禁令",
+        "HN 374分",
+        "Agent业务边界",
+        "355条评论"
+      ],
+      "judgment": "Agent的商业化不只是技术问题，更是责任与合规问题。当Agent代表用户执行交易，责任归属、欺诈风险、平台条款都会成为硬约束。做Agent产品的团队必须提前设计合规层。",
+      "confidence": 4,
+      "source": "Hacker News / CBS News",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Google DeepMind Blog",
+      "title": "AlphaGenome 2发布：解读细胞如何读取DNA以理解疾病",
+      "finding": "DeepMind推出AlphaGenome 2，能预测DNA序列及其变异如何影响特定人类细胞类型和疾病。这是基因组学与AI结合的重要进展。",
+      "key_data": [
+        "AlphaGenome 2",
+        "细胞类型级预测",
+        "疾病关联",
+        "DNA变异"
+      ],
+      "judgment": "科学AI是谷歌差异化护城河，生物医药方向商业化路径清晰。",
+      "confidence": 5,
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "importance": 4
+    },
+    {
+      "source": "Simon Willison",
+      "title": "谷歌推出Gemini Decisions API，加入决策模型赛道",
+      "finding": "谷歌发布Gemini Decision 1，与Jev和OpenAI同属决策模型品类，API形态几乎一致，支持相同类型的问题。",
+      "key_data": [
+        "Gemini Decision 1",
+        "决策模型品类",
+        "API形态趋同",
+        "三家竞争"
+      ],
+      "judgment": "决策模型正成为独立品类，标准化API意味着这一层将快速商品化。",
+      "confidence": 4,
+      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+      "importance": 3
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "BotPsy：十亿参数以下的端侧个人助理Agent模型",
+      "finding": "Hugging Face发布BotPsy，一个参数低于十亿的Agentic语言模型，可在设备端运行个人助理。端侧Agent模型开始具备实用形态。",
+      "key_data": [
+        "<10亿参数",
+        "端侧运行",
+        "Agentic能力",
+        "个人助理"
+      ],
+      "judgment": "端侧Agent是隐私与延迟的解法，小模型能力边界正在快速上移。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "ADIndex：基于组级蒸馏的层自适应稀疏注意力索引",
+      "finding": "研究针对DeepSeek稀疏注意力（DSA）的索引器仍需对全序列打分的瓶颈，提出层自适应稀疏注意力索引方法，降低计算成本。",
+      "key_data": [
+        "DSA优化",
+        "层自适应",
+        "组级蒸馏",
+        "降低索引成本"
+      ],
+      "judgment": "稀疏注意力工程优化直接影响推理成本，是长上下文商业化的关键一环。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.12956",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "SELD：检测上下文压缩中被忽略的静默证据丢失",
+      "finding": "研究指出上下文压缩虽已常规化，但压缩后的上下文只有在保留答案证据时才有用，提出SELD方法检测压缩过程中的静默证据丢失。",
+      "key_data": [
+        "上下文压缩",
+        "证据丢失检测",
+        "长输入场景",
+        "可靠性"
+      ],
+      "judgment": "长上下文压缩的可靠性问题被正式量化，RAG与Agent记忆系统需重视。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.12903",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "Latent Space (Swyx)",
+      "title": "OpenAI在AI Engineer Code Summit展示Codex新工作方式",
+      "finding": "OpenAI在AIE Code Summit首日演示了开发者如何用语音操控Codex、将任务移交云端，以及利用dots机制。编程交互范式正在从打字转向多模态指挥。",
+      "key_data": [
+        "语音操控Codex",
+        "云端任务移交",
+        "dots机制",
+        "AIE Code Summit"
+      ],
+      "judgment": "编程Agent的交互层创新比模型本身更值得产品经理研究，语音+云端是方向。",
+      "confidence": 4,
+      "url": "https://latent.space/p/codex-work/",
+      "importance": 4
+    },
+    {
+      "source": "量子位",
+      "title": "大模型厂商双11在天猫集体打5折",
+      "finding": "11月11日，智谱、MiniMax、千问办公、阿里云、Qoder等大模型厂商在天猫集体打5折促销。大模型开始像消费品一样参与电商大促。",
+      "key_data": [
+        "双11五折",
+        "智谱/MiniMax/千问",
+        "电商化促销",
+        "价格战"
+      ],
+      "judgment": "模型能力同质化后，获客渠道和价格成为竞争主战场，国内模型厂商进入消耗战。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/11/509085.html",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "罗永浩双11直播上手TRAE，AI Coding走向大众",
+      "finding": "双11直播间里罗永浩亲自上手字节TRAE，把AI Coding带进大众视野，主打价格和门槛双降。",
+      "key_data": [
+        "罗永浩带货",
+        "TRAE",
+        "价格门槛打穿",
+        "大众化"
+      ],
+      "judgment": "AI Coding从开发者工具转向大众消费品，字节用直播打法抢心智，值得关注。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/11/509146.html",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "丘沃智能开物系统首次完整曝光，无人拖拉机新疆大田深翻30厘米",
+      "finding": "丘沃智能的L4无人化农机系统在新疆大田完成30厘米以上深翻作业，首次完整公开，标志L4无人作业走向规模交付。",
+      "key_data": [
+        "L4无人农机",
+        "深翻30+厘米",
+        "新疆大田",
+        "规模交付"
+      ],
+      "judgment": "农业是L4自动驾驶最快落地的场景之一，商业化闭环比乘用车更清晰。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/11/509052.html",
+      "importance": 2
+    },
+    {
+      "source": "极客公园",
+      "title": "字节即将推出个人AI助手，华为新品牌星芒OSTA曝光",
+      "finding": "据极客早知道，字节即将推出个人AI助手，华为新品牌星芒OSTA同步曝光。国内大厂在消费级AI助手赛道继续加码。",
+      "key_data": [
+        "字节个人AI助手",
+        "华为星芒OSTA",
+        "消费级入口",
+        "大厂加码"
+      ],
+      "judgment": "个人AI助手入口争夺战升级，字节与华为都在抢下一代流量入口。",
+      "confidence": 2,
+      "url": "http://www.geekpark.net/news/373839",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "Anthropic的IPO路演视频里有此前未公开的商业模式信息，这是理解头部AI实验室如何赚钱的一手材料，值得逐帧研究。",
+      "source": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
+    },
+    {
+      "person": "Swyx (Shawn Wang)",
+      "level": "L2",
+      "quote": "OpenAI在Code Summit展示的重点不是模型，而是开发者如何用语音指挥Codex、把任务交给云端——编程的交互范式正在被重写。",
+      "source": "https://latent.space/p/codex-work/"
+    },
+    {
+      "person": "InfoQ 技术趋势",
+      "level": "L2",
+      "quote": "上下文也是成本。Agent效率优化的新思路是把上下文当作需要精打细算的资源来管理，而不是无限堆叠。",
+      "source": "https://www.infoq.cn/article/iaCUbU8Fwz6G6bDlQ9BV"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "英伟达领导层变动的连锁影响",
+      "reason": "若黄仁勋被罢免，算力供应链、CUDA生态与客户合同都需重新评估，影响面极大。",
+      "priority": "high"
+    },
+    {
+      "topic": "Gemini 4 Carbon 定价策略与模型商品化",
+      "reason": "1/4价格是行业定价锚点重置信号，需测算对各家毛利与迁移决策的影响。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI Agent的交易合规与责任边界",
+      "reason": "美联航禁令是首个明确案例，Agent产品设计必须提前内置合规层。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "英伟达震荡，谷歌降价，Anthropic冲刺IPO",
+  "summary_paragraph": "今天的AI行业同时出现三条主线：英伟达董事会据报准备罢免黄仁勋，AI算力霸主遭遇领导层危机，股价下跌，供应链信心面临考验；谷歌Gemini 4 Carbon全面开放并以竞品四分之一的价格发起价格战，闭源模型溢价空间被系统性压缩；Anthropic启动IPO路演并让Claude杀入办公软件腹地，头部实验室进入资本化下半场。与此同时，Mercor以200亿美元估值完成7.5亿美元融资，说明数据供应链仍是确定性赛道；而美联航禁止AI代理订票，则提醒所有Agent产品：商业化不只是技术问题，合规与责任边界才是真正的门槛。",
+  "snapshot": {
+    "date": "2026-11-12",
+    "hf_trending": [
+      {
+        "name": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+        "short_name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+        "likes": 3389,
+        "downloads": 16693,
+        "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "MiniMaxAI/MiniMax-H3-Image",
+        "short_name": "MiniMax-H3-Image",
+        "likes": 725,
+        "downloads": 142989,
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+        "tags": [
+          "minimax-h3",
+          "diffusers",
+          "safetensors"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "speridlabs/idol",
+        "short_name": "idol",
+        "likes": 2145,
+        "downloads": 28250,
+        "url": "https://huggingface.co/speridlabs/idol",
+        "tags": [
+          "idol",
+          "gaussian-splatting",
+          "3d"
+        ],
+        "pipeline_tag": "image-to-3d",
+        "label": "Image To 3D",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "NousResearch/Arete-27B",
+        "short_name": "Arete-27B",
+        "likes": 439,
+        "downloads": 4023,
+        "url": "https://huggingface.co/NousResearch/Arete-27B",
+        "tags": [
+          "safetensors",
+          "qwen3_5",
+          "nous-research"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 11518,
+        "downloads": 2848771,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "moonshotai/Kimi-K3.1-Pro",
+        "short_name": "Kimi-K3.1-Pro",
+        "likes": 1936,
+        "downloads": 33617,
+        "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "kimi_k31"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "ricursiveAI/Ripple-65B-Preview",
+        "short_name": "Ripple-65B-Preview",
+        "likes": 517,
+        "downloads": 7112,
+        "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+        "tags": [
+          "safetensors",
+          "ricursive",
+          "custom_code"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+        "short_name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+        "likes": 2910,
+        "downloads": 1532273,
+        "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+        "tags": [
+          "gguf",
+          "unsloth",
+          "fine tune"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "meta/astryx",
+        "desc": "An open source design system that's fully customizable and agent ready",
+        "stars": 25097,
+        "stars_today": 2776,
+        "forks": 1959,
+        "language": "TypeScript",
+        "url": "https://github.com/meta/astryx"
+      },
+      {
+        "name": "ZhuLinsen/daily_stock_analysis",
+        "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit",
+        "stars": 70323,
+        "stars_today": 278,
+        "forks": 56866,
+        "language": "Python",
+        "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+      },
+      {
+        "name": "GoogleChrome/modern-web-guidance-src",
+        "desc": "",
+        "stars": 1808,
+        "stars_today": 159,
+        "forks": 143,
+        "language": "TypeScript",
+        "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
+      },
+      {
+        "name": "shadcn/improve",
+        "desc": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+        "stars": 10936,
+        "stars_today": 361,
+        "forks": 446,
+        "language": "—",
+        "url": "https://github.com/shadcn/improve"
+      },
+      {
+        "name": "addyosmani/agent-skills",
+        "desc": "Production-grade engineering skills for AI coding agents.",
+        "stars": 115989,
+        "stars_today": 787,
+        "forks": 12166,
+        "language": "JavaScript",
+        "url": "https://github.com/addyosmani/agent-skills"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 12015156397316,
+        "total_tokens_str": "12.0T",
+        "api_calls": 0,
+        "change": 10.0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "tencent/hy4",
+        "name": "Hy4",
+        "org": "tencent",
+        "total_tokens": 2712684616070,
+        "total_tokens_str": "2.7T",
+        "api_calls": 0,
+        "change": -4.0,
+        "url": "https://openrouter.ai/tencent/hy4"
+      },
+      {
+        "rank": 3,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 2607497635008,
+        "total_tokens_str": "2.6T",
+        "api_calls": 0,
+        "change": 24.0,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 1251970901910,
+        "total_tokens_str": "1.3T",
+        "api_calls": 0,
+        "change": 17.4,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 5,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 1041867707839,
+        "total_tokens_str": "1.0T",
+        "api_calls": 0,
+        "change": -6.4,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 6,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 973925038573,
+        "total_tokens_str": "974B",
+        "api_calls": 0,
+        "change": 24.8,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 7,
+        "slug": "stepfun/step-5-preview",
+        "name": "Step 5 Preview",
+        "org": "stepfun",
+        "total_tokens": 961036345104,
+        "total_tokens_str": "961B",
+        "api_calls": 0,
+        "change": 19.7,
+        "url": "https://openrouter.ai/stepfun/step-5-preview"
+      },
+      {
+        "rank": 8,
+        "slug": "z-ai/glm-5.3",
+        "name": "GLM 5.3",
+        "org": "z-ai",
+        "total_tokens": 795947436074,
+        "total_tokens_str": "796B",
+        "api_calls": 0,
+        "change": 33.7,
+        "url": "https://openrouter.ai/z-ai/glm-5.3"
+      },
+      {
+        "rank": 9,
+        "slug": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo-V2.6-Flash",
+        "org": "xiaomi",
+        "total_tokens": 674084205905,
+        "total_tokens_str": "674B",
+        "api_calls": 0,
+        "change": 2.9,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+      },
+      {
+        "rank": 10,
+        "slug": "openai/gpt-6.1-sol",
+        "name": "GPT-6.1 Sol",
+        "org": "openai",
+        "total_tokens": 650199350831,
+        "total_tokens_str": "650B",
+        "api_calls": 0,
+        "change": -2.1,
+        "url": "https://openrouter.ai/openai/gpt-6.1-sol"
+      }
+    ],
+    "hf_summary": "视频生成与无审查模型热度领先 开源社区偏好娱乐化与自由度"
+  }
+}

@@ -1,6 +1,13 @@
 {
-  "total": 229,
+  "total": 230,
   "reports": [
+    {
+      "date": "2026-11-12",
+      "title": "今日 AI 日报：英伟达董事会据报准备罢免黄仁勋，股价应声下跌 + 4 条重要动态",
+      "excerpt": "这是AI基础设施领域最大的单点风险事件。黄仁勋是英伟达战略与生态的核心符号，若真…",
+      "top_count": 5,
+      "file": "2026-11-12.json"
+    },
     {
       "date": "2026-11-11",
       "title": "今日 AI 日报：DeepMind 发布 AlphaProof Code：用 AI 形式化验证 Signal 加密核心 + 4 条重要动态",
