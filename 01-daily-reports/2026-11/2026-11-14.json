@@ -3,259 +3,280 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "黄仁勋辞任英伟达CEO，33年首次换帅，市值蒸发超3万亿",
-      "finding": "英伟达CEO黄仁勋因个人丑闻辞职，CFO Colette Kress出任临时CEO。消息公布后英伟达市值单日蒸发超3万亿元人民币，创下科技公司单日市值损失纪录。",
+      "title": "黄仁勋辞任英伟达CEO，33年首次换帅",
+      "finding": "英伟达CEO黄仁勋因个人丑闻辞职，结束33年掌舵生涯，CFO Colette Kress出任临时CEO。消息引发市场剧烈反应，英伟达市值单日蒸发超3万亿元人民币，VC和创业者普遍预期AI创业融资将收紧。",
       "key_data": [
         "33年首次换帅",
         "市值蒸发超3万亿",
         "CFO临时接任",
         "涉中国间谍传闻"
       ],
-      "judgment": "这不是一次普通的人事变动，而是AI基础设施最大受益者的治理危机。黄仁勋个人与英伟达生态深度绑定，他的离开将动摇VC对AI芯片赛道的信心，短期利好AMD和自研芯片阵营，长期看英伟达的CUDA护城河才是真正的压舱石。",
+      "judgment": "这是AI基础设施时代最大的黑天鹅。黄仁勋不只是CEO，更是英伟达生态战略和AI叙事的总设计师，他的离场会动摇资本对AI算力叙事的信心，短期融资环境收紧几乎确定，长期看英伟达的生态护城河面临重估。",
       "confidence": 4,
-      "source": "量子位/TechCrunch",
-      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+      "source": "量子位 / TechCrunch",
+      "url": "https://www.qbitai.com/2026/11/509995.html"
     },
     {
       "rank": 2,
-      "title": "OpenAI推出ChatGPT Wallet，AI Agent可代用户完成购物支付",
-      "finding": "OpenAI发布ChatGPT Wallet，允许ChatGPT Work、Codex和dots中的AI Agent在用户授权下完成购买和结账，沿用现有信用卡保护机制。首批面向美国Pro订阅用户限量开放。",
+      "title": "OpenAI推出ChatGPT Wallet，AI Agent可代用户下单支付",
+      "finding": "OpenAI发布ChatGPT Wallet，让ChatGPT Work、Codex和dots中的Agent在用户授权下完成购物和结账，沿用现有银行卡保护机制。首批面向美国Pro订阅用户限量开放。",
       "key_data": [
         "Agent代付",
-        "需用户授权",
-        "美国Pro用户首发",
-        "沿用信用卡保护"
+        "美国Pro限量",
+        "沿用卡保护",
+        "覆盖Codex/dots"
       ],
-      "judgment": "这是AI Agent从'建议'走向'执行'的关键一步——支付是Agent商业闭环的最后一块拼图。对电商和SaaS意味着流量入口可能被ChatGPT截胡，对开发者意味着Agent应用终于有了变现通道，但授权与风控设计将决定用户敢不敢用。",
+      "judgment": "这是Agent从'会说话'走向'能花钱'的关键一步，支付闭环一旦跑通，Agent商业化的天花板被彻底打开。对电商、支付和SaaS厂商都是信号：Agent将成为新的流量入口和交易主体。",
       "confidence": 5,
-      "source": "OpenAI Blog/TechCrunch",
+      "source": "OpenAI Blog / TechCrunch",
       "url": "https://openai.com/index/introducing-chatgpt-wallet"
     },
     {
       "rank": 3,
       "title": "LangChain估值达30亿美元，LangSmith客户达7000家",
-      "finding": "AI Agent基础设施公司LangChain完成新一轮融资，估值达到30亿美元。其模型无关的Agent管理平台LangSmith已积累7000家客户。",
+      "finding": "AI Agent创业公司LangChain完成新一轮融资，估值升至30亿美元，其模型与平台无关的Agent管理工具LangSmith已服务7000家客户。",
       "key_data": [
         "估值30亿美元",
         "7000家客户",
-        "模型无关平台",
-        "Agent管理工具"
+        "模型无关",
+        "Agent管理平台"
       ],
-      "judgment": "Agent框架层正在从'开发者玩具'变成'企业基础设施'。30亿美元估值说明资本市场押注Agent编排层会成为AI时代的中间件，但模型厂商自带工具链的挤压是最大风险，LangChain必须证明中立性本身就是价值。",
+      "judgment": "Agent中间层正在被资本重新定价。LangChain的价值不在框架本身，而在于它卡住了企业Agent的观测与治理入口——这是模型厂商难以直接吞掉的阵地，对做Agent基础设施的团队是强心针。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
     },
     {
       "rank": 4,
-      "title": "llama.cpp发布v1.0.0，本地AI生态迎来正式版基石",
-      "finding": "Hugging Face博客宣布llama.cpp发布v1.0.0版本，这是该项目从实验性工具走向稳定基础设施的里程碑。本地运行大模型的生态有了正式版底座。",
+      "title": "llama.cpp发布v1.0.0，本地AI生态迎来稳定基座",
+      "finding": "Hugging Face博客宣布llama.cpp发布1.0.0正式版，为本地推理生态提供更稳固的基础。这意味着这个被广泛使用的本地大模型推理项目结束长期快速迭代期，进入稳定版本阶段。",
       "key_data": [
         "v1.0.0正式版",
         "本地推理",
         "GGML生态",
-        "Hugging Face发布"
+        "稳定基座"
       ],
-      "judgment": "1.0意味着API稳定承诺，这对依赖llama.cpp做端侧和私有化部署的开发者是重大利好。在云端API越来越贵的背景下，本地推理生态的成熟会加速'小模型+本地'路线的产品化，边缘AI创业窗口正在打开。",
-      "confidence": 5,
+      "judgment": "本地AI从'极客玩具'走向'可依赖基础设施'的标志性节点。对隐私敏感场景、端侧应用和离线Agent是实质利好，也意味着云端推理厂商要面对更认真的本地替代方案。",
+      "confidence": 4,
       "source": "Hugging Face Blog",
       "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
     },
     {
       "rank": 5,
-      "title": "AI助力破解哥德尔手稿，据称含数百条已证明定理",
-      "finding": "Guardian报道，AI被用于解读数学家哥德尔遗留的手稿笔记，据称其中包含数百条此前未被发现的已证明定理。这是AI在基础数学史研究中的一次标志性应用。",
+      "title": "研究显示中国最强AI模型训练于被禁运的英伟达芯片",
+      "finding": "新研究指出，中国最先进的一批AI模型实际上是在美国出口禁令覆盖的英伟达芯片上训练完成的。这一发现与黄仁勋辞职事件叠加，令芯片出口管制的有效性受到质疑。",
       "key_data": [
-        "哥德尔手稿",
-        "数百条定理",
-        "AI辅助解读",
-        "基础数学"
+        "出口禁令失效",
+        "中国最强模型",
+        "训练芯片溯源",
+        "国家安全议题"
       ],
-      "judgment": "AI4S正在从'辅助计算'走向'知识考古'——用模型去解读人类自己都没消化完的文献。如果定理被数学界验证，这将是AI在纯理论领域价值的最强背书，也会推动更多机构把手稿、档案数字化交给AI处理。",
+      "judgment": "出口管制的'纸面威力'被数据打脸，这会推动美国进一步收紧监管，也会让国产算力替代的紧迫性上升。对国内模型厂商而言，短期是舆论风险，长期是自主算力的加速器。",
       "confidence": 3,
-      "source": "The Guardian/Hacker News",
-      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths"
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
     }
   ],
   "model_tech": [
     {
       "source": "Reddit r/MachineLearning",
-      "title": "在TorchTitan上扩展到1万亿参数MoE的实践分享",
-      "finding": "开发者分享了在JUPITER超算的GH200集群上，用TorchTitan和PyTorch将MoE模型扩展到1万亿参数的经验，探索了这套硬件组合的性能上限。",
+      "title": "在TorchTitan上扩展到1万亿参数MoE",
+      "finding": "开发者分享了在JUPITER超算的GH200上把MoE模型扩展到1万亿参数规模的实践，与PyTorch维护者共同压测了这套训练栈的极限。",
       "key_data": [
-        "1T参数MoE",
-        "GH200集群",
+        "1T MoE",
+        "GH200",
         "JUPITER超算",
         "TorchTitan"
       ],
-      "judgment": "万亿MoE的工程细节是最稀缺的一手知识，对做大模型训练的团队价值极高。",
+      "judgment": "万亿MoE的工程细节正在从少数实验室外溢到社区，训练门槛在下降。",
       "confidence": 3,
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xvce5h/scaling_to_1t_moe_on_torchtitan_p/",
-      "importance": 4
+      "importance": 3
     },
     {
       "source": "Hugging Face Blog",
-      "title": "XYBench：解决'问题背后的问题'的评测新基准",
-      "finding": "Allen AI在Hugging Face发布XYBench，试图评测模型理解用户真实意图的能力，而不只是回答表面问题。",
+      "title": "XYBench：解决'问题背后的问题'的评测新思路",
+      "finding": "Allen AI推出XYBench，试图评测模型能否识别并处理用户提问背后真正的问题，而不只是回答表面问题。",
       "key_data": [
         "XYBench",
-        "意图理解",
         "Allen AI",
-        "新评测基准"
+        "意图理解",
+        "评测新维度"
       ],
-      "judgment": "评测正从'答得对'转向'问得准'，意图理解会成为Agent产品的核心分水岭。",
+      "judgment": "评测正从'答得对'转向'问得准'，这对Agent产品的真实可用性更关键。",
       "confidence": 4,
       "url": "https://huggingface.co/blog/allenai/xybench",
       "importance": 3
     },
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "个人开发者用3万参数小模型预测自身血糖",
-      "finding": "一位开发者训练了仅31253个参数的encoder-only Transformer，基于合成CGM数据并用LoRA适配个人数据，血糖预测效果可与已发表模型竞争。",
+      "source": "ArXiv cs.AI",
+      "title": "清理Agent历史反而有害：当世界仍保留错误时",
+      "finding": "论文指出，工具型Agent会累积自身错误的历史，而压缩、修复或交接这些历史时，如果外部环境仍保留原始错误状态，清理反而会损害Agent表现。",
       "key_data": [
-        "31253参数",
-        "LoRA个人适配",
-        "血糖预测",
-        "合成CGM数据"
+        "Agent记忆",
+        "历史压缩",
+        "环境状态一致性",
+        "错误传播"
       ],
-      "judgment": "极小模型+个人数据微调在健康场景跑通，说明个性化AI的门槛比想象中低。",
+      "judgment": "给Agent记忆管理泼了冷水：上下文工程不能只做'删减'，必须与环境状态对齐。",
       "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xvja5n/i_have_trained_a_model_to_predict_my_blood_sugar_p/",
+      "url": "https://arxiv.org/abs/2611.14654",
       "importance": 3
     },
     {
-      "source": "InfoQ AI",
-      "title": "Edera从虚拟机监控器层限制AI智能体，容器隔离已不够",
-      "finding": "Edera提出在hypervisor层面对AI Agent做安全隔离，认为仅靠容器隔离无法应对Agent自主执行带来的风险。",
+      "source": "ArXiv cs.AI",
+      "title": "Together Compiler：面向AI推理的持续编译",
+      "finding": "针对模型发布频繁、架构多样、流量分布快速变化的现状，论文提出持续编译方案，让推理编译随模型和流量动态演进。",
       "key_data": [
-        "hypervisor层隔离",
-        "Agent安全",
-        "容器隔离不足",
-        "Edera"
+        "持续编译",
+        "推理优化",
+        "架构多样",
+        "流量自适应"
       ],
-      "judgment": "Agent越自主，安全边界越要下沉到硬件虚拟化层，这是Agent基础设施的新战场。",
+      "judgment": "推理成本战的下一战场在编译层，静态编译已跟不上模型迭代节奏。",
       "confidence": 3,
-      "url": "https://www.infoq.cn/article/MU0txcPXXuGdGKBNa6a2",
+      "url": "https://arxiv.org/abs/2611.14681",
+      "importance": 2
+    },
+    {
+      "source": "Hacker News / The Guardian",
+      "title": "AI解锁哥德尔笔记本，据称含数百个已证明定理",
+      "finding": "AI帮助解读数学家哥德尔的遗稿笔记本，据称其中包含数百个此前未被识别的已证明定理。",
+      "key_data": [
+        "哥德尔手稿",
+        "数百定理",
+        "AI辅助数学",
+        "历史文献解读"
+      ],
+      "judgment": "AI在科学史与数学发现上的价值被低估，这是'AI作为研究协作者'的强信号。",
+      "confidence": 3,
+      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
       "importance": 3
     }
   ],
   "company_product": [
     {
-      "source": "Latent Space",
-      "title": "ArtCraft用AI重写开源版Photoshop，目标'重建一切'",
-      "finding": "ArtCraft用AI将Photoshop重写为开源软件，CEO Brandon Thomas的愿景更大——要'夺回互联网'。这是AI辅助重写大型商业软件的一次激进实验。",
+      "source": "TechCrunch",
+      "title": "英伟达被指通过投资AI初创公司人为制造GPU稀缺",
+      "finding": "有报道称英伟达通过向AI初创公司注资、再让这些公司回头购买其GPU的方式，人为制造算力稀缺并推高需求。",
       "key_data": [
-        "AI重写Photoshop",
-        "开源",
-        "Brandon Thomas",
-        "重建互联网愿景"
+        "循环投资",
+        "人为稀缺",
+        "GPU需求",
+        "485点热度"
       ],
-      "judgment": "AI重写成熟软件正在成为新创业范式，但法律与维护成本是绕不开的坎。",
-      "confidence": 3,
-      "url": "https://latent.space/p/artcraft/",
+      "judgment": "若属实，这是算力泡沫叙事的关键证据，会加剧对AI资本开支真实性的质疑。",
+      "confidence": 2,
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
       "importance": 3
     },
     {
-      "source": "OpenAI Blog",
-      "title": "Shield用OpenAI Agent接管遗留系统门户操作",
-      "finding": "Shield的Forge Agent可自动导航遗留IT系统门户，帮技术员完成交接工作，让人专注于需要判断力的问题。",
+      "source": "TechCrunch",
+      "title": "黄仁勋离场在AI创业融资中炸出大洞",
+      "finding": "VC和创始人表示，黄仁勋任内英伟达向AI初创投入数百亿美元，其离任后创始人普遍预期融资支票变小、估值下调。",
       "key_data": [
-        "Forge Agent",
-        "遗留系统",
-        "IT运维",
-        "OpenAI企业案例"
+        "数百亿美元投资",
+        "融资收紧",
+        "估值下调",
+        "创始人预期"
       ],
-      "judgment": "遗留系统自动化是企业Agent最务实的落地场景，ROI清晰、竞争少。",
+      "judgment": "英伟达系资本是AI创业的重要输血管，断流会加速行业出清与整合。",
       "confidence": 4,
-      "url": "https://openai.com/business/customer-stories/shield",
-      "importance": 3
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "importance": 4
     },
     {
-      "source": "量子位",
-      "title": "中国AI突破复杂肺癌诊疗，250名三甲医生联合评测",
-      "finding": "中国团队在复杂肺癌诊疗上取得AI突破，由250名国内顶尖三甲医院医生联合参与评测，引发中美医疗圈关注。",
+      "source": "InfoQ",
+      "title": "快手商业场景智能互动Agent的落地实践",
+      "finding": "快手分享了智能互动Agent在其商业化场景中的落地经验，覆盖从部署到业务收益的完整链路。",
       "key_data": [
-        "肺癌诊疗",
-        "250名三甲医生",
-        "联合评测",
-        "医疗AI"
+        "快手商业化",
+        "互动Agent",
+        "落地实践",
+        "业务收益"
       ],
-      "judgment": "大规模医生参与的评测比论文数字更有说服力，医疗AI落地需要这种背书。",
+      "judgment": "国内大厂Agent落地已进入'算账'阶段，商业场景是最硬的验证场。",
       "confidence": 3,
-      "url": "https://www.qbitai.com/2026/11/509796.html",
-      "importance": 3
-    },
-    {
-      "source": "极客公园",
-      "title": "AI录音硬件卖的是时间差，窗口可能只剩半年",
-      "finding": "文章指出苹果在iOS 27.3和watchOS 27.3中为Apple Watch加入Live Rewind和Siri Recap等AI录音功能，独立AI录音硬件的窗口期可能只剩半年。",
-      "key_data": [
-        "Apple Watch AI录音",
-        "Live Rewind",
-        "窗口期半年",
-        "平台挤压"
-      ],
-      "judgment": "平台厂商一出手，硬件创业公司的差异化就被抹平，这是AI硬件的结构性风险。",
-      "confidence": 3,
-      "url": "http://www.geekpark.net/news/373946",
+      "url": "https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo",
       "importance": 2
     },
     {
-      "source": "InfoQ AI",
-      "title": "Inkitt用AI自动写PR：模型最简单，工程才是难点",
-      "finding": "Inkitt分享了AI自动生成PR的实践，指出真正的挑战不在模型，而在Webhook重复、CI失败和合并冲突等工程问题。",
+      "source": "InfoQ",
+      "title": "Inkitt用AI自动写PR：模型最简单，难的是Webhook与CI",
+      "finding": "Inkitt分享了AI自动生成PR的工程实践，指出真正的难点不在模型，而在Webhook重复、CI失败和合并冲突等工程细节。",
       "key_data": [
         "AI写PR",
         "Webhook去重",
-        "CI失败处理",
+        "CI失败",
         "合并冲突"
       ],
-      "judgment": "AI Coding的瓶颈已从模型能力转向工程可靠性，这是所有团队都会踩的坑。",
+      "judgment": "AI Coding的瓶颈已从模型能力转向工程集成，这是给一线团队的清醒提醒。",
       "confidence": 3,
       "url": "https://www.infoq.cn/article/YRXscVHsTh0g6CVCJJ0D",
-      "importance": 3
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "GitHub Actions锁文件功能正式可用",
+      "finding": "GitHub Actions的锁文件功能正式GA，用于锁定工作流依赖版本，保障CI/CD供应链安全。",
+      "key_data": [
+        "锁文件GA",
+        "依赖锁定",
+        "工作流安全",
+        "供应链"
+      ],
+      "judgment": "AI生成代码大量进入CI后，依赖可复现性成为刚需，这个功能来得正是时候。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/XrW1cdg9NFRkemvqLiZc",
+      "importance": 2
     }
   ],
   "opinions": [
     {
-      "person": "李彦宏",
-      "level": "L3",
-      "quote": "当前AI没有产生预期经济效益，本质是很多企业只更换了电机，却还没有重新设计工厂。智能组织就是AI时代的新厂房，是生产力真正发生的地方。",
-      "source": "http://www.geekpark.net/news/373937"
+      "person": "Swyx (Shawn Wang)",
+      "level": "L2",
+      "quote": "黄仁勋离场后，开源与美国AI领导力的走向成为最大悬念——英伟达既是算力供给方，也是开源生态的隐性资助者，换帅可能改变这两条线的节奏。",
+      "source": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/"
     },
     {
       "person": "Jonathan Blow",
       "level": "L1",
-      "quote": "如果AI真的解决了编程问题，为什么我的软件还是老样子？工具的效率提升并没有转化为软件质量的跃迁，这值得整个行业反思。",
+      "quote": "如果AI真的解决了编程，为什么我的软件还是老样子？工具能力的宣传与软件实际质量的提升之间存在巨大鸿沟，值得每个开发者反思。",
       "source": "https://www.youtube.com/watch?v=IRK8h67ol7Q"
+    },
+    {
+      "person": "AI工程社区（No AI Slop Manifesto）",
+      "level": "L2",
+      "quote": "AIE讲者联合发布'拒绝AI垃圾'宣言，主张用工程标准对抗低质AI生成内容，把'不产生Slop'作为产品与内容的基本纪律。",
+      "source": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "黄仁勋离职后的英伟达权力交接与AI芯片融资格局",
-      "reason": "涉及AI基础设施最大变量，影响VC投资节奏和国产芯片替代窗口",
+      "topic": "黄仁勋离任后英伟达的资本与生态战略走向",
+      "reason": "涉及AI算力供给、创业融资和开源生态三条主线，影响未来12个月行业格局。",
       "priority": "high"
     },
     {
-      "topic": "ChatGPT Wallet的Agent支付授权与风控架构",
-      "reason": "Agent商业闭环的关键一环，产品经理必须理解其授权模型设计",
+      "topic": "Agent支付闭环：ChatGPT Wallet的技术与合规架构",
+      "reason": "Agent代付是商业化关键一跃，支付授权、风控与责任归属值得拆解。",
       "priority": "high"
     },
     {
-      "topic": "llama.cpp 1.0后的本地推理产品化机会",
-      "reason": "端侧AI生态成熟，可能催生新一批私有化部署产品",
+      "topic": "Agent记忆管理：清理历史为何有害",
+      "reason": "直接影响Agent产品的上下文工程方案，是当前工程实践的高频痛点。",
       "priority": "medium"
     }
   ],
   "summary_one_line": "黄仁勋离场，Agent开始花钱",
-  "summary_paragraph": "今天最大的震动来自英伟达——黄仁勋因丑闻辞任CEO，33年首次换帅，市值蒸发超3万亿，AI基础设施的领头羊进入不确定期，VC已开始预期融资收紧。与之形成对照的是Agent商业化的实质推进：OpenAI推出ChatGPT Wallet让Agent能代用户付款，LangChain以30亿美元估值证明Agent编排层正成为企业基础设施。技术侧，llama.cpp发布1.0正式版为本地推理生态立下基石，AI解读哥德尔手稿则展示了AI4S从计算走向知识考古的新可能。一句话：旧秩序的掌舵人离场，新秩序的支付管道正在铺通。",
+  "summary_paragraph": "今天AI行业被两件事同时震动：一是黄仁勋因丑闻辞任英伟达CEO，33年创始人时代终结，市值蒸发超3万亿，VC普遍预期AI创业融资收紧，叠加'英伟达投资初创买自家GPU'的稀缺性指控，算力叙事的可信度正被重新审视；二是OpenAI推出ChatGPT Wallet，让Agent在授权下完成购物结账，Agent从'会说话'迈向'能交易'。与此同时，LangChain以30亿美元估值验证了Agent中间层的价值，llama.cpp发布1.0.0让本地推理有了稳定基座。一边是旧秩序的松动，一边是新闭环的成形，行业正站在算力信仰与Agent商业化的交叉路口。",
   "snapshot": {
     "date": "2026-11-14",
     "hf_trending": [
       {
         "name": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
         "short_name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-        "likes": 6077,
+        "likes": 6963,
         "downloads": 21586,
         "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
         "tags": [
@@ -271,7 +292,7 @@
       {
         "name": "MiniMaxAI/MiniMax-H3-Image",
         "short_name": "MiniMax-H3-Image",
-        "likes": 1020,
+        "likes": 1062,
         "downloads": 437039,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
         "tags": [
@@ -285,25 +306,9 @@
         "trend": "same"
       },
       {
-        "name": "NousResearch/Arete-27B",
-        "short_name": "Arete-27B",
-        "likes": 555,
-        "downloads": 5545,
-        "url": "https://huggingface.co/NousResearch/Arete-27B",
-        "tags": [
-          "safetensors",
-          "qwen3_5",
-          "nous-research"
-        ],
-        "pipeline_tag": "text-generation",
-        "label": "文本生成",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 11786,
+        "likes": 11830,
         "downloads": 2778909,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -317,9 +322,25 @@
         "trend": "same"
       },
       {
+        "name": "NousResearch/Arete-27B",
+        "short_name": "Arete-27B",
+        "likes": 577,
+        "downloads": 5545,
+        "url": "https://huggingface.co/NousResearch/Arete-27B",
+        "tags": [
+          "safetensors",
+          "qwen3_5",
+          "nous-research"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 19881,
+        "likes": 19917,
         "downloads": 6960395,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -335,7 +356,7 @@
       {
         "name": "speridlabs/idol",
         "short_name": "idol",
-        "likes": 2301,
+        "likes": 2319,
         "downloads": 31367,
         "url": "https://huggingface.co/speridlabs/idol",
         "tags": [
@@ -351,7 +372,7 @@
       {
         "name": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "short_name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-        "likes": 3058,
+        "likes": 3081,
         "downloads": 1639400,
         "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "tags": [
@@ -367,7 +388,7 @@
       {
         "name": "moonshotai/Kimi-K3.1-Pro",
         "short_name": "Kimi-K3.1-Pro",
-        "likes": 2033,
+        "likes": 2055,
         "downloads": 40953,
         "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
         "tags": [
@@ -385,45 +406,45 @@
       {
         "name": "alibaba/open-code-review",
         "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: det",
-        "stars": 50663,
+        "stars": 50920,
         "stars_today": 215,
-        "forks": 3771,
+        "forks": 3793,
         "language": "Go",
         "url": "https://github.com/alibaba/open-code-review"
       },
       {
         "name": "GoogleChrome/modern-web-guidance-src",
         "desc": "Keep your coding agent up to date with the latest web best practices",
-        "stars": 4907,
+        "stars": 5169,
         "stars_today": 1925,
-        "forks": 272,
+        "forks": 282,
         "language": "TypeScript",
         "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
       },
       {
         "name": "openai/codex-security",
         "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerab",
-        "stars": 13159,
+        "stars": 13319,
         "stars_today": 751,
-        "forks": 1024,
+        "forks": 1031,
         "language": "TypeScript",
         "url": "https://github.com/openai/codex-security"
       },
       {
         "name": "ZhuLinsen/daily_stock_analysis",
         "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit",
-        "stars": 71653,
+        "stars": 71950,
         "stars_today": 256,
-        "forks": 57302,
+        "forks": 57382,
         "language": "Python",
         "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
       },
       {
         "name": "we-promise/sure",
         "desc": "The personal finance app for everyone (by everyone)",
-        "stars": 14777,
+        "stars": 14931,
         "stars_today": 925,
-        "forks": 1122,
+        "forks": 1136,
         "language": "Ruby",
         "url": "https://github.com/we-promise/sure"
       }
@@ -540,6 +561,6 @@
         "url": "https://openrouter.ai/z-ai/glm-5.3"
       }
     ],
-    "hf_summary": "多模态与视频生成霸榜开源生态正从文本转向视觉与3D"
+    "hf_summary": "多模态与视频生成霸榜 开源模型靠超长命名博眼球"
   }
 }
