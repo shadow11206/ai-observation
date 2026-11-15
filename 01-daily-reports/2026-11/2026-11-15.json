@@ -1,0 +1,530 @@
+{
+  "date": "2026-11-15",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "英伟达CEO黄仁勋因芯片流向调查辞职，马斯克等科技高管联名请愿要求复职",
+      "finding": "英伟达CEO黄仁勋因与一名涉嫌向中国转运芯片的公司高管存在关联而辞职。事件迅速发酵，马斯克等科技高管发起请愿，已获超11.5万人签名要求其回归，亚洲多国政府也在紧急确认芯片供应承诺。",
+      "key_data": [
+        "黄仁勋辞职",
+        "11.5万签名请愿",
+        "芯片转运调查",
+        "亚洲政府紧急回应"
+      ],
+      "judgment": "这是AI算力供应链政治化的标志性事件。短期看英伟达治理真空将加剧GPU供应不确定性，长期看芯片出口管制正从政策层面渗透到公司治理层面，所有依赖英伟达算力的AI公司都应重新评估供应链风险。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/"
+    },
+    {
+      "rank": 2,
+      "title": "英伟达被曝通过投资AI初创公司人为制造GPU稀缺",
+      "finding": "有报道指控英伟达通过向AI初创公司注资、再要求这些公司用资金购买其GPU的方式，人为制造算力稀缺并锁定客户。该帖在Hacker News获超1000点热度，引发广泛讨论。",
+      "key_data": [
+        "HN 1036点",
+        "投资换采购",
+        "循环交易质疑",
+        "算力稀缺"
+      ],
+      "judgment": "若指控属实，这是典型的供应商金融化操作，把客户变成融资对象再回收资金。对AI创业者意味着GPU采购的议价空间可能比想象中更小，也提醒投资人在尽调时关注算力采购合同中的绑定条款。",
+      "confidence": 3,
+      "source": "Hacker News",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus"
+    },
+    {
+      "rank": 3,
+      "title": "斯坦福等十余家顶尖团队发布「史上最严」湿实验预测基准",
+      "finding": "斯坦福、哈佛、康奈尔等十余家顶尖机构联合发布面向湿实验（真实生物实验）的预测基准，结果显示即使把推理能力拉满、算力提升5倍，模型表现依然没有实质突破。",
+      "key_data": [
+        "十余家顶尖机构",
+        "算力翻5倍无效",
+        "湿实验预测",
+        "推理拉满仍失败"
+      ],
+      "judgment": "这是对「堆算力+堆推理」路线的当头一棒。在需要真实世界因果验证的科学发现场景，当前LLM的能力边界被清晰标定，做AI4Science的团队应把资源从模型规模转向数据质量和实验闭环。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510232.html"
+    },
+    {
+      "rank": 4,
+      "title": "联想提出「词元工厂」概念：绿电进、Token出，成本降70%",
+      "finding": "联想发布「词元工厂」方案，把AI推理生产类比为制造业流水线——电力输入、Token输出，宣称年产2000万亿Token且成本降低70%。",
+      "key_data": [
+        "年产2000万亿Token",
+        "成本降70%",
+        "绿电直供",
+        "推理工业化"
+      ],
+      "judgment": "把Token生产「制造业化」是算力经济学的正确叙事方向。成本降70%若可复现，将直接压低推理API价格战的下限，对做应用层的团队是利好，但也意味着纯靠推理差价赚钱的中间商空间被进一步压缩。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510094.html"
+    },
+    {
+      "rank": 5,
+      "title": "Latent Space发起「反AI垃圾内容宣言」，AI Engineer大会讲者联合表态",
+      "finding": "Swyx主理的Latent Space发布「No AI Slop Manifesto」，AI Engineer大会的讲者们联合提出如何对抗AI生成的低质内容泛滥，主张以工程标准而非产量衡量AI输出价值。",
+      "key_data": [
+        "No AI Slop",
+        "AIE讲者联合",
+        "反低质生成",
+        "工程标准"
+      ],
+      "judgment": "这是AI内容生态从「能生成」转向「值得读」的分水岭信号。对产品经理的启示是：下一阶段的差异化不在生成速度，而在内容筛选与质量闸门的设计能力。",
+      "confidence": 4,
+      "source": "Latent Space",
+      "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv cs.AI",
+      "title": "研究：清理Agent历史记录反而有害，当环境仍保留错误时",
+      "finding": "论文指出，工具调用型Agent会积累自身错误的历史，而压缩、修复或交接这些历史时，如果外部环境仍保留着错误状态，清理反而会让Agent失去纠错线索。",
+      "key_data": [
+        "Agent历史压缩",
+        "环境状态残留",
+        "纠错线索丢失"
+      ],
+      "judgment": "Agent记忆管理不能只做「上下文瘦身」，必须与环境状态同步，否则越清理越错。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.14654",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "Together Compiler：面向AI推理的持续编译方案",
+      "finding": "针对模型发布频繁、架构多样、流量分布快速变化的现状，提出持续编译思路，让推理编译随模型和流量变化动态更新而非一次性静态编译。",
+      "key_data": [
+        "持续编译",
+        "动态适配流量",
+        "模型高频迭代"
+      ],
+      "judgment": "推理优化正从「一次编译」走向「持续编译」，推理服务商的工程壁垒会进一步抬高。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.14681",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "SynthCorp：为数据Agent定制生成基准的平台",
+      "finding": "现有数据Agent基准很快饱和且无法针对特定能力，SynthCorp通过平台化方式按需生成定制化评测任务，解决基准失效问题。",
+      "key_data": [
+        "定制化基准",
+        "解决基准饱和",
+        "数据Agent评测"
+      ],
+      "judgment": "评测基准的「按需生成」是必然趋势，静态榜单的时代正在结束。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.14765",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "语义先验应在何时介入部分可识别的因果发现",
+      "finding": "观测数据做因果发现时常留下方向不明的问题，论文系统研究LLM提供的语义信息应在因果发现流程的哪个阶段介入才最有效。",
+      "key_data": [
+        "LLM语义先验",
+        "因果方向识别",
+        "介入时机"
+      ],
+      "judgment": "LLM作为因果发现的「先验注入器」有明确价值窗口，时机比强度更重要。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.14736",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "InfoQ AI",
+      "title": "GitLab 19.5发布，将智能体开发纳入可治理的DevOps平台",
+      "finding": "GitLab 19.5把AI智能体开发纳入平台治理体系，让Agent的构建、权限和运行可被统一审计与管理，而非游离在DevOps流程之外。",
+      "key_data": [
+        "GitLab 19.5",
+        "Agent可治理",
+        "统一审计"
+      ],
+      "judgment": "企业级Agent落地的关键卡点是治理而非能力，GitLab此举切中采购决策的真实痛点。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/0IpE2EOypcqMFtL7z4z1",
+      "importance": 4
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "Inkitt分享AI自动写PR实践：模型是最简单的一环",
+      "finding": "Inkitt披露AI自动生成PR的工程实践，真正的难点不在模型本身，而在Webhook重复触发、CI失败处理和合并冲突等工程细节。",
+      "key_data": [
+        "AI自动写PR",
+        "Webhook去重",
+        "合并冲突处理"
+      ],
+      "judgment": "AI Coding的瓶颈已从模型能力转移到工程集成，谁做好周边管道谁赢。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/YRXscVHsTh0g6CVCJJ0D",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "GitHub Actions锁文件功能正式可用，保障工作流依赖安全",
+      "finding": "GitHub Actions锁文件功能GA，可锁定工作流依赖版本，防止供应链攻击和依赖漂移，对AI自动化流水线的安全性是直接补强。",
+      "key_data": [
+        "锁文件GA",
+        "依赖锁定",
+        "供应链安全"
+      ],
+      "judgment": "AI流水线越自动化，依赖安全越关键，这是基础设施层的必要补课。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/XrW1cdg9NFRkemvqLiZc",
+      "importance": 2
+    },
+    {
+      "source": "Wired AI",
+      "title": "警惕新一轮AI驱动的勒索软件潮",
+      "finding": "Wired报道称完全自动化的勒索软件尚未到来，但技术并不高明的攻击者已开始用AI工具造成实际破坏，攻击门槛显著降低。",
+      "key_data": [
+        "AI辅助勒索",
+        "攻击门槛降低",
+        "自动化未至"
+      ],
+      "judgment": "AI安全威胁正从「高能力攻击者」扩散到「低能力攻击者」，防御侧需重估威胁模型。",
+      "confidence": 3,
+      "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AI墓地：一份持续更新的失败项目与创业公司清单",
+      "finding": "TechCrunch整理了一份AI失败项目清单，涵盖苹果反复跳票的Siri AI、OpenAI混乱的「超级应用」发布等，系统记录AI项目的折戟案例。",
+      "key_data": [
+        "Siri AI跳票",
+        "超级应用翻车",
+        "失败案例库"
+      ],
+      "judgment": "失败案例的系统化沉淀比成功故事更有决策价值，值得产品团队定期复盘。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Swyx (Shawn Wang)",
+      "level": "L2",
+      "quote": "AI Engineer大会讲者联合提出「反AI垃圾内容宣言」：行业应以工程标准而非生成产量衡量AI输出，对抗低质内容泛滥。",
+      "source": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "英伟达治理危机与AI算力供应链重构",
+      "reason": "CEO辞职叠加芯片转运调查，直接影响全球GPU供应与定价，需评估对自身算力成本的中长期冲击。",
+      "priority": "high"
+    },
+    {
+      "topic": "湿实验预测基准揭示的AI4Science能力边界",
+      "reason": "算力翻5倍仍无效，是判断AI能否进入真实科学发现环节的关键证据，值得深读原始基准设计。",
+      "priority": "high"
+    },
+    {
+      "topic": "Agent历史管理与环境状态同步的工程方法",
+      "reason": "Agent记忆压缩是当前落地高频痛点，该论文给出了反直觉结论，值得结合自身Agent架构验证。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "英伟达震荡，算力与科学AI双双遇考",
+  "summary_paragraph": "今天最大的震动来自英伟达：黄仁勋因芯片转运调查辞职，马斯克等高管联名请愿要求复职，亚洲多国紧急确认供应承诺；同时有报道指控英伟达通过投资初创公司人为制造GPU稀缺。这两件事叠加，让AI算力供应链的政治与商业风险同时暴露。技术侧，斯坦福等十余家机构发布的湿实验基准证明「堆算力+堆推理」在真实科学发现场景失效，为AI4Science划出清晰边界。产品侧，GitLab把Agent开发纳入可治理的DevOps体系，联想则用「词元工厂」把推理成本叙事推向制造业逻辑。整体看，行业正从能力竞赛转向治理、成本与真实价值的硬约束阶段。",
+  "snapshot": {
+    "date": "2026-11-15",
+    "hf_trending": [
+      {
+        "name": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+        "short_name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+        "likes": 7367,
+        "downloads": 24470,
+        "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "MiniMaxAI/MiniMax-H3-Image",
+        "short_name": "MiniMax-H3-Image",
+        "likes": 1118,
+        "downloads": 517948,
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+        "tags": [
+          "minimax-h3",
+          "diffusers",
+          "safetensors"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen3.8-27B",
+        "short_name": "Qwen3.8-27B",
+        "likes": 20014,
+        "downloads": 6757964,
+        "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 11934,
+        "downloads": 2777667,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+        "short_name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+        "likes": 3124,
+        "downloads": 1657783,
+        "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+        "tags": [
+          "gguf",
+          "unsloth",
+          "fine tune"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Comfy-Org/MiniMax-H3-Image",
+        "short_name": "MiniMax-H3-Image",
+        "likes": 386,
+        "downloads": 1615613,
+        "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "text-to-image"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "speridlabs/idol",
+        "short_name": "idol",
+        "likes": 2341,
+        "downloads": 32619,
+        "url": "https://huggingface.co/speridlabs/idol",
+        "tags": [
+          "idol",
+          "gaussian-splatting",
+          "3d"
+        ],
+        "pipeline_tag": "image-to-3d",
+        "label": "Image To 3D",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "NousResearch/Arete-27B",
+        "short_name": "Arete-27B",
+        "likes": 594,
+        "downloads": 6191,
+        "url": "https://huggingface.co/NousResearch/Arete-27B",
+        "tags": [
+          "safetensors",
+          "qwen3_5",
+          "nous-research"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "backnotprop/plannotator",
+        "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code,",
+        "stars": 11166,
+        "stars_today": 408,
+        "forks": 928,
+        "language": "TypeScript",
+        "url": "https://github.com/backnotprop/plannotator"
+      },
+      {
+        "name": "GoogleChrome/modern-web-guidance-src",
+        "desc": "Keep your coding agent up to date with the latest web best practices",
+        "stars": 6097,
+        "stars_today": 1231,
+        "forks": 409,
+        "language": "TypeScript",
+        "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
+      },
+      {
+        "name": "tradermonty/claude-trading-skills",
+        "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic ",
+        "stars": 4855,
+        "stars_today": 553,
+        "forks": 994,
+        "language": "Python",
+        "url": "https://github.com/tradermonty/claude-trading-skills"
+      },
+      {
+        "name": "ChromeDevTools/chrome-devtools-mcp",
+        "desc": "Chrome DevTools for coding agents",
+        "stars": 56335,
+        "stars_today": 664,
+        "forks": 4759,
+        "language": "TypeScript",
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+      },
+      {
+        "name": "alibaba/open-code-review",
+        "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: det",
+        "stars": 51463,
+        "stars_today": 893,
+        "forks": 3910,
+        "language": "Go",
+        "url": "https://github.com/alibaba/open-code-review"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 10103444292697,
+        "total_tokens_str": "10.1T",
+        "api_calls": 0,
+        "change": -11.1,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "tencent/hy4",
+        "name": "Hy4",
+        "org": "tencent",
+        "total_tokens": 2112056551556,
+        "total_tokens_str": "2.1T",
+        "api_calls": 0,
+        "change": -19.5,
+        "url": "https://openrouter.ai/tencent/hy4"
+      },
+      {
+        "rank": 3,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1331706583777,
+        "total_tokens_str": "1.3T",
+        "api_calls": 0,
+        "change": -13.5,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 999381350823,
+        "total_tokens_str": "999B",
+        "api_calls": 0,
+        "change": -20.2,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 5,
+        "slug": "stepfun/step-5-preview",
+        "name": "Step 5 Preview",
+        "org": "stepfun",
+        "total_tokens": 958815601946,
+        "total_tokens_str": "959B",
+        "api_calls": 0,
+        "change": -0.1,
+        "url": "https://openrouter.ai/stepfun/step-5-preview"
+      },
+      {
+        "rank": 6,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 753601865603,
+        "total_tokens_str": "754B",
+        "api_calls": 0,
+        "change": -39.9,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 7,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 660144074812,
+        "total_tokens_str": "660B",
+        "api_calls": 0,
+        "change": -10.9,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 8,
+        "slug": "minimax/minimax-m3.1-flash",
+        "name": "MiniMax M3.1 Flash",
+        "org": "minimax",
+        "total_tokens": 535452995707,
+        "total_tokens_str": "535B",
+        "api_calls": 0,
+        "change": 3.7,
+        "url": "https://openrouter.ai/minimax/minimax-m3.1-flash"
+      },
+      {
+        "rank": 9,
+        "slug": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo-V2.6-Flash",
+        "org": "xiaomi",
+        "total_tokens": 500588428560,
+        "total_tokens_str": "501B",
+        "api_calls": 0,
+        "change": -17.0,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+      },
+      {
+        "rank": 10,
+        "slug": "baidu/ernie-5.5-flash-preview:free",
+        "name": "ERNIE-5.5-Flash-Preview (free)",
+        "org": "baidu",
+        "total_tokens": 495506280987,
+        "total_tokens_str": "496B",
+        "api_calls": 0,
+        "change": -0.5,
+        "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free"
+      }
+    ],
+    "hf_summary": "开源社区正被超长命名和去审查微调刷屏 多模态与视频生成热度反超纯文本"
+  }
+}
