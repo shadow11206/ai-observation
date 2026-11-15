@@ -3,244 +3,226 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "英伟达CEO黄仁勋因芯片流向调查辞职，马斯克等科技高管联名请愿要求复职",
-      "finding": "英伟达CEO黄仁勋因与一名涉嫌向中国转运芯片的公司高管存在关联而辞职。事件迅速发酵，马斯克等科技高管发起请愿，已获超11.5万人签名要求其回归，亚洲多国政府也在紧急确认芯片供应承诺。",
+      "title": "英伟达CEO黄仁勋因芯片流向调查辞职，马斯克等科技高管联名请愿要求其回归",
+      "finding": "英伟达CEO黄仁勋因与一家涉嫌向中国转运芯片的公司高管存在关联而辞职，引发行业震动。马斯克等科技高管发起请愿，已获超11.5万人签名，要求董事会让黄仁勋回归。亚洲多国政府紧急确认芯片供应承诺，英伟达安全主管早在8月已悄然离职。",
       "key_data": [
-        "黄仁勋辞职",
-        "11.5万签名请愿",
-        "芯片转运调查",
-        "亚洲政府紧急回应"
+        "超11.5万人签名请愿",
+        "安全主管8月已离职",
+        "亚洲政府紧急确认供应"
       ],
-      "judgment": "这是AI算力供应链政治化的标志性事件。短期看英伟达治理真空将加剧GPU供应不确定性，长期看芯片出口管制正从政策层面渗透到公司治理层面，所有依赖英伟达算力的AI公司都应重新评估供应链风险。",
+      "judgment": "这不是一次普通的人事变动，而是AI算力供应链政治化的标志性事件。黄仁勋是英伟达生态的灵魂人物，他的离开将动摇市场对英伟达战略连续性的信心，短期股价波动难免；更深远的影响是，芯片出口管制正从政策层面渗透到公司治理层面，所有依赖英伟达算力的AI公司都应重新评估供应链风险。",
       "confidence": 4,
       "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/"
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"
     },
     {
       "rank": 2,
-      "title": "英伟达被曝通过投资AI初创公司人为制造GPU稀缺",
-      "finding": "有报道指控英伟达通过向AI初创公司注资、再要求这些公司用资金购买其GPU的方式，人为制造算力稀缺并锁定客户。该帖在Hacker News获超1000点热度，引发广泛讨论。",
+      "title": "联想发布「词元工厂」：绿电进、Token出，年产2000万亿Token成本降70%",
+      "finding": "联想提出「词元工厂」概念，将AI推理基础设施重新定义为类似制造业的Token生产线——输入绿色电力，输出可计价的Token。宣称年产2000万亿Token，成本降低70%。",
       "key_data": [
-        "HN 1036点",
-        "投资换采购",
-        "循环交易质疑",
-        "算力稀缺"
+        "年产2000万亿Token",
+        "成本降低70%",
+        "绿电进Token出"
       ],
-      "judgment": "若指控属实，这是典型的供应商金融化操作，把客户变成融资对象再回收资金。对AI创业者意味着GPU采购的议价空间可能比想象中更小，也提醒投资人在尽调时关注算力采购合同中的绑定条款。",
+      "judgment": "这个提法值得认真对待：它把AI推理从「云计算服务」叙事切换到「制造业」叙事，意味着Token正在变成标准化大宗商品。如果成本真能降70%，将直接压缩模型API的定价空间，对依赖推理毛利的下游应用是利好，对纯模型厂商则是压力——未来竞争焦点会从模型能力转向单位Token的能源效率。",
       "confidence": 3,
-      "source": "Hacker News",
-      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus"
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510094.html"
     },
     {
       "rank": 3,
-      "title": "斯坦福等十余家顶尖团队发布「史上最严」湿实验预测基准",
-      "finding": "斯坦福、哈佛、康奈尔等十余家顶尖机构联合发布面向湿实验（真实生物实验）的预测基准，结果显示即使把推理能力拉满、算力提升5倍，模型表现依然没有实质突破。",
+      "title": "斯坦福哈佛等十余家顶尖团队发布「史上最严」湿实验预测基准，算力翻5倍也难提升",
+      "finding": "十余家顶尖学术团队联合发布面向湿实验（真实生物实验）预测的新基准，结果显示即使推理能力拉满、算力增加5倍，模型表现也没有实质提升。",
       "key_data": [
-        "十余家顶尖机构",
+        "十余家顶尖团队",
         "算力翻5倍无效",
-        "湿实验预测",
-        "推理拉满仍失败"
+        "湿实验预测"
       ],
-      "judgment": "这是对「堆算力+堆推理」路线的当头一棒。在需要真实世界因果验证的科学发现场景，当前LLM的能力边界被清晰标定，做AI4Science的团队应把资源从模型规模转向数据质量和实验闭环。",
+      "judgment": "这是对「Scaling万能论」的一记重锤。在需要真实世界实验验证的科学发现场景，堆算力和推理链并不能自动转化为预测能力，说明当前模型在因果理解和实验设计上存在结构性短板。对AI4Science方向的创业者和研究者，这是一个明确的信号：数据质量和实验闭环比模型规模更关键。",
       "confidence": 4,
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/11/510232.html"
     },
     {
       "rank": 4,
-      "title": "联想提出「词元工厂」概念：绿电进、Token出，成本降70%",
-      "finding": "联想发布「词元工厂」方案，把AI推理生产类比为制造业流水线——电力输入、Token输出，宣称年产2000万亿Token且成本降低70%。",
+      "title": "Inkitt分享AI自动写PR实践：模型是最简单的一环，Webhook重复与合并冲突才是真难题",
+      "finding": "Inkitt团队分享了用AI自动生成Pull Request的工程实践，核心结论是模型本身反而是最简单的部分，真正的挑战在于Webhook重复触发、CI失败处理和合并冲突等工程细节。",
       "key_data": [
-        "年产2000万亿Token",
-        "成本降70%",
-        "绿电直供",
-        "推理工业化"
+        "模型不是瓶颈",
+        "Webhook重复触发",
+        "CI失败与合并冲突"
       ],
-      "judgment": "把Token生产「制造业化」是算力经济学的正确叙事方向。成本降70%若可复现，将直接压低推理API价格战的下限，对做应用层的团队是利好，但也意味着纯靠推理差价赚钱的中间商空间被进一步压缩。",
+      "judgment": "这篇实践的价值在于戳破了「AI Coding = 换个更强的模型」的幻觉。真正决定AI编程Agent能否落地的，是围绕它的工程基础设施——幂等性、状态管理、冲突解决。对正在做Coding Agent的团队，这是一份难得的踩坑清单；对产品经理，这意味着Agent的护城河在工程细节而非模型调用。",
       "confidence": 3,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/510094.html"
+      "source": "InfoQ AI",
+      "url": "https://www.infoq.cn/article/YRXscVHsTh0g6CVCJJ0D?utm_source=rss&utm_medium=article"
     },
     {
       "rank": 5,
-      "title": "Latent Space发起「反AI垃圾内容宣言」，AI Engineer大会讲者联合表态",
-      "finding": "Swyx主理的Latent Space发布「No AI Slop Manifesto」，AI Engineer大会的讲者们联合提出如何对抗AI生成的低质内容泛滥，主张以工程标准而非产量衡量AI输出价值。",
+      "title": "GitLab 19.5发布：将AI智能体开发纳入可治理的DevOps平台",
+      "finding": "GitLab 19.5正式将AI Agent开发纳入其DevOps平台，强调「可治理」——让企业能在既有权限、审计和合规框架内开发和部署智能体。",
       "key_data": [
-        "No AI Slop",
-        "AIE讲者联合",
-        "反低质生成",
-        "工程标准"
+        "Agent纳入DevOps",
+        "可治理",
+        "权限与审计"
       ],
-      "judgment": "这是AI内容生态从「能生成」转向「值得读」的分水岭信号。对产品经理的启示是：下一阶段的差异化不在生成速度，而在内容筛选与质量闸门的设计能力。",
+      "judgment": "这代表企业级AI Agent的竞争正从「能不能做」转向「能不能管」。GitLab把Agent开发塞进DevOps治理体系，切中的是大企业最真实的痛点：没人敢让不受审计的Agent碰生产环境。对Agent创业公司是个提醒——企业市场的入场券不是能力演示，而是治理能力。",
       "confidence": 4,
-      "source": "Latent Space",
-      "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/"
+      "source": "InfoQ AI",
+      "url": "https://www.infoq.cn/article/0IpE2EOypcqMFtL7z4z1?utm_source=rss&utm_medium=article"
     }
   ],
   "model_tech": [
     {
-      "source": "ArXiv cs.AI",
-      "title": "研究：清理Agent历史记录反而有害，当环境仍保留错误时",
-      "finding": "论文指出，工具调用型Agent会积累自身错误的历史，而压缩、修复或交接这些历史时，如果外部环境仍保留着错误状态，清理反而会让Agent失去纠错线索。",
+      "source": "Reddit r/MachineLearning",
+      "title": "LongMemEval-S记忆检索测试达96.0%，揭示top-5与top-20检索的差异",
+      "finding": "团队用官方答案提示词和未修改的GPT-4o评判器跑完LongMemEval-S全部500道题，记忆检索方案Papr达到96.0%准确率，并公开了逐题答案与评判标签。",
       "key_data": [
-        "Agent历史压缩",
-        "环境状态残留",
-        "纠错线索丢失"
+        "96.0%准确率",
+        "500道题全跑",
+        "公开逐题标签"
       ],
-      "judgment": "Agent记忆管理不能只做「上下文瘦身」，必须与环境状态同步，否则越清理越错。",
+      "judgment": "长时记忆检索的评测透明度在提升，96%这个数字值得关注但需交叉验证。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2611.14654",
-      "importance": 4
-    },
-    {
-      "source": "ArXiv cs.AI",
-      "title": "Together Compiler：面向AI推理的持续编译方案",
-      "finding": "针对模型发布频繁、架构多样、流量分布快速变化的现状，提出持续编译思路，让推理编译随模型和流量变化动态更新而非一次性静态编译。",
-      "key_data": [
-        "持续编译",
-        "动态适配流量",
-        "模型高频迭代"
-      ],
-      "judgment": "推理优化正从「一次编译」走向「持续编译」，推理服务商的工程壁垒会进一步抬高。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2611.14681",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xwnloh/longmemevals_960_with_the_official_judge_and_what/",
       "importance": 3
     },
     {
-      "source": "ArXiv cs.AI",
-      "title": "SynthCorp：为数据Agent定制生成基准的平台",
-      "finding": "现有数据Agent基准很快饱和且无法针对特定能力，SynthCorp通过平台化方式按需生成定制化评测任务，解决基准失效问题。",
+      "source": "Reddit r/MachineLearning",
+      "title": "ICLR 2027投稿量飙至4.2万篇，录取率能否维持引发热议",
+      "finding": "ICLR今年投稿量暴涨至42000篇，社区讨论项目主席是否会维持26-28%的历史录取率，若维持则意味着超1.1万篇被接收。",
       "key_data": [
-        "定制化基准",
-        "解决基准饱和",
-        "数据Agent评测"
+        "4.2万篇投稿",
+        "历史录取率26-28%",
+        "或超1.1万篇接收"
       ],
-      "judgment": "评测基准的「按需生成」是必然趋势，静态榜单的时代正在结束。",
+      "judgment": "投稿量爆炸正在稀释顶会信号价值，评审质量与录取标准面临结构性压力。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2611.14765",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv cs.AI",
-      "title": "语义先验应在何时介入部分可识别的因果发现",
-      "finding": "观测数据做因果发现时常留下方向不明的问题，论文系统研究LLM提供的语义信息应在因果发现流程的哪个阶段介入才最有效。",
-      "key_data": [
-        "LLM语义先验",
-        "因果方向识别",
-        "介入时机"
-      ],
-      "judgment": "LLM作为因果发现的「先验注入器」有明确价值窗口，时机比强度更重要。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2611.14736",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xwqxwj/with_42k_submissions_to_iclr_do_you_think_the/",
       "importance": 2
+    },
+    {
+      "source": "Reddit r/MachineLearning",
+      "title": "ICLR 2027初审分数按高校排名统计出炉",
+      "finding": "有研究者从OpenReview爬取数据、匹配arXiv标题并通过OpenAlex关联机构，整理出ICLR 2027初审分数按大学排名的统计结果。",
+      "key_data": [
+        "OpenReview爬取",
+        "OpenAlex机构匹配",
+        "按高校排名"
+      ],
+      "judgment": "机构维度的评审数据分析，为观察学术资源集中度提供了量化视角。",
+      "confidence": 2,
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xwcjuq/iclr_2027_initial_review_scores_ranked_by/",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "闭环AI自我进化：从Skill、Harness到模型训练与评估",
+      "finding": "AICon北京议题探讨如何构建闭环的AI自我进化体系，覆盖从技能（Skill）封装、执行框架（Harness）到模型训练与评估的完整链路。",
+      "key_data": [
+        "闭环自我进化",
+        "Skill与Harness",
+        "训练评估一体"
+      ],
+      "judgment": "自我进化闭环是Agent长期竞争力的核心，但工程复杂度远超单点能力优化。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/fZSEkDatL9xajG8PVi7G?utm_source=rss&utm_medium=article",
+      "importance": 3
     }
   ],
   "company_product": [
     {
       "source": "InfoQ AI",
-      "title": "GitLab 19.5发布，将智能体开发纳入可治理的DevOps平台",
-      "finding": "GitLab 19.5把AI智能体开发纳入平台治理体系，让Agent的构建、权限和运行可被统一审计与管理，而非游离在DevOps流程之外。",
+      "title": "Yelp AI助手融合原生UI与服务端驱动UI",
+      "finding": "Yelp的AI助手采用原生UI与服务端驱动UI相结合的架构，让AI回复能动态渲染为可交互的界面组件，而非纯文本。",
       "key_data": [
-        "GitLab 19.5",
-        "Agent可治理",
-        "统一审计"
+        "原生UI+服务端UI",
+        "动态界面组件",
+        "非纯文本回复"
       ],
-      "judgment": "企业级Agent落地的关键卡点是治理而非能力，GitLab此举切中采购决策的真实痛点。",
-      "confidence": 4,
-      "url": "https://www.infoq.cn/article/0IpE2EOypcqMFtL7z4z1",
-      "importance": 4
-    },
-    {
-      "source": "InfoQ AI",
-      "title": "Inkitt分享AI自动写PR实践：模型是最简单的一环",
-      "finding": "Inkitt披露AI自动生成PR的工程实践，真正的难点不在模型本身，而在Webhook重复触发、CI失败处理和合并冲突等工程细节。",
-      "key_data": [
-        "AI自动写PR",
-        "Webhook去重",
-        "合并冲突处理"
-      ],
-      "judgment": "AI Coding的瓶颈已从模型能力转移到工程集成，谁做好周边管道谁赢。",
+      "judgment": "AI助手的交互形态正从聊天框走向生成式界面，这是消费级AI产品的重要演进方向。",
       "confidence": 3,
-      "url": "https://www.infoq.cn/article/YRXscVHsTh0g6CVCJJ0D",
+      "url": "https://www.infoq.cn/article/1N801doFOEl2Swqey5Jy?utm_source=rss&utm_medium=article",
       "importance": 3
     },
     {
       "source": "InfoQ AI",
       "title": "GitHub Actions锁文件功能正式可用，保障工作流依赖安全",
-      "finding": "GitHub Actions锁文件功能GA，可锁定工作流依赖版本，防止供应链攻击和依赖漂移，对AI自动化流水线的安全性是直接补强。",
+      "finding": "GitHub Actions的锁文件功能正式GA，可锁定工作流依赖版本，防止依赖被篡改或意外升级带来的供应链风险。",
       "key_data": [
         "锁文件GA",
-        "依赖锁定",
+        "依赖版本锁定",
         "供应链安全"
       ],
-      "judgment": "AI流水线越自动化，依赖安全越关键，这是基础设施层的必要补课。",
+      "judgment": "CI/CD供应链安全的基础设施补强，对依赖自动化工作流的团队是刚需。",
       "confidence": 4,
-      "url": "https://www.infoq.cn/article/XrW1cdg9NFRkemvqLiZc",
+      "url": "https://www.infoq.cn/article/XrW1cdg9NFRkemvqLiZc?utm_source=rss&utm_medium=article",
       "importance": 2
-    },
-    {
-      "source": "Wired AI",
-      "title": "警惕新一轮AI驱动的勒索软件潮",
-      "finding": "Wired报道称完全自动化的勒索软件尚未到来，但技术并不高明的攻击者已开始用AI工具造成实际破坏，攻击门槛显著降低。",
-      "key_data": [
-        "AI辅助勒索",
-        "攻击门槛降低",
-        "自动化未至"
-      ],
-      "judgment": "AI安全威胁正从「高能力攻击者」扩散到「低能力攻击者」，防御侧需重估威胁模型。",
-      "confidence": 3,
-      "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
-      "importance": 3
     },
     {
       "source": "TechCrunch AI",
       "title": "AI墓地：一份持续更新的失败项目与创业公司清单",
-      "finding": "TechCrunch整理了一份AI失败项目清单，涵盖苹果反复跳票的Siri AI、OpenAI混乱的「超级应用」发布等，系统记录AI项目的折戟案例。",
+      "finding": "TechCrunch整理了一份AI失败项目清单，涵盖从苹果反复延期的Siri AI到OpenAI混乱的「超级应用」发布等未能兑现预期的项目。",
       "key_data": [
-        "Siri AI跳票",
-        "超级应用翻车",
-        "失败案例库"
+        "苹果Siri AI延期",
+        "OpenAI超级应用",
+        "持续更新清单"
       ],
-      "judgment": "失败案例的系统化沉淀比成功故事更有决策价值，值得产品团队定期复盘。",
+      "judgment": "失败案例库比成功故事更有参考价值，是评估AI产品节奏与预期的清醒剂。",
       "confidence": 3,
       "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "importance": 2
+    },
+    {
+      "source": "Wired AI",
+      "title": "警惕AI驱动的新一轮勒索软件潮",
+      "finding": "Wired报道称完全自动化的勒索软件尚未到来，但技术并不高超的攻击者已开始借助AI工具造成大规模破坏。",
+      "key_data": [
+        "AI辅助攻击",
+        "自动化勒索未至",
+        "低门槛攻击者"
+      ],
+      "judgment": "AI降低了网络攻击的门槛，安全防御方需要同步AI化，否则攻防失衡会加剧。",
+      "confidence": 3,
+      "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
       "importance": 2
     }
   ],
   "opinions": [
     {
-      "person": "Swyx (Shawn Wang)",
+      "person": "Simon Willison",
       "level": "L2",
-      "quote": "AI Engineer大会讲者联合提出「反AI垃圾内容宣言」：行业应以工程标准而非生成产量衡量AI输出，对抗低质内容泛滥。",
-      "source": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/"
+      "quote": "Datasette的图表插件datasette-vega上一次发版还是2018年7月，今天终于更新到0.7；同时datasette-llm 0.1a11新增了对OpenAI兼容接口的支持，让Datasette生态更容易接入各类LLM。",
+      "source": "https://simonwillison.net/2026/Nov/14/datasette-vega/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "英伟达治理危机与AI算力供应链重构",
-      "reason": "CEO辞职叠加芯片转运调查，直接影响全球GPU供应与定价，需评估对自身算力成本的中长期冲击。",
+      "topic": "黄仁勋辞职事件对AI算力供应链的连锁影响",
+      "reason": "涉及出口管制、公司治理与全球芯片供应，影响所有AI公司的算力成本与交付确定性。",
       "priority": "high"
     },
     {
-      "topic": "湿实验预测基准揭示的AI4Science能力边界",
-      "reason": "算力翻5倍仍无效，是判断AI能否进入真实科学发现环节的关键证据，值得深读原始基准设计。",
+      "topic": "Token作为大宗商品的定价逻辑与推理成本结构",
+      "reason": "联想「词元工厂」若成立，将重塑模型API定价与推理基础设施的竞争格局。",
       "priority": "high"
     },
     {
-      "topic": "Agent历史管理与环境状态同步的工程方法",
-      "reason": "Agent记忆压缩是当前落地高频痛点，该论文给出了反直觉结论，值得结合自身Agent架构验证。",
+      "topic": "AI Coding Agent的工程化落地难点清单",
+      "reason": "Inkitt实践揭示模型之外的Webhook幂等、CI失败、合并冲突等真实工程瓶颈。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "英伟达震荡，算力与科学AI双双遇考",
-  "summary_paragraph": "今天最大的震动来自英伟达：黄仁勋因芯片转运调查辞职，马斯克等高管联名请愿要求复职，亚洲多国紧急确认供应承诺；同时有报道指控英伟达通过投资初创公司人为制造GPU稀缺。这两件事叠加，让AI算力供应链的政治与商业风险同时暴露。技术侧，斯坦福等十余家机构发布的湿实验基准证明「堆算力+堆推理」在真实科学发现场景失效，为AI4Science划出清晰边界。产品侧，GitLab把Agent开发纳入可治理的DevOps体系，联想则用「词元工厂」把推理成本叙事推向制造业逻辑。整体看，行业正从能力竞赛转向治理、成本与真实价值的硬约束阶段。",
+  "summary_one_line": "算力政治化与Token商品化同日上演",
+  "summary_paragraph": "今天最重要的信号来自两条看似无关的线索：一边是黄仁勋因芯片流向调查辞职、马斯克等联名请愿要求其回归，说明AI算力供应链已被深度政治化，公司治理正成为出口管制的延伸战场；另一边是联想提出「词元工厂」，把推理重新定义为绿电进、Token出的制造业，宣称成本降70%。两者共同指向一个趋势——AI竞争的主战场正从模型能力转向算力与Token的成本、可控性与治理。与此同时，斯坦福等团队的湿实验基准证明堆算力并非万能，而Inkitt和GitLab的实践则提醒：Agent落地的胜负手在工程细节与治理能力，而非模型本身。",
+  "_comment": "placeholder",
   "snapshot": {
     "date": "2026-11-15",
     "hf_trending": [
       {
         "name": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
         "short_name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-        "likes": 7367,
+        "likes": 7424,
         "downloads": 24470,
         "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
         "tags": [
@@ -256,7 +238,7 @@
       {
         "name": "MiniMaxAI/MiniMax-H3-Image",
         "short_name": "MiniMax-H3-Image",
-        "likes": 1118,
+        "likes": 1137,
         "downloads": 517948,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
         "tags": [
@@ -272,7 +254,7 @@
       {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 20014,
+        "likes": 20046,
         "downloads": 6757964,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -288,7 +270,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 11934,
+        "likes": 11965,
         "downloads": 2777667,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -304,7 +286,7 @@
       {
         "name": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "short_name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-        "likes": 3124,
+        "likes": 3136,
         "downloads": 1657783,
         "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "tags": [
@@ -320,7 +302,7 @@
       {
         "name": "Comfy-Org/MiniMax-H3-Image",
         "short_name": "MiniMax-H3-Image",
-        "likes": 386,
+        "likes": 391,
         "downloads": 1615613,
         "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
         "tags": [
@@ -336,7 +318,7 @@
       {
         "name": "speridlabs/idol",
         "short_name": "idol",
-        "likes": 2341,
+        "likes": 2349,
         "downloads": 32619,
         "url": "https://huggingface.co/speridlabs/idol",
         "tags": [
@@ -352,7 +334,7 @@
       {
         "name": "NousResearch/Arete-27B",
         "short_name": "Arete-27B",
-        "likes": 594,
+        "likes": 602,
         "downloads": 6191,
         "url": "https://huggingface.co/NousResearch/Arete-27B",
         "tags": [
@@ -370,45 +352,45 @@
       {
         "name": "backnotprop/plannotator",
         "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code,",
-        "stars": 11166,
+        "stars": 11429,
         "stars_today": 408,
-        "forks": 928,
+        "forks": 994,
         "language": "TypeScript",
         "url": "https://github.com/backnotprop/plannotator"
       },
       {
         "name": "GoogleChrome/modern-web-guidance-src",
         "desc": "Keep your coding agent up to date with the latest web best practices",
-        "stars": 6097,
+        "stars": 6388,
         "stars_today": 1231,
-        "forks": 409,
+        "forks": 494,
         "language": "TypeScript",
         "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
       },
       {
         "name": "tradermonty/claude-trading-skills",
         "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic ",
-        "stars": 4855,
+        "stars": 5060,
         "stars_today": 553,
-        "forks": 994,
+        "forks": 1069,
         "language": "Python",
         "url": "https://github.com/tradermonty/claude-trading-skills"
       },
       {
         "name": "ChromeDevTools/chrome-devtools-mcp",
         "desc": "Chrome DevTools for coding agents",
-        "stars": 56335,
+        "stars": 56517,
         "stars_today": 664,
-        "forks": 4759,
+        "forks": 4785,
         "language": "TypeScript",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
       },
       {
         "name": "alibaba/open-code-review",
         "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: det",
-        "stars": 51463,
+        "stars": 51624,
         "stars_today": 893,
-        "forks": 3910,
+        "forks": 4006,
         "language": "Go",
         "url": "https://github.com/alibaba/open-code-review"
       }
@@ -525,6 +507,6 @@
         "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free"
       }
     ],
-    "hf_summary": "开源社区正被超长命名和去审查微调刷屏 多模态与视频生成热度反超纯文本"
+    "hf_summary": "开源社区狂热堆叠微调与无审查模型，多模态视频生成热度紧随其后。"
   }
 }
