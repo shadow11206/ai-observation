@@ -3,229 +3,115 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "英伟达曝出黄仁勋考虑重返公司担任 CEO，董事会启动独立调查",
-      "finding": "据英国《金融时报》报道，黄仁勋正考虑重返英伟达担任首席执行官，其硅谷盟友正组建「作战室」向董事会施压，并计划争取白宫支持。与此同时，英伟达董事会正在开展独立调查。",
-      "key_data": [
-        "黄仁勋考虑回归",
-        "盟友组建作战室",
-        "董事会独立调查",
-        "争取白宫支持"
-      ],
-      "judgment": "这是今天最具冲击力的信号。英伟达是整个 AI 算力经济的底座，CEO 层面的不确定性会直接传导到资本市场和供应链预期。如果属实，说明英伟达内部治理已出现裂缝；如果是博弈放风，也说明围绕 AI 算力权力的争夺已白热化。对下游云厂商和模型公司而言，现在就该评估算力供应的单点风险。",
-      "confidence": 3,
-      "source": "极客公园 / FT",
-      "url": "http://www.geekpark.net/news/373994"
-    },
-    {
-      "rank": 2,
-      "title": "OpenAI 发布科学博客，并称 GPT-6 Astra 协助完成标准模型的格点定义证明",
-      "finding": "OpenAI 上线了专门面向科学的博客，同时发布一项研究：提出标准模型的非微扰格点定义候选方案，并称 GPT-6 Astra 帮助把这个想法推进成了详细证明。这是 OpenAI 首次公开将下一代模型用于前沿理论物理推导。",
+      "title": "OpenAI 发布科学博客，GPT-6 Astra 参与格点标准模型证明",
+      "finding": "OpenAI 上线了专门面向科学研究的博客，首篇内容展示了一个非微扰格点标准模型的候选定义，并称 GPT-6 Astra 帮助把这一想法推进成了详细证明。这是 OpenAI 首次系统性地把模型能力包装成科研生产力叙事。",
       "key_data": [
         "GPT-6 Astra",
-        "标准模型格点定义",
-        "科学博客上线",
-        "非微扰证明"
+        "格点标准模型",
+        "科学博客首发",
+        "非微扰定义"
       ],
-      "judgment": "OpenAI 正在把叙事从「更强的聊天模型」转向「AI 做科学发现」，这是对 Anthropic 和 DeepMind 科学 AI 路线的正面回应。对研究者来说，值得关注的是模型在形式化证明中的实际贡献比例——如果 AI 真能参与理论物理推导，科研工作流的入口将被重写。",
+      "judgment": "OpenAI 正在把竞争维度从「模型跑分」转向「科学发现贡献」，这既能拉开与追赶者的叙事差距，也是在为下一代模型的定价和政企采购找合法性。对科研工具类产品是压力：通用模型开始直接吃掉垂直科研场景。",
       "confidence": 4,
       "source": "OpenAI Blog",
       "url": "https://openai.com/index/step-toward-defining-the-standard-model"
     },
     {
+      "rank": 2,
+      "title": "英伟达曝黄仁勋考虑重返 CEO 职位，盟友施压董事会",
+      "finding": "据英国《金融时报》报道，黄仁勋正考虑重返英伟达担任 CEO，其硅谷盟友正组建「作战室」游说董事会，并计划争取白宫支持，同时董事会正在开展独立调查。这是 AI 算力核心公司罕见的治理动荡信号。",
+      "key_data": [
+        "黄仁勋或回归",
+        "盟友组建作战室",
+        "董事会独立调查",
+        "争取白宫支持"
+      ],
+      "judgment": "英伟达是整个 AI 资本开支周期的锚，CEO 层面的不确定性会直接传导到供应链预期和二级市场情绪。对下游云厂商和模型公司来说，这是需要提前做算力采购对冲的风险点，而不是八卦。",
+      "confidence": 3,
+      "source": "极客公园 / FT",
+      "url": "http://www.geekpark.net/news/373994"
+    },
+    {
       "rank": 3,
-      "title": "Meta FAIR 与 NYU 训练 200+ 多模态模型，发现视觉编码器预训练可省但视觉参数不可省",
-      "finding": "研究团队系统性训练了 200 多个多模态大模型做消融实验，结论是：视觉编码器的预训练并非必需，但视觉相关的参数本身不能省。这直接挑战了当前多模态架构的默认设计假设。",
+      "title": "Meta FAIR 与 NYU 训练 200+ 多模态模型：视觉编码器预训练可省，视觉参数不可省",
+      "finding": "研究团队用 200 多个多模态大模型做消融，发现视觉编码器的预训练并非必需，但视觉相关参数本身不能省。这直接挑战了当前多模态架构里「必须用强预训练视觉塔」的默认假设。",
       "key_data": [
         "200+ MLLM 消融",
         "编码器预训练可选",
-        "视觉参数不可省"
+        "视觉参数不可省",
+        "Meta FAIR + NYU"
       ],
-      "judgment": "这是一篇会改变多模态模型训练成本结构的工作。如果编码器预训练可以跳过，中小团队构建多模态模型的门槛会显著下降；而「视觉参数不可省」则给盲目做参数裁剪的团队泼了冷水。建议做多模态的团队直接读原文再定架构。",
+      "judgment": "如果结论可复现，多模态模型的训练成本和架构自由度都会明显改善，做端侧和垂直多模态的团队可以少背一个预训练视觉塔的包袱。这是今年多模态架构层面少见的实质性反直觉发现。",
       "confidence": 4,
-      "source": "Reddit r/MachineLearning / Meta FAIR",
+      "source": "Reddit r/MachineLearning",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xx1k2o/meta_fair_nyu_unbundling_multimodal_vision/"
     },
     {
       "rank": 4,
-      "title": "GitLab 19.5 将智能体开发纳入可治理的 DevOps 平台能力",
-      "finding": "GitLab 19.5 发布，核心变化是把 AI 智能体的开发流程纳入平台治理体系，让 Agent 的构建、权限和审计像普通代码流水线一样被管理。",
+      "title": "「AI 生成代码应全部开源」引发 Hacker News 千点激辩",
+      "finding": "一篇主张所有 AI 生成代码都应开源的博客在 Hacker News 拿到 1166 分、615 条评论，成为当日最热技术讨论。核心争议在于 AI 生成代码的版权归属、审计责任和商业闭源的合理性。",
       "key_data": [
-        "GitLab 19.5",
-        "Agent 纳入治理",
-        "DevOps 流水线"
+        "1166 分",
+        "615 条评论",
+        "AI 代码开源主张",
+        "版权与审计争议"
       ],
-      "judgment": "企业级 AI 的瓶颈正在从「能不能做 Agent」转向「怎么管住 Agent」。GitLab 把 Agent 当代码资产治理，这个思路会被更多平台跟进。对做企业 AI 的产品经理来说，治理能力正在成为采购决策的硬门槛，而不是加分项。",
-      "confidence": 4,
-      "source": "InfoQ AI",
-      "url": "https://www.infoq.cn/article/0IpE2EOypcqMFtL7z4z1"
-    },
-    {
-      "rank": 5,
-      "title": "「AI 生成代码应全部开源」引发 Hacker News 千点热议",
-      "finding": "一篇主张所有 AI 生成代码都应开源的博客在 Hacker News 获得 1093 分、595 条评论，成为当日最热技术讨论之一。核心争议在于 AI 生成代码的版权归属与责任追溯。",
-      "key_data": [
-        "1093 分",
-        "595 条评论",
-        "AI 代码开源主张"
-      ],
-      "judgment": "这个讨论看似理念之争，实则是企业法务和开源合规的下一个雷区。当代码由模型生成，许可证、责任归属、审计链条都变得模糊。做 AI Coding 产品的团队应提前在生成物的归属和披露上给出明确策略，否则会在企业采购环节被卡住。",
+      "judgment": "这不是一个能落地的政策主张，但它精准戳中了企业采用 AI 编程后的合规盲区：代码是谁写的、出问题谁负责、能不能闭源。做 AI Coding 产品的团队应把「生成代码的可审计性」当成下一个差异化卖点。",
       "confidence": 3,
       "source": "Hacker News",
       "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/"
-    }
-  ],
-  "model_tech": [
-    {
-      "source": "Sebastian Raschka",
-      "title": "现代大模型中的位置嵌入方法解析",
-      "finding": "Sebastian Raschka 撰文系统梳理现代 LLM 中位置嵌入的各种方法及其取舍，帮助理解模型如何表示 token 的位置信息。",
-      "key_data": [
-        "位置嵌入综述",
-        "Raschka 出品"
-      ],
-      "judgment": "长上下文竞争下，位置编码是容易被忽视但决定上限的环节，值得架构师精读。",
-      "confidence": 4,
-      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
-      "importance": 3
     },
     {
-      "source": "Reddit r/MachineLearning",
-      "title": "在 B300 上把 cudaMemcpy 提速 5 倍",
-      "finding": "开发者发布工具，针对 B300 上的可分页传输做优化，使 cudaMemcpy 速度提升约 5 倍。",
-      "key_data": [
-        "提速 5 倍",
-        "B300",
-        "可分页传输优化"
-      ],
-      "judgment": "推理成本战已打到内存拷贝这种底层细节，工程优化红利仍在。",
-      "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xx2n25/making_cudamemcpy_5x_faster_on_a_b300_p/",
-      "importance": 2
-    },
-    {
-      "source": "Reddit r/MachineLearning",
-      "title": "双盲评审制度是否真的有效引发讨论",
-      "finding": "有研究者指出，审稿人在很多情况下仍能看到作者姓名和机构，双盲评审实际接近单盲，并列举了学生审稿人泄露信息的案例。",
-      "key_data": [
-        "双盲形同单盲",
-        "审稿人可见作者信息"
-      ],
-      "judgment": "评审公平性直接影响研究方向和人才流动，是 AI 学术生态的隐性风险。",
-      "confidence": 3,
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xwuwqd/i_dont_think_doubleblind_review_systems_work_d/",
-      "importance": 2
-    }
-  ],
-  "company_product": [
-    {
-      "source": "Simon Willison",
-      "title": "Datasette 1.0a43 发布，借助 Claude Fable 5.2 推进 1.0 里程碑",
-      "finding": "Datasette 发布 1.0a43，新增流式支持，作者称正大量借助 Claude Fable 5.2 推进 1.0 里程碑，目前完成度 53%。",
-      "key_data": [
-        "1.0 完成度 53%",
-        "新增流式支持",
-        "Claude Fable 5.2"
-      ],
-      "judgment": "知名开发者公开把 AI 当主力协作者推进核心项目，是 AI Coding 真实生产力的样本。",
-      "confidence": 4,
-      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
-      "importance": 3
-    },
-    {
-      "source": "Simon Willison",
-      "title": "Datasette Apps 0.4a0：沙箱内可跑 SQL 的 HTML/JS 应用",
-      "finding": "Datasette Apps 更新至 0.4a0，这类沙箱化应用类似 Claude Artifacts，但可以直接对数据执行 SQL 查询。",
-      "key_data": [
-        "沙箱 HTML/JS 应用",
-        "可直接跑 SQL",
-        "类 Artifacts"
-      ],
-      "judgment": "「Artifacts + 真实数据查询」是数据工具的重要方向，值得数据产品团队关注。",
-      "confidence": 4,
-      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
-      "importance": 2
-    },
-    {
-      "source": "TechCrunch AI",
+      "rank": 5,
       "title": "苹果推出新应用，研究人们如何用 AI 处理健康问题",
-      "finding": "苹果上线一款研究类应用，用于回答日常医疗问题并研究用户如何借助 AI 处理健康事务。",
+      "finding": "苹果上线一款用于研究的应用，让用户提出日常医疗问题，以研究 AI 在健康场景中的实际使用方式。这是苹果在健康 AI 上从「设备数据」向「对话式健康助手」延伸的试探。",
       "key_data": [
-        "苹果健康 AI 研究",
-        "日常医疗问答"
+        "健康 AI 研究应用",
+        "日常医疗问答",
+        "苹果健康生态"
       ],
-      "judgment": "苹果以研究名义切入健康 AI 数据，为后续 Apple Intelligence 健康功能铺路。",
+      "judgment": "苹果选择用研究应用而非直接产品切入，说明它在医疗合规上仍然谨慎，但方向已经明确：健康是 Apple Intelligence 最有付费意愿的落地场景。做健康 AI 的创业公司要警惕平台级降维打击。",
       "confidence": 4,
-      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
-      "importance": 3
-    },
-    {
       "source": "TechCrunch AI",
-      "title": "印度芯片初创 Bharat Semi 获 2400 万美元种子轮，瞄准全球 AI 传感器市场",
-      "finding": "Bharat Semi 完成 2400 万美元种子轮融资，其 AI 传感器技术已获 General Atomics 等公司设计订单。",
-      "key_data": [
-        "2400 万美元种子轮",
-        "AI 传感器",
-        "General Atomics 订单"
-      ],
-      "judgment": "AI 芯片竞争正从训练卡扩散到传感器等边缘场景，印度供应链开始入场。",
-      "confidence": 4,
-      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
-      "importance": 2
-    },
-    {
-      "source": "极客公园",
-      "title": "OpenAI 撤销独立机器人研究团队，苹果计划明年发布首款智能眼镜",
-      "finding": "消息称 OpenAI 已撤销独立的机器人研究团队；同时苹果计划明年发布首款智能眼镜。",
-      "key_data": [
-        "OpenAI 撤机器人团队",
-        "苹果智能眼镜明年"
-      ],
-      "judgment": "OpenAI 收缩具身智能战线，资源进一步向模型与科学方向集中，值得重新评估其路线图。",
-      "confidence": 3,
-      "url": "http://www.geekpark.net/news/373994",
-      "importance": 3
+      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/"
     }
   ],
+  "model_tech": [],
+  "company_product": [],
   "opinions": [
     {
       "person": "Simon Willison",
-      "level": "L1",
-      "quote": "我一直在大量借助 Claude Fable 5.2 把 Datasette 1.0 的待办清单一项项清掉，目前里程碑完成度已达 53%。",
-      "source": "https://simonwillison.net/2026/Nov/15/datasette/"
-    },
-    {
-      "person": "Sebastian Raschka",
       "level": "L2",
-      "quote": "位置嵌入是现代 LLM 中最容易被忽视、却直接决定长上下文能力上限的设计环节，值得系统梳理其方法取舍。",
-      "source": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings"
+      "quote": "我一直在大量借助 Claude Fable 5.2 来推进 Datasette 1.0 的里程碑，目前完成度 53%。AI 编程在真实开源项目里的价值，比任何跑分都更能说明问题。",
+      "source": "https://simonwillison.net/2026/Nov/15/datasette/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "英伟达 CEO 变局对 AI 算力供应链的传导路径",
-      "reason": "算力是当前 AI 经济的单点瓶颈，治理动荡会重塑云厂商与模型公司的采购策略。",
+      "topic": "多模态架构是否需要预训练视觉编码器",
+      "reason": "Meta FAIR 200+ 模型消融结论反直觉，直接影响多模态训练成本与架构选型",
       "priority": "high"
     },
     {
-      "topic": "多模态模型视觉编码器预训练是否可省",
-      "reason": "若结论成立，将显著降低多模态训练成本，直接影响架构选型与预算分配。",
+      "topic": "Agent 权限与沙箱标准化（Docker Sandbox Kit / OCI）",
+      "reason": "Agent 进入企业代管阶段，权限治理将成基础设施层新战场",
       "priority": "high"
     },
     {
-      "topic": "AI 生成代码的开源与合规边界",
-      "reason": "企业采购 AI Coding 工具时，生成物归属与审计链条正成为硬性合规要求。",
+      "topic": "持久型 Agent 的规则违规评测与合规设计",
+      "reason": "Unfinished-Bench 揭示 Agent 落地的真实瓶颈是合规而非能力",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "英伟达生变，OpenAI 转向科学",
-  "summary_paragraph": "今天最重要的信号来自英伟达：黄仁勋被曝考虑重返 CEO 职位，董事会启动独立调查，AI 算力底座出现治理层面的不确定性，这比任何模型发布都更值得警惕。与之呼应的是 OpenAI 的战略转向——上线科学博客，并称 GPT-6 Astra 协助完成标准模型的格点定义证明，叙事重心从聊天模型移向前沿科研。技术侧，Meta FAIR 用 200+ 模型消融证明多模态视觉编码器预训练可省，可能改写训练成本结构；工程侧，GitLab 把 Agent 纳入 DevOps 治理，说明企业 AI 的竞争焦点正从能力转向可控性。",
+  "summary_one_line": "OpenAI 转向科学叙事，英伟达治理生变",
+  "summary_paragraph": "今天最重要的信号来自两条线：一是 OpenAI 上线科学博客并用 GPT-6 Astra 参与格点标准模型证明，把竞争叙事从跑分推向科学发现；二是英伟达曝出黄仁勋可能重返 CEO 的治理动荡，给整个 AI 算力周期添了不确定性。技术侧，Meta FAIR 用 200+ 多模态模型证明视觉编码器预训练并非必需，动摇了主流架构假设；工程侧，Docker 把 Agent 权限打包成 OCI 镜像、DigitalOcean 推出托管 Agent，说明 Agent 正在从 demo 走向需要治理和托管的基础设施阶段。",
   "snapshot": {
     "date": "2026-11-16",
     "hf_trending": [
       {
         "name": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
         "short_name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-        "likes": 7543,
+        "likes": 7615,
         "downloads": 27037,
         "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
         "tags": [
@@ -241,7 +127,7 @@
       {
         "name": "MiniMaxAI/MiniMax-H3-Image",
         "short_name": "MiniMax-H3-Image",
-        "likes": 1188,
+        "likes": 1228,
         "downloads": 571067,
         "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
         "tags": [
@@ -257,7 +143,7 @@
       {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 20128,
+        "likes": 20162,
         "downloads": 6547772,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -273,7 +159,7 @@
       {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 12067,
+        "likes": 12120,
         "downloads": 2754355,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -289,7 +175,7 @@
       {
         "name": "Comfy-Org/MiniMax-H3-Image",
         "short_name": "MiniMax-H3-Image",
-        "likes": 411,
+        "likes": 434,
         "downloads": 1973388,
         "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
         "tags": [
@@ -305,7 +191,7 @@
       {
         "name": "Zyphra/ZONOS3-Mini",
         "short_name": "ZONOS3-Mini",
-        "likes": 397,
+        "likes": 419,
         "downloads": 39862,
         "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
         "tags": [
@@ -321,7 +207,7 @@
       {
         "name": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "short_name": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-        "likes": 3169,
+        "likes": 3185,
         "downloads": 1708637,
         "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
         "tags": [
@@ -337,7 +223,7 @@
       {
         "name": "thinkingmachines/Inkling-2-Small",
         "short_name": "Inkling-2-Small",
-        "likes": 344,
+        "likes": 363,
         "downloads": 7329,
         "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
         "tags": [
@@ -355,45 +241,45 @@
       {
         "name": "dream-num/univer",
         "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file",
-        "stars": 26059,
+        "stars": 26739,
         "stars_today": 988,
-        "forks": 2358,
+        "forks": 2433,
         "language": "TypeScript",
         "url": "https://github.com/dream-num/univer"
       },
       {
         "name": "ag-ui-protocol/ag-ui",
         "desc": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
-        "stars": 17932,
+        "stars": 18246,
         "stars_today": 355,
-        "forks": 1821,
+        "forks": 1884,
         "language": "TypeScript",
         "url": "https://github.com/ag-ui-protocol/ag-ui"
       },
       {
         "name": "google-labs-code/stitch-skills",
         "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent ",
-        "stars": 9337,
+        "stars": 9516,
         "stars_today": 247,
-        "forks": 1128,
+        "forks": 1191,
         "language": "TypeScript",
         "url": "https://github.com/google-labs-code/stitch-skills"
       },
       {
         "name": "backnotprop/plannotator",
         "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code,",
-        "stars": 11890,
+        "stars": 12134,
         "stars_today": 866,
-        "forks": 1084,
+        "forks": 1140,
         "language": "TypeScript",
         "url": "https://github.com/backnotprop/plannotator"
       },
       {
         "name": "ChromeDevTools/chrome-devtools-mcp",
         "desc": "Chrome DevTools for coding agents",
-        "stars": 57006,
+        "stars": 57323,
         "stars_today": 717,
-        "forks": 4813,
+        "forks": 4834,
         "language": "TypeScript",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
       }
@@ -404,7 +290,7 @@
         "slug": "deepseek/deepseek-v4.1-flash",
         "name": "DeepSeek V4.1 Flash",
         "org": "deepseek",
-        "total_tokens": 9104779131563,
+        "total_tokens": 9104779263181,
         "total_tokens_str": "9.1T",
         "api_calls": 0,
         "change": -9.9,
@@ -510,6 +396,6 @@
         "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
       }
     ],
-    "hf_summary": "多模态与视频生成霸榜 社区偏爱超长命名和去审查微调"
+    "hf_summary": "开源生态正被超长模型名和去审查微调主导 多模态与视频生成热度高涨"
   }
 }
