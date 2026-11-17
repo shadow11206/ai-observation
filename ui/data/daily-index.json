@@ -1,6 +1,13 @@
 {
-  "total": 234,
+  "total": 235,
   "reports": [
+    {
+      "date": "2026-11-17",
+      "title": "今日 AI 日报：阿里发布Qwen4-Max，智能体与编程能力全面进阶 + 4 条重要动态",
+      "excerpt": "Qwen系列一直是开源/半开源生态的重要变量，Qwen4-Max若在Agent和…",
+      "top_count": 5,
+      "file": "2026-11-17.json"
+    },
     {
       "date": "2026-11-16",
       "title": "今日 AI 日报：OpenAI 发布科学博客，GPT-6 Astra 参与格点标准模型证明 + 4 条重要动态",

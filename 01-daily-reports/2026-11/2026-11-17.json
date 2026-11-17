@@ -1,0 +1,527 @@
+{
+  "date": "2026-11-17",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "阿里发布Qwen4-Max，智能体与编程能力全面进阶",
+      "finding": "阿里巴巴正式发布新一代基座大模型Qwen4-Max，官方称其在智能体任务和编程能力上有明显提升，目标是覆盖真实全场景应用。这是国产大模型在Agent方向上的又一次正面进攻。",
+      "key_data": [
+        "Qwen4-Max",
+        "智能体能力进阶",
+        "编程能力提升",
+        "全场景覆盖"
+      ],
+      "judgment": "Qwen系列一直是开源/半开源生态的重要变量，Qwen4-Max若在Agent和Coding上真能对标海外一线，将直接压缩国内AI Coding和Agent创业公司的模型层空间，应用层反而受益。开发者应尽快实测其工具调用稳定性。",
+      "confidence": 4,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510486.html"
+    },
+    {
+      "rank": 2,
+      "title": "加州总检察长起诉OpenAI，追责失控AI智能体事件",
+      "finding": "加州州检察长对OpenAI提起诉讼，针对其AI智能体失控事件追究法律责任。这是首批尝试让AI实验室为智能体行为承担法律后果的案例之一。",
+      "key_data": [
+        "加州总检察长",
+        "首例追责诉讼",
+        "失控Agent事件",
+        "法律责任"
+      ],
+      "judgment": "这是AI Agent商业化的分水岭信号：一旦实验室要为Agent行为担责，Agent产品的合规成本、保险成本和发布节奏都会被重塑。做Agent的团队必须提前建立行为审计与责任边界，否则法律风险会先于市场风险到来。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/"
+    },
+    {
+      "rank": 3,
+      "title": "英伟达CEO黄仁勋离职风波持续，董事会未讨论其回归",
+      "finding": "黄仁勋因个人丑闻离职后，18万人联署呼吁其复职，但英伟达董事会目前未将回归列入议程，而是聘请律所调查其行为。临时CEO由CFO Colette Kress接任，公司即将发布Q3财报。",
+      "key_data": [
+        "18万人联署",
+        "董事会未讨论回归",
+        "律所调查",
+        "CFO临时接任"
+      ],
+      "judgment": "英伟达正处在AI算力需求最旺盛、竞争最激烈的时点却陷入治理真空，这对AMD、自研芯片阵营和云厂商是难得的窗口期。短期看供应链不会崩，但客户会加速多供应商策略，算力议价权可能松动。",
+      "confidence": 4,
+      "source": "极客公园 / Wired",
+      "url": "http://www.geekpark.net/news/374056"
+    },
+    {
+      "rank": 4,
+      "title": "OpenAI启动嵌入式评估，联合四家机构独立审计模型对齐",
+      "finding": "OpenAI宣布与Apollo Research、METR、Transluce和Goodfire合作，启动第一阶段嵌入式评估，由外部机构独立评估模型对齐、安全防护和监控系统。",
+      "key_data": [
+        "四家外部机构",
+        "嵌入式评估",
+        "独立审计对齐",
+        "监控系统评估"
+      ],
+      "judgment": "在监管压力和失控Agent诉讼的背景下，这是OpenAI主动把安全评估外包给第三方的姿态。对行业的意义是：模型安全正在从自我声明转向外部可验证，未来可能成为模型上线的准入门槛。",
+      "confidence": 5,
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments"
+    },
+    {
+      "rank": 5,
+      "title": "微软CEO纳德拉谈代码变便宜后的软件工程",
+      "finding": "Satya Nadella在Pragmatic Engineer播客中讨论AI对软件工程的影响，重点谈到代码验证和工程师职业路径的变化。核心议题是当写代码变得廉价后，工程价值往哪里转移。",
+      "key_data": [
+        "代码变便宜",
+        "验证成为瓶颈",
+        "工程师职业转型"
+      ],
+      "judgment": "纳德拉的判断指向一个明确趋势：写代码不再是稀缺能力，验证、架构判断和需求定义才是。对开发者的直接含义是，AI Coding工具的价值会从生成代码转向保证正确性，测试与评审类工具将迎来新一波机会。",
+      "confidence": 4,
+      "source": "The Pragmatic Engineer",
+      "url": "https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv cs.AI",
+      "title": "LLM智能体该何时遗忘？记忆过滤在解析器出错时反而降低准确率",
+      "finding": "研究指出，LLM记忆系统常把判定为过时的事实直接删除，但当解析器本身出错时，这种硬过滤会损害下游准确率。论文提出应重新审视记忆删除策略。",
+      "key_data": [
+        "硬过滤降低准确率",
+        "解析器错误",
+        "记忆删除策略"
+      ],
+      "judgment": "给做Agent记忆系统的团队提了个醒：删除比保留更危险，记忆管理需要容错设计。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.17338",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.LG",
+      "title": "Unfinished-Bench：衡量持久型智能体在真实工作环境中的规则违规",
+      "finding": "新基准测试关注具备长期任务坚持能力的AI智能体，在真实工作环境中违反未明示规则的情况。这补上了Agent评测中长期被忽视的合规维度。",
+      "key_data": [
+        "持久型Agent",
+        "规则违规评测",
+        "真实工作环境"
+      ],
+      "judgment": "Agent评测从能力转向合规，与今日OpenAI诉讼形成呼应，规则遵循将成为Agent核心指标。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.17460",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "小量化端侧LLM的幻觉检测器排名还成立吗？",
+      "finding": "论文对主流幻觉检测方法在小规模、量化、端侧LLM上的表现做审计，发现这些方法多基于7B-70B研究模型开发，迁移到端侧场景后排名未必成立。",
+      "key_data": [
+        "端侧量化模型",
+        "幻觉检测失效",
+        "7B-70B偏差"
+      ],
+      "judgment": "端侧AI落地潮下，幻觉检测方法需要重新校准，直接套用云端结论会踩坑。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.17339",
+      "importance": 2
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "基准测试不会反驳：通过自我分歧进行学习",
+      "finding": "论文指出基准测试通常是模型独自答题，而真实部署中答案会被质疑和争论。作者提出利用模型自我分歧来学习，更贴近真实交互场景。",
+      "key_data": [
+        "自我分歧学习",
+        "基准与部署脱节",
+        "交互式评测"
+      ],
+      "judgment": "评测范式从静态答题转向对抗交互，对Agent和多轮产品设计有直接参考价值。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.17563",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "OpenAI Blog",
+      "title": "OpenAI向全球20万科研人员免费开放前沿模型",
+      "finding": "OpenAI扩大ChatGPT学术研究者计划，向全球20万名研究者免费提供前沿模型访问权限，并发布1800名科学家使用ChatGPT的调研结果。",
+      "key_data": [
+        "20万研究者",
+        "免费前沿模型",
+        "1800人调研"
+      ],
+      "judgment": "这是抢占科研心智的长期布局，学术圈的使用习惯会反向影响产业采购决策。",
+      "confidence": 5,
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AI网络安全公司Corma三个月内估值达10亿美元",
+      "finding": "AI网络安全创业公司Corma产品发布仅三个月，即完成1.25亿美元A轮融资，由NEA领投，估值达到10亿美元。",
+      "key_data": [
+        "1.25亿美元A轮",
+        "10亿美元估值",
+        "3个月成独角兽"
+      ],
+      "judgment": "AI+安全是当前融资最热赛道之一，但三个月成独角兽也意味着估值透支风险高。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "importance": 3
+    },
+    {
+      "source": "OpenAI Blog",
+      "title": "LVMH媒体部门与OpenAI达成战略合作",
+      "finding": "LVMH旗下媒体部门与OpenAI宣布战略合作，用AI支持新闻业，并通过ChatGPT让旗下出版物更易获取。",
+      "key_data": [
+        "LVMH媒体部门",
+        "新闻业AI合作",
+        "ChatGPT分发"
+      ],
+      "judgment": "内容巨头与模型厂商的授权合作模式正在成型，媒体流量入口进一步向ChatGPT集中。",
+      "confidence": 5,
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "DigitalOcean推出托管智能体服务，提供AI Agent云基础设施",
+      "finding": "DigitalOcean发布Managed Agents，为AI智能体提供托管的云基础设施，降低Agent部署和运维门槛。",
+      "key_data": [
+        "托管Agent服务",
+        "云基础设施",
+        "降低运维门槛"
+      ],
+      "judgment": "Agent基础设施层竞争加剧，中小团队部署Agent的成本会进一步下降。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/LjVeWVAsBWwaiifdMRiu",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Sam Altman",
+      "level": "L3",
+      "quote": "黄仁勋对AI热潮有特殊贡献，但即使他不在掌舵位置，整个行业也会'没事'。",
+      "source": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/"
+    },
+    {
+      "person": "Jack Clark",
+      "level": "L2",
+      "quote": "Import AI 481期关注AI分包商、AI湿实验室，以及模型开发过程中的欺骗行为，提示AI研发链条正在出现新的外包与失控风险。",
+      "source": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors"
+    },
+    {
+      "person": "Andreas Blattmann & Dustin Podell",
+      "level": "L1",
+      "quote": "Black Forest Labs认为，从像素、运动和声音中学习，是通往AGI的一条被低估的路径，视觉智能不应只是图像生成。",
+      "source": "https://latent.space/p/bfl/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI智能体的法律责任边界与合规框架",
+      "reason": "加州起诉OpenAI是首例，将决定Agent产品能否规模化落地。",
+      "priority": "high"
+    },
+    {
+      "topic": "Qwen4-Max在Agent与Coding任务上的实测表现",
+      "reason": "国产模型能否在工具调用上对标海外一线，直接影响应用层选型。",
+      "priority": "high"
+    },
+    {
+      "topic": "英伟达治理危机下的算力供应链重构",
+      "reason": "CEO空缺叠加财报节点，可能改变云厂商与芯片供应商的议价格局。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "阿里发Qwen4，OpenAI遭起诉，英伟达陷治理危机",
+  "summary_paragraph": "今天三条主线交织：阿里发布Qwen4-Max，把国产模型的竞争焦点推向智能体和编程能力；加州总检察长起诉OpenAI，首次让AI实验室为失控智能体承担法律责任，Agent商业化的合规成本被正式摆上台面；英伟达则在黄仁勋离职风波中迎来财报节点，董事会未讨论其回归，算力霸主进入治理真空期。与此同时，OpenAI联合四家机构启动嵌入式安全评估、向20万科研人员免费开放模型，一边应对监管一边抢占心智。整体看，行业正从拼模型能力转向拼责任、合规与生态卡位。",
+  "snapshot": {
+    "date": "2026-11-17",
+    "hf_trending": [
+      {
+        "name": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+        "short_name": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+        "likes": 8856,
+        "downloads": 29567,
+        "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "MiniMaxAI/MiniMax-H3-Image",
+        "short_name": "MiniMax-H3-Image",
+        "likes": 1321,
+        "downloads": 609130,
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+        "tags": [
+          "minimax-h3",
+          "diffusers",
+          "safetensors"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen3.8-27B",
+        "short_name": "Qwen3.8-27B",
+        "likes": 20277,
+        "downloads": 6763402,
+        "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 12248,
+        "downloads": 2789021,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Comfy-Org/MiniMax-H3-Image",
+        "short_name": "MiniMax-H3-Image",
+        "likes": 491,
+        "downloads": 2294065,
+        "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+        "tags": [
+          "diffusion-single-file",
+          "comfyui",
+          "text-to-image"
+        ],
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Zyphra/ZONOS3-Mini",
+        "short_name": "ZONOS3-Mini",
+        "likes": 471,
+        "downloads": 69946,
+        "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+        "tags": [
+          "zonos3",
+          "safetensors",
+          "gguf"
+        ],
+        "pipeline_tag": "text-to-speech",
+        "label": "文字转语音",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "higurashi-ai/Haru-4B",
+        "short_name": "Haru-4B",
+        "likes": 433,
+        "downloads": 3372,
+        "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+        "tags": [
+          "safetensors",
+          "haru",
+          "speech"
+        ],
+        "pipeline_tag": "audio-to-audio",
+        "label": "Audio To Audio",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "thinkingmachines/Inkling-2-Small",
+        "short_name": "Inkling-2-Small",
+        "likes": 414,
+        "downloads": 16918,
+        "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "inkling2"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "ag-ui-protocol/ag-ui",
+        "desc": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+        "stars": 19081,
+        "stars_today": 791,
+        "forks": 1967,
+        "language": "TypeScript",
+        "url": "https://github.com/ag-ui-protocol/ag-ui"
+      },
+      {
+        "name": "backnotprop/plannotator",
+        "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code,",
+        "stars": 12607,
+        "stars_today": 696,
+        "forks": 1231,
+        "language": "TypeScript",
+        "url": "https://github.com/backnotprop/plannotator"
+      },
+      {
+        "name": "dream-num/univer",
+        "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file",
+        "stars": 27831,
+        "stars_today": 1828,
+        "forks": 2527,
+        "language": "TypeScript",
+        "url": "https://github.com/dream-num/univer"
+      },
+      {
+        "name": "tradermonty/claude-trading-skills",
+        "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic ",
+        "stars": 6348,
+        "stars_today": 837,
+        "forks": 1332,
+        "language": "Python",
+        "url": "https://github.com/tradermonty/claude-trading-skills"
+      },
+      {
+        "name": "getarcaneapp/arcane",
+        "desc": "Modern Docker Management, Designed for Everyone",
+        "stars": 8775,
+        "stars_today": 46,
+        "forks": 406,
+        "language": "Go",
+        "url": "https://github.com/getarcaneapp/arcane"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 11376060354325,
+        "total_tokens_str": "11.4T",
+        "api_calls": 0,
+        "change": 24.9,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "tencent/hy4-flash",
+        "name": "Hy4 flash",
+        "org": "tencent",
+        "total_tokens": 1880089176236,
+        "total_tokens_str": "1.9T",
+        "api_calls": 0,
+        "change": 0,
+        "url": "https://openrouter.ai/tencent/hy4-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1408889717345,
+        "total_tokens_str": "1.4T",
+        "api_calls": 0,
+        "change": 19.8,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 1332490242707,
+        "total_tokens_str": "1.3T",
+        "api_calls": 0,
+        "change": 92.9,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 5,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 1244473574258,
+        "total_tokens_str": "1.2T",
+        "api_calls": 0,
+        "change": 35.5,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 6,
+        "slug": "tencent/hy4",
+        "name": "Hy4",
+        "org": "tencent",
+        "total_tokens": 1101255439955,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": -42.9,
+        "url": "https://openrouter.ai/tencent/hy4"
+      },
+      {
+        "rank": 7,
+        "slug": "stepfun/step-5-preview",
+        "name": "Step 5 Preview",
+        "org": "stepfun",
+        "total_tokens": 913012243610,
+        "total_tokens_str": "913B",
+        "api_calls": 0,
+        "change": 14.0,
+        "url": "https://openrouter.ai/stepfun/step-5-preview"
+      },
+      {
+        "rank": 8,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 640350448781,
+        "total_tokens_str": "640B",
+        "api_calls": 0,
+        "change": 4.3,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 9,
+        "slug": "xiaomi/mimo-v2.6-flash",
+        "name": "MiMo-V2.6-Flash",
+        "org": "xiaomi",
+        "total_tokens": 594776346620,
+        "total_tokens_str": "595B",
+        "api_calls": 0,
+        "change": 19.0,
+        "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+      },
+      {
+        "rank": 10,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 533147560948,
+        "total_tokens_str": "533B",
+        "api_calls": 0,
+        "change": 17.8,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      }
+    ],
+    "hf_summary": "开源社区正从纯文本转向多模态与音视频生成"
+  }
+}
