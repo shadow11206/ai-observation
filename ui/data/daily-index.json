@@ -1,6 +1,13 @@
 {
-  "total": 236,
+  "total": 237,
   "reports": [
+    {
+      "date": "2026-11-19",
+      "title": "今日 AI 日报：GPT-6.2 上线即遭差评：跑分领先但实测翻车，OpenAI 陷入「发布会模型」困境 + 4 条重要动态",
+      "excerpt": "这是 OpenAI 首次在旗舰模型上出现「基准分数与真实体验」的系统性脱节。对开…",
+      "top_count": 5,
+      "file": "2026-11-19.json"
+    },
     {
       "date": "2026-11-18",
       "title": "今日 AI 日报：OpenAI 发布 GPT-6.2 Astra 与 Sol 双模型 + 4 条重要动态",
