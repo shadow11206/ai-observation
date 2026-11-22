@@ -3,217 +3,253 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "黄仁勋遭英伟达董事会罢免，公司控制权生变",
-      "finding": "多家媒体确认，英伟达董事会已罢免 CEO 黄仁勋，具体原因指向公司治理与战略分歧。与此同时，英伟达最新财报与科技高管公开呼吁黄仁勋回归的声音形成鲜明对比，公司内部出现明显分裂。",
+      "title": "腾讯首席AI科学家姚顺雨首次全球AMA：回应混元4、算力、刷榜与RSI",
+      "finding": "11月21日凌晨，腾讯首席AI科学家姚顺雨率混元团队在Reddit LocalLLaMA社区进行史上首次面向全球开发者的公开AMA，两小时内回答300余条提问，覆盖底层架构取舍、长期路线、量化落地与开源生态适配。这是中国大模型团队罕见地直接面对全球开发者社区做透明沟通。",
       "key_data": [
-        "董事会罢免 CEO",
-        "财报与高管表态分裂",
-        "AI 芯片霸主生变"
+        "2小时答300+问",
+        "混元4模型",
+        "首次全球AMA",
+        "Reddit LocalLLaMA"
       ],
-      "judgment": "这是今天最具冲击力的事件。黄仁勋是过去三年 AI 算力叙事的核心符号，他的去职将直接动摇市场对英伟达路线连续性的信心，短期利好 AMD、自研芯片阵营和国产算力替代，长期则取决于继任者能否维持 CUDA 生态的开放节奏。",
-      "confidence": 3,
-      "source": "极客公园",
-      "url": "http://www.geekpark.net/news/374300"
-    },
-    {
-      "rank": 2,
-      "title": "GPT-6.2 Astra 具身任务成功率较 GPT-6 翻倍，首次实现可变形物体操控",
-      "finding": "OpenAI 新版本 GPT-6.2 Astra 在 16 项具身智能任务上成功率较上一代 GPT-6 Astra 翻倍，并完成可变形物体操控的全球首次通关。这意味着大模型正从「理解世界」加速走向「操作世界」。",
-      "key_data": [
-        "16 项任务成功率翻倍",
-        "可变形物体操控首通",
-        "GPT-6.2 Astra"
-      ],
-      "judgment": "具身智能的竞争焦点正在从机器人硬件转向「通用大脑」。如果大模型能稳定泛化到可变形物体这类高难度操控，Figure、Physical Intelligence 等公司的硬件护城河会被削弱，价值将向模型层集中。",
-      "confidence": 3,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/511779.html"
-    },
-    {
-      "rank": 3,
-      "title": "姚顺雨率混元团队 Reddit AMA：Hy 小模型进入路线图，回应刷榜与 RSI 质疑",
-      "finding": "腾讯首席 AI 科学家姚顺雨和混元团队首次面向全球开发者在 Reddit LocalLLaMA 社区做公开 AMA，两小时回答 300 余条提问，覆盖混元 4 架构取舍、算力、刷榜争议与 RSI 路线，并确认 Hy 小模型已进入产品路线图。",
-      "key_data": [
-        "2 小时答 300+ 问",
-        "Hy 小模型进路线图",
-        "混元 4 架构公开讨论"
-      ],
-      "judgment": "中国大模型团队第一次用西方开发者社区的语言做透明沟通，这是信号级动作。姚顺雨的个人信用正在成为混元开源生态的入口，对国内厂商争夺全球开发者心智有示范意义。",
+      "judgment": "姚顺雨从OpenAI转投腾讯后首次系统性对外发声，选择LocalLLaMA而非国内平台，说明混元明确要争夺全球开源开发者心智。对中国大模型团队而言，'透明沟通+开源社区运营'正在成为与模型能力同等重要的竞争维度。",
       "confidence": 4,
-      "source": "极客公园 / 量子位",
+      "source": "极客公园",
       "url": "http://www.geekpark.net/news/374301"
     },
     {
-      "rank": 4,
-      "title": "DeepSeek V1 作者创业项目曝光：做专为本地部署的开源 Agent",
-      "finding": "DeepSeek V1 论文作者之一的新创业项目浮出水面，方向是开源 Agent，主打本地部署场景。这是 DeepSeek 系人才外溢后第一个明确产品化的创业动作。",
+      "rank": 2,
+      "title": "腾讯Q3资本开支同比暴增527%，AI投入开始吞噬利润",
+      "finding": "腾讯2026年Q3营收2073.4亿元同比增长8%，但Non-IFRS经营利润和归母净利润均同比下降6%。单季资本开支达814亿元，同比暴增527%，AI基础设施投入成为利润承压的主因。",
       "key_data": [
-        "DeepSeek V1 作者",
-        "开源 Agent",
-        "本地部署优先"
+        "资本开支814亿",
+        "同比+527%",
+        "净利润-6%",
+        "营收2073亿"
       ],
-      "judgment": "本地部署 Agent 是 2026 年被低估的赛道：企业数据合规需求与端侧算力提升正在交汇。DeepSeek 系研究者的工程审美值得关注，但开源 Agent 的商业模式仍是难题。",
+      "judgment": "这是中国互联网巨头AI军备竞赛进入'重资产阶段'的标志性财报：收入还在增长，利润却开始被算力吃掉。对所有做AI的公司都是警示——AI不是免费的午餐，未来2-3年'投入换位置'将成为常态，资本市场对短期利润的容忍度将被重新定价。",
+      "confidence": 4,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/374302"
+    },
+    {
+      "rank": 3,
+      "title": "英伟达的两副面孔：财报亮眼，但科技高管公开呼吁黄仁勋回归",
+      "finding": "TechCrunch指出，英伟达最新财报与科技界高管的公开表态呈现出两个截然不同的英伟达——一边是业绩继续强劲，另一边是多位科技公司高管公开呼吁黄仁勋'回归'，暗示公司战略重心或管理层注意力出现偏移。",
+      "key_data": [
+        "财报强劲",
+        "高管呼吁回归",
+        "两种叙事",
+        "管理层关注度"
+      ],
+      "judgment": "当客户开始公开讨论供应商CEO该不该'回归'，说明英伟达的生态关系正在出现微妙裂痕。对AI基础设施采购方而言，这是重新评估单一供应商依赖风险的信号；对英伟达，则是'卖铲人'地位从绝对垄断走向需要维护客户关系的转折点。",
       "confidence": 3,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/511570.html"
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"
+    },
+    {
+      "rank": 4,
+      "title": "Signal限制手机截图，应对AI监控的'生存威胁'",
+      "finding": "Signal在Android和iOS应用中限制用户截图功能，官方将AI驱动的监控能力称为'生存威胁'。这是主流加密通讯应用首次为对抗AI监控而主动削弱产品便利性。",
+      "key_data": [
+        "限制截图",
+        "端到端加密",
+        "'生存威胁'",
+        "iOS+Android"
+      ],
+      "judgment": "AI让大规模监控的成本趋近于零，隐私产品的护城河正在从'加密传输'扩展到'防AI抓取'。这对所有做用户数据产品的团队是明确信号：AI时代的隐私设计需要重新定义，截图、录屏、屏幕理解都可能成为新的攻击面。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
     },
     {
       "rank": 5,
-      "title": "腾讯 Q3 资本开支同比暴增 527%，AI 投入吞噬利润",
-      "finding": "腾讯 2026 年 Q3 营收 2073.4 亿元同比增长 8%，但 Non-IFRS 经营利润和归母净利润均同比下降 6%，单季资本开支达 814 亿元、同比增长 527%。AI 基础设施投入正在实质性压缩利润表。",
+      "title": "达瓦科技：重控制、轻渲染，走AI视频的工业路线",
+      "finding": "面对视频生成'反复抽卡、算力成本高'的行业痛点，达瓦科技选择不同于堆参数扩算力的路线——扎进真实片场，从专业影视管线需求自下而上构建'重控制、轻渲染'的AI视频工业方案。",
       "key_data": [
-        "资本开支 814 亿元",
-        "同比 +527%",
-        "净利润同比 -6%"
+        "重控制轻渲染",
+        "工业级管线",
+        "降低抽卡成本",
+        "真实片场需求"
       ],
-      "judgment": "这是中国大厂 AI 军备竞赛进入「重资产阶段」的明确证据。利润换算力的窗口期不会太长，接下来市场会追问投入产出比——混元能否在 2027 年前交出可量化的商业化答卷，将决定腾讯 AI 叙事的下一章。",
-      "confidence": 5,
+      "judgment": "视频生成正在分化为'通用大模型派'和'工业管线派'。达瓦的路线提示：在专业影视场景，可控性比生成质量更值钱。对AI视频创业者，垂直工业管线可能是避开与Sora类通用模型正面竞争的可行切口。",
+      "confidence": 3,
       "source": "极客公园",
-      "url": "http://www.geekpark.net/news/374302"
+      "url": "http://www.geekpark.net/news/374303"
     }
   ],
   "model_tech": [
     {
-      "source": "Latent Space",
-      "title": "黎曼猜想据称被两次独立证明，AI 辅助数学再引热议",
-      "finding": "Swyx 的 AINews 提到黎曼猜想被两次独立证明的消息，若属实将是数学史级事件。目前尚待数学界正式验证，但 AI 在其中的角色成为讨论焦点。",
+      "source": "InfoQ AI",
+      "title": "智能体AI架构：当前挑战与未来机遇",
+      "finding": "InfoQ系统梳理了智能体AI架构的现状，指出当前Agent系统在可靠性、可观测性和多智能体协作上仍存在明显短板，并讨论了未来架构演进方向。",
       "key_data": [
-        "两次独立证明",
-        "黎曼猜想",
-        "待同行验证"
+        "Agent架构",
+        "可靠性短板",
+        "多智能体协作"
       ],
-      "judgment": "先保持怀疑，但若 AI 参与其中，将重燃「AI 能否做原创数学」的争论。",
-      "confidence": 2,
-      "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
-      "importance": 4
-    },
-    {
-      "source": "InfoQ",
-      "title": "智能体 AI 架构：当前挑战与未来机遇",
-      "finding": "InfoQ 系统梳理了 Agent 架构在规划、记忆、工具调用与多智能体协作上的当前瓶颈，并给出未来演进方向。属于少见的架构层综述而非产品宣传。",
-      "key_data": [
-        "规划与记忆瓶颈",
-        "多智能体协作",
-        "架构层综述"
-      ],
-      "judgment": "Agent 落地卡点已从模型能力转向系统工程，架构方法论比模型参数更值得团队研读。",
+      "judgment": "Agent从Demo走向生产，架构层的工程问题比模型能力更卡脖子。",
       "confidence": 3,
       "url": "https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX?utm_source=rss&utm_medium=article",
       "importance": 3
     },
     {
-      "source": "Simon Willison",
-      "title": "Muru：AI 辅助开发的 Rust Python 应用服务器",
-      "finding": "mod_wsgi 作者 Graham Dumpleton 用 AI 辅助开发了新的 Rust 服务器 Muru，目标是重新定义 Python Web 应用的生产部署方式。",
+      "source": "InfoQ AI",
+      "title": "智能体身份国际标准化：体系布局与研制实践",
+      "finding": "AICon北京分享智能体身份的国际标准化工作，涉及Agent身份认证、跨平台互认的体系布局与落地实践，标志着Agent互联开始进入标准制定阶段。",
       "key_data": [
-        "mod_wsgi 作者新作",
-        "Rust 重写",
-        "AI 辅助开发"
+        "Agent身份标准",
+        "国际标准化",
+        "跨平台互认"
       ],
-      "judgment": "老牌基础设施作者用 AI 重写经典组件，是「AI 加速系统软件」的典型样本。",
-      "confidence": 4,
-      "url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "judgment": "Agent要大规模协作，身份与信任层必须先标准化，这是被低估的基础设施赛道。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/721YPdyIZ1D8xz20D22C?utm_source=rss&utm_medium=article",
       "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "亚马逊云科技推出TorchNeuron，PyTorch模型无需修改即可跑在Trainium上",
+      "finding": "AWS发布TorchNeuron，开发者可以直接在自研Trainium芯片上运行PyTorch模型而无需任何代码修改，大幅降低从英伟达生态迁移到自研芯片的门槛。",
+      "key_data": [
+        "零代码修改",
+        "Trainium芯片",
+        "PyTorch兼容"
+      ],
+      "judgment": "这是AWS对CUDA护城河的直接进攻，迁移成本归零将加速算力多元化。",
+      "confidence": 4,
+      "url": "https://www.infoq.cn/article/XhtWUmaolJECUhPX2jzY?utm_source=rss&utm_medium=article",
+      "importance": 4
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "TaoDesign知识工程实践：从设计资产到Agent持续进化",
+      "finding": "TaoDesign分享了如何把设计资产沉淀为知识工程体系，并让Agent在此基础上持续进化，探索设计领域知识与Agent能力结合的落地路径。",
+      "key_data": [
+        "设计资产",
+        "知识工程",
+        "Agent进化"
+      ],
+      "judgment": "垂直领域知识工程是Agent差异化的关键，通用Agent难替代。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/vhoobUFbLs2hUlTBA4HZ?utm_source=rss&utm_medium=article",
+      "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "Hacker News",
-      "title": "ClawDOS：一个跑在 DOS 上的 AI 编程智能体",
-      "finding": "开发者发布 ClawDOS，把 AI 编程 Agent 搬到了 DOS 环境，在 HN 获得 159 分、51 条讨论。属于极客趣味与复古计算的结合。",
+      "source": "Simon Willison",
+      "title": "Muru：Graham Dumpleton用AI辅助打造的Rust Python服务器",
+      "finding": "mod_wsgi作者Graham Dumpleton在20年后推出Muru——一个AI辅助开发的Rust服务器，目标是重新定义Python Web应用在生产环境的最佳部署方式。",
       "key_data": [
-        "DOS 环境",
-        "HN 159 分",
-        "AI 编程 Agent"
+        "Rust编写",
+        "AI辅助开发",
+        "mod_wsgi作者",
+        "Python部署"
       ],
-      "judgment": "象征意义大于实用价值，但说明 AI Agent 正在向一切计算环境渗透，包括最古老的平台。",
-      "confidence": 3,
-      "url": "http://ricapar.net/ClawDOS/",
-      "importance": 2
-    },
-    {
-      "source": "InfoQ",
-      "title": "Entire Git Forge：面向编码智能体重构 Git 协作方式",
-      "finding": "Entire Git Forge 提出为编码 Agent 重新设计 Git 协作流程，而非让 Agent 迁就人类的工作流。这是 AI Coding 基础设施层的新尝试。",
-      "key_data": [
-        "为 Agent 重构 Git",
-        "协作流程重设计",
-        "AI Coding 基础设施"
-      ],
-      "judgment": "当 Agent 成为主要提交者，Git 这类人类协作工具的假设需要重写，值得开发者关注。",
-      "confidence": 3,
-      "url": "https://www.infoq.cn/article/6swrOq5xUXwVqrREwJwc?utm_source=rss&utm_medium=article",
+      "judgment": "AI辅助开发正在让资深工程师独立完成过去需要团队的基础设施项目，个人生产力边界被重画。",
+      "confidence": 4,
+      "url": "https://simonwillison.net/2026/Nov/21/muru/",
       "importance": 3
     },
     {
-      "source": "TechCrunch",
-      "title": "短信里的 AI 智能体盘点：从通用助手到家庭、旅行、工作场景",
-      "finding": "TechCrunch 梳理了当前能「住进」短信里的 AI Agent，覆盖通用助手、家庭、旅行与工作场景。短信正成为 Agent 的新分发入口。",
+      "source": "TechCrunch AI",
+      "title": "短信里的AI Agent大盘点：从通用助手到家庭、旅行、工作专用",
+      "finding": "TechCrunch梳理了当前最值得关注的'住在短信里'的AI Agent，覆盖通用助手以及面向家庭、旅行、工作场景的专用Agent，短信正成为Agent的新入口。",
       "key_data": [
-        "短信作为入口",
-        "多场景 Agent",
-        "分发渠道之争"
+        "短信入口",
+        "家庭/旅行/工作",
+        "Agent清单"
       ],
-      "judgment": "Agent 的分发入口正在从 App 转向消息通道，这对微信、iMessage 生态内的产品设计有直接启发。",
+      "judgment": "Agent入口从App转向短信，意味着'无界面交互'竞争开始，IM平台将成新战场。",
       "confidence": 3,
       "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
       "importance": 3
     },
     {
-      "source": "TechCrunch",
-      "title": "Signal 限制移动端截图，应对 AI 监控的「生存威胁」",
-      "finding": "Signal 在 Android 和 iOS 端限制截图功能，官方称 AI 驱动的监控能力已构成「生存威胁」。这是隐私工具对 AI 时代监控压力的直接回应。",
+      "source": "TechCrunch AI",
+      "title": "把脸卖给微短剧AI公司：好莱坞的未来？",
+      "finding": "一名演员将自己的面部授权给一家微短剧创业公司用于AI生成内容，这一在中国已流行的模式开始进入好莱坞，专家对其长期后果提出质疑。",
       "key_data": [
-        "限制截图",
-        "AI 监控威胁",
-        "隐私工具反击"
+        "面部授权",
+        "微短剧",
+        "中国已验证",
+        "好莱坞试水"
       ],
-      "judgment": "AI 监控能力提升正在倒逼隐私产品重新设计默认行为，端侧隐私将成为产品差异化点。",
-      "confidence": 4,
-      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "judgment": "AI肖像授权从中国模式输出到好莱坞，演员的'数字资产化'将重塑娱乐业合同与版权体系。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "importance": 2
+    },
+    {
+      "source": "Wired AI",
+      "title": "宕机才刚开始：AI正迫使企业加速打补丁",
+      "finding": "Wired指出，攻击者利用AI加速挖掘和利用新漏洞，企业被迫以更快节奏修补系统，互联网正进入一个'宕机频发'的混乱期。",
+      "key_data": [
+        "AI加速漏洞利用",
+        "补丁节奏加快",
+        "宕机频发"
+      ],
+      "judgment": "AI攻防不对称加剧，安全运维将从'定期修补'转向'持续对抗'，安全预算必涨。",
+      "confidence": 3,
+      "url": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
       "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "Pinterest联合英特尔将开源性能分析推向互联网级规模",
+      "finding": "Pinterest与英特尔合作，把开源性能分析工具扩展到互联网级规模，用于支撑大规模系统的性能观测与优化。",
+      "key_data": [
+        "互联网级规模",
+        "开源性能分析",
+        "Pinterest+英特尔"
+      ],
+      "judgment": "大规模系统的性能可观测性正成为AI时代基础设施的刚需能力。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/fs4IuBTjwIwR1xUgdjqt?utm_source=rss&utm_medium=article",
+      "importance": 2
     }
   ],
   "opinions": [
     {
       "person": "姚顺雨",
       "level": "L1",
-      "quote": "混元 4 的架构取舍、算力分配、刷榜争议和 RSI 路线都可以公开讨论，Hy 小模型已进入路线图。团队愿意用开发者社区的语言做透明沟通，而不是只发公关稿。",
+      "quote": "在混元团队首次全球AMA中，姚顺雨就混元4的底层架构取舍、算力约束下的路线选择、榜单刷分问题以及RSI（递归自我改进）等敏感话题逐一回应，强调团队更关注真实能力而非榜单排名。",
       "source": "http://www.geekpark.net/news/374301"
     },
     {
       "person": "Simon Willison",
       "level": "L2",
-      "quote": "Muru 是 Graham Dumpleton 用 AI 辅助写出的 Rust 服务器——老牌基础设施作者正在用 AI 重写自己二十年前的作品，这比任何 Demo 都更能说明 AI 编程的真实生产力。",
+      "quote": "Graham Dumpleton用AI辅助独立打造Rust服务器Muru，说明AI正在让资深工程师以个人之力完成过去需要团队的基础设施级项目。",
       "source": "https://simonwillison.net/2026/Nov/21/muru/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "黄仁勋去职后的英伟达权力结构与 CUDA 生态走向",
-      "reason": "事件冲击力最大，但细节仍模糊，需交叉验证董事会动机与继任安排。",
+      "topic": "腾讯AI投入与利润承压的财务模型",
+      "reason": "资本开支+527%、利润转负，是判断中国大厂AI投入可持续性的关键样本。",
       "priority": "high"
     },
     {
-      "topic": "GPT-6.2 Astra 具身能力评测方法与可变形物体操控的技术路径",
-      "reason": "若成功率翻倍可复现，将改变具身智能的价值分配逻辑。",
+      "topic": "混元4架构与开源策略（基于AMA内容）",
+      "reason": "姚顺雨首次系统披露架构取舍与RSI路线，是理解中国头部模型技术选择的窗口。",
       "priority": "high"
     },
     {
-      "topic": "腾讯 AI 重投入的投入产出模型：814 亿资本开支换来了什么",
-      "reason": "中国大厂 AI 军备竞赛的财务可持续性问题，值得用财报数据做量化拆解。",
+      "topic": "AWS TorchNeuron对CUDA生态的冲击",
+      "reason": "零代码迁移若成立，将实质性削弱英伟达软件护城河，影响所有算力采购决策。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "英伟达生变，具身智能翻倍，腾讯重注 AI",
-  "summary_paragraph": "今天最震动市场的是黄仁勋遭英伟达董事会罢免，AI 算力叙事的核心符号出现不确定性，短期利好竞争阵营。技术侧，GPT-6.2 Astra 在具身任务上成功率翻倍并首通可变形物体操控，说明大模型正从理解世界走向操作世界，价值向模型层集中。国内方面，姚顺雨率混元团队在 Reddit 做透明 AMA、Hy 小模型进入路线图，DeepSeek V1 作者的开源 Agent 创业项目曝光，而腾讯 Q3 资本开支同比暴增 527%、利润承压，标志中国大厂 AI 竞赛进入重资产阶段。",
+  "summary_one_line": "腾讯AI重投入承压，混元全球发声",
+  "summary_paragraph": "今天最重要的信号来自腾讯：一边是Q3资本开支同比暴增527%、净利润转负，AI军备竞赛正式进入吞噬利润的重资产阶段；另一边是姚顺雨率混元团队首次面向全球开发者在Reddit做AMA，两小时答300余问，透明沟通成为新的竞争维度。基础设施层面，AWS推出TorchNeuron让PyTorch模型零修改跑上Trainium，直指CUDA护城河；英伟达则呈现'财报强、客户喊CEO回归'的两副面孔。产品侧，Signal为对抗AI监控限制截图，AI视频公司达瓦选择'重控制轻渲染'的工业路线。整体看，AI竞争正从模型能力转向投入耐力、生态关系与隐私安全的综合较量。",
+  "_comment": "top_items与分类板块无重复；opinions收录姚顺雨(L1)与Simon Willison(L2)；今日无L3明确新表态故未收录。",
   "snapshot": {
     "date": "2026-11-22",
     "hf_trending": [
       {
         "name": "thinkingmachines/Inkling-2-Mini",
         "short_name": "Inkling-2-Mini",
-        "likes": 3015,
+        "likes": 3510,
         "downloads": 7944,
         "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
         "tags": [
@@ -229,7 +265,7 @@
       {
         "name": "unsloth/Inkling-2-Mini-GGUF",
         "short_name": "Inkling-2-Mini-GGUF",
-        "likes": 627,
+        "likes": 717,
         "downloads": 238152,
         "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
         "tags": [
@@ -243,25 +279,9 @@
         "trend": "same"
       },
       {
-        "name": "tencent/Hy4-flash",
-        "short_name": "Hy4-flash",
-        "likes": 547,
-        "downloads": 5588,
-        "url": "https://huggingface.co/tencent/Hy4-flash",
-        "tags": [
-          "transformers",
-          "safetensors",
-          "hy_v4_flash"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "inworld/voice-isolator",
         "short_name": "voice-isolator",
-        "likes": 520,
+        "likes": 552,
         "downloads": 0,
         "url": "https://huggingface.co/inworld/voice-isolator",
         "tags": [
@@ -275,9 +295,25 @@
         "trend": "same"
       },
       {
+        "name": "tencent/Hy4-flash",
+        "short_name": "Hy4-flash",
+        "likes": 567,
+        "downloads": 5588,
+        "url": "https://huggingface.co/tencent/Hy4-flash",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "hy_v4_flash"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "apple/FastFrames-L",
         "short_name": "FastFrames-L",
-        "likes": 493,
+        "likes": 502,
         "downloads": 0,
         "url": "https://huggingface.co/apple/FastFrames-L",
         "tags": [
@@ -293,7 +329,7 @@
       {
         "name": "harness-hub/Qwen3.8-27B-pi-adapted",
         "short_name": "Qwen3.8-27B-pi-adapted",
-        "likes": 935,
+        "likes": 949,
         "downloads": 2383,
         "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
         "tags": [
@@ -309,7 +345,7 @@
       {
         "name": "higurashi-ai/Haru-4B",
         "short_name": "Haru-4B",
-        "likes": 845,
+        "likes": 850,
         "downloads": 8120,
         "url": "https://huggingface.co/higurashi-ai/Haru-4B",
         "tags": [
@@ -325,7 +361,7 @@
       {
         "name": "Qwen/Qwen3.8-27B",
         "short_name": "Qwen3.8-27B",
-        "likes": 20812,
+        "likes": 20832,
         "downloads": 6298190,
         "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
         "tags": [
@@ -343,45 +379,45 @@
       {
         "name": "elementalsouls/Claude-BugHunter",
         "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands",
-        "stars": 16128,
+        "stars": 16629,
         "stars_today": 1803,
-        "forks": 1833,
+        "forks": 1878,
         "language": "Python",
         "url": "https://github.com/elementalsouls/Claude-BugHunter"
       },
       {
         "name": "obra/superpowers",
         "desc": "An agentic skills framework &amp; software development methodology that works.",
-        "stars": 323761,
+        "stars": 323969,
         "stars_today": 883,
-        "forks": 28719,
+        "forks": 28731,
         "language": "Shell",
         "url": "https://github.com/obra/superpowers"
       },
       {
         "name": "HKUDS/CLI-Anything",
         "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-        "stars": 62101,
+        "stars": 62327,
         "stars_today": 769,
-        "forks": 5633,
+        "forks": 5661,
         "language": "Python",
         "url": "https://github.com/HKUDS/CLI-Anything"
       },
       {
         "name": "jingyaogong/minimind",
         "desc": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-        "stars": 68173,
+        "stars": 68331,
         "stars_today": 488,
-        "forks": 8913,
+        "forks": 8937,
         "language": "Python",
         "url": "https://github.com/jingyaogong/minimind"
       },
       {
         "name": "cursor/plugins",
         "desc": "Cursor plugin specification and official plugins",
-        "stars": 18121,
+        "stars": 18214,
         "stars_today": 260,
-        "forks": 1979,
+        "forks": 1989,
         "language": "TypeScript",
         "url": "https://github.com/cursor/plugins"
       }
@@ -392,7 +428,7 @@
         "slug": "deepseek/deepseek-v4.1-flash",
         "name": "DeepSeek V4.1 Flash",
         "org": "deepseek",
-        "total_tokens": 10735634285235,
+        "total_tokens": 10735634332459,
         "total_tokens_str": "10.7T",
         "api_calls": 0,
         "change": -4.3,
@@ -498,6 +534,6 @@
         "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free"
       }
     ],
-    "hf_summary": "多模态理解霸榜且Qwen3.8-27B断层领跑开源模型热度"
+    "hf_summary": "多模态理解霸榜且Qwen3.8系列断层领先，音频与视频生成正加速升温"
   }
 }
