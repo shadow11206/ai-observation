@@ -1,0 +1,503 @@
+{
+  "date": "2026-11-22",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "黄仁勋遭英伟达董事会罢免，公司控制权生变",
+      "finding": "多家媒体确认，英伟达董事会已罢免 CEO 黄仁勋，具体原因指向公司治理与战略分歧。与此同时，英伟达最新财报与科技高管公开呼吁黄仁勋回归的声音形成鲜明对比，公司内部出现明显分裂。",
+      "key_data": [
+        "董事会罢免 CEO",
+        "财报与高管表态分裂",
+        "AI 芯片霸主生变"
+      ],
+      "judgment": "这是今天最具冲击力的事件。黄仁勋是过去三年 AI 算力叙事的核心符号，他的去职将直接动摇市场对英伟达路线连续性的信心，短期利好 AMD、自研芯片阵营和国产算力替代，长期则取决于继任者能否维持 CUDA 生态的开放节奏。",
+      "confidence": 3,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/374300"
+    },
+    {
+      "rank": 2,
+      "title": "GPT-6.2 Astra 具身任务成功率较 GPT-6 翻倍，首次实现可变形物体操控",
+      "finding": "OpenAI 新版本 GPT-6.2 Astra 在 16 项具身智能任务上成功率较上一代 GPT-6 Astra 翻倍，并完成可变形物体操控的全球首次通关。这意味着大模型正从「理解世界」加速走向「操作世界」。",
+      "key_data": [
+        "16 项任务成功率翻倍",
+        "可变形物体操控首通",
+        "GPT-6.2 Astra"
+      ],
+      "judgment": "具身智能的竞争焦点正在从机器人硬件转向「通用大脑」。如果大模型能稳定泛化到可变形物体这类高难度操控，Figure、Physical Intelligence 等公司的硬件护城河会被削弱，价值将向模型层集中。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511779.html"
+    },
+    {
+      "rank": 3,
+      "title": "姚顺雨率混元团队 Reddit AMA：Hy 小模型进入路线图，回应刷榜与 RSI 质疑",
+      "finding": "腾讯首席 AI 科学家姚顺雨和混元团队首次面向全球开发者在 Reddit LocalLLaMA 社区做公开 AMA，两小时回答 300 余条提问，覆盖混元 4 架构取舍、算力、刷榜争议与 RSI 路线，并确认 Hy 小模型已进入产品路线图。",
+      "key_data": [
+        "2 小时答 300+ 问",
+        "Hy 小模型进路线图",
+        "混元 4 架构公开讨论"
+      ],
+      "judgment": "中国大模型团队第一次用西方开发者社区的语言做透明沟通，这是信号级动作。姚顺雨的个人信用正在成为混元开源生态的入口，对国内厂商争夺全球开发者心智有示范意义。",
+      "confidence": 4,
+      "source": "极客公园 / 量子位",
+      "url": "http://www.geekpark.net/news/374301"
+    },
+    {
+      "rank": 4,
+      "title": "DeepSeek V1 作者创业项目曝光：做专为本地部署的开源 Agent",
+      "finding": "DeepSeek V1 论文作者之一的新创业项目浮出水面，方向是开源 Agent，主打本地部署场景。这是 DeepSeek 系人才外溢后第一个明确产品化的创业动作。",
+      "key_data": [
+        "DeepSeek V1 作者",
+        "开源 Agent",
+        "本地部署优先"
+      ],
+      "judgment": "本地部署 Agent 是 2026 年被低估的赛道：企业数据合规需求与端侧算力提升正在交汇。DeepSeek 系研究者的工程审美值得关注，但开源 Agent 的商业模式仍是难题。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511570.html"
+    },
+    {
+      "rank": 5,
+      "title": "腾讯 Q3 资本开支同比暴增 527%，AI 投入吞噬利润",
+      "finding": "腾讯 2026 年 Q3 营收 2073.4 亿元同比增长 8%，但 Non-IFRS 经营利润和归母净利润均同比下降 6%，单季资本开支达 814 亿元、同比增长 527%。AI 基础设施投入正在实质性压缩利润表。",
+      "key_data": [
+        "资本开支 814 亿元",
+        "同比 +527%",
+        "净利润同比 -6%"
+      ],
+      "judgment": "这是中国大厂 AI 军备竞赛进入「重资产阶段」的明确证据。利润换算力的窗口期不会太长，接下来市场会追问投入产出比——混元能否在 2027 年前交出可量化的商业化答卷，将决定腾讯 AI 叙事的下一章。",
+      "confidence": 5,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/374302"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Latent Space",
+      "title": "黎曼猜想据称被两次独立证明，AI 辅助数学再引热议",
+      "finding": "Swyx 的 AINews 提到黎曼猜想被两次独立证明的消息，若属实将是数学史级事件。目前尚待数学界正式验证，但 AI 在其中的角色成为讨论焦点。",
+      "key_data": [
+        "两次独立证明",
+        "黎曼猜想",
+        "待同行验证"
+      ],
+      "judgment": "先保持怀疑，但若 AI 参与其中，将重燃「AI 能否做原创数学」的争论。",
+      "confidence": 2,
+      "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+      "importance": 4
+    },
+    {
+      "source": "InfoQ",
+      "title": "智能体 AI 架构：当前挑战与未来机遇",
+      "finding": "InfoQ 系统梳理了 Agent 架构在规划、记忆、工具调用与多智能体协作上的当前瓶颈，并给出未来演进方向。属于少见的架构层综述而非产品宣传。",
+      "key_data": [
+        "规划与记忆瓶颈",
+        "多智能体协作",
+        "架构层综述"
+      ],
+      "judgment": "Agent 落地卡点已从模型能力转向系统工程，架构方法论比模型参数更值得团队研读。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX?utm_source=rss&utm_medium=article",
+      "importance": 3
+    },
+    {
+      "source": "Simon Willison",
+      "title": "Muru：AI 辅助开发的 Rust Python 应用服务器",
+      "finding": "mod_wsgi 作者 Graham Dumpleton 用 AI 辅助开发了新的 Rust 服务器 Muru，目标是重新定义 Python Web 应用的生产部署方式。",
+      "key_data": [
+        "mod_wsgi 作者新作",
+        "Rust 重写",
+        "AI 辅助开发"
+      ],
+      "judgment": "老牌基础设施作者用 AI 重写经典组件，是「AI 加速系统软件」的典型样本。",
+      "confidence": 4,
+      "url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "Hacker News",
+      "title": "ClawDOS：一个跑在 DOS 上的 AI 编程智能体",
+      "finding": "开发者发布 ClawDOS，把 AI 编程 Agent 搬到了 DOS 环境，在 HN 获得 159 分、51 条讨论。属于极客趣味与复古计算的结合。",
+      "key_data": [
+        "DOS 环境",
+        "HN 159 分",
+        "AI 编程 Agent"
+      ],
+      "judgment": "象征意义大于实用价值，但说明 AI Agent 正在向一切计算环境渗透，包括最古老的平台。",
+      "confidence": 3,
+      "url": "http://ricapar.net/ClawDOS/",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ",
+      "title": "Entire Git Forge：面向编码智能体重构 Git 协作方式",
+      "finding": "Entire Git Forge 提出为编码 Agent 重新设计 Git 协作流程，而非让 Agent 迁就人类的工作流。这是 AI Coding 基础设施层的新尝试。",
+      "key_data": [
+        "为 Agent 重构 Git",
+        "协作流程重设计",
+        "AI Coding 基础设施"
+      ],
+      "judgment": "当 Agent 成为主要提交者，Git 这类人类协作工具的假设需要重写，值得开发者关注。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/6swrOq5xUXwVqrREwJwc?utm_source=rss&utm_medium=article",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "短信里的 AI 智能体盘点：从通用助手到家庭、旅行、工作场景",
+      "finding": "TechCrunch 梳理了当前能「住进」短信里的 AI Agent，覆盖通用助手、家庭、旅行与工作场景。短信正成为 Agent 的新分发入口。",
+      "key_data": [
+        "短信作为入口",
+        "多场景 Agent",
+        "分发渠道之争"
+      ],
+      "judgment": "Agent 的分发入口正在从 App 转向消息通道，这对微信、iMessage 生态内的产品设计有直接启发。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Signal 限制移动端截图，应对 AI 监控的「生存威胁」",
+      "finding": "Signal 在 Android 和 iOS 端限制截图功能，官方称 AI 驱动的监控能力已构成「生存威胁」。这是隐私工具对 AI 时代监控压力的直接回应。",
+      "key_data": [
+        "限制截图",
+        "AI 监控威胁",
+        "隐私工具反击"
+      ],
+      "judgment": "AI 监控能力提升正在倒逼隐私产品重新设计默认行为，端侧隐私将成为产品差异化点。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "importance": 3
+    }
+  ],
+  "opinions": [
+    {
+      "person": "姚顺雨",
+      "level": "L1",
+      "quote": "混元 4 的架构取舍、算力分配、刷榜争议和 RSI 路线都可以公开讨论，Hy 小模型已进入路线图。团队愿意用开发者社区的语言做透明沟通，而不是只发公关稿。",
+      "source": "http://www.geekpark.net/news/374301"
+    },
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "Muru 是 Graham Dumpleton 用 AI 辅助写出的 Rust 服务器——老牌基础设施作者正在用 AI 重写自己二十年前的作品，这比任何 Demo 都更能说明 AI 编程的真实生产力。",
+      "source": "https://simonwillison.net/2026/Nov/21/muru/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "黄仁勋去职后的英伟达权力结构与 CUDA 生态走向",
+      "reason": "事件冲击力最大，但细节仍模糊，需交叉验证董事会动机与继任安排。",
+      "priority": "high"
+    },
+    {
+      "topic": "GPT-6.2 Astra 具身能力评测方法与可变形物体操控的技术路径",
+      "reason": "若成功率翻倍可复现，将改变具身智能的价值分配逻辑。",
+      "priority": "high"
+    },
+    {
+      "topic": "腾讯 AI 重投入的投入产出模型：814 亿资本开支换来了什么",
+      "reason": "中国大厂 AI 军备竞赛的财务可持续性问题，值得用财报数据做量化拆解。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "英伟达生变，具身智能翻倍，腾讯重注 AI",
+  "summary_paragraph": "今天最震动市场的是黄仁勋遭英伟达董事会罢免，AI 算力叙事的核心符号出现不确定性，短期利好竞争阵营。技术侧，GPT-6.2 Astra 在具身任务上成功率翻倍并首通可变形物体操控，说明大模型正从理解世界走向操作世界，价值向模型层集中。国内方面，姚顺雨率混元团队在 Reddit 做透明 AMA、Hy 小模型进入路线图，DeepSeek V1 作者的开源 Agent 创业项目曝光，而腾讯 Q3 资本开支同比暴增 527%、利润承压，标志中国大厂 AI 竞赛进入重资产阶段。",
+  "snapshot": {
+    "date": "2026-11-22",
+    "hf_trending": [
+      {
+        "name": "thinkingmachines/Inkling-2-Mini",
+        "short_name": "Inkling-2-Mini",
+        "likes": 3015,
+        "downloads": 7944,
+        "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "inkling2_loop"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "unsloth/Inkling-2-Mini-GGUF",
+        "short_name": "Inkling-2-Mini-GGUF",
+        "likes": 627,
+        "downloads": 238152,
+        "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+        "tags": [
+          "gguf",
+          "conversational",
+          "image-text-to-text"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "tencent/Hy4-flash",
+        "short_name": "Hy4-flash",
+        "likes": 547,
+        "downloads": 5588,
+        "url": "https://huggingface.co/tencent/Hy4-flash",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "hy_v4_flash"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "inworld/voice-isolator",
+        "short_name": "voice-isolator",
+        "likes": 520,
+        "downloads": 0,
+        "url": "https://huggingface.co/inworld/voice-isolator",
+        "tags": [
+          "inworld-voice-isolation",
+          "audio",
+          "speech"
+        ],
+        "pipeline_tag": "audio-to-audio",
+        "label": "Audio To Audio",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "apple/FastFrames-L",
+        "short_name": "FastFrames-L",
+        "likes": 493,
+        "downloads": 0,
+        "url": "https://huggingface.co/apple/FastFrames-L",
+        "tags": [
+          "safetensors",
+          "text-to-video",
+          "arxiv:2611.23226"
+        ],
+        "pipeline_tag": "text-to-video",
+        "label": "文生视频",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "harness-hub/Qwen3.8-27B-pi-adapted",
+        "short_name": "Qwen3.8-27B-pi-adapted",
+        "likes": 935,
+        "downloads": 2383,
+        "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+        "tags": [
+          "peft",
+          "safetensors",
+          "trl"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "higurashi-ai/Haru-4B",
+        "short_name": "Haru-4B",
+        "likes": 845,
+        "downloads": 8120,
+        "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+        "tags": [
+          "safetensors",
+          "haru",
+          "speech"
+        ],
+        "pipeline_tag": "audio-to-audio",
+        "label": "Audio To Audio",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Qwen/Qwen3.8-27B",
+        "short_name": "Qwen3.8-27B",
+        "likes": 20812,
+        "downloads": 6298190,
+        "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3_5"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "elementalsouls/Claude-BugHunter",
+        "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands",
+        "stars": 16128,
+        "stars_today": 1803,
+        "forks": 1833,
+        "language": "Python",
+        "url": "https://github.com/elementalsouls/Claude-BugHunter"
+      },
+      {
+        "name": "obra/superpowers",
+        "desc": "An agentic skills framework &amp; software development methodology that works.",
+        "stars": 323761,
+        "stars_today": 883,
+        "forks": 28719,
+        "language": "Shell",
+        "url": "https://github.com/obra/superpowers"
+      },
+      {
+        "name": "HKUDS/CLI-Anything",
+        "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "stars": 62101,
+        "stars_today": 769,
+        "forks": 5633,
+        "language": "Python",
+        "url": "https://github.com/HKUDS/CLI-Anything"
+      },
+      {
+        "name": "jingyaogong/minimind",
+        "desc": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+        "stars": 68173,
+        "stars_today": 488,
+        "forks": 8913,
+        "language": "Python",
+        "url": "https://github.com/jingyaogong/minimind"
+      },
+      {
+        "name": "cursor/plugins",
+        "desc": "Cursor plugin specification and official plugins",
+        "stars": 18121,
+        "stars_today": 260,
+        "forks": 1979,
+        "language": "TypeScript",
+        "url": "https://github.com/cursor/plugins"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 10735634285235,
+        "total_tokens_str": "10.7T",
+        "api_calls": 0,
+        "change": -4.3,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "tencent/hy4-flash",
+        "name": "Hy4 flash",
+        "org": "tencent",
+        "total_tokens": 10302381994102,
+        "total_tokens_str": "10.3T",
+        "api_calls": 0,
+        "change": -56.0,
+        "url": "https://openrouter.ai/tencent/hy4-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 2180688924329,
+        "total_tokens_str": "2.2T",
+        "api_calls": 0,
+        "change": 34.1,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "moonshotai/kimi-k3.1-pro",
+        "name": "Kimi K3.1 Pro",
+        "org": "moonshotai",
+        "total_tokens": 767750469594,
+        "total_tokens_str": "768B",
+        "api_calls": 0,
+        "change": 67.2,
+        "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro"
+      },
+      {
+        "rank": 5,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 761633991631,
+        "total_tokens_str": "762B",
+        "api_calls": 0,
+        "change": -32.9,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 6,
+        "slug": "minimax/minimax-m3.1-flash",
+        "name": "MiniMax M3.1 Flash",
+        "org": "minimax",
+        "total_tokens": 630821277762,
+        "total_tokens_str": "631B",
+        "api_calls": 0,
+        "change": -10.6,
+        "url": "https://openrouter.ai/minimax/minimax-m3.1-flash"
+      },
+      {
+        "rank": 7,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 600740386579,
+        "total_tokens_str": "601B",
+        "api_calls": 0,
+        "change": 7.0,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      {
+        "rank": 8,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 557947819218,
+        "total_tokens_str": "558B",
+        "api_calls": 0,
+        "change": -42.8,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 9,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 555880055782,
+        "total_tokens_str": "556B",
+        "api_calls": 0,
+        "change": -16.5,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 10,
+        "slug": "baidu/ernie-5.5-flash-preview:free",
+        "name": "ERNIE-5.5-Flash-Preview (free)",
+        "org": "baidu",
+        "total_tokens": 498006626639,
+        "total_tokens_str": "498B",
+        "api_calls": 0,
+        "change": 0.7,
+        "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free"
+      }
+    ],
+    "hf_summary": "多模态理解霸榜且Qwen3.8-27B断层领跑开源模型热度"
+  }
+}
