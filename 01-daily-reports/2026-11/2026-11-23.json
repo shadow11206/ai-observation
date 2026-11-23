@@ -1,0 +1,515 @@
+{
+  "date": "2026-11-23",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Anthropic 创纪录 IPO 首日遭遇 Claude 性能降级，市场情绪转冷",
+      "finding": "Anthropic 完成了 AI 行业迄今规模最大的 IPO，但上市当天 Claude 出现性能降级事故，叠加市场对 AI 估值的普遍悲观情绪，股价表现承压。有分析直指其万亿估值很大程度上建立在企业裁员焦虑之上。",
+      "key_data": [
+        "AI 行业最大 IPO",
+        "上市首日性能降级",
+        "万亿级估值",
+        "市场情绪转冷"
+      ],
+      "judgment": "这是 AI 泡沫叙事第一次被公开市场用真金白银检验。对 Anthropic 而言，上市意味着从此每个季度都要用财报证明自己；对整个行业而言，一级市场的高估值逻辑将被迫接受二级市场的重新定价，融资环境可能明显收紧。",
+      "confidence": 4,
+      "source": "InfoQ AI",
+      "url": "https://www.infoq.cn/article/OPbZhT0OHL4IbZz8exvA?utm_source=rss&utm_medium=article"
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI 首席科学家提议为 AI 开发设「行业限速」，最早 2027 年出现自我加速",
+      "finding": "OpenAI 首席科学家 Jakub Pachocki 发文提议，AI 企业应建立统一的行业标准，在具备可靠的模型行为监控能力之前，不突破约定的开发上限。他同时警告 AI 最早可能在 2027 年出现自我加速发展，Sam Altman 对此表示赞同。",
+      "key_data": [
+        "行业统一限速标准",
+        "2027 年自我加速",
+        "Altman 公开赞同",
+        "监控能力前置"
+      ],
+      "judgment": "头部实验室主动提出「限速」是罕见的信号——它既是对监管的提前卡位，也是在为自身领先地位设置护城河。对追赶者而言，行业自律标准一旦成型，可能比政府监管更难绕开。",
+      "confidence": 4,
+      "source": "极客公园 / TechCrunch AI",
+      "url": "http://www.geekpark.net/news/374304"
+    },
+    {
+      "rank": 3,
+      "title": "美国大型银行集体封杀第三方 AI Agent 登录用户账户",
+      "finding": "美国多家主要金融机构开始禁止第三方 AI 机器人登录用户银行账户，并明确警告：如果机器人操作造成损失，责任完全由用户自己承担。这标志着金融业对 AI Agent 的态度从观望转向防御。",
+      "key_data": [
+        "禁止第三方 Bot 登录",
+        "损失责任归用户",
+        "多家主要银行",
+        "从观望转防御"
+      ],
+      "judgment": "这是 AI Agent 商业化遇到的第一个硬性制度壁垒。做 Agent 产品的团队必须意识到：金融、医疗等强监管场景不会因为技术进步就自动开放，接口授权和责任划分才是真正的门槛。",
+      "confidence": 4,
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/"
+    },
+    {
+      "rank": 4,
+      "title": "Anthropic 数学家借助 Claude 再证一项千禧年难题，逼出 940 页纯人类手稿",
+      "finding": "Anthropic 的数学家使用 Claude 完成了又一项千禧年数学难题的证明，过程中还促使一位数学家拿出了写了 12 年、长达 940 页的纯人类手稿作为对照。这是 AI 在最高难度数学推理上的又一次实质性突破。",
+      "key_data": [
+        "第二项千禧年难题",
+        "940 页人类手稿",
+        "12 年写作周期",
+        "Claude 参与证明"
+      ],
+      "judgment": "AI 在顶级数学证明上的连续突破，说明推理模型的能力边界正在从「解题」走向「原创研究」。对科研工作者来说，AI 不再是文献助手，而是可能直接参与前沿发现的合作者。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511870.html"
+    },
+    {
+      "rank": 5,
+      "title": "Dragos 用金丝雀令牌发现 AI 供应链安全漏洞",
+      "finding": "安全公司 Dragos 通过在 AI 供应链中植入金丝雀令牌（一种用于检测异常访问的诱饵标记），发现了模型分发和依赖链条中的实际安全风险。这提示 AI 模型的供应链正在成为新的攻击面。",
+      "key_data": [
+        "金丝雀令牌检测",
+        "AI 供应链攻击面",
+        "模型分发风险",
+        "Dragos 实测"
+      ],
+      "judgment": "当企业开始大规模引入第三方模型和 Agent 工具链，供应链安全会像当年的开源软件漏洞一样集中爆发。安全团队应尽早把 AI 依赖纳入 SBOM 和审计范围。",
+      "confidence": 3,
+      "source": "Hacker News / Dragos",
+      "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "Hacker News",
+      "title": "本地 AI 入门指南：Inkling、Qwen 与 Unsloth 组合实践",
+      "finding": "一篇面向初学者的指南详细介绍了如何用 Inkling、Qwen 模型配合 Unsloth 微调框架在本地跑起 AI，获得 225 分高热讨论。说明本地部署和低成本微调仍是开发者社区的强需求。",
+      "key_data": [
+        "Unsloth 微调框架",
+        "Qwen 开源模型",
+        "本地部署",
+        "HN 225 分"
+      ],
+      "judgment": "开源模型 + 高效微调工具的组合正在把「本地 AI」从极客玩具变成可落地的方案，对数据敏感型企业尤其有吸引力。",
+      "confidence": 3,
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "Nature：电刺激迷走神经成功控制糖尿病大鼠血糖",
+      "finding": "研究人员利用葡萄糖发电驱动电刺激迷走神经，成功让糖尿病大鼠恢复正常血糖水平。这是一项 AI 之外但同样值得关注的交叉学科突破，展示了生物电子医学的潜力。",
+      "key_data": [
+        "葡萄糖自发电",
+        "迷走神经刺激",
+        "大鼠血糖恢复正常",
+        "Nature 发表"
+      ],
+      "judgment": "生物电子医学与 AI 的结合点（闭环控制、个体化刺激参数）值得长期跟踪，但离临床应用仍有距离。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/11/511904.html",
+      "importance": 2
+    },
+    {
+      "source": "Hacker News",
+      "title": "Show HN：一款让你扮演 LLM 子智能体的游戏",
+      "finding": "开发者做了一个游戏，玩家扮演 LLM 的子智能体（subagent），体验被上层模型调度、执行任务的过程，获得 272 分高热讨论。这从侧面反映了 Agent 架构已成为开发者心智中的主流隐喻。",
+      "key_data": [
+        "扮演子智能体",
+        "HN 272 分",
+        "Agent 架构隐喻",
+        "64 条讨论"
+      ],
+      "judgment": "当「子智能体」成为游戏题材，说明多 Agent 协作已经从技术概念渗透进大众认知，产品设计可以借用这套心智模型。",
+      "confidence": 3,
+      "url": "https://github.com/gulivan/worker755",
+      "importance": 2
+    }
+  ],
+  "company_product": [
+    {
+      "source": "极客公园",
+      "title": "达瓦科技走「重控制、轻渲染」路线，切入 AI 视频工业管线",
+      "finding": "面对 AI 视频生成「抽卡」成本高、难以进入专业影视管线的问题，达瓦科技选择重控制、轻渲染的路线，从真实片场需求自下而上构建产品，而非堆参数扩算力。",
+      "key_data": [
+        "重控制轻渲染",
+        "AI 视频工业管线",
+        "降低抽卡成本",
+        "自下而上路线"
+      ],
+      "judgment": "AI 视频的竞争正从「生成质量」转向「可控性与工业可用性」，谁能嵌入专业工作流谁就能拿到 B 端订单。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/374303",
+      "importance": 3
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "数据中心成为 Big Tech 遭遇公众反弹的核心焦点",
+      "finding": "记者 Paris Marx 在新书《Hyperscale》中指出，数据中心的能耗、土地和水资源占用正成为公众对大型科技公司不满的集中爆发点。AI 算力扩张的社会成本开始被摆上台面。",
+      "key_data": [
+        "数据中心能耗争议",
+        "新书《Hyperscale》",
+        "公众反弹",
+        "算力社会成本"
+      ],
+      "judgment": "算力扩张的环境与社区成本将成为 AI 公司的隐性负债，选址、能耗披露和社区沟通会变成基础设施团队的必修课。",
+      "confidence": 3,
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "importance": 3
+    },
+    {
+      "source": "Hacker News",
+      "title": "评论文章称 AI 正在成为气候灾难",
+      "finding": "一篇获得 103 分讨论的文章认为，AI 的算力与能源消耗正在对环境造成严重负面影响。与数据中心争议形成呼应，环保叙事正在成为反 AI 浪潮的重要支线。",
+      "key_data": [
+        "AI 能耗批评",
+        "HN 103 分",
+        "气候影响",
+        "环保叙事"
+      ],
+      "judgment": "能耗议题会持续影响 AI 公司的公共形象与政策环境，绿色算力可能成为下一个差异化卖点。",
+      "confidence": 2,
+      "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+      "importance": 2
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "Pinterest 联合英特尔将开源性能分析推向互联网级规模",
+      "finding": "Pinterest 与英特尔合作，把开源性能分析工具扩展到互联网级别的数据规模，用于支撑大规模系统的性能诊断。这对 AI 基础设施的可观测性有直接借鉴意义。",
+      "key_data": [
+        "Pinterest + 英特尔",
+        "开源性能分析",
+        "互联网级规模",
+        "可观测性"
+      ],
+      "judgment": "大规模 AI 系统的性能瓶颈排查越来越依赖这类工业级开源工具，基础设施团队值得跟进其实现思路。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/fs4IuBTjwIwR1xUgdjqt?utm_source=rss&utm_medium=article",
+      "importance": 2
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Jakub Pachocki（OpenAI 首席科学家）",
+      "level": "L3",
+      "quote": "AI 企业应建立行业统一标准，对先进模型的开发设置共同限制；在研究人员具备更可靠的模型行为理解和监控能力之前，不应突破约定的发展上限。AI 最早可能在 2027 年加速自身发展。",
+      "source": "http://www.geekpark.net/news/374304"
+    },
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "我受不了 HTML select 在不同浏览器里默认样式各异、在 Chrome 里尤其难看，于是让 Claude 帮我做了一个样式对照工具。",
+      "source": "https://simonwillison.net/2026/Nov/22/select-styling/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "AI Agent 在强监管金融场景的合规路径",
+      "reason": "银行封杀第三方 Agent 是制度性信号，涉及授权、责任划分与接口标准，值得系统研究。",
+      "priority": "high"
+    },
+    {
+      "topic": "Anthropic IPO 后的估值逻辑与 AI 泡沫检验",
+      "reason": "首个头部实验室上市，其财报与股价将成为整个行业估值锚点，影响后续融资环境。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI 供应链安全与模型依赖审计",
+      "reason": "金丝雀令牌暴露的供应链风险会随企业引入第三方模型而放大，安全团队需提前布局。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "IPO 遇冷，AI 估值首遭公开检验",
+  "summary_paragraph": "今天最重要的信号来自资本市场：Anthropic 完成 AI 行业最大 IPO，却在上市首日遭遇 Claude 性能降级，万亿估值被公开质疑，一级市场的高估值逻辑第一次被二级市场重新定价。与此同时，OpenAI 首席科学家提议为 AI 开发设行业限速并警告 2027 年自我加速，头部实验室开始主动为监管卡位。产品层面，美国大型银行集体封杀第三方 AI Agent 登录账户，暴露出 Agent 商业化在强监管场景的制度壁垒；而 Claude 再证千禧年难题、Dragos 用金丝雀令牌发现供应链风险，则分别展示了推理能力的上限与安全的下限。行业正从「能力竞赛」进入「成本、合规与信任」的多线博弈。",
+  "snapshot": {
+    "date": "2026-11-23",
+    "hf_trending": [
+      {
+        "name": "thinkingmachines/Inkling-2-Mini",
+        "short_name": "Inkling-2-Mini",
+        "likes": 5008,
+        "downloads": 23543,
+        "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "inkling2_loop"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "unsloth/Inkling-2-Mini-GGUF",
+        "short_name": "Inkling-2-Mini-GGUF",
+        "likes": 890,
+        "downloads": 805993,
+        "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+        "tags": [
+          "gguf",
+          "conversational",
+          "image-text-to-text"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "inworld/voice-isolator",
+        "short_name": "voice-isolator",
+        "likes": 639,
+        "downloads": 0,
+        "url": "https://huggingface.co/inworld/voice-isolator",
+        "tags": [
+          "inworld-voice-isolation",
+          "audio",
+          "speech"
+        ],
+        "pipeline_tag": "audio-to-audio",
+        "label": "Audio To Audio",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "tencent/Hy4-flash",
+        "short_name": "Hy4-flash",
+        "likes": 621,
+        "downloads": 6617,
+        "url": "https://huggingface.co/tencent/Hy4-flash",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "hy_v4_flash"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "harness-hub/Qwen3.8-27B-pi-adapted",
+        "short_name": "Qwen3.8-27B-pi-adapted",
+        "likes": 992,
+        "downloads": 2831,
+        "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+        "tags": [
+          "peft",
+          "safetensors",
+          "trl"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+        "short_name": "Inkling-2-Mini-Uncensored-GGUF",
+        "likes": 496,
+        "downloads": 129693,
+        "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+        "tags": [
+          "gguf",
+          "llama.cpp",
+          "inkling2"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
+        "name": "higurashi-ai/Haru-4B",
+        "short_name": "Haru-4B",
+        "likes": 897,
+        "downloads": 8608,
+        "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+        "tags": [
+          "safetensors",
+          "haru",
+          "speech"
+        ],
+        "pipeline_tag": "audio-to-audio",
+        "label": "Audio To Audio",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "apple/DepthPro2",
+        "short_name": "DepthPro2",
+        "likes": 287,
+        "downloads": 0,
+        "url": "https://huggingface.co/apple/DepthPro2",
+        "tags": [
+          "depth-pro-2",
+          "depth-estimation",
+          "metric-depth"
+        ],
+        "pipeline_tag": "depth-estimation",
+        "label": "深度估计",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "elementalsouls/Claude-BugHunter",
+        "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands",
+        "stars": 17916,
+        "stars_today": 1716,
+        "forks": 1977,
+        "language": "Python",
+        "url": "https://github.com/elementalsouls/Claude-BugHunter"
+      },
+      {
+        "name": "obra/superpowers",
+        "desc": "An agentic skills framework &amp; software development methodology that works.",
+        "stars": 324202,
+        "stars_today": 788,
+        "forks": 28759,
+        "language": "Shell",
+        "url": "https://github.com/obra/superpowers"
+      },
+      {
+        "name": "HKUDS/CLI-Anything",
+        "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "stars": 62820,
+        "stars_today": 699,
+        "forks": 5702,
+        "language": "Python",
+        "url": "https://github.com/HKUDS/CLI-Anything"
+      },
+      {
+        "name": "jingyaogong/minimind",
+        "desc": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+        "stars": 68719,
+        "stars_today": 473,
+        "forks": 8981,
+        "language": "Python",
+        "url": "https://github.com/jingyaogong/minimind"
+      },
+      {
+        "name": "cursor/plugins",
+        "desc": "Cursor plugin specification and official plugins",
+        "stars": 18472,
+        "stars_today": 294,
+        "forks": 2010,
+        "language": "TypeScript",
+        "url": "https://github.com/cursor/plugins"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 10838001558465,
+        "total_tokens_str": "10.8T",
+        "api_calls": 0,
+        "change": 1.0,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "tencent/hy4-flash",
+        "name": "Hy4 flash",
+        "org": "tencent",
+        "total_tokens": 6525998610115,
+        "total_tokens_str": "6.5T",
+        "api_calls": 0,
+        "change": -36.7,
+        "url": "https://openrouter.ai/tencent/hy4-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1780042519850,
+        "total_tokens_str": "1.8T",
+        "api_calls": 0,
+        "change": -18.4,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 721340927349,
+        "total_tokens_str": "721B",
+        "api_calls": 0,
+        "change": -5.3,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 5,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 659705471939,
+        "total_tokens_str": "660B",
+        "api_calls": 0,
+        "change": 9.8,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      },
+      {
+        "rank": 6,
+        "slug": "minimax/minimax-m3.1-flash",
+        "name": "MiniMax M3.1 Flash",
+        "org": "minimax",
+        "total_tokens": 629467831488,
+        "total_tokens_str": "629B",
+        "api_calls": 0,
+        "change": -0.2,
+        "url": "https://openrouter.ai/minimax/minimax-m3.1-flash"
+      },
+      {
+        "rank": 7,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 599432922938,
+        "total_tokens_str": "599B",
+        "api_calls": 0,
+        "change": 7.4,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 8,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 564509177436,
+        "total_tokens_str": "565B",
+        "api_calls": 0,
+        "change": 1.6,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 9,
+        "slug": "moonshotai/kimi-k3.1-pro",
+        "name": "Kimi K3.1 Pro",
+        "org": "moonshotai",
+        "total_tokens": 552090719315,
+        "total_tokens_str": "552B",
+        "api_calls": 0,
+        "change": -28.1,
+        "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro"
+      },
+      {
+        "rank": 10,
+        "slug": "baidu/ernie-5.5-flash-preview:free",
+        "name": "ERNIE-5.5-Flash-Preview (free)",
+        "org": "baidu",
+        "total_tokens": 498697933373,
+        "total_tokens_str": "499B",
+        "api_calls": 0,
+        "change": 0.1,
+        "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free"
+      }
+    ],
+    "hf_summary": "多模态理解模型霸榜且衍生版本活跃，音频与深度估计小众赛道升温"
+  }
+}

@@ -1,6 +1,13 @@
 {
-  "total": 239,
+  "total": 240,
   "reports": [
+    {
+      "date": "2026-11-23",
+      "title": "今日 AI 日报：Anthropic 创纪录 IPO 首日遭遇 Claude 性能降级，市场情绪转冷 + 4 条重要动态",
+      "excerpt": "这是 AI 泡沫叙事第一次被公开市场用真金白银检验。对 Anthropic 而言…",
+      "top_count": 5,
+      "file": "2026-11-23.json"
+    },
     {
       "date": "2026-11-22",
       "title": "今日 AI 日报：腾讯首席AI科学家姚顺雨首次全球AMA：回应混元4、算力、刷榜与RSI + 4 条重要动态",
