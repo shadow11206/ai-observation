@@ -1,6 +1,13 @@
 {
-  "total": 240,
+  "total": 241,
   "reports": [
+    {
+      "date": "2026-11-24",
+      "title": "今日 AI 日报：Anthropic 推出 Claude Ship，让 AI Agent 接管代码审查与合并审批 + 4 条重要动态",
+      "excerpt": "这是 AI Coding 竞争从「生成能力」转向「工程流程接管」的明确信号。一旦…",
+      "top_count": 5,
+      "file": "2026-11-24.json"
+    },
     {
       "date": "2026-11-23",
       "title": "今日 AI 日报：Anthropic 创纪录 IPO 首日遭遇 Claude 性能降级，市场情绪转冷 + 4 条重要动态",
