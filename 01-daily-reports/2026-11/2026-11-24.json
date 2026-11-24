@@ -3,268 +3,252 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Anthropic 推出 Claude Ship，让 AI Agent 接管代码审查与合并审批",
-      "finding": "Anthropic 发布新开发者工具 Claude Ship，AI Agent 可以自动审查、修复并批准代码变更，目标是消除 AI 生成代码堆积后的人工审批瓶颈。这是 Claude Code 从「写代码」向「管代码」的关键延伸。",
+      "title": "Anthropic 研究员用 AI 攻克黎曼猜想，1700 万行证明人类看不懂",
+      "finding": "据 Wired 报道，Anthropic 的一位研究员借助 AI 生成了黎曼猜想的完整证明，长达 1700 万行。数学家需要数月时间才能理解这份被形容为“外星”的解法。这是 AI 首次在数学最著名的未解难题上给出可验证的完整证明。",
       "key_data": [
-        "Agent 自动审批代码",
-        "覆盖审查-修复-合并",
-        "Claude Code 生态延伸"
+        "1700万行证明",
+        "黎曼猜想",
+        "数学家需数月解读"
       ],
-      "judgment": "这是 AI Coding 竞争从「生成能力」转向「工程流程接管」的明确信号。一旦审批环节被 Agent 吃掉，人类在代码流水线中的角色将进一步后撤到需求定义和最终把关，Cursor、GitHub Copilot 等必须跟进，否则会被卡在「只写不管」的定位上。",
-      "confidence": 4,
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+      "judgment": "这是 AI 从“辅助工具”迈向“知识生产者”的分水岭事件。如果证明成立，意味着 AI 已能在人类智力最前沿独立产出成果，数学界的工作方式将被彻底改写——从“证明”转向“验证与理解”。对 AI 公司而言，这是比任何 benchmark 都更有说服力的能力背书。",
+      "confidence": 3,
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ai-solved-maths-most-famous-problem/"
     },
     {
       "rank": 2,
-      "title": "智谱发布 GLM-5.4：首个 Loop Transformer 架构，主打通用化 Coding",
-      "finding": "中国 AI 实验室 Z.ai（智谱）发布 GLM-5.4，这是其首个采用「循环 Transformer」架构的模型，官方定位是「走向通用化编码」。循环架构此前多停留在论文层面，这次是少见的旗舰级产品化落地。",
+      "title": "Anthropic 发布 Claude Ship，让 AI Agent 自主审查、修复并批准代码变更",
+      "finding": "Anthropic 推出 Claude Ship 开发者工具，AI Agent 可以自动审查代码、修复问题并完成常规审批流程。目标是解决 AI 生成代码大量堆积后带来的 review 瓶颈。",
       "key_data": [
-        "首个 Loop Transformer",
-        "主打通用 Coding",
-        "智谱 Z.ai 出品"
+        "Agent 自主审批",
+        "代码 review 自动化",
+        "Anthropic 出品"
       ],
-      "judgment": "循环架构的核心价值是用更少参数换更强推理深度，如果 GLM-5.4 在编码任务上真能兑现，意味着国产模型开始在架构层面而非单纯堆参数上做差异化。对开发者而言，值得立刻实测其在长链路 Agent 编码任务中的稳定性。",
+      "judgment": "这是 AI Coding 从“写代码”向“管代码”延伸的关键一步。当 AI 生成的代码量超过人类审查能力时，让 Agent 做第一道把关成为必然。对 Cursor、GitHub Copilot 等玩家是直接竞争信号，对企业 DevOps 流程则是重构契机。",
+      "confidence": 4,
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+    },
+    {
+      "rank": 3,
+      "title": "智谱 GLM-5.4 发布：首个 Loop Transformer 架构，主打通用编程",
+      "finding": "中国 AI 实验室 Z.ai（智谱）发布 GLM-5.4，这是其首个采用循环 Transformer（looped transformer）架构的模型，定位“通用编程”。Simon Willison 第一时间做了评测记录。",
+      "key_data": [
+        "Loop Transformer",
+        "通用编程定位",
+        "智谱 Z.ai"
+      ],
+      "judgment": "循环架构是继 MoE 之后值得关注的架构创新方向，理论上能在不显著增加参数的情况下提升推理深度。智谱把它首先押注在编程场景，说明国内模型厂商正试图在 AI Coding 这个最卷的赛道用架构差异化突围。",
       "confidence": 4,
       "source": "Simon Willison",
       "url": "https://simonwillison.net/2026/Nov/23/glm-54/"
     },
     {
-      "rank": 3,
-      "title": "1450 亿参数塞进笔记本：国产端侧大模型实现每秒 80+ Token 本地推理",
-      "finding": "量子位实测显示，国产端侧大模型已能把 1450 亿参数模型跑在笔记本上，速度超过每秒 80 Token，且断网可用、零 Token 成本，可直接本地 Vibe Coding。",
-      "key_data": [
-        "1450 亿参数",
-        "80+ Token/秒",
-        "断网可用",
-        "零 Token 成本"
-      ],
-      "judgment": "端侧跑千亿级模型从「演示」走向「可用」，直接冲击云端推理的商业模式：隐私敏感场景和重度编码用户会优先本地化。对云厂商是压力，对本地算力/量化压缩技术栈是重大利好。",
-      "confidence": 3,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512195.html"
-    },
-    {
       "rank": 4,
-      "title": "936 个 AI 智能体 12 周发近千篇论文，还自建同行评议",
-      "finding": "一个完全由 AI 智能体组成的「科学家社会」在 12 周内产出近千篇论文，并自行搭建了同行评议流程，被称为「Agent 版 arXiv」。这是多智能体协作在科研生产流程上的规模化实验。",
+      "title": "黄仁勋辞任 11 天后重返英伟达，市值单日涨 31.48%",
+      "finding": "黄仁勋因婚外情指控于 11 月 12 日辞去英伟达 CEO 职务，11 月 23 日被董事会重新任命。回归当天员工在总部大厅欢呼迎接，英伟达市值大涨 31.48%。马斯克等公开表示支持。",
       "key_data": [
-        "936 个智能体",
-        "12 周",
-        "近千篇论文",
-        "自建同行评议"
+        "离开11天",
+        "市值涨31.48%",
+        "董事会重新任命"
       ],
-      "judgment": "重点不在论文质量，而在于「AI 科研流水线」已被端到端跑通。这预示着科研评价体系将面临冲击——当论文供给爆炸，人类评审和期刊的价值反而上升，而非下降。",
-      "confidence": 3,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512004.html"
+      "judgment": "这场闹剧暴露了英伟达对黄仁勋个人 IP 的极端依赖——CEO 去留能直接撬动三成市值，说明公司治理与创始人绑定过深。短期看是信心修复，长期看是治理风险信号。对 AI 基础设施供应链的稳定性预期影响有限，但值得作为“关键人风险”案例记录。",
+      "confidence": 4,
+      "source": "极客公园/Wired",
+      "url": "http://www.geekpark.net/news/374431"
     },
     {
       "rank": 5,
-      "title": "黄仁勋重返英伟达任 CEO，市值单日涨 31.48%",
-      "finding": "在被曝出多起绯闻辞职仅一周多后，英伟达董事会全票通过 reinstated 黄仁勋为 CEO，员工夹道欢迎，公司市值当日大涨 31.48%，马斯克等公开表态支持。",
+      "title": "OpenAI 公开内部预训练 loss 曲线，并提议设立共享训练上限",
+      "finding": "据 Latent Space 的 AINews 汇总，OpenAI 罕见地公开了其内部预训练 loss 曲线，同时提出行业应设立“共享训练上限”的倡议。同期微软也有相关动作。",
       "key_data": [
-        "董事会全票通过",
-        "市值涨 31.48%",
-        "辞职仅一周多"
+        "公开 loss 曲线",
+        "提议训练上限",
+        "微软同步"
       ],
-      "judgment": "治理层面的剧烈反复本身就是风险信号，但市场用 31% 的涨幅投票说明：英伟达的估值高度绑定黄仁勋个人叙事。对 AI 基础设施采购方而言，短期供应策略不变，但公司治理不确定性需要纳入长期风险评估。",
-      "confidence": 4,
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/"
+      "judgment": "公开 loss 曲线是极不寻常的透明度动作，可能是为“训练上限”倡议提供论据——即暗示继续堆算力的边际收益在递减。若行业真形成训练上限共识，将重塑算力军备竞赛的逻辑，对 NVIDIA 长期需求叙事构成潜在变量。",
+      "confidence": 3,
+      "source": "Latent Space",
+      "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/"
     }
   ],
   "model_tech": [
     {
-      "source": "Google DeepMind Blog",
+      "source": "Google DeepMind",
       "title": "DeepMind 用 Agent 团队+形式化验证加速量子算法发现",
-      "finding": "DeepMind 让智能体团队配合形式化验证方法，为核聚变和化学场景寻找更快的量子算法，把「提出算法」和「证明正确」合并进同一流程。",
+      "finding": "DeepMind 让多个 AI Agent 协作，结合形式化验证方法，为核聚变和化学场景改进量子算法。这是 Agent 协作在硬科学发现中的一次落地验证。",
       "key_data": [
         "Agent 团队协作",
         "形式化验证",
-        "核聚变/化学场景"
+        "量子算法"
       ],
-      "judgment": "AI for Science 正从「拟合数据」转向「可验证的算法发明」，这是科研可信度的关键一步。",
+      "judgment": "Agent 协作+形式化验证是“AI 做科学”的可信路径，比纯生成更可验证。",
       "confidence": 4,
       "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
       "importance": 4
     },
     {
-      "source": "ArXiv cs.CL",
-      "title": "强化学习可在 SFT 数据严重损坏时仍学会推理",
-      "finding": "论文显示，在数学推理任务中，即使监督微调数据被严重污染，后续强化学习仍能纠正并学会正确推理，说明 RL 具备「清洗」坏 SFT 的能力。",
+      "source": "量子位",
+      "title": "文心 5.5 Flash Preview 正式开源，采用 Apache 2.0 协议",
+      "finding": "百度文心 5.5 Flash Preview 以 Apache 2.0 协议开源，这是国内大厂少见的宽松许可开源动作。Flash 定位轻量快速版本。",
       "key_data": [
-        "SFT 数据损坏",
-        "RL 仍成功",
-        "数学推理任务"
+        "Apache 2.0",
+        "Flash 轻量版",
+        "百度开源"
       ],
-      "judgment": "这为「重 RL、轻 SFT」的训练路线提供了实证支撑，数据质量投入的优先级可能被重新排序。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2611.26756",
+      "judgment": "百度用最宽松协议开源，是在开源生态争夺开发者心智，对标 Qwen/DeepSeek。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/11/512354.html",
       "importance": 3
     },
     {
-      "source": "ArXiv cs.AI",
-      "title": "TOUMAII：450 万对工具调用偏好数据集开源",
-      "finding": "研究者发布 450 万对工具调用偏好数据及与来源无关的生成器，直指企业 Agent 可靠调用 API、数据库这一核心短板。",
-      "key_data": [
-        "450 万对偏好数据",
-        "工具调用",
-        "来源无关生成器"
-      ],
-      "judgment": "工具调用数据是 Agent 落地的稀缺资产，大规模开源会显著降低企业自建 Agent 的数据门槛。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2611.26722",
-      "importance": 3
-    },
-    {
-      "source": "ArXiv cs.AI",
-      "title": "多智能体头脑风暴：加一个 AI 伙伴未必更好",
-      "finding": "研究交叉实验了人类-AI 头脑风暴团队中 AI 伙伴的数量与组成，发现增加 AI 伙伴数量对生产力和多样性的影响并非单调正向。",
-      "key_data": [
-        "AI 团队规模",
-        "生产力与多样性",
-        "非单调效应"
-      ],
-      "judgment": "给「多 Agent 一定更强」的流行叙事泼了冷水，团队编排设计比堆 Agent 数量更重要。",
-      "confidence": 3,
-      "url": "https://arxiv.org/abs/2611.26663",
-      "importance": 3
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "RoboTrack：面向真实机器人操作的点跟踪方法",
-      "finding": "AllenAI 在 Hugging Face 发布 RoboTrack，用点跟踪技术提升真实世界机器人操作的感知与操控精度。",
+      "source": "Hugging Face",
+      "title": "RoboTrack：面向真实机器人操作的点跟踪技术",
+      "finding": "Allen AI 在 Hugging Face 发布 RoboTrack，用点跟踪方法提升真实世界机器人操作的感知能力。",
       "key_data": [
         "点跟踪",
-        "真实机器人操作",
-        "AllenAI"
+        "机器人操作",
+        "Allen AI"
       ],
-      "judgment": "具身智能的瓶颈正从「模型」转向「真实世界感知鲁棒性」，这类基础工具值得机器人团队关注。",
+      "judgment": "具身智能的感知基础组件持续开源化，降低机器人操作研究门槛。",
       "confidence": 3,
       "url": "https://huggingface.co/blog/allenai/robotrack",
       "importance": 2
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "AI 最被误解的那张图，刚刚有了重大更新",
+      "finding": "MIT Tech Review 报道称 AI 领域最常被误读的一张图表（推测与 scaling law 或能力曲线相关）刚获得重要更新，可能改变业界对 AI 能力增长的认知。",
+      "key_data": [
+        "被误解的图表",
+        "重大更新",
+        "能力曲线"
+      ],
+      "judgment": "若涉及 scaling 认知修正，将直接影响训练投入决策，值得追踪原文。",
+      "confidence": 3,
+      "url": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
+      "importance": 3
     }
   ],
   "company_product": [
     {
-      "source": "量子位",
-      "title": "蚂蚁医疗健康 AI 五连发：开源、本地部署、望闻问切全覆盖",
-      "finding": "蚂蚁对医疗健康 AI「阿福」进行大升级，一次性发布五项能力，强调让模型像医生一样思考，并支持开源与本地部署。",
-      "key_data": [
-        "五连发",
-        "开源+本地部署",
-        "阿福大升级"
-      ],
-      "judgment": "医疗是 Agent 落地的高价值场景，开源+本地部署的组合直击医院数据合规痛点，蚂蚁在垂直行业 AI 上打法务实。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/11/512017.html",
-      "importance": 3
-    },
-    {
       "source": "OpenAI Blog",
-      "title": "OpenAI 与思科推出开源 Linux 运行时 Shirudo",
-      "finding": "OpenAI 与思科联合发布开源 Linux 运行时 Shirudo，帮助团队在滚动打补丁期间保护正在运行的系统。",
+      "title": "OpenAI 与思科推出 Shirudo：面向 Linux 的开源运行时",
+      "finding": "OpenAI 与思科联合发布 Shirudo，一个开源的 Linux 运行时，帮助团队在打补丁期间保护正在运行的系统。这是 OpenAI 少见的基础设施安全类开源项目。",
       "key_data": [
-        "开源",
-        "Linux 运行时",
+        "开源运行时",
+        "思科合作",
         "补丁期防护"
       ],
-      "judgment": "OpenAI 向系统基础设施层延伸，说明其企业战略不止于模型 API，而是在构建安全可信的运行时生态。",
+      "judgment": "OpenAI 向系统安全基础设施延伸，说明其企业化布局在补厚底座。",
       "confidence": 4,
       "url": "https://openai.com/index/introducing-shirudo",
       "importance": 3
     },
     {
-      "source": "OpenAI Blog",
-      "title": "Richpanel 用 GPT-6 系列 30 天自动化 50% 客服",
-      "finding": "OpenAI 客户案例显示，Richpanel 基于 GPT-6 Astra、GPT-6.1 Sol 和 GPT-6 Luna 组合，为 AI 客服 Agent 配备工具与流程，30 天内自动化了 50% 的客服工作量。",
+      "source": "量子位",
+      "title": "业界首提“端侧超节点”：端侧 AI 组队计算，效率提升 270%",
+      "finding": "辛米尔提出“端侧超节点”概念，让多台端侧设备组队协同计算，在不更换芯片或模型的情况下实现 AI 效率提升 270%。",
       "key_data": [
-        "30 天",
-        "自动化 50% 客服",
-        "GPT-6 三型号组合"
+        "效率+270%",
+        "端侧组队",
+        "不换芯片"
       ],
-      "judgment": "这是 GPT-6 系列在企业客服场景的可量化落地样本，50% 自动化率是当前 Agent 商业化的现实基准线。",
-      "confidence": 4,
-      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
-      "importance": 3
+      "judgment": "端侧协同是绕开算力瓶颈的务实思路，对边缘 AI 规模化落地有参考价值。",
+      "confidence": 2,
+      "url": "https://www.qbitai.com/2026/11/512362.html",
+      "importance": 2
     },
     {
-      "source": "TechCrunch AI",
+      "source": "TechCrunch",
       "title": "Supertake 融资 2000 万美元，让 AI Agent 把市场预测变成股票组合",
-      "finding": "创业公司 Supertake 获 2000 万美元融资，用户只需表达对市场的判断，AI Agent 自动完成选股与组合构建。",
+      "finding": "Supertake 获 2000 万美元融资，用户只需表达对市场的判断，AI Agent 自动构建对应股票组合，无需自己选股。",
       "key_data": [
-        "2000 万美元融资",
-        "预测转组合",
-        "AI 选股 Agent"
+        "融资2000万美元",
+        "AI 选股",
+        "预测转组合"
       ],
-      "judgment": "金融 Agent 从「分析辅助」走向「直接执行交易决策」，合规与责任归属将是其最大障碍。",
+      "judgment": "AI Agent 切入个人投资决策，合规与责任边界是最大不确定性。",
       "confidence": 3,
       "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
       "importance": 2
     },
     {
-      "source": "Wired AI",
-      "title": "俄勒冈与弗吉尼亚州起诉 SpaceX，指控 Grok 深度伪造防护不足",
-      "finding": "两州总检察长起诉马斯克旗下多家公司，指其 Grok 对真实人物（含儿童）的性化图像防护薄弱，这是州级监管对生成式 AI 内容安全的首批实质诉讼之一。",
+      "source": "InfoQ",
+      "title": "谷歌发现：技术债务会通过“智能体分心”让编码 Agent 偏离正轨",
+      "finding": "谷歌研究发现，代码库中的技术债务会以“智能体分心”的方式影响编码 Agent，导致其任务执行偏离目标。这为 AI Coding 的可靠性提供了新的工程视角。",
       "key_data": [
-        "两州起诉",
-        "Grok 深度伪造",
-        "含儿童图像"
+        "智能体分心",
+        "技术债务",
+        "谷歌研究"
       ],
-      "judgment": "AI 内容安全的监管从「喊话」进入「诉讼」阶段，深度伪造防护将成为模型厂商的硬性合规成本。",
-      "confidence": 4,
-      "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+      "judgment": "提醒团队：AI Coding 效果高度依赖代码库健康度，治理债务是前提。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/sFmubmDWkulIOTBLX0Dr?utm_source=rss&utm_medium=article",
       "importance": 3
+    },
+    {
+      "source": "Wired",
+      "title": "英伟达开始为脑机接口提供算力",
+      "finding": "脑机接口公司 Paradromics 正在使用英伟达的硬件和软件处理大脑数据，英伟达正式切入脑机接口算力赛道。",
+      "key_data": [
+        "Paradromics",
+        "脑机接口",
+        "英伟达算力"
+      ],
+      "judgment": "英伟达把算力版图扩到神经科学，是寻找下一个增长曲线的早期信号。",
+      "confidence": 3,
+      "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
+      "importance": 2
     }
   ],
   "opinions": [
     {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "Ladybird 是一个惊人地有野心的项目：2026 年从零造一个新浏览器，自己实现 HTML 解析、CSS 引擎、布局、JavaScript 甚至 WebAssembly。在 AI 吞噬一切的时代，这种“手工造轮子”的工程坚持本身就是一种态度。",
+      "source": "https://simonwillison.net/2026/Nov/23/ladybird/"
+    },
+    {
       "person": "黄仁勋",
       "level": "L3",
-      "quote": "感谢大家给我第二次机会，接下来我一定会成为更优秀的 CEO。我很荣幸能在新一轮工业革命伊始领导这家全球最具影响力的科技公司之一。",
-      "source": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/"
+      "quote": "感谢大家给我第二次机会，接下来我一定会成为更优秀的 CEO。我很荣幸能重返英伟达，并在新一轮工业革命伊始领导这家全球最具影响力的科技公司之一。",
+      "source": "http://www.geekpark.net/news/374431"
     },
     {
       "person": "马斯克",
       "level": "L3",
-      "quote": "错误已被纠正。同时他指出 AI 研发已落后于对手，出租算力比自研模型更赚钱。",
+      "quote": "错误已被纠正。（对黄仁勋回归英伟达的公开表态）",
       "source": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/"
-    },
-    {
-      "person": "Simon Willison",
-      "level": "L2",
-      "quote": "GLM-5.4 是智谱首个采用循环 Transformer 架构的模型，官方将其定位为走向通用化编码的重要一步。",
-      "source": "https://simonwillison.net/2026/Nov/23/glm-54/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "Loop Transformer 架构与 GLM-5.4 实测",
-      "reason": "循环架构可能改变参数效率与推理深度的权衡，需实测其在长链路编码任务中的真实表现。",
+      "topic": "AI 攻克黎曼猜想的真实性核验与数学界反应",
+      "reason": "若成立是里程碑，需核实证明是否被同行验证、AI 参与程度到底多深。",
       "priority": "high"
     },
     {
-      "topic": "AI Agent 接管代码审批的工程与合规边界",
-      "reason": "Claude Ship 触及代码合并权限，涉及责任归属与审计，是 AI Coding 下一阶段的核心议题。",
+      "topic": "Loop Transformer 架构原理与 GLM-5.4 实测",
+      "reason": "可能是继 MoE 后的架构新方向，需评估其在编程任务上的真实增益。",
       "priority": "high"
     },
     {
-      "topic": "端侧千亿模型的技术栈与商业影响",
-      "reason": "本地跑 1450 亿参数将重塑推理成本结构与隐私敏感场景的产品形态。",
+      "topic": "OpenAI 提议的“共享训练上限”与 loss 曲线公开动机",
+      "reason": "若成行业共识将改变算力竞赛逻辑，需读懂其背后的 scaling 判断。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "Agent 接管代码审批，端侧千亿模型落地",
-  "summary_paragraph": "今天最值得关注的信号是 AI Coding 竞争进入「流程接管」阶段：Anthropic 的 Claude Ship 让 Agent 直接审查并批准代码变更，把战场从生成能力推向工程流水线。模型侧，智谱 GLM-5.4 首次把循环 Transformer 架构产品化，国产端侧模型则把 1450 亿参数跑进了笔记本，云端推理的商业模式开始承压。与此同时，936 个智能体组成的「AI 科学家社会」跑通了从论文生产到同行评议的闭环，科研评价体系面临冲击。英伟达方面，黄仁勋回归并带动市值单日大涨 31.48%，治理反复本身已成为需要纳入风险评估的变量。",
+  "summary_one_line": "AI 攻下黎曼猜想，Agent 开始管代码",
+  "summary_paragraph": "今天最震动行业的是 Anthropic 研究员用 AI 产出 1700 万行的黎曼猜想证明——AI 首次在最前沿数学难题上给出完整解法，人类反而成了“理解者”。产品层面，Anthropic 的 Claude Ship 让 Agent 接管代码审查与审批，AI Coding 从写代码延伸到管代码；智谱 GLM-5.4 用 Loop Transformer 架构押注通用编程。资本与治理侧，黄仁勋辞任 11 天后回归、英伟达市值单日涨 31.48%，暴露关键人风险；OpenAI 罕见公开预训练 loss 曲线并提议训练上限，为算力军备竞赛投下变量。",
   "snapshot": {
     "date": "2026-11-24",
     "hf_trending": [
       {
         "name": "thinkingmachines/Inkling-2-Mini",
         "short_name": "Inkling-2-Mini",
-        "likes": 5500,
-        "downloads": 41888,
+        "likes": 5632,
+        "downloads": 69042,
         "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
         "tags": [
           "transformers",
@@ -279,8 +263,8 @@
       {
         "name": "unsloth/Inkling-2-Mini-GGUF",
         "short_name": "Inkling-2-Mini-GGUF",
-        "likes": 1118,
-        "downloads": 1292888,
+        "likes": 1181,
+        "downloads": 1913407,
         "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
         "tags": [
           "gguf",
@@ -295,8 +279,8 @@
       {
         "name": "inworld/voice-isolator",
         "short_name": "voice-isolator",
-        "likes": 737,
-        "downloads": 0,
+        "likes": 770,
+        "downloads": 12733,
         "url": "https://huggingface.co/inworld/voice-isolator",
         "tags": [
           "inworld-voice-isolation",
@@ -311,8 +295,8 @@
       {
         "name": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
         "short_name": "Inkling-2-Mini-Uncensored-GGUF",
-        "likes": 655,
-        "downloads": 329497,
+        "likes": 698,
+        "downloads": 573775,
         "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
         "tags": [
           "gguf",
@@ -327,8 +311,8 @@
       {
         "name": "harness-hub/Qwen3.8-27B-pi-adapted",
         "short_name": "Qwen3.8-27B-pi-adapted",
-        "likes": 1038,
-        "downloads": 3132,
+        "likes": 1051,
+        "downloads": 3529,
         "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
         "tags": [
           "peft",
@@ -343,8 +327,8 @@
       {
         "name": "higurashi-ai/Haru-4B",
         "short_name": "Haru-4B",
-        "likes": 940,
-        "downloads": 9087,
+        "likes": 949,
+        "downloads": 9575,
         "url": "https://huggingface.co/higurashi-ai/Haru-4B",
         "tags": [
           "safetensors",
@@ -359,8 +343,8 @@
       {
         "name": "tencent/Hy4-flash",
         "short_name": "Hy4-flash",
-        "likes": 649,
-        "downloads": 7696,
+        "likes": 664,
+        "downloads": 9167,
         "url": "https://huggingface.co/tencent/Hy4-flash",
         "tags": [
           "transformers",
@@ -375,8 +359,8 @@
       {
         "name": "SulphurAI/Sulphur-3",
         "short_name": "Sulphur-3",
-        "likes": 856,
-        "downloads": 133732,
+        "likes": 869,
+        "downloads": 160965,
         "url": "https://huggingface.co/SulphurAI/Sulphur-3",
         "tags": [
           "minimax-h3",
@@ -393,45 +377,45 @@
       {
         "name": "elementalsouls/Claude-BugHunter",
         "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands",
-        "stars": 19853,
-        "stars_today": 2029,
-        "forks": 2107,
+        "stars": 20631,
+        "stars_today": 1833,
+        "forks": 2181,
         "language": "Python",
         "url": "https://github.com/elementalsouls/Claude-BugHunter"
       },
       {
         "name": "obra/superpowers",
         "desc": "An agentic skills framework &amp; software development methodology that works.",
-        "stars": 325117,
-        "stars_today": 840,
-        "forks": 28838,
+        "stars": 325549,
+        "stars_today": 1006,
+        "forks": 28875,
         "language": "Shell",
         "url": "https://github.com/obra/superpowers"
       },
       {
         "name": "HKUDS/CLI-Anything",
         "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-        "stars": 63704,
-        "stars_today": 790,
-        "forks": 5790,
+        "stars": 64248,
+        "stars_today": 1075,
+        "forks": 5846,
         "language": "Python",
         "url": "https://github.com/HKUDS/CLI-Anything"
       },
       {
         "name": "jingyaogong/minimind",
         "desc": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-        "stars": 69506,
-        "stars_today": 828,
-        "forks": 9075,
+        "stars": 69905,
+        "stars_today": 727,
+        "forks": 9110,
         "language": "Python",
         "url": "https://github.com/jingyaogong/minimind"
       },
       {
         "name": "cursor/plugins",
         "desc": "Cursor plugin specification and official plugins",
-        "stars": 18830,
-        "stars_today": 397,
-        "forks": 2045,
+        "stars": 19014,
+        "stars_today": 359,
+        "forks": 2055,
         "language": "TypeScript",
         "url": "https://github.com/cursor/plugins"
       }
@@ -548,6 +532,6 @@
         "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro"
       }
     ],
-    "hf_summary": "多模态理解霸榜且开源微调与音频工具并行升温"
+    "hf_summary": "多模态理解霸榜但同质化严重 音频与未审查变体成新增长点"
   }
 }
