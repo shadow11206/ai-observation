@@ -3,8 +3,8 @@
   "reports": [
     {
       "date": "2026-11-26",
-      "title": "今日 AI 日报：Gemini 4 Neon 发布，谷歌 DeepMind 宣告重返前沿实验室第一梯队 + 4 条重要动态",
-      "excerpt": "谷歌用一次硬碰硬的评测胜利宣告自己回到牌桌中央。对开发者来说，模型选型的天平会重…",
+      "title": "今日 AI 日报：Anthropic 用 Rust 重写 Claude API，AI Agent 正在改变其工程组织 + 4 条重要动态",
+      "excerpt": "这是比模型跑分更有价值的信号：当模型公司自己用 Agent 重写核心服务，说明 …",
       "top_count": 5,
       "file": "2026-11-26.json"
     },

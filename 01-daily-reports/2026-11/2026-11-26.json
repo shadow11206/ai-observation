@@ -3,70 +3,73 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Gemini 4 Neon 发布，谷歌 DeepMind 宣告重返前沿实验室第一梯队",
-      "finding": "谷歌发布 Gemini 4 Neon，在 LiveBench 上击败了 Astra 和 Fable 两个竞品，同时把 Theo 的 TypeScript 到 Rust 基准测试运行时间砍掉了 48.6%。这是 GDM 在经历一年多的追赶后，首次在公开评测中全面领先。",
-      "key_data": [
-        "LiveBench 超越 Astra/Fable",
-        "TS→Rust 提速 48.6%",
-        "Gemini 4 代际"
-      ],
-      "judgment": "谷歌用一次硬碰硬的评测胜利宣告自己回到牌桌中央。对开发者来说，模型选型的天平会重新向 Gemini 倾斜；对 OpenAI 和 Anthropic 来说，价格战和迭代节奏只会更狠。",
-      "confidence": 4,
-      "source": "Latent Space",
-      "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/"
-    },
-    {
-      "rank": 2,
-      "title": "Anthropic 用 Rust 重写 Claude API，AI Agent 正在重塑其工程流程",
-      "finding": "Anthropic 工程师 Katelyn Lesse 披露，公司已用 Rust 重写 Claude 的 API，并让 AI Agent 深度参与内部软件开发。这是头部实验室第一次系统性地公开「AI 写自家核心基础设施」的实践细节。",
+      "title": "Anthropic 用 Rust 重写 Claude API，AI Agent 正在改变其工程组织",
+      "finding": "Anthropic 工程负责人 Katelyn Lesse 在 Pragmatic Engineer 播客中披露，公司已将 Claude 的 API 用 Rust 重写，并系统性地用 AI Agent 改造内部研发流程。这是头部模型公司首次公开讲述「AI 写 AI 基础设施」的真实工程细节。",
       "key_data": [
         "Rust 重写 API",
-        "AI Agent 参与开发",
-        "Pragmatic Engineer 访谈"
+        "AI Agent 改造研发流程",
+        "头部实验室一手披露"
       ],
-      "judgment": "这不是一次普通的技术栈迁移，而是「AI 造 AI」从口号变成工程现实的信号。对工程团队来说，未来两年不重构开发流程、不让 Agent 进入生产链路，就会被甩开。",
+      "judgment": "这是比模型跑分更有价值的信号：当模型公司自己用 Agent 重写核心服务，说明 Agent 已从演示品变成生产工具。对开发者而言，基础设施层的语言选型（Rust）和 Agent 编排能力，正在成为新的工程分水岭。",
       "confidence": 4,
       "source": "The Pragmatic Engineer",
       "url": "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in"
     },
     {
-      "rank": 3,
-      "title": "数学证明产出速度已超过人类阅读能力，AI 正在打开「数学新大陆」",
-      "finding": "从 Erdős 问题到矩阵乘法与傅里叶变换的新界，AI 生成的数学证明正以人类跟不上的速度涌现。Scott Aaronson 评价说，我们得到的不是零散答案，而是一整块此前只在雾中窥见的数学真理大陆。",
-      "key_data": [
-        "Erdős 问题被攻克",
-        "矩阵乘法新界",
-        "证明产出快于阅读"
-      ],
-      "judgment": "AI for Science 的第一个真正拐点出现在数学领域。这意味着科研的评价体系、同行评审、甚至数学家的工作方式都要重写——谁能先建好「人机协作验证」的流水线，谁就掌握下一阶段科研基础设施。",
-      "confidence": 4,
-      "source": "Latent Space / Simon Willison",
-      "url": "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/"
-    },
-    {
-      "rank": 4,
-      "title": "OpenAI 合并 Chat 与 Work 体验，重度用户将更早触达用量上限",
-      "finding": "OpenAI 宣布把 ChatGPT 的 Chat 和 Work 两种体验合并，并引入统一的用量计量表。这意味着此前分开计算的额度将被打通，重度用户可能比过去更早碰到限制。",
+      "rank": 2,
+      "title": "OpenAI 合并 Chat 与 Work 体验，重度用户将更快触达用量上限",
+      "finding": "OpenAI 宣布将 ChatGPT 的 Chat 和 Work 两种体验合并，并引入统一的用量计量表。官方承认，重度用户会比以前更快碰到使用上限，其中 GPT-6.2 的 Astra 模式限额消耗快 40%，Sol 模式快 25%。",
       "key_data": [
         "Chat 与 Work 合并",
-        "统一用量计量",
-        "重度用户更早限流"
+        "Astra 限额快 40%",
+        "Sol 限额快 25%",
+        "统一用量表"
       ],
-      "judgment": "这是 OpenAI 从「拉新」转向「精细化运营」的明确信号。对重度开发者来说，API 与订阅的边界会越来越模糊，成本规划需要重新算账；对竞品来说，这是抢用户的窗口期。",
+      "judgment": "这是 OpenAI 从「拉新」转向「算力配给」的明确信号。合并产品线是为了降低维护成本，但限额收紧说明推理算力仍是硬约束。对重度开发者意味着：需要开始做多模型冗余和成本预算，单一依赖 ChatGPT 的时代正在结束。",
       "confidence": 4,
-      "source": "TechCrunch",
+      "source": "TechCrunch / Hacker News",
       "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
     },
     {
-      "rank": 5,
-      "title": "纽约州立法禁止 AI 聊天机器人玩具五年，儿童 AI 安全首次进入硬监管",
-      "finding": "纽约州以儿童情感发育风险和不适宜内容暴露为由，禁止 AI 聊天机器人玩具销售五年。Common Sense Media 的新研究为这一禁令提供了直接证据支撑。",
+      "rank": 3,
+      "title": "Claude Code 核心班底被 OpenAI 大量挖角，Anthropic 编程王座动摇",
+      "finding": "InfoQ 报道称，Anthropic 近期股价跌破发行价，同时 Claude Code 的核心团队被 OpenAI 大规模招募。编程 Agent 是 Anthropic 最强势的落地场景，核心人员流失直接冲击其产品迭代节奏。",
       "key_data": [
-        "五年禁令",
-        "儿童情感发育风险",
-        "Common Sense Media 研究"
+        "跌破发行价",
+        "Claude Code 核心班底流失",
+        "OpenAI 定向挖角"
       ],
-      "judgment": "这是 AI 硬件赛道的第一记监管重拳。做儿童向 AI 产品的团队必须立刻重审合规与内容护栏，而「安全设计」将从加分项变成准入门槛。",
+      "judgment": "AI Coding 的竞争已从模型能力转向人才与组织。Anthropic 若守不住 Claude Code 团队，其在开发者心智中的「最强编程模型」定位会被快速稀释。对开发者而言，工具选型要开始考虑团队稳定性风险，而非只看 benchmark。",
+      "confidence": 3,
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/z9IwzAY8hP15oDa2VKi6"
+    },
+    {
+      "rank": 4,
+      "title": "开源视频模型 MAGI-2 掀桌：成本低九成，对标闭源标杆 Seedance 2.5",
+      "finding": "极客公园报道，开源权重视频模型 MAGI-2 以「成本低九成」的姿态进入市场，直接对标上半年闭源标杆 Seedance 2.5。同期快手可灵 3.0、阿里 Wan 3.0、MiniMax H3 密集发布，视频模型赛道进入价格与开源双线混战。",
+      "key_data": [
+        "成本低九成",
+        "开源权重",
+        "对标 Seedance 2.5",
+        "30 秒一镜到底"
+      ],
+      "judgment": "视频生成正在重演 LLM 的开源挤压闭源剧本。成本降一个数量级意味着中小团队第一次能规模化做视频产品，闭源厂商的溢价空间会被迅速压缩。做内容工具的产品经理应重新评估自建 vs 调用的成本模型。",
+      "confidence": 3,
+      "source": "极客公园 / 量子位",
+      "url": "http://www.geekpark.net/news/374532"
+    },
+    {
+      "rank": 5,
+      "title": "纽约州立法禁止 AI 聊天玩具五年，AI 儿童产品首次遭遇硬监管",
+      "finding": "纽约州以儿童安全和情感发育风险为由，禁止 AI 聊天玩具销售五年。Common Sense Media 的新研究披露了不当内容暴露和情感依赖等安全失败案例，这是 AI 消费硬件首次被实质性禁售。",
+      "key_data": [
+        "禁售五年",
+        "AI 聊天玩具",
+        "儿童情感发育风险",
+        "首个硬监管"
+      ],
+      "judgment": "这是 AI 硬件创业者的警钟：面向未成年人的 AI 产品将面临比软件更严的合规门槛。做 AI 玩具、教育硬件的团队必须把内容安全和年龄分级前置到产品设计，而非事后补救。",
       "confidence": 4,
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/"
@@ -74,180 +77,194 @@
   ],
   "model_tech": [
     {
-      "source": "量子位",
-      "title": "黎曼猜想证明代码被压缩 99.5%，仅剩 7.6 万行",
-      "finding": "AI 辅助完成的黎曼猜想相关证明代码经过大幅精简，从原始规模砍掉 99.5%，最终只剩 7.6 万行。这显示 AI 不仅能生成证明，还能做工程级的代码压缩与重构。",
+      "source": "Latent Space",
+      "title": "数学证明正以读不过来的速度涌现",
+      "finding": "AINews 汇总指出，从 Erdős 问题到矩阵乘法与傅里叶变换的新界，AI 辅助产出的数学成果正在密集落地。Scott Aaronson 也评论称，我们将获得的不再是零散解法，而是一整块此前只在雾中窥见的数学新大陆。",
       "key_data": [
-        "压缩 99.5%",
-        "仅 7.6 万行",
-        "黎曼猜想"
+        "Erdős 问题",
+        "矩阵乘法新界",
+        "数学成果密集涌现"
       ],
-      "judgment": "AI 在数学工程化上的能力被低估了，代码精简本身就是一种深度理解。",
+      "judgment": "AI for Science 从论文演示进入真实产出期，数学是最先被攻破的堡垒。",
       "confidence": 3,
-      "url": "https://www.qbitai.com/2026/11/512819.html",
+      "url": "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
       "importance": 4
     },
     {
-      "source": "Hugging Face Blog",
-      "title": "科学家为 AI Agent 划出使用边界",
-      "finding": "Allen AI 在 Hugging Face 发文，讨论科研场景中 AI Agent 应该被允许做什么、不该做什么，试图为科学界建立一套可操作的 Agent 使用规范。",
+      "source": "Hugging Face / NVIDIA",
+      "title": "Nemotron 3.5 Parse 开放数据与微调方案发布",
+      "finding": "NVIDIA 在 Hugging Face 发布基于 Nemotron 3.5 Parse 的开放数据、微调与更快推理方案，延续其开放模型权重加数据配方的路线。",
       "key_data": [
-        "科研 Agent 边界",
-        "Allen AI",
-        "使用规范"
+        "Nemotron 3.5 Parse",
+        "开放数据",
+        "更快推理"
       ],
-      "judgment": "Agent 进入科研流程已不可逆，边界共识越早形成，落地阻力越小。",
-      "confidence": 3,
-      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "judgment": "NVIDIA 正用开放数据配方绑定开发者生态，推理优化是其对抗纯模型厂商的差异化。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
       "importance": 3
     },
     {
-      "source": "Hugging Face Blog",
-      "title": "IBM 推出面向印度语系的 CUGA 语音 Agent",
-      "finding": "IBM Research 发布 CUGA，一个面向印度多语言场景的语音 Agent 方案，覆盖此前主流语音产品支持不足的语种。",
+      "source": "ArXiv cs.CL",
+      "title": "MGMem：面向长程 Agent 的高效确定性记忆框架",
+      "finding": "研究者提出 MGMem，解决长程 LLM Agent 在数千轮对话中「在对的时间想起对的往事」的难题，强调确定性、可溯源与高效检索。",
       "key_data": [
-        "印度语系",
-        "语音 Agent",
-        "IBM Research"
+        "长程 Agent 记忆",
+        "确定性检索",
+        "可溯源"
       ],
-      "judgment": "语音 Agent 的竞争正从英语转向长尾语种，本地化是下一波增量。",
+      "judgment": "Agent 记忆是可落地工程问题，确定性加可溯源正是企业级部署的刚需。",
       "confidence": 3,
-      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "url": "https://arxiv.org/abs/2611.33174",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "MOZAIC：音视频深度伪造基准，区分假在哪",
+      "finding": "新基准 MOZAIC 不再只判断「真或假」，而是细粒度识别伪造的是脸、声音还是两者，弥补现有基准无法定位伪造类型的缺陷。",
+      "key_data": [
+        "音视频深伪",
+        "细粒度定位",
+        "脸/声分离"
+      ],
+      "judgment": "深伪检测从二分类走向归因，是内容安全产品化的必要一步。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.31301",
       "importance": 2
     },
     {
-      "source": "Wired",
-      "title": "机器学习借助众包数据攻克飞机颠簸预测难题",
-      "finding": "被称为「经典物理最后难题」的飞机颠簸预测，正借助 TB 级众包数据和新的机器学习方法取得突破，有望显著提升飞行安全。",
+      "source": "ArXiv cs.LG",
+      "title": "交互式 2D 环境归因推理视觉语言模型的 Agent 失败",
+      "finding": "研究指出 Agent 基准的成功率掩盖了不同失败原因，提出用交互式 2D 环境区分「误读环境」与「不会拆解任务」等失败类型。",
       "key_data": [
-        "TB 级众包数据",
-        "颠簸预测",
-        "经典物理难题"
+        "Agent 失败归因",
+        "交互式 2D 环境",
+        "成功率混淆"
       ],
-      "judgment": "AI for Science 在传统物理工程领域的落地，比大模型叙事更实在。",
+      "judgment": "Agent 评测需要从单一成功率转向失败归因，否则优化方向会跑偏。",
       "confidence": 3,
-      "url": "https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid/",
-      "importance": 3
+      "url": "https://arxiv.org/abs/2611.33162",
+      "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "量子位",
-      "title": "智元灵心平台一年孵化超 3 万个机器人智能体，推出 AIMA 生态体系",
-      "finding": "智元发布行业首个开放且完整的具身智能生态技术体系 AIMA，其灵心平台一年内孵化超过 3 万个机器人智能体，零基础用户也能参与开发。",
+      "source": "InfoQ",
+      "title": "Uber 推出安全 AI 框架，对智能体做全生命周期治理",
+      "finding": "Uber 发布面向 AI 智能体的安全框架，覆盖从开发、部署到运行的全生命周期治理，强调对 Agent 行为的持续管控。",
       "key_data": [
-        "3 万+ 智能体",
-        "AIMA 生态",
-        "零基础开发"
+        "全生命周期治理",
+        "Agent 安全框架",
+        "企业级落地"
       ],
-      "judgment": "具身智能开始复制「应用商店」模式，生态卡位战提前打响。",
+      "judgment": "大厂开始把 Agent 治理产品化，说明 Agent 已进入需要合规审计的生产阶段。",
       "confidence": 3,
-      "url": "https://www.qbitai.com/2026/11/512715.html",
-      "importance": 4
-    },
-    {
-      "source": "量子位",
-      "title": "九章云极发布物理 AI 工厂与生态开放计划",
-      "finding": "九章云极在深圳举办物理 AI 行业峰会，发布「物理 AI 工厂」及生态开放计划，主打用算力驱动真实世界场景的 AI 落地。",
-      "key_data": [
-        "物理 AI 工厂",
-        "生态开放",
-        "算力驱动"
-      ],
-      "judgment": "算力厂商正从卖资源转向卖场景解决方案，物理 AI 是新叙事。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/11/512582.html",
-      "importance": 3
-    },
-    {
-      "source": "量子位",
-      "title": "商汤发布 SenseNova U1.6，图像生成逼真度接近摄影作品",
-      "finding": "商汤 SenseNova U1.6 的图像生成效果被评价为「以为是摄影作品」，显示国产图像模型在写实度上取得明显进步。",
-      "key_data": [
-        "SenseNova U1.6",
-        "摄影级写实",
-        "商汤"
-      ],
-      "judgment": "国产图像模型在写实赛道追平国际一线，商用素材市场将受冲击。",
-      "confidence": 3,
-      "url": "https://www.qbitai.com/2026/11/512748.html",
-      "importance": 3
-    },
-    {
-      "source": "极客公园",
-      "title": "荣耀 700 系列发布：前沿模型可以接入，但系统入口必须握在自己手里",
-      "finding": "荣耀在武汉发布 700 系列，AI 助手 YOYO 接入豆包并配备专属背屏载体。荣耀明确表态：欢迎前沿模型进来，但手机的系统入口不能交给外部模型厂商。",
-      "key_data": [
-        "YOYO 接入豆包",
-        "1.72 英寸背屏",
-        "入口自主"
-      ],
-      "judgment": "手机厂商与模型厂商的入口之争公开化，AI 手机的合作模式要重谈。",
-      "confidence": 3,
-      "url": "http://www.geekpark.net/news/374462",
+      "url": "https://www.infoq.cn/article/xA3g2i0VtTZIOVePMedY",
       "importance": 3
     },
     {
       "source": "InfoQ",
-      "title": "AMD 联合中科慧灵完成人形机器人端侧 AI 验证，探索「大小脑」双处理器架构",
-      "finding": "AMD 与中科慧灵合作，在人形机器人上完成端侧 AI 验证，采用「大模型大脑 + 实时小脑」的双处理器架构，把推理放到机器人本地。",
+      "title": "Snowflake CoCo 进化：数据开发进入 Agent 自主执行时代",
+      "finding": "Snowflake 的 CoCo 升级为可自主执行数据开发任务的 Agent，配合 CoWork 从受治理洞察走向主动式业务作业。",
       "key_data": [
-        "端侧 AI 验证",
-        "大小脑双处理器",
-        "AMD + 中科慧灵"
+        "CoCo 自主执行",
+        "CoWork 主动作业",
+        "数据开发 Agent"
       ],
-      "judgment": "端侧算力方案多元化，AMD 借机器人场景切入英伟达腹地。",
+      "judgment": "数据平台正把 Agent 嵌入核心工作流，数据分析师的角色会被重新定义。",
       "confidence": 3,
-      "url": "https://www.infoq.cn/article/stLpgV1kNHuvr21qRH9x",
+      "url": "https://www.infoq.cn/article/vfmBDlfQRRfHq4Jyi5b6",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "蔚来世界模型 3.0 发布，智驾训练提效 5 倍",
+      "finding": "任少卿带队发布蔚来世界模型 3.0，智驾训练效率提升 5 倍，座舱也开始引入强化学习。李斌直言不做 AI 变革可能活不下去。",
+      "key_data": [
+        "世界模型 3.0",
+        "训练提效 5 倍",
+        "座舱强化学习"
+      ],
+      "judgment": "车企把世界模型当作智驾与座舱的统一底座，AI 能力正成为车企生存线。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/11/512897.html",
+      "importance": 3
+    },
+    {
+      "source": "InfoQ",
+      "title": "Pages Data SDK 上线：前端页面无需自建后端即可接入云端数据",
+      "finding": "新发布的 Pages Data SDK 让前端页面直接接入云端数据，省去自建后端环节，降低全栈开发门槛。",
+      "key_data": [
+        "免自建后端",
+        "前端直连云端",
+        "降低全栈门槛"
+      ],
+      "judgment": "AI 生成前端加免后端数据层，独立开发者做完整产品的成本进一步下探。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/WXXMTPHLTH0bKV3rc35g",
+      "importance": 2
+    },
+    {
+      "source": "TechCrunch",
+      "title": "标普考虑因治理与「关键人」风险下调英伟达信用评级",
+      "finding": "标普可能将英伟达信用评级下调至 AA-，理由包括公司治理与对黄仁勋个人的关键人依赖风险。此前黄仁勋在全员大会上承认违反公司行为准则并道歉。",
+      "key_data": [
+        "或降至 AA-",
+        "关键人风险",
+        "治理问题"
+      ],
+      "judgment": "AI 龙头的基础设施信用开始被治理风险定价，供应链稳定性需重新评估。",
+      "confidence": 4,
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
       "importance": 3
     }
   ],
   "opinions": [
     {
-      "person": "Scott Aaronson",
-      "level": "L1",
-      "quote": "我们得到的将不是对某个复杂度问题的一次性解答，而是一整块此前只在雾中窥见的数学真理新大陆。",
-      "source": "https://simonwillison.net/2026/Nov/25/scott-aaronson/"
+      "person": "沈向洋",
+      "level": "L3",
+      "quote": "分享了一系列 AI 非共识观点，其中提出「灵巧手是人类最后的尊严」，强调具身操作能力是人与机器能力边界的关键分水岭。",
+      "source": "https://www.qbitai.com/2026/11/512840.html"
     },
     {
       "person": "Dario Amodei",
       "level": "L3",
-      "quote": "指责 Anthropic 主张把人类控制权交给 AI 是「荒谬的」。即便头部公司正在加速自动化自身的研究与模型开发，人类主导权仍是底线。",
+      "quote": "反驳竞争对手关于他主张「向 AI 交出人类控制权」的指控，称其「荒谬」，同时承认领先 AI 公司正越来越多地自动化自身研究与模型开发。",
       "source": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
     },
     {
       "person": "Thariq Shihipar",
       "level": "L1",
-      "quote": "AI 可以让软件便宜到一次产出上千个版本，同时仍然给你更多时间把一件事做到「感觉对了」。革命与复兴两种未来可以共存。",
+      "quote": "在 AI Engineer CODE 演讲中提出「革命 vs 文艺复兴」：AI 能让软件便宜到成千上万地生产，同时仍给你更多时间把一件事做到极致，两种未来可以共存。",
       "source": "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "AI 生成数学证明的验证与科研流程重构",
-      "reason": "证明产出已超人类阅读速度，验证流水线是下一个基础设施级机会。",
+      "topic": "Anthropic 用 Rust 重写 API 与 Agent 改造研发流程的工程细节",
+      "reason": "头部实验室如何用 Agent 重构自身基础设施，是最接近未来工作方式的一手样本。",
       "priority": "high"
     },
     {
-      "topic": "Anthropic 的 Rust 重写与 Agent 驱动开发实践",
-      "reason": "头部实验室「AI 造 AI」的一手工程细节，可直接借鉴到团队流程。",
+      "topic": "开源视频模型 MAGI-2 的成本结构与闭源对标实测",
+      "reason": "成本低九成若属实，将重塑视频生成的产品成本模型与竞争格局。",
       "priority": "high"
     },
     {
-      "topic": "儿童向 AI 硬件的合规与安全设计",
-      "reason": "纽约禁令是监管分水岭，产品与法务需提前布局。",
+      "topic": "AI Agent 的企业级治理框架对比（Uber vs Snowflake）",
+      "reason": "Agent 进入生产后，治理与审计能力将成为企业采购的核心决策项。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "谷歌重返前沿，AI 数学与工程双线突破",
-  "summary_paragraph": "今天最重要的信号是格局重排：Gemini 4 Neon 在 LiveBench 上击败竞品，谷歌 DeepMind 宣告重返前沿实验室第一梯队，模型选型的天平可能重新倾斜。与此同时，Anthropic 公开用 Rust 重写 Claude API 并让 Agent 深度参与开发，「AI 造 AI」从口号变成工程现实；数学领域则出现证明产出速度超过人类阅读能力的拐点。产品侧，OpenAI 合并 Chat 与 Work 并统一用量计量，转向精细化运营；纽约州对 AI 玩具下五年禁令，儿童 AI 安全首次进入硬监管。整体看，技术突破与监管收紧正在同时加速。",
+  "summary_one_line": "Agent 改写工程，视频模型掀桌",
+  "summary_paragraph": "今天最重要的信号不在跑分，而在组织与成本。Anthropic 公开用 Rust 重写 Claude API、以 AI Agent 改造研发流程，说明 Agent 已从演示品变成生产工具；与此同时 OpenAI 合并 Chat 与 Work 并收紧重度用户限额，暴露推理算力的硬约束。竞争层面，Claude Code 核心班底被 OpenAI 挖角、Anthropic 跌破发行价，AI Coding 的王座开始松动；开源视频模型 MAGI-2 以低九成成本对标闭源标杆，视频生成重演 LLM 的开源挤压剧本。监管端，纽约州禁售 AI 聊天玩具五年，为 AI 消费硬件划出第一道硬红线。",
   "snapshot": {
     "date": "2026-11-26",
     "hf_trending": [
       {
         "name": "thinkingmachines/Inkling-2-Mini",
         "short_name": "Inkling-2-Mini",
-        "likes": 6042,
+        "likes": 6116,
         "downloads": 96527,
         "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
         "tags": [
@@ -263,7 +280,7 @@
       {
         "name": "unsloth/Inkling-2-Mini-GGUF",
         "short_name": "Inkling-2-Mini-GGUF",
-        "likes": 1376,
+        "likes": 1408,
         "downloads": 2445633,
         "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
         "tags": [
@@ -279,7 +296,7 @@
       {
         "name": "inworld/voice-isolator",
         "short_name": "voice-isolator",
-        "likes": 897,
+        "likes": 918,
         "downloads": 15244,
         "url": "https://huggingface.co/inworld/voice-isolator",
         "tags": [
@@ -295,7 +312,7 @@
       {
         "name": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
         "short_name": "Inkling-2-Mini-Uncensored-GGUF",
-        "likes": 841,
+        "likes": 866,
         "downloads": 762491,
         "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
         "tags": [
@@ -311,7 +328,7 @@
       {
         "name": "SulphurAI/Sulphur-3",
         "short_name": "Sulphur-3",
-        "likes": 1083,
+        "likes": 1143,
         "downloads": 189735,
         "url": "https://huggingface.co/SulphurAI/Sulphur-3",
         "tags": [
@@ -327,7 +344,7 @@
       {
         "name": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
         "short_name": "Ternary-Bonsai-2.5-27B-GGUF",
-        "likes": 338,
+        "likes": 416,
         "downloads": 59366,
         "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
         "tags": [
@@ -341,9 +358,25 @@
         "trend": "new"
       },
       {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 13480,
+        "downloads": 3041405,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "new"
+      },
+      {
         "name": "apple/DepthPro2",
         "short_name": "DepthPro2",
-        "likes": 1254,
+        "likes": 1265,
         "downloads": 0,
         "url": "https://huggingface.co/apple/DepthPro2",
         "tags": [
@@ -355,67 +388,51 @@
         "label": "深度估计",
         "card_desc": "",
         "trend": "same"
-      },
-      {
-        "name": "llamaindex/OCRia-nano-1",
-        "short_name": "OCRia-nano-1",
-        "likes": 234,
-        "downloads": 126,
-        "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
-        "tags": [
-          "liteparse",
-          "onnx",
-          "ocr"
-        ],
-        "pipeline_tag": "image-to-text",
-        "label": "图片描述",
-        "card_desc": "",
-        "trend": "new"
       }
     ],
     "github_trending": [
       {
         "name": "elementalsouls/Claude-BugHunter",
         "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands",
-        "stars": 23093,
+        "stars": 23698,
         "stars_today": 1652,
-        "forks": 2358,
+        "forks": 2416,
         "language": "Python",
         "url": "https://github.com/elementalsouls/Claude-BugHunter"
       },
       {
         "name": "obra/superpowers",
         "desc": "An agentic skills framework &amp; software development methodology that works.",
-        "stars": 326654,
+        "stars": 327000,
         "stars_today": 903,
-        "forks": 28987,
+        "forks": 29003,
         "language": "Shell",
         "url": "https://github.com/obra/superpowers"
       },
       {
         "name": "HKUDS/CLI-Anything",
         "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-        "stars": 65712,
+        "stars": 66008,
         "stars_today": 1106,
-        "forks": 5981,
+        "forks": 6002,
         "language": "Python",
         "url": "https://github.com/HKUDS/CLI-Anything"
       },
       {
         "name": "jingyaogong/minimind",
         "desc": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-        "stars": 71003,
+        "stars": 71350,
         "stars_today": 826,
-        "forks": 9228,
+        "forks": 9260,
         "language": "Python",
         "url": "https://github.com/jingyaogong/minimind"
       },
       {
         "name": "cursor/plugins",
         "desc": "Cursor plugin specification and official plugins",
-        "stars": 19545,
+        "stars": 19655,
         "stars_today": 416,
-        "forks": 2109,
+        "forks": 2122,
         "language": "TypeScript",
         "url": "https://github.com/cursor/plugins"
       }
@@ -532,6 +549,6 @@
         "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro"
       }
     ],
-    "hf_summary": "多模态模型霸榜且开源微调活跃，音频与深度估计等垂直小模型正崛起"
+    "hf_summary": "多模态与视频生成霸榜 开源社区加速向轻量化和端侧部署倾斜"
   }
 }
