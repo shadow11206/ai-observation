@@ -1,6 +1,13 @@
 {
-  "total": 243,
+  "total": 244,
   "reports": [
+    {
+      "date": "2026-11-27",
+      "title": "今日 AI 日报：Anthropic 上市首日，Claude Code 核心团队被 OpenAI 大规模挖角 + 4 条重要动态",
+      "excerpt": "AI Coding 的竞争已从模型能力转向人才与组织稳定性。对开发者而言，Cla…",
+      "top_count": 5,
+      "file": "2026-11-27.json"
+    },
     {
       "date": "2026-11-26",
       "title": "今日 AI 日报：Anthropic 用 Rust 重写 Claude API，AI Agent 正在改变其工程组织 + 4 条重要动态",
