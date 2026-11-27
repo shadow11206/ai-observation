@@ -3,265 +3,259 @@
   "top_items": [
     {
       "rank": 1,
-      "title": "Anthropic 上市首日，Claude Code 核心团队被 OpenAI 大规模挖角",
-      "finding": "Anthropic 正式登陆公开市场，但同一天曝出 Claude Code 核心班底被 OpenAI 大量挖走，编程王座出现松动迹象。资本市场给了 Anthropic 门票，但人才战才是决定编程 Agent 归属的关键变量。",
+      "title": "Anthropic 上市，同一天 GTA VI 创下史上最成功娱乐产品发售纪录",
+      "finding": "Anthropic 正式登陆公开市场，成为又一家上市的头部 AI 实验室。同一天，打磨多年、几乎不靠 AI 生成的《GTA VI》成为史上最成功的娱乐产品发售之一。TechCrunch 借此抛出核心问题：当 AI 拼命追求效率时，人类极致打磨的作品依然能赢下市场。",
       "key_data": [
-        "Anthropic 上市首日",
-        "Claude Code 核心班底流失",
-        "OpenAI 定向挖角"
+        "Anthropic 上市",
+        "GTA VI 同日发售",
+        "史上最成功娱乐发售"
       ],
-      "judgment": "AI Coding 的竞争已从模型能力转向人才与组织稳定性。对开发者而言，Claude Code 的迭代节奏可能短期波动；对竞品而言，这是抢企业客户的窗口期。",
-      "confidence": 3,
-      "source": "InfoQ AI",
-      "url": "https://www.infoq.cn/article/z9IwzAY8hP15oDa2VKi6"
+      "judgment": "这是对「效率至上」叙事的一次有力反驳。对 AI 产品经理的启示是：AI 降低的是生产成本，不是价值上限；真正稀缺的仍是品味、打磨和叙事能力。Anthropic 上市则意味着头部实验室正式进入公开市场考核期，财务纪律会开始影响模型路线选择。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/"
     },
     {
       "rank": 2,
-      "title": "OpenAI 收紧 GPT-6.2 用量：Astra 触发限额快 40%，Sol 快 25%",
-      "finding": "OpenAI 悄然下调 GPT-6.2 的使用配额，两个变体 Astra 和 Sol 分别比此前更快撞到限额，幅度达 40% 和 25%。这通常意味着推理成本压力或算力分配向新模型倾斜。",
+      "title": "英伟达暂停向东南亚四国发货服务器，芯片管制再收紧",
+      "finding": "英伟达已通知制造伙伴，暂停向马来西亚、新加坡、泰国、印度尼西亚交付服务器，原因是美国进一步收紧防止 AI 芯片流入中国的管控。这是出口管制从「卡中国」延伸到「卡转口通道」的明确信号。",
       "key_data": [
-        "Astra 限额快 40%",
-        "Sol 限额快 25%",
-        "HN 466 分"
+        "暂停四国发货",
+        "马来西亚/新加坡/泰国/印尼",
+        "防转口中国"
       ],
-      "judgment": "对重度依赖 API 的产品是成本预警：要么涨价、要么降级、要么迁移。也暗示 OpenAI 在为下一代模型腾算力，开发者应提前做多模型冗余。",
-      "confidence": 3,
-      "source": "Hacker News",
-      "url": "https://twitter.com/thsottiaux/status/2125784147889393806"
+      "judgment": "东南亚作为「算力中转站」的套利空间被直接封堵，区域 AI 数据中心建设节奏会被打乱。对国内厂商而言，灰色渠道进一步收窄，国产算力替代的紧迫性再次上升；对出海建算力的中国企业，合规成本将成为硬约束。",
+      "confidence": 4,
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
     },
     {
       "rank": 3,
-      "title": "Google 要求 AI Agent 走自家 MCP 服务器，但 Gmail 那个连邮件都发不出去",
-      "finding": "Google 推动第三方 Agent 通过其 Workspace MCP 服务器接入，但被开发者发现 Gmail 的 MCP 实现连发送邮件这种基础能力都不支持。平台开放姿态与工程完成度严重不匹配。",
+      "title": "智谱辟谣 GLM-5.5 延期，称性能达 Fable 级、上万张国产卡进展顺利",
+      "finding": "针对外媒称 GLM-5.5 将跳票至 2027 年一季度、Kimi K4 同样延期的爆料，智谱高管杨昊翊公开辟谣，称均为假消息，并透露 GLM-5.5 性能为「Fable 级」，训练使用上万张国产 AI 卡且进展顺利。爆料中提到的延期原因是海外厂商对蒸馏技术设限。",
       "key_data": [
-        "Workspace MCP",
-        "Gmail 无法发信",
-        "HN 243 分"
+        "GLM-5.5 不跳票",
+        "上万张国产卡",
+        "Fable 级性能"
       ],
-      "judgment": "这是平台方抢 Agent 入口的典型动作，但半成品接口会拖慢生态。做 Agent 集成的团队别急着押注，先验证能力边界再投入。",
+      "judgment": "辟谣本身说明国产头部模型的发布节奏正被海外密切关注甚至被做空式爆料。若「上万张国产卡」训练属实，将是国产算力栈可用性的重要验证；但「Fable 级」这种模糊表述也说明官方仍在为最终性能留余地，需等实测。",
       "confidence": 3,
-      "source": "Hacker News",
-      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/"
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/374546"
     },
     {
       "rank": 4,
-      "title": "英国金融监管机构投诉 Meta 拒绝共享 Muse 模型用于测试",
-      "finding": "Meta 在英国上线个人 Agent 产品 Muse 前，拒绝 FCA 提出的联合测试请求，监管方警告这相当于引入“又一种攻击面”。这是监管与前沿 Agent 部署之间的正面摩擦。",
+      "title": "DeepSeek App 突然上线聊天账单，收费信号引发猜测",
+      "finding": "DeepSeek 网页端和 App 双端突然出现聊天账单展示，网友普遍猜测这是要开始收费的前兆。作为长期以低价/免费策略搅动市场的厂商，任何商业化动作都会被放大解读。",
       "key_data": [
-        "FCA 公开投诉",
-        "Muse 英国上线",
-        "拒绝联合测试"
+        "双端上线账单",
+        "收费猜测",
+        "长期低价策略"
       ],
-      "judgment": "Agent 进入金融等高敏场景，监管前置测试会成常态。拒绝配合短期省事，长期会换来更硬的合规门槛，对出海产品是明确信号。",
-      "confidence": 4,
-      "source": "Wired AI",
-      "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/"
+      "judgment": "如果 DeepSeek 转向收费，将标志着「极致低价换份额」阶段的结束，国内大模型 C 端免费时代可能开始退潮。对开发者而言，API 价格战的持续性需要重新评估；对竞品而言，这是重新定价的窗口。目前仍是猜测，需等官方口径。",
+      "confidence": 2,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/513305.html"
     },
     {
       "rank": 5,
-      "title": "381 个 AI 直播冲刺证明 P=NP，把 GitHub 干崩了",
-      "finding": "一个由 381 个 AI 会话组成的分布式攻关项目，在 Lean4 中验证通过 2400 多条引理，累计运行超一万次会话，目标直指 P=NP 这一世纪难题。无论结论如何，这种“AI 集群做形式化数学”的范式本身值得关注。",
+      "title": "英国 FCA 投诉 Meta 拒绝开放 Muse 模型用于测试",
+      "finding": "英国金融行为监管局（FCA）公开抱怨，在 Meta 于英国推出个人 Agent 之前，公司拒绝配合联合测试其 Muse 模型。监管方警告，Agent 可能成为「另一股攻击力量」。",
       "key_data": [
-        "381 个 AI 会话",
-        "2400+ 引理验证",
-        "Lean4 形式化"
+        "FCA 公开投诉",
+        "拒绝联合测试",
+        "Agent 风险警告"
       ],
-      "judgment": "多 Agent 协作做形式化证明正在从 demo 走向工程化。对研究者是工具升级，对 AI 基础设施是压力测试——GitHub 都被打崩了。",
-      "confidence": 2,
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/513021.html"
+      "judgment": "这是「Agent 上线先于监管框架」矛盾的首次公开化。金融监管机构把 Agent 视为潜在攻击面而非普通软件，意味着未来 Agent 产品在受监管行业落地时，可测试性和透明度会成为准入门槛，闭源黑箱策略将面临监管摩擦。",
+      "confidence": 4,
+      "source": "Wired AI",
+      "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/"
     }
   ],
   "model_tech": [
     {
-      "source": "Hugging Face Blog",
-      "title": "Nemotron 3.5 Parse 开放数据与微调实践：推理更快",
-      "finding": "英伟达在 Hugging Face 发布基于 Nemotron 3.5 Parse 的开放数据、微调方案与更快推理路径，主打可复现的文档解析流水线。",
+      "source": "ArXiv cs.AI",
+      "title": "上下文扩展：AI 规模化的新前沿",
+      "finding": "论文指出，许多已部署 AI 的失败并非因为推理能力弱，而是任务所依赖的状态与系统可用上下文不匹配。作者提出「上下文扩展」应作为与参数、数据并列的新 Scaling 维度。",
       "key_data": [
-        "Nemotron 3.5 Parse",
-        "开放数据",
-        "更快推理"
+        "上下文即新 Scaling 维度",
+        "失败源于状态错配",
+        "非推理能力问题"
       ],
-      "judgment": "文档解析是企业 RAG 的高频痛点，开放数据+微调配方降低了自建门槛。",
-      "confidence": 4,
-      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
-      "importance": 3
-    },
-    {
-      "source": "Hugging Face Blog",
-      "title": "llama.cpp 推出 AMD Ryzen 与 Radeon 基准测试面板",
-      "finding": "llama.cpp 官方上线针对 AMD Ryzen CPU 和 Radeon GPU 的基准面板，让本地推理性能有了统一对比口径。",
-      "key_data": [
-        "llama.cpp",
-        "AMD Ryzen/Radeon",
-        "统一基准"
-      ],
-      "judgment": "本地推理生态补齐 AMD 侧评测短板，对消费级硬件跑大模型是实质利好。",
-      "confidence": 4,
-      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-      "importance": 3
+      "judgment": "把上下文管理提升到 Scaling 高度，意味着 Agent 工程的竞争焦点将从「模型多强」转向「状态管得多好」。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.33160",
+      "importance": 4
     },
     {
       "source": "ArXiv cs.CL",
       "title": "MGMem：面向长程 Agent 的高效确定性记忆框架",
-      "finding": "针对长对话 Agent 的记忆检索问题，提出确定性、可溯源的内存框架，能在数千轮交互中稳定召回相关历史。",
+      "finding": "针对长程 LLM Agent 需要在数千轮对话中准确调取历史交互的难题，提出一个高效、确定性且保留来源溯源的记忆框架，解决「记得住、查得准、可追溯」三个问题。",
       "key_data": [
-        "长程 Agent 记忆",
-        "确定性",
-        "可溯源"
+        "数千轮对话",
+        "确定性记忆",
+        "来源可溯源"
       ],
-      "judgment": "Agent 记忆是当前工程瓶颈，可溯源设计对企业合规场景尤其关键。",
+      "judgment": "Agent 记忆正从「向量检索凑合」走向工程化框架，可溯源将是企业级 Agent 的硬需求。",
       "confidence": 3,
       "url": "https://arxiv.org/abs/2611.33174",
       "importance": 3
     },
     {
       "source": "ArXiv cs.AI",
-      "title": "MOZAIC：音视频深度伪造基准，区分假脸、假声还是都假",
-      "finding": "现有 deepfake 基准大多只判断真假，MOZAIC 能进一步区分伪造发生在人脸、声音还是两者，为检测模型提供更细粒度评测。",
+      "title": "AutoformBench：面向高等数学的精简形式化基准",
+      "finding": "AI 已能产出机器可验证的 Lean 证明，但真实数学形式化远比「证明一个定理」复杂。该基准专门评测 AI 在真实数学形式化流程中的能力，而非单点证明。",
       "key_data": [
-        "音视频双模态",
-        "细粒度归因",
-        "新基准"
+        "Lean 形式化",
+        "真实数学流程",
+        "超越单点证明"
       ],
-      "judgment": "深度伪造检测从二分类走向归因，对内容平台风控是刚需能力。",
+      "judgment": "形式化数学的评测从「能不能证」转向「能不能做完整工程」，更贴近实际科研辅助场景。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2611.31301",
-      "importance": 2
+      "url": "https://arxiv.org/abs/2611.33165",
+      "importance": 3
     },
     {
-      "source": "ArXiv cs.AI",
-      "title": "交互式图表转代码基准：MLLM 静态图表能力被高估",
-      "finding": "新基准指出，多模态模型在静态图表转代码上表现不错，但面对可交互图表时能力明显下滑，现有评测掩盖了这一差距。",
+      "source": "Wired AI",
+      "title": "德国 Q.ANT 用光波运行 AI 模型的新型芯片",
+      "finding": "德国公司 Q.ANT 尝试用光而非电来完成 AI 中最重的计算，目标是大幅降低模型推理的能耗。这是光计算从实验室走向 AI 推理负载的又一尝试。",
       "key_data": [
-        "交互式图表",
-        "MLLM 评测",
-        "能力高估"
+        "光计算芯片",
+        "降低推理能耗",
+        "德国 Q.ANT"
       ],
-      "judgment": "数据可视化类 AI 产品的真实能力被静态 benchmark 美化，选型需谨慎。",
+      "judgment": "若能耗优势可规模化，光计算可能成为推理侧绕开电力瓶颈的长期解，但离量产仍远。",
       "confidence": 3,
-      "url": "https://arxiv.org/abs/2611.31345",
+      "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+      "importance": 3
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "llama.cpp 推出 AMD Ryzen 与 Radeon 基准测试面板",
+      "finding": "llama.cpp 社区上线针对 AMD Ryzen CPU 和 Radeon GPU 的基准测试面板，让本地推理性能有了统一、可对比的公开数据来源。",
+      "key_data": [
+        "llama.cpp 基准面板",
+        "覆盖 Ryzen/Radeon",
+        "本地推理可对比"
+      ],
+      "judgment": "本地推理生态正在补齐「可测量」这一环，AMD 硬件在开源推理栈中的话语权会随之提升。",
+      "confidence": 4,
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
       "importance": 2
     }
   ],
   "company_product": [
     {
-      "source": "极客公园",
-      "title": "MAGI-2 开源权重、成本低九成，视频模型进入价格战",
-      "finding": "MAGI-2 以开源权重和低约九成的成本切入视频生成，直接对标闭源标杆 Seedance 2.5，视频模型赛道从拼效果转向拼性价比。",
+      "source": "量子位",
+      "title": "蚂蚁灵波发布 LingBot-Map 2.0，模型可自我修正空间记忆",
+      "finding": "蚂蚁灵波科技发布流式三维重建模型 LingBot-Map 2.0，模型能自行修正「空间记忆」，把地图画得更准。同期还发布另一模型，针对机器人「走偏」与「健忘」两大导航难题。",
       "key_data": [
-        "成本低九成",
-        "开源权重",
-        "对标 Seedance 2.5"
+        "流式三维重建",
+        "自我修正空间记忆",
+        "补齐导航能力"
       ],
-      "judgment": "视频生成进入开源压价阶段，闭源厂商的溢价空间会被快速压缩。",
-      "confidence": 3,
-      "url": "http://www.geekpark.net/news/374532",
-      "importance": 4
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "英伟达暂停向东南亚四国发货服务器",
-      "finding": "英伟达要求制造伙伴暂停向马来西亚、新加坡、泰国、印尼发运服务器，配合美国收紧 AI 芯片流向中国的管控。",
-      "key_data": [
-        "暂停四国发货",
-        "马来西亚/新加坡",
-        "出口管制升级"
-      ],
-      "judgment": "东南亚转口通道被堵，区域算力租赁和云服务价格可能短期上行。",
+      "judgment": "机器人空间智能的竞争从「建图」转向「建图后自我纠错」，这是具身智能落地的关键短板。",
       "confidence": 4,
-      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
-      "importance": 4
+      "url": "https://www.qbitai.com/2026/11/513211.html",
+      "importance": 3
     },
     {
-      "source": "InfoQ AI",
-      "title": "Uber 推出安全 AI 框架：对智能体做全生命周期治理",
-      "finding": "Uber 开源/公开其 AI Agent 安全治理框架，覆盖从开发、部署到运行时的全生命周期管控，面向企业级 Agent 落地。",
+      "source": "量子位",
+      "title": "首个带跨任务空间记忆的原生基模开源，机器人端侧可跑",
+      "finding": "一个带跨任务空间记忆的原生基础模型宣布开源，地图可随时修正、记忆可跨任务复用，且能在机器人端侧直接运行，无需依赖云端。",
       "key_data": [
-        "全生命周期治理",
-        "Agent 安全",
-        "企业级"
+        "跨任务空间记忆",
+        "原生基模开源",
+        "机器人端侧运行"
       ],
-      "judgment": "Agent 治理从论文走向工程模板，大厂开始输出事实标准。",
+      "judgment": "端侧可跑 + 跨任务记忆，直接降低了具身智能的部署门槛，开源会加速这一层的军备竞赛。",
       "confidence": 3,
-      "url": "https://www.infoq.cn/article/xA3g2i0VtTZIOVePMedY",
+      "url": "https://www.qbitai.com/2026/11/513227.html",
       "importance": 3
     },
     {
       "source": "InfoQ AI",
-      "title": "Snowflake CoCo 进化：数据开发进入 Agent 自主执行",
-      "finding": "Snowflake 的 CoCo 升级为可自主执行数据开发任务的 Agent，配合 CoWork 从洞察走向主动式业务作业。",
+      "title": "JioHotstar 实测：给编码 Agent 加知识库反而更费 Token",
+      "finding": "JioHotstar 团队测试了六种给 AI 编码智能体接入知识库的方案，结论出人意料：加知识库反而消耗更多 Token，简单的文件搜索依然最能打。",
       "key_data": [
-        "CoCo 自主执行",
-        "CoWork 主动作业",
-        "数据开发 Agent"
+        "六种方案实测",
+        "知识库更费 Token",
+        "文件搜索仍最优"
       ],
-      "judgment": "数据平台把 Agent 嵌进工作流，分析师岗位的工作边界会被重新定义。",
+      "judgment": "对 RAG 万能论的一记冷水。编码 Agent 场景下，检索增强的收益可能被上下文膨胀抵消，工程上应先测再上。",
       "confidence": 3,
-      "url": "https://www.infoq.cn/article/vfmBDlfQRRfHq4Jyi5b6",
+      "url": "https://www.infoq.cn/article/Ql4GGMIEqA3bI2W2lh7h",
       "importance": 3
+    },
+    {
+      "source": "InfoQ AI",
+      "title": "DoorDash 用 AI 智能体把生鲜复购延迟从 16 秒降到 2 秒",
+      "finding": "DoorDash 通过 AI 智能体重构生鲜杂货的复购流程，将用户复购操作的延迟从 16 秒压缩到 2 秒，显著提升转化体验。",
+      "key_data": [
+        "16 秒降至 2 秒",
+        "生鲜复购场景",
+        "智能体重构流程"
+      ],
+      "judgment": "这是 Agent 在电商转化链路上少见的硬指标案例，说明 Agent 的价值可以量化到秒级体验。",
+      "confidence": 3,
+      "url": "https://www.infoq.cn/article/2uDBVKjk3kJXRb6CqQfu",
+      "importance": 2
     },
     {
       "source": "极客公园",
-      "title": "智谱辟谣 GLM-5.5 延期：性能 Fable 级，万张国产卡进展顺利",
-      "finding": "针对外媒称 GLM-5.5 跳票至 2027 Q1、Kimi K4 同样延期的爆料，智谱高管公开辟谣，称性能达 Fable 级、上万张国产 AI 卡进展顺利。",
+      "title": "微软承认延缓应届生招聘，AI 预算挤占校招名额",
+      "finding": "微软 CEO 纳德拉在 The Pragmatic Engineer 播客中公开承认，微软应届生招聘进度已放缓，并称「很多公司都这样」。报道指出，大厂的应届生名额正在优先让位给 AI 预算。",
       "key_data": [
-        "GLM-5.5 辟谣",
-        "Fable 级性能",
-        "万张国产卡"
+        "纳德拉公开承认",
+        "校招放缓",
+        "预算转向 AI"
       ],
-      "judgment": "国产大模型进入发布前的舆论博弈期，辟谣本身说明竞争烈度在上升。",
-      "confidence": 3,
-      "url": "http://www.geekpark.net/news/374546",
+      "judgment": "AI 资本开支正在从「新增预算」变成「挤占存量人力预算」，初级岗位的结构性收缩才刚开始。",
+      "confidence": 4,
+      "url": "http://www.geekpark.net/news/374601",
       "importance": 3
     }
   ],
   "opinions": [
     {
-      "person": "Simon Willison",
+      "person": "Jack Despain Zhou（Simon Willison 引用）",
       "level": "L2",
-      "quote": "《纽约时报》警告摄影师不要因 AI 功能升级 Photoshop——这标志着创意工具与创作者之间的信任裂缝正在公开化，AI 功能正在成为产品升级的阻力而非卖点。",
-      "source": "https://simonwillison.net/2026/Nov/26/hn-50651685/"
-    },
-    {
-      "person": "Jack Despain Zhou",
-      "level": "L2",
-      "quote": "AI 带来的一个显著副作用是“去个体化”：打开 YouTube 听到的是 Claude，开会听到的是 Claude，打开邮箱还是 Claude。同质化的声音正在吞噬个体的表达辨识度。",
+      "quote": "AI 已经带来一种巨大的「去个体化」：打开 YouTube 听到的是 Claude，坐在会议演讲里听到的是 Claude，打开邮箱读到的还是 Claude。同一种声音正在抹平原本属于不同人的表达。",
       "source": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/"
     },
     {
-      "person": "Jeff Barg（Clay AI 负责人）",
+      "person": "Jeff Barg（Clay AI 负责人，Latent Space 访谈）",
       "level": "L1",
-      "quote": "客户讨厌模型选择器。企业要的不是让用户挑模型，而是让 Agent 自己选对工具——1500 美元就能把全世界每家公司都做一遍资质筛选，GTM Agent 的基础设施正在成型。",
+      "quote": "客户讨厌模型选择器。用 1500 美元就能把全世界每一家公司都做一遍资格筛选——Clay 要做的是给每个 Agent 提供 GTM 基础设施，而不是让用户去挑模型。",
       "source": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/"
     }
   ],
   "deep_dive_suggestions": [
     {
-      "topic": "Claude Code 团队流失对 AI Coding 格局的影响",
-      "reason": "人才流动往往先于产品变化，决定未来 6 个月编程 Agent 的竞争走向。",
+      "topic": "Agent 记忆与上下文扩展的工程化路径",
+      "reason": "MGMem、上下文 Scaling 论文与 JioHotstar 实测共同指向：记忆管理是 Agent 落地的真正瓶颈，值得系统梳理。",
       "priority": "high"
     },
     {
-      "topic": "Google Workspace MCP 的真实能力边界",
-      "reason": "平台级 Agent 接口是集成关键，半成品接口会浪费团队大量试错成本。",
+      "topic": "芯片出口管制升级对东南亚算力布局的连锁影响",
+      "reason": "四国暂停发货将重塑区域数据中心投资与转口合规，影响出海企业的算力成本模型。",
       "priority": "high"
     },
     {
-      "topic": "多 Agent 集群做形式化数学证明的工程范式",
-      "reason": "381 会话协作验证 2400 条引理，可能是 AI 科研自动化的早期样板。",
+      "topic": "具身智能的空间记忆与端侧部署",
+      "reason": "蚂蚁灵波与开源跨任务记忆基模同日出现，机器人空间智能正从建图走向自我纠错，值得跟踪技术路线。",
       "priority": "medium"
     }
   ],
-  "summary_one_line": "上市与挖角同日，Agent 入口战开打",
-  "summary_paragraph": "今天最值得玩味的是同一天发生的两件事：Anthropic 敲钟上市，Claude Code 核心团队却被 OpenAI 挖走，说明 AI Coding 的胜负手已从模型转向人。与此同时，OpenAI 悄悄收紧 GPT-6.2 配额、Google 强推半成品的 Workspace MCP、Meta 因拒绝监管测试被英国 FCA 公开投诉——平台方都在抢 Agent 入口，但工程与合规的欠账正在暴露。视频模型侧 MAGI-2 以开源和低九成成本掀桌，价格战从文本蔓延到视频。一句话：入口在抢，地基未稳。",
+  "summary_one_line": "Anthropic 上市，芯片管制再收紧",
+  "summary_paragraph": "今天最值得记住的是两条主线。一是资本与叙事：Anthropic 上市，同一天 GTA VI 用极致的人类打磨证明效率不是唯一答案，给「AI 万能论」泼了盆冷水。二是地缘与算力：英伟达暂停向东南亚四国发货服务器，转口通道被堵，国产算力替代压力再升；智谱辟谣 GLM-5.5 延期并强调上万张国产卡，DeepSeek 上线账单引发收费猜测。技术侧，Agent 记忆与上下文扩展成为论文和工程实践的共同焦点，具身智能则在空间记忆与端侧部署上连出两招。",
   "snapshot": {
     "date": "2026-11-27",
     "hf_trending": [
       {
         "name": "thinkingmachines/Inkling-2-Mini",
         "short_name": "Inkling-2-Mini",
-        "likes": 6261,
+        "likes": 6355,
         "downloads": 96527,
         "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
         "tags": [
@@ -277,7 +271,7 @@
       {
         "name": "unsloth/Inkling-2-Mini-GGUF",
         "short_name": "Inkling-2-Mini-GGUF",
-        "likes": 1497,
+        "likes": 1531,
         "downloads": 2445633,
         "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
         "tags": [
@@ -291,41 +285,9 @@
         "trend": "same"
       },
       {
-        "name": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
-        "short_name": "Inkling-2-Mini-Uncensored-GGUF",
-        "likes": 936,
-        "downloads": 762491,
-        "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
-        "tags": [
-          "gguf",
-          "llama.cpp",
-          "inkling2"
-        ],
-        "pipeline_tag": "image-text-to-text",
-        "label": "多模态理解",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
-        "name": "inworld/voice-isolator",
-        "short_name": "voice-isolator",
-        "likes": 966,
-        "downloads": 15244,
-        "url": "https://huggingface.co/inworld/voice-isolator",
-        "tags": [
-          "inworld-voice-isolation",
-          "audio",
-          "speech"
-        ],
-        "pipeline_tag": "audio-to-audio",
-        "label": "Audio To Audio",
-        "card_desc": "",
-        "trend": "same"
-      },
-      {
         "name": "SulphurAI/Sulphur-3",
         "short_name": "Sulphur-3",
-        "likes": 1214,
+        "likes": 1285,
         "downloads": 189735,
         "url": "https://huggingface.co/SulphurAI/Sulphur-3",
         "tags": [
@@ -339,9 +301,25 @@
         "trend": "same"
       },
       {
+        "name": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+        "short_name": "Inkling-2-Mini-Uncensored-GGUF",
+        "likes": 965,
+        "downloads": 762491,
+        "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+        "tags": [
+          "gguf",
+          "llama.cpp",
+          "inkling2"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
         "short_name": "Ternary-Bonsai-2.5-27B-GGUF",
-        "likes": 526,
+        "likes": 570,
         "downloads": 59366,
         "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
         "tags": [
@@ -355,9 +333,25 @@
         "trend": "same"
       },
       {
+        "name": "inworld/voice-isolator",
+        "short_name": "voice-isolator",
+        "likes": 977,
+        "downloads": 15244,
+        "url": "https://huggingface.co/inworld/voice-isolator",
+        "tags": [
+          "inworld-voice-isolation",
+          "audio",
+          "speech"
+        ],
+        "pipeline_tag": "audio-to-audio",
+        "label": "Audio To Audio",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
         "name": "Lightricks/LTX-2.5",
         "short_name": "LTX-2.5",
-        "likes": 13597,
+        "likes": 13627,
         "downloads": 3041405,
         "url": "https://huggingface.co/Lightricks/LTX-2.5",
         "tags": [
@@ -371,18 +365,18 @@
         "trend": "same"
       },
       {
-        "name": "llamaindex/OCRia-nano-1",
-        "short_name": "OCRia-nano-1",
-        "likes": 285,
-        "downloads": 126,
-        "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
+        "name": "nvidia/Nemotron-Labs-Image-30B-A3B",
+        "short_name": "Nemotron-Labs-Image-30B-A3B",
+        "likes": 295,
+        "downloads": 218,
+        "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
         "tags": [
-          "liteparse",
-          "onnx",
-          "ocr"
+          "transformers",
+          "safetensors",
+          "nemotron_h"
         ],
-        "pipeline_tag": "image-to-text",
-        "label": "图片描述",
+        "pipeline_tag": "text-to-image",
+        "label": "文生图",
         "card_desc": "",
         "trend": "new"
       }
@@ -391,45 +385,45 @@
       {
         "name": "elementalsouls/Claude-BugHunter",
         "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands",
-        "stars": 24682,
+        "stars": 25275,
         "stars_today": 1597,
-        "forks": 2511,
+        "forks": 2579,
         "language": "Python",
         "url": "https://github.com/elementalsouls/Claude-BugHunter"
       },
       {
         "name": "obra/superpowers",
         "desc": "An agentic skills framework &amp; software development methodology that works.",
-        "stars": 327537,
+        "stars": 327864,
         "stars_today": 854,
-        "forks": 29061,
+        "forks": 29108,
         "language": "Shell",
         "url": "https://github.com/obra/superpowers"
       },
       {
         "name": "HKUDS/CLI-Anything",
         "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-        "stars": 66407,
+        "stars": 66661,
         "stars_today": 746,
-        "forks": 6043,
+        "forks": 6089,
         "language": "Python",
         "url": "https://github.com/HKUDS/CLI-Anything"
       },
       {
         "name": "jingyaogong/minimind",
         "desc": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-        "stars": 71685,
+        "stars": 72008,
         "stars_today": 702,
-        "forks": 9305,
+        "forks": 9371,
         "language": "Python",
         "url": "https://github.com/jingyaogong/minimind"
       },
       {
         "name": "cursor/plugins",
         "desc": "Cursor plugin specification and official plugins",
-        "stars": 19798,
+        "stars": 19887,
         "stars_today": 270,
-        "forks": 2143,
+        "forks": 2182,
         "language": "TypeScript",
         "url": "https://github.com/cursor/plugins"
       }
@@ -546,6 +540,6 @@
         "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
       }
     ],
-    "hf_summary": "多模态与视频生成霸榜 开源社区加速向轻量化和去审查方向分化"
+    "hf_summary": "多模态与图生视频霸榜 开源社区加速向视觉生成与低比特量化集中"
   }
 }
