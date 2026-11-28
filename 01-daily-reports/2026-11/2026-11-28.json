@@ -1,0 +1,559 @@
+{
+  "date": "2026-11-28",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Anthropic CEO 深夜回应股价破发与用户抱怨：我从没想过让 AI 统治人类",
+      "finding": "Anthropic 上市后股价跌破发行价，用户对产品体验抱怨增多，创始人套现引发争议。CEO Dario Amodei 深夜公开回应，强调公司使命是安全可控的 AI，而非让 AI 取代人类。",
+      "key_data": [
+        "股价破发",
+        "创始人套现争议",
+        "CEO 深夜回应",
+        "安全可控 AI"
+      ],
+      "judgment": "这是 AI 头部实验室从「技术叙事」转向「资本市场叙事」的标志性时刻。对开发者而言，Anthropic 的定价与产品节奏可能因资本压力而调整；对行业而言，安全牌能否撑起估值将被重新审视。",
+      "confidence": 4,
+      "source": "InfoQ AI",
+      "url": "https://www.infoq.cn/article/FDR8k5bNu9eWklHh9NmI?utm_source=rss&utm_medium=article"
+    },
+    {
+      "rank": 2,
+      "title": "首个带跨任务空间记忆的原生基模开源，机器人端侧即可运行",
+      "finding": "国内团队开源了首个原生支持跨任务空间记忆的机器人基础模型，地图可随时修正、记忆能跨任务复用，且能在机器人端侧直接运行，不依赖云端。",
+      "key_data": [
+        "跨任务空间记忆",
+        "端侧运行",
+        "原生基模开源",
+        "地图可修正"
+      ],
+      "judgment": "具身智能的「记忆」短板被补上，意味着机器人从单任务演示走向连续作业成为可能。端侧运行则直接降低了部署成本，对做机器人应用的团队是明确利好。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/513227.html"
+    },
+    {
+      "rank": 3,
+      "title": "谷歌发布新一代 TPU，开发者称真正重要的不是芯片",
+      "finding": "谷歌推出新一代 TPU 芯片，但多位开发者指出，真正关键的是配套的软件栈与生态整合能力，而非单纯的算力参数提升。",
+      "key_data": [
+        "新一代 TPU",
+        "软件栈更重要",
+        "生态整合",
+        "算力参数非核心"
+      ],
+      "judgment": "芯片竞争已从「堆算力」进入「拼软件生态」阶段。对使用云 AI 的团队来说，选型时应更关注框架兼容性与迁移成本，而非峰值算力数字。",
+      "confidence": 3,
+      "source": "InfoQ AI",
+      "url": "https://www.infoq.cn/article/MrxlyksI1KxvEKLuCg5P?utm_source=rss&utm_medium=article"
+    },
+    {
+      "rank": 4,
+      "title": "OpenAI 反诉苹果窃取商业机密，AI 硬件大战升级",
+      "finding": "OpenAI 在加州联邦法院对苹果提起反诉，指控苹果窃取其商业机密并阻挠其与硬件供应商合作。此前苹果曾起诉 OpenAI 窃密，双方现已互诉。OpenAI 正筹备推出个人设备。",
+      "key_data": [
+        "OpenAI 反诉苹果",
+        "双方互诉",
+        "个人设备筹备中",
+        "硬件供应商受阻"
+      ],
+      "judgment": "AI 巨头与硬件巨头的正面冲突开始。这不仅是法律战，更是入口争夺战——OpenAI 要做硬件，苹果要守生态。对创业者而言，AI 硬件赛道的供应链风险将显著上升。",
+      "confidence": 4,
+      "source": "极客公园",
+      "url": "http://www.geekpark.net/news/374621"
+    },
+    {
+      "rank": 5,
+      "title": "DeepSeek APP 突然更新账单，网友猜测要收费了",
+      "finding": "DeepSeek 网页端和 App 双端突然上线聊天账单功能，展示用量与费用信息，引发用户对即将收费的猜测。官方尚未明确说明。",
+      "key_data": [
+        "双端上线账单",
+        "用量费用展示",
+        "收费猜测",
+        "官方未回应"
+      ],
+      "judgment": "免费大模型时代正在退潮。若 DeepSeek 转向收费，将倒逼国内 C 端 AI 产品重新定价，也意味着「烧钱换用户」策略走到尽头，产品经理需重新算单位经济模型。",
+      "confidence": 3,
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/513305.html"
+    }
+  ],
+  "model_tech": [
+    {
+      "source": "ArXiv cs.AI",
+      "title": "上下文扩展：AI 规模化的新前沿",
+      "finding": "论文指出，许多已部署 AI 的失败并非推理能力弱，而是任务依赖的状态与系统可用上下文不匹配。上下文扩展被视为继参数、数据之后的第三条规模化路径。",
+      "key_data": [
+        "上下文扩展",
+        "第三条规模化路径",
+        "状态与上下文错配"
+      ],
+      "judgment": "为长上下文与记忆系统研究提供了统一框架，工程团队应重新评估上下文管理策略。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.33160",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "MGMem：面向长程 Agent 的高效确定性记忆框架",
+      "finding": "针对长程 LLM Agent 在数千轮对话中难以准确调取历史交互的问题，提出一种高效、确定性且保留来源追溯的持久记忆框架。",
+      "key_data": [
+        "长程 Agent 记忆",
+        "确定性检索",
+        "来源可追溯",
+        "数千轮对话"
+      ],
+      "judgment": "Agent 记忆从「向量检索」走向「确定性+可溯源」，对企业级 Agent 落地是关键基础设施。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.33174",
+      "importance": 4
+    },
+    {
+      "source": "ArXiv cs.AI",
+      "title": "AutoformBench：面向高等数学的精简形式化基准",
+      "finding": "AI 已能产出机器可验证的 Lean 证明，但真实数学形式化远比生成证明复杂。该基准专门评测 AI 在高等数学形式化全流程中的能力。",
+      "key_data": [
+        "Lean 证明",
+        "高等数学形式化",
+        "机器可验证",
+        "全流程评测"
+      ],
+      "judgment": "形式化数学是检验推理深度的试金石，该基准将推动 AI 从「会做题」走向「会做研究」。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.33165",
+      "importance": 3
+    },
+    {
+      "source": "ArXiv cs.CL",
+      "title": "验证性经验提升大语言模型的材料预测能力",
+      "finding": "材料发现是实验与计算反复验证的迭代循环，但多数预测器是静态的。研究让 LLM 利用验证性经验迭代改进预测，显著提升材料预测表现。",
+      "key_data": [
+        "验证性经验",
+        "材料预测",
+        "迭代改进",
+        "实验闭环"
+      ],
+      "judgment": "「经验回灌」范式在科学发现场景得到验证，AI for Science 从单次预测走向持续学习。",
+      "confidence": 3,
+      "url": "https://arxiv.org/abs/2611.33195",
+      "importance": 3
+    },
+    {
+      "source": "Wired AI",
+      "title": "新型光子芯片用光波运行 AI 模型",
+      "finding": "德国公司 Q.ANT 尝试用光而非电来完成 AI 中最耗能的计算，目标是大幅降低模型推理的能耗。",
+      "key_data": [
+        "光子芯片",
+        "光波计算",
+        "降低推理能耗",
+        "德国 Q.ANT"
+      ],
+      "judgment": "若能耗问题被光子计算缓解，推理成本结构将重构，但距离商用仍有距离，值得长期跟踪。",
+      "confidence": 3,
+      "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+      "importance": 3
+    }
+  ],
+  "company_product": [
+    {
+      "source": "极客公园",
+      "title": "AI 创作走过产能竞速，进入质量与叙事竞争",
+      "finding": "2026 年 AI 视频工具已落地 4K 画质、分钟级长镜头、人物一致性与局部精修，行业关注点从「生产效率」转向「叙事流畅度与创作质量」。",
+      "key_data": [
+        "4K 画质",
+        "分钟级长镜头",
+        "人物一致性",
+        "局部精修"
+      ],
+      "judgment": "AI 视频进入「质量竞争」阶段，创作者工具的产品壁垒从生成速度转向可控性与一致性。",
+      "confidence": 3,
+      "url": "http://www.geekpark.net/news/374584",
+      "importance": 3
+    },
+    {
+      "source": "极客公园",
+      "title": "B 站三季度财报：AI 时代长视频社区价值反升",
+      "finding": "B 站 2026 年 Q3 总营收 83.2 亿元同比增长 8%，调整后净利润 8.3 亿元，日活 1.24 亿、月活 3.94 亿均创历史新高。AI 给出即时答案的时代，长视频社区反而「升值」。",
+      "key_data": [
+        "营收 83.2 亿元",
+        "净利 8.3 亿元",
+        "日活 1.24 亿",
+        "月活 3.94 亿"
+      ],
+      "judgment": "AI 摘要无法替代深度内容消费，社区与人格化内容是抵御 AI 同质化的护城河。",
+      "confidence": 4,
+      "url": "http://www.geekpark.net/news/374593",
+      "importance": 3
+    },
+    {
+      "source": "极客公园",
+      "title": "微软公开承认延缓应届生招聘，预算让位 AI",
+      "finding": "微软 CEO 纳德拉在播客中承认应届生招聘进度放慢，并表示很多公司都这样。大厂招聘名额正优先让给 AI 预算。",
+      "key_data": [
+        "延缓应届生招聘",
+        "纳德拉承认",
+        "预算转向 AI",
+        "组织重构"
+      ],
+      "judgment": "AI 预算挤压人力预算成为大厂新常态，初级岗位承压，人才结构向「会用 AI 的人」倾斜。",
+      "confidence": 4,
+      "url": "http://www.geekpark.net/news/374601",
+      "importance": 3
+    },
+    {
+      "source": "量子位",
+      "title": "商汤大装置获全国首批 Token 工厂智算能力最高评级",
+      "finding": "商汤大装置 Token 工厂获得中国信通院「全栈服务型·领先级」评级认证，为全国首批首家。",
+      "key_data": [
+        "信通院评级",
+        "全栈服务型领先级",
+        "全国首批首家",
+        "Token 工厂"
+      ],
+      "judgment": "「Token 工厂」成为智算服务的新品类与评价标准，算力服务从卖卡转向卖标准化产能。",
+      "confidence": 4,
+      "url": "https://www.qbitai.com/2026/11/513346.html",
+      "importance": 2
+    },
+    {
+      "source": "量子位",
+      "title": "众擎开放人形机器人大小脑，推出 10 亿产业级生态支持计划",
+      "finding": "众擎向开发者开放人形机器人的「大小脑」能力，并推出 10 亿元规模的产业级生态支持计划，让团队在真机上的验证成果可被后续团队复用。",
+      "key_data": [
+        "开放大小脑",
+        "10 亿生态计划",
+        "真机验证复用",
+        "人形机器人"
+      ],
+      "judgment": "人形机器人开始复制「安卓式」生态打法，开放平台将加速应用层创新与行业分工。",
+      "confidence": 3,
+      "url": "https://www.qbitai.com/2026/11/513352.html",
+      "importance": 3
+    }
+  ],
+  "opinions": [
+    {
+      "person": "Gabe Greenberg（G2i 创始人）",
+      "level": "L1",
+      "quote": "前沿实验室会为独家保留的训练数据支付溢价，或接受其他实验室也能买到的数据折扣价——训练数据市场正在形成分层定价机制。",
+      "source": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/"
+    },
+    {
+      "person": "Simon Willison",
+      "level": "L2",
+      "quote": "我给 datasette-charts 加了插件钩子让其他插件定义新图表类型，但一直没用上——这次直接让 Claude 帮我写了一个来验证。",
+      "source": "https://simonwillison.net/2026/Nov/27/datasette-charts/"
+    }
+  ],
+  "deep_dive_suggestions": [
+    {
+      "topic": "Agent 长程记忆的工程实现路径",
+      "reason": "MGMem 等方案指向确定性+可溯源记忆，是企业级 Agent 落地的核心瓶颈，值得系统研究。",
+      "priority": "high"
+    },
+    {
+      "topic": "AI 训练数据市场的定价与独家机制",
+      "reason": "数据分层定价直接影响模型成本结构与竞争格局，Latent Space 访谈提供了稀缺的一线视角。",
+      "priority": "medium"
+    },
+    {
+      "topic": "光子计算在 AI 推理中的可行性与商业化节奏",
+      "reason": "若能耗瓶颈被突破将重构推理成本，但需判断技术成熟度与时间表，避免过早下注。",
+      "priority": "medium"
+    }
+  ],
+  "summary_one_line": "资本压力与生态争夺同时升温",
+  "summary_paragraph": "今天最值得关注的不是某个模型参数，而是 AI 行业的结构性转折：Anthropic 股价破发、CEO 深夜回应，标志头部实验室开始承受资本市场拷问；OpenAI 反诉苹果，AI 与硬件的入口争夺正面开打；DeepSeek 上线账单，免费时代退潮信号明确。技术侧，跨任务空间记忆的机器人基模开源、Agent 长程记忆框架与上下文扩展研究同步推进，具身智能与 Agent 的「记忆短板」正被系统性补齐。一句话：叙事从能力转向生意。",
+  "snapshot": {
+    "date": "2026-11-28",
+    "hf_trending": [
+      {
+        "name": "thinkingmachines/Inkling-2-Mini",
+        "short_name": "Inkling-2-Mini",
+        "likes": 6471,
+        "downloads": 155741,
+        "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "inkling2_loop"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "unsloth/Inkling-2-Mini-GGUF",
+        "short_name": "Inkling-2-Mini-GGUF",
+        "likes": 1615,
+        "downloads": 3302340,
+        "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+        "tags": [
+          "gguf",
+          "conversational",
+          "image-text-to-text"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "SulphurAI/Sulphur-3",
+        "short_name": "Sulphur-3",
+        "likes": 1369,
+        "downloads": 539421,
+        "url": "https://huggingface.co/SulphurAI/Sulphur-3",
+        "tags": [
+          "minimax-h3",
+          "base_model:MiniMaxAI/MiniMax-H3",
+          "base_model:finetune:MiniMaxAI/MiniMax-H3"
+        ],
+        "pipeline_tag": "",
+        "label": "",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+        "short_name": "Inkling-2-Mini-Uncensored-GGUF",
+        "likes": 1039,
+        "downloads": 1059763,
+        "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+        "tags": [
+          "gguf",
+          "llama.cpp",
+          "inkling2"
+        ],
+        "pipeline_tag": "image-text-to-text",
+        "label": "多模态理解",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+        "short_name": "Ternary-Bonsai-2.5-27B-GGUF",
+        "likes": 639,
+        "downloads": 382546,
+        "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+        "tags": [
+          "llama.cpp",
+          "gguf",
+          "ternary"
+        ],
+        "pipeline_tag": "text-generation",
+        "label": "文本生成",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "inworld/voice-isolator",
+        "short_name": "voice-isolator",
+        "likes": 1015,
+        "downloads": 20510,
+        "url": "https://huggingface.co/inworld/voice-isolator",
+        "tags": [
+          "inworld-voice-isolation",
+          "audio",
+          "speech"
+        ],
+        "pipeline_tag": "audio-to-audio",
+        "label": "Audio To Audio",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "Lightricks/LTX-2.5",
+        "short_name": "LTX-2.5",
+        "likes": 13731,
+        "downloads": 3080701,
+        "url": "https://huggingface.co/Lightricks/LTX-2.5",
+        "tags": [
+          "diffusion-single-file",
+          "image-to-video",
+          "text-to-video"
+        ],
+        "pipeline_tag": "image-to-video",
+        "label": "图生视频",
+        "card_desc": "",
+        "trend": "same"
+      },
+      {
+        "name": "llamaindex/OCRia-nano-1",
+        "short_name": "OCRia-nano-1",
+        "likes": 358,
+        "downloads": 626,
+        "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
+        "tags": [
+          "liteparse",
+          "onnx",
+          "ocr"
+        ],
+        "pipeline_tag": "image-to-text",
+        "label": "图片描述",
+        "card_desc": "",
+        "trend": "new"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "elementalsouls/Claude-BugHunter",
+        "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands",
+        "stars": 26157,
+        "stars_today": 1608,
+        "forks": 2689,
+        "language": "Python",
+        "url": "https://github.com/elementalsouls/Claude-BugHunter"
+      },
+      {
+        "name": "obra/superpowers",
+        "desc": "An agentic skills framework &amp; software development methodology that works.",
+        "stars": 328352,
+        "stars_today": 922,
+        "forks": 29187,
+        "language": "Shell",
+        "url": "https://github.com/obra/superpowers"
+      },
+      {
+        "name": "HKUDS/CLI-Anything",
+        "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "stars": 67031,
+        "stars_today": 666,
+        "forks": 6167,
+        "language": "Python",
+        "url": "https://github.com/HKUDS/CLI-Anything"
+      },
+      {
+        "name": "jingyaogong/minimind",
+        "desc": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+        "stars": 72232,
+        "stars_today": 660,
+        "forks": 9445,
+        "language": "Python",
+        "url": "https://github.com/jingyaogong/minimind"
+      },
+      {
+        "name": "cursor/plugins",
+        "desc": "Cursor plugin specification and official plugins",
+        "stars": 20023,
+        "stars_today": 243,
+        "forks": 2240,
+        "language": "TypeScript",
+        "url": "https://github.com/cursor/plugins"
+      }
+    ],
+    "openrouter_ranking": [
+      {
+        "rank": 1,
+        "slug": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "total_tokens": 16792309450351,
+        "total_tokens_str": "16.8T",
+        "api_calls": 0,
+        "change": 11.5,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash"
+      },
+      {
+        "rank": 2,
+        "slug": "tencent/hy4-flash",
+        "name": "Hy4 flash",
+        "org": "tencent",
+        "total_tokens": 4599193645334,
+        "total_tokens_str": "4.6T",
+        "api_calls": 0,
+        "change": 7.5,
+        "url": "https://openrouter.ai/tencent/hy4-flash"
+      },
+      {
+        "rank": 3,
+        "slug": "z-ai/glm-5.3-flash",
+        "name": "GLM 5.3 Flash",
+        "org": "z-ai",
+        "total_tokens": 1278423196247,
+        "total_tokens_str": "1.3T",
+        "api_calls": 0,
+        "change": -31.7,
+        "url": "https://openrouter.ai/z-ai/glm-5.3-flash"
+      },
+      {
+        "rank": 4,
+        "slug": "openai/gpt-6-luna",
+        "name": "GPT-6 Luna",
+        "org": "openai",
+        "total_tokens": 1082171661614,
+        "total_tokens_str": "1.1T",
+        "api_calls": 0,
+        "change": -13.2,
+        "url": "https://openrouter.ai/openai/gpt-6-luna"
+      },
+      {
+        "rank": 5,
+        "slug": "anthropic/claude-opus-5.5",
+        "name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "total_tokens": 896926264626,
+        "total_tokens_str": "897B",
+        "api_calls": 0,
+        "change": -15.4,
+        "url": "https://openrouter.ai/anthropic/claude-opus-5.5"
+      },
+      {
+        "rank": 6,
+        "slug": "minimax/minimax-m3.1-flash",
+        "name": "MiniMax M3.1 Flash",
+        "org": "minimax",
+        "total_tokens": 682240367660,
+        "total_tokens_str": "682B",
+        "api_calls": 0,
+        "change": -2.3,
+        "url": "https://openrouter.ai/minimax/minimax-m3.1-flash"
+      },
+      {
+        "rank": 7,
+        "slug": "z-ai/glm-5.3",
+        "name": "GLM 5.3",
+        "org": "z-ai",
+        "total_tokens": 655470305103,
+        "total_tokens_str": "655B",
+        "api_calls": 0,
+        "change": -12.3,
+        "url": "https://openrouter.ai/z-ai/glm-5.3"
+      },
+      {
+        "rank": 8,
+        "slug": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash 0423",
+        "org": "deepseek",
+        "total_tokens": 645091446641,
+        "total_tokens_str": "645B",
+        "api_calls": 0,
+        "change": -0.3,
+        "url": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      },
+      {
+        "rank": 9,
+        "slug": "moonshotai/kimi-k3.1-pro",
+        "name": "Kimi K3.1 Pro",
+        "org": "moonshotai",
+        "total_tokens": 638054863673,
+        "total_tokens_str": "638B",
+        "api_calls": 0,
+        "change": -16.9,
+        "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro"
+      },
+      {
+        "rank": 10,
+        "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "name": "Nemotron 3 Ultra (free)",
+        "org": "nvidia",
+        "total_tokens": 550095690700,
+        "total_tokens_str": "550B",
+        "api_calls": 0,
+        "change": -4.5,
+        "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free"
+      }
+    ],
+    "hf_summary": "多模态与视频生成霸榜，社区偏爱可本地部署的量化版本"
+  }
+}
